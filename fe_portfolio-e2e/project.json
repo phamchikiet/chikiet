@@ -1,0 +1,33 @@
+{
+  "name": "fe_portfolio-e2e",
+  "$schema": "../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "sourceRoot": "fe_portfolio-e2e/src",
+  "targets": {
+    "e2e": {
+      "executor": "@nx/cypress:cypress",
+      "options": {
+        "cypressConfig": "fe_portfolio-e2e/cypress.config.ts",
+        "testingType": "e2e",
+        "devServerTarget": "fe_portfolio:serve:development"
+      },
+      "configurations": {
+        "production": {
+          "devServerTarget": "fe_portfolio:serve:production"
+        },
+        "ci": {
+          "devServerTarget": "fe_portfolio:serve-static"
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nx/eslint:lint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["fe_portfolio-e2e/**/*.{js,ts}"]
+      }
+    }
+  },
+  "tags": [],
+  "implicitDependencies": ["fe_portfolio"]
+}
