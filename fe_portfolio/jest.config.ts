@@ -1,9 +1,9 @@
 /* eslint-disable */
 export default {
-  displayName: 'fe_portfolio',
+  displayName: 'fe_ketoan',
   preset: '../jest.preset.js',
   setupFilesAfterEnv: ['<rootDir>/src/test-setup.ts'],
-  coverageDirectory: '../coverage/fe_portfolio',
+  coverageDirectory: '../coverage/fe_ketoan',
   transform: {
     '^.+\\.(ts|mjs|js|html)$': [
       'jest-preset-angular',

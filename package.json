@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "start": "nx serve fe_portfolio",
-    "build": "nx build fe_portfolio",
+    "start": "nx serve fe_ketoan",
+    "build": "nx build fe_ketoan",
     "test": "nx test"
   },
   "private": true,

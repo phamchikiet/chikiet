@@ -1,6 +1,6 @@
 import { getGreeting } from '../support/app.po';
 
-describe('fe_portfolio-e2e', () => {
+describe('fe_ketoan-e2e', () => {
   beforeEach(() => cy.visit('/'));
 
   it('should display welcome message', () => {

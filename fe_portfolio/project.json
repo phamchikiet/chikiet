@@ -1,23 +1,23 @@
 {
-  "name": "fe_portfolio",
+  "name": "fe_ketoan",
   "$schema": "../node_modules/nx/schemas/project-schema.json",
   "projectType": "application",
   "prefix": "app",
-  "sourceRoot": "fe_portfolio/src",
+  "sourceRoot": "fe_ketoan/src",
   "tags": [],
   "targets": {
     "build": {
       "executor": "@angular-devkit/build-angular:browser",
       "outputs": ["{options.outputPath}"],
       "options": {
-        "outputPath": "dist/fe_portfolio/browser",
-        "index": "fe_portfolio/src/index.html",
-        "main": "fe_portfolio/src/main.ts",
+        "outputPath": "dist/fe_ketoan/browser",
+        "index": "fe_ketoan/src/index.html",
+        "main": "fe_ketoan/src/main.ts",
         "polyfills": ["zone.js"],
-        "tsConfig": "fe_portfolio/tsconfig.app.json",
+        "tsConfig": "fe_ketoan/tsconfig.app.json",
         "inlineStyleLanguage": "scss",
-        "assets": ["fe_portfolio/src/favicon.ico", "fe_portfolio/src/assets"],
-        "styles": ["fe_portfolio/src/styles.scss"],
+        "assets": ["fe_ketoan/src/favicon.ico", "fe_ketoan/src/assets"],
+        "styles": ["fe_ketoan/src/styles.scss"],
         "scripts": []
       },
       "configurations": {
@@ -51,10 +51,10 @@
       "executor": "@angular-devkit/build-angular:dev-server",
       "configurations": {
         "production": {
-          "buildTarget": "fe_portfolio:build:production"
+          "buildTarget": "fe_ketoan:build:production"
         },
         "development": {
-          "buildTarget": "fe_portfolio:build:development"
+          "buildTarget": "fe_ketoan:build:development"
         }
       },
       "defaultConfiguration": "development"
@@ -62,36 +62,36 @@
     "extract-i18n": {
       "executor": "@angular-devkit/build-angular:extract-i18n",
       "options": {
-        "buildTarget": "fe_portfolio:build"
+        "buildTarget": "fe_ketoan:build"
       }
     },
     "lint": {
       "executor": "@nx/eslint:lint",
       "outputs": ["{options.outputFile}"],
       "options": {
-        "lintFilePatterns": ["fe_portfolio/**/*.ts", "fe_portfolio/**/*.html"]
+        "lintFilePatterns": ["fe_ketoan/**/*.ts", "fe_ketoan/**/*.html"]
       }
     },
     "test": {
       "executor": "@nx/jest:jest",
       "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
       "options": {
-        "jestConfig": "fe_portfolio/jest.config.ts"
+        "jestConfig": "fe_ketoan/jest.config.ts"
       }
     },
     "serve-static": {
       "executor": "@nx/web:file-server",
       "options": {
-        "buildTarget": "fe_portfolio:build"
+        "buildTarget": "fe_ketoan:build"
       }
     },
     "server": {
       "dependsOn": ["build"],
       "executor": "@angular-devkit/build-angular:server",
       "options": {
-        "outputPath": "dist/fe_portfolio/server",
-        "main": "fe_portfolio/server.ts",
-        "tsConfig": "fe_portfolio/tsconfig.server.json",
+        "outputPath": "dist/fe_ketoan/server",
+        "main": "fe_ketoan/server.ts",
+        "tsConfig": "fe_ketoan/tsconfig.server.json",
         "inlineStyleLanguage": "scss"
       },
       "configurations": {
@@ -112,12 +112,12 @@
       "executor": "@angular-devkit/build-angular:ssr-dev-server",
       "configurations": {
         "development": {
-          "browserTarget": "fe_portfolio:build:development",
-          "serverTarget": "fe_portfolio:server:development"
+          "browserTarget": "fe_ketoan:build:development",
+          "serverTarget": "fe_ketoan:server:development"
         },
         "production": {
-          "browserTarget": "fe_portfolio:build:production",
-          "serverTarget": "fe_portfolio:server:production"
+          "browserTarget": "fe_ketoan:build:production",
+          "serverTarget": "fe_ketoan:server:production"
         }
       },
       "defaultConfiguration": "development"
@@ -129,12 +129,12 @@
       },
       "configurations": {
         "development": {
-          "browserTarget": "fe_portfolio:build:development",
-          "serverTarget": "fe_portfolio:server:development"
+          "browserTarget": "fe_ketoan:build:development",
+          "serverTarget": "fe_ketoan:server:development"
         },
         "production": {
-          "browserTarget": "fe_portfolio:build:production",
-          "serverTarget": "fe_portfolio:server:production"
+          "browserTarget": "fe_ketoan:build:production",
+          "serverTarget": "fe_ketoan:server:production"
         }
       },
       "defaultConfiguration": "production"
