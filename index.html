@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      localStorage.clear("state")
+      var Author = "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI1OTAwNDI4OTA0IiwidHlwZSI6MiwiZXhwIjoxNzAyOTA3MjcwLCJpYXQiOjE3MDI4MjA4NzB9.O21Gvhhyyuu0VK56EkAAxuOHAfmXlw6QdTpHf0Qq5Lx2t2iVMTgbG1sV5hhxvDuZccXt7zJ-lxu_S5iCtw4KDQ"
+      function Main() {  
+        // ListMuavao()
+      // for (let index = 1; index < 66; index++) {
+      //       setTimeout(() => {
+      //         GetListBanraServer(index,100)
+      //       }, 3000*index);
+      //     }
+       let state = localStorage.getItem("state")
+          for (let index = 1; index < 5; index++) {
+            setTimeout(() => {
+              ListMuavao()
+            }, 1000*index);
+          }
+      }
+
+      // function Main() {  
+      // GetListBanraServer(1,200)
+      // }
+      function ListMuavao() {
+        var thang = $("#thang").val();
+        var state = localStorage.getItem("state")
+        var url=''
+        if(state)
+        {
+          url = "https://hoadondientu.gdt.gov.vn:30000/query/invoices/purchase?sort=tdlap:desc,khmshdon:asc,shdon:desc&size=50&state="+state+"&search=tdlap=ge=01/"+thang+"/2023T00:00:00;tdlap=le=31/"+thang+"/2023T23:59:59;ttxly==5"
+        }
+        else{
+          url = "https://hoadondientu.gdt.gov.vn:30000/query/invoices/purchase?sort=tdlap:desc,khmshdon:asc,shdon:desc&size=50&search=tdlap=ge=01/"+thang+"/2023T00:00:00;tdlap=le=31/"+thang+"/2023T23:59:59;ttxly==5"
+        }
+        var settings = {
+          "url": url,
+          "method": "GET",
+          "timeout": 0,
+          "headers": {
+            "Authorization": Author,
+          },
+        };
+        $.ajax(settings).done(function (response) {
+         localStorage.setItem("state", response.state);
+          response.datas.forEach((v,k) => {
+            const item ={}
+            item.Dulieu = v
+            item.SHD = v.shdon
+            setTimeout(() => {
+            CreateListMuavao(item)
+            //LoadHoadonchitiet(v.shdon)
+            }, k*1000);
+          });
+        });
+      }
+
+      function LoadListHoadon() {
+        var state = localStorage.getItem("state")
+        var url=''
+        if(state)
+        {
+          url = "https://hoadondientu.gdt.gov.vn:30000/query/invoices/sold?sort=tdlap:desc,khmshdon:asc,shdon:desc&size=50&state="+state+"&search=tdlap=ge=01/12/2023T00:00:00;tdlap=le=31/12/2023T23:59:59"
+
+        }
+        else{
+          url = "https://hoadondientu.gdt.gov.vn:30000/query/invoices/sold?sort=tdlap:desc,khmshdon:asc,shdon:desc&size=50&search=tdlap=ge=01/12/2023T00:00:00;tdlap=le=31/12/2023T23:59:59"
+        }
+        var settings = {
+          //"url": userInput,
+          // "url": "https://hoadondientu.gdt.gov.vn:30000/query/invoices/sold?sort=tdlap:desc,khmshdon:asc,shdon:desc&size=50&state="+state+"&search="+search,
+          "url": url,
+          "method": "GET",
+          "timeout": 0,
+          "headers": {
+            "Authorization": Author,
+          },
+        };
+        $.ajax(settings).done(function (response) {
+         localStorage.setItem("state", response.state);
+          response.datas.forEach((v,k) => {
+            const item ={}
+            item.Dulieu = v
+            item.SHD = v.shdon
+            setTimeout(() => {
+            CreateListHoadon(item)
+            //LoadHoadonchitiet(v.shdon)
+            }, k*1000);
+          });
+        });
+      }
+
+      function GetListBanraServer(page,perPage) {
+          var settings = {
+            "url": "http://localhost:3100/hoadonbanra/pagination?page="+page+"&perPage="+perPage,
+            "method": "GET",
+            "timeout": 0,
+          };
+          $.ajax(settings).done(function (response) {
+            response.data.forEach((v,k)=>
+            {
+              setTimeout(() => {
+                LoadHoadonchitiet(v.SHD)
+              }, 1000*k);
+
+            })
+          });
+      }
+
+      function CreateListHoadon(item) {
+        var settings = {
+          "url": "http://localhost:3100/hoadonbanra",
+          "method": "POST",
+          "timeout": 0,
+          "headers": {
+            "Content-Type": "application/json"
+          },
+          "data": JSON.stringify(item),
+        };
+
+        $.ajax(settings).done(function (response) {
+          console.log(response);
+        });
+      }
+
+      function CreateListMuavao(item) {
+        var settings = {
+          "url": "http://localhost:3100/muavao",
+          "method": "POST",
+          "timeout": 0,
+          "headers": {
+            "Content-Type": "application/json"
+          },
+          "data": JSON.stringify(item),
+        };
+
+        $.ajax(settings).done(function (response) {
+          console.log(response);
+        });
+      }
+
+      function CreateBanrachitiet(item) {
+        var settings = {
+          "url": "http://localhost:3100/banrachitiet",
+          "method": "POST",
+          "timeout": 0,
+          "headers": {
+            "Content-Type": "application/json"
+          },
+          "data": JSON.stringify(item),
+        };
+
+        $.ajax(settings).done(function (response) {
+          console.log(response);
+        });
+      }
+
+
+      function LoadHoadonchitiet(SHD) {
+        var settings = {
+          "url": "https://hoadondientu.gdt.gov.vn:30000/query/invoices/detail?nbmst=5900428904&khhdon=C23THP&shdon=" + SHD + "&khmshdon=1",
+          "method": "GET",
+          "timeout": 0,
+          "headers": {
+            "Authorization": Author,
+          },
+        };
+        $.ajax(settings).done(function (response) {
+          const item ={}
+          item.SHD = SHD
+          item.Dulieu = response
+          CreateBanrachitiet(item)
+        });
+      }
+
+
+      $("#GetListHD").click(function () {
+        Main()
+      });
+      // $("#GetChitiet").click(function () {
+      //   LoadHoadonchitiet(SHD)
+      // });
+    });
+  </script>
+</head>
+
+<body>
+  <input type="text" id="thang" name="thang" />
+  <!-- <textarea type="text" id="user_input" name="user_data" rows="10" cols="50"></textarea> -->
+  <button id="GetListHD">Get List Hoa Down</button>
+</body>
+
+</html>
