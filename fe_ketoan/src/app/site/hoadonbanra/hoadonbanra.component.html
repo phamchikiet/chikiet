@@ -1,0 +1,74 @@
+<!-- <div *ngFor="let item of List">
+  <div class="grid grid-cols-7 gap-2">
+    <div>ten</div>
+    <div>sluong</div>
+    <div>dvtinh</div>
+    <div>dgia</div>
+    <div>ltsuat</div>
+    <div>thtien</div>
+    <div>tsuat</div>
+  </div>
+  <div *ngFor="let item1 of item.Dulieu.hdhhdvu">
+    <div class="grid grid-cols-7 gap-2">
+      <div>{{item1.ten}}</div>
+      <div>{{item1.sluong}}</div>
+      <div>{{item1.dvtinh}}</div>
+      <div>{{item1.dgia}}</div>
+      <div>{{item1.ltsuat}}</div>
+      <div>{{item1.thtien}}</div>
+      <div>{{item1.tsuat}}</div>
+    </div>
+  </div>
+</div> -->
+<div class="p-8">
+<!-- <button mat-button (click)="saveAsExcelFile()">Save</button> -->
+<table class="table-auto w-full">
+  <thead>
+    <tr>
+      <th>Tên</th>
+      <th>Số Lượng</th>
+      <th>Đơn Vị Tinh</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let item1 of List">
+      <td>{{item1.ten}}</td>
+      <td>{{item1.soluong}}</td>
+      <td>{{item1.dvtinh}}</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<!-- {
+  "idhdon": "7f06bc72-19c8-4e23-805f-2d36e007105d",
+  "id": "8d531d1a-b38c-4251-9e72-b72915ad9a26",
+  "dgia": 203000,
+  "dvtinh": "Hộp",
+  "ltsuat": "8%",
+  "sluong": 15,
+  "stbchu": null,
+  "stckhau": 0,
+  "stt": 1,
+  "tchat": 1,
+  "ten": "SN Nước Yến Sannest  Hộp 6 Lọ T",
+  "thtcthue": null,
+  "thtien": 3045000,
+  "tlckhau": 0,
+  "tsuat": 0.08,
+  "tthue": null,
+  "sxep": 1,
+  "ttkhac": [
+      {
+          "ttruong": "Amount",
+          "kdlieu": "numeric",
+          "dlieu": "3288600"
+      },
+      {
+          "ttruong": "VATAmount",
+          "kdlieu": "numeric",
+          "dlieu": "243600"
+      }
+  ],
+  "dvtte": null,
+  "tgia": null
+} -->

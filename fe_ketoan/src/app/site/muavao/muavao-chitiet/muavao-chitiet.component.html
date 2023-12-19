@@ -1,0 +1,99 @@
+<div class="p-8 overflow-auto h-[80vh]">
+  <div class="flex flex-col space-y-2 relative overflow-x-auto rounded-lg bg-white">
+
+    <mat-form-field > 
+      <mat-label>Tìm Kiếm</mat-label>
+      <input matInput (keyup)="applyFilter($event)" placeholder="Tìm Kiếm" #input>
+    </mat-form-field>
+    
+    <div class="">
+      <table mat-table [dataSource]="dataSource" matSort>
+        <ng-container matColumnDef="ten">
+          <th mat-header-cell *matHeaderCellDef mat-sort-header> Tên </th>
+          <td mat-cell *matCellDef="let row"> {{row.ten}} </td>
+        </ng-container>
+        <ng-container matColumnDef="SHD">
+          <th mat-header-cell *matHeaderCellDef mat-sort-header> Số Hoá Đơn </th>
+          <td mat-cell *matCellDef="let row"> {{row.SHD}} </td>
+        </ng-container>
+        <ng-container matColumnDef="soluong">
+          <th mat-header-cell *matHeaderCellDef mat-sort-header> Số Lượng </th>
+          <td mat-cell *matCellDef="let row"> {{(row.soluong | number:'1.0-0')||'0'}} </td>
+        </ng-container>
+        <ng-container matColumnDef="dgia">
+          <th mat-header-cell *matHeaderCellDef mat-sort-header> Đơn Giá </th>
+          <td mat-cell *matCellDef="let row"> {{(row.dgia | number:'1.0-0')||'0'}} </td>
+        </ng-container>
+        <ng-container matColumnDef="thanhtien">
+          <th mat-header-cell *matHeaderCellDef mat-sort-header> Thành Tiền </th>
+          <td mat-cell *matCellDef="let row">{{(row.thanhtien | number:'1.0-0')||'0'}} </td>
+        </ng-container>
+        <ng-container matColumnDef="dvtinh">
+          <th mat-header-cell *matHeaderCellDef mat-sort-header> Đơn Vị Tính </th>
+          <td mat-cell *matCellDef="let row"> {{row.dvtinh}} </td>
+        </ng-container>
+        <ng-container matColumnDef="Ngaytao">
+          <th mat-header-cell *matHeaderCellDef mat-sort-header>Ngày Tạo </th>
+          <td mat-cell *matCellDef="let row"> {{row.Ngaytao|date:'dd/MM/yyyy'}} </td>
+        </ng-container>
+        <ng-container matColumnDef="loai">
+          <th mat-header-cell *matHeaderCellDef mat-sort-header> Loại </th>
+          <td mat-cell *matCellDef="let row"> {{row.loai}} </td>
+        </ng-container>
+        <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+        <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+        <tr class="mat-row" *matNoDataRow>
+          <td class="mat-cell" colspan="4">Không Tìm Thấy "{{input.value}}"</td>
+        </tr>
+      </table>
+      <mat-paginator [pageSizeOptions]="[5, 10, 25, 100]" aria-label="Select page of users"></mat-paginator>
+    </div>
+
+
+
+    <!-- <div class="p-2 rounded-lg bg-white"  *ngFor="let item of List1">
+      <div class="flex flex-row justify-center p-2 text-lg">
+        <span class="font-bold">Số Hoá Đơn : {{item.shdon}} - </span>
+        <span class="font-bold">Ngày Tạo {{item.ntao|date:'dd/MM/yyyy'}}</span>
+      </div>
+      <div class="flex flex-row justify-center p-2">
+        <span class="font-bold">Tên : {{item.nbten}} - </span>
+        <span class="font-bold">MST {{item.nbmst}}</span>
+        <span class="font-bold">Địa Chỉ {{item.nbdchi}}</span>
+      </div>
+      <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
+        <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+          <tr>
+            <th scope="col" class="px-6 py-3">
+              Tên
+            </th>
+            <th scope="col" class="px-6 py-3 text-right ">
+              Số Lượng
+            </th>
+            <th scope="col" class="px-6 py-3 text-right ">
+              Đơn Giá
+            </th>
+            <th scope="col" class="px-6 py-3 text-right ">
+              Giá Trị
+            </th>
+            <th scope="col" class="px-6 py-3 text-right ">
+              Đơn Vị Tính
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700" *ngFor="let item1 of item.hdhhdvu">
+            <td class="p-3">{{item1.ten}}</td>
+            <td class="p-3 text-right">{{(item1.sluong | number:'1.0-0')||'0'}}</td>
+            <td class="p-3 text-right">{{(item1.dgia | number:'1.0-0')||'0'}}</td>
+            <td class="p-3 text-right">{{(item1.thtien | number:'1.0-0')||'0'}}đ </td>
+            <td class="p-3 text-right">{{item1.dvtinh}}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div> -->
+
+  </div>
+
+  <!-- <button mat-button (click)="saveAsExcelFile()">Save</button> -->
+</div>

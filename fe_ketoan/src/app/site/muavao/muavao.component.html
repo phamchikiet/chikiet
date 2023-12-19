@@ -1,0 +1,49 @@
+<div class="p-8 overflow-auto h-[80vh]">
+  <div class="flex flex-col space-y-2 relative overflow-x-auto">
+    <div class="p-2 rounded-lg bg-white"  *ngFor="let item of List1; let i = index">
+      <div class="flex flex-row space-x-2 justify-center p-2 text-lg">
+        <span class="font-bold">#{{i+1}}</span>
+        <span class="font-bold">Số Hoá Đơn : {{item.shdon}} - </span>
+        <span class="font-bold">Ngày Tạo {{item.ntao|date:'dd/MM/yyyy'}}</span>
+      </div>
+      <div class="flex flex-row justify-center p-2">
+        <span class="font-bold">Tên : {{item.nbten}} - </span>
+        <span class="font-bold">MST {{item.nbmst}}</span>
+        <span class="font-bold">Địa Chỉ {{item.nbdchi}}</span>
+      </div>
+      <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
+        <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+          <tr>
+            <th scope="col" class="px-6 py-3">
+              Tên
+            </th>
+            <th scope="col" class="px-6 py-3 text-right ">
+              Số Lượng
+            </th>
+            <th scope="col" class="px-6 py-3 text-right ">
+              Đơn Giá
+            </th>
+            <th scope="col" class="px-6 py-3 text-right ">
+              Giá Trị
+            </th>
+            <th scope="col" class="px-6 py-3 text-right ">
+              Đơn Vị Tính
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700" *ngFor="let item1 of item.hdhhdvu">
+            <td class="p-3">{{item1.ten}}</td>
+            <td class="p-3 text-right">{{(item1.sluong | number:'1.0-0')||'0'}}</td>
+            <td class="p-3 text-right">{{(item1.dgia | number:'1.0-0')||'0'}}</td>
+            <td class="p-3 text-right">{{(item1.thtien | number:'1.0-0')||'0'}}đ </td>
+            <td class="p-3 text-right">{{item1.dvtinh}}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+  </div>
+
+  <!-- <button mat-button (click)="saveAsExcelFile()">Save</button> -->
+</div>
