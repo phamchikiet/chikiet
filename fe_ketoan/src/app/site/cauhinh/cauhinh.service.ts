@@ -23,9 +23,35 @@ export class CauhinhService {
   }
   constructor() {}
 
-  async getListBanra() {
+  async getListBanra(thang:any,state:any) {
     const headers = new Headers({ Authorization: environment.Token });
-    const response = await fetch("https://hoadondientu.gdt.gov.vn:30000/query/invoices/sold?sort=tdlap:desc,khmshdon:asc,shdon:desc&size=50&search=tdlap=ge=01/11/2023T00:00:00;tdlap=le=31/11/2023T23:59:59", {
+    let URL:any;
+    if(state)
+    {
+      URL = "https://hoadondientu.gdt.gov.vn:30000/query/invoices/sold?sort=tdlap:desc,khmshdon:asc,shdon:desc&size=50&state="+state+"&search=tdlap=ge=01/"+thang+"/2023T00:00:00;tdlap=le=31/"+thang+"/2023T23:59:59"
+    }
+    else{
+      URL = "https://hoadondientu.gdt.gov.vn:30000/query/invoices/sold?sort=tdlap:desc,khmshdon:asc,shdon:desc&size=50&search=tdlap=ge=01/"+thang+"/2023T00:00:00;tdlap=le=31/"+thang+"/2023T23:59:59"
+    }
+    const response = await fetch(URL, {
+      method: "GET",
+      headers,
+    });
+    const result = await response.json();
+    this._banras.next(result)
+    return result
+  }
+  async getListMuavao(thang:any,state:any) {
+    const headers = new Headers({ Authorization: environment.Token });
+    let URL:any;
+    if(state)
+    {
+      URL = "https://hoadondientu.gdt.gov.vn:30000/query/invoices/purchase?sort=tdlap:desc,khmshdon:asc,shdon:desc&size=50&state="+state+"&search=tdlap=ge=01/"+thang+"/2023T00:00:00;tdlap=le=31/"+thang+"/2023T23:59:59;tthai==1;ttxly==5"
+    }
+    else{
+      URL = "https://hoadondientu.gdt.gov.vn:30000/query/invoices/purchase?sort=tdlap:desc,khmshdon:asc,shdon:desc&size=50&search=tdlap=ge=01/"+thang+"/2023T00:00:00;tdlap=le=31/"+thang+"/2023T23:59:59;tthai==1;ttxly==5"
+    }
+    const response = await fetch(URL, {
       method: "GET",
       headers,
     });

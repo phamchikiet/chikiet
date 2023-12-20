@@ -6,24 +6,36 @@ import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
 import { MatTableModule } from '@angular/material/table';
 import { CauhinhService } from './cauhinh.service';
-import { first } from 'rxjs';
+import { tap, filter, first } from 'rxjs';
+import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-cauhinh',
   standalone:true,
-  imports: [CommonModule,MatFormFieldModule, MatInputModule, MatTableModule, MatSortModule, MatPaginatorModule],
+  imports: [CommonModule,
+    MatFormFieldModule, 
+    MatInputModule, 
+    MatTableModule, 
+    MatSortModule, 
+    MatPaginatorModule,
+    FormsModule
+  ],
   templateUrl: './cauhinh.component.html',
   styleUrls: ['./cauhinh.component.css']
 })
 export class CauhinhComponent implements OnInit {
   _HoadonbanraService: CauhinhService = inject(CauhinhService);
-  ListBanra:any
+  ListBanra:any[]=[]
+  Thang:any
+  State:any
   constructor() { }
   ngOnInit() {
-    this._HoadonbanraService.getListBanra()
-    this.ListBanra = this._HoadonbanraService.banras$.pipe(first()).subscribe();
-    console.log(this.ListBanra);
-    
+    this._HoadonbanraService.getListBanra(this.Thang,this.State)
+    this._HoadonbanraService.banras$.pipe(
+      tap(data => console.log(data)),
+      filter(data => !!data),
+      first()
+    ).subscribe((data:any)=> this.ListBanra = data);
   }
 
 }
