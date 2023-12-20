@@ -12,12 +12,12 @@ import { MatButtonModule } from '@angular/material/button';
 
 @Component({
   selector: 'app-cauhinh',
-  standalone:true,
+  standalone: true,
   imports: [CommonModule,
-    MatFormFieldModule, 
-    MatInputModule, 
-    MatTableModule, 
-    MatSortModule, 
+    MatFormFieldModule,
+    MatInputModule,
+    MatTableModule,
+    MatSortModule,
     MatPaginatorModule,
     MatButtonModule,
     FormsModule
@@ -27,21 +27,25 @@ import { MatButtonModule } from '@angular/material/button';
 })
 export class CauhinhComponent implements OnInit {
   _HoadonbanraService: CauhinhService = inject(CauhinhService);
-  ListBanra:any[]=[]
-  Thang:any
-  State:any
+  ListBanra: any[] = []
+  Thang: any
+  State: any
+  Soluong: any
   constructor() { }
   ngOnInit() {
 
   }
-  LoadListBanra()
-  {
-    this._HoadonbanraService.getListBanra(this.Thang,this.State)
+  LoadListBanra() {
+
+    this._HoadonbanraService.getListBanra(this.Thang, this.State)
     this._HoadonbanraService.banras$.pipe(
       tap(data => console.log(data)),
       filter(data => !!data),
       first()
-    ).subscribe((data:any)=> this.ListBanra = data);
+    ).subscribe((data: any) => {
+      this.State = data.state
+      this.Soluong = (data.total/50).toFixed(0) +1
+    });
   }
 
 }
