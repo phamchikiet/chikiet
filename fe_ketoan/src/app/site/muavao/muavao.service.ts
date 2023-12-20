@@ -14,18 +14,33 @@ export class MuavaoService {
     return this._muavao.asObservable();
   }
   constructor() {}
-//   async getAllMuavaos() {
-//     try {
-//           const response = await fetch(environment.APIURL + '/muavaochitiet/pagination?page=1&perPage=5000');
-//           const data = await response.json();
-//           this._muavaos.next(data);
-//           console.log(data);
+  async ListMuavaos() {
+    try {
+          const response = await fetch(environment.APIURL + '/muavao');
+          const data = await response.json();
+          this._muavaos.next(data);          
+          return data;
+      } catch (error) {
+          return console.error(error);
+      }
+  }
+  async UpdateMuavao(item:any) {
+    try {
+        const options = {
+            method:'PATCH',
+            headers: {
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(item),
+          };
+          const response = await fetch(`${environment.APIURL}/muavao/${item.id}`, options);
+          const result = await response.json();
+          console.log(result);
           
-//           return data;
-//       } catch (error) {
-//           return console.error(error);
-//       }
-//   }
+      } catch (error) {
+          return console.error(error);
+      }
+  }
   async getAllMuavaos() {
     try {
           const response = await fetch(environment.APIURL + '/muavaochitiet/pagination?page=1&perPage=5000');
