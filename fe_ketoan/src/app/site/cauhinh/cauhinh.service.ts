@@ -7,6 +7,14 @@ import { environment } from 'fe_ketoan/src/environments/environment';
 export class CauhinhService {
   private _cauhinhs: BehaviorSubject<any[] | null> = new BehaviorSubject<any[] | null>(null);
   private _cauhinh: BehaviorSubject<any | null> = new BehaviorSubject<any | null>(null);
+  private _banras: BehaviorSubject<any[] | null> = new BehaviorSubject<any[] | null>(null);
+  private _banra: BehaviorSubject<any | null> = new BehaviorSubject<any | null>(null);
+  get banras$(): Observable<any[] | null> {
+    return this._banras.asObservable();
+  }
+  get banra$(): Observable<any | null> {
+    return this._banra.asObservable();
+  }
   get cauhinhs$(): Observable<any[] | null> {
     return this._cauhinhs.asObservable();
   }
@@ -22,7 +30,8 @@ export class CauhinhService {
       headers,
     });
     const result = await response.json();
-    console.log(result);
+    this._banras.next(result)
+    return result
   }
   
   // getAllCauhinhs() {

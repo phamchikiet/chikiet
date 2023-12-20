@@ -6,6 +6,7 @@ import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
 import { MatTableModule } from '@angular/material/table';
 import { CauhinhService } from './cauhinh.service';
+import { first } from 'rxjs';
 
 @Component({
   selector: 'app-cauhinh',
@@ -16,10 +17,13 @@ import { CauhinhService } from './cauhinh.service';
 })
 export class CauhinhComponent implements OnInit {
   _HoadonbanraService: CauhinhService = inject(CauhinhService);
+  ListBanra:any
   constructor() { }
-
   ngOnInit() {
     this._HoadonbanraService.getListBanra()
+    this.ListBanra = this._HoadonbanraService.banras$.pipe(first()).subscribe();
+    console.log(this.ListBanra);
+    
   }
 
 }
