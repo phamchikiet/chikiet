@@ -1,20 +1,20 @@
-name: Deploy to cPanel
-
+name: Ke toan FE to Cpanel
 on:
-  push:
-    branches:
-      - dev_fe_ketoan  # Change to your desired branch
-
+    push:
+        branches:
+            - dev_fe_ketoan
 jobs:
-  cpanel-deploy:
-    runs-on: ubuntu-latest
-
-    steps:
-      - uses: actions/checkout@v3
-      - name: Deploy to cPanel
-        uses: cPanel-Deploy-Action/cpanel-deploy@master
-        with:
-          hostname: 'hf44-22061.azdigihost.com'
-          username: 'chikiet@chikiet.com'
-          password: '@Hikiet1988'
-          documentRoot: /public_html
+    FTP-Deploy-Action:
+        name: FTP-Deploy-Action
+        runs-on: ubuntu-latest
+        steps:
+        - uses : actions/checkout@v2.1.0
+          with:
+            fetch-depth: 2
+        - name: FTP-Deploy-Action
+          uses: SamKirkland/FTP-Deploy-Action@3.1.1
+          with:
+            hostname: 'hf44-22061.azdigihost.com'
+            username: 'chikiet@chikiet.com'
+            password: '@Hikiet1988'
+            documentRoot: /public_html
