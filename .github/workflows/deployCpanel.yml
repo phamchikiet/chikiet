@@ -24,3 +24,4 @@ jobs:
         server: hf44-22061.azdigihost.com
         username: chikiet@chikiet.com
         password: '@Hikiet1988'
+        server-dir: /public_html/ketoan/site
