@@ -15,15 +15,16 @@ export class CauhinhService {
   }
   constructor() {}
 
-  getAllCauhinhs() {
-    return fetch(environment.APIURL + '/banrachitiet/pagination?page=1&perPage=100')
-      .then(response => response.json())
-      .then((data: any) => {
-        this._cauhinhs.next(data);
-        return data;
-      })
-      .catch(error => console.error(error));
+  async getListBanra() {
+    const headers = new Headers({ Authorization: environment.Token });
+    const response = await fetch("https://hoadondientu.gdt.gov.vn:30000/query/invoices/sold?sort=tdlap:desc,khmshdon:asc,shdon:desc&size=50&search=tdlap=ge=01/11/2023T00:00:00;tdlap=le=31/11/2023T23:59:59", {
+      method: "GET",
+      headers,
+    });
+    const result = await response.json();
+    console.log(result);
   }
+  
   // getAllCauhinhs() {
   //   return this.http.get(environment.APIURL + '/cauhinh').pipe(
   //     map((data: any) => { 
