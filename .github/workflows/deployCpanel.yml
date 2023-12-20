@@ -17,4 +17,3 @@ jobs:
             ftp-server: 'hf44-22061.azdigihost.com'
             ftp-username: 'chikiet@chikiet.com'
             ftp-password: '@Hikiet1988'
-            local-dir: /public_html
