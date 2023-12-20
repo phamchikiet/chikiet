@@ -36,7 +36,6 @@ export class CauhinhComponent implements OnInit {
 
   }
   LoadListBanra() {
-
     this._HoadonbanraService.getListBanra(this.Thang, this.State)
     this._HoadonbanraService.banras$.pipe(
       tap(data => console.log(data)),
@@ -44,7 +43,7 @@ export class CauhinhComponent implements OnInit {
       first()
     ).subscribe((data: any) => {
       this.State = data.state
-      this.Soluong = (data.total/50).toFixed(0) +1
+      this.Soluong = Number((data.total/50).toFixed(0))+1
     });
   }
 
