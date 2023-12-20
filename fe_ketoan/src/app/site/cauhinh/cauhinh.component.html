@@ -1,4 +1,6 @@
-<mat-form-field>
-  <input matInput placeholder="label" value="value" [(ngModel)]="Thang" [ngModelOptions]="{standalone: true}"
-  >
+<div class="flex flex-row space-x-2">
+<mat-form-field appearance="outline">
+  <input matInput placeholder="Tháng" [(ngModel)]="Thang" [ngModelOptions]="{standalone: true}">
 </mat-form-field>
+<button mat-stroked-button (click)="LoadListBanra()">Load Bán Ra</button>
+</div>

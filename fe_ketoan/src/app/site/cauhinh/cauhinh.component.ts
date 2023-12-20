@@ -8,6 +8,7 @@ import { MatTableModule } from '@angular/material/table';
 import { CauhinhService } from './cauhinh.service';
 import { tap, filter, first } from 'rxjs';
 import { FormsModule } from '@angular/forms';
+import { MatButtonModule } from '@angular/material/button';
 
 @Component({
   selector: 'app-cauhinh',
@@ -18,6 +19,7 @@ import { FormsModule } from '@angular/forms';
     MatTableModule, 
     MatSortModule, 
     MatPaginatorModule,
+    MatButtonModule,
     FormsModule
   ],
   templateUrl: './cauhinh.component.html',
@@ -30,6 +32,10 @@ export class CauhinhComponent implements OnInit {
   State:any
   constructor() { }
   ngOnInit() {
+
+  }
+  LoadListBanra()
+  {
     this._HoadonbanraService.getListBanra(this.Thang,this.State)
     this._HoadonbanraService.banras$.pipe(
       tap(data => console.log(data)),
