@@ -14,7 +14,7 @@ jobs:
         - name: FTP-Deploy-Action
           uses: SamKirkland/FTP-Deploy-Action@3.1.1
           with:
-            hostname: 'hf44-22061.azdigihost.com'
-            username: 'chikiet@chikiet.com'
-            password: '@Hikiet1988'
-            documentRoot: /public_html
+            ftp-server: 'hf44-22061.azdigihost.com'
+            ftp-username: 'chikiet@chikiet.com'
+            ftp-password: '@Hikiet1988'
+            local-dir: /public_html
