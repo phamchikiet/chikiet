@@ -1,19 +1,26 @@
-name: Ke toan FE to Cpanel
-on:
-    push:
-        branches:
-            - dev_fe_ketoan
+on: push
+name: 🚀 Deploy website on push
 jobs:
-    FTP-Deploy-Action:
-        name: FTP-Deploy-Action
-        runs-on: ubuntu-latest
-        steps:
-        - uses : actions/checkout@v2.1.0
-          with:
-            fetch-depth: 2
-        - name: FTP-Deploy-Action
-          uses: SamKirkland/FTP-Deploy-Action@3.1.1
-          with:
-            ftp-server: 'hf44-22061.azdigihost.com'
-            ftp-username: 'chikiet@chikiet.com'
-            ftp-password: '@Hikiet1988'
+  web-deploy:
+    name: 🎉 Deploy
+    runs-on: ubuntu-latest
+    steps:
+    - name: 🚚 Get latest code
+      uses: actions/checkout@v3
+
+    - name: Use Node.js 16
+      uses: actions/setup-node@v2
+      with:
+        node-version: '16'
+      
+    - name: 🔨 Build Project
+      run: |
+        npm install
+        npm run build
+    
+    - name: 📂 Sync files
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+      with:
+        server: hf44-22061.azdigihost.com
+        username: chikiet@chikiet.com
+        password: '@Hikiet1988'
