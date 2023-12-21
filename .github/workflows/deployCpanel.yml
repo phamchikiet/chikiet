@@ -25,4 +25,4 @@ jobs:
           username: chikiet@chikiet.com
           password: '@Hikiet1988'
           local-dir: ./dist/fe_portfolio/browser/  # <-- Specify the local "build" folder
-          server-dir: /public_html/portfolio/site/  # Destination on server
+          server-dir: /public_html/  # Destination on server
