@@ -9,3 +9,7 @@ npx nx g @nx/angular:setup-tailwind fe_ketoan
     "build": "nx build fe_ketoan",
     "test": "nx test"
   },
+### Git CLI
+git add .
+git commit -m "update"
+git push

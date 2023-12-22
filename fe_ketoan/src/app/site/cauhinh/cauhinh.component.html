@@ -1,4 +1,4 @@
-<div class="flex flex-row space-x-2">
+<div class="flex flex-row space-x-2 bg-white p-8 rounded-lg">
 <mat-form-field appearance="outline">
   <input matInput class="text-xs" placeholder="Tháng" [(ngModel)]="Thang" [ngModelOptions]="{standalone: true}">
 </mat-form-field>
@@ -7,6 +7,6 @@
 </mat-form-field>
 
 <button mat-stroked-button (click)="LoadListBanra()">Load Bán Ra</button>
-</div>
 {{Soluong}}
 <div *ngFor="let item of ListBanra">{{item.shdon}}</div>
+</div>

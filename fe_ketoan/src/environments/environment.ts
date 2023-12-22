@@ -5,6 +5,6 @@ export const environment = {
   app_id:"1416835846626859002",
   secret_key:"HLBWj23hToA9fuiQvQY4",
   zalo_redirect_uri:"http://localhost:4200/admin/zalotoken",
-  Token : "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI1OTAwNDI4OTA0IiwidHlwZSI6MiwiZXhwIjoxNzAzMTc2ODMzLCJpYXQiOjE3MDMwOTA0MzN9.9xiIzNt0QEmNSAUYULhBNA_oKhaol_F3w8kwF7pjahLmZvV0BLaVE8lVoKOZHG3za950F2NVh836oewTwpLN_A"
+  Token : "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI1OTAwNDI4OTA0IiwidHlwZSI6MiwiZXhwIjoxNzAzMjY0ODc3LCJpYXQiOjE3MDMxNzg0Nzd9.c4q69LgDtDiJiGUYQ1cRMzXbniyoi1W6rwR7uxFPRmE7d7hqd59mzugbF4pt9PGwOCkbi3BljAOoH-nJppeXpg"
     //APIURL:'https://api.tazaskinclinic.com',
 };
