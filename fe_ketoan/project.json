@@ -46,8 +46,8 @@
           ],
           "fileReplacements": [
             {
-              "replace": "apps/fe_ketoan/src/environments/environment.ts",
-              "with": "apps/fe_ketoan/src/environments/environment.prod.ts"
+              "replace": "fe_ketoan/src/environments/environment.ts",
+              "with": "fe_ketoan/src/environments/environment.prod.ts"
             }
           ],
           "outputHashing": "all"
