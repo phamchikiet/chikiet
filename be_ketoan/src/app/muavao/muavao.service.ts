@@ -56,6 +56,9 @@ export class MuavaoService {
   async finddate(begin: any, end: any){
     const startDate = new Date(begin);
     const endDate = new Date(end);
+    console.error(startDate);
+    console.error(endDate);
+    
     return await this.MuavaoRepository.find({
       where:  {
         Ngaytao: Between(startDate, endDate),

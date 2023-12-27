@@ -26,6 +26,10 @@ export class hoadonbanraController {
   async findPagination(@Query('page') page: number,@Query('perPage') perPage: number){
        return await this.hoadonbanraService.findPagination(page,perPage);
     }
+    @Get('finddate')
+    async finddate(@Query('begin') begin: any,@Query('end') end: any){
+         return await this.hoadonbanraService.finddate(begin,end);
+    }
   @Get('findquery')
     async findQuery(@Query('query') query: string){
       return await this.hoadonbanraService.findQuery(query);

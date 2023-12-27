@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
-import { Like, Repository } from 'typeorm';
+import { Between, Like, Repository } from 'typeorm';
 import { CreateHoadonbanraDto } from './dto/create-hoadonbanra.dto';
 import { UpdateHoadonbanraDto } from './dto/update-hoadonbanra.dto';
 import { hoadonbanraEntity } from './entities/hoadonbanra.entity';
@@ -10,15 +10,17 @@ export class hoadonbanraService {
     @InjectRepository(hoadonbanraEntity)
     private hoadonbanraRepository: Repository<hoadonbanraEntity>
   ) {}
-  async create(CreatehoadonbanraDto: any) {
-    const item = await this.findSHD(CreatehoadonbanraDto.SHD)
+  async create(Data: any) {
+    const item = await this.findSHD(Data.SHD)
+    console.error(item?.SHD);
+    
     if(item)
     {
       return "Trùng SHD"
     }
     else {
-      this.hoadonbanraRepository.create(CreatehoadonbanraDto);
-      return await this.hoadonbanraRepository.save(CreatehoadonbanraDto);
+      this.hoadonbanraRepository.create(Data);
+      return await this.hoadonbanraRepository.save(Data);
     }
   }
 
@@ -29,6 +31,15 @@ export class hoadonbanraService {
     return await this.hoadonbanraRepository.findOne({
       where: { id: id },
 
+    });
+  }
+  async finddate(begin: any, end: any){
+    const startDate = new Date(begin);
+    const endDate = new Date(end);
+    return await this.hoadonbanraRepository.find({
+      where:  {
+        Ngaytao: Between(startDate, endDate),
+      },
     });
   }
   async findslug(slug: any) {
