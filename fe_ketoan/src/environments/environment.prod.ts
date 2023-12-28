@@ -5,5 +5,5 @@ export const environment = {
   app_id:"1416835846626859002",
   secret_key:"HLBWj23hToA9fuiQvQY4",
   zalo_redirect_uri:"http://localhost:4200/admin/zalotoken",
-  Token : "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI1OTAwNDI4OTA0IiwidHlwZSI6MiwiZXhwIjoxNzAzMjY0ODc3LCJpYXQiOjE3MDMxNzg0Nzd9.c4q69LgDtDiJiGUYQ1cRMzXbniyoi1W6rwR7uxFPRmE7d7hqd59mzugbF4pt9PGwOCkbi3BljAOoH-nJppeXpg"
+  Token : "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI1OTAwNDI4OTA0IiwidHlwZSI6MiwiZXhwIjoxNzAzMzgxNjI1LCJpYXQiOjE3MDMyOTUyMjV9.1HOBc84oonrAfdivY8DMOVo6DGXRE7LcSyuruUQrmnDltKCQQJRIQA1L1MwK8UqrFO-df81SVvWPc3oH5MA3Rw"
 };

@@ -7,69 +7,110 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { CommonModule } from '@angular/common';
 import * as XLSX from 'xlsx';
 import { MuavaoService } from '../muavao.service';
+import { MatDatepickerModule } from '@angular/material/datepicker';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { MatButtonModule } from '@angular/material/button';
+import { MatNativeDateModule } from '@angular/material/core';
+import { MatSelectChange, MatSelectModule } from '@angular/material/select';
 @Component({
   selector: 'app-muavao-chitiet',
   standalone: true,
-  imports: [CommonModule, MatFormFieldModule, MatInputModule, MatTableModule, MatSortModule, MatPaginatorModule],
+  imports: [CommonModule, 
+    MatDatepickerModule,
+    FormsModule,
+    ReactiveFormsModule,
+    MatFormFieldModule, 
+    MatInputModule, 
+    MatTableModule, 
+    MatSortModule, 
+    MatPaginatorModule,
+    MatFormFieldModule, 
+    MatInputModule, 
+    MatTableModule, 
+    MatSortModule, 
+    MatPaginatorModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatDatepickerModule,
+    MatNativeDateModule,
+    MatButtonModule,
+    ReactiveFormsModule,
+    MatSelectModule,
+    FormsModule
+  ],
   templateUrl: './muavao-chitiet.component.html',
   styleUrls: ['./muavao-chitiet.component.css']
 })
 export class MuavaoChitietComponent implements OnInit {
-
+  Chonngay: any = { Batdau: new Date('2023-10-01'), Ketthuc: new Date('2023-11-30') }
   _MuavaoService: MuavaoService = inject(MuavaoService);
-  displayedColumns: string[] = ['ten','SHD', 'soluong', 'dgia', 'thanhtien', 'dvtinh','Ngaytao', 'loai'];
+  displayedColumns: string[] = ['ten','ttxly','SHD', 'soluong', 'dgia', 'thanhtien', 'dvtinh','Ngaytao', 'loai'];
   dataSource!: MatTableDataSource<any>;
   List: any[] = []
   List1: any[] = []
+  List2: any[] = []
+  data2: any[] = []
+  ttxly:any=5
   @ViewChild(MatPaginator) paginator!: MatPaginator;
   @ViewChild(MatSort) sort!: MatSort;
   constructor() {
-    this._MuavaoService.getAllMuavaos()
-    this._MuavaoService.muavaos$.subscribe((data: any) => {
+    this._MuavaoService.getAllMuavaoChitiet()
+    this._MuavaoService.muavaochitiets$.subscribe((data: any) => {
       if (data) {
-        let data1: any[] = []
-        let data2: any[] = []
-        data.forEach((v: any) => {
-          data1.push(v.Dulieu)
+        this.List = data.data.map((v:any)=>(v.Dulieu))
+        console.log(this.List);
+        this.List = this.List.filter((obj, index, self) => {
+          return index === self.findIndex((o) => o.shdon === obj.shdon);
         });
-       console.log(data1);
-        data1.forEach((v: any) => {
+        console.log(this.List);
+        this.List.forEach((v: any) => {
           if (v.hdhhdvu.length > 0) {
             v.hdhhdvu = v.hdhhdvu.map((v1: any) => {
-              const item = { ...v1, ...{ SHD: v.shdon },...{ Ngaytao: new Date(v.ntao) } }
+              const item = { ...v1, ...{ SHD: v.shdon },...{ ttxly: v.ttxly },...{ Ngaytao: new Date(v.tdlap) } }
               return item
             });
           }
-          data2 = [...data2, ...v.hdhhdvu]
+          this.data2 = [...this.data2, ...v.hdhhdvu]
         });
-       // console.log(data2);
-        this.List = data2.map((v: any) => ({ ten: v.ten, soluong: v.sluong,SHD: v.SHD,Ngaytao: v.Ngaytao, dgia: v.dgia, thanhtien: v.sluong * v.dgia, dvtinh: v.dvtinh, loai: "Nhap" }))
-      //  console.log(this.List);         
-        const newData = this.List
-          .filter((obj, i) => this.List.findIndex(o => o.ten === obj.ten) === i)
-          .map(obj => ({
-            ten: obj.ten,
-            SHD: obj.SHD,
-            Ngaytao: obj.Ngaytao,
-            soluong: this.List.filter(o => o.ten === obj.ten).reduce((total, o) => total + o.soluong, 0),
-            thanhtien: this.List.filter(o => o.ten === obj.ten).reduce((total, o) => total + o.thanhtien, 0),
-            dgia: obj.dgia,
-            dvtinh: obj.dvtinh,
-            loai: "Nhap"
-          }));
-        console.log(newData); 
-        //this.List = newData
-        // console.log(this.List);
-
-        this.dataSource = new MatTableDataSource(newData);
-        this.dataSource.paginator = this.paginator;
-        this.dataSource.sort = this.sort;
-        // this.writeExcelFile(newData)
+      //  console.log(this.data2);
+       this.List1 = this.data2.map((v: any) => ({ ten: v.ten, soluong: v.sluong, ttxly: v.ttxly,SHD: v.SHD,Ngaytao: v.Ngaytao, dgia: v.dgia, thanhtien: v.sluong * v.dgia, dvtinh: v.dvtinh, loai: "Nhap" }))
+       // console.log(this.List1);
       }
     })
-
   }
   ngOnInit(): void { }
+  ChangeDate() {
+    // v.Status==2 && 
+    this.List2 = this.List1.filter((v: any) => {
+      const Ngaytao = new Date(v.Ngaytao)
+        return v.ttxly==this.ttxly && Ngaytao.getTime() >= this.Chonngay.Batdau.getTime() && Ngaytao.getTime() <= this.Chonngay.Ketthuc.getTime()
+      })
+      this.dataSource = new MatTableDataSource(this.List2);
+      this.dataSource.paginator = this.paginator;
+      this.dataSource.sort = this.sort;
+  }
+  FilterHoadon()
+  {
+    this.List2 = this.List1.filter((v: any) => {
+      const Ngaytao = new Date(v.Ngaytao)
+        return Ngaytao.getTime() >= this.Chonngay.Batdau.getTime() && Ngaytao.getTime() <= this.Chonngay.Ketthuc.getTime()
+      })
+      this.List2 = this.List2.filter((obj, index, self) => {
+        return index === self.findIndex((o) => o.SHD === obj.SHD);
+      });
+      this.dataSource = new MatTableDataSource(this.List2);
+      this.dataSource.paginator = this.paginator;
+      this.dataSource.sort = this.sort;
+  }
+  onSelectChange(event: MatSelectChange) {
+    this.List2 = this.List1.filter((v: any) => {
+      const Ngaytao = new Date(v.Ngaytao)
+      return v.ttxly==event.value && Ngaytao.getTime() >= this.Chonngay.Batdau.getTime() && Ngaytao.getTime() <= this.Chonngay.Ketthuc.getTime()
+    })
+      this.dataSource = new MatTableDataSource(this.List2);
+      this.dataSource.paginator = this.paginator;
+      this.dataSource.sort = this.sort;
+  }
   writeExcelFile(data: any) {
     const worksheet: XLSX.WorkSheet = XLSX.utils.json_to_sheet(data);
     const workbook: XLSX.WorkBook = { Sheets: { 'Sheet1': worksheet }, SheetNames: ['Sheet1'] };
@@ -86,17 +127,21 @@ export class MuavaoChitietComponent implements OnInit {
     window.URL.revokeObjectURL(url);
     link.remove();
   }
-  ngAfterViewInit() {
-    this.dataSource.paginator = this.paginator;
-    this.dataSource.sort = this.sort;
-  }
-
   applyFilter(event: Event) {
     const filterValue = (event.target as HTMLInputElement).value;
     this.dataSource.filter = filterValue.trim().toLowerCase();
     if (this.dataSource.paginator) {
       this.dataSource.paginator.firstPage();
     }
+  }
+  Subtotal(items:any[],field:any)
+  {    
+    if(items.length>0)
+    {
+    const totalSum = items.reduce((total:any, item:any) => total + item[field], 0);    
+    return totalSum
+    }
+    else return 0
   }
 }
 

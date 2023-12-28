@@ -6,7 +6,6 @@
       <mat-label>Tìm Kiếm</mat-label>
       <input matInput (keyup)="applyFilter($event)" placeholder="Tìm Kiếm" #input>
     </mat-form-field>
-
     <mat-form-field class="example-form-field">
       <mat-label>Enter a date range</mat-label>
       <mat-date-range-input [rangePicker]="rangePicker">
@@ -21,41 +20,55 @@
         </mat-date-range-picker-actions>
       </mat-date-range-picker>
     </mat-form-field>
+    <mat-form-field>
+        <mat-label>Danh Mục</mat-label>
+        <mat-select [(ngModel)]="ttxly" [ngModelOptions]="{standalone: true}" (selectionChange)="onSelectChange($event)">
+          <mat-option [value]="5">Đã Cấp Mã Hoá Đơn</mat-option>
+          <mat-option [value]="6">Nhận Chưa Cấp Mã Hoá Đơn</mat-option>
+        </mat-select>
+      </mat-form-field>
+      <!-- <span (click)="Xoa()">Xoá</span> -->
+    
   </div>
     <div class="">
       <table mat-table [dataSource]="dataSource" matSort>
         <ng-container matColumnDef="shdon">
           <th mat-header-cell *matHeaderCellDef mat-sort-header> Số HD </th>
-          <td mat-cell *matCellDef="let row"> {{row.Dulieu.shdon}} </td>
+          <td mat-cell *matCellDef="let row"> {{row.shdon}} </td>
+          <td mat-footer-cell *matFooterCellDef></td>
+        </ng-container>
+        <ng-container matColumnDef="ttxly">
+          <th mat-header-cell *matHeaderCellDef mat-sort-header> Tình Trạng Xử Lý </th>
+          <td mat-cell *matCellDef="let row"> {{row.ttxly}} </td>
           <td mat-footer-cell *matFooterCellDef></td>
         </ng-container>
         <ng-container matColumnDef="nbten">
           <th mat-header-cell *matHeaderCellDef mat-sort-header>Tên </th>
-          <td mat-cell *matCellDef="let row"> {{row.Dulieu.nbten}} </td>
+          <td mat-cell *matCellDef="let row"> {{row.nbten}} </td>
           <td mat-footer-cell *matFooterCellDef></td>
         </ng-container>
         <!-- <ng-container matColumnDef="nbdchi">
           <th mat-header-cell *matHeaderCellDef mat-sort-header>Địa Chỉ </th>
-          <td mat-cell *matCellDef="let row"> {{row.Dulieu.nbdchi}} </td>
+          <td mat-cell *matCellDef="let row"> {{row.nbdchi}} </td>
         </ng-container> -->
         <ng-container matColumnDef="tgtcthue">
           <th mat-header-cell *matHeaderCellDef mat-sort-header>Tổng Chưa Thuế </th>
-          <td mat-cell *matCellDef="let row"> {{(row.Dulieu.tgtcthue | number:'1.0-0')||'0'}} </td>
+          <td mat-cell *matCellDef="let row"> {{(row.tgtcthue | number:'1.0-0')||'0'}} </td>
           <td mat-footer-cell *matFooterCellDef class="text-right font-bold">{{Subtotal(Listfilter,'tgtcthue')|number:'1.0-2'}} </td>
         </ng-container>
         <ng-container matColumnDef="tgtthue">
           <th mat-header-cell *matHeaderCellDef mat-sort-header>Thuế </th>
-          <td mat-cell *matCellDef="let row"> {{(row.Dulieu.tgtthue | number:'1.0-0')||'0'}} </td>
+          <td mat-cell *matCellDef="let row"> {{(row.tgtthue | number:'1.0-0')||'0'}} </td>
           <td mat-footer-cell *matFooterCellDef class="text-right font-bold">{{Subtotal(Listfilter,'tgtthue')|number:'1.0-2'}} </td>
         </ng-container>
         <ng-container matColumnDef="tgtttbso">
           <th mat-header-cell *matHeaderCellDef mat-sort-header> Thành Tiền </th>
-          <td mat-cell *matCellDef="let row">{{(row.Dulieu.tgtttbso | number:'1.0-0')||'0'}} </td>
+          <td mat-cell *matCellDef="let row">{{(row.tgtttbso | number:'1.0-0')||'0'}} </td>
           <td mat-footer-cell *matFooterCellDef class="text-right font-bold">{{Subtotal(Listfilter,'tgtttbso')|number:'1.0-2'}} </td>
         </ng-container>
         <ng-container matColumnDef="thtttoan">
           <th mat-header-cell *matHeaderCellDef mat-sort-header> Tông Thanh Toán </th>
-          <td mat-cell *matCellDef="let row"> {{row.Dulieu.thtttoan}} </td>
+          <td mat-cell *matCellDef="let row"> {{row.thtttoan}} </td>
           <td mat-footer-cell *matFooterCellDef class="text-right font-bold">{{Subtotal(Listfilter,'thtttoan')|number:'1.0-2'}} </td>
         </ng-container>
         <ng-container matColumnDef="action">
@@ -70,10 +83,10 @@
         <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
         <tr mat-footer-row *matFooterRowDef="displayedColumns"></tr>
         <tr class="mat-row" *matNoDataRow>
-          <td  class="mat-cell text-center p-4" colspan="4">Không Tìm Thấy "{{input.value}}"</td>
+           <td  class="mat-cell text-center p-4" colspan="4">Không Tìm Thấy "{{input.value}}"</td>
         </tr>
       </table>
-      <mat-paginator [pageSizeOptions]="[10, 100, Listfilter.length]" aria-label="Select page of users"></mat-paginator>
+      <mat-paginator [pageSizeOptions]="[5, 100, Listfilter.length]"></mat-paginator>
     </div>
   </div>
 

@@ -7,6 +7,7 @@
 </mat-form-field>
 
 <button mat-stroked-button (click)="LoadListBanra()">Load Bán Ra</button>
-{{Soluong}}
+<button mat-stroked-button (click)="SaveSHD()">Load</button>
+{{ListSHD|json}}
 <div *ngFor="let item of ListBanra">{{item.shdon}}</div>
 </div>

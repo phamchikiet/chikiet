@@ -4,6 +4,7 @@ import { MuavaoChitietComponent } from './site/muavao/muavao-chitiet/muavao-chit
 import { BanraComponent } from './site/banra/banra.component';
 import { BanraChitietComponent } from './site/banra/banra-chitiet/banra-chitiet.component';
 import { CauhinhComponent } from './site/cauhinh/cauhinh.component';
+import { XuatnhaptonComponent } from './site/xuatnhapton/xuatnhapton.component';
 
 export const appRoutes: Route[] = [
     { path: '', redirectTo: 'muavao', pathMatch: 'full' },
@@ -31,5 +32,10 @@ export const appRoutes: Route[] = [
         path: 'banrachitiet',
         component: BanraChitietComponent,
         title: 'Bán Ra Chi Tiết'
+    },
+    {
+        path: 'xuatnhapton',
+        component: XuatnhaptonComponent,
+        title: 'Xuất Nhập Tồn'
     }
 ];

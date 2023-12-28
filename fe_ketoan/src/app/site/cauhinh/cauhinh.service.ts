@@ -59,7 +59,15 @@ export class CauhinhService {
     this._banras.next(result)
     return result
   }
-  
+  async getAll() {
+    try {
+          const response = await fetch(environment.APIURL + '/muavaochitiet');
+          const data = await response.json();        
+          return data;
+      } catch (error) {
+          return console.error(error);
+      }
+  }
   // getAllCauhinhs() {
   //   return this.http.get(environment.APIURL + '/cauhinh').pipe(
   //     map((data: any) => { 

@@ -49,22 +49,6 @@ export class MuavaoService {
           return console.error(error);
       }
   }
-  async DeleteMuavao(itemId:any) {
-    try {
-      const options = {
-        method: 'DELETE',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-      };
-      const response = await fetch(`${environment.APIURL}/muavao/${itemId}`, options);
-      const result = await response.json();
-      console.log(result);
-          
-      } catch (error) {
-          return console.error(error);
-      }
-  }
   async getAllMuavaoChitiet() {
     try {
           const response = await fetch(environment.APIURL + '/muavaochitiet/pagination?page=1&perPage=5000');

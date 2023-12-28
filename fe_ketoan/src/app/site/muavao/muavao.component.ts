@@ -11,16 +11,23 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatNativeDateModule } from '@angular/material/core';
 import { MatDatepickerModule } from '@angular/material/datepicker';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { MatSelectChange, MatSelectModule } from '@angular/material/select';
 @Component({
   selector: 'app-muavao',
   standalone: true,
-  imports: [CommonModule, MatFormFieldModule, MatInputModule, MatTableModule, MatSortModule, MatPaginatorModule,
+  imports: [CommonModule, 
+    MatFormFieldModule, 
+    MatInputModule, 
+    MatTableModule, 
+    MatSortModule, 
+    MatPaginatorModule,
     MatFormFieldModule,
     MatInputModule,
     MatDatepickerModule,
     MatNativeDateModule,
     MatButtonModule,
     ReactiveFormsModule,
+    MatSelectModule,
     FormsModule
   ],
   templateUrl: './muavao.component.html',
@@ -29,35 +36,51 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 export class MuavaoComponent implements OnInit {
 
   _MuavaoService: MuavaoService = inject(MuavaoService);
-  displayedColumns: string[] = ['shdon', 'nbten', 'tgtcthue', 'tgtthue', 'tgtttbso', 'thtttoan','action'];
+  displayedColumns: string[] = ['shdon','ttxly', 'nbten', 'tgtcthue', 'tgtthue', 'tgtttbso', 'thtttoan','action'];
   dataSource!: MatTableDataSource<any>;
   List: any[] = []
+  List3: any[] = []
   Listfilter: any[] = []
   Chonngay: any = { Batdau: new Date('2023-10-01'), Ketthuc: new Date('2023-11-30') }
+  ttxly:any=5
   @ViewChild(MatPaginator) paginator!: MatPaginator;
   @ViewChild(MatSort) sort!: MatSort;
   constructor() {
     this._MuavaoService.ListMuavaos()
     this._MuavaoService.muavaos$.subscribe((data: any) => {
       if (data) {
-        this.List =data
-        this.Listfilter = data.filter((v: any) => {
-          const Ngaytao = new Date(v.Dulieu.tdlap)
-          return v.Status==2 && Ngaytao.getTime() >= this.Chonngay.Batdau.getTime() && Ngaytao.getTime() <= this.Chonngay.Ketthuc.getTime()
+        console.log(data);
+        // this.List3 =data
+        
+        this.List = data.map((v:any) =>(v.Dulieu));
+        console.log(this.List);
+        this.Listfilter = this.List.filter((v: any) => {
+          const Ngaytao = new Date(v.tdlap)
+          return v.ttxly==this.ttxly && Ngaytao.getTime() >= this.Chonngay.Batdau.getTime() && Ngaytao.getTime() <= this.Chonngay.Ketthuc.getTime()
         })
        // this.Listfilter =data2.map((v:any) => [...v.Dulieu,{id:v.id},{Status:v.Status}]);
        console.log(this.List);
+      //  this.List.forEach((v)=>
+      //  {
+      //    v.Ngaytao = new Date(v.Dulieu.tdlap)
+      //    this._MuavaoService.UpdateMuavao(v).then((data)=> console.log(data))
+      //  })
       }
       this.dataSource = new MatTableDataSource(this.Listfilter);
       this.dataSource.paginator = this.paginator;
       this.dataSource.sort = this.sort;
     })
   }
-  ngOnInit(): void { }
+  ngOnInit() { }
   ChangeDate() {
     // v.Status==2 && 
+    // this.List3 = this.List3.filter((v: any) => {
+    //   const Ngaytao = new Date(v.Dulieu.tdlap)
+    //   return v.Dulieu.ttxly==6 && Ngaytao.getTime() >= this.Chonngay.Batdau.getTime() && Ngaytao.getTime() <= this.Chonngay.Ketthuc.getTime()
+    // })
+    // console.log( this.List3);
     this.Listfilter = this.List.filter((v: any) => {
-      const Ngaytao = new Date(v.Dulieu.tdlap)
+      const Ngaytao = new Date(v.tdlap)
         return Ngaytao.getTime() >= this.Chonngay.Batdau.getTime() && Ngaytao.getTime() <= this.Chonngay.Ketthuc.getTime()
       })
       this.dataSource = new MatTableDataSource(this.Listfilter);
@@ -84,11 +107,17 @@ export class MuavaoComponent implements OnInit {
     this.dataSource.paginator = this.paginator;
     this.dataSource.sort = this.sort;
   }
+  // Xoa()
+  // {
+  //   this.List3.forEach(v => {
+  //     this._MuavaoService.DeleteMuavao(v.id)
+  //   });
+  // }
   Subtotal(items:any[],field:any)
   {
     if(items.length>0)
     {
-    const totalSum = items.reduce((total:any, item:any) => total + item.Dulieu[field], 0);
+    const totalSum = items.reduce((total:any, item:any) => total + item[field], 0);
     return totalSum
     }
     else return 0
@@ -107,6 +136,16 @@ export class MuavaoComponent implements OnInit {
     }
     console.log(this.dataSource.filteredData);
     
+  }
+  onSelectChange(event: MatSelectChange) {
+    this.Listfilter = this.List.filter((v: any) => {
+      const Ngaytao = new Date(v.tdlap)
+      return v.ttxly==event.value && Ngaytao.getTime() >= this.Chonngay.Batdau.getTime() && Ngaytao.getTime() <= this.Chonngay.Ketthuc.getTime()
+    })
+      this.dataSource = new MatTableDataSource(this.Listfilter);
+      this.dataSource.paginator = this.paginator;
+      this.dataSource.sort = this.sort;
+    // Handle the change
   }
 }
 

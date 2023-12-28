@@ -7,11 +7,19 @@ import { environment } from 'fe_ketoan/src/environments/environment';
 export class BanraService {
   private _banras: BehaviorSubject<any[] | null> = new BehaviorSubject<any[] | null>(null);
   private _banra: BehaviorSubject<any | null> = new BehaviorSubject<any | null>(null);
+  private _banrachitiets: BehaviorSubject<any[] | null> = new BehaviorSubject<any[] | null>(null);
+  private _banrachitiet: BehaviorSubject<any | null> = new BehaviorSubject<any | null>(null);
   get banras$(): Observable<any[] | null> {
     return this._banras.asObservable();
   }
   get banra$(): Observable<any | null> {
     return this._banra.asObservable();
+  }
+  get banrachitiets$(): Observable<any[] | null> {
+    return this._banrachitiets.asObservable();
+  }
+  get banrachitiet$(): Observable<any | null> {
+    return this._banrachitiet.asObservable();
   }
   constructor() {}
   async ListBanras() {
@@ -97,36 +105,15 @@ export class BanraService {
     return Object.values(uniqueItems);
   }
 
-//   async getBanrachitiet() {
-//     try {
-//           const response = await fetch(environment.APIURL + '/banrachitiet/pagination?page=1&perPage=5000');
-//           const data = await response.json();
-//         console.log(data.data);
-//         data.data.forEach(async (v:any) => {
-//             v.Ngaytao = new Date(v.Dulieu.ntao)
-//             const options = {
-//                 method:'PATCH',
-//                 headers: {
-//                   'Content-Type': 'application/json',
-//                 },
-//                 body: JSON.stringify(v),
-//               };
-//               const response1 = await fetch(`${environment.APIURL}/banrachitiet/${v.id}`, options);
-//               const result = await response1.json();
-//              console.log(result);
-//            console.log('Product updated!'); 
-//         });
-//         //   const data2 = data.data.filter((v:any)=>
-//         //  {
-//         //     return new Date(v.Ngaytao) >= new Date('2023-11-01')&& new Date(v.Ngaytao)<= new Date('2023-11-31')
-//         //  } 
-//         //   )
-//         //   console.log('Banra',data2);
-//         //   this._banras.next(data2);
-//       } catch (error) {
-//           return console.error(error);
-//       }
-//   }
+  async getBanrachitiets() {
+    try {
+        const response = await fetch(environment.APIURL + '/banrachitiet');
+        const data = await response.json();
+        this._banrachitiets.next(data)
+      } catch (error) {
+          return console.error(error);
+      }
+  }
 }
 
 
