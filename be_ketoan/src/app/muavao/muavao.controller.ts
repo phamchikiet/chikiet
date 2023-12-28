@@ -26,9 +26,11 @@ export class MuavaoController {
   async findPagination(@Query('page') page: number,@Query('perPage') perPage: number){
        return await this.muavaoService.findPagination(page,perPage);
   }
-  @Get('finddate')
-  async finddate(@Query('begin') begin: any,@Query('end') end: any){
-       return await this.muavaoService.finddate(begin,end);
+  @Post('finddate')
+  async finddate(@Body() data:any){
+    console.log(data);
+    
+       return await this.muavaoService.finddate(data);
   }
   @Get('findquery')
     async findQuery(@Query('query') query: string){

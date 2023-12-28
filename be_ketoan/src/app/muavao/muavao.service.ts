@@ -11,7 +11,7 @@ export class MuavaoService {
     private MuavaoRepository: Repository<MuavaoEntity>
   ) {}
   async create(CreateMuavaoDto: any) {
-    const item = await this.findSHD(CreateMuavaoDto.SHD)
+    const item = await this.findSHD(CreateMuavaoDto)
     if(item)
     {
       return "Trùng SHD"
@@ -36,9 +36,12 @@ export class MuavaoService {
       where: { Slug: slug},
     });
   }
-  async findSHD(slug: any) {
+  async findSHD(data: any) {
     return await this.MuavaoRepository.findOne({
-      where: { SHD: slug},
+      where: { 
+        SHD: data.SHD,
+        Ngaytao:new Date(data.Ngaytao)
+      },
     });
   }
   async findPagination(page: number, perPage: number){
@@ -53,9 +56,9 @@ export class MuavaoService {
       data: muavaos,
     };
   }
-  async finddate(begin: any, end: any){
-    const startDate = new Date(begin);
-    const endDate = new Date(end);
+  async finddate(data:any){
+    const startDate = new Date(data.begin);
+    const endDate = new Date(data.end);
     console.error(startDate);
     console.error(endDate);
     

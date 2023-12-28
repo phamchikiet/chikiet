@@ -10,15 +10,15 @@ export class MuavaochitietService {
     @InjectRepository(MuavaochitietEntity)
     private MuavaochitietRepository: Repository<MuavaochitietEntity>
   ) {}
-  async create(CreateMuavaochitietDto: any) {
-    const item = await this.findSHD(CreateMuavaochitietDto.SHD)
+  async create(data: any) {
+    const item = await this.findSHD(data)
     if(item)
     {
       return "Trùng SHD"
     }
     else {
-      this.MuavaochitietRepository.create(CreateMuavaochitietDto);
-      return await this.MuavaochitietRepository.save(CreateMuavaochitietDto);
+      this.MuavaochitietRepository.create(data);
+      return await this.MuavaochitietRepository.save(data);
     }
 
   }
@@ -37,9 +37,12 @@ export class MuavaochitietService {
       where: { Slug: slug},
     });
   }
-  async findSHD(slug: any) {
+  async findSHD(data: any) {
     return await this.MuavaochitietRepository.findOne({
-      where: { SHD: slug},
+      where: { 
+        SHD: data.SHD,
+        Ngaytao:new Date(data.Ngaytao)
+      },
     });
   }
   async findPagination(page: number, perPage: number){

@@ -11,7 +11,7 @@ export class hoadonbanraService {
     private hoadonbanraRepository: Repository<hoadonbanraEntity>
   ) {}
   async create(Data: any) {
-    const item = await this.findSHD(Data.SHD)
+    const item = await this.findSHD(Data)
     console.error(item?.SHD);
     
     if(item)
@@ -47,9 +47,12 @@ export class hoadonbanraService {
       where: { Slug: slug},
     });
   }
-  async findSHD(slug: any) {
+  async findSHD(data: any) {
     return await this.hoadonbanraRepository.findOne({
-      where: { SHD: slug},
+      where: { 
+        SHD: data.SHD,
+        Ngaytao:new Date(data.Ngaytao)
+      },
     });
   }
   async findPagination(page: number, perPage: number){

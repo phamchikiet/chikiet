@@ -6,62 +6,61 @@
   <script>
     $(document).ready(function () {
       localStorage.clear("state")
-      var Author = "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI1OTAwNDI4OTA0IiwidHlwZSI6MiwiZXhwIjoxNzAzNjkxMDEyLCJpYXQiOjE3MDM2MDQ2MTJ9.SuXZrqHLChv3j2twPnIXeMWC0nLwuaICtQL0Fce0G0_2BO9zBE3RAugmd9SJo7k0yuNNfF-i8Pc7bJQt1ZL8YA"
-     
+      var Author = "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI1OTAwNDI4OTA0IiwidHlwZSI6MiwiZXhwIjoxNzAzNzc3NDU0LCJpYXQiOjE3MDM2OTEwNTR9.BN8cpo3acpMtk5wATF0mYEzAzrTRRKiFWT_eVfEbauZaZQsHdZ3T-3TDObVORAAh2O15Jrl44pR541iadElKAA"
+
       // function Main() {  
       //   localStorage.removeItem("state")
       //   // ListMuavao()
       // // for (let index = 1; index < 66; index++) {
       // //       setTimeout(() => {
-      // //         GetListBanraServer(index,7000)
+      // //         GetListBanraServer(index,700)
       // //       }, 3000*index);
       // //     }
       //     for (let index = 1; index < 20; index++) {
       //       setTimeout(() => {
       //         ListMuavao()
       //         //ListBanra()
-      //       }, 7000*index);
+      //       }, 700*index);
       //     }
       // }
-      function BanraButton() {  
+      function BanraButton() {
         localStorage.removeItem("state")
-          for (let index = 1; index < 40; index++) {
-            setTimeout(() => {
-              ListBanra()
-            }, 7000*index);
-          }
+        for (let index = 1; index < 40; index++) {
+          setTimeout(() => {
+            ListBanra()
+          }, 700 * index);
+        }
       }
-      function MuavaoButton() {  
+      function MuavaoButton() {
         localStorage.removeItem("state")
-          for (let index = 1; index < 40; index++) {
-            setTimeout(() => {
-              ListMuavao()
-            }, 7000*index);
-          }
+        for (let index = 1; index < 40; index++) {
+          setTimeout(() => {
+            ListMuavao()
+          }, 700 * index);
+        }
       }
 
       //Add Muavao
-      function muavaochitiet() {  
+      function muavaochitiet() {
         var field1 = $("#field1").val();
         var field2 = $("#field2").val();
-        getMuavaoByDate(field1,field2)
+        getMuavaoByDate(field1, field2)
       }
       //Add Banra
-      function banrachitiet() {  
-      var field3 = $("#field3").val();
-      var field4 = $("#field4").val();
-      GetListBanraServer(field3,field4)
+      function banrachitiet() {
+        var field3 = $("#field3").val();
+        var field4 = $("#field4").val();
+        GetListBanraServer(field3, field4)
       }
       function ListMuavao() {
         var field1 = $("#muavao1").val();
         var state = localStorage.getItem("state")
-        var url=''
-        if(state)
-        {
-          url = "https://hoadondientu.gdt.gov.vn:30000/query/invoices/purchase?sort=tdlap:desc,khmshdon:asc,shdon:desc&size=50&state="+state+"&search=tdlap=ge=01/"+field1+"/2022T00:00:00;tdlap=le=31/"+field1+"/2023T23:59:59;tthai==1;ttxly==6"
+        var url = ''
+        if (state) {
+          url = "https://hoadondientu.gdt.gov.vn:30000/query/invoices/purchase?sort=tdlap:desc,khmshdon:asc,shdon:desc&size=50&state=" + state + "&search=tdlap=ge=01/" + field1 + "/2023T00:00:00;tdlap=le=31/" + field1 + "/2023T23:59:59;tthai==1;ttxly==6"
         }
-        else{
-          url = "https://hoadondientu.gdt.gov.vn:30000/query/invoices/purchase?sort=tdlap:desc,khmshdon:asc,shdon:desc&size=50&search=tdlap=ge=01/"+field1+"/2022T00:00:00;tdlap=le=31/"+field1+"/2023T23:59:59;tthai==1;ttxly==6"
+        else {
+          url = "https://hoadondientu.gdt.gov.vn:30000/query/invoices/purchase?sort=tdlap:desc,khmshdon:asc,shdon:desc&size=50&search=tdlap=ge=01/" + field1 + "/2023T00:00:00;tdlap=le=31/" + field1 + "/2023T23:59:59;tthai==1;ttxly==6"
         }
         var settings = {
           "url": url,
@@ -72,16 +71,16 @@
           },
         };
         $.ajax(settings).done(function (response) {
-         localStorage.setItem("state", response.state);
-          response.datas.forEach((v,k) => {
-            const item ={}
+          localStorage.setItem("state", response.state);
+          response.datas.forEach((v, k) => {
+            const item = {}
             item.Dulieu = v
             item.SHD = v.shdon
             item.Ngaytao = new Date(v.tdlap)
             setTimeout(() => {
-            CreateListMuavao(item)
-            //LoadHoadonchitiet(v.shdon)
-            }, k*7000);
+              CreateListMuavao(item)
+              //LoadHoadonchitiet(v.shdon)
+            }, k * 700);
           });
         });
       }
@@ -89,14 +88,13 @@
       function ListBanra() {
         var field1 = $("#banra1").val();
         var state = localStorage.getItem("state")
-        var url=''
-        if(state)
-        {
-          url = "https://hoadondientu.gdt.gov.vn:30000/query/invoices/sold?sort=tdlap:desc,khmshdon:asc,shdon:desc&size=50&state="+state+"&search=tdlap=ge=01/"+field1+"/2022T00:00:00;tdlap=le=31/"+field1+"/2023T23:59:59"
+        var url = ''
+        if (state) {
+          url = "https://hoadondientu.gdt.gov.vn:30000/query/invoices/sold?sort=tdlap:desc,khmshdon:asc,shdon:desc&size=50&state=" + state + "&search=tdlap=ge=01/" + field1 + "/2023T00:00:00;tdlap=le=31/" + field1 + "/2023T23:59:59"
 
         }
-        else{
-          url = "https://hoadondientu.gdt.gov.vn:30000/query/invoices/sold?sort=tdlap:desc,khmshdon:asc,shdon:desc&size=50&search=tdlap=ge=01/"+field1+"/2022T00:00:00;tdlap=le=31/"+field1+"/2023T23:59:59"
+        else {
+          url = "https://hoadondientu.gdt.gov.vn:30000/query/invoices/sold?sort=tdlap:desc,khmshdon:asc,shdon:desc&size=50&search=tdlap=ge=01/" + field1 + "/2023T00:00:00;tdlap=le=31/" + field1 + "/2023T23:59:59"
         }
         var settings = {
           "url": url,
@@ -107,54 +105,60 @@
           },
         };
         $.ajax(settings).done(function (response) {
-         localStorage.setItem("state", response.state);
-          response.datas.forEach((v,k) => {
+          localStorage.setItem("state", response.state);
+          response.datas.forEach((v, k) => {
             // console.log(v.shdon);
-            const item ={}
+            const item = {}
             item.Dulieu = v
             item.SHD = v.shdon
             item.Ngaytao = new Date(v.nlap)
             setTimeout(() => {
-            CreateListHoadon(item)
-            }, k*7000);
+              CreateListHoadon(item)
+            }, k * 700);
           });
         });
       }
 
-      function GetListMuavaoServer(page,perPage) {
-          var settings = {
-            "url": "http://localhost:3100/muavao/pagination?page="+page+"&perPage="+perPage,
-            "method": "GET",
-            "timeout": 0,
-          };
-          $.ajax(settings).done(function (response) {
-            response.data.forEach((v,k)=>
-            {
-              setTimeout(() => {
-                LoadMuavaoChitiet(v.Dulieu.nbmst,v.Dulieu.khhdon,v.SHD)
-              }, 7000*k);
+      function GetListMuavaoServer(page, perPage) {
+        var settings = {
+          "url": "http://localhost:3100/muavao/pagination?page=" + page + "&perPage=" + perPage,
+          "method": "GET",
+          "timeout": 0,
+        };
+        $.ajax(settings).done(function (response) {
+          response.data.forEach((v, k) => {
+            setTimeout(() => {
+              LoadMuavaoChitiet(v.Dulieu.nbmst, v.Dulieu.khhdon, v.SHD)
+            }, 700 * k);
 
-            })
-          });
+          })
+        });
       }
-      function getMuavaoByDate(Begin,End) {
-          var settings = {
-            "url": "http://localhost:3100/muavao",
-            "method": "GET",
-            "timeout": 0,
-          };
-          $.ajax(settings).done(function (response) {
-            console.log(response);
-            response.forEach((v,k)=>
-            {
-              setTimeout(() => {
-                LoadMuavaoChitiet(v.Dulieu.nbmst,v.Dulieu.khhdon,v.SHD)
-              }, 7000*k);
+      function getMuavaoByDate(Begin, End) {
+        console.log(new Date(Begin), new Date(End));
+        var settings = {
+          "url": "http://localhost:3100/muavao/finddate",
+          "method": "POST",
+          "timeout": 0,
+          "headers": {
+            "Content-Type": "application/json",
+          },
+          "data": JSON.stringify({
+            "begin": Begin,
+            "end": End
+          }),
+        };
+        $.ajax(settings).done(function (response) {
+          console.log(response);
+          response.forEach((v, k) => {
+            setTimeout(() => {
+              LoadMuavaoChitiet(v.Dulieu.nbmst, v.Dulieu.khhdon, v.SHD)
+            }, 700 * k);
 
-            })
-          });
+          })
+        });
       }
-      function LoadMuavaoChitiet(nbmst,khhdon,SHD) {
+      function LoadMuavaoChitiet(nbmst, khhdon, SHD) {
         var settings = {
           "url": "https://hoadondientu.gdt.gov.vn:30000/query/invoices/detail?nbmst=" + nbmst + "&khhdon=" + khhdon + "&shdon=" + SHD + "&khmshdon=1",
           "method": "GET",
@@ -164,7 +168,7 @@
           },
         };
         $.ajax(settings).done(function (response) {
-          const item ={}
+          const item = {}
           item.SHD = SHD
           item.Dulieu = response
           item.Ngaytao = new Date(response.tdlap)
@@ -173,21 +177,20 @@
       }
 
 
-      function GetListBanraServer(page,perPage) {
-          var settings = {
-            "url": "http://localhost:3100/banra/pagination?page="+page+"&perPage="+perPage,
-            "method": "GET",
-            "timeout": 0,
-          };
-          $.ajax(settings).done(function (response) {
-            response.data.forEach((v,k)=>
-            {
-              setTimeout(() => {
-                LoadHoadonchitiet(v.SHD)
-              }, 7000*k);
+      function GetListBanraServer(page, perPage) {
+        var settings = {
+          "url": "http://localhost:3100/banra/pagination?page=" + page + "&perPage=" + perPage,
+          "method": "GET",
+          "timeout": 0,
+        };
+        $.ajax(settings).done(function (response) {
+          response.data.forEach((v, k) => {
+            setTimeout(() => {
+              LoadHoadonchitiet(v.SHD)
+            }, 700 * k);
 
-            })
-          });
+          })
+        });
       }
 
       function CreateListHoadon(item) {
@@ -202,7 +205,7 @@
         };
 
         $.ajax(settings).done(function (response) {
-         console.log(response);
+          console.log(response);
         });
       }
 
@@ -263,7 +266,7 @@
           },
         };
         $.ajax(settings).done(function (response) {
-          const item ={}
+          const item = {}
           item.SHD = SHD
           item.Dulieu = response
           item.Ngaytao = new Date(response.ntao)
@@ -292,19 +295,20 @@
 </head>
 
 <body>
-  <input type="text" id="field1" name="field1" placeholder="Field 1"/>
-  <input type="text" id="field2" name="field2" placeholder="Field 2"/>
+  <input type="text" id="field1" name="field1" placeholder="Field 1" />
+  <input type="text" id="field2" name="field2" placeholder="Field 2" />
   <button id="Muavaochitiet">Mua Vào Chi Tiết</button>
-  <div> 
-     <input type="text" id="field3" name="field3" placeholder="Field 3"/>
-    <input type="text" id="field4" name="field4" placeholder="Field 4"/>
-    <button id="Banrachitiet">Bán Ra Chi Tiết</button></div>
   <div>
-    <input type="text" id="banra1" name="banra1" placeholder="Tháng Bán Ra"/>
+    <input type="text" id="field3" name="field3" placeholder="Field 3" />
+    <input type="text" id="field4" name="field4" placeholder="Field 4" />
+    <button id="Banrachitiet">Bán Ra Chi Tiết</button>
+  </div>
+  <div>
+    <input type="text" id="banra1" name="banra1" placeholder="Tháng Bán Ra" />
     <button id="BanraButton">Bán Ra</button>
   </div>
   <div>
-    <input type="text" id="muavao1" name="muavao1" placeholder="Tháng Mua Vào"/>
+    <input type="text" id="muavao1" name="muavao1" placeholder="Tháng Mua Vào" />
     <button id="MuavaoButton">Mua Vào</button>
   </div>
 </body>

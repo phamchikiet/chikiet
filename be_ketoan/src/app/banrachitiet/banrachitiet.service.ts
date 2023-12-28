@@ -10,15 +10,15 @@ export class BanrachitietService {
     @InjectRepository(BanrachitietEntity)
     private BanrachitietRepository: Repository<BanrachitietEntity>
   ) {}
-  async create(CreateBanrachitietDto: any) {
-    const item = await this.findSHD(CreateBanrachitietDto.SHD)
+  async create(data: any) {
+    const item = await this.findSHD(data)
     if(item)
     {
       return "Trùng SHD"
     }
     else {
-      this.BanrachitietRepository.create(CreateBanrachitietDto);
-      return await this.BanrachitietRepository.save(CreateBanrachitietDto);
+      this.BanrachitietRepository.create(data);
+      return await this.BanrachitietRepository.save(data);
     }
   }
   async findAll() {
@@ -35,9 +35,12 @@ export class BanrachitietService {
       where: { Slug: slug},
     });
   }
-  async findSHD(slug: any) {
+  async findSHD(data: any) {
     return await this.BanrachitietRepository.findOne({
-      where: { SHD: slug},
+      where: { 
+        SHD: data.SHD,
+        Ngaytao:new Date(data.Ngaytao)
+      },
     });
   }
   async findPagination(page: number, perPage: number){
