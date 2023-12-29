@@ -28,7 +28,10 @@
         </mat-select>
       </mat-form-field>
       <!-- <span (click)="Xoa()">Xoá</span> -->
-    
+      <button mat-icon-button (click)="FilterHoadon()"><span class="material-symbols-outlined">
+        filter_alt
+        </span></button>
+      <button mat-stroked-button (click)="UpdateStatus()">UpStatus</button>
   </div>
     <div class="">
       <table mat-table [dataSource]="dataSource" matSort>
@@ -69,15 +72,17 @@
         <ng-container matColumnDef="thtttoan">
           <th mat-header-cell *matHeaderCellDef mat-sort-header> Tông Thanh Toán </th>
           <td mat-cell *matCellDef="let row"> {{row.thtttoan}} </td>
-          <td mat-footer-cell *matFooterCellDef class="text-right font-bold">{{Subtotal(Listfilter,'thtttoan')|number:'1.0-2'}} </td>
+          <td mat-footer-cell *matFooterCellDef class="text-right font-bold"></td>
         </ng-container>
         <ng-container matColumnDef="action">
           <th mat-header-cell *matHeaderCellDef mat-sort-header> Action </th>
           <td mat-cell *matCellDef="let row"> 
-              {{row.Status}}
+            <div class="flex flex-row space-x-2">
             <button mat-stroked-button (click)="Update(row)">Chọn</button> 
+            <button mat-stroked-button (click)="Delete(row.idServer)">Xoá</button> 
+          </div>
           </td>
-          <td mat-footer-cell *matFooterCellDef class="text-right font-bold">{{Subtotal(Listfilter,'thtttoan')|number:'1.0-2'}} </td>
+          <td mat-footer-cell *matFooterCellDef class="text-right font-bold"></td>
         </ng-container>
         <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
         <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>

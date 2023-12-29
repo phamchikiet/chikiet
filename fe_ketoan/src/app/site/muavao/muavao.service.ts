@@ -67,7 +67,7 @@ export class MuavaoService {
   }
   async getAllMuavaoChitiet() {
     try {
-          const response = await fetch(environment.APIURL + '/muavaochitiet/pagination?page=1&perPage=5000');
+          const response = await fetch(environment.APIURL + '/muavaochitiet');
           const data = await response.json();
           // const Batdau = new Date('2023-11-01')
           // const Ketthuc = new Date('2023-11-31')
@@ -79,6 +79,23 @@ export class MuavaoService {
           // )
           // console.log('Muavao',data2);
           this._muavaochitiets.next(data);
+      } catch (error) {
+          return console.error(error);
+      }
+  }
+  async UpdateMuavaoChitiet(item:any) {
+    try {
+        const options = {
+            method:'PATCH',
+            headers: {
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(item),
+          };
+          const response = await fetch(`${environment.APIURL}/muavaochitiet/${item.id}`, options);
+          const result = await response.json();
+          console.log(result);
+          
       } catch (error) {
           return console.error(error);
       }

@@ -6,71 +6,158 @@ import { MatInputModule } from '@angular/material/input';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { CommonModule } from '@angular/common';
 import * as XLSX from 'xlsx';
-import { BanraService } from './banra.service';
-import { MatButtonModule } from '@angular/material/button';
-import { MatNativeDateModule } from '@angular/material/core';
+import { BanraService } from '../banra.service';
 import { MatDatepickerModule } from '@angular/material/datepicker';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { MatButtonModule } from '@angular/material/button';
+import { MatNativeDateModule } from '@angular/material/core';
+import { MatSelectChange, MatSelectModule } from '@angular/material/select';
+import { SHDBanra } from '../banra';
 @Component({
-  selector: 'app-banra',
+  selector: 'app-banra-chitiet',
   standalone: true,
-  imports: [CommonModule, MatFormFieldModule, MatInputModule, MatTableModule, MatSortModule, MatPaginatorModule,
+  imports: [CommonModule, 
+    MatDatepickerModule,
+    FormsModule,
+    ReactiveFormsModule,
+    MatFormFieldModule, 
+    MatInputModule, 
+    MatTableModule, 
+    MatSortModule, 
+    MatPaginatorModule,
+    MatFormFieldModule, 
+    MatInputModule, 
+    MatTableModule, 
+    MatSortModule, 
+    MatPaginatorModule,
     MatFormFieldModule,
     MatInputModule,
     MatDatepickerModule,
     MatNativeDateModule,
     MatButtonModule,
     ReactiveFormsModule,
+    MatSelectModule,
     FormsModule
   ],
-  templateUrl: './banra.component.html',
-  styleUrls: ['./banra.component.css']
+  templateUrl: './banra-chitiet.component.html',
+  styleUrls: ['./banra-chitiet.component.css']
 })
-export class BanraComponent implements OnInit {
-
+export class BanraChitietComponent implements OnInit {
+  Chonngay: any = { Batdau: new Date('2022-01-01'), Ketthuc: new Date('2024-01-01') }
   _BanraService: BanraService = inject(BanraService);
-  displayedColumns: string[] = ['shdon', 'nbten', 'tgtcthue', 'tgtthue', 'tgtttbso', 'thtttoan','action'];
+  displayedColumns: string[] = ['ten','ttxly','SHD', 'soluong', 'dgia', 'thanhtien', 'dvtinh','Ngaytao', 'loai'];
   dataSource!: MatTableDataSource<any>;
   List: any[] = []
-  Listfilter: any[] = []
-  Chonngay: any = { Batdau: new Date('2023-10-01'), Ketthuc: new Date('2023-11-30') }
+  List1: any[] = []
+  List2: any[] = []
+  List3: any[] = []
+  data2: any[] = []
+  isFilter:boolean=false
+  ttxly:any=5
+  SHDBanra:any=SHDBanra
   @ViewChild(MatPaginator) paginator!: MatPaginator;
   @ViewChild(MatSort) sort!: MatSort;
   constructor() {
-    this._BanraService.ListBanras()
-    this._BanraService.banras$.subscribe((data: any) => {
+    this._BanraService.getAllBanraChitiet()
+    this._BanraService.banrachitiets$.subscribe((data: any) => {
       if (data) {
-        this.List =data
-        this.Listfilter = data.filter((v: any) => {
-          const Ngaytao = new Date(v.Dulieu.tdlap)
-          return Ngaytao.getTime() >= this.Chonngay.Batdau.getTime() && Ngaytao.getTime() <= this.Chonngay.Ketthuc.getTime()
-        })
-       // this.Listfilter =data2.map((v:any) => [...v.Dulieu,{id:v.id},{Status:v.Status}]);
-      //  this.List = data.filter((v: any) => {
-      //   const Ngaytao = new Date(v.Dulieu.tdlap)
-      //   const Batdau = new Date('2023-01-01')
-      //   const Ketthuc = new Date('2023-01-31')
-      //   return Ngaytao.getTime() >= Batdau.getTime() && Ngaytao.getTime() <= Ketthuc.getTime()
-      // })
-      // this.List.forEach(v => {
-      //   this._BanraService.DeleteBanra(v.id)
-      // });
-      console.log(this.List);
-      }
+        let data2:any
+        console.log(data);
+        data = data.filter((v:any)=>SHDBanra.some((v1)=>v1.SHDMV == v.SHD))
+       // data = data.filter((v:any)=>v.Status==3)
+        console.log(data);
+        // data.forEach((v:any) => {          
+        //   v.Status =3
+        //   this._BanraService.UpdateBanraChitiet(v)
+        // });
+       // data2 = SHDBanra.filter((v:any)=>!data.some((v1:any)=>v1.SHD == v.SHDMV))
+      // console.log(data2);
+        this.List = data.map((v:any) =>({...{ idServer: v.id },...v.Dulieu}));
+        this.List.forEach((v: any) => {
+          if (v.hdhhdvu.length > 0) {
+            v.hdhhdvu = v.hdhhdvu.map((v1: any) => {
+              const item = { ...v1,...{ idServer: v.idServer },...{ SHD: v.shdon },...{ ttxly: v.ttxly },...{ Ngaytao: new Date(v.tdlap) } }
+              return item
+            });
+          }
+          this.data2 = [...this.data2, ...v.hdhhdvu]
+        });
+     // console.log(this.data2);
+       this.List1 = this.data2.map((v: any) => ({ ten: v.ten,idServer: v.idServer, soluong: v.sluong, ttxly: v.ttxly,SHD: v.SHD,Ngaytao: v.Ngaytao, dgia: v.dgia,thtien: v.thtien, thanhtien: v.sluong * v.dgia, dvtinh: v.dvtinh, loai: "Nhap" }))
+       this.List2 = this.List1
+       
+      //  this.List2 = this.List1
+      //     .filter((obj, i) => this.List1.findIndex(o => o.ten === obj.ten) === i)
+      //     .map(obj => ({
+      //       ten: obj.ten,
+      //       SHD: obj.SHD,
+      //       Ngaytao: obj.Ngaytao,
+      //       soluong: this.List1.filter(o => o.ten === obj.ten).reduce((total, o) => total + o.soluong, 0),
+      //       thanhtien: this.List1.filter(o => o.ten === obj.ten).reduce((total, o) => total + o.thanhtien, 0),
+      //       dgia: obj.dgia,
+      //       dvtinh: obj.dvtinh,
+      //       loai: "Nhap"
+      //     }));          
 
-      this.dataSource = new MatTableDataSource(this.Listfilter);
-      this.dataSource.paginator = this.paginator;
-      this.dataSource.sort = this.sort;
+       this.dataSource = new MatTableDataSource(this.List2);
+       this.dataSource.paginator = this.paginator;
+       this.dataSource.sort = this.sort;
+       console.log(this.List1);
+      }
     })
   }
   ngOnInit(): void { }
   ChangeDate() {
     // v.Status==2 && 
-    this.Listfilter = this.List.filter((v: any) => {
-      const Ngaytao = new Date(v.Dulieu.tdlap)
-        return Ngaytao.getTime() >= this.Chonngay.Batdau.getTime() && Ngaytao.getTime() <= this.Chonngay.Ketthuc.getTime()
+    this.List2 = this.List1.filter((v: any) => {
+      const Ngaytao = new Date(v.Ngaytao)
+        return v.ttxly==this.ttxly && Ngaytao.getTime() >= this.Chonngay.Batdau.getTime() && Ngaytao.getTime() <= this.Chonngay.Ketthuc.getTime()
       })
-      this.dataSource = new MatTableDataSource(this.Listfilter);
+      this.dataSource = new MatTableDataSource(this.List2);
+      this.dataSource.paginator = this.paginator;
+      this.dataSource.sort = this.sort;
+  }
+  FilterHoadon()
+  {
+    this.isFilter=!this.isFilter
+    if(this.isFilter)
+    {
+        // this.List3 = this.List1.filter((obj, index, self) => {
+        //   return index === self.findIndex((o) => o.SHD === obj.SHD);
+        // });
+
+
+       this.List3 = this.List1
+          .filter((obj, i) => this.List1.findIndex(o => o.SHD === obj.SHD) === i)
+          .map(obj => ({
+            ten: obj.ten,
+            SHD: obj.SHD,
+            Ngaytao: obj.Ngaytao,
+            soluong: this.List1.filter(o => o.SHD === obj.SHD).reduce((total, o) => total + o.soluong, 0),
+            thanhtien: this.List1.filter(o => o.SHD === obj.SHD).reduce((total, o) => total + o.thanhtien, 0),
+            dgia: obj.dgia,
+            dvtinh: obj.dvtinh,
+            loai: "Nhap"
+          }));  
+
+
+        this.dataSource = new MatTableDataSource(this.List3);
+        this.dataSource.paginator = this.paginator;
+        this.dataSource.sort = this.sort;
+    }
+    else{
+        this.dataSource = new MatTableDataSource(this.List1);
+        this.dataSource.paginator = this.paginator;
+        this.dataSource.sort = this.sort;
+    }
+
+  }
+  onSelectChange(event: MatSelectChange) {
+    this.List2 = this.List1.filter((v: any) => {
+      const Ngaytao = new Date(v.Ngaytao)
+      return v.ttxly==event.value && Ngaytao.getTime() >= this.Chonngay.Batdau.getTime() && Ngaytao.getTime() <= this.Chonngay.Ketthuc.getTime()
+    })
+      this.dataSource = new MatTableDataSource(this.List2);
       this.dataSource.paginator = this.paginator;
       this.dataSource.sort = this.sort;
   }
@@ -90,33 +177,21 @@ export class BanraComponent implements OnInit {
     window.URL.revokeObjectURL(url);
     link.remove();
   }
-  ngAfterViewInit() {
-    this.dataSource.paginator = this.paginator;
-    this.dataSource.sort = this.sort;
-  }
-  Subtotal(items:any[],field:any)
-  {
-    if(items.length>0)
-    {
-    const totalSum = items.reduce((total:any, item:any) => total + item.Dulieu[field], 0);
-    return totalSum
-    }
-    else return 0
-  }
-  Update(item:any)
-  {
-    console.log(item);
-    item.Status = 2
-    this._BanraService.UpdateBanra(item)
-  }
   applyFilter(event: Event) {
     const filterValue = (event.target as HTMLInputElement).value;
-    this.dataSource.filter = filterValue.trim().toLowerCase();    
+    this.dataSource.filter = filterValue.trim().toLowerCase();
     if (this.dataSource.paginator) {
       this.dataSource.paginator.firstPage();
     }
-    console.log(this.dataSource.filteredData);
-    
+  }
+  Subtotal(items:any[],field:any)
+  {    
+    if(items.length>0)
+    {
+    const totalSum = items.reduce((total:any, item:any) => total + item[field], 0);    
+    return totalSum
+    }
+    else return 0
   }
 }
 
