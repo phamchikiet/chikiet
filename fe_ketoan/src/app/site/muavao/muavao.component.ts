@@ -127,6 +127,8 @@ export class MuavaoComponent implements OnInit {
   FilterHoadon()
   {
     this.Listfilter = this.Listfilter.filter((v)=>SHDMuavao.some((v1)=>v1.SHDMV == v.shdon))
+    console.log(this.Listfilter);
+    
     this.dataSource = new MatTableDataSource(this.Listfilter);
     this.dataSource.paginator = this.paginator;
     this.dataSource.sort = this.sort;

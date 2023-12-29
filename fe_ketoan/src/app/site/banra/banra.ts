@@ -1,4 +1,4 @@
-export const SHDBR= [
+export const SHDBanra= [
     {
         "SHDBR": 644
     },

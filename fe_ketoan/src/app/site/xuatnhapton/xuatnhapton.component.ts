@@ -55,7 +55,7 @@ export class XuatnhaptonComponent implements OnInit {
        this.ListMuavao = data2.map((v: any) => ({ ten: v.ten, soluong: v.sluong,SHD: v.SHD,Ngaytao: v.Ngaytao, dgia: v.dgia, thanhtien: v.sluong * v.dgia, dvtinh: v.dvtinh, loai: "Nhap" }))
       }
     })
-    this._BanraService.getBanrachitiets()
+    this._BanraService.getAllBanraChitiet()
     this._BanraService.banrachitiets$.subscribe((data: any) => {
       let data2:any[] = []
       if (data) {

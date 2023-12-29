@@ -5,6 +5,7 @@ import { BanraComponent } from './site/banra/banra.component';
 import { BanraChitietComponent } from './site/banra/banra-chitiet/banra-chitiet.component';
 import { CauhinhComponent } from './site/cauhinh/cauhinh.component';
 import { XuatnhaptonComponent } from './site/xuatnhapton/xuatnhapton.component';
+import { CauhinhDetailComponent } from './site/cauhinh/cauhinh-detail/cauhinh-detail.component';
 
 export const appRoutes: Route[] = [
     { path: '', redirectTo: 'muavao', pathMatch: 'full' },
@@ -12,6 +13,11 @@ export const appRoutes: Route[] = [
         path: 'cauhinh',
         component: CauhinhComponent,
         title: 'Cấu Hình'
+    },
+    {
+        path: 'test',
+        component: CauhinhDetailComponent,
+        title: 'Test'
     },
     {
         path: 'muavao',

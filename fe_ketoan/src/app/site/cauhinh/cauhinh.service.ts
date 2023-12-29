@@ -68,6 +68,20 @@ export class CauhinhService {
           return console.error(error);
       }
   }
+  async FindHoadon(thang: any,SHD: any) {
+    const headers = new Headers({ Authorization: environment.Token });
+    //const URL = "https://hoadondientu.gdt.gov.vn:30000/query/invoices/purchase?sort=tdlap:desc,khmshdon:asc,shdon:desc&size=50&search=tdlap=ge=01/"+thang+"/2023T00:00:00;tdlap=le=31/"+thang+"/2023T23:59:59;shdon==6563"
+    const URL = `https://hoadondientu.gdt.gov.vn:30000/query/invoices/sold?sort=tdlap:desc,khmshdon:asc,shdon:desc&size=15&search=tdlap=ge=01/${thang}/2023T00:00:00;tdlap=le=31/${thang}/2023T22:59:59;shdon==${SHD}`
+    const response = await fetch(URL, {
+      method: "GET",
+      headers,
+    });
+    const result = await response.json();
+    console.log(result);
+    return result
+  }
+
+  
   // getAllCauhinhs() {
   //   return this.http.get(environment.APIURL + '/cauhinh').pipe(
   //     map((data: any) => { 
