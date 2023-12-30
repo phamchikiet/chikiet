@@ -10,10 +10,8 @@ export class SohoadonService {
     @InjectRepository(SohoadonEntity)
     private SohoadonRepository: Repository<SohoadonEntity>
   ) { }
-  async create(CreateSohoadonDto: any) {
-    console.log(CreateSohoadonDto);
-    
-    const item = await this.findSHD(CreateSohoadonDto.shdon)
+  async create(CreateSohoadonDto: any) {    
+    const item = await this.findSHD(CreateSohoadonDto)
     console.log(item);
     
     if (item) {
@@ -28,9 +26,9 @@ export class SohoadonService {
   async findAll() {
     return await this.SohoadonRepository.find();
   }
-  async findSHD(shdon: any) {
+  async findSHD(data: any) {
     return await this.SohoadonRepository.findOne({
-      where: { shdon: shdon },
+      where: { shdon: data.shdon,Loai:data.Loai },
     });
   }
   async findid(id: string) {

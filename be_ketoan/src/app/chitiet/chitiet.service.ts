@@ -43,7 +43,9 @@ export class ChitietService {
   }
   async findSHD(idChitiet: any) {
     return await this.ChitietRepository.findOne({
-      where: { idChitiet: idChitiet},
+      where: { 
+        idChitiet: idChitiet
+      },
     });
   }
   async findPagination(page: number, perPage: number){
