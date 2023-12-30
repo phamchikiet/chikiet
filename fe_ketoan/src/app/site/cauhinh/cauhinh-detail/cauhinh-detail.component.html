@@ -53,6 +53,9 @@
   <button mat-raised-button (click)="LoadSLCT()">
     5.Số Lượng HDCT    ({{ListChitiet.length||0}})
   </button>
+  <button mat-raised-button (click)="TinhNhap()">
+    6.Tính Nhập    ({{FilterXNT.length||0}})
+  </button>
 </div>
 <div class="flex flex-row space-x-2 items-center">
   <button mat-raised-button (click)="FindBanra()">
@@ -111,6 +114,6 @@
   <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
   <tr mat-footer-row *matFooterRowDef="displayedColumns"></tr>
 </table>
-<mat-paginator [pageSizeOptions]="[5, 100, ListChitiet.length]"></mat-paginator>
+<mat-paginator [pageSizeOptions]="[5, 100, Paginall]"></mat-paginator>
 
 </div>

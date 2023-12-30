@@ -58,6 +58,8 @@ export class CauhinhDetailComponent implements OnInit {
   ListSHDChitiet: any[] = []
   ListHD: any[] = []
   ListChitiet: any[] = []
+  FilterXNT: any[] = []
+  Paginall:any=0
   @ViewChild(MatPaginator) paginator!: MatPaginator;
   @ViewChild(MatSort) sort!: MatSort;
   _CauhinhService: CauhinhService = inject(CauhinhService);
@@ -95,9 +97,27 @@ export class CauhinhDetailComponent implements OnInit {
     this.dataSource = new MatTableDataSource(this.ListChitiet);
     this.dataSource.paginator = this.paginator;
     this.dataSource.sort = this.sort;
+    this.Paginall = this.ListChitiet.length;
   }
-  LoadTable() {
-
+  LoadTable() {}
+  TinhNhap()
+  {
+    this.FilterXNT = this.ListChitiet
+    .filter((obj, i) => this.ListChitiet.findIndex(o => o.ten === obj.ten) === i)
+    .map(obj => ({
+      ten: obj.ten,
+      shdon: obj.shdon,
+      Ngay: obj.Ngay,
+      sluong: this.ListChitiet.filter(o => o.ten === obj.ten).reduce((total, o) => total + o.sluong, 0),
+      thtien: this.ListChitiet.filter(o => o.ten === obj.ten).reduce((total, o) => total + o.thtien, 0),
+      dgia: obj.dgia,
+      dvtinh: obj.dvtinh,
+      Loai: obj.Loai
+    }));  
+    this.dataSource = new MatTableDataSource(this.FilterXNT);
+    this.dataSource.paginator = this.paginator;
+    this.dataSource.sort = this.sort;
+    this.Paginall = this.FilterXNT.length;
   }
   async LoadSoluong(Loai: any) {
     const data = await this._CauhinhService.getHoadon(this.thangluu, this.namluu, Loai)
