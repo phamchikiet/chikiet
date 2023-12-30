@@ -14,6 +14,7 @@ import { MatSelectChange, MatSelectModule } from '@angular/material/select';
 import { Data } from './data';
 import { CauhinhService } from '../cauhinh.service';
 import { HDMV } from './hoadont1';
+import { HDBR } from './hdbr';
 @Component({
   selector: 'app-cauhinh-detail',
   standalone: true,
@@ -36,7 +37,7 @@ import { HDMV } from './hoadont1';
   styleUrls: ['./cauhinh-detail.component.css']
 })
 export class CauhinhDetailComponent implements OnInit {
-  displayedColumns: string[] = ['ten', 'shdon', 'sluong', 'dgia', 'thtien','Ngay', 'Loai'];
+  displayedColumns: string[] = ['ten', 'shdon', 'sluong', 'dgia', 'thtien', 'Ngay', 'Loai'];
   dataSource!: MatTableDataSource<any>;
   List: any[] = []
   ListInit: any[] = []
@@ -44,16 +45,19 @@ export class CauhinhDetailComponent implements OnInit {
   Listfilter: any[] = []
   Chonngay: any = { Batdau: new Date('2022-01-01'), Ketthuc: new Date('2024-01-01') }
   ttxly: any = 5
-  thangtim: any
-  thangluu: any
-  namtim: any
-  namluu: any
+  thangtim: any = '01'
+  thangluu: any = '01'
+  namtim: any = '2023'
+  namluu: any = '2023'
   Data1: any = Data
   HDMV: any = HDMV
-  HDBR: any[] = []
+  HDBR: any = HDBR
   LoadData: any[] = []
-  HoadonServer:any=0
-  ListSHD:any[] =[]
+  HoadonServer: any = 0
+  ListSHD: any[] = []
+  ListSHDChitiet: any[] = []
+  ListHD: any[] = []
+  ListChitiet: any[] = []
   @ViewChild(MatPaginator) paginator!: MatPaginator;
   @ViewChild(MatSort) sort!: MatSort;
   _CauhinhService: CauhinhService = inject(CauhinhService);
@@ -61,56 +65,74 @@ export class CauhinhDetailComponent implements OnInit {
   FindHoadon() {
     this.ListSHD.forEach((v: any, k: any) => {
       setTimeout(async () => {
-        this._CauhinhService.FindHoadon(this.thangtim,this.thangluu, this.namtim,this.namluu,this.ttxly, v.SHDMV)
-        // const data = await this._CauhinhService.FindHoadon(this.thang, this.nam,this.ttxly, v.SHDMV)
-        // if (data) {
-        //   // this.HDBR = [...this.HDBR,...data] 
-        //   // console.log(this.HDBR.map((v)=>({nbmst: v.nbmst,khhdon: v.khhdon,shdon: v.shdon}))) 
-        //   const data1 = data.map((v: any) => ({ nbmst: v.nbmst, khhdon: v.khhdon, shdon: v.shdon }))
-        //   if (data1.length > 0) {
-        //     console.log(data1);
-        //     data1.forEach((v1: any, k1: any) => {
-        //       setTimeout(async () => {
-        //         const result = await this._CauhinhService.FindChitietHoadon(v1.nbmst, v1.khhdon, v1.shdon,'NHAP')
-        //         this.LoadData = [...this.LoadData,...result]
-        //       }, k1 * 700);
-        //     });
-        //   }
-        // }
-      }, k * 10);
+        this._CauhinhService.FindHoadon(this.thangtim, this.thangluu, this.namtim, this.namluu, this.ttxly, v.SHDMV, 'NHAP')
+      }, k * 1000);
     });
   }
-  LoadTable()
-  {
+  FindChitiet() {
+    this.HoadonServer.forEach((v: any, k: any) => {
+      setTimeout(async () => {
+        this._CauhinhService.FindChitietHoadon(v.nbmst, v.khhdon, v.shdon, v.Loai, this.thangluu, this.namluu)
+      }, k * 1000);
+    });
+  }
+  FindBanra() {
+    this.ListSHD.forEach((v: any, k: any) => {
+      setTimeout(async () => {
+        this._CauhinhService.FindBanra(this.thangtim, this.thangluu, this.namtim, this.namluu, v.SHDMV, 'XUAT')
+      }, k * 1000);
+    });
+  }
+  FindCTBanra() {
+    this.HoadonServer.forEach((v: any, k: any) => {
+      setTimeout(async () => {
+        this._CauhinhService.FindChitietBanra(v.nbmst, v.khhdon, v.shdon, v.Loai, this.thangluu, this.namluu)
+      }, k * 1000);
+    });
+  }
+  async LoadHDChitiet(Loai:any) {
+    this.ListChitiet = await this._CauhinhService.getListChitiet(this.thangluu, this.namluu,Loai)
+    this.dataSource = new MatTableDataSource(this.ListChitiet);
+    this.dataSource.paginator = this.paginator;
+    this.dataSource.sort = this.sort;
+  }
+  LoadTable() {
 
   }
-  async LoadSoluong()
-  {
-    const data = await this._CauhinhService.getHoadon(this.thangluu,this.namluu)
-    this.HoadonServer =data.length
-    const dataIds = new Set(this.HDMV.map((obj:any) => obj.SHDMV));
-    const data1Ids = new Set(data.map((obj:any) => Number(obj.shdon)));
-    this.ListSHD = this.HDMV.filter((obj:any) => !data1Ids.has(obj.SHDMV));
-    console.log(this.ListSHD);
-   }
-  ngOnInit() {
-    // this.Data1.forEach((v: any) => {
-    //   v.Tongtien = Number(v.Tongtien)
-    // })
-    // this.Data1 = this.Data1
-    //   .filter((obj: { Tenhang: any; }, i: any) => this.Data1.findIndex((o: { Tenhang: any; }) => o.Tenhang === obj.Tenhang) === i)
-    //   .map((obj: { Tenhang: any; SHD: any; Gia: any; Loai: any; }) => ({
-    //     Tenhang: obj.Tenhang,
-    //     SHD: obj.SHD,
-    //     Soluong: this.Data1.filter((o: { Tenhang: any; }) => o.Tenhang === obj.Tenhang).reduce((total: any, o: { Soluong: any; }) => total + o.Soluong, 0),
-    //     Tongtien: this.Data1.filter((o: { Tenhang: any; }) => o.Tenhang === obj.Tenhang).reduce((total: any, o: { Tongtien: any; }) => total + o.Tongtien, 0),
-    //     Gia: obj.Gia,
-    //     Loai: obj.Loai,
-    //   }));
-    // this.dataSource = new MatTableDataSource(this.Data1);
-    // this.dataSource.paginator = this.paginator;
-    // this.dataSource.sort = this.sort;
+  async LoadSoluong(Loai: any) {
+    const data = await this._CauhinhService.getHoadon(this.thangluu, this.namluu, Loai)
+    this.HoadonServer = data;
+    this.HoadonServer.forEach((v: any) => { v.shdon = Number(v.shdon) })
+    //const dataIds = new Set(this.HDMV.map((obj:any) => obj.SHDMV));
+    const data1Ids = new Set(data.map((obj: any) => Number(obj.shdon)));
+    if (Loai == 'NHAP') {
+      this.ListSHD = this.HDMV.filter((obj: any) => !data1Ids.has(obj.SHDMV));
+      console.log(this.ListSHD);
+    }
+    else {
+      this.ListSHD = this.HDBR.filter((obj: any) => !data1Ids.has(obj.SHDMV));
+      console.log(this.ListSHD);
+    }
+
   }
+  async LoadSLCT() {
+    this.ListChitiet = Array.from(
+      new Set(this.ListChitiet.map(obj => Number(obj.shdon)))
+    ).map(shdon => this.ListChitiet.find(obj => Number(obj.shdon) === Number(shdon)))
+
+    //const dataIds = new Set(this.HDMV.map((obj:any) => obj.SHDMV));
+    const data1Ids = new Set(this.ListChitiet.map((obj: any) => Number(obj.shdon)));
+    console.log(data1Ids);
+
+    this.HoadonServer = this.HoadonServer.filter((obj: any) => !data1Ids.has(obj.shdon));
+
+    console.log(this.HoadonServer);
+
+  }
+  async LoadHoadon(Loai: any) {
+    this.ListHD = await this._CauhinhService.getHoadon(this.thangluu, this.namluu, Loai)
+  }
+  ngOnInit() { }
   ChangeDate() {
     this.Listfilter = this.List.filter((v: any) => {
       const Ngaytao = new Date(v.tdlap)
