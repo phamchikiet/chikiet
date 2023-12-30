@@ -18,9 +18,9 @@ export class SohoadonController {
   async findOne(@Param('id') id: string) {
     return await this.sohoadonService.findid(id);
   }
-  @Get('sltheothang/:thang')
-  async findThang(@Param('thang') thang: any) {
-    return await this.sohoadonService.findThang(thang);
+  @Post('sltheothang')
+  async findThang(@Body() data: any) {
+    return await this.sohoadonService.findThang(data);
   }
   @Get('findslug/:slug')
   async findslug(@Param('slug') slug: string) {

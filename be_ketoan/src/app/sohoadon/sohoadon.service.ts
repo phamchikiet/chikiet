@@ -39,9 +39,12 @@ export class SohoadonService {
 
     });
   }
-  async findThang(thang: any) {
+  async findThang(data: any) {
     return await this.SohoadonRepository.find({
-      where: { thang: thang },
+      where: { 
+        thang: data.thang,
+         nam: data.nam
+      },
 
     });
   }
