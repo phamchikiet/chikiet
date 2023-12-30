@@ -46,15 +46,25 @@ export class CauhinhDetailComponent implements OnInit {
   ttxly:any=5
   Data1:any = Data
   HDMV:any = HDMV
+  HDBR:any[]=[]
   @ViewChild(MatPaginator) paginator!: MatPaginator;
   @ViewChild(MatSort) sort!: MatSort;
   _CauhinhService: CauhinhService = inject(CauhinhService);
   constructor() {}
   FindHoadon()
   {
-    this.HDMV.forEach((v:any) => {
-      this._CauhinhService.FindHoadon('01',v.SHDMV)
+    let data:any
+    this.HDMV.forEach((v:any,k:any) => {
+      setTimeout(async () => {
+        const data = await this._CauhinhService.FindHoadon('01','2023',v.SHDMV)
+        if(data)
+        {
+          this.HDBR = [...this.HDBR,...data] 
+          console.log(this.HDBR);     
+        }
+      }, k*700);
     });
+    
    
   }
   ngOnInit() {

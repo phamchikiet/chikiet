@@ -1,6 +1,23 @@
+<div class="flex flex-col space-y-4">
+<div class="flex flex-row space-x-3">
+
+<mat-form-field appearance="fill">
+  <mat-label>Tháng</mat-label>
+  <input type="text" matInput class="px-3 py-2 border border-gray-200 rounded"
+    [placeholder]="'Tìm kiếm bài viết'" />
+</mat-form-field>
+
+<mat-form-field appearance="fill">
+  <mat-label>Năm</mat-label>
+  <input type="text" matInput class="px-3 py-2 border border-gray-200 rounded"
+    [placeholder]="'Tìm kiếm bài viết'" />
+</mat-form-field>
+
 <button mat-raised-button (click)="FindHoadon()">
   FindHoadon
 </button>
+</div>
+
 
 <table mat-table [dataSource]="dataSource" matSort>
   <ng-container matColumnDef="Tenhang">
@@ -58,3 +75,5 @@
   <tr mat-footer-row *matFooterRowDef="displayedColumns"></tr>
 </table>
 <mat-paginator [pageSizeOptions]="[5, 100, Data1.length]"></mat-paginator>
+
+</div>

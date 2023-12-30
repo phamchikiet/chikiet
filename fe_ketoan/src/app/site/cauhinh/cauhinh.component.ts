@@ -41,7 +41,7 @@ export class CauhinhComponent implements OnInit {
         if (data) {
           console.log(data);   
           const SHD = data.map((v:any)=>(v.Dulieu.shdon))
-          console.log(SHD); 
+          //console.log(SHD); 
       }
     })
   }
