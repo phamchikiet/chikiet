@@ -66,28 +66,28 @@ export class CauhinhDetailComponent implements OnInit {
     this.ListSHD.forEach((v: any, k: any) => {
       setTimeout(async () => {
         this._CauhinhService.FindHoadon(this.thangtim, this.thangluu, this.namtim, this.namluu, this.ttxly, v.SHDMV, 'NHAP')
-      }, k * 1000);
+      }, k * 100);
     });
   }
   FindChitiet() {
     this.HoadonServer.forEach((v: any, k: any) => {
       setTimeout(async () => {
         this._CauhinhService.FindChitietHoadon(v.nbmst, v.khhdon, v.shdon, v.Loai, this.thangluu, this.namluu)
-      }, k * 1000);
+      }, k * 100);
     });
   }
   FindBanra() {
     this.ListSHD.forEach((v: any, k: any) => {
       setTimeout(async () => {
         this._CauhinhService.FindBanra(this.thangtim, this.thangluu, this.namtim, this.namluu, v.SHDMV, 'XUAT')
-      }, k * 1000);
+      }, k * 100);
     });
   }
   FindCTBanra() {
     this.HoadonServer.forEach((v: any, k: any) => {
       setTimeout(async () => {
         this._CauhinhService.FindChitietBanra(v.nbmst, v.khhdon, v.shdon, v.Loai, this.thangluu, this.namluu)
-      }, k * 1000);
+      }, k * 100);
     });
   }
   async LoadHDChitiet(Loai:any) {

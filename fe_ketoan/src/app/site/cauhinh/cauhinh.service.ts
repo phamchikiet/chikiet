@@ -123,6 +123,7 @@ export class CauhinhService {
           };
           const response = await fetch(`${environment.APIURL}/chitiet`, options);
           const result = await response.json();
+          console.log(item.shdon,result);
           if(!result.hasOwnProperty('res'))
           {
             console.log(item.shdon,result);

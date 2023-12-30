@@ -107,30 +107,10 @@
     <td mat-cell *matCellDef="let row"> {{row.Loai}} </td>
     <td mat-footer-cell *matFooterCellDef></td>
   </ng-container>
-  <!-- <ng-container matColumnDef="Gia">
-    <th mat-header-cell *matHeaderCellDef mat-sort-header>Tổng Chưa Thuế </th>
-    <td mat-cell *matCellDef="let row"> {{(row.Gia | number:'1.0-0')||'0'}} </td>
-    <td mat-footer-cell *matFooterCellDef class="text-right font-bold">{{Subtotal(Listfilter,'tgtcthue')|number:'1.0-2'}} </td>
-  </ng-container>
-  <ng-container matColumnDef="tgtthue">
-    <th mat-header-cell *matHeaderCellDef mat-sort-header>Thuế </th>
-    <td mat-cell *matCellDef="let row"> {{(row.tgtthue | number:'1.0-0')||'0'}} </td>
-    <td mat-footer-cell *matFooterCellDef class="text-right font-bold">{{Subtotal(Listfilter,'tgtthue')|number:'1.0-2'}} </td>
-  </ng-container>
-  <ng-container matColumnDef="tgtttbso">
-    <th mat-header-cell *matHeaderCellDef mat-sort-header> Thành Tiền </th>
-    <td mat-cell *matCellDef="let row">{{(row.tgtttbso | number:'1.0-0')||'0'}} </td>
-    <td mat-footer-cell *matFooterCellDef class="text-right font-bold">{{Subtotal(Listfilter,'tgtttbso')|number:'1.0-2'}} </td>
-  </ng-container>
-  <ng-container matColumnDef="thtttoan">
-    <th mat-header-cell *matHeaderCellDef mat-sort-header> Tông Thanh Toán </th>
-    <td mat-cell *matCellDef="let row"> {{row.thtttoan}} </td>
-    <td mat-footer-cell *matFooterCellDef class="text-right font-bold"></td>
-  </ng-container> -->
   <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
   <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
   <tr mat-footer-row *matFooterRowDef="displayedColumns"></tr>
 </table>
-<mat-paginator [pageSizeOptions]="[5, 100, LoadData.length]"></mat-paginator>
+<mat-paginator [pageSizeOptions]="[5, 100, ListChitiet.length]"></mat-paginator>
 
 </div>
