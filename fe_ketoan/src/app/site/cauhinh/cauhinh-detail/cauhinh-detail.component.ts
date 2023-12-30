@@ -44,21 +44,24 @@ export class CauhinhDetailComponent implements OnInit {
   Listfilter: any[] = []
   Chonngay: any = { Batdau: new Date('2022-01-01'), Ketthuc: new Date('2024-01-01') }
   ttxly: any = 5
-  thang: any
-  nam: any
+  thangtim: any
+  thangluu: any
+  namtim: any
+  namluu: any
   Data1: any = Data
   HDMV: any = HDMV
   HDBR: any[] = []
   LoadData: any[] = []
   HoadonServer:any=0
+  ListSHD:any[] =[]
   @ViewChild(MatPaginator) paginator!: MatPaginator;
   @ViewChild(MatSort) sort!: MatSort;
   _CauhinhService: CauhinhService = inject(CauhinhService);
   constructor() { }
   FindHoadon() {
-    this.HDMV.forEach((v: any, k: any) => {
+    this.ListSHD.forEach((v: any, k: any) => {
       setTimeout(async () => {
-        this._CauhinhService.FindHoadon(this.thang, this.nam,this.ttxly, v.SHDMV)
+        this._CauhinhService.FindHoadon(this.thangtim,this.thangluu, this.namtim,this.namluu,this.ttxly, v.SHDMV)
         // const data = await this._CauhinhService.FindHoadon(this.thang, this.nam,this.ttxly, v.SHDMV)
         // if (data) {
         //   // this.HDBR = [...this.HDBR,...data] 
@@ -74,7 +77,7 @@ export class CauhinhDetailComponent implements OnInit {
         //     });
         //   }
         // }
-      }, k * 1000);
+      }, k * 10);
     });
   }
   LoadTable()
@@ -83,10 +86,13 @@ export class CauhinhDetailComponent implements OnInit {
   }
   async LoadSoluong()
   {
-    const data = await this._CauhinhService.getHoadon(this.thang)
+    const data = await this._CauhinhService.getHoadon(this.thangluu,this.namluu)
     this.HoadonServer =data.length
-    
-  }
+    const dataIds = new Set(this.HDMV.map((obj:any) => obj.SHDMV));
+    const data1Ids = new Set(data.map((obj:any) => Number(obj.shdon)));
+    this.ListSHD = this.HDMV.filter((obj:any) => !data1Ids.has(obj.SHDMV));
+    console.log(this.ListSHD);
+   }
   ngOnInit() {
     // this.Data1.forEach((v: any) => {
     //   v.Tongtien = Number(v.Tongtien)
