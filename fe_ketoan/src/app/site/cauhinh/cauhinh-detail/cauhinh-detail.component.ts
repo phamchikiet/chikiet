@@ -17,11 +17,11 @@ import { HDMV } from './hoadont1';
 @Component({
   selector: 'app-cauhinh-detail',
   standalone: true,
-  imports: [CommonModule, 
-    MatFormFieldModule, 
-    MatInputModule, 
-    MatTableModule, 
-    MatSortModule, 
+  imports: [CommonModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatTableModule,
+    MatSortModule,
     MatPaginatorModule,
     MatFormFieldModule,
     MatInputModule,
@@ -36,69 +36,83 @@ import { HDMV } from './hoadont1';
   styleUrls: ['./cauhinh-detail.component.css']
 })
 export class CauhinhDetailComponent implements OnInit {
-  displayedColumns: string[] = ['Tenhang','SHD', 'Soluong', 'Gia', 'Tongtien', 'Loai'];
+  displayedColumns: string[] = ['ten', 'shdon', 'sluong', 'dgia', 'thtien','Ngay', 'Loai'];
   dataSource!: MatTableDataSource<any>;
   List: any[] = []
   ListInit: any[] = []
   List3: any[] = []
   Listfilter: any[] = []
   Chonngay: any = { Batdau: new Date('2022-01-01'), Ketthuc: new Date('2024-01-01') }
-  ttxly:any=5
-  thang:any
-  nam:any
-  Data1:any = Data
-  HDMV:any = HDMV
-  HDBR:any[]=[]
+  ttxly: any = 5
+  thang: any
+  nam: any
+  Data1: any = Data
+  HDMV: any = HDMV
+  HDBR: any[] = []
+  LoadData: any[] = []
+  HoadonServer:any=0
   @ViewChild(MatPaginator) paginator!: MatPaginator;
   @ViewChild(MatSort) sort!: MatSort;
   _CauhinhService: CauhinhService = inject(CauhinhService);
-  constructor() {}
-  FindHoadon()
-  {
-    this.HDMV.forEach((v:any,k:any) => {
+  constructor() { }
+  FindHoadon() {
+    this.HDMV.forEach((v: any, k: any) => {
       setTimeout(async () => {
-        const data = await this._CauhinhService.FindHoadon(this.thang,this.nam,v.SHDMV)
-        if(data)
-        {
-         // this.HDBR = [...this.HDBR,...data] 
-         // console.log(this.HDBR.map((v)=>({nbmst: v.nbmst,khhdon: v.khhdon,shdon: v.shdon}))) 
-          const data1 = data.map((v:any)=>({nbmst: v.nbmst,khhdon: v.khhdon,shdon: v.shdon}))
-          if(data1.length>0)
-          {
-            const result = await this._CauhinhService.FindChitietHoadon(data1.nbmst,data1.khhdon,data1.shdon)
-            console.log(result) 
-          }
-        }
-      }, k*700);
+        this._CauhinhService.FindHoadon(this.thang, this.nam,this.ttxly, v.SHDMV)
+        // const data = await this._CauhinhService.FindHoadon(this.thang, this.nam,this.ttxly, v.SHDMV)
+        // if (data) {
+        //   // this.HDBR = [...this.HDBR,...data] 
+        //   // console.log(this.HDBR.map((v)=>({nbmst: v.nbmst,khhdon: v.khhdon,shdon: v.shdon}))) 
+        //   const data1 = data.map((v: any) => ({ nbmst: v.nbmst, khhdon: v.khhdon, shdon: v.shdon }))
+        //   if (data1.length > 0) {
+        //     console.log(data1);
+        //     data1.forEach((v1: any, k1: any) => {
+        //       setTimeout(async () => {
+        //         const result = await this._CauhinhService.FindChitietHoadon(v1.nbmst, v1.khhdon, v1.shdon,'NHAP')
+        //         this.LoadData = [...this.LoadData,...result]
+        //       }, k1 * 700);
+        //     });
+        //   }
+        // }
+      }, k * 1000);
     });
   }
+  LoadTable()
+  {
 
+  }
+  async LoadSoluong()
+  {
+    const data = await this._CauhinhService.getHoadon(this.thang)
+    this.HoadonServer =data.length
+    
+  }
   ngOnInit() {
-     this.Data1.forEach((v:any)=>{
-      v.Tongtien = Number(v.Tongtien)
-     })
-      this.Data1 = this.Data1
-          .filter((obj: { Tenhang: any; }, i: any) => this.Data1.findIndex((o: { Tenhang: any; }) => o.Tenhang === obj.Tenhang) === i)
-          .map((obj: { Tenhang: any; SHD: any; Gia: any; Loai: any; }) => ({
-            Tenhang: obj.Tenhang,
-            SHD: obj.SHD,
-            Soluong: this.Data1.filter((o: { Tenhang: any; }) => o.Tenhang === obj.Tenhang).reduce((total: any, o: { Soluong: any; }) => total + o.Soluong, 0),
-            Tongtien: this.Data1.filter((o: { Tenhang: any; }) => o.Tenhang === obj.Tenhang).reduce((total: any, o: { Tongtien: any; }) => total + o.Tongtien, 0),
-            Gia: obj.Gia,
-            Loai: obj.Loai,
-          }));  
-       this.dataSource = new MatTableDataSource(this.Data1);
-       this.dataSource.paginator = this.paginator;
-       this.dataSource.sort = this.sort;
-   }
+    // this.Data1.forEach((v: any) => {
+    //   v.Tongtien = Number(v.Tongtien)
+    // })
+    // this.Data1 = this.Data1
+    //   .filter((obj: { Tenhang: any; }, i: any) => this.Data1.findIndex((o: { Tenhang: any; }) => o.Tenhang === obj.Tenhang) === i)
+    //   .map((obj: { Tenhang: any; SHD: any; Gia: any; Loai: any; }) => ({
+    //     Tenhang: obj.Tenhang,
+    //     SHD: obj.SHD,
+    //     Soluong: this.Data1.filter((o: { Tenhang: any; }) => o.Tenhang === obj.Tenhang).reduce((total: any, o: { Soluong: any; }) => total + o.Soluong, 0),
+    //     Tongtien: this.Data1.filter((o: { Tenhang: any; }) => o.Tenhang === obj.Tenhang).reduce((total: any, o: { Tongtien: any; }) => total + o.Tongtien, 0),
+    //     Gia: obj.Gia,
+    //     Loai: obj.Loai,
+    //   }));
+    // this.dataSource = new MatTableDataSource(this.Data1);
+    // this.dataSource.paginator = this.paginator;
+    // this.dataSource.sort = this.sort;
+  }
   ChangeDate() {
     this.Listfilter = this.List.filter((v: any) => {
       const Ngaytao = new Date(v.tdlap)
-        return Ngaytao.getTime() >= this.Chonngay.Batdau.getTime() && Ngaytao.getTime() <= this.Chonngay.Ketthuc.getTime()
-      })
-      this.dataSource = new MatTableDataSource(this.Listfilter);
-      this.dataSource.paginator = this.paginator;
-      this.dataSource.sort = this.sort;
+      return Ngaytao.getTime() >= this.Chonngay.Batdau.getTime() && Ngaytao.getTime() <= this.Chonngay.Ketthuc.getTime()
+    })
+    this.dataSource = new MatTableDataSource(this.Listfilter);
+    this.dataSource.paginator = this.paginator;
+    this.dataSource.sort = this.sort;
   }
   writeExcelFile(data: any) {
     const worksheet: XLSX.WorkSheet = XLSX.utils.json_to_sheet(data);
@@ -116,21 +130,14 @@ export class CauhinhDetailComponent implements OnInit {
     window.URL.revokeObjectURL(url);
     link.remove();
   }
-  ngAfterViewInit() {
-    this.dataSource.paginator = this.paginator;
-    this.dataSource.sort = this.sort;
-  }
-  Subtotal(items:any[],field:any)
-  {
-    if(items.length>0)
-    {
-    const totalSum = items.reduce((total:any, item:any) => total + item[field], 0);
-    return totalSum
+  Subtotal(items: any[], field: any) {
+    if (items.length > 0) {
+      const totalSum = items.reduce((total: any, item: any) => total + item[field], 0);
+      return totalSum
     }
     else return 0
   }
-  FilterHoadon()
-  {
+  FilterHoadon() {
     this.dataSource = new MatTableDataSource(this.Listfilter);
     this.dataSource.paginator = this.paginator;
     this.dataSource.sort = this.sort;
@@ -138,15 +145,14 @@ export class CauhinhDetailComponent implements OnInit {
   }
   applyFilter(event: Event) {
     const filterValue = (event.target as HTMLInputElement).value;
-    if(filterValue.length> 2)
-    {
-    this.dataSource.filter = filterValue.trim().toLowerCase();    
-    if (this.dataSource.paginator) {
-      this.dataSource.paginator.firstPage();
+    if (filterValue.length > 2) {
+      this.dataSource.filter = filterValue.trim().toLowerCase();
+      if (this.dataSource.paginator) {
+        this.dataSource.paginator.firstPage();
+      }
+      console.log(this.dataSource.filteredData);
     }
-    console.log(this.dataSource.filteredData);
-    }    
-    
+
   }
 }
 
