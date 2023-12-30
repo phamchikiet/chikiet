@@ -44,6 +44,8 @@ export class CauhinhDetailComponent implements OnInit {
   Listfilter: any[] = []
   Chonngay: any = { Batdau: new Date('2022-01-01'), Ketthuc: new Date('2024-01-01') }
   ttxly:any=5
+  thang:any
+  nam:any
   Data1:any = Data
   HDMV:any = HDMV
   HDBR:any[]=[]
@@ -53,20 +55,24 @@ export class CauhinhDetailComponent implements OnInit {
   constructor() {}
   FindHoadon()
   {
-    let data:any
     this.HDMV.forEach((v:any,k:any) => {
       setTimeout(async () => {
-        const data = await this._CauhinhService.FindHoadon('01','2023',v.SHDMV)
+        const data = await this._CauhinhService.FindHoadon(this.thang,this.nam,v.SHDMV)
         if(data)
         {
-          this.HDBR = [...this.HDBR,...data] 
-          console.log(this.HDBR);     
+         // this.HDBR = [...this.HDBR,...data] 
+         // console.log(this.HDBR.map((v)=>({nbmst: v.nbmst,khhdon: v.khhdon,shdon: v.shdon}))) 
+          const data1 = data.map((v:any)=>({nbmst: v.nbmst,khhdon: v.khhdon,shdon: v.shdon}))
+          if(data1.length>0)
+          {
+            const result = await this._CauhinhService.FindChitietHoadon(data1.nbmst,data1.khhdon,data1.shdon)
+            console.log(result) 
+          }
         }
       }, k*700);
     });
-    
-   
   }
+
   ngOnInit() {
      this.Data1.forEach((v:any)=>{
       v.Tongtien = Number(v.Tongtien)

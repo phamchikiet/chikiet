@@ -85,6 +85,23 @@ export class CauhinhService {
     return result.datas
   }
 
+  async FindChitietHoadon(nbmst: any,khhdon: any,shdon: any) {
+    //const headers = new Headers({ Authorization: "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI1OTAwNDI4OTA0IiwidHlwZSI6MiwiZXhwIjoxNzAzOTUzMTgwLCJpYXQiOjE3MDM4NjY3ODB9.vm9TXbCODMYQ2hnP9IU7ijBu0Ix6g_UMHjA87NpI-n0AjgP6BvW1TzTFFoAoTS_v-dJouQiyRkFAl6VJgqWCbg" });
+    //const URL = "https://hoadondientu.gdt.gov.vn:30000/query/invoices/purchase?sort=tdlap:desc,khmshdon:asc,shdon:desc&size=50&search=tdlap=ge=01/"+thang+"/2023T00:00:00;tdlap=le=31/"+thang+"/2023T23:59:59;shdon==6563"
+    const options = {
+     // url: `https://hoadondientu.gdt.gov.vn:30000/query/invoices/sold?sort=tdlap:desc,khmshdon:asc,shdon:desc&size=15&search=tdlap=ge=01/${thang}/2023T00:00:00;tdlap=le=31/${thang}/2023T22:59:59;shdon==${SHD}`,
+      method:'GET',
+      headers: { 
+        'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI1OTAwNDI4OTA0IiwidHlwZSI6MiwiZXhwIjoxNzAzOTUzMTgwLCJpYXQiOjE3MDM4NjY3ODB9.vm9TXbCODMYQ2hnP9IU7ijBu0Ix6g_UMHjA87NpI-n0AjgP6BvW1TzTFFoAoTS_v-dJouQiyRkFAl6VJgqWCbg', 
+        'Cookie': 'TS01c977ee=01dc12c85ef57e57577a543b75785a82e872e80dfb3942c85ff710abde2b37795e60bde54ad2c48c66e1fcfc2de28d89192e6fa886'
+      }
+    };
+    const URL = `https://hoadondientu.gdt.gov.vn:30000/query/invoices/detail?nbmst=${nbmst}&khhdon=${khhdon}&shdon=${shdon}&khmshdon=1`
+    const response = await fetch(URL, options);
+    const result = await response.json();
+    return result.datas
+  }
+
   
   // getAllCauhinhs() {
   //   return this.http.get(environment.APIURL + '/cauhinh').pipe(

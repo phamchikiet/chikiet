@@ -3,13 +3,14 @@
 
 <mat-form-field appearance="fill">
   <mat-label>Tháng</mat-label>
-  <input type="text" matInput class="px-3 py-2 border border-gray-200 rounded"
+  <input type="text" [(ngModel)]="thang" [ngModelOptions]="{standalone: true}"
+   matInput class="px-3 py-2 border border-gray-200 rounded"
     [placeholder]="'Tìm kiếm bài viết'" />
 </mat-form-field>
 
 <mat-form-field appearance="fill">
   <mat-label>Năm</mat-label>
-  <input type="text" matInput class="px-3 py-2 border border-gray-200 rounded"
+  <input type="text"  [(ngModel)]="nam" [ngModelOptions]="{standalone: true}" matInput class="px-3 py-2 border border-gray-200 rounded"
     [placeholder]="'Tìm kiếm bài viết'" />
 </mat-form-field>
 
