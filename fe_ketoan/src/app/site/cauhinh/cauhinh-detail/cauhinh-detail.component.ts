@@ -66,28 +66,28 @@ export class CauhinhDetailComponent implements OnInit {
     this.ListSHD.forEach((v: any, k: any) => {
       setTimeout(async () => {
         this._CauhinhService.FindHoadon(this.thangtim, this.thangluu, this.namtim, this.namluu, this.ttxly, v.SHDMV, 'NHAP')
-      }, k * 1000);
+      }, k * 2000);
     });
   }
   FindChitiet() {
     this.HoadonServer.forEach((v: any, k: any) => {
       setTimeout(async () => {
         this._CauhinhService.FindChitietHoadon(v.nbmst, v.khhdon, v.shdon, v.Loai, this.thangluu, this.namluu)
-      }, k * 1000);
+      }, k * 2000);
     });
   }
   FindBanra() {
     this.ListSHD.forEach((v: any, k: any) => {
       setTimeout(async () => {
         this._CauhinhService.FindBanra(this.thangtim, this.thangluu, this.namtim, this.namluu, v.SHDMV, 'XUAT')
-      }, k * 1000);
+      }, k * 2000);
     });
   }
   FindCTBanra() {
     this.HoadonServer.forEach((v: any, k: any) => {
       setTimeout(async () => {
         this._CauhinhService.FindChitietBanra(v.nbmst, v.khhdon, v.shdon, v.Loai, this.thangluu, this.namluu)
-      }, k * 1000);
+      }, k * 2000);
     });
   }
   async LoadHDChitiet(Loai:any) {
@@ -102,6 +102,8 @@ export class CauhinhDetailComponent implements OnInit {
   async LoadSoluong(Loai: any) {
     const data = await this._CauhinhService.getHoadon(this.thangluu, this.namluu, Loai)
     this.HoadonServer = data;
+    console.log(data);
+    
     this.HoadonServer.forEach((v: any) => { v.shdon = Number(v.shdon) })
     //const dataIds = new Set(this.HDMV.map((obj:any) => obj.SHDMV));
     const data1Ids = new Set(data.map((obj: any) => Number(obj.shdon)));
@@ -111,6 +113,8 @@ export class CauhinhDetailComponent implements OnInit {
     }
     else {
       this.ListSHD = this.HDBR.filter((obj: any) => !data1Ids.has(obj.SHDMV));
+      console.log(data1Ids);
+      
       console.log(this.ListSHD);
     }
 
