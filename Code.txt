@@ -1,0 +1,17 @@
+"C:\Program Files\Google\Chrome\Application\chrome.exe" --disable-web-security --disable-gpu --user-data-dir=%LOCALAPPDATA%\Google\chromeTemp
+
+
+DELETE t1 FROM sohoadon t1
+INNER JOIN sohoadon t2 
+WHERE 
+    t1.id < t2.id AND  	
+    t1.shdon = t2.shdon AND
+    t1.Loai = t2.Loai;
+
+  SELECT shdon, id, COUNT(shdon) AS count
+  FROM sohoadon
+  GROUP BY shdon, id
+  HAVING COUNT(shdon) > 1
+
+
+HOADONBAN RA 26

@@ -21,13 +21,13 @@ export class CauhinhService {
   get cauhinh$(): Observable<any | null> {
     return this._cauhinh.asObservable();
   }
+  Token:any = 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI1OTAwNDI4OTA0IiwidHlwZSI6MiwiZXhwIjoxNzAzOTkxNjU3LCJpYXQiOjE3MDM5MDUyNTd9.u2CMawk7YeIGdncSEM6Y_8XfawDgiwThlut5-saPb54gYuiGUuX_J2nkmJ96cLM2PH2XcQecq1bOnOsCkfvd5Q'
   constructor() {}
   async FindHoadon(thangtim: any,thangluu: any,namtim: any,namluu: any,ttxly:any,SHD: any,Loai:any='NHAP') {
     const options = {
       method:'GET',
       headers: { 
-        'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI1OTAwNDI4OTA0IiwidHlwZSI6MiwiZXhwIjoxNzAzOTUzMTgwLCJpYXQiOjE3MDM4NjY3ODB9.vm9TXbCODMYQ2hnP9IU7ijBu0Ix6g_UMHjA87NpI-n0AjgP6BvW1TzTFFoAoTS_v-dJouQiyRkFAl6VJgqWCbg', 
-        'Cookie': 'TS01c977ee=01dc12c85ef57e57577a543b75785a82e872e80dfb3942c85ff710abde2b37795e60bde54ad2c48c66e1fcfc2de28d89192e6fa886'
+        'Authorization': this.Token, 
       }
     };
     const URL = `https://hoadondientu.gdt.gov.vn:30000/query/invoices/purchase?sort=tdlap:desc,khmshdon:asc,shdon:desc&size=50&search=tdlap=ge=01/${thangtim}/${namtim}T00:00:00;tdlap=le=31/${thangtim}/${namtim}T23:59:59;ttxly==${ttxly};shdon==${SHD}`
@@ -42,8 +42,7 @@ export class CauhinhService {
     const options = {
       method:'GET',
       headers: { 
-        'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI1OTAwNDI4OTA0IiwidHlwZSI6MiwiZXhwIjoxNzAzOTUzMTgwLCJpYXQiOjE3MDM4NjY3ODB9.vm9TXbCODMYQ2hnP9IU7ijBu0Ix6g_UMHjA87NpI-n0AjgP6BvW1TzTFFoAoTS_v-dJouQiyRkFAl6VJgqWCbg', 
-        'Cookie': 'TS01c977ee=01dc12c85ef57e57577a543b75785a82e872e80dfb3942c85ff710abde2b37795e60bde54ad2c48c66e1fcfc2de28d89192e6fa886'
+        'Authorization': this.Token, 
       }
     };
     const URL = `https://hoadondientu.gdt.gov.vn:30000/query/invoices/detail?nbmst=${nbmst}&khhdon=${khhdon}&shdon=${shdon}&khmshdon=1`
@@ -138,8 +137,7 @@ export class CauhinhService {
     const options = {
       method:'GET',
       headers: { 
-        'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI1OTAwNDI4OTA0IiwidHlwZSI6MiwiZXhwIjoxNzAzOTUzMTgwLCJpYXQiOjE3MDM4NjY3ODB9.vm9TXbCODMYQ2hnP9IU7ijBu0Ix6g_UMHjA87NpI-n0AjgP6BvW1TzTFFoAoTS_v-dJouQiyRkFAl6VJgqWCbg', 
-        'Cookie': 'TS01c977ee=01dc12c85ef57e57577a543b75785a82e872e80dfb3942c85ff710abde2b37795e60bde54ad2c48c66e1fcfc2de28d89192e6fa886'
+        'Authorization': this.Token, 
       }
     };
     const URL = `https://hoadondientu.gdt.gov.vn:30000/query/invoices/sold?sort=tdlap:desc,khmshdon:asc,shdon:desc&size=15&search=tdlap=ge=01/${thangtim}/${namtim}T00:00:00;tdlap=le=31/${thangtim}/${namtim}T23:59:59;shdon==${SHD}`
@@ -154,8 +152,7 @@ export class CauhinhService {
     const options = {
       method:'GET',
       headers: { 
-        'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI1OTAwNDI4OTA0IiwidHlwZSI6MiwiZXhwIjoxNzAzOTUzMTgwLCJpYXQiOjE3MDM4NjY3ODB9.vm9TXbCODMYQ2hnP9IU7ijBu0Ix6g_UMHjA87NpI-n0AjgP6BvW1TzTFFoAoTS_v-dJouQiyRkFAl6VJgqWCbg', 
-        'Cookie': 'TS01c977ee=01dc12c85ef57e57577a543b75785a82e872e80dfb3942c85ff710abde2b37795e60bde54ad2c48c66e1fcfc2de28d89192e6fa886'
+        'Authorization': this.Token, 
       }
     };
     const URL = `https://hoadondientu.gdt.gov.vn:30000/query/invoices/detail?nbmst=${nbmst}&khhdon=${khhdon}&shdon=${shdon}&khmshdon=1`
