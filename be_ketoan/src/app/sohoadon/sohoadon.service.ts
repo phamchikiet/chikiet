@@ -43,9 +43,9 @@ export class SohoadonService {
     return await this.SohoadonRepository.find({
       where: { 
         thang: data.thang,
-         nam: data.nam
+        nam: data.nam,
+        Loai:data.Loai
       },
-
     });
   }
   async findslug(shdon: any) {

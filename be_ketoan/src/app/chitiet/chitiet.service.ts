@@ -22,7 +22,16 @@ export class ChitietService {
       return await this.ChitietRepository.save(CreateChitietDto);
     }
   }
+  async findThang(data: any) {
+    return await this.ChitietRepository.find({
+      where: { 
+        thang: data.thang,
+        nam: data.nam,
+        Loai:data.Loai
+      },
 
+    });
+  }
   async findAll() {
     return await this.ChitietRepository.find();
   }

@@ -16,12 +16,12 @@ export class ChitietEntity {
   ten: string;
   @Column({ type: 'text', collation: 'utf8_general_ci' })
   shdon: string;
-  @Column({ type: 'text', collation: 'utf8_general_ci' })
-  sluong: string;
-  @Column({ type: 'text', collation: 'utf8_general_ci' })
-  dgia: string;
-  @Column({ type: 'text', collation: 'utf8_general_ci' })
-  thtien: string;
+  @Column({ default:0})
+  sluong: number;
+  @Column({ default:0})
+  dgia: number;
+  @Column({ default:0})
+  thtien: number;
   @Column({ type: 'text', collation: 'utf8_general_ci' })
   Loai: string;
   @Column({default:null })

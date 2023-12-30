@@ -20,6 +20,8 @@ export class SohoadonEntity {
   khhdon: string;
   @Column({ type: 'text', collation: 'utf8_general_ci' })
   shdon: string;
+  @Column({ type: 'text', collation: 'utf8_general_ci' })
+  Loai: string;
   @Column({ default:null })
   tdlap: Date;
   @Column({ default: '' })

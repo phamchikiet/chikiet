@@ -1,10 +1,10 @@
 import { Controller, Get, Post, Body, Patch, Param, Delete, Query } from '@nestjs/common';
-import {ChitietService } from './chitiet.service';
+import { ChitietService } from './chitiet.service';
 import { CreateChitietDto } from './dto/create-chitiet.dto';
 import { UpdateChitietDto } from './dto/update-chitiet.dto';
 @Controller('chitiet')
 export class ChitietController {
-  constructor(private readonly chitietService:ChitietService) {}
+  constructor(private readonly chitietService: ChitietService) { }
 
   @Post()
   create(@Body() createChitietDto: CreateChitietDto) {
@@ -23,12 +23,16 @@ export class ChitietController {
     return await this.chitietService.findSHD(slug);
   }
   @Get('pagination')
-  async findPagination(@Query('page') page: number,@Query('perPage') perPage: number){
-       return await this.chitietService.findPagination(page,perPage);
-    }
+  async findPagination(@Query('page') page: number, @Query('perPage') perPage: number) {
+    return await this.chitietService.findPagination(page, perPage);
+  }
+  @Post('findthang')
+  async findThang(@Body() data: any) {
+    return await this.chitietService.findThang(data);
+  }
   @Post('search')
-    async findQuery(@Body() SearchParams: any){
-      return await this.chitietService.findQuery(SearchParams);
+  async findQuery(@Body() SearchParams: any) {
+    return await this.chitietService.findQuery(SearchParams);
   }
   @Patch(':id')
   update(@Param('id') id: string, @Body() updateChitietDto: UpdateChitietDto) {
