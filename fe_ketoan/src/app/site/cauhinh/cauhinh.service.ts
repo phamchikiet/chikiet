@@ -33,7 +33,6 @@ export class CauhinhService {
     const URL = `https://hoadondientu.gdt.gov.vn:30000/query/invoices/purchase?sort=tdlap:desc,khmshdon:asc,shdon:desc&size=50&search=tdlap=ge=01/${thangtim}/${namtim}T00:00:00;tdlap=le=31/${thangtim}/${namtim}T23:59:59;ttxly==${ttxly};shdon==${SHD}`
     const response = await fetch(URL, options);
     const result = await response.json();
-    console.log(result);
     const data = result.datas.map((v: any) => ({thang:thangluu,nam:namluu, nbmst: v.nbmst, khhdon: v.khhdon, shdon: v.shdon,tdlap:new Date(v.tdlap),Loai:Loai }))
     data.forEach((v:any) => {
       this.createData(v)
@@ -70,7 +69,10 @@ export class CauhinhService {
           };
           const response = await fetch(`${environment.APIURL}/sohoadon`, options);
           const result = await response.json();
-          console.log(item.shdon,result);
+          if(!result.hasOwnProperty('res'))
+          {
+            console.log(item.shdon,result);
+          }
           
       } catch (error) {
           return console.error(error);
@@ -125,8 +127,6 @@ export class CauhinhService {
           {
             console.log(item.shdon,result);
           }
-
-          
       } catch (error) {
           return console.error(error);
       }
@@ -143,9 +143,7 @@ export class CauhinhService {
     };
     const URL = `https://hoadondientu.gdt.gov.vn:30000/query/invoices/sold?sort=tdlap:desc,khmshdon:asc,shdon:desc&size=15&search=tdlap=ge=01/${thangtim}/${namtim}T00:00:00;tdlap=le=31/${thangtim}/${namtim}T23:59:59;shdon==${SHD}`
     const response = await fetch(URL, options);
-    const result = await response.json();
-    console.log(result);
-    
+    const result = await response.json();    
     const data = result.datas.map((v: any) => ({thang:thangluu,nam:namluu, nbmst: v.nbmst, khhdon: v.khhdon, shdon: v.shdon,tdlap:new Date(v.tdlap),Loai:Loai }))
     data.forEach((v:any) => {
       this.createData(v)
