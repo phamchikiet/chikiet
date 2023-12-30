@@ -13,6 +13,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatSelectChange, MatSelectModule } from '@angular/material/select';
 import { Data } from './data';
 import { CauhinhService } from '../cauhinh.service';
+import { HDMV } from './hoadont1';
 @Component({
   selector: 'app-cauhinh-detail',
   standalone: true,
@@ -44,13 +45,17 @@ export class CauhinhDetailComponent implements OnInit {
   Chonngay: any = { Batdau: new Date('2022-01-01'), Ketthuc: new Date('2024-01-01') }
   ttxly:any=5
   Data1:any = Data
+  HDMV:any = HDMV
   @ViewChild(MatPaginator) paginator!: MatPaginator;
   @ViewChild(MatSort) sort!: MatSort;
   _CauhinhService: CauhinhService = inject(CauhinhService);
   constructor() {}
   FindHoadon()
   {
-    this._CauhinhService.FindHoadon('02','312')
+    this.HDMV.forEach((v:any) => {
+      this._CauhinhService.FindHoadon('01',v.SHDMV)
+    });
+   
   }
   ngOnInit() {
      this.Data1.forEach((v:any)=>{
