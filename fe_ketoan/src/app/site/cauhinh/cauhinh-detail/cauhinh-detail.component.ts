@@ -45,8 +45,8 @@ export class CauhinhDetailComponent implements OnInit {
   Listfilter: any[] = []
   Chonngay: any = { Batdau: new Date('2022-01-01'), Ketthuc: new Date('2024-01-01') }
   ttxly: any = 5
-  thangtim: any = '03'
-  thangluu: any = '03'
+  thangtim: any = '04'
+  thangluu: any = '05'
   namtim: any = '2023'
   namluu: any = '2023'
   Data1: any = Data

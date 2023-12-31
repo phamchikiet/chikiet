@@ -1,4 +1,4 @@
-import { Component, OnInit, inject } from '@angular/core';
+import { Component, OnInit, ViewChild, inject } from '@angular/core';
 import { MatTableDataSource, MatTableModule } from '@angular/material/table';
 import { MuavaoService } from '../muavao/muavao.service';
 import { NhomHanghoa } from '../../shared/shared.utils';
@@ -11,8 +11,10 @@ import { MatNativeDateModule } from '@angular/material/core';
 import { MatDatepickerModule } from '@angular/material/datepicker';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
-import { MatPaginatorModule } from '@angular/material/paginator';
-import { MatSortModule } from '@angular/material/sort';
+import { MatPaginator, MatPaginatorModule } from '@angular/material/paginator';
+import { MatSort, MatSortModule } from '@angular/material/sort';
+import { CauhinhService } from '../cauhinh/cauhinh.service';
+import * as moment from 'moment';
 @Component({
   selector: 'app-xuatnhapton',
   standalone: true,
@@ -30,52 +32,82 @@ import { MatSortModule } from '@angular/material/sort';
 })
 export class XuatnhaptonComponent implements OnInit {
   
-  _MuavaoService: MuavaoService = inject(MuavaoService);
+  _CauhinhService: CauhinhService = inject(CauhinhService);
   _BanraService: BanraService = inject(BanraService);
   List: any[] = []
   List1: any[] = []
   ListBanra: any[] = []
   ListMuavao: any[] = []
   Listfilter: any[] = []
+  ListNhap: any[] = []
+  ListXuat: any[] = []
+  ListXNT: any[] = []
+  thangluu: any = '03'
+  namluu: any = '2023'
+  displayedColumns: string[] = [
+    'Ngay','tenn', 'shdonn', 'sluongn', 'dgian', 'thtienn', 'Loain',
+    'tenx', 'shdonx', 'sluongx', 'dgiax', 'thtienx', 'Loaix',
+  ];
+  dataSource!: MatTableDataSource<any>;
+  @ViewChild(MatPaginator) paginator!: MatPaginator;
+  @ViewChild(MatSort) sort!: MatSort;
+  Paginall:any=0
   constructor() {
-    this._MuavaoService.getAllMuavaoChitiet()
-    this._MuavaoService.muavaochitiets$.subscribe((data: any) => {
-      let data2:any[] = []
-      if (data) {
-        this.List = data.data.map((v:any)=>(v.Dulieu))
-        this.List.forEach((v: any) => {
-          if (v.hdhhdvu.length > 0) {
-            v.hdhhdvu = v.hdhhdvu.map((v1: any) => {
-              const item = { ...v1, ...{ SHD: v.shdon },...{ Ngaytao: new Date(v.ntao) } }
-              return item
-            });
-          }
-          data2 = [...data2, ...v.hdhhdvu]
-        });
-       this.ListMuavao = data2.map((v: any) => ({ ten: v.ten, soluong: v.sluong,SHD: v.SHD,Ngaytao: v.Ngaytao, dgia: v.dgia, thanhtien: v.sluong * v.dgia, dvtinh: v.dvtinh, loai: "Nhap" }))
-      }
-    })
-    this._BanraService.getAllBanraChitiet()
-    this._BanraService.banrachitiets$.subscribe((data: any) => {
-      let data2:any[] = []
-      if (data) {
-        this.List1 = data.map((v:any)=>(v.Dulieu))
-        this.List1.forEach((v: any) => {
-          if (v.hdhhdvu.length > 0) {
-            v.hdhhdvu = v.hdhhdvu.map((v1: any) => {
-              const item = { ...v1, ...{ SHD: v.shdon },...{ Ngaytao: new Date(v.ntao) } }
-              return item
-            });
-          }
-          data2 = [...data2, ...v.hdhhdvu]
-        });
-       this.ListBanra = data2.map((v: any) => ({ ten: v.ten, soluong: v.sluong,SHD: v.SHD,Ngaytao: v.Ngaytao, dgia: v.dgia, thanhtien: v.sluong * v.dgia, dvtinh: v.dvtinh, loai: "Xuat" }))
-      }
-    })
+
   }
 
-  ngOnInit() {
-
+  async ngOnInit() {
+   this.ListNhap = await this._CauhinhService.getListChitiet(this.thangluu,this.namluu,'NHAP');
+   this.ListXuat = await this._CauhinhService.getListChitiet(this.thangluu,this.namluu,'XUAT');
+   const data = [...this.ListNhap,...this.ListXuat];
+   data.forEach((v)=>
+   {
+    v.Ngay = moment(v.Ngay).format("DD/MM/YYYY")
+   })
+   const groupedObjects = data.reduce((acc, obj) => {
+    const group = acc.get(obj.Ngay) || [];
+    group.push(obj);
+    acc.set(obj.Ngay, group);
+    return acc;
+  }, new Map());
+   const DataXNT = Array.from(groupedObjects.entries()).map(([Ngay, items]:any) => ({ Ngay, items }));
+  //  this.ListXNT.sort((a:any, b:any) => new Date(a.Ngay) - new Date(b.Ngay))
+   console.log(DataXNT);
+   DataXNT.forEach((v)=>
+   {
+      const Xuat = v.items.filter((xuat:any)=>xuat.Loai=='XUAT')
+      const Nhap = v.items.filter((nhap:any)=>nhap.Loai=='NHAP')
+      let Max = Xuat.length>Nhap.length?Xuat.length:Nhap.length
+      Max = Array.from({ length: Max }, (_, i) => i);
+      console.log(Max);
+      Max.forEach((i:any) => {
+        const item = {
+          Ngay:v.Ngay,
+          tenn:Nhap[i]?.ten,
+          shdonn:Nhap[i]?.shdon,
+          sluongn:Nhap[i]?.sluong,
+          dgian:Nhap[i]?.dgia,
+          thtienn:Nhap[i]?.thtien,
+          Loain:Nhap[i]?.Loai,
+          tenx:Xuat[i]?.ten,
+          shdonx:Xuat[i]?.shdon,
+          sluongx:Xuat[i]?.sluong,
+          dgiax:Xuat[i]?.dgia,
+          thtienx:Xuat[i]?.thtien,
+          Loaix:Xuat[i]?.Loai,
+        } 
+        this.ListXNT.push(item)
+      });
+   console.log(this.ListXNT);
+   
+      // console.log(v.Ngay,Xuat);
+      // console.log(v.Ngay,Nhap);
+      
+   })
+   this.dataSource = new MatTableDataSource(this.ListXNT);
+   this.dataSource.paginator = this.paginator;
+   this.dataSource.sort = this.sort;
+   this.Paginall = this.ListXNT.length;
   }
   LoadMuavao()
   {
@@ -102,5 +134,13 @@ export class XuatnhaptonComponent implements OnInit {
     link.click();
     window.URL.revokeObjectURL(url);
     link.remove();
+  }
+  FilterLoai(items:any,Loai:any)
+  {   
+ 
+    const result = items.filter((v:any)=>v.Loai==Loai)
+    // console.log(Loai);
+    // console.log(result);
+    return result
   }
 }

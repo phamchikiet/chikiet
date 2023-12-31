@@ -21,7 +21,7 @@ export class CauhinhService {
   get cauhinh$(): Observable<any | null> {
     return this._cauhinh.asObservable();
   }
-  Token:any = 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI1OTAwNDI4OTA0IiwidHlwZSI6MiwiZXhwIjoxNzAzOTkxNjU3LCJpYXQiOjE3MDM5MDUyNTd9.u2CMawk7YeIGdncSEM6Y_8XfawDgiwThlut5-saPb54gYuiGUuX_J2nkmJ96cLM2PH2XcQecq1bOnOsCkfvd5Q'
+  Token:any = 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI1OTAwNDI4OTA0IiwidHlwZSI6MiwiZXhwIjoxNzA0MDc2NTQ5LCJpYXQiOjE3MDM5OTAxNDl9.bQEJag2HaWQYU00knvdtjcX-zXKaoCR81EPD8n0y_a3Nca2CfEN6QN1-F8jenqaB4v9V_hCDmz7pGlakrVXYtw'
   constructor() {}
   async FindHoadon(thangtim: any,thangluu: any,namtim: any,namluu: any,ttxly:any,SHD: any,Loai:any='NHAP') {
     const options = {
@@ -105,7 +105,7 @@ export class CauhinhService {
       };
           const response = await fetch(`${environment.APIURL}/chitiet/findthang`,options);
           const data = await response.json();   
-          console.log(data);               
+         // console.log(data);               
           return data;
       } catch (error) {
           return console.error(error);
@@ -122,7 +122,6 @@ export class CauhinhService {
           };
           const response = await fetch(`${environment.APIURL}/chitiet`, options);
           const result = await response.json();
-          console.log(item.shdon,result);
           if(!result.hasOwnProperty('res'))
           {
             console.log(item.shdon,result);
