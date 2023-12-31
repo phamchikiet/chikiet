@@ -87,18 +87,18 @@
   </ng-container>
   <ng-container matColumnDef="sluong">
     <th mat-header-cell *matHeaderCellDef mat-sort-header>Số Lượng </th>
-    <td mat-cell *matCellDef="let row"> {{row.sluong|number:'1.0-2'}} </td>
-    <td mat-footer-cell *matFooterCellDef><span class="font-bold">{{Subtotal(ListChitiet,'sluong')|number:'1.0-2'}}</span> </td>
+    <td mat-cell *matCellDef="let row"> {{row.sluong}} </td>
+    <td mat-footer-cell *matFooterCellDef><span class="font-bold">{{Subtotal(ListChitiet,'sluong')}}</span> </td>
   </ng-container>
   <ng-container matColumnDef="dgia">
     <th mat-header-cell *matHeaderCellDef mat-sort-header>Giá </th>
-    <td mat-cell *matCellDef="let row"> {{row.dgia|number:'1.0-2'}} </td>
+    <td mat-cell *matCellDef="let row"> {{row.dgia}} </td>
     <td mat-footer-cell *matFooterCellDef></td>
   </ng-container>
   <ng-container matColumnDef="thtien">
     <th mat-header-cell *matHeaderCellDef mat-sort-header>Tổng Tiền </th>
-    <td mat-cell *matCellDef="let row"> {{row.thtien|number:'1.0-2'}} </td>
-    <td mat-footer-cell *matFooterCellDef><span class="font-bold">{{Subtotal(ListChitiet,'thtien')|number:'1.0-2'}}</span> </td>
+    <td mat-cell *matCellDef="let row"> {{row.thtien}} </td>
+    <td mat-footer-cell *matFooterCellDef><span class="font-bold">{{Subtotal(ListChitiet,'thtien')}}</span> </td>
   </ng-container>
   <ng-container matColumnDef="Ngay">
     <th mat-header-cell *matHeaderCellDef mat-sort-header>Ngày </th>

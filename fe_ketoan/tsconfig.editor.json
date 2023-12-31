@@ -1,6 +1,6 @@
 {
   "extends": "./tsconfig.json",
-  "include": ["src/**/*.ts"],
+  "include": ["src/**/*.ts", "src/app/site/cauhinh/cauhinh-detail/hdbr.ts"],
   "compilerOptions": {
     "types": ["jest", "node"]
   }

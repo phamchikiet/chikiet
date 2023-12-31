@@ -21,7 +21,7 @@ export class CauhinhService {
   get cauhinh$(): Observable<any | null> {
     return this._cauhinh.asObservable();
   }
-  Token:any = 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI1OTAwNDI4OTA0IiwidHlwZSI6MiwiZXhwIjoxNzA0MDc2NTQ5LCJpYXQiOjE3MDM5OTAxNDl9.bQEJag2HaWQYU00knvdtjcX-zXKaoCR81EPD8n0y_a3Nca2CfEN6QN1-F8jenqaB4v9V_hCDmz7pGlakrVXYtw'
+  Token:any = 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI1OTAwNDI4OTA0IiwidHlwZSI6MiwiZXhwIjoxNzA0MTE2MTA3LCJpYXQiOjE3MDQwMjk3MDd9.3arymZ9wqQLvRTPhtBWSOgTM7qPLRWY20eu5EsTjjRltXzfMUo_wybL2pV0kpXiZTBzmUiPvwdxNCH3uihDu6Q'
   constructor() {}
   async FindHoadon(thangtim: any,thangluu: any,namtim: any,namluu: any,ttxly:any,SHD: any,Loai:any='NHAP') {
     const options = {
