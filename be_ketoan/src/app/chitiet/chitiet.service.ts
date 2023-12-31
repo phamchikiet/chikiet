@@ -12,7 +12,7 @@ export class ChitietService {
   ) {}
   async create(CreateChitietDto: any) {
     console.log(CreateChitietDto);
-    const item = await this.findSHD(CreateChitietDto.idChitiet)
+    const item = await this.findSHD(CreateChitietDto)
     console.log(item);
     if (item) {
       return {res:"Trùng SHD"}
@@ -41,10 +41,11 @@ export class ChitietService {
 
     });
   }
-  async findSHD(idChitiet: any) {
+  async findSHD(data: any) {
     return await this.ChitietRepository.findOne({
       where: { 
-        idChitiet: idChitiet
+        idChitiet: data.idChitiet,
+        Loai:data.Loai
       },
     });
   }

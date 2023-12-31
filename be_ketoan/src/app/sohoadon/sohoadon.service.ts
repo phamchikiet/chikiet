@@ -28,7 +28,7 @@ export class SohoadonService {
   }
   async findSHD(data: any) {
     return await this.SohoadonRepository.findOne({
-      where: { shdon: data.shdon,Loai:data.Loai },
+      where: { shdon: data.shdon,thang:data.thang,Loai:data.Loai },
     });
   }
   async findid(id: string) {
