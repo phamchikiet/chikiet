@@ -45,13 +45,15 @@ export class CauhinhDetailComponent implements OnInit {
   Listfilter: any[] = []
   Chonngay: any = { Batdau: new Date('2022-01-01'), Ketthuc: new Date('2024-01-01') }
   ttxly: any = 5
-  thangtim: any = '04'
-  thangluu: any = '05'
+  thangtim: any = '02'
+  thangluu: any = '02'
   namtim: any = '2023'
   namluu: any = '2023'
   Data1: any = Data
-  HDMV: any = HDMV
-  HDBR: any = HDBR
+  HDMVInit: any = HDMV
+  HDMV: any[]=[]
+  HDBRInit: any = HDBR
+  HDBR: any[]=[]
   LoadData: any[] = []
   HoadonServer: any = 0
   ListSHD: any[] = []
@@ -64,10 +66,13 @@ export class CauhinhDetailComponent implements OnInit {
   @ViewChild(MatSort) sort!: MatSort;
   _CauhinhService: CauhinhService = inject(CauhinhService);
   constructor() { }
+  ngOnInit() {
+    this.HDMV = this.HDMVInit.filter((v:any)=>v.Thang==this.thangluu)    
+   }
   FindHoadon() {
     this.ListSHD.forEach((v: any, k: any) => {
       setTimeout(async () => {
-        this._CauhinhService.FindHoadon(this.thangtim, this.thangluu, this.namtim, this.namluu, this.ttxly, v.SHDMV, 'NHAP')
+        this._CauhinhService.FindHoadon(this.thangtim, this.thangluu, this.namtim, this.namluu, this.ttxly, v.SHD, 'NHAP')
       }, k * 100);
     });
   }
@@ -81,7 +86,7 @@ export class CauhinhDetailComponent implements OnInit {
   FindBanra() {
     this.ListSHD.forEach((v: any, k: any) => {
       setTimeout(async () => {
-        this._CauhinhService.FindBanra(this.thangtim, this.thangluu, this.namtim, this.namluu, v.SHDMV, 'XUAT')
+        this._CauhinhService.FindBanra(this.thangtim, this.thangluu, this.namtim, this.namluu, v.SHD, 'XUAT')
       }, k * 100);
     });
   }
@@ -120,6 +125,8 @@ export class CauhinhDetailComponent implements OnInit {
     this.Paginall = this.FilterXNT.length;
   }
   async LoadSoluong(Loai: any) {
+    this.HDMV = this.HDMVInit.filter((v:any)=>v.Thang==this.thangluu)
+    
     const data = await this._CauhinhService.getHoadon(this.thangluu, this.namluu, Loai)
     this.HoadonServer = data;
     this.HoadonServer.forEach((v: any) => { v.shdon = Number(v.shdon) })
@@ -128,11 +135,11 @@ export class CauhinhDetailComponent implements OnInit {
     
     console.log(data1Ids);
     if (Loai == 'NHAP') {
-      this.ListSHD = this.HDMV.filter((obj: any) => !data1Ids.has(obj.SHDMV));
+      this.ListSHD = this.HDMV.filter((obj: any) => !data1Ids.has(obj.SHD));
       console.log(this.ListSHD);
     }
     else {
-      this.ListSHD = this.HDBR.filter((obj: any) => !data1Ids.has(obj.SHDMV));
+      this.ListSHD = this.HDBR.filter((obj: any) => !data1Ids.has(obj.SHD));
       console.log(this.ListSHD);
     }
 
@@ -142,7 +149,7 @@ export class CauhinhDetailComponent implements OnInit {
       new Set(this.ListChitiet.map(obj => Number(obj.shdon)))
     ).map(shdon => this.ListChitiet.find(obj => Number(obj.shdon) === Number(shdon)))
 
-    //const dataIds = new Set(this.HDMV.map((obj:any) => obj.SHDMV));
+    //const dataIds = new Set(this.HDMV.map((obj:any) => obj.SHD));
     const data1Ids = new Set(this.ListChitiet.map((obj: any) => Number(obj.shdon)));
     console.log(data1Ids);
 
@@ -154,7 +161,6 @@ export class CauhinhDetailComponent implements OnInit {
   async LoadHoadon(Loai: any) {
     this.ListHD = await this._CauhinhService.getHoadon(this.thangluu, this.namluu, Loai)
   }
-  ngOnInit() { }
   ChangeDate() {
     this.Listfilter = this.List.filter((v: any) => {
       const Ngaytao = new Date(v.tdlap)

@@ -45,8 +45,7 @@ export class XuatnhaptonComponent implements OnInit {
   thangluu: any = '03'
   namluu: any = '2023'
   displayedColumns: string[] = [
-    'Ngay','tenn', 'shdonn', 'sluongn', 'dgian', 'thtienn', 'Loain',
-    'tenx', 'shdonx', 'sluongx', 'dgiax', 'thtienx', 'Loaix',
+    'Ngay','tenn', 'shdonn', 'sluongn', 'dgian', 'thtienn', 'sluongx', 'dgiax', 'thtienx', 'Loaix',
   ];
   dataSource!: MatTableDataSource<any>;
   @ViewChild(MatPaginator) paginator!: MatPaginator;
@@ -57,57 +56,81 @@ export class XuatnhaptonComponent implements OnInit {
   }
 
   async ngOnInit() {
-   this.ListNhap = await this._CauhinhService.getListChitiet(this.thangluu,this.namluu,'NHAP');
-   this.ListXuat = await this._CauhinhService.getListChitiet(this.thangluu,this.namluu,'XUAT');
-   const data = [...this.ListNhap,...this.ListXuat];
-   data.forEach((v)=>
-   {
-    v.Ngay = moment(v.Ngay).format("DD/MM/YYYY")
-   })
-   const groupedObjects = data.reduce((acc, obj) => {
-    const group = acc.get(obj.Ngay) || [];
-    group.push(obj);
-    acc.set(obj.Ngay, group);
-    return acc;
-  }, new Map());
-   const DataXNT = Array.from(groupedObjects.entries()).map(([Ngay, items]:any) => ({ Ngay, items }));
-  //  this.ListXNT.sort((a:any, b:any) => new Date(a.Ngay) - new Date(b.Ngay))
-   console.log(DataXNT);
-   DataXNT.forEach((v)=>
-   {
-      const Xuat = v.items.filter((xuat:any)=>xuat.Loai=='XUAT')
-      const Nhap = v.items.filter((nhap:any)=>nhap.Loai=='NHAP')
-      let Max = Xuat.length>Nhap.length?Xuat.length:Nhap.length
-      Max = Array.from({ length: Max }, (_, i) => i);
-      console.log(Max);
-      Max.forEach((i:any) => {
-        const item = {
-          Ngay:v.Ngay,
-          tenn:Nhap[i]?.ten,
-          shdonn:Nhap[i]?.shdon,
-          sluongn:Nhap[i]?.sluong,
-          dgian:Nhap[i]?.dgia,
-          thtienn:Nhap[i]?.thtien,
-          Loain:Nhap[i]?.Loai,
-          tenx:Xuat[i]?.ten,
-          shdonx:Xuat[i]?.shdon,
-          sluongx:Xuat[i]?.sluong,
-          dgiax:Xuat[i]?.dgia,
-          thtienx:Xuat[i]?.thtien,
-          Loaix:Xuat[i]?.Loai,
-        } 
-        this.ListXNT.push(item)
-      });
-   console.log(this.ListXNT);
-   
-      // console.log(v.Ngay,Xuat);
-      // console.log(v.Ngay,Nhap);
-      
-   })
-   this.dataSource = new MatTableDataSource(this.ListXNT);
-   this.dataSource.paginator = this.paginator;
-   this.dataSource.sort = this.sort;
-   this.Paginall = this.ListXNT.length;
+ 
+  }
+  async LoadXNT()
+  {
+    this.ListNhap = await this._CauhinhService.getListChitiet(this.thangluu,this.namluu,'NHAP');
+    this.ListXuat = await this._CauhinhService.getListChitiet(this.thangluu,this.namluu,'XUAT');
+    const data = [...this.ListNhap,...this.ListXuat];
+    data.forEach((v)=>
+    {
+     v.Ngay = moment(v.Ngay).format("DD/MM/YYYY")
+    })
+    const groupedObjects = data.reduce((acc, obj) => {
+     const group = acc.get(obj.Ngay) || [];
+     group.push(obj);
+     acc.set(obj.Ngay, group);
+     return acc;
+   }, new Map());
+    const DataXNT = Array.from(groupedObjects.entries()).map(([Ngay, items]:any) => ({ Ngay, items }));
+   //  this.ListXNT.sort((a:any, b:any) => new Date(a.Ngay) - new Date(b.Ngay))
+    console.log(DataXNT);
+    DataXNT.forEach((v)=>
+    {
+       const Xuat = v.items.filter((xuat:any)=>xuat.Loai=='XUAT')
+       const Nhap = v.items.filter((nhap:any)=>nhap.Loai=='NHAP')
+       const Max = [...Xuat,...Nhap]
+       console.log(Max);
+       
+     // let Max = Xuat.length>Nhap.length?Xuat.length:Nhap.length
+      // Max = Array.from({ length: Max }, (_, i) => i);
+      // console.log(Max);
+       Max.forEach((v:any,k:any) => {
+         if(v.Loai=="NHAP")
+         {
+           const item = {
+             Ngay:v.Ngay,
+             tenn:v.ten,
+             shdonn:v.shdon,
+             sluongn:v.sluong,
+             dgian:v.dgia,
+             thtienn:v.thtien,
+             sluongx:0,
+             dgiax:0,
+             thtienx:0,
+             Loaix:v.Loai,
+           } 
+           
+         this.ListXNT.push(item)
+         }
+         else
+         {
+           const item = {
+             Ngay:v.Ngay,
+             tenn:v.ten,
+             shdonn:v.shdon,
+             sluongn:0,
+             dgian:0,
+             thtienn:0,
+             sluongx:v.sluong,
+             dgiax:v.dgia,
+             thtienx:v.thtien,
+             Loaix:v.Loai,
+           } 
+         this.ListXNT.push(item)
+         }
+       });
+    console.log(this.ListXNT);
+    
+       // console.log(v.Ngay,Xuat);
+       // console.log(v.Ngay,Nhap);
+       
+    })
+    this.dataSource = new MatTableDataSource(this.ListXNT);
+    this.dataSource.paginator = this.paginator;
+    this.dataSource.sort = this.sort;
+    this.Paginall = this.ListXNT.length;
   }
   LoadMuavao()
   {

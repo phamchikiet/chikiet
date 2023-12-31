@@ -1,4 +1,4 @@
-<div class="grid grid-cols-2">
+<div class="flex flex-row space-x-3 items-center">
   <mat-form-field appearance="fill">
     <mat-label>Tháng Lưu</mat-label>
     <input type="text" [(ngModel)]="thangluu" [ngModelOptions]="{standalone: true}"
@@ -10,6 +10,7 @@
     <input type="text"  [(ngModel)]="namluu" [ngModelOptions]="{standalone: true}" matInput class="px-3 py-2 border border-gray-200 rounded"
       [placeholder]="'Tìm kiếm bài viết'" />
   </mat-form-field>
+  <button mat-raised-button (click)="LoadXNT()">Load XNT</button>
 </div>
 <table mat-table [dataSource]="dataSource" matSort>
   <ng-container matColumnDef="Ngay">
@@ -44,7 +45,7 @@
     <td mat-cell *matCellDef="let row"> {{row.thtienn|number:'1.0-2'}} </td>
     <td mat-footer-cell *matFooterCellDef><span class="font-bold"></span> </td>
   </ng-container>
-  <ng-container matColumnDef="Loain">
+  <!-- <ng-container matColumnDef="Loain">
     <th mat-header-cell *matHeaderCellDef mat-sort-header>Loại </th>
     <td mat-cell *matCellDef="let row"> {{row.Loain}} </td>
     <td mat-footer-cell *matFooterCellDef></td>
@@ -58,7 +59,7 @@
     <th mat-header-cell *matHeaderCellDef mat-sort-header>SHĐ </th>
     <td mat-cell *matCellDef="let row"> {{row.shdonx}} </td>
     <td mat-footer-cell *matFooterCellDef></td>
-  </ng-container>
+  </ng-container> -->
   <ng-container matColumnDef="sluongx">
     <th mat-header-cell *matHeaderCellDef mat-sort-header>SL </th>
     <td mat-cell *matCellDef="let row"> {{row.sluongx}} </td>
