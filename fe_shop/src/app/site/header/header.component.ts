@@ -22,10 +22,10 @@ export class HeaderComponent implements OnInit {
   darkmode:boolean=false
   Menus:any[]=[
     {id:1,Title:'Trang Chủ',Slug:'trang-chu'},
-    {id:2,Title:'Giới Thiệu',Slug:'gioi-thieu'},
+    // {id:2,Title:'Giới Thiệu',Slug:'gioi-thieu'},
     {id:2,Title:'Sản Phẩm',Slug:'san-pham'},
-    {id:3,Title:'Tin Tức',Slug:'tin-tuc'},
-    {id:4,Title:'Liên Hệ',Slug:'lienhe'},
+    // {id:3,Title:'Tin Tức',Slug:'tin-tuc'},
+    {id:4,Title:'Liên Hệ',Slug:'lien-he'},
   ]
   constructor() {
     this._AppService.isDarkTheme$.subscribe(isDarkTheme => {

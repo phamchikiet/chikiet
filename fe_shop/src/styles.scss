@@ -1,7 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@import 'swiper/css';
+@import 'swiper/css/navigation';
+@import 'swiper/css/pagination';
 /* You can add global styles to this file, and also import other style files */
 
 html,
@@ -15,4 +17,14 @@ body {
 .text-primary
 {
   font-family: 'Poppins', sans-serif !important;
+}
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+  background-color: #ddd;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #00256e;
 }
