@@ -1,0 +1,16 @@
+<div class="flex flex-col space-y-2">
+  <div> 
+     <button mat-raised-button (click)="UpdateSanpham()">Cập Nhật</button>
+    </div>
+
+  @for (item of ListSP; track item.id) {
+    <div class="grid grid-cols-4 border p-2">
+      <div>{{ $index+1 }}. {{ item.TenSP }}</div>
+      <div>{{ item.TenSP1 }}</div>
+      <div>{{ item.TenSP2 }}</div>
+      <div>{{ item.TenSP3 }}</div>
+    </div>
+  } @empty {
+    <li> Không Có Sản Phẩm </li>
+  }
+</div>

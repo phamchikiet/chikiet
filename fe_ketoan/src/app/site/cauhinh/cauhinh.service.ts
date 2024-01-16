@@ -23,6 +23,21 @@ export class CauhinhService {
   }
   Token:any = 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiI1OTAwNDI4OTA0IiwidHlwZSI6MiwiZXhwIjoxNzA0MTE2MTA3LCJpYXQiOjE3MDQwMjk3MDd9.3arymZ9wqQLvRTPhtBWSOgTM7qPLRWY20eu5EsTjjRltXzfMUo_wybL2pV0kpXiZTBzmUiPvwdxNCH3uihDu6Q'
   constructor() {}
+  async getAll() {
+    try {
+      const options = {
+        method:'GET',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+      };
+          const response = await fetch(`${environment.APIURL}/chitiet`,options);
+          const data = await response.json();                  
+          return data;
+      } catch (error) {
+          return console.error(error);
+      }
+  }
   async FindHoadon(thangtim: any,thangluu: any,namtim: any,namluu: any,ttxly:any,SHD: any,Loai:any='NHAP') {
     const options = {
       method:'GET',
@@ -105,8 +120,8 @@ export class CauhinhService {
       };
           const response = await fetch(`${environment.APIURL}/chitiet/findthang`,options);
           const data = await response.json();   
-         // console.log(data);               
-          return data;
+         console.log(data);               
+          return data.items;
       } catch (error) {
           return console.error(error);
       }

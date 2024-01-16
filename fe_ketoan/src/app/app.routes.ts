@@ -6,9 +6,19 @@ import { BanraChitietComponent } from './site/banra/banra-chitiet/banra-chitiet.
 import { CauhinhComponent } from './site/cauhinh/cauhinh.component';
 import { XuatnhaptonComponent } from './site/xuatnhapton/xuatnhapton.component';
 import { CauhinhDetailComponent } from './site/cauhinh/cauhinh-detail/cauhinh-detail.component';
+import { SanphamComponent } from './site/sanpham/sanpham.component';
+import { ShdhhpComponent } from './site/shdhhp/shdhhp.component';
 
 export const appRoutes: Route[] = [
-    { path: '', redirectTo: 'muavao', pathMatch: 'full' },
+    { path: '', redirectTo: 'shdhhp', pathMatch: 'full' },
+    {
+        path: 'shdhhp',
+        component: ShdhhpComponent,
+    },
+    {
+        path: 'sanpham',
+        component: SanphamComponent,
+    },
     {
         path: 'cauhinh',
         component: CauhinhComponent,

@@ -42,10 +42,11 @@ export class XuatnhaptonComponent implements OnInit {
   ListNhap: any[] = []
   ListXuat: any[] = []
   ListXNT: any[] = []
-  thangluu: any = '03'
+  ListXNTGroup: any[] = []
+  thangluu: any = '06'
   namluu: any = '2023'
   displayedColumns: string[] = [
-    'Ngay','tenn', 'shdonn', 'sluongn', 'dgian', 'thtienn', 'sluongx', 'dgiax', 'thtienx', 'Loaix',
+    'Ngay','tenn', 'shdonn', 'sluongn', 'dgian', 'thtienn', 'sluongx', 'dgiax', 'thtienx',
   ];
   dataSource!: MatTableDataSource<any>;
   @ViewChild(MatPaginator) paginator!: MatPaginator;
@@ -99,7 +100,7 @@ export class XuatnhaptonComponent implements OnInit {
              sluongx:0,
              dgiax:0,
              thtienx:0,
-             Loaix:v.Loai,
+            //  Loaix:v.Loai,
            } 
            
          this.ListXNT.push(item)
@@ -116,7 +117,7 @@ export class XuatnhaptonComponent implements OnInit {
              sluongx:v.sluong,
              dgiax:v.dgia,
              thtienx:v.thtien,
-             Loaix:v.Loai,
+            //  Loaix:v.Loai,
            } 
          this.ListXNT.push(item)
          }
@@ -131,6 +132,31 @@ export class XuatnhaptonComponent implements OnInit {
     this.dataSource.paginator = this.paginator;
     this.dataSource.sort = this.sort;
     this.Paginall = this.ListXNT.length;
+  }
+  LoadXNTGroup()
+  {
+    console.log(this.ListXNT);
+    
+    this.ListXNTGroup = this.ListXNT
+    .filter((obj, i) => this.ListXNT.findIndex(o => o.tenn === obj.tenn) === i)
+    .map(obj => ({
+      Ngay: obj.Ngay,
+      tenn: obj.tenn,
+      shdonn: obj.shdonn,
+      sluongn: this.ListXNT.filter(o => o.tenn === obj.tenn).reduce((total, o) => total + o.sluongn, 0),
+      dgian: obj.dgian,
+      thtienn: this.ListXNT.filter(o => o.tenn === obj.tenn).reduce((total, o) => total + o.thtienn, 0),
+      sluongx:this.ListXNT.filter(o => o.tenn === obj.tenn).reduce((total, o) => total + o.sluongx, 0),
+      dgiax:obj.dgiax,
+      thtienx:this.ListXNT.filter(o => o.tenn === obj.tenn).reduce((total, o) => total + o.thtienx, 0),
+      // Loaix: obj.Loaix
+    }));  
+    console.log(this.ListXNTGroup);
+    
+    this.dataSource = new MatTableDataSource(this.ListXNTGroup);
+    this.dataSource.paginator = this.paginator;
+    this.dataSource.sort = this.sort;
+    this.Paginall = this.ListXNTGroup.length;
   }
   LoadMuavao()
   {
