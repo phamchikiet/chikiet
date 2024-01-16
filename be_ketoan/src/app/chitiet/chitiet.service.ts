@@ -23,15 +23,36 @@ export class ChitietService {
     }
   }
   async findThang(data: any) {
-    return await this.ChitietRepository.find({
+    const items = await this.ChitietRepository.find({
       where: { 
         thang: data.thang,
         nam: data.nam,
         Loai:data.Loai
       },
-
     });
+    const totalCount = items.length 
+    return { items, totalCount };
   }
+  // async findThang(params: any) {
+  //   const queryBuilder = this.ChitietRepository.createQueryBuilder('chitiet');
+  //     queryBuilder.andWhere('chitiet.thang BETWEEN :startDate AND :endDate', {
+  //       startDate:"01",
+  //       endDate:"11",
+  //     });
+  //     queryBuilder.andWhere('chitiet.nam = "2023"');
+  //     queryBuilder.andWhere('chitiet.Loai = "Nhap"');
+  //   const [items, totalCount] = await queryBuilder.getManyAndCount();
+  // return { items, totalCount };
+  // }
+  // async findThang(data: any) {
+  //   return await this.ChitietRepository.find({
+  //     where: { 
+  //       thang: data.thang,
+  //       nam: data.nam,
+  //       Loai:data.Loai
+  //     },
+  //   });
+  // }
   async findAll() {
     return await this.ChitietRepository.find();
   }
