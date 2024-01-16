@@ -21,35 +21,53 @@ export class MuavaoService {
   get muavaochitiet$(): Observable<any | null> {
     return this._muavaochitiet.asObservable();
   }
-  constructor() {}
+  constructor() { }
+  async GetMuavaos() {
+      try {
+        const options = {
+          method: 'GET',
+          headers: {
+            'Content-Type': 'application/json',
+            Authorization: environment.Token,
+            redirect: 'follow'
+          }
+        };
+        const response = await fetch("https://hoadondientu.gdt.gov.vn:30000/query/invoices/sold?sort=tdlap:desc,khmshdon:asc,shdon:desc&size=15&search=tdlap=ge=17/12/2023T00:00:00;tdlap=le=16/01/2024T23:59:59;shdon==111",options);
+        const data = await response.json();
+        return data;
+      } catch (error) {
+        return console.error(error);
+      }
+
+  }
   async ListMuavaos() {
     try {
-          const response = await fetch(environment.APIURL + '/muavao');
-          const data = await response.json();
-          this._muavaos.next(data);          
-          return data;
-      } catch (error) {
-          return console.error(error);
-      }
+      const response = await fetch(environment.APIURL + '/muavao');
+      const data = await response.json();
+      this._muavaos.next(data);
+      return data;
+    } catch (error) {
+      return console.error(error);
+    }
   }
-  async UpdateMuavao(item:any) {
+  async UpdateMuavao(item: any) {
     try {
-        const options = {
-            method:'PATCH',
-            headers: {
-              'Content-Type': 'application/json',
-            },
-            body: JSON.stringify(item),
-          };
-          const response = await fetch(`${environment.APIURL}/muavao/${item.id}`, options);
-          const result = await response.json();
-          console.log(result);
-          
-      } catch (error) {
-          return console.error(error);
-      }
+      const options = {
+        method: 'PATCH',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(item),
+      };
+      const response = await fetch(`${environment.APIURL}/muavao/${item.id}`, options);
+      const result = await response.json();
+      console.log(result);
+
+    } catch (error) {
+      return console.error(error);
+    }
   }
-  async DeleteMuavao(itemId:any) {
+  async DeleteMuavao(itemId: any) {
     try {
       const options = {
         method: 'DELETE',
@@ -60,59 +78,59 @@ export class MuavaoService {
       const response = await fetch(`${environment.APIURL}/muavao/${itemId}`, options);
       const result = await response.json();
       console.log(result);
-          
-      } catch (error) {
-          return console.error(error);
-      }
+
+    } catch (error) {
+      return console.error(error);
+    }
   }
   async getAllMuavaoChitiet() {
     try {
-          const response = await fetch(environment.APIURL + '/muavaochitiet');
-          const data = await response.json();
-          // const Batdau = new Date('2023-11-01')
-          // const Ketthuc = new Date('2023-11-31')
-          // const data2 = data.data.filter((v:any)=>
-          //       {
-          //           const Ngaytao = new Date(v.Ngaytao)
-          //           return Ngaytao.getTime() >= Batdau.getTime() && Ngaytao.getTime() <= Ketthuc.getTime()
-          //       } 
-          // )
-          // console.log('Muavao',data2);
-          this._muavaochitiets.next(data);
-      } catch (error) {
-          return console.error(error);
-      }
+      const response = await fetch(environment.APIURL + '/muavaochitiet');
+      const data = await response.json();
+      // const Batdau = new Date('2023-11-01')
+      // const Ketthuc = new Date('2023-11-31')
+      // const data2 = data.data.filter((v:any)=>
+      //       {
+      //           const Ngaytao = new Date(v.Ngaytao)
+      //           return Ngaytao.getTime() >= Batdau.getTime() && Ngaytao.getTime() <= Ketthuc.getTime()
+      //       } 
+      // )
+      // console.log('Muavao',data2);
+      this._muavaochitiets.next(data);
+    } catch (error) {
+      return console.error(error);
+    }
   }
-  async UpdateMuavaoChitiet(item:any) {
+  async UpdateMuavaoChitiet(item: any) {
     try {
-        const options = {
-            method:'PATCH',
-            headers: {
-              'Content-Type': 'application/json',
-            },
-            body: JSON.stringify(item),
-          };
-          const response = await fetch(`${environment.APIURL}/muavaochitiet/${item.id}`, options);
-          const result = await response.json();
-          console.log(result);
-          
-      } catch (error) {
-          return console.error(error);
-      }
+      const options = {
+        method: 'PATCH',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(item),
+      };
+      const response = await fetch(`${environment.APIURL}/muavaochitiet/${item.id}`, options);
+      const result = await response.json();
+      console.log(result);
+
+    } catch (error) {
+      return console.error(error);
+    }
   }
   async Tinhtoan() {
     try {
-          const response = await fetch(environment.APIURL + '/muavaochitiet/pagination?page=1&perPage=5000');
-          const data = await response.json();
-          const response2 = await fetch(environment.APIURL + '/muavao/pagination?page=1&perPage=5000');
-          const data2 = await response2.json();
-          const mergedArray = this.mergeNoDup(data2.data,data.data,'SHD')
-          console.log(data.data);
-          console.log(data2.data);
-          console.log(mergedArray);
-      } catch (error) {
-          return console.error(error);
-      }
+      const response = await fetch(environment.APIURL + '/muavaochitiet/pagination?page=1&perPage=5000');
+      const data = await response.json();
+      const response2 = await fetch(environment.APIURL + '/muavao/pagination?page=1&perPage=5000');
+      const data2 = await response2.json();
+      const mergedArray = this.mergeNoDup(data2.data, data.data, 'SHD')
+      console.log(data.data);
+      console.log(data2.data);
+      console.log(mergedArray);
+    } catch (error) {
+      return console.error(error);
+    }
   }
   mergeNoDup(arr1: any, arr2: any, key: any) {
     const mergedArray = arr1.concat(arr2);
@@ -127,32 +145,32 @@ export class MuavaoService {
 
   async getMuaVaochitiet() {
     try {
-        const response = await fetch(environment.APIURL + '/muavaochitiet/pagination?page=1&perPage=5000');
-        const data = await response.json();
-        console.log(data.data);
-        data.data.forEach(async (v:any) => {
-            v.Ngaytao = new Date(v.Dulieu.ntao)
-            const options = {
-                method:'PATCH',
-                headers: {
-                  'Content-Type': 'application/json',
-                },
-                body: JSON.stringify(v),
-              };
-              const response1 = await fetch(`${environment.APIURL}/muavaochitiet/${v.id}`, options);
-              const result = await response1.json();
-             console.log(result);
-           console.log('Product updated!'); 
-        });
-        //   const data2 = data.data.filter((v:any)=>
-        //  {
-        //     return new Date(v.Ngaytao) >= new Date('2023-11-01')&& new Date(v.Ngaytao)<= new Date('2023-11-31')
-        //  } 
-        //   )
-        //   console.log('Muavao',data2);
-        //   this._muavaos.next(data2);
-      } catch (error) {
-          return console.error(error);
-      }
+      const response = await fetch(environment.APIURL + '/muavaochitiet/pagination?page=1&perPage=5000');
+      const data = await response.json();
+      console.log(data.data);
+      data.data.forEach(async (v: any) => {
+        v.Ngaytao = new Date(v.Dulieu.ntao)
+        const options = {
+          method: 'PATCH',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(v),
+        };
+        const response1 = await fetch(`${environment.APIURL}/muavaochitiet/${v.id}`, options);
+        const result = await response1.json();
+        console.log(result);
+        console.log('Product updated!');
+      });
+      //   const data2 = data.data.filter((v:any)=>
+      //  {
+      //     return new Date(v.Ngaytao) >= new Date('2023-11-01')&& new Date(v.Ngaytao)<= new Date('2023-11-31')
+      //  } 
+      //   )
+      //   console.log('Muavao',data2);
+      //   this._muavaos.next(data2);
+    } catch (error) {
+      return console.error(error);
+    }
   }
 }

@@ -1,3 +1,6 @@
+import * as moment from "moment";
+
+
 export interface SearchParams {
   idChinhanh?: string;
   Dateranger?: {};
@@ -209,5 +212,11 @@ export function NhomHanghoa(data:any) {
             loai: "Nhap"
           }));
         return  result
+};
+export function ChangeDateBegin(value:any) {
+  return moment(moment(value).startOf('day').toDate()).format("DD/MM/YYYYTHH:mm:ss")
+};
+export function ChangeDateEnd(value:any) {
+  return moment(moment(value).endOf('day').toDate()).format("DD/MM/YYYYTHH:mm:ss")
 };
 

@@ -4,7 +4,8 @@
 
     <mat-form-field > 
       <mat-label>Tìm Kiếm</mat-label>
-      <input matInput (keyup)="applyFilter($event)" placeholder="Tìm Kiếm" #input>
+      <input [(ngModel)]="SHD" [ngModelOptions]="{standalone: true}"
+       matInput (keyup)="applyFilter($event)" placeholder="Tìm Kiếm" #input>
     </mat-form-field>
     <mat-form-field class="example-form-field">
       <mat-label>Enter a date range</mat-label>
@@ -20,18 +21,24 @@
         </mat-date-range-picker-actions>
       </mat-date-range-picker>
     </mat-form-field>
-    <mat-form-field>
+    <!-- <mat-form-field>
         <mat-label>Danh Mục</mat-label>
         <mat-select [(ngModel)]="ttxly" [ngModelOptions]="{standalone: true}" (selectionChange)="onSelectChange($event)">
           <mat-option [value]="5">Đã Cấp Mã Hoá Đơn</mat-option>
           <mat-option [value]="6">Nhận Chưa Cấp Mã Hoá Đơn</mat-option>
         </mat-select>
-      </mat-form-field>
+      </mat-form-field> -->
       <!-- <span (click)="Xoa()">Xoá</span> -->
-      <button mat-icon-button (click)="FilterHoadon()"><span class="material-symbols-outlined">
+      <!-- <button mat-icon-button (click)="FilterHoadon()"><span class="material-symbols-outlined">
         filter_alt
         </span></button>
-      <button mat-stroked-button (click)="UpdateStatus()">UpStatus</button>
+      <button mat-stroked-button (click)="UpdateStatus()">UpStatus</button> --> 
+      <button mat-stroked-button (click)="TimHD()">Tìm Hoá Đơn</button>
+      <mat-form-field>
+      <mat-label>Token</mat-label>
+      <input [(ngModel)]="Token" [ngModelOptions]="{standalone: true}"
+       matInput placeholder="Token">
+      </mat-form-field>
   </div>
     <div class="">
       <table mat-table [dataSource]="dataSource" matSort>

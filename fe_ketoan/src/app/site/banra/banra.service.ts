@@ -22,6 +22,39 @@ export class BanraService {
     return this._banrachitiet.asObservable();
   }
   constructor() {}
+  async GetBanra(Begin:any,End:any,SHD:any,Token:any,ttxly:any=0) {    
+    try {
+      const options = {
+        method: 'GET',
+        headers: {
+          'Content-Type': 'application/json',
+          Authorization: Token,
+          redirect: 'follow'
+        }
+      };
+      const response = await fetch(`https://hoadondientu.gdt.gov.vn:30000/query/invoices/sold?sort=tdlap:desc,khmshdon:asc,shdon:desc&size=15&search=tdlap=ge=${Begin};tdlap=le=${End};shdon==${SHD}`,options);
+      const data = await response.json();
+      return data;
+    } catch (error) {
+      return console.error(error);
+    }
+
+}
+async CreateBanras(item:any) {
+  try {
+      const options = {
+          method:'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(item),
+        };
+        const response = await fetch(`${environment.APIURL}/banra`, options);          
+        return await response.json();                  
+    } catch (error) {
+        return console.error(error);
+    }
+}  
   async ListBanras() {
     try {
           const response = await fetch(environment.APIURL + '/banra');
