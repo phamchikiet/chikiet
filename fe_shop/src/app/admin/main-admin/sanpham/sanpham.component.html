@@ -1,0 +1,970 @@
+<mat-drawer-container class="example-container w-full h-full " autosize>
+  <mat-drawer #drawer mode="side" class="!flex flex-col flex-auto min-w-0 relative h-full w-2/3" position="end">
+    <div class="relative flex flex-col h-full w-full overflow-auto">
+      <router-outlet></router-outlet>
+    </div>
+  </mat-drawer>
+  <mat-drawer-content class="!flex flex-col flex-auto min-w-0 relative !h-[90vh]">
+    <div class="relative border-b-2 flex flex-col">
+      <div class="flex flex-row space-x-2 justify-between items-center p-2">
+        <div class="flex flex-row space-x-3 justify-center items-center">
+          <div class="relative mt-1 lg:w-80">
+            <input (keyup)="applyFilter($event)" type="text" name="email" id="topbar-search"
+              class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-2 focus:ring-fuchsia-50 focus:border-fuchsia-300 block w-full p-2.5"
+              placeholder="Tìm Kiếm Sản Phẩm">
+          </div>
+          <button mat-icon-button [matMenuTriggerFor]="menu">
+            <span class="material-symbols-outlined">more_vert</span>
+          </button>
+          <mat-menu #menu="matMenu">
+            <button mat-menu-item>
+              <div class="flex flex-row space-x-2 items-center justify-center">
+                <span class="material-symbols-outlined text-xl" matTooltip="Tùy Chỉnh">tune</span>
+                <span class="text-sm">Cấu Hình</span>
+              </div>
+            </button>
+            <button mat-menu-item>
+              <div class="flex flex-row space-x-2 items-center justify-center">
+                <span class="material-symbols-outlined text-xl" matTooltip="Lấy Mẫu">file_download</span>
+                <span class="text-sm">Download</span>
+              </div>
+            </button>
+            <button mat-menu-item>
+              <div class="flex flex-row space-x-2 items-center justify-center">
+                <span class="material-symbols-outlined text-xl" matTooltip="Upload File">file_upload</span>
+                <span class="text-sm">Upload</span>
+              </div>
+            </button>
+          </mat-menu>
+        </div>
+        <div>
+          <button mat-flat-button color="primary">
+            <div (click)="openDialog(dialogTemplate)" class="flex flex-row items-center">
+              <span class="material-symbols-outlined">add</span>
+              <span class="hidden lg:flex">Sản Phẩm</span>
+            </div>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="relative flex flex-col h-full w-full overflow-auto">
+      <!-- <div class="flex flex-col">
+        <div [routerLink]="[item.id]" routerLinkActive="router-link-active" (click)="drawer.open()"
+          class="flex flex-row justify-between items-center p-4 hover:bg-gray-200"
+          *ngFor="let item of FilterLists; let i = index">
+          <div class="flex flex-row space-x-2 items-center justify-between w-full">
+            <div class="flex flex-col space-y-2">
+              <span>{{item.Tieude}} </span>
+              <span class="text-xs italic">Oldlink : {{item.Oldlink}}</span>
+              <span class="text-xs italic">Newlink : {{item.Newlink}}</span>
+            </div>
+          </div>
+        </div>
+      </div> -->
+      <div class="flex flex-col my-6 mx-4 rounded-2xl shadow-xl shadow-gray-200">
+        <div class="overflow-x-auto rounded-2xl">
+          <div class="inline-block min-w-full align-middle">
+            <div class="overflow-hidden">
+              <table class="min-w-full divide-y divide-gray-200 table-fixed">
+                <thead class="bg-white">
+                  <tr>
+                    <th scope="col" class="p-4 lg:p-5">
+                      <div class="flex items-center">
+                        <input id="checkbox-all" aria-describedby="checkbox-1" type="checkbox"
+                          class="w-5 h-5 rounded border-gray-300 focus:ring-0 checked:bg-dark-900">
+                        <label for="checkbox-all" class="sr-only">checkbox</label>
+                      </div>
+                    </th>
+                    <th scope="col" class="p-4 text-xs font-medium text-left text-gray-500 uppercase lg:p-5">
+                      Product Name
+                    </th>
+                    <th scope="col" class="p-4 text-xs font-medium text-left text-gray-500 uppercase lg:p-5">
+                      Technology
+                    </th>
+                    <th scope="col" class="p-4 text-xs font-medium text-left text-gray-500 uppercase lg:p-5">
+                      ID
+                    </th>
+                    <th scope="col" class="p-4 text-xs font-medium text-left text-gray-500 uppercase lg:p-5">
+                      Price
+                    </th>
+                    <th scope="col" class="p-4 lg:p-5">
+                    </th>
+                  </tr>
+                </thead>
+                <tbody class="bg-white divide-y divide-gray-200">
+                  <tr class="hover:bg-gray-100">
+                    <td class="p-4 w-4 lg:p-5">
+                      <div class="flex items-center">
+                        <input id="checkbox-194556" aria-describedby="checkbox-1" type="checkbox"
+                          class="w-5 h-5 rounded border-gray-300 focus:ring-0 checked:bg-dark-900">
+                        <label for="checkbox-194556" class="sr-only">checkbox</label>
+                      </div>
+                    </td>
+                    <td class="p-4 text-sm font-normal text-gray-500 whitespace-nowrap lg:p-5">
+                      <div class="text-base font-semibold text-gray-900">Education Dashboard</div>
+                      <div class="text-sm font-normal text-gray-500">Html templates</div>
+                    </td>
+                    <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap lg:p-5">Angular</td>
+                    <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap lg:p-5">#194556</td>
+                    <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap lg:p-5">$149</td>
+                    <td class="p-4 space-x-2 whitespace-nowrap lg:p-5">
+                      <button type="button" data-modal-toggle="product-modal"
+                        class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-gray-700 bg-gray-200 rounded-lg hover:bg-gray-300 hover:text-gray-900 hover:scale-[1.02] transition-all">
+                        <svg class="mr-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <path d="M17.414 2.586a2 2 0 00-2.828 0L7 10.172V13h2.828l7.586-7.586a2 2 0 000-2.828z">
+                          </path>
+                          <path fill-rule="evenodd"
+                            d="M2 6a2 2 0 012-2h4a1 1 0 010 2H4v10h10v-4a1 1 0 112 0v4a2 2 0 01-2 2H4a2 2 0 01-2-2V6z"
+                            clip-rule="evenodd"></path>
+                        </svg>
+                        Edit item
+                      </button>
+                      <button type="button" data-modal-toggle="delete-product-modal"
+                        class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-gradient-to-br from-red-400 to-red-600 rounded-lg shadow-md shadow-gray-300 hover:scale-[1.02] transition-transform">
+                        <svg class="mr-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd"
+                            d="M9 2a1 1 0 00-.894.553L7.382 4H4a1 1 0 000 2v10a2 2 0 002 2h8a2 2 0 002-2V6a1 1 0 100-2h-3.382l-.724-1.447A1 1 0 0011 2H9zM7 8a1 1 0 012 0v6a1 1 0 11-2 0V8zm5-1a1 1 0 00-1 1v6a1 1 0 102 0V8a1 1 0 00-1-1z"
+                            clip-rule="evenodd"></path>
+                        </svg>
+                        Delete item
+                      </button>
+                    </td>
+                  </tr>
+                  <tr class="hover:bg-gray-100">
+                    <td class="p-4 w-4 lg:p-5">
+                      <div class="flex items-center">
+                        <input id="checkbox-623232" aria-describedby="checkbox-1" type="checkbox"
+                          class="w-5 h-5 rounded border-gray-300 focus:ring-0 checked:bg-dark-900">
+                        <label for="checkbox-623232" class="sr-only">checkbox</label>
+                      </div>
+                    </td>
+                    <td class="p-4 text-sm font-normal text-gray-500 whitespace-nowrap lg:p-5">
+                      <div class="text-base font-semibold text-gray-900">Flowbite UI Kit</div>
+                      <div class="text-sm font-normal text-gray-500">Html templates</div>
+                    </td>
+                    <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap lg:p-5">FlowbiteJS</td>
+                    <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap lg:p-5">#623232</td>
+                    <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap lg:p-5">$129</td>
+                    <td class="p-4 space-x-2 whitespace-nowrap lg:p-5">
+                      <button type="button" data-modal-toggle="product-modal"
+                        class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-gray-700 bg-gray-200 rounded-lg hover:bg-gray-300 hover:text-gray-900 hover:scale-[1.02] transition-all">
+                        <svg class="mr-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <path d="M17.414 2.586a2 2 0 00-2.828 0L7 10.172V13h2.828l7.586-7.586a2 2 0 000-2.828z">
+                          </path>
+                          <path fill-rule="evenodd"
+                            d="M2 6a2 2 0 012-2h4a1 1 0 010 2H4v10h10v-4a1 1 0 112 0v4a2 2 0 01-2 2H4a2 2 0 01-2-2V6z"
+                            clip-rule="evenodd"></path>
+                        </svg>
+                        Edit item
+                      </button>
+                      <button type="button" data-modal-toggle="delete-product-modal"
+                        class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-gradient-to-br from-red-400 to-red-600 rounded-lg shadow-md shadow-gray-300 hover:scale-[1.02] transition-transform">
+                        <svg class="mr-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd"
+                            d="M9 2a1 1 0 00-.894.553L7.382 4H4a1 1 0 000 2v10a2 2 0 002 2h8a2 2 0 002-2V6a1 1 0 100-2h-3.382l-.724-1.447A1 1 0 0011 2H9zM7 8a1 1 0 012 0v6a1 1 0 11-2 0V8zm5-1a1 1 0 00-1 1v6a1 1 0 102 0V8a1 1 0 00-1-1z"
+                            clip-rule="evenodd"></path>
+                        </svg>
+                        Delete item
+                      </button>
+                    </td>
+                  </tr>
+                  <tr class="hover:bg-gray-100">
+                    <td class="p-4 w-4 lg:p-5">
+                      <div class="flex items-center">
+                        <input id="checkbox-194356" aria-describedby="checkbox-1" type="checkbox"
+                          class="w-5 h-5 rounded border-gray-300 focus:ring-0 checked:bg-dark-900">
+                        <label for="checkbox-194356" class="sr-only">checkbox</label>
+                      </div>
+                    </td>
+                    <td class="p-4 text-sm font-normal text-gray-500 whitespace-nowrap lg:p-5">
+                      <div class="text-base font-semibold text-gray-900">Education Dashboard</div>
+                      <div class="text-sm font-normal text-gray-500">Html templates</div>
+                    </td>
+                    <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap lg:p-5">Angular</td>
+                    <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap lg:p-5">#194356</td>
+                    <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap lg:p-5">$149</td>
+                    <td class="p-4 space-x-2 whitespace-nowrap lg:p-5">
+                      <button type="button" data-modal-toggle="product-modal"
+                        class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-gray-700 bg-gray-200 rounded-lg hover:bg-gray-300 hover:text-gray-900 hover:scale-[1.02] transition-all">
+                        <svg class="mr-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <path d="M17.414 2.586a2 2 0 00-2.828 0L7 10.172V13h2.828l7.586-7.586a2 2 0 000-2.828z">
+                          </path>
+                          <path fill-rule="evenodd"
+                            d="M2 6a2 2 0 012-2h4a1 1 0 010 2H4v10h10v-4a1 1 0 112 0v4a2 2 0 01-2 2H4a2 2 0 01-2-2V6z"
+                            clip-rule="evenodd"></path>
+                        </svg>
+                        Edit item
+                      </button>
+                      <button type="button" data-modal-toggle="delete-product-modal"
+                        class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-gradient-to-br from-red-400 to-red-600 rounded-lg shadow-md shadow-gray-300 hover:scale-[1.02] transition-transform">
+                        <svg class="mr-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd"
+                            d="M9 2a1 1 0 00-.894.553L7.382 4H4a1 1 0 000 2v10a2 2 0 002 2h8a2 2 0 002-2V6a1 1 0 100-2h-3.382l-.724-1.447A1 1 0 0011 2H9zM7 8a1 1 0 012 0v6a1 1 0 11-2 0V8zm5-1a1 1 0 00-1 1v6a1 1 0 102 0V8a1 1 0 00-1-1z"
+                            clip-rule="evenodd"></path>
+                        </svg>
+                        Delete item
+                      </button>
+                    </td>
+                  </tr>
+                  <tr class="hover:bg-gray-100">
+                    <td class="p-4 w-4 lg:p-5">
+                      <div class="flex items-center">
+                        <input id="checkbox-323323" aria-describedby="checkbox-1" type="checkbox"
+                          class="w-5 h-5 rounded border-gray-300 focus:ring-0 checked:bg-dark-900">
+                        <label for="checkbox-323323" class="sr-only">checkbox</label>
+                      </div>
+                    </td>
+                    <td class="p-4 text-sm font-normal text-gray-500 whitespace-nowrap lg:p-5">
+                      <div class="text-base font-semibold text-gray-900">Flowbite UI Kit</div>
+                      <div class="text-sm font-normal text-gray-500">Html templates</div>
+                    </td>
+                    <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap lg:p-5">FlowbiteJS</td>
+                    <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap lg:p-5">#323323</td>
+                    <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap lg:p-5">$129</td>
+                    <td class="p-4 space-x-2 whitespace-nowrap lg:p-5">
+                      <button type="button" data-modal-toggle="product-modal"
+                        class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-gray-700 bg-gray-200 rounded-lg hover:bg-gray-300 hover:text-gray-900 hover:scale-[1.02] transition-all">
+                        <svg class="mr-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <path d="M17.414 2.586a2 2 0 00-2.828 0L7 10.172V13h2.828l7.586-7.586a2 2 0 000-2.828z">
+                          </path>
+                          <path fill-rule="evenodd"
+                            d="M2 6a2 2 0 012-2h4a1 1 0 010 2H4v10h10v-4a1 1 0 112 0v4a2 2 0 01-2 2H4a2 2 0 01-2-2V6z"
+                            clip-rule="evenodd"></path>
+                        </svg>
+                        Edit item
+                      </button>
+                      <button type="button" data-modal-toggle="delete-product-modal"
+                        class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-gradient-to-br from-red-400 to-red-600 rounded-lg shadow-md shadow-gray-300 hover:scale-[1.02] transition-transform">
+                        <svg class="mr-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd"
+                            d="M9 2a1 1 0 00-.894.553L7.382 4H4a1 1 0 000 2v10a2 2 0 002 2h8a2 2 0 002-2V6a1 1 0 100-2h-3.382l-.724-1.447A1 1 0 0011 2H9zM7 8a1 1 0 012 0v6a1 1 0 11-2 0V8zm5-1a1 1 0 00-1 1v6a1 1 0 102 0V8a1 1 0 00-1-1z"
+                            clip-rule="evenodd"></path>
+                        </svg>
+                        Delete item
+                      </button>
+                    </td>
+                  </tr>
+                  <tr class="hover:bg-gray-100">
+                    <td class="p-4 w-4 lg:p-5">
+                      <div class="flex items-center">
+                        <input id="checkbox-994856" aria-describedby="checkbox-1" type="checkbox"
+                          class="w-5 h-5 rounded border-gray-300 focus:ring-0 checked:bg-dark-900">
+                        <label for="checkbox-994856" class="sr-only">checkbox</label>
+                      </div>
+                    </td>
+                    <td class="p-4 text-sm font-normal text-gray-500 whitespace-nowrap lg:p-5">
+                      <div class="text-base font-semibold text-gray-900">Education Dashboard</div>
+                      <div class="text-sm font-normal text-gray-500">Html templates</div>
+                    </td>
+                    <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap lg:p-5">Angular</td>
+                    <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap lg:p-5">#994856</td>
+                    <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap lg:p-5">$149</td>
+                    <td class="p-4 space-x-2 whitespace-nowrap lg:p-5">
+                      <button type="button" data-modal-toggle="product-modal"
+                        class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-gray-700 bg-gray-200 rounded-lg hover:bg-gray-300 hover:text-gray-900 hover:scale-[1.02] transition-all">
+                        <svg class="mr-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <path d="M17.414 2.586a2 2 0 00-2.828 0L7 10.172V13h2.828l7.586-7.586a2 2 0 000-2.828z">
+                          </path>
+                          <path fill-rule="evenodd"
+                            d="M2 6a2 2 0 012-2h4a1 1 0 010 2H4v10h10v-4a1 1 0 112 0v4a2 2 0 01-2 2H4a2 2 0 01-2-2V6z"
+                            clip-rule="evenodd"></path>
+                        </svg>
+                        Edit item
+                      </button>
+                      <button type="button" data-modal-toggle="delete-product-modal"
+                        class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-gradient-to-br from-red-400 to-red-600 rounded-lg shadow-md shadow-gray-300 hover:scale-[1.02] transition-transform">
+                        <svg class="mr-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd"
+                            d="M9 2a1 1 0 00-.894.553L7.382 4H4a1 1 0 000 2v10a2 2 0 002 2h8a2 2 0 002-2V6a1 1 0 100-2h-3.382l-.724-1.447A1 1 0 0011 2H9zM7 8a1 1 0 012 0v6a1 1 0 11-2 0V8zm5-1a1 1 0 00-1 1v6a1 1 0 102 0V8a1 1 0 00-1-1z"
+                            clip-rule="evenodd"></path>
+                        </svg>
+                        Delete item
+                      </button>
+                    </td>
+                  </tr>
+                  <tr class="hover:bg-gray-100">
+                    <td class="p-4 w-4 lg:p-5">
+                      <div class="flex items-center">
+                        <input id="checkbox-194256" aria-describedby="checkbox-1" type="checkbox"
+                          class="w-5 h-5 rounded border-gray-300 focus:ring-0 checked:bg-dark-900">
+                        <label for="checkbox-194256" class="sr-only">checkbox</label>
+                      </div>
+                    </td>
+                    <td class="p-4 text-sm font-normal text-gray-500 whitespace-nowrap lg:p-5">
+                      <div class="text-base font-semibold text-gray-900">Education Dashboard</div>
+                      <div class="text-sm font-normal text-gray-500">Html templates</div>
+                    </td>
+                    <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap lg:p-5">Angular</td>
+                    <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap lg:p-5">#194256</td>
+                    <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap lg:p-5">$149</td>
+                    <td class="p-4 space-x-2 whitespace-nowrap lg:p-5">
+                      <button type="button" data-modal-toggle="product-modal"
+                        class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-gray-700 bg-gray-200 rounded-lg hover:bg-gray-300 hover:text-gray-900 hover:scale-[1.02] transition-all">
+                        <svg class="mr-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <path d="M17.414 2.586a2 2 0 00-2.828 0L7 10.172V13h2.828l7.586-7.586a2 2 0 000-2.828z">
+                          </path>
+                          <path fill-rule="evenodd"
+                            d="M2 6a2 2 0 012-2h4a1 1 0 010 2H4v10h10v-4a1 1 0 112 0v4a2 2 0 01-2 2H4a2 2 0 01-2-2V6z"
+                            clip-rule="evenodd"></path>
+                        </svg>
+                        Edit item
+                      </button>
+                      <button type="button" data-modal-toggle="delete-product-modal"
+                        class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-gradient-to-br from-red-400 to-red-600 rounded-lg shadow-md shadow-gray-300 hover:scale-[1.02] transition-transform">
+                        <svg class="mr-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd"
+                            d="M9 2a1 1 0 00-.894.553L7.382 4H4a1 1 0 000 2v10a2 2 0 002 2h8a2 2 0 002-2V6a1 1 0 100-2h-3.382l-.724-1.447A1 1 0 0011 2H9zM7 8a1 1 0 012 0v6a1 1 0 11-2 0V8zm5-1a1 1 0 00-1 1v6a1 1 0 102 0V8a1 1 0 00-1-1z"
+                            clip-rule="evenodd"></path>
+                        </svg>
+                        Delete item
+                      </button>
+                    </td>
+                  </tr>
+                  <tr class="hover:bg-gray-100">
+                    <td class="p-4 w-4 lg:p-5">
+                      <div class="flex items-center">
+                        <input id="checkbox-623378" aria-describedby="checkbox-1" type="checkbox"
+                          class="w-5 h-5 rounded border-gray-300 focus:ring-0 checked:bg-dark-900">
+                        <label for="checkbox-623378" class="sr-only">checkbox</label>
+                      </div>
+                    </td>
+                    <td class="p-4 text-sm font-normal text-gray-500 whitespace-nowrap lg:p-5">
+                      <div class="text-base font-semibold text-gray-900">Flowbite UI Kit</div>
+                      <div class="text-sm font-normal text-gray-500">Html templates</div>
+                    </td>
+                    <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap lg:p-5">FlowbiteJS</td>
+                    <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap lg:p-5">#623378</td>
+                    <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap lg:p-5">$129</td>
+                    <td class="p-4 space-x-2 whitespace-nowrap lg:p-5">
+                      <button type="button" data-modal-toggle="product-modal"
+                        class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-gray-700 bg-gray-200 rounded-lg hover:bg-gray-300 hover:text-gray-900 hover:scale-[1.02] transition-all">
+                        <svg class="mr-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <path d="M17.414 2.586a2 2 0 00-2.828 0L7 10.172V13h2.828l7.586-7.586a2 2 0 000-2.828z">
+                          </path>
+                          <path fill-rule="evenodd"
+                            d="M2 6a2 2 0 012-2h4a1 1 0 010 2H4v10h10v-4a1 1 0 112 0v4a2 2 0 01-2 2H4a2 2 0 01-2-2V6z"
+                            clip-rule="evenodd"></path>
+                        </svg>
+                        Edit item
+                      </button>
+                      <button type="button" data-modal-toggle="delete-product-modal"
+                        class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-gradient-to-br from-red-400 to-red-600 rounded-lg shadow-md shadow-gray-300 hover:scale-[1.02] transition-transform">
+                        <svg class="mr-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd"
+                            d="M9 2a1 1 0 00-.894.553L7.382 4H4a1 1 0 000 2v10a2 2 0 002 2h8a2 2 0 002-2V6a1 1 0 100-2h-3.382l-.724-1.447A1 1 0 0011 2H9zM7 8a1 1 0 012 0v6a1 1 0 11-2 0V8zm5-1a1 1 0 00-1 1v6a1 1 0 102 0V8a1 1 0 00-1-1z"
+                            clip-rule="evenodd"></path>
+                        </svg>
+                        Delete item
+                      </button>
+                    </td>
+                  </tr>
+                  <tr class="hover:bg-gray-100">
+                    <td class="p-4 w-4 lg:p-5">
+                      <div class="flex items-center">
+                        <input id="checkbox-192856" aria-describedby="checkbox-1" type="checkbox"
+                          class="w-5 h-5 rounded border-gray-300 focus:ring-0 checked:bg-dark-900">
+                        <label for="checkbox-192856" class="sr-only">checkbox</label>
+                      </div>
+                    </td>
+                    <td class="p-4 text-sm font-normal text-gray-500 whitespace-nowrap lg:p-5">
+                      <div class="text-base font-semibold text-gray-900">Education Dashboard</div>
+                      <div class="text-sm font-normal text-gray-500">Html templates</div>
+                    </td>
+                    <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap lg:p-5">Angular</td>
+                    <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap lg:p-5">#192856</td>
+                    <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap lg:p-5">$149</td>
+                    <td class="p-4 space-x-2 whitespace-nowrap lg:p-5">
+                      <button type="button" data-modal-toggle="product-modal"
+                        class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-gray-700 bg-gray-200 rounded-lg hover:bg-gray-300 hover:text-gray-900 hover:scale-[1.02] transition-all">
+                        <svg class="mr-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <path d="M17.414 2.586a2 2 0 00-2.828 0L7 10.172V13h2.828l7.586-7.586a2 2 0 000-2.828z">
+                          </path>
+                          <path fill-rule="evenodd"
+                            d="M2 6a2 2 0 012-2h4a1 1 0 010 2H4v10h10v-4a1 1 0 112 0v4a2 2 0 01-2 2H4a2 2 0 01-2-2V6z"
+                            clip-rule="evenodd"></path>
+                        </svg>
+                        Edit item
+                      </button>
+                      <button type="button" data-modal-toggle="delete-product-modal"
+                        class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-gradient-to-br from-red-400 to-red-600 rounded-lg shadow-md shadow-gray-300 hover:scale-[1.02] transition-transform">
+                        <svg class="mr-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd"
+                            d="M9 2a1 1 0 00-.894.553L7.382 4H4a1 1 0 000 2v10a2 2 0 002 2h8a2 2 0 002-2V6a1 1 0 100-2h-3.382l-.724-1.447A1 1 0 0011 2H9zM7 8a1 1 0 012 0v6a1 1 0 11-2 0V8zm5-1a1 1 0 00-1 1v6a1 1 0 102 0V8a1 1 0 00-1-1z"
+                            clip-rule="evenodd"></path>
+                        </svg>
+                        Delete item
+                      </button>
+                    </td>
+                  </tr>
+                  <tr class="hover:bg-gray-100">
+                    <td class="p-4 w-4 lg:p-5">
+                      <div class="flex items-center">
+                        <input id="checkbox-523323" aria-describedby="checkbox-1" type="checkbox"
+                          class="w-5 h-5 rounded border-gray-300 focus:ring-0 checked:bg-dark-900">
+                        <label for="checkbox-523323" class="sr-only">checkbox</label>
+                      </div>
+                    </td>
+                    <td class="p-4 text-sm font-normal text-gray-500 whitespace-nowrap lg:p-5">
+                      <div class="text-base font-semibold text-gray-900">Flowbite UI Kit</div>
+                      <div class="text-sm font-normal text-gray-500">Html templates</div>
+                    </td>
+                    <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap lg:p-5">FlowbiteJS</td>
+                    <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap lg:p-5">#523323</td>
+                    <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap lg:p-5">$129</td>
+                    <td class="p-4 space-x-2 whitespace-nowrap lg:p-5">
+                      <button type="button" data-modal-toggle="product-modal"
+                        class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-gray-700 bg-gray-200 rounded-lg hover:bg-gray-300 hover:text-gray-900 hover:scale-[1.02] transition-all">
+                        <svg class="mr-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <path d="M17.414 2.586a2 2 0 00-2.828 0L7 10.172V13h2.828l7.586-7.586a2 2 0 000-2.828z">
+                          </path>
+                          <path fill-rule="evenodd"
+                            d="M2 6a2 2 0 012-2h4a1 1 0 010 2H4v10h10v-4a1 1 0 112 0v4a2 2 0 01-2 2H4a2 2 0 01-2-2V6z"
+                            clip-rule="evenodd"></path>
+                        </svg>
+                        Edit item
+                      </button>
+                      <button type="button" data-modal-toggle="delete-product-modal"
+                        class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-gradient-to-br from-red-400 to-red-600 rounded-lg shadow-md shadow-gray-300 hover:scale-[1.02] transition-transform">
+                        <svg class="mr-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd"
+                            d="M9 2a1 1 0 00-.894.553L7.382 4H4a1 1 0 000 2v10a2 2 0 002 2h8a2 2 0 002-2V6a1 1 0 100-2h-3.382l-.724-1.447A1 1 0 0011 2H9zM7 8a1 1 0 012 0v6a1 1 0 11-2 0V8zm5-1a1 1 0 00-1 1v6a1 1 0 102 0V8a1 1 0 00-1-1z"
+                            clip-rule="evenodd"></path>
+                        </svg>
+                        Delete item
+                      </button>
+                    </td>
+                  </tr>
+                  <tr class="hover:bg-gray-100">
+                    <td class="p-4 w-4 lg:p-5">
+                      <div class="flex items-center">
+                        <input id="checkbox-191857" aria-describedby="checkbox-1" type="checkbox"
+                          class="w-5 h-5 rounded border-gray-300 focus:ring-0 checked:bg-dark-900">
+                        <label for="checkbox-191857" class="sr-only">checkbox</label>
+                      </div>
+                    </td>
+                    <td class="p-4 text-sm font-normal text-gray-500 whitespace-nowrap lg:p-5">
+                      <div class="text-base font-semibold text-gray-900">Education Dashboard</div>
+                      <div class="text-sm font-normal text-gray-500">Html templates</div>
+                    </td>
+                    <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap lg:p-5">Angular</td>
+                    <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap lg:p-5">#191857</td>
+                    <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap lg:p-5">$149</td>
+                    <td class="p-4 space-x-2 whitespace-nowrap lg:p-5">
+                      <button type="button" data-modal-toggle="product-modal"
+                        class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-gray-700 bg-gray-200 rounded-lg hover:bg-gray-300 hover:text-gray-900 hover:scale-[1.02] transition-all">
+                        <svg class="mr-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <path d="M17.414 2.586a2 2 0 00-2.828 0L7 10.172V13h2.828l7.586-7.586a2 2 0 000-2.828z">
+                          </path>
+                          <path fill-rule="evenodd"
+                            d="M2 6a2 2 0 012-2h4a1 1 0 010 2H4v10h10v-4a1 1 0 112 0v4a2 2 0 01-2 2H4a2 2 0 01-2-2V6z"
+                            clip-rule="evenodd"></path>
+                        </svg>
+                        Edit item
+                      </button>
+                      <button type="button" data-modal-toggle="delete-product-modal"
+                        class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-gradient-to-br from-red-400 to-red-600 rounded-lg shadow-md shadow-gray-300 hover:scale-[1.02] transition-transform">
+                        <svg class="mr-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd"
+                            d="M9 2a1 1 0 00-.894.553L7.382 4H4a1 1 0 000 2v10a2 2 0 002 2h8a2 2 0 002-2V6a1 1 0 100-2h-3.382l-.724-1.447A1 1 0 0011 2H9zM7 8a1 1 0 012 0v6a1 1 0 11-2 0V8zm5-1a1 1 0 00-1 1v6a1 1 0 102 0V8a1 1 0 00-1-1z"
+                            clip-rule="evenodd"></path>
+                        </svg>
+                        Delete item
+                      </button>
+                    </td>
+                  </tr>
+                  <tr class="hover:bg-gray-100">
+                    <td class="p-4 w-4 lg:p-5">
+                      <div class="flex items-center">
+                        <input id="checkbox-914856" aria-describedby="checkbox-1" type="checkbox"
+                          class="w-5 h-5 rounded border-gray-300 focus:ring-0 checked:bg-dark-900">
+                        <label for="checkbox-914856" class="sr-only">checkbox</label>
+                      </div>
+                    </td>
+                    <td class="p-4 text-sm font-normal text-gray-500 whitespace-nowrap lg:p-5">
+                      <div class="text-base font-semibold text-gray-900">Education Dashboard</div>
+                      <div class="text-sm font-normal text-gray-500">Html templates</div>
+                    </td>
+                    <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap lg:p-5">Angular</td>
+                    <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap lg:p-5">#914856</td>
+                    <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap lg:p-5">$149</td>
+                    <td class="p-4 space-x-2 whitespace-nowrap lg:p-5">
+                      <button type="button" data-modal-toggle="product-modal"
+                        class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-gray-700 bg-gray-200 rounded-lg hover:bg-gray-300 hover:text-gray-900 hover:scale-[1.02] transition-all">
+                        <svg class="mr-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <path d="M17.414 2.586a2 2 0 00-2.828 0L7 10.172V13h2.828l7.586-7.586a2 2 0 000-2.828z">
+                          </path>
+                          <path fill-rule="evenodd"
+                            d="M2 6a2 2 0 012-2h4a1 1 0 010 2H4v10h10v-4a1 1 0 112 0v4a2 2 0 01-2 2H4a2 2 0 01-2-2V6z"
+                            clip-rule="evenodd"></path>
+                        </svg>
+                        Edit item
+                      </button>
+                      <button type="button" data-modal-toggle="delete-product-modal"
+                        class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-gradient-to-br from-red-400 to-red-600 rounded-lg shadow-md shadow-gray-300 hover:scale-[1.02] transition-transform">
+                        <svg class="mr-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd"
+                            d="M9 2a1 1 0 00-.894.553L7.382 4H4a1 1 0 000 2v10a2 2 0 002 2h8a2 2 0 002-2V6a1 1 0 100-2h-3.382l-.724-1.447A1 1 0 0011 2H9zM7 8a1 1 0 012 0v6a1 1 0 11-2 0V8zm5-1a1 1 0 00-1 1v6a1 1 0 102 0V8a1 1 0 00-1-1z"
+                            clip-rule="evenodd"></path>
+                        </svg>
+                        Delete item
+                      </button>
+                    </td>
+                  </tr>
+                  <tr class="hover:bg-gray-100">
+                    <td class="p-4 w-4 lg:p-5">
+                      <div class="flex items-center">
+                        <input id="checkbox-633293" aria-describedby="checkbox-1" type="checkbox"
+                          class="w-5 h-5 rounded border-gray-300 focus:ring-0 checked:bg-dark-900">
+                        <label for="checkbox-633293" class="sr-only">checkbox</label>
+                      </div>
+                    </td>
+                    <td class="p-4 text-sm font-normal text-gray-500 whitespace-nowrap lg:p-5">
+                      <div class="text-base font-semibold text-gray-900">Flowbite UI Kit</div>
+                      <div class="text-sm font-normal text-gray-500">Html templates</div>
+                    </td>
+                    <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap lg:p-5">FlowbiteJS</td>
+                    <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap lg:p-5">#633293</td>
+                    <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap lg:p-5">$129</td>
+                    <td class="p-4 space-x-2 whitespace-nowrap lg:p-5">
+                      <button type="button" data-modal-toggle="product-modal"
+                        class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-gray-700 bg-gray-200 rounded-lg hover:bg-gray-300 hover:text-gray-900 hover:scale-[1.02] transition-all">
+                        <svg class="mr-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <path d="M17.414 2.586a2 2 0 00-2.828 0L7 10.172V13h2.828l7.586-7.586a2 2 0 000-2.828z">
+                          </path>
+                          <path fill-rule="evenodd"
+                            d="M2 6a2 2 0 012-2h4a1 1 0 010 2H4v10h10v-4a1 1 0 112 0v4a2 2 0 01-2 2H4a2 2 0 01-2-2V6z"
+                            clip-rule="evenodd"></path>
+                        </svg>
+                        Edit item
+                      </button>
+                      <button type="button" data-modal-toggle="delete-product-modal"
+                        class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-gradient-to-br from-red-400 to-red-600 rounded-lg shadow-md shadow-gray-300 hover:scale-[1.02] transition-transform">
+                        <svg class="mr-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd"
+                            d="M9 2a1 1 0 00-.894.553L7.382 4H4a1 1 0 000 2v10a2 2 0 002 2h8a2 2 0 002-2V6a1 1 0 100-2h-3.382l-.724-1.447A1 1 0 0011 2H9zM7 8a1 1 0 012 0v6a1 1 0 11-2 0V8zm5-1a1 1 0 00-1 1v6a1 1 0 102 0V8a1 1 0 00-1-1z"
+                            clip-rule="evenodd"></path>
+                        </svg>
+                        Delete item
+                      </button>
+                    </td>
+                  </tr>
+                  <tr class="hover:bg-gray-100">
+                    <td class="p-4 w-4 lg:p-5">
+                      <div class="flex items-center">
+                        <input id="checkbox-924856" aria-describedby="checkbox-1" type="checkbox"
+                          class="w-5 h-5 rounded border-gray-300 focus:ring-0 checked:bg-dark-900">
+                        <label for="checkbox-924856" class="sr-only">checkbox</label>
+                      </div>
+                    </td>
+                    <td class="p-4 text-sm font-normal text-gray-500 whitespace-nowrap lg:p-5">
+                      <div class="text-base font-semibold text-gray-900">Education Dashboard</div>
+                      <div class="text-sm font-normal text-gray-500">Html templates</div>
+                    </td>
+                    <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap lg:p-5">Angular</td>
+                    <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap lg:p-5">#924856</td>
+                    <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap lg:p-5">$149</td>
+                    <td class="p-4 space-x-2 whitespace-nowrap lg:p-5">
+                      <button type="button" data-modal-toggle="product-modal"
+                        class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-gray-700 bg-gray-200 rounded-lg hover:bg-gray-300 hover:text-gray-900 hover:scale-[1.02] transition-all">
+                        <svg class="mr-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <path d="M17.414 2.586a2 2 0 00-2.828 0L7 10.172V13h2.828l7.586-7.586a2 2 0 000-2.828z">
+                          </path>
+                          <path fill-rule="evenodd"
+                            d="M2 6a2 2 0 012-2h4a1 1 0 010 2H4v10h10v-4a1 1 0 112 0v4a2 2 0 01-2 2H4a2 2 0 01-2-2V6z"
+                            clip-rule="evenodd"></path>
+                        </svg>
+                        Edit item
+                      </button>
+                      <button type="button" data-modal-toggle="delete-product-modal"
+                        class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-gradient-to-br from-red-400 to-red-600 rounded-lg shadow-md shadow-gray-300 hover:scale-[1.02] transition-transform">
+                        <svg class="mr-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd"
+                            d="M9 2a1 1 0 00-.894.553L7.382 4H4a1 1 0 000 2v10a2 2 0 002 2h8a2 2 0 002-2V6a1 1 0 100-2h-3.382l-.724-1.447A1 1 0 0011 2H9zM7 8a1 1 0 012 0v6a1 1 0 11-2 0V8zm5-1a1 1 0 00-1 1v6a1 1 0 102 0V8a1 1 0 00-1-1z"
+                            clip-rule="evenodd"></path>
+                        </svg>
+                        Delete item
+                      </button>
+                    </td>
+                  </tr>
+                  <tr class="hover:bg-gray-100">
+                    <td class="p-4 w-4 lg:p-5">
+                      <div class="flex items-center">
+                        <input id="checkbox-123323" aria-describedby="checkbox-1" type="checkbox"
+                          class="w-5 h-5 rounded border-gray-300 focus:ring-0 checked:bg-dark-900">
+                        <label for="checkbox-123323" class="sr-only">checkbox</label>
+                      </div>
+                    </td>
+                    <td class="p-4 text-sm font-normal text-gray-500 whitespace-nowrap lg:p-5">
+                      <div class="text-base font-semibold text-gray-900">Flowbite UI Kit</div>
+                      <div class="text-sm font-normal text-gray-500">Html templates</div>
+                    </td>
+                    <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap lg:p-5">FlowbiteJS</td>
+                    <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap lg:p-5">#123323</td>
+                    <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap lg:p-5">$129</td>
+                    <td class="p-4 space-x-2 whitespace-nowrap lg:p-5">
+                      <button type="button" data-modal-toggle="product-modal"
+                        class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-gray-700 bg-gray-200 rounded-lg hover:bg-gray-300 hover:text-gray-900 hover:scale-[1.02] transition-all">
+                        <svg class="mr-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <path d="M17.414 2.586a2 2 0 00-2.828 0L7 10.172V13h2.828l7.586-7.586a2 2 0 000-2.828z">
+                          </path>
+                          <path fill-rule="evenodd"
+                            d="M2 6a2 2 0 012-2h4a1 1 0 010 2H4v10h10v-4a1 1 0 112 0v4a2 2 0 01-2 2H4a2 2 0 01-2-2V6z"
+                            clip-rule="evenodd"></path>
+                        </svg>
+                        Edit item
+                      </button>
+                      <button type="button" data-modal-toggle="delete-product-modal"
+                        class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-gradient-to-br from-red-400 to-red-600 rounded-lg shadow-md shadow-gray-300 hover:scale-[1.02] transition-transform">
+                        <svg class="mr-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd"
+                            d="M9 2a1 1 0 00-.894.553L7.382 4H4a1 1 0 000 2v10a2 2 0 002 2h8a2 2 0 002-2V6a1 1 0 100-2h-3.382l-.724-1.447A1 1 0 0011 2H9zM7 8a1 1 0 012 0v6a1 1 0 11-2 0V8zm5-1a1 1 0 00-1 1v6a1 1 0 102 0V8a1 1 0 00-1-1z"
+                            clip-rule="evenodd"></path>
+                        </svg>
+                        Delete item
+                      </button>
+                    </td>
+                  </tr>
+                  <tr class="hover:bg-gray-100">
+                    <td class="p-4 w-4 lg:p-5">
+                      <div class="flex items-center">
+                        <input id="checkbox-198856" aria-describedby="checkbox-1" type="checkbox"
+                          class="w-5 h-5 rounded border-gray-300 focus:ring-0 checked:bg-dark-900">
+                        <label for="checkbox-198856" class="sr-only">checkbox</label>
+                      </div>
+                    </td>
+                    <td class="p-4 text-sm font-normal text-gray-500 whitespace-nowrap lg:p-5">
+                      <div class="text-base font-semibold text-gray-900">Education Dashboard</div>
+                      <div class="text-sm font-normal text-gray-500">Html templates</div>
+                    </td>
+                    <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap lg:p-5">Angular</td>
+                    <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap lg:p-5">#198856</td>
+                    <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap lg:p-5">$149</td>
+                    <td class="p-4 space-x-2 whitespace-nowrap lg:p-5">
+                      <button type="button" data-modal-toggle="product-modal"
+                        class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-gray-700 bg-gray-200 rounded-lg hover:bg-gray-300 hover:text-gray-900 hover:scale-[1.02] transition-all">
+                        <svg class="mr-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <path d="M17.414 2.586a2 2 0 00-2.828 0L7 10.172V13h2.828l7.586-7.586a2 2 0 000-2.828z">
+                          </path>
+                          <path fill-rule="evenodd"
+                            d="M2 6a2 2 0 012-2h4a1 1 0 010 2H4v10h10v-4a1 1 0 112 0v4a2 2 0 01-2 2H4a2 2 0 01-2-2V6z"
+                            clip-rule="evenodd"></path>
+                        </svg>
+                        Edit item
+                      </button>
+                      <button type="button" data-modal-toggle="delete-product-modal"
+                        class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-gradient-to-br from-red-400 to-red-600 rounded-lg shadow-md shadow-gray-300 hover:scale-[1.02] transition-transform">
+                        <svg class="mr-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd"
+                            d="M9 2a1 1 0 00-.894.553L7.382 4H4a1 1 0 000 2v10a2 2 0 002 2h8a2 2 0 002-2V6a1 1 0 100-2h-3.382l-.724-1.447A1 1 0 0011 2H9zM7 8a1 1 0 012 0v6a1 1 0 11-2 0V8zm5-1a1 1 0 00-1 1v6a1 1 0 102 0V8a1 1 0 00-1-1z"
+                            clip-rule="evenodd"></path>
+                        </svg>
+                        Delete item
+                      </button>
+                    </td>
+                  </tr>
+                  <tr class="hover:bg-gray-100">
+                    <td class="p-4 w-4 lg:p-5">
+                      <div class="flex items-center">
+                        <input id="checkbox-132856" aria-describedby="checkbox-1" type="checkbox"
+                          class="w-5 h-5 rounded border-gray-300 focus:ring-0 checked:bg-dark-900">
+                        <label for="checkbox-132856" class="sr-only">checkbox</label>
+                      </div>
+                    </td>
+                    <td class="p-4 text-sm font-normal text-gray-500 whitespace-nowrap lg:p-5">
+                      <div class="text-base font-semibold text-gray-900">Education Dashboard</div>
+                      <div class="text-sm font-normal text-gray-500">Html templates</div>
+                    </td>
+                    <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap lg:p-5">Angular</td>
+                    <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap lg:p-5">#132856</td>
+                    <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap lg:p-5">$149</td>
+                    <td class="p-4 space-x-2 whitespace-nowrap lg:p-5">
+                      <button type="button" data-modal-toggle="product-modal"
+                        class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-gray-700 bg-gray-200 rounded-lg hover:bg-gray-300 hover:text-gray-900 hover:scale-[1.02] transition-all">
+                        <svg class="mr-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <path d="M17.414 2.586a2 2 0 00-2.828 0L7 10.172V13h2.828l7.586-7.586a2 2 0 000-2.828z">
+                          </path>
+                          <path fill-rule="evenodd"
+                            d="M2 6a2 2 0 012-2h4a1 1 0 010 2H4v10h10v-4a1 1 0 112 0v4a2 2 0 01-2 2H4a2 2 0 01-2-2V6z"
+                            clip-rule="evenodd"></path>
+                        </svg>
+                        Edit item
+                      </button>
+                      <button type="button" data-modal-toggle="delete-product-modal"
+                        class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-gradient-to-br from-red-400 to-red-600 rounded-lg shadow-md shadow-gray-300 hover:scale-[1.02] transition-transform">
+                        <svg class="mr-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd"
+                            d="M9 2a1 1 0 00-.894.553L7.382 4H4a1 1 0 000 2v10a2 2 0 002 2h8a2 2 0 002-2V6a1 1 0 100-2h-3.382l-.724-1.447A1 1 0 0011 2H9zM7 8a1 1 0 012 0v6a1 1 0 11-2 0V8zm5-1a1 1 0 00-1 1v6a1 1 0 102 0V8a1 1 0 00-1-1z"
+                            clip-rule="evenodd"></path>
+                        </svg>
+                        Delete item
+                      </button>
+                    </td>
+                  </tr>
+                  <tr class="hover:bg-gray-100">
+                    <td class="p-4 w-4 lg:p-5">
+                      <div class="flex items-center">
+                        <input id="checkbox-613223" aria-describedby="checkbox-1" type="checkbox"
+                          class="w-5 h-5 rounded border-gray-300 focus:ring-0 checked:bg-dark-900">
+                        <label for="checkbox-613223" class="sr-only">checkbox</label>
+                      </div>
+                    </td>
+                    <td class="p-4 text-sm font-normal text-gray-500 whitespace-nowrap lg:p-5">
+                      <div class="text-base font-semibold text-gray-900">Flowbite UI Kit</div>
+                      <div class="text-sm font-normal text-gray-500">Html templates</div>
+                    </td>
+                    <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap lg:p-5">FlowbiteJS</td>
+                    <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap lg:p-5">#613223</td>
+                    <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap lg:p-5">$129</td>
+                    <td class="p-4 space-x-2 whitespace-nowrap lg:p-5">
+                      <button type="button" data-modal-toggle="product-modal"
+                        class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-gray-700 bg-gray-200 rounded-lg hover:bg-gray-300 hover:text-gray-900 hover:scale-[1.02] transition-all">
+                        <svg class="mr-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <path d="M17.414 2.586a2 2 0 00-2.828 0L7 10.172V13h2.828l7.586-7.586a2 2 0 000-2.828z">
+                          </path>
+                          <path fill-rule="evenodd"
+                            d="M2 6a2 2 0 012-2h4a1 1 0 010 2H4v10h10v-4a1 1 0 112 0v4a2 2 0 01-2 2H4a2 2 0 01-2-2V6z"
+                            clip-rule="evenodd"></path>
+                        </svg>
+                        Edit item
+                      </button>
+                      <button type="button" data-modal-toggle="delete-product-modal"
+                        class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-gradient-to-br from-red-400 to-red-600 rounded-lg shadow-md shadow-gray-300 hover:scale-[1.02] transition-transform">
+                        <svg class="mr-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd"
+                            d="M9 2a1 1 0 00-.894.553L7.382 4H4a1 1 0 000 2v10a2 2 0 002 2h8a2 2 0 002-2V6a1 1 0 100-2h-3.382l-.724-1.447A1 1 0 0011 2H9zM7 8a1 1 0 012 0v6a1 1 0 11-2 0V8zm5-1a1 1 0 00-1 1v6a1 1 0 102 0V8a1 1 0 00-1-1z"
+                            clip-rule="evenodd"></path>
+                        </svg>
+                        Delete item
+                      </button>
+                    </td>
+                  </tr>
+                  <tr class="hover:bg-gray-100">
+                    <td class="p-4 w-4 lg:p-5">
+                      <div class="flex items-center">
+                        <input id="checkbox-484856" aria-describedby="checkbox-1" type="checkbox"
+                          class="w-5 h-5 rounded border-gray-300 focus:ring-0 checked:bg-dark-900">
+                        <label for="checkbox-484856" class="sr-only">checkbox</label>
+                      </div>
+                    </td>
+                    <td class="p-4 text-sm font-normal text-gray-500 whitespace-nowrap lg:p-5">
+                      <div class="text-base font-semibold text-gray-900">Education Dashboard</div>
+                      <div class="text-sm font-normal text-gray-500">Html templates</div>
+                    </td>
+                    <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap lg:p-5">Angular</td>
+                    <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap lg:p-5">#484856</td>
+                    <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap lg:p-5">$149</td>
+                    <td class="p-4 space-x-2 whitespace-nowrap lg:p-5">
+                      <button type="button" data-modal-toggle="product-modal"
+                        class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-gray-700 bg-gray-200 rounded-lg hover:bg-gray-300 hover:text-gray-900 hover:scale-[1.02] transition-all">
+                        <svg class="mr-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <path d="M17.414 2.586a2 2 0 00-2.828 0L7 10.172V13h2.828l7.586-7.586a2 2 0 000-2.828z">
+                          </path>
+                          <path fill-rule="evenodd"
+                            d="M2 6a2 2 0 012-2h4a1 1 0 010 2H4v10h10v-4a1 1 0 112 0v4a2 2 0 01-2 2H4a2 2 0 01-2-2V6z"
+                            clip-rule="evenodd"></path>
+                        </svg>
+                        Edit item
+                      </button>
+                      <button type="button" data-modal-toggle="delete-product-modal"
+                        class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-gradient-to-br from-red-400 to-red-600 rounded-lg shadow-md shadow-gray-300 hover:scale-[1.02] transition-transform">
+                        <svg class="mr-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd"
+                            d="M9 2a1 1 0 00-.894.553L7.382 4H4a1 1 0 000 2v10a2 2 0 002 2h8a2 2 0 002-2V6a1 1 0 100-2h-3.382l-.724-1.447A1 1 0 0011 2H9zM7 8a1 1 0 012 0v6a1 1 0 11-2 0V8zm5-1a1 1 0 00-1 1v6a1 1 0 102 0V8a1 1 0 00-1-1z"
+                            clip-rule="evenodd"></path>
+                        </svg>
+                        Delete item
+                      </button>
+                    </td>
+                  </tr>
+                  <tr class="hover:bg-gray-100">
+                    <td class="p-4 w-4 lg:p-5">
+                      <div class="flex items-center">
+                        <input id="checkbox-103324" aria-describedby="checkbox-1" type="checkbox"
+                          class="w-5 h-5 rounded border-gray-300 focus:ring-0 checked:bg-dark-900">
+                        <label for="checkbox-103324" class="sr-only">checkbox</label>
+                      </div>
+                    </td>
+                    <td class="p-4 text-sm font-normal text-gray-500 whitespace-nowrap lg:p-5">
+                      <div class="text-base font-semibold text-gray-900">Flowbite UI Kit</div>
+                      <div class="text-sm font-normal text-gray-500">Html templates</div>
+                    </td>
+                    <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap lg:p-5">FlowbiteJS</td>
+                    <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap lg:p-5">#103324</td>
+                    <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap lg:p-5">$129</td>
+                    <td class="p-4 space-x-2 whitespace-nowrap lg:p-5">
+                      <button type="button" data-modal-toggle="product-modal"
+                        class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-gray-700 bg-gray-200 rounded-lg hover:bg-gray-300 hover:text-gray-900 hover:scale-[1.02] transition-all">
+                        <svg class="mr-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <path d="M17.414 2.586a2 2 0 00-2.828 0L7 10.172V13h2.828l7.586-7.586a2 2 0 000-2.828z">
+                          </path>
+                          <path fill-rule="evenodd"
+                            d="M2 6a2 2 0 012-2h4a1 1 0 010 2H4v10h10v-4a1 1 0 112 0v4a2 2 0 01-2 2H4a2 2 0 01-2-2V6z"
+                            clip-rule="evenodd"></path>
+                        </svg>
+                        Edit item
+                      </button>
+                      <button type="button" data-modal-toggle="delete-product-modal"
+                        class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-gradient-to-br from-red-400 to-red-600 rounded-lg shadow-md shadow-gray-300 hover:scale-[1.02] transition-transform">
+                        <svg class="mr-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd"
+                            d="M9 2a1 1 0 00-.894.553L7.382 4H4a1 1 0 000 2v10a2 2 0 002 2h8a2 2 0 002-2V6a1 1 0 100-2h-3.382l-.724-1.447A1 1 0 0011 2H9zM7 8a1 1 0 012 0v6a1 1 0 11-2 0V8zm5-1a1 1 0 00-1 1v6a1 1 0 102 0V8a1 1 0 00-1-1z"
+                            clip-rule="evenodd"></path>
+                        </svg>
+                        Delete item
+                      </button>
+                    </td>
+                  </tr>
+                  <tr class="hover:bg-gray-100">
+                    <td class="p-4 w-4 lg:p-5">
+                      <div class="flex items-center">
+                        <input id="checkbox-124859" aria-describedby="checkbox-1" type="checkbox"
+                          class="w-5 h-5 rounded border-gray-300 focus:ring-0 checked:bg-dark-900">
+                        <label for="checkbox-124859" class="sr-only">checkbox</label>
+                      </div>
+                    </td>
+                    <td class="p-4 text-sm font-normal text-gray-500 whitespace-nowrap lg:p-5">
+                      <div class="text-base font-semibold text-gray-900">Education Dashboard</div>
+                      <div class="text-sm font-normal text-gray-500">Html templates</div>
+                    </td>
+                    <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap lg:p-5">Angular</td>
+                    <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap lg:p-5">#124859</td>
+                    <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap lg:p-5">$149</td>
+                    <td class="p-4 space-x-2 whitespace-nowrap lg:p-5">
+                      <button type="button" data-modal-toggle="product-modal"
+                        class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-gray-700 bg-gray-200 rounded-lg hover:bg-gray-300 hover:text-gray-900 hover:scale-[1.02] transition-all">
+                        <svg class="mr-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <path d="M17.414 2.586a2 2 0 00-2.828 0L7 10.172V13h2.828l7.586-7.586a2 2 0 000-2.828z">
+                          </path>
+                          <path fill-rule="evenodd"
+                            d="M2 6a2 2 0 012-2h4a1 1 0 010 2H4v10h10v-4a1 1 0 112 0v4a2 2 0 01-2 2H4a2 2 0 01-2-2V6z"
+                            clip-rule="evenodd"></path>
+                        </svg>
+                        Edit item
+                      </button>
+                      <button type="button" data-modal-toggle="delete-product-modal"
+                        class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-gradient-to-br from-red-400 to-red-600 rounded-lg shadow-md shadow-gray-300 hover:scale-[1.02] transition-transform">
+                        <svg class="mr-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd"
+                            d="M9 2a1 1 0 00-.894.553L7.382 4H4a1 1 0 000 2v10a2 2 0 002 2h8a2 2 0 002-2V6a1 1 0 100-2h-3.382l-.724-1.447A1 1 0 0011 2H9zM7 8a1 1 0 012 0v6a1 1 0 11-2 0V8zm5-1a1 1 0 00-1 1v6a1 1 0 102 0V8a1 1 0 00-1-1z"
+                            clip-rule="evenodd"></path>
+                        </svg>
+                        Delete item
+                      </button>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="items-center p-4 my-4 mx-4 bg-white rounded-2xl shadow-xl shadow-gray-200 sm:flex sm:justify-between">
+        <div class="flex items-center mb-4 sm:mb-0">
+          <a href="#"
+            class="inline-flex justify-center p-1 text-gray-500 rounded cursor-pointer hover:text-gray-900 hover:bg-gray-100">
+            <svg class="w-7 h-7" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd"
+                d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z"
+                clip-rule="evenodd"></path>
+            </svg>
+          </a>
+          <a href="#"
+            class="inline-flex justify-center p-1 mr-2 text-gray-500 rounded cursor-pointer hover:text-gray-900 hover:bg-gray-100">
+            <svg class="w-7 h-7" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd"
+                d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+                clip-rule="evenodd"></path>
+            </svg>
+          </a>
+          <span class="text-sm font-normal text-gray-500">Showing <span class="font-semibold text-gray-900">1-20</span>
+            of <span class="font-semibold text-gray-900">2290</span></span>
+        </div>
+        <div class="flex items-center space-x-3">
+          <a href="#"
+            class="inline-flex flex-1 justify-center items-center py-2 px-3 text-sm font-medium text-center text-white bg-gradient-to-br from-dark-700 to-dark-900 rounded-lg shadow-md shadow-gray-300 hover:scale-[1.02] transition-transform">
+            <svg class="mr-1 -ml-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd"
+                d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z"
+                clip-rule="evenodd"></path>
+            </svg>
+            Previous
+          </a>
+          <a href="#"
+            class="inline-flex flex-1 justify-center items-center py-2 px-3 text-sm font-medium text-center text-white bg-gradient-to-br from-dark-700 to-dark-900 rounded-lg shadow-md shadow-gray-300 hover:scale-[1.02] transition-transform">
+            Next
+            <svg class="ml-1 -mr-1 w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd"
+                d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+                clip-rule="evenodd"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </mat-drawer-content>
+</mat-drawer-container>
+<ng-template #dialogTemplate>
+  <div class="min-w-[672px]">
+    <div mat-dialog-title>Thêm Mới</div>
+    <div mat-dialog-content>
+      <div class="flex flex-col w-full space-y-4 p-4">
+        <mat-form-field appearance="outline" class="w-full">
+          <mat-label>Tiêu Đề</mat-label>
+          <input matInput [(ngModel)]="Detail.Tieude" [ngModelOptions]="{standalone: true}" placeholder="Tiêu Đề">
+        </mat-form-field>
+        <mat-form-field appearance="outline" class="w-full">
+          <mat-label>Oldlink</mat-label>
+          <input matInput [(ngModel)]="Detail.Oldlink" [ngModelOptions]="{standalone: true}" placeholder="Oldlink">
+        </mat-form-field>
+        <mat-form-field appearance="outline" class="w-full">
+          <mat-label>Newlink</mat-label>
+          <input matInput [(ngModel)]="Detail.Newlink" [ngModelOptions]="{standalone: true}" placeholder="Newlink">
+        </mat-form-field>
+      </div>
+    </div>
+    <div mat-dialog-actions class="justify-center">
+      <button mat-button class="bg-red-400 hover:bg-red-600 text-white" mat-dialog-close="false">Huỷ</button>
+      <button mat-button class="bg-blue-400 hover:bg-blue-600 text-white" mat-dialog-close="true">Đồng Ý</button>
+    </div>
+  </div>
+</ng-template>

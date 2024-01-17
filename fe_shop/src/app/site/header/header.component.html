@@ -1,13 +1,7 @@
-<div class="flex flex-row justify-between lg:h-20 h-14 items-center px-4">
-    <button mat-icon-button>
-        <span class="lg:hidden material-symbols-outlined" (click)="toggleDrawer()">
-            menu
-        </span></button>
-    <div>
-        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt=""
-            class="h-10">
-    </div>
-
+<div class="flex flex-row justify-between lg:h-20 h-14 items-center">
+    <a href="/">
+        <img src="/assets/images/logo.webp" class="lg:h-20 h-10">
+    </a>
     <div class="hidden lg:flex flex-row space-x-4">
         @for(item of Menus; track item.id) {
         <a class="p-4 rounded-lg hover:bg-gray-200" routerLink="{{item.Slug}}" routerLinkActive="bg-gray-300">
@@ -15,38 +9,42 @@
         </a>
         }
     </div>
-    <div class="flex flex-row space-x-2 items-center">
-        <button mat-icon-button><span class="material-symbols-outlined">
-                search
+    <div class="flex flex-row space-x-4 items-center">
+        <button mat-icon-button  matBadge="0">
+            <span class="material-symbols-outlined">
+                person
             </span></button>
-        <a href="gio-hang" mat-icon-button><span class="material-symbols-outlined">
-                shopping_bag
+        <a href="gio-hang" mat-icon-button matBadge="0">
+            <span class="material-symbols-outlined">
+                favorite
             </span></a>
         <button mat-icon-button [matMenuTriggerFor]="user">
-            <span class="material-symbols-outlined">person</span>
+            <span class="material-symbols-outlined">shopping_cart</span>
         </button>
         <mat-menu #user="matMenu" xPosition="before">
             <button mat-menu-item>
-                <a routerLink="/admin" routerLinkActive="bg-gray-200" class="flex flex-row space-x-3 items-center" >
+                <a routerLink="/admin" routerLinkActive="bg-gray-200" class="flex flex-row space-x-3 items-center">
                     <span class="material-symbols-outlined">account_circle</span>
                     <span>Admin</span>
                 </a>
-              </button>
-              <button mat-menu-item>
+            </button>
+            <button mat-menu-item>
                 <div class="flex flex-row space-x-3 items-center" matBadge="10">
                     <span class="material-symbols-outlined">shopping_bag</span>
                     <span>Giỏ Hàng</span>
                 </div>
-              </button>
-              <button mat-menu-item>
+            </button>
+            <button mat-menu-item>
                 <div class="flex flex-row space-x-3 items-center">
                     <span class="material-symbols-outlined">logout</span>
                     <span>Đăng Xuất</span>
                 </div>
-              </button>
+            </button>
         </mat-menu>
-
-
+        <button mat-icon-button>
+            <span class="lg:hidden material-symbols-outlined" (click)="toggleDrawer()">
+                menu
+            </span></button>
         <!-- <button class="flex transition-transform hover:scale-125 align-middle" (click)="toggleTheme()">
             <span *ngIf="!darkmode" class="material-icons">dark_mode</span>
             <span *ngIf="darkmode" class="material-icons">light_mode</span>
