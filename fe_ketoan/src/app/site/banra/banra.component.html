@@ -33,7 +33,11 @@
         filter_alt
         </span></button>
       <button mat-stroked-button (click)="UpdateStatus()">UpStatus</button> --> 
-      <button mat-stroked-button (click)="TimHD()">Tìm Hoá Đơn</button>
+      <div class="flex flex-col space-y-2">
+        <button mat-stroked-button (click)="TimHD()">Tìm Hoá Đơn</button>
+        <button mat-stroked-button (click)="LoadBanra()">Load Bán Ra</button>
+      </div>
+
       <mat-form-field>
       <mat-label>Token</mat-label>
       <input [(ngModel)]="Token" [ngModelOptions]="{standalone: true}"

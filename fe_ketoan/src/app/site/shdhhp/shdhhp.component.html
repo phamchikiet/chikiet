@@ -1,9 +1,24 @@
 <div class="w-full flex flex-col space-y-4">
 <div class="w-full flex flex-col space-y-3">
   <div class="flex flex-row space-x-3">
-    <mat-form-field>
-      <mat-label>Filter</mat-label>
-      <input matInput (keyup)="applyFilter($event)" placeholder="Ex. Mia" #input>
+    <mat-form-field appearance="outline" class="lg:text-sm text-xs lg:col-span-1 col-span-2">
+      <mat-label>Tìm Kiếm</mat-label>
+      <input matInput #input (keyup)="applyFilter($event)" placeholder="Mô Tả">
+      <span matPrefix class="material-symbols-outlined mr-2">search</span>
+    </mat-form-field>
+    <mat-form-field appearance="outline" class="lg:text-sm text-xs">
+      <mat-label>Chọn Khoảng Thời Gian</mat-label>
+      <mat-date-range-input [rangePicker]="rangePicker">
+        <input matStartDate placeholder="Từ Ngày" [(ngModel)]="SearchParams.Batdau" [ngModelOptions]="{standalone: true}">
+        <input matEndDate placeholder="Đến Ngày" [(ngModel)]="SearchParams.Ketthuc" [ngModelOptions]="{standalone: true}">
+      </mat-date-range-input>
+      <mat-datepicker-toggle matSuffix [for]="rangePicker"></mat-datepicker-toggle>
+      <mat-date-range-picker #rangePicker>
+        <mat-date-range-picker-actions>
+          <button mat-button matDateRangePickerCancel>Huỷ</button>
+          <button mat-raised-button color="primary" matDateRangePickerApply>Đồng ý</button>
+        </mat-date-range-picker-actions>
+      </mat-date-range-picker>
     </mat-form-field>
     <div (click)="writeExcelFile()" class="flex flex-col items-center space-x-2 p-2 hover:bg-gray-200 rounded-lg">
       <span class="material-symbols-outlined text-xl" matTooltip="Upload File">file_download</span>

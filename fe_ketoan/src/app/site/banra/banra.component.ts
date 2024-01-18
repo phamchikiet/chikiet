@@ -52,13 +52,19 @@ export class BanraComponent implements OnInit {
   Token:any=localStorage.getItem('TokenWeb')
   // SHDBanra:any = SHDBanra
   HDBanra:any
+  ListBanra:any
   @ViewChild(MatPaginator) paginator!: MatPaginator;
   @ViewChild(MatSort) sort!: MatSort;
   constructor() {}
   async ngOnInit() {
     this.HDBanra  = await this._ShdhhpService.getAllShdhhp()
     this.HDBanra = this.HDBanra.filter((v:any)=>v.Type=='XUAT')
-    console.log(this.HDBanra);
+    this.ListBanra  = await this._BanraService.ListBanras()
+    this.Listfilter = this.ListBanra.map((v:any)=>(v.Dulieu[0]))    
+      this.dataSource = new MatTableDataSource(this.Listfilter);
+      this.dataSource.paginator = this.paginator;
+      this.dataSource.sort = this.sort;
+      console.log(this.Listfilter);
     
   }
   ChangeDate() {
@@ -70,6 +76,18 @@ export class BanraComponent implements OnInit {
       this.dataSource.paginator = this.paginator;
       this.dataSource.sort = this.sort;
   }
+  async LoadBanra()
+  {
+    this.ListBanra  = await this._BanraService.ListBanras()
+    this.Listfilter = this.ListBanra.map((v:any)=>(v.Dulieu[0])) 
+    if(this.Listfilter.length>0)   
+    {
+      this.dataSource = new MatTableDataSource(this.Listfilter);
+      this.dataSource.paginator = this.paginator;
+      this.dataSource.sort = this.sort;
+      console.log(this.Listfilter);
+    }
+  }
   TimHD() {
     this.HDBanra = this.HDBanra.filter((v:any)=>Number(v.Thang)==moment(this.Chonngay.Batdau).month()+1)
     console.log(this.HDBanra);
@@ -80,14 +98,15 @@ export class BanraComponent implements OnInit {
         if(result)
         {
         const item:any={}
-        item.Dulieu=result
+        item.Dulieu=result.datas
         item.SHD = v.SHD
+        item.Thang = v.Thang
+        item.Type = v.Type
         this._BanraService.CreateBanras(item)
         }
         console.log(v.SHD,result);    
       }, Math.random()*1000 + k*1000);
     });
-
   }
   writeExcelFile(data: any) {
     const worksheet: XLSX.WorkSheet = XLSX.utils.json_to_sheet(data);
@@ -105,12 +124,10 @@ export class BanraComponent implements OnInit {
     window.URL.revokeObjectURL(url);
     link.remove();
   }
-  ngAfterViewInit() {
-    this.dataSource.paginator = this.paginator;
-    this.dataSource.sort = this.sort;
-  }
   Subtotal(items:any[],field:any)
   {
+    console.log(items,field);
+    
     if(items.length>0)
     {
     const totalSum = items.reduce((total:any, item:any) => total + item[field], 0);

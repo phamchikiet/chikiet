@@ -8,6 +8,10 @@ import { MatPaginator, MatPaginatorModule } from '@angular/material/paginator';
 import { MatInputModule } from '@angular/material/input';
 import { MatSort } from '@angular/material/sort';
 import { MatTableDataSource, MatTableModule } from '@angular/material/table';
+import { MatDatepickerModule } from '@angular/material/datepicker';
+import * as moment from 'moment';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { MatNativeDateModule } from '@angular/material/core';
 @Component({
   selector: 'app-shdhhp',
   standalone: true,
@@ -16,12 +20,22 @@ import { MatTableDataSource, MatTableModule } from '@angular/material/table';
     MatPaginatorModule,
     MatInputModule,
     MatTableModule,
+    MatDatepickerModule,
+    MatNativeDateModule,
+    FormsModule,
+    ReactiveFormsModule,
     JsonPipe
   ],
   templateUrl: './shdhhp.component.html',
   styleUrls: ['./shdhhp.component.css']
 })
 export class ShdhhpComponent implements OnInit {
+  SearchParams: any = {
+    Batdau:moment().startOf('day').add(-1,'day').toDate(),
+    Ketthuc: moment().endOf('day').toDate(),
+    pageSize:10,
+    pageNumber:0
+  };
   ListSP: any={}
   Query:any={}
   constructor() { }
@@ -100,3 +114,4 @@ export class ShdhhpComponent implements OnInit {
   }
 
 }
+
