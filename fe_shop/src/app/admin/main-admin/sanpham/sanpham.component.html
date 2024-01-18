@@ -36,6 +36,19 @@
               </div>
             </button>
           </mat-menu>
+          <div class="flex flex-row space-x-3">
+            <div (click)="writeExcelFile()"
+              class="flex flex-col items-center space-x-2 p-2 hover:bg-gray-200 rounded-lg">
+              <span class="material-symbols-outlined text-xl" matTooltip="Upload File">file_download</span>
+              <span class="text-xs">Download</span>
+            </div>
+            <div (click)="uploadfile.click()"
+              class="flex flex-col items-center space-x-2 p-2 hover:bg-gray-200 rounded-lg">
+              <span class="material-symbols-outlined text-xl" matTooltip="Upload File">file_upload</span>
+              <span class="text-xs">Upload</span>
+              <input class="hidden" (change)="readExcelFile($event)" type="file" #uploadfile>
+            </div>
+          </div>
         </div>
         <div>
           <button mat-flat-button color="primary">

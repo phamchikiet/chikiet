@@ -42,16 +42,16 @@ export class HeaderComponent implements OnInit {
         { id: 111, Title: 'CÁC LOẠI CỦ', Slug: 'trang-chu' },
       ]
     },
-    { id: 3, Title: 'Khuyến Mãi', Slug: 'lien-he' },
-    { id: 4, Title: 'Món Ngon Mỗi Ngày', Slug: 'lien-he' },
-    { id: 5, Title: 'Tin tức', Slug: 'lien-he' },
+    { id: 3, Title: 'Khuyến Mãi', Slug: 'khuyen-mai' },
+    { id: 4, Title: 'Món Ngon Mỗi Ngày', Slug: 'mon-ngon-moi-ngay' },
+    { id: 5, Title: 'Tin tức', Slug: 'tin-tuc' },
     {
-      id: 3, Title: 'Về chúng tôi ', Slug: 'lien-he',
+      id: 3, Title: 'Về chúng tôi ', Slug: 've-chung-toi',
       children: [
-        { id: 101, Title: ' Giới Thiệu Chun', Slug: 'trang-chu' },
-        { id: 102, Title: 'Qui Trình', Slug: 'trang-chu' },
-        { id: 103, Title: 'Hỏi Đáp', Slug: 'trang-chu' },
-        { id: 104, Title: 'Tuyển Dụng', Slug: 'trang-chu' },
+        { id: 101, Title: 'Giới Thiệu Chun', Slug: 'gioi-thieu-chung' },
+        { id: 102, Title: 'Qui Trình', Slug: 'quy-trinh' },
+        { id: 103, Title: 'Hỏi Đáp', Slug: 'hoi-dap' },
+        { id: 104, Title: 'Tuyển Dụng', Slug: 'tuyen-dung' },
       ]
     },
     { id: 3, Title: 'Liên hệ', Slug: 'lien-he' },
