@@ -8,6 +8,8 @@ import { PromoComponent } from '../../admin/main-admin/website/promo/promo.compo
 import { DownloadappComponent } from '../../admin/main-admin/website/downloadapp/downloadapp.component';
 import { SlideSanphamComponent } from '../../admin/main-admin/website/slide-sanpham/slide-sanpham.component';
 import { MatButtonModule } from '@angular/material/button';
+import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
+import { SwiperOptions } from 'swiper/types';
 @Component({
   selector: 'app-trangchu',
   standalone:true,
@@ -25,10 +27,17 @@ import { MatButtonModule } from '@angular/material/button';
   styleUrls: ['./trangchu.component.css']
 })
 export class TrangchuComponent implements OnInit {
+  drawerMode:any
+  isMobile:boolean=false
   @ViewChild('swiperSanpham', { static: false }) swiperSanpham: SwiperContainer | undefined;
-  constructor() { }
+  constructor(
+    private _breakpointObserver:BreakpointObserver
+  ) { }
 
   ngOnInit() {
+    this._breakpointObserver.observe([Breakpoints.Handset]).subscribe(result => {
+      this.isMobile = result.matches ? true : false;
+    });
    
   }
   // NextSanpham()
