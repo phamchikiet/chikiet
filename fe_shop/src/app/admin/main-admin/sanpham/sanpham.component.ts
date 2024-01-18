@@ -9,6 +9,7 @@ import { MatButtonModule} from '@angular/material/button';
 import { RouterLink, RouterOutlet } from '@angular/router';
 import { SanphamService } from './sanpham.service';
 import * as XLSX from 'xlsx';
+import { MatPaginatorModule } from '@angular/material/paginator';
 @Component({
   selector: 'app-sanpham',
   standalone:true,
@@ -21,16 +22,23 @@ import * as XLSX from 'xlsx';
     CommonModule,
     FormsModule,
     MatDialogModule,
-    MatButtonModule
+    MatButtonModule,
+    MatPaginatorModule
   ],
   templateUrl: './sanpham.component.html',
   styleUrls: ['./sanpham.component.css']
 })
 export class SanphamComponent implements OnInit {
   Detail: any = {};
-  Lists: any[] = []
+  Lists: any={}
   FilterLists: any[] = []
   Sitemap: any = { loc: '', priority: '' }
+  SearchParams: any = {
+    // Batdau:moment().startOf('day').add(-1,'day').toDate(),
+    // Ketthuc: moment().endOf('day').toDate(),
+    pageSize:10,
+    pageNumber:0
+  };
   _SanphamService:SanphamService = inject(SanphamService)
   @ViewChild('drawer', { static: true }) drawer!: MatDrawer;
   constructor(
@@ -38,16 +46,26 @@ export class SanphamComponent implements OnInit {
   ) {
   }
   async ngOnInit(): Promise<void> {
-    this.FilterLists = this.Lists = await this._SanphamService.getAllSanpham()
+    this.Lists = await this._SanphamService.SearchSanpham(this.SearchParams)
+    this.FilterLists = this.Lists.items
+     console.log(this.Lists);
   }
   applyFilter(event: Event) {
     const value = (event.target as HTMLInputElement).value;
     if (value.length > 2) {
-      this.Lists = this.Lists.filter((v) => {
-     return  v.Hoten.toLowerCase().includes(value)||v.SDT.toLowerCase().includes(value)
-       }
-      )
+      this.FilterLists = this.Lists.items.filter((v:any) => {
+     return  v.Title.toLowerCase().includes(value)||v.Mota.toLowerCase().includes(value)
+       })
     }
+    else {this.FilterLists = this.Lists.items}
+  }
+  async onPageChange(event:any)
+  {
+    console.log(event);
+    this.SearchParams.pageSize=event.pageSize
+     this.SearchParams.pageNumber=event.pageIndex
+     this.Lists = await this._SanphamService.SearchSanpham(this.SearchParams)
+     this.FilterLists = this.Lists.items
   }
   openDialog(teamplate: TemplateRef<any>): void {
     const dialogRef = this.dialog.open(teamplate, {
@@ -70,15 +88,23 @@ export class SanphamComponent implements OnInit {
       console.log(jsonData);
       jsonData.forEach((v:any,k:any) => {
         setTimeout(() => {
-          // const item:any={}
-          // item.Title = v.content_vi
-          // item.id_cat = v.id
-          // item.Slug = v.tenkhongdau
-          // this._SanphamService.CreateDanhmuc(item)
-          // const convertedDate = v.Ngay.replace(/_/g, "/")
-          // v.Ngayformat = new Date(convertedDate)
-          // this.AddChart(v)
-          // console.log(v);
+          const item:any={}
+          const Image:any = {Main:v.photo,Thumb:v.thumb}
+          item.Title = v.name_vi
+          item.id_cat = v.id_cat
+          item.Mota = v.description
+          item.Slug = v.tenkhongdau
+          item.SKU = v.ma
+          item.Giagoc = v.gia
+          item.Giaban = v.giakm
+          item.Ordering = v.stt
+          item.Status = v.hienthi
+          item.View = v.luotxem
+          item.Image = Image
+          item.Noibat = v.noibat
+          item.Banchay = v.banchay
+          item.Moi = v.Moi
+           this._SanphamService.CreateSanpham(item)
         }, 100*k);
       });
     };

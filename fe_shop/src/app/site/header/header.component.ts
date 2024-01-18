@@ -5,6 +5,7 @@ import { MatMenuModule } from '@angular/material/menu';
 import { MainComponent } from '../main/main.component';
 import {MatBadgeModule} from '@angular/material/badge';
 import { RouterLink, RouterLinkActive } from '@angular/router';
+import { DanhmucService } from '../../admin/main-admin/danhmuc/danhmuc.service';
 @Component({
   selector: 'app-header',
   standalone: true,
@@ -21,7 +22,9 @@ import { RouterLink, RouterLinkActive } from '@angular/router';
 export class HeaderComponent implements OnInit {
   _AppService: AppService = inject(AppService);
   _MainComponent: MainComponent = inject(MainComponent);
+  _DanhmucService: DanhmucService = inject(DanhmucService);
   darkmode: boolean = false
+  Danhmucs:any[]=[]
   Menus: any[] = [
     // {
     //   id: 1, Title: 'Trang Chủ', Slug: 'trang-chu',
@@ -61,7 +64,10 @@ export class HeaderComponent implements OnInit {
       document.body.classList.toggle('dark', isDarkTheme);
     });
   }
-  ngOnInit(): void {
+  async ngOnInit(): Promise<void> {
+    this.Danhmucs = await this._DanhmucService.SearchDanhmuc('')
+    console.log(this.Danhmucs);
+    
   }
 
   toggleTheme() {

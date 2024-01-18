@@ -113,8 +113,10 @@
                         <div class="text-sm font-normal text-gray-500">{{item.Slug}}</div>
                       </td>
                       <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap lg:p-5">
-                        @if (item.Status==0) { <span class="text-blue-500">Online</span> }
-                        @else { <span class="text-red-500">Offline</span> }
+                        @if (item.Status==0) {
+                          <span class="material-symbols-outlined text-blue-500">check_circle</span>
+                         }
+                        @else { <span class="material-symbols-outlined text-red-500">cancel</span> }
                       </td>
                       <td class="p-4 space-x-2 whitespace-nowrap lg:p-5">
                         <button type="button" data-modal-toggle="product-modal"

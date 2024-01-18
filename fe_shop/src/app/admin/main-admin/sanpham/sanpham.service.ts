@@ -23,6 +23,22 @@ export class SanphamService {
           return console.error(error);
       }
   }
+  async SearchSanpham(SearchParams:any) {
+    try {
+      const options = {
+        method:'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(SearchParams),
+      };
+          const response = await fetch(`${environment.APIURL}/sanpham/search`,options);
+          const data = await response.json();                  
+          return data;
+      } catch (error) {
+          return console.error(error);
+      }
+  }
   async CreateSanpham(item:any) {
     console.log(item);
     try {

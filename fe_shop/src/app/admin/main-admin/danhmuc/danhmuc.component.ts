@@ -51,8 +51,7 @@ export class DanhmucComponent implements OnInit {
    this.Lists = await this._DanhmucService.SearchDanhmuc(this.SearchParams)
    this.FilterLists = this.Lists.items
     console.log(this.Lists);
-    
-    
+     
   }
   async onPageChange(event:any)
   {
@@ -67,9 +66,9 @@ export class DanhmucComponent implements OnInit {
     if (value.length > 2) {
       this.FilterLists = this.Lists.items.filter((v:any) => {
      return  v.Hoten.toLowerCase().includes(value)||v.SDT.toLowerCase().includes(value)
-       }
-      )
+       })
     }
+    else {this.FilterLists = this.Lists.items}
   }
   openDialog(teamplate: TemplateRef<any>): void {
     const dialogRef = this.dialog.open(teamplate, {
