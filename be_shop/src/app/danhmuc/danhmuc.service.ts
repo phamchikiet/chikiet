@@ -53,7 +53,6 @@ export class DanhmucService {
     };
   }
   async findQuery(params: any) {
-    console.error(params);
     const queryBuilder = this.DanhmucRepository.createQueryBuilder('danhmuc');
     if (params.Batdau && params.Ketthuc) {
       queryBuilder.andWhere('danhmuc.CreateAt BETWEEN :startDate AND :endDate', {
@@ -68,8 +67,6 @@ export class DanhmucService {
       .limit(params.pageSize || 10) // Set a default page size if not provided
       .offset(params.pageNumber * params.pageSize || 0)
       .getManyAndCount();
-    console.log(items, totalCount);
-
     return { items, totalCount };
   }
   async update(id: string, UpdateDanhmucDto: UpdateDanhmucDto) {

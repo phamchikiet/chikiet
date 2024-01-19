@@ -40,7 +40,6 @@ export class SanphamService {
     };
   }
   async findQuery(params: any) {
-    console.error(params);
     const queryBuilder = this.SanphamRepository.createQueryBuilder('sanpham');
     if (params.Batdau && params.Ketthuc) {
       queryBuilder.andWhere('sanpham.CreateAt BETWEEN :startDate AND :endDate', {
@@ -50,6 +49,9 @@ export class SanphamService {
     }
     if (params.Title) {
       queryBuilder.andWhere('sanpham.Title LIKE :Title', { SDT: `%${params.Title}%` });
+    }
+    if (params.Slug) {
+      queryBuilder.andWhere('sanpham.Slug LIKE :Slug', { Slug: `%${params.Slug}%` });
     }
     const [items, totalCount] = await queryBuilder
     .limit(params.pageSize || 10) // Set a default page size if not provided

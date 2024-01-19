@@ -4,6 +4,8 @@ import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { DanhmucModule } from './danhmuc/danhmuc.module';
 import { TypeOrmModule } from '@nestjs/typeorm';
+import { SanphamModule } from './sanpham/sanpham.module';
+import { BaivietModule } from './baiviet/baiviet.module';
 @Module({
   imports: [
     TypeOrmModule.forRoot({
@@ -18,7 +20,10 @@ import { TypeOrmModule } from '@nestjs/typeorm';
       synchronize: true,
       charset: "utf8mb4",
     }), 
-    DanhmucModule],
+    DanhmucModule,
+    SanphamModule,
+    BaivietModule
+  ],
   controllers: [AppController],
   providers: [AppService],
 })
