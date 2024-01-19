@@ -15,6 +15,9 @@ import { DashboardComponent } from './admin/main-admin/dashboard/dashboard.compo
 import { BaivietChitietComponent } from './site/baiviet/baiviet-chitiet/baiviet-chitiet.component';
 import { BaivietComponent } from './site/baiviet/baiviet.component';
 import { BaivietStyle1Component } from './site/baiviet/baiviet-style1/baiviet-style1.component';
+import { BaivietAdminComponent } from './admin/main-admin/baiviet-admin/baiviet-admin.component';
+import { BaivietAdminChitietComponent } from './admin/main-admin/baiviet-admin/baiviet-admin-chitiet/baiviet-admin-chitiet.component';
+import { SanphamyeuthichComponent } from './admin/main-admin/website/sanphamyeuthich/sanphamyeuthich.component';
 
 
 export const appRoutes: Route[] = [
@@ -36,9 +39,9 @@ export const appRoutes: Route[] = [
                     title: 'Giỏ Hàng'
                 },
                 {
-                    path: 'checkout',
-                    component: CheckoutComponent,
-                    title: 'Giỏ Hàng'
+                    path: 'san-pham-yeu-thich',
+                    component: SanphamyeuthichComponent,
+                    title: 'Sản Phẩm Yêu Thích'
                 },
                 {
                     path: 'danh-muc/:slug',
@@ -95,6 +98,14 @@ export const appRoutes: Route[] = [
             {
                 path: 'danhmuc/:id',
                 component: DanhmucChitietComponent,
+            },
+            {
+                path: 'baiviet',
+                component: BaivietAdminComponent,
+            },
+            {
+                path: 'baiviet/:id',
+                component: BaivietAdminChitietComponent,
             },
 
         ]

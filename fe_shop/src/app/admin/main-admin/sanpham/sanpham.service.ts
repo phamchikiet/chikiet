@@ -23,6 +23,21 @@ export class SanphamService {
           return console.error(error);
       }
   }
+  async getSanphamBySlug(Slug:any) {
+    try {
+      const options = {
+        method:'GET',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+      };
+          const response = await fetch(`${environment.APIURL}/sanpham/findslug/${Slug}`,options);
+          const data = await response.json();                  
+          return data;
+      } catch (error) {
+          return console.error(error);
+      }
+  }
   async SearchSanpham(SearchParams:any) {
     try {
       const options = {
@@ -49,9 +64,7 @@ export class SanphamService {
             },
             body: JSON.stringify(item),
           };
-          const response = await fetch(`${environment.APIURL}/sanpham`, options);
-          console.log(response.json());
-          
+          const response = await fetch(`${environment.APIURL}/sanpham`, options);          
           return await response.json();                  
       } catch (error) {
           return console.error(error);

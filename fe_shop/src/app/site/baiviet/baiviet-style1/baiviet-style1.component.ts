@@ -1,14 +1,14 @@
-import { DecimalPipe } from '@angular/common';
+import { DatePipe, DecimalPipe } from '@angular/common';
 import { Component, OnInit, inject } from '@angular/core';
 import { MatButtonModule } from '@angular/material/button';
 import { RouterLink } from '@angular/router';
-import { SanphamService } from 'fe_shop/src/app/admin/main-admin/sanpham/sanpham.service';
 import {
   MatBottomSheet,
   MatBottomSheetModule,
   MatBottomSheetRef,
 } from '@angular/material/bottom-sheet'
 import { BaivietBottomsheetComponent } from '../baiviet-bottomsheet/baiviet-bottomsheet.component';
+import { BaivietAdminService } from 'fe_shop/src/app/admin/main-admin/baiviet-admin/baiviet-admin.service';
 @Component({
   selector: 'app-baiviet-style1',
   standalone:true,
@@ -16,15 +16,16 @@ import { BaivietBottomsheetComponent } from '../baiviet-bottomsheet/baiviet-bott
     RouterLink,
     DecimalPipe,
     MatButtonModule,
-    MatBottomSheetModule
+    MatBottomSheetModule,
+    DatePipe
   ],
   templateUrl: './baiviet-style1.component.html',
   styleUrls: ['./baiviet-style1.component.css']
 })
 export class BaivietStyle1Component implements OnInit {
-  _SanphamService: SanphamService = inject(SanphamService);
-  ListSanpham:any={}
-  FilterSanpham:any[]=[]
+  _BaivietAdminService: BaivietAdminService = inject(BaivietAdminService);
+  ListBaiviet:any={}
+  FilterBaiviet:any[]=[]
   SearchParams: any = {
     pageSize:10,
     pageNumber:0
@@ -49,9 +50,9 @@ export class BaivietStyle1Component implements OnInit {
     this._bottomSheet.open(BaivietBottomsheetComponent);
   }
   async ngOnInit() {
-    this.ListSanpham = await this._SanphamService.SearchSanpham(this.SearchParams)
-    this.FilterSanpham = this.ListSanpham.items
-    console.log(this.ListSanpham);
+    this.ListBaiviet = await this._BaivietAdminService.SearchBaivietAdmin(this.SearchParams)
+    this.FilterBaiviet = this.ListBaiviet.items
+    console.log(this.ListBaiviet);
     
   }
 

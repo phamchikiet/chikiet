@@ -15,6 +15,9 @@ import { DecimalPipe, NgOptimizedImage } from '@angular/common';
 })
 export class SlideSanphamComponent implements OnInit {
   @Input() Title = '';
+  @Input() Sohang=2;
+  @Input() Socot=4;
+  @Input() Soluong=8;
   _SanphamService:SanphamService = inject(SanphamService)
   Lists: any={}
   FilterLists: any[] = []
@@ -26,8 +29,7 @@ export class SlideSanphamComponent implements OnInit {
   constructor() { }
   async ngOnInit() {
     this.Lists = await this._SanphamService.SearchSanpham(this.SearchParams)
-    this.FilterLists = this.SanphamColumn(this.Lists.items,2)
-    this.FilterListsDesk = this.Lists.items.slice(0, 8);
+    this.FilterLists = this.SanphamColumn(this.Lists.items,this.Sohang)
      console.log(this.FilterLists);
     // console.log(this.FilterListsDesk);
   }

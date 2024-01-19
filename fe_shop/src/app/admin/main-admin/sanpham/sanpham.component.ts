@@ -92,7 +92,8 @@ export class SanphamComponent implements OnInit {
           const Image:any = {Main:v.photo,Thumb:v.thumb}
           item.Title = v.name_vi
           item.id_cat = v.id_cat
-          item.Mota = v.description
+          item.Mota = v.mota_vi
+          item.Noidung = v.content_vi
           item.Slug = v.tenkhongdau
           item.SKU = v.ma
           item.Giagoc = v.gia
@@ -112,10 +113,7 @@ export class SanphamComponent implements OnInit {
   }
 
   writeExcelFile() {
-    const worksheet: XLSX.WorkSheet = XLSX.utils.json_to_sheet([
-      {id:'TeXqj8Q2', Ngay: '02_06_2023',Buy: '1111', Sell: '11111' },
-      {id:'TeXqj8Q3', Ngay: '02_06_2023',Buy: '1111', Sell: '11111' },
-    ]);
+    const worksheet: XLSX.WorkSheet = XLSX.utils.json_to_sheet(this.FilterLists);
     const workbook: XLSX.WorkBook = { Sheets: { 'Sheet1': worksheet }, SheetNames: ['Sheet1'] };
     const excelBuffer: any = XLSX.write(workbook, { bookType: 'xlsx', type: 'array' });
     this.saveAsExcelFile(excelBuffer, 'data');
