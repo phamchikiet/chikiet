@@ -17,6 +17,7 @@ export class SlideSanphamComponent implements OnInit {
   _SanphamService:SanphamService = inject(SanphamService)
   Lists: any={}
   FilterLists: any[] = []
+  FilterListsDesk: any[] = []
   SearchParams: any = {
     pageSize:10,
     pageNumber:0
@@ -24,8 +25,19 @@ export class SlideSanphamComponent implements OnInit {
   constructor() { }
   async ngOnInit() {
     this.Lists = await this._SanphamService.SearchSanpham(this.SearchParams)
-    this.FilterLists = this.Lists.items
-     console.log(this.Lists);
+    this.FilterLists = this.SanphamColumn(this.Lists.items,2)
+    this.FilterListsDesk = this.Lists.items.slice(0, 8);
+     console.log(this.FilterLists);
+    // console.log(this.FilterListsDesk);
   }
-
+  SanphamColumn(data:any,n:any)
+  {
+    const chunkSize = n; // Number of elements per subarray
+    const newArray = [];
+    for (let i = 0; i < data.length; i += chunkSize) {
+      newArray.push(data.slice(i, i + chunkSize));
+    }
+    return newArray
+  }
+  
 }

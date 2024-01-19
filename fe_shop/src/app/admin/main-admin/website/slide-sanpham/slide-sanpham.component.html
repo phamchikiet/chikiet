@@ -5,7 +5,15 @@
   <div class="lg:flex hidden flex-col space-y-3 w-full col-span-4">
     <div>
       <swiper-container slides-per-view="4" speed="500" loop="false" pagination="false" class="space-x-4">
-        <swiper-slide class="grid grid-col-1 gap-4">
+        @for (items of FilterLists; track $index) {
+          <swiper-slide class="grid grid-col-1 gap-4">
+            @for (item of items; track $index) {
+                <img src="/assets/images/sanpham/{{item.Image.Main}}" class="w-full" />
+                {{item.Title}}
+            }
+          </swiper-slide>
+        }
+        <!-- <swiper-slide class="grid grid-col-1 gap-4">
           @for (item of FilterLists; track $index) {
             <div
             class="product-card flex flex-col justify-between relative rounded-lg bg-bg-white border border-main p-5 transition-all hover:-translate-y-0.5 hover:shadow-large">
@@ -31,7 +39,6 @@
             </div>
           </div>
           }
-
           <img src="/assets/images/slide1.webp" class="w-full" />
           <img src="/assets/images/slide2.webp" class="w-full" />
         </swiper-slide>
@@ -46,7 +53,7 @@
         <swiper-slide class="grid grid-col-1 gap-4">
           <img src="/assets/images/slide1.webp" class="w-full" />
           <img src="/assets/images/slide2.webp" class="w-full" />
-        </swiper-slide>
+        </swiper-slide> -->
       </swiper-container>
       <div class="swiper-pagination" slot="pagination"></div>
     </div>
@@ -54,7 +61,16 @@
   <div class="lg:hidden flex flex-col space-y-3 w-full col-span-4">
     <div>
       <swiper-container slides-per-view="2" speed="500" loop="false" pagination="false" class="space-x-4">
-        <swiper-slide class="grid grid-col-1 gap-4">
+        @for (items of FilterLists; track $index) {
+          <swiper-slide class="grid grid-col-1 gap-4">
+            @for (item of items; track $index) {
+              <img src="/assets/images/sanpham/{{item.Image.Main}}" class="w-full" />
+              {{item.Title}}
+            }
+          </swiper-slide>
+        }
+
+        <!-- <swiper-slide class="grid grid-col-1 gap-4">
           <img src="/assets/images/slide1.webp" class="w-full" />
           <img src="/assets/images/slide2.webp" class="w-full" />
         </swiper-slide>
@@ -69,8 +85,8 @@
         <swiper-slide class="grid grid-col-1 gap-4">
           <img src="/assets/images/slide1.webp" class="w-full" />
           <img src="/assets/images/slide2.webp" class="w-full" />
-        </swiper-slide>
-      </swiper-container>
+        </swiper-slide>-->
+      </swiper-container> 
       <div class="swiper-pagination" slot="pagination"></div>
     </div>
   </div>
