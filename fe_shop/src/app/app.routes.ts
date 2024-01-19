@@ -12,6 +12,9 @@ import { SanphamChitietComponent } from './admin/main-admin/sanpham/sanpham-chit
 import { DanhmucComponent } from './admin/main-admin/danhmuc/danhmuc.component';
 import { DanhmucChitietComponent } from './admin/main-admin/danhmuc/danhmuc-chitiet/danhmuc-chitiet.component';
 import { DashboardComponent } from './admin/main-admin/dashboard/dashboard.component';
+import { BaivietChitietComponent } from './site/baiviet/baiviet-chitiet/baiviet-chitiet.component';
+import { BaivietComponent } from './site/baiviet/baiviet.component';
+import { BaivietStyle1Component } from './site/baiviet/baiviet-style1/baiviet-style1.component';
 
 
 export const appRoutes: Route[] = [
@@ -46,6 +49,22 @@ export const appRoutes: Route[] = [
                     path: 'san-pham/:slug',
                     component: DetailSanphamComponent,
                     title: 'Chi Tiết'
+                },
+                {
+                    path: 'khuyen-mai',
+                    component: BaivietComponent,
+                },
+                {
+                    path: 'khuyen-mai/:slug',
+                    component: BaivietChitietComponent,
+                },
+                {
+                    path: 'mon-ngon-moi-ngay',
+                    component: BaivietStyle1Component,
+                },
+                {
+                    path: 'tin-tuc',
+                    component: BaivietStyle1Component,
                 },
                 {
                     path: 'lien-he',
