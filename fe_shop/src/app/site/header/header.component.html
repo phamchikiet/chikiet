@@ -15,16 +15,9 @@
         [cdkConnectedOverlayOpen]="Menus[$index].Show"
       >
         <div class="grid grid-cols-4 gap-4 bg-white p-4" (mouseleave)="Menus[$index].Show=false">
-            <div>Danh Mục 1</div>
-            <div>Danh Mục 1</div>
-            <div>Danh Mục 1</div>
-            <div>Danh Mục 1</div>
-            <div>Danh Mục 1</div>
-            <div>Danh Mục 1</div>
-          <li>Item 1</li>
-          <li>Item 2</li>
-          <li>Item 3</li>
-          <li>Item 3</li>
+            @for (item of this.Danhmucs.items; track $index) {
+                <a href="danh-muc/{{item.Slug}}">{{item.Title}}</a>
+            }
         </div>
       </ng-template>
        <!-- <mat-menu #beforeMenu="matMenu" xPosition="before" class="w-screen">

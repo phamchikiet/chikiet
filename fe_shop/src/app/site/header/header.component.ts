@@ -27,12 +27,14 @@ export class HeaderComponent implements OnInit {
   _AppService: AppService = inject(AppService);
   _MainComponent: MainComponent = inject(MainComponent);
   _DanhmucService: DanhmucService = inject(DanhmucService);
+  SearchParams: any = {
+    pageSize:10,
+    pageNumber:0
+  };
   darkmode: boolean = false
-  Danhmucs:any[]=[]
-  Menus: any[] = [
-    // {
-    //   id: 1, Title: 'Trang Chủ', Slug: 'trang-chu',
-    // },
+  Danhmucs:any={}
+  Menus: any
+  ListMenus: any[] = [
     {
       id: 2, Title: 'Sản Phẩm', Slug: 'san-pham',Show:false,
       children: [
@@ -75,8 +77,17 @@ export class HeaderComponent implements OnInit {
     this.selectedOption = option;
   }
   async ngOnInit(): Promise<void> {
-    this.Danhmucs = await this._DanhmucService.SearchDanhmuc('')
+    this.Danhmucs = await this._DanhmucService.SearchDanhmuc(this.SearchParams)
     console.log(this.Danhmucs);
+    this.Menus = this.ListMenus.forEach((v)=>
+    {
+      if(v.id==2)
+      {
+        v.children = this.Danhmucs.items
+      }
+    })
+    console.log(this.Menus);
+    
     
   }
 

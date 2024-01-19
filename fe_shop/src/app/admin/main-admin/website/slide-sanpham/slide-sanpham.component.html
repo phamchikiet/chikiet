@@ -8,52 +8,18 @@
         @for (items of FilterLists; track $index) {
           <swiper-slide class="grid grid-col-1 gap-4">
             @for (item of items; track $index) {
-                <img src="/assets/images/sanpham/{{item.Image.Main}}" class="w-full" />
-                {{item.Title}}
+              <div class="grid grid-cols-1 border rounded-lg p-3 bg-white">   
+                 <span class="text-center font-bold line-clamp-1">{{item.Title}}</span>
+                 <img src="/assets/images/sanpham/{{item.Image.Main}}" class="w-full" />
+                <div class="flex flex-row space-x-2 justify-between">
+
+                  {{item.Giagoc| number:'1.0-0'}}đ 
+                  <span class="material-symbols-outlined">shopping_cart</span>
+                </div>
+              </div>
             }
           </swiper-slide>
         }
-        <!-- <swiper-slide class="grid grid-col-1 gap-4">
-          @for (item of FilterLists; track $index) {
-            <div
-            class="product-card flex flex-col justify-between relative rounded-lg bg-bg-white border border-main p-5 transition-all hover:-translate-y-0.5 hover:shadow-large">
-            <a class="flex flex-col h-full" href="https://turbo.redq.io/bike/product/domane-slr-9-axs-gen-4/">
-              <h2 class="product-title mb-5 font-medium text-brand transition text-base line-clamp-2">
-                {{item.Title}}
-              </h2>
-              <span class="flex-grow flex items-center justify-center">
-                  <img src="assets/images/sanpham/{{item.Image.Main}}" class="w-full">
-              </span>
-            </a>
-            <div>
-              <div class="mt-6 flex justify-between items-center gap-3">
-                <div class="flex items-center gap-2">
-                  <span class="product-price text-base font-medium tracking-wide text-brand"><span
-                      class="amount rnb_price_unit_8711"> <span class="woocommerce-Price-amount amount"><span
-                          class="woocommerce-Price-currencySymbol">$</span>120.00</span>/Day</span></span>
-                </div>
-                <a href="https://turbo.redq.io/bike/product/domane-slr-9-axs-gen-4/" target="_blank"
-                  class="book-now-btn inline-block self-center shrink-0 text-sm font-medium text-lighter-text bg-brand px-4 py-2.5 rounded-md uppercase">Book
-                  Now</a>
-              </div>
-            </div>
-          </div>
-          }
-          <img src="/assets/images/slide1.webp" class="w-full" />
-          <img src="/assets/images/slide2.webp" class="w-full" />
-        </swiper-slide>
-        <swiper-slide class="grid grid-col-1 gap-4">
-          <img src="/assets/images/slide3.webp" class="w-full" />
-          <img src="/assets/images/slide4.webp" class="w-full" />
-        </swiper-slide>
-        <swiper-slide class="grid grid-col-1 gap-4">
-          <img src="/assets/images/slide5.webp" class="w-full" />
-          <img src="/assets/images/slide6.webp" class="w-full" />
-        </swiper-slide>
-        <swiper-slide class="grid grid-col-1 gap-4">
-          <img src="/assets/images/slide1.webp" class="w-full" />
-          <img src="/assets/images/slide2.webp" class="w-full" />
-        </swiper-slide> -->
       </swiper-container>
       <div class="swiper-pagination" slot="pagination"></div>
     </div>
@@ -64,28 +30,18 @@
         @for (items of FilterLists; track $index) {
           <swiper-slide class="grid grid-col-1 gap-4">
             @for (item of items; track $index) {
-              <img src="/assets/images/sanpham/{{item.Image.Main}}" class="w-full" />
-              {{item.Title}}
+              <div class="grid grid-cols-1 border rounded-lg p-3 bg-white">   
+                <span class="text-center font-bold line-clamp-1">{{item.Title}}</span>
+                 <img src="/assets/images/sanpham/{{item.Image.Main}}" class="w-full" />
+                <div class="flex flex-row space-x-2 justify-between">
+
+                  {{item.Giagoc| number:'1.0-0'}}đ 
+                  <span class="material-symbols-outlined">shopping_cart</span>
+                </div>
+              </div>
             }
           </swiper-slide>
         }
-
-        <!-- <swiper-slide class="grid grid-col-1 gap-4">
-          <img src="/assets/images/slide1.webp" class="w-full" />
-          <img src="/assets/images/slide2.webp" class="w-full" />
-        </swiper-slide>
-        <swiper-slide class="grid grid-col-1 gap-4">
-          <img src="/assets/images/slide3.webp" class="w-full" />
-          <img src="/assets/images/slide4.webp" class="w-full" />
-        </swiper-slide>
-        <swiper-slide class="grid grid-col-1 gap-4">
-          <img src="/assets/images/slide5.webp" class="w-full" />
-          <img src="/assets/images/slide6.webp" class="w-full" />
-        </swiper-slide>
-        <swiper-slide class="grid grid-col-1 gap-4">
-          <img src="/assets/images/slide1.webp" class="w-full" />
-          <img src="/assets/images/slide2.webp" class="w-full" />
-        </swiper-slide>-->
       </swiper-container> 
       <div class="swiper-pagination" slot="pagination"></div>
     </div>

@@ -1,12 +1,13 @@
 import { CUSTOM_ELEMENTS_SCHEMA, Component, Input, OnInit, inject } from '@angular/core';
 import { SanphamService } from '../../sanpham/sanpham.service';
-import { NgOptimizedImage } from '@angular/common';
+import { DecimalPipe, NgOptimizedImage } from '@angular/common';
 
 @Component({
   selector: 'app-slide-sanpham',
   standalone:true,
   imports:[
-    NgOptimizedImage
+    NgOptimizedImage,
+    DecimalPipe
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   templateUrl: './slide-sanpham.component.html',
