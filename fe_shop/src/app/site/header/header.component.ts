@@ -6,6 +6,7 @@ import { MainComponent } from '../main/main.component';
 import {MatBadgeModule} from '@angular/material/badge';
 import { RouterLink, RouterLinkActive } from '@angular/router';
 import { DanhmucService } from '../../admin/main-admin/danhmuc/danhmuc.service';
+import { OverlayModule } from '@angular/cdk/overlay';
 @Component({
   selector: 'app-header',
   standalone: true,
@@ -15,11 +16,14 @@ import { DanhmucService } from '../../admin/main-admin/danhmuc/danhmuc.service';
     RouterLinkActive,
     MatBadgeModule,
     RouterLink,
+    OverlayModule
   ],
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
+  isOpen = false;
+  // isOpen:any = false;
   _AppService: AppService = inject(AppService);
   _MainComponent: MainComponent = inject(MainComponent);
   _DanhmucService: DanhmucService = inject(DanhmucService);
@@ -30,7 +34,7 @@ export class HeaderComponent implements OnInit {
     //   id: 1, Title: 'Trang Chủ', Slug: 'trang-chu',
     // },
     {
-      id: 2, Title: 'Sản Phẩm', Slug: 'san-pham',
+      id: 2, Title: 'Sản Phẩm', Slug: 'san-pham',Show:false,
       children: [
         { id: 101, Title: 'CÁC LOẠI CỦ', Slug: 'trang-chu' },
         { id: 102, Title: 'CÁC LOẠI CỦ', Slug: 'trang-chu' },
@@ -49,7 +53,7 @@ export class HeaderComponent implements OnInit {
     { id: 4, Title: 'Món Ngon Mỗi Ngày', Slug: 'mon-ngon-moi-ngay' },
     { id: 5, Title: 'Tin tức', Slug: 'tin-tuc' },
     {
-      id: 3, Title: 'Về chúng tôi ', Slug: 've-chung-toi',
+      id: 3, Title: 'Về chúng tôi ', Slug: 've-chung-toi',Show:false,
       children: [
         { id: 101, Title: 'Giới Thiệu Chun', Slug: 'gioi-thieu-chung' },
         { id: 102, Title: 'Qui Trình', Slug: 'quy-trinh' },
@@ -64,6 +68,12 @@ export class HeaderComponent implements OnInit {
       document.body.classList.toggle('dark', isDarkTheme);
     });
   }
+  options: string[] = ['Option 1', 'Option 2', 'Option 3'];
+  selectedOption: string = '';
+
+  onSelect(option: string) {
+    this.selectedOption = option;
+  }
   async ngOnInit(): Promise<void> {
     this.Danhmucs = await this._DanhmucService.SearchDanhmuc('')
     console.log(this.Danhmucs);
@@ -76,6 +86,11 @@ export class HeaderComponent implements OnInit {
   toggleDrawer() {
     this._MainComponent.drawer.toggle()
   }
-
+  onMouseEnter(name: string) {
+    console.log("mouse enter", name);
+  }
+  onMouseOut(name: string) {
+    console.log("mouse out", name);
+  }
 
 }
