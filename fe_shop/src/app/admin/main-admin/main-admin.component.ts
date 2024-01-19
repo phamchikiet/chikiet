@@ -31,7 +31,7 @@ export class MainAdminComponent implements OnInit {
     {id:2,pid:0,Title:"Sản Phẩm" ,Slug:"sanpham"},
     {id:3,pid:0,Title:"Danh Mục" ,Slug:"danhmuc"},
     {id:3,pid:0,Title:"Bài Viết" ,Slug:"baiviet"},
-    {id:3,pid:0,Title:"Giỏ Hàng" ,Slug:"giohang"},
+    {id:3,pid:0,Title:"Đơn Hàng" ,Slug:"donhang"},
   ]
   Today:any=new Date()
   private _transformer = (node: any, level: number) => {
