@@ -3,7 +3,7 @@
     <p>Auto-resizing sidenav</p>
   </mat-drawer>
   <div class="w-full flex flex-col justify-center items-center">
-    <div class="lg:flex hidden w-full border border-b py-4">
+    <div class="lg:flex hidden w-full border border-b py-4 bg-white">
       <div class="container flex flex-row justify-between">
         <div>rausachtrangia&#64;gmail.com</div>
         <div>
@@ -20,7 +20,9 @@
         </div>
       </div>
     </div> 
-    <app-header class="container"></app-header>
+    <div class="w-full bg-white">
+        <app-header></app-header>      
+    </div>
     <router-outlet></router-outlet>
     <app-footer></app-footer>
   </div>

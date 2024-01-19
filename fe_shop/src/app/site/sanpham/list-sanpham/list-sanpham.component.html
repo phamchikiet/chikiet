@@ -1,0 +1,103 @@
+<section class="w-screen lg:flex items-center hidden bg-default-400/10 py-11">
+    <div class="container">
+        <div class="flex items-center justify-center">
+            <ol aria-label="Breadcrumb" class="flex items-center whitespace-nowrap min-w-0 gap-2">
+                <li class="text-sm">
+                    <a class="flex items-center gap-2 align-middle text-default-800 transition-all leading-none hover:text-primary-500"
+                        href="javascript:void(0)">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            data-lucide="home" class="lucide lucide-home w-4 h-4">
+                            <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                            <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                        </svg>
+                        Trang Chủ
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                            data-lucide="chevron-right" class="lucide lucide-chevron-right w-4 h-4">
+                            <path d="m9 18 6-6-6-6"></path>
+                        </svg>
+                    </a>
+                </li>
+                <li aria-current="page"
+                    class="text-sm font-medium text-primary truncate leading-none hover:text-primary-500">
+                    Cửa Hàng
+                </li>
+            </ol>
+        </div>
+    </div>
+</section>
+<section class="bg-white">
+    <div class="container grid lg:grid-cols-4 grid-cols-1 gap-3 py-8">
+        <div class="lg:flex hidden flex-col space-y-6 border rounded-lg p-4">
+            <div class="sidebar-widget">
+                <div class="relative">
+                    <input type="search" id="default-search"
+                        class="block w-full p-4 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                        placeholder="Tìm Kiếm" required>
+                    <button type="submit"
+                        class="text-white absolute end-2.5 bottom-2.5 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                        <svg class="w-4 h-4 text-white dark:text-gray-400" aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z" />
+                        </svg></button>
+                </div>
+            </div>
+            <div class="py-4"><hr/></div>
+            <div class="flex flex-col space-y-4">
+                <div class="text-xl">Lọc theo danh mục</div>
+                @for (item of LocDanhmuc; track $index) {
+                    <div class="flex flex-row space-x-2 items-center">
+                     <span class="material-symbols-outlined">check_box_outline_blank</span>                    
+                     <div>{{item.Title}}</div>
+                    </div>
+
+                }
+            </div>
+            <div class="py-4"><hr/></div>
+            <div class="flex flex-col space-y-4">
+                <div class="text-xl">Lọc theo Thương Hiệu</div>
+                @for (item of LocThuongHieu; track $index) {
+                    <div class="flex flex-row space-x-2 items-center">
+                        <span class="material-symbols-outlined">check_box_outline_blank</span>                    
+                        <div>{{item.Title}}</div>
+                       </div>
+                }
+            </div>
+        </div>
+        <div class="lg:col-span-3 flex flex-col space-y-2">
+            <div class="flex flex-row justify-between items-center border rounded-lg p-3">
+                <div class="inspect-total-filtered-products-wrapper">
+                    <div class="inspect-total-filtered-products">
+                        Hiển thị 1 - 4 of 4 Kết quả
+                    </div>
+                </div>
+                <div class="inspect-filter-sort">
+                    <select id="countries"
+                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                        <option selected>Sắp Xếp</option>
+                        @for (item of Sorting; track $index) {
+                        <option value="{{item.id}}">{{item.Title}}</option>
+                        }
+                    </select>
+                </div>
+                <div class="lg:hidden flex" (click)="openBottomSheet()"><span class="material-symbols-outlined">tune</span></div>
+            </div>
+            <div class="grid lg:grid-cols-3 grid-cols-2 gap-4">
+                @for (item of FilterSanpham; track $index) {
+                <div class="flex flex-col space-y-2 border rounded-lg p-3">
+                    <div class="text-center font-bold">{{item.Title}}</div>
+                    <img src="assets/images/sanpham/{{item.Image.Main}}" />
+                    <div class="flex flex-row space-x-2 justify-center items-center">
+                        <span class="font-bold text-lg">{{item.Giagoc| number:'1.0-0'}}đ</span>
+                        <span class="material-symbols-outlined rounded-full p-4 bg-slate-50 hover:bg-slate-200">shopping_cart</span>
+                    </div>
+                </div>
+                }
+            </div>
+        </div>
+    </div>
+</section>
+
+

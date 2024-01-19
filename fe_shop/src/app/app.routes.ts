@@ -11,10 +11,12 @@ import { SanphamComponent } from './admin/main-admin/sanpham/sanpham.component';
 import { SanphamChitietComponent } from './admin/main-admin/sanpham/sanpham-chitiet/sanpham-chitiet.component';
 import { DanhmucComponent } from './admin/main-admin/danhmuc/danhmuc.component';
 import { DanhmucChitietComponent } from './admin/main-admin/danhmuc/danhmuc-chitiet/danhmuc-chitiet.component';
+import { DashboardComponent } from './admin/main-admin/dashboard/dashboard.component';
 
 
 export const appRoutes: Route[] = [
     // { path: '', redirectTo: 'trang-chu', pathMatch: 'full' },
+    { path: 'admin', redirectTo: 'admin/dashboard', pathMatch: 'full' },
     {
         path: '',
         component: MainComponent,
@@ -36,9 +38,9 @@ export const appRoutes: Route[] = [
                     title: 'Giỏ Hàng'
                 },
                 {
-                    path: 'san-pham',
+                    path: 'danh-muc/:slug',
                     component: ListSanphamComponent,
-                    title: 'Sản Phẩm'
+                    title: 'Danh Mục'
                 },
                 {
                     path: 'san-pham/:slug',
@@ -55,6 +57,10 @@ export const appRoutes: Route[] = [
         path: 'admin',
         component: MainAdminComponent,
         children:[ 
+            {
+                path: 'dashboard',
+                component: DashboardComponent,
+            },
             {
                 path: 'sanpham',
                 component: SanphamComponent,

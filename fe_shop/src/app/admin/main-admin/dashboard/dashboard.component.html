@@ -1,3 +1,26 @@
-<p>
-  dashboard works!
-</p>
+<div class="flex flex-col space-y-3">
+  <div class="grid grid-cols-1 gap-6 mb-6 w-full xl:grid-cols-2 2xl:grid-cols-4 p-4">
+    @for (item of Thongkes; track $index) {
+      <div class="bg-white shadow-lg shadow-gray-200 rounded-2xl p-4 ">
+        <div class="flex items-center">
+          <div
+            class="inline-flex flex-shrink-0 justify-center items-center w-12 h-12 text-white bg-gradient-to-br from-pink-500 to-voilet-500 rounded-lg shadow-md shadow-gray-300">
+            <span class="material-symbols-outlined">{{item.Icon}}</span>
+          </div>
+          <div class="flex-shrink-0 ml-3">
+            <span class="text-2xl font-bold leading-none text-gray-900">{{item.Value}}</span>
+            <h3 class="text-base font-normal text-gray-500">{{item.Title}}</h3>
+          </div>
+          <div class="flex flex-1 justify-end items-center ml-5 w-0 text-base font-bold text-green-500">
+            {{item.Percent}}
+            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd"
+                d="M5.293 7.707a1 1 0 010-1.414l4-4a1 1 0 011.414 0l4 4a1 1 0 01-1.414 1.414L11 5.414V17a1 1 0 11-2 0V5.414L6.707 7.707a1 1 0 01-1.414 0z"
+                clip-rule="evenodd"></path>
+            </svg>
+          </div>
+        </div>
+      </div>
+    }
+  </div>
+</div>

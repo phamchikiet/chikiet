@@ -1,0 +1,59 @@
+<!-- <mat-nav-list>
+  <a href="https://keep.google.com/" mat-list-item (click)="openLink($event)">
+    <span matListItemTitle>Google Keep</span>
+    <span matLine>Add to a note</span>
+  </a>
+
+  <a href="https://docs.google.com/" mat-list-item (click)="openLink($event)">
+    <span matListItemTitle>Google Docs</span>
+    <span matLine>Embed in a document</span>
+  </a>
+
+  <a href="https://plus.google.com/" mat-list-item (click)="openLink($event)">
+    <span matListItemTitle>Google Plus</span>
+    <span matLine>Share with your friends</span>
+  </a>
+
+  <a href="https://hangouts.google.com/" mat-list-item (click)="openLink($event)">
+    <span matListItemTitle>Google Hangouts</span>
+    <span matLine>Show to your coworkers</span>
+  </a>
+</mat-nav-list> -->
+
+<div class="flex-col space-y-6 rounded-lg p-4 mb-8">
+  <div class="sidebar-widget">
+      <div class="relative">
+          <input type="search" id="default-search"
+              class="block w-full p-4 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+              placeholder="Tìm Kiếm" required>
+          <button type="submit"
+              class="text-white absolute end-2.5 bottom-2.5 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+              <svg class="w-4 h-4 text-white dark:text-gray-400" aria-hidden="true"
+                  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
+                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z" />
+              </svg></button>
+      </div>
+  </div>
+  <div class="py-4"><hr/></div>
+  <div class="flex flex-col space-y-4">
+      <div class="text-xl">Lọc theo danh mục</div>
+      @for (item of LocDanhmuc; track $index) {
+          <div class="flex flex-row space-x-2 items-center">
+           <span class="material-symbols-outlined">check_box_outline_blank</span>                    
+           <div>{{item.Title}}</div>
+          </div>
+
+      }
+  </div>
+  <div class="py-4"><hr/></div>
+  <div class="flex flex-col space-y-4">
+      <div class="text-xl">Lọc theo Thương Hiệu</div>
+      @for (item of LocThuongHieu; track $index) {
+          <div class="flex flex-row space-x-2 items-center">
+              <span class="material-symbols-outlined">check_box_outline_blank</span>                    
+              <div>{{item.Title}}</div>
+             </div>
+      }
+  </div>
+</div>
