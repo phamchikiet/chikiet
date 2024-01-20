@@ -25,4 +25,4 @@ jobs:
           username: chikiet@chikiet.com
           password: '@Hikiet1988'
           local-dir: ./dist/apps/beshop/  # <-- Specify the local "build" folder
-          server-dir: /public_html/shop/api/  # Destination on server
+          server-dir: /public_html/shop/api/dist/  # Destination on server
