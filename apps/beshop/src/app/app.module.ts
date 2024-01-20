@@ -6,6 +6,7 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 import { BaivietModule } from './baiviet/baiviet.module';
 import { DanhmucModule } from './danhmuc/danhmuc.module';
 import { SanphamModule } from './sanpham/sanpham.module';
+import { GiohangModule } from './giohang/giohang.module';
 
 @Module({
   imports: [
@@ -23,7 +24,8 @@ import { SanphamModule } from './sanpham/sanpham.module';
     }), 
     DanhmucModule,
     SanphamModule,
-    BaivietModule
+    BaivietModule,
+    GiohangModule
   ],
   controllers: [AppController],
   providers: [AppService],
