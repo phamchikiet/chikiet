@@ -1,5 +1,5 @@
 import { CommonModule } from '@angular/common';
-import { Component, HostBinding, OnInit, effect, inject, signal } from '@angular/core';
+import { Component, HostBinding, HostListener, OnInit, effect, inject, signal } from '@angular/core';
 import { AppService } from '../../app.service';
 import { MatMenuModule } from '@angular/material/menu';
 import { MainComponent } from '../main/main.component';
@@ -7,6 +7,7 @@ import {MatBadgeModule} from '@angular/material/badge';
 import { RouterLink, RouterLinkActive } from '@angular/router';
 import { DanhmucService } from '../../admin/main-admin/danhmuc/danhmuc.service';
 import { OverlayModule } from '@angular/cdk/overlay';
+import { GiohangService } from '../../admin/main-admin/website/giohang/giohang.service';
 @Component({
   selector: 'app-header',
   standalone: true,
@@ -27,12 +28,25 @@ export class HeaderComponent implements OnInit {
   _AppService: AppService = inject(AppService);
   _MainComponent: MainComponent = inject(MainComponent);
   _DanhmucService: DanhmucService = inject(DanhmucService);
+  _GiohangService: GiohangService = inject(GiohangService);
   SearchParams: any = {
     pageSize:10,
     pageNumber:0
   };
   darkmode: boolean = false
   Danhmucs:any={}
+  @HostListener('window:scroll')
+  onScroll() {
+    const offset = 80;
+    console.log(window.scrollY);
+    
+    if (window.scrollY > offset) {
+      this.isSticky =true
+    } else {
+      this.isSticky =false 
+    }
+  }
+  isSticky:boolean=false
   Menus: any[] = [
     {
       id: 2, Title: 'Sản Phẩm', Slug: 'san-pham',Show:false,
@@ -217,17 +231,20 @@ export class HeaderComponent implements OnInit {
     this._AppService.isDarkTheme$.subscribe(isDarkTheme => {
       document.body.classList.toggle('dark', isDarkTheme);
     });
+    this._GiohangService.getGiohangs()
+    this._GiohangService.giohang$.subscribe((data:any)=>{
+      console.log(data)
+      this.Soluong = data?.reduce((acc:any, item:any) => acc + item.Soluong, 0);
+    })
   }
+  Soluong=0
   options: string[] = ['Option 1', 'Option 2', 'Option 3'];
   selectedOption: string = '';
-
   onSelect(option: string) {
     this.selectedOption = option;
   }
   async ngOnInit(): Promise<void> {
-    this.Danhmucs = await this._DanhmucService.SearchDanhmuc(this.SearchParams)
-    console.log( this.Danhmucs);
-    
+    this.Danhmucs = await this._DanhmucService.SearchDanhmuc(this.SearchParams)    
   }
 
   toggleTheme() {

@@ -1,3 +1,7 @@
+<mat-drawer-container class="w-screen h-screen" autosize>
+  <mat-drawer #drawer class="flex flex-col w-2/3" mode="over" position="end">
+    <p>Auto-resizing sidenav</p>
+  </mat-drawer>
   <div class="w-full flex flex-col justify-center items-center">
     <div class="lg:flex hidden w-full border border-b py-4 bg-white">
       <div class="container flex flex-row justify-between">
@@ -22,3 +26,4 @@
     <router-outlet></router-outlet>
     <app-footer></app-footer>
   </div>
+</mat-drawer-container>

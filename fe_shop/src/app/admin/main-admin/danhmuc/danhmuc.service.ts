@@ -23,9 +23,7 @@ export class DanhmucService {
           return console.error(error);
       }
   }
-  async SearchDanhmuc(SearchParams:any) {
-    console.log(SearchParams);
-    
+  async SearchDanhmuc(SearchParams:any) {    
     try {
       const options = {
         method:'POST',
