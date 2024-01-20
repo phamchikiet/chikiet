@@ -4,7 +4,7 @@
   "license": "MIT",
   "scripts": {
     "ng": "nx",
-    "start": "node dist/apps/beshop/main.js",
+    "start": "node dist/main.js",
     "build": "nx build beshop",
     "dev": "nx run beshop:serve",
     "test": "nx test"
