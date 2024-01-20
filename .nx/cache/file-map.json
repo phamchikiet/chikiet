@@ -1,0 +1,48 @@
+{
+  "version": "6.0",
+  "nxVersion": "17.1.3",
+  "deps": {
+    "@nx/js": "17.1.3",
+    "nx": "17.1.3"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "pluginsConfig": {
+    "@nx/js": {
+      "analyzeSourceFiles": false
+    }
+  },
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": ".github/workflows/deployCpanel.yml",
+        "hash": "17819274363299036488"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "8985376780686396104"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "13110905496618404775"
+      },
+      {
+        "file": "README.md",
+        "hash": "16301252814576114166"
+      },
+      {
+        "file": "nx.json",
+        "hash": "17415300638903528706"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "8888680970722119923"
+      },
+      {
+        "file": "package.json",
+        "hash": "13630143695576280467"
+      }
+    ],
+    "projectFileMap": {}
+  }
+}
