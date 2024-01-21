@@ -1,4 +1,4 @@
-import { Component, HostBinding, OnInit, ViewChild, effect, signal } from '@angular/core';
+import { Component, HostBinding, HostListener, OnInit, ViewChild, effect, signal } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { HeaderComponent } from '../header/header.component';
 import { FooterComponent } from '../footer/footer.component';
@@ -18,6 +18,18 @@ import { MatMenuModule } from '@angular/material/menu';
 })
 
 export class MainComponent implements OnInit {
+  @HostListener('window:scroll')
+  onScroll() {
+    const offset = 80;
+    console.log(window.scrollY);
+    
+    if (window.scrollY > offset) {
+      this.isSticky =true
+    } else {
+      this.isSticky =false 
+    }
+  }
+  isSticky:boolean=false
   @ViewChild('drawer') drawer!: MatSidenav;
   ngOnInit(): void {
   }

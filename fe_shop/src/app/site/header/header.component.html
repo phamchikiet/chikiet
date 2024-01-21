@@ -78,8 +78,8 @@
                 </div>
             </button>
         </mat-menu>
-        <button mat-icon-button>
-            <span class="lg:hidden material-symbols-outlined" (click)="toggleDrawer()">
+        <button mat-icon-button (click)="sidebarVisible = true">
+            <span class="lg:hidden material-symbols-outlined">
                 menu
             </span>
         </button>
@@ -90,3 +90,8 @@
     </div>
 
 </div>
+<p-sidebar [(visible)]="sidebarVisible" position="right" class="w-1/2">
+    <ng-template pTemplate="header">Header Content</ng-template>
+    <ng-template pTemplate="content">Body Content</ng-template>
+    <ng-template pTemplate="footer">Footer Content</ng-template>
+</p-sidebar>

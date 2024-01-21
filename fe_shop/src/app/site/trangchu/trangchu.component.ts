@@ -1,4 +1,4 @@
-import { CUSTOM_ELEMENTS_SCHEMA, Component, Input, OnInit, ViewChild } from '@angular/core';
+import { CUSTOM_ELEMENTS_SCHEMA, Component, Input, OnInit, ViewChild, inject } from '@angular/core';
 import { BannerComponent } from '../../admin/main-admin/website/banner/banner.component';
 import { SwiperContainer } from 'swiper/element';
 import { AboutusComponent } from '../../admin/main-admin/website/aboutus/aboutus.component';
@@ -9,7 +9,7 @@ import { DownloadappComponent } from '../../admin/main-admin/website/downloadapp
 import { SlideSanphamComponent } from '../../admin/main-admin/website/slide-sanpham/slide-sanpham.component';
 import { MatButtonModule } from '@angular/material/button';
 import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
-import { SwiperOptions } from 'swiper/types';
+import Swiper, { Pagination } from 'swiper';
 @Component({
   selector: 'app-trangchu',
   standalone:true,
@@ -20,7 +20,7 @@ import { SwiperOptions } from 'swiper/types';
     PromoComponent,
     DownloadappComponent,
     SlideSanphamComponent,
-    MatButtonModule
+    MatButtonModule,
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   templateUrl: './trangchu.component.html',
@@ -29,19 +29,40 @@ import { SwiperOptions } from 'swiper/types';
 export class TrangchuComponent implements OnInit {
   drawerMode:any
   isMobile:boolean=false
-  @ViewChild('swiperSanpham', { static: false }) swiperSanpham: SwiperContainer | undefined;
   constructor(
-    private _breakpointObserver:BreakpointObserver
+    private _breakpointObserver:BreakpointObserver,
   ) { }
 
   ngOnInit() {
     this._breakpointObserver.observe([Breakpoints.Handset]).subscribe(result => {
       this.isMobile = result.matches ? true : false;
     });
-   
   }
-  // NextSanpham()
-  // {
-  //   console.log( this.swiperSanpham?.elemen);
-  // }
+
+  ngAfterViewInit(): void {
+    const swiper = new Swiper('.mySwiper', {
+      modules: [Pagination],
+      pagination: {
+        el: '.swiper-pagination',
+        clickable:true
+      },
+      navigation:true,
+      slidesPerView:2,
+      spaceBetween: 20,
+      breakpoints: {
+        640: {
+          slidesPerView: 2,
+          spaceBetween: 20,
+        },
+        768: {
+          slidesPerView: 4,
+          spaceBetween: 40,
+        },
+        1024: {
+          slidesPerView: 6,
+          spaceBetween: 50,
+        },
+      },
+    });
+  }
 }

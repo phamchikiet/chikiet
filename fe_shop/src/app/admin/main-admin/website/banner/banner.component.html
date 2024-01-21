@@ -8,11 +8,13 @@
 <section class="grid grid-cols-1 relative">
      <div class="flex flex-col space-y-3 w-full col-span-4">
          <div>
-            <swiper-container #swiperSanpham slides-per-view="1" speed="500" loop="true" pagination="true"
-              [navigation]="{prevEl: '.prev_sanpham', nextEl: '.next_sanpham' }" class="space-x-4">
-              <swiper-slide><img src="/assets/images/banner10.webp" class="w-full" /></swiper-slide>
-              <swiper-slide><img src="/assets/images/banner11.webp" class="w-full" /></swiper-slide>
-            </swiper-container>
+            <div class="swiper banner">
+              <div class="swiper-wrapper pb-8">
+                <div class="swiper-slide"><img src="/assets/images/banner10.webp" class="w-full" /></div>
+                <div class="swiper-slide"><img src="/assets/images/banner11.webp" class="w-full" /></div>
+              </div>
+              <div class="swiper-pagination !-bottom-1"></div>
+            </div>
           </div>
         </div>
 </section>

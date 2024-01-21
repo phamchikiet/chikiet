@@ -1,5 +1,5 @@
 import { CommonModule } from '@angular/common';
-import { Component, HostBinding, HostListener, OnInit, effect, inject, signal } from '@angular/core';
+import { Component, HostBinding, HostListener, OnInit, ViewChild, effect, inject, signal } from '@angular/core';
 import { AppService } from '../../app.service';
 import { MatMenuModule } from '@angular/material/menu';
 import { MainComponent } from '../main/main.component';
@@ -8,6 +8,10 @@ import { RouterLink, RouterLinkActive } from '@angular/router';
 import { DanhmucService } from '../../admin/main-admin/danhmuc/danhmuc.service';
 import { OverlayModule } from '@angular/cdk/overlay';
 import { GiohangService } from '../../admin/main-admin/website/giohang/giohang.service';
+import { Sidebar, SidebarModule } from 'primeng/sidebar';
+import { ButtonModule } from 'primeng/button';
+import { MegaMenuModule } from 'primeng/megamenu';
+import { InputTextModule } from 'primeng/inputtext';
 @Component({
   selector: 'app-header',
   standalone: true,
@@ -17,7 +21,11 @@ import { GiohangService } from '../../admin/main-admin/website/giohang/giohang.s
     RouterLinkActive,
     MatBadgeModule,
     RouterLink,
-    OverlayModule
+    OverlayModule,
+    SidebarModule,
+    ButtonModule,
+    MegaMenuModule,
+    InputTextModule
   ],
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.css']
@@ -35,18 +43,14 @@ export class HeaderComponent implements OnInit {
   };
   darkmode: boolean = false
   Danhmucs:any={}
-  @HostListener('window:scroll')
-  onScroll() {
-    const offset = 80;
-    console.log(window.scrollY);
-    
-    if (window.scrollY > offset) {
-      this.isSticky =true
-    } else {
-      this.isSticky =false 
-    }
+  @ViewChild('sidebarRef') sidebarRef!: Sidebar;
+
+  closeCallback(e:any): void {
+      this.sidebarRef.close(e);
   }
-  isSticky:boolean=false
+
+  sidebarVisible: boolean = false;
+  items = []
   Menus: any[] = [
     {
       id: 2, Title: 'Sản Phẩm', Slug: 'san-pham',Show:false,
