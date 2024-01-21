@@ -8,14 +8,14 @@
         @for (items of FilterLists; track $index) {
           <swiper-slide class="grid grid-col-1 gap-4">
             @for (item of items; track $index) {
-              <div class="grid grid-cols-1 border rounded-lg p-3 bg-white">   
+              <a href="san-pham/{{item.Slug}}" class="z-10 grid grid-cols-1 border rounded-lg p-3 bg-white">   
                  <span class="text-center font-bold line-clamp-1">{{item.Title}}</span>
                  <img src="/assets/images/sanpham/{{item.Image.Main}}" class="w-full" />
-                 <div class="flex flex-row space-x-2 justify-center items-center">
+                 <div class="z-20 flex flex-row space-x-2 justify-center items-center">
                   <span class="font-bold text-lg">{{item.Giagoc| number:'1.0-0'}}đ</span>
-                  <span (click)="AddtoCart(item)" class="material-symbols-outlined rounded-full p-4 bg-slate-50 hover:bg-slate-200">shopping_cart</span>
+                  <span (click)="AddtoCart(item);$event.preventDefault()" class="z-10 material-symbols-outlined rounded-full p-4 bg-slate-50 hover:bg-slate-200">shopping_cart</span>
               </div>
-              </div>
+            </a>
             }
           </swiper-slide>
         }
@@ -29,14 +29,14 @@
         @for (items of FilterLists; track $index) {
           <swiper-slide class="grid grid-col-1 gap-4">
             @for (item of items; track $index) {
-              <div class="grid grid-cols-1 border rounded-lg p-3 bg-white">   
+              <a href="san-pham/{{item.Slug}}" class="grid grid-cols-1 border rounded-lg p-3 bg-white">   
                 <span class="text-center font-bold line-clamp-1">{{item.Title}}</span>
                  <img src="/assets/images/sanpham/{{item.Image.Main}}" class="w-full" />
                  <div class="flex flex-row space-x-2 justify-center items-center">
                   <span class="font-bold text-lg">{{item.Giagoc| number:'1.0-0'}}đ</span>
-                  <span (click)="AddtoCart(item)" class="material-symbols-outlined rounded-full p-4 bg-slate-50 hover:bg-slate-200">shopping_cart</span>
+                  <span (click)="AddtoCart(item);$event.preventDefault()" class="material-symbols-outlined rounded-full p-4 bg-slate-50 hover:bg-slate-200">shopping_cart</span>
               </div>
-              </div>
+            </a>
             }
           </swiper-slide>
         }
