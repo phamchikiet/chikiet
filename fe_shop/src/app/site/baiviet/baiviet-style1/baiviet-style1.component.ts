@@ -27,7 +27,7 @@ export class BaivietStyle1Component implements OnInit {
   ListBaiviet:any={}
   FilterBaiviet:any[]=[]
   SearchParams: any = {
-    pageSize:10,
+    pageSize:50,
     pageNumber:0
   };
   Sorting:any[]=[

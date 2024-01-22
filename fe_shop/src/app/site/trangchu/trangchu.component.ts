@@ -32,7 +32,7 @@ export class TrangchuComponent implements OnInit {
   isMobile:boolean=false
   ListsSanpham: any={}
   SearchParams: any = {
-    pageSize:10,
+    pageSize:50,
     pageNumber:0
   };
   _SanphamService:SanphamService = inject(SanphamService)

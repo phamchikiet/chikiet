@@ -39,7 +39,7 @@ export class DetailSanphamComponent implements OnInit {
   route: ActivatedRoute = inject(ActivatedRoute);
   Detail:any
   SearchParams: any = {
-    pageSize:10,
+    pageSize:50,
     pageNumber:0
   };
   Slug:any

@@ -38,7 +38,7 @@ export class HeaderComponent implements OnInit {
   _DanhmucService: DanhmucService = inject(DanhmucService);
   _GiohangService: GiohangService = inject(GiohangService);
   SearchParams: any = {
-    pageSize:10,
+    pageSize:50,
     pageNumber:0
   };
   darkmode: boolean = false

@@ -25,7 +25,7 @@ export class SlideSanphamComponent implements OnInit {
   FilterLists: any[] = []
   FilterListsDesk: any[] = []
   SearchParams: any = {
-    pageSize:10,
+    pageSize:50,
     pageNumber:0
   };
   constructor() { }

@@ -27,7 +27,7 @@ export class ListSanphamComponent implements OnInit {
   ListSanpham:any={}
   FilterSanpham:any[]=[]
   SearchParams: any = {
-    pageSize:10,
+    pageSize:50,
     pageNumber:0
   };
   Sorting:any[]=[

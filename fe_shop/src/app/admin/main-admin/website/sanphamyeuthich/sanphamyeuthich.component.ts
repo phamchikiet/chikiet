@@ -13,7 +13,7 @@ export class SanphamyeuthichComponent implements OnInit {
   Lists: any={}
   FilterLists: any[] = []
   SearchParams: any = {
-    pageSize:10,
+    pageSize:50,
     pageNumber:0
   };
   constructor() { }
