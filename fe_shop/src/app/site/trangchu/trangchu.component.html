@@ -4,12 +4,12 @@
     <div class="flex flex-col space-y-3 w-full col-span-4">
       <div class="swiper mySwiper">
         <div class="swiper-wrapper pb-16">
-          <div class="swiper-slide"><img src="/assets/images/slide1.webp" class="w-full" /></div>
-          <div class="swiper-slide"><img src="/assets/images/slide2.webp" class="w-full" /></div>
-          <div class="swiper-slide"><img src="/assets/images/slide3.webp" class="w-full" /></div>
-          <div class="swiper-slide"><img src="/assets/images/slide4.webp" class="w-full" /></div>
-          <div class="swiper-slide"><img src="/assets/images/slide5.webp" class="w-full" /></div>
-          <div class="swiper-slide"><img src="/assets/images/slide6.webp" class="w-full" /></div>
+          @for (item of ListsSanpham.items; track $index) {
+            <div class="swiper-slide flex flex-col justify-center space-y-2">
+              <img src="/assets/images/sanpham/{{item.Image.Main}}" class="w-full" />
+              <span class="text-sm">{{item.Danhmuc}}</span>
+            </div>
+          }
         </div>
         <div class="swiper-pagination !bottom-0"></div>
       </div>

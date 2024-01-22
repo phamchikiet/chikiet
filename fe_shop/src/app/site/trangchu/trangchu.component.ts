@@ -10,6 +10,7 @@ import { SlideSanphamComponent } from '../../admin/main-admin/website/slide-sanp
 import { MatButtonModule } from '@angular/material/button';
 import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
 import Swiper, { Pagination } from 'swiper';
+import { SanphamService } from '../../admin/main-admin/sanpham/sanpham.service';
 @Component({
   selector: 'app-trangchu',
   standalone:true,
@@ -29,14 +30,23 @@ import Swiper, { Pagination } from 'swiper';
 export class TrangchuComponent implements OnInit {
   drawerMode:any
   isMobile:boolean=false
+  ListsSanpham: any={}
+  SearchParams: any = {
+    pageSize:10,
+    pageNumber:0
+  };
+  _SanphamService:SanphamService = inject(SanphamService)
   constructor(
     private _breakpointObserver:BreakpointObserver,
   ) { }
 
-  ngOnInit() {
+  async ngOnInit() {
     this._breakpointObserver.observe([Breakpoints.Handset]).subscribe(result => {
       this.isMobile = result.matches ? true : false;
     });
+    this.ListsSanpham = await this._SanphamService.SearchSanpham(this.SearchParams)
+    console.log(this.ListsSanpham);
+    
   }
 
   ngAfterViewInit(): void {
