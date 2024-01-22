@@ -2,11 +2,13 @@ import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Like, Repository } from 'typeorm';
 import { SanphamEntity } from './entities/sanpham.entity';
+import { DanhmucService } from '../danhmuc/danhmuc.service';
 @Injectable()
 export class SanphamService {
   constructor(
     @InjectRepository(SanphamEntity)
-    private SanphamRepository: Repository<SanphamEntity>
+    private SanphamRepository: Repository<SanphamEntity>,
+    private _DanhmucService: DanhmucService
   ) {}
   async create(CreateSanphamDto: any) {
     this.SanphamRepository.create(CreateSanphamDto);
@@ -57,6 +59,10 @@ export class SanphamService {
     .limit(params.pageSize || 10) // Set a default page size if not provided
     .offset(params.pageNumber * params.pageSize || 0)
     .getManyAndCount();
+    const Danhmuc = await this._DanhmucService.findAll()
+    items.forEach((v)=>{
+      v.Danhmuc = Danhmuc.find((v1:any)=>v1.id_cat ==v.id_cat)?.Title
+    })
   return { items, totalCount };
   }
   async update(id: string, UpdateSanphamDto: any) {

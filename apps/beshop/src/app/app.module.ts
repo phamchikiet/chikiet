@@ -7,6 +7,7 @@ import { BaivietModule } from './baiviet/baiviet.module';
 import { DanhmucModule } from './danhmuc/danhmuc.module';
 import { SanphamModule } from './sanpham/sanpham.module';
 import { GiohangModule } from './giohang/giohang.module';
+import { DonhangModule } from './donhang/donhang.module';
 
 @Module({
   imports: [
@@ -25,7 +26,8 @@ import { GiohangModule } from './giohang/giohang.module';
     DanhmucModule,
     SanphamModule,
     BaivietModule,
-    GiohangModule
+    GiohangModule,
+    DonhangModule
   ],
   controllers: [AppController],
   providers: [AppService],

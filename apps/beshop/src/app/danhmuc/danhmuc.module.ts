@@ -6,6 +6,7 @@ import { DanhmucEntity } from './entities/danhmuc.entity';
 @Module({
   imports: [TypeOrmModule.forFeature([DanhmucEntity])],
   controllers: [DanhmucController],
-  providers: [DanhmucService]
+  providers: [DanhmucService],
+  exports: [DanhmucService],
 })
 export class DanhmucModule {}
