@@ -20,9 +20,7 @@ import { MatMenuModule } from '@angular/material/menu';
 export class MainComponent implements OnInit {
   @HostListener('window:scroll')
   onScroll() {
-    const offset = 80;
-    console.log(window.scrollY);
-    
+    const offset = 80;    
     if (window.scrollY > offset) {
       this.isSticky =true
     } else {

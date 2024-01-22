@@ -1,17 +1,17 @@
 import { Component, OnInit, inject } from '@angular/core';
-import { GiohangService } from './giohang.service';
 import { DecimalPipe } from '@angular/common';
+import { GiohangService } from '../giohang/giohang.service';
 
 @Component({
-  selector: 'app-giohang',
+  selector: 'app-donhang',
   standalone: true,
   imports: [
     DecimalPipe
   ],
-  templateUrl: './giohang.component.html',
-  styleUrls: ['./giohang.component.css']
+  templateUrl: './donhang.component.html',
+  styleUrls: ['./donhang.component.css']
 })
-export class GiohangComponent implements OnInit {
+export class DonhangComponent implements OnInit {
   _GiohangService: GiohangService = inject(GiohangService)
   Giohangs: any[] = []
   Phivanchuyen: any = 10

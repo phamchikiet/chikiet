@@ -20,6 +20,7 @@ import { BaivietAdminChitietComponent } from './admin/main-admin/baiviet-admin/b
 import { SanphamyeuthichComponent } from './admin/main-admin/website/sanphamyeuthich/sanphamyeuthich.component';
 import { ThanhtoanComponent } from './admin/main-admin/website/thanhtoan/thanhtoan.component';
 import { DonhangAdminComponent } from './admin/main-admin/donhang-admin/donhang-admin.component';
+import { DonhangComponent } from './admin/main-admin/website/donhang/donhang.component';
 
 
 export const appRoutes: Route[] = [
@@ -44,6 +45,11 @@ export const appRoutes: Route[] = [
                     path: 'thanh-toan',
                     component: ThanhtoanComponent,
                     title: 'Thanh Toán'
+                },
+                {
+                    path: 'don-hang',
+                    component: DonhangComponent,
+                    title: 'Đơn Hàng'
                 },
                 {
                     path: 'san-pham-yeu-thich',

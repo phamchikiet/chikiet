@@ -48,7 +48,8 @@
               " class="mySwiper" thumbs-swiper=".mySwiper2" space-between="10" navigation="true">
                             @for (item of [1,2,3,4]; track $index) {
                             <swiper-slide>
-                                <img src="assets/images/sanpham/{{ Detail?.Image?.Main }}" />
+                                <!-- <img src="assets/images/sanpham/{{ Detail?.Image?.Main }}" /> -->
+                                <p-image src="assets/images/sanpham/{{ Detail?.Image?.Main }}" alt="Image" [preview]="true"></p-image>
                             </swiper-slide>
                             }
                         </swiper-container>

@@ -237,7 +237,6 @@ export class HeaderComponent implements OnInit {
     });
     this._GiohangService.getGiohangs()
     this._GiohangService.giohang$.subscribe((data:any)=>{
-      console.log(data)
       this.Soluong = data?.reduce((acc:any, item:any) => acc + item.Soluong, 0);
     })
   }
