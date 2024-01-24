@@ -45,18 +45,14 @@ export class TrangchuComponent implements OnInit {
       this.isMobile = result.matches ? true : false;
     });
     const result = await this._SanphamService.SearchSanpham(this.SearchParams)
-    this.ListsSanpham = result.items.slice(0,6)
+    this.ListsSanpham = result.items.slice(0,12)
     console.log(this.ListsSanpham); 
   
   }
 
   ngAfterViewInit(): void {
     const swiper = new Swiper('.mySwiper', {
-      modules: [Pagination],
-      pagination: {
-        el: '.swiper-pagination',
-        clickable:true
-      },
+      loop:true,
       navigation:true,
       slidesPerView:2,
       spaceBetween: 20,
