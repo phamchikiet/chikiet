@@ -52,8 +52,6 @@ export class TrangchuComponent implements OnInit {
 
   ngAfterViewInit(): void {
     const swiper = new Swiper('.mySwiper', {
-      loop:true,
-      navigation:true,
       slidesPerView:2,
       spaceBetween: 20,
       breakpoints: {
