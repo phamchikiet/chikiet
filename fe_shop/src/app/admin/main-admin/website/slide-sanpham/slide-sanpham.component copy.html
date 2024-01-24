@@ -7,7 +7,20 @@
 </div>
   <div class="lg:flex hidden flex-col space-y-3 w-full col-span-4">
     <div>
-      <swiper-container slides-per-view="4" speed="500" loop="false" pagination="false" space-between="20" >
+      <div class="flex flex-col space-y-3 w-full col-span-4">
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper pb-16">
+            @for (item of ListsSanpham; track $index) {
+              <a href="san-pham/{{item.Slug}}" class="swiper-slide flex flex-col justify-center space-y-2">
+                <img src="/assets/images/sanpham/{{item.Image.Main}}" class="w-full" />
+                <span class="text-sm">{{item.Danhmuc}}</span>
+              </a>
+            }
+          </div>
+          <div class="swiper-pagination !bottom-0"></div>
+        </div>
+      </div>
+      <swiper-container slides-per-view="4" speed="500" loop="false" pagination="false" class="space-x-4">
         @for (items of FilterLists; track $index) {
           <swiper-slide class="grid grid-col-1 gap-4">
             @for (item of items; track $index) {
@@ -29,7 +42,7 @@
   </div>
   <div class="lg:hidden flex flex-col space-y-3 w-full col-span-4">
     <div>
-      <swiper-container slides-per-view="2" speed="500" loop="false" space-between="20" pagination="false">
+      <swiper-container slides-per-view="2" speed="500" loop="false" pagination="false" class="space-x-4">
         @for (items of FilterLists; track $index) {
           <swiper-slide class="grid grid-col-1 gap-4">
             @for (item of items; track $index) {

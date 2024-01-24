@@ -44,9 +44,10 @@ export class TrangchuComponent implements OnInit {
     this._breakpointObserver.observe([Breakpoints.Handset]).subscribe(result => {
       this.isMobile = result.matches ? true : false;
     });
-    this.ListsSanpham = await this._SanphamService.SearchSanpham(this.SearchParams)
-    console.log(this.ListsSanpham);
-    
+    const result = await this._SanphamService.SearchSanpham(this.SearchParams)
+    this.ListsSanpham = result.items.slice(0,6)
+    console.log(this.ListsSanpham); 
+  
   }
 
   ngAfterViewInit(): void {

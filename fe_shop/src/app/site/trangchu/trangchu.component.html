@@ -4,7 +4,7 @@
     <div class="flex flex-col space-y-3 w-full col-span-4">
       <div class="swiper mySwiper">
         <div class="swiper-wrapper pb-16">
-          @for (item of ListsSanpham.items; track $index) {
+          @for (item of ListsSanpham; track $index) {
             <a href="san-pham/{{item.Slug}}" class="swiper-slide flex flex-col justify-center space-y-2">
               <img src="/assets/images/sanpham/{{item.Image.Main}}" class="w-full" />
               <span class="text-sm">{{item.Danhmuc}}</span>

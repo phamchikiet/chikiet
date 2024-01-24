@@ -2,6 +2,7 @@ import { CUSTOM_ELEMENTS_SCHEMA, Component, Input, OnInit, inject } from '@angul
 import { SanphamService } from '../../sanpham/sanpham.service';
 import { DecimalPipe, NgOptimizedImage } from '@angular/common';
 import { GiohangService } from '../giohang/giohang.service';
+import Swiper, { Pagination } from 'swiper';
 
 @Component({
   selector: 'app-slide-sanpham',
@@ -31,7 +32,7 @@ export class SlideSanphamComponent implements OnInit {
   constructor() { }
   async ngOnInit() {
     this.Lists = await this._SanphamService.SearchSanpham(this.SearchParams)
-    this.FilterLists = this.SanphamColumn(this.Lists.items,this.Sohang)
+    this.FilterLists = this.SanphamColumn(this.Lists.items,this.Sohang).slice(0,8)    
     // console.log(this.FilterListsDesk);
   }
   SanphamColumn(data:any,n:any)
@@ -51,5 +52,30 @@ export class SlideSanphamComponent implements OnInit {
     item.Soluong=1    
     this._GiohangService.addToCart(item)
   }
-  
+  ngAfterViewInit(): void {
+    const swiper = new Swiper('.mySwiper', {
+      modules: [Pagination],
+      pagination: {
+        el: '.swiper-pagination',
+        clickable:true
+      },
+      navigation:true,
+      slidesPerView:1,
+      spaceBetween: 20,
+      breakpoints: {
+        640: {
+          slidesPerView: 1,
+          spaceBetween: 20,
+        },
+        768: {
+          slidesPerView: 1,
+          spaceBetween: 40,
+        },
+        1024: {
+          slidesPerView: 1,
+          spaceBetween: 50,
+        },
+      },
+    });
+  }
 }
