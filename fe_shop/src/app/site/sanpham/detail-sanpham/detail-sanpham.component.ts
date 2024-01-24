@@ -2,6 +2,7 @@ import { DecimalPipe } from '@angular/common';
 import { CUSTOM_ELEMENTS_SCHEMA, Component, OnInit, inject } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { SanphamService } from 'fe_shop/src/app/admin/main-admin/sanpham/sanpham.service';
+import { GiohangService } from 'fe_shop/src/app/admin/main-admin/website/giohang/giohang.service';
 import { SlideSanphamComponent } from 'fe_shop/src/app/admin/main-admin/website/slide-sanpham/slide-sanpham.component';
 import { ImageModule } from 'primeng/image';
 @Component({
@@ -36,8 +37,10 @@ export class DetailSanphamComponent implements OnInit {
     }
 ];
   _SanphamService: SanphamService = inject(SanphamService);
+  _GiohangService: GiohangService = inject(GiohangService);
   route: ActivatedRoute = inject(ActivatedRoute);
   Detail:any
+  Gia:any={}
   SearchParams: any = {
     pageSize:50,
     pageNumber:0
@@ -51,6 +54,7 @@ export class DetailSanphamComponent implements OnInit {
     if(this.Slug)
     {
       this.Detail = await this._SanphamService.getSanphamBySlug(this.Slug)
+      this.Gia = this.Detail.Giagoc[0]
       console.log(this.Detail);
     }
 
@@ -60,6 +64,16 @@ export class DetailSanphamComponent implements OnInit {
     console.log(Object.entries(data));
     
     return Object.entries(data)
+  }
+  AddtoCart(data:any)
+  {
+    console.log(data);
+    
+    let item:any={}
+    item = data
+    item.Total=data.Giagoc
+    item.Soluong=1    
+    this._GiohangService.addToCart(item)
   }
 
 }
