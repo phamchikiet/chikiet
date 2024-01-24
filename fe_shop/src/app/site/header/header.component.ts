@@ -238,9 +238,11 @@ export class HeaderComponent implements OnInit {
     this._GiohangService.getGiohangs()
     this._GiohangService.giohang$.subscribe((data:any)=>{
       this.Soluong = data?.reduce((acc:any, item:any) => acc + item.Soluong, 0);
+      this.Tongcong = data?.reduce((acc:any, item:any) => acc + item.Giagoc*item.Soluong, 0);
     })
   }
   Soluong=0
+  Tongcong=0
   options: string[] = ['Option 1', 'Option 2', 'Option 3'];
   selectedOption: string = '';
   onSelect(option: string) {
