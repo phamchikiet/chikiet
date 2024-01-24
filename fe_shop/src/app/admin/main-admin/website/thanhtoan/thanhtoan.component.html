@@ -35,27 +35,28 @@
                     <h4 class="!text-xl !font-semibold text-default-800 mb-6">Thông tin thanh toán</h4>
                     <div class="grid lg:grid-cols-4 gap-6">
                         <div class="lg:col-span-2">
-                            <label for="userName" class="block text-sm text-default-700 mb-2">Họ Tên *</label>
-                            <input id="userName"
+                            <label class="block text-sm text-default-700 mb-2">Họ Tên *</label>
+                            <input [(ngModel)]="Khachhang.Hoten" [ngModelOptions]="{standalone: true}"
+                        
                                 class="block w-full bg-transparent dark:bg-default-50 rounded-full py-2.5 px-4 border border-default-200"
                                 type="text" placeholder="First Name">
                         </div>
                         <div class="lg:col-span-2">
-                            <label for="userName" class="block text-sm text-default-700 mb-2">Địa Chỉ *</label>
-                            <input id="userName"
+                            <label class="block text-sm text-default-700 mb-2">Địa Chỉ *</label>
+                            <input [(ngModel)]="Khachhang.Diachi" [ngModelOptions]="{standalone: true}" 
                                 class="block w-full bg-transparent dark:bg-default-50 rounded-full py-2.5 px-4 border border-default-200"
                                 type="text" placeholder="Vui lòng nhập địa chỉ">
                         </div>
                         <div class="lg:col-span-2">
-                            <label for="userName" class="block text-sm text-default-700 mb-2">Email </label>
-                            <input id="userName"
+                            <label class="block text-sm text-default-700 mb-2">Email </label>
+                            <input 
                                 class="block w-full bg-transparent dark:bg-default-50 rounded-full py-2.5 px-4 border border-default-200"
                                 type="text" placeholder="example@gmail.com">
                         </div>
 
                         <div class="lg:col-span-2">
-                            <label for="userName" class="block text-sm text-default-700 mb-2">Số Điện Thoại *</label>
-                            <input id="userName"
+                            <label class="block text-sm text-default-700 mb-2">Số Điện Thoại *</label>
+                            <input [(ngModel)]="Khachhang.SDT" [ngModelOptions]="{standalone: true}"
                                 class="block w-full bg-transparent dark:bg-default-50 rounded-full py-2.5 px-4 border border-default-200"
                                 type="text" placeholder="Vui lòng nhập số điện thoại">
                         </div>
@@ -160,29 +161,29 @@
 
                     <div class="grid lg:grid-cols-2 gap-6">
                         <div class="lg:col-span-2">
-                            <label for="userName" class="block text-sm text-default-700 mb-2">Họ Tên Thẻ</label>
-                            <input id="userName"
+                            <label class="block text-sm text-default-700 mb-2">Họ Tên Thẻ</label>
+                            <input 
                                 class="block w-full bg-transparent dark:bg-default-50 rounded-full py-2.5 px-4 border border-default-200"
                                 type="text" placeholder="Họ Tên Thẻ">
                         </div>
 
                         <div class="lg:col-span-2">
-                            <label for="userName" class="block text-sm text-default-700 mb-2">Số Thẻ</label>
-                            <input id="userName"
+                            <label class="block text-sm text-default-700 mb-2">Số Thẻ</label>
+                            <input 
                                 class="block w-full bg-transparent dark:bg-default-50 rounded-full py-2.5 px-4 border border-default-200"
                                 type="text" placeholder="Vui lòng nhập số thẻ">
                         </div>
 
                         <div>
-                            <label for="userName" class="block text-sm text-default-700 mb-2">Ngày Hết Hạn</label>
-                            <input id="userName"
+                            <label class="block text-sm text-default-700 mb-2">Ngày Hết Hạn</label>
+                            <input 
                                 class="block w-full bg-transparent dark:bg-default-50 rounded-full py-2.5 px-4 border border-default-200"
                                 type="text" placeholder="Tháng/Năm">
                         </div>
 
                         <div>
-                            <label for="userName" class="block text-sm text-default-700 mb-2">CVC</label>
-                            <input id="userName"
+                            <label class="block text-sm text-default-700 mb-2">CVC</label>
+                            <input 
                                 class="block w-full bg-transparent dark:bg-default-50 rounded-full py-2.5 px-4 border border-default-200"
                                 type="text" placeholder="Vui lòng nhập số CVC">
                         </div>
@@ -194,7 +195,7 @@
                     <h4 class="text-lg font-medium text-default-800 mb-6">Thông tin bổ sung</h4>
 
                     <div>
-                        <textarea id="userName"
+                        <textarea 
                             class="block w-full bg-transparent dark:bg-default-50 rounded-lg py-2.5 px-4 border border-default-200"
                             rows="4" type="text"
                             placeholder="Ghi chú giao hàng"></textarea>
@@ -205,7 +206,7 @@
             <div class="mb-5">
                 <div class="border border-default-200 rounded-lg p-5">
                     <h4 class="!text-xl !font-semibold text-default-700 mb-5">Tóm tắt đơn hàng</h4>
-                    @for (item of Giohangs; track $index) {
+                    @for (item of Donhang.Giohangs; track $index) {
                     <div class="flex items-center mb-4">
                         <img src="/assets/images/sanpham/{{item.Image.Main}}" class="h-20 w-20 me-2">
                         <div>
@@ -219,7 +220,7 @@
                     <div class="mb-6">
                         <div class="flex justify-between mb-3">
                             <p class="text-sm text-default-500">Tổng</p>
-                            <p class="text-sm text-default-700 font-medium">{{(GetTotal(Giohangs,'Soluong','Giachon')|
+                            <p class="text-sm text-default-700 font-medium">{{(GetTotal(Donhang.Giohangs,'Soluong','Giachon')|
                                 number:'1.0-0')||'0'}}đ</p>
                         </div>
                         <div class="flex justify-between mb-3">
@@ -232,7 +233,7 @@
                         </div>
                         <div class="flex justify-between mb-3">
                             <p class="text-sm text-default-500">Thuế</p>
-                            <p class="text-sm text-default-700 font-medium">{{(GetTotal(Giohangs,'Thue','')|
+                            <p class="text-sm text-default-700 font-medium">{{(GetTotal(Donhang.Giohangs,'Thue','')|
                                 number:'1.0-0')||'0'}}đ</p>
                         </div>
                         <div class="border-b border-default-200 my-4"></div>
@@ -242,10 +243,17 @@
                             </p>
                         </div>
                     </div>
-                    <a href="don-hang"
+                    <a (click)="Xacnhandonhang(customSnackbar)"
                         class="w-full inline-flex items-center justify-center rounded-full border border-primary bg-primary px-10 py-3 text-center text-sm font-medium text-white shadow-sm transition-all duration-500 hover:bg-primary-500">Xác Nhận</a>
                 </div>
             </div>
         </div>
     </div>
 </section>
+
+<ng-template #customSnackbar let-data="customData">
+    <div class="flex flex-row items-center rounded-lg space-x-2">
+   <span class="material-symbols-outlined">{{ListNotifyType[this.Notify.type]}}</span>
+      <div>{{this.Notify.Noidung}}</div>  
+    </div>
+</ng-template>

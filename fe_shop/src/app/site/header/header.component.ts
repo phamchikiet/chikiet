@@ -235,10 +235,10 @@ export class HeaderComponent implements OnInit {
     this._AppService.isDarkTheme$.subscribe(isDarkTheme => {
       document.body.classList.toggle('dark', isDarkTheme);
     });
-    this._GiohangService.getGiohangs()
-    this._GiohangService.giohang$.subscribe((data:any)=>{
-      this.Soluong = data?.reduce((acc:any, item:any) => acc + item.Soluong, 0);
-      this.Tongcong = data?.reduce((acc:any, item:any) => acc + item.Giachon?.gia*item.Soluong, 0);
+    this._GiohangService.getDonhang()
+    this._GiohangService.donhang$.subscribe((data:any)=>{
+      this.Soluong = data?.Giohangs?.reduce((acc:any, item:any) => acc + item.Soluong, 0);
+      this.Tongcong = data?.Giohangs?.reduce((acc:any, item:any) => acc + item.Giachon?.gia*item.Soluong, 0);
     })
   }
   Soluong=0

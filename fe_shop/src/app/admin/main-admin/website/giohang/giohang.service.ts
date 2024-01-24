@@ -1,5 +1,6 @@
 import { Injectable, inject, signal } from '@angular/core';
 import { LocalStorageService } from 'fe_shop/src/app/shared/localstorage.service';
+import { GenId } from 'fe_shop/src/app/shared/shared.utils';
 import { environment } from 'fe_shop/src/environments/environment';
 import { BehaviorSubject, map, Observable, Subject, switchMap, take } from 'rxjs';
 @Injectable({
@@ -8,9 +9,14 @@ import { BehaviorSubject, map, Observable, Subject, switchMap, take } from 'rxjs
 export class GiohangService {
     _LocalStorageService:LocalStorageService=inject(LocalStorageService)
     private _giohang: BehaviorSubject<any| null> = new BehaviorSubject<any | null>(null);
+    private _donhang: BehaviorSubject<any| null> = new BehaviorSubject<any | null>(null);
     Giohangs: any  = this._LocalStorageService.getItem('Giohang')||[]
+    Donhang:any = this._LocalStorageService.getItem('Donhang')||{}
     get giohang$(): Observable<any[] | null> {
       return this._giohang.asObservable();
+    }
+    get donhang$(): Observable<any | null> {
+      return this._donhang.asObservable();
     }
     async getGiohangs(): Promise<any> {
         this._giohang.next(this.Giohangs)
@@ -50,20 +56,92 @@ export class GiohangService {
             return console.error(error);
         }
     }
-
-    async addToCart(item: any): Promise<void> {
-        console.log(item);
-        
-        const existingItemIndex = this.Giohangs.findIndex((v:any) => v.id === item.id && v.Giachon?.id==item?.Giachon?.id);
-        console.log(existingItemIndex);
-        
-        if (existingItemIndex !== -1) {
-            this.Giohangs[existingItemIndex].Soluong += Number(item.Soluong);
-        } else {
-            this.Giohangs.push(item);
+    async getDonhang(): Promise<any> {
+        this._donhang.next(this.Donhang)
+        this._LocalStorageService.setItem('Donhang',this.Donhang)
+        // try {
+        //     const options = {
+        //         method: 'GET',
+        //         headers: {
+        //             'Content-Type': 'application/json',
+        //         },
+        //     };
+        //     const response = await fetch(`${environment.APIURL}/donhang`, options);
+        //     if (!response.ok) { // Check for non-2xx status codes
+        //         throw new Error(`HTTP error! status: ${response.status}`);
+        //     }
+        //     const data = await response.json();
+        //     // this._giohang.next(data)
+        // } catch (error) {
+        //     return console.error(error);
+        // }
+    }
+    async getDonhangByUser(id:any): Promise<any> {
+        this._donhang.next(this.Donhang)
+        try {
+            const options = {
+                method: 'GET',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+            };
+            const response = await fetch(`${environment.APIURL}/donhang/findUser/${id}`, options);
+            if (!response.ok) { // Check for non-2xx status codes
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            const data = await response.json();
+           // this._giohang.next(data)
+        } catch (error) {
+            return console.error(error);
         }
-        this._LocalStorageService.setItem('Giohang',this.Giohangs)
-        this._giohang.next(this.Giohangs)
+    }
+    async UpdateDonhang(data:any): Promise<any> {
+        this._donhang.next(data)
+        this._LocalStorageService.setItem('Donhang',this.Donhang)
+        // try {
+        //     const options = {
+        //         method: 'GET',
+        //         headers: {
+        //             'Content-Type': 'application/json',
+        //         },
+        //     };
+        //     const response = await fetch(`${environment.APIURL}/donhang`, options);
+        //     if (!response.ok) { // Check for non-2xx status codes
+        //         throw new Error(`HTTP error! status: ${response.status}`);
+        //     }
+        //     const data = await response.json();
+        //     // this._giohang.next(data)
+        // } catch (error) {
+        //     return console.error(error);
+        // }
+    }
+    async addToCart(item: any): Promise<void> {
+        console.log(Object.entries(this.Donhang));
+        
+        if(Object.entries(this.Donhang).length===0)
+        {
+            this.Donhang.MaDonHang = "RSTG"+GenId(8,false)
+            this.Donhang.Khachhang = {Hoten:'Guest'}
+            this.Donhang.Thanhtoan ={}
+            this.Donhang.Vanchuyen ={}
+            this.Donhang.Status=0
+            this.Donhang.Giohangs=[item]
+            this._LocalStorageService.setItem('Donhang',this.Donhang)
+            this._donhang.next(this.Donhang)
+        }
+        else
+        {
+            const existingItemIndex = this.Donhang.Giohangs.findIndex((v:any) => v.id === item.id && v.Giachon?.id==item?.Giachon?.id);
+            console.log(existingItemIndex);
+            if (existingItemIndex !== -1) {
+                this.Donhang.Giohangs[existingItemIndex].Soluong += Number(item.Soluong);
+            } else {
+                this.Donhang.Giohangs.push(item);
+            }
+            this._LocalStorageService.setItem('Donhang',this.Donhang)
+            this._donhang.next(this.Donhang)
+        }
+
 
         // this._giohang.next(this.Giohangs)
         // try {
@@ -86,12 +164,12 @@ export class GiohangService {
 
     }
     async removeFromCart(item:any): Promise<void> {
-        const existingItemIndex = this.Giohangs.findIndex((v:any) => v.id === item.id && v.Giachon?.id==item?.Giachon?.id);
+        const existingItemIndex = this.Donhang.Giohangs.findIndex((v:any) => v.id === item.id && v.Giachon?.id==item?.Giachon?.id);
         if (existingItemIndex !== -1) {
-            this.Giohangs.splice(existingItemIndex, 1);
+            this.Donhang.Giohangs.splice(existingItemIndex, 1);
           }
-        this._LocalStorageService.setItem('Giohang',this.Giohangs)
-        this._giohang.next(this.Giohangs)
+        this._LocalStorageService.setItem('Donhang',this.Donhang.Giohangs)
+        this._donhang.next(this.Donhang.Giohangs)
         // const Updatedata = this.removeItemById(item)
         // try {
         //     const options = {

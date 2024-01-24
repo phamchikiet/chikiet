@@ -18,10 +18,9 @@ export class GiohangComponent implements OnInit {
   Giamgia: any = 30
   constructor() { }
   ngOnInit() {
-    this._GiohangService.getGiohangs()
-    this._GiohangService.giohang$.subscribe((data: any) => {
-      console.log(data)
-      this.Giohangs = data
+    this._GiohangService.getDonhang()
+    this._GiohangService.donhang$.subscribe((data: any) => {
+      this.Giohangs = data.Giohangs
     })
   }
   GetTotal(data: any, field: any, field1: any) {

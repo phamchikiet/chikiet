@@ -28,3 +28,20 @@ body {
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
   background-color: #00256e;
 }
+
+.success .mdc-snackbar__surface{
+  color: white !important;
+  background-color:#5cb85c !important;
+}
+.danger .mdc-snackbar__surface{
+  color: white !important;
+  background-color:#D9534F !important;
+}
+.warning .mdc-snackbar__surface{
+  color: white !important;
+  background-color:#F0AD4E !important;
+}
+.info .mdc-snackbar__surface{
+  color: white !important;
+  background-color:#5BC0DE !important;
+}

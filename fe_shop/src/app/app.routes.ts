@@ -21,6 +21,7 @@ import { SanphamyeuthichComponent } from './admin/main-admin/website/sanphamyeut
 import { ThanhtoanComponent } from './admin/main-admin/website/thanhtoan/thanhtoan.component';
 import { DonhangAdminComponent } from './admin/main-admin/donhang-admin/donhang-admin.component';
 import { DonhangComponent } from './admin/main-admin/website/donhang/donhang.component';
+import { CamonComponent } from './admin/main-admin/website/camon/camon.component';
 
 
 export const appRoutes: Route[] = [
@@ -50,6 +51,11 @@ export const appRoutes: Route[] = [
                     path: 'don-hang',
                     component: DonhangComponent,
                     title: 'Đơn Hàng'
+                },
+                {
+                    path: 'cam-on',
+                    component: CamonComponent,
+                    title: 'Cảm Ơn'
                 },
                 {
                     path: 'san-pham-yeu-thich',

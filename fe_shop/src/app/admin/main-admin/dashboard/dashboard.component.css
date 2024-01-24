@@ -241,7 +241,7 @@ select {
     background-position: right .5rem center;
     background-repeat: no-repeat;
     background-size: 1.5em 1.5em;
-    color-adjust: exact;
+    print-color-adjust: exact;
     padding-right: 2.5rem
 }
 
@@ -251,7 +251,7 @@ select {
     background-position: 0 0;
     background-repeat: unset;
     background-size: initial;
-    color-adjust: unset;
+    print-color-adjust: unset;
     padding-right: .75rem
 }
 
@@ -266,7 +266,7 @@ select {
     border-color: #adb5bd;
     border-width: 1px;
     color: #0a3fff;
-    color-adjust: exact;
+    print-color-adjust: exact;
     display: inline-block;
     flex-shrink: 0;
     height: 1rem;
