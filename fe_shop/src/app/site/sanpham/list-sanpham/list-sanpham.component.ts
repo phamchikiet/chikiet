@@ -61,7 +61,7 @@ export class ListSanphamComponent implements OnInit {
   {
     let item:any={}
     item = data
-    item.Total=data.Giagoc
+    item.Giachon = data.Giagoc[0]
     item.Soluong=1    
     this._GiohangService.addToCart(item)
   }

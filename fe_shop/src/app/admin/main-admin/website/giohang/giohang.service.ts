@@ -31,7 +31,7 @@ export class GiohangService {
             return console.error(error);
         }
     }
-    async gietGiohangByUser(id:any): Promise<any> {
+    async getGiohangByUser(id:any): Promise<any> {
         this._giohang.next(this.Giohangs)
         try {
             const options = {
@@ -52,7 +52,9 @@ export class GiohangService {
     }
 
     async addToCart(item: any): Promise<void> {
-        const existingItemIndex = this.Giohangs.findIndex((v:any) => v.id === item.id);
+        console.log(item);
+        
+        const existingItemIndex = this.Giohangs.findIndex((v:any) => v.id === item.id && v.Giachon?.id==item?.Giachon?.id);
         console.log(existingItemIndex);
         
         if (existingItemIndex !== -1) {
@@ -83,26 +85,32 @@ export class GiohangService {
         // }
 
     }
-    // async removeFromCart(Cart: any,item:any): Promise<void> {
-    //     const Updatedata = this.removeItemById(item)
-    //     try {
-    //         const options = {
-    //             method: 'PATCH',
-    //             headers: {
-    //                 'Content-Type': 'application/json',
-    //             },
-    //             body: JSON.stringify(Updatedata),
-    //         };
-    //         const response = await fetch(`${environment.APIURL}/giohang/${Cart.id}`, options);
-    //         if (!response.ok) { // Check for non-2xx status codes
-    //             throw new Error(`HTTP error! status: ${response.status}`);
-    //         }
-    //         this.removeItemSubject.next(item);
-    //         return await response.json();
-    //     } catch (error) {
-    //         return console.error(error);
-    //     }
-    // }
+    async removeFromCart(item:any): Promise<void> {
+        const existingItemIndex = this.Giohangs.findIndex((v:any) => v.id === item.id && v.Giachon?.id==item?.Giachon?.id);
+        if (existingItemIndex !== -1) {
+            this.Giohangs.splice(existingItemIndex, 1);
+          }
+        this._LocalStorageService.setItem('Giohang',this.Giohangs)
+        this._giohang.next(this.Giohangs)
+        // const Updatedata = this.removeItemById(item)
+        // try {
+        //     const options = {
+        //         method: 'PATCH',
+        //         headers: {
+        //             'Content-Type': 'application/json',
+        //         },
+        //         body: JSON.stringify(Updatedata),
+        //     };
+        //     const response = await fetch(`${environment.APIURL}/giohang/${Cart.id}`, options);
+        //     if (!response.ok) { // Check for non-2xx status codes
+        //         throw new Error(`HTTP error! status: ${response.status}`);
+        //     }
+        //     this.removeItemSubject.next(item);
+        //     return await response.json();
+        // } catch (error) {
+        //     return console.error(error);
+        // }
+    }
 
     // constructor() {
     //     this.addItemSubject.pipe(
@@ -127,25 +135,11 @@ export class GiohangService {
     //     this.cartItems = this.cartItems.filter(i => i.id !== itemId);
     //     return this.cartItems;
     // }
-    // async clearCart(Cart:any): Promise<void> {
-    //     try {
-    //         const options = {
-    //             method: 'DELETE',
-    //             headers: {
-    //                 'Content-Type': 'application/json',
-    //             },
-    //         };
-    //         const response = await fetch(`${environment.APIURL}/giohang/${Cart.id}`, options);
-    //         if (!response.ok) { // Check for non-2xx status codes
-    //             throw new Error(`HTTP error! status: ${response.status}`);
-    //         }
-    //         this.cartItems = [];
-    //         this.cartSubject.next(this.cartItems);
-    //         return await response.json();
-    //     } catch (error) {
-    //         return console.error(error);
-    //     }
-    // }
+    async clearCart(): Promise<void> {
+        this.Giohangs=[]
+        this._giohang.next(this.Giohangs)
+        this._LocalStorageService.setItem('Giohang',this.Giohangs)
+    }
     // updateItemQuantity(itemId: number, newQuantity: number): void {
     //     const itemIndex = this.cartItems.findIndex(i => i.id === itemId);
     //     if (itemIndex !== -1) {

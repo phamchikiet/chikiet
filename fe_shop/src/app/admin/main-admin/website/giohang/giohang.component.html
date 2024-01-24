@@ -32,10 +32,16 @@
         <div class="grid lg:grid-cols-3 grid-cols-1 gap-6">
             <div class="lg:col-span-2 col-span-1">
                 <div class="border border-default-200 rounded-lg">
-                    <div class="border-b border-default-200 px-6 py-5">
-                        <h4 class="!text-lg !font-medium text-default-800">Giỏ Hàng</h4>
+                    <div class="flex flex-row justify-between items-center p-6">
+                        <div class="border-default-200">
+                            <span class="!text-lg !font-medium text-default-800">Giỏ Hàng</span>
+                        </div>
+                        <div (click)="DeleteCart()">
+                            <span class="material-symbols-outlined p-2 hover:text-white hover:rounded-full hover:bg-primary">
+                            delete
+                            </span>
+                        </div>
                     </div>
-
                     <div class="flex flex-col overflow-hidden">
                         <div class="-m-1.5 overflow-x-auto">
                             <div class="p-1.5 min-w-full inline-block align-middle">
@@ -62,7 +68,7 @@
                                             <tr>
                                                 <td class="px-5 py-3 whitespace-nowrap">
                                                     <div class="flex items-center gap-2">
-                                                        <button><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                        <button (click)="RemoveFromCart(item)"><svg xmlns="http://www.w3.org/2000/svg" width="24"
                                                                 height="24" viewBox="0 0 24 24" fill="none"
                                                                 stroke="currentColor" stroke-width="2"
                                                                 stroke-linecap="round" stroke-linejoin="round"
@@ -74,12 +80,12 @@
                                                             </svg></button>
                                                         <img src="/assets/images/sanpham/{{item.Image.Main}}"
                                                             class="h-18 w-18">
-                                                        <h4 class="text-sm font-medium text-default-800">{{item.Title}}
+                                                        <h4 class="text-sm font-medium text-default-800">{{item.Title}}({{item?.Giachon?.loai}}{{item?.Giachon?.dvt}})
                                                         </h4>
                                                     </div>
                                                 </td>
                                                 <td class="px-5 py-3 whitespace-nowrap text-sm text-default-800">
-                                                    {{(item.Giagoc| number:'1.0-0')||'0'}}đ</td>
+                                                    {{(item?.Giachon?.gia| number:'1.0-0')||'0'}}đ</td>
                                                 <td class="px-5 py-3 whitespace-nowrap">
                                                     <div
                                                         class="inline-flex justify-between border border-default-200 p-1 rounded-full">
@@ -94,7 +100,7 @@
                                                 </td>
                                                 <td
                                                     class="px-5 py-3 whitespace-nowrap text-sm text-center text-default-800">
-                                                    {{(item.Soluong*item.Giagoc| number:'1.0-0')||'0'}}đ</td>
+                                                    {{(item.Soluong*item.Giachon.gia| number:'1.0-0')||'0'}}đ</td>
                                             </tr>
                                             }
                                         </tbody>
@@ -126,7 +132,7 @@
                     <div class="mb-6">
                         <div class="flex justify-between mb-3">
                             <p class="text-sm text-default-500">Tổng</p>
-                            <p class="text-sm text-default-700 font-medium">{{(GetTotal(Giohangs,'Soluong','Giagoc')|
+                            <p class="text-sm text-default-700 font-medium">{{(GetTotal(Giohangs,'Soluong','Giachon')|
                                 number:'1.0-0')||'0'}}đ</p>
                         </div>
                         <div class="flex justify-between mb-3">
@@ -157,7 +163,7 @@
 
                 <div class="border border-default-200 rounded-lg">
                     <div class="px-6 py-5 border-b border-default-200">
-                        <h4 class="text-lg font-semibold text-default-800">Mã Khuyến Mãi</h4>
+                        <h4 class="!text-lg !font-semibold text-default-800">Mã Khuyến Mãi</h4>
                     </div>
                     <div class="p-6">
                         <input id="LoggingEmailAddress"

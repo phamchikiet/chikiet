@@ -238,7 +238,7 @@ export class HeaderComponent implements OnInit {
     this._GiohangService.getGiohangs()
     this._GiohangService.giohang$.subscribe((data:any)=>{
       this.Soluong = data?.reduce((acc:any, item:any) => acc + item.Soluong, 0);
-      this.Tongcong = data?.reduce((acc:any, item:any) => acc + item.Giagoc*item.Soluong, 0);
+      this.Tongcong = data?.reduce((acc:any, item:any) => acc + item.Giachon?.gia*item.Soluong, 0);
     })
   }
   Soluong=0

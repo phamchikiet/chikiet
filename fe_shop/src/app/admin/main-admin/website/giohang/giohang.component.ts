@@ -17,7 +17,6 @@ export class GiohangComponent implements OnInit {
   Phivanchuyen: any = 10
   Giamgia: any = 30
   constructor() { }
-
   ngOnInit() {
     this._GiohangService.getGiohangs()
     this._GiohangService.giohang$.subscribe((data: any) => {
@@ -27,13 +26,22 @@ export class GiohangComponent implements OnInit {
   }
   GetTotal(data: any, field: any, field1: any) {
     if (field1) {
-      return data?.reduce((acc: any, item: any) => acc + item[field] * item[field1], 0) || 0;
+      return data?.reduce((acc: any, item: any) => acc + item[field] * item[field1]?.gia, 0) || 0;
     }
     else {
       return data?.reduce((acc: any, item: any) => acc + item[field], 0) || 0;
     }
   }
   GetTongcong() {
-    return this.GetTotal(this.Giohangs, 'Soluong', 'Giagoc') + this.Phivanchuyen + this.Giamgia + this.GetTotal(this.Giohangs, 'Thue', '')
+    return this.GetTotal(this.Giohangs, 'Soluong', 'Giachon') + this.Phivanchuyen + this.Giamgia + this.GetTotal(this.Giohangs, 'Thue', '')
+  }
+  DeleteCart()
+  {
+    this._GiohangService.clearCart()
+  }
+  RemoveFromCart(item:any)
+  {
+    console.log(item);
+    this._GiohangService.removeFromCart(item)
   }
 }

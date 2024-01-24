@@ -30,7 +30,7 @@ import { SanphamService } from '../../admin/main-admin/sanpham/sanpham.service';
 export class TrangchuComponent implements OnInit {
   drawerMode:any
   isMobile:boolean=false
-  ListsSanpham: any={}
+  ListsSanpham: any=[]
   SearchParams: any = {
     pageSize:50,
     pageNumber:0
@@ -45,8 +45,7 @@ export class TrangchuComponent implements OnInit {
       this.isMobile = result.matches ? true : false;
     });
     const result = await this._SanphamService.SearchSanpham(this.SearchParams)
-    this.ListsSanpham = result.items.slice(0,12)
-    console.log(this.ListsSanpham); 
+    this.ListsSanpham = result.items.slice(0,12) 
   
   }
 
