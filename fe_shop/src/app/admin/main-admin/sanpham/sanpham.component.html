@@ -117,8 +117,10 @@
                         </div>
                       </td>
                       <td class="p-4 text-sm font-normal text-gray-500 whitespace-nowrap lg:p-5">
+                       <a (click)="show(item)">
                         <div class="text-base font-semibold text-gray-900">{{item.Title}}</div>
                         <div class="text-sm font-normal text-gray-500">{{item.Slug}}</div>
+                      </a>
                       </td>
                       <td class="p-4 text-sm font-normal text-gray-500 whitespace-nowrap lg:p-5">
                         <div class="text-base font-semibold text-gray-900">{{item.id_cat}}</div>

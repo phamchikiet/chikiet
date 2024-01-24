@@ -9,6 +9,7 @@ import {
   MatBottomSheetRef,
 } from '@angular/material/bottom-sheet'
 import { ListsanphamBottomsheetComponent } from './listsanpham-bottomsheet/listsanpham-bottomsheet.component';
+import { GiohangService } from 'fe_shop/src/app/admin/main-admin/website/giohang/giohang.service';
 
 @Component({
   selector: 'app-list-sanpham',
@@ -24,6 +25,7 @@ import { ListsanphamBottomsheetComponent } from './listsanpham-bottomsheet/lists
 })
 export class ListSanphamComponent implements OnInit {
   _SanphamService: SanphamService = inject(SanphamService);
+  _GiohangService: GiohangService = inject(GiohangService);
   ListSanpham:any={}
   FilterSanpham:any[]=[]
   SearchParams: any = {
@@ -54,6 +56,14 @@ export class ListSanphamComponent implements OnInit {
     this.FilterSanpham = this.ListSanpham.items
     console.log(this.ListSanpham);
     
+  }
+  AddtoCart(data:any)
+  {
+    let item:any={}
+    item = data
+    item.Total=data.Giagoc
+    item.Soluong=1    
+    this._GiohangService.addToCart(item)
   }
 
 }

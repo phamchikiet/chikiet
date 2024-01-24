@@ -1,3 +1,10 @@
-<p>
-  sanpham-chitiet works!
-</p>
+<div class="relative bg-white shadow-gray-700">
+<mat-form-field appearance="outline">
+    <mat-label>Danh Mục</mat-label>
+    <mat-select [(ngModel)]="Sanpham.id" [ngModelOptions]="{standalone: true}">
+      <mat-option [value]="item.id" *ngFor="let item of danhmuc">{{item.Title}}</mat-option>
+    </mat-select>
+  </mat-form-field>
+
+ 
+</div>

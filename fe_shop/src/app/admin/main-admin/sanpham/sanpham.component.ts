@@ -10,6 +10,9 @@ import { RouterLink, RouterOutlet } from '@angular/router';
 import { SanphamService } from './sanpham.service';
 import * as XLSX from 'xlsx';
 import { MatPaginatorModule } from '@angular/material/paginator';
+import { ButtonModule } from 'primeng/button';
+import { DialogService, DynamicDialogModule, DynamicDialogRef } from 'primeng/dynamicdialog';
+import { SanphamChitietComponent } from './sanpham-chitiet/sanpham-chitiet.component';
 @Component({
   selector: 'app-sanpham',
   standalone:true,
@@ -23,8 +26,11 @@ import { MatPaginatorModule } from '@angular/material/paginator';
     FormsModule,
     MatDialogModule,
     MatButtonModule,
-    MatPaginatorModule
+    MatPaginatorModule,
+    ButtonModule,
+    DynamicDialogModule
   ],
+  providers: [DialogService],
   templateUrl: './sanpham.component.html',
   styleUrls: ['./sanpham.component.css']
 })
@@ -39,16 +45,27 @@ export class SanphamComponent implements OnInit {
     pageSize:10,
     pageNumber:0
   };
+  sidebarVisible: boolean = false;
   _SanphamService:SanphamService = inject(SanphamService)
   @ViewChild('drawer', { static: true }) drawer!: MatDrawer;
   constructor(
     private dialog: MatDialog,
+    public dialogService: DialogService
   ) {
   }
   async ngOnInit(): Promise<void> {
     this.Lists = await this._SanphamService.SearchSanpham(this.SearchParams)
     this.FilterLists = this.Lists.items
      console.log(this.Lists);
+  }
+  ref: DynamicDialogRef | undefined;
+  show(sanpham:any) {
+      this.ref = this.dialogService.open(SanphamChitietComponent, { 
+        header: sanpham.Title,
+        data: {
+          Sanpham:sanpham
+        },
+      });
   }
   applyFilter(event: Event) {
     const value = (event.target as HTMLInputElement).value;
