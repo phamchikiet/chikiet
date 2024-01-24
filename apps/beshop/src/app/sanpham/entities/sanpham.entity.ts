@@ -30,9 +30,9 @@ export class SanphamEntity {
   Noidung: string;
   @Column({ default: '' })
   Slug: string;
-  @Column({ type: 'bigint' })
+  @Column({collation: "utf8_general_ci",type:"simple-json",default: () => "('[]')" })
   Giagoc: number;
-  @Column({ type: 'bigint' })
+  @Column({collation: "utf8_general_ci",type:"simple-json",default: () => "('[]')" })
   Giaban: number;
   @Column({ type: 'bigint' })
   View: number;
