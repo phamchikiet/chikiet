@@ -1,34 +1,42 @@
-import { Controller, Get, Post, Body, Patch, Param, Delete } from '@nestjs/common';
-import { DonhangService } from './donhang.service';
+import { Controller, Get, Post, Body, Patch, Param, Delete, Query } from '@nestjs/common';
+import {DonhangService } from './donhang.service';
 import { CreateDonhangDto } from './dto/create-donhang.dto';
 import { UpdateDonhangDto } from './dto/update-donhang.dto';
-
 @Controller('donhang')
 export class DonhangController {
-  constructor(private readonly donhangService: DonhangService) {}
+  constructor(private readonly donhangService:DonhangService) {}
 
   @Post()
-  create(@Body() createDonhangDto: CreateDonhangDto) {
-    return this.donhangService.create(createDonhangDto);
+  create(@Body() data: any) {
+    return this.donhangService.create(data);
   }
-
   @Get()
-  findAll() {
-    return this.donhangService.findAll();
+  async findAll() {
+    return await this.donhangService.findAll();
   }
-
-  @Get(':id')
-  findOne(@Param('id') id: string) {
-    return this.donhangService.findOne(+id);
+  @Get('findid/:id')
+  async findOne(@Param('id') id: string) {
+    return await this.donhangService.findid(id);
   }
-
+  @Get('findslug/:slug')
+  async findslug(@Param('slug') slug: string) {
+    return await this.donhangService.findslug(slug);
+  }
+  @Get('pagination')
+  async findPagination(@Query('page') page: number,@Query('perPage') perPage: number){
+       return await this.donhangService.findPagination(page,perPage);
+    }
+  @Post('search')
+    async findQuery(@Body() SearchParams: any){
+      return await this.donhangService.findQuery(SearchParams);
+  }
   @Patch(':id')
   update(@Param('id') id: string, @Body() updateDonhangDto: UpdateDonhangDto) {
-    return this.donhangService.update(+id, updateDonhangDto);
+    return this.donhangService.update(id, updateDonhangDto);
   }
 
   @Delete(':id')
   remove(@Param('id') id: string) {
-    return this.donhangService.remove(+id);
+    return this.donhangService.remove(id);
   }
 }

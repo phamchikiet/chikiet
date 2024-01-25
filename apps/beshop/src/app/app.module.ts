@@ -8,6 +8,7 @@ import { DanhmucModule } from './danhmuc/danhmuc.module';
 import { SanphamModule } from './sanpham/sanpham.module';
 import { GiohangModule } from './giohang/giohang.module';
 import { DonhangModule } from './donhang/donhang.module';
+import { KhachhangModule } from './khachhang/khachhang.module';
 
 @Module({
   imports: [
@@ -23,11 +24,12 @@ import { DonhangModule } from './donhang/donhang.module';
       synchronize: true,
       charset: "utf8mb4",
     }), 
-    DanhmucModule,
-    SanphamModule,
-    BaivietModule,
-    GiohangModule,
-    DonhangModule
+     DanhmucModule,
+     SanphamModule,
+     BaivietModule,
+     GiohangModule,
+     DonhangModule,
+     KhachhangModule
   ],
   controllers: [AppController],
   providers: [AppService],

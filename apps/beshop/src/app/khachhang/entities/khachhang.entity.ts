@@ -5,26 +5,19 @@ import {
   CreateDateColumn,
   UpdateDateColumn,
   DeleteDateColumn,
-  ManyToOne,
 } from 'typeorm';
-import { GiohangEntity } from './giohang.entity';
-import { SanphamEntity } from '../../sanpham/entities/sanpham.entity';
-@Entity('giohangsanpham', {orderBy: { CreateAt: 'DESC' } })
-export class GiohangsanphamEntity {
+@Entity('khachhang', {orderBy: { CreateAt: 'DESC' } })
+export class KhachhangEntity {
   @PrimaryGeneratedColumn('uuid')
   id: string;
-  @ManyToOne(type => GiohangEntity, giohang => giohang.Giohangsanpham)
-  giohang: GiohangEntity;
-  @ManyToOne(type => SanphamEntity, sanpham => sanpham.Giohangsanpham)
-  sanpham: SanphamEntity;
-  @Column()
-  quantity: number;
   @Column({ type: 'text', collation: 'utf8_general_ci' })
-  Title: string;
+  Hoten: string;
   @Column({ type: 'text', collation: 'utf8_general_ci' })
-  Mota: string;
+  Diachi: string;
+  @Column({ type: 'text', collation: 'utf8_general_ci' })
+  SDT: string;
   @Column({ default: '' })
-  Slug: string;
+  Email: string;
   @Column({collation: "utf8_general_ci",type:"simple-json",default: () => "('{}')" })
   Image: string;
   @Column({ default: '' })

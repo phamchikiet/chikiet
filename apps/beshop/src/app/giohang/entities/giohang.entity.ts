@@ -5,17 +5,19 @@ import {
   CreateDateColumn,
   UpdateDateColumn,
   DeleteDateColumn,
-  OneToMany,
 } from 'typeorm';
-import { GiohangsanphamEntity } from './giohangsanpham.entity';
 @Entity('giohang', {orderBy: { CreateAt: 'DESC' } })
 export class GiohangEntity {
   @PrimaryGeneratedColumn('uuid')
   id: string;
   @Column({ type: 'text', collation: 'utf8_general_ci' })
+  idKH: string;
+  @Column({ type: 'text', collation: 'utf8_general_ci' })
   Title: string;
-  @OneToMany(type => GiohangsanphamEntity, giohangsanpham => giohangsanpham.giohang, { cascade: true })
-  Giohangsanpham: GiohangsanphamEntity[];
+  @Column({collation: "utf8_general_ci",type:"simple-json",default: () => "('[]')" })
+  Sanpham: string;
+  @Column({collation: "utf8_general_ci",type:"simple-json",default: () => "('{}')" })
+  Khachhang: string;
   @Column({ type: 'bigint' })
   Total: number;
   @Column({ type: 'text', collation: 'utf8_general_ci' })
