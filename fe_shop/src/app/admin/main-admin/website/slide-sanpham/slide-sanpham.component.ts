@@ -3,13 +3,15 @@ import { SanphamService } from '../../sanpham/sanpham.service';
 import { DecimalPipe, NgOptimizedImage } from '@angular/common';
 import { GiohangService } from '../giohang/giohang.service';
 import Swiper, { Pagination } from 'swiper';
+import { MatButtonModule } from '@angular/material/button';
 
 @Component({
   selector: 'app-slide-sanpham',
   standalone:true,
   imports:[
     NgOptimizedImage,
-    DecimalPipe
+    DecimalPipe,
+    MatButtonModule
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   templateUrl: './slide-sanpham.component.html',

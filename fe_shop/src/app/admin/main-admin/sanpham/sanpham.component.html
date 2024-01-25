@@ -187,6 +187,7 @@
       <mat-paginator class="w-full" [pageSizeOptions]="[10, 20, 50]"
           [pageSize]="SearchParams.pageSize"
           [length]="this.Lists.totalCount"
+          [pageSizeOptions]="pageSizeOptions"
           [pageIndex]="SearchParams.pageNumber"
           (page)="onPageChange($event)">
          </mat-paginator>

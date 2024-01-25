@@ -13,6 +13,7 @@ import { MatPaginatorModule } from '@angular/material/paginator';
 import { ButtonModule } from 'primeng/button';
 import { DialogService, DynamicDialogModule, DynamicDialogRef } from 'primeng/dynamicdialog';
 import { SanphamChitietComponent } from './sanpham-chitiet/sanpham-chitiet.component';
+import * as moment from 'moment';
 @Component({
   selector: 'app-sanpham',
   standalone:true,
@@ -38,6 +39,7 @@ export class SanphamComponent implements OnInit {
   Detail: any = {};
   Lists: any={}
   FilterLists: any[] = []
+  pageSizeOptions: any[] = []
   Sitemap: any = { loc: '', priority: '' }
   SearchParams: any = {
     // Batdau:moment().startOf('day').add(-1,'day').toDate(),
@@ -56,7 +58,8 @@ export class SanphamComponent implements OnInit {
   async ngOnInit(): Promise<void> {
     this.Lists = await this._SanphamService.SearchSanpham(this.SearchParams)
     this.FilterLists = this.Lists.items
-     console.log(this.Lists);
+    this.pageSizeOptions = [10, 20, this.Lists.totalCount].filter(v => v <= this.Lists.totalCount);
+     console.log(this.FilterLists);
   }
   ref: DynamicDialogRef | undefined;
   show(sanpham:any) {
@@ -102,38 +105,51 @@ export class SanphamComponent implements OnInit {
       const sheetName = workbook.SheetNames[0];
       const worksheet = workbook.Sheets[sheetName];
       const jsonData = XLSX.utils.sheet_to_json(worksheet, { raw: true });
+      jsonData.forEach((v:any)=>
+      {
+        v.Giagoc = JSON.parse(v.Giagoc)
+      })
       console.log(jsonData);
-      jsonData.forEach((v:any,k:any) => {
-        setTimeout(() => {
-          const item:any={}
-          const Image:any = {Main:v.photo,Thumb:v.thumb}
-          item.Title = v.name_vi
-          item.id_cat = v.id_cat
-          item.Mota = v.mota_vi
-          item.Noidung = v.content_vi
-          item.Slug = v.tenkhongdau
-          item.SKU = v.ma
-          item.Giagoc = v.gia
-          item.Giaban = v.giakm
-          item.Ordering = v.stt
-          item.Status = v.hienthi
-          item.View = v.luotxem
-          item.Image = Image
-          item.Noibat = v.noibat
-          item.Banchay = v.banchay
-          item.Moi = v.Moi
-           this._SanphamService.CreateSanpham(item)
-        }, 100*k);
-      });
+      // jsonData.forEach((v:any,k:any) => {
+      //   setTimeout(() => {
+      //     const item:any={}
+      //     const Image:any = {Main:v.photo,Thumb:v.thumb}
+      //     item.Title = v.name_vi
+      //     item.id_cat = v.id_cat
+      //     item.Mota = v.mota_vi
+      //     item.Noidung = v.content_vi
+      //     item.Slug = v.tenkhongdau
+      //     item.SKU = v.ma
+      //     item.Giagoc = v.gia
+      //     item.Giaban = v.giakm
+      //     item.Ordering = v.stt
+      //     item.Status = v.hienthi
+      //     item.View = v.luotxem
+      //     item.Image = Image
+      //     item.Noibat = v.noibat
+      //     item.Banchay = v.banchay
+      //     item.Moi = v.Moi
+      //      this._SanphamService.CreateSanpham(item)
+      //   }, 100*k);
+      // });
     };
     fileReader.readAsArrayBuffer(file);
   }
 
   writeExcelFile() {
-    const worksheet: XLSX.WorkSheet = XLSX.utils.json_to_sheet(this.FilterLists);
-    const workbook: XLSX.WorkBook = { Sheets: { 'Sheet1': worksheet }, SheetNames: ['Sheet1'] };
+    const Giagoc:any=[]
+    this.FilterLists.forEach((v:any) => {
+      Giagoc.puh = JSON.stringify(v.Giagoc)
+    });
+    const workbook = XLSX.utils.book_new();
+    const worksheet1: XLSX.WorkSheet = XLSX.utils.json_to_sheet(this.FilterLists);
+    const worksheet2: XLSX.WorkSheet = XLSX.utils.json_to_sheet(this.FilterLists);
+    // const workbook1: XLSX.WorkBook = { Sheets: { 'Sanpham': worksheet1 }, SheetNames: ['Sheet1'] };
+    // const workbook2: XLSX.WorkBook = { Sheets: { 'Giagoc': worksheet1 }, SheetNames: ['Sheet1'] };
+    XLSX.utils.book_append_sheet(workbook, worksheet1, 'Sanpham');
+    XLSX.utils.book_append_sheet(workbook, worksheet2, 'Giagoc');
     const excelBuffer: any = XLSX.write(workbook, { bookType: 'xlsx', type: 'array' });
-    this.saveAsExcelFile(excelBuffer, 'data');
+    this.saveAsExcelFile(excelBuffer, 'Sanpham_'+moment().format("DD_MM_YYYY"));
   }
   saveAsExcelFile(buffer: any, fileName: string) {
     const data: Blob = new Blob([buffer], { type: 'application/octet-stream' });
@@ -144,5 +160,5 @@ export class SanphamComponent implements OnInit {
     link.click();
     window.URL.revokeObjectURL(url);
     link.remove();
-  }
+  }  
 }
