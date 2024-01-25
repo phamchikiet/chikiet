@@ -14,6 +14,7 @@ import { ButtonModule } from 'primeng/button';
 import { DialogService, DynamicDialogModule, DynamicDialogRef } from 'primeng/dynamicdialog';
 import { SanphamChitietComponent } from './sanpham-chitiet/sanpham-chitiet.component';
 import * as moment from 'moment';
+import { groupByfield } from 'fe_shop/src/app/shared/shared.utils';
 @Component({
   selector: 'app-sanpham',
   standalone:true,
@@ -103,49 +104,44 @@ export class SanphamComponent implements OnInit {
       const data = new Uint8Array((e.target as any).result);
       const workbook = XLSX.read(data, { type: 'array' });
       const sheetName = workbook.SheetNames[0];
+      const sheetName1 = workbook.SheetNames[1];
       const worksheet = workbook.Sheets[sheetName];
-      const jsonData = XLSX.utils.sheet_to_json(worksheet, { raw: true });
-      jsonData.forEach((v:any)=>
-      {
-        v.Giagoc = JSON.parse(v.Giagoc)
-      })
-      console.log(jsonData);
-      // jsonData.forEach((v:any,k:any) => {
-      //   setTimeout(() => {
-      //     const item:any={}
-      //     const Image:any = {Main:v.photo,Thumb:v.thumb}
-      //     item.Title = v.name_vi
-      //     item.id_cat = v.id_cat
-      //     item.Mota = v.mota_vi
-      //     item.Noidung = v.content_vi
-      //     item.Slug = v.tenkhongdau
-      //     item.SKU = v.ma
-      //     item.Giagoc = v.gia
-      //     item.Giaban = v.giakm
-      //     item.Ordering = v.stt
-      //     item.Status = v.hienthi
-      //     item.View = v.luotxem
-      //     item.Image = Image
-      //     item.Noibat = v.noibat
-      //     item.Banchay = v.banchay
-      //     item.Moi = v.Moi
-      //      this._SanphamService.CreateSanpham(item)
-      //   }, 100*k);
-      // });
+      const worksheet1 = workbook.Sheets[sheetName1];
+      const Sanpham = XLSX.utils.sheet_to_json(worksheet, { raw: true });
+      const Giagoc:any = XLSX.utils.sheet_to_json(worksheet1, { raw: true });
+      console.log(Sanpham);
+      console.log(groupByfield(Giagoc));
+      Sanpham.forEach((v:any,k:any) => {
+        setTimeout(() => {
+          const item:any={}
+          const Image:any = {Main:v.photo,Thumb:v.thumb}
+          item.id = v.id
+          item.Giagoc = groupByfield(Giagoc).find((gg:any)=>gg.idSP==v.id).children||[]
+           this._SanphamService.UpdateSanpham(item)
+          // this._SanphamService.CreateSanpham(item)
+          console.log(item);
+        }, 100*k);
+      });
+
+      
     };
     fileReader.readAsArrayBuffer(file);
   }
 
   writeExcelFile() {
-    const Giagoc:any=[]
-    this.FilterLists.forEach((v:any) => {
-      Giagoc.puh = JSON.stringify(v.Giagoc)
-    });
+    let Giagoc:any=[]
+    let item:any={}
+    this.FilterLists.forEach((v:any) => {  
+        item.idSP =v.id
+        item.TenSP =v.Title
+        v.Giagoc.forEach((gg:any) => {
+          item = {...item,...gg}
+          Giagoc.push(item)
+        });
+    });    
     const workbook = XLSX.utils.book_new();
     const worksheet1: XLSX.WorkSheet = XLSX.utils.json_to_sheet(this.FilterLists);
-    const worksheet2: XLSX.WorkSheet = XLSX.utils.json_to_sheet(this.FilterLists);
-    // const workbook1: XLSX.WorkBook = { Sheets: { 'Sanpham': worksheet1 }, SheetNames: ['Sheet1'] };
-    // const workbook2: XLSX.WorkBook = { Sheets: { 'Giagoc': worksheet1 }, SheetNames: ['Sheet1'] };
+    const worksheet2: XLSX.WorkSheet = XLSX.utils.json_to_sheet(Giagoc);
     XLSX.utils.book_append_sheet(workbook, worksheet1, 'Sanpham');
     XLSX.utils.book_append_sheet(workbook, worksheet2, 'Giagoc');
     const excelBuffer: any = XLSX.write(workbook, { bookType: 'xlsx', type: 'array' });

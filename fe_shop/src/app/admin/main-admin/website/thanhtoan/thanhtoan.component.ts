@@ -52,6 +52,7 @@ export class ThanhtoanComponent implements OnInit {
   }
   Xacnhandonhang(customSnackbar:TemplateRef<any>)
   {
+   this.Khachhang = {Hoten:"test",Diachi:"test",SDT:"0987654321"}
     if(!this.Khachhang.Hoten)
     {
       this.Notify.Noidung = "Vui Lòng Nhập Họ Tên"
@@ -90,9 +91,9 @@ export class ThanhtoanComponent implements OnInit {
       this.Donhang.Khachhang =this.Khachhang 
       this.Donhang.Thanhtoan =this.Thanhtoan 
       this.Donhang.Vanchuyen =this.Vanchuyen 
-      this._GiohangService.UpdateDonhang(this.Donhang).then(()=>
+      this._GiohangService.CreateDonhang(this.Donhang).then((data:any)=>
       {
-        window.location.href = "cam-on";
+        window.location.href = `cam-on?MaDonHang=${data.MaDonHang}`;
       })
 
     }

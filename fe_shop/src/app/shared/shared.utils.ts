@@ -199,17 +199,17 @@ export function groupBy(data: any) {
   else return null
 };
 
-export function groupByfield(data: any[]) {
+export function groupByfield(data: any[]):any[] {
   const convertedData: any = {};
   data.forEach((item: any) => {
-    const nhomId = item.Nhom.id;
+    const nhomId = item.idSP;
     if (!convertedData[nhomId]) {
       convertedData[nhomId] = {
-        Nhom: item.Nhom,
+        idSP: item.idSP,
         children: [],
       };
     }
-    const { Nhom, ...transitem } = item;
+    const { idSP, ...transitem } = item;
     convertedData[nhomId].children.push(transitem);
   });
   return Object.values(convertedData);
@@ -225,4 +225,5 @@ export function flattenData(data:any) {
     });
     return flattenedData;
 };
+
 

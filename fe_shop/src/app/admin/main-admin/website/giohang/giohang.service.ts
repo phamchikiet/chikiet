@@ -95,6 +95,40 @@ export class GiohangService {
             return console.error(error);
         }
     }
+      async CreateDonhang(item:any) {  
+            item.Giohangs = item.Giohangs.map((v:any)=>({
+                id:v.id,
+                id_cat:v.id_cat,
+                Title: v.Title,
+                Danhmuc: v.Danhmuc,
+                Slug: v.Slug,
+                Giachon: v.Giachon,
+                Giagoc: v.Giagoc,
+                Image: v.Image,
+                Soluong:v.Soluong
+            }))
+            console.log(item);
+            
+            try {
+                const options = {
+                    method:'POST',
+                    headers: {
+                    'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify(item),
+                };
+                const response = await fetch(`${environment.APIURL}/donhang`, options);  
+                if (!response.ok) { // Check for non-2xx status codes
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                const data = await response.json();
+                console.log(data);
+                return data
+                //this._giohang.next(data)              
+            } catch (error) {
+                return console.error(error);
+            }
+        }  
     async UpdateDonhang(data:any): Promise<any> {
         this._donhang.next(data)
         this._LocalStorageService.setItem('Donhang',this.Donhang)
