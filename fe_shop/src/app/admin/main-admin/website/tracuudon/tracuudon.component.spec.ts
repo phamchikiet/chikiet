@@ -3,21 +3,21 @@ import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
 import { DebugElement } from '@angular/core';
 
-import { DonhangAdminComponent } from './donhang-admin.component';
+import { TracuudonComponent } from './tracuudon.component';
 
-describe('DonhangAdminComponent', () => {
-  let component: DonhangAdminComponent;
-  let fixture: ComponentFixture<DonhangAdminComponent>;
+describe('TracuudonComponent', () => {
+  let component: TracuudonComponent;
+  let fixture: ComponentFixture<TracuudonComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ DonhangAdminComponent ]
+      declarations: [ TracuudonComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(DonhangAdminComponent);
+    fixture = TestBed.createComponent(TracuudonComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

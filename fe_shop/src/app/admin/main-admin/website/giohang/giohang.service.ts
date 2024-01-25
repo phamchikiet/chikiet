@@ -76,6 +76,25 @@ export class GiohangService {
         //     return console.error(error);
         // }
     }
+    async getDonhangByid(id:any): Promise<any> {
+        try {
+            const options = {
+                method: 'GET',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+            };
+            const response = await fetch(`${environment.APIURL}/donhang/findid/${id}`, options);
+            if (!response.ok) { // Check for non-2xx status codes
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            const data = await response.json();
+            this._donhang.next(data)
+            this._LocalStorageService.setItem('Donhang',data)
+        } catch (error) {
+            return console.error(error);
+        }
+    }
     async getDonhangByUser(id:any): Promise<any> {
         this._donhang.next(this.Donhang)
         try {
@@ -107,8 +126,6 @@ export class GiohangService {
                 Image: v.Image,
                 Soluong:v.Soluong
             }))
-            console.log(item);
-            
             try {
                 const options = {
                     method:'POST',
@@ -123,8 +140,9 @@ export class GiohangService {
                 }
                 const data = await response.json();
                 console.log(data);
-                return data
-                //this._giohang.next(data)              
+                this._donhang.next({})
+                this._LocalStorageService.removeItem('Donhang')
+                return data             
             } catch (error) {
                 return console.error(error);
             }
@@ -149,9 +167,7 @@ export class GiohangService {
         //     return console.error(error);
         // }
     }
-    async addToCart(item: any): Promise<void> {
-        console.log(Object.entries(this.Donhang));
-        
+    async addToCart(item: any): Promise<void> {        
         if(Object.entries(this.Donhang).length===0)
         {
             this.Donhang.MaDonHang = "RSTG"+GenId(8,false)
@@ -276,24 +292,24 @@ export class GiohangService {
     //         return console.error(error);
     //     }
     // }
-    // async SearchGiohang(SearchParams: any) {
-    //     console.log(SearchParams);
+    async SearchDonhang(SearchParams: any) {
+        console.log(SearchParams);
 
-    //     try {
-    //         const options = {
-    //             method: 'POST',
-    //             headers: {
-    //                 'Content-Type': 'application/json',
-    //             },
-    //             body: JSON.stringify(SearchParams),
-    //         };
-    //         const response = await fetch(`${environment.APIURL}/giohang/search`, options);
-    //         const data = await response.json();
-    //         return data;
-    //     } catch (error) {
-    //         return console.error(error);
-    //     }
-    // }
+        try {
+            const options = {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(SearchParams),
+            };
+            const response = await fetch(`${environment.APIURL}/donhang/search`, options);
+            const data = await response.json();
+            return data;
+        } catch (error) {
+            return console.error(error);
+        }
+    }
     // async CreateGiohang(item: any) {
     //     console.log(item);
 

@@ -28,7 +28,9 @@ body {
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
   background-color: #00256e;
 }
-
+mat-snack-bar-container{
+  margin:15% !important
+}
 .success .mdc-snackbar__surface{
   color: white !important;
   background-color:#5cb85c !important;

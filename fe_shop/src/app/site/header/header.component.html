@@ -24,7 +24,11 @@
       @if (item.id==2) {
         <div class="border rounded-lg grid grid-cols-4 gap-4 bg-white px-2 py-4" (mouseleave)="Menus[$index].Show=false">
             @for (item of item.children; track $index) {
-                <a href="danh-muc/{{item.Slug}}">{{item.Title}}</a>
+                <div class="flex flex-row space-x-2 items-center">
+                    <img src="/assets/images/sanpham/rau-lang26385834.PNG" class="h-10">
+                    <a href="danh-muc/{{item.Slug}}">{{item.Title}}</a>
+                </div>
+
             }
         </div>
       }

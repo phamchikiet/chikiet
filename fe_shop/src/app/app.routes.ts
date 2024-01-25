@@ -22,6 +22,8 @@ import { ThanhtoanComponent } from './admin/main-admin/website/thanhtoan/thanhto
 import { DonhangAdminComponent } from './admin/main-admin/donhang-admin/donhang-admin.component';
 import { DonhangComponent } from './admin/main-admin/website/donhang/donhang.component';
 import { CamonComponent } from './admin/main-admin/website/camon/camon.component';
+import { TracuudonComponent } from './admin/main-admin/website/tracuudon/tracuudon.component';
+import { DonhangAdminChitietComponent } from './admin/main-admin/donhang-admin/donhang-admin-chitiet/donhang-admin-chitiet.component';
 
 
 export const appRoutes: Route[] = [
@@ -92,6 +94,10 @@ export const appRoutes: Route[] = [
                     path: 'lien-he',
                     component: ContactComponent,
                 },
+                {
+                    path: 'tra-cuu-don',
+                    component: TracuudonComponent,
+                },
         ]
     },
     {
@@ -105,14 +111,22 @@ export const appRoutes: Route[] = [
             {
                 path: 'donhang',
                 component: DonhangAdminComponent,
+                children:[
+                    {
+                        path: ':id',
+                        component: DonhangAdminChitietComponent,
+                    },
+                ]
             },
             {
                 path: 'sanpham',
                 component: SanphamComponent,
-            },
-            {
-                path: 'sanpham/:id',
-                component: SanphamChitietComponent,
+                children:[
+                    {
+                        path: ':id',
+                        component: SanphamChitietComponent,
+                    },
+                ]
             },
             {
                 path: 'danhmuc',

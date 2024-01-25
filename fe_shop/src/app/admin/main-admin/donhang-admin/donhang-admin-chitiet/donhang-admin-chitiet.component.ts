@@ -5,9 +5,10 @@ import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 import { ActivatedRoute, RouterLink } from '@angular/router';
 import { MatButtonModule } from '@angular/material/button';
-import { SanphamComponent } from '../sanpham.component';
+import { DonhangAdminComponent } from '../donhang-admin.component';
+import { GiohangService } from '../../website/giohang/giohang.service';
 @Component({
-  selector: 'app-sanpham-chitiet',
+  selector: 'app-donhang-admin-chitiet',
   standalone:true,
   imports:[
     InputTextModule,
@@ -16,24 +17,27 @@ import { SanphamComponent } from '../sanpham.component';
     CommonModule,
     RouterLink,
     MatButtonModule,
-    SanphamComponent
+    DonhangAdminComponent
   ],
-  templateUrl: './sanpham-chitiet.component.html',
-  styleUrls: ['./sanpham-chitiet.component.css']
+  templateUrl: './donhang-admin-chitiet.component.html',
+  styleUrls: ['./donhang-admin-chitiet.component.css']
 })
-export class SanphamChitietComponent implements OnInit {
+export class DonhangAdminChitietComponent implements OnInit {
   route: ActivatedRoute = inject(ActivatedRoute);
-  _SanphamComponent: SanphamComponent = inject(SanphamComponent);
+  _DonhangAdminComponent: DonhangAdminComponent = inject(DonhangAdminComponent);
+  _GiohangService:GiohangService = inject(GiohangService)
   idSP:any;
   constructor() {
       this.idSP = this.route.snapshot.params['id'];
   }
   ngOnInit() {
-    console.log(this.idSP);
+    this._GiohangService.getDonhangByid(this.idSP)
+    this._GiohangService.donhang$.subscribe((data)=>{console.log(data);
+    })
   }
   CloseDrawer()
   {
-    this._SanphamComponent.drawer.close()
+    this._DonhangAdminComponent.drawer.close()
   }
 
 }

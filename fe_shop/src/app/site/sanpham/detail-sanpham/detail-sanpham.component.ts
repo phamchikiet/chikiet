@@ -1,11 +1,13 @@
 import { DecimalPipe } from '@angular/common';
-import { CUSTOM_ELEMENTS_SCHEMA, Component, OnInit, inject } from '@angular/core';
+import { CUSTOM_ELEMENTS_SCHEMA, Component, OnInit, TemplateRef, inject } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { ActivatedRoute } from '@angular/router';
 import { SanphamService } from 'fe_shop/src/app/admin/main-admin/sanpham/sanpham.service';
 import { GiohangService } from 'fe_shop/src/app/admin/main-admin/website/giohang/giohang.service';
 import { SlideSanphamComponent } from 'fe_shop/src/app/admin/main-admin/website/slide-sanpham/slide-sanpham.component';
 import { ImageModule } from 'primeng/image';
+import {MatSnackBar,} from '@angular/material/snack-bar';
+import { ListNotifyType } from 'fe_shop/src/app/shared/shared.utils';
 @Component({
   selector: 'app-detail-sanpham',
   standalone:true,
@@ -42,6 +44,7 @@ export class DetailSanphamComponent implements OnInit {
   _GiohangService: GiohangService = inject(GiohangService);
   route: ActivatedRoute = inject(ActivatedRoute);
   Detail:any
+  Notify:any
   Giachon:any={}
   SearchParams: any = {
     pageSize:50,
@@ -49,7 +52,8 @@ export class DetailSanphamComponent implements OnInit {
   };
   Slug:any
   Soluong:any=1
-  constructor() { 
+  ListNotifyType:any=ListNotifyType
+  constructor(private _snackBar: MatSnackBar) { 
     this.Slug = this.route.snapshot.params['slug'];
   }
 
@@ -76,6 +80,12 @@ export class DetailSanphamComponent implements OnInit {
     item.Giachon = this.Giachon
     item.Soluong=this.Soluong   
     this._GiohangService.addToCart(item)
+      this._snackBar.open("Thêm Vào Giỏ Hàng Thành Công","", {
+        horizontalPosition: "end",
+        verticalPosition: "top",
+        panelClass:"success",
+        duration: 1000,
+      });
   }
   GiamSoluong()
   {
