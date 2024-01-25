@@ -27,17 +27,14 @@ export class DonhangService {
     const Donhang:any=data
     Donhang.idKH = Khachhang.id
     Donhang.idGiohang = Giohang.id
-    this.DonhangRepository.create(Donhang);
-    return await this.DonhangRepository.save(Donhang);
-    //return { error: 1001, data: "Trùng Dữ Liệu" }
-    // const check = await this.findSHD(data)
-    // if(!check) {
-    //   this.DonhangRepository.create(data);
-    //   return await this.DonhangRepository.save(data);
-    // }
-    // else {
-    //   return { error: 1001, data: "Trùng Dữ Liệu" }
-    // }
+    const check = await this.findSHD(data)
+    if(!check) {
+      this.DonhangRepository.create(Donhang);
+      return await this.DonhangRepository.save(Donhang);
+    }
+    else {
+      return { error: 1001, data: "Mã Đơn Hàng Đã Tồn Tại" }
+    }
 
   }
 
@@ -45,12 +42,15 @@ export class DonhangService {
     return await this.DonhangRepository.find();
   }
   async findid(id: string) {
-    return await this.DonhangRepository.findOne({ where: { id: id } });
+    const Donhang:any = await this.DonhangRepository.findOne({ where: { id: id } });
+    Donhang.Giohangs = await this._GiohangService.findid(Donhang.idGiohang)
+    Donhang.Khachhang = await this._KhachhangService.findid(Donhang.idKH)
+    return Donhang
   }
   async findSHD(data: any) {
     return await this.DonhangRepository.findOne({
       where: {
-        Type: data.Type
+        MaDonHang: data.MaDonHang
       },
     });
   }
@@ -80,15 +80,20 @@ export class DonhangService {
         endDate: params.Ketthuc,
       });
     }
-    if (params.Title) {
-      queryBuilder.andWhere('donhang.Title LIKE :Title', { SDT: `%${params.Title}%` });
+    if (params.MaDonHang) {
+      queryBuilder.andWhere('donhang.MaDonHang LIKE :Title', { MaDonHang: `%${params.MaDonHang}%` });
     }
-    const [items, totalCount] = await queryBuilder
+    let [item, totalCount]:any = await queryBuilder
       .limit(params.pageSize || 10) // Set a default page size if not provided
       .offset(params.pageNumber * params.pageSize || 0)
       .getManyAndCount();
-    console.log(items, totalCount);
-
+      const items = await Promise.all(
+        item.map(async (v: any) => {
+          v.Giohangs = await this._GiohangService.findid(v.idGiohang);
+          v.Khachhang = await this._KhachhangService.findid(v.idKH);
+          return v; 
+        })
+      );    
     return { items, totalCount };
   }
   async update(id: string, UpdateDonhangDto: UpdateDonhangDto) {
