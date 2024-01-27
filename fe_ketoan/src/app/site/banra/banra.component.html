@@ -1,14 +1,24 @@
 <div class="p-8">
   <div class="flex flex-col space-y-2 relative rounded-lg bg-white">
     <div class="flex flex-row space-x-2 justify-center p-2">
-
-    <mat-form-field > 
-      <mat-label>Tìm Kiếm</mat-label>
-      <input [(ngModel)]="SHD" [ngModelOptions]="{standalone: true}"
-       matInput (keyup)="applyFilter($event)" placeholder="Tìm Kiếm" #input>
-    </mat-form-field>
+    <mat-form-field>
+        <mat-label>Tháng</mat-label>
+        <mat-select [(ngModel)]="SearchParams.Thang" [ngModelOptions]="{standalone: true}" (selectionChange)="onChangeThang($event)">
+          @for (item of [1,2,3,4,5,6,7,8,9,10,11,12]; track $index) {
+            <mat-option [value]="item">{{item}}</mat-option>
+          }
+        </mat-select>
+      </mat-form-field>
+    <mat-form-field>
+        <mat-label>Tình Trạng</mat-label>
+        <mat-select [(ngModel)]="ttxly" [ngModelOptions]="{standalone: true}" (selectionChange)="onChangeTinhtrang($event)">
+          @for (item of [5,6]; track $index) {
+            <mat-option [value]="item">{{item}}</mat-option>
+          }
+        </mat-select>
+      </mat-form-field>
     <mat-form-field class="example-form-field">
-      <mat-label>Enter a date range</mat-label>
+      <mat-label>Thời Gian Lấy Tổng Cục</mat-label>
       <mat-date-range-input [rangePicker]="rangePicker">
         <input matStartDate placeholder="Start date" [(ngModel)]="Chonngay.Batdau" [ngModelOptions]="{standalone: true}">
         <input matEndDate placeholder="End date" [(ngModel)]="Chonngay.Ketthuc" [ngModelOptions]="{standalone: true}">
@@ -17,7 +27,7 @@
       <mat-date-range-picker #rangePicker>
         <mat-date-range-picker-actions>
           <button mat-button matDateRangePickerCancel>Cancel</button>
-          <button mat-raised-button color="primary" matDateRangePickerApply (click)="ChangeDate()">Apply</button>
+          <button mat-raised-button color="primary" matDateRangePickerApply (click)="ChangeDate()">Đồng Ý</button>
         </mat-date-range-picker-actions>
       </mat-date-range-picker>
     </mat-form-field>
@@ -33,17 +43,18 @@
         filter_alt
         </span></button>
       <button mat-stroked-button (click)="UpdateStatus()">UpStatus</button> --> 
-      <div class="flex flex-col space-y-2">
-        <button mat-stroked-button (click)="TimHD()">Tìm Hoá Đơn</button>
-        <button mat-stroked-button (click)="LoadBanra()">Load Bán Ra</button>
-      </div>
-
       <mat-form-field>
-      <mat-label>Token</mat-label>
-      <input [(ngModel)]="Token" [ngModelOptions]="{standalone: true}"
-       matInput placeholder="Token">
-      </mat-form-field>
+        <mat-label>Token</mat-label>
+        <input [(ngModel)]="Token" [ngModelOptions]="{standalone: true}"
+         matInput placeholder="Token">
+        </mat-form-field>
+      <div class="flex flex-col space-y-2">
+        <button mat-stroked-button (click)="TimHD()">Hoá Đơn Tổng Cục</button>
+        <button mat-stroked-button (click)="LoadBanra()">Hoá Đơn Local</button>
+      </div>
   </div>
+
+  {{this.ListBanra?.totalCount}}/{{this.HoadonHHP?.totalCount}}
     <div class="">
       <table mat-table [dataSource]="dataSource" matSort>
         <ng-container matColumnDef="shdon">
@@ -98,9 +109,6 @@
         <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
         <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
         <tr mat-footer-row *matFooterRowDef="displayedColumns"></tr>
-        <tr class="mat-row" *matNoDataRow>
-           <td  class="mat-cell text-center p-4" colspan="4">Không Tìm Thấy "{{input.value}}"</td>
-        </tr>
       </table>
       <mat-paginator [pageSizeOptions]="[5, 100, Listfilter.length]"></mat-paginator>
     </div>

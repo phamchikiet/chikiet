@@ -13,9 +13,9 @@ import { MatDatepickerModule } from '@angular/material/datepicker';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatSelectChange, MatSelectModule } from '@angular/material/select';
 import { SHDBanra } from './banra';
-import * as moment from 'moment';
-import { ChangeDateBegin, ChangeDateEnd, CombineUnique, mergeNoDup } from '../../shared/shared.utils';
+import { ChangeDateBegin, ChangeDateEnd } from '../../shared/shared.utils';
 import { ShdhhpService } from '../shdhhp/shdhhp.service';
+import * as moment from 'moment';
 @Component({
   selector: 'app-banra',
   standalone: true,
@@ -32,13 +32,12 @@ import { ShdhhpService } from '../shdhhp/shdhhp.service';
     MatButtonModule,
     ReactiveFormsModule,
     MatSelectModule,
-    FormsModule
+    FormsModule,
   ],
   templateUrl: './banra.component.html',
   styleUrls: ['./banra.component.css']
 })
 export class BanraComponent implements OnInit {
-
   _BanraService: BanraService = inject(BanraService);
   _ShdhhpService: ShdhhpService = inject(ShdhhpService);
   displayedColumns: string[] = ['shdon','ttxly', 'nbten', 'tgtcthue', 'tgtthue', 'tgtttbso', 'thtttoan','action'];
@@ -47,36 +46,26 @@ export class BanraComponent implements OnInit {
   ListInit: any[] = []
   List3: any[] = []
   Listfilter: any[] = []
-  HoadonHHP: any
-  ListBanra: any
-  Chonngay: any = { Batdau: new Date('2023-01-01'), Ketthuc: new Date('2023-01-31') }
+  Chonngay: any = { Batdau: new Date("2023-01-01"), Ketthuc: new Date("2023-01-31") }
   ttxly:any=5
-  Thang:any=1
-  Nam:any=2023
+  SHD:any=5
   Token:any=localStorage.getItem('TokenWeb')
-  SearchParams: any = {
-    Thang:1,
-    Type:"XUAT",
-    pageSize:1000,
-    pageNumber:0
-  };
+  // SHDBanra:any = SHDBanra
+  HDBanra:any
+  ListBanra:any
   @ViewChild(MatPaginator) paginator!: MatPaginator;
   @ViewChild(MatSort) sort!: MatSort;
   constructor() {}
   async ngOnInit() {
-    this.HoadonHHP  = await this._ShdhhpService.SearchShdhhp(this.SearchParams)
-    console.log(this.HoadonHHP); 
-    this.ListBanra  = await this._BanraService.SearchBanra(this.SearchParams)
-    this.Listfilter = this.ListBanra.items.map((v:any)=>({idServer:v.id,SHD:v.SHD,Thang:v.Thang,...v.Dulieu[0]}))  
-    console.log(this.Listfilter); 
-    this.Listfilter.forEach((v:any) => {
-      const result = this.HoadonHHP.items.some((v1:any)=>v1.SHD===v.SHD)
-      console.log(result);
-      
-    }); 
+    this.HDBanra  = await this._ShdhhpService.getAllShdhhp()
+    this.HDBanra = this.HDBanra.filter((v:any)=>v.Type=='XUAT')
+    this.ListBanra  = await this._BanraService.ListBanras()
+    this.Listfilter = this.ListBanra.map((v:any)=>(v.Dulieu[0]))    
       this.dataSource = new MatTableDataSource(this.Listfilter);
       this.dataSource.paginator = this.paginator;
       this.dataSource.sort = this.sort;
+      console.log(this.Listfilter);
+    
   }
   ChangeDate() {
     this.Listfilter = this.List.filter((v: any) => {
@@ -87,21 +76,37 @@ export class BanraComponent implements OnInit {
       this.dataSource.paginator = this.paginator;
       this.dataSource.sort = this.sort;
   }
-  async onChangeThang(event:MatSelectChange)
+  async LoadBanra()
   {
-    this.Thang=event.value
-    this.HoadonHHP  = await this._ShdhhpService.SearchShdhhp(this.SearchParams)
-    console.log(this.HoadonHHP);
-    
-    // this.dataSource = new MatTableDataSource(this.ListSP?.items);
-    // this.dataSource.paginator = this.paginator;
-    // this.dataSource.sort = this.sort;
+    this.ListBanra  = await this._BanraService.ListBanras()
+    this.Listfilter = this.ListBanra.map((v:any)=>(v.Dulieu[0])) 
+    if(this.Listfilter.length>0)   
+    {
+      this.dataSource = new MatTableDataSource(this.Listfilter);
+      this.dataSource.paginator = this.paginator;
+      this.dataSource.sort = this.sort;
+      console.log(this.Listfilter);
+    }
   }
-  async onChangeTinhtrang(event:MatSelectChange)
-  {
-    console.log(event.value);
-    
-
+  TimHD() {
+    this.HDBanra = this.HDBanra.filter((v:any)=>Number(v.Thang)==moment(this.Chonngay.Batdau).month()+1)
+    console.log(this.HDBanra);
+    localStorage.setItem('TokenWeb',this.Token)
+    this.HDBanra.forEach((v:any,k:any) => {
+      setTimeout(async () => {
+        const result = await this._BanraService.GetBanra(ChangeDateBegin(this.Chonngay.Batdau),ChangeDateEnd(this.Chonngay.Ketthuc),v.SHD,this.Token)
+        if(result)
+        {
+        const item:any={}
+        item.Dulieu=result.datas
+        item.SHD = v.SHD
+        item.Thang = v.Thang
+        item.Type = v.Type
+        this._BanraService.CreateBanras(item)
+        }
+        console.log(v.SHD,result);    
+      }, Math.random()*1000 + k*1000);
+    });
   }
   writeExcelFile(data: any) {
     const worksheet: XLSX.WorkSheet = XLSX.utils.json_to_sheet(data);
@@ -119,46 +124,10 @@ export class BanraComponent implements OnInit {
     window.URL.revokeObjectURL(url);
     link.remove();
   }
-  TimHD() {
-    localStorage.setItem('TokenWeb',this.Token)
-    console.log(this.HoadonHHP);
-    console.log(this.Listfilter);
-    const data1Ids = new Set(this.Listfilter.map((obj: any) => obj.SHD));
-    const data = this.HoadonHHP.items.filter((obj: any) => !data1Ids.has(obj.SHD));
-    console.log(data);
-    data.forEach((v:any,k:any) => {
-      setTimeout(async () => {
-        const result = await this._BanraService.GetBanras(ChangeDateBegin(this.Chonngay.Batdau),ChangeDateEnd(this.Chonngay.Ketthuc),v.SHD,this.Token,this.ttxly)
-        console.log(result);
-        
-        if(result && result.datas.length>0)
-        {
-        const item:any={}
-        item.Dulieu=result.datas
-        item.SHD = v.SHD
-        item.Thang = v.Thang
-        item.Type = v.Type
-        this._BanraService.CreateBanras(item)
-        }   
-      }, Math.random()*1000 + k*1000);
-    });
-  }
-  async LoadBanra()
-  {
-    this.ListBanra  = await this._BanraService.SearchBanra(this.SearchParams)
-    this.HoadonHHP  = await this._ShdhhpService.SearchShdhhp(this.SearchParams)
-    this.Listfilter = this.ListBanra.items.map((v:any)=>(v.Dulieu[0]))  
-    console.log(this.Listfilter.map((v:any)=>({shd:v.shdon}))); 
-    if(this.Listfilter.length>0)   
-    {
-      this.dataSource = new MatTableDataSource(this.Listfilter);
-      this.dataSource.paginator = this.paginator;
-      this.dataSource.sort = this.sort;
-      console.log(this.Listfilter);
-    }
-  }
   Subtotal(items:any[],field:any)
   {
+    console.log(items,field);
+    
     if(items.length>0)
     {
     const totalSum = items.reduce((total:any, item:any) => total + item[field], 0);
@@ -175,8 +144,6 @@ export class BanraComponent implements OnInit {
   FilterHoadon()
   {
     this.Listfilter = this.Listfilter.filter((v)=>SHDBanra.some((v1)=>v1.SHDBR == v.shdon))
-    console.log(this.Listfilter);
-    
     this.dataSource = new MatTableDataSource(this.Listfilter);
     this.dataSource.paginator = this.paginator;
     this.dataSource.sort = this.sort;

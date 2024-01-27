@@ -197,7 +197,13 @@ export function flattenData(data:any) {
     });
     return flattenedData;
 };
-
+export function CombineUnique(data1:any, data2:any,field:any) {
+  const uniqueIds = new Map();
+  for (const obj of data1.concat(data2)) {
+    uniqueIds.set(obj.SHD, obj);
+  }
+  return Array.from(uniqueIds.values());
+}
 export function NhomHanghoa(data:any) {
         let result:any[]=[]       
         result = data.filter((obj:any, i:any) => data.findIndex((o:any) => o.ten === obj.ten) === i)

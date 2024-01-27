@@ -4,11 +4,11 @@ import { BehaviorSubject, map, Observable, switchMap, take } from 'rxjs';
 @Injectable({
   providedIn: 'root'
 })
-export class ShdhhpService {
-  private _shdhhps: BehaviorSubject<any[] | null> = new BehaviorSubject<any[] | null>(null);
-  private _shdhhp: BehaviorSubject<any | null> = new BehaviorSubject<any | null>(null);
+export class NhapsanphamService {
+  private _nhapsanphams: BehaviorSubject<any[] | null> = new BehaviorSubject<any[] | null>(null);
+  private _nhapsanpham: BehaviorSubject<any | null> = new BehaviorSubject<any | null>(null);
   constructor() {}
-  async getAllShdhhp() {
+  async getAllNhapsanpham() {
     try {
       const options = {
         method:'GET',
@@ -16,14 +16,32 @@ export class ShdhhpService {
           'Content-Type': 'application/json',
         },
       };
-          const response = await fetch(`${environment.APIURL}/hoadonhhp`,options);
+          const response = await fetch(`${environment.APIURL}/nhapsanpham`,options);
           const data = await response.json();                  
           return data;
       } catch (error) {
           return console.error(error);
       }
   }
-  async CreateShdhhp(item:any) {
+  async SearchNhapsanpham(SearchParams:any) {
+    console.log(SearchParams);
+    try {
+      const options = {
+        method:'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(SearchParams),
+      };
+          const response = await fetch(`${environment.APIURL}/nhapsanpham/search`,options);
+          const data = await response.json();                  
+          return data;
+      } catch (error) {
+          return console.error(error);
+      }
+  }
+  async CreateNhapsanpham(item:any) {
+    console.log(item);
     try {
         const options = {
             method:'POST',
@@ -32,37 +50,17 @@ export class ShdhhpService {
             },
             body: JSON.stringify(item),
           };
-          const response = await fetch(`${environment.APIURL}/hoadonhhp`, options);   
-          if (!response.ok) { // Check for non-2xx status codes
+          const response = await fetch(`${environment.APIURL}/nhapsanpham`, options);          
+          if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
-        }
-        const data = await response.json();
-        console.log(data);
-        return data     
+         }
+          const data = await response.json();
+          console.log(data);                
       } catch (error) {
           return console.error(error);
       }
   }  
-  async SearchShdhhp(item:any) {
-    try {
-        const options = {
-            method:'POST',
-            headers: {
-              'Content-Type': 'application/json',
-            },
-            body: JSON.stringify(item),
-          };
-          const response = await fetch(`${environment.APIURL}/hoadonhhp/search`, options);         
-          if (!response.ok) { // Check for non-2xx status codes
-            throw new Error(`HTTP error! status: ${response.status}`);
-        }
-        const data = await response.json();      
-        return data          
-      } catch (error) {
-          return console.error(error);
-      }
-  }  
-  async UpdateShdhhp(item:any) {
+  async UpdateNhapsanpham(item:any) {
     try {
         const options = {
             method:'PATCH',
@@ -71,13 +69,13 @@ export class ShdhhpService {
             },
             body: JSON.stringify(item),
           };
-          const response = await fetch(`${environment.APIURL}/hoadonhhp/${item.id}`, options);
+          const response = await fetch(`${environment.APIURL}/nhapsanpham/${item.id}`, options);
           return await response.json();         
       } catch (error) {
           return console.error(error);
       }
   }  
-  async DeleteShdhhp(item:any) {
+  async DeleteNhapsanpham(item:any) {
     try {
         const options = {
             method:'DELETE',
@@ -85,7 +83,7 @@ export class ShdhhpService {
               'Content-Type': 'application/json',
             },
           };
-          const response = await fetch(`${environment.APIURL}/hoadonhhp/${item.id}`, options);
+          const response = await fetch(`${environment.APIURL}/nhapsanpham/${item.id}`, options);
           return await response.json();         
       } catch (error) {
           return console.error(error);

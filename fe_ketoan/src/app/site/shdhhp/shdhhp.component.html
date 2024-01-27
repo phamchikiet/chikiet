@@ -1,12 +1,28 @@
 <div class="w-full flex flex-col space-y-4">
 <div class="w-full flex flex-col space-y-3">
   <div class="flex flex-row space-x-3">
-    <mat-form-field appearance="outline" class="lg:text-sm text-xs lg:col-span-1 col-span-2">
+    <mat-form-field>
       <mat-label>Tìm Kiếm</mat-label>
       <input matInput #input (keyup)="applyFilter($event)" placeholder="Mô Tả">
-      <span matPrefix class="material-symbols-outlined mr-2">search</span>
+      <span matPrefix class="material-symbols-outlined">search</span>
     </mat-form-field>
-    <mat-form-field appearance="outline" class="lg:text-sm text-xs">
+    <mat-form-field>
+        <mat-label>Tháng</mat-label>
+        <mat-select [(ngModel)]="SearchParams.Thang" [ngModelOptions]="{standalone: true}" (selectionChange)="onChange($event)">
+          @for (item of [1,2,3,4,5,6,7,8,9,10,11,12]; track $index) {
+            <mat-option [value]="item">{{item}}</mat-option>
+          }
+        </mat-select>
+      </mat-form-field>
+    <mat-form-field>
+        <mat-label>Loại</mat-label>
+        <mat-select [(ngModel)]="SearchParams.Type" [ngModelOptions]="{standalone: true}" (selectionChange)="onChangeLoai($event)">
+          @for (item of ["XUAT","NHAP"]; track $index) {
+            <mat-option [value]="item">{{item}}</mat-option>
+          }
+        </mat-select>
+      </mat-form-field>
+    <mat-form-field>
       <mat-label>Chọn Khoảng Thời Gian</mat-label>
       <mat-date-range-input [rangePicker]="rangePicker">
         <input matStartDate placeholder="Từ Ngày" [(ngModel)]="SearchParams.Batdau" [ngModelOptions]="{standalone: true}">
@@ -16,7 +32,7 @@
       <mat-date-range-picker #rangePicker>
         <mat-date-range-picker-actions>
           <button mat-button matDateRangePickerCancel>Huỷ</button>
-          <button mat-raised-button color="primary" matDateRangePickerApply>Đồng ý</button>
+          <button mat-raised-button color="primary" matDateRangePickerApply (click)="ChoosenDate()">Đồng ý</button>
         </mat-date-range-picker-actions>
       </mat-date-range-picker>
     </mat-form-field>
@@ -56,9 +72,9 @@
       </tr>
     </table>
     <mat-paginator [pageSizeOptions]="[5, 10, 20]"  
-    [pageSize]="Query.pageSize"  
-    [length]="ListSP.totalCount" 
-    [pageIndex]="Query.pageNumber"
+    [pageSize]="SearchParams.pageSize"  
+    [length]="ListSP?.totalCount" 
+    [pageIndex]="SearchParams.pageNumber"
     (page)="onPageChange($event)">
 </mat-paginator>
   </div>

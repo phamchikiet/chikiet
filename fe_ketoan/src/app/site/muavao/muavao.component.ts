@@ -13,6 +13,9 @@ import { MatDatepickerModule } from '@angular/material/datepicker';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatSelectChange, MatSelectModule } from '@angular/material/select';
 import { SHDMuavao } from './muavao';
+import * as moment from 'moment';
+import { ChangeDateBegin, ChangeDateEnd } from '../../shared/shared.utils';
+import { ShdhhpService } from '../shdhhp/shdhhp.service';
 @Component({
   selector: 'app-muavao',
   standalone: true,
@@ -37,43 +40,40 @@ import { SHDMuavao } from './muavao';
 export class MuavaoComponent implements OnInit {
 
   _MuavaoService: MuavaoService = inject(MuavaoService);
+  _ShdhhpService: ShdhhpService = inject(ShdhhpService);
   displayedColumns: string[] = ['shdon','ttxly', 'nbten', 'tgtcthue', 'tgtthue', 'tgtttbso', 'thtttoan','action'];
   dataSource!: MatTableDataSource<any>;
   List: any[] = []
   ListInit: any[] = []
   List3: any[] = []
   Listfilter: any[] = []
-  Chonngay: any = { Batdau: new Date('2022-01-01'), Ketthuc: new Date('2024-01-01') }
+  HoadonHHP: any
+  ListMuavao: any
+  Chonngay: any = { Batdau: new Date('2023-01-01'), Ketthuc: new Date('2023-01-31') }
   ttxly:any=5
-  SHDMuavao:any = SHDMuavao
+  Thang:any=1
+  Nam:any=2023
+  Token:any=localStorage.getItem('TokenWeb')
+  SearchParams: any = {
+    Thang:1,
+    Type:"NHAP",
+    pageSize:1000,
+    pageNumber:0
+  };
   @ViewChild(MatPaginator) paginator!: MatPaginator;
   @ViewChild(MatSort) sort!: MatSort;
-  constructor() {
-    this._MuavaoService.ListMuavaos()
-    this._MuavaoService.muavaos$.subscribe((data: any) => {
-      if (data) {
-        this.ListInit =data        
-        this.List = data.map((v:any) =>({...{ idServer: v.id },...v.Dulieu}));
-        // this.List = data.filter((v:any)=>v.Status==3).map((v:any) =>({...{ idServer: v.id },...v.Dulieu}));
-       //this.List = data.map((v:any) =>(v.Dulieu));
-        console.log(this.List);
-        this.Listfilter = this.List.filter((v: any) => {
-          const Ngaytao = new Date(v.tdlap)
-          return Ngaytao.getTime() >= this.Chonngay.Batdau.getTime() && Ngaytao.getTime() <= this.Chonngay.Ketthuc.getTime()
-        })
-       // this.Listfilter =data2.map((v:any) => [...v.Dulieu,{id:v.id},{Status:v.Status}]);
-      //  this.List.forEach((v)=>
-      //  {
-      //    v.Ngaytao = new Date(v.Dulieu.tdlap)
-      //    this._MuavaoService.UpdateMuavao(v).then((data)=> console.log(data))
-      //  })
-      }
+  constructor() {}
+  async ngOnInit() {
+    this.HoadonHHP  = await this._ShdhhpService.SearchShdhhp(this.SearchParams)
+    console.log(this.HoadonHHP);
+    this.ListMuavao  = await this._MuavaoService.SearchMuavao(this.SearchParams)
+    console.log(this.ListMuavao);
+    this.Listfilter = this.ListMuavao.items.map((v:any)=>(v.Dulieu[0]))  
+    console.log(this.Listfilter);  
       this.dataSource = new MatTableDataSource(this.Listfilter);
       this.dataSource.paginator = this.paginator;
       this.dataSource.sort = this.sort;
-    })
   }
-  ngOnInit() { }
   ChangeDate() {
     this.Listfilter = this.List.filter((v: any) => {
       const Ngaytao = new Date(v.tdlap)
@@ -82,6 +82,22 @@ export class MuavaoComponent implements OnInit {
       this.dataSource = new MatTableDataSource(this.Listfilter);
       this.dataSource.paginator = this.paginator;
       this.dataSource.sort = this.sort;
+  }
+  async onChangeThang(event:MatSelectChange)
+  {
+    this.Thang=event.value
+    this.HoadonHHP  = await this._ShdhhpService.SearchShdhhp({Thang:this.Thang,Type:"NHAP"})
+    console.log(this.HoadonHHP);
+    
+    // this.dataSource = new MatTableDataSource(this.ListSP?.items);
+    // this.dataSource.paginator = this.paginator;
+    // this.dataSource.sort = this.sort;
+  }
+  async onChangeTinhtrang(event:MatSelectChange)
+  {
+    console.log(event.value);
+    
+
   }
   writeExcelFile(data: any) {
     const worksheet: XLSX.WorkSheet = XLSX.utils.json_to_sheet(data);
@@ -99,16 +115,37 @@ export class MuavaoComponent implements OnInit {
     window.URL.revokeObjectURL(url);
     link.remove();
   }
-  ngAfterViewInit() {
-    this.dataSource.paginator = this.paginator;
-    this.dataSource.sort = this.sort;
+  TimHD() {
+    localStorage.setItem('TokenWeb',this.Token)
+    this.HoadonHHP.items.forEach((v:any,k:any) => {
+      setTimeout(async () => {
+        const result = await this._MuavaoService.GetMuavaos(ChangeDateBegin(this.Chonngay.Batdau),ChangeDateEnd(this.Chonngay.Ketthuc),v.SHD,this.Token,this.ttxly)
+        if(result && result.datas.length>0)
+        {
+        const item:any={}
+        item.Dulieu=result.datas
+        item.SHD = v.SHD
+        item.Thang = v.Thang
+        item.Type = v.Type
+        this._MuavaoService.CreateMuavaos(item)
+        }   
+      }, Math.random()*1000 + k*1000);
+    });
   }
-  // Xoa()
-  // {
-  //   this.List3.forEach(v => {
-  //     this._MuavaoService.DeleteMuavao(v.id)
-  //   });
-  // }
+  async LoadMuavao()
+  {
+    this.ListMuavao  = await this._MuavaoService.SearchMuavao(this.SearchParams)
+    this.HoadonHHP  = await this._ShdhhpService.SearchShdhhp(this.SearchParams)
+    this.Listfilter = this.ListMuavao.items.map((v:any)=>(v.Dulieu[0]))  
+    console.log(this.Listfilter.map((v:any)=>({shd:v.shdon}))); 
+    if(this.Listfilter.length>0)   
+    {
+      this.dataSource = new MatTableDataSource(this.Listfilter);
+      this.dataSource.paginator = this.paginator;
+      this.dataSource.sort = this.sort;
+      console.log(this.Listfilter);
+    }
+  }
   Subtotal(items:any[],field:any)
   {
     if(items.length>0)

@@ -12,6 +12,7 @@ import { MatDatepickerModule } from '@angular/material/datepicker';
 import * as moment from 'moment';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatNativeDateModule } from '@angular/material/core';
+import { MatSelectChange, MatSelectModule } from '@angular/material/select';
 @Component({
   selector: 'app-shdhhp',
   standalone: true,
@@ -24,6 +25,7 @@ import { MatNativeDateModule } from '@angular/material/core';
     MatNativeDateModule,
     FormsModule,
     ReactiveFormsModule,
+    MatSelectModule,
     JsonPipe
   ],
   templateUrl: './shdhhp.component.html',
@@ -31,13 +33,14 @@ import { MatNativeDateModule } from '@angular/material/core';
 })
 export class ShdhhpComponent implements OnInit {
   SearchParams: any = {
-    Batdau:moment().startOf('day').add(-1,'day').toDate(),
-    Ketthuc: moment().endOf('day').toDate(),
+    // Batdau:moment("2023-01-01").startOf('day').toDate(),
+    // Ketthuc: moment("2023-01-31").endOf('day').toDate(),
+    Thang:1,
+    Type:"XUAT",
     pageSize:10,
     pageNumber:0
   };
   ListSP: any={}
-  Query:any={}
   constructor() { }
   _ShdhhpService: ShdhhpService = inject(ShdhhpService);
   displayedColumns: string[] = ['SHD', 'Thang', 'Type'];
@@ -53,16 +56,32 @@ export class ShdhhpComponent implements OnInit {
   }
   async onPageChange(event:any)
   {
-    this.Query.pageSize=event.pageSize
-    this.Query.pageNumber=event.pageIndex
-    this.ListSP = await this._ShdhhpService.SearchShdhhp(this.Query)
-    this.dataSource = new MatTableDataSource(this.ListSP.items);
+    this.SearchParams.pageSize=event.pageSize
+    this.SearchParams.pageNumber=event.pageIndex
+    this.ListSP = await this._ShdhhpService.SearchShdhhp(this.SearchParams)
+    this.dataSource = new MatTableDataSource(this.ListSP?.items);
+    this.dataSource.paginator = this.paginator;
+    this.dataSource.sort = this.sort;
+  }
+  async onChange(event:MatSelectChange)
+  {
+    this.SearchParams.Thang=event.value
+    this.ListSP = await this._ShdhhpService.SearchShdhhp(this.SearchParams)
+    this.dataSource = new MatTableDataSource(this.ListSP?.items);
+    this.dataSource.paginator = this.paginator;
+    this.dataSource.sort = this.sort;
+  }
+  async onChangeLoai(event:MatSelectChange)
+  {
+    this.SearchParams.Type=event.value
+    this.ListSP = await this._ShdhhpService.SearchShdhhp(this.SearchParams)
+    this.dataSource = new MatTableDataSource(this.ListSP?.items);
     this.dataSource.paginator = this.paginator;
     this.dataSource.sort = this.sort;
   }
   async ngOnInit() {
-    this.ListSP = await this._ShdhhpService.SearchShdhhp(this.Query)
-    this.dataSource = new MatTableDataSource(this.ListSP.items);
+    this.ListSP = await this._ShdhhpService.SearchShdhhp(this.SearchParams)
+    this.dataSource = new MatTableDataSource(this.ListSP?.items);
     this.dataSource.paginator = this.paginator;
     this.dataSource.sort = this.sort;
     console.log(this.ListSP);       
@@ -73,6 +92,15 @@ export class ShdhhpComponent implements OnInit {
       v.idSP = k + 1
       this._ShdhhpService.UpdateShdhhp(v)
     });
+  }
+  async ChoosenDate()
+  {
+    this.SearchParams.Batdau=moment(this.SearchParams.Batdau).startOf('day').toDate(),
+    this.SearchParams.Ketthuc= moment(this.SearchParams.Ketthuc).endOf('day').toDate(),
+    this.ListSP = await this._ShdhhpService.SearchShdhhp(this.SearchParams)
+    this.dataSource = new MatTableDataSource(this.ListSP.items);
+    this.dataSource.paginator = this.paginator;
+    this.dataSource.sort = this.sort;
   }
   readExcelFile(event: any) {
     const file = event.target.files[0];

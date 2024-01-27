@@ -6,29 +6,22 @@ import { MatInputModule } from '@angular/material/input';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { CommonModule } from '@angular/common';
 import * as XLSX from 'xlsx';
-import { MuavaoService } from '../muavao.service';
-import { MatDatepickerModule } from '@angular/material/datepicker';
-import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatButtonModule } from '@angular/material/button';
 import { MatNativeDateModule } from '@angular/material/core';
+import { MatDatepickerModule } from '@angular/material/datepicker';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatSelectChange, MatSelectModule } from '@angular/material/select';
-import { SHDMuavao } from '../muavao';
+import { MuavaoService } from '../muavao.service';
+import { ChangeDateBegin, ChangeDateEnd, groupByfield, mergeNoDup } from 'fe_ketoan/src/app/shared/shared.utils';
+import { NhapsanphamService } from '../nhapsanpham.service';
 @Component({
-  selector: 'app-muavao-chitiet',
+  selector: 'app-muavaochitiet',
   standalone: true,
-  imports: [CommonModule, 
-    MatDatepickerModule,
-    FormsModule,
-    ReactiveFormsModule,
-    MatFormFieldModule, 
-    MatInputModule, 
-    MatTableModule, 
-    MatSortModule, 
-    MatPaginatorModule,
-    MatFormFieldModule, 
-    MatInputModule, 
-    MatTableModule, 
-    MatSortModule, 
+  imports: [CommonModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatTableModule,
+    MatSortModule,
     MatPaginatorModule,
     MatFormFieldModule,
     MatInputModule,
@@ -42,124 +35,77 @@ import { SHDMuavao } from '../muavao';
   templateUrl: './muavao-chitiet.component.html',
   styleUrls: ['./muavao-chitiet.component.css']
 })
-export class MuavaoChitietComponent implements OnInit {
-  Chonngay: any = { Batdau: new Date('2022-01-01'), Ketthuc: new Date('2024-01-01') }
+export class MuavaochitietComponent implements OnInit {
   _MuavaoService: MuavaoService = inject(MuavaoService);
-  displayedColumns: string[] = ['ten','ttxly','SHD', 'soluong', 'dgia', 'thanhtien', 'dvtinh','Ngaytao', 'loai'];
+  _NhapsanphamService: NhapsanphamService = inject(NhapsanphamService);
+  displayedColumns: string[] = ['SHD', 'Thang', 'ten', 'dvtinh', 'dgia', 'sluong', 'thtien', 'tgtttbso'];
   dataSource!: MatTableDataSource<any>;
   List: any[] = []
-  List1: any[] = []
-  List2: any[] = []
+  ListInit: any[] = []
   List3: any[] = []
-  data2: any[] = []
-  isFilter:boolean=false
-  ttxly:any=5
-  SHDMuavao:any=SHDMuavao
+  Listfilter: any[] = []
+  ListMuavao: any
+  ListMuavaochitiet: any
+  Chonngay: any = { Batdau: new Date('2023-01-01'), Ketthuc: new Date('2023-01-31') }
+  ttxly: any = 5
+  Thang: any = 1
+  Nam: any = 2023
+  Token: any = localStorage.getItem('TokenWeb')
+  SearchParams: any = {
+    Thang: 1,
+    Type: "NHAP",
+    pageSize: 1000,
+    pageNumber: 0
+  };
+  ListSanpham: any[] = []
   @ViewChild(MatPaginator) paginator!: MatPaginator;
   @ViewChild(MatSort) sort!: MatSort;
-  constructor() {
-    this._MuavaoService.getAllMuavaoChitiet()
-    this._MuavaoService.muavaochitiets$.subscribe((data: any) => {
-      if (data) {
-        let data2:any
-        console.log(data);
-        data = data.filter((v:any)=>SHDMuavao.some((v1)=>v1.SHDMV == v.SHD))
-       // data = data.filter((v:any)=>v.Status==3)
-        console.log(data);
-        // data.forEach((v:any) => {          
-        //   v.Status =3
-        //   this._MuavaoService.UpdateMuavaoChitiet(v)
-        // });
-       // data2 = SHDMuavao.filter((v:any)=>!data.some((v1:any)=>v1.SHD == v.SHDMV))
-      // console.log(data2);
-        this.List = data.map((v:any) =>({...{ idServer: v.id },...v.Dulieu}));
-        this.List.forEach((v: any) => {
-          if (v.hdhhdvu.length > 0) {
-            v.hdhhdvu = v.hdhhdvu.map((v1: any) => {
-              const item = { ...v1,...{ idServer: v.idServer },...{ SHD: v.shdon },...{ ttxly: v.ttxly },...{ Ngaytao: new Date(v.tdlap) } }
-              return item
-            });
-          }
-          this.data2 = [...this.data2, ...v.hdhhdvu]
-        });
-     // console.log(this.data2);
-       this.List1 = this.data2.map((v: any) => ({ ten: v.ten,idServer: v.idServer, soluong: v.sluong, ttxly: v.ttxly,SHD: v.SHD,Ngaytao: v.Ngaytao, dgia: v.dgia,thtien: v.thtien, thanhtien: v.sluong * v.dgia, dvtinh: v.dvtinh, loai: "Nhap" }))
-       this.List2 = this.List1
-       
-      //  this.List2 = this.List1
-      //     .filter((obj, i) => this.List1.findIndex(o => o.ten === obj.ten) === i)
-      //     .map(obj => ({
-      //       ten: obj.ten,
-      //       SHD: obj.SHD,
-      //       Ngaytao: obj.Ngaytao,
-      //       soluong: this.List1.filter(o => o.ten === obj.ten).reduce((total, o) => total + o.soluong, 0),
-      //       thanhtien: this.List1.filter(o => o.ten === obj.ten).reduce((total, o) => total + o.thanhtien, 0),
-      //       dgia: obj.dgia,
-      //       dvtinh: obj.dvtinh,
-      //       loai: "Nhap"
-      //     }));          
+  constructor() { }
+  async ngOnInit() {
+    this.ListMuavao = await this._MuavaoService.SearchMuavao(this.SearchParams)
+    this.ListMuavaochitiet = await this._MuavaoService.SearchMuavaochitiet(this.SearchParams)
+    console.log(this.ListMuavaochitiet);
 
-       this.dataSource = new MatTableDataSource(this.List2);
-       this.dataSource.paginator = this.paginator;
-       this.dataSource.sort = this.sort;
-       console.log(this.List1);
-      }
-    })
+    this.ListSanpham = this.ListMuavaochitiet.items.flatMap((v: any) => {
+      const dulieu = v.Dulieu.hdhhdvu as any[];
+      return dulieu.map((v1: any) => ({
+        dgia: v1.dgia,
+        dvtinh: v1.dvtinh,
+        sluong: v1.sluong,
+        ten: v1.ten,
+        thtien: v1.thtien,
+        SHD: v.SHD,
+        Thang: v.Thang,
+        tgtttbso: v.Dulieu.tgtttbso
+      }));
+    });
+    this.dataSource = new MatTableDataSource(this.ListSanpham);
+    this.dataSource.paginator = this.paginator;
+    this.dataSource.sort = this.sort;
   }
-  ngOnInit(): void { }
+
   ChangeDate() {
-    // v.Status==2 && 
-    this.List2 = this.List1.filter((v: any) => {
-      const Ngaytao = new Date(v.Ngaytao)
-        return v.ttxly==this.ttxly && Ngaytao.getTime() >= this.Chonngay.Batdau.getTime() && Ngaytao.getTime() <= this.Chonngay.Ketthuc.getTime()
-      })
-      this.dataSource = new MatTableDataSource(this.List2);
-      this.dataSource.paginator = this.paginator;
-      this.dataSource.sort = this.sort;
-  }
-  FilterHoadon()
-  {
-    this.isFilter=!this.isFilter
-    if(this.isFilter)
-    {
-        // this.List3 = this.List1.filter((obj, index, self) => {
-        //   return index === self.findIndex((o) => o.SHD === obj.SHD);
-        // });
-
-
-       this.List3 = this.List1
-          .filter((obj, i) => this.List1.findIndex(o => o.SHD === obj.SHD) === i)
-          .map(obj => ({
-            ten: obj.ten,
-            SHD: obj.SHD,
-            Ngaytao: obj.Ngaytao,
-            soluong: this.List1.filter(o => o.SHD === obj.SHD).reduce((total, o) => total + o.soluong, 0),
-            thanhtien: this.List1.filter(o => o.SHD === obj.SHD).reduce((total, o) => total + o.thanhtien, 0),
-            dgia: obj.dgia,
-            dvtinh: obj.dvtinh,
-            loai: "Nhap"
-          }));  
-
-
-        this.dataSource = new MatTableDataSource(this.List3);
-        this.dataSource.paginator = this.paginator;
-        this.dataSource.sort = this.sort;
-    }
-    else{
-        this.dataSource = new MatTableDataSource(this.List1);
-        this.dataSource.paginator = this.paginator;
-        this.dataSource.sort = this.sort;
-    }
-
-  }
-  onSelectChange(event: MatSelectChange) {
-    this.List2 = this.List1.filter((v: any) => {
-      const Ngaytao = new Date(v.Ngaytao)
-      return v.ttxly==event.value && Ngaytao.getTime() >= this.Chonngay.Batdau.getTime() && Ngaytao.getTime() <= this.Chonngay.Ketthuc.getTime()
+    this.Listfilter = this.List.filter((v: any) => {
+      const Ngaytao = new Date(v.tdlap)
+      return Ngaytao.getTime() >= this.Chonngay.Batdau.getTime() && Ngaytao.getTime() <= this.Chonngay.Ketthuc.getTime()
     })
-      this.dataSource = new MatTableDataSource(this.List2);
-      this.dataSource.paginator = this.paginator;
-      this.dataSource.sort = this.sort;
+    this.dataSource = new MatTableDataSource(this.Listfilter);
+    this.dataSource.paginator = this.paginator;
+    this.dataSource.sort = this.sort;
+  }
+  async onChangeThang(event: MatSelectChange) {
+    this.Thang = event.value
+    this.ListMuavao = await this._MuavaoService.SearchMuavao({ Thang: this.Thang, Type: "NHAP" })
+    console.log(this.ListMuavao);
+
+    // this.dataSource = new MatTableDataSource(this.ListSP?.items);
+    // this.dataSource.paginator = this.paginator;
+    // this.dataSource.sort = this.sort;
+  }
+  async onChangeTinhtrang(event: MatSelectChange) {
+    console.log(event.value);
+
+
   }
   writeExcelFile(data: any) {
     const worksheet: XLSX.WorkSheet = XLSX.utils.json_to_sheet(data);
@@ -177,21 +123,136 @@ export class MuavaoChitietComponent implements OnInit {
     window.URL.revokeObjectURL(url);
     link.remove();
   }
-  applyFilter(event: Event) {
-    const filterValue = (event.target as HTMLInputElement).value;
-    this.dataSource.filter = filterValue.trim().toLowerCase();
-    if (this.dataSource.paginator) {
-      this.dataSource.paginator.firstPage();
-    }
+  TimHD() {
+    localStorage.setItem('TokenWeb', this.Token)
+    console.log(this.ListMuavao.items);
+
+    this.ListMuavao.items.forEach((v: any, k: any) => {
+      const value = v.Dulieu[0]
+      setTimeout(async () => {
+        const result = await this._MuavaoService.GetMuavaochitiets(value.nbmst, value.khhdon, value.shdon, value.khmshdon, this.Token)
+        console.log(result);
+        if (result && Object.entries(result).length > 0) {
+          const item: any = {}
+          item.Dulieu = result
+          item.SHD = v.SHD
+          item.Thang = v.Thang
+          item.Type = v.Type
+          this._MuavaoService.Createvaochitiet(item)
+        }
+      }, Math.random() * 1000 + k * 1000);
+    });
   }
-  Subtotal(items:any[],field:any)
-  {    
-    if(items.length>0)
-    {
-    const totalSum = items.reduce((total:any, item:any) => total + item[field], 0);    
-    return totalSum
+  async LoadMuavaochitiet() {
+    this.ListMuavaochitiet = await this._MuavaoService.SearchMuavaochitiet(this.SearchParams)
+    this.ListMuavao = await this._MuavaoService.SearchMuavao(this.SearchParams)
+    // this.Listfilter = this.ListMuavaochitiet.items.map((v:any)=>(v.Dulieu[0]))  
+    // console.log(this.Listfilter.map((v:any)=>({shd:v.shdon}))); 
+    // if(this.Listfilter.length>0)   
+    // {
+    //   this.dataSource = new MatTableDataSource(this.Listfilter);
+    //   this.dataSource.paginator = this.paginator;
+    //   this.dataSource.sort = this.sort;
+    //   console.log(this.Listfilter);
+    // }
+  }
+  Subtotal(items: any[], field: any) {
+    if (items.length > 0) {
+      const totalSum = items.reduce((total: any, item: any) => total + item[field], 0);
+      return totalSum
     }
     else return 0
+  }
+  CheckSum(items:any[],SHD:any) {
+    const group = items.filter((v:any)=>v.SHD==SHD)
+    if (group.length > 0) {
+      const totalSum = group.reduce((total: any, item: any) => total + item.dgia*item.sluong, 0);
+      return totalSum
+    }
+    else return 0
+
+    // const newData:any[] = [];
+    // const groupedData = data.reduce((acc, obj) => {
+    //   const existingGroup = acc[obj.id];
+    //   if (existingGroup) {
+    //     existingGroup.push(obj);
+    //   } else {
+    //     acc[obj.id] = [obj];
+    //   }
+    //   return acc;
+    // }, {});
+    
+    // // Calculate Sum for each object within each ID group
+    // Object.entries(groupedData).forEach(([id, group]:[any,any]) => {
+    //   const totalSum = group.reduce((sum:any, obj:any) => sum + obj.dgia * obj.sluong, 0);
+    //   group.forEach((obj:any) => {
+    //     newData.push({
+    //       ...obj,
+    //       Sum: totalSum,
+    //     });
+    //   });
+    // });
+    // console.log(newData);
+  }
+  SubHoadon(items: any[], field: any) {
+    const uniqueObjects = items.filter((obj, index) => {
+      return items.findIndex(o => o.SHD === obj.SHD) === index;
+    });
+    if (items.length > 0) {
+      const totalSum = uniqueObjects.reduce((total: any, item: any) => total + item[field], 0);
+      return totalSum
+    }
+    else return 0
+  }
+  Update(item: any) {
+    console.log(item);
+    item.Status = 2
+    this._MuavaoService.UpdateMuavaochitiet(item)
+  }
+  FilterHoadon() {
+    // this.Listfilter = this.Listfilter.filter((v)=>SHDMuavaochitiet.some((v1:any)=>v1.SHDBR == v.shdon))
+    // console.log(this.Listfilter);
+
+    // this.dataSource = new MatTableDataSource(this.Listfilter);
+    // this.dataSource.paginator = this.paginator;
+    // this.dataSource.sort = this.sort;
+
+  }
+  UpdateStatus() {
+    console.log(this.Listfilter);
+    console.log(this.ListInit);
+
+    this.Listfilter.forEach(v => {
+      const item = this.ListInit.find((v1) => v1.id == v.idServer)
+      console.log(item);
+
+      item.Status = 3
+      this._MuavaoService.UpdateMuavaochitiet(item)
+    });
+  }
+  applyFilter(event: Event) {
+    const filterValue = (event.target as HTMLInputElement).value;
+    if (filterValue.length > 2) {
+      this.dataSource.filter = filterValue.trim().toLowerCase();
+      if (this.dataSource.paginator) {
+        this.dataSource.paginator.firstPage();
+      }
+      console.log(this.dataSource.filteredData);
+    }
+
+  }
+  onSelectChange(event: MatSelectChange) {
+    this.Listfilter = this.List.filter((v: any) => {
+      const Ngaytao = new Date(v.tdlap)
+      return v.ttxly == event.value && Ngaytao.getTime() >= this.Chonngay.Batdau.getTime() && Ngaytao.getTime() <= this.Chonngay.Ketthuc.getTime()
+    })
+    this.dataSource = new MatTableDataSource(this.Listfilter);
+    this.dataSource.paginator = this.paginator;
+    this.dataSource.sort = this.sort;
+    // Handle the change
+  }
+  Delete(id: any) {
+    this._MuavaoService.DeleteMuavaochitiet(id)
   }
 }
 

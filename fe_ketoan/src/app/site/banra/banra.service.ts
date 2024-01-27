@@ -22,7 +22,7 @@ export class BanraService {
     return this._banrachitiet.asObservable();
   }
   constructor() {}
-  async GetBanra(Begin:any,End:any,SHD:any,Token:any,ttxly:any=0) {    
+  async GetBanras(Begin:any,End:any,SHD:any,Token:any,ttxly:any=0) {    
     try {
       const options = {
         method: 'GET',
@@ -32,7 +32,7 @@ export class BanraService {
           redirect: 'follow'
         }
       };
-      const response = await fetch(`https://hoadondientu.gdt.gov.vn:30000/query/invoices/sold?sort=tdlap:desc,khmshdon:asc,shdon:desc&size=15&search=tdlap=ge=${Begin};tdlap=le=${End};shdon==${SHD}`,options);
+      const response = await fetch(`https://hoadondientu.gdt.gov.vn:30000/query/invoices/sold?sort=tdlap:desc,khmshdon:asc,shdon:desc&size=15&search=tdlap=ge=${Begin};tdlap=le=${End};shdon==${SHD};khmshdon==1;ttxly==${ttxly}`,options);
       const data = await response.json();
       return data;
     } catch (error) {
@@ -40,6 +40,25 @@ export class BanraService {
     }
 
 }
+async SearchBanra(item:any) {
+  try {
+      const options = {
+          method:'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(item),
+        };
+        const response = await fetch(`${environment.APIURL}/banra/search`, options);         
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`);
+         }
+      const data = await response.json();      
+      return data          
+    } catch (error) {
+        return console.error(error);
+    }
+} 
 async CreateBanras(item:any) {
   try {
       const options = {
@@ -50,7 +69,11 @@ async CreateBanras(item:any) {
           body: JSON.stringify(item),
         };
         const response = await fetch(`${environment.APIURL}/banra`, options);          
-        return await response.json();                  
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`);
+       }
+        const data = await response.json();
+        console.log(data);              
     } catch (error) {
         return console.error(error);
     }
@@ -98,6 +121,112 @@ async CreateBanras(item:any) {
           return console.error(error);
       }
   }
+
+
+  async GetBanrachitiets(Begin:any,End:any,SHD:any,Token:any,ttxly:any=0) {    
+    try {
+      const options = {
+        method: 'GET',
+        headers: {
+          'Content-Type': 'application/json',
+          Authorization: Token,
+          redirect: 'follow'
+        }
+      };
+      const response = await fetch(`https://hoadondientu.gdt.gov.vn:30000/query/invoices/sold?sort=tdlap:desc,khmshdon:asc,shdon:desc&size=15&search=tdlap=ge=${Begin};tdlap=le=${End};shdon==${SHD}`,options);
+      const data = await response.json();
+      return data;
+    } catch (error) {
+      return console.error(error);
+    }
+
+}
+async SearchBanrachitiet(item:any) {
+  try {
+      const options = {
+          method:'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(item),
+        };
+        const response = await fetch(`${environment.APIURL}/banrachitiet/search`, options);         
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`);
+      }
+      const data = await response.json();      
+      return data          
+    } catch (error) {
+        return console.error(error);
+    }
+} 
+async CreateBanrachitiets(item:any) {
+  try {
+      const options = {
+          method:'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(item),
+        };
+        const response = await fetch(`${environment.APIURL}/banrachitiet`, options);          
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`);
+       }
+        const data = await response.json();
+        console.log(data);              
+    } catch (error) {
+        return console.error(error);
+    }
+}  
+  async ListBanrachitiets() {
+    try {
+          const response = await fetch(environment.APIURL + '/banrachitiet');
+          const data = await response.json();
+          this._banrachitiets.next(data);          
+          return data;
+      } catch (error) {
+          return console.error(error);
+      }
+  }
+  async UpdateBanrachitiet(item:any) {
+    try {
+        const options = {
+            method:'PATCH',
+            headers: {
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(item),
+          };
+          const response = await fetch(`${environment.APIURL}/banrachitiet/${item.id}`, options);
+          const result = await response.json();
+          console.log(result);
+          
+      } catch (error) {
+          return console.error(error);
+      }
+  }
+  async DeleteBanrachitiet(itemId:any) {
+    try {
+      const options = {
+        method: 'DELETE',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+      };
+      const response = await fetch(`${environment.APIURL}/banrachitiet/${itemId}`, options);
+      const result = await response.json();
+      console.log(result);
+          
+      } catch (error) {
+          return console.error(error);
+      }
+  }
+
+
+
+
+  
   async getAllBanraChitiet() {
     try {
           const response = await fetch(environment.APIURL + '/banrachitiet');

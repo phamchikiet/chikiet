@@ -1,13 +1,14 @@
 import { Route } from '@angular/router';
 import { MuavaoComponent } from './site/muavao/muavao.component';
-import { MuavaoChitietComponent } from './site/muavao/muavao-chitiet/muavao-chitiet.component';
 import { BanraComponent } from './site/banra/banra.component';
-import { BanraChitietComponent } from './site/banra/banra-chitiet/banra-chitiet.component';
 import { CauhinhComponent } from './site/cauhinh/cauhinh.component';
 import { XuatnhaptonComponent } from './site/xuatnhapton/xuatnhapton.component';
 import { CauhinhDetailComponent } from './site/cauhinh/cauhinh-detail/cauhinh-detail.component';
 import { SanphamComponent } from './site/sanpham/sanpham.component';
 import { ShdhhpComponent } from './site/shdhhp/shdhhp.component';
+import { BanrachitietComponent } from './site/banra/banra-chitiet/banra-chitiet.component';
+import { MuavaochitietComponent } from './site/muavao/muavao-chitiet/muavao-chitiet.component';
+import { NhapkhoComponent } from './site/nhapkho/nhapkho.component';
 
 export const appRoutes: Route[] = [
     { path: '', redirectTo: 'shdhhp', pathMatch: 'full' },
@@ -36,7 +37,7 @@ export const appRoutes: Route[] = [
     },
     {
         path: 'muavaochitiet',
-        component: MuavaoChitietComponent,
+        component: MuavaochitietComponent,
         title: 'Mua Vào Chi Tiết'
     },
     {
@@ -46,8 +47,18 @@ export const appRoutes: Route[] = [
     },
     {
         path: 'banrachitiet',
-        component: BanraChitietComponent,
+        component: BanrachitietComponent,
         title: 'Bán Ra Chi Tiết'
+    },
+    {
+        path: 'nhapkho',
+        component: NhapkhoComponent,
+        title: 'Xuất Nhập Tồn'
+    },
+    {
+        path: 'xuatkho',
+        component: XuatnhaptonComponent,
+        title: 'Xuất Nhập Tồn'
     },
     {
         path: 'xuatnhapton',

@@ -12,6 +12,9 @@
         "{options.outputPath}"
       ],
       "options": {
+        "allowedCommonJsDependencies": [
+          "moment"
+         ],
         "outputPath": "dist/fe_ketoan/browser",
         "index": "fe_ketoan/src/index.html",
         "main": "fe_ketoan/src/main.ts",
