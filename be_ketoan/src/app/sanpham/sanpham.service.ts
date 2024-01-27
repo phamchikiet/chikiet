@@ -27,7 +27,11 @@ export class SanphamService {
   }
   async findTenSP(data: any) {
     return await this.SanphamRepository.findOne({
-      where: { TenSP: data.TenSP },
+      where: [
+        { TenSP: data.TenSP },
+        { TenSP1: data.TenSP },
+        { TenSP1: data.TenSP }
+      ],
 
     });
   }

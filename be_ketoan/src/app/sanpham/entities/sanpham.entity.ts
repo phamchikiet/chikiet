@@ -20,6 +20,8 @@ export class SanphamEntity {
   TenSP1: string;
   @Column({ type: 'text', collation: 'utf8_general_ci' })
   TenSP2: string;
+  @Column({nullable:true, type: 'text', collation: 'utf8_general_ci' })
+  DVT: string;
   @Column({ type: 'text', collation: 'utf8_general_ci' })
   Mota: string;
   @Column({ default: '' })
