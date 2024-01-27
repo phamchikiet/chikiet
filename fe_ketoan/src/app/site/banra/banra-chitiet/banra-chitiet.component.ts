@@ -41,7 +41,7 @@ export class BanrachitietComponent implements OnInit {
   _BanraService: BanraService = inject(BanraService);
   _NhapsanphamService: NhapsanphamService = inject(NhapsanphamService);
   _SanphamService: SanphamService = inject(SanphamService);
-  displayedColumns: string[] = ['SHD', 'Thang', 'ten', 'dvtinh', 'dgia', 'sluong', 'thtien', 'tgtttbso'];
+  displayedColumns: string[] = ['SHD', 'Thang','Ngaytao', 'ten', 'dvtinh', 'dgia', 'sluong', 'thtien', 'tgtttbso'];
   dataSource!: MatTableDataSource<any>;
   List: any[] = []
   ListInit: any[] = []
