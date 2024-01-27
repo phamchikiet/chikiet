@@ -1,6 +1,6 @@
 <div class="p-8">
   <div class="flex flex-col space-y-2 relative rounded-lg bg-white">
-    <div class="flex flex-row space-x-2 justify-center p-2">
+    <div class="flex flex-row space-x-2 p-2">
     <mat-form-field>
         <mat-label>Tháng</mat-label>
         <mat-select [(ngModel)]="SearchParams.Thang" [ngModelOptions]="{standalone: true}" (selectionChange)="onChangeThang($event)">
@@ -31,86 +31,67 @@
         </mat-date-range-picker-actions>
       </mat-date-range-picker>
     </mat-form-field>
-    <!-- <mat-form-field>
-        <mat-label>Danh Mục</mat-label>
-        <mat-select [(ngModel)]="ttxly" [ngModelOptions]="{standalone: true}" (selectionChange)="onSelectChange($event)">
-          <mat-option [value]="5">Đã Cấp Mã Hoá Đơn</mat-option>
-          <mat-option [value]="6">Nhận Chưa Cấp Mã Hoá Đơn</mat-option>
-        </mat-select>
-      </mat-form-field> -->
-      <!-- <span (click)="Xoa()">Xoá</span> -->
-      <!-- <button mat-icon-button (click)="FilterHoadon()"><span class="material-symbols-outlined">
-        filter_alt
-        </span></button>
-      <button mat-stroked-button (click)="UpdateStatus()">UpStatus</button> --> 
       <mat-form-field>
         <mat-label>Token</mat-label>
         <input [(ngModel)]="Token" [ngModelOptions]="{standalone: true}"
          matInput placeholder="Token">
         </mat-form-field>
-      <div class="flex flex-col space-y-2">
-        <button mat-stroked-button (click)="TimHD()">Hoá Đơn Tổng Cục</button>
-        <button mat-stroked-button (click)="LoadBanrachitiet()">Hoá Đơn Local</button>
-      </div>
+  </div>
+  <div class="flex flex-row space-x-2">
+    <button mat-stroked-button (click)="TimHD()">Hoá Đơn Tổng Cục</button>
+    <button mat-stroked-button (click)="LoadBanrachitiet()">Hoá Đơn Local</button>
+    <button mat-stroked-button (click)="filterSanpham()">Lọc Sản Phẩm</button>
+    <!-- <button mat-stroked-button (click)="NhapSanpham()">Nhập Sản Phẩm</button> -->
+    <span>  {{this.ListBanra?.totalCount}}/{{this.ListBanrachitiet?.totalCount}}/{{this.Listfilter.length}}</span>
   </div>
 
-  {{this.ListBanrachitiet?.totalCount}}/{{this.ListBanra?.totalCount}}
     <div class="">
       <table mat-table [dataSource]="dataSource" matSort>
-        <ng-container matColumnDef="shdon">
+        <ng-container matColumnDef="SHD">
           <th mat-header-cell *matHeaderCellDef mat-sort-header> Số HD </th>
-          <td mat-cell *matCellDef="let row"> {{row.shdon}} </td>
+          <td mat-cell *matCellDef="let row"> {{row.SHD}} </td>
           <td mat-footer-cell *matFooterCellDef></td>
         </ng-container>
-        <ng-container matColumnDef="ttxly">
-          <th mat-header-cell *matHeaderCellDef mat-sort-header> Tình Trạng Xử Lý </th>
-          <td mat-cell *matCellDef="let row"> {{row.ttxly}} </td>
+        <ng-container matColumnDef="Thang">
+          <th mat-header-cell *matHeaderCellDef mat-sort-header> Tháng </th>
+          <td mat-cell *matCellDef="let row"> {{row.Thang}} </td>
           <td mat-footer-cell *matFooterCellDef></td>
         </ng-container>
-        <ng-container matColumnDef="nbten">
+        <ng-container matColumnDef="ten">
           <th mat-header-cell *matHeaderCellDef mat-sort-header>Tên </th>
-          <td mat-cell *matCellDef="let row"> {{row.nbten}} </td>
+          <td mat-cell *matCellDef="let row"> {{row.ten}} </td>
           <td mat-footer-cell *matFooterCellDef></td>
         </ng-container>
-        <!-- <ng-container matColumnDef="nbdchi">
-          <th mat-header-cell *matHeaderCellDef mat-sort-header>Địa Chỉ </th>
-          <td mat-cell *matCellDef="let row"> {{row.nbdchi}} </td>
-        </ng-container> -->
-        <ng-container matColumnDef="tgtcthue">
-          <th mat-header-cell *matHeaderCellDef mat-sort-header>Tổng Chưa Thuế </th>
-          <td mat-cell *matCellDef="let row"> {{(row.tgtcthue | number:'1.0-0')||'0'}} </td>
-          <td mat-footer-cell *matFooterCellDef class="text-right font-bold">{{Subtotal(Listfilter,'tgtcthue')|number:'1.0-2'}} </td>
+        <ng-container matColumnDef="dvtinh">
+          <th mat-header-cell *matHeaderCellDef mat-sort-header>Đơn Vị Tính </th>
+          <td mat-cell *matCellDef="let row"> {{row.dvtinh}} </td>
+          <td mat-footer-cell *matFooterCellDef class="text-right font-bold"></td>
         </ng-container>
-        <ng-container matColumnDef="tgtthue">
-          <th mat-header-cell *matHeaderCellDef mat-sort-header>Thuế </th>
-          <td mat-cell *matCellDef="let row"> {{(row.tgtthue | number:'1.0-0')||'0'}} </td>
-          <td mat-footer-cell *matFooterCellDef class="text-right font-bold">{{Subtotal(Listfilter,'tgtthue')|number:'1.0-2'}} </td>
+        <ng-container matColumnDef="dgia">
+          <th mat-header-cell *matHeaderCellDef mat-sort-header>Đơn Giá </th>
+          <td mat-cell *matCellDef="let row"> {{(row.dgia | number:'1.0-0')||'0'}} </td>
+          <td mat-footer-cell *matFooterCellDef class="text-right font-bold">{{Subtotal(ListSanpham,'dgia')|number:'1.0-2'}} </td>
+        </ng-container>
+        <ng-container matColumnDef="sluong">
+          <th mat-header-cell *matHeaderCellDef mat-sort-header>Số Lượng </th>
+          <td mat-cell *matCellDef="let row">{{(row.sluong | number:'1.0-0')||'0'}} </td>
+          <td mat-footer-cell *matFooterCellDef class="text-right font-bold"> </td>
+        </ng-container>
+        <ng-container matColumnDef="thtien">
+          <th mat-header-cell *matHeaderCellDef mat-sort-header> Thành Tiền </th>
+          <td mat-cell *matCellDef="let row">{{(row.thtien | number:'1.0-0')||'0'}} </td>
+          <td mat-footer-cell *matFooterCellDef class="text-right font-bold">{{Subtotal(ListSanpham,'thtien')|number:'1.0-2'}} </td>
         </ng-container>
         <ng-container matColumnDef="tgtttbso">
-          <th mat-header-cell *matHeaderCellDef mat-sort-header> Thành Tiền </th>
-          <td mat-cell *matCellDef="let row">{{(row.tgtttbso | number:'1.0-0')||'0'}} </td>
-          <td mat-footer-cell *matFooterCellDef class="text-right font-bold">{{Subtotal(Listfilter,'tgtttbso')|number:'1.0-2'}} </td>
-        </ng-container>
-        <ng-container matColumnDef="thtttoan">
-          <th mat-header-cell *matHeaderCellDef mat-sort-header> Tông Thanh Toán </th>
-          <td mat-cell *matCellDef="let row"> {{row.thtttoan}} </td>
-          <td mat-footer-cell *matFooterCellDef class="text-right font-bold"></td>
-        </ng-container>
-        <ng-container matColumnDef="action">
-          <th mat-header-cell *matHeaderCellDef mat-sort-header> Action </th>
-          <td mat-cell *matCellDef="let row"> 
-            <div class="flex flex-row space-x-2">
-            <button mat-stroked-button (click)="Update(row)">Chọn</button> 
-            <button mat-stroked-button (click)="Delete(row.idServer)">Xoá</button> 
-          </div>
-          </td>
-          <td mat-footer-cell *matFooterCellDef class="text-right font-bold"></td>
+          <th mat-header-cell *matHeaderCellDef mat-sort-header> Tổng Tiền Hoá Đơn </th>
+          <td mat-cell *matCellDef="let row">{{CheckSum(ListSanpham,row.SHD)}} {{(row.tgtttbso | number:'1.0-0')||'0'}} </td>
+          <td mat-footer-cell *matFooterCellDef class="text-right font-bold">{{SubHoadon(ListSanpham,'tgtttbso')|number:'1.0-2'}} </td>
         </ng-container>
         <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
         <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
         <tr mat-footer-row *matFooterRowDef="displayedColumns"></tr>
       </table>
-      <mat-paginator [pageSizeOptions]="[5, 100, Listfilter.length]"></mat-paginator>
+      <mat-paginator [pageSizeOptions]="pageSizeOptions"></mat-paginator>
     </div>
   </div>
 

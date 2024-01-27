@@ -41,7 +41,7 @@ export class BanraComponent implements OnInit {
 
   _BanraService: BanraService = inject(BanraService);
   _ShdhhpService: ShdhhpService = inject(ShdhhpService);
-  displayedColumns: string[] = ['shdon','ttxly', 'nbten', 'tgtcthue', 'tgtthue', 'tgtttbso', 'thtttoan','action'];
+  displayedColumns: string[] = ['shdon','ngaytao','ttxly', 'nbten', 'tgtcthue', 'tgtthue', 'tgtttbso', 'thtttoan','action'];
   dataSource!: MatTableDataSource<any>;
   List: any[] = []
   ListInit: any[] = []
@@ -67,12 +67,15 @@ export class BanraComponent implements OnInit {
     this.HoadonHHP  = await this._ShdhhpService.SearchShdhhp(this.SearchParams)
     console.log(this.HoadonHHP); 
     this.ListBanra  = await this._BanraService.SearchBanra(this.SearchParams)
-    this.Listfilter = this.ListBanra.items.map((v:any)=>({idServer:v.id,SHD:v.SHD,Thang:v.Thang,...v.Dulieu[0]}))  
+    // this.ListBanra.items.forEach((v:any) => {
+    //   v.Ngaytao = moment(v.Dulieu.tdlap).format("YYYY-MM-DD")
+    //   this._BanraService.UpdateBanra(v)
+    // });
+    this.Listfilter = this.ListBanra.items.map((v:any)=>({idServer:v.id,SHD:v.SHD,Thang:v.Thang,Ngaytao:v.Ngaytao,...v.Dulieu[0]}))  
     console.log(this.Listfilter); 
     this.Listfilter.forEach((v:any) => {
       const result = this.HoadonHHP.items.some((v1:any)=>v1.SHD===v.SHD)
       console.log(result);
-      
     }); 
       this.dataSource = new MatTableDataSource(this.Listfilter);
       this.dataSource.paginator = this.paginator;
@@ -138,6 +141,7 @@ export class BanraComponent implements OnInit {
         item.SHD = v.SHD
         item.Thang = v.Thang
         item.Type = v.Type
+        item.Ngaytao = moment(v.Dulieu.tdlap).format("YYYY-MM-DD")
         this._BanraService.CreateBanras(item)
         }   
       }, Math.random()*1000 + k*1000);

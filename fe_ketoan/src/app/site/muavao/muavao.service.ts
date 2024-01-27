@@ -22,29 +22,29 @@ export class MuavaoService {
     return this._muavaochitiet.asObservable();
   }
   constructor() { }
-  async GetMuavaos(Begin:any,End:any,SHD:any,Token:any,ttxly:any=5) {    
-      try {
-        const options = {
-          method: 'GET',
-          headers: {
-            'Content-Type': 'application/json',
-            Authorization: Token,
-            redirect: 'follow'
-          }
-        };
-        
-// https://hoadondientu.gdt.gov.vn:30000/query/invoices/purchase?sort=tdlap:desc,khmshdon:asc,shdon:desc&size=15&search=tdlap=ge=19/12/2023T00:00:00;tdlap=le=18/01/2024T23:59:59;ttxly==5;shdon==603
-        const response = await fetch(`https://hoadondientu.gdt.gov.vn:30000/query/invoices/purchase?sort=tdlap:desc,khmshdon:asc,shdon:desc&size=15&search=tdlap=ge=${Begin};tdlap=le=${End};shdon==${SHD}`,options);
+  async GetMuavaos(Begin: any, End: any, SHD: any, Token: any, ttxly: any = 5) {
+    try {
+      const options = {
+        method: 'GET',
+        headers: {
+          'Content-Type': 'application/json',
+          Authorization: Token,
+          redirect: 'follow'
+        }
+      };
+
+      // https://hoadondientu.gdt.gov.vn:30000/query/invoices/purchase?sort=tdlap:desc,khmshdon:asc,shdon:desc&size=15&search=tdlap=ge=19/12/2023T00:00:00;tdlap=le=18/01/2024T23:59:59;ttxly==5;shdon==603
+      const response = await fetch(`https://hoadondientu.gdt.gov.vn:30000/query/invoices/purchase?sort=tdlap:desc,khmshdon:asc,shdon:desc&size=15&search=tdlap=ge=${Begin};tdlap=le=${End};shdon==${SHD}`, options);
       if (!response.ok) {
-          throw new Error(`HTTP error! status: ${response.status}`);
-       }
-        const data = await response.json();
-        console.log(data);
-        
-        return data;
-      } catch (error) {
-        return console.error(error);
+        throw new Error(`HTTP error! status: ${response.status}`);
       }
+      const data = await response.json();
+      console.log(data);
+
+      return data;
+    } catch (error) {
+      return console.error(error);
+    }
 
   }
   async ListMuavaos() {
@@ -57,25 +57,25 @@ export class MuavaoService {
       return console.error(error);
     }
   }
-  async SearchMuavao(item:any) {
+  async SearchMuavao(item: any) {
     try {
-        const options = {
-            method:'POST',
-            headers: {
-              'Content-Type': 'application/json',
-            },
-            body: JSON.stringify(item),
-          };
-          const response = await fetch(`${environment.APIURL}/muavao/search`, options);         
-          if (!response.ok) {
-            throw new Error(`HTTP error! status: ${response.status}`);
-        }
-        const data = await response.json();      
-        return data          
-      } catch (error) {
-          return console.error(error);
+      const options = {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(item),
+      };
+      const response = await fetch(`${environment.APIURL}/muavao/search`, options);
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
       }
-  } 
+      const data = await response.json();
+      return data
+    } catch (error) {
+      return console.error(error);
+    }
+  }
   async UpdateMuavao(item: any) {
     try {
       const options = {
@@ -110,7 +110,7 @@ export class MuavaoService {
     }
   }
 
-  async GetMuavaochitiets(nbmst:any,khhdon:any,shdon:any,khmshdon:any,Token:any) {   
+  async GetMuavaochitiets(nbmst: any, khhdon: any, shdon: any, khmshdon: any, Token: any) {
     try {
       const options = {
         method: 'GET',
@@ -120,104 +120,87 @@ export class MuavaoService {
           redirect: 'follow'
         }
       };
-      
-// https://hoadondientu.gdt.gov.vn:30000/query/invoices/purchase?sort=tdlap:desc,khmshdon:asc,shdon:desc&size=15&search=tdlap=ge=19/12/2023T00:00:00;tdlap=le=18/01/2024T23:59:59;ttxly==5;shdon==603
-      const response = await fetch(`https://hoadondientu.gdt.gov.vn:30000/query/invoices/detail?nbmst=${nbmst}&khhdon=${khhdon}&shdon=${shdon}&khmshdon=${khmshdon}`,options);
-    if (!response.ok) {
+
+      // https://hoadondientu.gdt.gov.vn:30000/query/invoices/purchase?sort=tdlap:desc,khmshdon:asc,shdon:desc&size=15&search=tdlap=ge=19/12/2023T00:00:00;tdlap=le=18/01/2024T23:59:59;ttxly==5;shdon==603
+      const response = await fetch(`https://hoadondientu.gdt.gov.vn:30000/query/invoices/detail?nbmst=${nbmst}&khhdon=${khhdon}&shdon=${shdon}&khmshdon=${khmshdon}`, options);
+      if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
-     }
+      }
       const data = await response.json();
       console.log(data);
-      
+
       return data;
     } catch (error) {
       return console.error(error);
     }
 
-}
-async ListMuavaochitiets() {
-  try {
-    const response = await fetch(environment.APIURL + '/muavaochitiet');
-    const data = await response.json();
-    this._muavaochitiets.next(data);
-    return data;
-  } catch (error) {
-    return console.error(error);
   }
-}
-async Createvaochitiet(item:any) {   
-  try {
-      const options = {
-          method:'POST',
-          headers: {
-            'Content-Type': 'application/json',
-          },
-          body: JSON.stringify(item),
-        };
-        const response = await fetch(`${environment.APIURL}/muavaochitiet`, options);          
-        if (!response.ok) {
-          throw new Error(`HTTP error! status: ${response.status}`);
-       }
-        const data = await response.json();
-        console.log(data);          
+  async ListMuavaochitiets() {
+    try {
+      const response = await fetch(environment.APIURL + '/muavaochitiet');
+      const data = await response.json();
+      this._muavaochitiets.next(data);
+      return data;
     } catch (error) {
-        return console.error(error);
+      return console.error(error);
     }
-}
-async SearchMuavaochitiet(item:any) {
-  try {
+  }
+  async Createvaochitiet(item: any) {
+    try {
       const options = {
-          method:'POST',
-          headers: {
-            'Content-Type': 'application/json',
-          },
-          body: JSON.stringify(item),
-        };
-        const response = await fetch(`${environment.APIURL}/muavaochitiet/search`, options);         
-        if (!response.ok) {
-          throw new Error(`HTTP error! status: ${response.status}`);
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(item),
+      };
+      const response = await fetch(`${environment.APIURL}/muavaochitiet`, options);
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
       }
-      const data = await response.json();      
-      return data          
+      const data = await response.json();
+      console.log(data);
     } catch (error) {
-        return console.error(error);
+      return console.error(error);
     }
-} 
-async UpdateMuavaochitiet(item: any) {
-  try {
-    const options = {
-      method: 'PATCH',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify(item),
-    };
-    const response = await fetch(`${environment.APIURL}/muavaochitiet/${item.id}`, options);
-    const result = await response.json();
-    console.log(result);
-
-  } catch (error) {
-    return console.error(error);
   }
-}
-async DeleteMuavaochitiet(itemId: any) {
-  try {
-    const options = {
-      method: 'DELETE',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-    };
-    const response = await fetch(`${environment.APIURL}/muavaochitiet/${itemId}`, options);
-    const result = await response.json();
-    console.log(result);
-
-  } catch (error) {
-    return console.error(error);
+  async SearchMuavaochitiet(item: any) {
+    try {
+      const options = {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(item),
+      };
+      const response = await fetch(`${environment.APIURL}/muavaochitiet/search`, options);
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+      const data = await response.json();
+      return data
+    } catch (error) {
+      return console.error(error);
+    }
   }
-}
+  async DeleteMuavaochitiet(itemId: any) {
+    try {
+      const options = {
+        method: 'DELETE',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+      };
+      const response = await fetch(`${environment.APIURL}/muavaochitiet/${itemId}`, options);
+      const result = await response.json();
+      console.log(result);
 
-  
+    } catch (error) {
+      return console.error(error);
+    }
+  }
+
+
   async getAllMuavaoChitiet() {
     try {
       const response = await fetch(environment.APIURL + '/muavaochitiet');
@@ -236,25 +219,25 @@ async DeleteMuavaochitiet(itemId: any) {
       return console.error(error);
     }
   }
-  async CreateMuavaos(item:any) {   
+  async CreateMuavaos(item: any) {
     try {
-        const options = {
-            method:'POST',
-            headers: {
-              'Content-Type': 'application/json',
-            },
-            body: JSON.stringify(item),
-          };
-          const response = await fetch(`${environment.APIURL}/muavao`, options);          
-          if (!response.ok) {
-            throw new Error(`HTTP error! status: ${response.status}`);
-         }
-          const data = await response.json();
-          console.log(data);          
-      } catch (error) {
-          return console.error(error);
+      const options = {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(item),
+      };
+      const response = await fetch(`${environment.APIURL}/muavao`, options);
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
       }
-  } 
+      const data = await response.json();
+      console.log(data);
+    } catch (error) {
+      return console.error(error);
+    }
+  }
   async UpdateMuavaoChitiet(item: any) {
     try {
       const options = {
@@ -265,8 +248,11 @@ async DeleteMuavaochitiet(itemId: any) {
         body: JSON.stringify(item),
       };
       const response = await fetch(`${environment.APIURL}/muavaochitiet/${item.id}`, options);
-      const result = await response.json();
-      console.log(result);
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+      const data = await response.json();
+      return data
 
     } catch (error) {
       return console.error(error);

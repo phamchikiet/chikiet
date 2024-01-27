@@ -41,7 +41,7 @@ export class MuavaoComponent implements OnInit {
 
   _MuavaoService: MuavaoService = inject(MuavaoService);
   _ShdhhpService: ShdhhpService = inject(ShdhhpService);
-  displayedColumns: string[] = ['shdon','ttxly', 'nbten', 'tgtcthue', 'tgtthue', 'tgtttbso', 'thtttoan','action'];
+  displayedColumns: string[] = ['shdon','Ngaytao','ttxly', 'nbten', 'tgtcthue', 'tgtthue', 'tgtttbso', 'thtttoan','action'];
   dataSource!: MatTableDataSource<any>;
   List: any[] = []
   ListInit: any[] = []
@@ -68,7 +68,11 @@ export class MuavaoComponent implements OnInit {
     console.log(this.HoadonHHP);
     this.ListMuavao  = await this._MuavaoService.SearchMuavao(this.SearchParams)
     console.log(this.ListMuavao);
-    this.Listfilter = this.ListMuavao.items.map((v:any)=>(v.Dulieu[0]))  
+    // this.ListMuavao.items.forEach((v:any) => {
+    //   v.Ngaytao = moment(v.Dulieu.tdlap).format("YYYY-MM-DD")
+    //   this._MuavaoService.UpdateMuavao(v)
+    // });
+    this.Listfilter = this.ListMuavao.items.map((v:any)=>({idServer:v.id,SHD:v.SHD,Thang:v.Thang,Ngaytao:v.Ngaytao,...v.Dulieu[0]}))  
     console.log(this.Listfilter);  
       this.dataSource = new MatTableDataSource(this.Listfilter);
       this.dataSource.paginator = this.paginator;
@@ -127,6 +131,7 @@ export class MuavaoComponent implements OnInit {
         item.SHD = v.SHD
         item.Thang = v.Thang
         item.Type = v.Type
+        item.Ngaytao = moment(v.Dulieu.tdlap).format("YYYY-MM-DD")
         this._MuavaoService.CreateMuavaos(item)
         }   
       }, Math.random()*1000 + k*1000);

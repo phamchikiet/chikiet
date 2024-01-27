@@ -12,15 +12,18 @@ import { MatDatepickerModule } from '@angular/material/datepicker';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatSelectChange, MatSelectModule } from '@angular/material/select';
 import { BanraService } from '../banra.service';
-import { ChangeDateBegin, ChangeDateEnd } from 'fe_ketoan/src/app/shared/shared.utils';
+import { ChangeDateBegin, ChangeDateEnd, FilterDup, groupByfield, mergeNoDup } from 'fe_ketoan/src/app/shared/shared.utils';
+import { NhapsanphamService } from '../../muavao/nhapsanpham.service';
+import { SanphamService } from '../../sanpham/sanpham.service';
+import * as moment from 'moment';
 @Component({
   selector: 'app-banrachitiet',
   standalone: true,
-  imports: [CommonModule, 
-    MatFormFieldModule, 
-    MatInputModule, 
-    MatTableModule, 
-    MatSortModule, 
+  imports: [CommonModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatTableModule,
+    MatSortModule,
     MatPaginatorModule,
     MatFormFieldModule,
     MatInputModule,
@@ -35,9 +38,10 @@ import { ChangeDateBegin, ChangeDateEnd } from 'fe_ketoan/src/app/shared/shared.
   styleUrls: ['./banra-chitiet.component.css']
 })
 export class BanrachitietComponent implements OnInit {
-
   _BanraService: BanraService = inject(BanraService);
-  displayedColumns: string[] = ['shdon','ttxly', 'nbten', 'tgtcthue', 'tgtthue', 'tgtttbso', 'thtttoan','action'];
+  _NhapsanphamService: NhapsanphamService = inject(NhapsanphamService);
+  _SanphamService: SanphamService = inject(SanphamService);
+  displayedColumns: string[] = ['SHD', 'Thang', 'ten', 'dvtinh', 'dgia', 'sluong', 'thtien', 'tgtttbso'];
   dataSource!: MatTableDataSource<any>;
   List: any[] = []
   ListInit: any[] = []
@@ -46,58 +50,84 @@ export class BanrachitietComponent implements OnInit {
   ListBanra: any
   ListBanrachitiet: any
   Chonngay: any = { Batdau: new Date('2023-01-01'), Ketthuc: new Date('2023-01-31') }
-  ttxly:any=5
-  Thang:any=1
-  Nam:any=2023
-  Token:any=localStorage.getItem('TokenWeb')
+  ttxly: any = 5
+  Thang: any = 1
+  Nam: any = 2023
+  Token: any = localStorage.getItem('TokenWeb')
   SearchParams: any = {
-    Thang:1,
-    Type:"XUAT",
-    pageSize:1000,
-    pageNumber:0
+    Thang: 1,
+    Type: "XUAT",
+    pageSize: 1000,
+    pageNumber: 0
   };
+  ListSanpham: any[] = []
   @ViewChild(MatPaginator) paginator!: MatPaginator;
   @ViewChild(MatSort) sort!: MatSort;
-  constructor() {}
+  pageSizeOptions:any
+  Total:any=0
+  constructor() { }
   async ngOnInit() {
-    this.ListBanra  = await this._BanraService.SearchBanra(this.SearchParams)
-    console.log(this.ListBanra); 
-    this.ListBanrachitiet  = await this._BanraService.SearchBanrachitiet(this.SearchParams)
-    this.Listfilter = this.ListBanrachitiet.items.map((v:any)=>({idServer:v.id,SHD:v.SHD,...v.Dulieu[0]}))  
-    console.log(this.Listfilter); 
-    // this.Listfilter.forEach((v:any) => {
-    //   const result = this.ListBanra.items.some((v1:any)=>v1.SHD===v.SHD)
-    //   console.log(result);
-      
-    // }); 
-      this.dataSource = new MatTableDataSource(this.Listfilter);
-      this.dataSource.paginator = this.paginator;
-      this.dataSource.sort = this.sort;
+    this.ListBanra = await this._BanraService.SearchBanra(this.SearchParams)
+    this.ListBanrachitiet = await this._BanraService.SearchBanrachitiet(this.SearchParams)
+    console.log(this.ListBanrachitiet);
+    console.log(this.ListBanra);
+    // this.ListBanrachitiet.items.forEach((v:any) => {
+    //   v.Ngaytao = moment(v.Dulieu.tdlap).format("YYYY-MM-DD")
+    //   this._BanraService.UpdateBanrachitiet(v)
+    // });
+    this.ListSanpham = this.ListBanrachitiet.items.flatMap((v: any) => {
+      const dulieu = v.Dulieu.hdhhdvu as any[];
+      return dulieu.map((v1: any) => ({
+        dgia: v1.dgia,
+        dvtinh: v1.dvtinh,
+        sluong: v1.sluong,
+        ten: v1.ten,
+        thtien: v1.thtien,
+        SHD: v.SHD,
+        Thang: v.Thang,
+        Ngaytao :v.Ngaytao,
+        tgtttbso: v.Dulieu.tgtttbso
+      }));
+    });
+    this.dataSource = new MatTableDataSource(this.ListSanpham);
+    this.dataSource.paginator = this.paginator;
+    this.dataSource.sort = this.sort;
+    this.Total = this.ListSanpham.length
+    this.pageSizeOptions = [10, 20, this.Total].filter(v => v <= this.Total);
+  }
+  filterSanpham()
+  {
+    console.log(this.ListSanpham);
+    const Sanpham = FilterDup(this.ListSanpham,'ten')
+    console.log(Sanpham);
+    Sanpham.forEach((v:any)=>
+    {
+      const item:any = {}
+      item.TenSP = v.ten
+      item.DVT = v.dvtinh
+      this._SanphamService.CreateSanpham(item)
+    })
   }
   ChangeDate() {
     this.Listfilter = this.List.filter((v: any) => {
       const Ngaytao = new Date(v.tdlap)
-        return Ngaytao.getTime() >= this.Chonngay.Batdau.getTime() && Ngaytao.getTime() <= this.Chonngay.Ketthuc.getTime()
-      })
-      this.dataSource = new MatTableDataSource(this.Listfilter);
-      this.dataSource.paginator = this.paginator;
-      this.dataSource.sort = this.sort;
+      return Ngaytao.getTime() >= this.Chonngay.Batdau.getTime() && Ngaytao.getTime() <= this.Chonngay.Ketthuc.getTime()
+    })
+    this.dataSource = new MatTableDataSource(this.Listfilter);
+    this.dataSource.paginator = this.paginator;
+    this.dataSource.sort = this.sort;
   }
-  async onChangeThang(event:MatSelectChange)
-  {
-    this.Thang=event.value
-    this.ListBanra  = await this._BanraService.SearchBanra({Thang:this.Thang,Type:"XUAT"})
+  async onChangeThang(event: MatSelectChange) {
+    this.Thang = event.value
+    this.ListBanra = await this._BanraService.SearchBanra({ Thang: this.Thang, Type: "XUAT" })
     console.log(this.ListBanra);
-    
+
     // this.dataSource = new MatTableDataSource(this.ListSP?.items);
     // this.dataSource.paginator = this.paginator;
     // this.dataSource.sort = this.sort;
   }
-  async onChangeTinhtrang(event:MatSelectChange)
-  {
+  async onChangeTinhtrang(event: MatSelectChange) {
     console.log(event.value);
-    
-
   }
   writeExcelFile(data: any) {
     const worksheet: XLSX.WorkSheet = XLSX.utils.json_to_sheet(data);
@@ -116,98 +146,136 @@ export class BanrachitietComponent implements OnInit {
     link.remove();
   }
   TimHD() {
-    localStorage.setItem('TokenWeb',this.Token)
-    this.ListBanra.items.forEach((v:any,k:any) => {
+    localStorage.setItem('TokenWeb', this.Token)
+    const data1Ids = new Set(this.ListBanrachitiet.items.map((obj: any) => obj.SHD));
+    const data = this.ListBanra.items.filter((obj: any) => !data1Ids.has(obj.SHD));
+    console.log(data1Ids);
+
+    data.forEach((v: any, k: any) => {
+      const value = v.Dulieu[0]
       setTimeout(async () => {
-        const result = await this._BanraService.GetBanrachitiets(ChangeDateBegin(this.Chonngay.Batdau),ChangeDateEnd(this.Chonngay.Ketthuc),v.SHD,this.Token,this.ttxly)
-        if(result && result.datas.length>0)
-        {
-        const item:any={}
-        item.Dulieu=result.datas
-        item.SHD = v.SHD
-        item.Thang = v.Thang
-        item.Type = v.Type
-        this._BanraService.CreateBanrachitiets(item)
-        }   
-      }, Math.random()*1000 + k*1000);
+        const result = await this._BanraService.GetBanrachitiets(value.nbmst, value.khhdon, value.shdon, value.khmshdon, this.Token)
+        if (result && Object.entries(result).length > 0) {
+          const item: any = {}
+          item.Dulieu = result
+          item.SHD = v.SHD
+          item.Thang = v.Thang
+          item.Type = v.Type
+          item.Ngaytao =v.Ngaytao
+          this._BanraService.CreateBanrachitiets(item)
+        }
+      }, Math.random() * 1000 + k * 1000);
     });
   }
-  async LoadBanrachitiet()
-  {
-    this.ListBanrachitiet  = await this._BanraService.SearchBanrachitiet(this.SearchParams)
-    this.ListBanra  = await this._BanraService.SearchBanra(this.SearchParams)
-    this.Listfilter = this.ListBanrachitiet.items.map((v:any)=>(v.Dulieu[0]))  
-    console.log(this.Listfilter.map((v:any)=>({shd:v.shdon}))); 
-    if(this.Listfilter.length>0)   
-    {
-      this.dataSource = new MatTableDataSource(this.Listfilter);
-      this.dataSource.paginator = this.paginator;
-      this.dataSource.sort = this.sort;
-      console.log(this.Listfilter);
-    }
+  async LoadBanrachitiet() {
+    this.ListBanrachitiet = await this._BanraService.SearchBanrachitiet(this.SearchParams)
+    this.ListBanra = await this._BanraService.SearchBanra(this.SearchParams)
+    // this.Listfilter = this.ListBanrachitiet.items.map((v:any)=>(v.Dulieu[0]))  
+    // console.log(this.Listfilter.map((v:any)=>({shd:v.shdon}))); 
+    // if(this.Listfilter.length>0)   
+    // {
+    //   this.dataSource = new MatTableDataSource(this.Listfilter);
+    //   this.dataSource.paginator = this.paginator;
+    //   this.dataSource.sort = this.sort;
+    //   console.log(this.Listfilter);
+    // }
   }
-  Subtotal(items:any[],field:any)
-  {
-    if(items.length>0)
-    {
-    const totalSum = items.reduce((total:any, item:any) => total + item[field], 0);
-    return totalSum
+  Subtotal(items: any[], field: any) {
+    if (items.length > 0) {
+      const totalSum = items.reduce((total: any, item: any) => total + item[field], 0);
+      return totalSum
     }
     else return 0
   }
-  Update(item:any)
-  {
+  CheckSum(items:any[],SHD:any) {
+    const group = items.filter((v:any)=>v.SHD==SHD)
+    if (group.length > 0) {
+      const totalSum = group.reduce((total: any, item: any) => total + item.dgia*item.sluong, 0);
+      return totalSum
+    }
+    else return 0
+
+    // const newData:any[] = [];
+    // const groupedData = data.reduce((acc, obj) => {
+    //   const existingGroup = acc[obj.id];
+    //   if (existingGroup) {
+    //     existingGroup.push(obj);
+    //   } else {
+    //     acc[obj.id] = [obj];
+    //   }
+    //   return acc;
+    // }, {});
+    
+    // // Calculate Sum for each object within each ID group
+    // Object.entries(groupedData).forEach(([id, group]:[any,any]) => {
+    //   const totalSum = group.reduce((sum:any, obj:any) => sum + obj.dgia * obj.sluong, 0);
+    //   group.forEach((obj:any) => {
+    //     newData.push({
+    //       ...obj,
+    //       Sum: totalSum,
+    //     });
+    //   });
+    // });
+    // console.log(newData);
+  }
+  SubHoadon(items: any[], field: any) {
+    const uniqueObjects = items.filter((obj, index) => {
+      return items.findIndex(o => o.SHD === obj.SHD) === index;
+    });
+    if (items.length > 0) {
+      const totalSum = uniqueObjects.reduce((total: any, item: any) => total + item[field], 0);
+      return totalSum
+    }
+    else return 0
+  }
+  Update(item: any) {
     console.log(item);
     item.Status = 2
     this._BanraService.UpdateBanrachitiet(item)
   }
-  // FilterHoadon()
-  // {
-  //   this.Listfilter = this.Listfilter.filter((v)=>SHDBanrachitiet.some((v1)=>v1.SHDBR == v.shdon))
-  //   console.log(this.Listfilter);
-    
-  //   this.dataSource = new MatTableDataSource(this.Listfilter);
-  //   this.dataSource.paginator = this.paginator;
-  //   this.dataSource.sort = this.sort;
+  FilterHoadon() {
+    // this.Listfilter = this.Listfilter.filter((v)=>SHDBanrachitiet.some((v1:any)=>v1.SHDBR == v.shdon))
+    // console.log(this.Listfilter);
 
-  // }
-  UpdateStatus()
-  {
-    console.log( this.Listfilter);
-    console.log( this.ListInit);
-    
+    // this.dataSource = new MatTableDataSource(this.Listfilter);
+    // this.dataSource.paginator = this.paginator;
+    // this.dataSource.sort = this.sort;
+
+  }
+  UpdateStatus() {
+    console.log(this.Listfilter);
+    console.log(this.ListInit);
+
     this.Listfilter.forEach(v => {
-      const item = this.ListInit.find((v1)=>v1.id == v.idServer)
+      const item = this.ListInit.find((v1) => v1.id == v.idServer)
       console.log(item);
-      
-      item.Status =3
+
+      item.Status = 3
       this._BanraService.UpdateBanrachitiet(item)
     });
   }
   applyFilter(event: Event) {
     const filterValue = (event.target as HTMLInputElement).value;
-    if(filterValue.length> 2)
-    {
-    this.dataSource.filter = filterValue.trim().toLowerCase();    
-    if (this.dataSource.paginator) {
-      this.dataSource.paginator.firstPage();
+    if (filterValue.length > 2) {
+      this.dataSource.filter = filterValue.trim().toLowerCase();
+      if (this.dataSource.paginator) {
+        this.dataSource.paginator.firstPage();
+      }
+      console.log(this.dataSource.filteredData);
     }
-    console.log(this.dataSource.filteredData);
-    }    
-    
+
   }
   onSelectChange(event: MatSelectChange) {
     this.Listfilter = this.List.filter((v: any) => {
       const Ngaytao = new Date(v.tdlap)
-      return v.ttxly==event.value && Ngaytao.getTime() >= this.Chonngay.Batdau.getTime() && Ngaytao.getTime() <= this.Chonngay.Ketthuc.getTime()
+      return v.ttxly == event.value && Ngaytao.getTime() >= this.Chonngay.Batdau.getTime() && Ngaytao.getTime() <= this.Chonngay.Ketthuc.getTime()
     })
-      this.dataSource = new MatTableDataSource(this.Listfilter);
-      this.dataSource.paginator = this.paginator;
-      this.dataSource.sort = this.sort;
+    this.dataSource = new MatTableDataSource(this.Listfilter);
+    this.dataSource.paginator = this.paginator;
+    this.dataSource.sort = this.sort;
     // Handle the change
   }
-  Delete(id:any)
-  {
+  Delete(id: any) {
     this._BanraService.DeleteBanrachitiet(id)
   }
 }

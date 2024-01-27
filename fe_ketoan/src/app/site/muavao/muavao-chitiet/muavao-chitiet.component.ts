@@ -12,8 +12,10 @@ import { MatDatepickerModule } from '@angular/material/datepicker';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatSelectChange, MatSelectModule } from '@angular/material/select';
 import { MuavaoService } from '../muavao.service';
-import { ChangeDateBegin, ChangeDateEnd, groupByfield, mergeNoDup } from 'fe_ketoan/src/app/shared/shared.utils';
+import { ChangeDateBegin, ChangeDateEnd, FilterDup, groupByfield, mergeNoDup } from 'fe_ketoan/src/app/shared/shared.utils';
 import { NhapsanphamService } from '../nhapsanpham.service';
+import { SanphamService } from '../../sanpham/sanpham.service';
+import * as moment from 'moment';
 @Component({
   selector: 'app-muavaochitiet',
   standalone: true,
@@ -38,7 +40,8 @@ import { NhapsanphamService } from '../nhapsanpham.service';
 export class MuavaochitietComponent implements OnInit {
   _MuavaoService: MuavaoService = inject(MuavaoService);
   _NhapsanphamService: NhapsanphamService = inject(NhapsanphamService);
-  displayedColumns: string[] = ['SHD', 'Thang', 'ten', 'dvtinh', 'dgia', 'sluong', 'thtien', 'tgtttbso'];
+  _SanphamService: SanphamService = inject(SanphamService);
+  displayedColumns: string[] = ['SHD', 'Thang','Ngaytao', 'ten', 'dvtinh', 'dgia', 'sluong', 'thtien', 'tgtttbso'];
   dataSource!: MatTableDataSource<any>;
   List: any[] = []
   ListInit: any[] = []
@@ -60,12 +63,17 @@ export class MuavaochitietComponent implements OnInit {
   ListSanpham: any[] = []
   @ViewChild(MatPaginator) paginator!: MatPaginator;
   @ViewChild(MatSort) sort!: MatSort;
+  pageSizeOptions:any
+  Total:any=0
   constructor() { }
   async ngOnInit() {
     this.ListMuavao = await this._MuavaoService.SearchMuavao(this.SearchParams)
     this.ListMuavaochitiet = await this._MuavaoService.SearchMuavaochitiet(this.SearchParams)
     console.log(this.ListMuavaochitiet);
-
+    // this.ListMuavaochitiet.items.forEach((v:any) => {
+    //   v.Ngaytao = moment(v.Dulieu.tdlap).format("YYYY-MM-DD")
+    //   this._MuavaoService.UpdateMuavaoChitiet(v)
+    // });
     this.ListSanpham = this.ListMuavaochitiet.items.flatMap((v: any) => {
       const dulieu = v.Dulieu.hdhhdvu as any[];
       return dulieu.map((v1: any) => ({
@@ -76,12 +84,15 @@ export class MuavaochitietComponent implements OnInit {
         thtien: v1.thtien,
         SHD: v.SHD,
         Thang: v.Thang,
-        tgtttbso: v.Dulieu.tgtttbso
+        tgtttbso: v.Dulieu.tgtttbso,
+        Ngaytao:v.Ngaytao
       }));
     });
     this.dataSource = new MatTableDataSource(this.ListSanpham);
     this.dataSource.paginator = this.paginator;
     this.dataSource.sort = this.sort;
+    this.Total = this.ListSanpham.length
+    this.pageSizeOptions = [10, 20, this.Total].filter(v => v <= this.Total);
   }
 
   ChangeDate() {
@@ -102,10 +113,21 @@ export class MuavaochitietComponent implements OnInit {
     // this.dataSource.paginator = this.paginator;
     // this.dataSource.sort = this.sort;
   }
+  filterSanpham()
+  {
+    console.log(this.ListSanpham);
+    const Sanpham = FilterDup(this.ListSanpham,'ten')
+    console.log(Sanpham);
+    Sanpham.forEach((v:any)=>
+    {
+      const item:any = {}
+      item.TenSP = v.ten
+      item.DVT = v.dvtinh
+      this._SanphamService.CreateSanpham(item)
+    })
+  }
   async onChangeTinhtrang(event: MatSelectChange) {
     console.log(event.value);
-
-
   }
   writeExcelFile(data: any) {
     const worksheet: XLSX.WorkSheet = XLSX.utils.json_to_sheet(data);
@@ -126,7 +148,6 @@ export class MuavaochitietComponent implements OnInit {
   TimHD() {
     localStorage.setItem('TokenWeb', this.Token)
     console.log(this.ListMuavao.items);
-
     this.ListMuavao.items.forEach((v: any, k: any) => {
       const value = v.Dulieu[0]
       setTimeout(async () => {
@@ -137,7 +158,8 @@ export class MuavaochitietComponent implements OnInit {
           item.Dulieu = result
           item.SHD = v.SHD
           item.Thang = v.Thang
-          item.Type = v.Type
+          item.Type = v.Type,
+          item.Ngaytao =v.Ngaytao
           this._MuavaoService.Createvaochitiet(item)
         }
       }, Math.random() * 1000 + k * 1000);
@@ -203,32 +225,6 @@ export class MuavaochitietComponent implements OnInit {
       return totalSum
     }
     else return 0
-  }
-  Update(item: any) {
-    console.log(item);
-    item.Status = 2
-    this._MuavaoService.UpdateMuavaochitiet(item)
-  }
-  FilterHoadon() {
-    // this.Listfilter = this.Listfilter.filter((v)=>SHDMuavaochitiet.some((v1:any)=>v1.SHDBR == v.shdon))
-    // console.log(this.Listfilter);
-
-    // this.dataSource = new MatTableDataSource(this.Listfilter);
-    // this.dataSource.paginator = this.paginator;
-    // this.dataSource.sort = this.sort;
-
-  }
-  UpdateStatus() {
-    console.log(this.Listfilter);
-    console.log(this.ListInit);
-
-    this.Listfilter.forEach(v => {
-      const item = this.ListInit.find((v1) => v1.id == v.idServer)
-      console.log(item);
-
-      item.Status = 3
-      this._MuavaoService.UpdateMuavaochitiet(item)
-    });
   }
   applyFilter(event: Event) {
     const filterValue = (event.target as HTMLInputElement).value;

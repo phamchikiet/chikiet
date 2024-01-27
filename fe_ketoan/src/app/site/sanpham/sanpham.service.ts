@@ -34,7 +34,6 @@ export class SanphamService {
             body: JSON.stringify(item),
           };
           const response = await fetch(`${environment.APIURL}/sanpham`, options);
-          console.log(response.json());
           
           return await response.json();                  
       } catch (error) {
@@ -50,8 +49,12 @@ export class SanphamService {
             },
             body: JSON.stringify(item),
           };
-          const response = await fetch(`${environment.APIURL}/sanpham/${item.id}`, options);
-          return await response.json();         
+          const response = await fetch(`${environment.APIURL}/sanpham/${item.id}`, options);    
+          if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+         }
+          const data = await response.json();
+          console.log(data);      
       } catch (error) {
           return console.error(error);
       }

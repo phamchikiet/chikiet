@@ -225,4 +225,9 @@ export function ChangeDateBegin(value:any) {
 export function ChangeDateEnd(value:any) {
   return moment(moment(value).endOf('day').toDate()).format("DD/MM/YYYYTHH:mm:ss")
 };
+export function FilterDup(items:any[],filed:any) {
+  return items.filter((obj, index) => {
+    return items.findIndex(o => o[filed] === obj[filed]) === index;
+  });
+};
 
