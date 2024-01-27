@@ -26,10 +26,10 @@ export class MuavaochitietController {
   async findPagination(@Query('page') page: number,@Query('perPage') perPage: number){
        return await this.muavaochitietService.findPagination(page,perPage);
     }
-  @Get('findquery')
-    async findQuery(@Query('query') query: string){
-      return await this.muavaochitietService.findQuery(query);
-  }
+    @Post('search')
+    async findQuery(@Body() SearchParams: any){
+      return await this.muavaochitietService.findQuery(SearchParams);
+    }
   @Patch(':id')
   update(@Param('id') id: string, @Body() updateMuavaochitietDto: UpdateMuavaochitietDto) {
     return this.muavaochitietService.update(id, updateMuavaochitietDto);

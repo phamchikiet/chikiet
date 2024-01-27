@@ -32,9 +32,9 @@ export class MuavaoController {
     
        return await this.muavaoService.finddate(data);
   }
-  @Get('findquery')
-    async findQuery(@Query('query') query: string){
-      return await this.muavaoService.findQuery(query);
+  @Post('search')
+  async findQuery(@Body() SearchParams: any){
+    return await this.muavaoService.findQuery(SearchParams);
   }
   @Patch(':id')
   update(@Param('id') id: string, @Body() updateMuavaoDto: UpdateMuavaoDto) {

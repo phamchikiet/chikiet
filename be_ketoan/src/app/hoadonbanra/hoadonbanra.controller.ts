@@ -30,9 +30,9 @@ export class hoadonbanraController {
     async finddate(@Query('begin') begin: any,@Query('end') end: any){
          return await this.hoadonbanraService.finddate(begin,end);
     }
-  @Get('findquery')
-    async findQuery(@Query('query') query: string){
-      return await this.hoadonbanraService.findQuery(query);
+    @Post('search')
+    async findQuery(@Body() SearchParams: any){
+      return await this.hoadonbanraService.findQuery(SearchParams);
   }
   @Patch(':id')
   update(@Param('id') id: string, @Body() updatehoadonbanraDto: UpdateHoadonbanraDto) {

@@ -14,7 +14,7 @@ export class MuavaoService {
     const item = await this.findSHD(CreateMuavaoDto)
     if(item)
     {
-      return "Trùng SHD"
+      return { error: 1001, data: "Trùng Dữ Liệu" }
     }
     else {
       this.MuavaoRepository.create(CreateMuavaoDto);
@@ -39,8 +39,7 @@ export class MuavaoService {
   async findSHD(data: any) {
     return await this.MuavaoRepository.findOne({
       where: { 
-        SHD: data.SHD,
-        Ngaytao:new Date(data.Ngaytao)
+        SHD: data.SHD
       },
     });
   }
@@ -68,10 +67,28 @@ export class MuavaoService {
       },
     });
   }
-  async findQuery(query: string){
-    return await this.MuavaoRepository.find({
-      where: { Title: Like(`%query%`) },
-    });
+  async findQuery(params: any) {
+    const queryBuilder = this.MuavaoRepository.createQueryBuilder('muavao');
+    if (params.Batdau && params.Ketthuc) {
+      queryBuilder.andWhere('muavao.CreateAt BETWEEN :startDate AND :endDate', {
+        startDate: params.Batdau,
+        endDate: params.Ketthuc,
+      });
+    }
+    if (params.Title) {
+      queryBuilder.andWhere('muavao.Title LIKE :Title', { SDT: `%${params.Title}%` });
+    }
+    if (params.Thang) {
+      queryBuilder.andWhere('muavao.Thang =:Thang', { Thang: `${params.Thang}` });
+    }
+    if (params.Type) {
+      queryBuilder.andWhere('muavao.Type LIKE :Type', { Type: `${params.Type}` });
+    }
+    const [items, totalCount] = await queryBuilder
+      .limit(params.pageSize || 10) // Set a default page size if not provided
+      .offset(params.pageNumber * params.pageSize || 0)
+      .getManyAndCount();
+    return { items, totalCount };
   }
   async update(id: string, UpdateMuavaoDto: UpdateMuavaoDto) {
     this.MuavaoRepository.save(UpdateMuavaoDto);

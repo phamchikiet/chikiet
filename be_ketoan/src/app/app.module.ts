@@ -11,6 +11,9 @@ import { SohoadonModule } from './sohoadon/sohoadon.module';
 import { ChitietModule } from './chitiet/chitiet.module';
 import { SanphamModule } from './sanpham/sanpham.module';
 import { HoadonhhpModule } from './hoadonhhp/hoadonhhp.module';
+import { MuasanphamModule } from './muasanpham/muasanpham.module';
+import { BansanphamModule } from './bansanpham/bansanpham.module';
+import { NhapkhoModule } from './nhapkho/nhapkho.module';
 @Module({
   imports: [    
     TypeOrmModule.forRoot({
@@ -37,7 +40,7 @@ import { HoadonhhpModule } from './hoadonhhp/hoadonhhp.module';
   //   synchronize: true,
   //   charset: "utf8mb4",
   // }), 
-  hoadonbanraModule, BanrachitietModule, MuavaoModule, MuavaochitietModule, CauhinhModule, SohoadonModule, ChitietModule, SanphamModule, HoadonhhpModule
+  hoadonbanraModule, BanrachitietModule, MuavaoModule, MuavaochitietModule, CauhinhModule, SohoadonModule, ChitietModule, SanphamModule, HoadonhhpModule, MuasanphamModule, BansanphamModule, NhapkhoModule
 ],
   controllers: [AppController],
   providers: [AppService],

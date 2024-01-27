@@ -11,12 +11,10 @@ export class hoadonbanraService {
     private hoadonbanraRepository: Repository<hoadonbanraEntity>
   ) {}
   async create(Data: any) {
-    const item = await this.findSHD(Data)
-    console.error(item?.SHD);
-    
+    const item = await this.findSHD(Data)    
     if(item)
     {
-      return "Trùng SHD"
+      return { error: 1001, data: "Trùng Dữ Liệu" }
     }
     else {
       this.hoadonbanraRepository.create(Data);
@@ -51,7 +49,7 @@ export class hoadonbanraService {
     return await this.hoadonbanraRepository.findOne({
       where: { 
         SHD: data.SHD,
-        Ngaytao:new Date(data.Ngaytao)
+        Thang:data.Thang
       },
     });
   }
@@ -67,10 +65,28 @@ export class hoadonbanraService {
       data: hoadonbanras,
     };
   }
-  async findQuery(query: string){
-    return await this.hoadonbanraRepository.find({
-      where: { Title: Like(`%query%`) },
-    });
+  async findQuery(params: any) {
+    const queryBuilder = this.hoadonbanraRepository.createQueryBuilder('hoadonbanra');
+    if (params.Batdau && params.Ketthuc) {
+      queryBuilder.andWhere('hoadonbanra.CreateAt BETWEEN :startDate AND :endDate', {
+        startDate: params.Batdau,
+        endDate: params.Ketthuc,
+      });
+    }
+    if (params.Title) {
+      queryBuilder.andWhere('hoadonbanra.Title LIKE :Title', { SDT: `%${params.Title}%` });
+    }
+    if (params.Thang) {
+      queryBuilder.andWhere('hoadonbanra.Thang =:Thang', { Thang: `${params.Thang}` });
+    }
+    if (params.Type) {
+      queryBuilder.andWhere('hoadonbanra.Type LIKE :Type', { Type: `${params.Type}` });
+    }
+    const [items, totalCount] = await queryBuilder
+      .limit(params.pageSize || 10) // Set a default page size if not provided
+      .offset(params.pageNumber * params.pageSize || 0)
+      .getManyAndCount();
+    return { items, totalCount };
   }
   async update(id: string, UpdatehoadonbanraDto: UpdateHoadonbanraDto) {
     this.hoadonbanraRepository.save(UpdatehoadonbanraDto);

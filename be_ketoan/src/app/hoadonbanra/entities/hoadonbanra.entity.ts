@@ -16,6 +16,10 @@ export class hoadonbanraEntity {
   Title: string;
   @Column({ type: 'text', collation: 'utf8_general_ci' })
   SHD: string;
+  @Column({nullable:true})
+  Thang: number;
+  @Column({nullable:true})
+  Nam: number;
   @Column({collation: "utf8_general_ci",type:"simple-json",default: () => "('{}')" })
   Dulieu: string;
   @Column({ nullable: true })

@@ -26,10 +26,10 @@ export class BanrachitietController {
   async findPagination(@Query('page') page: number,@Query('perPage') perPage: number){
        return await this.banrachitietService.findPagination(page,perPage);
     }
-  @Get('findquery')
-    async findQuery(@Query('query') query: string){
-      return await this.banrachitietService.findQuery(query);
-  }
+    @Post('search')
+    async findQuery(@Body() SearchParams: any){
+      return await this.banrachitietService.findQuery(SearchParams);
+    }
   @Patch(':id')
   update(@Param('id') id: string, @Body() updateBanrachitietDto: UpdateBanrachitietDto) {
     return this.banrachitietService.update(id, updateBanrachitietDto);

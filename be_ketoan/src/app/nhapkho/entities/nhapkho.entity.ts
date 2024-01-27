@@ -6,24 +6,14 @@ import {
   UpdateDateColumn,
   DeleteDateColumn,
 } from 'typeorm';
-@Entity('muavaochitiet', {orderBy: { CreateAt: 'DESC' } })
-export class MuavaochitietEntity {
+@Entity('nhapkho', {orderBy: { CreateAt: 'DESC' } })
+export class NhapkhoEntity {
   @PrimaryGeneratedColumn('uuid')
   id: string;
   @Column({ type: 'text', collation: 'utf8_general_ci' })
   idDM: string;
   @Column({ type: 'text', collation: 'utf8_general_ci' })
   Title: string;
-  @Column({ type: 'text', collation: 'utf8_general_ci' })
-  SHD: string;
-  @Column({nullable:true})
-  Thang: number;
-  @Column({nullable:true})
-  Nam: number;
-  @Column({collation: "utf8_general_ci",type:"simple-json",default: () => "('{}')" })
-  Dulieu: string;
-  @Column({ nullable: true })
-  Ngaytao: Date;
   @Column({ type: 'text', collation: 'utf8_general_ci' })
   Mota: string;
   @Column({ default: '' })
