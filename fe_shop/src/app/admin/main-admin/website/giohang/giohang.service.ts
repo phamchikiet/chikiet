@@ -213,13 +213,39 @@ export class GiohangService {
         // }
 
     }
+    async Crement(item: any): Promise<void> {        
+        if(Object.entries(this.Donhang).length===0)
+        {
+            this.Donhang.MaDonHang = "RSTG"+GenId(8,false)
+            this.Donhang.Khachhang = {Hoten:'Guest'}
+            this.Donhang.Thanhtoan ={}
+            this.Donhang.Vanchuyen ={}
+            this.Donhang.Status=0
+            this.Donhang.Giohangs=[item]
+            this._LocalStorageService.setItem('Donhang',this.Donhang)
+            this._donhang.next(this.Donhang)
+        }
+        else
+        {
+            const existingItemIndex = this.Donhang.Giohangs.findIndex((v:any) => v.id === item.id && v.Giachon?.id==item?.Giachon?.id);
+            console.log(existingItemIndex);
+            if (existingItemIndex !== -1) {
+                this.Donhang.Giohangs[existingItemIndex].Soluong = Number(item.Soluong);
+            } else {
+                this.Donhang.Giohangs.push(item);
+            }
+            this._LocalStorageService.setItem('Donhang',this.Donhang)
+            this._donhang.next(this.Donhang)
+        }
+    }
+
     async removeFromCart(item:any): Promise<void> {
         const existingItemIndex = this.Donhang.Giohangs.findIndex((v:any) => v.id === item.id && v.Giachon?.id==item?.Giachon?.id);
         if (existingItemIndex !== -1) {
             this.Donhang.Giohangs.splice(existingItemIndex, 1);
           }
-        this._LocalStorageService.setItem('Donhang',this.Donhang.Giohangs)
-        this._donhang.next(this.Donhang.Giohangs)
+        this._LocalStorageService.setItem('Donhang',this.Donhang)
+        this._donhang.next(this.Donhang)
         // const Updatedata = this.removeItemById(item)
         // try {
         //     const options = {

@@ -89,12 +89,12 @@
                                                 <td class="px-5 py-3 whitespace-nowrap">
                                                     <div
                                                         class="inline-flex justify-between border border-default-200 p-1 rounded-full">
-                                                        <button type="button"
+                                                        <button (click)="Decrement(item)" type="button"
                                                             class="minus flex-shrink-0 bg-default-200 text-default-800 rounded-full h-6 w-6 text-sm inline-flex items-center justify-center">–</button>
                                                         <input type="text"
                                                             class="w-8 border-0 text-sm text-center text-default-800 focus:ring-0 p-0 bg-transparent"
                                                             value="{{item.Soluong}}" min="0" max="100" readonly="">
-                                                        <button type="button"
+                                                        <button (click)="Increment(item)" type="button"
                                                             class="plus flex-shrink-0 bg-default-200 text-default-800 rounded-full h-6 w-6 text-sm inline-flex items-center justify-center">+</button>
                                                     </div>
                                                 </td>

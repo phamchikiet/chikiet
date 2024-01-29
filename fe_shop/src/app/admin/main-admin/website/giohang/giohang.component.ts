@@ -21,6 +21,8 @@ export class GiohangComponent implements OnInit {
     this._GiohangService.getDonhang()
     this._GiohangService.donhang$.subscribe((data: any) => {
       this.Giohangs = data.Giohangs
+      console.log(data);
+      
     })
   }
   GetTotal(data: any, field: any, field1: any) {
@@ -42,5 +44,21 @@ export class GiohangComponent implements OnInit {
   {
     console.log(item);
     this._GiohangService.removeFromCart(item)
+  }
+  Increment(item:any)
+  {
+    console.log(item);
+    
+    item.Soluong = Number(item.Soluong)+1
+    this._GiohangService.Crement(item)
+  }
+  Decrement(item:any)
+  {
+    console.log(item);
+    if(item.Soluong>1)
+    {
+    item.Soluong = Number(item.Soluong)-1
+    this._GiohangService.Crement(item)
+    }
   }
 }
