@@ -7,11 +7,13 @@ import {
 import { NotifierService } from 'angular-notifier';
 import { ListNotifyType } from 'fe_shop/src/app/shared/shared.utils';
 import { FormsModule } from '@angular/forms';
+import {MatRadioModule} from '@angular/material/radio';
 @Component({
   selector: 'app-thanhtoan',
   standalone:true,
   imports:[DecimalPipe,
-    FormsModule
+    FormsModule,
+    MatRadioModule
   ],
   templateUrl: './thanhtoan.component.html',
   styleUrls: ['./thanhtoan.component.css']
@@ -27,7 +29,7 @@ export class ThanhtoanComponent implements OnInit {
   ListNotifyType:any=ListNotifyType
   Notify:any={}
   Donhang:any={}
-  Thanhtoan:any={}
+  Thanhtoan:any={Hinhthuc:'COD'}
   Vanchuyen:any={}
   constructor(private _snackBar: MatSnackBar) { }
 

@@ -37,19 +37,18 @@
                         <div class="lg:col-span-2">
                             <label class="block text-sm text-default-700 mb-2">Họ Tên *</label>
                             <input [(ngModel)]="Khachhang.Hoten" [ngModelOptions]="{standalone: true}"
-                        
                                 class="block w-full bg-transparent dark:bg-default-50 rounded-full py-2.5 px-4 border border-default-200"
                                 type="text" placeholder="First Name">
                         </div>
                         <div class="lg:col-span-2">
                             <label class="block text-sm text-default-700 mb-2">Địa Chỉ *</label>
-                            <input [(ngModel)]="Khachhang.Diachi" [ngModelOptions]="{standalone: true}" 
+                            <input [(ngModel)]="Khachhang.Diachi" [ngModelOptions]="{standalone: true}"
                                 class="block w-full bg-transparent dark:bg-default-50 rounded-full py-2.5 px-4 border border-default-200"
                                 type="text" placeholder="Vui lòng nhập địa chỉ">
                         </div>
                         <div class="lg:col-span-2">
                             <label class="block text-sm text-default-700 mb-2">Email </label>
-                            <input 
+                            <input
                                 class="block w-full bg-transparent dark:bg-default-50 rounded-full py-2.5 px-4 border border-default-200"
                                 type="text" placeholder="example@gmail.com">
                         </div>
@@ -75,130 +74,98 @@
                     <h4 class="text-lg font-medium text-default-800 mb-6">Hình thức thanh toán</h4>
 
                     <div class="border border-default-200 rounded-lg p-6 lg:w-full mb-5">
-                        <div class="grid lg:grid-cols-4 grid-cols-2">
-                            <div class="text-center p-6">
-                                <label for="paymentCOD" class="flex flex-col items-center justify-center mb-4">
+                        <mat-radio-group class="grid lg:grid-cols-3 grid-cols-3 gap-8" [color]="'primary'" [(ngModel)]="Thanhtoan.Hinhthuc">
+                             <div class="flex flex-row items-center space-x-2 p-2">
+                                <label for="paymentCOD">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                         stroke-linejoin="round" data-lucide="dollar-sign"
-                                        class="lucide lucide-dollar-sign text-primary mb-4">
+                                        class="lucide lucide-dollar-sign text-primary">
                                         <line x1="12" x2="12" y1="2" y2="22"></line>
                                         <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
                                     </svg>
-                                    <h5 class="text-sm font-medium text-default-700">Trả tiền khi nhận hàng</h5>
                                 </label>
-                                <input id="paymentCOD"
-                                    class="text-primary w-5 h-5 bg-transparent border-default-200 focus:ring-0"
-                                    type="radio" name="paymentOption" checked="">
-                            </div>
+                                <span class="text-sm font-medium text-default-700">Trả tiền mặt (COD)</span>
+                                <div>
+                                    <mat-radio-button class="example-radio-button" [value]="'COD'"></mat-radio-button>
+                                </div>
 
-                            <!-- <div class="text-center p-6">
-                                <label for="paymentPaypal" class="flex flex-col items-center justify-center mb-4">
-                                    <img src="/yum/assets/paypal-2-80f6ebd0.svg" class="w-6 h-6 mb-4">
-                                    <h5 class="text-sm font-medium text-default-700">Paypal</h5>
-                                </label>
-                                <input id="paymentPaypal"
-                                    class="text-primary w-5 h-5 bg-transparent border-default-200 focus:ring-0"
-                                    type="radio" name="paymentOption">
                             </div>
+                            <div class="flex flex-row items-center space-x-2 p-2">
+                                <label for="paymentCard">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" data-lucide="credit-card"
+                                        class="lucide lucide-credit-card text-primary">
+                                        <rect width="20" height="14" x="2" y="5" rx="2"></rect>
+                                        <line x1="2" x2="22" y1="10" y2="10"></line>
+                                    </svg>
+                                </label>
+                                <span class="text-sm font-medium text-default-700">Ck qua bank (VNPAY)</span>
+                                <div>
+                                    <mat-radio-button class="example-radio-button" [value]="'VNPAY'"></mat-radio-button>
+                                </div>
+                            </div>
+                            <div class="flex flex-row items-center space-x-2 p-2">
+                                <label for="paymentCard">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" data-lucide="credit-card"
+                                        class="lucide lucide-credit-card text-primary">
+                                        <rect width="20" height="14" x="2" y="5" rx="2"></rect>
+                                        <line x1="2" x2="22" y1="10" y2="10"></line>
+                                    </svg>
+                                </label>
+                                <span class="text-sm font-medium text-default-700">MOMO</span>
+                                <div>
+                                    <mat-radio-button class="example-radio-button" [value]="'MOMO'"></mat-radio-button>
+                                </div>
 
-                            <div class="text-center p-6">
-                                <label for="paymentAmazonPay" class="flex flex-col items-center justify-center mb-4">
-                                    <img src="/yum/assets/amazon-b4e0cd8f.svg" class="w-6 h-6 mb-4">
-                                    <h5 class="text-sm font-medium text-default-700">Amazon Pay</h5>
-                                </label>
-                                <input id="paymentAmazonPay"
-                                    class="text-primary w-5 h-5 bg-transparent border-default-200 focus:ring-0"
-                                    type="radio" name="paymentOption">
-                            </div> -->
-                            <div class="text-center p-6">
-                                <label for="paymentCard" class="flex flex-col items-center justify-center mb-4">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                        stroke-linejoin="round" data-lucide="credit-card"
-                                        class="lucide lucide-credit-card text-primary mb-4">
-                                        <rect width="20" height="14" x="2" y="5" rx="2"></rect>
-                                        <line x1="2" x2="22" y1="10" y2="10"></line>
-                                    </svg>
-                                    <h5 class="text-sm font-medium text-default-700">Thẻ ghi nợ/Thẻ tín dụng</h5>
-                                </label>
-                                <input id="paymentCard"
-                                    class="text-primary w-5 h-5 bg-transparent border-default-200 focus:ring-0"
-                                    type="radio" name="paymentOption">
                             </div>
-                            <div class="text-center p-6">
-                                <label for="paymentCard" class="flex flex-col items-center justify-center mb-4">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                        stroke-linejoin="round" data-lucide="credit-card"
-                                        class="lucide lucide-credit-card text-primary mb-4">
-                                        <rect width="20" height="14" x="2" y="5" rx="2"></rect>
-                                        <line x1="2" x2="22" y1="10" y2="10"></line>
-                                    </svg>
-                                    <h5 class="text-sm font-medium text-default-700">VNPAY</h5>
-                                </label>
-                                <input id="paymentCard"
-                                    class="text-primary w-5 h-5 bg-transparent border-default-200 focus:ring-0"
-                                    type="radio" name="paymentOption">
-                            </div>
-                            <div class="text-center p-6">
-                                <label for="paymentCard" class="flex flex-col items-center justify-center mb-4">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                        stroke-linejoin="round" data-lucide="credit-card"
-                                        class="lucide lucide-credit-card text-primary mb-4">
-                                        <rect width="20" height="14" x="2" y="5" rx="2"></rect>
-                                        <line x1="2" x2="22" y1="10" y2="10"></line>
-                                    </svg>
-                                    <h5 class="text-sm font-medium text-default-700">MOMO</h5>
-                                </label>
-                                <input id="paymentCard"
-                                    class="text-primary w-5 h-5 bg-transparent border-default-200 focus:ring-0"
-                                    type="radio" name="paymentOption">
-                            </div>
-                        </div>
+                        </mat-radio-group>
                     </div>
 
-                    <div class="grid lg:grid-cols-2 gap-6">
-                        <div class="lg:col-span-2">
-                            <label class="block text-sm text-default-700 mb-2">Họ Tên Thẻ</label>
-                            <input 
-                                class="block w-full bg-transparent dark:bg-default-50 rounded-full py-2.5 px-4 border border-default-200"
-                                type="text" placeholder="Họ Tên Thẻ">
-                        </div>
-
-                        <div class="lg:col-span-2">
-                            <label class="block text-sm text-default-700 mb-2">Số Thẻ</label>
-                            <input 
-                                class="block w-full bg-transparent dark:bg-default-50 rounded-full py-2.5 px-4 border border-default-200"
-                                type="text" placeholder="Vui lòng nhập số thẻ">
-                        </div>
-
-                        <div>
-                            <label class="block text-sm text-default-700 mb-2">Ngày Hết Hạn</label>
-                            <input 
-                                class="block w-full bg-transparent dark:bg-default-50 rounded-full py-2.5 px-4 border border-default-200"
-                                type="text" placeholder="Tháng/Năm">
-                        </div>
-
-                        <div>
-                            <label class="block text-sm text-default-700 mb-2">CVC</label>
-                            <input 
-                                class="block w-full bg-transparent dark:bg-default-50 rounded-full py-2.5 px-4 border border-default-200"
-                                type="text" placeholder="Vui lòng nhập số CVC">
-                        </div>
-
-                    </div>
+                    @if (Thanhtoan.Hinhthuc=='VNPAY') {
+                        <div class="grid lg:grid-cols-2 gap-6" >
+                            <div class="lg:col-span-2">
+                                <label class="block text-sm text-default-700 mb-2">Họ Tên Thẻ</label>
+                                <input
+                                    class="block w-full bg-transparent dark:bg-default-50 rounded-full py-2.5 px-4 border border-default-200"
+                                    type="text" placeholder="Họ Tên Thẻ">
+                            </div>
+    
+                            <div class="lg:col-span-2">
+                                <label class="block text-sm text-default-700 mb-2">Số Thẻ</label>
+                                <input
+                                    class="block w-full bg-transparent dark:bg-default-50 rounded-full py-2.5 px-4 border border-default-200"
+                                    type="text" placeholder="Vui lòng nhập số thẻ">
+                            </div>
+    
+                            <div>
+                                <label class="block text-sm text-default-700 mb-2">Ngày Hết Hạn</label>
+                                <input
+                                    class="block w-full bg-transparent dark:bg-default-50 rounded-full py-2.5 px-4 border border-default-200"
+                                    type="text" placeholder="Tháng/Năm">
+                            </div>
+    
+                            <div>
+                                <label class="block text-sm text-default-700 mb-2">CVC</label>
+                                <input
+                                    class="block w-full bg-transparent dark:bg-default-50 rounded-full py-2.5 px-4 border border-default-200"
+                                    type="text" placeholder="Vui lòng nhập số CVC">
+                            </div>
+    
+                        </div>   
+                    }
                 </div>
 
                 <div>
                     <h4 class="text-lg font-medium text-default-800 mb-6">Thông tin bổ sung</h4>
 
                     <div>
-                        <textarea 
+                        <textarea
                             class="block w-full bg-transparent dark:bg-default-50 rounded-lg py-2.5 px-4 border border-default-200"
-                            rows="4" type="text"
-                            placeholder="Ghi chú giao hàng"></textarea>
+                            rows="4" type="text" placeholder="Ghi chú giao hàng"></textarea>
                     </div>
                 </div>
             </div>
@@ -210,9 +177,11 @@
                     <div class="flex items-center mb-4">
                         <img src="/assets/images/sanpham/{{item.Image.Main}}" class="h-20 w-20 me-2">
                         <div>
-                            <h4 class="text-sm text-default-600 mb-2">{{item.Title}}({{item?.Giachon?.loai}}{{item?.Giachon?.dvt}})</h4>
+                            <h4 class="text-sm text-default-600 mb-2">
+                                {{item.Title}}({{item?.Giachon?.loai}}{{item?.Giachon?.dvt}})</h4>
                             <h4 class="text-sm text-default-400">{{item.Soluong}} x <span
-                                    class="text-primary font-semibold">{{(item.Giachon.gia| number:'1.0-0')||'0'}}đ</span>
+                                    class="text-primary font-semibold">{{(item.Giachon.gia|
+                                    number:'1.0-0')||'0'}}đ</span>
                             </h4>
                         </div>
                     </div>
@@ -220,7 +189,8 @@
                     <div class="mb-6">
                         <div class="flex justify-between mb-3">
                             <p class="text-sm text-default-500">Tổng</p>
-                            <p class="text-sm text-default-700 font-medium">{{(GetTotal(Donhang.Giohangs,'Soluong','Giachon')|
+                            <p class="text-sm text-default-700 font-medium">
+                                {{(GetTotal(Donhang.Giohangs,'Soluong','Giachon')|
                                 number:'1.0-0')||'0'}}đ</p>
                         </div>
                         <div class="flex justify-between mb-3">
@@ -244,7 +214,8 @@
                         </div>
                     </div>
                     <a (click)="Xacnhandonhang(customSnackbar)"
-                        class="w-full inline-flex items-center justify-center rounded-full border border-primary bg-primary px-10 py-3 text-center text-sm font-medium text-white shadow-sm transition-all duration-500 hover:bg-primary-500">Xác Nhận</a>
+                        class="w-full inline-flex items-center justify-center rounded-full border border-primary bg-primary px-10 py-3 text-center text-sm font-medium text-white shadow-sm transition-all duration-500 hover:bg-primary-500">Xác
+                        Nhận</a>
                 </div>
             </div>
         </div>
@@ -253,7 +224,7 @@
 
 <ng-template #customSnackbar let-data="customData">
     <div class="flex flex-row items-center rounded-lg space-x-2">
-   <span class="material-symbols-outlined">{{ListNotifyType[this.Notify.type]}}</span>
-      <div>{{this.Notify.Noidung}}</div>  
+        <span class="material-symbols-outlined">{{ListNotifyType[this.Notify.type]}}</span>
+        <div>{{this.Notify.Noidung}}</div>
     </div>
 </ng-template>
