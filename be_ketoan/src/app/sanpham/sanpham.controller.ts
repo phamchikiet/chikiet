@@ -10,9 +10,17 @@ export class SanphamController {
   create(@Body() createSanphamDto: CreateSanphamDto) {
     return this.sanphamService.create(createSanphamDto);
   }
+  @Post('chung')
+  createchung(@Body() data: any) {
+    return this.sanphamService.createchung(data);
+  }
   @Get()
   async findAll() {
     return await this.sanphamService.findAll();
+  }
+  @Get('chung')
+  async findAllchung() {
+    return await this.sanphamService.findAllchung();
   }
   @Get('findid/:id')
   async findOne(@Param('id') id: string) {
@@ -29,6 +37,10 @@ export class SanphamController {
   @Post('search')
     async findQuery(@Body() SearchParams: any){
       return await this.sanphamService.findQuery(SearchParams);
+  }
+  @Post('searchchung')
+    async findQuerychung(@Body() SearchParams: any){
+      return await this.sanphamService.findQuerychung(SearchParams);
   }
   @Patch(':id')
   update(@Param('id') id: string, @Body() updateSanphamDto: UpdateSanphamDto) {

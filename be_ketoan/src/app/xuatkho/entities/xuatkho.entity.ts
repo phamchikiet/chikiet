@@ -6,8 +6,8 @@ import {
   UpdateDateColumn,
   DeleteDateColumn,
 } from 'typeorm';
-@Entity('nhapkho', {orderBy: { CreateAt: 'DESC' } })
-export class NhapkhoEntity {
+@Entity('xuatkho', {orderBy: { CreateAt: 'DESC' } })
+export class XuatkhoEntity {
   @PrimaryGeneratedColumn('uuid')
   id: string;
   @Column({ type: 'text', collation: 'utf8_general_ci' })
@@ -19,7 +19,7 @@ export class NhapkhoEntity {
   @Column({nullable:true, type: 'bigint'})
   Soluong: number;
   @Column({nullable:true, type: 'bigint'})
-  Gianhap: number;
+  Giaxuat: number;
   @Column({nullable:true, type: 'bigint'})
   Giavon: number;
   @Column({nullable:true, type: 'bigint'})

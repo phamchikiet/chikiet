@@ -1,18 +1,18 @@
 import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Like, Repository } from 'typeorm';
-import { NhapkhoEntity } from './entities/nhapkho.entity';
+import { TonkhoEntity } from './entities/tonkho.entity';
 @Injectable()
-export class NhapkhoService {
+export class TonkhoService {
   constructor(
-    @InjectRepository(NhapkhoEntity)
-    private NhapkhoRepository: Repository<NhapkhoEntity>
+    @InjectRepository(TonkhoEntity)
+    private TonkhoRepository: Repository<TonkhoEntity>
   ) { }
   async create(data: any) {
     const check = await this.findSHD(data)
     if(!check) {
-      this.NhapkhoRepository.create(data);
-      return await this.NhapkhoRepository.save(data);
+      this.TonkhoRepository.create(data);
+      return await this.TonkhoRepository.save(data);
     }
     else {
       return { error: 1001, data: "Trùng Dữ Liệu" }
@@ -21,69 +21,68 @@ export class NhapkhoService {
   }
 
   async findAll() {
-    return await this.NhapkhoRepository.find();
+    return await this.TonkhoRepository.find();
   }
   async findid(id: string) {
-    return await this.NhapkhoRepository.findOne({ where: { id: id } });
+    return await this.TonkhoRepository.findOne({ where: { id: id } });
   }
   async findSHD(data: any) {
-    return await this.NhapkhoRepository.findOne({
+    return await this.TonkhoRepository.findOne({
       where: {
-        SHD: data.SHD,
-        Gianhap: data.Gianhap,
-        Thang: data.Thang,
-        Soluong: data.Soluong,
+        Thang: Number(data.Thang),
+        Soluong:  Number(data.Soluong),
         TenSP: data.TenSP,
       },
     });
   }
   async findslug(SHD: any) {
-    return await this.NhapkhoRepository.findOne({
+    return await this.TonkhoRepository.findOne({
       where: { SHD: SHD },
     });
   }
   async findPagination(page: number, perPage: number) {
     const skip = (page - 1) * perPage;
-    const totalItems = await this.NhapkhoRepository.count();
-    const nhapkhos = await this.NhapkhoRepository.find({ skip, take: perPage });
+    const totalItems = await this.TonkhoRepository.count();
+    const tonkhos = await this.TonkhoRepository.find({ skip, take: perPage });
     return {
       currentPage: page,
       perPage,
       totalItems,
       totalPages: Math.ceil(totalItems / perPage),
-      data: nhapkhos,
+      data: tonkhos,
     };
   }
   async findQuery(params: any) {
     console.error(params);
-    const queryBuilder = this.NhapkhoRepository.createQueryBuilder('nhapkho');
+    const queryBuilder = this.TonkhoRepository.createQueryBuilder('tonkho');
     if (params.Batdau && params.Ketthuc) {
-      queryBuilder.andWhere('nhapkho.CreateAt BETWEEN :startDate AND :endDate', {
+      queryBuilder.andWhere('tonkho.CreateAt BETWEEN :startDate AND :endDate', {
         startDate: params.Batdau,
         endDate: params.Ketthuc,
       });
     }
     if (params.Title) {
-      queryBuilder.andWhere('nhapkho.Title LIKE :Title', { SDT: `%${params.Title}%` });
+      queryBuilder.andWhere('tonkho.Title LIKE :Title', { SDT: `%${params.Title}%` });
     }
     if (params.Thang) {
-      queryBuilder.andWhere('nhapkho.Thang = :Thang', { Thang: `${params.Thang}` });
+      queryBuilder.andWhere('tonkho.Thang = :Thang', { Thang: `${params.Thang}` });
+    }
+    if (params.Nam) {
+      queryBuilder.andWhere('tonkho.Nam = :Nam', { Nam: `${params.Nam}` });
     }
     const [items, totalCount] = await queryBuilder
       .limit(params.pageSize || 10) // Set a default page size if not provided
       .offset(params.pageNumber * params.pageSize || 0)
       .getManyAndCount();
-    console.log(items, totalCount);
-
     return { items, totalCount };
   }
-  async update(id: string, UpdateNhapkhoDto: any) {
-    this.NhapkhoRepository.save(UpdateNhapkhoDto);
-    return await this.NhapkhoRepository.findOne({ where: { id: id } });
+  async update(id: string, UpdateTonkhoDto: any) {
+    this.TonkhoRepository.save(UpdateTonkhoDto);
+    return await this.TonkhoRepository.findOne({ where: { id: id } });
   }
   async remove(id: string) {
     console.error(id)
-    await this.NhapkhoRepository.delete(id);
+    await this.TonkhoRepository.delete(id);
     return { deleted: true };
   }
 }

@@ -6,32 +6,22 @@ import {
   UpdateDateColumn,
   DeleteDateColumn,
 } from 'typeorm';
-@Entity('nhapkho', {orderBy: { CreateAt: 'DESC' } })
-export class NhapkhoEntity {
+@Entity('sanphamchung', {orderBy: { TenSP: 'ASC' } })
+export class SanphamchungEntity {
   @PrimaryGeneratedColumn('uuid')
   id: string;
   @Column({ type: 'text', collation: 'utf8_general_ci' })
-  idCT: string;
+  idSP: number;
   @Column({ type: 'text', collation: 'utf8_general_ci' })
   TenSP: string;
+  @Column({ type: 'text', collation: 'utf8_general_ci' })
+  TenSPXuat: string;
+  @Column({ type: 'text', collation: 'utf8_general_ci' })
+  TenSPNhap: string;
   @Column({nullable:true, type: 'text', collation: 'utf8_general_ci' })
   DVT: string;
-  @Column({nullable:true, type: 'bigint'})
-  Soluong: number;
-  @Column({nullable:true, type: 'bigint'})
-  Gianhap: number;
-  @Column({nullable:true, type: 'bigint'})
-  Giavon: number;
-  @Column({nullable:true, type: 'bigint'})
-  Tongtien: number;
   @Column({ type: 'text', collation: 'utf8_general_ci' })
-  SHD: string;
-  @Column({nullable:true})
-  Thang: number;
-  @Column({nullable:true})
-  Nam: number;
-  @Column({ nullable: true })
-  Ngaytao: Date;
+  Mota: string;
   @Column({ default: '' })
   Slug: string;
   @Column({collation: "utf8_general_ci",type:"simple-json",default: () => "('{}')" })
