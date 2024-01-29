@@ -27,12 +27,14 @@ export class DonhangAdminChitietComponent implements OnInit {
   _DonhangAdminComponent: DonhangAdminComponent = inject(DonhangAdminComponent);
   _GiohangService:GiohangService = inject(GiohangService)
   idSP:any;
+  Detail:any
   constructor() {
       this.idSP = this.route.snapshot.params['id'];
   }
   ngOnInit() {
     this._GiohangService.getDonhangByid(this.idSP)
     this._GiohangService.donhang$.subscribe((data)=>{console.log(data);
+      this.Detail=data
     })
   }
   CloseDrawer()
