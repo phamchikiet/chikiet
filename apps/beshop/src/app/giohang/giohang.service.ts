@@ -21,6 +21,9 @@ export class GiohangService {
   async findid(id: string) {
     return await this.GiohangRepository.findOne({ where: { id: id } });
   }
+  async findlistid(id: string) {
+    return await this.GiohangRepository.find({ where: { id: id } });
+  }
   // async findSHD(data: any) {
   //   return await this.GiohangRepository.findOne({
   //     where: {
