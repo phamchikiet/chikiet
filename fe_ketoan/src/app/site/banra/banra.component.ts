@@ -49,13 +49,13 @@ export class BanraComponent implements OnInit {
   Listfilter: any[] = []
   HoadonHHP: any
   ListBanra: any
-  Chonngay: any = { Batdau: new Date('2023-01-01'), Ketthuc: new Date('2023-01-31') }
+  Chonngay: any = { Batdau: new Date('2023-03-01'), Ketthuc: new Date('2023-03-31') }
   ttxly:any=5
   Thang:any=1
   Nam:any=2023
   Token:any=localStorage.getItem('TokenWeb')
   SearchParams: any = {
-    Thang:1,
+    Thang:3,
     Type:"XUAT",
     pageSize:1000,
     pageNumber:0
@@ -65,7 +65,6 @@ export class BanraComponent implements OnInit {
   constructor() {}
   async ngOnInit() {
     this.HoadonHHP  = await this._ShdhhpService.SearchShdhhp(this.SearchParams)
-    console.log(this.HoadonHHP); 
     this.ListBanra  = await this._BanraService.SearchBanra(this.SearchParams)
     // this.ListBanra.items.forEach((v:any) => {
     //   v.Ngaytao = moment(v.Dulieu.tdlap).format("YYYY-MM-DD")
@@ -126,8 +125,9 @@ export class BanraComponent implements OnInit {
     localStorage.setItem('TokenWeb',this.Token)
     console.log(this.HoadonHHP);
     console.log(this.Listfilter);
-    const data1Ids = new Set(this.Listfilter.map((obj: any) => obj.SHD));
+    const data1Ids = new Set(this.ListBanra.items.map((obj: any) => obj.SHD));
     const data = this.HoadonHHP.items.filter((obj: any) => !data1Ids.has(obj.SHD));
+    
     console.log(data);
     data.forEach((v:any,k:any) => {
       setTimeout(async () => {
@@ -141,7 +141,7 @@ export class BanraComponent implements OnInit {
         item.SHD = v.SHD
         item.Thang = v.Thang
         item.Type = v.Type
-        item.Ngaytao = moment(v.Dulieu.tdlap).format("YYYY-MM-DD")
+        item.Ngaytao = moment(result.datas[0].tdlap).format("YYYY-MM-DD")
         this._BanraService.CreateBanras(item)
         }   
       }, Math.random()*1000 + k*1000);

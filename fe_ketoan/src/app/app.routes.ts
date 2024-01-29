@@ -2,13 +2,16 @@ import { Route } from '@angular/router';
 import { MuavaoComponent } from './site/muavao/muavao.component';
 import { BanraComponent } from './site/banra/banra.component';
 import { CauhinhComponent } from './site/cauhinh/cauhinh.component';
-import { XuatnhaptonComponent } from './site/xuatnhapton/xuatnhapton.component';
 import { CauhinhDetailComponent } from './site/cauhinh/cauhinh-detail/cauhinh-detail.component';
 import { SanphamComponent } from './site/sanpham/sanpham.component';
 import { ShdhhpComponent } from './site/shdhhp/shdhhp.component';
 import { BanrachitietComponent } from './site/banra/banra-chitiet/banra-chitiet.component';
 import { MuavaochitietComponent } from './site/muavao/muavao-chitiet/muavao-chitiet.component';
 import { NhapkhoComponent } from './site/nhapkho/nhapkho.component';
+import { XuatkhoComponent } from './site/xuatkho/xuatkho.component';
+import { XuatnhaptonComponent } from './site/xuatnhapton/xuatnhapton.component';
+import { XNTComponent } from './site/xuatnhapton/XNT/XNT.component';
+import { TonkhoComponent } from './site/tonkho/tonkho.component';
 
 export const appRoutes: Route[] = [
     { path: '', redirectTo: 'shdhhp', pathMatch: 'full' },
@@ -53,16 +56,26 @@ export const appRoutes: Route[] = [
     {
         path: 'nhapkho',
         component: NhapkhoComponent,
-        title: 'Xuất Nhập Tồn'
+        title: 'Nhập Kho'
     },
     {
         path: 'xuatkho',
-        component: XuatnhaptonComponent,
-        title: 'Xuất Nhập Tồn'
+        component: XuatkhoComponent,
+        title: 'Xuất Kho'
+    },
+    {
+        path: 'tonkho',
+        component: TonkhoComponent,
+        title: 'Tồn Kho'
     },
     {
         path: 'xuatnhapton',
         component: XuatnhaptonComponent,
+        title: 'Xuất Nhập Tồn'
+    },
+    {
+        path: 'XNT',
+        component: XNTComponent,
         title: 'Xuất Nhập Tồn'
     }
 ];

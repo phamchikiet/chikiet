@@ -23,8 +23,38 @@ export class SanphamService {
           return console.error(error);
       }
   }
+  async getAllSanphamChung() {
+    try {
+      const options = {
+        method:'GET',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+      };
+          const response = await fetch(`${environment.APIURL}/sanpham/chung`,options);
+          const data = await response.json();                  
+          return data;
+      } catch (error) {
+          return console.error(error);
+      }
+  }
+  async CreateSanphamChung(item:any) {
+    try {
+        const options = {
+            method:'POST',
+            headers: {
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(item),
+          };
+          const response = await fetch(`${environment.APIURL}/sanpham/chung`, options);
+          
+          return await response.json();                  
+      } catch (error) {
+          return console.error(error);
+      }
+  }  
   async CreateSanpham(item:any) {
-    console.log(item);
     try {
         const options = {
             method:'POST',

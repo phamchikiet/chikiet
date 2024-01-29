@@ -11,13 +11,13 @@ import { MatNativeDateModule } from '@angular/material/core';
 import { MatDatepickerModule } from '@angular/material/datepicker';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatSelectChange, MatSelectModule } from '@angular/material/select';
-import { XuatnhaptonService } from './xuatnhapton.service';
-import { NhapkhoService } from '../nhapkho/nhapkho.service';
-import { XuatkhoService } from '../xuatkho/xuatkho.service';
-import { SanphamService } from '../sanpham/sanpham.service';
-import { TonkhoService } from '../tonkho/tonkho.service';
+import { NhapkhoService } from '../../nhapkho/nhapkho.service';
+import { SanphamService } from '../../sanpham/sanpham.service';
+import { XuatkhoService } from '../../xuatkho/xuatkho.service';
+import { XuatnhaptonService } from '../xuatnhapton.service';
+import { TonkhoService } from '../../tonkho/tonkho.service';
 @Component({
-  selector: 'app-xuatnhapton',
+  selector: 'app-xnt',
   standalone: true,
   imports: [CommonModule, 
     MatFormFieldModule, 
@@ -34,10 +34,10 @@ import { TonkhoService } from '../tonkho/tonkho.service';
     MatSelectModule,
     FormsModule,
   ],
-  templateUrl: './xuatnhapton.component.html',
-  styleUrls: ['./xuatnhapton.component.css']
+  templateUrl: './xnt.component.html',
+  styleUrls: ['./xnt.component.css']
 })
-export class XuatnhaptonComponent implements OnInit {
+export class XNTComponent implements OnInit {
   _XuatnhaptonService: XuatnhaptonService = inject(XuatnhaptonService);
   _NhapkhoService: NhapkhoService = inject(NhapkhoService);
   _XuatkhoService: XuatkhoService = inject(XuatkhoService);
@@ -71,22 +71,23 @@ export class XuatnhaptonComponent implements OnInit {
   @ViewChild(MatSort) sort!: MatSort;
   constructor() {}
   async ngOnInit() {
-    // this.ListXuatnhapton  = await this._XuatnhaptonService.SearchXuatnhapton(this.SearchParams)
+    // this.ListXNT  = await this._XNTService.SearchXNT(this.SearchParams)
     this.ListNhapkho  = await this._NhapkhoService.SearchNhapkho(this.SearchParams)
     this.ListXuatkho  = await this._XuatkhoService.SearchXuatkho(this.SearchParams)
     this.ListTonkho  = await this._TonkhoService.SearchTonkho(this.SearchParamsTonkho)
     this.ListXNT = this.ListSanpham  = await this._SanphamService.getAllSanpham()  
-    this.ListSanphamChung  = await this._SanphamService.getAllSanphamChung()  
+    const ListSanphamChung  = await this._SanphamService.getAllSanphamChung()  
     console.log(this.ListNhapkho);
     console.log(this.ListXuatkho);
     this.Listfilter = await Promise.all(
-      this.ListSanphamChung.map(async (v) => {
+      this.ListSanpham.map(async (v) => {
+        const matchingHave = ListSanphamChung.find((n:any) => n.TenSP == v.TenSP ||n.TenSPXuat == v.TenSP ||n.TenSPNhap == v.TenSP);
         const matchingTonkho = this.ListTonkho.items.filter((n:any) => n.TenSP == v.TenSP ||n.TenSP == v.TenSPXuat ||n.TenSP == v.TenSPNhap);
         const SLDK = matchingTonkho ? matchingTonkho.reduce((total:any, item:any) => total + Number(item.Soluong||0), 0) : 0
         const TongDK = matchingTonkho ? matchingTonkho.reduce((total:any, item:any) => total + Number(item.Tongtien||0), 0) : 0
         const matchingNhapkho = this.ListNhapkho.items.filter((n:any) => n.TenSP == v.TenSP ||n.TenSP == v.TenSPXuat ||n.TenSP == v.TenSPNhap);
         const SLN = matchingNhapkho ? matchingNhapkho.reduce((total:any, item:any) => total + Number(item.Soluong||0), 0) : 0
-        const TongNhap = matchingNhapkho ? matchingNhapkho.reduce((total:any, item:any) => total + Number(item.Tongtien||0), 0) : 0
+        const TongNhap = matchingNhapkho ? matchingNhapkho.reduce((total:any, item:any) => total + Number(item.Tongtien||0), 0) : 0       
         const matchingXuatkho = this.ListXuatkho.items.filter((n:any) => n.TenSP == v.TenSP ||n.TenSP == v.TenSPXuat ||n.TenSP == v.TenSPNhap);
         const SLX= matchingXuatkho ? matchingXuatkho.reduce((total:any, item:any) => total + Number(item.Soluong||0), 0) : 0
         const TongXuat= matchingXuatkho ? matchingXuatkho.reduce((total:any, item:any) => total + Number(item.Tongtien||0), 0) : 0
@@ -99,11 +100,12 @@ export class XuatnhaptonComponent implements OnInit {
           SLX: SLX,
           TongXuat: TongXuat,
           SLT: SLN - SLX,
-          TongTon:TongNhap - TongXuat
+          TongTon:TongNhap - TongXuat,
+          isHave:matchingHave ? true : false
         };
       })
     );  
-    // console.log(this.Listfilter);
+  console.log(this.Listfilter);
       this.dataSource = new MatTableDataSource(this.Listfilter);
       this.dataSource.paginator = this.paginator;
       this.dataSource.sort = this.sort;
@@ -128,14 +130,14 @@ export class XuatnhaptonComponent implements OnInit {
     window.URL.revokeObjectURL(url);
     link.remove();
   }
-  async LoadXuatnhapton()
+  async LoadXNT()
   {
 
   }
   async onChangeThang(event: MatSelectChange) {
     this.SearchParams.Thang = event.value
-    this.ListXuatnhapton = await this._XuatnhaptonService.SearchXuatnhapton(this.SearchParams)
-    console.log(this.ListXuatnhapton);
+    this.ListXNT = await this._XuatnhaptonService.SearchXuatnhapton(this.SearchParams)
+    console.log(this.ListXNT);
 
     // this.dataSource = new MatTableDataSource(this.ListSP?.items);
     // this.dataSource.paginator = this.paginator;

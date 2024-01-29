@@ -16,6 +16,7 @@ import { ChangeDateBegin, ChangeDateEnd, FilterDup, groupByfield, mergeNoDup } f
 import { NhapsanphamService } from '../../muavao/nhapsanpham.service';
 import { SanphamService } from '../../sanpham/sanpham.service';
 import * as moment from 'moment';
+import { XuatkhoService } from '../../xuatkho/xuatkho.service';
 @Component({
   selector: 'app-banrachitiet',
   standalone: true,
@@ -41,6 +42,7 @@ export class BanrachitietComponent implements OnInit {
   _BanraService: BanraService = inject(BanraService);
   _NhapsanphamService: NhapsanphamService = inject(NhapsanphamService);
   _SanphamService: SanphamService = inject(SanphamService);
+  _XuatkhoService: XuatkhoService = inject(XuatkhoService);
   displayedColumns: string[] = ['SHD', 'Thang','Ngaytao', 'ten', 'dvtinh', 'dgia', 'sluong', 'thtien', 'tgtttbso'];
   dataSource!: MatTableDataSource<any>;
   List: any[] = []
@@ -49,28 +51,32 @@ export class BanrachitietComponent implements OnInit {
   Listfilter: any[] = []
   ListBanra: any
   ListBanrachitiet: any
-  Chonngay: any = { Batdau: new Date('2023-01-01'), Ketthuc: new Date('2023-01-31') }
+  ListXuatkho: any
+  Chonngay: any = { Batdau: new Date('2023-03-01'), Ketthuc: new Date('2023-03-31') }
   ttxly: any = 5
   Thang: any = 1
   Nam: any = 2023
   Token: any = localStorage.getItem('TokenWeb')
   SearchParams: any = {
-    Thang: 1,
+    Thang: 3,
     Type: "XUAT",
-    pageSize: 1000,
+    pageSize: 500,
     pageNumber: 0
   };
   ListSanpham: any[] = []
   @ViewChild(MatPaginator) paginator!: MatPaginator;
   @ViewChild(MatSort) sort!: MatSort;
-  pageSizeOptions:any
+  pageSizeOptions:any[]=[5]
   Total:any=0
   constructor() { }
   async ngOnInit() {
     this.ListBanra = await this._BanraService.SearchBanra(this.SearchParams)
     this.ListBanrachitiet = await this._BanraService.SearchBanrachitiet(this.SearchParams)
-    console.log(this.ListBanrachitiet);
-    console.log(this.ListBanra);
+    this.ListXuatkho = await this._XuatkhoService.SearchXuatkho(this.SearchParams)
+     console.log(this.ListBanrachitiet);
+     console.log(this.ListBanra);
+    // console.log(this.ListXuatkho);
+    // console.log(this.ListBanrachitiet.items.map((v:any)=>(v.Dulieu)));
     // this.ListBanrachitiet.items.forEach((v:any) => {
     //   v.Ngaytao = moment(v.Dulieu.tdlap).format("YYYY-MM-DD")
     //   this._BanraService.UpdateBanrachitiet(v)
@@ -78,6 +84,7 @@ export class BanrachitietComponent implements OnInit {
     this.ListSanpham = this.ListBanrachitiet.items.flatMap((v: any) => {
       const dulieu = v.Dulieu.hdhhdvu as any[];
       return dulieu.map((v1: any) => ({
+        idCT:v1.id,
         dgia: v1.dgia,
         dvtinh: v1.dvtinh,
         sluong: v1.sluong,
@@ -89,6 +96,8 @@ export class BanrachitietComponent implements OnInit {
         tgtttbso: v.Dulieu.tgtttbso
       }));
     });
+    // console.log(this.ListSanpham);
+    
     this.dataSource = new MatTableDataSource(this.ListSanpham);
     this.dataSource.paginator = this.paginator;
     this.dataSource.sort = this.sort;
@@ -100,6 +109,7 @@ export class BanrachitietComponent implements OnInit {
     console.log(this.ListSanpham);
     const Sanpham = FilterDup(this.ListSanpham,'ten')
     console.log(Sanpham);
+    
     Sanpham.forEach((v:any)=>
     {
       const item:any = {}
@@ -107,6 +117,29 @@ export class BanrachitietComponent implements OnInit {
       item.DVT = v.dvtinh
       this._SanphamService.CreateSanpham(item)
     })
+  }
+  async Xuatkho()
+  {
+    const data1Ids = new Set(this.ListXuatkho.items.map((obj: any) => obj.idCT));
+    const data = this.ListSanpham.filter((obj: any) => !data1Ids.has(obj.idCT));
+    data.forEach((v:any,k:any)=>
+    {
+      setTimeout(() => {
+        const item:any={}
+        item.idCT = v.idCT;
+        item.TenSP = v.ten;
+        item.DVT = v.dvtinh;
+        item.Soluong = Number(v.sluong);
+        item.Giaxuat = Number(v.dgia);
+        item.Tongtien = Number(v.thtien);
+        item.Giavon = 0;
+        item.SHD = v.SHD;
+        item.Thang = v.Thang;
+        item.Nam = moment(v.Ngaytao).year();
+        item.Ngaytao = v.Ngaytao;
+        this._XuatkhoService.CreateXuatkhos(item)
+      }, Math.random()*100 +k*100);
+    }) 
   }
   ChangeDate() {
     this.Listfilter = this.List.filter((v: any) => {
@@ -149,8 +182,9 @@ export class BanrachitietComponent implements OnInit {
     localStorage.setItem('TokenWeb', this.Token)
     const data1Ids = new Set(this.ListBanrachitiet.items.map((obj: any) => obj.SHD));
     const data = this.ListBanra.items.filter((obj: any) => !data1Ids.has(obj.SHD));
-    console.log(data1Ids);
-
+   
+    console.log(data);
+    
     data.forEach((v: any, k: any) => {
       const value = v.Dulieu[0]
       setTimeout(async () => {

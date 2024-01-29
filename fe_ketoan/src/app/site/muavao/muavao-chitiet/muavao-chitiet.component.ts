@@ -16,6 +16,7 @@ import { ChangeDateBegin, ChangeDateEnd, FilterDup, groupByfield, mergeNoDup } f
 import { NhapsanphamService } from '../nhapsanpham.service';
 import { SanphamService } from '../../sanpham/sanpham.service';
 import * as moment from 'moment';
+import { NhapkhoService } from '../../nhapkho/nhapkho.service';
 @Component({
   selector: 'app-muavaochitiet',
   standalone: true,
@@ -41,6 +42,7 @@ export class MuavaochitietComponent implements OnInit {
   _MuavaoService: MuavaoService = inject(MuavaoService);
   _NhapsanphamService: NhapsanphamService = inject(NhapsanphamService);
   _SanphamService: SanphamService = inject(SanphamService);
+  _NhapkhoService: NhapkhoService = inject(NhapkhoService);
   displayedColumns: string[] = ['SHD', 'Thang','Ngaytao', 'ten', 'dvtinh', 'dgia', 'sluong', 'thtien', 'tgtttbso'];
   dataSource!: MatTableDataSource<any>;
   List: any[] = []
@@ -55,7 +57,7 @@ export class MuavaochitietComponent implements OnInit {
   Nam: any = 2023
   Token: any = localStorage.getItem('TokenWeb')
   SearchParams: any = {
-    Thang: 1,
+    Thang: 10,
     Type: "NHAP",
     pageSize: 1000,
     pageNumber: 0
@@ -69,7 +71,6 @@ export class MuavaochitietComponent implements OnInit {
   async ngOnInit() {
     this.ListMuavao = await this._MuavaoService.SearchMuavao(this.SearchParams)
     this.ListMuavaochitiet = await this._MuavaoService.SearchMuavaochitiet(this.SearchParams)
-    console.log(this.ListMuavaochitiet);
     // this.ListMuavaochitiet.items.forEach((v:any) => {
     //   v.Ngaytao = moment(v.Dulieu.tdlap).format("YYYY-MM-DD")
     //   this._MuavaoService.UpdateMuavaoChitiet(v)
@@ -93,16 +94,11 @@ export class MuavaochitietComponent implements OnInit {
     this.dataSource.sort = this.sort;
     this.Total = this.ListSanpham.length
     this.pageSizeOptions = [10, 20, this.Total].filter(v => v <= this.Total);
+    console.log(this.ListSanpham);
   }
 
   ChangeDate() {
-    this.Listfilter = this.List.filter((v: any) => {
-      const Ngaytao = new Date(v.tdlap)
-      return Ngaytao.getTime() >= this.Chonngay.Batdau.getTime() && Ngaytao.getTime() <= this.Chonngay.Ketthuc.getTime()
-    })
-    this.dataSource = new MatTableDataSource(this.Listfilter);
-    this.dataSource.paginator = this.paginator;
-    this.dataSource.sort = this.sort;
+    this.ngOnInit()
   }
   async onChangeThang(event: MatSelectChange) {
     this.Thang = event.value
@@ -126,6 +122,24 @@ export class MuavaochitietComponent implements OnInit {
       this._SanphamService.CreateSanpham(item)
     })
   }
+  Nhapkho()
+  {
+    this.ListSanpham.forEach((v)=>
+    {
+      const item:any={}
+      item.TenSP = v.ten;
+      item.DVT = v.dvtinh;
+      item.Soluong = Number(v.sluong);
+      item.Gianhap = Number(v.dgia);
+      item.Tongtien = Number(v.thtien);
+      item.Giavon = 0;
+      item.SHD = v.SHD;
+      item.Thang = v.Thang;
+      item.Nam = moment(v.Ngaytao).year();
+      item.Ngaytao = v.Ngaytao;
+      this._NhapkhoService.CreateNhapkhos(item)
+    }) 
+  }
   async onChangeTinhtrang(event: MatSelectChange) {
     console.log(event.value);
   }
@@ -147,8 +161,9 @@ export class MuavaochitietComponent implements OnInit {
   }
   TimHD() {
     localStorage.setItem('TokenWeb', this.Token)
-    console.log(this.ListMuavao.items);
-    this.ListMuavao.items.forEach((v: any, k: any) => {
+    const data1Ids = new Set(this.ListMuavaochitiet.items.map((obj: any) => obj.SHD));
+    const data = this.ListMuavao.items.filter((obj: any) => !data1Ids.has(obj.SHD));
+    data.forEach((v: any, k: any) => {
       const value = v.Dulieu[0]
       setTimeout(async () => {
         const result = await this._MuavaoService.GetMuavaochitiets(value.nbmst, value.khhdon, value.shdon, value.khmshdon, this.Token)
@@ -178,6 +193,7 @@ export class MuavaochitietComponent implements OnInit {
     //   console.log(this.Listfilter);
     // }
   }
+
   Subtotal(items: any[], field: any) {
     if (items.length > 0) {
       const totalSum = items.reduce((total: any, item: any) => total + item[field], 0);

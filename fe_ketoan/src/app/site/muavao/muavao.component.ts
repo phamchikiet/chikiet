@@ -49,25 +49,27 @@ export class MuavaoComponent implements OnInit {
   Listfilter: any[] = []
   HoadonHHP: any
   ListMuavao: any
-  Chonngay: any = { Batdau: new Date('2023-01-01'), Ketthuc: new Date('2023-01-31') }
+  Chonngay: any = { Batdau: new Date('2023-11-01'), Ketthuc: new Date('2023-11-30') }
   ttxly:any=5
   Thang:any=1
   Nam:any=2023
   Token:any=localStorage.getItem('TokenWeb')
   SearchParams: any = {
-    Thang:1,
+    Thang:12,
     Type:"NHAP",
     pageSize:1000,
     pageNumber:0
   };
   @ViewChild(MatPaginator) paginator!: MatPaginator;
   @ViewChild(MatSort) sort!: MatSort;
+  pageSizeOptions:any
   constructor() {}
   async ngOnInit() {
     this.HoadonHHP  = await this._ShdhhpService.SearchShdhhp(this.SearchParams)
-    console.log(this.HoadonHHP);
     this.ListMuavao  = await this._MuavaoService.SearchMuavao(this.SearchParams)
+    console.log(this.HoadonHHP);
     console.log(this.ListMuavao);
+    
     // this.ListMuavao.items.forEach((v:any) => {
     //   v.Ngaytao = moment(v.Dulieu.tdlap).format("YYYY-MM-DD")
     //   this._MuavaoService.UpdateMuavao(v)
@@ -77,6 +79,7 @@ export class MuavaoComponent implements OnInit {
       this.dataSource = new MatTableDataSource(this.Listfilter);
       this.dataSource.paginator = this.paginator;
       this.dataSource.sort = this.sort;
+      this.pageSizeOptions = [10, 20, this.ListMuavao.totalCount].filter(v => v <= this.ListMuavao.totalCount);
   }
   ChangeDate() {
     this.Listfilter = this.List.filter((v: any) => {
@@ -121,7 +124,13 @@ export class MuavaoComponent implements OnInit {
   }
   TimHD() {
     localStorage.setItem('TokenWeb',this.Token)
-    this.HoadonHHP.items.forEach((v:any,k:any) => {
+    const data1Ids = new Set(this.ListMuavao.items.map((obj: any) => obj.SHD));
+    const data = this.HoadonHHP.items.filter((obj: any) => !data1Ids.has(obj.SHD));
+    console.log(data1Ids);
+    console.log(this.HoadonHHP.items);
+    console.log(data);
+    
+    data.forEach((v:any,k:any) => {
       setTimeout(async () => {
         const result = await this._MuavaoService.GetMuavaos(ChangeDateBegin(this.Chonngay.Batdau),ChangeDateEnd(this.Chonngay.Ketthuc),v.SHD,this.Token,this.ttxly)
         if(result && result.datas.length>0)
@@ -131,7 +140,7 @@ export class MuavaoComponent implements OnInit {
         item.SHD = v.SHD
         item.Thang = v.Thang
         item.Type = v.Type
-        item.Ngaytao = moment(v.Dulieu.tdlap).format("YYYY-MM-DD")
+        item.Ngaytao = moment(result.datas[0].tdlap).format("YYYY-MM-DD")
         this._MuavaoService.CreateMuavaos(item)
         }   
       }, Math.random()*1000 + k*1000);

@@ -4,35 +4,35 @@ import { environment } from 'fe_ketoan/src/environments/environment';
 @Injectable({
   providedIn: 'root'
 })
-export class XuatnhaptonService {
-  private _xuatnhaptons: BehaviorSubject<any[] | null> = new BehaviorSubject<any[] | null>(null);
-  private _xuatnhapton: BehaviorSubject<any | null> = new BehaviorSubject<any | null>(null);
-  private _xuatnhaptonchitiets: BehaviorSubject<any[] | null> = new BehaviorSubject<any[] | null>(null);
-  private _xuatnhaptonchitiet: BehaviorSubject<any | null> = new BehaviorSubject<any | null>(null);
-  get xuatnhaptons$(): Observable<any[] | null> {
-    return this._xuatnhaptons.asObservable();
+export class XuatkhoService {
+  private _xuatkhos: BehaviorSubject<any[] | null> = new BehaviorSubject<any[] | null>(null);
+  private _xuatkho: BehaviorSubject<any | null> = new BehaviorSubject<any | null>(null);
+  private _xuatkhochitiets: BehaviorSubject<any[] | null> = new BehaviorSubject<any[] | null>(null);
+  private _xuatkhochitiet: BehaviorSubject<any | null> = new BehaviorSubject<any | null>(null);
+  get xuatkhos$(): Observable<any[] | null> {
+    return this._xuatkhos.asObservable();
   }
-  get xuatnhapton$(): Observable<any | null> {
-    return this._xuatnhapton.asObservable();
+  get xuatkho$(): Observable<any | null> {
+    return this._xuatkho.asObservable();
   }
-  get xuatnhaptonchitiets$(): Observable<any[] | null> {
-    return this._xuatnhaptonchitiets.asObservable();
+  get xuatkhochitiets$(): Observable<any[] | null> {
+    return this._xuatkhochitiets.asObservable();
   }
-  get xuatnhaptonchitiet$(): Observable<any | null> {
-    return this._xuatnhaptonchitiet.asObservable();
+  get xuatkhochitiet$(): Observable<any | null> {
+    return this._xuatkhochitiet.asObservable();
   }
   constructor() { }
-  async ListXuatnhaptons() {
+  async ListXuatkhos() {
     try {
-      const response = await fetch(environment.APIURL + '/xuatnhapton');
+      const response = await fetch(environment.APIURL + '/xuatkho');
       const data = await response.json();
-      this._xuatnhaptons.next(data);
+      this._xuatkhos.next(data);
       return data;
     } catch (error) {
       return console.error(error);
     }
   }
-  async SearchXuatnhapton(item: any) {
+  async SearchXuatkho(item: any) {
     try {
       const options = {
         method: 'POST',
@@ -41,7 +41,7 @@ export class XuatnhaptonService {
         },
         body: JSON.stringify(item),
       };
-      const response = await fetch(`${environment.APIURL}/xuatnhapton/search`, options);
+      const response = await fetch(`${environment.APIURL}/xuatkho/search`, options);
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
       }
@@ -51,7 +51,7 @@ export class XuatnhaptonService {
       return console.error(error);
     }
   }
-  async UpdateXuatnhapton(item: any) {
+  async UpdateXuatkho(item: any) {
     try {
       const options = {
         method: 'PATCH',
@@ -60,7 +60,7 @@ export class XuatnhaptonService {
         },
         body: JSON.stringify(item),
       };
-      const response = await fetch(`${environment.APIURL}/xuatnhapton/${item.id}`, options);
+      const response = await fetch(`${environment.APIURL}/xuatkho/${item.id}`, options);
       const result = await response.json();
       console.log(result);
 
@@ -68,7 +68,7 @@ export class XuatnhaptonService {
       return console.error(error);
     }
   }
-  async DeleteXuatnhapton(itemId: any) {
+  async DeleteXuatkho(itemId: any) {
     try {
       const options = {
         method: 'DELETE',
@@ -76,7 +76,7 @@ export class XuatnhaptonService {
           'Content-Type': 'application/json',
         },
       };
-      const response = await fetch(`${environment.APIURL}/xuatnhapton/${itemId}`, options);
+      const response = await fetch(`${environment.APIURL}/xuatkho/${itemId}`, options);
       const result = await response.json();
       console.log(result);
 
@@ -84,7 +84,7 @@ export class XuatnhaptonService {
       return console.error(error);
     }
   }
-  async CreateXuatnhaptons(item: any) {
+  async CreateXuatkhos(item: any) {
     try {
       const options = {
         method: 'POST',
@@ -93,7 +93,7 @@ export class XuatnhaptonService {
         },
         body: JSON.stringify(item),
       };
-      const response = await fetch(`${environment.APIURL}/xuatnhapton`, options);
+      const response = await fetch(`${environment.APIURL}/xuatkho`, options);
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
       }

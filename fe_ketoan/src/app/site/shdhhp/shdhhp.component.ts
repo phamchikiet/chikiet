@@ -37,7 +37,7 @@ export class ShdhhpComponent implements OnInit {
     // Ketthuc: moment("2023-01-31").endOf('day').toDate(),
     Thang:1,
     Type:"XUAT",
-    pageSize:10,
+    pageSize:1000,
     pageNumber:0
   };
   ListSP: any={}

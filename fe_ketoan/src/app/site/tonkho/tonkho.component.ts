@@ -6,17 +6,16 @@ import { MatInputModule } from '@angular/material/input';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { CommonModule } from '@angular/common';
 import * as XLSX from 'xlsx';
-import { NhapkhoService } from './nhapkho.service';
+import { TonkhoService } from './tonkho.service';
 import { MatButtonModule } from '@angular/material/button';
 import { MatNativeDateModule } from '@angular/material/core';
 import { MatDatepickerModule } from '@angular/material/datepicker';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatSelectChange, MatSelectModule } from '@angular/material/select';
 @Component({
-  selector: 'app-nhapkho',
+  selector: 'app-tonkho',
   standalone: true,
-  imports: [
-    CommonModule, 
+  imports: [CommonModule, 
     MatFormFieldModule, 
     MatInputModule, 
     MatTableModule, 
@@ -31,20 +30,22 @@ import { MatSelectChange, MatSelectModule } from '@angular/material/select';
     MatSelectModule,
     FormsModule
   ],
-  templateUrl: './nhapkho.component.html',
-  styleUrls: ['./nhapkho.component.css']
+  templateUrl: './tonkho.component.html',
+  styleUrls: ['./tonkho.component.css']
 })
-export class NhapkhoComponent implements OnInit {
-  _NhapkhoService: NhapkhoService = inject(NhapkhoService);
-  displayedColumns: string[] = ['SHD', 'Thang','Ngaytao','TenSP','DVT','Soluong', 'Gianhap', 'Giavon','Tongtien'];
+export class TonkhoComponent implements OnInit {
+
+  _TonkhoService: TonkhoService = inject(TonkhoService);
+  displayedColumns: string[] = ['SHD', 'Thang','Ngaytao','TenSP','DVT','Soluong', 'Giaxuat', 'Giavon','Tongtien'];
   dataSource!: MatTableDataSource<any>;
-  ListNhapkho: any
+  ListTonkho: any
   Listfilter: any[]=[]
   Chonngay: any = { Batdau: new Date('2023-01-01'), Ketthuc: new Date('2023-01-31') }
   SearchParams: any = {
-    Thang:1,
-    Type:"NHAP",
-    pageSize:1000,
+    Thang:12,
+    Nam:2022,
+    Type:"XUAT",
+    pageSize:5,
     pageNumber:0
   };
   pageSizeOptions:any[]=[5]
@@ -52,21 +53,48 @@ export class NhapkhoComponent implements OnInit {
   @ViewChild(MatSort) sort!: MatSort;
   constructor() {}
   async ngOnInit() {
-    console.log(this.SearchParams);
-    
-    this.ListNhapkho  = await this._NhapkhoService.SearchNhapkho(this.SearchParams)
-    console.log(this.ListNhapkho); 
-      this.dataSource = new MatTableDataSource(this.ListNhapkho.items);
+    this.ListTonkho  = await this._TonkhoService.SearchTonkho(this.SearchParams)
+    console.log(this.ListTonkho);
+      this.dataSource = new MatTableDataSource(this.ListTonkho.items);
       this.dataSource.paginator = this.paginator;
       this.dataSource.sort = this.sort;
-      this.pageSizeOptions = [10, 20, this.ListNhapkho.totalCount].filter(v => v <= this.ListNhapkho.totalCount);
+      this.pageSizeOptions = [10, 20, this.ListTonkho.totalCount].filter(v => v <= this.ListTonkho.totalCount);
   }
-  async ChangeDate() {
-    this.ListNhapkho  = await this._NhapkhoService.SearchNhapkho(this.SearchParams)
-      this.dataSource = new MatTableDataSource(this.ListNhapkho);
-      this.dataSource.paginator = this.paginator;
-      this.dataSource.sort = this.sort;
-      this.pageSizeOptions = [10, 20, this.ListNhapkho.items.length].filter(v => v <= this.ListNhapkho.items.length);
+  ChangeDate() {
+    // this.Listfilter = this.ListTonkho.filter((v: any) => {
+    //   const Ngaytao = new Date(v.tdlap)
+    //     return Ngaytao.getTime() >= this.Chonngay.Batdau.getTime() && Ngaytao.getTime() <= this.Chonngay.Ketthuc.getTime()
+    //   })
+    //   this.dataSource = new MatTableDataSource(this.Listfilter);
+    //   this.dataSource.paginator = this.paginator;
+    //   this.dataSource.sort = this.sort;
+  }
+  readExcelFile(event: any) {
+    const file = event.target.files[0];
+    const fileReader = new FileReader();
+    fileReader.onload = (e) => {
+      const data = new Uint8Array((e.target as any).result);
+      const workbook = XLSX.read(data, { type: 'array' });
+      const sheetName = workbook.SheetNames[0];
+      const worksheet = workbook.Sheets[sheetName];
+      const jsonData = XLSX.utils.sheet_to_json(worksheet, { raw: true });
+      console.log(jsonData);
+      jsonData.forEach((v:any,k:any) => {
+        setTimeout(() => {
+          const item:any = {}
+          item.TenSP =v.TenSP
+          item.DVT =  v.DVT
+          item.Soluong =v.Soluong
+          item.Giaxuat = v.Giaxuat
+          item.Giavon = v.Giavon
+          item.Tongtien = v.Tongtien
+          item.Thang =  v.Thang
+          item.Nam = v.Nam
+          this._TonkhoService.CreateTonkhos(item)
+        },100*k);
+      });
+    };
+    fileReader.readAsArrayBuffer(file);
   }
   writeExcelFile(data: any) {
     const worksheet: XLSX.WorkSheet = XLSX.utils.json_to_sheet(data);
@@ -84,10 +112,10 @@ export class NhapkhoComponent implements OnInit {
     window.URL.revokeObjectURL(url);
     link.remove();
   }
-  async LoadNhapkho()
+  async LoadTonkho()
   {
-    this.ListNhapkho  = await this._NhapkhoService.SearchNhapkho(this.SearchParams)
-    this.Listfilter = this.ListNhapkho.items.map((v:any)=>(v.Dulieu[0]))  
+    this.ListTonkho  = await this._TonkhoService.SearchTonkho(this.SearchParams)
+    this.Listfilter = this.ListTonkho.items.map((v:any)=>(v.Dulieu[0]))  
     console.log(this.Listfilter.map((v:any)=>({shd:v.shdon}))); 
     if(this.Listfilter.length>0)   
     {
@@ -99,8 +127,8 @@ export class NhapkhoComponent implements OnInit {
   }
   async onChangeThang(event: MatSelectChange) {
     this.SearchParams.Thang = event.value
-    this.ListNhapkho = await this._NhapkhoService.SearchNhapkho(this.SearchParams)
-    console.log(this.ListNhapkho);
+    this.ListTonkho = await this._TonkhoService.SearchTonkho(this.SearchParams)
+    console.log(this.ListTonkho);
 
     // this.dataSource = new MatTableDataSource(this.ListSP?.items);
     // this.dataSource.paginator = this.paginator;
@@ -108,13 +136,14 @@ export class NhapkhoComponent implements OnInit {
   }
   Subtotal(items:any[],field:any)
   {
-    if(items.length>0)
+    if(items&&items.length>0)
     {
     const totalSum = items.reduce((total:any, item:any) => total + Number(item[field]||0), 0);
     return totalSum
     }
     else return 0
   }
+  
   applyFilter(event: Event) {
     const filterValue = (event.target as HTMLInputElement).value;
     if(filterValue.length> 2)
@@ -128,4 +157,3 @@ export class NhapkhoComponent implements OnInit {
     
   }
 }
-

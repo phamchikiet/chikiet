@@ -3,7 +3,7 @@
     <div class="flex flex-row space-x-2 p-2">
     <mat-form-field>
         <mat-label>Tháng</mat-label>
-        <mat-select [(ngModel)]="SearchParams.Thang" [ngModelOptions]="{standalone: true}" (selectionChange)="onChangeThang($event)">
+        <mat-select [(ngModel)]="SearchParams.Thang" [ngModelOptions]="{standalone: true}" (selectionChange)="ngOnInit()">
           @for (item of [1,2,3,4,5,6,7,8,9,10,11,12]; track $index) {
             <mat-option [value]="item">{{item}}</mat-option>
           }
@@ -27,7 +27,7 @@
       <mat-date-range-picker #rangePicker>
         <mat-date-range-picker-actions>
           <button mat-button matDateRangePickerCancel>Cancel</button>
-          <button mat-raised-button color="primary" matDateRangePickerApply (click)="ChangeDate()">Đồng Ý</button>
+          <button mat-raised-button color="primary" matDateRangePickerApply (click)="ngOnInit()">Đồng Ý</button>
         </mat-date-range-picker-actions>
       </mat-date-range-picker>
     </mat-form-field>
@@ -41,6 +41,7 @@
     <button mat-stroked-button (click)="TimHD()">Hoá Đơn Tổng Cục</button>
     <button mat-stroked-button (click)="LoadMuavaochitiet()">Hoá Đơn Local</button>
     <button mat-stroked-button (click)="filterSanpham()">Lọc Sản Phẩm</button>
+    <button mat-stroked-button (click)="Nhapkho()">Nhập Kho</button>
     <!-- <button mat-stroked-button (click)="NhapSanpham()">Nhập Sản Phẩm</button> -->
     <span>  {{this.ListMuavao?.totalCount}}/{{this.ListMuavaochitiet?.totalCount}}/{{this.Listfilter.length}}</span>
   </div>
