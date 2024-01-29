@@ -10,8 +10,16 @@ export class GiohangService {
     _LocalStorageService:LocalStorageService=inject(LocalStorageService)
     private _giohang: BehaviorSubject<any| null> = new BehaviorSubject<any | null>(null);
     private _donhang: BehaviorSubject<any| null> = new BehaviorSubject<any | null>(null);
+    private _addonhangs: BehaviorSubject<any[]|[]> = new BehaviorSubject<any | null>(null);
+    private _addonhang: BehaviorSubject<any| null> = new BehaviorSubject<any | null>(null);
     Giohangs: any  = this._LocalStorageService.getItem('Giohang')||[]
     Donhang:any = this._LocalStorageService.getItem('Donhang')||{}
+    get addonhangs$(): Observable<any[] | null> {
+      return this._addonhangs.asObservable();
+    }
+    get addonhang$(): Observable<any | null> {
+      return this._addonhang.asObservable();
+    }
     get giohang$(): Observable<any[] | null> {
       return this._giohang.asObservable();
     }
@@ -56,6 +64,46 @@ export class GiohangService {
             return console.error(error);
         }
     }
+    async getAdDonhangs(): Promise<any> {
+        try {
+            const options = {
+                method: 'GET',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+            };
+            const response = await fetch(`${environment.APIURL}/donhang`, options);
+            if (!response.ok) { // Check for non-2xx status codes
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            if (!response.ok) { // Check for non-2xx status codes
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            const data = await response.json();
+            this._addonhangs.next(data)
+        } catch (error) {
+            return console.error(error);
+        }
+    }
+    async getAdDonhangByid(id:any): Promise<any> {
+        try {
+            const options = {
+                method: 'GET',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+            };
+            const response = await fetch(`${environment.APIURL}/donhang/findid/${id}`, options);
+            if (!response.ok) { // Check for non-2xx status codes
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            const data = await response.json();
+            this._addonhang.next(data)
+        } catch (error) {
+            return console.error(error);
+        }
+    }
+
     async getDonhang(): Promise<any> {
         this._donhang.next(this.Donhang)
         this._LocalStorageService.setItem('Donhang',this.Donhang)
