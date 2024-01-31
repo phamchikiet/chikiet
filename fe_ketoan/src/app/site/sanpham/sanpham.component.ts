@@ -45,7 +45,15 @@ export class SanphamComponent implements OnInit {
     console.log(this.ListSPChung);
     this.ListSP.forEach((v)=>
     {
-      const matchingHave = this.ListSPChung.find((n:any) => n.TenSP == v.TenSP ||n.TenSPXuat == v.TenSP ||n.TenSPNhap == v.TenSP||n.TenSP1 == v.TenSP||n.TenSP2 == v.TenSP);
+      const matchingHave = this.ListSPChung.find((n:any) => 
+      n.TenSP == v.TenSP 
+      ||n.TenSPXuat == v.TenSP 
+      ||n.TenSPNhap == v.TenSP
+      ||n.TenSP1 == v.TenSP
+      ||n.TenSP2 == v.TenSP
+      ||n.TenSP3 == v.TenSP
+      ||n.TenSP4 == v.TenSP
+      );
       v.isHave= matchingHave ? true : false
       return v
     })
@@ -94,10 +102,20 @@ export class SanphamComponent implements OnInit {
       this.Sanphamchung.TenSP1 =item
       this.Select =3
     }
-    else
+    else if (this.Select==3)
     {
       this.Sanphamchung.TenSP2 =item
       this.Select =4
+    }
+    else if (this.Select==4)
+    {
+      this.Sanphamchung.TenSP3 =item
+      this.Select =5
+    }
+    else
+    {
+      this.Sanphamchung.TenSP4 =item
+      this.Select =6
     }
   }
   Reset()

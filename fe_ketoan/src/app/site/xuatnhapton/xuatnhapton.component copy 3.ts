@@ -16,8 +16,6 @@ import { NhapkhoService } from '../nhapkho/nhapkho.service';
 import { XuatkhoService } from '../xuatkho/xuatkho.service';
 import { SanphamService } from '../sanpham/sanpham.service';
 import { TonkhoService } from '../tonkho/tonkho.service';
-import { groupByfield } from '../../shared/shared.utils';
-import * as moment from 'moment';
 @Component({
   selector: 'app-xuatnhapton',
   standalone: true,
@@ -59,7 +57,6 @@ export class XuatnhaptonComponent implements OnInit {
   Chonngay: any = { Batdau: new Date('2023-01-01'), Ketthuc: new Date('2023-01-31') }
   SearchParams: any = {
     Thang:1,
-    Nam:2023,
     Type:"NHAP",
     pageSize:9000,
     pageNumber:0
@@ -71,15 +68,62 @@ export class XuatnhaptonComponent implements OnInit {
     pageNumber:0
   };
   pageSizeOptions:any[]=[5]
-  XNTData:any[]=[]
   @ViewChild(MatPaginator) paginator!: MatPaginator;
   @ViewChild(MatSort) sort!: MatSort;
   constructor() {}
   async ngOnInit() {
-  }
-  GetXuat()
-  {
-    
+    // this.ListXuatnhapton  = await this._XuatnhaptonService.SearchXuatnhapton(this.SearchParams)
+    this.ListNhapkho  = await this._NhapkhoService.SearchNhapkho(this.SearchParams)
+    this.ListXuatkho  = await this._XuatkhoService.SearchXuatkho(this.SearchParams)
+    this.ListTonkho  = await this._TonkhoService.SearchTonkho(this.SearchParamsTonkho)
+    this.ListXNT = this.ListSanpham  = await this._SanphamService.getAllSanpham()  
+    this.ListSanphamChung  = await this._SanphamService.getAllSanphamChung()  
+    this.Listfilter = await Promise.all(
+      this.ListSanphamChung.map(async (v) => {
+        const matchingTonkho = this.ListTonkho.items.filter((n:any) => n.TenSP == v.TenSP ||n.TenSP == v.TenSPXuat ||n.TenSP == v.TenSPNhap ||n.TenSP == v.TenSP1||n.TenSP == v.TenSP2);
+        const SLDK = matchingTonkho ? matchingTonkho.reduce((total:any, item:any) => total + Number(item.Soluong||0), 0) : 0
+        const TongDK = matchingTonkho ? matchingTonkho.reduce((total:any, item:any) => total + Number(item.Tongtien||0), 0) : 0
+        const matchingNhapkho = this.ListNhapkho.items.filter((n:any) => n.TenSP == v.TenSP ||n.TenSP == v.TenSPXuat ||n.TenSP == v.TenSPNhap||n.TenSP == v.TenSP1||n.TenSP == v.TenSP2);
+        const SLN = matchingNhapkho ? matchingNhapkho.reduce((total:any, item:any) => total + Number(item.Quydoi||0), 0) : 0
+        const TongNhap = matchingNhapkho ? matchingNhapkho.reduce((total:any, item:any) => total + Number(item.Tongtien||0), 0) : 0
+        const matchingXuatkho = this.ListXuatkho.items.filter((n:any) => n.TenSP == v.TenSP ||n.TenSP == v.TenSPXuat ||n.TenSP == v.TenSPNhap||n.TenSP == v.TenSP1||n.TenSP == v.TenSP2);
+        const SLX= matchingXuatkho ? matchingXuatkho.reduce((total:any, item:any) => total + Number(item.Soluong||0), 0) : 0
+        const TongXuat= matchingXuatkho ? matchingXuatkho.reduce((total:any, item:any) => total + Number(item.Tongtien||0), 0) : 0
+      //   let Quydoi:any =1
+      //   if(SLX>0&&SLN>0&&(TongNhap/SLN)>0)
+      //   {
+      //     const check:any = ((TongNhap/SLN)/(TongXuat/SLX)).toFixed(0)
+      //     Quydoi = check >0?check:1
+      //   }
+      //   v.Quydoi = Quydoi
+      //  this._SanphamService.UpdateSanphamChung(v)
+        return { 
+            ...v, 
+            SLDK:SLDK,
+            TongDK:TongDK,
+            SLN: SLN*v.Quydoi,
+            TongNhap: TongNhap,
+            SLX:SLX ,
+            TTVon:(SLX*(Math.abs(Number(TongDK))+Math.abs(Number(TongNhap)))/(Math.abs(Number(SLDK))+Math.abs(Number(SLN*v.Quydoi)))||0).toFixed(0),
+            TongXuat: TongXuat,
+            SLT: SLDK + SLN*v.Quydoi - SLX,
+            TTTon:((SLDK + SLN*v.Quydoi - SLX)*((Math.abs(Number(TongDK))+Math.abs(Number(TongNhap)))/(Math.abs(Number(SLDK))+Math.abs(Number(SLN*v.Quydoi))))||0).toFixed(0),
+            TongTon:TongDK + TongNhap - TongXuat,
+            Quydoi:v.Quydoi
+          };     
+      })
+    );  
+    // console.log(this.Listfilter);
+    // this.Listfilter = this.Listfilter.filter((v) => {
+    //   return (v.SLT <0  ||  v.TTTon<0); 
+    // });
+    this.Listfilter.forEach((v:any) => {
+      v.Chenhlech = v.TongXuat - v.TTVon
+    });
+      this.dataSource = new MatTableDataSource(this.Listfilter);
+      this.dataSource.paginator = this.paginator;
+      this.dataSource.sort = this.sort;
+      this.pageSizeOptions = [10, 20, this.SearchParams.pageSize].filter(v => v <= this.SearchParams.pageSize);
   }
   Filter()
   {
@@ -101,10 +145,6 @@ export class XuatnhaptonComponent implements OnInit {
       this.dataSource.sort = this.sort;
       this.pageSizeOptions = [10, 20, this.SearchParams.pageSize].filter(v => v <= this.SearchParams.pageSize);
   }
-  Trituyetdoi(item:any)
-  {
-    return Math.abs(item)
-  }
   async LoadXNT()
   {
       this.ListNhapkho  = await this._NhapkhoService.SearchNhapkho(this.SearchParams)
@@ -114,41 +154,15 @@ export class XuatnhaptonComponent implements OnInit {
       this.ListSanphamChung  = await this._SanphamService.getAllSanphamChung()  
       this.Listfilter = await Promise.all(
         this.ListSanphamChung.map(async (v) => {
-          const matchingTonkho = this.ListTonkho.items.filter((n:any) => 
-          n.TenSP === v.TenSP 
-          ||n.TenSP === v.TenSPXuat 
-          ||n.TenSP === v.TenSPNhap 
-          ||n.TenSP === v.TenSP1
-          ||n.TenSP === v.TenSP2
-          ||n.TenSP === v.TenSP3
-          ||n.TenSP === v.TenSP4
-          );
+          const matchingTonkho = this.ListTonkho.items.filter((n:any) => n.TenSP == v.TenSP ||n.TenSP == v.TenSPXuat ||n.TenSP == v.TenSPNhap ||n.TenSP == v.TenSP1||n.TenSP == v.TenSP2);
           const SLDK = matchingTonkho ? matchingTonkho.reduce((total:any, item:any) => total + Number(item.Soluong||0), 0) : 0
           const TongDK = matchingTonkho ? matchingTonkho.reduce((total:any, item:any) => total + Number(item.Tongtien||0), 0) : 0
-          const matchingNhapkho = this.ListNhapkho.items.filter((n:any) => 
-            n.TenSP === v.TenSP 
-          ||n.TenSP === v.TenSPXuat 
-          ||n.TenSP === v.TenSPNhap
-          ||n.TenSP === v.TenSP1
-          ||n.TenSP === v.TenSP2
-          ||n.TenSP === v.TenSP3
-          ||n.TenSP === v.TenSP4
-          );
+          const matchingNhapkho = this.ListNhapkho.items.filter((n:any) => n.TenSP == v.TenSP ||n.TenSP == v.TenSPXuat ||n.TenSP == v.TenSPNhap||n.TenSP == v.TenSP1||n.TenSP == v.TenSP2);
           const SLN = matchingNhapkho ? matchingNhapkho.reduce((total:any, item:any) => total + Number(item.Quydoi||0), 0) : 0
           const TongNhap = matchingNhapkho ? matchingNhapkho.reduce((total:any, item:any) => total + Number(item.Tongtien||0), 0) : 0
-          const matchingXuatkho = this.ListXuatkho.items.filter((n:any) => 
-            n.TenSP === v.TenSP 
-          ||n.TenSP === v.TenSPXuat 
-          ||n.TenSP === v.TenSPNhap
-          ||n.TenSP === v.TenSP1
-          ||n.TenSP === v.TenSP2
-          ||n.TenSP === v.TenSP3
-          ||n.TenSP === v.TenSP4
-          );
+          const matchingXuatkho = this.ListXuatkho.items.filter((n:any) => n.TenSP == v.TenSP ||n.TenSP == v.TenSPXuat ||n.TenSP == v.TenSPNhap||n.TenSP == v.TenSP1||n.TenSP == v.TenSP2);
           const SLX= matchingXuatkho ? matchingXuatkho.reduce((total:any, item:any) => total + Number(item.Soluong||0), 0) : 0
-          const TongXuat= matchingXuatkho ? matchingXuatkho.reduce((total:any, item:any) => total + Number(item.Tongtien||0), 0) : 0          
-          console.log();
-          
+          const TongXuat= matchingXuatkho ? matchingXuatkho.reduce((total:any, item:any) => total + Number(item.Tongtien||0), 0) : 0
           return { 
               ...v, 
               SLDK:SLDK,
@@ -157,96 +171,42 @@ export class XuatnhaptonComponent implements OnInit {
               TongNhap: TongNhap,
               SLX:SLX ,
               TTVon:(SLX*(Math.abs(Number(TongDK))+Math.abs(Number(TongNhap)))/(Math.abs(Number(SLDK))+Math.abs(Number(SLN*v.Quydoi)))||0).toFixed(0),
-              //TTVon:SLX*matchingNhapkho[0].Giavon,
               TongXuat: TongXuat,
               SLT: SLDK + SLN*v.Quydoi - SLX,
               TTTon:((SLDK + SLN*v.Quydoi - SLX)*((Math.abs(Number(TongDK))+Math.abs(Number(TongNhap)))/(Math.abs(Number(SLDK))+Math.abs(Number(SLN*v.Quydoi))))||0).toFixed(0),
               TongTon:TongDK + TongNhap - TongXuat,
-              Quydoi:v.Quydoi,
-              Thang:this.SearchParams.Thang
+              Quydoi:v.Quydoi
             };     
         })
       );  
       this.Listfilter.forEach((v:any) => {
         v.Chenhlech = v.TongXuat - v.TTVon
       });
-      this.XNTData=[...this.XNTData,...this.Listfilter]
         this.dataSource = new MatTableDataSource(this.Listfilter);
         this.dataSource.paginator = this.paginator;
         this.dataSource.sort = this.sort;
         this.pageSizeOptions = [10, 20, this.SearchParams.pageSize].filter(v => v <= this.SearchParams.pageSize);
   
   }
-  // writeExcelFile() {
-  //   let Giagoc:any=[]
-  //   let item:any={}
-  //   this.FilterLists.forEach((v:any) => {  
-  //       item.idSP =v.id
-  //       item.TenSP =v.Title
-  //       v.Giagoc.forEach((gg:any) => {
-  //         item = {...item,...gg}
-  //         Giagoc.push(item)
-  //       });
-  //   });    
-  //   const workbook = XLSX.utils.book_new();
-  //   const worksheet1: XLSX.WorkSheet = XLSX.utils.json_to_sheet(this.FilterLists);
-  //   const worksheet2: XLSX.WorkSheet = XLSX.utils.json_to_sheet(Giagoc);
-  //   XLSX.utils.book_append_sheet(workbook, worksheet1, 'DonhangAdmin');
-  //   XLSX.utils.book_append_sheet(workbook, worksheet2, 'Giagoc');
-  //   const excelBuffer: any = XLSX.write(workbook, { bookType: 'xlsx', type: 'array' });
-  //   this.saveAsExcelFile(excelBuffer, 'DonhangAdmin_'+moment().format("DD_MM_YYYY"));
-  // }
-  writeExcelFile(data: any) {   
-    console.log(groupByfield(this.XNTData));
-    
-    // const exportData = this.XNTData.map((v:any)=>(
-    //   {
-    //     'Tên Hàng':v.TenSP,
-    //     'Tháng':v.Thang,
-    //     'Số Lượng Đk':v.SLDK,
-    //     'Tổng Đk':v.TongDK,
-    //     'Số Lượng Nhập':v.SLN,
-    //     'Tổng Nhập':v.TongNhap,
-    //     'Số Lượng Xuất':v.SLX,
-    //     'Tổng Xuất':v.TongXuat,
-    //     'Tổng Vốn':v.TTVon,
-    //     'Số Lượng Tồn':v.SLT,
-    //     'Tổng Tồn':v.TTTon,
-    //   }
-    // ))
-
-    const workbook = XLSX.utils.book_new();
-    groupByfield(this.XNTData).forEach((v:any)=>
-    {
-      const exportData = v.children.map((v:any)=>(
-        {
-          'Tên Hàng':v.TenSP,
-          'Tháng':v.Thang,
-          'Số Lượng Đk':v.SLDK,
-          'Tổng Đk':v.TongDK,
-          'Số Lượng Nhập':v.SLN,
-          'Tổng Nhập':v.TongNhap,
-          'Số Lượng Xuất':v.SLX,
-          'Tổng Xuất':v.TongXuat,
-          'Tổng Vốn':v.TTVon,
-          'Số Lượng Tồn':v.SLT,
-          'Tổng Tồn':v.TTTon,
-        }
-      ))
-      const worksheet: XLSX.WorkSheet = XLSX.utils.json_to_sheet(exportData);
-    //  const worksheet2: XLSX.WorkSheet = XLSX.utils.json_to_sheet(v.Nhom);
-      XLSX.utils.book_append_sheet(workbook, worksheet, 'Thang '+v.Nhom);
-     // XLSX.utils.book_append_sheet(workbook, worksheet2, 'Giagoc');
-  
-    })
+  writeExcelFile(data: any) {
+    const exportData = data.map((v:any)=>(
+      {
+        'Tên Hàng':v.TenSP,
+        'Số Lượng Đk':v.SLDK,
+        'Tổng Đk':v.TongDK,
+        'Số Lượng Nhập':v.SLN,
+        'Tổng Nhập':v.TongNhap,
+        'Số Lượng Xuất':v.SLX,
+        'Tổng Xuất':v.TongXuat,
+        'Tổng Vốn':v.TTVon,
+        'Số Lượng Tồn':v.SLT,
+        'Tổng Tồn':v.TTTon,
+      }
+    ))
+    const worksheet: XLSX.WorkSheet = XLSX.utils.json_to_sheet(exportData);
+    const workbook: XLSX.WorkBook = { Sheets: { 'Sheet1': worksheet }, SheetNames: ['Sheet1'] };
     const excelBuffer: any = XLSX.write(workbook, { bookType: 'xlsx', type: 'array' });
-    this.saveAsExcelFile(excelBuffer, 'XNT_'+moment().format("DD_MM_YYYY"));
-
-
-    // const worksheet: XLSX.WorkSheet = XLSX.utils.json_to_sheet(exportData);
-    // const workbook: XLSX.WorkBook = { Sheets: { 'Sheet1': worksheet }, SheetNames: ['Sheet1'] };
-    // const excelBuffer: any = XLSX.write(workbook, { bookType: 'xlsx', type: 'array' });
-    // this.saveAsExcelFile(excelBuffer, 'data');
+    this.saveAsExcelFile(excelBuffer, 'data');
   }
   saveAsExcelFile(buffer: any, fileName: string) {
     const data: Blob = new Blob([buffer], { type: 'application/octet-stream' });

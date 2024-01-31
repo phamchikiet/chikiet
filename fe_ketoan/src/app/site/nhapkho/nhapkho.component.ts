@@ -12,6 +12,7 @@ import { MatNativeDateModule } from '@angular/material/core';
 import { MatDatepickerModule } from '@angular/material/datepicker';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatSelectChange, MatSelectModule } from '@angular/material/select';
+import { CombineUnique, groupByfield } from '../../shared/shared.utils';
 @Component({
   selector: 'app-nhapkho',
   standalone: true,
@@ -49,12 +50,46 @@ export class NhapkhoComponent implements OnInit {
   };
   pageSizeOptions:any[]=[5]
   TimSP:any
+  ListGiavon:any[]=[]
+  AllNhapkho:any[]=[]
   @ViewChild(MatPaginator) paginator!: MatPaginator;
   @ViewChild(MatSort) sort!: MatSort;
   constructor() {}
+  UpdateGiavon()
+  {
+    console.log(this.AllNhapkho);
+    console.log(this.ListGiavon);
+    this.AllNhapkho.forEach((v:any)=>
+    {
+      const item = this.ListGiavon.find((v1)=>v1.TenSP==v.TenSP)
+      if(item)
+      {
+        const data:any = {id:v.id,Giavon:item.Giavon}
+        this._NhapkhoService.UpdateNhapkho(data)
+      }
+    })
+  }
   async ngOnInit() {
-    const Nhapkho = await this._NhapkhoService.ListNhapkhos()
-    console.log(Nhapkho);
+    this.AllNhapkho = await this._NhapkhoService.ListNhapkhos()
+    //console.log(this.AllNhapkho);
+    const ListSP = CombineUnique(this.AllNhapkho,this.AllNhapkho,'TenSP').map((v)=>(v.TenSP))
+    //console.log(ListSP);
+
+    ListSP.forEach((v:any) => {
+       const Items = this.AllNhapkho.filter((v1:any)=>v1.TenSP==v)
+       const Soluong = Items.reduce((total:any, item:any) => total + Number(item.Soluong||0), 0)
+       const Tongtien = Items.reduce((total:any, item:any) => total + Number(item.Tongtien||0), 0)
+       if(Soluong>0)
+       {
+        const Giavon = (Tongtien/Soluong).toFixed(0)
+        this.ListGiavon.push({TenSP:v,Giavon:Giavon})
+       }       
+    });
+   // console.log(this.ListGiavon);
+    // Nhapkho.forEach(async (v:any) => {
+    //   const result = await this._NhapkhoService.findtensp(v.TenSP)
+    //   console.log(result);
+    // });
     // Nhapkho.forEach((v:any) => {
     //     if(v.TenSP=='PM vuông Belcube ngọt vị Dâu 78G x 15C')
     //     {

@@ -28,7 +28,7 @@ export class SanphamchungComponent implements OnInit {
   ListSP: any[] = []
   ListSPChung: any[] = []
   constructor() { }
-  displayedColumns: string[] = ['TenSP', 'TenSPNhap','TenSPXuat','TenSP1','TenSP2','Quydoi','Action'];
+  displayedColumns: string[] = ['TenSP', 'TenSPNhap','TenSPXuat','TenSP1','TenSP2','TenSP3','TenSP4','Quydoi','Action'];
   dataSource!: MatTableDataSource<any>;
   @ViewChild(MatPaginator) paginator!: MatPaginator;
   @ViewChild(MatSort) sort!: MatSort;

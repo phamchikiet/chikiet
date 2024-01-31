@@ -1,0 +1,78 @@
+<div class="flex flex-row space-x-2 items-center">
+  <mat-form-field>
+    <mat-label>Tìm Kiếm</mat-label>
+    <input matInput #input (keyup)="applyFilter($event)" placeholder="Mô Tả">
+  </mat-form-field>
+  <button mat-stroked-button (click)="Load()">Load</button>
+</div>
+<div class="">
+  <table mat-table [dataSource]="dataSource" matSort>
+    <ng-container matColumnDef="TenSP">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> Tên Sản Phẩm </th>
+      <td mat-cell *matCellDef="let row">  {{row.TenSP}} </td>
+      <td mat-footer-cell *matFooterCellDef></td>
+    </ng-container>
+    <ng-container matColumnDef="SLDK">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> SL Đầu Kỳ </th>
+      <td mat-cell *matCellDef="let row"> {{row.SLDK|number:'1.0-2'}} 
+      </td>
+      <td mat-footer-cell *matFooterCellDef></td>
+    </ng-container>
+    <ng-container matColumnDef="TongDK">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> Tổng Đầu Kỳ </th>
+      <td mat-cell *matCellDef="let row">
+        <span class="text-red-500">{{GetGia(row.TongDK,row.SLDK)|number:'1.0-2'}}</span> 
+        {{row.TongDK|number:'1.0-2'}} </td>
+      <td mat-footer-cell *matFooterCellDef><strong>{{Subtotal(Listfilter,'TongDK')|number:'1.0-2'}}</strong> </td>
+    </ng-container>
+    <ng-container matColumnDef="SLN">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> SL Nhập </th>
+      <td mat-cell *matCellDef="let row"> {{row.SLN|number:'1.0-2'}} 
+      </td>
+      <td mat-footer-cell *matFooterCellDef></td>
+    </ng-container>
+    <ng-container matColumnDef="TongNhap">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> Tổng Nhập </th>
+      <td mat-cell *matCellDef="let row"> 
+        <span class="text-red-500">{{GetGia(row.TongNhap,row.SLN)|number:'1.0-2'}}</span> 
+        {{row.TongNhap|number:'1.0-2'}} </td>
+      <td mat-footer-cell *matFooterCellDef><strong>{{Subtotal(Listfilter,'TongNhap')|number:'1.0-2'}}</strong> </td>
+    </ng-container>
+    <ng-container matColumnDef="SLX">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> SL Xuất </th>
+      <td mat-cell *matCellDef="let row"> {{row.SLX|number:'1.0-2'}} </td>
+      <td mat-footer-cell *matFooterCellDef></td>
+    </ng-container>
+    <ng-container matColumnDef="TongXuat">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> Tổng Xuất </th>
+      <td mat-cell *matCellDef="let row">
+        <span class="text-red-500">{{GetGia(row.TongXuat,row.SLX)|number:'1.0-2'}}</span> 
+         {{row.TongXuat|number:'1.0-2'}} </td>
+      <td mat-footer-cell *matFooterCellDef><strong>{{Subtotal(Listfilter,'TongXuat')|number:'1.0-2'}}</strong> </td>
+    </ng-container>
+    <ng-container matColumnDef="Quydoi">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> Quy Đổi </th>
+      <td mat-cell *matCellDef="let row"> {{row.Quydoi}} </td>
+      <td mat-footer-cell *matFooterCellDef></td>
+    </ng-container>
+    <ng-container matColumnDef="LechSL">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> Lệch Số Lượng </th>
+      <td mat-cell *matCellDef="let row"> {{row.LechSL|number:'1.0-2'}} </td>
+      <td mat-footer-cell *matFooterCellDef></td>
+    </ng-container>
+    <ng-container matColumnDef="LechTong">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> Lệch Tổng </th>
+      <td mat-cell *matCellDef="let row"> {{row.LechTong|number:'1.0-2'}}  </td>
+      <td mat-footer-cell *matFooterCellDef></td>
+    </ng-container>
+    <ng-container matColumnDef="Gia">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header> Giá </th>
+      <td mat-cell *matCellDef="let row"> <span class="text-red-500">{{row.Gia|number:'1.0-2'}}</span></td>
+      <td mat-footer-cell *matFooterCellDef></td>
+    </ng-container>
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+    <tr mat-footer-row *matFooterRowDef="displayedColumns"></tr>
+  </table>
+  <mat-paginator [pageSizeOptions]="pageSizeOptions"></mat-paginator>
+</div>

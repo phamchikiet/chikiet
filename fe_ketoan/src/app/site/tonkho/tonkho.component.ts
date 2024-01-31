@@ -12,6 +12,8 @@ import { MatNativeDateModule } from '@angular/material/core';
 import { MatDatepickerModule } from '@angular/material/datepicker';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatSelectChange, MatSelectModule } from '@angular/material/select';
+import { NhapkhoService } from '../nhapkho/nhapkho.service';
+import { XuatkhoService } from '../xuatkho/xuatkho.service';
 @Component({
   selector: 'app-tonkho',
   standalone: true,
@@ -36,6 +38,8 @@ import { MatSelectChange, MatSelectModule } from '@angular/material/select';
 export class TonkhoComponent implements OnInit {
 
   _TonkhoService: TonkhoService = inject(TonkhoService);
+  _NhapkhoService: NhapkhoService = inject(NhapkhoService);
+  _XuatkhoService: XuatkhoService = inject(XuatkhoService);
   displayedColumns: string[] = ['SHD', 'Thang','Ngaytao','TenSP','DVT','Soluong', 'Giaxuat', 'Giavon','Tongtien'];
   dataSource!: MatTableDataSource<any>;
   ListTonkho: any
@@ -53,12 +57,12 @@ export class TonkhoComponent implements OnInit {
   @ViewChild(MatSort) sort!: MatSort;
   constructor() {}
   async ngOnInit() {
-    this.ListTonkho  = await this._TonkhoService.SearchTonkho(this.SearchParams)
-    console.log(this.ListTonkho);
-      this.dataSource = new MatTableDataSource(this.ListTonkho.items);
-      this.dataSource.paginator = this.paginator;
-      this.dataSource.sort = this.sort;
-      this.pageSizeOptions = [10, 20, this.ListTonkho.totalCount].filter(v => v <= this.ListTonkho.totalCount);
+    // this.ListTonkho  = await this._TonkhoService.SearchTonkho(this.SearchParams)
+    // console.log(this.ListTonkho);
+    //   this.dataSource = new MatTableDataSource(this.ListTonkho.items);
+    //   this.dataSource.paginator = this.paginator;
+    //   this.dataSource.sort = this.sort;
+    //   this.pageSizeOptions = [10, 20, this.ListTonkho.totalCount].filter(v => v <= this.ListTonkho.totalCount);
   }
   ChangeDate() {
     // this.Listfilter = this.ListTonkho.filter((v: any) => {
@@ -83,9 +87,7 @@ export class TonkhoComponent implements OnInit {
         setTimeout(() => {
           const item:any = {}
           item.TenSP =v.TenSP
-          item.DVT =  v.DVT
           item.Soluong =v.Soluong
-          item.Giaxuat = v.Giaxuat
           item.Giavon = v.Giavon
           item.Tongtien = v.Tongtien
           item.Thang =  v.Thang
@@ -97,7 +99,16 @@ export class TonkhoComponent implements OnInit {
     fileReader.readAsArrayBuffer(file);
   }
   writeExcelFile(data: any) {
-    const worksheet: XLSX.WorkSheet = XLSX.utils.json_to_sheet(data);
+    const exportData = data.map((v:any)=>
+   ({
+      'TenSP':v.TenSP,
+      'Soluong':v.Soluong,
+      'Giavon': v.Giavon,
+      'Tongtien': v.Tongtien,
+      'Thang':  v.Thang,
+      'Nam':v.Nam,
+    }))
+    const worksheet: XLSX.WorkSheet = XLSX.utils.json_to_sheet(exportData);
     const workbook: XLSX.WorkBook = { Sheets: { 'Sheet1': worksheet }, SheetNames: ['Sheet1'] };
     const excelBuffer: any = XLSX.write(workbook, { bookType: 'xlsx', type: 'array' });
     this.saveAsExcelFile(excelBuffer, 'data');

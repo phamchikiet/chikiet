@@ -49,30 +49,36 @@
         </mat-date-range-picker-actions>
       </mat-date-range-picker>
     </mat-form-field> -->
-    <mat-form-field>
-      <mat-label>Số Lượng Hiển Thị</mat-label>
-      <input (ngModelChange)="ngOnInit()" [(ngModel)]="SearchParams.pageSize" [ngModelOptions]="{standalone: true}"
-       type="text" matInput class="w-full px-3 py-2 border border-gray-200 rounded"
-        [placeholder]="'Số Lượng Hiển Thị'"/>
-    </mat-form-field>
-    <div class="flex flex-row space-x-3">
-    <div (click)="writeExcelFile(Listfilter)" class="flex flex-col items-center space-x-2 p-2 hover:bg-gray-200 rounded-lg">
-      <span class="material-symbols-outlined text-xl" matTooltip="Upload File">file_download</span>
-      <span class="text-xs">Download</span>
-    </div>
-    <div (click)="AddNew(Listfilter)" class="flex flex-col items-center space-x-2 p-2 hover:bg-gray-200 rounded-lg">
-      <span class="material-symbols-outlined text-xl" matTooltip="Upload File">add_circle</span>
-      <span class="text-xs">Thêm Mới</span>
-    </div>
-    
-    <div (click)="Update(Listfilter)" class="flex flex-col items-center space-x-2 p-2 hover:bg-gray-200 rounded-lg">
-      <span class="material-symbols-outlined text-xl" matTooltip="Upload File">update</span>
-      <span class="text-xs">Cập Nhật</span>
-    </div>
-    <div (click)="Filter()" class="flex flex-col items-center space-x-2 p-2 hover:bg-gray-200 rounded-lg">
-      <span class="material-symbols-outlined text-xl" matTooltip="Upload File">update</span>
-      <span class="text-xs">Lọc</span>
-    </div>
+    <div class="flex flex-col">
+      <mat-form-field>
+        <mat-label>Số Lượng Hiển Thị</mat-label>
+        <input (ngModelChange)="ngOnInit()" [(ngModel)]="SearchParams.pageSize" [ngModelOptions]="{standalone: true}"
+         type="text" matInput class="w-full px-3 py-2 border border-gray-200 rounded"
+          [placeholder]="'Số Lượng Hiển Thị'"/>
+      </mat-form-field>
+      <div class="flex flex-row space-x-3">
+        <div (click)="writeExcelFile(Listfilter)" class="flex flex-col items-center space-x-2 p-2 hover:bg-gray-200 rounded-lg">
+          <span class="material-symbols-outlined text-xl" matTooltip="Upload File">file_download</span>
+          <span class="text-xs">Download</span>
+        </div>
+        <div (click)="AddNew(Listfilter)" class="flex flex-col items-center space-x-2 p-2 hover:bg-gray-200 rounded-lg">
+          <span class="material-symbols-outlined text-xl" matTooltip="Upload File">add_circle</span>
+          <span class="text-xs">Thêm Mới</span>
+        </div>
+        
+        <div (click)="Update(Listfilter)" class="flex flex-col items-center space-x-2 p-2 hover:bg-gray-200 rounded-lg">
+          <span class="material-symbols-outlined text-xl" matTooltip="Upload File">update</span>
+          <span class="text-xs">Cập Nhật</span>
+        </div>
+        <div (click)="Filter()" class="flex flex-col items-center space-x-2 p-2 hover:bg-gray-200 rounded-lg">
+          <span class="material-symbols-outlined text-xl" matTooltip="Upload File">update</span>
+          <span class="text-xs">Lọc</span>
+        </div>
+        <div (click)="LoadXNT()" class="flex flex-col items-center space-x-2 p-2 hover:bg-gray-200 rounded-lg">
+          <span class="material-symbols-outlined text-xl" matTooltip="Upload File">update</span>
+          <span class="text-xs">LoadXNT</span>
+        </div>
+        </div>
     </div>
   </div>
     <div class="">
@@ -94,7 +100,9 @@
         </ng-container>
         <ng-container matColumnDef="SLN">
           <th mat-header-cell *matHeaderCellDef mat-sort-header> SL Nhập </th>
-          <td mat-cell *matCellDef="let row"> {{row.SLN|number:'1.0-2'}} </td>
+          <td mat-cell *matCellDef="let row"> {{row.SLN|number:'1.0-2'}} 
+
+          </td>
           <td mat-footer-cell *matFooterCellDef></td>
         </ng-container>
         <ng-container matColumnDef="TongNhap">
@@ -117,14 +125,39 @@
           <td mat-cell *matCellDef="let row"> {{row.TongXuat|number:'1.0-2'}} </td>
           <td mat-footer-cell *matFooterCellDef><strong>{{Subtotal(Listfilter,'TongXuat')|number:'1.0-2'}}</strong> </td>
         </ng-container>
+        <ng-container matColumnDef="Chenhlech">
+          <th mat-header-cell *matHeaderCellDef mat-sort-header> Chênh Lệch </th>
+          <td mat-cell *matCellDef="let row"> <span class="text-red-500">
+            <div class="flex flex-col">
+              <span>
+                @if(row.SLDK!=0){
+                 {{(row.TongDK/row.SLDK).toFixed(0)|number:'1.0-2'}}
+                }
+              </span>
+              <span>
+                @if(row.SLN!=0){
+                  {{(row.TongNhap/row.SLN).toFixed(0)|number:'1.0-2'}}
+                }
+              </span>
+              <span>
+                @if(row.SLX!=0){
+                  {{(row.TongXuat/row.SLX).toFixed(0)|number:'1.0-2'}}
+                }
+              </span>
+              <span>
+                @if(row.SLT!=0){
+                  {{(row.TongTon/row.SLT).toFixed(0)|number:'1.0-2'}}
+                }
+              </span>
+              <span>{{row.Chenhlech|number:'1.0-2'}}</span>
+            </div>
+       
+           </span></td>
+          <td mat-footer-cell *matFooterCellDef></td>
+        </ng-container>
         <ng-container matColumnDef="Quydoi">
           <th mat-header-cell *matHeaderCellDef mat-sort-header> Quy Đổi </th>
           <td mat-cell *matCellDef="let row"> {{row.Quydoi}} </td>
-          <td mat-footer-cell *matFooterCellDef></td>
-        </ng-container>
-        <ng-container matColumnDef="Chenhlech">
-          <th mat-header-cell *matHeaderCellDef mat-sort-header> Chênh Lệch </th>
-          <td mat-cell *matCellDef="let row"> {{(row.Chenhlech)|number:'1.0-2'}} </td>
           <td mat-footer-cell *matFooterCellDef></td>
         </ng-container>
         <ng-container matColumnDef="SLT">

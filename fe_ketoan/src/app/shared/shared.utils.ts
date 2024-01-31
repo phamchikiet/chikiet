@@ -174,10 +174,10 @@ export function groupBy(data: any) {
 export function groupByfield(data: any[]) {
   const convertedData: any = {};
   data.forEach((item: any) => {
-    const nhomId = item.Nhom.id;
+    const nhomId = item.Thang;
     if (!convertedData[nhomId]) {
       convertedData[nhomId] = {
-        Nhom: item.Nhom,
+        Nhom: item.Thang,
         children: [],
       };
     }
