@@ -48,6 +48,7 @@ export class XuatkhoComponent implements OnInit {
     pageNumber:0
   };
   pageSizeOptions:any[]=[5]
+  TimSP:any
   @ViewChild(MatPaginator) paginator!: MatPaginator;
   @ViewChild(MatSort) sort!: MatSort;
   constructor() {}
@@ -116,17 +117,27 @@ export class XuatkhoComponent implements OnInit {
     else return 0
   }
   
-  applyFilter(event: Event) {
+  async applyFilter(event: Event) {
     const filterValue = (event.target as HTMLInputElement).value;
     if(filterValue.length> 2)
     {
-    this.dataSource.filter = filterValue.trim().toLowerCase();    
-    if (this.dataSource.paginator) {
-      this.dataSource.paginator.firstPage();
-    }
-    console.log(this.dataSource.filteredData);
-    }    
-    
+      this.dataSource.filter = filterValue.trim().toLowerCase();
+      if (this.dataSource.paginator) {
+        this.dataSource.paginator.firstPage();
+      }
+      await this._XuatkhoService.findtensp(filterValue).then((data:any)=>
+      {
+        if(data)
+        {
+          this.dataSource = new MatTableDataSource(data.items);
+          this.dataSource.paginator = this.paginator;
+          this.dataSource.sort = this.sort;
+          this.pageSizeOptions = [10, 20, data.totalCount].filter(v => v <= data.totalCount);
+          this.TimSP = data
+        }
+      })
+      console.log(this.TimSP);
+    }     
   }
 }
 

@@ -59,7 +59,7 @@ export class MuavaochitietComponent implements OnInit {
   SearchParams: any = {
     Thang: 10,
     Type: "NHAP",
-    pageSize: 1000,
+    pageSize: 5,
     pageNumber: 0
   };
   ListSanpham: any[] = []

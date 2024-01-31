@@ -97,10 +97,43 @@ export class SanphamService {
               'Content-Type': 'application/json',
             },
           };
-          const response = await fetch(`${environment.APIURL}/sanpham/${item.id}`, options);
+          const response = await fetch(`${environment.APIURL}/sanpham/chung/${item.id}`, options);
           return await response.json();         
       } catch (error) {
           return console.error(error);
       }
+  } 
+  async DeleteSanphamChung(item:any) {
+    try {
+        const options = {
+            method:'DELETE',
+            headers: {
+              'Content-Type': 'application/json',
+            },
+          };
+          const response = await fetch(`${environment.APIURL}/sanpham/chung/${item}`, options);
+          return await response.json();         
+      } catch (error) {
+          return console.error(error);
+      }
+  } 
+  async UpdateSanphamChung(item:any) {
+    try {
+      const options = {
+          method:'PATCH',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(item),
+        };
+        const response = await fetch(`${environment.APIURL}/sanpham/chung/${item.id}`, options);    
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`);
+       }
+        const data = await response.json();
+        console.log(data);      
+    } catch (error) {
+        return console.error(error);
+    }
   } 
 }

@@ -64,7 +64,7 @@ export class XNTComponent implements OnInit {
     Thang:12,
     Nam:2022,
     pageSize:1000,
-    pageNumber:0
+    pageNumber:0,
   };
   pageSizeOptions:any[]=[5]
   @ViewChild(MatPaginator) paginator!: MatPaginator;
@@ -81,7 +81,7 @@ export class XNTComponent implements OnInit {
     console.log(this.ListXuatkho);
     this.Listfilter = await Promise.all(
       this.ListSanpham.map(async (v) => {
-        const matchingHave = ListSanphamChung.find((n:any) => n.TenSP == v.TenSP ||n.TenSPXuat == v.TenSP ||n.TenSPNhap == v.TenSP);
+        const matchingHave = ListSanphamChung.find((n:any) => n.TenSP == v.TenSP ||n.TenSPXuat == v.TenSP ||n.TenSPNhap == v.TenSP||n.TenSP1 == v.TenSP||n.TenSP2 == v.TenSP);
         const matchingTonkho = this.ListTonkho.items.filter((n:any) => n.TenSP == v.TenSP ||n.TenSP == v.TenSPXuat ||n.TenSP == v.TenSPNhap);
         const SLDK = matchingTonkho ? matchingTonkho.reduce((total:any, item:any) => total + Number(item.Soluong||0), 0) : 0
         const TongDK = matchingTonkho ? matchingTonkho.reduce((total:any, item:any) => total + Number(item.Tongtien||0), 0) : 0
@@ -99,12 +99,16 @@ export class XNTComponent implements OnInit {
           TongNhap: TongNhap,
           SLX: SLX,
           TongXuat: TongXuat,
-          SLT: SLN - SLX,
-          TongTon:TongNhap - TongXuat,
+          SLT: SLDK + SLN - SLX,
+          TongTon:TongDK + TongNhap - TongXuat,
           isHave:matchingHave ? true : false
         };
       })
     );  
+  console.log(this.Listfilter);
+  this.Listfilter = this.Listfilter.filter((v) => {
+    return (v.SLX !== 0 && v.isHave==false) || (v.SLN !== 0 && v.isHave==false); 
+  });
   console.log(this.Listfilter);
       this.dataSource = new MatTableDataSource(this.Listfilter);
       this.dataSource.paginator = this.paginator;

@@ -4,7 +4,7 @@
    <div class="grid grid-cols-2">
     <mat-form-field>
       <mat-label>Tháng</mat-label>
-      <mat-select [(ngModel)]="SearchParams.Thang" [ngModelOptions]="{standalone: true}" (selectionChange)="onChangeThang($event)">
+      <mat-select [(ngModel)]="SearchParams.Thang" [ngModelOptions]="{standalone: true}" (selectionChange)="ngOnInit()">
         @for (item of [1,2,3,4,5,6,7,8,9,10,11,12]; track $index) {
           <mat-option [value]="item">{{item}}</mat-option>
         }
@@ -12,15 +12,15 @@
     </mat-form-field>
     <mat-form-field>
       <mat-label>Năm</mat-label>
-      <mat-select [(ngModel)]="SearchParams.Nam" [ngModelOptions]="{standalone: true}" (selectionChange)="ngOnInit()">
-        @for (item of [2022,2023,2024,2025]; track $index) {
+      <mat-select [(ngModel)]="SearchParams.Nam" [ngModelOptions]="{standalone: true}">
+        @for (item of [2021,2022,2023,2024,2025]; track $index) {
           <mat-option [value]="item">{{item}}</mat-option>
         }
       </mat-select>
     </mat-form-field>
         <mat-form-field>
       <mat-label>Tháng Tồn</mat-label>
-      <mat-select [(ngModel)]="SearchParamsTonkho.Thang" [ngModelOptions]="{standalone: true}" (selectionChange)="onChangeThang($event)">
+      <mat-select [(ngModel)]="SearchParamsTonkho.Thang" [ngModelOptions]="{standalone: true}" (selectionChange)="ngOnInit()">
         @for (item of [1,2,3,4,5,6,7,8,9,10,11,12]; track $index) {
           <mat-option [value]="item">{{item}}</mat-option>
         }
@@ -29,7 +29,7 @@
     <mat-form-field>
       <mat-label>Năm Tồn</mat-label>
       <mat-select [(ngModel)]="SearchParamsTonkho.Nam" [ngModelOptions]="{standalone: true}" (selectionChange)="ngOnInit()">
-        @for (item of [2022,2023,2024,2025]; track $index) {
+        @for (item of [2021,2022,2023,2024,2025]; track $index) {
           <mat-option [value]="item">{{item}}</mat-option>
         }
       </mat-select>
@@ -55,6 +55,25 @@
        type="text" matInput class="w-full px-3 py-2 border border-gray-200 rounded"
         [placeholder]="'Số Lượng Hiển Thị'"/>
     </mat-form-field>
+    <div class="flex flex-row space-x-3">
+    <div (click)="writeExcelFile(Listfilter)" class="flex flex-col items-center space-x-2 p-2 hover:bg-gray-200 rounded-lg">
+      <span class="material-symbols-outlined text-xl" matTooltip="Upload File">file_download</span>
+      <span class="text-xs">Download</span>
+    </div>
+    <div (click)="AddNew(Listfilter)" class="flex flex-col items-center space-x-2 p-2 hover:bg-gray-200 rounded-lg">
+      <span class="material-symbols-outlined text-xl" matTooltip="Upload File">add_circle</span>
+      <span class="text-xs">Thêm Mới</span>
+    </div>
+    
+    <div (click)="Update(Listfilter)" class="flex flex-col items-center space-x-2 p-2 hover:bg-gray-200 rounded-lg">
+      <span class="material-symbols-outlined text-xl" matTooltip="Upload File">update</span>
+      <span class="text-xs">Cập Nhật</span>
+    </div>
+    <div (click)="Filter()" class="flex flex-col items-center space-x-2 p-2 hover:bg-gray-200 rounded-lg">
+      <span class="material-symbols-outlined text-xl" matTooltip="Upload File">update</span>
+      <span class="text-xs">Lọc</span>
+    </div>
+    </div>
   </div>
     <div class="">
       <table mat-table [dataSource]="dataSource" matSort>
@@ -65,42 +84,62 @@
         </ng-container>
         <ng-container matColumnDef="SLDK">
           <th mat-header-cell *matHeaderCellDef mat-sort-header> SL Đầu Kỳ </th>
-          <td mat-cell *matCellDef="let row"> {{row.SLDK}} </td>
+          <td mat-cell *matCellDef="let row"> {{row.SLDK|number:'1.0-2'}} </td>
           <td mat-footer-cell *matFooterCellDef></td>
         </ng-container>
         <ng-container matColumnDef="TongDK">
           <th mat-header-cell *matHeaderCellDef mat-sort-header> Tổng Đầu Kỳ </th>
-          <td mat-cell *matCellDef="let row"> {{row.TongDK}} </td>
+          <td mat-cell *matCellDef="let row"> {{row.TongDK|number:'1.0-2'}} </td>
           <td mat-footer-cell *matFooterCellDef><strong>{{Subtotal(Listfilter,'TongDK')|number:'1.0-2'}}</strong> </td>
         </ng-container>
         <ng-container matColumnDef="SLN">
           <th mat-header-cell *matHeaderCellDef mat-sort-header> SL Nhập </th>
-          <td mat-cell *matCellDef="let row"> {{row.SLN}} </td>
+          <td mat-cell *matCellDef="let row"> {{row.SLN|number:'1.0-2'}} </td>
           <td mat-footer-cell *matFooterCellDef></td>
         </ng-container>
         <ng-container matColumnDef="TongNhap">
           <th mat-header-cell *matHeaderCellDef mat-sort-header> Tổng Nhập </th>
-          <td mat-cell *matCellDef="let row"> {{row.TongNhap}} </td>
+          <td mat-cell *matCellDef="let row"> {{row.TongNhap|number:'1.0-2'}} </td>
           <td mat-footer-cell *matFooterCellDef><strong>{{Subtotal(Listfilter,'TongNhap')|number:'1.0-2'}}</strong> </td>
         </ng-container>
         <ng-container matColumnDef="SLX">
           <th mat-header-cell *matHeaderCellDef mat-sort-header> SL Xuất </th>
-          <td mat-cell *matCellDef="let row"> {{row.SLX}} </td>
+          <td mat-cell *matCellDef="let row"> {{row.SLX|number:'1.0-2'}} </td>
           <td mat-footer-cell *matFooterCellDef></td>
+        </ng-container>
+        <ng-container matColumnDef="TTVon">
+          <th mat-header-cell *matHeaderCellDef mat-sort-header>TT Vốn </th>
+          <td mat-cell *matCellDef="let row"> {{row.TTVon|number:'1.0-2'}} </td>
+          <td mat-footer-cell *matFooterCellDef><strong>{{Subtotal(Listfilter,'TTVon')|number:'1.0-2'}}</strong> </td>
         </ng-container>
         <ng-container matColumnDef="TongXuat">
           <th mat-header-cell *matHeaderCellDef mat-sort-header> Tổng Xuất </th>
-          <td mat-cell *matCellDef="let row"> {{row.TongXuat}} </td>
+          <td mat-cell *matCellDef="let row"> {{row.TongXuat|number:'1.0-2'}} </td>
           <td mat-footer-cell *matFooterCellDef><strong>{{Subtotal(Listfilter,'TongXuat')|number:'1.0-2'}}</strong> </td>
+        </ng-container>
+        <ng-container matColumnDef="Quydoi">
+          <th mat-header-cell *matHeaderCellDef mat-sort-header> Quy Đổi </th>
+          <td mat-cell *matCellDef="let row"> {{row.Quydoi}} </td>
+          <td mat-footer-cell *matFooterCellDef></td>
+        </ng-container>
+        <ng-container matColumnDef="Chenhlech">
+          <th mat-header-cell *matHeaderCellDef mat-sort-header> Chênh Lệch </th>
+          <td mat-cell *matCellDef="let row"> {{(row.Chenhlech)|number:'1.0-2'}} </td>
+          <td mat-footer-cell *matFooterCellDef></td>
         </ng-container>
         <ng-container matColumnDef="SLT">
           <th mat-header-cell *matHeaderCellDef mat-sort-header> SL Tồn </th>
-          <td mat-cell *matCellDef="let row"> {{row.SLT}} </td>
+          <td mat-cell *matCellDef="let row"> {{row.SLT|number:'1.0-2'}} </td>
           <td mat-footer-cell *matFooterCellDef></td>
+        </ng-container>
+        <ng-container matColumnDef="TTTon">
+          <th mat-header-cell *matHeaderCellDef mat-sort-header> TT Tồn </th>
+          <td mat-cell *matCellDef="let row"> {{row.TTTon|number:'1.0-2'}} </td>
+          <td mat-footer-cell *matFooterCellDef><strong>{{Subtotal(Listfilter,'TTTon')|number:'1.0-2'}}</strong> </td>
         </ng-container>
         <ng-container matColumnDef="TongTon">
           <th mat-header-cell *matHeaderCellDef mat-sort-header> Tổng Tồn </th>
-          <td mat-cell *matCellDef="let row"> {{row.TongTon}} </td>
+          <td mat-cell *matCellDef="let row"> {{row.TongTon|number:'1.0-2'}} </td>
           <td mat-footer-cell *matFooterCellDef><strong>{{Subtotal(Listfilter,'TongTon')|number:'1.0-2'}}</strong> </td>
         </ng-container>
         <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>

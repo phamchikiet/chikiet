@@ -12,6 +12,7 @@ import { XuatkhoComponent } from './site/xuatkho/xuatkho.component';
 import { XuatnhaptonComponent } from './site/xuatnhapton/xuatnhapton.component';
 import { XNTComponent } from './site/xuatnhapton/XNT/XNT.component';
 import { TonkhoComponent } from './site/tonkho/tonkho.component';
+import { SanphamchungComponent } from './site/sanpham/sanphamchung/sanphamchung.component';
 
 export const appRoutes: Route[] = [
     { path: '', redirectTo: 'shdhhp', pathMatch: 'full' },
@@ -22,6 +23,10 @@ export const appRoutes: Route[] = [
     {
         path: 'sanpham',
         component: SanphamComponent,
+    },
+    {
+        path: 'sanphamchung',
+        component: SanphamchungComponent,
     },
     {
         path: 'cauhinh',

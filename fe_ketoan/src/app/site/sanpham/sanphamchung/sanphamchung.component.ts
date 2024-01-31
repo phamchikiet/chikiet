@@ -1,6 +1,4 @@
 import { Component, OnInit, ViewChild, inject } from '@angular/core';
-import { CauhinhService } from '../cauhinh/cauhinh.service';
-import { SanphamService } from './sanpham.service';
 import { MatButtonModule } from '@angular/material/button';
 import { MatTableDataSource, MatTableModule } from '@angular/material/table';
 import { MatPaginator, MatPaginatorModule } from '@angular/material/paginator';
@@ -8,9 +6,10 @@ import { MatSort, MatSortModule } from '@angular/material/sort';
 import { CommonModule, DatePipe } from '@angular/common';
 import { MatInputModule } from '@angular/material/input';
 import { FormsModule } from '@angular/forms';
+import { SanphamService } from '../sanpham.service';
 
 @Component({
-  selector: 'app-sanpham',
+  selector: 'app-sanphamchung',
   standalone: true,
   imports:[
     MatButtonModule,
@@ -22,14 +21,14 @@ import { FormsModule } from '@angular/forms';
     FormsModule,
     DatePipe
   ],
-  templateUrl: './sanpham.component.html',
-  styleUrls: ['./sanpham.component.css']
+  templateUrl: './sanphamchung.component.html',
+  styleUrls: ['./sanphamchung.component.css']
 })
-export class SanphamComponent implements OnInit {
+export class SanphamchungComponent implements OnInit {
   ListSP: any[] = []
   ListSPChung: any[] = []
   constructor() { }
-  displayedColumns: string[] = ['TenSP', 'TenSP1','TenSP2'];
+  displayedColumns: string[] = ['TenSP', 'TenSPNhap','TenSPXuat','TenSP1','TenSP2','Quydoi','Action'];
   dataSource!: MatTableDataSource<any>;
   @ViewChild(MatPaginator) paginator!: MatPaginator;
   @ViewChild(MatSort) sort!: MatSort;
@@ -38,20 +37,18 @@ export class SanphamComponent implements OnInit {
   Sanphamchung:any={TenSP:'',TenSPXuat:'',TenSPNhap:''}
   _SanphamService: SanphamService = inject(SanphamService);
   Select:any=0
-  isHave:boolean=true;
   async ngOnInit() {
     this.ListSP = await this._SanphamService.getAllSanpham()  
     this.ListSPChung = await this._SanphamService.getAllSanphamChung()  
+    // this.ListSP.forEach((v)=>
+    // {
+    //   const matchingHave = this.ListSPChung.find((n:any) => n.TenSP == v.TenSP ||n.TenSPXuat == v.TenSP ||n.TenSPNhap == v.TenSP);
+    //   v.isHave= matchingHave ? true : false
+    //   return v
+    // })
     console.log(this.ListSPChung);
-    this.ListSP.forEach((v)=>
-    {
-      const matchingHave = this.ListSPChung.find((n:any) => n.TenSP == v.TenSP ||n.TenSPXuat == v.TenSP ||n.TenSPNhap == v.TenSP||n.TenSP1 == v.TenSP||n.TenSP2 == v.TenSP);
-      v.isHave= matchingHave ? true : false
-      return v
-    })
-    console.log(this.ListSP);
     
-    this.dataSource = new MatTableDataSource(this.ListSP);
+    this.dataSource = new MatTableDataSource(this.ListSPChung);
     this.dataSource.paginator = this.paginator;
     this.dataSource.sort = this.sort;
     this.Total = this.ListSP.length
@@ -64,15 +61,15 @@ export class SanphamComponent implements OnInit {
       this._SanphamService.UpdateSanpham(v)
     });
   }
+  UpdateQuydoi(item:any) {
+      this._SanphamService.UpdateSanphamChung(item)
+  }
   applyFilter(event: Event) {
     const filterValue = (event.target as HTMLInputElement).value;
-    if(filterValue.length>2)
-    {
     this.dataSource.filter = filterValue.trim().toLowerCase();
     if (this.dataSource.paginator) {
       this.dataSource.paginator.firstPage();
     }
-  }
   }
   Chonsanpham(item:any)
   {
@@ -80,44 +77,18 @@ export class SanphamComponent implements OnInit {
     
     if(this.Select==0)
     {
-      this.Sanphamchung.TenSP =item
       this.Sanphamchung.TenSPXuat =item
       this.Select =1
     }
-    else if (this.Select==1)
+    else (this.Select==1)
     {
       this.Sanphamchung.TenSPNhap =item
       this.Select =2
     }
-    else if (this.Select==2)
-    {
-      this.Sanphamchung.TenSP1 =item
-      this.Select =3
-    }
-    else
-    {
-      this.Sanphamchung.TenSP2 =item
-      this.Select =4
-    }
-  }
-  Reset()
-  {
-    this.Sanphamchung={TenSP:'',TenSPXuat:'',TenSPNhap:''};
-    this.Select=0
-  }
-  LocSP()
-  {
-    this.isHave = !this.isHave
-    const data = this.ListSP.filter((v)=> v.isHave==this.isHave)    
-    this.dataSource = new MatTableDataSource(data);
-    this.dataSource.paginator = this.paginator;
-    this.dataSource.sort = this.sort;
-    this.Total = this.ListSP.length
-    this.pageSizeOptions = [10, 20, this.Total].filter(v => v <= this.Total);
   }
   CreateSanpham()
   {
-    this._SanphamService.CreateSanphamChung(this.Sanphamchung).then(()=>{this.Reset()})
+    this._SanphamService.CreateSanphamChung(this.Sanphamchung)
     // if(this.Sanphamchung.TenSP=='')
     // {
     //   console.log("Chọn tên");
@@ -132,9 +103,15 @@ export class SanphamComponent implements OnInit {
     // }
     // else
     // {
-    //   this._SanphamService.CreateSanphamChung(this.Sanphamchung).then(()=>{this.Reset()})
+    //   this._SanphamService.CreateSanphamChung(this.Sanphamchung)
     // }
 
+  }
+  XoaSanphamchung(item:any)
+  {
+    console.log(item);
+    
+    this._SanphamService.DeleteSanphamChung(item)
   }
 
 }

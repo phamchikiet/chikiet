@@ -1,0 +1,83 @@
+<div class="flex flex-col space-y-2">
+  <div class="flex flex-row space-x-3"> 
+    <mat-form-field>
+      <mat-label>Tìm Kiếm</mat-label>
+      <input matInput #input (keyup)="applyFilter($event)" placeholder="Mô Tả">
+    </mat-form-field>
+    
+    <mat-form-field>
+      <mat-label>Tên Chung</mat-label>
+      <input [(ngModel)]="Sanphamchung.TenSP" [ngModelOptions]="{standalone: true}"
+       type="text" matInput class="w-full px-3 py-2 border border-gray-200 rounded"
+        [placeholder]="'Tên Chung'" />
+    </mat-form-field>  
+    <div class="flex flex-col space-y-3">
+      <span>Ten 1: {{Sanphamchung.TenSPXuat}}</span>
+      <span>Ten 2: {{Sanphamchung.TenSPNhap}}</span>
+    </div>
+     <button mat-stroked-button (click)="CreateSanpham()">Tạo Mới</button>
+     <button mat-stroked-button (click)="Sanphamchung={TenSP:'',TenSPXuat:'',TenSPNhap:''};Select=0">Reset</button>
+    </div>
+    <div class="">
+      <table mat-table [dataSource]="dataSource" matSort>
+        <ng-container matColumnDef="TenSP">
+          <th mat-header-cell *matHeaderCellDef mat-sort-header> Tên Sản Phẩm </th>
+          <td mat-cell *matCellDef="let row; let index =index">
+            <div class="flex flex-row space-x-2 items-center">
+            <span *ngIf="row.isHave" class="material-symbols-outlined text-blue-500">check_circle</span>
+             <span>{{index+1}} - </span>
+             <span>{{row.TenSP}}</span>
+             <!-- <button mat-stroked-button (click)="Chonsanpham(row.TenSP)">Chọn</button> -->
+
+            </div>
+          </td>
+          <td mat-footer-cell *matFooterCellDef></td>
+        </ng-container>
+        <ng-container matColumnDef="TenSPNhap">
+          <th mat-header-cell *matHeaderCellDef mat-sort-header> Tên Sản Phẩm 1</th>
+          <td mat-cell *matCellDef="let row"> {{row.TenSPNhap}} </td>
+          <td mat-footer-cell *matFooterCellDef></td>
+        </ng-container>
+        <ng-container matColumnDef="TenSPXuat">
+          <th mat-header-cell *matHeaderCellDef mat-sort-header> Tên Sản Phẩm 2</th>
+          <td mat-cell *matCellDef="let row"> {{row.TenSPXuat}} </td>
+          <td mat-footer-cell *matFooterCellDef></td>
+        </ng-container>
+        <ng-container matColumnDef="TenSP1">
+          <th mat-header-cell *matHeaderCellDef mat-sort-header> Tên Sản Phẩm 1</th>
+          <td mat-cell *matCellDef="let row"> {{row.TenSP1}} </td>
+          <td mat-footer-cell *matFooterCellDef></td>
+        </ng-container>
+        <ng-container matColumnDef="TenSP2">
+          <th mat-header-cell *matHeaderCellDef mat-sort-header> Tên Sản Phẩm 2</th>
+          <td mat-cell *matCellDef="let row"> {{row.TenSP2}} </td>
+          <td mat-footer-cell *matFooterCellDef></td>
+        </ng-container>
+        <ng-container matColumnDef="Quydoi">
+          <th mat-header-cell *matHeaderCellDef mat-sort-header>Quy Đổi</th>
+          <td mat-cell *matCellDef="let row">  
+            <div class="flex flex-row items-center">
+            <mat-form-field>
+              <mat-label>Tỉ Lệ Quy Đổi</mat-label>
+              <input [(ngModel)]="row.Quydoi" [ngModelOptions]="{standalone: true}"
+               type="text" matInput class="w-full px-3 py-2 border border-gray-200 rounded" />
+            </mat-form-field>  
+            <button mat-stroked-button (click)="UpdateQuydoi(row)"><span class="material-symbols-outlined">
+              update </span></button> 
+          </div>  
+          </td>
+          <td mat-footer-cell *matFooterCellDef></td>
+        </ng-container>
+        <ng-container matColumnDef="Action">
+          <th mat-header-cell *matHeaderCellDef mat-sort-header> Action</th>
+          <td mat-cell *matCellDef="let row"> <button mat-stroked-button (click)="XoaSanphamchung(row.id)">Xoá</button></td>
+          <td mat-footer-cell *matFooterCellDef></td>
+        </ng-container>
+
+        <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+        <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+        <tr mat-footer-row *matFooterRowDef="displayedColumns"></tr>
+      </table>
+      <mat-paginator [pageSize]="ListSP.length" [pageSizeOptions]="[5, 100, ListSP.length]"></mat-paginator>
+    </div>
+</div>

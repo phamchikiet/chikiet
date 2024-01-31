@@ -36,7 +36,7 @@ import { MatSelectChange, MatSelectModule } from '@angular/material/select';
 })
 export class NhapkhoComponent implements OnInit {
   _NhapkhoService: NhapkhoService = inject(NhapkhoService);
-  displayedColumns: string[] = ['SHD', 'Thang','Ngaytao','TenSP','DVT','Soluong', 'Gianhap', 'Giavon','Tongtien'];
+  displayedColumns: string[] = ['SHD', 'Thang','Ngaytao','TenSP','DVT','Soluong','Quydoi', 'Gianhap', 'Giavon','Tongtien'];
   dataSource!: MatTableDataSource<any>;
   ListNhapkho: any
   Listfilter: any[]=[]
@@ -44,15 +44,24 @@ export class NhapkhoComponent implements OnInit {
   SearchParams: any = {
     Thang:1,
     Type:"NHAP",
-    pageSize:1000,
+    pageSize:5,
     pageNumber:0
   };
   pageSizeOptions:any[]=[5]
+  TimSP:any
   @ViewChild(MatPaginator) paginator!: MatPaginator;
   @ViewChild(MatSort) sort!: MatSort;
   constructor() {}
   async ngOnInit() {
-    console.log(this.SearchParams);
+    const Nhapkho = await this._NhapkhoService.ListNhapkhos()
+    console.log(Nhapkho);
+    // Nhapkho.forEach((v:any) => {
+    //     if(v.TenSP=='PM vuông Belcube ngọt vị Dâu 78G x 15C')
+    //     {
+    //    //  v.Quydoi = v.Soluong*15   
+    //     this._NhapkhoService.UpdateNhapkho(v)
+    //     }
+    // });
     
     this.ListNhapkho  = await this._NhapkhoService.SearchNhapkho(this.SearchParams)
     console.log(this.ListNhapkho); 
@@ -107,25 +116,43 @@ export class NhapkhoComponent implements OnInit {
     // this.dataSource.sort = this.sort;
   }
   Subtotal(items:any[],field:any)
-  {
-    if(items.length>0)
+  {    
+    if(items?.length>0)
     {
     const totalSum = items.reduce((total:any, item:any) => total + Number(item[field]||0), 0);
     return totalSum
     }
     else return 0
   }
-  applyFilter(event: Event) {
+  UpdateSP(item:any)
+  {    
+    this._NhapkhoService.UpdateNhapkho(item)
+  }
+  async applyFilter(event: Event) {
     const filterValue = (event.target as HTMLInputElement).value;
     if(filterValue.length> 2)
     {
-    this.dataSource.filter = filterValue.trim().toLowerCase();    
-    if (this.dataSource.paginator) {
-      this.dataSource.paginator.firstPage();
-    }
-    console.log(this.dataSource.filteredData);
-    }    
-    
+
+      this.dataSource.filter = filterValue.trim().toLowerCase();
+      if (this.dataSource.paginator) {
+        this.dataSource.paginator.firstPage();
+      }
+      await this._NhapkhoService.findtensp(filterValue).then((data:any)=>
+      {
+        if(data)
+        {
+          if(data)
+          {
+            this.dataSource = new MatTableDataSource(data.items);
+            this.dataSource.paginator = this.paginator;
+            this.dataSource.sort = this.sort;
+            this.pageSizeOptions = [10, 20, data.totalCount].filter(v => v <= data.totalCount);
+            this.TimSP = data
+          }
+        }
+      })
+      console.log(this.TimSP);
+    }     
   }
 }
 

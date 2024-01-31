@@ -60,7 +60,7 @@ export class BanrachitietComponent implements OnInit {
   SearchParams: any = {
     Thang: 3,
     Type: "XUAT",
-    pageSize: 500,
+    pageSize: 5,
     pageNumber: 0
   };
   ListSanpham: any[] = []

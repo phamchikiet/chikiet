@@ -91,27 +91,24 @@ export class XuatnhaptonComponent implements OnInit {
         const matchingXuatkho = this.ListXuatkho.items.filter((n:any) => n.TenSP == v.TenSP ||n.TenSP == v.TenSPXuat ||n.TenSP == v.TenSPNhap||n.TenSP == v.TenSP1||n.TenSP == v.TenSP2);
         const SLX= matchingXuatkho ? matchingXuatkho.reduce((total:any, item:any) => total + Number(item.Soluong||0), 0) : 0
         const TongXuat= matchingXuatkho ? matchingXuatkho.reduce((total:any, item:any) => total + Number(item.Tongtien||0), 0) : 0
-      //   let Quydoi:any =1
-      //   if(SLX>0&&SLN>0&&(TongNhap/SLN)>0)
-      //   {
-      //     const check:any = ((TongNhap/SLN)/(TongXuat/SLX)).toFixed(0)
-      //     Quydoi = check >0?check:1
-      //   }
-      //   v.Quydoi = Quydoi
-      //  this._SanphamService.UpdateSanphamChung(v)
+        let Quydoi:any =1
+        if(SLX>0&&SLN>0&&(TongNhap/SLN)>0)
+        {
+          Quydoi = ((TongXuat/SLX)/(TongNhap/SLN)).toFixed(0)
+        }
         return { 
             ...v, 
             SLDK:SLDK,
             TongDK:TongDK,
-            SLN: SLN*v.Quydoi,
+            SLN: SLN,
             TongNhap: TongNhap,
             SLX:SLX ,
-            TTVon:(SLX*(Math.abs(Number(TongDK))+Math.abs(Number(TongNhap)))/(Math.abs(Number(SLDK))+Math.abs(Number(SLN*v.Quydoi)))||0).toFixed(0),
+            TTVon:(SLX*(Math.abs(Number(TongDK))+Math.abs(Number(TongNhap)))/(Math.abs(Number(SLDK))+Math.abs(Number(SLN)))||0).toFixed(0),
             TongXuat: TongXuat,
-            SLT: SLDK + SLN*v.Quydoi - SLX,
-            TTTon:((SLDK + SLN*v.Quydoi - SLX)*((Math.abs(Number(TongDK))+Math.abs(Number(TongNhap)))/(Math.abs(Number(SLDK))+Math.abs(Number(SLN*v.Quydoi))))||0).toFixed(0),
+            SLT: SLDK + SLN - SLX,
+            TTTon:((SLDK + SLN - SLX)*((Math.abs(Number(TongDK))+Math.abs(Number(TongNhap)))/(Math.abs(Number(SLDK))+Math.abs(Number(SLN))))||0).toFixed(0),
             TongTon:TongDK + TongNhap - TongXuat,
-            Quydoi:v.Quydoi
+            Quydoi:Quydoi
           };     
       })
     );  
