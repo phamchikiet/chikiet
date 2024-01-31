@@ -18,6 +18,20 @@ export class SanphamchungEntity {
   TenSPXuat: string;
   @Column({ type: 'text', collation: 'utf8_general_ci' })
   TenSPNhap: string;
+  @Column({ type: 'text', collation: 'utf8_general_ci' })
+  TenSP1: string;
+  @Column({ type: 'text', collation: 'utf8_general_ci' })
+  TenSP2: string;
+  @Column({ type: 'text', collation: 'utf8_general_ci' })
+  TenSP3: string;
+  @Column({ type: 'text', collation: 'utf8_general_ci' })
+  TenSP4: string;
+  @Column({ type: 'text', collation: 'utf8_general_ci' })
+  TenSP5: string;
+  @Column({ type: 'text', collation: 'utf8_general_ci' })
+  TenSP6: string;
+  @Column({ default: 1 })
+  Quydoi: number;
   @Column({nullable:true, type: 'text', collation: 'utf8_general_ci' })
   DVT: string;
   @Column({ type: 'text', collation: 'utf8_general_ci' })

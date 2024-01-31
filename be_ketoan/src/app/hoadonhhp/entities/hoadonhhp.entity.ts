@@ -14,6 +14,8 @@ export class HoadonhhpEntity {
   SHD: string;
   @Column({ type: 'text', collation: 'utf8_general_ci' })
   Thang: string;
+  @Column({ nullable:true})
+  Nam: number;
   @Column({ type: 'text', collation: 'utf8_general_ci' })
   Type: string;
   @Column({ default: 0 })

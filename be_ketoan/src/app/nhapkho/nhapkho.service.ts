@@ -37,6 +37,17 @@ export class NhapkhoService {
       },
     });
   }
+  async findtensp(TenSP: any) {
+    console.log(TenSP);
+    
+    const queryBuilder = this.NhapkhoRepository.createQueryBuilder('nhapkho');
+      queryBuilder.andWhere('nhapkho.TenSP LIKE :TenSP', { TenSP: `%${TenSP}%` });
+      const [items, totalCount] =await queryBuilder.getManyAndCount();
+      const Soluong = items.reduce((total:any, item:any) => total + Number(item.Soluong), 0);
+      const Tongcong = items.reduce((total:any, item:any) => total + Number(item.Tongtien), 0);
+
+    return {items, totalCount,Soluong,Tongcong}
+  }
   async findslug(SHD: any) {
     return await this.NhapkhoRepository.findOne({
       where: { SHD: SHD },

@@ -42,13 +42,19 @@ export class SanphamController {
     async findQuerychung(@Body() SearchParams: any){
       return await this.sanphamService.findQuerychung(SearchParams);
   }
-  @Patch(':id')
+  @Patch('chung/:id')
   update(@Param('id') id: string, @Body() updateSanphamDto: UpdateSanphamDto) {
     return this.sanphamService.update(id, updateSanphamDto);
   }
 
-  @Delete(':id')
+  @Delete('sanpham/:id')
   remove(@Param('id') id: string) {
     return this.sanphamService.remove(id);
+  }
+  @Delete('chung/:id')
+  removeChung(@Param('id') id: string) {
+    console.log(id);
+    
+    return this.sanphamService.removechung(id);
   }
 }

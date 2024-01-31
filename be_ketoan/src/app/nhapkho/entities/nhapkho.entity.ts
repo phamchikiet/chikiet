@@ -19,6 +19,8 @@ export class NhapkhoEntity {
   @Column({nullable:true, type: 'bigint'})
   Soluong: number;
   @Column({nullable:true, type: 'bigint'})
+  Quydoi: number;
+  @Column({nullable:true, type: 'bigint'})
   Gianhap: number;
   @Column({nullable:true, type: 'bigint'})
   Giavon: number;

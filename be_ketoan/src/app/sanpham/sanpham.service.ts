@@ -125,13 +125,18 @@ export class SanphamService {
   }
 
 
-  async update(id: string, UpdateSanphamDto: UpdateSanphamDto) {
-    this.SanphamRepository.save(UpdateSanphamDto);
-    return await this.SanphamRepository.findOne({ where: { id: id } });
+  async update(id: string, data: any) {
+    this.SanphamchungRepository.save(data);
+    return await this.SanphamchungRepository.findOne({ where: { id: id } });
   }
   async remove(id: string) {
     console.error(id)
     await this.SanphamRepository.delete(id);
+    return { deleted: true };
+  }
+  async removechung(id: string) {
+    console.error(id)
+    await this.SanphamchungRepository.delete(id);
     return { deleted: true };
   }
 }

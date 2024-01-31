@@ -77,6 +77,15 @@ export class XuatkhoService {
 
     return { items, totalCount };
   }
+  async findtensp(TenSP: any) {
+    const queryBuilder = this.XuatkhoRepository.createQueryBuilder('xuatkho');
+      queryBuilder.andWhere('xuatkho.TenSP LIKE :TenSP', { TenSP: `%${TenSP}%` });
+      const [items, totalCount] =await queryBuilder.getManyAndCount();
+      const Soluong = items.reduce((total:any, item:any) => total + Number(item.Soluong), 0);
+      const Tongcong = items.reduce((total:any, item:any) => total + Number(item.Tongtien), 0);
+
+    return {items, totalCount,Soluong,Tongcong}
+  }
   async update(id: string, UpdateXuatkhoDto: any) {
     this.XuatkhoRepository.save(UpdateXuatkhoDto);
     return await this.XuatkhoRepository.findOne({ where: { id: id } });

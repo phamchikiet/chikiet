@@ -16,6 +16,10 @@ export class NhapkhoController {
   async findOne(@Param('id') id: string) {
     return await this.nhapkhoService.findid(id);
   }
+  @Get('findtensp/:data')
+  async findtensp(@Param('data') data: string) {
+    return await this.nhapkhoService.findtensp(data);
+  }
   @Get('findslug/:slug')
   async findslug(@Param('slug') slug: string) {
     return await this.nhapkhoService.findslug(slug);

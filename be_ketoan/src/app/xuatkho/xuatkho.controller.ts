@@ -20,6 +20,10 @@ export class XuatkhoController {
   async findslug(@Param('slug') slug: string) {
     return await this.xuatkhoService.findslug(slug);
   }
+  @Get('findtensp/:data')
+  async findtensp(@Param('data') data: string) {
+    return await this.xuatkhoService.findtensp(data);
+  }
   @Get('pagination')
   async findPagination(@Query('page') page: number,@Query('perPage') perPage: number){
        return await this.xuatkhoService.findPagination(page,perPage);
