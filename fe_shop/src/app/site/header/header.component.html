@@ -91,12 +91,12 @@
                     <span>Admin</span>
                 </a>
             </button>
-            <button mat-menu-item>
+            <a (click)="Dangxuat()" mat-menu-item>
                 <div class="flex flex-row space-x-3 items-center">
                     <span class="material-symbols-outlined">logout</span>
                     <span>Đăng Xuất</span>
                 </div>
-            </button>
+            </a>
         </mat-menu>
         <button mat-icon-button (click)="sidebarVisible = true">
             <span class="lg:hidden material-symbols-outlined">

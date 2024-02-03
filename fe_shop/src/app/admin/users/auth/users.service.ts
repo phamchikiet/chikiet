@@ -129,11 +129,13 @@ export class UsersService {
           'Authorization': `Bearer ${this.accessToken}` 
         },   
       };
-      const response = await fetch(`${environment.APIURL}/userss/profile`, options);
+      const response = await fetch(`${environment.APIURL}/users/profile`, options);
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
       }
       const data = await response.json();
+      console.log(data);
+      
       this._profile.next(data);
       console.log(data);
     } catch (error) {

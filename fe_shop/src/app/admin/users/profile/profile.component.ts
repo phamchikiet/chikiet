@@ -3,13 +3,15 @@ import { LocalStorageService } from 'fe_shop/src/app/shared/localstorage.service
 import { UsersService } from '../auth/users.service';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
+import { AvatarComponent } from 'fe_shop/src/app/shared/avatar/avatar.component';
 
 @Component({
   selector: 'app-profile',
   standalone:true,
   imports:[
     CommonModule,
-    FormsModule
+    FormsModule,
+    AvatarComponent
   ],
   templateUrl: './profile.component.html',
   styleUrls: ['./profile.component.css']
@@ -26,13 +28,19 @@ export class ProfileComponent implements OnInit {
       this._UsersService.profile$.subscribe((data) => {
         if (data) {
           this.User = data
-          console.log(this.User);
-          
+          console.log(this.User); 
         }
       })
     }
   }
   ngOnInit() {
+  }
+  GetUpload(e:any)
+  {
+    console.log(e.src);
+    
+    this.User.Image.Main = e.src
+    this._UsersService.UpdateUser(this.User);
   }
 
 }

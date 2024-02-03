@@ -4,7 +4,7 @@ import { AppService } from '../../app.service';
 import { MatMenuModule } from '@angular/material/menu';
 import { MainComponent } from '../main/main.component';
 import { MatBadgeModule } from '@angular/material/badge';
-import { RouterLink, RouterLinkActive } from '@angular/router';
+import { Router, RouterLink, RouterLinkActive } from '@angular/router';
 import { DanhmucService } from '../../admin/main-admin/danhmuc/danhmuc.service';
 import { OverlayModule } from '@angular/cdk/overlay';
 import { GiohangService } from '../../admin/main-admin/website/giohang/giohang.service';
@@ -15,6 +15,7 @@ import { InputTextModule } from 'primeng/inputtext';
 import { MegaMenuItem } from 'primeng/api';
 import { UsersService } from '../../admin/users/auth/users.service';
 import { LocalStorageService } from '../../shared/localstorage.service';
+import { AuthService } from '../../admin/users/auth/auth.service';
 @Component({
   selector: 'app-header',
   standalone: true,
@@ -41,6 +42,8 @@ export class HeaderComponent implements OnInit {
   _DanhmucService: DanhmucService = inject(DanhmucService);
   _GiohangService: GiohangService = inject(GiohangService);
   _UsersService: UsersService = inject(UsersService);
+  _AuthService: AuthService = inject(AuthService);
+  _Router: Router = inject(Router);
   _LocalStorageService: LocalStorageService = inject(LocalStorageService);
   SearchParams: any = {
     pageSize: 50,
@@ -279,5 +282,9 @@ export class HeaderComponent implements OnInit {
   onMouseOut(name: string) {
     console.log("mouse out", name);
   }
-
+  Dangxuat()
+  {
+    const result = this._AuthService.Dangxuat()
+    if(result){this._Router.navigate(['/'])}
+  }
 }
