@@ -14,8 +14,9 @@ import { MatSnackBar } from '@angular/material/snack-bar';
 import { DanhmucService } from 'fe_shop/src/app/admin/main-admin/danhmuc/danhmuc.service';
 import {MatCheckboxChange, MatCheckboxModule} from '@angular/material/checkbox';
 import { FormsModule } from '@angular/forms';
-import { MatPaginatorIntl, MatPaginatorModule } from '@angular/material/paginator';
+import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSelectModule } from '@angular/material/select';
+import {MatChipsModule} from '@angular/material/chips';
 @Component({
   selector: 'app-list-sanpham',
   standalone:true,
@@ -27,7 +28,8 @@ import { MatSelectModule } from '@angular/material/select';
     FormsModule,
     MatCheckboxModule,
     MatPaginatorModule,
-    MatSelectModule
+    MatSelectModule,
+    MatChipsModule
   ],
   templateUrl: './list-sanpham.component.html',
   styleUrls: ['./list-sanpham.component.css']
@@ -52,6 +54,7 @@ export class ListSanphamComponent implements OnInit {
   FilterSanpham:any[]=[]
   ListDanhmuc:any={}
   FilterDanhmuc:any[]=[]
+  ChosenFilterDM:any[]=[]
   SearchParams: any = {
     pageSize:9,
     pageNumber:0,
@@ -102,18 +105,24 @@ export class ListSanphamComponent implements OnInit {
     this.ListSanpham = await this._SanphamService.SearchSanpham(this.SearchParams)
     this.FilterSanpham = this.ListSanpham.items
   }
-  onFilterChange(event: MatCheckboxChange) {
-    const checked = event.checked;
-    const index = event.source;
-    console.log(event);
-    console.log(this.FilterDanhmuc.map((v)=>(v.isChecked)));
-    
-   // console.log(`Filter category ${index} changed to ${checked}`);
+  async onFilterChange() {
+    this.ChosenFilterDM = this.FilterDanhmuc.filter((v)=>(v.isChecked==true))
+    this.SearchParams.Danhmuc=this.ChosenFilterDM.map((v)=>(v.id_cat))
+    if(this.SearchParams.Danhmuc.length>0)
+    {
+      this.ListSanpham = await this._SanphamService.SearchSanpham(this.SearchParams)
+      this.FilterSanpham = this.ListSanpham.items
+    }
+    else
+    {
+        delete this.SearchParams.Danhmuc
+        this.ListSanpham = await this._SanphamService.SearchSanpham(this.SearchParams)
+        this.FilterSanpham = this.ListSanpham.items
+    }
+}
+RemoveFilter(item:any)
+{
 
-    // Example: Update the displayed data based on the checked filters
-    // this.filteredData = this.originalData.filter(dataItem => {
-    //     return this.FilterDanhmuc.some(filter => filter.isChecked && filter.CategoryId === dataItem.CategoryId);
-    // });
 }
   async onChangeSorting(event: any) {
     switch (Number(event.target.value)) {
