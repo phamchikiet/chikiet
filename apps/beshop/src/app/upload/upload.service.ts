@@ -64,10 +64,9 @@ export class UploadService {
   }
   async uploadlocal(item: any) {
     try {
-      //const host = 'https://images.tazaskin.com/'
-      const host = 'https://images.tazaskin.com/'
+      const host = 'https://images.chikiet.com/'
       const absolutePath = item.path;
-      const rootPath = '/home/tazaspac/tazaskin/images';   
+      const rootPath = '/home/jtnkwfpz/public_html/shop/images';   
       const relativePath = path.relative(rootPath, absolutePath);
       let data = {
         name: item.originalname,
