@@ -68,6 +68,9 @@ export class UploadService {
       const absolutePath = item.path;
       const rootPath = '/home/jtnkwfpz/public_html/shop/images';   
       const relativePath = path.relative(rootPath, absolutePath);
+      console.log(rootPath);
+      console.log(absolutePath);
+      
       let data = {
         name: item.originalname,
         Mime: item.mimetype,

@@ -69,7 +69,7 @@ export class UploadController {
       storage: diskStorage({
         destination: (req, file, cb) => {
           // const path = './dist/' + req.query.folder;
-          const path = '/home/jtnkwfpz/public_html/shop/images' + req.query.folder;
+          const path = req.query.folder;
           if (!fs.existsSync(path)) {
             fs.mkdirSync(path, { recursive: true });
             console.log('Folder created:', path);
