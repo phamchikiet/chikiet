@@ -15,7 +15,7 @@
       <form action="#">
         <div class="grid lg:grid-cols-2 grid-cols-1  gap-6">
           <div class="flex flex-col space-y-3">
-            <app-hinhanh class="h-full" [Image]="Detail.Image" (UploadEmit)="GetUpload($event)"></app-hinhanh> 
+            <app-hinhanh class="h-full" [Image]="{Main:Detail.Image.Main}" (UploadEmit)="GetUpload($event)"></app-hinhanh> 
             <mat-form-field appearance="outline" class="w-full text-xs">
               <mat-label>Tên Sản Phẩm</mat-label>
               <input [(ngModel)]="Detail.Title" [ngModelOptions]="{standalone: true}" type="text" matInput 

@@ -55,7 +55,7 @@ export class SanphamComponent implements OnInit {
     this.Lists = await this._SanphamService.SearchSanpham(this.SearchParams)
     this.FilterLists = this.Lists.items
     this.pageSizeOptions = [10, 20, this.Lists.totalCount].filter(v => v <= this.Lists.totalCount);
-     console.log(this.FilterLists);
+    //  console.log(this.FilterLists);
   }
   applyFilter(event: Event) {
     const value = (event.target as HTMLInputElement).value;

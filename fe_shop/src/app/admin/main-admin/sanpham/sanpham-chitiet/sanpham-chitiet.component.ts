@@ -52,10 +52,14 @@ export class SanphamChitietComponent implements OnInit {
       this.idSP = this.route.snapshot.params['id'];
   }
   async ngOnInit() {
+    if(this.idSP)
+    {
     this.Detail = await this._SanphamService.getSanphamByid(this.idSP)
     this.Danhmuc = await this._DanhmucService.getAllDanhmuc()
-    console.log(this.Detail);
-    console.log(this.Danhmuc);
+    // console.log(this.Detail);
+    // console.log(this.Danhmuc);
+    this._SanphamComponent.drawer.open()
+    }
   }
   CloseDrawer()
   {
