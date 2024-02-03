@@ -7,16 +7,32 @@ import { environment } from '../../environments/environment';
 })
 export class UploadService {
   constructor() { }
-  DeleteuploadDriver(data: any) {
-  //   console.log(data);
-  //   return this.http.delete(environment.APIURL + `/upload/${data.id}`,{ body: data }).pipe(
-  //     map((res: any) => {
-  //       if (res) {
-  //         console.log(res);
-  //         return res;
-  //       }
-  //     })
-  //   );
+  async DeleteuploadDriver(data: any) {
+    console.log(data);
+    try {
+      const response = await fetch(environment.APIURL + `/upload/${data.id}`, {
+        method: 'DELETE',
+        headers: {
+          'Content-Type': 'application/json' // Assuming the API expects JSON data
+        },
+        body: JSON.stringify(data) 
+       }) 
+       if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+      const result = await response.json();         
+      return result;
+      } catch (error) {
+          return console.error(error);
+      }
+    // return this.http.delete(environment.APIURL + `/upload/${data.id}`,{ body: data }).pipe(
+    //   map((res: any) => {
+    //     if (res) {
+    //       console.log(res);
+    //       return res;
+    //     }
+    //   })
+    // );
   }
   async uploadDriver(file: any) {
     try {

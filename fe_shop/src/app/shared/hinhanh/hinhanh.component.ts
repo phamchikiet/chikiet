@@ -22,16 +22,18 @@ export class HinhanhComponent implements OnInit {
   _UploadService:UploadService = inject(UploadService)
   constructor() { }
   ngOnInit() {
+    console.log(this.Image);
+    
   }
-  onSelect(event: any) {
+  async onSelect(event: any) {
     console.log(event);
     
-    const result = this._UploadService.uploadDriver(event.addedFiles[0])
+    const result = await this._UploadService.uploadDriver(event.addedFiles[0])
     this.Image = result
     this.UploadEmit.emit(this.Image);
   }
-  onRemove(data: any) {
-    const result =   this._UploadService.DeleteuploadDriver(data)    
+  async onRemove(data: any) {
+    const result =  this._UploadService.DeleteuploadDriver(data)    
     this.Image = {}
     this.UploadEmit.emit(this.Image);
   }

@@ -125,11 +125,13 @@
                       <td class="p-4 text-sm font-normal text-gray-500 whitespace-nowrap lg:p-5">
                         <div class="text-base font-semibold text-gray-900">{{item.id_cat}}</div>
                       </td>
-                      <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap lg:p-5">
+                      <td class="cursor-pointer p-4 text-base font-medium text-gray-900 whitespace-nowrap lg:p-5">
+                       <div (click)="UpdateStatusSanpham(item)">
                         @if (item.Status==1) {
                           <span class="material-symbols-outlined text-blue-500">check_circle</span>
                          }
                         @else { <span class="material-symbols-outlined text-red-500">cancel</span> }
+                      </div>
                       </td>
                       <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap lg:p-5">
                         @if (item.Banchay==0) {

@@ -143,4 +143,9 @@ export class SanphamComponent implements OnInit {
     window.URL.revokeObjectURL(url);
     link.remove();
   }  
+  UpdateStatusSanpham(item:any)
+  {
+    item.Status=!item.Status
+    this._SanphamService.UpdateSanpham(item)
+  }
 }

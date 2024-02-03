@@ -98,7 +98,13 @@ export class SanphamService {
             body: JSON.stringify(item),
           };
           const response = await fetch(`${environment.APIURL}/sanpham/${item.id}`, options);
-          return await response.json();         
+          if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+          }
+          const data = await response.json();        
+          console.log(data);
+           
+          return data;  
       } catch (error) {
           return console.error(error);
       }
