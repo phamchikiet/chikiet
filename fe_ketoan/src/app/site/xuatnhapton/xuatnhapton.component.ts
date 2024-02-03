@@ -134,7 +134,7 @@ export class XuatnhaptonComponent implements OnInit {
           ||n.TenSP === v.TenSP3
           ||n.TenSP === v.TenSP4
           );
-          const SLN = matchingNhapkho ? matchingNhapkho.reduce((total:any, item:any) => total + Number(item.Quydoi||0), 0) : 0
+          const SLN = matchingNhapkho ? matchingNhapkho.reduce((total:any, item:any) => total + Number(item.Soluong*v.Quydoi||0), 0) : 0
           const TongNhap = matchingNhapkho ? matchingNhapkho.reduce((total:any, item:any) => total + Number(item.Tongtien||0), 0) : 0
           const matchingXuatkho = this.ListXuatkho.items.filter((n:any) => 
             n.TenSP === v.TenSP 
@@ -153,14 +153,14 @@ export class XuatnhaptonComponent implements OnInit {
               ...v, 
               SLDK:SLDK,
               TongDK:TongDK,
-              SLN: SLN*v.Quydoi,
+              SLN: SLN,
               TongNhap: TongNhap,
               SLX:SLX ,
-              TTVon:(SLX*(Math.abs(Number(TongDK))+Math.abs(Number(TongNhap)))/(Math.abs(Number(SLDK))+Math.abs(Number(SLN*v.Quydoi)))||0).toFixed(0),
+              TTVon:(SLX*(Math.abs(Number(TongDK))+Math.abs(Number(TongNhap)))/(Math.abs(Number(SLDK))+Math.abs(Number(SLN)))||0).toFixed(0),
               //TTVon:SLX*matchingNhapkho[0].Giavon,
               TongXuat: TongXuat,
-              SLT: SLDK + SLN*v.Quydoi - SLX,
-              TTTon:((SLDK + SLN*v.Quydoi - SLX)*((Math.abs(Number(TongDK))+Math.abs(Number(TongNhap)))/(Math.abs(Number(SLDK))+Math.abs(Number(SLN*v.Quydoi))))||0).toFixed(0),
+              SLT: SLDK + SLN - SLX,
+              TTTon:((SLDK + SLN - SLX)*((Math.abs(Number(TongDK))+Math.abs(Number(TongNhap)))/(Math.abs(Number(SLDK))+Math.abs(Number(SLN))))||0).toFixed(0),
               TongTon:TongDK + TongNhap - TongXuat,
               Quydoi:v.Quydoi,
               Thang:this.SearchParams.Thang

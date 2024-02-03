@@ -3,15 +3,23 @@
     <div class="flex flex-row space-x-2 justify-center p-2">
     <mat-form-field>
         <mat-label>Tháng</mat-label>
-        <mat-select [(ngModel)]="SearchParams.Thang" [ngModelOptions]="{standalone: true}" (selectionChange)="onChangeThang($event)">
+        <mat-select [(ngModel)]="SearchParams.Thang" [ngModelOptions]="{standalone: true}" (selectionChange)="ngOnInit()">
           @for (item of [1,2,3,4,5,6,7,8,9,10,11,12]; track $index) {
             <mat-option [value]="item">{{item}}</mat-option>
           }
         </mat-select>
       </mat-form-field>
+      <mat-form-field>
+        <mat-label>Năm</mat-label>
+        <mat-select [(ngModel)]="SearchParams.Nam" [ngModelOptions]="{standalone: true}" (selectionChange)="ngOnInit()">
+          @for (item of [2021,2022,2023,2024,2025]; track $index) {
+          <mat-option [value]="item">{{item}}</mat-option>
+          }
+        </mat-select>
+      </mat-form-field>
     <mat-form-field>
         <mat-label>Tình Trạng</mat-label>
-        <mat-select [(ngModel)]="ttxly" [ngModelOptions]="{standalone: true}" (selectionChange)="onChangeTinhtrang($event)">
+        <mat-select [(ngModel)]="ttxly" [ngModelOptions]="{standalone: true}" (selectionChange)="ngOnInit()">
           @for (item of [5,6]; track $index) {
             <mat-option [value]="item">{{item}}</mat-option>
           }
@@ -27,7 +35,7 @@
       <mat-date-range-picker #rangePicker>
         <mat-date-range-picker-actions>
           <button mat-button matDateRangePickerCancel>Cancel</button>
-          <button mat-raised-button color="primary" matDateRangePickerApply (click)="ChangeDate()">Đồng Ý</button>
+          <button mat-raised-button color="primary" matDateRangePickerApply (click)="ngOnInit()">Đồng Ý</button>
         </mat-date-range-picker-actions>
       </mat-date-range-picker>
     </mat-form-field>

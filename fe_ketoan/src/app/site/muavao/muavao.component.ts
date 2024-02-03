@@ -49,13 +49,14 @@ export class MuavaoComponent implements OnInit {
   Listfilter: any[] = []
   HoadonHHP: any
   ListMuavao: any
-  Chonngay: any = { Batdau: new Date('2023-11-01'), Ketthuc: new Date('2023-11-30') }
+  Chonngay: any = { Batdau: new Date('2024-01-01'), Ketthuc: new Date('2024-01-31') }
   ttxly:any=5
   Thang:any=1
   Nam:any=2023
   Token:any=localStorage.getItem('TokenWeb')
   SearchParams: any = {
-    Thang:12,
+    Thang:1,
+    Nam:2024,
     Type:"NHAP",
     pageSize:1000,
     pageNumber:0
@@ -80,31 +81,6 @@ export class MuavaoComponent implements OnInit {
       this.dataSource.paginator = this.paginator;
       this.dataSource.sort = this.sort;
       this.pageSizeOptions = [10, 20, this.ListMuavao.totalCount].filter(v => v <= this.ListMuavao.totalCount);
-  }
-  ChangeDate() {
-    this.Listfilter = this.List.filter((v: any) => {
-      const Ngaytao = new Date(v.tdlap)
-        return Ngaytao.getTime() >= this.Chonngay.Batdau.getTime() && Ngaytao.getTime() <= this.Chonngay.Ketthuc.getTime()
-      })
-      this.dataSource = new MatTableDataSource(this.Listfilter);
-      this.dataSource.paginator = this.paginator;
-      this.dataSource.sort = this.sort;
-  }
-  async onChangeThang(event:MatSelectChange)
-  {
-    this.Thang=event.value
-    this.HoadonHHP  = await this._ShdhhpService.SearchShdhhp({Thang:this.Thang,Type:"NHAP"})
-    console.log(this.HoadonHHP);
-    
-    // this.dataSource = new MatTableDataSource(this.ListSP?.items);
-    // this.dataSource.paginator = this.paginator;
-    // this.dataSource.sort = this.sort;
-  }
-  async onChangeTinhtrang(event:MatSelectChange)
-  {
-    console.log(event.value);
-    
-
   }
   writeExcelFile(data: any) {
     const worksheet: XLSX.WorkSheet = XLSX.utils.json_to_sheet(data);
@@ -139,6 +115,7 @@ export class MuavaoComponent implements OnInit {
         item.Dulieu=result.datas
         item.SHD = v.SHD
         item.Thang = v.Thang
+        item.Nam = v.Nam
         item.Type = v.Type
         item.Ngaytao = moment(result.datas[0].tdlap).format("YYYY-MM-DD")
         this._MuavaoService.CreateMuavaos(item)

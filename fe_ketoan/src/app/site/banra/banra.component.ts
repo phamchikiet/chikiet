@@ -49,13 +49,14 @@ export class BanraComponent implements OnInit {
   Listfilter: any[] = []
   HoadonHHP: any
   ListBanra: any
-  Chonngay: any = { Batdau: new Date('2023-03-01'), Ketthuc: new Date('2023-03-31') }
+  Chonngay: any = { Batdau: new Date('2024-01-01'), Ketthuc: new Date('2024-01-31') }
   ttxly:any=5
   Thang:any=1
   Nam:any=2023
   Token:any=localStorage.getItem('TokenWeb')
   SearchParams: any = {
-    Thang:3,
+    Thang:1,
+    Nam:2024,
     Type:"XUAT",
     pageSize:1000,
     pageNumber:0
@@ -140,6 +141,7 @@ export class BanraComponent implements OnInit {
         item.Dulieu=result.datas
         item.SHD = v.SHD
         item.Thang = v.Thang
+        item.Nam = v.Nam
         item.Type = v.Type
         item.Ngaytao = moment(result.datas[0].tdlap).format("YYYY-MM-DD")
         this._BanraService.CreateBanras(item)

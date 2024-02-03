@@ -43,7 +43,7 @@ export class ShdhhpComponent implements OnInit {
   ListSP: any={}
   constructor() { }
   _ShdhhpService: ShdhhpService = inject(ShdhhpService);
-  displayedColumns: string[] = ['SHD', 'Thang', 'Type'];
+  displayedColumns: string[] = ['SHD', 'Thang','Nam', 'Type'];
   dataSource!: MatTableDataSource<any>;
   @ViewChild(MatPaginator) paginator!: MatPaginator;
   @ViewChild(MatSort) sort!: MatSort;
@@ -58,14 +58,6 @@ export class ShdhhpComponent implements OnInit {
   {
     this.SearchParams.pageSize=event.pageSize
     this.SearchParams.pageNumber=event.pageIndex
-    this.ListSP = await this._ShdhhpService.SearchShdhhp(this.SearchParams)
-    this.dataSource = new MatTableDataSource(this.ListSP?.items);
-    this.dataSource.paginator = this.paginator;
-    this.dataSource.sort = this.sort;
-  }
-  async onChange(event:MatSelectChange)
-  {
-    this.SearchParams.Thang=event.value
     this.ListSP = await this._ShdhhpService.SearchShdhhp(this.SearchParams)
     this.dataSource = new MatTableDataSource(this.ListSP?.items);
     this.dataSource.paginator = this.paginator;
@@ -113,7 +105,6 @@ export class ShdhhpComponent implements OnInit {
       const jsonData = XLSX.utils.sheet_to_json(worksheet, { raw: true });
       console.log(jsonData);
       jsonData.forEach((v:any,k:any) => {
-       // delete v.
         setTimeout(() => {
           this._ShdhhpService.CreateShdhhp(v)
         }, Math.random()*1000 + 100*k);
