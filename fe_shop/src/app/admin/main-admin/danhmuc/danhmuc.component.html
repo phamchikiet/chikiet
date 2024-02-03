@@ -1,30 +1,18 @@
 <mat-drawer-container class="example-container w-full h-full" autosize>
-  <mat-drawer #drawer mode="side" class="!flex flex-col flex-auto min-w-0 relative h-full w-2/3" position="end">
+  <mat-drawer #drawer mode="side" class="!flex flex-col flex-auto min-w-0 relative h-full w-full" position="end">
     <div class="relative flex flex-col h-full w-full overflow-auto">
       <router-outlet></router-outlet>
     </div>
   </mat-drawer>
   <mat-drawer-content class="!flex flex-col flex-auto min-w-0 relative bg-gray-50 !h-[90vh]">
     <div class="relative flex flex-col">
-      <div
-        class="block justify-between items-center p-4 mx-4 mt-4 mb-6 bg-white rounded-2xl shadow-xl shadow-gray-200 lg:p-5 sm:flex">
-        <div class="flex flex-row space-x-2 items-center">
+      <div class="flex justify-between items-center space-x-2 m-2 bg-white p-3 rounded-lg">
+        <div class="flex flex-row space-x-3 justify-center items-center">
           <div class="relative mt-1 lg:w-80">
-            <div class="flex absolute inset-y-0 left-0 items-center pl-3 pointer-events-none">
-              <svg class="w-5 h-5 text-gray-500" fill="currentColor" viewBox="0 0 20 20"
-                xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd"
-                  d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
-                  clip-rule="evenodd"></path>
-              </svg>
-            </div>
             <input (keyup)="applyFilter($event)" type="text" name="email" id="topbar-search"
-              class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-2 focus:ring-fuchsia-50 focus:border-fuchsia-300 block w-full pl-10 p-2.5"
-              placeholder="Tìm Kiếm Danh Mục">
+              class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-2 focus:ring-fuchsia-50 focus:border-fuchsia-300 block w-full p-2.5"
+              placeholder="Tìm Kiếm">
           </div>
-          <button mat-icon-button [matMenuTriggerFor]="menu">
-            <span class="material-symbols-outlined">more_vert</span>
-          </button>
           <mat-menu #menu="matMenu">
             <button mat-menu-item>
               <div class="flex flex-row space-x-2 items-center justify-center">
@@ -45,8 +33,7 @@
               </div>
             </button>
           </mat-menu>
-
-          <div class="flex flex-row space-x-3">
+          <div class="hidden lg:flex flex-row space-x-3">
             <div (click)="writeExcelFile()"
               class="flex flex-col items-center space-x-2 p-2 hover:bg-gray-200 rounded-lg">
               <span class="material-symbols-outlined text-xl" matTooltip="Upload File">file_download</span>
@@ -59,17 +46,18 @@
               <input class="hidden" (change)="readExcelFile($event)" type="file" #uploadfile>
             </div>
           </div>
-
         </div>
-        <div>
+        <div class="flex flex-row space-x-2 items-center">
           <button mat-flat-button color="primary">
             <div (click)="openDialog(dialogTemplate)" class="flex flex-row items-center">
               <span class="material-symbols-outlined">add</span>
-              <span class="hidden lg:flex">Danh Mục</span>
+              <span class="hidden lg:flex">Sản Phẩm</span>
             </div>
           </button>
+          <button class="lg:!hidden flex" mat-icon-button [matMenuTriggerFor]="menu">
+            <span class="material-symbols-outlined">more_vert</span>
+          </button>
         </div>
-
       </div>
     </div>
     <div class="relative flex flex-col h-full w-full overflow-auto">
@@ -80,13 +68,6 @@
               <table class="min-w-full divide-y divide-gray-200 table-fixed">
                 <thead class="bg-white">
                   <tr>
-                    <th scope="col" class="p-4 lg:p-5">
-                      <div class="flex items-center">
-                        <input id="checkbox-all" aria-describedby="checkbox-1" type="checkbox"
-                          class="w-5 h-5 rounded border-gray-300 focus:ring-0 checked:bg-dark-900">
-                        <label for="checkbox-all" class="sr-only">checkbox</label>
-                      </div>
-                    </th>
                     <th scope="col" class="p-4 text-xs font-medium text-left text-gray-500 uppercase lg:p-5">
                       Tên Danh Mục
                     </th>
@@ -101,13 +82,6 @@
                 <tbody class="bg-white divide-y divide-gray-200">
                   @for (item of FilterLists; track $index) {
                     <tr class="hover:bg-gray-100">
-                      <td class="p-4 w-4 lg:p-5">
-                        <div class="flex items-center">
-                          <input id="checkbox-194556" aria-describedby="checkbox-1" type="checkbox"
-                            class="w-5 h-5 rounded border-gray-300 focus:ring-0 checked:bg-dark-900">
-                          <label for="checkbox-194556" class="sr-only">checkbox</label>
-                        </div>
-                      </td>
                       <td class="p-4 text-sm font-normal text-gray-500 whitespace-nowrap lg:p-5">
                         <div class="text-base font-semibold text-gray-900">{{item.Title}}</div>
                         <div class="text-sm font-normal text-gray-500">{{item.Slug}}</div>
@@ -119,8 +93,7 @@
                         @else { <span class="material-symbols-outlined text-red-500">cancel</span> }
                       </td>
                       <td class="p-4 space-x-2 whitespace-nowrap lg:p-5">
-                        <button type="button" data-modal-toggle="product-modal"
-                          class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-gray-700 bg-gray-200 rounded-lg hover:bg-gray-300 hover:text-gray-900 hover:scale-[1.02] transition-all">
+                        <a [href]="'admin/danhmuc/'+item.id" type="button" class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-gray-700 bg-gray-200 rounded-lg hover:bg-gray-300 hover:text-gray-900 hover:scale-[1.02] transition-all">
                           <svg class="mr-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
                             xmlns="http://www.w3.org/2000/svg">
                             <path d="M17.414 2.586a2 2 0 00-2.828 0L7 10.172V13h2.828l7.586-7.586a2 2 0 000-2.828z">
@@ -130,7 +103,7 @@
                               clip-rule="evenodd"></path>
                           </svg>
                           Chỉnh Sửa
-                        </button>
+                        </a>
                         <button type="button" data-modal-toggle="delete-product-modal"
                           class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-gradient-to-br from-red-400 to-red-600 rounded-lg shadow-md shadow-gray-300 hover:scale-[1.02] transition-transform">
                           <svg class="mr-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
@@ -144,7 +117,6 @@
                       </td>
                     </tr>
                   }
-
                 </tbody>
               </table>
             </div>

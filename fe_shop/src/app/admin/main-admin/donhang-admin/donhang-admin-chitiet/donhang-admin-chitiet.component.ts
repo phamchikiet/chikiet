@@ -32,14 +32,19 @@ export class DonhangAdminChitietComponent implements OnInit {
       this.idSP = this.route.snapshot.params['id'];
   }
   ngOnInit() {
-    this._GiohangService.getAdDonhangByid(this.idSP)
-    this._GiohangService.addonhang$.subscribe((data)=>{
-      if(data)
-      {      
-        console.log(data);
-        this.Detail=data
-      }
-    })
+    if(this.idSP)
+    {
+      this._GiohangService.getAdDonhangByid(this.idSP)
+      this._GiohangService.addonhang$.subscribe((data)=>{
+        if(data)
+        {      
+          console.log(data);
+          this.Detail=data
+        }
+      })
+      this._DonhangAdminComponent.drawer.open()
+    }
+
   }
   CloseDrawer()
   {

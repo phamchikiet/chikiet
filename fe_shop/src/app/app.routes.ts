@@ -162,11 +162,14 @@ export const appRoutes: Route[] = [
             {
                 path: 'danhmuc',
                 component: DanhmucComponent,
+                children:[
+                    {
+                        path: ':id',
+                        component: DanhmucChitietComponent,
+                    },
+                ]
             },
-            {
-                path: 'danhmuc/:id',
-                component: DanhmucChitietComponent,
-            },
+
             {
                 path: 'baiviet',
                 component: BaivietAdminComponent,

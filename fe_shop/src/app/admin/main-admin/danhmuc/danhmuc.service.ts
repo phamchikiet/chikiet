@@ -26,6 +26,24 @@ export class DanhmucService {
           return console.error(error);
       }
   }
+  async getDanhmucByid(id:any) {
+    try {
+      const options = {
+        method:'GET',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+      };
+          const response = await fetch(`${environment.APIURL}/danhmuc/findid/${id}`,options);
+          if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+          }
+          const data = await response.json();         
+          return data;
+      } catch (error) {
+          return console.error(error);
+      }
+  }
   async SearchDanhmuc(SearchParams:any) {    
     try {
       const options = {
