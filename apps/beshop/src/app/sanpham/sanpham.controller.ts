@@ -29,8 +29,8 @@ export class SanphamController {
       return await this.sanphamService.findQuery(SearchParams);
   }
   @Patch(':id')
-  update(@Param('id') id: string, @Body() updateSanphamDto: any) {
-    return this.sanphamService.update(id, updateSanphamDto);
+  update(@Param('id') id: string, @Body() data: any) {
+    return this.sanphamService.update(id, data);
   }
 
   @Delete(':id')

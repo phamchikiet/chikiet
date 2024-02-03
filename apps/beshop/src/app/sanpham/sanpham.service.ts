@@ -43,18 +43,32 @@ export class SanphamService {
     };
   }
   async findQuery(params: any) {
+    console.log(params);
+    
     const queryBuilder = this.SanphamRepository.createQueryBuilder('sanpham');
+
+    if (params.hasOwnProperty('Query')) {
+      queryBuilder.andWhere('sanpham.Title LIKE :Title', { Title: `%${params.Query}%` })
+      .orWhere('sanpham.Mota LIKE :Mota', { Mota: `%${params.Query}%` })
+      .orWhere('sanpham.Noidung LIKE :Noidung', { Noidung: `%${params.Query}%` });
+    }
     if (params.Batdau && params.Ketthuc) {
       queryBuilder.andWhere('sanpham.CreateAt BETWEEN :startDate AND :endDate', {
         startDate:params.Batdau,
         endDate:params.Ketthuc,
       });
     }
-    if (params.Title) {
+    if (params.hasOwnProperty('Title')) {
       queryBuilder.andWhere('sanpham.Title LIKE :Title', { SDT: `%${params.Title}%` });
     }
-    if (params.Slug) {
+    if (params.hasOwnProperty('Slug')) {
       queryBuilder.andWhere('sanpham.Slug LIKE :Slug', { Slug: `%${params.Slug}%` });
+    }
+    if (params.hasOwnProperty('Status')) {
+      queryBuilder.andWhere('sanpham.Status = :Status', { Status: `${params.Status}` });
+    }
+    if (params.hasOwnProperty('CreateAt')) {
+      queryBuilder.orderBy('sanpham.CreateAt', params.CreateAt);
     }
     const [items, totalCount] = await queryBuilder
     .limit(params.pageSize || 10) // Set a default page size if not provided
@@ -66,8 +80,10 @@ export class SanphamService {
     })
   return { items, totalCount };
   }
-  async update(id: string, UpdateSanphamDto: any) {
-    this.SanphamRepository.save(UpdateSanphamDto);
+  async update(id: string, data: any) {
+    console.log(id,data);
+    
+    this.SanphamRepository.save(data);
     return await this.SanphamRepository.findOne({ where: { id: id } });
   }
   async remove(id: string) {

@@ -67,6 +67,7 @@ export class UploadService {
       const host = 'https://images.chikiet.com/'
       const absolutePath = item.path;
       const rootPath = '/home/jtnkwfpz/public_html/shop/images';   
+     // const rootPath = '';   
       const relativePath = path.relative(rootPath, absolutePath);
       console.log(rootPath);
       console.log(absolutePath);
