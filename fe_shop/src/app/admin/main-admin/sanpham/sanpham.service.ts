@@ -57,6 +57,8 @@ export class SanphamService {
       }
   }
   async SearchSanpham(SearchParams:any) {
+    console.log(SearchParams);
+    
     try {
       const options = {
         method:'POST',

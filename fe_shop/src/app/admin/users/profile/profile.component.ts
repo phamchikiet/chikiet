@@ -42,7 +42,14 @@ export class ProfileComponent implements OnInit {
     console.log(e.src);
     
     this.User.Image.Main = e.src
-    this._UsersService.UpdateUser(this.User);
+    this._UsersService.UpdateUser(this.User).then(()=>{
+      this._snackBar.open('Cập Nhật Thành Công','',{
+        horizontalPosition: "end",
+        verticalPosition: "top",
+        panelClass:'success',
+        duration: 2000,
+      });
+    });;
   }
   UpdateProfile()
   {

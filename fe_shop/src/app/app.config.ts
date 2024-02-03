@@ -4,6 +4,8 @@ import { appRoutes } from './app.routes';
 import { provideClientHydration } from '@angular/platform-browser';
 import { provideAnimations } from '@angular/platform-browser/animations';
 import { AuthService } from './admin/users/auth/auth.service';
+import { MatPaginatorIntl } from '@angular/material/paginator';
+import { CustomPaginatorIntl } from './shared/CustomPaginator';
 
 export const appConfig: ApplicationConfig = {
   providers: [
@@ -11,5 +13,6 @@ export const appConfig: ApplicationConfig = {
     provideRouter(appRoutes), 
     provideAnimations(),
     AuthService,
+    { provide: MatPaginatorIntl, useClass: CustomPaginatorIntl }
   ],
 };

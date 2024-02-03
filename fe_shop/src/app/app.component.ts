@@ -1,4 +1,4 @@
-import { Component, HostBinding, effect, inject, signal } from '@angular/core';
+import { Component, HostBinding, HostListener, effect, inject, signal } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { MainComponent } from './site/main/main.component';
 import { CommonModule } from '@angular/common';
@@ -26,5 +26,12 @@ import { AuthModule } from './admin/users/auth/auth.module';
   styleUrl: './app.component.scss',
 })
 export class AppComponent {
+  @HostListener('window:scroll')
+  onScroll() {
+    // const viewportHeight = window.innerHeight;
+    // console.log(window.scrollY);
+    // console.log(viewportHeight);
+  }
   title = 'Shop Online';
+  
 }
