@@ -4,6 +4,7 @@ import { DecimalPipe, NgOptimizedImage } from '@angular/common';
 import { GiohangService } from '../giohang/giohang.service';
 import Swiper, { Pagination } from 'swiper';
 import { MatButtonModule } from '@angular/material/button';
+import { MatSnackBar } from '@angular/material/snack-bar';
 
 @Component({
   selector: 'app-slide-sanpham',
@@ -32,7 +33,7 @@ export class SlideSanphamComponent implements OnInit {
     pageNumber:0,
     Status:1
   };
-  constructor() { }
+  constructor(private _snackBar: MatSnackBar) { }
   async ngOnInit() {
     this.Lists = await this._SanphamService.SearchSanpham(this.SearchParams)
     this.FilterLists = this.SanphamColumn(this.Lists.items,this.Sohang).slice(0,8)    
@@ -54,7 +55,15 @@ export class SlideSanphamComponent implements OnInit {
     item = data
     item.Giachon = data.Giagoc[0]
     item.Soluong=1    
-    this._GiohangService.addToCart(item)
+    this._GiohangService.addToCart(item).then(()=>
+    {
+      this._snackBar.open('Thêm Vào Giỏ Hàng Thành Công','',{
+        horizontalPosition: "end",
+        verticalPosition: "top",
+        panelClass:'success',
+        duration: 2000,
+      });
+    })
   }
   ngAfterViewInit(): void {
     const swiper = new Swiper('.mySwiper', {

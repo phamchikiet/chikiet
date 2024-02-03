@@ -10,6 +10,7 @@ import {
 } from '@angular/material/bottom-sheet'
 import { ListsanphamBottomsheetComponent } from './listsanpham-bottomsheet/listsanpham-bottomsheet.component';
 import { GiohangService } from 'fe_shop/src/app/admin/main-admin/website/giohang/giohang.service';
+import { MatSnackBar } from '@angular/material/snack-bar';
 
 @Component({
   selector: 'app-list-sanpham',
@@ -30,7 +31,8 @@ export class ListSanphamComponent implements OnInit {
   FilterSanpham:any[]=[]
   SearchParams: any = {
     pageSize:50,
-    pageNumber:0
+    pageNumber:0,
+    Status:1
   };
   Sorting:any[]=[
     {id:1,Title:"Mới Nhất"},
@@ -47,7 +49,7 @@ export class ListSanphamComponent implements OnInit {
   LocThuongHieu:any[]=[
     {id:1,Title:"Rau Sạch Trần Gia"},
   ]
-  constructor(private _bottomSheet: MatBottomSheet) {}
+  constructor(private _bottomSheet: MatBottomSheet,private _snackBar: MatSnackBar) {}
   openBottomSheet(): void {
     this._bottomSheet.open(ListsanphamBottomsheetComponent);
   }
@@ -63,7 +65,15 @@ export class ListSanphamComponent implements OnInit {
     item = data
     item.Giachon = data.Giagoc[0]
     item.Soluong=1    
-    this._GiohangService.addToCart(item)
+    this._GiohangService.addToCart(item).then(()=>
+    {
+      this._snackBar.open('Thêm Vào Giỏ Hàng Thành Công','',{
+        horizontalPosition: "end",
+        verticalPosition: "top",
+        panelClass:'success',
+        duration: 2000,
+      });
+    })
   }
 
 }

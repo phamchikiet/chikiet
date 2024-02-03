@@ -16,7 +16,7 @@ import { NgxDropzoneModule } from 'ngx-dropzone';
 import { HinhanhComponent } from 'fe_shop/src/app/shared/hinhanh/hinhanh.component';
 import { environment } from 'fe_shop/src/environments/environment';
 import { EditorComponent, EditorModule } from '@tinymce/tinymce-angular';
-import {MatSnackBar,} from '@angular/material/snack-bar';
+import {MatSnackBar} from '@angular/material/snack-bar';
 interface AutoCompleteCompleteEvent {
   originalEvent: Event;
   query: string;
