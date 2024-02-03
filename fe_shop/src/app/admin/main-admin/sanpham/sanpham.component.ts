@@ -145,7 +145,7 @@ export class SanphamComponent implements OnInit {
   }  
   UpdateStatusSanpham(item:any)
   {
-    item.Status=!item.Status
+    item.Status=0
     this._SanphamService.UpdateSanpham(item)
   }
 }
