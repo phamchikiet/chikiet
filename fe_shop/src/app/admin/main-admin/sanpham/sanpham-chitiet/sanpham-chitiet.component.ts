@@ -113,7 +113,7 @@ export class SanphamChitietComponent implements OnInit {
     image_advtab: true,
     autoresize_bottom_margin: 20,
     autoresize_min_height: 50,
-    height:"200",
+    height:"300",
     statusbar:false,
     deprecation_warnings: false,
     default_link_target: '_blank',
