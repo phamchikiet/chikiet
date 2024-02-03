@@ -33,7 +33,8 @@ export class TrangchuComponent implements OnInit {
   ListsSanpham: any=[]
   SearchParams: any = {
     pageSize:50,
-    pageNumber:0
+    pageNumber:0,
+    Status:1
   };
   _SanphamService:SanphamService = inject(SanphamService)
   constructor(
