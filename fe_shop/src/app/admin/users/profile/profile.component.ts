@@ -4,6 +4,7 @@ import { UsersService } from '../auth/users.service';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { AvatarComponent } from 'fe_shop/src/app/shared/avatar/avatar.component';
+import { MatSnackBar } from '@angular/material/snack-bar';
 
 @Component({
   selector: 'app-profile',
@@ -21,13 +22,14 @@ export class ProfileComponent implements OnInit {
   _LocalStorageService: LocalStorageService = inject(LocalStorageService);
   User: any = {}
   Token:any=this._LocalStorageService.getItem('token') ?? null;
-  constructor() {
+  constructor(private _snackBar: MatSnackBar) {
     if(this.Token)
     {
       this._UsersService.getProfile()
       this._UsersService.profile$.subscribe((data) => {
         if (data) {
           this.User = data
+          this.User.Image.src = this.User.Image.Main
           console.log(this.User); 
         }
       })
@@ -41,6 +43,17 @@ export class ProfileComponent implements OnInit {
     
     this.User.Image.Main = e.src
     this._UsersService.UpdateUser(this.User);
+  }
+  UpdateProfile()
+  {
+    this._UsersService.UpdateUser(this.User).then(()=>{
+      this._snackBar.open('Cập Nhật Thành Công','',{
+        horizontalPosition: "end",
+        verticalPosition: "top",
+        panelClass:'success',
+        duration: 2000,
+      });
+    });
   }
 
 }

@@ -23,10 +23,7 @@ export class AvatarComponent implements OnInit {
   @Output() UploadEmit = new EventEmitter();
   _UploadService:UploadService = inject(UploadService)
   constructor() { }
-  ngOnInit() {
-   this.Image.src=this.Image?.Main
-    console.log(this.Image);
-  }
+  ngOnInit() {}
   async onSelect(event: any) {    
     const result = await this._UploadService.uploadDriver(event.addedFiles[0])
     this.Image = result
