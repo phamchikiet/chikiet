@@ -9,6 +9,7 @@ import { SanphamModule } from './sanpham/sanpham.module';
 import { GiohangModule } from './giohang/giohang.module';
 import { DonhangModule } from './donhang/donhang.module';
 import { KhachhangModule } from './khachhang/khachhang.module';
+import { UsersModule } from './users/users.module';
 
 @Module({
   imports: [
@@ -29,7 +30,8 @@ import { KhachhangModule } from './khachhang/khachhang.module';
      BaivietModule,
      GiohangModule,
      DonhangModule,
-     KhachhangModule
+     KhachhangModule,
+     UsersModule
   ],
   controllers: [AppController],
   providers: [AppService],

@@ -6,6 +6,8 @@ import { UsersEntity } from './entities/user.entity';
 import { JwtStrategy } from './entities/jwt.strategy';
 import { LocalStrategy } from './entities/local.strategy';
 import { UsergroupModule } from '../usergroup/usergroup.module';
+import { PassportModule } from '@nestjs/passport';
+import { JwtModule } from '@nestjs/jwt';
 @Module({
   imports: [
     TypeOrmModule.forFeature([UsersEntity]),

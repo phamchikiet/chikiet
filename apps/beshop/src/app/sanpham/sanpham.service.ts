@@ -19,15 +19,16 @@ export class SanphamService {
     return await this.SanphamRepository.find();
   }
   async findid(id: string) {
-    return await this.SanphamRepository.findOne({
-      where: { id: id },
-
-    });
+    const Sanpham =  await this.SanphamRepository.findOne({where: { id: id }});
+    const Danhmuc = await this._DanhmucService.findAll()
+    Sanpham.Danhmuc = Danhmuc.find((v1:any)=>v1.id_cat ==Sanpham.id_cat)?.Title
+    return Sanpham
   }
   async findslug(slug: any) {
-    return await this.SanphamRepository.findOne({
-      where: { Slug: slug},
-    });
+    const Sanpham =  await this.SanphamRepository.findOne({where: { Slug: slug}});
+    const Danhmuc = await this._DanhmucService.findAll()
+    Sanpham.Danhmuc = Danhmuc.find((v1:any)=>v1.id_cat ==Sanpham.id_cat)?.Title
+    return Sanpham
   }
   async findPagination(page: number, perPage: number){
     const skip = (page - 1) * perPage;

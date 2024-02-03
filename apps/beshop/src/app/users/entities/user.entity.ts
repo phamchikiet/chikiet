@@ -25,6 +25,8 @@ import { Role } from '../dto/create-user.dto';
   email: string;
   @Column({ type: "text", collation: "utf8_general_ci" })
   Gioitinh: string;
+  @Column({collation: "utf8_general_ci",type:"simple-json",default: () => "('{}')" })
+  Image: string;
   @Column({collation: "utf8_general_ci",type:"simple-json",default: () => "('[]')" })
   EditChinhanhs: string;
   @Column({collation: "utf8_general_ci",type:"simple-json",default: () => "('[]')" })

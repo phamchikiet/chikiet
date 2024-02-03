@@ -44,6 +44,8 @@ export class SanphamEntity {
   Size: string;
   @Column({collation: "utf8_general_ci",type:"simple-json",default: () => "('{}')" })
   Image: string;
+  @Column({collation: "utf8_general_ci",type:"simple-json",default: () => "('[]')" })
+  ListImage: string;
   @Column({ default: '' })
   Type: string;
   @Column({ default: 1 })

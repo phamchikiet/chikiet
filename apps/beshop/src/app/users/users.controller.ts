@@ -1,35 +1,23 @@
-import { Controller, Get, Post, Body, Patch, Param, Delete, UseGuards } from '@nestjs/common';
+import { Controller, Get, Post, Body, Patch, Param, Delete,Request, UseGuards } from '@nestjs/common';
 import { UsersService } from './users.service';
 import { CreateUserDto } from './dto/create-user.dto';
 import { UpdateUserDto } from './dto/update-user.dto';
 import { AuthGuard } from '@nestjs/passport';
+import { UsergroupService } from '../usergroup/usergroup.service';
 @Controller('users')
 export class UsersController {
   constructor(
     private readonly usersService: UsersService,
     private _UsergroupService: UsergroupService,
     ) {}
-  @Post("dangky")
-  async create(@Body() createUserDto: CreateUserDto) {
-    const newUser = await this.usersService.create(createUserDto);
-    if(newUser[0])
-    {
-      //this._emailService.sendEmail(newUser[1])
-      return [true, 'Đăng Ký Thành Công']; 
-    }
-    else {
-      return newUser
-    }
-
-  }
   @Get()
   findAll() {
     return this.usersService.findAll();
   }
-  @Get(':id')
-  findOne(@Param('id') id: string) {
-    return this.usersService.read(id);
-  }
+  // @Get(':id')
+  // findOne(@Param('id') id: string) {
+  //   return this.usersService.read(id);
+  // }
   @Get('findid/:id')
   async findid(@Param('id') id: string) {
     const user = await this.usersService.findid(id);
@@ -53,6 +41,10 @@ export class UsersController {
   update(@Param('id') id: string, @Body() updateUserDto: UpdateUserDto) {
     return this.usersService.update(id, updateUserDto);
   }
+  @Post('search')
+  async findQuery(@Body() SearchParams: any){
+    return await this.usersService.findQuery(SearchParams);
+}
   @Post('changepass')
   changepass(@Body() data: any)
   {
@@ -62,28 +54,40 @@ export class UsersController {
   remove(@Param('id') id: string) {
     return this.usersService.remove(id);
   }
-  @Post('login')
+  @Post('dangky')
+  async create(@Body() createUserDto: CreateUserDto) {
+    const newUser = await this.usersService.create(createUserDto);
+    if(newUser[0])
+    {
+      //this._emailService.sendEmail(newUser[1])
+      return [true, 'Đăng Ký Thành Công']; 
+    }
+    else {
+      return newUser
+    }
+  }
+  @Post('dangnhap')
   async login(@Body() user: any) {
-    return await this.authService.login(user);
+    return await this.usersService.login(user);
   }
-  @Post('changepass')
-  async changepass(@Body() dulieu: any) {
-    return await this.authService.changepass(dulieu);
-  }
-  @Post('randompass')
-  async randompass(@Body() dulieu: any) {
-    return await this.authService.randompass(dulieu);
-  }
+  // @Post('changepass')
+  // async changepass(@Body() dulieu: any) {
+  //   return await this.authService.changepass(dulieu);
+  // }
+  // @Post('randompass')
+  // async randompass(@Body() dulieu: any) {
+  //   return await this.authService.randompass(dulieu);
+  // }
+  @UseGuards(AuthGuard('rausachtrangia'))
   @Get('profile')
-  @UseGuards(AuthGuard('tazaskin'))
-  async getProfile(@Request() req) {
+  async getProfile(@Request() req:any) {
     const userPromise = this.usersService.findbySDT(req.user);
     const groupsPromise = this._UsergroupService.findAll();
     const [user, Groups] = await Promise.all([userPromise, groupsPromise]); 
     if (user) {
       delete user.password;
-      user['Groups'] = Groups.find((v) => v.id === user.idGroup)?.ListMenu;
-      user['Groups'] = user['Groups'].filter((v:any) => v.Checked === true);
+     user['Groups'] = Groups.find((v) => v.id === user.idGroup)?.ListMenu;
+     user['Groups'] = user['Groups']?.filter((v:any) => v.Checked === true);
       return user;
     } else {
       return false;
