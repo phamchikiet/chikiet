@@ -23,6 +23,7 @@ export class HinhanhComponent implements OnInit {
   constructor() { }
   ngOnInit() {
     console.log(this.Image);
+    this.Image.src=this.Image.Main
   }
   async onSelect(event: any) {
     console.log(event);
