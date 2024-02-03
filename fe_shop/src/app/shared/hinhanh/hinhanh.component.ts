@@ -17,12 +17,12 @@ import { UploadService } from '../upload.service';
   styleUrls: ['./hinhanh.component.css']
 })
 export class HinhanhComponent implements OnInit {
-  @Input() Image:any;
+  @Input() Image:any={};
   @Output() UploadEmit = new EventEmitter();
   _UploadService:UploadService = inject(UploadService)
   constructor() { }
   ngOnInit() {
-   this.Image.src=this.Image.Main
+   this.Image.src=this.Image?.Main
     console.log(this.Image);
   }
   async onSelect(event: any) {    

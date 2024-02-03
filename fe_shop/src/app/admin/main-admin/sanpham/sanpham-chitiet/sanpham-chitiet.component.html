@@ -6,105 +6,70 @@
           close
           </span>
         </a>
-        <button pButton pRipple label="Submit" class="p-button-success"></button>
       <span class="text-xl font-semibold">
         {{Detail.Title}}
       </span>
+      <button mat-stroked-button (click)="UpdateSanpham()">Cập Nhật</button>
     </div>
-    <div class="p-6 space-y-6">
-      <form action="#">
-        <div class="grid lg:grid-cols-2 grid-cols-1  gap-6">
+        <div class="p-4 grid lg:grid-cols-2 grid-cols-1 gap-4">
           <div class="flex flex-col space-y-3">
-            <app-hinhanh class="h-full" [Image]="{Main:Detail.Image.Main}" (UploadEmit)="GetUpload($event)"></app-hinhanh> 
+            <app-hinhanh class="max-h-16" [Image]="{Main:Detail?.Image?.Main}" (UploadEmit)="GetUpload($event)"></app-hinhanh> 
+            <editor [apiKey]="APITINYMCE" [(ngModel)]="Detail.Mota" [ngModelOptions]="{standalone: true}" [init]="configTiny"></editor>
+
+          </div>
+          <div class="flex flex-col space-y-3">
             <mat-form-field appearance="outline" class="w-full text-xs">
               <mat-label>Tên Sản Phẩm</mat-label>
               <input [(ngModel)]="Detail.Title" [ngModelOptions]="{standalone: true}" type="text" matInput 
                class="w-full px-3 py-2 border border-gray-200 rounded"
                 [placeholder]="'Tên Sản Phẩm'">
-            </mat-form-field>  
+            </mat-form-field> 
+            <mat-form-field appearance="outline" class="w-full text-xs">
+              <mat-label>Slug</mat-label>
+              <input [(ngModel)]="Detail.Slug" [ngModelOptions]="{standalone: true}" type="text" matInput 
+               class="w-full px-3 py-2 border border-gray-200 rounded"
+                [placeholder]="'Slug'">
+            </mat-form-field> 
+            
+          <mat-form-field appearance="outline" class="w-full text-xs">
+            <mat-label>SKU</mat-label>
+            <input [(ngModel)]="Detail.SKU" [ngModelOptions]="{standalone: true}" type="text" matInput 
+             class="w-full px-3 py-2 border border-gray-200 rounded"
+              [placeholder]="'SKU'">
+          </mat-form-field> 
 
-          </div>
-          <div class="flex flex-col space-y-3">
             <mat-form-field appearance="outline" class="w-full text-xs">
                 <mat-label>Danh Mục</mat-label>
                 <mat-select [(ngModel)]="Detail.id_cat" [ngModelOptions]="{standalone: true}">
                   <mat-option [value]="item.id_cat" *ngFor="let item of Danhmuc">{{item.Title}}</mat-option>
                 </mat-select>
               </mat-form-field>
-          </div>
-
-          <div class="col-span-6 sm:col-span-3">
-            <label for="brand" class="block mb-2 text-sm font-medium text-gray-900">Brand</label>
-            <input type="text" name="brand" id="brand"
-              class="shadow-lg-sm border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-2 focus:ring-fuchsia-50 focus:border-fuchsia-300 block w-full p-2.5"
-              placeholder="Apple" required="">
-          </div>
-          <div class="col-span-6 sm:col-span-3">
-            <label for="price" class="block mb-2 text-sm font-medium text-gray-900">Price</label>
-            <input type="number" name="price" id="price"
-              class="shadow-lg-sm border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-2 focus:ring-fuchsia-50 focus:border-fuchsia-300 block w-full p-2.5"
-              placeholder="$2300" required="">
-          </div>
-          <div class="col-span-full">
-            <label for="product-details" class="block mb-2 text-sm font-medium text-gray-900">Product Details</label>
-            <textarea id="product-details" rows="6"
-              class="block p-4 w-full text-gray-900 border border-gray-300 sm:text-sm rounded-lg focus:ring-2 focus:ring-fuchsia-50 focus:border-fuchsia-300"
-              placeholder="e.g. 3.8GHz 8-core 10th-generation Intel Core i7 processor, Turbo Boost up to 5.0GHz, Ram 16 GB DDR4 2300Mhz"></textarea>
-          </div>
-        </div>
-        <div class="flex my-4 space-x-5">
-          <div>
-            <img src="https://demos.creative-tim.com/soft-ui-flowbite-pro/images/products/apple-imac-1.png" class="h-24"
-              alt="imac image">
-            <a href="#" class="cursor-pointer"><svg class="-mt-5 w-6 h-6 text-red-600" fill="currentColor"
-                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd"
-                  d="M9 2a1 1 0 00-.894.553L7.382 4H4a1 1 0 000 2v10a2 2 0 002 2h8a2 2 0 002-2V6a1 1 0 100-2h-3.382l-.724-1.447A1 1 0 0011 2H9zM7 8a1 1 0 012 0v6a1 1 0 11-2 0V8zm5-1a1 1 0 00-1 1v6a1 1 0 102 0V8a1 1 0 00-1-1z"
-                  clip-rule="evenodd"></path>
-              </svg></a>
-          </div>
-          <div>
-            <img src="https://demos.creative-tim.com/soft-ui-flowbite-pro/images/products/apple-imac-2.png" class="h-24"
-              alt="imac image">
-            <a href="#" class="cursor-pointer"><svg class="-mt-5 w-6 h-6 text-red-600" fill="currentColor"
-                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd"
-                  d="M9 2a1 1 0 00-.894.553L7.382 4H4a1 1 0 000 2v10a2 2 0 002 2h8a2 2 0 002-2V6a1 1 0 100-2h-3.382l-.724-1.447A1 1 0 0011 2H9zM7 8a1 1 0 012 0v6a1 1 0 11-2 0V8zm5-1a1 1 0 00-1 1v6a1 1 0 102 0V8a1 1 0 00-1-1z"
-                  clip-rule="evenodd"></path>
-              </svg></a>
-          </div>
-          <div>
-            <img src="https://demos.creative-tim.com/soft-ui-flowbite-pro/images/products/apple-imac-3.png" class="h-24"
-              alt="imac image">
-            <a href="#" class="cursor-pointer"><svg class="-mt-5 w-6 h-6 text-red-600" fill="currentColor"
-                viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd"
-                  d="M9 2a1 1 0 00-.894.553L7.382 4H4a1 1 0 000 2v10a2 2 0 002 2h8a2 2 0 002-2V6a1 1 0 100-2h-3.382l-.724-1.447A1 1 0 0011 2H9zM7 8a1 1 0 012 0v6a1 1 0 11-2 0V8zm5-1a1 1 0 00-1 1v6a1 1 0 102 0V8a1 1 0 00-1-1z"
-                  clip-rule="evenodd"></path>
-              </svg></a>
-          </div>
-        </div>
-        <div class="flex justify-center items-center w-full">
-          <label
-            class="flex flex-col w-full h-32 rounded border-2 border-gray-300 border-dashed cursor-pointer hover:bg-gray-50">
-            <div class="flex flex-col justify-center items-center pt-5 pb-6">
-              <svg class="w-10 h-10 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                  d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12"></path>
-              </svg>
-              <p class="py-1 text-sm text-gray-600">Upload a file or drag and drop</p>
-              <p class="text-xs text-gray-500">PNG, JPG, GIF up to 10MB</p>
+              <div class="grid grid-cols-3 gap-2 rounded-lg border p-2">
+                <div class="col-span-3 font-bold">Biến Thể</div>
+              @for (item of Detail.Giagoc; track $index) {
+                <mat-form-field appearance="outline" class="w-full text-xs">
+                  <mat-label>Loại</mat-label>
+                  <input [(ngModel)]="Detail.Giagoc[$index].loai" [ngModelOptions]="{standalone: true}" type="text" matInput 
+                   class="w-full px-3 py-2 border border-gray-200 rounded"
+                    [placeholder]="'Loại'">
+                </mat-form-field>
+    
+                <mat-form-field appearance="outline" class="w-full text-xs">
+                  <mat-label>Giá</mat-label>
+                  <input [(ngModel)]="Detail.Giagoc[$index].gia" [ngModelOptions]="{standalone: true}" type="text" matInput 
+                   class="w-full px-3 py-2 border border-gray-200 rounded"
+                    [placeholder]="'Giá'">
+                </mat-form-field>
+    
+                <mat-form-field appearance="outline" class="w-full text-xs">
+                  <mat-label>Đơn Vị Tính</mat-label>
+                  <input [(ngModel)]="Detail.Giagoc[$index].dvt" [ngModelOptions]="{standalone: true}" type="text" matInput 
+                   class="w-full px-3 py-2 border border-gray-200 rounded"
+                    [placeholder]="'Đơn Vị Tính'">
+                </mat-form-field>
+              }   
             </div>
-            <input type="file" class="hidden">
-          </label>
+          </div>
         </div>
-      </form>
-    </div>
-
-    <div class="p-6 rounded-b border-t border-gray-200">
-      <button mat-stroked-button color="primary">Cập Nhật</button>
-    </div>
-
   </div>
-</div>
+</div> 
