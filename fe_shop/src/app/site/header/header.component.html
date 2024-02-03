@@ -58,7 +58,7 @@
     </div>
     <div class="flex flex-row space-x-4 items-center">
         @if(this.Token){
-            <img src="/assets/images/logo.webp" class="rounded-full w-10 h-10 border" [matMenuTriggerFor]="user">
+            <img [src]="User.Image.src||'/assets/images/logo.webp'" class="rounded-full w-10 h-10 border" [matMenuTriggerFor]="user">
         }
         @else {
           <a href="dangnhap" mat-icon-button>
@@ -68,11 +68,11 @@
             </a>
         }
 
-        <a href="san-pham-yeu-thich" mat-icon-button matBadge="0">
+        <!-- <a href="san-pham-yeu-thich" matBadgeColor="warn" mat-icon-button matBadge="0">
             <span class="material-symbols-outlined">
                 favorite
-            </span></a>
-        <a href="gio-hang" mat-icon-button matBadge="{{Soluong}}">
+            </span></a> -->
+        <a href="gio-hang" mat-icon-button matBadgeColor="warn" matBadge="{{(Soluong| number:'1.0-0')||0}}">
             <span class="material-symbols-outlined">shopping_cart</span>
         </a>
         <a href="gio-hang" class="text-red-500 font-bold">

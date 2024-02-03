@@ -22,7 +22,6 @@ export class GiohangComponent implements OnInit {
     this._GiohangService.donhang$.subscribe((data: any) => {
       this.Giohangs = data.Giohangs
       console.log(data);
-      
     })
   }
   GetTotal(data: any, field: any, field1: any) {

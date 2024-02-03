@@ -1,5 +1,5 @@
 import { DecimalPipe } from '@angular/common';
-import { Component, HostListener, OnInit, inject } from '@angular/core';
+import { Component, HostListener, OnInit, TemplateRef, ViewChild, ViewContainerRef, inject } from '@angular/core';
 import { MatButtonModule } from '@angular/material/button';
 import { RouterLink } from '@angular/router';
 import { SanphamService } from 'fe_shop/src/app/admin/main-admin/sanpham/sanpham.service';
@@ -8,7 +8,6 @@ import {
   MatBottomSheetModule,
   MatBottomSheetRef,
 } from '@angular/material/bottom-sheet'
-import { ListsanphamBottomsheetComponent } from './listsanpham-bottomsheet/listsanpham-bottomsheet.component';
 import { GiohangService } from 'fe_shop/src/app/admin/main-admin/website/giohang/giohang.service';
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { DanhmucService } from 'fe_shop/src/app/admin/main-admin/danhmuc/danhmuc.service';
@@ -82,10 +81,10 @@ export class ListSanphamComponent implements OnInit {
     {id:1,Title:"Rau Sạch Trần Gia"},
   ]
   pageSizeOptions:any[]=[9]
-  
   constructor(private _bottomSheet: MatBottomSheet,private _snackBar: MatSnackBar) {}
-  openBottomSheet(): void {
-    this._bottomSheet.open(ListsanphamBottomsheetComponent);
+  openBottomSheet(TemplateRef:TemplateRef<any>): void {
+    this._bottomSheet.open(TemplateRef)
+    //this._bottomSheet.open(ListsanphamBottomsheetComponent);
   }
   async ngOnInit() {
     this.SortingFilter = this.Sorting[0].id

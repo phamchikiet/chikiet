@@ -157,7 +157,6 @@ export class GiohangService {
                 throw new Error(`HTTP error! status: ${response.status}`);
             }
             const data = await response.json();
-           // this._giohang.next(data)
         } catch (error) {
             return console.error(error);
         }

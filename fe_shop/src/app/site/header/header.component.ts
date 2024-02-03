@@ -285,6 +285,8 @@ export class HeaderComponent implements OnInit {
   Dangxuat()
   {
     const result = this._AuthService.Dangxuat()
-    if(result){this._Router.navigate(['/'])}
+    if(result){
+      window.location.href ='/'
+    }
   }
 }
