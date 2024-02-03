@@ -38,6 +38,24 @@ export class SanphamService {
           return console.error(error);
       }
   }
+  async getSanphamByid(id:any) {
+    try {
+      const options = {
+        method:'GET',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+      };
+          const response = await fetch(`${environment.APIURL}/sanpham/findid/${id}`,options);
+          if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+          }
+          const data = await response.json();         
+          return data;
+      } catch (error) {
+          return console.error(error);
+      }
+  }
   async SearchSanpham(SearchParams:any) {
     try {
       const options = {

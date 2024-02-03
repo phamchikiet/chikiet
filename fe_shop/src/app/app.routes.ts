@@ -24,6 +24,17 @@ import { DonhangComponent } from './admin/main-admin/website/donhang/donhang.com
 import { CamonComponent } from './admin/main-admin/website/camon/camon.component';
 import { TracuudonComponent } from './admin/main-admin/website/tracuudon/tracuudon.component';
 import { DonhangAdminChitietComponent } from './admin/main-admin/donhang-admin/donhang-admin-chitiet/donhang-admin-chitiet.component';
+import { AuthGuard } from './admin/users/auth/guards/auth.guard';
+import { DangnhapComponent } from './admin/users/dangnhap/dangnhap.component';
+import { DangkyComponent } from './admin/users/dangky/dangky.component';
+import { GuestGuard } from './admin/users/auth/guards/guest.guard';
+import { ProfileComponent } from './admin/users/profile/profile.component';
+import { BlogComponent } from './site/baiviet/blog/blog.component';
+import { BlogDetailComponent } from './site/baiviet/blog-detail/blog-detail.component';
+import { KhuyenmaiChitietComponent } from './site/baiviet/khuyenmai/khuyenmai-chitiet/khuyenmai-chitiet.component';
+import { KhuyenmaiComponent } from './site/baiviet/khuyenmai/khuyenmai.component';
+import { AdminuserComponent } from './admin/users/adminuser/adminuser.component';
+import { AdminuserDetailComponent } from './admin/users/adminuser/adminuser-detail/adminuser-detail.component';
 
 
 export const appRoutes: Route[] = [
@@ -76,15 +87,19 @@ export const appRoutes: Route[] = [
                 },
                 {
                     path: 'khuyen-mai',
-                    component: BaivietComponent,
+                    component: KhuyenmaiComponent,
                 },
                 {
                     path: 'khuyen-mai/:slug',
-                    component: BaivietChitietComponent,
+                    component: KhuyenmaiChitietComponent,
                 },
                 {
-                    path: 'mon-ngon-moi-ngay',
-                    component: BaivietStyle1Component,
+                    path: 'blog',
+                    component: BlogComponent,
+                },
+                {
+                    path: 'blog-detail',
+                    component: BlogDetailComponent,
                 },
                 {
                     path: 'tin-tuc',
@@ -98,10 +113,26 @@ export const appRoutes: Route[] = [
                     path: 'tra-cuu-don',
                     component: TracuudonComponent,
                 },
+                {
+                    path: 'dangnhap',
+                    canActivate:[GuestGuard],
+                    component: DangnhapComponent,
+                },
+                {
+                    path: 'dangky',
+                    canActivate:[GuestGuard],
+                    component: DangkyComponent,
+                },
+                {
+                    path: 'profile',
+                    canActivate:[AuthGuard],
+                    component: ProfileComponent,
+                },
         ]
     },
     {
         path: 'admin',
+        canActivate:[AuthGuard],
         component: MainAdminComponent,
         children:[ 
             {
@@ -143,6 +174,13 @@ export const appRoutes: Route[] = [
             {
                 path: 'baiviet/:id',
                 component: BaivietAdminChitietComponent,
+            },
+            {
+                path: 'user',
+                component: AdminuserComponent,
+                children:[
+                    {path:':id',component:AdminuserDetailComponent}
+                ]
             },
 
         ]

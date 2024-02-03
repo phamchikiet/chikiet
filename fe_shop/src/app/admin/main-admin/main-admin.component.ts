@@ -32,6 +32,8 @@ export class MainAdminComponent implements OnInit {
     {id:3,pid:0,Title:"Danh Mục" ,Slug:"danhmuc"},
     {id:3,pid:0,Title:"Bài Viết" ,Slug:"baiviet"},
     {id:3,pid:0,Title:"Đơn Hàng" ,Slug:"donhang"},
+    {id:3,pid:0,Title:"User" ,Slug:"user"},
+    // {id:3,pid:0,Title:"Usergroup" ,Slug:"usergroup"},
   ]
   Today:any=new Date()
   private _transformer = (node: any, level: number) => {

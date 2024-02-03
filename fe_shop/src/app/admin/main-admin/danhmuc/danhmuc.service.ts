@@ -17,6 +17,9 @@ export class DanhmucService {
         },
       };
           const response = await fetch(`${environment.APIURL}/danhmuc`,options);
+          if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+          }
           const data = await response.json();                  
           return data;
       } catch (error) {
