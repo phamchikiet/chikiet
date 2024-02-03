@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
-import { Like, Repository } from 'typeorm';
+import { In, Like, Repository } from 'typeorm';
 import { SanphamEntity } from './entities/sanpham.entity';
 import { DanhmucService } from '../danhmuc/danhmuc.service';
 @Injectable()
@@ -47,6 +47,14 @@ export class SanphamService {
     
     const queryBuilder = this.SanphamRepository.createQueryBuilder('sanpham');
 
+    if (params.hasOwnProperty('Danhmuc')) {
+      const userIdsToFind = params.Danhmuc;
+      //queryBuilder.andWhere(new In('sanpham.id_cat', params.Danhmuc));
+      queryBuilder.where('sanpham.id_cat IN (:...userIdsToFind)', { userIdsToFind });
+      // queryBuilder.andWhere('sanpham.Title LIKE :Title', { Title: `%${params.Query}%` })
+      // .orWhere('sanpham.Mota LIKE :Mota', { Mota: `%${params.Query}%` })
+      // .orWhere('sanpham.Noidung LIKE :Noidung', { Noidung: `%${params.Query}%` });
+    }
     if (params.hasOwnProperty('Query')) {
       queryBuilder.andWhere('sanpham.Title LIKE :Title', { Title: `%${params.Query}%` })
       .orWhere('sanpham.Mota LIKE :Mota', { Mota: `%${params.Query}%` })
