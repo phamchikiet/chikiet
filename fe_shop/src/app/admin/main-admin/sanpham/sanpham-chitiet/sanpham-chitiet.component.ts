@@ -63,7 +63,7 @@ export class SanphamChitietComponent implements OnInit {
   }
   GetUpload(e:any)
   {
-    console.log(e);
+    console.log(e.src);
     
     this.Detail.Image.Main = e.src
     this._SanphamService.UpdateSanpham(this.Detail);
