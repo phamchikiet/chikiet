@@ -84,7 +84,7 @@
                     <th scope="col" class="p-4 text-xs font-medium text-left text-gray-500 uppercase lg:p-5">
                       Số Điện Thoại
                     </th>
-                    <th scope="col" class="p-4 text-xs font-medium text-left text-gray-500 uppercase lg:p-5">
+                    <th scope="col" class="p-4 text-xs font-medium text-left text-gray-500 uppercase lg:p-5 text-end">
                       Tổng Tiền
                     </th>
                     <th scope="col" class="p-4 text-xs font-medium text-left text-gray-500 uppercase lg:p-5">
@@ -122,11 +122,11 @@
                     <td class="p-4 text-sm font-normal text-gray-500 whitespace-nowrap lg:p-5">
                       <div>{{item.Giohangs.Khachhang.SDT}}</div>
                     </td>
-                    <td class="p-4 text-sm font-normal text-gray-500 whitespace-nowrap lg:p-5">
-                      <div>{{item.Giohangs.Khachhang.Diachi}}</div>
+                    <td class="p-4 text-sm font-normal text-gray-500 whitespace-nowrap lg:p-5 text-end">
+                      <div>{{(item.Giohangs.Total| number:'1.0-0')||'0'}}đ</div>
                     </td>
                     <td class="p-4 text-sm font-normal text-gray-500 whitespace-nowrap lg:p-5">
-                      <div>{{(item.Giohangs.Total| number:'1.0-0')||'0'}}đ</div>
+                      <div>{{item.Giohangs.Khachhang.Diachi}}</div>
                     </td>
                     <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap lg:p-5">
                       @if (item.Status==1) {

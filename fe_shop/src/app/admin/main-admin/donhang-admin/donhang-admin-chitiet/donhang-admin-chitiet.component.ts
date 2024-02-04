@@ -27,7 +27,10 @@ export class DonhangAdminChitietComponent implements OnInit {
   _DonhangAdminComponent: DonhangAdminComponent = inject(DonhangAdminComponent);
   _GiohangService:GiohangService = inject(GiohangService)
   idSP:any;
-  Detail:any
+  Detail:any;
+  Giohangs: any[] = []
+  Phivanchuyen: any = 10
+  Giamgia: any = 30
   constructor() {
       this.idSP = this.route.snapshot.params['id'];
   }
@@ -40,6 +43,7 @@ export class DonhangAdminChitietComponent implements OnInit {
         {      
           console.log(data);
           this.Detail=data
+          this.Giohangs = data.Giohangs.Sanpham
         }
       })
       this._DonhangAdminComponent.drawer.open()
@@ -49,6 +53,17 @@ export class DonhangAdminChitietComponent implements OnInit {
   CloseDrawer()
   {
     this._DonhangAdminComponent.drawer.close()
+  }
+  GetTotal(data: any, field: any, field1: any) {
+    if (field1) {
+      return data?.reduce((acc: any, item: any) => acc + item[field] * item[field1]?.gia, 0) || 0;
+    }
+    else {
+      return data?.reduce((acc: any, item: any) => acc + item[field], 0) || 0;
+    }
+  }
+  GetTongcong() {
+    return this.GetTotal(this.Giohangs, 'Soluong', 'Giachon') + this.Phivanchuyen + this.Giamgia + this.GetTotal(this.Giohangs, 'Thue', '')
   }
 
 }

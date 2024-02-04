@@ -58,7 +58,7 @@
     </div>
     <div class="flex flex-row space-x-4 items-center">
         @if(this.Token){
-            <img [src]="User.Image.src||'/assets/images/logo.webp'" class="rounded-full w-10 h-10 border" [matMenuTriggerFor]="user">
+            <img [src]="User?.Image?.Main||'/assets/images/logo.webp'" class="rounded-full w-10 h-10 border" [matMenuTriggerFor]="user">
         }
         @else {
           <a href="dangnhap" mat-icon-button>

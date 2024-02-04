@@ -255,6 +255,8 @@ export class HeaderComponent implements OnInit {
       this._UsersService.profile$.subscribe((data) => {
         if (data) {
           this.User = data
+          console.log(data);
+          
         }
       })
     }
