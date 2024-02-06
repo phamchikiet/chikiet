@@ -16,6 +16,8 @@ import { MegaMenuItem } from 'primeng/api';
 import { UsersService } from '../../admin/users/auth/users.service';
 import { LocalStorageService } from '../../shared/localstorage.service';
 import { AuthService } from '../../admin/users/auth/auth.service';
+import { FlatTreeControl } from '@angular/cdk/tree';
+import { MatTreeFlatDataSource, MatTreeFlattener, MatTreeModule } from '@angular/material/tree';
 @Component({
   selector: 'app-header',
   standalone: true,
@@ -30,6 +32,7 @@ import { AuthService } from '../../admin/users/auth/auth.service';
     ButtonModule,
     MegaMenuModule,
     InputTextModule,
+    MatTreeModule
   ],
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.css']
@@ -240,6 +243,28 @@ export class HeaderComponent implements OnInit {
     },
     { id: 3, Title: 'Liên hệ', Slug: 'lien-he' },
   ]
+
+  private _transformer = (node: any, level: number) => {
+    return {
+      expandable: !!node.children && node.children.length > 0,
+      Title: node.Title,
+      Slug: node.Slug,
+      level: level,
+    };
+  };
+  treeControl = new FlatTreeControl<any>(
+    node => node.level,
+    node => node.expandable,
+  );
+  treeFlattener = new MatTreeFlattener(
+    this._transformer,
+    node => node.level,
+    node => node.expandable,
+    node => node.children,
+  );
+  dataSource = new MatTreeFlatDataSource(this.treeControl, this.treeFlattener);
+  hasChild = (_: number, node: any) => node.expandable;
+  Today:any= new Date()
   constructor() {
     this._AppService.isDarkTheme$.subscribe(isDarkTheme => {
       document.body.classList.toggle('dark', isDarkTheme);
@@ -269,7 +294,9 @@ export class HeaderComponent implements OnInit {
     this.selectedOption = option;
   }
   async ngOnInit(): Promise<void> {
+    this.dataSource.data = this.Menus;
     this.Danhmucs = await this._DanhmucService.SearchDanhmuc(this.SearchParams)
+    console.log(this.Menus);
   }
 
   toggleTheme() {

@@ -3,7 +3,7 @@
     <img [src]="Image?.src" class="{{width}} {{height}} mx-auto rounded-md"  [alt]="Image?.alt"/>
     <div
       class="group-hover:block rounded-md hidden absolute inset-0 items-center justify-center bg-black opacity-10"
-      (click)="onRemove(Image)">
+      (click)="onRemove(Image,dialogTemplate)">
       <span class="material-icons text-white flex items-center justify-center h-full">
         cancel
       </span>
@@ -15,3 +15,15 @@
     <ngx-dropzone-label>Chọn File</ngx-dropzone-label>
   </ngx-dropzone>
 </ng-template>
+
+<ng-template #dialogTemplate>
+  <mat-dialog-content class="mat-typography">
+    Bạn có chắc chắn xoá
+  </mat-dialog-content>
+  <mat-dialog-actions align="center">
+    <button mat-button color="warn" mat-dialog-close="false">Huỷ</button>
+    <button mat-button color="primary" mat-dialog-close="true">Đồng Ý</button>
+  </mat-dialog-actions>
+
+  </ng-template>
+

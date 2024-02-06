@@ -23,6 +23,24 @@ export class BaivietAdminService {
           return console.error(error);
       }
   }
+  async getBaivietByid(id:any) {
+    try {
+      const options = {
+        method:'GET',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+      };
+          const response = await fetch(`${environment.APIURL}/baiviet/findid/${id}`,options);
+          if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+          }
+          const data = await response.json();         
+          return data;
+      } catch (error) {
+          return console.error(error);
+      }
+  }
   async SearchBaivietAdmin(SearchParams:any) {
     console.log(SearchParams);
     
@@ -35,14 +53,16 @@ export class BaivietAdminService {
         body: JSON.stringify(SearchParams),
       };
           const response = await fetch(`${environment.APIURL}/baiviet/search`,options);
-          const data = await response.json();                  
+          if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+          }
+          const data = await response.json();                     
           return data;
       } catch (error) {
           return console.error(error);
       }
   }
   async CreateBaivietAdmin(item:any) {
-    console.log(item);
     try {
         const options = {
             method:'POST',
@@ -52,7 +72,11 @@ export class BaivietAdminService {
             body: JSON.stringify(item),
           };
           const response = await fetch(`${environment.APIURL}/baiviet`, options);          
-          return await response.json();                  
+          if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+          }
+          const data = await response.json();      
+          return data;            
       } catch (error) {
           return console.error(error);
       }

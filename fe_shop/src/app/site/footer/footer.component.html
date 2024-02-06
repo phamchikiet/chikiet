@@ -1,7 +1,7 @@
 <footer class="bottom pt-12">
     <div class="container">
         <div class="grid lg:grid-cols-9 grid-cols-1 gap-4 pb-12">
-            <div class="col-span-3">
+            <div class="lg:col-span-3 col-span-1">
                 <h4 class="!font-bold !text-lg">THÔNG TIN LIÊN HỆ</h4>
                 <ul class="flex flex-col space-y-3">
                     @for (item of FilterFooter(Footer,'Group','Lienhe'); track $index) {
@@ -11,7 +11,7 @@
                     }
                 </ul>
             </div>
-            <div class="lg:col-span-2 col-span-1">
+            <div class="lg:col-span-2 grid-cols-1 col-span-1">
                 <h4 class="!font-bold !text-lg">VỀ CHÚNG TÔI</h4>
                 <ul class="flex flex-col space-y-2">
                     @for (item of FilterFooter(Footer,'Group','Vechungtoi'); track $index) {
@@ -26,7 +26,7 @@
                     </div>
                 </ul>
             </div>
-            <div class="lg:col-span-2 col-span-1">
+            <div class="lg:col-span-2 grid-cols-1 col-span-1">
                 <h4 class="!font-bold !text-lg">CHÍNH SÁCH QUY ĐỊNH</h4>
                 <ul class="flex flex-col space-y-3">
                     @for (item of FilterFooter(Footer,'Group','Chinhsachquydinh'); track $index) {
@@ -36,7 +36,7 @@
                     }
                 </ul>
             </div>
-            <div class="lg:col-span-2 col-span-1">
+            <div class="lg:col-span-2 grid-cols-1 col-span-1">
                 <h4 class="!font-bold !text-lg">THỐNG KÊ TRUY CẬP</h4>
                 <ul class="flex flex-col space-y-3">
                     @for (item of FilterFooter(Footer,'Group','Thongketruycap'); track $index) {

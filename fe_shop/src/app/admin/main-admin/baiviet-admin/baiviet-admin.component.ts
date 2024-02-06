@@ -94,7 +94,7 @@ export class BaivietAdminComponent implements OnInit {
           item.Title = v.name_vi
           item.Mota = v.mota_vi
           item.Slug = v.tenkhongdau
-          // item.Noidung = v.content_vi
+          item.Noidung = v.content_vi
           item.Ordering = v.stt
           item.Status = v.hienthi
           item.Image = Image

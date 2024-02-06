@@ -1,9 +1,10 @@
-import { Component, EventEmitter, Input, OnInit, Output, inject } from '@angular/core';
+import { Component, EventEmitter, Input, OnInit, Output, TemplateRef, inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { NgxDropzoneModule } from 'ngx-dropzone';
 import { UploadService } from '../upload.service';
-
+import { MatDialog, MatDialogModule } from '@angular/material/dialog';
+import { MatButtonModule } from '@angular/material/button';
 @Component({
   selector: 'app-hinhanh',
   standalone:true,
@@ -11,7 +12,9 @@ import { UploadService } from '../upload.service';
     CommonModule,
     FormsModule,
     ReactiveFormsModule,
-    NgxDropzoneModule
+    NgxDropzoneModule,
+    MatDialogModule,
+    MatButtonModule
   ],
   templateUrl: './hinhanh.component.html',
   styleUrls: ['./hinhanh.component.css']
@@ -22,7 +25,7 @@ export class HinhanhComponent implements OnInit {
   @Input() height:any='';
   @Output() UploadEmit = new EventEmitter();
   _UploadService:UploadService = inject(UploadService)
-  constructor() { }
+  constructor(public dialog: MatDialog) { }
   ngOnInit() {
    this.Image.src=this.Image?.Main
     console.log(this.Image);
@@ -32,9 +35,18 @@ export class HinhanhComponent implements OnInit {
     this.Image = result
     this.UploadEmit.emit(this.Image);
   }
-  async onRemove(data: any) {
-    const result =  this._UploadService.DeleteuploadDriver(data)    
-    this.Image = {}
-    this.UploadEmit.emit(this.Image);
+  async onRemove(data: any,teamplate: TemplateRef<any>) {
+
+    const dialogRef = this.dialog.open(teamplate, {});
+    dialogRef.afterClosed().subscribe((result) => {
+      if (result=="true") {
+        const result =  this._UploadService.DeleteuploadDriver(data)    
+        this.Image = {}
+        this.UploadEmit.emit(this.Image);
+      }
+    });
+
+
   }
+
 }

@@ -6,17 +6,13 @@ import { TrangchuComponent } from './site/trangchu/trangchu.component';
 import { MainAdminComponent } from './admin/main-admin/main-admin.component';
 import { ContactComponent } from './admin/main-admin/website/contact/contact.component';
 import { GiohangComponent } from './admin/main-admin/website/giohang/giohang.component';
-import { CheckoutComponent } from './admin/main-admin/website/checkout/checkout.component';
 import { SanphamComponent } from './admin/main-admin/sanpham/sanpham.component';
 import { SanphamChitietComponent } from './admin/main-admin/sanpham/sanpham-chitiet/sanpham-chitiet.component';
 import { DanhmucComponent } from './admin/main-admin/danhmuc/danhmuc.component';
 import { DanhmucChitietComponent } from './admin/main-admin/danhmuc/danhmuc-chitiet/danhmuc-chitiet.component';
 import { DashboardComponent } from './admin/main-admin/dashboard/dashboard.component';
-import { BaivietChitietComponent } from './site/baiviet/baiviet-chitiet/baiviet-chitiet.component';
-import { BaivietComponent } from './site/baiviet/baiviet.component';
 import { BaivietStyle1Component } from './site/baiviet/baiviet-style1/baiviet-style1.component';
 import { BaivietAdminComponent } from './admin/main-admin/baiviet-admin/baiviet-admin.component';
-import { BaivietAdminChitietComponent } from './admin/main-admin/baiviet-admin/baiviet-admin-chitiet/baiviet-admin-chitiet.component';
 import { SanphamyeuthichComponent } from './admin/main-admin/website/sanphamyeuthich/sanphamyeuthich.component';
 import { ThanhtoanComponent } from './admin/main-admin/website/thanhtoan/thanhtoan.component';
 import { DonhangAdminComponent } from './admin/main-admin/donhang-admin/donhang-admin.component';
@@ -35,6 +31,8 @@ import { KhuyenmaiChitietComponent } from './site/baiviet/khuyenmai/khuyenmai-ch
 import { KhuyenmaiComponent } from './site/baiviet/khuyenmai/khuyenmai.component';
 import { AdminuserComponent } from './admin/users/adminuser/adminuser.component';
 import { AdminuserDetailComponent } from './admin/users/adminuser/adminuser-detail/adminuser-detail.component';
+import { BaivietChitietComponent } from './site/baiviet/baiviet-chitiet/baiviet-chitiet.component';
+import { BaivietadminChitietComponent } from './admin/main-admin/baiviet-admin/baivietadminchitiet/baivietadminchitiet.component';
 
 
 export const appRoutes: Route[] = [
@@ -173,10 +171,12 @@ export const appRoutes: Route[] = [
             {
                 path: 'baiviet',
                 component: BaivietAdminComponent,
-            },
-            {
-                path: 'baiviet/:id',
-                component: BaivietAdminChitietComponent,
+                children:[
+                    {
+                        path: ':id',
+                        component: BaivietadminChitietComponent,
+                    }
+                ]
             },
             {
                 path: 'user',

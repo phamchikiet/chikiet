@@ -111,7 +111,29 @@
 
 </div>
 <p-sidebar [(visible)]="sidebarVisible" class="z-10" position="right" class="w-1/2">
-    <ng-template pTemplate="header">Header Content</ng-template>
-    <ng-template pTemplate="content">Body Content</ng-template>
-    <ng-template pTemplate="footer">Footer Content</ng-template>
+    <ng-template pTemplate="header">    
+        <a href="/">
+        <img src="/assets/images/logo.webp" class="lg:h-20 h-10">
+    </a></ng-template>
+    <ng-template pTemplate="content">
+        
+<mat-tree [dataSource]="dataSource" [treeControl]="treeControl">
+  <mat-tree-node *matTreeNodeDef="let node" matTreeNodePadding>
+    <button mat-icon-button disabled></button>
+    <a href="{{node.Slug}}">{{node.Title}}</a> 
+  </mat-tree-node>
+  <mat-tree-node *matTreeNodeDef="let node;when: hasChild" matTreeNodePadding>
+    <button mat-icon-button matTreeNodeToggle [attr.aria-label]="'Toggle ' + node.Title">
+      <span
+        class="material-symbols-outlined">{{treeControl.isExpanded(node)?'expand_more':'navigate_next'}}</span>
+    </button>
+    <a href="{{node.Slug}}">{{node.Title}}</a> 
+  </mat-tree-node>
+</mat-tree>
+
+    </ng-template>
+    <ng-template pTemplate="footer">               
+         <div class="text-pgray-400 text-sm text-center">
+        <p>© Copyright {{Today|date:'yyyy'}}</p>
+    </div></ng-template>
 </p-sidebar>

@@ -1,23 +1,20 @@
 <mat-drawer-container class="example-container w-full h-full " autosize>
-  <mat-drawer #drawer mode="side" class="!flex flex-col flex-auto min-w-0 relative h-full w-2/3" position="end">
+  <mat-drawer #drawer mode="side" class="!flex flex-col flex-auto min-w-0 relative h-full w-full" position="end">
     <div class="relative flex flex-col h-full w-full overflow-auto">
       <router-outlet></router-outlet>
     </div>
   </mat-drawer>
   <mat-drawer-content class="!flex flex-col flex-auto min-w-0 relative !h-[90vh]">
     <div class="relative flex flex-col">
-      <div class="flex justify-between items-center mx-4 mt-4 mb-2 bg-white p-3 rounded-lg">
+      <div class="flex justify-between items-center space-x-2 m-2 bg-white p-3 rounded-lg">
         <div class="flex flex-row space-x-3 justify-center items-center">
           <div class="relative mt-1 lg:w-80">
             <input (keyup)="applyFilter($event)" type="text" name="email" id="topbar-search"
               class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-2 focus:ring-fuchsia-50 focus:border-fuchsia-300 block w-full p-2.5"
               placeholder="Tìm Kiếm Sản Phẩm">
           </div>
-          <button mat-icon-button [matMenuTriggerFor]="menu">
-            <span class="material-symbols-outlined">more_vert</span>
-          </button>
           <mat-menu #menu="matMenu">
-            <button mat-menu-item>
+            <button mat-menu-item> 
               <div class="flex flex-row space-x-2 items-center justify-center">
                 <span class="material-symbols-outlined text-xl" matTooltip="Tùy Chỉnh">tune</span>
                 <span class="text-sm">Cấu Hình</span>
@@ -36,7 +33,7 @@
               </div>
             </button>
           </mat-menu>
-          <div class="flex flex-row space-x-3">
+          <div class="hidden lg:flex flex-row space-x-3">
             <div (click)="writeExcelFile()"
               class="flex flex-col items-center space-x-2 p-2 hover:bg-gray-200 rounded-lg">
               <span class="material-symbols-outlined text-xl" matTooltip="Upload File">file_download</span>
@@ -50,12 +47,15 @@
             </div>
           </div>
         </div>
-        <div>
+        <div class="flex flex-row space-x-2 items-center">
           <button mat-flat-button color="primary">
             <div (click)="openDialog(dialogTemplate)" class="flex flex-row items-center">
               <span class="material-symbols-outlined">add</span>
-              <span class="hidden lg:flex">Sản Phẩm</span>
+              <span class="hidden lg:flex">Bài viết</span>
             </div>
+          </button>
+          <button class="lg:!hidden flex" mat-icon-button [matMenuTriggerFor]="menu">
+            <span class="material-symbols-outlined">more_vert</span>
           </button>
         </div>
       </div>
@@ -68,18 +68,11 @@
               <table class="min-w-full divide-y divide-gray-200 table-fixed">
                 <thead class="bg-white">
                   <tr>
-                    <th scope="col" class="p-4 lg:p-5">
-                      <div class="flex items-center">
-                        <input id="checkbox-all" aria-describedby="checkbox-1" type="checkbox"
-                          class="w-5 h-5 rounded border-gray-300 focus:ring-0 checked:bg-dark-900">
-                        <label for="checkbox-all" class="sr-only">checkbox</label>
-                      </div>
-                    </th>
                     <th scope="col" class="p-4 text-xs font-medium text-left text-gray-500 uppercase lg:p-5">
                       Hình ảnh
                     </th>
                     <th scope="col" class="p-4 text-xs font-medium text-left text-gray-500 uppercase lg:p-5">
-                      Tên Sản Phẩm
+                      Tên Bài Viết
                     </th>
                     <th scope="col" class="p-4 text-xs font-medium text-left text-gray-500 uppercase lg:p-5">
                       Danh Mục
@@ -104,21 +97,16 @@
                 <tbody class="bg-white divide-y divide-gray-200">
                   @for (item of FilterLists; track $index) {
                   <tr class="hover:bg-gray-100">
-                    <td class="p-4 w-4 lg:p-5">
-                      <div class="flex items-center">
-                        <input id="checkbox-194556" aria-describedby="checkbox-1" type="checkbox"
-                          class="w-5 h-5 rounded border-gray-300 focus:ring-0 checked:bg-dark-900">
-                        <label for="checkbox-194556" class="sr-only">checkbox</label>
-                      </div>
-                    </td>
                     <td class="text-sm font-normal text-gray-500 whitespace-nowrap">
                       <div class="text-base font-semibold text-gray-900">
                         <img src="assets/images/baiviet/{{item.Image.Thumb}}" class="w-40">
                       </div>
                     </td>
-                    <td class="p-4 text-sm font-normal text-gray-500 whitespace-nowrap lg:p-5">
-                      <div class="text-base font-semibold text-gray-900">{{item.Title}}</div>
-                      <div class="text-sm font-normal text-gray-500">{{item.Slug}}</div>
+                    <td class="p-4 text-sm font-normal text-gray-500 whitespace-normal lg:p-5 truncate">
+                      <a href="admin/baiviet/{{item.id}}">
+                        <div class="text-base font-semibold text-gray-900">{{item.Title}}</div>
+                        <div class="text-sm font-normal text-gray-500">{{item.Slug}}</div>
+                      </a>
                     </td>
                     <td class="p-4 text-sm font-normal text-gray-500 whitespace-nowrap lg:p-5">
                       <div class="text-base font-semibold text-gray-900">{{item.id_cat}}</div>
