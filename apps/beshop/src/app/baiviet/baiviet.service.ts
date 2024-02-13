@@ -11,7 +11,7 @@ export class BaivietService {
     private BaivietRepository: Repository<BaivietEntity>
   ) { }
   async create(data: any) {
-    const check = await this.findslug(data.slug)
+    const check = await this.findslug(data)
     if(!check) {
       this.BaivietRepository.create(data);
       return await this.BaivietRepository.save(data);
@@ -36,9 +36,9 @@ export class BaivietService {
   //     },
   //   });
   // }
-  async findslug(slug: any) {
+  async findslug(data: any) {
     return await this.BaivietRepository.findOne({
-      where: { Slug: slug },
+      where: { Slug: data.Slug },
     });
   }
   async findPagination(page: number, perPage: number) {
