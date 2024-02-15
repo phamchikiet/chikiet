@@ -1,0 +1,163 @@
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 70.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/app.module.ts:[32m[1m10:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./sohoadon/sohoadon.module"' has no exported member 'SohoadonModule'.
+  [0m [90m  8 |[39m [36mimport[39m { [33mMuavaochitietModule[39m } [36mfrom[39m [32m'./muavaochitiet/muavaochitiet.module'[39m[33m;[39m[0m
+  [0m [90m  9 |[39m [36mimport[39m { [33mCauhinhModule[39m } [36mfrom[39m [32m'./cauhinh/cauhinh.module'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 10 |[39m [36mimport[39m { [33mSohoadonModule[39m } [36mfrom[39m [32m'./sohoadon/sohoadon.module'[39m[33m;[39m[0m
+  [0m [90m    |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 11 |[39m [36mimport[39m { [33mChitietModule[39m } [36mfrom[39m [32m'./chitiet/chitiet.module'[39m[33m;[39m[0m
+  [0m [90m 12 |[39m[0m
+  [0m [90m 13 |[39m [33m@[39m[33mModule[39m({[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (7581801e95998587)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 65.5 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/app.module.ts:[32m[1m38:92[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'SohoadonModule'.
+  [0m [90m 36 |[39m     charset[33m:[39m [32m"utf8mb4"[39m[33m,[39m[0m
+  [0m [90m 37 |[39m   })[33m,[39m [0m
+  [0m[31m[1m>[22m[39m[90m 38 |[39m   hoadonbanraModule[33m,[39m [33mBanrachitietModule[39m[33m,[39m [33mMuavaoModule[39m[33m,[39m [33mMuavaochitietModule[39m[33m,[39m [33mCauhinhModule[39m[33m,[39m [33mSohoadonModule[39m[33m,[39m [33mChitietModule[39m[0m
+  [0m [90m    |[39m                                                                                            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 39 |[39m ][33m,[39m[0m
+  [0m [90m 40 |[39m   controllers[33m:[39m [[33mAppController[39m][33m,[39m[0m
+  [0m [90m 41 |[39m   providers[33m:[39m [[33mAppService[39m][33m,[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (c8f82777fafab6b1)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 65.5 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/app.module.ts:[32m[1m38:92[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'SohoadonModule'.
+  [0m [90m 36 |[39m     charset[33m:[39m [32m"utf8mb4"[39m[33m,[39m[0m
+  [0m [90m 37 |[39m   })[33m,[39m [0m
+  [0m[31m[1m>[22m[39m[90m 38 |[39m   hoadonbanraModule[33m,[39m [33mBanrachitietModule[39m[33m,[39m [33mMuavaoModule[39m[33m,[39m [33mMuavaochitietModule[39m[33m,[39m [33mCauhinhModule[39m[33m,[39m [33mSohoadonModule[39m[33m,[39m [33mChitietModule[39m[0m
+  [0m [90m    |[39m                                                                                            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 39 |[39m ][33m,[39m[0m
+  [0m [90m 40 |[39m   controllers[33m:[39m [[33mAppController[39m][33m,[39m[0m
+  [0m [90m 41 |[39m   providers[33m:[39m [[33mAppService[39m][33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.module.ts[39m[22m
+[90mTS2304: [39mCannot find name 'k_a'.
+
+webpack compiled with [1m[31m2 errors[39m[22m (c8f82777fafab6b1)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 65.5 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/app.module.ts:[32m[1m38:92[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'SohoadonModule'.
+  [0m [90m 36 |[39m     charset[33m:[39m [32m"utf8mb4"[39m[33m,[39m[0m
+  [0m [90m 37 |[39m   })[33m,[39m [0m
+  [0m[31m[1m>[22m[39m[90m 38 |[39m   hoadonbanraModule[33m,[39m [33mBanrachitietModule[39m[33m,[39m [33mMuavaoModule[39m[33m,[39m [33mMuavaochitietModule[39m[33m,[39m [33mCauhinhModule[39m[33m,[39m [33mSohoadonModule[39m[33m,[39m [33mChitietModule[39m[0m
+  [0m [90m    |[39m                                                                                            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 39 |[39m ][33m,[39m[0m
+  [0m [90m 40 |[39m   controllers[33m:[39m [[33mAppController[39m][33m,[39m[0m
+  [0m [90m 41 |[39m   providers[33m:[39m [[33mAppService[39m][33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.module.ts:[32m[1m2:31[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './dichvu.service' or its corresponding type declarations.
+  [0m [90m 1 |[39m [36mimport[39m { [33mModule[39m } [36mfrom[39m [32m'@nestjs/common'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 2 |[39m [36mimport[39m { [33mDichvuService[39m } [36mfrom[39m [32m'./dichvu.service'[39m[33m;[39m[0m
+  [0m [90m   |[39m                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m { [33mDichvuController[39m } [36mfrom[39m [32m'./dichvu.controller'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mTypeOrmModule[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mDichvuEntity[39m } [36mfrom[39m [32m'./entities/dichvu.entity'[39m[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.module.ts:[32m[1m3:34[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './dichvu.controller' or its corresponding type declarations.
+  [0m [90m 1 |[39m [36mimport[39m { [33mModule[39m } [36mfrom[39m [32m'@nestjs/common'[39m[33m;[39m[0m
+  [0m [90m 2 |[39m [36mimport[39m { [33mDichvuService[39m } [36mfrom[39m [32m'./dichvu.service'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 3 |[39m [36mimport[39m { [33mDichvuController[39m } [36mfrom[39m [32m'./dichvu.controller'[39m[33m;[39m[0m
+  [0m [90m   |[39m                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mTypeOrmModule[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mDichvuEntity[39m } [36mfrom[39m [32m'./entities/dichvu.entity'[39m[33m;[39m[0m
+  [0m [90m 6 |[39m [33m@[39m[33mModule[39m({[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.module.ts:[32m[1m5:30[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './entities/dichvu.entity' or its corresponding type declarations.
+  [0m [90m 3 |[39m [36mimport[39m { [33mDichvuController[39m } [36mfrom[39m [32m'./dichvu.controller'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mTypeOrmModule[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mDichvuEntity[39m } [36mfrom[39m [32m'./entities/dichvu.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m                              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 6 |[39m [33m@[39m[33mModule[39m({[0m
+  [0m [90m 7 |[39m   imports[33m:[39m [[33mTypeOrmModule[39m[33m.[39mforFeature([[33mDichvuEntity[39m])][33m,[39m[0m
+  [0m [90m 8 |[39m   controllers[33m:[39m [[33mDichvuController[39m][33m,[39m[0m
+
+webpack compiled with [1m[31m4 errors[39m[22m (c8f82777fafab6b1)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 65.5 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/app.module.ts:[32m[1m38:92[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'SohoadonModule'.
+  [0m [90m 36 |[39m     charset[33m:[39m [32m"utf8mb4"[39m[33m,[39m[0m
+  [0m [90m 37 |[39m   })[33m,[39m [0m
+  [0m[31m[1m>[22m[39m[90m 38 |[39m   hoadonbanraModule[33m,[39m [33mBanrachitietModule[39m[33m,[39m [33mMuavaoModule[39m[33m,[39m [33mMuavaochitietModule[39m[33m,[39m [33mCauhinhModule[39m[33m,[39m [33mSohoadonModule[39m[33m,[39m [33mChitietModule[39m[0m
+  [0m [90m    |[39m                                                                                            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 39 |[39m ][33m,[39m[0m
+  [0m [90m 40 |[39m   controllers[33m:[39m [[33mAppController[39m][33m,[39m[0m
+  [0m [90m 41 |[39m   providers[33m:[39m [[33mAppService[39m][33m,[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (c8f82777fafab6b1)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 65.5 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/app.module.ts:[32m[1m38:92[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'SohoadonModule'.
+  [0m [90m 36 |[39m     charset[33m:[39m [32m"utf8mb4"[39m[33m,[39m[0m
+  [0m [90m 37 |[39m   })[33m,[39m [0m
+  [0m[31m[1m>[22m[39m[90m 38 |[39m   hoadonbanraModule[33m,[39m [33mBanrachitietModule[39m[33m,[39m [33mMuavaoModule[39m[33m,[39m [33mMuavaochitietModule[39m[33m,[39m [33mCauhinhModule[39m[33m,[39m [33mSohoadonModule[39m[33m,[39m [33mChitietModule[39m[0m
+  [0m [90m    |[39m                                                                                            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 39 |[39m ][33m,[39m[0m
+  [0m [90m 40 |[39m   controllers[33m:[39m [[33mAppController[39m][33m,[39m[0m
+  [0m [90m 41 |[39m   providers[33m:[39m [[33mAppService[39m][33m,[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (c8f82777fafab6b1)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 65.5 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/app.module.ts:[32m[1m38:92[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'SohoadonModule'.
+  [0m [90m 36 |[39m     charset[33m:[39m [32m"utf8mb4"[39m[33m,[39m[0m
+  [0m [90m 37 |[39m   })[33m,[39m [0m
+  [0m[31m[1m>[22m[39m[90m 38 |[39m   hoadonbanraModule[33m,[39m [33mBanrachitietModule[39m[33m,[39m [33mMuavaoModule[39m[33m,[39m [33mMuavaochitietModule[39m[33m,[39m [33mCauhinhModule[39m[33m,[39m [33mSohoadonModule[39m[33m,[39m [33mChitietModule[39m[0m
+  [0m [90m    |[39m                                                                                            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 39 |[39m ][33m,[39m[0m
+  [0m [90m 40 |[39m   controllers[33m:[39m [[33mAppController[39m][33m,[39m[0m
+  [0m [90m 41 |[39m   providers[33m:[39m [[33mAppService[39m][33m,[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (c8f82777fafab6b1)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 65.5 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/app.module.ts:[32m[1m38:92[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'SohoadonModule'.
+  [0m [90m 36 |[39m     charset[33m:[39m [32m"utf8mb4"[39m[33m,[39m[0m
+  [0m [90m 37 |[39m   })[33m,[39m [0m
+  [0m[31m[1m>[22m[39m[90m 38 |[39m   hoadonbanraModule[33m,[39m [33mBanrachitietModule[39m[33m,[39m [33mMuavaoModule[39m[33m,[39m [33mMuavaochitietModule[39m[33m,[39m [33mCauhinhModule[39m[33m,[39m [33mSohoadonModule[39m[33m,[39m [33mChitietModule[39m[0m
+  [0m [90m    |[39m                                                                                            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 39 |[39m ][33m,[39m[0m
+  [0m [90m 40 |[39m   controllers[33m:[39m [[33mAppController[39m][33m,[39m[0m
+  [0m [90m 41 |[39m   providers[33m:[39m [[33mAppService[39m][33m,[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (c8f82777fafab6b1)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 65.5 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/app.module.ts:[32m[1m38:92[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'SohoadonModule'.
+  [0m [90m 36 |[39m     charset[33m:[39m [32m"utf8mb4"[39m[33m,[39m[0m
+  [0m [90m 37 |[39m   })[33m,[39m [0m
+  [0m[31m[1m>[22m[39m[90m 38 |[39m   hoadonbanraModule[33m,[39m [33mBanrachitietModule[39m[33m,[39m [33mMuavaoModule[39m[33m,[39m [33mMuavaochitietModule[39m[33m,[39m [33mCauhinhModule[39m[33m,[39m [33mSohoadonModule[39m[33m,[39m [33mChitietModule[39m[0m
+  [0m [90m    |[39m                                                                                            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 39 |[39m ][33m,[39m[0m
+  [0m [90m 40 |[39m   controllers[33m:[39m [[33mAppController[39m][33m,[39m[0m
+  [0m [90m 41 |[39m   providers[33m:[39m [[33mAppService[39m][33m,[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (c8f82777fafab6b1)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 76.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (ec6f563c0bfb7b31)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 76.1 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (ec6f563c0bfb7b31)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 76.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (3b4c6a4fb9fa8218)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m

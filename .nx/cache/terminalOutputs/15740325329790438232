@@ -1,0 +1,481 @@
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 112 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (50cb326eea8473aa)
+[1m[31mDebugger listening on ws://localhost:9229/35ad373f-779b-4eeb-b5d8-9c95572e75bc[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/35ad373f-779b-4eeb-b5d8-9c95572e75bc[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 25148  - [39m[31m01/21/2024, 12:50:19 AM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mUnknown column 'muavao.Thang' in 'where clause'[39m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mQueryFailedError: Unknown column 'muavao.Thang' in 'where clause'[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 112 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/entities/muavao.entity.ts:[32m[1m20:3[22m[39m[1m[39m[22m
+[90mTS2300: [39mDuplicate identifier 'SHD'.
+  [0m [90m 18 |[39m   [33mSHD[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 19 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m[31m[1m>[22m[39m[90m 20 |[39m   [33mSHD[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 21 |[39m   [33m@[39m[33mColumn[39m({collation[33m:[39m [32m"utf8_general_ci"[39m[33m,[39mtype[33m:[39m[32m"simple-json"[39m[33m,[39m[36mdefault[39m[33m:[39m () [33m=>[39m [32m"('[')"[39m })[0m
+  [0m [90m 22 |[39m   [33mDulieu[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 23 |[39m   [33m@[39m[33mColumn[39m({ nullable[33m:[39m [36mtrue[39m })[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (42d26fcc5b01b84f)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 112 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (5b048753b8a70747)
+[1m[31mDebugger listening on ws://localhost:9229/17ed3def-1ac9-48a7-8910-f2d4560c95fb[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/17ed3def-1ac9-48a7-8910-f2d4560c95fb[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 112 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (5c875ecd72dcc86d)
+[1m[31mDebugger listening on ws://localhost:9229/bcb7555f-d89b-42d0-ac2c-11c65485b678[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/bcb7555f-d89b-42d0-ac2c-11c65485b678[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 112 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (0562d70e7cef4a76)
+[1m[31mDebugger listening on ws://localhost:9229/37bd2e60-462f-4c31-8752-d5ef2c4981e2[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/37bd2e60-462f-4c31-8752-d5ef2c4981e2[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\entities\muavao.entity.ts[39m[22m
+[1m./src/app/muavao/entities/muavao.entity.ts[39m[22m [1m[32m19:11-12[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\entities\muavao.entity.ts(19,12)[39m[22m
+[1m[31m      TS1136: Property assignment expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\entities\muavao.entity.ts[39m[22m
+[1m./src/app/muavao/entities/muavao.entity.ts[39m[22m [1m[32m19:13-14[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\entities\muavao.entity.ts(19,14)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\entities\muavao.entity.ts[39m[22m
+[1m./src/app/muavao/entities/muavao.entity.ts[39m[22m [1m[32m19:14-15[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\entities\muavao.entity.ts(19,15)[39m[22m
+[1m[31m      TS1128: Declaration or statement expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\entities\muavao.entity.ts[39m[22m
+[1m./src/app/muavao/entities/muavao.entity.ts[39m[22m [1m[32m21:84[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\entities\muavao.entity.ts(21,85)[39m[22m
+[1m[31m      TS1146: Declaration expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\entities\muavao.entity.ts[39m[22m
+[1m./src/app/muavao/entities/muavao.entity.ts[39m[22m [1m[32m23:29[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\entities\muavao.entity.ts(23,30)[39m[22m
+[1m[31m      TS1146: Declaration expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\entities\muavao.entity.ts[39m[22m
+[1m./src/app/muavao/entities/muavao.entity.ts[39m[22m [1m[32m25:57[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\entities\muavao.entity.ts(25,58)[39m[22m
+[1m[31m      TS1146: Declaration expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\entities\muavao.entity.ts[39m[22m
+[1m./src/app/muavao/entities/muavao.entity.ts[39m[22m [1m[32m27:26[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\entities\muavao.entity.ts(27,27)[39m[22m
+[1m[31m      TS1146: Declaration expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\entities\muavao.entity.ts[39m[22m
+[1m./src/app/muavao/entities/muavao.entity.ts[39m[22m [1m[32m29:85[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\entities\muavao.entity.ts(29,86)[39m[22m
+[1m[31m      TS1146: Declaration expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\entities\muavao.entity.ts[39m[22m
+[1m./src/app/muavao/entities/muavao.entity.ts[39m[22m [1m[32m31:26[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\entities\muavao.entity.ts(31,27)[39m[22m
+[1m[31m      TS1146: Declaration expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\entities\muavao.entity.ts[39m[22m
+[1m./src/app/muavao/entities/muavao.entity.ts[39m[22m [1m[32m33:25[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\entities\muavao.entity.ts(33,26)[39m[22m
+[1m[31m      TS1146: Declaration expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\entities\muavao.entity.ts[39m[22m
+[1m./src/app/muavao/entities/muavao.entity.ts[39m[22m [1m[32m35:25[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\entities\muavao.entity.ts(35,26)[39m[22m
+[1m[31m      TS1146: Declaration expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\entities\muavao.entity.ts[39m[22m
+[1m./src/app/muavao/entities/muavao.entity.ts[39m[22m [1m[32m37:21[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\entities\muavao.entity.ts(37,22)[39m[22m
+[1m[31m      TS1146: Declaration expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\entities\muavao.entity.ts[39m[22m
+[1m./src/app/muavao/entities/muavao.entity.ts[39m[22m [1m[32m39:21[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\entities\muavao.entity.ts(39,22)[39m[22m
+[1m[31m      TS1146: Declaration expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\entities\muavao.entity.ts[39m[22m
+[1m./src/app/muavao/entities/muavao.entity.ts[39m[22m [1m[32m41:21[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\entities\muavao.entity.ts(41,22)[39m[22m
+[1m[31m      TS1146: Declaration expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\entities\muavao.entity.ts[39m[22m
+[1m./src/app/muavao/entities/muavao.entity.ts[39m[22m [1m[32m43:29[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\entities\muavao.entity.ts(43,30)[39m[22m
+[1m[31m      TS1146: Declaration expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\entities\muavao.entity.ts[39m[22m
+[1m./src/app/muavao/entities/muavao.entity.ts[39m[22m [1m[32m45:0-1[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\entities\muavao.entity.ts(45,1)[39m[22m
+[1m[31m      TS1128: Declaration or statement expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/entities/muavao.entity.ts:[32m[1m19:11[22m[39m[1m[39m[22m
+[90mTS2769: [39mNo overload matches this call.
+  The last overload gave the following error.
+    Argument of type '{}' is not assignable to parameter of type '(type?: any) => Function'.
+      Type '{}' provides no match for the signature '(type?: any): Function'.
+  [0m [90m 17 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m [90m 18 |[39m   [33mSHD[39m[33m:[39m string[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 19 |[39m   [33m@[39m[33mColumn[39m({{}})[0m
+  [0m [90m    |[39m           [31m[1m^[22m[39m[0m
+  [0m [90m 20 |[39m   [33mThang[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 21 |[39m   [33m@[39m[33mColumn[39m({collation[33m:[39m [32m"utf8_general_ci"[39m[33m,[39mtype[33m:[39m[32m"simple-json"[39m[33m,[39m[36mdefault[39m[33m:[39m () [33m=>[39m [32m"('[')"[39m })[0m
+  [0m [90m 22 |[39m   [33mDulieu[39m[33m:[39m string[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/entities/muavao.entity.ts:[32m[1m20:10[22m[39m[1m[39m[22m
+[90mTS2693: [39m'string' only refers to a type, but is being used as a value here.
+  [0m [90m 18 |[39m   [33mSHD[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 19 |[39m   [33m@[39m[33mColumn[39m({{}})[0m
+  [0m[31m[1m>[22m[39m[90m 20 |[39m   [33mThang[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m    |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 21 |[39m   [33m@[39m[33mColumn[39m({collation[33m:[39m [32m"utf8_general_ci"[39m[33m,[39mtype[33m:[39m[32m"simple-json"[39m[33m,[39m[36mdefault[39m[33m:[39m () [33m=>[39m [32m"('[')"[39m })[0m
+  [0m [90m 22 |[39m   [33mDulieu[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 23 |[39m   [33m@[39m[33mColumn[39m({ nullable[33m:[39m [36mtrue[39m })[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/entities/muavao.entity.ts:[32m[1m22:11[22m[39m[1m[39m[22m
+[90mTS2693: [39m'string' only refers to a type, but is being used as a value here.
+  [0m [90m 20 |[39m   [33mThang[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 21 |[39m   [33m@[39m[33mColumn[39m({collation[33m:[39m [32m"utf8_general_ci"[39m[33m,[39mtype[33m:[39m[32m"simple-json"[39m[33m,[39m[36mdefault[39m[33m:[39m () [33m=>[39m [32m"('[')"[39m })[0m
+  [0m[31m[1m>[22m[39m[90m 22 |[39m   [33mDulieu[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m    |[39m           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 23 |[39m   [33m@[39m[33mColumn[39m({ nullable[33m:[39m [36mtrue[39m })[0m
+  [0m [90m 24 |[39m   [33mNgaytao[39m[33m:[39m [33mDate[39m[33m;[39m[0m
+  [0m [90m 25 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/entities/muavao.entity.ts:[32m[1m26:9[22m[39m[1m[39m[22m
+[90mTS2693: [39m'string' only refers to a type, but is being used as a value here.
+  [0m [90m 24 |[39m   [33mNgaytao[39m[33m:[39m [33mDate[39m[33m;[39m[0m
+  [0m [90m 25 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m[31m[1m>[22m[39m[90m 26 |[39m   [33mMota[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 27 |[39m   [33m@[39m[33mColumn[39m({ [36mdefault[39m[33m:[39m [32m''[39m })[0m
+  [0m [90m 28 |[39m   [33mSlug[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 29 |[39m   [33m@[39m[33mColumn[39m({collation[33m:[39m [32m"utf8_general_ci"[39m[33m,[39mtype[33m:[39m[32m"simple-json"[39m[33m,[39m[36mdefault[39m[33m:[39m () [33m=>[39m [32m"('{}')"[39m })[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/entities/muavao.entity.ts:[32m[1m28:9[22m[39m[1m[39m[22m
+[90mTS2693: [39m'string' only refers to a type, but is being used as a value here.
+  [0m [90m 26 |[39m   [33mMota[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 27 |[39m   [33m@[39m[33mColumn[39m({ [36mdefault[39m[33m:[39m [32m''[39m })[0m
+  [0m[31m[1m>[22m[39m[90m 28 |[39m   [33mSlug[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 29 |[39m   [33m@[39m[33mColumn[39m({collation[33m:[39m [32m"utf8_general_ci"[39m[33m,[39mtype[33m:[39m[32m"simple-json"[39m[33m,[39m[36mdefault[39m[33m:[39m () [33m=>[39m [32m"('{}')"[39m })[0m
+  [0m [90m 30 |[39m   [33mImage[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 31 |[39m   [33m@[39m[33mColumn[39m({ [36mdefault[39m[33m:[39m [32m''[39m })[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/entities/muavao.entity.ts:[32m[1m30:10[22m[39m[1m[39m[22m
+[90mTS2693: [39m'string' only refers to a type, but is being used as a value here.
+  [0m [90m 28 |[39m   [33mSlug[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 29 |[39m   [33m@[39m[33mColumn[39m({collation[33m:[39m [32m"utf8_general_ci"[39m[33m,[39mtype[33m:[39m[32m"simple-json"[39m[33m,[39m[36mdefault[39m[33m:[39m () [33m=>[39m [32m"('{}')"[39m })[0m
+  [0m[31m[1m>[22m[39m[90m 30 |[39m   [33mImage[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m    |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 31 |[39m   [33m@[39m[33mColumn[39m({ [36mdefault[39m[33m:[39m [32m''[39m })[0m
+  [0m [90m 32 |[39m   [33mType[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 33 |[39m   [33m@[39m[33mColumn[39m({ [36mdefault[39m[33m:[39m [35m1[39m })[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/entities/muavao.entity.ts:[32m[1m32:9[22m[39m[1m[39m[22m
+[90mTS2693: [39m'string' only refers to a type, but is being used as a value here.
+  [0m [90m 30 |[39m   [33mImage[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 31 |[39m   [33m@[39m[33mColumn[39m({ [36mdefault[39m[33m:[39m [32m''[39m })[0m
+  [0m[31m[1m>[22m[39m[90m 32 |[39m   [33mType[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 33 |[39m   [33m@[39m[33mColumn[39m({ [36mdefault[39m[33m:[39m [35m1[39m })[0m
+  [0m [90m 34 |[39m   [33mOrdering[39m[33m:[39m number[33m;[39m[0m
+  [0m [90m 35 |[39m   [33m@[39m[33mColumn[39m({ [36mdefault[39m[33m:[39m [35m0[39m })[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/entities/muavao.entity.ts:[32m[1m34:13[22m[39m[1m[39m[22m
+[90mTS2693: [39m'number' only refers to a type, but is being used as a value here.
+  [0m [90m 32 |[39m   [33mType[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 33 |[39m   [33m@[39m[33mColumn[39m({ [36mdefault[39m[33m:[39m [35m1[39m })[0m
+  [0m[31m[1m>[22m[39m[90m 34 |[39m   [33mOrdering[39m[33m:[39m number[33m;[39m[0m
+  [0m [90m    |[39m             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 35 |[39m   [33m@[39m[33mColumn[39m({ [36mdefault[39m[33m:[39m [35m0[39m })[0m
+  [0m [90m 36 |[39m   [33mStatus[39m[33m:[39m number[33m;[39m[0m
+  [0m [90m 37 |[39m   [33m@[39m[33mCreateDateColumn[39m()[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/entities/muavao.entity.ts:[32m[1m36:11[22m[39m[1m[39m[22m
+[90mTS2693: [39m'number' only refers to a type, but is being used as a value here.
+  [0m [90m 34 |[39m   [33mOrdering[39m[33m:[39m number[33m;[39m[0m
+  [0m [90m 35 |[39m   [33m@[39m[33mColumn[39m({ [36mdefault[39m[33m:[39m [35m0[39m })[0m
+  [0m[31m[1m>[22m[39m[90m 36 |[39m   [33mStatus[39m[33m:[39m number[33m;[39m[0m
+  [0m [90m    |[39m           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 37 |[39m   [33m@[39m[33mCreateDateColumn[39m()[0m
+  [0m [90m 38 |[39m   [33mCreateAt[39m[33m:[39m [33mDate[39m[33m;[39m[0m
+  [0m [90m 39 |[39m   [33m@[39m[33mUpdateDateColumn[39m()[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/entities/muavao.entity.ts:[32m[1m44:13[22m[39m[1m[39m[22m
+[90mTS2693: [39m'string' only refers to a type, but is being used as a value here.
+  [0m [90m 42 |[39m   [33mDeleteAt[39m[33m:[39m [33mDate[39m[33m;[39m[0m
+  [0m [90m 43 |[39m   [33m@[39m[33mColumn[39m({ nullable[33m:[39m [36mtrue[39m })[0m
+  [0m[31m[1m>[22m[39m[90m 44 |[39m   idCreate[33m:[39m string[33m;[39m[0m
+  [0m [90m    |[39m             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 45 |[39m }[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.service.ts:[32m[1m36:16[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ Slug: any; }' is not assignable to type 'FindOptionsWhere<MuavaoEntity> | FindOptionsWhere<MuavaoEntity>[]'.
+  Object literal may only specify known properties, and 'Slug' does not exist in type 'FindOptionsWhere<MuavaoEntity> | FindOptionsWhere<MuavaoEntity>[]'.
+  [0m [90m 34 |[39m   [36masync[39m findslug(slug[33m:[39m any) {[0m
+  [0m [90m 35 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39mfindOne({[0m
+  [0m[31m[1m>[22m[39m[90m 36 |[39m       where[33m:[39m { [33mSlug[39m[33m:[39m slug}[33m,[39m[0m
+  [0m [90m    |[39m                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 37 |[39m     })[33m;[39m[0m
+  [0m [90m 38 |[39m   }[0m
+  [0m [90m 39 |[39m   [36masync[39m findSHD(data[33m:[39m any) {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.service.ts:[32m[1m66:9[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ Ngaytao: FindOperator<Date>; }' is not assignable to type 'FindOptionsWhere<MuavaoEntity> | FindOptionsWhere<MuavaoEntity>[]'.
+  Object literal may only specify known properties, and 'Ngaytao' does not exist in type 'FindOptionsWhere<MuavaoEntity> | FindOptionsWhere<MuavaoEntity>[]'.
+  [0m [90m 64 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39mfind({[0m
+  [0m [90m 65 |[39m       where[33m:[39m  {[0m
+  [0m[31m[1m>[22m[39m[90m 66 |[39m         [33mNgaytao[39m[33m:[39m [33mBetween[39m(startDate[33m,[39m endDate)[33m,[39m[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 67 |[39m       }[33m,[39m[0m
+  [0m [90m 68 |[39m     })[33m;[39m[0m
+  [0m [90m 69 |[39m   }[0m
+
+webpack compiled with [1m[31m28 errors[39m[22m (697acf5c65b3dcd8)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 112 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (b1b36355c9346f2c)
+[1m[31mDebugger listening on ws://localhost:9229/57896621-004f-4c4d-9f58-49844cdde6f2[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/57896621-004f-4c4d-9f58-49844cdde6f2[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 112 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/entities/muavao.entity.ts:[32m[1m22:3[22m[39m[1m[39m[22m
+[90mTS2300: [39mDuplicate identifier 'Thang'.
+  [0m [90m 20 |[39m   [33mThang[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 21 |[39m   [33m@[39m[33mColumn[39m({nullable[33m:[39m[36mtrue[39m})[0m
+  [0m[31m[1m>[22m[39m[90m 22 |[39m   [33mThang[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 23 |[39m   [33m@[39m[33mColumn[39m({collation[33m:[39m [32m"utf8_general_ci"[39m[33m,[39mtype[33m:[39m[32m"simple-json"[39m[33m,[39m[36mdefault[39m[33m:[39m () [33m=>[39m [32m"('[')"[39m })[0m
+  [0m [90m 24 |[39m   [33mDulieu[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 25 |[39m   [33m@[39m[33mColumn[39m({ nullable[33m:[39m [36mtrue[39m })[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (27b55f0971485d35)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 112 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (dec59eeae753b257)
+[1m[31mDebugger listening on ws://localhost:9229/1431b175-b6a3-419f-b1e2-6cad5f979dc9[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/1431b175-b6a3-419f-b1e2-6cad5f979dc9[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 112 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/entities/muavao.entity.ts:[32m[1m20:10[22m[39m[1m[39m[22m
+[90mTS2552: [39mCannot find name 'numer'. Did you mean 'number'?
+  [0m [90m 18 |[39m   [33mSHD[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 19 |[39m   [33m@[39m[33mColumn[39m({nullable[33m:[39m[36mtrue[39m})[0m
+  [0m[31m[1m>[22m[39m[90m 20 |[39m   [33mThang[39m[33m:[39m numer[33m;[39m[0m
+  [0m [90m    |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 21 |[39m   [33m@[39m[33mColumn[39m({nullable[33m:[39m[36mtrue[39m})[0m
+  [0m [90m 22 |[39m   [33mNam[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 23 |[39m   [33m@[39m[33mColumn[39m({collation[33m:[39m [32m"utf8_general_ci"[39m[33m,[39mtype[33m:[39m[32m"simple-json"[39m[33m,[39m[36mdefault[39m[33m:[39m () [33m=>[39m [32m"('[')"[39m })[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (1c72b1e3f0272c3b)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 112 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (dda1671d007435f0)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 112 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (8fe3e8cdf1257df5)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 112 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (8fe3e8cdf1257df5)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 112 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (8fe3e8cdf1257df5)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 112 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (8fe3e8cdf1257df5)
+[1m[31mDebugger listening on ws://localhost:9229/bf465926-7c32-4ab4-8e54-13a88906aba0[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/bf465926-7c32-4ab4-8e54-13a88906aba0[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 112 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (8fe3e8cdf1257df5)
+[1m[31mDebugger listening on ws://localhost:9229/58b2e4fe-247e-462b-bbe7-71754c68177c[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/58b2e4fe-247e-462b-bbe7-71754c68177c[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 112 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (8fe3e8cdf1257df5)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 112 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (8fe3e8cdf1257df5)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 112 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (8fe3e8cdf1257df5)
+[1m[31mDebugger listening on ws://localhost:9229/3455228e-ee55-4208-a971-36ead215c7a3[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/3455228e-ee55-4208-a971-36ead215c7a3[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 112 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (5c3af1299bd7625f)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 112 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (5c3af1299bd7625f)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 112 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (5c3af1299bd7625f)
+[1m[31mDebugger listening on ws://localhost:9229/53a4fadc-3252-4267-928c-7cbb0f07cafd[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/53a4fadc-3252-4267-928c-7cbb0f07cafd[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 113 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/hoadonbanra.service.ts:[32m[1m71:31[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'MuavaoRepository' does not exist on type 'hoadonbanraService'.
+  [0m [90m 69 |[39m   }[0m
+  [0m [90m 70 |[39m   [36masync[39m findQuery(params[33m:[39m any) {[0m
+  [0m[31m[1m>[22m[39m[90m 71 |[39m     [36mconst[39m queryBuilder [33m=[39m [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39mcreateQueryBuilder([32m'muavao'[39m)[33m;[39m[0m
+  [0m [90m    |[39m                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 72 |[39m     [36mif[39m (params[33m.[39m[33mBatdau[39m [33m&&[39m params[33m.[39m[33mKetthuc[39m) {[0m
+  [0m [90m 73 |[39m       queryBuilder[33m.[39mandWhere([32m'muavao.CreateAt BETWEEN :startDate AND :endDate'[39m[33m,[39m {[0m
+  [0m [90m 74 |[39m         startDate[33m:[39m params[33m.[39m[33mBatdau[39m[33m,[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (452adc6c0649ed92)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 113 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/hoadonbanra.service.ts:[32m[1m71:31[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'MuavaoRepository' does not exist on type 'hoadonbanraService'.
+  [0m [90m 69 |[39m   }[0m
+  [0m [90m 70 |[39m   [36masync[39m findQuery(params[33m:[39m any) {[0m
+  [0m[31m[1m>[22m[39m[90m 71 |[39m     [36mconst[39m queryBuilder [33m=[39m [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39mcreateQueryBuilder([32m'muavao'[39m)[33m;[39m[0m
+  [0m [90m    |[39m                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 72 |[39m     [36mif[39m (params[33m.[39m[33mBatdau[39m [33m&&[39m params[33m.[39m[33mKetthuc[39m) {[0m
+  [0m [90m 73 |[39m       queryBuilder[33m.[39mandWhere([32m'muavao.CreateAt BETWEEN :startDate AND :endDate'[39m[33m,[39m {[0m
+  [0m [90m 74 |[39m         startDate[33m:[39m params[33m.[39m[33mBatdau[39m[33m,[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (452adc6c0649ed92)
+[1m[31mDebugger listening on ws://localhost:9229/3c84bbd5-b0d6-4721-86da-6c992251f10b[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/3c84bbd5-b0d6-4721-86da-6c992251f10b[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 113 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/hoadonbanra.controller.ts:[32m[1m35:25[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'muavaoService' does not exist on type 'hoadonbanraController'.
+  [0m [90m 33 |[39m     [33m@[39m[33mPost[39m([32m'search'[39m)[0m
+  [0m [90m 34 |[39m     [36masync[39m findQuery([33m@[39m[33mBody[39m() [33mSearchParams[39m[33m:[39m any){[0m
+  [0m[31m[1m>[22m[39m[90m 35 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39mmuavaoService[33m.[39mfindQuery([33mSearchParams[39m)[33m;[39m[0m
+  [0m [90m    |[39m                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 36 |[39m   }[0m
+  [0m [90m 37 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+  [0m [90m 38 |[39m   update([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string[33m,[39m [33m@[39m[33mBody[39m() updatehoadonbanraDto[33m:[39m [33mUpdateHoadonbanraDto[39m) {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/hoadonbanra.service.ts:[32m[1m71:31[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'MuavaoRepository' does not exist on type 'hoadonbanraService'.
+  [0m [90m 69 |[39m   }[0m
+  [0m [90m 70 |[39m   [36masync[39m findQuery(params[33m:[39m any) {[0m
+  [0m[31m[1m>[22m[39m[90m 71 |[39m     [36mconst[39m queryBuilder [33m=[39m [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39mcreateQueryBuilder([32m'muavao'[39m)[33m;[39m[0m
+  [0m [90m    |[39m                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 72 |[39m     [36mif[39m (params[33m.[39m[33mBatdau[39m [33m&&[39m params[33m.[39m[33mKetthuc[39m) {[0m
+  [0m [90m 73 |[39m       queryBuilder[33m.[39mandWhere([32m'muavao.CreateAt BETWEEN :startDate AND :endDate'[39m[33m,[39m {[0m
+  [0m [90m 74 |[39m         startDate[33m:[39m params[33m.[39m[33mBatdau[39m[33m,[39m[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (073895d9efeba23f)
+[1m[31mDebugger listening on ws://localhost:9229/5cbecb6d-f992-423a-b1a1-081ae4552b09[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/5cbecb6d-f992-423a-b1a1-081ae4552b09[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 113 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/hoadonbanra.service.ts:[32m[1m71:31[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'MuavaoRepository' does not exist on type 'hoadonbanraService'.
+  [0m [90m 69 |[39m   }[0m
+  [0m [90m 70 |[39m   [36masync[39m findQuery(params[33m:[39m any) {[0m
+  [0m[31m[1m>[22m[39m[90m 71 |[39m     [36mconst[39m queryBuilder [33m=[39m [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39mcreateQueryBuilder([32m'muavao'[39m)[33m;[39m[0m
+  [0m [90m    |[39m                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 72 |[39m     [36mif[39m (params[33m.[39m[33mBatdau[39m [33m&&[39m params[33m.[39m[33mKetthuc[39m) {[0m
+  [0m [90m 73 |[39m       queryBuilder[33m.[39mandWhere([32m'muavao.CreateAt BETWEEN :startDate AND :endDate'[39m[33m,[39m {[0m
+  [0m [90m 74 |[39m         startDate[33m:[39m params[33m.[39m[33mBatdau[39m[33m,[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (972ce445f2455879)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 113 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/hoadonbanra.service.ts:[32m[1m71:31[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'MuavaoRepository' does not exist on type 'hoadonbanraService'.
+  [0m [90m 69 |[39m   }[0m
+  [0m [90m 70 |[39m   [36masync[39m findQuery(params[33m:[39m any) {[0m
+  [0m[31m[1m>[22m[39m[90m 71 |[39m     [36mconst[39m queryBuilder [33m=[39m [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39mcreateQueryBuilder([32m'muavao'[39m)[33m;[39m[0m
+  [0m [90m    |[39m                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 72 |[39m     [36mif[39m (params[33m.[39m[33mBatdau[39m [33m&&[39m params[33m.[39m[33mKetthuc[39m) {[0m
+  [0m [90m 73 |[39m       queryBuilder[33m.[39mandWhere([32m'muavao.CreateAt BETWEEN :startDate AND :endDate'[39m[33m,[39m {[0m
+  [0m [90m 74 |[39m         startDate[33m:[39m params[33m.[39m[33mBatdau[39m[33m,[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (972ce445f2455879)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 113 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/hoadonbanra.service.ts:[32m[1m71:31[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'MuavaoRepository' does not exist on type 'hoadonbanraService'.
+  [0m [90m 69 |[39m   }[0m
+  [0m [90m 70 |[39m   [36masync[39m findQuery(params[33m:[39m any) {[0m
+  [0m[31m[1m>[22m[39m[90m 71 |[39m     [36mconst[39m queryBuilder [33m=[39m [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39mcreateQueryBuilder([32m'muavao'[39m)[33m;[39m[0m
+  [0m [90m    |[39m                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 72 |[39m     [36mif[39m (params[33m.[39m[33mBatdau[39m [33m&&[39m params[33m.[39m[33mKetthuc[39m) {[0m
+  [0m [90m 73 |[39m       queryBuilder[33m.[39mandWhere([32m'muavao.CreateAt BETWEEN :startDate AND :endDate'[39m[33m,[39m {[0m
+  [0m [90m 74 |[39m         startDate[33m:[39m params[33m.[39m[33mBatdau[39m[33m,[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (972ce445f2455879)
+[1m[31mDebugger listening on ws://localhost:9229/aa9483a7-1798-4cea-8c50-935abdf8684a[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/aa9483a7-1798-4cea-8c50-935abdf8684a[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 113 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (8ad676dcbaecbeeb)
+[1m[31mDebugger listening on ws://localhost:9229/866fe93c-3607-45f3-80c1-0b40e84a3f71[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/866fe93c-3607-45f3-80c1-0b40e84a3f71[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 113 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (e9fb9ef336783798)
+[1m[31mDebugger listening on ws://localhost:9229/37699a5d-c9b3-453b-97f8-c8a12980bd8d[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/37699a5d-c9b3-453b-97f8-c8a12980bd8d[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 113 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (e723dd37dad1a104)
+[1m[31mDebugger listening on ws://localhost:9229/f4453e72-62f8-452a-9426-4683ae856149[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/f4453e72-62f8-452a-9426-4683ae856149[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 113 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (ccbda6c507529c32)
+[1m[31mDebugger listening on ws://localhost:9229/8c69e3cc-33b3-4508-93d4-76cd1a138ad7[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/8c69e3cc-33b3-4508-93d4-76cd1a138ad7[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 113 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (ccbda6c507529c32)
+[1m[31mDebugger listening on ws://localhost:9229/543a5e74-e221-41ed-b0c6-02a8f0f5fba9[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/543a5e74-e221-41ed-b0c6-02a8f0f5fba9[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 113 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (7a53892b5a79afea)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 113 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (7a53892b5a79afea)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 113 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (7a53892b5a79afea)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 113 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (7a53892b5a79afea)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 113 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (7a53892b5a79afea)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m

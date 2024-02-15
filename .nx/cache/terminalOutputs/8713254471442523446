@@ -1,0 +1,891 @@
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 157 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (98d31d134e674944)
+[1m[31mDebugger listening on ws://localhost:9229/16e750b7-ea33-4c6a-b2ec-73646cf8eda2[39m[22m
+[1m[31m[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/16e750b7-ea33-4c6a-b2ec-73646cf8eda2[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 158 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/nhapkho/entities/nhapkho.entity.ts:[32m[1m24:3[22m[39m[1m[39m[22m
+[90mTS2300: [39mDuplicate identifier 'Giavon'.
+  [0m [90m 22 |[39m   [33mGiavon[39m[33m:[39m number[33m;[39m[0m
+  [0m [90m 23 |[39m   [33m@[39m[33mColumn[39m({nullable[33m:[39m[36mtrue[39m[33m,[39m type[33m:[39m [32m'bigint'[39m})[0m
+  [0m[31m[1m>[22m[39m[90m 24 |[39m   [33mGiavon[39m[33m:[39m number[33m;[39m[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 25 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m [90m 26 |[39m   [33mSHD[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 27 |[39m   [33m@[39m[33mColumn[39m({nullable[33m:[39m[36mtrue[39m})[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (e1e2ddf55b868730)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 158 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (cbaf867feff7972b)
+[1m[31mDebugger listening on ws://localhost:9229/48b4f27d-3cce-4f09-b0b7-bb2c75c3b2ed[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/48b4f27d-3cce-4f09-b0b7-bb2c75c3b2ed[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 158 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (b0cf0c774e32c071)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 158 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (b0cf0c774e32c071)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 158 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (b0cf0c774e32c071)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 158 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (b0cf0c774e32c071)
+[1m[31mDebugger listening on ws://localhost:9229/812d419e-ed06-4736-aa76-7b483c77883c[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/812d419e-ed06-4736-aa76-7b483c77883c[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 158 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (b0cf0c774e32c071)
+[1m[31mDebugger listening on ws://localhost:9229/1e6367d3-0f98-4e5b-8be7-5e4406a2dbbc[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/1e6367d3-0f98-4e5b-8be7-5e4406a2dbbc[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 100, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 100, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 100, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 10, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 10, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 10, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 10, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 10, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 10, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 10, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 10, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 10, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 10, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 10, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 10, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 10, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 10, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 10, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 10, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 10, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 10, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 10, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 10, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 10, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 10, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 10, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 10, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 10, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 10, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 10, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 10, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 158 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\xuatkho\xuatkho.service.ts[39m[22m
+[1m./src/app/xuatkho/xuatkho.service.ts[39m[22m [1m[32m35:15-16[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\xuatkho\xuatkho.service.ts(35,16)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\xuatkho\xuatkho.service.ts[39m[22m
+[1m./src/app/xuatkho/xuatkho.service.ts[39m[22m [1m[32m36:13-14[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\xuatkho\xuatkho.service.ts(36,14)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\xuatkho\xuatkho.service.ts[39m[22m
+[1m./src/app/xuatkho/xuatkho.service.ts[39m[22m [1m[32m37:6-7[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\xuatkho\xuatkho.service.ts(37,7)[39m[22m
+[1m[31m      TS1135: Argument expression expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/xuatkho/xuatkho.service.ts:[32m[1m35:9[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'Soluong'.
+  [0m [90m 33 |[39m         [33mGiaxuat[39m[33m:[39m data[33m.[39m[33mGiaxuat[39m[33m,[39m[0m
+  [0m [90m 34 |[39m         [33mThang[39m[33m:[39m [33mNumber[39m(data[33m.[39m[33mThang[39m[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 35 |[39m         [33mSoluong[39m[33m:[39m data[33m.[39m[33mSoluong[39m[33m,[39m[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 36 |[39m         [33mTenSP[39m[33m:[39m data[33m.[39m[33mTenSP[39m[33m,[39m[0m
+  [0m [90m 37 |[39m       }[33m,[39m[0m
+  [0m [90m 38 |[39m     })[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/xuatkho/xuatkho.service.ts:[32m[1m35:9[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 0-1 arguments, but got 5.
+  [0m [90m 33 |[39m         [33mGiaxuat[39m[33m:[39m data[33m.[39m[33mGiaxuat[39m[33m,[39m[0m
+  [0m [90m 34 |[39m         [33mThang[39m[33m:[39m [33mNumber[39m(data[33m.[39m[33mThang[39m[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 35 |[39m         [33mSoluong[39m[33m:[39m data[33m.[39m[33mSoluong[39m[33m,[39m[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m[31m[1m>[22m[39m[90m 36 |[39m         [33mTenSP[39m[33m:[39m data[33m.[39m[33mTenSP[39m[33m,[39m[0m
+  [0m [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 37 |[39m       }[33m,[39m[0m
+  [0m [90m 38 |[39m     })[33m;[39m[0m
+  [0m [90m 39 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/xuatkho/xuatkho.service.ts:[32m[1m36:9[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'TenSP'.
+  [0m [90m 34 |[39m         [33mThang[39m[33m:[39m [33mNumber[39m(data[33m.[39m[33mThang[39m[33m,[39m[0m
+  [0m [90m 35 |[39m         [33mSoluong[39m[33m:[39m data[33m.[39m[33mSoluong[39m[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 36 |[39m         [33mTenSP[39m[33m:[39m data[33m.[39m[33mTenSP[39m[33m,[39m[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 37 |[39m       }[33m,[39m[0m
+  [0m [90m 38 |[39m     })[33m;[39m[0m
+  [0m [90m 39 |[39m   }[0m
+
+webpack compiled with [1m[31m6 errors[39m[22m (3658af00727c1ca7)
+[1m[31mDebugger listening on ws://localhost:9229/ae175a30-eed0-4764-93ea-629e80fcebb8[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/ae175a30-eed0-4764-93ea-629e80fcebb8[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 158 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (729d0411ec75746f)
+[1m[31mDebugger listening on ws://localhost:9229/90a9c16f-b7b2-4eba-8f52-5fb812f362de[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/90a9c16f-b7b2-4eba-8f52-5fb812f362de[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 158 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\xuatkho\xuatkho.service.ts[39m[22m
+[1m./src/app/xuatkho/xuatkho.service.ts[39m[22m [1m[32m34:13-14[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\xuatkho\xuatkho.service.ts(34,14)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\xuatkho\xuatkho.service.ts[39m[22m
+[1m./src/app/xuatkho/xuatkho.service.ts[39m[22m [1m[32m35:15-16[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\xuatkho\xuatkho.service.ts(35,16)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\xuatkho\xuatkho.service.ts[39m[22m
+[1m./src/app/xuatkho/xuatkho.service.ts[39m[22m [1m[32m36:13-14[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\xuatkho\xuatkho.service.ts(36,14)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\xuatkho\xuatkho.service.ts[39m[22m
+[1m./src/app/xuatkho/xuatkho.service.ts[39m[22m [1m[32m37:6-7[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\xuatkho\xuatkho.service.ts(37,7)[39m[22m
+[1m[31m      TS1135: Argument expression expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/xuatkho/xuatkho.service.ts:[32m[1m34:9[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'Thang'.
+  [0m [90m 32 |[39m         [33mSHD[39m[33m:[39m data[33m.[39m[33mSHD[39m[33m,[39m[0m
+  [0m [90m 33 |[39m         [33mGiaxuat[39m[33m:[39m  [33mNumber[39m(data[33m.[39m[33mGiaxuat[39m[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 34 |[39m         [33mThang[39m[33m:[39m [33mNumber[39m(data[33m.[39m[33mThang[39m)[33m,[39m[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 35 |[39m         [33mSoluong[39m[33m:[39m data[33m.[39m[33mSoluong[39m[33m,[39m[0m
+  [0m [90m 36 |[39m         [33mTenSP[39m[33m:[39m data[33m.[39m[33mTenSP[39m[33m,[39m[0m
+  [0m [90m 37 |[39m       }[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/xuatkho/xuatkho.service.ts:[32m[1m34:9[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 0-1 arguments, but got 7.
+  [0m [90m 32 |[39m         [33mSHD[39m[33m:[39m data[33m.[39m[33mSHD[39m[33m,[39m[0m
+  [0m [90m 33 |[39m         [33mGiaxuat[39m[33m:[39m  [33mNumber[39m(data[33m.[39m[33mGiaxuat[39m[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 34 |[39m         [33mThang[39m[33m:[39m [33mNumber[39m(data[33m.[39m[33mThang[39m)[33m,[39m[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m[31m[1m>[22m[39m[90m 35 |[39m         [33mSoluong[39m[33m:[39m data[33m.[39m[33mSoluong[39m[33m,[39m[0m
+  [0m [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m[31m[1m>[22m[39m[90m 36 |[39m         [33mTenSP[39m[33m:[39m data[33m.[39m[33mTenSP[39m[33m,[39m[0m
+  [0m [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 37 |[39m       }[33m,[39m[0m
+  [0m [90m 38 |[39m     })[33m;[39m[0m
+  [0m [90m 39 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/xuatkho/xuatkho.service.ts:[32m[1m35:9[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'Soluong'.
+  [0m [90m 33 |[39m         [33mGiaxuat[39m[33m:[39m  [33mNumber[39m(data[33m.[39m[33mGiaxuat[39m[33m,[39m[0m
+  [0m [90m 34 |[39m         [33mThang[39m[33m:[39m [33mNumber[39m(data[33m.[39m[33mThang[39m)[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 35 |[39m         [33mSoluong[39m[33m:[39m data[33m.[39m[33mSoluong[39m[33m,[39m[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 36 |[39m         [33mTenSP[39m[33m:[39m data[33m.[39m[33mTenSP[39m[33m,[39m[0m
+  [0m [90m 37 |[39m       }[33m,[39m[0m
+  [0m [90m 38 |[39m     })[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/xuatkho/xuatkho.service.ts:[32m[1m36:9[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'TenSP'.
+  [0m [90m 34 |[39m         [33mThang[39m[33m:[39m [33mNumber[39m(data[33m.[39m[33mThang[39m)[33m,[39m[0m
+  [0m [90m 35 |[39m         [33mSoluong[39m[33m:[39m data[33m.[39m[33mSoluong[39m[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 36 |[39m         [33mTenSP[39m[33m:[39m data[33m.[39m[33mTenSP[39m[33m,[39m[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 37 |[39m       }[33m,[39m[0m
+  [0m [90m 38 |[39m     })[33m;[39m[0m
+  [0m [90m 39 |[39m   }[0m
+
+webpack compiled with [1m[31m8 errors[39m[22m (15273780df5cd8d6)
+[1m[31mDebugger listening on ws://localhost:9229/2e77a84b-5aa0-48b0-a206-cf87d29d0ca4[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/2e77a84b-5aa0-48b0-a206-cf87d29d0ca4[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 158 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (be949df5b7ace009)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 158 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\xuatkho\xuatkho.service.ts[39m[22m
+[1m./src/app/xuatkho/xuatkho.service.ts[39m[22m [1m[32m36:13-14[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\xuatkho\xuatkho.service.ts(36,14)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\xuatkho\xuatkho.service.ts[39m[22m
+[1m./src/app/xuatkho/xuatkho.service.ts[39m[22m [1m[32m37:6-7[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\xuatkho\xuatkho.service.ts(37,7)[39m[22m
+[1m[31m      TS1135: Argument expression expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/xuatkho/xuatkho.service.ts:[32m[1m36:9[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'TenSP'.
+  [0m [90m 34 |[39m         [33mThang[39m[33m:[39m [33mNumber[39m(data[33m.[39m[33mThang[39m)[33m,[39m[0m
+  [0m [90m 35 |[39m         [33mSoluong[39m[33m:[39m  [33mNumber[39m(data[33m.[39m[33mSoluong[39m[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 36 |[39m         [33mTenSP[39m[33m:[39m data[33m.[39m[33mTenSP[39m[33m,[39m[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 37 |[39m       }[33m,[39m[0m
+  [0m [90m 38 |[39m     })[33m;[39m[0m
+  [0m [90m 39 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/xuatkho/xuatkho.service.ts:[32m[1m36:9[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 0-1 arguments, but got 3.
+  [0m [90m 34 |[39m         [33mThang[39m[33m:[39m [33mNumber[39m(data[33m.[39m[33mThang[39m)[33m,[39m[0m
+  [0m [90m 35 |[39m         [33mSoluong[39m[33m:[39m  [33mNumber[39m(data[33m.[39m[33mSoluong[39m[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 36 |[39m         [33mTenSP[39m[33m:[39m data[33m.[39m[33mTenSP[39m[33m,[39m[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 37 |[39m       }[33m,[39m[0m
+  [0m [90m 38 |[39m     })[33m;[39m[0m
+  [0m [90m 39 |[39m   }[0m
+
+webpack compiled with [1m[31m4 errors[39m[22m (7cbe33db9d2f0946)
+[1m[31mDebugger listening on ws://localhost:9229/8b44ab71-2127-460b-84d1-70e80642491e[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/8b44ab71-2127-460b-84d1-70e80642491e[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 158 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (85ded5a8a1e0b13c)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m

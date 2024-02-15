@@ -1,0 +1,74 @@
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 16.8 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (80f2d3d6a5015ec5)
+[1m[31mDebugger listening on ws://localhost:9229/0091dd04-aca6-40d6-a4e5-03e1a8796542[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/0091dd04-aca6-40d6-a4e5-03e1a8796542[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 14.5 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/hoadonbanra.service.ts:[32m[1m29:16[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ Slug: any; }' is not assignable to type 'FindOptionsWhere<hoadonbanraEntity> | FindOptionsWhere<hoadonbanraEntity>[]'.
+  Object literal may only specify known properties, and 'Slug' does not exist in type 'FindOptionsWhere<hoadonbanraEntity> | FindOptionsWhere<hoadonbanraEntity>[]'.
+  [0m [90m 27 |[39m   [36masync[39m findslug(slug[33m:[39m any) {[0m
+  [0m [90m 28 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39mhoadonbanraRepository[33m.[39mfindOne({[0m
+  [0m[31m[1m>[22m[39m[90m 29 |[39m       where[33m:[39m { [33mSlug[39m[33m:[39m slug}[33m,[39m[0m
+  [0m [90m    |[39m                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 30 |[39m     })[33m;[39m[0m
+  [0m [90m 31 |[39m   }[0m
+  [0m [90m 32 |[39m   [36masync[39m findPagination(page[33m:[39m number[33m,[39m perPage[33m:[39m number){[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (7f0c793964e267a0)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 14.5 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/hoadonbanra.service.ts:[32m[1m29:16[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ Slug: any; }' is not assignable to type 'FindOptionsWhere<hoadonbanraEntity> | FindOptionsWhere<hoadonbanraEntity>[]'.
+  Object literal may only specify known properties, and 'Slug' does not exist in type 'FindOptionsWhere<hoadonbanraEntity> | FindOptionsWhere<hoadonbanraEntity>[]'.
+  [0m [90m 27 |[39m   [36masync[39m findslug(slug[33m:[39m any) {[0m
+  [0m [90m 28 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39mhoadonbanraRepository[33m.[39mfindOne({[0m
+  [0m[31m[1m>[22m[39m[90m 29 |[39m       where[33m:[39m { [33mSlug[39m[33m:[39m slug}[33m,[39m[0m
+  [0m [90m    |[39m                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 30 |[39m     })[33m;[39m[0m
+  [0m [90m 31 |[39m   }[0m
+  [0m [90m 32 |[39m   [36masync[39m findPagination(page[33m:[39m number[33m,[39m perPage[33m:[39m number){[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (7f0c793964e267a0)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 14.5 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/hoadonbanra.service.ts:[32m[1m29:16[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ Slug: any; }' is not assignable to type 'FindOptionsWhere<hoadonbanraEntity> | FindOptionsWhere<hoadonbanraEntity>[]'.
+  Object literal may only specify known properties, and 'Slug' does not exist in type 'FindOptionsWhere<hoadonbanraEntity> | FindOptionsWhere<hoadonbanraEntity>[]'.
+  [0m [90m 27 |[39m   [36masync[39m findslug(slug[33m:[39m any) {[0m
+  [0m [90m 28 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39mhoadonbanraRepository[33m.[39mfindOne({[0m
+  [0m[31m[1m>[22m[39m[90m 29 |[39m       where[33m:[39m { [33mSlug[39m[33m:[39m slug}[33m,[39m[0m
+  [0m [90m    |[39m                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 30 |[39m     })[33m;[39m[0m
+  [0m [90m 31 |[39m   }[0m
+  [0m [90m 32 |[39m   [36masync[39m findPagination(page[33m:[39m number[33m,[39m perPage[33m:[39m number){[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (7f0c793964e267a0)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 14.5 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/hoadonbanra.service.ts:[32m[1m29:16[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ Slug: any; }' is not assignable to type 'FindOptionsWhere<hoadonbanraEntity> | FindOptionsWhere<hoadonbanraEntity>[]'.
+  Object literal may only specify known properties, and 'Slug' does not exist in type 'FindOptionsWhere<hoadonbanraEntity> | FindOptionsWhere<hoadonbanraEntity>[]'.
+  [0m [90m 27 |[39m   [36masync[39m findslug(slug[33m:[39m any) {[0m
+  [0m [90m 28 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39mhoadonbanraRepository[33m.[39mfindOne({[0m
+  [0m[31m[1m>[22m[39m[90m 29 |[39m       where[33m:[39m { [33mSlug[39m[33m:[39m slug}[33m,[39m[0m
+  [0m [90m    |[39m                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 30 |[39m     })[33m;[39m[0m
+  [0m [90m 31 |[39m   }[0m
+  [0m [90m 32 |[39m   [36masync[39m findPagination(page[33m:[39m number[33m,[39m perPage[33m:[39m number){[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (7f0c793964e267a0)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 16.8 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (92c166f700817e66)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 16.5 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (898a48915c20b9a5)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 14.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (9a88b0059f92e267)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 14.6 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (9a88b0059f92e267)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m

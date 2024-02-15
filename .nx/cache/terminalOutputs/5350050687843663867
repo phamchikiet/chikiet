@@ -1,0 +1,268 @@
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 111 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (bf2bc5c47d56eefb)
+[1m[31mStarting inspector on localhost:9229 failed: address already in use[39m[22m
+[1m[31m[39m[22m
+[1m[31m{}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Batdau: '2024-01-18T17:00:00.000Z',[39m[22m
+[1m[31m  Ketthuc: '2024-01-20T16:59:59.999Z',[39m[22m
+[1m[31m  pageSize: 10,[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Batdau: '2024-01-18T17:00:00.000Z',[39m[22m
+[1m[31m  Ketthuc: '2024-01-20T16:59:59.999Z',[39m[22m
+[1m[31m  pageSize: 10,[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Batdau: '2024-01-18T17:00:00.000Z',[39m[22m
+[1m[31m  Ketthuc: '2024-01-20T16:59:59.999Z',[39m[22m
+[1m[31m  pageSize: 10,[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Batdau: '2023-11-30T17:00:00.000Z',[39m[22m
+[1m[31m  Ketthuc: '2023-12-31T16:59:59.999Z',[39m[22m
+[1m[31m  pageSize: 10,[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Batdau: null,[39m[22m
+[1m[31m  Ketthuc: '2024-01-20T16:59:59.999Z',[39m[22m
+[1m[31m  pageSize: 10,[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Batdau: null,[39m[22m
+[1m[31m  Ketthuc: '2024-01-20T16:59:59.999Z',[39m[22m
+[1m[31m  pageSize: 10,[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Batdau: null,[39m[22m
+[1m[31m  Ketthuc: '2024-01-20T16:59:59.999Z',[39m[22m
+[1m[31m  pageSize: 10,[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Batdau: '2022-12-30T17:00:00.000Z',[39m[22m
+[1m[31m  Ketthuc: '2024-01-20T16:59:59.999Z',[39m[22m
+[1m[31m  pageSize: 10,[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Batdau: '2022-12-30T17:00:00.000Z',[39m[22m
+[1m[31m  Ketthuc: '2024-01-20T16:59:59.999Z',[39m[22m
+[1m[31m  pageSize: 10,[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Batdau: '2022-12-30T17:00:00.000Z',[39m[22m
+[1m[31m  Ketthuc: '2024-01-20T16:59:59.999Z',[39m[22m
+[1m[31m  pageSize: 10,[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Batdau: '2022-12-30T17:00:00.000Z',[39m[22m
+[1m[31m  Ketthuc: '2023-01-01T16:59:59.999Z',[39m[22m
+[1m[31m  pageSize: 10,[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Batdau: '2022-12-30T17:00:00.000Z',[39m[22m
+[1m[31m  Ketthuc: '2023-01-01T16:59:59.999Z',[39m[22m
+[1m[31m  pageSize: 10,[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Batdau: '2022-12-30T17:00:00.000Z',[39m[22m
+[1m[31m  Ketthuc: '2023-01-01T16:59:59.999Z',[39m[22m
+[1m[31m  pageSize: 10,[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Batdau: '2022-12-30T17:00:00.000Z',[39m[22m
+[1m[31m  Ketthuc: null,[39m[22m
+[1m[31m  pageSize: 10,[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Batdau: '2022-12-30T17:00:00.000Z',[39m[22m
+[1m[31m  Ketthuc: null,[39m[22m
+[1m[31m  pageSize: 10,[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Batdau: '2022-12-30T17:00:00.000Z',[39m[22m
+[1m[31m  Ketthuc: null,[39m[22m
+[1m[31m  pageSize: 10,[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Batdau: '2022-12-30T17:00:00.000Z',[39m[22m
+[1m[31m  Ketthuc: null,[39m[22m
+[1m[31m  pageSize: 10,[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Batdau: '2022-12-30T17:00:00.000Z',[39m[22m
+[1m[31m  Ketthuc: '2023-01-31T16:59:59.999Z',[39m[22m
+[1m[31m  pageSize: 10,[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Batdau: '2022-12-30T17:00:00.000Z',[39m[22m
+[1m[31m  Ketthuc: '2023-01-31T16:59:59.999Z',[39m[22m
+[1m[31m  pageSize: 10,[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Batdau: '2022-12-30T17:00:00.000Z',[39m[22m
+[1m[31m  Ketthuc: '2023-01-31T16:59:59.999Z',[39m[22m
+[1m[31m  pageSize: 10,[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Batdau: '2022-12-31T17:00:00.000Z',[39m[22m
+[1m[31m  Ketthuc: '2023-01-31T16:59:59.999Z',[39m[22m
+[1m[31m  pageSize: 10,[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Batdau: '2022-12-31T17:00:00.000Z',[39m[22m
+[1m[31m  Ketthuc: '2023-01-31T16:59:59.999Z',[39m[22m
+[1m[31m  pageSize: 10,[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Batdau: '2022-12-31T17:00:00.000Z',[39m[22m
+[1m[31m  Ketthuc: '2023-01-31T16:59:59.999Z',[39m[22m
+[1m[31m  pageSize: 10,[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Batdau: '2022-12-31T17:00:00.000Z',[39m[22m
+[1m[31m  Ketthuc: '2023-01-31T16:59:59.999Z',[39m[22m
+[1m[31m  pageSize: 10,[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 111 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (bf2bc5c47d56eefb)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 111 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (bf2bc5c47d56eefb)
+[1m[31mDebugger listening on ws://localhost:9229/a8e21bcf-0fe4-4247-9aac-5a6002eb62e0[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/a8e21bcf-0fe4-4247-9aac-5a6002eb62e0[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 111 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (bf2bc5c47d56eefb)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 111 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (bf2bc5c47d56eefb)
+[1m[31mDebugger listening on ws://localhost:9229/fea8d47e-9ea3-4d95-b3e2-729615e744c1[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/fea8d47e-9ea3-4d95-b3e2-729615e744c1[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 111 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m35:9[22m[39m[1m[39m[22m
+[90mTS1117: [39mAn object literal cannot have multiple properties with the same name.
+  [0m [90m 33 |[39m       where[33m:[39m {[0m
+  [0m [90m 34 |[39m         [33mSHD[39m[33m:[39m data[33m.[39m[33mSHD[39m[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 35 |[39m         [33mSHD[39m[33m:[39m data[33m.[39m[33mSHD[39m[33m,[39m[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 36 |[39m         [33mType[39m[33m:[39m data[33m.[39m[33mType[39m[0m
+  [0m [90m 37 |[39m       }[33m,[39m[0m
+  [0m [90m 38 |[39m     })[33m;[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (af381de9677c7787)
+[1m[31mDebugger listening on ws://localhost:9229/33e76a25-1ead-462b-985d-600d410636dd[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/33e76a25-1ead-462b-985d-600d410636dd[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 111 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (5d3693c8eed30ad3)
+[1m[31mDebugger listening on ws://localhost:9229/be2a8ebf-7a10-446f-a7a8-edbe448aab77[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/be2a8ebf-7a10-446f-a7a8-edbe448aab77[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 111 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (bd46fd7446964656)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 111 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (bd46fd7446964656)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 111 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (bd46fd7446964656)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 111 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (bd46fd7446964656)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 111 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (bd46fd7446964656)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 111 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (bd46fd7446964656)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 111 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (bd46fd7446964656)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 111 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (bd46fd7446964656)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m

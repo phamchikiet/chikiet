@@ -1,0 +1,1265 @@
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 158 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (923fd9fd6820e8f8)
+[1m[31mDebugger listening on ws://localhost:9229/a471641e-c2f9-4cf9-b3f8-1ce337a0298f[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/a471641e-c2f9-4cf9-b3f8-1ce337a0298f[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 158 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (923fd9fd6820e8f8)
+[1m[31mDebugger listening on ws://localhost:9229/463e6054-4d90-454e-8f46-5386fe7ca0b4[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/463e6054-4d90-454e-8f46-5386fe7ca0b4[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 10000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 10000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 10000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 10000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 10000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 10000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 100, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 158 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/xuatkho/entities/xuatkho.entity.ts:[32m[1m16:3[22m[39m[1m[39m[22m
+[90mTS2300: [39mDuplicate identifier 'TenSP'.
+  [0m [90m 14 |[39m   [33mTenSP[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 15 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m[31m[1m>[22m[39m[90m 16 |[39m   [33mTenSP[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 17 |[39m   [33m@[39m[33mColumn[39m({nullable[33m:[39m[36mtrue[39m[33m,[39m type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m [90m 18 |[39m   [33mDVT[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 19 |[39m   [33m@[39m[33mColumn[39m({nullable[33m:[39m[36mtrue[39m[33m,[39m type[33m:[39m [32m'bigint'[39m})[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (d8f438099be91d63)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 158 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (52e443047ada2ed1)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 158 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (52e443047ada2ed1)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 158 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (52e443047ada2ed1)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 158 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (52e443047ada2ed1)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 158 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/nhapkho/entities/nhapkho.entity.ts:[32m[1m16:3[22m[39m[1m[39m[22m
+[90mTS2300: [39mDuplicate identifier 'TenSP'.
+  [0m [90m 14 |[39m   [33mTenSP[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 15 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m[31m[1m>[22m[39m[90m 16 |[39m   [33mTenSP[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 17 |[39m   [33m@[39m[33mColumn[39m({nullable[33m:[39m[36mtrue[39m[33m,[39m type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m [90m 18 |[39m   [33mDVT[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 19 |[39m   [33m@[39m[33mColumn[39m({nullable[33m:[39m[36mtrue[39m[33m,[39m type[33m:[39m [32m'bigint'[39m})[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (0cf7bcd576b6da1c)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 158 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (bc58891771f27c50)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 158 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (bc58891771f27c50)
+[1m[31mDebugger listening on ws://localhost:9229/45084cc2-9d5d-44ae-bfa4-0ca4db8ea2f5[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/45084cc2-9d5d-44ae-bfa4-0ca4db8ea2f5[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 100, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 100, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 100, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 100, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 100, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 100, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 100, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 100, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 100, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 100, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 100, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 100, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 10, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 10, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '50', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '5000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '5000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '500', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '5000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '50', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '5000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '50000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '500000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '500000000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '50000000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '50', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '5000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '5000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '5000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '50', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '5', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '50', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '500', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '5000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '5', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '50', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '500', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '50', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '500', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '5000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '50000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '5000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '500', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '50', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '5', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '5', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '50', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '500', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '50', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '500', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '500', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '51', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '510', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '51', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '5', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '5', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '50', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '500', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '5000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '50', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '500', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '5000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '50', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '500', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '5000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '50', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '5000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '5000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '50000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '5', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '50', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '500', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '5000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '50', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '50000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '500000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '500000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '500000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '50', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '5000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '5000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '50000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '50', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '5000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '5000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '50', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '5000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '5000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '50000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '50', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '500', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '5000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '50', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '5000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '50000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '50000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '50', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '5000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '50000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '50000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: '5', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: '50', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: '50', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: '50', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: '500', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: '500', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: '5000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '50', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '5000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '50000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '50000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m

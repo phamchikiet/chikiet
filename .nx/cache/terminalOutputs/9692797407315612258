@@ -1,0 +1,1164 @@
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 97.7 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (28aa2335475949d2)
+[1m[31mDebugger listening on ws://localhost:9229/b6acac25-eed5-493e-a9e8-94109ffc68b4[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/b6acac25-eed5-493e-a9e8-94109ffc68b4[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Chiết khấu hàng bán' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Bánh bao chay 300gr' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Bánh bao nhân thịt 400gr' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Chả giò tôm thịt 500gr/gói' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Bánh bao nhân xá xíu 280g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Chả giò xốp 500gr/gói' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Chả giò xốp chay 500gr' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Cá Saba kho tiêu 185gr' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Cá Saba xốt cà 185gr' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Chiết khấu hàng bán' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Bánh bao chay 300gr' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Bánh bao nhân thịt 400gr' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Chả giò tôm thịt 500gr/gói' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Bánh bao nhân xá xíu 280g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Chả giò xốp 500gr/gói' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Chả giò xốp chay 500gr' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Cá Saba kho tiêu 185gr' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Cá Saba xốt cà 185gr' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Heo 2 lát 160g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  TenSP: 'Bánh Quy Nhân Kem Hương Vani - Nabati Cookies & Cream - Sandwich Cookies with Vanilla Flavour Cream 16g'[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  TenSP: 'Bánh xốp phủ Sô Cô La - Nabati Richoco Coated Wafer – Chocolate Coated Wafer 14g'[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  TenSP: 'Bánh xốp phủ Socola Dừa - Nabati Coconut Chocolate Wafer 14g'[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  TenSP: "Bánh snack phủ phô mai - Nabati Richeese Ahh' Cheese cream coated snack 9g"[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  TenSP: 'Bánh kem xốp phô mai – Richeese Nabati Cheese Cream Wafer 6g'[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  TenSP: 'Bánh kem xốp phô mai Richeese Nabati Cheese Cream Wafer 110g'[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Bánh Sôcôla (dạng xốp) Richoco Nabati Chocolate Wafer 17g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Bánh kem xốp phô mai Richeese Nabati Cheese Wafer 17g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Bánh Sôcôla (dạng xốp) Richoco Nabati Chocolate Wafer 50g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Bánh sôcôla (dạng xốp) Richoco Nabati Chocolate Wafer 15g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Bánh kem xốp phô mai Richeese Nabati Cheese Wafer 50g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Xốt bún bò gói 90g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Xốt sườn xào chua ngọt 90g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Xốt bò kho gói 90g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Dầu hào chay pet 350g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Dầu hào chay pet 170g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Dầu hào pet 820g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Dầu hào pet 350g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Dầu hào pet 170g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Xốt ướp thịt nướng TT 600g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Xốt ướp thịt nướng TT 200g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Xốt ướp thịt nướng gói 70g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Xốt Rang Me pet  280g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Xốt cá chiên PET 280g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Tương hột pet 250g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Tương Đen Phở 230g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Tương đen 230g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Tương đen phở 520g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Lẩu Thái  280g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Lẩu chua hải sản TT 200g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Gia vị kho cá gói 50g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Gia vị kho thịt gói 50g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Dầu dấm trộn salad pet 270 g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Sate tôm Pet 90g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Sate tôm 450g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Satế tôm hũ nhựa 100 g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Satế chay pet 90 g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Nước tương đậu nành pet 150ml' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Nước tương thanh vị 500ml' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Nước tương Hảo Vị gói 7ml' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Hàng onpack chén' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Nước tương Hảo vị pet 500ml' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Nước tương đậu nành pet 700ml' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Nước tương đậu nành pet 300ml' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Nước mắm chay tt 245ml' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Nước mắm Hương Việt pet 750ml' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Nước mắm Hương Việt pet 500ml' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Nước mắm cao đạm 500ml' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Tương cà gói 10g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Xốt cà chua KetChup TT330g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Tương cà chai pet 830g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Tương cà chai pet 2,1kg' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Tương cà chai pet 270g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Tương xí muội pet 2,1kg' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Tương xí muội pet 270g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Tương chua ngọt pet 270 g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Tương ớt 5kg' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Tương chua ngọt pet 2,1 kg' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Tương ớt nắp xuôi 250g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Tương ớt gói 10g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Tương ớt tự nhiên 330g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Tương ớt Pet 130g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Tương ớt pet 830 g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Tương ớt pet 270g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Tương ớt pet 2,1 kg' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: '( Số tiền phải thu: 335.567.421 )' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Xúc xích heo Tini 35g ( 5 cây/gói)' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: '( Chiết khấu thanh toán: 3.136.144 )' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  TenSP: 'Tổng cộng: ĐH: 167.856 KG 16.0 T, XXTT: 4 443.540 KG 1 758.0 T'[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Pa tê thịt heo 397g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Cá ngừ xốt dầu_hộp 170g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Bò 2 lát 3.B.Mai 150g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'XXTT Boom Boom 23g gói' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'XXTT Dinh dưỡng Golden 3' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'XXTT Boom Boom 18g_Ca nhựa 900g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'XXTT Boom Boom 20g_gói 100g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'XXTT lắc kêu vị bơ tỏi_56g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'XXTT Boom Boom 20g_hũ 1 kg' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'XXTT Dzui Dzui thùng 2.1kg' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'XXTT Dinh dưỡng bò gói 175g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'XXTT Bò 70g (gói)' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'XXTT Dinh dưỡng heo gói 175g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'XXTT Bò 18g gói (T-3.6kg)' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'XXTT Heo 70G (gói)' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Tổng cộng: CBĐL: 4.000 KG 0.3 T' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: '( Số tiền phải thu: 327.883 )' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: '( Chiết khấu thanh toán: 3.064 )' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Cá viên gói 200g ĐL' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: '( Số tiền phải thu: 78.149.982 )' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: '( Chiết khấu thanh toán: 730.374 )' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Tổng cộng: ĐH: 73.440 KG 6.0 T, XXTT: 817.880 KG 320.0 T' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Pa tê gan heo_hộp 170g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Bò 2 lát_hộp 170g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'XXTT lắc kêu vị phô mai_56g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'XXTT Heo 18g gói (T-3.6KG)' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: '( Số tiền phải thu: 5.770.296 )' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: '( Chiết khấu thanh toán: 53.928 )' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Tổng cộng: XXT: 75.000 KG' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'XX Funny gói 500g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'THU LAI TIEN VAY THANG 1' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Cá Ngừ ngâm dầu 185g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Nước mắm cao đạm 750ml (Xuân)' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Nước mắm cao đạm 500m (Xuân)' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Dầu hào 2,25kg' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Dầu hào chay pet 820g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Xốt ướp xá xíu gói 70g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Xốt ướp xá xíu TT 200g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Bột canh nấm bào ngư 180g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Ớt Sate hũ TT 150g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Ớt khô Sate hủ thủy tinh 100g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Nước tương Hương Việt 4,9 Lít' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: '( Số tiền phải thu: 712.363 )' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: '( Chiết khấu thanh toán: 6.658 )' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Tổng cộng: GL: 3.840 KG 1.2 T' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Chả lụa bì ớt xiêm 80g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Chả lụa que 80g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: '( Số tiền phải thu: 3.846.864 )' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: '( Chiết khấu thanh toán: 35.952 )' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Tổng cộng: XXT: 50.000 KG' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: '( Số tiền phải thu: 2.652.565 )' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: '( Chiết khấu thanh toán: 24.790 )' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Tổng cộng: CBĐL: 40.000 KG 2.7 T' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Cá viên 3 ngon 500gr' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Tôm viên Funny_gói 500g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Tôm viên Funny_gói 250g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: '( Số tiền phải thu: 277.119.805 )' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: '( Chiết khấu thanh toán: 2.589.905 )' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  TenSP: 'Tổng cộng: ĐH: 1 080.000 KG 100.0 T, XXTT: 2 540.840 KG 1 025.0 T'[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Heo 2 lát 3.B.Mai 150g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'XXTT trộn đều xốt Tamarind_62g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'XXTT Bò 40g (gói)' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'XXTT Heo 40G (gói)' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: '( Số tiền phải thu: 4.831.949 )' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: '( Chiết khấu thanh toán: 45.158 )' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Tổng cộng: XXT: 60.000 KG' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'XX Happy gói 500g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Xốt gà chiên nước mắm 90g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Nước mắm Cholimex 40 độ đạm 750ml' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Nước mắm Cholimex 40 độ đạm 500ml' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Tương đen 2.1kg' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Xốt lẩu kim chi pet 280g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Bột canh nấm hương 180g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Chả giò rế thập cẩm 500gr' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: '(Hàng khuyến mại không thu tiền)' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  TenSP: 'Bánh xốp phủ Socola Dừa - Nabati Coconut Chocolate Wafer 14g '[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  TenSP: 'Mì Trộn Phô Mai Cay Cấp Độ 0 - Nabati Cheese Fried Noodles Level 0 74g'[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Bánh Quế Nhân Phô Mai – Nabati Richeese Long Stick 105g ' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Bánh kem xốp phô mai Richeese Nabati Cheese Wafer 50g ' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: '( Số tiền phải thu: 2.899.169 )' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: '( Chiết khấu thanh toán: 27.095 )' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Tổng cộng: CBĐL: 34.000 KG 2.5 T' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Chả giò da xốp gói 400g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Chả giò tôm cua gói 500g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Chả giò chay gói 500g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Chả giò rế thịt gói 500g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Chả giò rế tôm cua gói 500g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: '( Số tiền phải thu: 362.703.672 )' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: '( Chiết khấu thanh toán: 3.389.754 )' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  TenSP: 'Tổng cộng: LX: 30.000 KG 3.0 T, ĐH: 842.400 KG 78.0 T, XXTT: 3 344.700 KG 1 246.0 T'[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Bò hầm_hộp 150g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Lạp xưởng MQL gói 200g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'XXTT Boom Boom 35g (5+1)_gói 210g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'XXTT Boom Boom 23g (hũ 1,15kg)' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  TenSP: 'XUẤT HÀNG KHUYẾN MÃI ĐỒ HỘP THÁNG 09/2023 KV TÂY NGUYÊN KHÔNG THU TIỀN'[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Tổng cộng: ĐH: 24.480 KG 2.0 T' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Cá xốt cà 170g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: '( Số tiền phải thu: 7.693.728 )' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: '( Chiết khấu thanh toán: 71.904 )' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Tổng cộng: XXT: 100.000 KG' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: '( Số tiền phải thu: 175.444.168 )' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: '( Chiết khấu thanh toán: 1.639.665 )' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Tổng cộng: LX: 50.000 KG 5.0 T, XXTT: 2 378.500 KG 937.0 T' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: '( Số tiền phải thu: 1.103.213 )' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Tổng cộng: CBĐL: 15.000 KG' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Bò viên 3 ngon_gói 500g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: '( Chiết khấu thanh toán: 10.310 )' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: '( Số tiền phải thu: 293.124.185 )' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: '( Chiết khấu thanh toán: 2.739.478 )' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  TenSP: 'Tổng cộng: ĐH: 541.440 KG 50.0 T, XXTT: 2 487.960 KG 1 055.0 T'[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Sườn nấu đậu_hộp 170g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Bánh kem xốp phô mai Richeese Nabati Cheese Wafer 15g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  TenSP: 'Bánh sôcôla(Dạng xốp) Richoco Nabati Chocolate Cream Wafer 110g'[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Cá ngừ xốt cay 185g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Thanh toán trả thưởng TB xe bánh mì tháng 08/2023' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Xốt mì Ý bò bằm 140g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Tương đen phở 2.1kg' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  TenSP: 'Bánh kem xốp phô mai Richeese Nabati Cheese Wafer 50g  (Hàng khuyến mại không thu tiền)'[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  TenSP: 'Bánh kem xốp phô mai-Richeese Nabati Cheese Cream Wafer 330g'[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'PM vuông Belcube ngọt vị Dâu 78G x 15C' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'PM vuông Belcube ngọt vị Socola 78Gx15C' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'PM vuông Belcube vị sữa 15C 78Gx15' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'PM Con Bò Cười VEG6 24M 336Gx24 VN' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'PHÔ MAI CBC 16M 224GX32 TOTEM 3.0 VN' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'PHÔ MAI CBC 8M 112GX36 TOTEM 3.0 VN' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Xốt mì Ý cà chua 140g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Xốt lẩu nấm pet 270g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Xốt Lẩu Thái pet 890g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'PM vuông Belcube HƯƠNG VANI 15Cx78G VN' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  TenSP: 'PM vuông Belcube vị sữa 15C 78Gx15::Hàng khuyến mãi không thu tiền'[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  TenSP: 'PM CON BO CUOI 8M 112GX36 TET24 VN::Hàng khuyến mãi không thu tiền'[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'PM CON BO CUOI 16M 224GX32 TET24 VN' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'PM vuông Belcube vị sữa 24C 125Gx15' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'PM CON BO CUOI 8M 112GX36 TET24 VN' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Há cảo hai mùa 300gr/gói' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  TenSP: 'Bánh kem xốp phô mai Richeese Nabati Cheese Cream Wafer 110g  (Hàng khuyến mại không thu tiền)'[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: '( Số tiền phải thu: 168.896.361 )' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: '( Chiết khấu thanh toán: 1.578.471 )' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  TenSP: 'Tổng cộng: LX: 30.000 KG 3.0 T, ĐH: 540.000 KG 50.0 T, XXTT: 1 357.320 KG 481.0 T'[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Heo hầm_hộp 150g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Tổng cộng: ĐH: 54.000 KG 5.0 T' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  TenSP: 'XUẤT HÀNG KHUYẾN MÃI ĐỒ HỘP TỪ 01/10 - 31/10/2023 KV TÂY NGUYÊN KHÔNG THU TIỀN'[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Tổng cộng: XXT: 16.500 KG' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  TenSP: 'XUẤT HÀNG KHUYẾN MÃI XX FUNNY (MÁT) TỪ 01/10 - 31/10/2023 KV TÂY NGUYÊN KHÔNG THU TIỀN'[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: '( Số tiền phải thu: 370.943.197 )' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: '( Chiết khấu thanh toán: 3.466.759 )' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  TenSP: 'Tổng cộng: ĐH: 2 160.000 KG 200.0 T, XXTT: 1 356.320 KG 601.0 T'[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: '( Chiết khấu thanh toán: 1.784.492 )' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: '( Số tiền phải thu: 190.940.622 )' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Tổng cộng: XXTT: 2 990.000 KG 1 300.0 T' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  TenSP: 'XUẤT HÀNG KHUYẾN MÃI XXTT TỪ 01/10 - 31/10/2023 KV TÂY NGUYÊN KHÔNG THU TIỀN'[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Tổng cộng: XXTT: 18.480 KG 2.6 T' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  TenSP: 'XUẤT HÀNG KHUYẾN MÃI XX LẮC TRỘN TỪ 01/10 - 31/10/2023 KV TÂY NGUYÊN KHÔNG THU TIỀN'[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Tổng cộng: XXTT: 15.624 KG 5.8 T' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: '( Chiết khấu thanh toán: 13.838 )' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: '( Số tiền phải thu: 1.480.709 )' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Tổng cộng: CBĐL: 20.000 KG 0.3 T' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  TenSP: 'Bánh kem xốp phô mai - Richeese Nabati Bites Cheese Cream Wafer 300gr'[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  TenSP: 'Bánh sôcôla (dạng xốp) – Richoco Nabati Chocolate Cream Wafer 6g'[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Nước Yến Sanest Lọ T x 70ml (TT nước yến Q3/2023)' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  TenSP: 'Hỗ trợ 1.5% doanh thu thực hiện T9/2023 theo đề xuất ngày 08/9/2023'[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Nước Yến Sanest Lọ Nhân Sâm x 70ml' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Nước Yến sào Sanest trẻ em' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Nước Yến Sanest Lọ K x 70ml' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Nước Yến Sanest Hộp 6 Lọ K x 70ml' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Nước Yến Sanest Hộp 6 Lọ T x 70ml' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Nước Yến Sanest Lọ T x 70ml' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Sanna đóng chai 500 ml' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Sanna đóng chai 330 ml' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: '( Số tiền phải thu: 4.884.849 )' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: '( Chiết khấu thanh toán: 45.653 )' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Tổng cộng: CBĐL: 70.000 KG 3.0 T' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Cá viên Funny_gói 500g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Cá viên Funny_gói 250g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: '( Số tiền phải thu: 4.408.999 )' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: '( Chiết khấu thanh toán: 41.206 )' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Tổng cộng: CBĐL: 80.000 KG 4.3 T' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'VS (KM) XXTT Boom Boom 23g gói' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'SN (KM) Nước Yến Sanest  Hộp 6 Lon T (km)' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'VS XXTT Boom Boom 23g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Chiết khấu 2%' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Chiết khấu 5%' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'SN Nước Yến Sannest  Hộp 6 Lon T' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'BEL Phô mai CBC 8M' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'CLM (KM) Tương ớt pet 270g (km)' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'VS XXTT Bò 18g T-3.6Kg' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'VS (KM) XXTT Boom Boom 20g-gói 100g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'VS XXTT Boom Boom 20g-gói 100g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'BEL (KM) Pho mai CBC 8M (km)' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Chiết khấu 6,5%' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'CLM Nước mắm chay tt 245ml' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'SN (KM) Nước Yến Sannest Lọ T (km)' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'SN Nước Yến Sannest Lọ T' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'CLM (KM) Nước tương thanh vị 500ml (km)' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'CLM (KM) Xốt ướp thịt nướng 200g (km)' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Chiết khấu hàng bán' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Bánh bao chay 300gr' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Bánh bao nhân thịt 400gr' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Chả giò tôm thịt 500gr/gói' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Bánh bao nhân xá xíu 280g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Chả giò xốp 500gr/gói' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Chả giò xốp chay 500gr' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Cá Saba kho tiêu 185gr' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Cá Saba xốt cà 185gr' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Heo 2 lát 160g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  TenSP: 'Bánh Quy Nhân Kem Hương Vani - Nabati Cookies & Cream - Sandwich Cookies with Vanilla Flavour Cream 16g'[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  TenSP: 'Bánh xốp phủ Sô Cô La - Nabati Richoco Coated Wafer – Chocolate Coated Wafer 14g'[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  TenSP: 'Bánh xốp phủ Socola Dừa - Nabati Coconut Chocolate Wafer 14g'[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  TenSP: "Bánh snack phủ phô mai - Nabati Richeese Ahh' Cheese cream coated snack 9g"[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  TenSP: 'Bánh kem xốp phô mai – Richeese Nabati Cheese Cream Wafer 6g'[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  TenSP: 'Bánh kem xốp phô mai Richeese Nabati Cheese Cream Wafer 110g'[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Bánh Sôcôla (dạng xốp) Richoco Nabati Chocolate Wafer 17g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Bánh kem xốp phô mai Richeese Nabati Cheese Wafer 17g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Bánh Sôcôla (dạng xốp) Richoco Nabati Chocolate Wafer 50g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Bánh sôcôla (dạng xốp) Richoco Nabati Chocolate Wafer 15g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Bánh kem xốp phô mai Richeese Nabati Cheese Wafer 50g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Xốt bún bò gói 90g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Xốt sườn xào chua ngọt 90g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Xốt bò kho gói 90g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Dầu hào chay pet 350g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Dầu hào chay pet 170g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Dầu hào pet 820g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Dầu hào pet 350g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Dầu hào pet 170g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Xốt ướp thịt nướng TT 600g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Xốt ướp thịt nướng TT 200g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Xốt ướp thịt nướng gói 70g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Xốt Rang Me pet  280g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Xốt cá chiên PET 280g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Tương hột pet 250g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Tương Đen Phở 230g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Tương đen 230g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Tương đen phở 520g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Lẩu Thái  280g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Lẩu chua hải sản TT 200g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Gia vị kho cá gói 50g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Gia vị kho thịt gói 50g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Dầu dấm trộn salad pet 270 g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Sate tôm Pet 90g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Sate tôm 450g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Satế tôm hũ nhựa 100 g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Satế chay pet 90 g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Nước tương đậu nành pet 150ml' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Nước tương thanh vị 500ml' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Nước tương Hảo Vị gói 7ml' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Hàng onpack chén' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Nước tương Hảo vị pet 500ml' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Nước tương đậu nành pet 700ml' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Nước tương đậu nành pet 300ml' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Nước mắm chay tt 245ml' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Nước mắm Hương Việt pet 750ml' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Nước mắm Hương Việt pet 500ml' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Nước mắm cao đạm 500ml' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Tương cà gói 10g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Xốt cà chua KetChup TT330g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Tương cà chai pet 830g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Tương cà chai pet 2,1kg' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Tương cà chai pet 270g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Tương xí muội pet 2,1kg' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Tương xí muội pet 270g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Tương chua ngọt pet 270 g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Tương ớt 5kg' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Tương chua ngọt pet 2,1 kg' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Tương ớt nắp xuôi 250g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Tương ớt gói 10g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Tương ớt tự nhiên 330g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Tương ớt Pet 130g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Tương ớt pet 830 g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Tương ớt pet 270g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Tương ớt pet 2,1 kg' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: '( Số tiền phải thu: 335.567.421 )' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Xúc xích heo Tini 35g ( 5 cây/gói)' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: '( Chiết khấu thanh toán: 3.136.144 )' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  TenSP: 'Tổng cộng: ĐH: 167.856 KG 16.0 T, XXTT: 4 443.540 KG 1 758.0 T'[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Pa tê thịt heo 397g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Cá ngừ xốt dầu_hộp 170g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Bò 2 lát 3.B.Mai 150g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'XXTT Boom Boom 23g gói' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'XXTT Dinh dưỡng Golden 3' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'XXTT Boom Boom 18g_Ca nhựa 900g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'XXTT Boom Boom 20g_gói 100g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'XXTT lắc kêu vị bơ tỏi_56g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'XXTT Boom Boom 20g_hũ 1 kg' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'XXTT Dzui Dzui thùng 2.1kg' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'XXTT Dinh dưỡng bò gói 175g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'XXTT Bò 70g (gói)' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'XXTT Dinh dưỡng heo gói 175g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'XXTT Bò 18g gói (T-3.6kg)' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'XXTT Heo 70G (gói)' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Tổng cộng: CBĐL: 4.000 KG 0.3 T' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: '( Số tiền phải thu: 327.883 )' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: '( Chiết khấu thanh toán: 3.064 )' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Cá viên gói 200g ĐL' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: '( Số tiền phải thu: 78.149.982 )' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: '( Chiết khấu thanh toán: 730.374 )' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Tổng cộng: ĐH: 73.440 KG 6.0 T, XXTT: 817.880 KG 320.0 T' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Pa tê gan heo_hộp 170g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Bò 2 lát_hộp 170g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'XXTT lắc kêu vị phô mai_56g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'XXTT Heo 18g gói (T-3.6KG)' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: '( Số tiền phải thu: 5.770.296 )' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: '( Chiết khấu thanh toán: 53.928 )' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Tổng cộng: XXT: 75.000 KG' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'XX Funny gói 500g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'THU LAI TIEN VAY THANG 1' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Cá Ngừ ngâm dầu 185g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Nước mắm cao đạm 750ml (Xuân)' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Nước mắm cao đạm 500m (Xuân)' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Dầu hào 2,25kg' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Dầu hào chay pet 820g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Xốt ướp xá xíu gói 70g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Xốt ướp xá xíu TT 200g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Bột canh nấm bào ngư 180g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Ớt Sate hũ TT 150g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Ớt khô Sate hủ thủy tinh 100g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Nước tương Hương Việt 4,9 Lít' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: '( Số tiền phải thu: 712.363 )' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: '( Chiết khấu thanh toán: 6.658 )' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Tổng cộng: GL: 3.840 KG 1.2 T' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Chả lụa bì ớt xiêm 80g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Chả lụa que 80g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: '( Số tiền phải thu: 3.846.864 )' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: '( Chiết khấu thanh toán: 35.952 )' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Tổng cộng: XXT: 50.000 KG' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: '( Số tiền phải thu: 2.652.565 )' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: '( Chiết khấu thanh toán: 24.790 )' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Tổng cộng: CBĐL: 40.000 KG 2.7 T' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Cá viên 3 ngon 500gr' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Tôm viên Funny_gói 500g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Tôm viên Funny_gói 250g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: '( Số tiền phải thu: 277.119.805 )' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: '( Chiết khấu thanh toán: 2.589.905 )' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  TenSP: 'Tổng cộng: ĐH: 1 080.000 KG 100.0 T, XXTT: 2 540.840 KG 1 025.0 T'[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Heo 2 lát 3.B.Mai 150g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'XXTT trộn đều xốt Tamarind_62g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'XXTT Bò 40g (gói)' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'XXTT Heo 40G (gói)' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: '( Số tiền phải thu: 4.831.949 )' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: '( Chiết khấu thanh toán: 45.158 )' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Tổng cộng: XXT: 60.000 KG' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'XX Happy gói 500g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Xốt gà chiên nước mắm 90g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Nước mắm Cholimex 40 độ đạm 750ml' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Nước mắm Cholimex 40 độ đạm 500ml' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Tương đen 2.1kg' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Xốt lẩu kim chi pet 280g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Bột canh nấm hương 180g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Chả giò rế thập cẩm 500gr' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: '(Hàng khuyến mại không thu tiền)' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  TenSP: 'Bánh xốp phủ Socola Dừa - Nabati Coconut Chocolate Wafer 14g '[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  TenSP: 'Mì Trộn Phô Mai Cay Cấp Độ 0 - Nabati Cheese Fried Noodles Level 0 74g'[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Bánh Quế Nhân Phô Mai – Nabati Richeese Long Stick 105g ' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Bánh kem xốp phô mai Richeese Nabati Cheese Wafer 50g ' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: '( Số tiền phải thu: 2.899.169 )' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: '( Chiết khấu thanh toán: 27.095 )' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Tổng cộng: CBĐL: 34.000 KG 2.5 T' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Chả giò da xốp gói 400g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Chả giò tôm cua gói 500g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Chả giò chay gói 500g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Chả giò rế thịt gói 500g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Chả giò rế tôm cua gói 500g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: '( Số tiền phải thu: 362.703.672 )' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: '( Chiết khấu thanh toán: 3.389.754 )' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  TenSP: 'Tổng cộng: LX: 30.000 KG 3.0 T, ĐH: 842.400 KG 78.0 T, XXTT: 3 344.700 KG 1 246.0 T'[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Bò hầm_hộp 150g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Lạp xưởng MQL gói 200g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'XXTT Boom Boom 35g (5+1)_gói 210g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'XXTT Boom Boom 23g (hũ 1,15kg)' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  TenSP: 'XUẤT HÀNG KHUYẾN MÃI ĐỒ HỘP THÁNG 09/2023 KV TÂY NGUYÊN KHÔNG THU TIỀN'[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Tổng cộng: ĐH: 24.480 KG 2.0 T' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Cá xốt cà 170g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: '( Số tiền phải thu: 7.693.728 )' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: '( Chiết khấu thanh toán: 71.904 )' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Tổng cộng: XXT: 100.000 KG' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: '( Số tiền phải thu: 175.444.168 )' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: '( Chiết khấu thanh toán: 1.639.665 )' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Tổng cộng: LX: 50.000 KG 5.0 T, XXTT: 2 378.500 KG 937.0 T' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: '( Số tiền phải thu: 1.103.213 )' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Tổng cộng: CBĐL: 15.000 KG' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Bò viên 3 ngon_gói 500g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: '( Chiết khấu thanh toán: 10.310 )' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: '( Số tiền phải thu: 293.124.185 )' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: '( Chiết khấu thanh toán: 2.739.478 )' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  TenSP: 'Tổng cộng: ĐH: 541.440 KG 50.0 T, XXTT: 2 487.960 KG 1 055.0 T'[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Sườn nấu đậu_hộp 170g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Bánh kem xốp phô mai Richeese Nabati Cheese Wafer 15g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  TenSP: 'Bánh sôcôla(Dạng xốp) Richoco Nabati Chocolate Cream Wafer 110g'[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Cá ngừ xốt cay 185g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Thanh toán trả thưởng TB xe bánh mì tháng 08/2023' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Xốt mì Ý bò bằm 140g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Tương đen phở 2.1kg' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  TenSP: 'Bánh kem xốp phô mai Richeese Nabati Cheese Wafer 50g  (Hàng khuyến mại không thu tiền)'[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  TenSP: 'Bánh kem xốp phô mai-Richeese Nabati Cheese Cream Wafer 330g'[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 97.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (19b46ab4208afc7b)
+[1m[31m{ TenSP: 'PM vuông Belcube ngọt vị Dâu 78G x 15C' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'PM vuông Belcube ngọt vị Socola 78Gx15C' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'PM vuông Belcube vị sữa 15C 78Gx15' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'PM Con Bò Cười VEG6 24M 336Gx24 VN' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'PHÔ MAI CBC 16M 224GX32 TOTEM 3.0 VN' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'PHÔ MAI CBC 8M 112GX36 TOTEM 3.0 VN' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Xốt mì Ý cà chua 140g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Xốt lẩu nấm pet 270g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'Xốt Lẩu Thái pet 890g' }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ TenSP: 'PM vuông Belcube HƯƠNG VANI 15Cx78G VN' }[39m[22m
+[1m[31m[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/87269f65-d5d5-4ff3-bb7e-3ac80efc2db7[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/87269f65-d5d5-4ff3-bb7e-3ac80efc2db7[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 97.6 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (19b46ab4208afc7b)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 97.6 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (19b46ab4208afc7b)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 97.6 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (19b46ab4208afc7b)
+[1m[31mDebugger listening on ws://localhost:9229/d73acaf9-2541-43d3-8297-75077415f14d[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/d73acaf9-2541-43d3-8297-75077415f14d[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 97.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.service.ts:[32m[1m30:23[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'TenSP'.
+  [0m [90m 28 |[39m   [36masync[39m findTenSP(data[33m:[39m string) {[0m
+  [0m [90m 29 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mSanphamRepository[39m[33m.[39mfindOne({[0m
+  [0m[31m[1m>[22m[39m[90m 30 |[39m       where[33m:[39m { [33mTenSP[39m[33m:[39m [33mTenSP[39m }[33m,[39m[0m
+  [0m [90m    |[39m                       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 31 |[39m[0m
+  [0m [90m 32 |[39m     })[33m;[39m[0m
+  [0m [90m 33 |[39m   }[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (27b01ba5e4406cfa)
+[1m[31mDebugger listening on ws://localhost:9229/7cb0cfca-ccd1-4b1d-ab0a-2258bc3d08e5[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/7cb0cfca-ccd1-4b1d-ab0a-2258bc3d08e5[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 97.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.service.ts:[32m[1m30:28[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'TenSP' does not exist on type 'string'.
+  [0m [90m 28 |[39m   [36masync[39m findTenSP(data[33m:[39m string) {[0m
+  [0m [90m 29 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mSanphamRepository[39m[33m.[39mfindOne({[0m
+  [0m[31m[1m>[22m[39m[90m 30 |[39m       where[33m:[39m { [33mTenSP[39m[33m:[39m data[33m.[39m[33mTenSP[39m }[33m,[39m[0m
+  [0m [90m    |[39m                            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 31 |[39m[0m
+  [0m [90m 32 |[39m     })[33m;[39m[0m
+  [0m [90m 33 |[39m   }[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (756c80c8864a062e)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 97.6 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.service.ts:[32m[1m30:28[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'TenSP' does not exist on type 'string'.
+  [0m [90m 28 |[39m   [36masync[39m findTenSP(data[33m:[39m string) {[0m
+  [0m [90m 29 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mSanphamRepository[39m[33m.[39mfindOne({[0m
+  [0m[31m[1m>[22m[39m[90m 30 |[39m       where[33m:[39m { [33mTenSP[39m[33m:[39m data[33m.[39m[33mTenSP[39m }[33m,[39m[0m
+  [0m [90m    |[39m                            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 31 |[39m[0m
+  [0m [90m 32 |[39m     })[33m;[39m[0m
+  [0m [90m 33 |[39m   }[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (756c80c8864a062e)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 97.6 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.service.ts:[32m[1m30:28[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'TenSP' does not exist on type 'string'.
+  [0m [90m 28 |[39m   [36masync[39m findTenSP(data[33m:[39m string) {[0m
+  [0m [90m 29 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mSanphamRepository[39m[33m.[39mfindOne({[0m
+  [0m[31m[1m>[22m[39m[90m 30 |[39m       where[33m:[39m { [33mTenSP[39m[33m:[39m data[33m.[39m[33mTenSP[39m }[33m,[39m[0m
+  [0m [90m    |[39m                            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 31 |[39m[0m
+  [0m [90m 32 |[39m     })[33m;[39m[0m
+  [0m [90m 33 |[39m   }[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (756c80c8864a062e)
+[1m[31mDebugger listening on ws://localhost:9229/212c3cac-3595-4207-a8d5-5fc89a424b3c[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/212c3cac-3595-4207-a8d5-5fc89a424b3c[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 97.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (60c3de9eb0cd242a)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 97.6 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (60c3de9eb0cd242a)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 97.6 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (60c3de9eb0cd242a)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 97.6 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (60c3de9eb0cd242a)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 97.6 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (60c3de9eb0cd242a)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m

@@ -1,0 +1,1719 @@
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts[39m[22m
+[1m./src/app/hoadonhhp/hoadonhhp.service.ts[39m[22m [1m[32m21:20-21[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts(21,21)[39m[22m
+[1m[31m      TS1109: Expression expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/hoadonhhp/hoadonhhp.service.ts[39m[22m [1m[32m21:29[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: [1m[31mUnexpected[39m[22m[1m token (21:29)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|         }
+|         else {
+>             return { [1m[31merror[39m[22m[1m:  };
+|         }
+|     }[39m[22m
+
+webpack compiled with [1m[31m2 errors[39m[22m (87a0c48843ecf04c)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (6b5804d81096f12c)
+[1m[31mDebugger listening on ws://localhost:9229/f83ca4b8-2da1-46f7-b6a9-c178139574c7[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/f83ca4b8-2da1-46f7-b6a9-c178139574c7[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts[39m[22m
+[1m./src/app/hoadonhhp/hoadonhhp.service.ts[39m[22m [1m[32m21:30-31[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts(21,31)[39m[22m
+[1m[31m      TS1109: Expression expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/hoadonhhp/hoadonhhp.service.ts[39m[22m [1m[32m21:41[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: [1m[31mUnexpected[39m[22m[1m token (21:41)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|         }
+|         else {
+>             return { [1m[31merror[39m[22m[1m: 1001, data:  };
+|         }
+|     }[39m[22m
+
+webpack compiled with [1m[31m2 errors[39m[22m (7dc30a56996b2692)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (e2c89d0cbb647a0c)
+[1m[31mDebugger listening on ws://localhost:9229/2b62c846-c057-427f-92d9-561d0acd2601[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/2b62c846-c057-427f-92d9-561d0acd2601[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (e2c89d0cbb647a0c)
+[1m[31mDebugger listening on ws://localhost:9229/e98d231e-28a0-409b-a306-db03ad808ccc[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/e98d231e-28a0-409b-a306-db03ad808ccc[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (eb57ee93841c93ee)
+[1m[31mDebugger listening on ws://localhost:9229/7f268d4c-52b2-44b5-a403-81ef838aefc6[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/7f268d4c-52b2-44b5-a403-81ef838aefc6[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31m{}[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (2cddc54a8026bf1e)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (2cddc54a8026bf1e)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (2cddc54a8026bf1e)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (2cddc54a8026bf1e)
+[1m[31mDebugger listening on ws://localhost:9229/0c2a49ed-aa31-49a3-b5d7-7617462aa551[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/0c2a49ed-aa31-49a3-b5d7-7617462aa551[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/entities/hoadonhhp.entity.ts:[32m[1m18:3[22m[39m[1m[39m[22m
+[90mTS2300: [39mDuplicate identifier 'Thang'.
+  [0m [90m 16 |[39m   [33mThang[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 17 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m[31m[1m>[22m[39m[90m 18 |[39m   [33mThang[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 19 |[39m   [33m@[39m[33mColumn[39m({ [36mdefault[39m[33m:[39m [35m0[39m })[0m
+  [0m [90m 20 |[39m   [33mOrdering[39m[33m:[39m number[33m;[39m[0m
+  [0m [90m 21 |[39m   [33m@[39m[33mColumn[39m({ [36mdefault[39m[33m:[39m [35m0[39m })[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (fcff717c38eec460)
+[1m[31mDebugger listening on ws://localhost:9229/38fa6636-9813-4a28-be31-c27711774fbd[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/38fa6636-9813-4a28-be31-c27711774fbd[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (595267ad10853bf3)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (595267ad10853bf3)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (595267ad10853bf3)
+[1m[31mDebugger listening on ws://localhost:9229/28d6ee1c-3b0f-4150-a0d3-3268960afffc[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/28d6ee1c-3b0f-4150-a0d3-3268960afffc[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31m{}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{}[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (595267ad10853bf3)
+[1m[31mDebugger listening on ws://localhost:9229/ea53823e-3b16-4bfa-8f5d-1acb6022a792[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/ea53823e-3b16-4bfa-8f5d-1acb6022a792[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31m{}[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (dcfc47e490b39346)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m68:5[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'log'.
+  [0m [90m 66 |[39m     [33m.[39moffset(params[33m.[39mpageNumber [33m*[39m params[33m.[39mpageSize [33m||[39m [35m0[39m)[0m
+  [0m [90m 67 |[39m     [33m.[39mgetManyAndCount()[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 68 |[39m     log[0m
+  [0m [90m    |[39m     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 69 |[39m   [36mreturn[39m { items[33m,[39m totalCount }[33m;[39m[0m
+  [0m [90m 70 |[39m   }[0m
+  [0m [90m 71 |[39m   [36masync[39m update(id[33m:[39m string[33m,[39m [33mUpdateHoadonhhpDto[39m[33m:[39m [33mUpdateHoadonhhpDto[39m) {[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (29cb86800d78ba65)
+[1m[31mDebugger listening on ws://localhost:9229/2105cb63-3b89-485d-8df8-dd998323373e[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/2105cb63-3b89-485d-8df8-dd998323373e[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (0a287b8fad47c6e8)
+[1m[31mDebugger listening on ws://localhost:9229/c9b75681-5457-459b-8e0a-205ea8f8cfe4[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/c9b75681-5457-459b-8e0a-205ea8f8cfe4[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (2223ff0388a10b14)
+[1m[31mDebugger listening on ws://localhost:9229/d25dd610-f323-491d-875a-b80e869256ab[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/d25dd610-f323-491d-875a-b80e869256ab[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (bfe57d3477c9d537)
+[1m[31mDebugger listening on ws://localhost:9229/ccf0b712-16f8-4752-b90a-1580e2473225[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/ccf0b712-16f8-4752-b90a-1580e2473225[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (743e070922bf65a9)
+[1m[31mDebugger listening on ws://localhost:9229/cee1c192-7cad-439f-a5a7-eccb2a72eaf8[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/cee1c192-7cad-439f-a5a7-eccb2a72eaf8[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31m{}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{}[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (fc46c19493bd56f4)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (fc46c19493bd56f4)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (fc46c19493bd56f4)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (fc46c19493bd56f4)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (fc46c19493bd56f4)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (fc46c19493bd56f4)
+[1m[31mDebugger listening on ws://localhost:9229/f6714cd7-9200-4b6f-9dad-a1cba2f877e1[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/f6714cd7-9200-4b6f-9dad-a1cba2f877e1[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31m{}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{}[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (c79550aeda9baed9)
+[1m[31mDebugger listening on ws://localhost:9229/bcbc93b4-a00d-4123-8890-6192121a15f0[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/bcbc93b4-a00d-4123-8890-6192121a15f0[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (d704e08736447378)
+[1m[31mDebugger listening on ws://localhost:9229/3cebcacc-abac-4e6d-ae83-e2c87ebdbe96[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/3cebcacc-abac-4e6d-ae83-e2c87ebdbe96[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (9d7b3d0e0edf9094)
+[1m[31mDebugger listening on ws://localhost:9229/27a69a0e-a13d-4a0b-8693-645772e2376d[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/27a69a0e-a13d-4a0b-8693-645772e2376d[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (8f5b16fc05c8aa2d)
+[1m[31mDebugger listening on ws://localhost:9229/d9de5507-d0e4-4c11-a621-cd597aa62b54[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/d9de5507-d0e4-4c11-a621-cd597aa62b54[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (517bd4ac18d6b4f9)
+[1m[31mDebugger listening on ws://localhost:9229/43b245f5-3ad2-412d-b8e2-c729410d09a3[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/43b245f5-3ad2-412d-b8e2-c729410d09a3[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 111 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (6b27cc03aad3ad3e)
+[1m[31mDebugger listening on ws://localhost:9229/19055449-b000-41b3-9c01-bddb63229f5d[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/19055449-b000-41b3-9c01-bddb63229f5d[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 111 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (c55350cab83d2a96)
+[1m[31mDebugger listening on ws://localhost:9229/58069887-25b5-4cbc-a2f4-867909bd1979[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/58069887-25b5-4cbc-a2f4-867909bd1979[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 111 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m35:16[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'SHD'.
+  [0m [90m 33 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mfindOne({[0m
+  [0m [90m 34 |[39m       where[33m:[39m [[0m
+  [0m[31m[1m>[22m[39m[90m 35 |[39m         { [33mSHD[39m[33m:[39m [33mSHD[39m }[33m,[39m[0m
+  [0m [90m    |[39m                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 36 |[39m         { [33mType[39m[33m:[39m [33mSHD[39m }[33m,[39m[0m
+  [0m [90m 37 |[39m       ][0m
+  [0m [90m 38 |[39m     })[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m36:17[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'SHD'.
+  [0m [90m 34 |[39m       where[33m:[39m [[0m
+  [0m [90m 35 |[39m         { [33mSHD[39m[33m:[39m [33mSHD[39m }[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 36 |[39m         { [33mType[39m[33m:[39m [33mSHD[39m }[33m,[39m[0m
+  [0m [90m    |[39m                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 37 |[39m       ][0m
+  [0m [90m 38 |[39m     })[33m;[39m[0m
+  [0m [90m 39 |[39m   }[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (6a1f3fbdda82d0f0)
+[1m[31mDebugger listening on ws://localhost:9229/2d3a9b03-840b-4b63-9b7e-d1e607222673[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/2d3a9b03-840b-4b63-9b7e-d1e607222673[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 111 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m35:21[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'SHD' does not exist on type 'string'.
+  [0m [90m 33 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mfindOne({[0m
+  [0m [90m 34 |[39m       where[33m:[39m [[0m
+  [0m[31m[1m>[22m[39m[90m 35 |[39m         { [33mSHD[39m[33m:[39m data[33m.[39m[33mSHD[39m }[33m,[39m[0m
+  [0m [90m    |[39m                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 36 |[39m         { [33mType[39m[33m:[39m dataSHD }[33m,[39m[0m
+  [0m [90m 37 |[39m       ][0m
+  [0m [90m 38 |[39m     })[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m36:17[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'dataSHD'.
+  [0m [90m 34 |[39m       where[33m:[39m [[0m
+  [0m [90m 35 |[39m         { [33mSHD[39m[33m:[39m data[33m.[39m[33mSHD[39m }[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 36 |[39m         { [33mType[39m[33m:[39m dataSHD }[33m,[39m[0m
+  [0m [90m    |[39m                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 37 |[39m       ][0m
+  [0m [90m 38 |[39m     })[33m;[39m[0m
+  [0m [90m 39 |[39m   }[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (6acc9a15b4b8edb7)
+[1m[31mDebugger listening on ws://localhost:9229/79ec5bb9-6b36-414b-ae7b-fe3ecc5d6c78[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/79ec5bb9-6b36-414b-ae7b-fe3ecc5d6c78[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 111 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m35:21[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'SHD' does not exist on type 'string'.
+  [0m [90m 33 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mfindOne({[0m
+  [0m [90m 34 |[39m       where[33m:[39m [[0m
+  [0m[31m[1m>[22m[39m[90m 35 |[39m         { [33mSHD[39m[33m:[39m data[33m.[39m[33mSHD[39m }[33m,[39m[0m
+  [0m [90m    |[39m                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 36 |[39m         { [33mType[39m[33m:[39m data[33m.[39m[33mSHD[39m }[33m,[39m[0m
+  [0m [90m 37 |[39m       ][0m
+  [0m [90m 38 |[39m     })[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m36:22[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'SHD' does not exist on type 'string'.
+  [0m [90m 34 |[39m       where[33m:[39m [[0m
+  [0m [90m 35 |[39m         { [33mSHD[39m[33m:[39m data[33m.[39m[33mSHD[39m }[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 36 |[39m         { [33mType[39m[33m:[39m data[33m.[39m[33mSHD[39m }[33m,[39m[0m
+  [0m [90m    |[39m                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 37 |[39m       ][0m
+  [0m [90m 38 |[39m     })[33m;[39m[0m
+  [0m [90m 39 |[39m   }[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (666c056376517162)
+[1m[31mDebugger listening on ws://localhost:9229/e31d7376-51a7-435f-a0e4-46d9233bf90e[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/e31d7376-51a7-435f-a0e4-46d9233bf90e[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 111 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m35:21[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'SHD' does not exist on type 'string'.
+  [0m [90m 33 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mfindOne({[0m
+  [0m [90m 34 |[39m       where[33m:[39m [[0m
+  [0m[31m[1m>[22m[39m[90m 35 |[39m         { [33mSHD[39m[33m:[39m data[33m.[39m[33mSHD[39m }[33m,[39m[0m
+  [0m [90m    |[39m                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 36 |[39m         { [33mType[39m[33m:[39m data[33m.[39m[33mType[39m }[33m,[39m[0m
+  [0m [90m 37 |[39m       ][0m
+  [0m [90m 38 |[39m     })[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m36:22[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'Type' does not exist on type 'string'.
+  [0m [90m 34 |[39m       where[33m:[39m [[0m
+  [0m [90m 35 |[39m         { [33mSHD[39m[33m:[39m data[33m.[39m[33mSHD[39m }[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 36 |[39m         { [33mType[39m[33m:[39m data[33m.[39m[33mType[39m }[33m,[39m[0m
+  [0m [90m    |[39m                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 37 |[39m       ][0m
+  [0m [90m 38 |[39m     })[33m;[39m[0m
+  [0m [90m 39 |[39m   }[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (ebf90cb13c26b7f1)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 111 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m35:21[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'SHD' does not exist on type 'string'.
+  [0m [90m 33 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mfindOne({[0m
+  [0m [90m 34 |[39m       where[33m:[39m [[0m
+  [0m[31m[1m>[22m[39m[90m 35 |[39m         { [33mSHD[39m[33m:[39m data[33m.[39m[33mSHD[39m }[33m,[39m[0m
+  [0m [90m    |[39m                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 36 |[39m         { [33mType[39m[33m:[39m data[33m.[39m[33mType[39m }[33m,[39m[0m
+  [0m [90m 37 |[39m       ][0m
+  [0m [90m 38 |[39m     })[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m36:22[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'Type' does not exist on type 'string'.
+  [0m [90m 34 |[39m       where[33m:[39m [[0m
+  [0m [90m 35 |[39m         { [33mSHD[39m[33m:[39m data[33m.[39m[33mSHD[39m }[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 36 |[39m         { [33mType[39m[33m:[39m data[33m.[39m[33mType[39m }[33m,[39m[0m
+  [0m [90m    |[39m                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 37 |[39m       ][0m
+  [0m [90m 38 |[39m     })[33m;[39m[0m
+  [0m [90m 39 |[39m   }[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (ebf90cb13c26b7f1)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 111 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m35:21[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'SHD' does not exist on type 'string'.
+  [0m [90m 33 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mfindOne({[0m
+  [0m [90m 34 |[39m       where[33m:[39m [[0m
+  [0m[31m[1m>[22m[39m[90m 35 |[39m         { [33mSHD[39m[33m:[39m data[33m.[39m[33mSHD[39m }[33m,[39m[0m
+  [0m [90m    |[39m                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 36 |[39m         { [33mType[39m[33m:[39m data[33m.[39m[33mType[39m }[33m,[39m[0m
+  [0m [90m 37 |[39m       ][0m
+  [0m [90m 38 |[39m     })[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m36:22[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'Type' does not exist on type 'string'.
+  [0m [90m 34 |[39m       where[33m:[39m [[0m
+  [0m [90m 35 |[39m         { [33mSHD[39m[33m:[39m data[33m.[39m[33mSHD[39m }[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 36 |[39m         { [33mType[39m[33m:[39m data[33m.[39m[33mType[39m }[33m,[39m[0m
+  [0m [90m    |[39m                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 37 |[39m       ][0m
+  [0m [90m 38 |[39m     })[33m;[39m[0m
+  [0m [90m 39 |[39m   }[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (ebf90cb13c26b7f1)
+[1m[31mDebugger listening on ws://localhost:9229/93485208-abbb-4318-a480-e37f8aef004f[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/93485208-abbb-4318-a480-e37f8aef004f[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 111 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (26403c4bb69e5fd0)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 111 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (26403c4bb69e5fd0)
+[1m[31mDebugger listening on ws://localhost:9229/90fae619-bd55-449b-863d-bb29b39b6a22[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/90fae619-bd55-449b-863d-bb29b39b6a22[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/8a8b8cd8-5836-47d5-be1b-1d11a83aa6b6[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/8a8b8cd8-5836-47d5-be1b-1d11a83aa6b6[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 111 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts[39m[22m
+[1m./src/app/hoadonhhp/hoadonhhp.service.ts[39m[22m [1m[32m38:6-7[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts(38,7)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts[39m[22m
+[1m./src/app/hoadonhhp/hoadonhhp.service.ts[39m[22m [1m[32m42:4-5[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts(42,5)[39m[22m
+[1m[31m      TS1135: Argument expression expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts[39m[22m
+[1m./src/app/hoadonhhp/hoadonhhp.service.ts[39m[22m [1m[32m42:5-6[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts(42,6)[39m[22m
+[1m[31m      TS1068: Unexpected token. A constructor, method, accessor, or property was expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts[39m[22m
+[1m./src/app/hoadonhhp/hoadonhhp.service.ts[39m[22m [1m[32m44:2-7[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts(44,3)[39m[22m
+[1m[31m      TS1434: Unexpected keyword or identifier.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts[39m[22m
+[1m./src/app/hoadonhhp/hoadonhhp.service.ts[39m[22m [1m[32m44:20-21[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts(44,21)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts[39m[22m
+[1m./src/app/hoadonhhp/hoadonhhp.service.ts[39m[22m [1m[32m44:27-28[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts(44,28)[39m[22m
+[1m[31m      TS1005: ';' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts[39m[22m
+[1m./src/app/hoadonhhp/hoadonhhp.service.ts[39m[22m [1m[32m49:2-7[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts(49,3)[39m[22m
+[1m[31m      TS1434: Unexpected keyword or identifier.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts[39m[22m
+[1m./src/app/hoadonhhp/hoadonhhp.service.ts[39m[22m [1m[32m49:27-28[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts(49,28)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts[39m[22m
+[1m./src/app/hoadonhhp/hoadonhhp.service.ts[39m[22m [1m[32m49:44-45[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts(49,45)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts[39m[22m
+[1m./src/app/hoadonhhp/hoadonhhp.service.ts[39m[22m [1m[32m49:53-54[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts(49,54)[39m[22m
+[1m[31m      TS1005: ';' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/hoadonhhp/hoadonhhp.service.ts[39m[22m [1m[32m53:4[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: 'return' outside of function (53:4)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+| findslug(SHD, any);
+| {
+>     return await this.HoadonhhpRepository.findOne({
+|         where: { SHD: SHD },
+|     });[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts[39m[22m
+[1m./src/app/hoadonhhp/hoadonhhp.service.ts[39m[22m [1m[32m61:2-7[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts(61,3)[39m[22m
+[1m[31m      TS1434: Unexpected keyword or identifier.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts[39m[22m
+[1m./src/app/hoadonhhp/hoadonhhp.service.ts[39m[22m [1m[32m61:24-25[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts(61,25)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts[39m[22m
+[1m./src/app/hoadonhhp/hoadonhhp.service.ts[39m[22m [1m[32m61:31-32[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts(61,32)[39m[22m
+[1m[31m      TS1005: ';' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts[39m[22m
+[1m./src/app/hoadonhhp/hoadonhhp.service.ts[39m[22m [1m[32m81:2-7[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts(81,3)[39m[22m
+[1m[31m      TS1434: Unexpected keyword or identifier.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts[39m[22m
+[1m./src/app/hoadonhhp/hoadonhhp.service.ts[39m[22m [1m[32m81:17-18[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts(81,18)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts[39m[22m
+[1m./src/app/hoadonhhp/hoadonhhp.service.ts[39m[22m [1m[32m81:45-46[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts(81,46)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts[39m[22m
+[1m./src/app/hoadonhhp/hoadonhhp.service.ts[39m[22m [1m[32m81:67-68[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts(81,68)[39m[22m
+[1m[31m      TS1005: ';' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts[39m[22m
+[1m./src/app/hoadonhhp/hoadonhhp.service.ts[39m[22m [1m[32m85:2-7[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts(85,3)[39m[22m
+[1m[31m      TS1434: Unexpected keyword or identifier.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts[39m[22m
+[1m./src/app/hoadonhhp/hoadonhhp.service.ts[39m[22m [1m[32m85:17-18[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts(85,18)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts[39m[22m
+[1m./src/app/hoadonhhp/hoadonhhp.service.ts[39m[22m [1m[32m85:27-28[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts(85,28)[39m[22m
+[1m[31m      TS1005: ';' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts[39m[22m
+[1m./src/app/hoadonhhp/hoadonhhp.service.ts[39m[22m [1m[32m90:0-1[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts(90,1)[39m[22m
+[1m[31m      TS1128: Declaration or statement expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.controller.ts:[32m[1m23:40[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findslug' does not exist on type 'HoadonhhpService'.
+  [0m [90m 21 |[39m   [33m@[39m[33mGet[39m([32m'findslug/:slug'[39m)[0m
+  [0m [90m 22 |[39m   [36masync[39m findslug([33m@[39m[33mParam[39m([32m'slug'[39m) slug[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 23 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39mhoadonhhpService[33m.[39mfindslug(slug)[33m;[39m[0m
+  [0m [90m    |[39m                                        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 24 |[39m   }[0m
+  [0m [90m 25 |[39m   [33m@[39m[33mGet[39m([32m'pagination'[39m)[0m
+  [0m [90m 26 |[39m   [36masync[39m findPagination([33m@[39m[33mQuery[39m([32m'page'[39m) page[33m:[39m number[33m,[39m[33m@[39m[33mQuery[39m([32m'perPage'[39m) perPage[33m:[39m number){[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.controller.ts:[32m[1m27:43[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findPagination' does not exist on type 'HoadonhhpService'.
+  [0m [90m 25 |[39m   [33m@[39m[33mGet[39m([32m'pagination'[39m)[0m
+  [0m [90m 26 |[39m   [36masync[39m findPagination([33m@[39m[33mQuery[39m([32m'page'[39m) page[33m:[39m number[33m,[39m[33m@[39m[33mQuery[39m([32m'perPage'[39m) perPage[33m:[39m number){[0m
+  [0m[31m[1m>[22m[39m[90m 27 |[39m        [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39mhoadonhhpService[33m.[39mfindPagination(page[33m,[39mperPage)[33m;[39m[0m
+  [0m [90m    |[39m                                           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 28 |[39m     }[0m
+  [0m [90m 29 |[39m   [33m@[39m[33mPost[39m([32m'search'[39m)[0m
+  [0m [90m 30 |[39m     [36masync[39m findQuery([33m@[39m[33mBody[39m() [33mSearchParams[39m[33m:[39m any){[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.controller.ts:[32m[1m31:42[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findQuery' does not exist on type 'HoadonhhpService'.
+  [0m [90m 29 |[39m   [33m@[39m[33mPost[39m([32m'search'[39m)[0m
+  [0m [90m 30 |[39m     [36masync[39m findQuery([33m@[39m[33mBody[39m() [33mSearchParams[39m[33m:[39m any){[0m
+  [0m[31m[1m>[22m[39m[90m 31 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39mhoadonhhpService[33m.[39mfindQuery([33mSearchParams[39m)[33m;[39m[0m
+  [0m [90m    |[39m                                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 32 |[39m   }[0m
+  [0m [90m 33 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+  [0m [90m 34 |[39m   update([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string[33m,[39m [33m@[39m[33mBody[39m() updateHoadonhhpDto[33m:[39m [33mUpdateHoadonhhpDto[39m) {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.controller.ts:[32m[1m35:34[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'update' does not exist on type 'HoadonhhpService'.
+  [0m [90m 33 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+  [0m [90m 34 |[39m   update([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string[33m,[39m [33m@[39m[33mBody[39m() updateHoadonhhpDto[33m:[39m [33mUpdateHoadonhhpDto[39m) {[0m
+  [0m[31m[1m>[22m[39m[90m 35 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mhoadonhhpService[33m.[39mupdate(id[33m,[39m updateHoadonhhpDto)[33m;[39m[0m
+  [0m [90m    |[39m                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 36 |[39m   }[0m
+  [0m [90m 37 |[39m[0m
+  [0m [90m 38 |[39m   [33m@[39m[33mDelete[39m([32m':id'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.controller.ts:[32m[1m40:34[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'remove' does not exist on type 'HoadonhhpService'.
+  [0m [90m 38 |[39m   [33m@[39m[33mDelete[39m([32m':id'[39m)[0m
+  [0m [90m 39 |[39m   remove([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 40 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mhoadonhhpService[33m.[39mremove(id)[33m;[39m[0m
+  [0m [90m    |[39m                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 41 |[39m   }[0m
+  [0m [90m 42 |[39m }[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m38:7[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 1 arguments, but got 2.
+  [0m [90m 36 |[39m         { [33mType[39m[33m:[39m data[33m.[39m[33mType[39m }[33m,[39m[0m
+  [0m [90m 37 |[39m       ][0m
+  [0m[31m[1m>[22m[39m[90m 38 |[39m       {[0m
+  [0m [90m    |[39m       [31m[1m^[22m[39m[0m
+  [0m[31m[1m>[22m[39m[90m 39 |[39m         field1[33m:[39m value1[33m,[39m[0m
+  [0m [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m[31m[1m>[22m[39m[90m 40 |[39m         field2[33m:[39m value2[33m,[39m[0m
+  [0m [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m[31m[1m>[22m[39m[90m 41 |[39m       }[33m,[39m[0m
+  [0m [90m    |[39m [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 42 |[39m     })[33m;[39m[0m
+  [0m [90m 43 |[39m   }[0m
+  [0m [90m 44 |[39m   [36masync[39m findslug([33mSHD[39m[33m:[39m any) {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m39:17[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'value1'.
+  [0m [90m 37 |[39m       ][0m
+  [0m [90m 38 |[39m       {[0m
+  [0m[31m[1m>[22m[39m[90m 39 |[39m         field1[33m:[39m value1[33m,[39m[0m
+  [0m [90m    |[39m                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 40 |[39m         field2[33m:[39m value2[33m,[39m[0m
+  [0m [90m 41 |[39m       }[33m,[39m[0m
+  [0m [90m 42 |[39m     })[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m40:17[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'value2'.
+  [0m [90m 38 |[39m       {[0m
+  [0m [90m 39 |[39m         field1[33m:[39m value1[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 40 |[39m         field2[33m:[39m value2[33m,[39m[0m
+  [0m [90m    |[39m                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 41 |[39m       }[33m,[39m[0m
+  [0m [90m 42 |[39m     })[33m;[39m[0m
+  [0m [90m 43 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m44:3[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'async'.
+  [0m [90m 42 |[39m     })[33m;[39m[0m
+  [0m [90m 43 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 44 |[39m   [36masync[39m findslug([33mSHD[39m[33m:[39m any) {[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 45 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mfindOne({[0m
+  [0m [90m 46 |[39m       where[33m:[39m { [33mSHD[39m[33m:[39m [33mSHD[39m}[33m,[39m[0m
+  [0m [90m 47 |[39m     })[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m44:9[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'findslug'.
+  [0m [90m 42 |[39m     })[33m;[39m[0m
+  [0m [90m 43 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 44 |[39m   [36masync[39m findslug([33mSHD[39m[33m:[39m any) {[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 45 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mfindOne({[0m
+  [0m [90m 46 |[39m       where[33m:[39m { [33mSHD[39m[33m:[39m [33mSHD[39m}[33m,[39m[0m
+  [0m [90m 47 |[39m     })[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m44:18[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'SHD'.
+  [0m [90m 42 |[39m     })[33m;[39m[0m
+  [0m [90m 43 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 44 |[39m   [36masync[39m findslug([33mSHD[39m[33m:[39m any) {[0m
+  [0m [90m    |[39m                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 45 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mfindOne({[0m
+  [0m [90m 46 |[39m       where[33m:[39m { [33mSHD[39m[33m:[39m [33mSHD[39m}[33m,[39m[0m
+  [0m [90m 47 |[39m     })[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m44:23[22m[39m[1m[39m[22m
+[90mTS2693: [39m'any' only refers to a type, but is being used as a value here.
+  [0m [90m 42 |[39m     })[33m;[39m[0m
+  [0m [90m 43 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 44 |[39m   [36masync[39m findslug([33mSHD[39m[33m:[39m any) {[0m
+  [0m [90m    |[39m                       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 45 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mfindOne({[0m
+  [0m [90m 46 |[39m       where[33m:[39m { [33mSHD[39m[33m:[39m [33mSHD[39m}[33m,[39m[0m
+  [0m [90m 47 |[39m     })[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m49:3[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'async'.
+  [0m [90m 47 |[39m     })[33m;[39m[0m
+  [0m [90m 48 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 49 |[39m   [36masync[39m findPagination(page[33m:[39m number[33m,[39m perPage[33m:[39m number){[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 50 |[39m     [36mconst[39m skip [33m=[39m (page [33m-[39m [35m1[39m) [33m*[39m perPage[33m;[39m[0m
+  [0m [90m 51 |[39m     [36mconst[39m totalItems [33m=[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mcount()[33m;[39m[0m
+  [0m [90m 52 |[39m     [36mconst[39m hoadonhhps [33m=[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mfind({ skip[33m,[39m take[33m:[39m perPage })[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m49:9[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'findPagination'.
+  [0m [90m 47 |[39m     })[33m;[39m[0m
+  [0m [90m 48 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 49 |[39m   [36masync[39m findPagination(page[33m:[39m number[33m,[39m perPage[33m:[39m number){[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 50 |[39m     [36mconst[39m skip [33m=[39m (page [33m-[39m [35m1[39m) [33m*[39m perPage[33m;[39m[0m
+  [0m [90m 51 |[39m     [36mconst[39m totalItems [33m=[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mcount()[33m;[39m[0m
+  [0m [90m 52 |[39m     [36mconst[39m hoadonhhps [33m=[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mfind({ skip[33m,[39m take[33m:[39m perPage })[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m49:24[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'page'.
+  [0m [90m 47 |[39m     })[33m;[39m[0m
+  [0m [90m 48 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 49 |[39m   [36masync[39m findPagination(page[33m:[39m number[33m,[39m perPage[33m:[39m number){[0m
+  [0m [90m    |[39m                        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 50 |[39m     [36mconst[39m skip [33m=[39m (page [33m-[39m [35m1[39m) [33m*[39m perPage[33m;[39m[0m
+  [0m [90m 51 |[39m     [36mconst[39m totalItems [33m=[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mcount()[33m;[39m[0m
+  [0m [90m 52 |[39m     [36mconst[39m hoadonhhps [33m=[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mfind({ skip[33m,[39m take[33m:[39m perPage })[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m49:30[22m[39m[1m[39m[22m
+[90mTS2693: [39m'number' only refers to a type, but is being used as a value here.
+  [0m [90m 47 |[39m     })[33m;[39m[0m
+  [0m [90m 48 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 49 |[39m   [36masync[39m findPagination(page[33m:[39m number[33m,[39m perPage[33m:[39m number){[0m
+  [0m [90m    |[39m                              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 50 |[39m     [36mconst[39m skip [33m=[39m (page [33m-[39m [35m1[39m) [33m*[39m perPage[33m;[39m[0m
+  [0m [90m 51 |[39m     [36mconst[39m totalItems [33m=[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mcount()[33m;[39m[0m
+  [0m [90m 52 |[39m     [36mconst[39m hoadonhhps [33m=[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mfind({ skip[33m,[39m take[33m:[39m perPage })[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m49:38[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'perPage'.
+  [0m [90m 47 |[39m     })[33m;[39m[0m
+  [0m [90m 48 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 49 |[39m   [36masync[39m findPagination(page[33m:[39m number[33m,[39m perPage[33m:[39m number){[0m
+  [0m [90m    |[39m                                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 50 |[39m     [36mconst[39m skip [33m=[39m (page [33m-[39m [35m1[39m) [33m*[39m perPage[33m;[39m[0m
+  [0m [90m 51 |[39m     [36mconst[39m totalItems [33m=[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mcount()[33m;[39m[0m
+  [0m [90m 52 |[39m     [36mconst[39m hoadonhhps [33m=[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mfind({ skip[33m,[39m take[33m:[39m perPage })[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m49:47[22m[39m[1m[39m[22m
+[90mTS2693: [39m'number' only refers to a type, but is being used as a value here.
+  [0m [90m 47 |[39m     })[33m;[39m[0m
+  [0m [90m 48 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 49 |[39m   [36masync[39m findPagination(page[33m:[39m number[33m,[39m perPage[33m:[39m number){[0m
+  [0m [90m    |[39m                                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 50 |[39m     [36mconst[39m skip [33m=[39m (page [33m-[39m [35m1[39m) [33m*[39m perPage[33m;[39m[0m
+  [0m [90m 51 |[39m     [36mconst[39m totalItems [33m=[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mcount()[33m;[39m[0m
+  [0m [90m 52 |[39m     [36mconst[39m hoadonhhps [33m=[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mfind({ skip[33m,[39m take[33m:[39m perPage })[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m50:19[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'page'.
+  [0m [90m 48 |[39m   }[0m
+  [0m [90m 49 |[39m   [36masync[39m findPagination(page[33m:[39m number[33m,[39m perPage[33m:[39m number){[0m
+  [0m[31m[1m>[22m[39m[90m 50 |[39m     [36mconst[39m skip [33m=[39m (page [33m-[39m [35m1[39m) [33m*[39m perPage[33m;[39m[0m
+  [0m [90m    |[39m                   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 51 |[39m     [36mconst[39m totalItems [33m=[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mcount()[33m;[39m[0m
+  [0m [90m 52 |[39m     [36mconst[39m hoadonhhps [33m=[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mfind({ skip[33m,[39m take[33m:[39m perPage })[33m;[39m[0m
+  [0m [90m 53 |[39m     [36mreturn[39m {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m50:31[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'perPage'.
+  [0m [90m 48 |[39m   }[0m
+  [0m [90m 49 |[39m   [36masync[39m findPagination(page[33m:[39m number[33m,[39m perPage[33m:[39m number){[0m
+  [0m[31m[1m>[22m[39m[90m 50 |[39m     [36mconst[39m skip [33m=[39m (page [33m-[39m [35m1[39m) [33m*[39m perPage[33m;[39m[0m
+  [0m [90m    |[39m                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 51 |[39m     [36mconst[39m totalItems [33m=[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mcount()[33m;[39m[0m
+  [0m [90m 52 |[39m     [36mconst[39m hoadonhhps [33m=[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mfind({ skip[33m,[39m take[33m:[39m perPage })[33m;[39m[0m
+  [0m [90m 53 |[39m     [36mreturn[39m {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m51:30[22m[39m[1m[39m[22m
+[90mTS2532: [39mObject is possibly 'undefined'.
+  [0m [90m 49 |[39m   [36masync[39m findPagination(page[33m:[39m number[33m,[39m perPage[33m:[39m number){[0m
+  [0m [90m 50 |[39m     [36mconst[39m skip [33m=[39m (page [33m-[39m [35m1[39m) [33m*[39m perPage[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 51 |[39m     [36mconst[39m totalItems [33m=[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mcount()[33m;[39m[0m
+  [0m [90m    |[39m                              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 52 |[39m     [36mconst[39m hoadonhhps [33m=[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mfind({ skip[33m,[39m take[33m:[39m perPage })[33m;[39m[0m
+  [0m [90m 53 |[39m     [36mreturn[39m {[0m
+  [0m [90m 54 |[39m       currentPage[33m:[39m page[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m52:30[22m[39m[1m[39m[22m
+[90mTS2532: [39mObject is possibly 'undefined'.
+  [0m [90m 50 |[39m     [36mconst[39m skip [33m=[39m (page [33m-[39m [35m1[39m) [33m*[39m perPage[33m;[39m[0m
+  [0m [90m 51 |[39m     [36mconst[39m totalItems [33m=[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mcount()[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 52 |[39m     [36mconst[39m hoadonhhps [33m=[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mfind({ skip[33m,[39m take[33m:[39m perPage })[33m;[39m[0m
+  [0m [90m    |[39m                              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 53 |[39m     [36mreturn[39m {[0m
+  [0m [90m 54 |[39m       currentPage[33m:[39m page[33m,[39m[0m
+  [0m [90m 55 |[39m       perPage[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m52:74[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'perPage'.
+  [0m [90m 50 |[39m     [36mconst[39m skip [33m=[39m (page [33m-[39m [35m1[39m) [33m*[39m perPage[33m;[39m[0m
+  [0m [90m 51 |[39m     [36mconst[39m totalItems [33m=[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mcount()[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 52 |[39m     [36mconst[39m hoadonhhps [33m=[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mfind({ skip[33m,[39m take[33m:[39m perPage })[33m;[39m[0m
+  [0m [90m    |[39m                                                                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 53 |[39m     [36mreturn[39m {[0m
+  [0m [90m 54 |[39m       currentPage[33m:[39m page[33m,[39m[0m
+  [0m [90m 55 |[39m       perPage[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m61:3[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'async'.
+  [0m [90m 59 |[39m     }[33m;[39m[0m
+  [0m [90m 60 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 61 |[39m   [36masync[39m findQuery(params[33m:[39m any) {[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 62 |[39m     console[33m.[39merror(params)[33m;[39m[0m
+  [0m [90m 63 |[39m     [36mconst[39m queryBuilder [33m=[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mcreateQueryBuilder([32m'hoadonhhp'[39m)[33m;[39m[0m
+  [0m [90m 64 |[39m     [36mif[39m (params[33m.[39m[33mBatdau[39m [33m&&[39m params[33m.[39m[33mKetthuc[39m) {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m61:9[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'findQuery'.
+  [0m [90m 59 |[39m     }[33m;[39m[0m
+  [0m [90m 60 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 61 |[39m   [36masync[39m findQuery(params[33m:[39m any) {[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 62 |[39m     console[33m.[39merror(params)[33m;[39m[0m
+  [0m [90m 63 |[39m     [36mconst[39m queryBuilder [33m=[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mcreateQueryBuilder([32m'hoadonhhp'[39m)[33m;[39m[0m
+  [0m [90m 64 |[39m     [36mif[39m (params[33m.[39m[33mBatdau[39m [33m&&[39m params[33m.[39m[33mKetthuc[39m) {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m61:19[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'params'.
+  [0m [90m 59 |[39m     }[33m;[39m[0m
+  [0m [90m 60 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 61 |[39m   [36masync[39m findQuery(params[33m:[39m any) {[0m
+  [0m [90m    |[39m                   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 62 |[39m     console[33m.[39merror(params)[33m;[39m[0m
+  [0m [90m 63 |[39m     [36mconst[39m queryBuilder [33m=[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mcreateQueryBuilder([32m'hoadonhhp'[39m)[33m;[39m[0m
+  [0m [90m 64 |[39m     [36mif[39m (params[33m.[39m[33mBatdau[39m [33m&&[39m params[33m.[39m[33mKetthuc[39m) {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m61:27[22m[39m[1m[39m[22m
+[90mTS2693: [39m'any' only refers to a type, but is being used as a value here.
+  [0m [90m 59 |[39m     }[33m;[39m[0m
+  [0m [90m 60 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 61 |[39m   [36masync[39m findQuery(params[33m:[39m any) {[0m
+  [0m [90m    |[39m                           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 62 |[39m     console[33m.[39merror(params)[33m;[39m[0m
+  [0m [90m 63 |[39m     [36mconst[39m queryBuilder [33m=[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mcreateQueryBuilder([32m'hoadonhhp'[39m)[33m;[39m[0m
+  [0m [90m 64 |[39m     [36mif[39m (params[33m.[39m[33mBatdau[39m [33m&&[39m params[33m.[39m[33mKetthuc[39m) {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m62:19[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'params'.
+  [0m [90m 60 |[39m   }[0m
+  [0m [90m 61 |[39m   [36masync[39m findQuery(params[33m:[39m any) {[0m
+  [0m[31m[1m>[22m[39m[90m 62 |[39m     console[33m.[39merror(params)[33m;[39m[0m
+  [0m [90m    |[39m                   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 63 |[39m     [36mconst[39m queryBuilder [33m=[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mcreateQueryBuilder([32m'hoadonhhp'[39m)[33m;[39m[0m
+  [0m [90m 64 |[39m     [36mif[39m (params[33m.[39m[33mBatdau[39m [33m&&[39m params[33m.[39m[33mKetthuc[39m) {[0m
+  [0m [90m 65 |[39m       queryBuilder[33m.[39mandWhere([32m'hoadonhhp.CreateAt BETWEEN :startDate AND :endDate'[39m[33m,[39m {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m63:26[22m[39m[1m[39m[22m
+[90mTS2532: [39mObject is possibly 'undefined'.
+  [0m [90m 61 |[39m   [36masync[39m findQuery(params[33m:[39m any) {[0m
+  [0m [90m 62 |[39m     console[33m.[39merror(params)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 63 |[39m     [36mconst[39m queryBuilder [33m=[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mcreateQueryBuilder([32m'hoadonhhp'[39m)[33m;[39m[0m
+  [0m [90m    |[39m                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 64 |[39m     [36mif[39m (params[33m.[39m[33mBatdau[39m [33m&&[39m params[33m.[39m[33mKetthuc[39m) {[0m
+  [0m [90m 65 |[39m       queryBuilder[33m.[39mandWhere([32m'hoadonhhp.CreateAt BETWEEN :startDate AND :endDate'[39m[33m,[39m {[0m
+  [0m [90m 66 |[39m         startDate[33m:[39mparams[33m.[39m[33mBatdau[39m[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m64:9[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'params'.
+  [0m [90m 62 |[39m     console[33m.[39merror(params)[33m;[39m[0m
+  [0m [90m 63 |[39m     [36mconst[39m queryBuilder [33m=[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mcreateQueryBuilder([32m'hoadonhhp'[39m)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 64 |[39m     [36mif[39m (params[33m.[39m[33mBatdau[39m [33m&&[39m params[33m.[39m[33mKetthuc[39m) {[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 65 |[39m       queryBuilder[33m.[39mandWhere([32m'hoadonhhp.CreateAt BETWEEN :startDate AND :endDate'[39m[33m,[39m {[0m
+  [0m [90m 66 |[39m         startDate[33m:[39mparams[33m.[39m[33mBatdau[39m[33m,[39m[0m
+  [0m [90m 67 |[39m         endDate[33m:[39mparams[33m.[39m[33mKetthuc[39m[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m64:26[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'params'.
+  [0m [90m 62 |[39m     console[33m.[39merror(params)[33m;[39m[0m
+  [0m [90m 63 |[39m     [36mconst[39m queryBuilder [33m=[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mcreateQueryBuilder([32m'hoadonhhp'[39m)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 64 |[39m     [36mif[39m (params[33m.[39m[33mBatdau[39m [33m&&[39m params[33m.[39m[33mKetthuc[39m) {[0m
+  [0m [90m    |[39m                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 65 |[39m       queryBuilder[33m.[39mandWhere([32m'hoadonhhp.CreateAt BETWEEN :startDate AND :endDate'[39m[33m,[39m {[0m
+  [0m [90m 66 |[39m         startDate[33m:[39mparams[33m.[39m[33mBatdau[39m[33m,[39m[0m
+  [0m [90m 67 |[39m         endDate[33m:[39mparams[33m.[39m[33mKetthuc[39m[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m66:19[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'params'.
+  [0m [90m 64 |[39m     [36mif[39m (params[33m.[39m[33mBatdau[39m [33m&&[39m params[33m.[39m[33mKetthuc[39m) {[0m
+  [0m [90m 65 |[39m       queryBuilder[33m.[39mandWhere([32m'hoadonhhp.CreateAt BETWEEN :startDate AND :endDate'[39m[33m,[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 66 |[39m         startDate[33m:[39mparams[33m.[39m[33mBatdau[39m[33m,[39m[0m
+  [0m [90m    |[39m                   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 67 |[39m         endDate[33m:[39mparams[33m.[39m[33mKetthuc[39m[33m,[39m[0m
+  [0m [90m 68 |[39m       })[33m;[39m[0m
+  [0m [90m 69 |[39m     }[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m67:17[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'params'.
+  [0m [90m 65 |[39m       queryBuilder[33m.[39mandWhere([32m'hoadonhhp.CreateAt BETWEEN :startDate AND :endDate'[39m[33m,[39m {[0m
+  [0m [90m 66 |[39m         startDate[33m:[39mparams[33m.[39m[33mBatdau[39m[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 67 |[39m         endDate[33m:[39mparams[33m.[39m[33mKetthuc[39m[33m,[39m[0m
+  [0m [90m    |[39m                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 68 |[39m       })[33m;[39m[0m
+  [0m [90m 69 |[39m     }[0m
+  [0m [90m 70 |[39m     [36mif[39m (params[33m.[39m[33mTitle[39m) {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m70:9[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'params'.
+  [0m [90m 68 |[39m       })[33m;[39m[0m
+  [0m [90m 69 |[39m     }[0m
+  [0m[31m[1m>[22m[39m[90m 70 |[39m     [36mif[39m (params[33m.[39m[33mTitle[39m) {[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 71 |[39m       queryBuilder[33m.[39mandWhere([32m'hoadonhhp.Title LIKE :Title'[39m[33m,[39m { [33mSDT[39m[33m:[39m [32m`%${params.Title}%`[39m })[33m;[39m[0m
+  [0m [90m 72 |[39m     }[0m
+  [0m [90m 73 |[39m     [36mconst[39m [items[33m,[39m totalCount] [33m=[39m [36mawait[39m queryBuilder[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m71:71[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'params'.
+  [0m [90m 69 |[39m     }[0m
+  [0m [90m 70 |[39m     [36mif[39m (params[33m.[39m[33mTitle[39m) {[0m
+  [0m[31m[1m>[22m[39m[90m 71 |[39m       queryBuilder[33m.[39mandWhere([32m'hoadonhhp.Title LIKE :Title'[39m[33m,[39m { [33mSDT[39m[33m:[39m [32m`%${params.Title}%`[39m })[33m;[39m[0m
+  [0m [90m    |[39m                                                                       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 72 |[39m     }[0m
+  [0m [90m 73 |[39m     [36mconst[39m [items[33m,[39m totalCount] [33m=[39m [36mawait[39m queryBuilder[0m
+  [0m [90m 74 |[39m     [33m.[39mlimit(params[33m.[39mpageSize [33m||[39m [35m10[39m) [90m// Set a default page size if not provided[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m74:12[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'params'.
+  [0m [90m 72 |[39m     }[0m
+  [0m [90m 73 |[39m     [36mconst[39m [items[33m,[39m totalCount] [33m=[39m [36mawait[39m queryBuilder[0m
+  [0m[31m[1m>[22m[39m[90m 74 |[39m     [33m.[39mlimit(params[33m.[39mpageSize [33m||[39m [35m10[39m) [90m// Set a default page size if not provided[39m[0m
+  [0m [90m    |[39m            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 75 |[39m     [33m.[39moffset(params[33m.[39mpageNumber [33m*[39m params[33m.[39mpageSize [33m||[39m [35m0[39m)[0m
+  [0m [90m 76 |[39m     [33m.[39mgetManyAndCount()[33m;[39m[0m
+  [0m [90m 77 |[39m     console[33m.[39mlog(items[33m,[39mtotalCount)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m75:13[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'params'.
+  [0m [90m 73 |[39m     [36mconst[39m [items[33m,[39m totalCount] [33m=[39m [36mawait[39m queryBuilder[0m
+  [0m [90m 74 |[39m     [33m.[39mlimit(params[33m.[39mpageSize [33m||[39m [35m10[39m) [90m// Set a default page size if not provided[39m[0m
+  [0m[31m[1m>[22m[39m[90m 75 |[39m     [33m.[39moffset(params[33m.[39mpageNumber [33m*[39m params[33m.[39mpageSize [33m||[39m [35m0[39m)[0m
+  [0m [90m    |[39m             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 76 |[39m     [33m.[39mgetManyAndCount()[33m;[39m[0m
+  [0m [90m 77 |[39m     console[33m.[39mlog(items[33m,[39mtotalCount)[33m;[39m[0m
+  [0m [90m 78 |[39m     [0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m75:33[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'params'.
+  [0m [90m 73 |[39m     [36mconst[39m [items[33m,[39m totalCount] [33m=[39m [36mawait[39m queryBuilder[0m
+  [0m [90m 74 |[39m     [33m.[39mlimit(params[33m.[39mpageSize [33m||[39m [35m10[39m) [90m// Set a default page size if not provided[39m[0m
+  [0m[31m[1m>[22m[39m[90m 75 |[39m     [33m.[39moffset(params[33m.[39mpageNumber [33m*[39m params[33m.[39mpageSize [33m||[39m [35m0[39m)[0m
+  [0m [90m    |[39m                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 76 |[39m     [33m.[39mgetManyAndCount()[33m;[39m[0m
+  [0m [90m 77 |[39m     console[33m.[39mlog(items[33m,[39mtotalCount)[33m;[39m[0m
+  [0m [90m 78 |[39m     [0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m81:3[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'async'.
+  [0m [90m 79 |[39m   [36mreturn[39m { items[33m,[39m totalCount }[33m;[39m[0m
+  [0m [90m 80 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 81 |[39m   [36masync[39m update(id[33m:[39m string[33m,[39m [33mUpdateHoadonhhpDto[39m[33m:[39m [33mUpdateHoadonhhpDto[39m) {[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 82 |[39m     [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39msave([33mUpdateHoadonhhpDto[39m)[33m;[39m[0m
+  [0m [90m 83 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mfindOne({ where[33m:[39m { id[33m:[39m id } })[33m;[39m[0m
+  [0m [90m 84 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m81:9[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'update'.
+  [0m [90m 79 |[39m   [36mreturn[39m { items[33m,[39m totalCount }[33m;[39m[0m
+  [0m [90m 80 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 81 |[39m   [36masync[39m update(id[33m:[39m string[33m,[39m [33mUpdateHoadonhhpDto[39m[33m:[39m [33mUpdateHoadonhhpDto[39m) {[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 82 |[39m     [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39msave([33mUpdateHoadonhhpDto[39m)[33m;[39m[0m
+  [0m [90m 83 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mfindOne({ where[33m:[39m { id[33m:[39m id } })[33m;[39m[0m
+  [0m [90m 84 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m81:16[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'id'.
+  [0m [90m 79 |[39m   [36mreturn[39m { items[33m,[39m totalCount }[33m;[39m[0m
+  [0m [90m 80 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 81 |[39m   [36masync[39m update(id[33m:[39m string[33m,[39m [33mUpdateHoadonhhpDto[39m[33m:[39m [33mUpdateHoadonhhpDto[39m) {[0m
+  [0m [90m    |[39m                [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 82 |[39m     [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39msave([33mUpdateHoadonhhpDto[39m)[33m;[39m[0m
+  [0m [90m 83 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mfindOne({ where[33m:[39m { id[33m:[39m id } })[33m;[39m[0m
+  [0m [90m 84 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m81:20[22m[39m[1m[39m[22m
+[90mTS2693: [39m'string' only refers to a type, but is being used as a value here.
+  [0m [90m 79 |[39m   [36mreturn[39m { items[33m,[39m totalCount }[33m;[39m[0m
+  [0m [90m 80 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 81 |[39m   [36masync[39m update(id[33m:[39m string[33m,[39m [33mUpdateHoadonhhpDto[39m[33m:[39m [33mUpdateHoadonhhpDto[39m) {[0m
+  [0m [90m    |[39m                    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 82 |[39m     [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39msave([33mUpdateHoadonhhpDto[39m)[33m;[39m[0m
+  [0m [90m 83 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mfindOne({ where[33m:[39m { id[33m:[39m id } })[33m;[39m[0m
+  [0m [90m 84 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m82:5[22m[39m[1m[39m[22m
+[90mTS2532: [39mObject is possibly 'undefined'.
+  [0m [90m 80 |[39m   }[0m
+  [0m [90m 81 |[39m   [36masync[39m update(id[33m:[39m string[33m,[39m [33mUpdateHoadonhhpDto[39m[33m:[39m [33mUpdateHoadonhhpDto[39m) {[0m
+  [0m[31m[1m>[22m[39m[90m 82 |[39m     [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39msave([33mUpdateHoadonhhpDto[39m)[33m;[39m[0m
+  [0m [90m    |[39m     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 83 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mfindOne({ where[33m:[39m { id[33m:[39m id } })[33m;[39m[0m
+  [0m [90m 84 |[39m   }[0m
+  [0m [90m 85 |[39m   [36masync[39m remove(id[33m:[39m string) {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m85:3[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'async'.
+  [0m [90m 83 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mfindOne({ where[33m:[39m { id[33m:[39m id } })[33m;[39m[0m
+  [0m [90m 84 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 85 |[39m   [36masync[39m remove(id[33m:[39m string) {[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 86 |[39m     console[33m.[39merror(id)[0m
+  [0m [90m 87 |[39m     [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39m[36mdelete[39m(id)[33m;[39m[0m
+  [0m [90m 88 |[39m     [36mreturn[39m { deleted[33m:[39m [36mtrue[39m }[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m85:9[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'remove'.
+  [0m [90m 83 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mfindOne({ where[33m:[39m { id[33m:[39m id } })[33m;[39m[0m
+  [0m [90m 84 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 85 |[39m   [36masync[39m remove(id[33m:[39m string) {[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 86 |[39m     console[33m.[39merror(id)[0m
+  [0m [90m 87 |[39m     [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39m[36mdelete[39m(id)[33m;[39m[0m
+  [0m [90m 88 |[39m     [36mreturn[39m { deleted[33m:[39m [36mtrue[39m }[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m85:16[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'id'.
+  [0m [90m 83 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mfindOne({ where[33m:[39m { id[33m:[39m id } })[33m;[39m[0m
+  [0m [90m 84 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 85 |[39m   [36masync[39m remove(id[33m:[39m string) {[0m
+  [0m [90m    |[39m                [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 86 |[39m     console[33m.[39merror(id)[0m
+  [0m [90m 87 |[39m     [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39m[36mdelete[39m(id)[33m;[39m[0m
+  [0m [90m 88 |[39m     [36mreturn[39m { deleted[33m:[39m [36mtrue[39m }[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m85:20[22m[39m[1m[39m[22m
+[90mTS2693: [39m'string' only refers to a type, but is being used as a value here.
+  [0m [90m 83 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mfindOne({ where[33m:[39m { id[33m:[39m id } })[33m;[39m[0m
+  [0m [90m 84 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 85 |[39m   [36masync[39m remove(id[33m:[39m string) {[0m
+  [0m [90m    |[39m                    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 86 |[39m     console[33m.[39merror(id)[0m
+  [0m [90m 87 |[39m     [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39m[36mdelete[39m(id)[33m;[39m[0m
+  [0m [90m 88 |[39m     [36mreturn[39m { deleted[33m:[39m [36mtrue[39m }[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m86:19[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'id'.
+  [0m [90m 84 |[39m   }[0m
+  [0m [90m 85 |[39m   [36masync[39m remove(id[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 86 |[39m     console[33m.[39merror(id)[0m
+  [0m [90m    |[39m                   [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 87 |[39m     [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39m[36mdelete[39m(id)[33m;[39m[0m
+  [0m [90m 88 |[39m     [36mreturn[39m { deleted[33m:[39m [36mtrue[39m }[33m;[39m[0m
+  [0m [90m 89 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m87:11[22m[39m[1m[39m[22m
+[90mTS2532: [39mObject is possibly 'undefined'.
+  [0m [90m 85 |[39m   [36masync[39m remove(id[33m:[39m string) {[0m
+  [0m [90m 86 |[39m     console[33m.[39merror(id)[0m
+  [0m[31m[1m>[22m[39m[90m 87 |[39m     [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39m[36mdelete[39m(id)[33m;[39m[0m
+  [0m [90m    |[39m           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 88 |[39m     [36mreturn[39m { deleted[33m:[39m [36mtrue[39m }[33m;[39m[0m
+  [0m [90m 89 |[39m   }[0m
+  [0m [90m 90 |[39m }[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m87:43[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'id'.
+  [0m [90m 85 |[39m   [36masync[39m remove(id[33m:[39m string) {[0m
+  [0m [90m 86 |[39m     console[33m.[39merror(id)[0m
+  [0m[31m[1m>[22m[39m[90m 87 |[39m     [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39m[36mdelete[39m(id)[33m;[39m[0m
+  [0m [90m    |[39m                                           [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 88 |[39m     [36mreturn[39m { deleted[33m:[39m [36mtrue[39m }[33m;[39m[0m
+  [0m [90m 89 |[39m   }[0m
+  [0m [90m 90 |[39m }[0m
+
+webpack compiled with [1m[31m72 errors[39m[22m (080b7ed2361b411a)
+[1m[31mDebugger listening on ws://localhost:9229/9d016807-c10e-454b-a83d-14eb29fe122b[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/9d016807-c10e-454b-a83d-14eb29fe122b[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 111 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (47cdc2f04c654b67)
+[1m[31mDebugger listening on ws://localhost:9229/e105e1ad-b140-4171-85d6-8fb4d5bffb7a[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/e105e1ad-b140-4171-85d6-8fb4d5bffb7a[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 111 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts[39m[22m
+[1m./src/app/hoadonhhp/hoadonhhp.service.ts[39m[22m [1m[32m36:8-9[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts(36,9)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts[39m[22m
+[1m./src/app/hoadonhhp/hoadonhhp.service.ts[39m[22m [1m[32m37:4-5[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts(37,5)[39m[22m
+[1m[31m      TS1135: Argument expression expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts[39m[22m
+[1m./src/app/hoadonhhp/hoadonhhp.service.ts[39m[22m [1m[32m37:5-6[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts(37,6)[39m[22m
+[1m[31m      TS1068: Unexpected token. A constructor, method, accessor, or property was expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts[39m[22m
+[1m./src/app/hoadonhhp/hoadonhhp.service.ts[39m[22m [1m[32m39:2-7[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts(39,3)[39m[22m
+[1m[31m      TS1434: Unexpected keyword or identifier.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts[39m[22m
+[1m./src/app/hoadonhhp/hoadonhhp.service.ts[39m[22m [1m[32m39:20-21[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts(39,21)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts[39m[22m
+[1m./src/app/hoadonhhp/hoadonhhp.service.ts[39m[22m [1m[32m39:27-28[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts(39,28)[39m[22m
+[1m[31m      TS1005: ';' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts[39m[22m
+[1m./src/app/hoadonhhp/hoadonhhp.service.ts[39m[22m [1m[32m44:2-7[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts(44,3)[39m[22m
+[1m[31m      TS1434: Unexpected keyword or identifier.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts[39m[22m
+[1m./src/app/hoadonhhp/hoadonhhp.service.ts[39m[22m [1m[32m44:27-28[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts(44,28)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts[39m[22m
+[1m./src/app/hoadonhhp/hoadonhhp.service.ts[39m[22m [1m[32m44:44-45[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts(44,45)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts[39m[22m
+[1m./src/app/hoadonhhp/hoadonhhp.service.ts[39m[22m [1m[32m44:53-54[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts(44,54)[39m[22m
+[1m[31m      TS1005: ';' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/hoadonhhp/hoadonhhp.service.ts[39m[22m [1m[32m47:4[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: 'return' outside of function (47:4)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+| findslug(SHD, any);
+| {
+>     return await this.HoadonhhpRepository.findOne({
+|         where: { SHD: SHD },
+|     });[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts[39m[22m
+[1m./src/app/hoadonhhp/hoadonhhp.service.ts[39m[22m [1m[32m56:2-7[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts(56,3)[39m[22m
+[1m[31m      TS1434: Unexpected keyword or identifier.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts[39m[22m
+[1m./src/app/hoadonhhp/hoadonhhp.service.ts[39m[22m [1m[32m56:24-25[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts(56,25)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts[39m[22m
+[1m./src/app/hoadonhhp/hoadonhhp.service.ts[39m[22m [1m[32m56:31-32[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts(56,32)[39m[22m
+[1m[31m      TS1005: ';' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts[39m[22m
+[1m./src/app/hoadonhhp/hoadonhhp.service.ts[39m[22m [1m[32m76:2-7[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts(76,3)[39m[22m
+[1m[31m      TS1434: Unexpected keyword or identifier.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts[39m[22m
+[1m./src/app/hoadonhhp/hoadonhhp.service.ts[39m[22m [1m[32m76:17-18[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts(76,18)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts[39m[22m
+[1m./src/app/hoadonhhp/hoadonhhp.service.ts[39m[22m [1m[32m76:45-46[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts(76,46)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts[39m[22m
+[1m./src/app/hoadonhhp/hoadonhhp.service.ts[39m[22m [1m[32m76:67-68[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts(76,68)[39m[22m
+[1m[31m      TS1005: ';' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts[39m[22m
+[1m./src/app/hoadonhhp/hoadonhhp.service.ts[39m[22m [1m[32m80:2-7[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts(80,3)[39m[22m
+[1m[31m      TS1434: Unexpected keyword or identifier.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts[39m[22m
+[1m./src/app/hoadonhhp/hoadonhhp.service.ts[39m[22m [1m[32m80:17-18[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts(80,18)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts[39m[22m
+[1m./src/app/hoadonhhp/hoadonhhp.service.ts[39m[22m [1m[32m80:27-28[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts(80,28)[39m[22m
+[1m[31m      TS1005: ';' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts[39m[22m
+[1m./src/app/hoadonhhp/hoadonhhp.service.ts[39m[22m [1m[32m85:0-1[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts(85,1)[39m[22m
+[1m[31m      TS1128: Declaration or statement expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.controller.ts:[32m[1m23:40[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findslug' does not exist on type 'HoadonhhpService'.
+  [0m [90m 21 |[39m   [33m@[39m[33mGet[39m([32m'findslug/:slug'[39m)[0m
+  [0m [90m 22 |[39m   [36masync[39m findslug([33m@[39m[33mParam[39m([32m'slug'[39m) slug[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 23 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39mhoadonhhpService[33m.[39mfindslug(slug)[33m;[39m[0m
+  [0m [90m    |[39m                                        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 24 |[39m   }[0m
+  [0m [90m 25 |[39m   [33m@[39m[33mGet[39m([32m'pagination'[39m)[0m
+  [0m [90m 26 |[39m   [36masync[39m findPagination([33m@[39m[33mQuery[39m([32m'page'[39m) page[33m:[39m number[33m,[39m[33m@[39m[33mQuery[39m([32m'perPage'[39m) perPage[33m:[39m number){[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.controller.ts:[32m[1m27:43[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findPagination' does not exist on type 'HoadonhhpService'.
+  [0m [90m 25 |[39m   [33m@[39m[33mGet[39m([32m'pagination'[39m)[0m
+  [0m [90m 26 |[39m   [36masync[39m findPagination([33m@[39m[33mQuery[39m([32m'page'[39m) page[33m:[39m number[33m,[39m[33m@[39m[33mQuery[39m([32m'perPage'[39m) perPage[33m:[39m number){[0m
+  [0m[31m[1m>[22m[39m[90m 27 |[39m        [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39mhoadonhhpService[33m.[39mfindPagination(page[33m,[39mperPage)[33m;[39m[0m
+  [0m [90m    |[39m                                           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 28 |[39m     }[0m
+  [0m [90m 29 |[39m   [33m@[39m[33mPost[39m([32m'search'[39m)[0m
+  [0m [90m 30 |[39m     [36masync[39m findQuery([33m@[39m[33mBody[39m() [33mSearchParams[39m[33m:[39m any){[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.controller.ts:[32m[1m31:42[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findQuery' does not exist on type 'HoadonhhpService'.
+  [0m [90m 29 |[39m   [33m@[39m[33mPost[39m([32m'search'[39m)[0m
+  [0m [90m 30 |[39m     [36masync[39m findQuery([33m@[39m[33mBody[39m() [33mSearchParams[39m[33m:[39m any){[0m
+  [0m[31m[1m>[22m[39m[90m 31 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39mhoadonhhpService[33m.[39mfindQuery([33mSearchParams[39m)[33m;[39m[0m
+  [0m [90m    |[39m                                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 32 |[39m   }[0m
+  [0m [90m 33 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+  [0m [90m 34 |[39m   update([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string[33m,[39m [33m@[39m[33mBody[39m() updateHoadonhhpDto[33m:[39m [33mUpdateHoadonhhpDto[39m) {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.controller.ts:[32m[1m35:34[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'update' does not exist on type 'HoadonhhpService'.
+  [0m [90m 33 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+  [0m [90m 34 |[39m   update([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string[33m,[39m [33m@[39m[33mBody[39m() updateHoadonhhpDto[33m:[39m [33mUpdateHoadonhhpDto[39m) {[0m
+  [0m[31m[1m>[22m[39m[90m 35 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mhoadonhhpService[33m.[39mupdate(id[33m,[39m updateHoadonhhpDto)[33m;[39m[0m
+  [0m [90m    |[39m                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 36 |[39m   }[0m
+  [0m [90m 37 |[39m[0m
+  [0m [90m 38 |[39m   [33m@[39m[33mDelete[39m([32m':id'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.controller.ts:[32m[1m40:34[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'remove' does not exist on type 'HoadonhhpService'.
+  [0m [90m 38 |[39m   [33m@[39m[33mDelete[39m([32m':id'[39m)[0m
+  [0m [90m 39 |[39m   remove([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 40 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mhoadonhhpService[33m.[39mremove(id)[33m;[39m[0m
+  [0m [90m    |[39m                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 41 |[39m   }[0m
+  [0m [90m 42 |[39m }[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m36:9[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 1 arguments, but got 2.
+  [0m [90m 34 |[39m       where[33m:[39m[0m
+  [0m [90m 35 |[39m         { [33mSHD[39m[33m:[39m data[33m.[39m[33mSHD[39m [0m
+  [0m[31m[1m>[22m[39m[90m 36 |[39m         { [33mType[39m[33m:[39m data[33m.[39m[33mType[39m }[33m,[39m      [0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 37 |[39m     })[33m;[39m[0m
+  [0m [90m 38 |[39m   }[0m
+  [0m [90m 39 |[39m   [36masync[39m findslug([33mSHD[39m[33m:[39m any) {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m39:3[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'async'.
+  [0m [90m 37 |[39m     })[33m;[39m[0m
+  [0m [90m 38 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 39 |[39m   [36masync[39m findslug([33mSHD[39m[33m:[39m any) {[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 40 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mfindOne({[0m
+  [0m [90m 41 |[39m       where[33m:[39m { [33mSHD[39m[33m:[39m [33mSHD[39m}[33m,[39m[0m
+  [0m [90m 42 |[39m     })[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m39:9[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'findslug'.
+  [0m [90m 37 |[39m     })[33m;[39m[0m
+  [0m [90m 38 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 39 |[39m   [36masync[39m findslug([33mSHD[39m[33m:[39m any) {[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 40 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mfindOne({[0m
+  [0m [90m 41 |[39m       where[33m:[39m { [33mSHD[39m[33m:[39m [33mSHD[39m}[33m,[39m[0m
+  [0m [90m 42 |[39m     })[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m39:18[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'SHD'.
+  [0m [90m 37 |[39m     })[33m;[39m[0m
+  [0m [90m 38 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 39 |[39m   [36masync[39m findslug([33mSHD[39m[33m:[39m any) {[0m
+  [0m [90m    |[39m                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 40 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mfindOne({[0m
+  [0m [90m 41 |[39m       where[33m:[39m { [33mSHD[39m[33m:[39m [33mSHD[39m}[33m,[39m[0m
+  [0m [90m 42 |[39m     })[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m39:23[22m[39m[1m[39m[22m
+[90mTS2693: [39m'any' only refers to a type, but is being used as a value here.
+  [0m [90m 37 |[39m     })[33m;[39m[0m
+  [0m [90m 38 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 39 |[39m   [36masync[39m findslug([33mSHD[39m[33m:[39m any) {[0m
+  [0m [90m    |[39m                       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 40 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mfindOne({[0m
+  [0m [90m 41 |[39m       where[33m:[39m { [33mSHD[39m[33m:[39m [33mSHD[39m}[33m,[39m[0m
+  [0m [90m 42 |[39m     })[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m44:3[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'async'.
+  [0m [90m 42 |[39m     })[33m;[39m[0m
+  [0m [90m 43 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 44 |[39m   [36masync[39m findPagination(page[33m:[39m number[33m,[39m perPage[33m:[39m number){[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 45 |[39m     [36mconst[39m skip [33m=[39m (page [33m-[39m [35m1[39m) [33m*[39m perPage[33m;[39m[0m
+  [0m [90m 46 |[39m     [36mconst[39m totalItems [33m=[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mcount()[33m;[39m[0m
+  [0m [90m 47 |[39m     [36mconst[39m hoadonhhps [33m=[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mfind({ skip[33m,[39m take[33m:[39m perPage })[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m44:9[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'findPagination'.
+  [0m [90m 42 |[39m     })[33m;[39m[0m
+  [0m [90m 43 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 44 |[39m   [36masync[39m findPagination(page[33m:[39m number[33m,[39m perPage[33m:[39m number){[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 45 |[39m     [36mconst[39m skip [33m=[39m (page [33m-[39m [35m1[39m) [33m*[39m perPage[33m;[39m[0m
+  [0m [90m 46 |[39m     [36mconst[39m totalItems [33m=[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mcount()[33m;[39m[0m
+  [0m [90m 47 |[39m     [36mconst[39m hoadonhhps [33m=[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mfind({ skip[33m,[39m take[33m:[39m perPage })[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m44:24[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'page'.
+  [0m [90m 42 |[39m     })[33m;[39m[0m
+  [0m [90m 43 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 44 |[39m   [36masync[39m findPagination(page[33m:[39m number[33m,[39m perPage[33m:[39m number){[0m
+  [0m [90m    |[39m                        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 45 |[39m     [36mconst[39m skip [33m=[39m (page [33m-[39m [35m1[39m) [33m*[39m perPage[33m;[39m[0m
+  [0m [90m 46 |[39m     [36mconst[39m totalItems [33m=[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mcount()[33m;[39m[0m
+  [0m [90m 47 |[39m     [36mconst[39m hoadonhhps [33m=[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mfind({ skip[33m,[39m take[33m:[39m perPage })[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m44:30[22m[39m[1m[39m[22m
+[90mTS2693: [39m'number' only refers to a type, but is being used as a value here.
+  [0m [90m 42 |[39m     })[33m;[39m[0m
+  [0m [90m 43 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 44 |[39m   [36masync[39m findPagination(page[33m:[39m number[33m,[39m perPage[33m:[39m number){[0m
+  [0m [90m    |[39m                              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 45 |[39m     [36mconst[39m skip [33m=[39m (page [33m-[39m [35m1[39m) [33m*[39m perPage[33m;[39m[0m
+  [0m [90m 46 |[39m     [36mconst[39m totalItems [33m=[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mcount()[33m;[39m[0m
+  [0m [90m 47 |[39m     [36mconst[39m hoadonhhps [33m=[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mfind({ skip[33m,[39m take[33m:[39m perPage })[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m44:38[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'perPage'.
+  [0m [90m 42 |[39m     })[33m;[39m[0m
+  [0m [90m 43 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 44 |[39m   [36masync[39m findPagination(page[33m:[39m number[33m,[39m perPage[33m:[39m number){[0m
+  [0m [90m    |[39m                                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 45 |[39m     [36mconst[39m skip [33m=[39m (page [33m-[39m [35m1[39m) [33m*[39m perPage[33m;[39m[0m
+  [0m [90m 46 |[39m     [36mconst[39m totalItems [33m=[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mcount()[33m;[39m[0m
+  [0m [90m 47 |[39m     [36mconst[39m hoadonhhps [33m=[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mfind({ skip[33m,[39m take[33m:[39m perPage })[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m44:47[22m[39m[1m[39m[22m
+[90mTS2693: [39m'number' only refers to a type, but is being used as a value here.
+  [0m [90m 42 |[39m     })[33m;[39m[0m
+  [0m [90m 43 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 44 |[39m   [36masync[39m findPagination(page[33m:[39m number[33m,[39m perPage[33m:[39m number){[0m
+  [0m [90m    |[39m                                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 45 |[39m     [36mconst[39m skip [33m=[39m (page [33m-[39m [35m1[39m) [33m*[39m perPage[33m;[39m[0m
+  [0m [90m 46 |[39m     [36mconst[39m totalItems [33m=[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mcount()[33m;[39m[0m
+  [0m [90m 47 |[39m     [36mconst[39m hoadonhhps [33m=[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mfind({ skip[33m,[39m take[33m:[39m perPage })[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m45:19[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'page'.
+  [0m [90m 43 |[39m   }[0m
+  [0m [90m 44 |[39m   [36masync[39m findPagination(page[33m:[39m number[33m,[39m perPage[33m:[39m number){[0m
+  [0m[31m[1m>[22m[39m[90m 45 |[39m     [36mconst[39m skip [33m=[39m (page [33m-[39m [35m1[39m) [33m*[39m perPage[33m;[39m[0m
+  [0m [90m    |[39m                   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 46 |[39m     [36mconst[39m totalItems [33m=[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mcount()[33m;[39m[0m
+  [0m [90m 47 |[39m     [36mconst[39m hoadonhhps [33m=[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mfind({ skip[33m,[39m take[33m:[39m perPage })[33m;[39m[0m
+  [0m [90m 48 |[39m     [36mreturn[39m {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m45:31[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'perPage'.
+  [0m [90m 43 |[39m   }[0m
+  [0m [90m 44 |[39m   [36masync[39m findPagination(page[33m:[39m number[33m,[39m perPage[33m:[39m number){[0m
+  [0m[31m[1m>[22m[39m[90m 45 |[39m     [36mconst[39m skip [33m=[39m (page [33m-[39m [35m1[39m) [33m*[39m perPage[33m;[39m[0m
+  [0m [90m    |[39m                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 46 |[39m     [36mconst[39m totalItems [33m=[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mcount()[33m;[39m[0m
+  [0m [90m 47 |[39m     [36mconst[39m hoadonhhps [33m=[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mfind({ skip[33m,[39m take[33m:[39m perPage })[33m;[39m[0m
+  [0m [90m 48 |[39m     [36mreturn[39m {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m46:30[22m[39m[1m[39m[22m
+[90mTS2532: [39mObject is possibly 'undefined'.
+  [0m [90m 44 |[39m   [36masync[39m findPagination(page[33m:[39m number[33m,[39m perPage[33m:[39m number){[0m
+  [0m [90m 45 |[39m     [36mconst[39m skip [33m=[39m (page [33m-[39m [35m1[39m) [33m*[39m perPage[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 46 |[39m     [36mconst[39m totalItems [33m=[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mcount()[33m;[39m[0m
+  [0m [90m    |[39m                              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 47 |[39m     [36mconst[39m hoadonhhps [33m=[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mfind({ skip[33m,[39m take[33m:[39m perPage })[33m;[39m[0m
+  [0m [90m 48 |[39m     [36mreturn[39m {[0m
+  [0m [90m 49 |[39m       currentPage[33m:[39m page[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m47:30[22m[39m[1m[39m[22m
+[90mTS2532: [39mObject is possibly 'undefined'.
+  [0m [90m 45 |[39m     [36mconst[39m skip [33m=[39m (page [33m-[39m [35m1[39m) [33m*[39m perPage[33m;[39m[0m
+  [0m [90m 46 |[39m     [36mconst[39m totalItems [33m=[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mcount()[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 47 |[39m     [36mconst[39m hoadonhhps [33m=[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mfind({ skip[33m,[39m take[33m:[39m perPage })[33m;[39m[0m
+  [0m [90m    |[39m                              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 48 |[39m     [36mreturn[39m {[0m
+  [0m [90m 49 |[39m       currentPage[33m:[39m page[33m,[39m[0m
+  [0m [90m 50 |[39m       perPage[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m47:74[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'perPage'.
+  [0m [90m 45 |[39m     [36mconst[39m skip [33m=[39m (page [33m-[39m [35m1[39m) [33m*[39m perPage[33m;[39m[0m
+  [0m [90m 46 |[39m     [36mconst[39m totalItems [33m=[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mcount()[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 47 |[39m     [36mconst[39m hoadonhhps [33m=[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mfind({ skip[33m,[39m take[33m:[39m perPage })[33m;[39m[0m
+  [0m [90m    |[39m                                                                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 48 |[39m     [36mreturn[39m {[0m
+  [0m [90m 49 |[39m       currentPage[33m:[39m page[33m,[39m[0m
+  [0m [90m 50 |[39m       perPage[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m56:3[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'async'.
+  [0m [90m 54 |[39m     }[33m;[39m[0m
+  [0m [90m 55 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 56 |[39m   [36masync[39m findQuery(params[33m:[39m any) {[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 57 |[39m     console[33m.[39merror(params)[33m;[39m[0m
+  [0m [90m 58 |[39m     [36mconst[39m queryBuilder [33m=[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mcreateQueryBuilder([32m'hoadonhhp'[39m)[33m;[39m[0m
+  [0m [90m 59 |[39m     [36mif[39m (params[33m.[39m[33mBatdau[39m [33m&&[39m params[33m.[39m[33mKetthuc[39m) {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m56:9[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'findQuery'.
+  [0m [90m 54 |[39m     }[33m;[39m[0m
+  [0m [90m 55 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 56 |[39m   [36masync[39m findQuery(params[33m:[39m any) {[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 57 |[39m     console[33m.[39merror(params)[33m;[39m[0m
+  [0m [90m 58 |[39m     [36mconst[39m queryBuilder [33m=[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mcreateQueryBuilder([32m'hoadonhhp'[39m)[33m;[39m[0m
+  [0m [90m 59 |[39m     [36mif[39m (params[33m.[39m[33mBatdau[39m [33m&&[39m params[33m.[39m[33mKetthuc[39m) {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m56:19[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'params'.
+  [0m [90m 54 |[39m     }[33m;[39m[0m
+  [0m [90m 55 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 56 |[39m   [36masync[39m findQuery(params[33m:[39m any) {[0m
+  [0m [90m    |[39m                   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 57 |[39m     console[33m.[39merror(params)[33m;[39m[0m
+  [0m [90m 58 |[39m     [36mconst[39m queryBuilder [33m=[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mcreateQueryBuilder([32m'hoadonhhp'[39m)[33m;[39m[0m
+  [0m [90m 59 |[39m     [36mif[39m (params[33m.[39m[33mBatdau[39m [33m&&[39m params[33m.[39m[33mKetthuc[39m) {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m56:27[22m[39m[1m[39m[22m
+[90mTS2693: [39m'any' only refers to a type, but is being used as a value here.
+  [0m [90m 54 |[39m     }[33m;[39m[0m
+  [0m [90m 55 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 56 |[39m   [36masync[39m findQuery(params[33m:[39m any) {[0m
+  [0m [90m    |[39m                           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 57 |[39m     console[33m.[39merror(params)[33m;[39m[0m
+  [0m [90m 58 |[39m     [36mconst[39m queryBuilder [33m=[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mcreateQueryBuilder([32m'hoadonhhp'[39m)[33m;[39m[0m
+  [0m [90m 59 |[39m     [36mif[39m (params[33m.[39m[33mBatdau[39m [33m&&[39m params[33m.[39m[33mKetthuc[39m) {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m57:19[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'params'.
+  [0m [90m 55 |[39m   }[0m
+  [0m [90m 56 |[39m   [36masync[39m findQuery(params[33m:[39m any) {[0m
+  [0m[31m[1m>[22m[39m[90m 57 |[39m     console[33m.[39merror(params)[33m;[39m[0m
+  [0m [90m    |[39m                   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 58 |[39m     [36mconst[39m queryBuilder [33m=[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mcreateQueryBuilder([32m'hoadonhhp'[39m)[33m;[39m[0m
+  [0m [90m 59 |[39m     [36mif[39m (params[33m.[39m[33mBatdau[39m [33m&&[39m params[33m.[39m[33mKetthuc[39m) {[0m
+  [0m [90m 60 |[39m       queryBuilder[33m.[39mandWhere([32m'hoadonhhp.CreateAt BETWEEN :startDate AND :endDate'[39m[33m,[39m {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m58:26[22m[39m[1m[39m[22m
+[90mTS2532: [39mObject is possibly 'undefined'.
+  [0m [90m 56 |[39m   [36masync[39m findQuery(params[33m:[39m any) {[0m
+  [0m [90m 57 |[39m     console[33m.[39merror(params)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 58 |[39m     [36mconst[39m queryBuilder [33m=[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mcreateQueryBuilder([32m'hoadonhhp'[39m)[33m;[39m[0m
+  [0m [90m    |[39m                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 59 |[39m     [36mif[39m (params[33m.[39m[33mBatdau[39m [33m&&[39m params[33m.[39m[33mKetthuc[39m) {[0m
+  [0m [90m 60 |[39m       queryBuilder[33m.[39mandWhere([32m'hoadonhhp.CreateAt BETWEEN :startDate AND :endDate'[39m[33m,[39m {[0m
+  [0m [90m 61 |[39m         startDate[33m:[39mparams[33m.[39m[33mBatdau[39m[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m59:9[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'params'.
+  [0m [90m 57 |[39m     console[33m.[39merror(params)[33m;[39m[0m
+  [0m [90m 58 |[39m     [36mconst[39m queryBuilder [33m=[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mcreateQueryBuilder([32m'hoadonhhp'[39m)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 59 |[39m     [36mif[39m (params[33m.[39m[33mBatdau[39m [33m&&[39m params[33m.[39m[33mKetthuc[39m) {[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 60 |[39m       queryBuilder[33m.[39mandWhere([32m'hoadonhhp.CreateAt BETWEEN :startDate AND :endDate'[39m[33m,[39m {[0m
+  [0m [90m 61 |[39m         startDate[33m:[39mparams[33m.[39m[33mBatdau[39m[33m,[39m[0m
+  [0m [90m 62 |[39m         endDate[33m:[39mparams[33m.[39m[33mKetthuc[39m[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m59:26[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'params'.
+  [0m [90m 57 |[39m     console[33m.[39merror(params)[33m;[39m[0m
+  [0m [90m 58 |[39m     [36mconst[39m queryBuilder [33m=[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mcreateQueryBuilder([32m'hoadonhhp'[39m)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 59 |[39m     [36mif[39m (params[33m.[39m[33mBatdau[39m [33m&&[39m params[33m.[39m[33mKetthuc[39m) {[0m
+  [0m [90m    |[39m                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 60 |[39m       queryBuilder[33m.[39mandWhere([32m'hoadonhhp.CreateAt BETWEEN :startDate AND :endDate'[39m[33m,[39m {[0m
+  [0m [90m 61 |[39m         startDate[33m:[39mparams[33m.[39m[33mBatdau[39m[33m,[39m[0m
+  [0m [90m 62 |[39m         endDate[33m:[39mparams[33m.[39m[33mKetthuc[39m[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m61:19[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'params'.
+  [0m [90m 59 |[39m     [36mif[39m (params[33m.[39m[33mBatdau[39m [33m&&[39m params[33m.[39m[33mKetthuc[39m) {[0m
+  [0m [90m 60 |[39m       queryBuilder[33m.[39mandWhere([32m'hoadonhhp.CreateAt BETWEEN :startDate AND :endDate'[39m[33m,[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 61 |[39m         startDate[33m:[39mparams[33m.[39m[33mBatdau[39m[33m,[39m[0m
+  [0m [90m    |[39m                   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 62 |[39m         endDate[33m:[39mparams[33m.[39m[33mKetthuc[39m[33m,[39m[0m
+  [0m [90m 63 |[39m       })[33m;[39m[0m
+  [0m [90m 64 |[39m     }[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m62:17[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'params'.
+  [0m [90m 60 |[39m       queryBuilder[33m.[39mandWhere([32m'hoadonhhp.CreateAt BETWEEN :startDate AND :endDate'[39m[33m,[39m {[0m
+  [0m [90m 61 |[39m         startDate[33m:[39mparams[33m.[39m[33mBatdau[39m[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 62 |[39m         endDate[33m:[39mparams[33m.[39m[33mKetthuc[39m[33m,[39m[0m
+  [0m [90m    |[39m                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 63 |[39m       })[33m;[39m[0m
+  [0m [90m 64 |[39m     }[0m
+  [0m [90m 65 |[39m     [36mif[39m (params[33m.[39m[33mTitle[39m) {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m65:9[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'params'.
+  [0m [90m 63 |[39m       })[33m;[39m[0m
+  [0m [90m 64 |[39m     }[0m
+  [0m[31m[1m>[22m[39m[90m 65 |[39m     [36mif[39m (params[33m.[39m[33mTitle[39m) {[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 66 |[39m       queryBuilder[33m.[39mandWhere([32m'hoadonhhp.Title LIKE :Title'[39m[33m,[39m { [33mSDT[39m[33m:[39m [32m`%${params.Title}%`[39m })[33m;[39m[0m
+  [0m [90m 67 |[39m     }[0m
+  [0m [90m 68 |[39m     [36mconst[39m [items[33m,[39m totalCount] [33m=[39m [36mawait[39m queryBuilder[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m66:71[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'params'.
+  [0m [90m 64 |[39m     }[0m
+  [0m [90m 65 |[39m     [36mif[39m (params[33m.[39m[33mTitle[39m) {[0m
+  [0m[31m[1m>[22m[39m[90m 66 |[39m       queryBuilder[33m.[39mandWhere([32m'hoadonhhp.Title LIKE :Title'[39m[33m,[39m { [33mSDT[39m[33m:[39m [32m`%${params.Title}%`[39m })[33m;[39m[0m
+  [0m [90m    |[39m                                                                       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 67 |[39m     }[0m
+  [0m [90m 68 |[39m     [36mconst[39m [items[33m,[39m totalCount] [33m=[39m [36mawait[39m queryBuilder[0m
+  [0m [90m 69 |[39m     [33m.[39mlimit(params[33m.[39mpageSize [33m||[39m [35m10[39m) [90m// Set a default page size if not provided[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m69:12[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'params'.
+  [0m [90m 67 |[39m     }[0m
+  [0m [90m 68 |[39m     [36mconst[39m [items[33m,[39m totalCount] [33m=[39m [36mawait[39m queryBuilder[0m
+  [0m[31m[1m>[22m[39m[90m 69 |[39m     [33m.[39mlimit(params[33m.[39mpageSize [33m||[39m [35m10[39m) [90m// Set a default page size if not provided[39m[0m
+  [0m [90m    |[39m            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 70 |[39m     [33m.[39moffset(params[33m.[39mpageNumber [33m*[39m params[33m.[39mpageSize [33m||[39m [35m0[39m)[0m
+  [0m [90m 71 |[39m     [33m.[39mgetManyAndCount()[33m;[39m[0m
+  [0m [90m 72 |[39m     console[33m.[39mlog(items[33m,[39mtotalCount)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m70:13[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'params'.
+  [0m [90m 68 |[39m     [36mconst[39m [items[33m,[39m totalCount] [33m=[39m [36mawait[39m queryBuilder[0m
+  [0m [90m 69 |[39m     [33m.[39mlimit(params[33m.[39mpageSize [33m||[39m [35m10[39m) [90m// Set a default page size if not provided[39m[0m
+  [0m[31m[1m>[22m[39m[90m 70 |[39m     [33m.[39moffset(params[33m.[39mpageNumber [33m*[39m params[33m.[39mpageSize [33m||[39m [35m0[39m)[0m
+  [0m [90m    |[39m             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 71 |[39m     [33m.[39mgetManyAndCount()[33m;[39m[0m
+  [0m [90m 72 |[39m     console[33m.[39mlog(items[33m,[39mtotalCount)[33m;[39m[0m
+  [0m [90m 73 |[39m     [0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m70:33[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'params'.
+  [0m [90m 68 |[39m     [36mconst[39m [items[33m,[39m totalCount] [33m=[39m [36mawait[39m queryBuilder[0m
+  [0m [90m 69 |[39m     [33m.[39mlimit(params[33m.[39mpageSize [33m||[39m [35m10[39m) [90m// Set a default page size if not provided[39m[0m
+  [0m[31m[1m>[22m[39m[90m 70 |[39m     [33m.[39moffset(params[33m.[39mpageNumber [33m*[39m params[33m.[39mpageSize [33m||[39m [35m0[39m)[0m
+  [0m [90m    |[39m                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 71 |[39m     [33m.[39mgetManyAndCount()[33m;[39m[0m
+  [0m [90m 72 |[39m     console[33m.[39mlog(items[33m,[39mtotalCount)[33m;[39m[0m
+  [0m [90m 73 |[39m     [0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m76:3[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'async'.
+  [0m [90m 74 |[39m   [36mreturn[39m { items[33m,[39m totalCount }[33m;[39m[0m
+  [0m [90m 75 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 76 |[39m   [36masync[39m update(id[33m:[39m string[33m,[39m [33mUpdateHoadonhhpDto[39m[33m:[39m [33mUpdateHoadonhhpDto[39m) {[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 77 |[39m     [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39msave([33mUpdateHoadonhhpDto[39m)[33m;[39m[0m
+  [0m [90m 78 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mfindOne({ where[33m:[39m { id[33m:[39m id } })[33m;[39m[0m
+  [0m [90m 79 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m76:9[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'update'.
+  [0m [90m 74 |[39m   [36mreturn[39m { items[33m,[39m totalCount }[33m;[39m[0m
+  [0m [90m 75 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 76 |[39m   [36masync[39m update(id[33m:[39m string[33m,[39m [33mUpdateHoadonhhpDto[39m[33m:[39m [33mUpdateHoadonhhpDto[39m) {[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 77 |[39m     [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39msave([33mUpdateHoadonhhpDto[39m)[33m;[39m[0m
+  [0m [90m 78 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mfindOne({ where[33m:[39m { id[33m:[39m id } })[33m;[39m[0m
+  [0m [90m 79 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m76:16[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'id'.
+  [0m [90m 74 |[39m   [36mreturn[39m { items[33m,[39m totalCount }[33m;[39m[0m
+  [0m [90m 75 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 76 |[39m   [36masync[39m update(id[33m:[39m string[33m,[39m [33mUpdateHoadonhhpDto[39m[33m:[39m [33mUpdateHoadonhhpDto[39m) {[0m
+  [0m [90m    |[39m                [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 77 |[39m     [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39msave([33mUpdateHoadonhhpDto[39m)[33m;[39m[0m
+  [0m [90m 78 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mfindOne({ where[33m:[39m { id[33m:[39m id } })[33m;[39m[0m
+  [0m [90m 79 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m76:20[22m[39m[1m[39m[22m
+[90mTS2693: [39m'string' only refers to a type, but is being used as a value here.
+  [0m [90m 74 |[39m   [36mreturn[39m { items[33m,[39m totalCount }[33m;[39m[0m
+  [0m [90m 75 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 76 |[39m   [36masync[39m update(id[33m:[39m string[33m,[39m [33mUpdateHoadonhhpDto[39m[33m:[39m [33mUpdateHoadonhhpDto[39m) {[0m
+  [0m [90m    |[39m                    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 77 |[39m     [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39msave([33mUpdateHoadonhhpDto[39m)[33m;[39m[0m
+  [0m [90m 78 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mfindOne({ where[33m:[39m { id[33m:[39m id } })[33m;[39m[0m
+  [0m [90m 79 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m77:5[22m[39m[1m[39m[22m
+[90mTS2532: [39mObject is possibly 'undefined'.
+  [0m [90m 75 |[39m   }[0m
+  [0m [90m 76 |[39m   [36masync[39m update(id[33m:[39m string[33m,[39m [33mUpdateHoadonhhpDto[39m[33m:[39m [33mUpdateHoadonhhpDto[39m) {[0m
+  [0m[31m[1m>[22m[39m[90m 77 |[39m     [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39msave([33mUpdateHoadonhhpDto[39m)[33m;[39m[0m
+  [0m [90m    |[39m     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 78 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mfindOne({ where[33m:[39m { id[33m:[39m id } })[33m;[39m[0m
+  [0m [90m 79 |[39m   }[0m
+  [0m [90m 80 |[39m   [36masync[39m remove(id[33m:[39m string) {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m80:3[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'async'.
+  [0m [90m 78 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mfindOne({ where[33m:[39m { id[33m:[39m id } })[33m;[39m[0m
+  [0m [90m 79 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 80 |[39m   [36masync[39m remove(id[33m:[39m string) {[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 81 |[39m     console[33m.[39merror(id)[0m
+  [0m [90m 82 |[39m     [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39m[36mdelete[39m(id)[33m;[39m[0m
+  [0m [90m 83 |[39m     [36mreturn[39m { deleted[33m:[39m [36mtrue[39m }[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m80:9[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'remove'.
+  [0m [90m 78 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mfindOne({ where[33m:[39m { id[33m:[39m id } })[33m;[39m[0m
+  [0m [90m 79 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 80 |[39m   [36masync[39m remove(id[33m:[39m string) {[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 81 |[39m     console[33m.[39merror(id)[0m
+  [0m [90m 82 |[39m     [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39m[36mdelete[39m(id)[33m;[39m[0m
+  [0m [90m 83 |[39m     [36mreturn[39m { deleted[33m:[39m [36mtrue[39m }[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m80:16[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'id'.
+  [0m [90m 78 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mfindOne({ where[33m:[39m { id[33m:[39m id } })[33m;[39m[0m
+  [0m [90m 79 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 80 |[39m   [36masync[39m remove(id[33m:[39m string) {[0m
+  [0m [90m    |[39m                [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 81 |[39m     console[33m.[39merror(id)[0m
+  [0m [90m 82 |[39m     [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39m[36mdelete[39m(id)[33m;[39m[0m
+  [0m [90m 83 |[39m     [36mreturn[39m { deleted[33m:[39m [36mtrue[39m }[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m80:20[22m[39m[1m[39m[22m
+[90mTS2693: [39m'string' only refers to a type, but is being used as a value here.
+  [0m [90m 78 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mfindOne({ where[33m:[39m { id[33m:[39m id } })[33m;[39m[0m
+  [0m [90m 79 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 80 |[39m   [36masync[39m remove(id[33m:[39m string) {[0m
+  [0m [90m    |[39m                    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 81 |[39m     console[33m.[39merror(id)[0m
+  [0m [90m 82 |[39m     [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39m[36mdelete[39m(id)[33m;[39m[0m
+  [0m [90m 83 |[39m     [36mreturn[39m { deleted[33m:[39m [36mtrue[39m }[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m81:19[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'id'.
+  [0m [90m 79 |[39m   }[0m
+  [0m [90m 80 |[39m   [36masync[39m remove(id[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 81 |[39m     console[33m.[39merror(id)[0m
+  [0m [90m    |[39m                   [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 82 |[39m     [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39m[36mdelete[39m(id)[33m;[39m[0m
+  [0m [90m 83 |[39m     [36mreturn[39m { deleted[33m:[39m [36mtrue[39m }[33m;[39m[0m
+  [0m [90m 84 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m82:11[22m[39m[1m[39m[22m
+[90mTS2532: [39mObject is possibly 'undefined'.
+  [0m [90m 80 |[39m   [36masync[39m remove(id[33m:[39m string) {[0m
+  [0m [90m 81 |[39m     console[33m.[39merror(id)[0m
+  [0m[31m[1m>[22m[39m[90m 82 |[39m     [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39m[36mdelete[39m(id)[33m;[39m[0m
+  [0m [90m    |[39m           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 83 |[39m     [36mreturn[39m { deleted[33m:[39m [36mtrue[39m }[33m;[39m[0m
+  [0m [90m 84 |[39m   }[0m
+  [0m [90m 85 |[39m }[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m82:43[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'id'.
+  [0m [90m 80 |[39m   [36masync[39m remove(id[33m:[39m string) {[0m
+  [0m [90m 81 |[39m     console[33m.[39merror(id)[0m
+  [0m[31m[1m>[22m[39m[90m 82 |[39m     [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39m[36mdelete[39m(id)[33m;[39m[0m
+  [0m [90m    |[39m                                           [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 83 |[39m     [36mreturn[39m { deleted[33m:[39m [36mtrue[39m }[33m;[39m[0m
+  [0m [90m 84 |[39m   }[0m
+  [0m [90m 85 |[39m }[0m
+
+webpack compiled with [1m[31m70 errors[39m[22m (e4fc13543da4804d)
+[1m[31mDebugger listening on ws://localhost:9229/c706593f-ffd9-404c-bc17-b8388ae1fbb0[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/c706593f-ffd9-404c-bc17-b8388ae1fbb0[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 111 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts[39m[22m
+[1m./src/app/hoadonhhp/hoadonhhp.service.ts[39m[22m [1m[32m36:8-12[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts(36,9)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+webpack compiled with [1m[31m1 error[39m[22m (5f5a88ffa39b4539)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 111 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (19388f09d7eac707)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 111 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (4be1681a0fd8b11b)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 111 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (6b2f2d7ca3e5de26)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 111 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (d68715fa1779852e)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 111 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (d68715fa1779852e)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m

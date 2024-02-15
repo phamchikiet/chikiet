@@ -1,0 +1,226 @@
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 157 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/xuatkho/xuatkho.service.ts:[32m[1m33:9[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ SHD: any; Gianhap: any; Thang: any; Soluong: any; TenSP: any; }' is not assignable to type 'FindOptionsWhere<XuatkhoEntity> | FindOptionsWhere<XuatkhoEntity>[]'.
+  Object literal may only specify known properties, and 'Gianhap' does not exist in type 'FindOptionsWhere<XuatkhoEntity> | FindOptionsWhere<XuatkhoEntity>[]'.
+  [0m [90m 31 |[39m       where[33m:[39m {[0m
+  [0m [90m 32 |[39m         [33mSHD[39m[33m:[39m data[33m.[39m[33mSHD[39m[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 33 |[39m         [33mGianhap[39m[33m:[39m data[33m.[39m[33mGianhap[39m[33m,[39m[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 34 |[39m         [33mThang[39m[33m:[39m data[33m.[39m[33mThang[39m[33m,[39m[0m
+  [0m [90m 35 |[39m         [33mSoluong[39m[33m:[39m data[33m.[39m[33mSoluong[39m[33m,[39m[0m
+  [0m [90m 36 |[39m         [33mTenSP[39m[33m:[39m data[33m.[39m[33mTenSP[39m[33m,[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (67aa52d3afde7f7d)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 157 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (13ad19c7bbade4f9)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 157 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (13ad19c7bbade4f9)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 157 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (13ad19c7bbade4f9)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 157 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (13ad19c7bbade4f9)
+[1m[31mDebugger listening on ws://localhost:9229/292e39ad-f845-4277-8390-70da81399990[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/292e39ad-f845-4277-8390-70da81399990[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 22688  - [39m[31m01/27/2024, 3:36:04 PM [31m  ERROR[39m[31m [38;5;3m[TypeOrmModule] [39m[31m[31mUnable to connect to the database. Retrying (1)...[39m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mQueryFailedError: Invalid default value for 'Giaxuat'[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 22688  - [39m[31m01/27/2024, 3:36:07 PM [31m  ERROR[39m[31m [38;5;3m[TypeOrmModule] [39m[31m[31mUnable to connect to the database. Retrying (2)...[39m[31m[39m[22m
+[1m[31mQueryFailedError: Invalid default value for 'Giaxuat'[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 22688  - [39m[31m01/27/2024, 3:36:10 PM [31m  ERROR[39m[31m [38;5;3m[TypeOrmModule] [39m[31m[31mUnable to connect to the database. Retrying (3)...[39m[31m[39m[22m
+[1m[31mQueryFailedError: Invalid default value for 'Giaxuat'[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 22688  - [39m[31m01/27/2024, 3:36:13 PM [31m  ERROR[39m[31m [38;5;3m[TypeOrmModule] [39m[31m[31mUnable to connect to the database. Retrying (4)...[39m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mQueryFailedError: Invalid default value for 'Giaxuat'[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 22688  - [39m[31m01/27/2024, 3:36:16 PM [31m  ERROR[39m[31m [38;5;3m[TypeOrmModule] [39m[31m[31mUnable to connect to the database. Retrying (5)...[39m[31m[39m[22m
+[1m[31mQueryFailedError: Invalid default value for 'Giaxuat'[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 22688  - [39m[31m01/27/2024, 3:36:19 PM [31m  ERROR[39m[31m [38;5;3m[TypeOrmModule] [39m[31m[31mUnable to connect to the database. Retrying (6)...[39m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mQueryFailedError: Invalid default value for 'Giaxuat'[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 22688  - [39m[31m01/27/2024, 3:36:23 PM [31m  ERROR[39m[31m [38;5;3m[TypeOrmModule] [39m[31m[31mUnable to connect to the database. Retrying (7)...[39m[31m[39m[22m
+[1m[31mQueryFailedError: Invalid default value for 'Giaxuat'[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 157 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/xuatkho/xuatkho.service.ts:[32m[1m33:9[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ SHD: any; Giaxuat: any; Thang: any; Soluong: any; TenSP: any; }' is not assignable to type 'FindOptionsWhere<XuatkhoEntity> | FindOptionsWhere<XuatkhoEntity>[]'.
+  Object literal may only specify known properties, and 'Giaxuat' does not exist in type 'FindOptionsWhere<XuatkhoEntity> | FindOptionsWhere<XuatkhoEntity>[]'.
+  [0m [90m 31 |[39m       where[33m:[39m {[0m
+  [0m [90m 32 |[39m         [33mSHD[39m[33m:[39m data[33m.[39m[33mSHD[39m[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 33 |[39m         [33mGiaxuat[39m[33m:[39m data[33m.[39m[33mGiaxuat[39m[33m,[39m[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 34 |[39m         [33mThang[39m[33m:[39m data[33m.[39m[33mThang[39m[33m,[39m[0m
+  [0m [90m 35 |[39m         [33mSoluong[39m[33m:[39m data[33m.[39m[33mSoluong[39m[33m,[39m[0m
+  [0m [90m 36 |[39m         [33mTenSP[39m[33m:[39m data[33m.[39m[33mTenSP[39m[33m,[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (c0b1913f9d55a6f0)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 157 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/xuatkho/xuatkho.service.ts:[32m[1m33:9[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ SHD: any; Giaxuat: any; Thang: any; Soluong: any; TenSP: any; }' is not assignable to type 'FindOptionsWhere<XuatkhoEntity> | FindOptionsWhere<XuatkhoEntity>[]'.
+  Object literal may only specify known properties, and 'Giaxuat' does not exist in type 'FindOptionsWhere<XuatkhoEntity> | FindOptionsWhere<XuatkhoEntity>[]'.
+  [0m [90m 31 |[39m       where[33m:[39m {[0m
+  [0m [90m 32 |[39m         [33mSHD[39m[33m:[39m data[33m.[39m[33mSHD[39m[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 33 |[39m         [33mGiaxuat[39m[33m:[39m data[33m.[39m[33mGiaxuat[39m[33m,[39m[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 34 |[39m         [33mThang[39m[33m:[39m data[33m.[39m[33mThang[39m[33m,[39m[0m
+  [0m [90m 35 |[39m         [33mSoluong[39m[33m:[39m data[33m.[39m[33mSoluong[39m[33m,[39m[0m
+  [0m [90m 36 |[39m         [33mTenSP[39m[33m:[39m data[33m.[39m[33mTenSP[39m[33m,[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (c0b1913f9d55a6f0)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 157 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/xuatkho/xuatkho.service.ts:[32m[1m33:9[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ SHD: any; Giaxuat: any; Thang: any; Soluong: any; TenSP: any; }' is not assignable to type 'FindOptionsWhere<XuatkhoEntity> | FindOptionsWhere<XuatkhoEntity>[]'.
+  Object literal may only specify known properties, and 'Giaxuat' does not exist in type 'FindOptionsWhere<XuatkhoEntity> | FindOptionsWhere<XuatkhoEntity>[]'.
+  [0m [90m 31 |[39m       where[33m:[39m {[0m
+  [0m [90m 32 |[39m         [33mSHD[39m[33m:[39m data[33m.[39m[33mSHD[39m[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 33 |[39m         [33mGiaxuat[39m[33m:[39m data[33m.[39m[33mGiaxuat[39m[33m,[39m[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 34 |[39m         [33mThang[39m[33m:[39m data[33m.[39m[33mThang[39m[33m,[39m[0m
+  [0m [90m 35 |[39m         [33mSoluong[39m[33m:[39m data[33m.[39m[33mSoluong[39m[33m,[39m[0m
+  [0m [90m 36 |[39m         [33mTenSP[39m[33m:[39m data[33m.[39m[33mTenSP[39m[33m,[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (c0b1913f9d55a6f0)
+[1m[31m[31m[Nest] 22688  - [39m[31m01/27/2024, 3:36:26 PM [31m  ERROR[39m[31m [38;5;3m[TypeOrmModule] [39m[31m[31mUnable to connect to the database. Retrying (8)...[39m[31m[39m[22m
+[1m[31mQueryFailedError: Invalid default value for 'Giaxuat'[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/3d4089a8-ff34-4257-8bbd-acdcbd02174a[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/3d4089a8-ff34-4257-8bbd-acdcbd02174a[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 157 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (eb5381e8320ab8cf)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 157 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (eb5381e8320ab8cf)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 157 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (eb5381e8320ab8cf)
+[1m[31mDebugger listening on ws://localhost:9229/5818843f-5b92-4a8b-bb72-50705a8ecc60[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/5818843f-5b92-4a8b-bb72-50705a8ecc60[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m

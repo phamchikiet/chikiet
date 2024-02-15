@@ -1,0 +1,804 @@
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 178 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (f99dd470e0524ff5)
+[1m[31mDebugger listening on ws://localhost:9229/aacd3568-8941-4b3d-b8b5-b4561d7e4a02[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/aacd3568-8941-4b3d-b8b5-b4561d7e4a02[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 183 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (ffd1506328e8c724)
+[1m[31mDebugger listening on ws://localhost:9229/2ad03951-cbe0-4b75-ac99-7ecfed6dbaca[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/2ad03951-cbe0-4b75-ac99-7ecfed6dbaca[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 183 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (ffd1506328e8c724)
+[1m[31mDebugger listening on ws://localhost:9229/b2115a8e-fb81-4734-aed1-e65820b7a63d[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/b2115a8e-fb81-4734-aed1-e65820b7a63d[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 183 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/tonkho/dto/create-tonkho.dto.ts[39m[22m
+[1mModule build [1m[31mfailed[39m[22m[1m (from ../node_modules/ts-loader/index.js):
+[1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'F:\chikiet\BEKetoan\be_ketoan\src\app\tonkho\dto\create-tonkho.dto.ts'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/tonkho/dto/update-tonkho.dto.ts[39m[22m
+[1mModule build [1m[31mfailed[39m[22m[1m (from ../node_modules/ts-loader/index.js):
+[1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'F:\chikiet\BEKetoan\be_ketoan\src\app\tonkho\dto\update-tonkho.dto.ts'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/tonkho/tonkho.controller.ts:[32m[1m3:33[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './dto/create-tonkho.dto' or its corresponding type declarations.
+  [0m [90m 1 |[39m [36mimport[39m { [33mController[39m[33m,[39m [33mGet[39m[33m,[39m [33mPost[39m[33m,[39m [33mBody[39m[33m,[39m [33mPatch[39m[33m,[39m [33mParam[39m[33m,[39m [33mDelete[39m } [36mfrom[39m [32m'@nestjs/common'[39m[33m;[39m[0m
+  [0m [90m 2 |[39m [36mimport[39m { [33mTonkhoService[39m } [36mfrom[39m [32m'./tonkho.service'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 3 |[39m [36mimport[39m { [33mCreateTonkhoDto[39m } [36mfrom[39m [32m'./dto/create-tonkho.dto'[39m[33m;[39m[0m
+  [0m [90m   |[39m                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mUpdateTonkhoDto[39m } [36mfrom[39m [32m'./dto/update-tonkho.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m[0m
+  [0m [90m 6 |[39m [33m@[39m[33mController[39m([32m'tonkho'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/tonkho/tonkho.controller.ts:[32m[1m4:33[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './dto/update-tonkho.dto' or its corresponding type declarations.
+  [0m [90m 2 |[39m [36mimport[39m { [33mTonkhoService[39m } [36mfrom[39m [32m'./tonkho.service'[39m[33m;[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m { [33mCreateTonkhoDto[39m } [36mfrom[39m [32m'./dto/create-tonkho.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 4 |[39m [36mimport[39m { [33mUpdateTonkhoDto[39m } [36mfrom[39m [32m'./dto/update-tonkho.dto'[39m[33m;[39m[0m
+  [0m [90m   |[39m                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 5 |[39m[0m
+  [0m [90m 6 |[39m [33m@[39m[33mController[39m([32m'tonkho'[39m)[0m
+  [0m [90m 7 |[39m [36mexport[39m [36mclass[39m [33mTonkhoController[39m {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/tonkho/tonkho.service.ts:[32m[1m2:33[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './dto/create-tonkho.dto' or its corresponding type declarations.
+  [0m [90m 1 |[39m [36mimport[39m { [33mInjectable[39m } [36mfrom[39m [32m'@nestjs/common'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 2 |[39m [36mimport[39m { [33mCreateTonkhoDto[39m } [36mfrom[39m [32m'./dto/create-tonkho.dto'[39m[33m;[39m[0m
+  [0m [90m   |[39m                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m { [33mUpdateTonkhoDto[39m } [36mfrom[39m [32m'./dto/update-tonkho.dto'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m[0m
+  [0m [90m 5 |[39m [33m@[39m[33mInjectable[39m()[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/tonkho/tonkho.service.ts:[32m[1m3:33[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './dto/update-tonkho.dto' or its corresponding type declarations.
+  [0m [90m 1 |[39m [36mimport[39m { [33mInjectable[39m } [36mfrom[39m [32m'@nestjs/common'[39m[33m;[39m[0m
+  [0m [90m 2 |[39m [36mimport[39m { [33mCreateTonkhoDto[39m } [36mfrom[39m [32m'./dto/create-tonkho.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 3 |[39m [36mimport[39m { [33mUpdateTonkhoDto[39m } [36mfrom[39m [32m'./dto/update-tonkho.dto'[39m[33m;[39m[0m
+  [0m [90m   |[39m                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 4 |[39m[0m
+  [0m [90m 5 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 6 |[39m [36mexport[39m [36mclass[39m [33mTonkhoService[39m {[0m
+
+webpack compiled with [1m[31m6 errors[39m[22m (d916f22d84872e95)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 183 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/tonkho/dto/create-tonkho.dto.ts[39m[22m
+[1mModule build [1m[31mfailed[39m[22m[1m (from ../node_modules/ts-loader/index.js):
+[1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'F:\chikiet\BEKetoan\be_ketoan\src\app\tonkho\dto\create-tonkho.dto.ts'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/tonkho/dto/update-tonkho.dto.ts[39m[22m
+[1mModule build [1m[31mfailed[39m[22m[1m (from ../node_modules/ts-loader/index.js):
+[1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'F:\chikiet\BEKetoan\be_ketoan\src\app\tonkho\dto\update-tonkho.dto.ts'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/tonkho/tonkho.controller.ts:[32m[1m3:33[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './dto/create-tonkho.dto' or its corresponding type declarations.
+  [0m [90m 1 |[39m [36mimport[39m { [33mController[39m[33m,[39m [33mGet[39m[33m,[39m [33mPost[39m[33m,[39m [33mBody[39m[33m,[39m [33mPatch[39m[33m,[39m [33mParam[39m[33m,[39m [33mDelete[39m } [36mfrom[39m [32m'@nestjs/common'[39m[33m;[39m[0m
+  [0m [90m 2 |[39m [36mimport[39m { [33mTonkhoService[39m } [36mfrom[39m [32m'./tonkho.service'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 3 |[39m [36mimport[39m { [33mCreateTonkhoDto[39m } [36mfrom[39m [32m'./dto/create-tonkho.dto'[39m[33m;[39m[0m
+  [0m [90m   |[39m                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mUpdateTonkhoDto[39m } [36mfrom[39m [32m'./dto/update-tonkho.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m[0m
+  [0m [90m 6 |[39m [33m@[39m[33mController[39m([32m'tonkho'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/tonkho/tonkho.controller.ts:[32m[1m4:33[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './dto/update-tonkho.dto' or its corresponding type declarations.
+  [0m [90m 2 |[39m [36mimport[39m { [33mTonkhoService[39m } [36mfrom[39m [32m'./tonkho.service'[39m[33m;[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m { [33mCreateTonkhoDto[39m } [36mfrom[39m [32m'./dto/create-tonkho.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 4 |[39m [36mimport[39m { [33mUpdateTonkhoDto[39m } [36mfrom[39m [32m'./dto/update-tonkho.dto'[39m[33m;[39m[0m
+  [0m [90m   |[39m                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 5 |[39m[0m
+  [0m [90m 6 |[39m [33m@[39m[33mController[39m([32m'tonkho'[39m)[0m
+  [0m [90m 7 |[39m [36mexport[39m [36mclass[39m [33mTonkhoController[39m {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/tonkho/tonkho.service.ts:[32m[1m2:33[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './dto/create-tonkho.dto' or its corresponding type declarations.
+  [0m [90m 1 |[39m [36mimport[39m { [33mInjectable[39m } [36mfrom[39m [32m'@nestjs/common'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 2 |[39m [36mimport[39m { [33mCreateTonkhoDto[39m } [36mfrom[39m [32m'./dto/create-tonkho.dto'[39m[33m;[39m[0m
+  [0m [90m   |[39m                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m { [33mUpdateTonkhoDto[39m } [36mfrom[39m [32m'./dto/update-tonkho.dto'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m[0m
+  [0m [90m 5 |[39m [33m@[39m[33mInjectable[39m()[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/tonkho/tonkho.service.ts:[32m[1m3:33[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './dto/update-tonkho.dto' or its corresponding type declarations.
+  [0m [90m 1 |[39m [36mimport[39m { [33mInjectable[39m } [36mfrom[39m [32m'@nestjs/common'[39m[33m;[39m[0m
+  [0m [90m 2 |[39m [36mimport[39m { [33mCreateTonkhoDto[39m } [36mfrom[39m [32m'./dto/create-tonkho.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 3 |[39m [36mimport[39m { [33mUpdateTonkhoDto[39m } [36mfrom[39m [32m'./dto/update-tonkho.dto'[39m[33m;[39m[0m
+  [0m [90m   |[39m                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 4 |[39m[0m
+  [0m [90m 5 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 6 |[39m [36mexport[39m [36mclass[39m [33mTonkhoService[39m {[0m
+
+webpack compiled with [1m[31m6 errors[39m[22m (d916f22d84872e95)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 183 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/tonkho/dto/create-tonkho.dto.ts[39m[22m
+[1mModule build [1m[31mfailed[39m[22m[1m (from ../node_modules/ts-loader/index.js):
+[1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'F:\chikiet\BEKetoan\be_ketoan\src\app\tonkho\dto\create-tonkho.dto.ts'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/tonkho/dto/update-tonkho.dto.ts[39m[22m
+[1mModule build [1m[31mfailed[39m[22m[1m (from ../node_modules/ts-loader/index.js):
+[1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'F:\chikiet\BEKetoan\be_ketoan\src\app\tonkho\dto\update-tonkho.dto.ts'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/tonkho/tonkho.controller.ts:[32m[1m3:33[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './dto/create-tonkho.dto' or its corresponding type declarations.
+  [0m [90m 1 |[39m [36mimport[39m { [33mController[39m[33m,[39m [33mGet[39m[33m,[39m [33mPost[39m[33m,[39m [33mBody[39m[33m,[39m [33mPatch[39m[33m,[39m [33mParam[39m[33m,[39m [33mDelete[39m } [36mfrom[39m [32m'@nestjs/common'[39m[33m;[39m[0m
+  [0m [90m 2 |[39m [36mimport[39m { [33mTonkhoService[39m } [36mfrom[39m [32m'./tonkho.service'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 3 |[39m [36mimport[39m { [33mCreateTonkhoDto[39m } [36mfrom[39m [32m'./dto/create-tonkho.dto'[39m[33m;[39m[0m
+  [0m [90m   |[39m                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mUpdateTonkhoDto[39m } [36mfrom[39m [32m'./dto/update-tonkho.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m[0m
+  [0m [90m 6 |[39m [33m@[39m[33mController[39m([32m'tonkho'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/tonkho/tonkho.controller.ts:[32m[1m4:33[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './dto/update-tonkho.dto' or its corresponding type declarations.
+  [0m [90m 2 |[39m [36mimport[39m { [33mTonkhoService[39m } [36mfrom[39m [32m'./tonkho.service'[39m[33m;[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m { [33mCreateTonkhoDto[39m } [36mfrom[39m [32m'./dto/create-tonkho.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 4 |[39m [36mimport[39m { [33mUpdateTonkhoDto[39m } [36mfrom[39m [32m'./dto/update-tonkho.dto'[39m[33m;[39m[0m
+  [0m [90m   |[39m                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 5 |[39m[0m
+  [0m [90m 6 |[39m [33m@[39m[33mController[39m([32m'tonkho'[39m)[0m
+  [0m [90m 7 |[39m [36mexport[39m [36mclass[39m [33mTonkhoController[39m {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/tonkho/tonkho.service.ts:[32m[1m2:33[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './dto/create-tonkho.dto' or its corresponding type declarations.
+  [0m [90m 1 |[39m [36mimport[39m { [33mInjectable[39m } [36mfrom[39m [32m'@nestjs/common'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 2 |[39m [36mimport[39m { [33mCreateTonkhoDto[39m } [36mfrom[39m [32m'./dto/create-tonkho.dto'[39m[33m;[39m[0m
+  [0m [90m   |[39m                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m { [33mUpdateTonkhoDto[39m } [36mfrom[39m [32m'./dto/update-tonkho.dto'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m[0m
+  [0m [90m 5 |[39m [33m@[39m[33mInjectable[39m()[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/tonkho/tonkho.service.ts:[32m[1m3:33[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './dto/update-tonkho.dto' or its corresponding type declarations.
+  [0m [90m 1 |[39m [36mimport[39m { [33mInjectable[39m } [36mfrom[39m [32m'@nestjs/common'[39m[33m;[39m[0m
+  [0m [90m 2 |[39m [36mimport[39m { [33mCreateTonkhoDto[39m } [36mfrom[39m [32m'./dto/create-tonkho.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 3 |[39m [36mimport[39m { [33mUpdateTonkhoDto[39m } [36mfrom[39m [32m'./dto/update-tonkho.dto'[39m[33m;[39m[0m
+  [0m [90m   |[39m                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 4 |[39m[0m
+  [0m [90m 5 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 6 |[39m [36mexport[39m [36mclass[39m [33mTonkhoService[39m {[0m
+
+webpack compiled with [1m[31m6 errors[39m[22m (d916f22d84872e95)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 185 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/tonkho/dto/create-tonkho.dto.ts[39m[22m
+[1mModule build [1m[31mfailed[39m[22m[1m (from ../node_modules/ts-loader/index.js):
+[1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'F:\chikiet\BEKetoan\be_ketoan\src\app\tonkho\dto\create-tonkho.dto.ts'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/tonkho/dto/update-tonkho.dto.ts[39m[22m
+[1mModule build [1m[31mfailed[39m[22m[1m (from ../node_modules/ts-loader/index.js):
+[1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'F:\chikiet\BEKetoan\be_ketoan\src\app\tonkho\dto\update-tonkho.dto.ts'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/tonkho/tonkho.service.ts[39m[22m [1m[32m9:29-69[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './entities/xuatnhapton.entity' in 'F:\chikiet\BEKetoan\be_ketoan\src\app\tonkho'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/tonkho/tonkho.controller.ts:[32m[1m2:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./tonkho.service"' has no exported member 'TonkhoService'.
+  [0m [90m 1 |[39m [36mimport[39m { [33mController[39m[33m,[39m [33mGet[39m[33m,[39m [33mPost[39m[33m,[39m [33mBody[39m[33m,[39m [33mPatch[39m[33m,[39m [33mParam[39m[33m,[39m [33mDelete[39m } [36mfrom[39m [32m'@nestjs/common'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 2 |[39m [36mimport[39m { [33mTonkhoService[39m } [36mfrom[39m [32m'./tonkho.service'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m { [33mCreateTonkhoDto[39m } [36mfrom[39m [32m'./dto/create-tonkho.dto'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mUpdateTonkhoDto[39m } [36mfrom[39m [32m'./dto/update-tonkho.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/tonkho/tonkho.controller.ts:[32m[1m3:33[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './dto/create-tonkho.dto' or its corresponding type declarations.
+  [0m [90m 1 |[39m [36mimport[39m { [33mController[39m[33m,[39m [33mGet[39m[33m,[39m [33mPost[39m[33m,[39m [33mBody[39m[33m,[39m [33mPatch[39m[33m,[39m [33mParam[39m[33m,[39m [33mDelete[39m } [36mfrom[39m [32m'@nestjs/common'[39m[33m;[39m[0m
+  [0m [90m 2 |[39m [36mimport[39m { [33mTonkhoService[39m } [36mfrom[39m [32m'./tonkho.service'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 3 |[39m [36mimport[39m { [33mCreateTonkhoDto[39m } [36mfrom[39m [32m'./dto/create-tonkho.dto'[39m[33m;[39m[0m
+  [0m [90m   |[39m                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mUpdateTonkhoDto[39m } [36mfrom[39m [32m'./dto/update-tonkho.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m[0m
+  [0m [90m 6 |[39m [33m@[39m[33mController[39m([32m'tonkho'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/tonkho/tonkho.controller.ts:[32m[1m4:33[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './dto/update-tonkho.dto' or its corresponding type declarations.
+  [0m [90m 2 |[39m [36mimport[39m { [33mTonkhoService[39m } [36mfrom[39m [32m'./tonkho.service'[39m[33m;[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m { [33mCreateTonkhoDto[39m } [36mfrom[39m [32m'./dto/create-tonkho.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 4 |[39m [36mimport[39m { [33mUpdateTonkhoDto[39m } [36mfrom[39m [32m'./dto/update-tonkho.dto'[39m[33m;[39m[0m
+  [0m [90m   |[39m                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 5 |[39m[0m
+  [0m [90m 6 |[39m [33m@[39m[33mController[39m([32m'tonkho'[39m)[0m
+  [0m [90m 7 |[39m [36mexport[39m [36mclass[39m [33mTonkhoController[39m {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/tonkho/tonkho.module.ts:[32m[1m2:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./tonkho.service"' has no exported member 'TonkhoService'.
+  [0m [90m 1 |[39m [36mimport[39m { [33mModule[39m } [36mfrom[39m [32m'@nestjs/common'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 2 |[39m [36mimport[39m { [33mTonkhoService[39m } [36mfrom[39m [32m'./tonkho.service'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m { [33mTonkhoController[39m } [36mfrom[39m [32m'./tonkho.controller'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m[0m
+  [0m [90m 5 |[39m [33m@[39m[33mModule[39m({[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/tonkho/tonkho.service.ts:[32m[1m4:35[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './entities/xuatnhapton.entity' or its corresponding type declarations.
+  [0m [90m 2 |[39m [36mimport[39m { [33mInjectRepository[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m { [33mLike[39m[33m,[39m [33mRepository[39m } [36mfrom[39m [32m'typeorm'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 4 |[39m [36mimport[39m { [33mXuatnhaptonEntity[39m } [36mfrom[39m [32m'./entities/xuatnhapton.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m                                   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 5 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 6 |[39m [36mexport[39m [36mclass[39m [33mXuatnhaptonService[39m {[0m
+  [0m [90m 7 |[39m   constructor([0m
+
+webpack compiled with [1m[31m8 errors[39m[22m (add4c89f03dc86e0)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 185 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/tonkho/dto/create-tonkho.dto.ts[39m[22m
+[1mModule build [1m[31mfailed[39m[22m[1m (from ../node_modules/ts-loader/index.js):
+[1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'F:\chikiet\BEKetoan\be_ketoan\src\app\tonkho\dto\create-tonkho.dto.ts'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/tonkho/dto/update-tonkho.dto.ts[39m[22m
+[1mModule build [1m[31mfailed[39m[22m[1m (from ../node_modules/ts-loader/index.js):
+[1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'F:\chikiet\BEKetoan\be_ketoan\src\app\tonkho\dto\update-tonkho.dto.ts'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/tonkho/tonkho.controller.ts:[32m[1m3:33[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './dto/create-tonkho.dto' or its corresponding type declarations.
+  [0m [90m 1 |[39m [36mimport[39m { [33mController[39m[33m,[39m [33mGet[39m[33m,[39m [33mPost[39m[33m,[39m [33mBody[39m[33m,[39m [33mPatch[39m[33m,[39m [33mParam[39m[33m,[39m [33mDelete[39m } [36mfrom[39m [32m'@nestjs/common'[39m[33m;[39m[0m
+  [0m [90m 2 |[39m [36mimport[39m { [33mTonkhoService[39m } [36mfrom[39m [32m'./tonkho.service'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 3 |[39m [36mimport[39m { [33mCreateTonkhoDto[39m } [36mfrom[39m [32m'./dto/create-tonkho.dto'[39m[33m;[39m[0m
+  [0m [90m   |[39m                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mUpdateTonkhoDto[39m } [36mfrom[39m [32m'./dto/update-tonkho.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m[0m
+  [0m [90m 6 |[39m [33m@[39m[33mController[39m([32m'tonkho'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/tonkho/tonkho.controller.ts:[32m[1m4:33[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './dto/update-tonkho.dto' or its corresponding type declarations.
+  [0m [90m 2 |[39m [36mimport[39m { [33mTonkhoService[39m } [36mfrom[39m [32m'./tonkho.service'[39m[33m;[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m { [33mCreateTonkhoDto[39m } [36mfrom[39m [32m'./dto/create-tonkho.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 4 |[39m [36mimport[39m { [33mUpdateTonkhoDto[39m } [36mfrom[39m [32m'./dto/update-tonkho.dto'[39m[33m;[39m[0m
+  [0m [90m   |[39m                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 5 |[39m[0m
+  [0m [90m 6 |[39m [33m@[39m[33mController[39m([32m'tonkho'[39m)[0m
+  [0m [90m 7 |[39m [36mexport[39m [36mclass[39m [33mTonkhoController[39m {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/tonkho/tonkho.controller.ts:[32m[1m22:31[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findOne' does not exist on type 'TonkhoService'.
+  [0m [90m 20 |[39m   [33m@[39m[33mGet[39m([32m':id'[39m)[0m
+  [0m [90m 21 |[39m   findOne([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 22 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mtonkhoService[33m.[39mfindOne([33m+[39mid)[33m;[39m[0m
+  [0m [90m    |[39m                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 23 |[39m   }[0m
+  [0m [90m 24 |[39m[0m
+  [0m [90m 25 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/tonkho/tonkho.controller.ts:[32m[1m27:38[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'number' is not assignable to parameter of type 'string'.
+  [0m [90m 25 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+  [0m [90m 26 |[39m   update([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string[33m,[39m [33m@[39m[33mBody[39m() updateTonkhoDto[33m:[39m [33mUpdateTonkhoDto[39m) {[0m
+  [0m[31m[1m>[22m[39m[90m 27 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mtonkhoService[33m.[39mupdate([33m+[39mid[33m,[39m updateTonkhoDto)[33m;[39m[0m
+  [0m [90m    |[39m                                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 28 |[39m   }[0m
+  [0m [90m 29 |[39m[0m
+  [0m [90m 30 |[39m   [33m@[39m[33mDelete[39m([32m':id'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/tonkho/tonkho.controller.ts:[32m[1m32:38[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'number' is not assignable to parameter of type 'string'.
+  [0m [90m 30 |[39m   [33m@[39m[33mDelete[39m([32m':id'[39m)[0m
+  [0m [90m 31 |[39m   remove([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 32 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mtonkhoService[33m.[39mremove([33m+[39mid)[33m;[39m[0m
+  [0m [90m    |[39m                                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 33 |[39m   }[0m
+  [0m [90m 34 |[39m }[0m
+  [0m [90m 35 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/tonkho/tonkho.service.ts:[32m[1m4:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./entities/tonkho.entity"' has no exported member 'TonkhoEntity'.
+  [0m [90m 2 |[39m [36mimport[39m { [33mInjectRepository[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m { [33mLike[39m[33m,[39m [33mRepository[39m } [36mfrom[39m [32m'typeorm'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 4 |[39m [36mimport[39m { [33mTonkhoEntity[39m } [36mfrom[39m [32m'./entities/tonkho.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 5 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 6 |[39m [36mexport[39m [36mclass[39m [33mTonkhoService[39m {[0m
+  [0m [90m 7 |[39m   constructor([0m
+
+webpack compiled with [1m[31m8 errors[39m[22m (c195a615a9948227)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 185 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/tonkho/dto/create-tonkho.dto.ts[39m[22m
+[1mModule build [1m[31mfailed[39m[22m[1m (from ../node_modules/ts-loader/index.js):
+[1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'F:\chikiet\BEKetoan\be_ketoan\src\app\tonkho\dto\create-tonkho.dto.ts'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/tonkho/dto/update-tonkho.dto.ts[39m[22m
+[1mModule build [1m[31mfailed[39m[22m[1m (from ../node_modules/ts-loader/index.js):
+[1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'F:\chikiet\BEKetoan\be_ketoan\src\app\tonkho\dto\update-tonkho.dto.ts'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/tonkho/tonkho.controller.ts:[32m[1m3:33[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './dto/create-tonkho.dto' or its corresponding type declarations.
+  [0m [90m 1 |[39m [36mimport[39m { [33mController[39m[33m,[39m [33mGet[39m[33m,[39m [33mPost[39m[33m,[39m [33mBody[39m[33m,[39m [33mPatch[39m[33m,[39m [33mParam[39m[33m,[39m [33mDelete[39m } [36mfrom[39m [32m'@nestjs/common'[39m[33m;[39m[0m
+  [0m [90m 2 |[39m [36mimport[39m { [33mTonkhoService[39m } [36mfrom[39m [32m'./tonkho.service'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 3 |[39m [36mimport[39m { [33mCreateTonkhoDto[39m } [36mfrom[39m [32m'./dto/create-tonkho.dto'[39m[33m;[39m[0m
+  [0m [90m   |[39m                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mUpdateTonkhoDto[39m } [36mfrom[39m [32m'./dto/update-tonkho.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m[0m
+  [0m [90m 6 |[39m [33m@[39m[33mController[39m([32m'tonkho'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/tonkho/tonkho.controller.ts:[32m[1m4:33[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './dto/update-tonkho.dto' or its corresponding type declarations.
+  [0m [90m 2 |[39m [36mimport[39m { [33mTonkhoService[39m } [36mfrom[39m [32m'./tonkho.service'[39m[33m;[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m { [33mCreateTonkhoDto[39m } [36mfrom[39m [32m'./dto/create-tonkho.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 4 |[39m [36mimport[39m { [33mUpdateTonkhoDto[39m } [36mfrom[39m [32m'./dto/update-tonkho.dto'[39m[33m;[39m[0m
+  [0m [90m   |[39m                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 5 |[39m[0m
+  [0m [90m 6 |[39m [33m@[39m[33mController[39m([32m'tonkho'[39m)[0m
+  [0m [90m 7 |[39m [36mexport[39m [36mclass[39m [33mTonkhoController[39m {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/tonkho/tonkho.controller.ts:[32m[1m22:31[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findOne' does not exist on type 'TonkhoService'.
+  [0m [90m 20 |[39m   [33m@[39m[33mGet[39m([32m':id'[39m)[0m
+  [0m [90m 21 |[39m   findOne([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 22 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mtonkhoService[33m.[39mfindOne([33m+[39mid)[33m;[39m[0m
+  [0m [90m    |[39m                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 23 |[39m   }[0m
+  [0m [90m 24 |[39m[0m
+  [0m [90m 25 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/tonkho/tonkho.controller.ts:[32m[1m27:38[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'number' is not assignable to parameter of type 'string'.
+  [0m [90m 25 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+  [0m [90m 26 |[39m   update([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string[33m,[39m [33m@[39m[33mBody[39m() updateTonkhoDto[33m:[39m [33mUpdateTonkhoDto[39m) {[0m
+  [0m[31m[1m>[22m[39m[90m 27 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mtonkhoService[33m.[39mupdate([33m+[39mid[33m,[39m updateTonkhoDto)[33m;[39m[0m
+  [0m [90m    |[39m                                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 28 |[39m   }[0m
+  [0m [90m 29 |[39m[0m
+  [0m [90m 30 |[39m   [33m@[39m[33mDelete[39m([32m':id'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/tonkho/tonkho.controller.ts:[32m[1m32:38[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'number' is not assignable to parameter of type 'string'.
+  [0m [90m 30 |[39m   [33m@[39m[33mDelete[39m([32m':id'[39m)[0m
+  [0m [90m 31 |[39m   remove([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 32 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mtonkhoService[33m.[39mremove([33m+[39mid)[33m;[39m[0m
+  [0m [90m    |[39m                                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 33 |[39m   }[0m
+  [0m [90m 34 |[39m }[0m
+  [0m [90m 35 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/tonkho/tonkho.service.ts:[32m[1m4:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./entities/tonkho.entity"' has no exported member 'TonkhoEntity'.
+  [0m [90m 2 |[39m [36mimport[39m { [33mInjectRepository[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m { [33mLike[39m[33m,[39m [33mRepository[39m } [36mfrom[39m [32m'typeorm'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 4 |[39m [36mimport[39m { [33mTonkhoEntity[39m } [36mfrom[39m [32m'./entities/tonkho.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 5 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 6 |[39m [36mexport[39m [36mclass[39m [33mTonkhoService[39m {[0m
+  [0m [90m 7 |[39m   constructor([0m
+
+webpack compiled with [1m[31m8 errors[39m[22m (c195a615a9948227)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 185 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/tonkho/dto/create-tonkho.dto.ts[39m[22m
+[1mModule build [1m[31mfailed[39m[22m[1m (from ../node_modules/ts-loader/index.js):
+[1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'F:\chikiet\BEKetoan\be_ketoan\src\app\tonkho\dto\create-tonkho.dto.ts'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/tonkho/dto/update-tonkho.dto.ts[39m[22m
+[1mModule build [1m[31mfailed[39m[22m[1m (from ../node_modules/ts-loader/index.js):
+[1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'F:\chikiet\BEKetoan\be_ketoan\src\app\tonkho\dto\update-tonkho.dto.ts'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/tonkho/tonkho.controller.ts:[32m[1m3:33[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './dto/create-tonkho.dto' or its corresponding type declarations.
+  [0m [90m 1 |[39m [36mimport[39m { [33mController[39m[33m,[39m [33mGet[39m[33m,[39m [33mPost[39m[33m,[39m [33mBody[39m[33m,[39m [33mPatch[39m[33m,[39m [33mParam[39m[33m,[39m [33mDelete[39m } [36mfrom[39m [32m'@nestjs/common'[39m[33m;[39m[0m
+  [0m [90m 2 |[39m [36mimport[39m { [33mTonkhoService[39m } [36mfrom[39m [32m'./tonkho.service'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 3 |[39m [36mimport[39m { [33mCreateTonkhoDto[39m } [36mfrom[39m [32m'./dto/create-tonkho.dto'[39m[33m;[39m[0m
+  [0m [90m   |[39m                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mUpdateTonkhoDto[39m } [36mfrom[39m [32m'./dto/update-tonkho.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m[0m
+  [0m [90m 6 |[39m [33m@[39m[33mController[39m([32m'tonkho'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/tonkho/tonkho.controller.ts:[32m[1m4:33[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './dto/update-tonkho.dto' or its corresponding type declarations.
+  [0m [90m 2 |[39m [36mimport[39m { [33mTonkhoService[39m } [36mfrom[39m [32m'./tonkho.service'[39m[33m;[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m { [33mCreateTonkhoDto[39m } [36mfrom[39m [32m'./dto/create-tonkho.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 4 |[39m [36mimport[39m { [33mUpdateTonkhoDto[39m } [36mfrom[39m [32m'./dto/update-tonkho.dto'[39m[33m;[39m[0m
+  [0m [90m   |[39m                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 5 |[39m[0m
+  [0m [90m 6 |[39m [33m@[39m[33mController[39m([32m'tonkho'[39m)[0m
+  [0m [90m 7 |[39m [36mexport[39m [36mclass[39m [33mTonkhoController[39m {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/tonkho/tonkho.controller.ts:[32m[1m22:31[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findOne' does not exist on type 'TonkhoService'.
+  [0m [90m 20 |[39m   [33m@[39m[33mGet[39m([32m':id'[39m)[0m
+  [0m [90m 21 |[39m   findOne([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 22 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mtonkhoService[33m.[39mfindOne([33m+[39mid)[33m;[39m[0m
+  [0m [90m    |[39m                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 23 |[39m   }[0m
+  [0m [90m 24 |[39m[0m
+  [0m [90m 25 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/tonkho/tonkho.controller.ts:[32m[1m27:38[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'number' is not assignable to parameter of type 'string'.
+  [0m [90m 25 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+  [0m [90m 26 |[39m   update([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string[33m,[39m [33m@[39m[33mBody[39m() updateTonkhoDto[33m:[39m [33mUpdateTonkhoDto[39m) {[0m
+  [0m[31m[1m>[22m[39m[90m 27 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mtonkhoService[33m.[39mupdate([33m+[39mid[33m,[39m updateTonkhoDto)[33m;[39m[0m
+  [0m [90m    |[39m                                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 28 |[39m   }[0m
+  [0m [90m 29 |[39m[0m
+  [0m [90m 30 |[39m   [33m@[39m[33mDelete[39m([32m':id'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/tonkho/tonkho.controller.ts:[32m[1m32:38[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'number' is not assignable to parameter of type 'string'.
+  [0m [90m 30 |[39m   [33m@[39m[33mDelete[39m([32m':id'[39m)[0m
+  [0m [90m 31 |[39m   remove([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 32 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mtonkhoService[33m.[39mremove([33m+[39mid)[33m;[39m[0m
+  [0m [90m    |[39m                                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 33 |[39m   }[0m
+  [0m [90m 34 |[39m }[0m
+  [0m [90m 35 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/tonkho/tonkho.service.ts:[32m[1m4:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./entities/tonkho.entity"' has no exported member 'TonkhoEntity'.
+  [0m [90m 2 |[39m [36mimport[39m { [33mInjectRepository[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m { [33mLike[39m[33m,[39m [33mRepository[39m } [36mfrom[39m [32m'typeorm'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 4 |[39m [36mimport[39m { [33mTonkhoEntity[39m } [36mfrom[39m [32m'./entities/tonkho.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 5 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 6 |[39m [36mexport[39m [36mclass[39m [33mTonkhoService[39m {[0m
+  [0m [90m 7 |[39m   constructor([0m
+
+webpack compiled with [1m[31m8 errors[39m[22m (c195a615a9948227)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 186 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/tonkho/dto/create-tonkho.dto.ts[39m[22m
+[1mModule build [1m[31mfailed[39m[22m[1m (from ../node_modules/ts-loader/index.js):
+[1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'F:\chikiet\BEKetoan\be_ketoan\src\app\tonkho\dto\create-tonkho.dto.ts'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/tonkho/dto/update-tonkho.dto.ts[39m[22m
+[1mModule build [1m[31mfailed[39m[22m[1m (from ../node_modules/ts-loader/index.js):
+[1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'F:\chikiet\BEKetoan\be_ketoan\src\app\tonkho\dto\update-tonkho.dto.ts'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/tonkho/tonkho.controller.ts:[32m[1m3:33[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './dto/create-tonkho.dto' or its corresponding type declarations.
+  [0m [90m 1 |[39m [36mimport[39m { [33mController[39m[33m,[39m [33mGet[39m[33m,[39m [33mPost[39m[33m,[39m [33mBody[39m[33m,[39m [33mPatch[39m[33m,[39m [33mParam[39m[33m,[39m [33mDelete[39m } [36mfrom[39m [32m'@nestjs/common'[39m[33m;[39m[0m
+  [0m [90m 2 |[39m [36mimport[39m { [33mTonkhoService[39m } [36mfrom[39m [32m'./tonkho.service'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 3 |[39m [36mimport[39m { [33mCreateTonkhoDto[39m } [36mfrom[39m [32m'./dto/create-tonkho.dto'[39m[33m;[39m[0m
+  [0m [90m   |[39m                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mUpdateTonkhoDto[39m } [36mfrom[39m [32m'./dto/update-tonkho.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m[0m
+  [0m [90m 6 |[39m [33m@[39m[33mController[39m([32m'tonkho'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/tonkho/tonkho.controller.ts:[32m[1m4:33[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './dto/update-tonkho.dto' or its corresponding type declarations.
+  [0m [90m 2 |[39m [36mimport[39m { [33mTonkhoService[39m } [36mfrom[39m [32m'./tonkho.service'[39m[33m;[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m { [33mCreateTonkhoDto[39m } [36mfrom[39m [32m'./dto/create-tonkho.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 4 |[39m [36mimport[39m { [33mUpdateTonkhoDto[39m } [36mfrom[39m [32m'./dto/update-tonkho.dto'[39m[33m;[39m[0m
+  [0m [90m   |[39m                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 5 |[39m[0m
+  [0m [90m 6 |[39m [33m@[39m[33mController[39m([32m'tonkho'[39m)[0m
+  [0m [90m 7 |[39m [36mexport[39m [36mclass[39m [33mTonkhoController[39m {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/tonkho/tonkho.controller.ts:[32m[1m22:31[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findOne' does not exist on type 'TonkhoService'.
+  [0m [90m 20 |[39m   [33m@[39m[33mGet[39m([32m':id'[39m)[0m
+  [0m [90m 21 |[39m   findOne([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 22 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mtonkhoService[33m.[39mfindOne([33m+[39mid)[33m;[39m[0m
+  [0m [90m    |[39m                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 23 |[39m   }[0m
+  [0m [90m 24 |[39m[0m
+  [0m [90m 25 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/tonkho/tonkho.controller.ts:[32m[1m27:38[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'number' is not assignable to parameter of type 'string'.
+  [0m [90m 25 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+  [0m [90m 26 |[39m   update([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string[33m,[39m [33m@[39m[33mBody[39m() updateTonkhoDto[33m:[39m [33mUpdateTonkhoDto[39m) {[0m
+  [0m[31m[1m>[22m[39m[90m 27 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mtonkhoService[33m.[39mupdate([33m+[39mid[33m,[39m updateTonkhoDto)[33m;[39m[0m
+  [0m [90m    |[39m                                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 28 |[39m   }[0m
+  [0m [90m 29 |[39m[0m
+  [0m [90m 30 |[39m   [33m@[39m[33mDelete[39m([32m':id'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/tonkho/tonkho.controller.ts:[32m[1m32:38[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'number' is not assignable to parameter of type 'string'.
+  [0m [90m 30 |[39m   [33m@[39m[33mDelete[39m([32m':id'[39m)[0m
+  [0m [90m 31 |[39m   remove([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 32 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mtonkhoService[33m.[39mremove([33m+[39mid)[33m;[39m[0m
+  [0m [90m    |[39m                                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 33 |[39m   }[0m
+  [0m [90m 34 |[39m }[0m
+  [0m [90m 35 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/tonkho/tonkho.module.ts:[32m[1m5:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./entities/tonkho.entity"' has no exported member 'TonkhoEntity'.
+  [0m [90m 3 |[39m [36mimport[39m { [33mTonkhoController[39m } [36mfrom[39m [32m'./tonkho.controller'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mTypeOrmModule[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mTonkhoEntity[39m } [36mfrom[39m [32m'./entities/tonkho.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 6 |[39m [33m@[39m[33mModule[39m({[0m
+  [0m [90m 7 |[39m   imports[33m:[39m [[33mTypeOrmModule[39m[33m.[39mforFeature([[33mTonkhoEntity[39m])][33m,[39m[0m
+  [0m [90m 8 |[39m   controllers[33m:[39m [[33mTonkhoController[39m][33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/tonkho/tonkho.service.ts:[32m[1m4:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./entities/tonkho.entity"' has no exported member 'TonkhoEntity'.
+  [0m [90m 2 |[39m [36mimport[39m { [33mInjectRepository[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m { [33mLike[39m[33m,[39m [33mRepository[39m } [36mfrom[39m [32m'typeorm'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 4 |[39m [36mimport[39m { [33mTonkhoEntity[39m } [36mfrom[39m [32m'./entities/tonkho.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 5 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 6 |[39m [36mexport[39m [36mclass[39m [33mTonkhoService[39m {[0m
+  [0m [90m 7 |[39m   constructor([0m
+
+webpack compiled with [1m[31m9 errors[39m[22m (9cb8d10d4f50e4d0)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 186 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/tonkho/dto/create-tonkho.dto.ts[39m[22m
+[1mModule build [1m[31mfailed[39m[22m[1m (from ../node_modules/ts-loader/index.js):
+[1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'F:\chikiet\BEKetoan\be_ketoan\src\app\tonkho\dto\create-tonkho.dto.ts'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/tonkho/dto/update-tonkho.dto.ts[39m[22m
+[1mModule build [1m[31mfailed[39m[22m[1m (from ../node_modules/ts-loader/index.js):
+[1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'F:\chikiet\BEKetoan\be_ketoan\src\app\tonkho\dto\update-tonkho.dto.ts'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/tonkho/tonkho.controller.ts:[32m[1m3:33[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './dto/create-tonkho.dto' or its corresponding type declarations.
+  [0m [90m 1 |[39m [36mimport[39m { [33mController[39m[33m,[39m [33mGet[39m[33m,[39m [33mPost[39m[33m,[39m [33mBody[39m[33m,[39m [33mPatch[39m[33m,[39m [33mParam[39m[33m,[39m [33mDelete[39m } [36mfrom[39m [32m'@nestjs/common'[39m[33m;[39m[0m
+  [0m [90m 2 |[39m [36mimport[39m { [33mTonkhoService[39m } [36mfrom[39m [32m'./tonkho.service'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 3 |[39m [36mimport[39m { [33mCreateTonkhoDto[39m } [36mfrom[39m [32m'./dto/create-tonkho.dto'[39m[33m;[39m[0m
+  [0m [90m   |[39m                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mUpdateTonkhoDto[39m } [36mfrom[39m [32m'./dto/update-tonkho.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m[0m
+  [0m [90m 6 |[39m [33m@[39m[33mController[39m([32m'tonkho'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/tonkho/tonkho.controller.ts:[32m[1m4:33[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './dto/update-tonkho.dto' or its corresponding type declarations.
+  [0m [90m 2 |[39m [36mimport[39m { [33mTonkhoService[39m } [36mfrom[39m [32m'./tonkho.service'[39m[33m;[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m { [33mCreateTonkhoDto[39m } [36mfrom[39m [32m'./dto/create-tonkho.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 4 |[39m [36mimport[39m { [33mUpdateTonkhoDto[39m } [36mfrom[39m [32m'./dto/update-tonkho.dto'[39m[33m;[39m[0m
+  [0m [90m   |[39m                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 5 |[39m[0m
+  [0m [90m 6 |[39m [33m@[39m[33mController[39m([32m'tonkho'[39m)[0m
+  [0m [90m 7 |[39m [36mexport[39m [36mclass[39m [33mTonkhoController[39m {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/tonkho/tonkho.controller.ts:[32m[1m22:31[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findOne' does not exist on type 'TonkhoService'.
+  [0m [90m 20 |[39m   [33m@[39m[33mGet[39m([32m':id'[39m)[0m
+  [0m [90m 21 |[39m   findOne([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 22 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mtonkhoService[33m.[39mfindOne([33m+[39mid)[33m;[39m[0m
+  [0m [90m    |[39m                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 23 |[39m   }[0m
+  [0m [90m 24 |[39m[0m
+  [0m [90m 25 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/tonkho/tonkho.controller.ts:[32m[1m27:38[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'number' is not assignable to parameter of type 'string'.
+  [0m [90m 25 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+  [0m [90m 26 |[39m   update([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string[33m,[39m [33m@[39m[33mBody[39m() updateTonkhoDto[33m:[39m [33mUpdateTonkhoDto[39m) {[0m
+  [0m[31m[1m>[22m[39m[90m 27 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mtonkhoService[33m.[39mupdate([33m+[39mid[33m,[39m updateTonkhoDto)[33m;[39m[0m
+  [0m [90m    |[39m                                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 28 |[39m   }[0m
+  [0m [90m 29 |[39m[0m
+  [0m [90m 30 |[39m   [33m@[39m[33mDelete[39m([32m':id'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/tonkho/tonkho.controller.ts:[32m[1m32:38[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'number' is not assignable to parameter of type 'string'.
+  [0m [90m 30 |[39m   [33m@[39m[33mDelete[39m([32m':id'[39m)[0m
+  [0m [90m 31 |[39m   remove([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 32 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mtonkhoService[33m.[39mremove([33m+[39mid)[33m;[39m[0m
+  [0m [90m    |[39m                                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 33 |[39m   }[0m
+  [0m [90m 34 |[39m }[0m
+  [0m [90m 35 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/tonkho/tonkho.module.ts:[32m[1m5:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./entities/tonkho.entity"' has no exported member 'TonkhoEntity'.
+  [0m [90m 3 |[39m [36mimport[39m { [33mTonkhoController[39m } [36mfrom[39m [32m'./tonkho.controller'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mTypeOrmModule[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mTonkhoEntity[39m } [36mfrom[39m [32m'./entities/tonkho.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 6 |[39m [33m@[39m[33mModule[39m({[0m
+  [0m [90m 7 |[39m   imports[33m:[39m [[33mTypeOrmModule[39m[33m.[39mforFeature([[33mTonkhoEntity[39m])][33m,[39m[0m
+  [0m [90m 8 |[39m   controllers[33m:[39m [[33mTonkhoController[39m][33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/tonkho/tonkho.service.ts:[32m[1m4:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./entities/tonkho.entity"' has no exported member 'TonkhoEntity'.
+  [0m [90m 2 |[39m [36mimport[39m { [33mInjectRepository[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m { [33mLike[39m[33m,[39m [33mRepository[39m } [36mfrom[39m [32m'typeorm'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 4 |[39m [36mimport[39m { [33mTonkhoEntity[39m } [36mfrom[39m [32m'./entities/tonkho.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 5 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 6 |[39m [36mexport[39m [36mclass[39m [33mTonkhoService[39m {[0m
+  [0m [90m 7 |[39m   constructor([0m
+
+webpack compiled with [1m[31m9 errors[39m[22m (9cb8d10d4f50e4d0)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 186 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/tonkho/dto/create-tonkho.dto.ts[39m[22m
+[1mModule build [1m[31mfailed[39m[22m[1m (from ../node_modules/ts-loader/index.js):
+[1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'F:\chikiet\BEKetoan\be_ketoan\src\app\tonkho\dto\create-tonkho.dto.ts'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/tonkho/dto/update-tonkho.dto.ts[39m[22m
+[1mModule build [1m[31mfailed[39m[22m[1m (from ../node_modules/ts-loader/index.js):
+[1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'F:\chikiet\BEKetoan\be_ketoan\src\app\tonkho\dto\update-tonkho.dto.ts'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/tonkho/tonkho.controller.ts:[32m[1m3:33[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './dto/create-tonkho.dto' or its corresponding type declarations.
+  [0m [90m 1 |[39m [36mimport[39m { [33mController[39m[33m,[39m [33mGet[39m[33m,[39m [33mPost[39m[33m,[39m [33mBody[39m[33m,[39m [33mPatch[39m[33m,[39m [33mParam[39m[33m,[39m [33mDelete[39m } [36mfrom[39m [32m'@nestjs/common'[39m[33m;[39m[0m
+  [0m [90m 2 |[39m [36mimport[39m { [33mTonkhoService[39m } [36mfrom[39m [32m'./tonkho.service'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 3 |[39m [36mimport[39m { [33mCreateTonkhoDto[39m } [36mfrom[39m [32m'./dto/create-tonkho.dto'[39m[33m;[39m[0m
+  [0m [90m   |[39m                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mUpdateTonkhoDto[39m } [36mfrom[39m [32m'./dto/update-tonkho.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m[0m
+  [0m [90m 6 |[39m [33m@[39m[33mController[39m([32m'tonkho'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/tonkho/tonkho.controller.ts:[32m[1m4:33[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './dto/update-tonkho.dto' or its corresponding type declarations.
+  [0m [90m 2 |[39m [36mimport[39m { [33mTonkhoService[39m } [36mfrom[39m [32m'./tonkho.service'[39m[33m;[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m { [33mCreateTonkhoDto[39m } [36mfrom[39m [32m'./dto/create-tonkho.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 4 |[39m [36mimport[39m { [33mUpdateTonkhoDto[39m } [36mfrom[39m [32m'./dto/update-tonkho.dto'[39m[33m;[39m[0m
+  [0m [90m   |[39m                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 5 |[39m[0m
+  [0m [90m 6 |[39m [33m@[39m[33mController[39m([32m'tonkho'[39m)[0m
+  [0m [90m 7 |[39m [36mexport[39m [36mclass[39m [33mTonkhoController[39m {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/tonkho/tonkho.controller.ts:[32m[1m22:31[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findOne' does not exist on type 'TonkhoService'.
+  [0m [90m 20 |[39m   [33m@[39m[33mGet[39m([32m':id'[39m)[0m
+  [0m [90m 21 |[39m   findOne([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 22 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mtonkhoService[33m.[39mfindOne([33m+[39mid)[33m;[39m[0m
+  [0m [90m    |[39m                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 23 |[39m   }[0m
+  [0m [90m 24 |[39m[0m
+  [0m [90m 25 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/tonkho/tonkho.controller.ts:[32m[1m27:38[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'number' is not assignable to parameter of type 'string'.
+  [0m [90m 25 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+  [0m [90m 26 |[39m   update([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string[33m,[39m [33m@[39m[33mBody[39m() updateTonkhoDto[33m:[39m [33mUpdateTonkhoDto[39m) {[0m
+  [0m[31m[1m>[22m[39m[90m 27 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mtonkhoService[33m.[39mupdate([33m+[39mid[33m,[39m updateTonkhoDto)[33m;[39m[0m
+  [0m [90m    |[39m                                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 28 |[39m   }[0m
+  [0m [90m 29 |[39m[0m
+  [0m [90m 30 |[39m   [33m@[39m[33mDelete[39m([32m':id'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/tonkho/tonkho.controller.ts:[32m[1m32:38[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'number' is not assignable to parameter of type 'string'.
+  [0m [90m 30 |[39m   [33m@[39m[33mDelete[39m([32m':id'[39m)[0m
+  [0m [90m 31 |[39m   remove([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 32 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mtonkhoService[33m.[39mremove([33m+[39mid)[33m;[39m[0m
+  [0m [90m    |[39m                                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 33 |[39m   }[0m
+  [0m [90m 34 |[39m }[0m
+  [0m [90m 35 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/tonkho/tonkho.module.ts:[32m[1m5:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./entities/tonkho.entity"' has no exported member 'TonkhoEntity'.
+  [0m [90m 3 |[39m [36mimport[39m { [33mTonkhoController[39m } [36mfrom[39m [32m'./tonkho.controller'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mTypeOrmModule[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mTonkhoEntity[39m } [36mfrom[39m [32m'./entities/tonkho.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 6 |[39m [33m@[39m[33mModule[39m({[0m
+  [0m [90m 7 |[39m   imports[33m:[39m [[33mTypeOrmModule[39m[33m.[39mforFeature([[33mTonkhoEntity[39m])][33m,[39m[0m
+  [0m [90m 8 |[39m   controllers[33m:[39m [[33mTonkhoController[39m][33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/tonkho/tonkho.service.ts:[32m[1m4:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./entities/tonkho.entity"' has no exported member 'TonkhoEntity'.
+  [0m [90m 2 |[39m [36mimport[39m { [33mInjectRepository[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m { [33mLike[39m[33m,[39m [33mRepository[39m } [36mfrom[39m [32m'typeorm'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 4 |[39m [36mimport[39m { [33mTonkhoEntity[39m } [36mfrom[39m [32m'./entities/tonkho.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 5 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 6 |[39m [36mexport[39m [36mclass[39m [33mTonkhoService[39m {[0m
+  [0m [90m 7 |[39m   constructor([0m
+
+webpack compiled with [1m[31m9 errors[39m[22m (9cb8d10d4f50e4d0)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 186 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/tonkho/tonkho.module.ts:[32m[1m5:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./entities/tonkho.entity"' has no exported member 'TonkhoEntity'.
+  [0m [90m 3 |[39m [36mimport[39m { [33mTonkhoController[39m } [36mfrom[39m [32m'./tonkho.controller'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mTypeOrmModule[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mTonkhoEntity[39m } [36mfrom[39m [32m'./entities/tonkho.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 6 |[39m [33m@[39m[33mModule[39m({[0m
+  [0m [90m 7 |[39m   imports[33m:[39m [[33mTypeOrmModule[39m[33m.[39mforFeature([[33mTonkhoEntity[39m])][33m,[39m[0m
+  [0m [90m 8 |[39m   controllers[33m:[39m [[33mTonkhoController[39m][33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/tonkho/tonkho.service.ts:[32m[1m4:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./entities/tonkho.entity"' has no exported member 'TonkhoEntity'.
+  [0m [90m 2 |[39m [36mimport[39m { [33mInjectRepository[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m { [33mLike[39m[33m,[39m [33mRepository[39m } [36mfrom[39m [32m'typeorm'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 4 |[39m [36mimport[39m { [33mTonkhoEntity[39m } [36mfrom[39m [32m'./entities/tonkho.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 5 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 6 |[39m [36mexport[39m [36mclass[39m [33mTonkhoService[39m {[0m
+  [0m [90m 7 |[39m   constructor([0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (e1934d0ea25c6cd1)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 186 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/tonkho/tonkho.module.ts:[32m[1m5:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./entities/tonkho.entity"' has no exported member 'TonkhoEntity'.
+  [0m [90m 3 |[39m [36mimport[39m { [33mTonkhoController[39m } [36mfrom[39m [32m'./tonkho.controller'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mTypeOrmModule[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mTonkhoEntity[39m } [36mfrom[39m [32m'./entities/tonkho.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 6 |[39m [33m@[39m[33mModule[39m({[0m
+  [0m [90m 7 |[39m   imports[33m:[39m [[33mTypeOrmModule[39m[33m.[39mforFeature([[33mTonkhoEntity[39m])][33m,[39m[0m
+  [0m [90m 8 |[39m   controllers[33m:[39m [[33mTonkhoController[39m][33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/tonkho/tonkho.service.ts:[32m[1m4:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./entities/tonkho.entity"' has no exported member 'TonkhoEntity'.
+  [0m [90m 2 |[39m [36mimport[39m { [33mInjectRepository[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m { [33mLike[39m[33m,[39m [33mRepository[39m } [36mfrom[39m [32m'typeorm'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 4 |[39m [36mimport[39m { [33mTonkhoEntity[39m } [36mfrom[39m [32m'./entities/tonkho.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 5 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 6 |[39m [36mexport[39m [36mclass[39m [33mTonkhoService[39m {[0m
+  [0m [90m 7 |[39m   constructor([0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (e1934d0ea25c6cd1)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 186 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/tonkho/tonkho.module.ts:[32m[1m5:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./entities/tonkho.entity"' has no exported member 'TonkhoEntity'.
+  [0m [90m 3 |[39m [36mimport[39m { [33mTonkhoController[39m } [36mfrom[39m [32m'./tonkho.controller'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mTypeOrmModule[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mTonkhoEntity[39m } [36mfrom[39m [32m'./entities/tonkho.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 6 |[39m [33m@[39m[33mModule[39m({[0m
+  [0m [90m 7 |[39m   imports[33m:[39m [[33mTypeOrmModule[39m[33m.[39mforFeature([[33mTonkhoEntity[39m])][33m,[39m[0m
+  [0m [90m 8 |[39m   controllers[33m:[39m [[33mTonkhoController[39m][33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/tonkho/tonkho.service.ts:[32m[1m4:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./entities/tonkho.entity"' has no exported member 'TonkhoEntity'.
+  [0m [90m 2 |[39m [36mimport[39m { [33mInjectRepository[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m { [33mLike[39m[33m,[39m [33mRepository[39m } [36mfrom[39m [32m'typeorm'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 4 |[39m [36mimport[39m { [33mTonkhoEntity[39m } [36mfrom[39m [32m'./entities/tonkho.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 5 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 6 |[39m [36mexport[39m [36mclass[39m [33mTonkhoService[39m {[0m
+  [0m [90m 7 |[39m   constructor([0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (e1934d0ea25c6cd1)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 191 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/tonkho/tonkho.module.ts:[32m[1m5:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./entities/tonkho.entity"' has no exported member 'TonkhoEntity'.
+  [0m [90m 3 |[39m [36mimport[39m { [33mTonkhoController[39m } [36mfrom[39m [32m'./tonkho.controller'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mTypeOrmModule[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mTonkhoEntity[39m } [36mfrom[39m [32m'./entities/tonkho.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 6 |[39m [33m@[39m[33mModule[39m({[0m
+  [0m [90m 7 |[39m   imports[33m:[39m [[33mTypeOrmModule[39m[33m.[39mforFeature([[33mTonkhoEntity[39m])][33m,[39m[0m
+  [0m [90m 8 |[39m   controllers[33m:[39m [[33mTonkhoController[39m][33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/tonkho/tonkho.service.ts:[32m[1m4:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./entities/tonkho.entity"' has no exported member 'TonkhoEntity'.
+  [0m [90m 2 |[39m [36mimport[39m { [33mInjectRepository[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m { [33mLike[39m[33m,[39m [33mRepository[39m } [36mfrom[39m [32m'typeorm'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 4 |[39m [36mimport[39m { [33mTonkhoEntity[39m } [36mfrom[39m [32m'./entities/tonkho.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 5 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 6 |[39m [36mexport[39m [36mclass[39m [33mTonkhoService[39m {[0m
+  [0m [90m 7 |[39m   constructor([0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (9c43f02ca084ad53)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 190 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (f71e8e1346c5fb52)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 190 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (f71e8e1346c5fb52)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 190 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (f71e8e1346c5fb52)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 190 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (f71e8e1346c5fb52)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m

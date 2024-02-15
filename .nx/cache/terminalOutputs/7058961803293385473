@@ -1,0 +1,145 @@
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 85.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (9aa4a0ae86d95e29)
+[1m[31mDebugger listening on ws://localhost:9229/d007b9ff-060b-41b8-81a2-1738f7b5d211[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/d007b9ff-060b-41b8-81a2-1738f7b5d211[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 85.8 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (c38e23744d6ddd85)
+[1m[31mDebugger listening on ws://localhost:9229/a21bf78b-be91-4879-bc28-42d29f900604[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/a21bf78b-be91-4879-bc28-42d29f900604[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 85.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (02b5d92d150523e7)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 85.9 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (02b5d92d150523e7)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 85.9 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (02b5d92d150523e7)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 85.9 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (02b5d92d150523e7)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 85.9 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (02b5d92d150523e7)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 85.9 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (02b5d92d150523e7)
+[1m[31mDebugger listening on ws://localhost:9229/934e2a40-703a-408c-a3d7-50d9590e4b29[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/934e2a40-703a-408c-a3d7-50d9590e4b29[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 85.8 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (4a0bb482c6f4630e)
+[1m[31mDebugger listening on ws://localhost:9229/fa1e5159-fe45-4452-9fd4-5441ab5570ec[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/fa1e5159-fe45-4452-9fd4-5441ab5570ec[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 85.8 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (4a0bb482c6f4630e)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 85.8 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (4a0bb482c6f4630e)
+[1m[31mDebugger listening on ws://localhost:9229/4ba272b7-72a0-4d07-be99-a67500334d4f[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/4ba272b7-72a0-4d07-be99-a67500334d4f[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 85.8 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.service.ts:[32m[1m31:34[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'data'.
+  [0m [90m 29 |[39m   [36masync[39m findSHD(shdon[33m:[39m any) {[0m
+  [0m [90m 30 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mSohoadonRepository[39m[33m.[39mfindOne({[0m
+  [0m[31m[1m>[22m[39m[90m 31 |[39m       where[33m:[39m { shdon[33m:[39m shdon[33m,[39m[33mLoai[39m[33m:[39mdata[33m.[39m[33mLoai[39m }[33m,[39m[0m
+  [0m [90m    |[39m                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 32 |[39m     })[33m;[39m[0m
+  [0m [90m 33 |[39m   }[0m
+  [0m [90m 34 |[39m   [36masync[39m findid(id[33m:[39m string) {[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (111d470cc3e1fc37)
+[1m[31mDebugger listening on ws://localhost:9229/03569d76-4407-480c-b3ac-2400c4b408f3[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/03569d76-4407-480c-b3ac-2400c4b408f3[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 85.8 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.service.ts:[32m[1m31:34[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'data'.
+  [0m [90m 29 |[39m   [36masync[39m findSHD(shdon[33m:[39m any) {[0m
+  [0m [90m 30 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mSohoadonRepository[39m[33m.[39mfindOne({[0m
+  [0m[31m[1m>[22m[39m[90m 31 |[39m       where[33m:[39m { shdon[33m:[39m shdon[33m,[39m[33mLoai[39m[33m:[39mdata[33m.[39m[33mLoai[39m }[33m,[39m[0m
+  [0m [90m    |[39m                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 32 |[39m     })[33m;[39m[0m
+  [0m [90m 33 |[39m   }[0m
+  [0m [90m 34 |[39m   [36masync[39m findid(id[33m:[39m string) {[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (8dedacbf4a7fcc68)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 85.8 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.service.ts:[32m[1m31:34[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'data'.
+  [0m [90m 29 |[39m   [36masync[39m findSHD(shdon[33m:[39m any) {[0m
+  [0m [90m 30 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mSohoadonRepository[39m[33m.[39mfindOne({[0m
+  [0m[31m[1m>[22m[39m[90m 31 |[39m       where[33m:[39m { shdon[33m:[39m shdon[33m,[39m[33mLoai[39m[33m:[39mdata[33m.[39m[33mLoai[39m }[33m,[39m[0m
+  [0m [90m    |[39m                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 32 |[39m     })[33m;[39m[0m
+  [0m [90m 33 |[39m   }[0m
+  [0m [90m 34 |[39m   [36masync[39m findid(id[33m:[39m string) {[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (8dedacbf4a7fcc68)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 85.8 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.service.ts:[32m[1m31:34[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'data'.
+  [0m [90m 29 |[39m   [36masync[39m findSHD(shdon[33m:[39m any) {[0m
+  [0m [90m 30 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mSohoadonRepository[39m[33m.[39mfindOne({[0m
+  [0m[31m[1m>[22m[39m[90m 31 |[39m       where[33m:[39m { shdon[33m:[39m shdon[33m,[39m[33mLoai[39m[33m:[39mdata[33m.[39m[33mLoai[39m }[33m,[39m[0m
+  [0m [90m    |[39m                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 32 |[39m     })[33m;[39m[0m
+  [0m [90m 33 |[39m   }[0m
+  [0m [90m 34 |[39m   [36masync[39m findid(id[33m:[39m string) {[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (8dedacbf4a7fcc68)
+[1m[31mDebugger listening on ws://localhost:9229/25e9d725-7f11-4d8a-a26d-c4cbbb72b558[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/25e9d725-7f11-4d8a-a26d-c4cbbb72b558[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 85.8 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.service.ts:[32m[1m31:23[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'shdon'.
+  [0m [90m 29 |[39m   [36masync[39m findSHD(data[33m:[39m any) {[0m
+  [0m [90m 30 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mSohoadonRepository[39m[33m.[39mfindOne({[0m
+  [0m[31m[1m>[22m[39m[90m 31 |[39m       where[33m:[39m { shdon[33m:[39m shdon[33m,[39m[33mLoai[39m[33m:[39mdata[33m.[39m[33mLoai[39m }[33m,[39m[0m
+  [0m [90m    |[39m                       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 32 |[39m     })[33m;[39m[0m
+  [0m [90m 33 |[39m   }[0m
+  [0m [90m 34 |[39m   [36masync[39m findid(id[33m:[39m string) {[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (b50e6071ec9171f8)
+[1m[31mDebugger listening on ws://localhost:9229/f09ac1a9-0248-4854-a46a-050830e526c9[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/f09ac1a9-0248-4854-a46a-050830e526c9[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 85.8 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (361e1cc439bef642)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 85.8 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (361e1cc439bef642)
+[1m[31mDebugger listening on ws://localhost:9229/45d5e07c-a05d-4147-8ee6-b876bc0d5aeb[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/45d5e07c-a05d-4147-8ee6-b876bc0d5aeb[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 85.8 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (361e1cc439bef642)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 85.8 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (361e1cc439bef642)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 85.8 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (361e1cc439bef642)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 85.8 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (361e1cc439bef642)
+[1m[31mDebugger listening on ws://localhost:9229/b0753103-5db6-4214-8664-d70fb9328eb5[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/b0753103-5db6-4214-8664-d70fb9328eb5[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 85.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (3f8fc22b5f4d519a)
+[1m[31mDebugger listening on ws://localhost:9229/5cabdb20-ecf3-4adf-8eb6-95568eaffb66[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/5cabdb20-ecf3-4adf-8eb6-95568eaffb66[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m

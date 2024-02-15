@@ -1,0 +1,1806 @@
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 196 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (ddbb91ea1d587f31)
+[1m[31mDebugger listening on ws://localhost:9229/aac52878-f37b-49f5-a988-ff60ce8f52bc[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/aac52878-f37b-49f5-a988-ff60ce8f52bc[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: 99, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: '9999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: '99999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  pageSize: '999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  pageSize: '999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: 99, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: 99, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: '9', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: '99', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: '9999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: '9999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: '99999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: 99, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: 99, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: 99, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: '99*', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 22008  - [39m[31m02/04/2024, 4:55:37 PM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mProvided "limit" value is not a number. Please provide a numeric value.[39m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mTypeORMError: Provided "limit" value is not a number. Please provide a numeric value.[39m[22m
+[1m[31m    at SelectQueryBuilder.limit (F:\chikiet\BEKetoan\src\query-builder\SelectQueryBuilder.ts:1459:19)[39m[22m
+[1m[31m    at XuatkhoService.findQuery (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\xuatkho\xuatkho.service.ts:73:8)[39m[22m
+[1m[31m    at XuatkhoController.findQuery (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\xuatkho\xuatkho.controller.ts:33:40)[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\node_modules\@nestjs\core\router\router-execution-context.js:38:29[39m[22m
+[1m[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\node_modules\@nestjs\core\router\router-execution-context.js:46:28[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\node_modules\@nestjs\core\router\router-proxy.js:9:17[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: '99*9', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 22008  - [39m[31m02/04/2024, 4:55:37 PM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mProvided "limit" value is not a number. Please provide a numeric value.[39m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mTypeORMError: Provided "limit" value is not a number. Please provide a numeric value.[39m[22m
+[1m[31m    at SelectQueryBuilder.limit (F:\chikiet\BEKetoan\src\query-builder\SelectQueryBuilder.ts:1459:19)[39m[22m
+[1m[31m    at XuatkhoService.findQuery (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\xuatkho\xuatkho.service.ts:73:8)[39m[22m
+[1m[31m    at XuatkhoController.findQuery (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\xuatkho\xuatkho.controller.ts:33:40)[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\node_modules\@nestjs\core\router\router-execution-context.js:38:29[39m[22m
+[1m[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\node_modules\@nestjs\core\router\router-execution-context.js:46:28[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\node_modules\@nestjs\core\router\router-proxy.js:9:17[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: '99*99', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 22008  - [39m[31m02/04/2024, 4:55:37 PM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mProvided "limit" value is not a number. Please provide a numeric value.[39m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mTypeORMError: Provided "limit" value is not a number. Please provide a numeric value.[39m[22m
+[1m[31m    at SelectQueryBuilder.limit (F:\chikiet\BEKetoan\src\query-builder\SelectQueryBuilder.ts:1459:19)[39m[22m
+[1m[31m    at XuatkhoService.findQuery (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\xuatkho\xuatkho.service.ts:73:8)[39m[22m
+[1m[31m    at XuatkhoController.findQuery (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\xuatkho\xuatkho.controller.ts:33:40)[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\node_modules\@nestjs\core\router\router-execution-context.js:38:29[39m[22m
+[1m[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\node_modules\@nestjs\core\router\router-execution-context.js:46:28[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\node_modules\@nestjs\core\router\router-proxy.js:9:17[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'XUAT',[39m[22m
+[1m[31m  pageSize: '99*999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 22008  - [39m[31m02/04/2024, 4:55:37 PM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mProvided "limit" value is not a number. Please provide a numeric value.[39m[31m[39m[22m
+[1m[31mTypeORMError: Provided "limit" value is not a number. Please provide a numeric value.[39m[22m
+[1m[31m    at SelectQueryBuilder.limit (F:\chikiet\BEKetoan\src\query-builder\SelectQueryBuilder.ts:1459:19)[39m[22m
+[1m[31m    at XuatkhoService.findQuery (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\xuatkho\xuatkho.service.ts:73:8)[39m[22m
+[1m[31m    at XuatkhoController.findQuery (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\xuatkho\xuatkho.controller.ts:33:40)[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\node_modules\@nestjs\core\router\router-execution-context.js:38:29[39m[22m
+[1m[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\node_modules\@nestjs\core\router\router-execution-context.js:46:28[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\node_modules\@nestjs\core\router\router-proxy.js:9:17[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'XUAT',[39m[22m
+[1m[31m  pageSize: '99*9999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 22008  - [39m[31m02/04/2024, 4:55:37 PM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mProvided "limit" value is not a number. Please provide a numeric value.[39m[31m[39m[22m
+[1m[31mTypeORMError: Provided "limit" value is not a number. Please provide a numeric value.[39m[22m
+[1m[31m    at SelectQueryBuilder.limit (F:\chikiet\BEKetoan\src\query-builder\SelectQueryBuilder.ts:1459:19)[39m[22m
+[1m[31m    at XuatkhoService.findQuery (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\xuatkho\xuatkho.service.ts:73:8)[39m[22m
+[1m[31m    at XuatkhoController.findQuery (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\xuatkho\xuatkho.controller.ts:33:40)[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\node_modules\@nestjs\core\router\router-execution-context.js:38:29[39m[22m
+[1m[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\node_modules\@nestjs\core\router\router-execution-context.js:46:28[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\node_modules\@nestjs\core\router\router-proxy.js:9:17[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: '9', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: '99', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: '999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: '9999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: 99, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: '9', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: '99', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'XUAT',[39m[22m
+[1m[31m  pageSize: '999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'XUAT',[39m[22m
+[1m[31m  pageSize: '999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'XUAT',[39m[22m
+[1m[31m  pageSize: '999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'XUAT',[39m[22m
+[1m[31m  pageSize: '999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: 99, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: '9999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: '99999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: '99999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: 99, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: '99999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: '99999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: '99999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: 99, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: 99, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: '999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: '9999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: 99, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: '9999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: '99999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  pageSize: '999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  pageSize: '999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 196 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (ddbb91ea1d587f31)
+[1m[31mDebugger listening on ws://localhost:9229/ca7c2efd-fd2a-48cc-a9f5-c04df8202657[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/ca7c2efd-fd2a-48cc-a9f5-c04df8202657[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 196 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (a57b1acd48f693b9)
+[1m[31mDebugger listening on ws://localhost:9229/c886f40f-747e-49e8-af27-7ae1d6c3cd8f[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/c886f40f-747e-49e8-af27-7ae1d6c3cd8f[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 196 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (0f5d0283c8568a70)
+[1m[31mDebugger listening on ws://localhost:9229/4f1c3893-e7e0-4a1e-a17b-c0c024675372[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/4f1c3893-e7e0-4a1e-a17b-c0c024675372[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 196 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (60c733210214b73f)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 196 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (60c733210214b73f)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 196 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (60c733210214b73f)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 196 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (60c733210214b73f)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 196 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (60c733210214b73f)
+[1m[31mDebugger listening on ws://localhost:9229/e42d0b3d-3474-4a76-85e2-8bf2b379264f[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/e42d0b3d-3474-4a76-85e2-8bf2b379264f[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: 99, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: 99, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: '9', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: '99', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: '999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: '9999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: '99999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: 99, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: '9999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'XUAT',[39m[22m
+[1m[31m  pageSize: '9999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'XUAT',[39m[22m
+[1m[31m  pageSize: '9999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'XUAT',[39m[22m
+[1m[31m  pageSize: '9999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'XUAT',[39m[22m
+[1m[31m  pageSize: '9999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: 99, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: 99, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: '999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: '9999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: '99999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: 99, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: '9999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'XUAT',[39m[22m
+[1m[31m  pageSize: '999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'XUAT',[39m[22m
+[1m[31m  pageSize: '999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'XUAT',[39m[22m
+[1m[31m  pageSize: '999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: 99, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: '9999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'XUAT',[39m[22m
+[1m[31m  pageSize: '9999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'XUAT',[39m[22m
+[1m[31m  pageSize: '9999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'XUAT',[39m[22m
+[1m[31m  pageSize: '9999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'XUAT',[39m[22m
+[1m[31m  pageSize: '9999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: 99, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: 99, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: 99, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: 99, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: '9999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: '99999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'XUAT',[39m[22m
+[1m[31m  pageSize: '9999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'XUAT',[39m[22m
+[1m[31m  pageSize: '9999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'XUAT',[39m[22m
+[1m[31m  pageSize: '9999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: 99, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: 99, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: '999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: '9999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: '99999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'XUAT',[39m[22m
+[1m[31m  pageSize: '999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: 9000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: 9000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2023, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  pageSize: '999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  pageSize: '999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2023, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 12,[39m[22m
+[1m[31m  Nam: 2023,[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  pageSize: '999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 12,[39m[22m
+[1m[31m  Nam: 2023,[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  pageSize: '999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 11, Nam: 2023, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 11,[39m[22m
+[1m[31m  Nam: 2023,[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  pageSize: '999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 11,[39m[22m
+[1m[31m  Nam: 2023,[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  pageSize: '999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 10, Nam: 2023, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  pageSize: '999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  pageSize: '999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2023, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  pageSize: '999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  pageSize: '999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  pageSize: '999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  pageSize: '999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  pageSize: '999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  pageSize: '999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2023, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2023, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2023, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: 99, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: '9999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  pageSize: '999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  pageSize: '999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  pageSize: '999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: 99, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: 99, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: 99, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: 99, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: '9999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: '99999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  pageSize: '999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  pageSize: '999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: 99, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: '', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: '999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: '9999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: '99999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: '99999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: '99999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: 99, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: 99, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: 99, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: 99, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: '9999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: '99999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  pageSize: '999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  pageSize: '999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: 99, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: 99, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: '9', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: '99', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: '999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: '9999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: 99, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: '9999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'XUAT',[39m[22m
+[1m[31m  pageSize: '999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'XUAT',[39m[22m
+[1m[31m  pageSize: '999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'XUAT',[39m[22m
+[1m[31m  pageSize: '999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: 99, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: '9', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: '99', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'XUAT',[39m[22m
+[1m[31m  pageSize: '9999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'XUAT',[39m[22m
+[1m[31m  pageSize: '9999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'XUAT',[39m[22m
+[1m[31m  pageSize: '9999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'XUAT',[39m[22m
+[1m[31m  pageSize: '9999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'XUAT',[39m[22m
+[1m[31m  pageSize: '9999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: 99, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: '9999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'XUAT',[39m[22m
+[1m[31m  pageSize: '9999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'XUAT',[39m[22m
+[1m[31m  pageSize: '9999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'XUAT',[39m[22m
+[1m[31m  pageSize: '9999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'XUAT',[39m[22m
+[1m[31m  pageSize: '9999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: 99, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: 99, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: '999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: '9999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: '99999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'XUAT',[39m[22m
+[1m[31m  pageSize: '999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: 99, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: '9999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'XUAT',[39m[22m
+[1m[31m  pageSize: '999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'XUAT',[39m[22m
+[1m[31m  pageSize: '9999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'XUAT',[39m[22m
+[1m[31m  pageSize: '9999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'XUAT',[39m[22m
+[1m[31m  pageSize: '9999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: 99, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: 99, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: '999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: '9999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: '99999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'XUAT',[39m[22m
+[1m[31m  pageSize: '999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'XUAT',[39m[22m
+[1m[31m  pageSize: '9999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: 99, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: '9999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'XUAT',[39m[22m
+[1m[31m  pageSize: '99999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'XUAT',[39m[22m
+[1m[31m  pageSize: '999999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'XUAT',[39m[22m
+[1m[31m  pageSize: '999999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'XUAT',[39m[22m
+[1m[31m  pageSize: '999999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'XUAT',[39m[22m
+[1m[31m  pageSize: '999999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'XUAT',[39m[22m
+[1m[31m  pageSize: '999999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: 99, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: 99, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: '999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: '9999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: '99999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'XUAT',[39m[22m
+[1m[31m  pageSize: '999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'XUAT',[39m[22m
+[1m[31m  pageSize: '9999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'XUAT',[39m[22m
+[1m[31m  pageSize: '99999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'XUAT',[39m[22m
+[1m[31m  pageSize: '999999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'XUAT',[39m[22m
+[1m[31m  pageSize: '9999999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'XUAT',[39m[22m
+[1m[31m  pageSize: '99999999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: 9000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: 9000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2023, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  pageSize: '9999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  pageSize: '9999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2023, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  pageSize: '9999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  pageSize: '9999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  pageSize: '9999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2023, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  pageSize: '9999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  pageSize: '9999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  pageSize: '9999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  pageSize: '9999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  pageSize: '9999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  pageSize: '9999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  pageSize: '9999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2023, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  pageSize: '9999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2023, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  pageSize: '9999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2023, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  pageSize: '9999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2023, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  pageSize: '9999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  pageSize: '9999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  pageSize: '9999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  pageSize: '9999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  pageSize: '9999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  pageSize: '9999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  pageSize: '9999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2023, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  pageSize: '9999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  pageSize: '9999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2023, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2023, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2023, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2023, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2023, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: '99999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'XUAT',[39m[22m
+[1m[31m  pageSize: '9999999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'XUAT',[39m[22m
+[1m[31m  pageSize: '9999999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'XUAT',[39m[22m
+[1m[31m  pageSize: '9999999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'XUAT',[39m[22m
+[1m[31m  pageSize: '9999999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'XUAT',[39m[22m
+[1m[31m  pageSize: '9999999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'XUAT',[39m[22m
+[1m[31m  pageSize: '9999999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'XUAT',[39m[22m
+[1m[31m  pageSize: '9999999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: 99, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: 99, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: 99, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: 99, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: 99, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: 99, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: 9000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: 9000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2023, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  pageSize: '9999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  pageSize: '9999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: 99, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2022, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2023, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0, Nam: 2024 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0, Nam: 2024 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2023, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0, Nam: 2024 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: '9', pageNumber: 0, Nam: 2024 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: '99', pageNumber: 0, Nam: 2024 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: '99', pageNumber: 0, Nam: 2024 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: '999', pageNumber: 0, Nam: 2024 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: '999', pageNumber: 0, Nam: 2024 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: '9999', pageNumber: 0, Nam: 2024 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: '9999', pageNumber: 0, Nam: 2024 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2023, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: '99999', pageNumber: 0, Nam: 2024 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  pageSize: '999999',[39m[22m
+[1m[31m  pageNumber: 0,[39m[22m
+[1m[31m  Nam: 2024[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2023, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  pageSize: '999999',[39m[22m
+[1m[31m  pageNumber: 0,[39m[22m
+[1m[31m  Nam: 2024[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  pageSize: '999999',[39m[22m
+[1m[31m  pageNumber: 0,[39m[22m
+[1m[31m  Nam: 2024[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2023, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2023, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2023, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2023, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: 9000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: 9000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  pageSize: '999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  pageSize: '999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  pageSize: '999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  pageSize: '999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2023, Type: 'NHAP', pageSize: 9000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2023, Type: 'NHAP', pageSize: 9000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2022, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: 9000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: 9000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2022, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: 9000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: 9000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2023, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: 9000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: 9000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2023, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 196 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (60c733210214b73f)
+[1m[31mDebugger listening on ws://localhost:9229/daa38c81-5406-4655-a142-352d815bba9e[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/daa38c81-5406-4655-a142-352d815bba9e[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 196 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (336a573e9e8823e5)
+[1m[31mDebugger listening on ws://localhost:9229/a2b5311a-4e9f-4a19-a4fc-de5e926d64ce[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/a2b5311a-4e9f-4a19-a4fc-de5e926d64ce[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 196 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/tonkho/tonkho.service.ts:[32m[1m67:31[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'Thang'.
+  [0m [90m 65 |[39m       queryBuilder[33m.[39mandWhere([32m'tonkho.Title LIKE :Title'[39m[33m,[39m { [33mSDT[39m[33m:[39m [32m`%${params.Title}%`[39m })[33m;[39m[0m
+  [0m [90m 66 |[39m     }[0m
+  [0m[31m[1m>[22m[39m[90m 67 |[39m     [36mif[39m (params[33m.[39mhasOwnProperty([33mThang[39m)) {[0m
+  [0m [90m    |[39m                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 68 |[39m       queryBuilder[33m.[39mandWhere([32m'tonkho.Thang = :Thang'[39m[33m,[39m { [33mThang[39m[33m:[39m [32m`${params.Thang}`[39m })[33m;[39m[0m
+  [0m [90m 69 |[39m     }[0m
+  [0m [90m 70 |[39m     [36mif[39m (params[33m.[39m[33mNam[39m) {[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (8ba0e516b6cffdad)
+[1m[31mDebugger listening on ws://localhost:9229/ca79cd09-747f-4e51-a455-2112ae3bd14b[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/ca79cd09-747f-4e51-a455-2112ae3bd14b[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 196 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (e084e811de9a5506)
+[1m[31mDebugger listening on ws://localhost:9229/8df7d894-0f40-4bd2-85ae-7c8a616f33cd[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/8df7d894-0f40-4bd2-85ae-7c8a616f33cd[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 196 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (ee56c247259180bf)
+[1m[31mDebugger listening on ws://localhost:9229/02de53cf-db33-4b8f-a557-b25de1b0bda6[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/02de53cf-db33-4b8f-a557-b25de1b0bda6[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 196 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (ef473af28a380f0b)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 196 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (ef473af28a380f0b)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 196 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (ef473af28a380f0b)
+[1m[31mDebugger listening on ws://localhost:9229/617bc07e-c4f2-4f44-a7a1-ace78406f184[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/617bc07e-c4f2-4f44-a7a1-ace78406f184[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2023, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2023, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2023, Type: 'XUAT', pageSize: '', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2023, Type: 'XUAT', pageSize: '9', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2023, Type: 'XUAT', pageSize: '99', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2023, Type: 'XUAT', pageSize: '999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2023, Type: 'XUAT', pageSize: '9999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2023, pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2023, pageSize: 99, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2023, pageSize: 99, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2023, pageSize: '999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2023, pageSize: '9999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 11, Nam: 2023, pageSize: '99999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2023, pageSize: 99, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2023, pageSize: 99, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2023, pageSize: 99, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: 9000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: 9000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2023, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: '99999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: '99999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: '99999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: '99999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2023, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: '99999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: '99999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2023, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2023, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: '99999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: '99999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: '99999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2023, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: '99999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2023, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: '99999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: '99999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2023, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: 99, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2023, pageSize: 99, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2023, pageSize: 99, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2023, Type: 'NHAP', pageSize: 9000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2023, Type: 'NHAP', pageSize: 9000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2023, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2023, Type: 'NHAP', pageSize: '99999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2023, Type: 'NHAP', pageSize: '99999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2023, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2023, Type: 'NHAP', pageSize: '99999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2023, Type: 'NHAP', pageSize: '99999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2023, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: '99999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: '99999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: '99999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2023, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: '99999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: '99999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: '99999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: '99999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2023, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: '99999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2023, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2023, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: '99999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: '99999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: '99999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2023, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: '99999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: '99999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: '99999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2023, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2023, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2023, pageSize: 99, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2023, pageSize: 99, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2023, pageSize: 99, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2023, pageSize: 99, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2023, pageSize: 99, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2023, pageSize: 99, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: '99999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: '99999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2023, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: '99999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: '99999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: '99999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: '99999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2023, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: '99999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2023, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: '99999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: '99999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: '99999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2023, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2023, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: '99999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: '99999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2023, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: '99999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: '99999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2023, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: '99999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: '99999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2023, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: '282', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: '282', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: '282', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2023, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: '282', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2023, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: '282', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: '282', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: '282', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: '282', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: '282', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: '282', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2023, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: '282', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: '282', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: '282', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2023, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: '282', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2023, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: '282', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: '282', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2023, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2023, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2023, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: '282', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: '282', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2023, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: 9000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: 9000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2023, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: 99, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: 99, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: '9', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: '99', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: '999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: '9999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: 99, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: 99, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: '9', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: '99', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: '999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: '9999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: '99999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'XUAT',[39m[22m
+[1m[31m  pageSize: '999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2023, pageSize: 99, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  pageSize: '999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  pageSize: '999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2023, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: 99, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: 99, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m

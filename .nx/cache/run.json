@@ -1,0 +1,21 @@
+{
+  "run": {
+    "command": "nx run be_ketoan:serve",
+    "startTime": "2024-01-25T14:28:10.009Z",
+    "endTime": "2024-01-25T15:56:25.959Z",
+    "inner": false
+  },
+  "tasks": [
+    {
+      "taskId": "be_ketoan:serve:development",
+      "target": "serve",
+      "projectName": "be_ketoan",
+      "hash": "3919667315204617414",
+      "startTime": "2024-01-25T14:28:10.021Z",
+      "endTime": "2024-01-25T15:56:25.956Z",
+      "params": "",
+      "cacheStatus": "cache-miss",
+      "status": 1
+    }
+  ]
+}

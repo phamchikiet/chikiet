@@ -1,0 +1,364 @@
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 191 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (ccfe28a1b1534551)
+[1m[31mDebugger listening on ws://localhost:9229/3188058d-daff-4e24-a156-d1be0a68f92a[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/3188058d-daff-4e24-a156-d1be0a68f92a[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2022, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2022, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2022, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2022, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2022, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2022, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: '9', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: '99', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: '99', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: '999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: '999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: '9999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: '9999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2022, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: '99999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2022, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: '99999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2022, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2022, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2022, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 2, Type: 'NHAP', pageSize: '99999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2022, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2022, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2022, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2022, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2022, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: '9', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: '99', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: '99', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: '999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: '999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: '9999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: '9999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2022, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: '99999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2022, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2022, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: '99999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2022, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2022, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2022, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2022, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2022, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2022, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2022, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2022, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: '9', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: '99', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: '99', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: '999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: '999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: '9999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: '9999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2022, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2022, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: '99999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2022, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: '99999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2022, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2022, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 192 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/entities/sanphamchung.entity.ts:[32m[1m22:3[22m[39m[1m[39m[22m
+[90mTS2300: [39mDuplicate identifier 'TenSPNhap'.
+  [0m [90m 20 |[39m   [33mTenSPNhap[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 21 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m[31m[1m>[22m[39m[90m 22 |[39m   [33mTenSPNhap[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 23 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m [90m 24 |[39m   [33mTenSPNhap[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 25 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/entities/sanphamchung.entity.ts:[32m[1m24:3[22m[39m[1m[39m[22m
+[90mTS2300: [39mDuplicate identifier 'TenSPNhap'.
+  [0m [90m 22 |[39m   [33mTenSPNhap[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 23 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m[31m[1m>[22m[39m[90m 24 |[39m   [33mTenSPNhap[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 25 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m [90m 26 |[39m   [33mTenSPNhap[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 27 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/entities/sanphamchung.entity.ts:[32m[1m26:3[22m[39m[1m[39m[22m
+[90mTS2300: [39mDuplicate identifier 'TenSPNhap'.
+  [0m [90m 24 |[39m   [33mTenSPNhap[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 25 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m[31m[1m>[22m[39m[90m 26 |[39m   [33mTenSPNhap[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 27 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m [90m 28 |[39m   [33mTenSPNhap[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 29 |[39m   [33m@[39m[33mColumn[39m({nullable[33m:[39m[36mtrue[39m[33m,[39m type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/entities/sanphamchung.entity.ts:[32m[1m28:3[22m[39m[1m[39m[22m
+[90mTS2300: [39mDuplicate identifier 'TenSPNhap'.
+  [0m [90m 26 |[39m   [33mTenSPNhap[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 27 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m[31m[1m>[22m[39m[90m 28 |[39m   [33mTenSPNhap[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 29 |[39m   [33m@[39m[33mColumn[39m({nullable[33m:[39m[36mtrue[39m[33m,[39m type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m [90m 30 |[39m   [33mDVT[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 31 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+
+webpack compiled with [1m[31m4 errors[39m[22m (d124050772052840)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 192 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/entities/sanphamchung.entity.ts:[32m[1m22:3[22m[39m[1m[39m[22m
+[90mTS2300: [39mDuplicate identifier 'TenSP'.
+  [0m [90m 20 |[39m   [33mTenSPNhap[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 21 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m[31m[1m>[22m[39m[90m 22 |[39m   [33mTenSP[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 23 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m [90m 24 |[39m   [33mTenSPNhap[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 25 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/entities/sanphamchung.entity.ts:[32m[1m24:3[22m[39m[1m[39m[22m
+[90mTS2300: [39mDuplicate identifier 'TenSPNhap'.
+  [0m [90m 22 |[39m   [33mTenSP[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 23 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m[31m[1m>[22m[39m[90m 24 |[39m   [33mTenSPNhap[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 25 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m [90m 26 |[39m   [33mTenSPNhap[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 27 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/entities/sanphamchung.entity.ts:[32m[1m26:3[22m[39m[1m[39m[22m
+[90mTS2300: [39mDuplicate identifier 'TenSPNhap'.
+  [0m [90m 24 |[39m   [33mTenSPNhap[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 25 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m[31m[1m>[22m[39m[90m 26 |[39m   [33mTenSPNhap[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 27 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m [90m 28 |[39m   [33mTenSPNhap[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 29 |[39m   [33m@[39m[33mColumn[39m({nullable[33m:[39m[36mtrue[39m[33m,[39m type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/entities/sanphamchung.entity.ts:[32m[1m28:3[22m[39m[1m[39m[22m
+[90mTS2300: [39mDuplicate identifier 'TenSPNhap'.
+  [0m [90m 26 |[39m   [33mTenSPNhap[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 27 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m[31m[1m>[22m[39m[90m 28 |[39m   [33mTenSPNhap[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 29 |[39m   [33m@[39m[33mColumn[39m({nullable[33m:[39m[36mtrue[39m[33m,[39m type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m [90m 30 |[39m   [33mDVT[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 31 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+
+webpack compiled with [1m[31m4 errors[39m[22m (535b40daaffa6a92)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 192 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/entities/sanphamchung.entity.ts:[32m[1m24:3[22m[39m[1m[39m[22m
+[90mTS2300: [39mDuplicate identifier 'TenSPNhap'.
+  [0m [90m 22 |[39m   [33mTenSP1[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 23 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m[31m[1m>[22m[39m[90m 24 |[39m   [33mTenSPNhap[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 25 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m [90m 26 |[39m   [33mTenSPNhap[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 27 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/entities/sanphamchung.entity.ts:[32m[1m26:3[22m[39m[1m[39m[22m
+[90mTS2300: [39mDuplicate identifier 'TenSPNhap'.
+  [0m [90m 24 |[39m   [33mTenSPNhap[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 25 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m[31m[1m>[22m[39m[90m 26 |[39m   [33mTenSPNhap[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 27 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m [90m 28 |[39m   [33mTenSPNhap[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 29 |[39m   [33m@[39m[33mColumn[39m({nullable[33m:[39m[36mtrue[39m[33m,[39m type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/entities/sanphamchung.entity.ts:[32m[1m28:3[22m[39m[1m[39m[22m
+[90mTS2300: [39mDuplicate identifier 'TenSPNhap'.
+  [0m [90m 26 |[39m   [33mTenSPNhap[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 27 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m[31m[1m>[22m[39m[90m 28 |[39m   [33mTenSPNhap[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 29 |[39m   [33m@[39m[33mColumn[39m({nullable[33m:[39m[36mtrue[39m[33m,[39m type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m [90m 30 |[39m   [33mDVT[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 31 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+
+webpack compiled with [1m[31m3 errors[39m[22m (a4873e87d27d8dc6)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 192 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/entities/sanphamchung.entity.ts:[32m[1m26:3[22m[39m[1m[39m[22m
+[90mTS2300: [39mDuplicate identifier 'TenSPNhap'.
+  [0m [90m 24 |[39m   [33mTenSP2[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 25 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m[31m[1m>[22m[39m[90m 26 |[39m   [33mTenSPNhap[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 27 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m [90m 28 |[39m   [33mTenSPNhap[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 29 |[39m   [33m@[39m[33mColumn[39m({nullable[33m:[39m[36mtrue[39m[33m,[39m type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/entities/sanphamchung.entity.ts:[32m[1m28:3[22m[39m[1m[39m[22m
+[90mTS2300: [39mDuplicate identifier 'TenSPNhap'.
+  [0m [90m 26 |[39m   [33mTenSPNhap[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 27 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m[31m[1m>[22m[39m[90m 28 |[39m   [33mTenSPNhap[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 29 |[39m   [33m@[39m[33mColumn[39m({nullable[33m:[39m[36mtrue[39m[33m,[39m type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m [90m 30 |[39m   [33mDVT[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 31 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (a975f010338f1e4a)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 192 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/entities/sanphamchung.entity.ts:[32m[1m28:3[22m[39m[1m[39m[22m
+[90mTS2300: [39mDuplicate identifier 'TenSPNhap'.
+  [0m [90m 26 |[39m   [33mTenSP3[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 27 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m[31m[1m>[22m[39m[90m 28 |[39m   [33mTenSPNhap[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 29 |[39m   [33m@[39m[33mColumn[39m({nullable[33m:[39m[36mtrue[39m[33m,[39m type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m [90m 30 |[39m   [33mDVT[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 31 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (b3c9e1457686fc3a)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 192 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (475054095e7415fa)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 192 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (475054095e7415fa)
+[1m[31mDebugger listening on ws://localhost:9229/2564f7e3-3586-4650-9c46-99f89ff239b4[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/2564f7e3-3586-4650-9c46-99f89ff239b4[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m

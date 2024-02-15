@@ -1,0 +1,15 @@
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 59.4 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (197f2cb2757f717a)
+[1m[31mDebugger listening on ws://localhost:9229/63ffe241-487f-461b-9f95-27173c91738d[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/63ffe241-487f-461b-9f95-27173c91738d[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 17216  - [39m[31m12/23/2023, 2:54:27 PM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mfetch failed[39m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mTypeError: fetch failed[39m[22m
+[1m[31m    at Object.fetch (node:internal/deps/undici/undici:11576:11)[39m[22m
+[1m[31m    at processTicksAndRejections (node:internal/process/task_queues:95:5)[39m[22m
+[1m[31m    at CauhinhController.listbanra (E:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\cauhinh\cauhinh.controller.ts:20:24)[39m[22m
+[1m[31m    at E:\chikiet\BEKetoan\node_modules\@nestjs\core\router\router-execution-context.js:46:28[39m[22m
+[1m[31m    at E:\chikiet\BEKetoan\node_modules\@nestjs\core\router\router-proxy.js:9:17[39m[22m
+[1m[31m[39m[22m

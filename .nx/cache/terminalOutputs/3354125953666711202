@@ -1,0 +1,400 @@
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 190 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (6c212daa3a335384)
+[1m[31mDebugger listening on ws://localhost:9229/06cd0e6b-b7c3-49c7-b2eb-b430c8be67f8[39m[22m
+[1m[31m[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/06cd0e6b-b7c3-49c7-b2eb-b430c8be67f8[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 191 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/entities/hoadonhhp.entity.ts:[32m[1m18:3[22m[39m[1m[39m[22m
+[90mTS2300: [39mDuplicate identifier 'Thang'.
+  [0m [90m 16 |[39m   [33mThang[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 17 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m[31m[1m>[22m[39m[90m 18 |[39m   [33mThang[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 19 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m [90m 20 |[39m   [33mType[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 21 |[39m   [33m@[39m[33mColumn[39m({ [36mdefault[39m[33m:[39m [35m0[39m })[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (6e0a90113d9ae61c)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 191 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (e9919f05d01276f5)
+[1m[31mDebugger listening on ws://localhost:9229/dc9a77ea-1351-4944-af1f-172ba9cdccf2[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/dc9a77ea-1351-4944-af1f-172ba9cdccf2[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 191 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (3b3641dce92c1b5c)
+[1m[31mDebugger listening on ws://localhost:9229/574a85ac-59ea-4221-b1f8-ff65cfa141c4[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/574a85ac-59ea-4221-b1f8-ff65cfa141c4[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 191 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/entities/hoadonhhp.entity.ts:[32m[1m17:13[22m[39m[1m[39m[22m
+[90mTS18004: [39mNo value exists in scope for the shorthand property 'nullable'. Either declare one or provide an initializer.
+  [0m [90m 15 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m [90m 16 |[39m   [33mThang[39m[33m:[39m string[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 17 |[39m   [33m@[39m[33mColumn[39m({ nullable[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m [90m    |[39m             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 18 |[39m   [33mNam[39m[33m:[39m number[33m;[39m[0m
+  [0m [90m 19 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m [90m 20 |[39m   [33mType[39m[33m:[39m string[33m;[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (9e294dadf2f9b9e1)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 191 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/entities/hoadonhhp.entity.ts:[32m[1m17:13[22m[39m[1m[39m[22m
+[90mTS18004: [39mNo value exists in scope for the shorthand property 'nullable'. Either declare one or provide an initializer.
+  [0m [90m 15 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m [90m 16 |[39m   [33mThang[39m[33m:[39m string[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 17 |[39m   [33m@[39m[33mColumn[39m({ nullable[33m,[39m t })[0m
+  [0m [90m    |[39m             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 18 |[39m   [33mNam[39m[33m:[39m number[33m;[39m[0m
+  [0m [90m 19 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m [90m 20 |[39m   [33mType[39m[33m:[39m string[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/entities/hoadonhhp.entity.ts:[32m[1m17:13[22m[39m[1m[39m[22m
+[90mTS2769: [39mNo overload matches this call.
+  The last overload gave the following error.
+    Argument of type '{ nullable: any; t: any; }' is not assignable to parameter of type '(type?: any) => Function'.
+      Object literal may only specify known properties, and 'nullable' does not exist in type '(type?: any) => Function'.
+  [0m [90m 15 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m [90m 16 |[39m   [33mThang[39m[33m:[39m string[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 17 |[39m   [33m@[39m[33mColumn[39m({ nullable[33m,[39m t })[0m
+  [0m [90m    |[39m             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 18 |[39m   [33mNam[39m[33m:[39m number[33m;[39m[0m
+  [0m [90m 19 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m [90m 20 |[39m   [33mType[39m[33m:[39m string[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/entities/hoadonhhp.entity.ts:[32m[1m17:23[22m[39m[1m[39m[22m
+[90mTS18004: [39mNo value exists in scope for the shorthand property 't'. Either declare one or provide an initializer.
+  [0m [90m 15 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m [90m 16 |[39m   [33mThang[39m[33m:[39m string[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 17 |[39m   [33m@[39m[33mColumn[39m({ nullable[33m,[39m t })[0m
+  [0m [90m    |[39m                       [31m[1m^[22m[39m[0m
+  [0m [90m 18 |[39m   [33mNam[39m[33m:[39m number[33m;[39m[0m
+  [0m [90m 19 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m [90m 20 |[39m   [33mType[39m[33m:[39m string[33m;[39m[0m
+
+webpack compiled with [1m[31m3 errors[39m[22m (f31ce71a0a6711be)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 191 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/entities/hoadonhhp.entity.ts:[32m[1m17:13[22m[39m[1m[39m[22m
+[90mTS18004: [39mNo value exists in scope for the shorthand property 'nullable'. Either declare one or provide an initializer.
+  [0m [90m 15 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m [90m 16 |[39m   [33mThang[39m[33m:[39m string[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 17 |[39m   [33m@[39m[33mColumn[39m({ nullable})[0m
+  [0m [90m    |[39m             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 18 |[39m   [33mNam[39m[33m:[39m number[33m;[39m[0m
+  [0m [90m 19 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m [90m 20 |[39m   [33mType[39m[33m:[39m string[33m;[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (bb162aef938931b0)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 191 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (55bf95cafd7f8ec7)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 191 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (55bf95cafd7f8ec7)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 191 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (55bf95cafd7f8ec7)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 191 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (55bf95cafd7f8ec7)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 191 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (55bf95cafd7f8ec7)
+[1m[31mDebugger listening on ws://localhost:9229/ef7c08f7-6c8c-4bdc-abdb-2d82b16c9cc5[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/ef7c08f7-6c8c-4bdc-abdb-2d82b16c9cc5[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 191 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (55bf95cafd7f8ec7)
+[1m[31mDebugger listening on ws://localhost:9229/52b0f515-efe2-4313-b96c-cb1ec2d2194c[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/52b0f515-efe2-4313-b96c-cb1ec2d2194c[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2022, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 3, Type: 'XUAT', pageSize: 500, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 2, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 2, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 2, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 2, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 3, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 2, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2022, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2022, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '50', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '500', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '5000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: '50000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 2, Type: 'XUAT', pageSize: '500000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 3, Type: 'XUAT', pageSize: '500000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 4, Type: 'XUAT', pageSize: '500000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 3, Type: 'XUAT', pageSize: 500, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 3, Type: 'XUAT', pageSize: '50', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 3, Type: 'XUAT', pageSize: '500', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 3, Type: 'XUAT', pageSize: '5000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 3, Type: 'XUAT', pageSize: '5000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 3, Type: 'XUAT', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2022, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 3, Type: 'XUAT', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2022, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 3, Type: 'XUAT', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2022, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 3, Type: 'XUAT', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2022, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 3, Type: 'XUAT', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2022, Type: 'XUAT', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2022, Type: 'XUAT', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 3, Type: 'XUAT', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 3, Type: 'XUAT', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 3, Type: 'XUAT', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 3, Type: 'XUAT', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 3, Type: 'XUAT', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 3, Type: 'XUAT', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 3, Type: 'XUAT', pageSize: 5000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 3, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 2, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 2, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 2, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 3, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 3, Type: 'XUAT', pageSize: '50', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 3, Type: 'XUAT', pageSize: '50000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 3, Type: 'XUAT', pageSize: '500000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 3, Type: 'XUAT', pageSize: '500000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 3, Type: 'XUAT', pageSize: '500000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 3, Type: 'XUAT', pageSize: '5000000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 3, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 3, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 3, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 3, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 3, Type: 'XUAT', pageSize: '50', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 3, Type: 'XUAT', pageSize: '500', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 3, Type: 'XUAT', pageSize: '5000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 3, Type: 'XUAT', pageSize: '50000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 3, Type: 'XUAT', pageSize: '500000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 3, Type: 'XUAT', pageSize: '5000000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 3, Type: 'XUAT', pageSize: '50000000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 3, Type: 'XUAT', pageSize: '5000000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 3, Type: 'XUAT', pageSize: '500000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 3, Type: 'XUAT', pageSize: '50000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 3, Type: 'XUAT', pageSize: '5000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 3, Type: 'XUAT', pageSize: '500', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 3, Type: 'XUAT', pageSize: '50', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 3, Type: 'XUAT', pageSize: '5', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 3, Type: 'XUAT', pageSize: '50', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 3, Type: 'XUAT', pageSize: '500000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 3, Type: 'XUAT', pageSize: '500000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 3, Type: 'XUAT', pageSize: '500000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 3, Type: 'XUAT', pageSize: '500000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 3, Type: 'XUAT', pageSize: '5000000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 3, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 3, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 3, Type: 'XUAT', pageSize: '50', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 3, Type: 'XUAT', pageSize: '500', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 3, Type: 'XUAT', pageSize: '5000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 3, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 3, Type: 'XUAT', pageSize: '50', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 3, Type: 'XUAT', pageSize: '50000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 3, Type: 'XUAT', pageSize: '500000000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 3, Type: 'XUAT', pageSize: '500000000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 3, Type: 'XUAT', pageSize: '500000000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 3, Type: 'XUAT', pageSize: '500000000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 3, Type: 'XUAT', pageSize: '500000000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 3, Type: 'XUAT', pageSize: '500000000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 3, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 3, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 3, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 3, Type: 'XUAT', pageSize: '50', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 3, Type: 'XUAT', pageSize: '500', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 3, Type: 'XUAT', pageSize: '5000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m

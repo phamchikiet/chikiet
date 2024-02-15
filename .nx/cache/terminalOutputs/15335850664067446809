@@ -1,0 +1,213 @@
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 14.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/hoadonbanra/dto/update-hoadonbanra.dto.ts[39m[22m [1m[32m4:23-54[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve '@nestjs/mapped-types' in 'F:\chikiet\BEKetoan\be_ketoan\src\app\hoadonbanra\dto'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/dto/update-hoadonbanra.dto.ts:[32m[1m1:29[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module '@nestjs/mapped-types' or its corresponding type declarations.
+  [0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m { [33mPartialType[39m } [36mfrom[39m [32m'@nestjs/mapped-types'[39m[33m;[39m[0m
+  [0m [90m   |[39m                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 2 |[39m [36mimport[39m { [33mCreateHoadonbanraDto[39m } [36mfrom[39m [32m'./create-hoadonbanra.dto'[39m[33m;[39m[0m
+  [0m [90m 3 |[39m[0m
+  [0m [90m 4 |[39m [36mexport[39m [36mclass[39m [33mUpdateHoadonbanraDto[39m [36mextends[39m [33mPartialType[39m([33mCreateHoadonbanraDto[39m) {}[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (ef2f33054127974f)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 14.6 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/hoadonbanra/dto/update-hoadonbanra.dto.ts[39m[22m [1m[32m4:23-54[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve '@nestjs/mapped-types' in 'F:\chikiet\BEKetoan\be_ketoan\src\app\hoadonbanra\dto'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/dto/update-hoadonbanra.dto.ts:[32m[1m1:29[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module '@nestjs/mapped-types' or its corresponding type declarations.
+  [0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m { [33mPartialType[39m } [36mfrom[39m [32m'@nestjs/mapped-types'[39m[33m;[39m[0m
+  [0m [90m   |[39m                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 2 |[39m [36mimport[39m { [33mCreateHoadonbanraDto[39m } [36mfrom[39m [32m'./create-hoadonbanra.dto'[39m[33m;[39m[0m
+  [0m [90m 3 |[39m[0m
+  [0m [90m 4 |[39m [36mexport[39m [36mclass[39m [33mUpdateHoadonbanraDto[39m [36mextends[39m [33mPartialType[39m([33mCreateHoadonbanraDto[39m) {}[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (ef2f33054127974f)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 14.6 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/hoadonbanra/dto/update-hoadonbanra.dto.ts[39m[22m [1m[32m4:23-54[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve '@nestjs/mapped-types' in 'F:\chikiet\BEKetoan\be_ketoan\src\app\hoadonbanra\dto'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/dto/update-hoadonbanra.dto.ts:[32m[1m1:29[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module '@nestjs/mapped-types' or its corresponding type declarations.
+  [0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m { [33mPartialType[39m } [36mfrom[39m [32m'@nestjs/mapped-types'[39m[33m;[39m[0m
+  [0m [90m   |[39m                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 2 |[39m [36mimport[39m { [33mCreateHoadonbanraDto[39m } [36mfrom[39m [32m'./create-hoadonbanra.dto'[39m[33m;[39m[0m
+  [0m [90m 3 |[39m[0m
+  [0m [90m 4 |[39m [36mexport[39m [36mclass[39m [33mUpdateHoadonbanraDto[39m [36mextends[39m [33mPartialType[39m([33mCreateHoadonbanraDto[39m) {}[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (ef2f33054127974f)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 14.6 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/hoadonbanra/dto/update-hoadonbanra.dto.ts[39m[22m [1m[32m4:23-54[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve '@nestjs/mapped-types' in 'F:\chikiet\BEKetoan\be_ketoan\src\app\hoadonbanra\dto'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/dto/update-hoadonbanra.dto.ts:[32m[1m1:29[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module '@nestjs/mapped-types' or its corresponding type declarations.
+  [0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m { [33mPartialType[39m } [36mfrom[39m [32m'@nestjs/mapped-types'[39m[33m;[39m[0m
+  [0m [90m   |[39m                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 2 |[39m [36mimport[39m { [33mCreateHoadonbanraDto[39m } [36mfrom[39m [32m'./create-hoadonbanra.dto'[39m[33m;[39m[0m
+  [0m [90m 3 |[39m[0m
+  [0m [90m 4 |[39m [36mexport[39m [36mclass[39m [33mUpdateHoadonbanraDto[39m [36mextends[39m [33mPartialType[39m([33mCreateHoadonbanraDto[39m) {}[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (ef2f33054127974f)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 14.6 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/hoadonbanra/dto/update-hoadonbanra.dto.ts[39m[22m [1m[32m4:23-54[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve '@nestjs/mapped-types' in 'F:\chikiet\BEKetoan\be_ketoan\src\app\hoadonbanra\dto'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/dto/update-hoadonbanra.dto.ts:[32m[1m1:29[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module '@nestjs/mapped-types' or its corresponding type declarations.
+  [0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m { [33mPartialType[39m } [36mfrom[39m [32m'@nestjs/mapped-types'[39m[33m;[39m[0m
+  [0m [90m   |[39m                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 2 |[39m [36mimport[39m { [33mCreateHoadonbanraDto[39m } [36mfrom[39m [32m'./create-hoadonbanra.dto'[39m[33m;[39m[0m
+  [0m [90m 3 |[39m[0m
+  [0m [90m 4 |[39m [36mexport[39m [36mclass[39m [33mUpdateHoadonbanraDto[39m [36mextends[39m [33mPartialType[39m([33mCreateHoadonbanraDto[39m) {}[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (ef2f33054127974f)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 14.6 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/hoadonbanra/dto/update-hoadonbanra.dto.ts[39m[22m [1m[32m4:23-54[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve '@nestjs/mapped-types' in 'F:\chikiet\BEKetoan\be_ketoan\src\app\hoadonbanra\dto'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/dto/update-hoadonbanra.dto.ts:[32m[1m1:29[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module '@nestjs/mapped-types' or its corresponding type declarations.
+  [0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m { [33mPartialType[39m } [36mfrom[39m [32m'@nestjs/mapped-types'[39m[33m;[39m[0m
+  [0m [90m   |[39m                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 2 |[39m [36mimport[39m { [33mCreateHoadonbanraDto[39m } [36mfrom[39m [32m'./create-hoadonbanra.dto'[39m[33m;[39m[0m
+  [0m [90m 3 |[39m[0m
+  [0m [90m 4 |[39m [36mexport[39m [36mclass[39m [33mUpdateHoadonbanraDto[39m [36mextends[39m [33mPartialType[39m([33mCreateHoadonbanraDto[39m) {}[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (ef2f33054127974f)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 14.6 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/hoadonbanra/dto/update-hoadonbanra.dto.ts[39m[22m [1m[32m4:23-54[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve '@nestjs/mapped-types' in 'F:\chikiet\BEKetoan\be_ketoan\src\app\hoadonbanra\dto'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/dto/update-hoadonbanra.dto.ts:[32m[1m1:29[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module '@nestjs/mapped-types' or its corresponding type declarations.
+  [0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m { [33mPartialType[39m } [36mfrom[39m [32m'@nestjs/mapped-types'[39m[33m;[39m[0m
+  [0m [90m   |[39m                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 2 |[39m [36mimport[39m { [33mCreateHoadonbanraDto[39m } [36mfrom[39m [32m'./create-hoadonbanra.dto'[39m[33m;[39m[0m
+  [0m [90m 3 |[39m[0m
+  [0m [90m 4 |[39m [36mexport[39m [36mclass[39m [33mUpdateHoadonbanraDto[39m [36mextends[39m [33mPartialType[39m([33mCreateHoadonbanraDto[39m) {}[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (ef2f33054127974f)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 14.6 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/hoadonbanra/dto/update-hoadonbanra.dto.ts[39m[22m [1m[32m4:23-54[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve '@nestjs/mapped-types' in 'F:\chikiet\BEKetoan\be_ketoan\src\app\hoadonbanra\dto'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/dto/update-hoadonbanra.dto.ts:[32m[1m1:29[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module '@nestjs/mapped-types' or its corresponding type declarations.
+  [0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m { [33mPartialType[39m } [36mfrom[39m [32m'@nestjs/mapped-types'[39m[33m;[39m[0m
+  [0m [90m   |[39m                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 2 |[39m [36mimport[39m { [33mCreateHoadonbanraDto[39m } [36mfrom[39m [32m'./create-hoadonbanra.dto'[39m[33m;[39m[0m
+  [0m [90m 3 |[39m[0m
+  [0m [90m 4 |[39m [36mexport[39m [36mclass[39m [33mUpdateHoadonbanraDto[39m [36mextends[39m [33mPartialType[39m([33mCreateHoadonbanraDto[39m) {}[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (ef2f33054127974f)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 14.6 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/hoadonbanra/dto/update-hoadonbanra.dto.ts[39m[22m [1m[32m4:23-54[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve '@nestjs/mapped-types' in 'F:\chikiet\BEKetoan\be_ketoan\src\app\hoadonbanra\dto'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/dto/update-hoadonbanra.dto.ts:[32m[1m1:29[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module '@nestjs/mapped-types' or its corresponding type declarations.
+  [0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m { [33mPartialType[39m } [36mfrom[39m [32m'@nestjs/mapped-types'[39m[33m;[39m[0m
+  [0m [90m   |[39m                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 2 |[39m [36mimport[39m { [33mCreateHoadonbanraDto[39m } [36mfrom[39m [32m'./create-hoadonbanra.dto'[39m[33m;[39m[0m
+  [0m [90m 3 |[39m[0m
+  [0m [90m 4 |[39m [36mexport[39m [36mclass[39m [33mUpdateHoadonbanraDto[39m [36mextends[39m [33mPartialType[39m([33mCreateHoadonbanraDto[39m) {}[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (ef2f33054127974f)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 14.6 KiB [1m[33m[entry][39m[22m
+
+[1mLOG from webpack.FileSystemInfo[39m[22m
+<w> [1m[33mManaged item F:\chikiet\BEKetoan\node_modules\@nestjs\mapped-types isn't a directory or doesn't contain a package.json (see snapshot.managedPaths option)[39m[22m
++ 13 hidden lines
+
+[1m[31mERROR[39m[22m in [1m./src/app/hoadonbanra/dto/update-hoadonbanra.dto.ts[39m[22m [1m[32m4:23-54[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve '@nestjs/mapped-types' in 'F:\chikiet\BEKetoan\be_ketoan\src\app\hoadonbanra\dto'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/dto/update-hoadonbanra.dto.ts:[32m[1m1:29[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module '@nestjs/mapped-types' or its corresponding type declarations.
+  [0m[31m[1m>[22m[39m[90m 1 |[39m [36mimport[39m { [33mPartialType[39m } [36mfrom[39m [32m'@nestjs/mapped-types'[39m[33m;[39m[0m
+  [0m [90m   |[39m                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 2 |[39m [36mimport[39m { [33mCreateHoadonbanraDto[39m } [36mfrom[39m [32m'./create-hoadonbanra.dto'[39m[33m;[39m[0m
+  [0m [90m 3 |[39m[0m
+  [0m [90m 4 |[39m [36mexport[39m [36mclass[39m [33mUpdateHoadonbanraDto[39m [36mextends[39m [33mPartialType[39m([33mCreateHoadonbanraDto[39m) {}[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (ef2f33054127974f)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 25.8 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/@nestjs/mapped-types/dist/type-helpers.utils.js[39m[22m [1m[32m68:27-67[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'class-transformer/cjs/storage' in 'F:\chikiet\BEKetoan\node_modules\@nestjs\mapped-types\dist'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/@nestjs/mapped-types/dist/type-helpers.utils.js[39m[22m [1m[32m126:8-36[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'class-transformer' in 'F:\chikiet\BEKetoan\node_modules\@nestjs\mapped-types\dist'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m../node_modules/@nestjs/mapped-types/dist/type-helpers.utils.js[39m[22m [1m[32m10:27-53[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'class-validator' in 'F:\chikiet\BEKetoan\node_modules\@nestjs\mapped-types\dist'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m../node_modules/@nestjs/mapped-types/dist/type-helpers.utils.js[39m[22m [1m[32m71:27-63[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'class-transformer/storage' in 'F:\chikiet\BEKetoan\node_modules\@nestjs\mapped-types\dist'[39m[22m
+
+webpack compiled with [1m[31m2 errors[39m[22m and [1m[33m2 warnings[39m[22m (98a40c9caad1885a)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 25.8 KiB [1m[33m[entry][39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/@nestjs/mapped-types/dist/type-helpers.utils.js[39m[22m [1m[32m68:27-67[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'class-transformer/cjs/storage' in 'F:\chikiet\BEKetoan\node_modules\@nestjs\mapped-types\dist'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/@nestjs/mapped-types/dist/type-helpers.utils.js[39m[22m [1m[32m126:8-36[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'class-transformer' in 'F:\chikiet\BEKetoan\node_modules\@nestjs\mapped-types\dist'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m../node_modules/@nestjs/mapped-types/dist/type-helpers.utils.js[39m[22m [1m[32m10:27-53[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'class-validator' in 'F:\chikiet\BEKetoan\node_modules\@nestjs\mapped-types\dist'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m../node_modules/@nestjs/mapped-types/dist/type-helpers.utils.js[39m[22m [1m[32m71:27-63[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'class-transformer/storage' in 'F:\chikiet\BEKetoan\node_modules\@nestjs\mapped-types\dist'[39m[22m
+
+webpack compiled with [1m[31m2 errors[39m[22m and [1m[33m2 warnings[39m[22m (98a40c9caad1885a)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 25.8 KiB [1m[33m[entry][39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/@nestjs/mapped-types/dist/type-helpers.utils.js[39m[22m [1m[32m68:27-67[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'class-transformer/cjs/storage' in 'F:\chikiet\BEKetoan\node_modules\@nestjs\mapped-types\dist'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/@nestjs/mapped-types/dist/type-helpers.utils.js[39m[22m [1m[32m126:8-36[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'class-transformer' in 'F:\chikiet\BEKetoan\node_modules\@nestjs\mapped-types\dist'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m../node_modules/@nestjs/mapped-types/dist/type-helpers.utils.js[39m[22m [1m[32m10:27-53[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'class-validator' in 'F:\chikiet\BEKetoan\node_modules\@nestjs\mapped-types\dist'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m../node_modules/@nestjs/mapped-types/dist/type-helpers.utils.js[39m[22m [1m[32m71:27-63[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'class-transformer/storage' in 'F:\chikiet\BEKetoan\node_modules\@nestjs\mapped-types\dist'[39m[22m
+
+webpack compiled with [1m[31m2 errors[39m[22m and [1m[33m2 warnings[39m[22m (98a40c9caad1885a)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 25.8 KiB [1m[33m[entry][39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/@nestjs/mapped-types/dist/type-helpers.utils.js[39m[22m [1m[32m68:27-67[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'class-transformer/cjs/storage' in 'F:\chikiet\BEKetoan\node_modules\@nestjs\mapped-types\dist'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/@nestjs/mapped-types/dist/type-helpers.utils.js[39m[22m [1m[32m126:8-36[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'class-transformer' in 'F:\chikiet\BEKetoan\node_modules\@nestjs\mapped-types\dist'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m../node_modules/@nestjs/mapped-types/dist/type-helpers.utils.js[39m[22m [1m[32m10:27-53[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'class-validator' in 'F:\chikiet\BEKetoan\node_modules\@nestjs\mapped-types\dist'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m../node_modules/@nestjs/mapped-types/dist/type-helpers.utils.js[39m[22m [1m[32m71:27-63[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'class-transformer/storage' in 'F:\chikiet\BEKetoan\node_modules\@nestjs\mapped-types\dist'[39m[22m
+
+webpack compiled with [1m[31m2 errors[39m[22m and [1m[33m2 warnings[39m[22m (98a40c9caad1885a)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m

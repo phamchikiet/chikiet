@@ -1,0 +1,1400 @@
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 163 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (608646d978eb5957)
+[1m[31mDebugger listening on ws://localhost:9229/79eebd95-53e5-4cfa-9ce6-3c144f76588b[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/79eebd95-53e5-4cfa-9ce6-3c144f76588b[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 164 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.controller.ts:[32m[1m14:9[22m[39m[1m[39m[22m
+[90mTS2393: [39mDuplicate function implementation.
+  [0m [90m 12 |[39m   }[0m
+  [0m [90m 13 |[39m   [33m@[39m[33mGet[39m()[0m
+  [0m[31m[1m>[22m[39m[90m 14 |[39m   [36masync[39m findAll() {[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 15 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39msanphamService[33m.[39mfindAll()[33m;[39m[0m
+  [0m [90m 16 |[39m   }[0m
+  [0m [90m 17 |[39m   [33m@[39m[33mGet[39m()[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.controller.ts:[32m[1m18:9[22m[39m[1m[39m[22m
+[90mTS2393: [39mDuplicate function implementation.
+  [0m [90m 16 |[39m   }[0m
+  [0m [90m 17 |[39m   [33m@[39m[33mGet[39m()[0m
+  [0m[31m[1m>[22m[39m[90m 18 |[39m   [36masync[39m findAll() {[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 19 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39msanphamService[33m.[39mfindAll()[33m;[39m[0m
+  [0m [90m 20 |[39m   }[0m
+  [0m [90m 21 |[39m   [33m@[39m[33mGet[39m([32m'findid/:id'[39m)[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (7ce8fbfa531edb05)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 164 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.controller.ts:[32m[1m14:9[22m[39m[1m[39m[22m
+[90mTS2393: [39mDuplicate function implementation.
+  [0m [90m 12 |[39m   }[0m
+  [0m [90m 13 |[39m   [33m@[39m[33mGet[39m()[0m
+  [0m[31m[1m>[22m[39m[90m 14 |[39m   [36masync[39m findAll() {[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 15 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39msanphamService[33m.[39mfindAll()[33m;[39m[0m
+  [0m [90m 16 |[39m   }[0m
+  [0m [90m 17 |[39m   [33m@[39m[33mGet[39m([32m''[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.controller.ts:[32m[1m18:9[22m[39m[1m[39m[22m
+[90mTS2393: [39mDuplicate function implementation.
+  [0m [90m 16 |[39m   }[0m
+  [0m [90m 17 |[39m   [33m@[39m[33mGet[39m([32m''[39m)[0m
+  [0m[31m[1m>[22m[39m[90m 18 |[39m   [36masync[39m findAll() {[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 19 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39msanphamService[33m.[39mfindAll()[33m;[39m[0m
+  [0m [90m 20 |[39m   }[0m
+  [0m [90m 21 |[39m   [33m@[39m[33mGet[39m([32m'findid/:id'[39m)[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (7e60e311243d36c6)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 164 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.controller.ts:[32m[1m14:9[22m[39m[1m[39m[22m
+[90mTS2393: [39mDuplicate function implementation.
+  [0m [90m 12 |[39m   }[0m
+  [0m [90m 13 |[39m   [33m@[39m[33mGet[39m()[0m
+  [0m[31m[1m>[22m[39m[90m 14 |[39m   [36masync[39m findAll() {[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 15 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39msanphamService[33m.[39mfindAll()[33m;[39m[0m
+  [0m [90m 16 |[39m   }[0m
+  [0m [90m 17 |[39m   [33m@[39m[33mGet[39m([32m'chung'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.controller.ts:[32m[1m18:9[22m[39m[1m[39m[22m
+[90mTS2393: [39mDuplicate function implementation.
+  [0m [90m 16 |[39m   }[0m
+  [0m [90m 17 |[39m   [33m@[39m[33mGet[39m([32m'chung'[39m)[0m
+  [0m[31m[1m>[22m[39m[90m 18 |[39m   [36masync[39m findAll() {[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 19 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39msanphamService[33m.[39mfindAll()[33m;[39m[0m
+  [0m [90m 20 |[39m   }[0m
+  [0m [90m 21 |[39m   [33m@[39m[33mGet[39m([32m'findid/:id'[39m)[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (41719e9cb4ed6f9f)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 164 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (07d75ebca5a1dc49)
+[1m[31mDebugger listening on ws://localhost:9229/7abcb71a-5ea4-4adf-9816-b9c3ae6f4f10[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/7abcb71a-5ea4-4adf-9816-b9c3ae6f4f10[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 164 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (0490a130e3f040ea)
+[1m[31mDebugger listening on ws://localhost:9229/66ef91f2-d772-4cb8-aaee-cd5c717410de[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/66ef91f2-d772-4cb8-aaee-cd5c717410de[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 164 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.controller.ts:[32m[1m19:38[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findAllchung' does not exist on type 'SanphamService'.
+  [0m [90m 17 |[39m   [33m@[39m[33mGet[39m([32m'chung'[39m)[0m
+  [0m [90m 18 |[39m   [36masync[39m findAllchung() {[0m
+  [0m[31m[1m>[22m[39m[90m 19 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39msanphamService[33m.[39mfindAllchung()[33m;[39m[0m
+  [0m [90m    |[39m                                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 20 |[39m   }[0m
+  [0m [90m 21 |[39m   [33m@[39m[33mGet[39m([32m'findid/:id'[39m)[0m
+  [0m [90m 22 |[39m   [36masync[39m findOne([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (4fae209ae76ddab9)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 164 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.controller.ts:[32m[1m19:38[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findAllchung' does not exist on type 'SanphamService'.
+  [0m [90m 17 |[39m   [33m@[39m[33mGet[39m([32m'chung'[39m)[0m
+  [0m [90m 18 |[39m   [36masync[39m findAllchung() {[0m
+  [0m[31m[1m>[22m[39m[90m 19 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39msanphamService[33m.[39mfindAllchung()[33m;[39m[0m
+  [0m [90m    |[39m                                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 20 |[39m   }[0m
+  [0m [90m 21 |[39m   [33m@[39m[33mGet[39m([32m'findid/:id'[39m)[0m
+  [0m [90m 22 |[39m   [36masync[39m findOne([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (4fae209ae76ddab9)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 164 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.controller.ts:[32m[1m19:38[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findAllchung' does not exist on type 'SanphamService'.
+  [0m [90m 17 |[39m   [33m@[39m[33mGet[39m([32m'chung'[39m)[0m
+  [0m [90m 18 |[39m   [36masync[39m findAllchung() {[0m
+  [0m[31m[1m>[22m[39m[90m 19 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39msanphamService[33m.[39mfindAllchung()[33m;[39m[0m
+  [0m [90m    |[39m                                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 20 |[39m   }[0m
+  [0m [90m 21 |[39m   [33m@[39m[33mGet[39m([32m'findid/:id'[39m)[0m
+  [0m [90m 22 |[39m   [36masync[39m findOne([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.service.ts:[32m[1m28:9[22m[39m[1m[39m[22m
+[90mTS2393: [39mDuplicate function implementation.
+  [0m [90m 26 |[39m   }[0m
+  [0m [90m 27 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 28 |[39m   [36masync[39m findAll() {[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 29 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mSanphamRepository[39m[33m.[39mfind()[33m;[39m[0m
+  [0m [90m 30 |[39m   }[0m
+  [0m [90m 31 |[39m   [36masync[39m findAll() {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.service.ts:[32m[1m31:9[22m[39m[1m[39m[22m
+[90mTS2393: [39mDuplicate function implementation.
+  [0m [90m 29 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mSanphamRepository[39m[33m.[39mfind()[33m;[39m[0m
+  [0m [90m 30 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 31 |[39m   [36masync[39m findAll() {[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 32 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mSanphamRepository[39m[33m.[39mfind()[33m;[39m[0m
+  [0m [90m 33 |[39m   }[0m
+  [0m [90m 34 |[39m   [36masync[39m findTenSP(data[33m:[39m any) {[0m
+
+webpack compiled with [1m[31m3 errors[39m[22m (8bcc595dcc4401c7)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 164 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (c4b18b04940d13af)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 164 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (660794310ef95c7c)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 164 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (660794310ef95c7c)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 164 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (660794310ef95c7c)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 164 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (660794310ef95c7c)
+[1m[31mDebugger listening on ws://localhost:9229/d0aa2f6a-6437-44c6-b9a1-d6fa400478d6[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/d0aa2f6a-6437-44c6-b9a1-d6fa400478d6[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 164 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.controller.ts:[32m[1m10:3[22m[39m[1m[39m[22m
+[90mTS2393: [39mDuplicate function implementation.
+  [0m [90m  8 |[39m[0m
+  [0m [90m  9 |[39m   [33m@[39m[33mPost[39m()[0m
+  [0m[31m[1m>[22m[39m[90m 10 |[39m   create([33m@[39m[33mBody[39m() createSanphamDto[33m:[39m [33mCreateSanphamDto[39m) {[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 11 |[39m     [36mreturn[39m [36mthis[39m[33m.[39msanphamService[33m.[39mcreate(createSanphamDto)[33m;[39m[0m
+  [0m [90m 12 |[39m   }[0m
+  [0m [90m 13 |[39m   [33m@[39m[33mPost[39m()[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.controller.ts:[32m[1m14:3[22m[39m[1m[39m[22m
+[90mTS2393: [39mDuplicate function implementation.
+  [0m [90m 12 |[39m   }[0m
+  [0m [90m 13 |[39m   [33m@[39m[33mPost[39m()[0m
+  [0m[31m[1m>[22m[39m[90m 14 |[39m   create([33m@[39m[33mBody[39m() createSanphamDto[33m:[39m [33mCreateSanphamDto[39m) {[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 15 |[39m     [36mreturn[39m [36mthis[39m[33m.[39msanphamService[33m.[39mcreate(createSanphamDto)[33m;[39m[0m
+  [0m [90m 16 |[39m   }[0m
+  [0m [90m 17 |[39m   [33m@[39m[33mGet[39m()[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (536fd797baeb4fd2)
+[1m[31mDebugger listening on ws://localhost:9229/6233b05e-2775-4929-9eeb-73e9c87e9388[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/6233b05e-2775-4929-9eeb-73e9c87e9388[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 164 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.controller.ts:[32m[1m10:3[22m[39m[1m[39m[22m
+[90mTS2393: [39mDuplicate function implementation.
+  [0m [90m  8 |[39m[0m
+  [0m [90m  9 |[39m   [33m@[39m[33mPost[39m()[0m
+  [0m[31m[1m>[22m[39m[90m 10 |[39m   create([33m@[39m[33mBody[39m() createSanphamDto[33m:[39m [33mCreateSanphamDto[39m) {[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 11 |[39m     [36mreturn[39m [36mthis[39m[33m.[39msanphamService[33m.[39mcreate(createSanphamDto)[33m;[39m[0m
+  [0m [90m 12 |[39m   }[0m
+  [0m [90m 13 |[39m   [33m@[39m[33mPost[39m([32m'chung'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.controller.ts:[32m[1m14:3[22m[39m[1m[39m[22m
+[90mTS2393: [39mDuplicate function implementation.
+  [0m [90m 12 |[39m   }[0m
+  [0m [90m 13 |[39m   [33m@[39m[33mPost[39m([32m'chung'[39m)[0m
+  [0m[31m[1m>[22m[39m[90m 14 |[39m   create([33m@[39m[33mBody[39m() createSanphamDto[33m:[39m [33mCreateSanphamDto[39m) {[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 15 |[39m     [36mreturn[39m [36mthis[39m[33m.[39msanphamService[33m.[39mcreate(createSanphamDto)[33m;[39m[0m
+  [0m [90m 16 |[39m   }[0m
+  [0m [90m 17 |[39m   [33m@[39m[33mGet[39m()[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (011903f535c72e53)
+[1m[31mDebugger listening on ws://localhost:9229/eba51420-0f99-4a17-a749-a6bfb67d4a6b[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/eba51420-0f99-4a17-a749-a6bfb67d4a6b[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 164 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (4ab7287f05b2a5ce)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 164 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (4ab7287f05b2a5ce)
+[1m[31mDebugger listening on ws://localhost:9229/41f9f76a-7aa1-4c83-a716-fd8dcc9c679f[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/41f9f76a-7aa1-4c83-a716-fd8dcc9c679f[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 164 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (13a58f0d481c5515)
+[1m[31mDebugger listening on ws://localhost:9229/79ebf829-c724-4e33-ba89-850ff1260ffa[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/79ebf829-c724-4e33-ba89-850ff1260ffa[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 164 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.controller.ts:[32m[1m15:39[22m[39m[1m[39m[22m
+[90mTS2552: [39mCannot find name 'createSanphamDto'. Did you mean 'CreateSanphamDto'?
+  [0m [90m 13 |[39m   [33m@[39m[33mPost[39m([32m'chung'[39m)[0m
+  [0m [90m 14 |[39m   createchung([33m@[39m[33mBody[39m() data[33m:[39m any) {[0m
+  [0m[31m[1m>[22m[39m[90m 15 |[39m     [36mreturn[39m [36mthis[39m[33m.[39msanphamService[33m.[39mcreate(createSanphamDto)[33m;[39m[0m
+  [0m [90m    |[39m                                       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 16 |[39m   }[0m
+  [0m [90m 17 |[39m   [33m@[39m[33mGet[39m()[0m
+  [0m [90m 18 |[39m   [36masync[39m findAll() {[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (bc4c2d4ea792ed51)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 164 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (f0b5e0763b721592)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 164 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (f0b5e0763b721592)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 164 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (f0b5e0763b721592)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 164 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (f0b5e0763b721592)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 164 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.controller.ts:[32m[1m15:32[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'createchung' does not exist on type 'SanphamService'.
+  [0m [90m 13 |[39m   [33m@[39m[33mPost[39m([32m'chung'[39m)[0m
+  [0m [90m 14 |[39m   createchung([33m@[39m[33mBody[39m() data[33m:[39m any) {[0m
+  [0m[31m[1m>[22m[39m[90m 15 |[39m     [36mreturn[39m [36mthis[39m[33m.[39msanphamService[33m.[39mcreatechung(data)[33m;[39m[0m
+  [0m [90m    |[39m                                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 16 |[39m   }[0m
+  [0m [90m 17 |[39m   [33m@[39m[33mGet[39m()[0m
+  [0m [90m 18 |[39m   [36masync[39m findAll() {[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (37c78ba04de22b39)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 164 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.controller.ts:[32m[1m15:32[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'createchung' does not exist on type 'SanphamService'.
+  [0m [90m 13 |[39m   [33m@[39m[33mPost[39m([32m'chung'[39m)[0m
+  [0m [90m 14 |[39m   createchung([33m@[39m[33mBody[39m() data[33m:[39m any) {[0m
+  [0m[31m[1m>[22m[39m[90m 15 |[39m     [36mreturn[39m [36mthis[39m[33m.[39msanphamService[33m.[39mcreatechung(data)[33m;[39m[0m
+  [0m [90m    |[39m                                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 16 |[39m   }[0m
+  [0m [90m 17 |[39m   [33m@[39m[33mGet[39m()[0m
+  [0m [90m 18 |[39m   [36masync[39m findAll() {[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (37c78ba04de22b39)
+[1m[31mDebugger listening on ws://localhost:9229/be9dc561-b4ec-497b-abb7-97b0688ff9d6[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/be9dc561-b4ec-497b-abb7-97b0688ff9d6[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 164 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.controller.ts:[32m[1m15:32[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'createchung' does not exist on type 'SanphamService'.
+  [0m [90m 13 |[39m   [33m@[39m[33mPost[39m([32m'chung'[39m)[0m
+  [0m [90m 14 |[39m   createchung([33m@[39m[33mBody[39m() data[33m:[39m any) {[0m
+  [0m[31m[1m>[22m[39m[90m 15 |[39m     [36mreturn[39m [36mthis[39m[33m.[39msanphamService[33m.[39mcreatechung(data)[33m;[39m[0m
+  [0m [90m    |[39m                                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 16 |[39m   }[0m
+  [0m [90m 17 |[39m   [33m@[39m[33mGet[39m()[0m
+  [0m [90m 18 |[39m   [36masync[39m findAll() {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.service.ts:[32m[1m16:9[22m[39m[1m[39m[22m
+[90mTS2393: [39mDuplicate function implementation.
+  [0m [90m 14 |[39m     [36mprivate[39m [33mSanphamchungRepository[39m[33m:[39m [33mRepository[39m[33m<[39m[33mSanphamchungEntity[39m[33m>[39m[0m
+  [0m [90m 15 |[39m   ) {}[0m
+  [0m[31m[1m>[22m[39m[90m 16 |[39m   [36masync[39m create(data[33m:[39m any) {[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 17 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindTenSP(data)[0m
+  [0m [90m 18 |[39m     [36mif[39m(item)[0m
+  [0m [90m 19 |[39m     {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.service.ts:[32m[1m27:9[22m[39m[1m[39m[22m
+[90mTS2393: [39mDuplicate function implementation.
+  [0m [90m 25 |[39m     }[0m
+  [0m [90m 26 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 27 |[39m   [36masync[39m create(data[33m:[39m any) {[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 28 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindTenSP(data)[0m
+  [0m [90m 29 |[39m     [36mif[39m(item)[0m
+  [0m [90m 30 |[39m     {[0m
+
+webpack compiled with [1m[31m3 errors[39m[22m (ba61589c69461d0e)
+[1m[31mDebugger listening on ws://localhost:9229/906bb266-ef21-4211-91a6-3ae4a3f4d5b4[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/906bb266-ef21-4211-91a6-3ae4a3f4d5b4[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 164 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (11bdf646019ea653)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 164 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (11bdf646019ea653)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 164 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (11bdf646019ea653)
+[1m[31mDebugger listening on ws://localhost:9229/c5ee6dd9-41c0-4e9c-848b-b07e4e693f0a[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/c5ee6dd9-41c0-4e9c-848b-b07e4e693f0a[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 164 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (d4ecda836e9d4593)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 164 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (d4ecda836e9d4593)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 164 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (d4ecda836e9d4593)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 164 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (d4ecda836e9d4593)
+[1m[31mDebugger listening on ws://localhost:9229/5b6aed8c-1651-4388-987a-3fd80eb1a2e0[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/5b6aed8c-1651-4388-987a-3fd80eb1a2e0[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 164 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (39df790d42fbc483)
+[1m[31mDebugger listening on ws://localhost:9229/d635442d-0ea8-41b1-b36a-197a18cb30a2[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/d635442d-0ea8-41b1-b36a-197a18cb30a2[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 164 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (c68c2819ffe2e255)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 164 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (c68c2819ffe2e255)
+[1m[31mDebugger listening on ws://localhost:9229/a512da09-e410-440d-9453-32e60a8421b8[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/a512da09-e410-440d-9453-32e60a8421b8[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 164 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.service.ts:[32m[1m28:29[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findTenSPChung' does not exist on type 'SanphamService'.
+  [0m [90m 26 |[39m   }[0m
+  [0m [90m 27 |[39m   [36masync[39m createchung(data[33m:[39m any) {[0m
+  [0m[31m[1m>[22m[39m[90m 28 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindTenSPChung(data)[0m
+  [0m [90m    |[39m                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 29 |[39m     [36mif[39m(item)[0m
+  [0m [90m 30 |[39m     {[0m
+  [0m [90m 31 |[39m       [36mreturn[39m {result[33m:[39m[32m"Trùng Ten"[39m}[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (36b226c48d81d535)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 164 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.service.ts:[32m[1m28:29[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findTenSPChung' does not exist on type 'SanphamService'.
+  [0m [90m 26 |[39m   }[0m
+  [0m [90m 27 |[39m   [36masync[39m createchung(data[33m:[39m any) {[0m
+  [0m[31m[1m>[22m[39m[90m 28 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindTenSPChung(data)[0m
+  [0m [90m    |[39m                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 29 |[39m     [36mif[39m(item)[0m
+  [0m [90m 30 |[39m     {[0m
+  [0m [90m 31 |[39m       [36mreturn[39m {result[33m:[39m[32m"Trùng Ten"[39m}[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (36b226c48d81d535)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 164 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.service.ts:[32m[1m28:29[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findTenSPChung' does not exist on type 'SanphamService'.
+  [0m [90m 26 |[39m   }[0m
+  [0m [90m 27 |[39m   [36masync[39m createchung(data[33m:[39m any) {[0m
+  [0m[31m[1m>[22m[39m[90m 28 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindTenSPChung(data)[0m
+  [0m [90m    |[39m                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 29 |[39m     [36mif[39m(item)[0m
+  [0m [90m 30 |[39m     {[0m
+  [0m [90m 31 |[39m       [36mreturn[39m {result[33m:[39m[32m"Trùng Ten"[39m}[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (36b226c48d81d535)
+[1m[31mDebugger listening on ws://localhost:9229/e02d8e16-a9f2-48b5-8d49-0d9429902cdd[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/e02d8e16-a9f2-48b5-8d49-0d9429902cdd[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 165 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.service.ts:[32m[1m28:29[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findTenSPChung' does not exist on type 'SanphamService'.
+  [0m [90m 26 |[39m   }[0m
+  [0m [90m 27 |[39m   [36masync[39m createchung(data[33m:[39m any) {[0m
+  [0m[31m[1m>[22m[39m[90m 28 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindTenSPChung(data)[0m
+  [0m [90m    |[39m                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 29 |[39m     [36mif[39m(item)[0m
+  [0m [90m 30 |[39m     {[0m
+  [0m [90m 31 |[39m       [36mreturn[39m {result[33m:[39m[32m"Trùng Ten"[39m}[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.service.ts:[32m[1m45:9[22m[39m[1m[39m[22m
+[90mTS2393: [39mDuplicate function implementation.
+  [0m [90m 43 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mSanphamchungRepository[39m[33m.[39mfind()[33m;[39m[0m
+  [0m [90m 44 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 45 |[39m   [36masync[39m findTenSP(data[33m:[39m any) {[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 46 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mSanphamRepository[39m[33m.[39mfindOne({[0m
+  [0m [90m 47 |[39m       where[33m:[39m [[0m
+  [0m [90m 48 |[39m         { [33mTenSP[39m[33m:[39m data[33m.[39m[33mTenSP[39m }[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.service.ts:[32m[1m55:9[22m[39m[1m[39m[22m
+[90mTS2393: [39mDuplicate function implementation.
+  [0m [90m 53 |[39m     })[33m;[39m[0m
+  [0m [90m 54 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 55 |[39m   [36masync[39m findTenSP(data[33m:[39m any) {[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 56 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mSanphamRepository[39m[33m.[39mfindOne({[0m
+  [0m [90m 57 |[39m       where[33m:[39m [[0m
+  [0m [90m 58 |[39m         { [33mTenSP[39m[33m:[39m data[33m.[39m[33mTenSP[39m }[33m,[39m[0m
+
+webpack compiled with [1m[31m3 errors[39m[22m (6c60a971b6135ddf)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 165 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (7b80f8b30d775b70)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 165 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (7b80f8b30d775b70)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 165 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (7b80f8b30d775b70)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 165 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (7b80f8b30d775b70)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 165 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.service.ts:[32m[1m59:11[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ TenSPXuat: any; }' is not assignable to type 'FindOptionsWhere<SanphamEntity>'.
+  Object literal may only specify known properties, and 'TenSPXuat' does not exist in type 'FindOptionsWhere<SanphamEntity>'.
+  [0m [90m 57 |[39m       where[33m:[39m [[0m
+  [0m [90m 58 |[39m         { [33mTenSP[39m[33m:[39m data[33m.[39m[33mTenSP[39m }[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 59 |[39m         { [33mTenSPXuat[39m[33m:[39m data[33m.[39m[33mTenSP[39m }[33m,[39m[0m
+  [0m [90m    |[39m           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 60 |[39m         { [33mTenSP1[39m[33m:[39m data[33m.[39m[33mTenSP[39m }[0m
+  [0m [90m 61 |[39m       ][33m,[39m[0m
+  [0m [90m 62 |[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (96cf2d7bbcd27b9f)
+[1m[31mDebugger listening on ws://localhost:9229/93420532-6a73-4b93-bac7-5bebea820948[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/93420532-6a73-4b93-bac7-5bebea820948[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 165 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.service.ts:[32m[1m59:11[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ TenSPXuat: any; }' is not assignable to type 'FindOptionsWhere<SanphamEntity>'.
+  Object literal may only specify known properties, and 'TenSPXuat' does not exist in type 'FindOptionsWhere<SanphamEntity>'.
+  [0m [90m 57 |[39m       where[33m:[39m [[0m
+  [0m [90m 58 |[39m         { [33mTenSP[39m[33m:[39m data[33m.[39m[33mTenSP[39m }[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 59 |[39m         { [33mTenSPXuat[39m[33m:[39m data[33m.[39m[33mTenSPXuat[39m }[33m,[39m[0m
+  [0m [90m    |[39m           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 60 |[39m         { [33mTenSP1[39m[33m:[39m data[33m.[39m[33mTenSP[39m }[0m
+  [0m [90m 61 |[39m       ][33m,[39m[0m
+  [0m [90m 62 |[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (11eba95e562acc99)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 165 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.service.ts:[32m[1m59:11[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ TenSPXuat: any; }' is not assignable to type 'FindOptionsWhere<SanphamEntity>'.
+  Object literal may only specify known properties, and 'TenSPXuat' does not exist in type 'FindOptionsWhere<SanphamEntity>'.
+  [0m [90m 57 |[39m       where[33m:[39m [[0m
+  [0m [90m 58 |[39m         { [33mTenSP[39m[33m:[39m data[33m.[39m[33mTenSP[39m }[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 59 |[39m         { [33mTenSPXuat[39m[33m:[39m data[33m.[39m[33mTenSPXuat[39m }[33m,[39m[0m
+  [0m [90m    |[39m           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 60 |[39m         { [33mTenSP1[39m[33m:[39m data[33m.[39m[33mTenSP[39m }[0m
+  [0m [90m 61 |[39m       ][33m,[39m[0m
+  [0m [90m 62 |[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (11eba95e562acc99)
+[1m[31mDebugger listening on ws://localhost:9229/af132934-273d-489d-b7e0-91f4d08420b0[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/af132934-273d-489d-b7e0-91f4d08420b0[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 165 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.service.ts:[32m[1m59:11[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ TenSPXuat: any; }' is not assignable to type 'FindOptionsWhere<SanphamEntity>'.
+  Object literal may only specify known properties, and 'TenSPXuat' does not exist in type 'FindOptionsWhere<SanphamEntity>'.
+  [0m [90m 57 |[39m       where[33m:[39m [[0m
+  [0m [90m 58 |[39m         { [33mTenSP[39m[33m:[39m data[33m.[39m[33mTenSP[39m }[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 59 |[39m         { [33mTenSPXuat[39m[33m:[39m data[33m.[39m[33mTenSPXuat[39m }[33m,[39m[0m
+  [0m [90m    |[39m           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 60 |[39m         { [33mTenSPNhap[39m[33m:[39m data[33m.[39m[33mTenSPNhap[39m }[0m
+  [0m [90m 61 |[39m       ][33m,[39m[0m
+  [0m [90m 62 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.service.ts:[32m[1m60:11[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ TenSPNhap: any; }' is not assignable to type 'FindOptionsWhere<SanphamEntity>'.
+  Object literal may only specify known properties, and 'TenSPNhap' does not exist in type 'FindOptionsWhere<SanphamEntity>'.
+  [0m [90m 58 |[39m         { [33mTenSP[39m[33m:[39m data[33m.[39m[33mTenSP[39m }[33m,[39m[0m
+  [0m [90m 59 |[39m         { [33mTenSPXuat[39m[33m:[39m data[33m.[39m[33mTenSPXuat[39m }[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 60 |[39m         { [33mTenSPNhap[39m[33m:[39m data[33m.[39m[33mTenSPNhap[39m }[0m
+  [0m [90m    |[39m           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 61 |[39m       ][33m,[39m[0m
+  [0m [90m 62 |[39m[0m
+  [0m [90m 63 |[39m     })[33m;[39m[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (9692eac18199f690)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 165 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.service.ts:[32m[1m59:11[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ TenSPXuat: any; }' is not assignable to type 'FindOptionsWhere<SanphamEntity>'.
+  Object literal may only specify known properties, and 'TenSPXuat' does not exist in type 'FindOptionsWhere<SanphamEntity>'.
+  [0m [90m 57 |[39m       where[33m:[39m [[0m
+  [0m [90m 58 |[39m         { [33mTenSP[39m[33m:[39m data[33m.[39m[33mTenSP[39m }[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 59 |[39m         { [33mTenSPXuat[39m[33m:[39m data[33m.[39m[33mTenSPXuat[39m }[33m,[39m[0m
+  [0m [90m    |[39m           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 60 |[39m         { [33mTenSPNhap[39m[33m:[39m data[33m.[39m[33mTenSPNhap[39m }[0m
+  [0m [90m 61 |[39m       ][33m,[39m[0m
+  [0m [90m 62 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.service.ts:[32m[1m60:11[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ TenSPNhap: any; }' is not assignable to type 'FindOptionsWhere<SanphamEntity>'.
+  Object literal may only specify known properties, and 'TenSPNhap' does not exist in type 'FindOptionsWhere<SanphamEntity>'.
+  [0m [90m 58 |[39m         { [33mTenSP[39m[33m:[39m data[33m.[39m[33mTenSP[39m }[33m,[39m[0m
+  [0m [90m 59 |[39m         { [33mTenSPXuat[39m[33m:[39m data[33m.[39m[33mTenSPXuat[39m }[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 60 |[39m         { [33mTenSPNhap[39m[33m:[39m data[33m.[39m[33mTenSPNhap[39m }[0m
+  [0m [90m    |[39m           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 61 |[39m       ][33m,[39m[0m
+  [0m [90m 62 |[39m[0m
+  [0m [90m 63 |[39m     })[33m;[39m[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (9692eac18199f690)
+[1m[31mDebugger listening on ws://localhost:9229/ebd9eea2-b8e8-43e5-a6aa-8e6fc4b943ba[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/ebd9eea2-b8e8-43e5-a6aa-8e6fc4b943ba[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 165 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (ae5090f65ab1c49d)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 165 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (ae5090f65ab1c49d)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 165 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (ae5090f65ab1c49d)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 165 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (ae5090f65ab1c49d)
+[1m[31mDebugger listening on ws://localhost:9229/f1b44474-bf64-4193-ad69-4677555c6439[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/f1b44474-bf64-4193-ad69-4677555c6439[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 165 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (ae5090f65ab1c49d)
+[1m[31mDebugger listening on ws://localhost:9229/1ae0b947-9aa9-4c29-b932-dcfd591fa9cf[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/1ae0b947-9aa9-4c29-b932-dcfd591fa9cf[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 165 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (ae5090f65ab1c49d)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 165 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (ae5090f65ab1c49d)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 165 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (ae5090f65ab1c49d)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 165 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (ae5090f65ab1c49d)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 165 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (ae5090f65ab1c49d)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 165 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (ae5090f65ab1c49d)
+[1m[31mDebugger listening on ws://localhost:9229/876e2ef6-3a5f-4467-b320-b104ba84f3bd[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/876e2ef6-3a5f-4467-b320-b104ba84f3bd[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 23864  - [39m[31m01/28/2024, 1:15:46 AM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mread ECONNRESET[39m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mQueryFailedError: read ECONNRESET[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at PoolConnection._notifyError (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:228:21)[39m[22m
+[1m[31m    at PoolConnection._handleFatalError (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:183:10)[39m[22m
+[1m[31m    at PoolConnection._handleNetworkError (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:196:10)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at emitErrorNT (node:internal/streams/destroy:151:8)[39m[22m
+[1m[31m    at emitErrorCloseNT (node:internal/streams/destroy:116:3)[39m[22m
+[1m[31m    at processTicksAndRejections (node:internal/process/task_queues:82:21)[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: '5', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: '50', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: '50', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: '50', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: '500', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: '5000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: '5000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: '5000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: '50000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: '000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: '5', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: '50', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: '50', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: '50', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: '500', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: '5000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: '5000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: '50000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: '50000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: '000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: '000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: '5000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: '000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: '5000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: '5000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: '50000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: '50000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: '5', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: '50', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: '50', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: '50', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: '500', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: '5000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: '5000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: '000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: '000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: '5000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m

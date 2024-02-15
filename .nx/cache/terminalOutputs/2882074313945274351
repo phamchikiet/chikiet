@@ -1,0 +1,276 @@
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 51.4 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (765b487b8445187d)
+[1m[31mDebugger listening on ws://localhost:9229/34d8ebfc-c468-4d7e-a395-ad01a83b6fbe[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/34d8ebfc-c468-4d7e-a395-ad01a83b6fbe[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 51.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (7b6633da07b10ce2)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 51.6 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (7b6633da07b10ce2)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 51.6 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (7b6633da07b10ce2)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 51.6 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (7b6633da07b10ce2)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 51.6 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (7b6633da07b10ce2)
+[1m[31mDebugger listening on ws://localhost:9229/1bceea9a-a0c4-443e-afdd-574779d6dfb1[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/1bceea9a-a0c4-443e-afdd-574779d6dfb1[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 14324  - [39m[31m12/19/2023, 2:01:01 PM [31m  ERROR[39m[31m [38;5;3m[TypeOrmModule] [39m[31m[31mUnable to connect to the database. Retrying (1)...[39m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mQueryFailedError: Incorrect datetime value: '0000-00-00 00:00:00' for column `ketoan`.`muavaochitiet`.`Ngaytao` at row 1[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 14324  - [39m[31m12/19/2023, 2:01:04 PM [31m  ERROR[39m[31m [38;5;3m[TypeOrmModule] [39m[31m[31mUnable to connect to the database. Retrying (2)...[39m[31m[39m[22m
+[1m[31mQueryFailedError: Incorrect datetime value: '0000-00-00 00:00:00' for column `ketoan`.`muavaochitiet`.`Ngaytao` at row 1[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 14324  - [39m[31m12/19/2023, 2:01:07 PM [31m  ERROR[39m[31m [38;5;3m[TypeOrmModule] [39m[31m[31mUnable to connect to the database. Retrying (3)...[39m[31m[39m[22m
+[1m[31mQueryFailedError: Incorrect datetime value: '0000-00-00 00:00:00' for column `ketoan`.`muavaochitiet`.`Ngaytao` at row 1[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 51.8 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (e2b3768870953c4c)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 51.8 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (e2b3768870953c4c)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 51.8 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (e2b3768870953c4c)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 51.8 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (e2b3768870953c4c)
+[1m[31m[31m[Nest] 14324  - [39m[31m12/19/2023, 2:01:10 PM [31m  ERROR[39m[31m [38;5;3m[TypeOrmModule] [39m[31m[31mUnable to connect to the database. Retrying (4)...[39m[31m[39m[22m
+[1m[31mQueryFailedError: Incorrect datetime value: '0000-00-00 00:00:00' for column `ketoan`.`muavaochitiet`.`Ngaytao` at row 1[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/1cc79faa-cf9e-4b3f-aa53-efff4a46f6b9[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/1cc79faa-cf9e-4b3f-aa53-efff4a46f6b9[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 31604  - [39m[31m12/19/2023, 2:01:12 PM [31m  ERROR[39m[31m [38;5;3m[TypeOrmModule] [39m[31m[31mUnable to connect to the database. Retrying (1)...[39m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mQueryFailedError: Incorrect datetime value: '0000-00-00 00:00:00' for column `ketoan`.`banrachitiet`.`Ngaytao` at row 1[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 31604  - [39m[31m12/19/2023, 2:01:15 PM [31m  ERROR[39m[31m [38;5;3m[TypeOrmModule] [39m[31m[31mUnable to connect to the database. Retrying (2)...[39m[31m[39m[22m
+[1m[31mQueryFailedError: Incorrect datetime value: '0000-00-00 00:00:00' for column `ketoan`.`banrachitiet`.`Ngaytao` at row 1[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 31604  - [39m[31m12/19/2023, 2:01:18 PM [31m  ERROR[39m[31m [38;5;3m[TypeOrmModule] [39m[31m[31mUnable to connect to the database. Retrying (3)...[39m[31m[39m[22m
+[1m[31mQueryFailedError: Incorrect datetime value: '0000-00-00 00:00:00' for column `ketoan`.`banrachitiet`.`Ngaytao` at row 1[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 31604  - [39m[31m12/19/2023, 2:01:21 PM [31m  ERROR[39m[31m [38;5;3m[TypeOrmModule] [39m[31m[31mUnable to connect to the database. Retrying (4)...[39m[31m[39m[22m
+[1m[31mQueryFailedError: Incorrect datetime value: '0000-00-00 00:00:00' for column `ketoan`.`banrachitiet`.`Ngaytao` at row 1[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 31604  - [39m[31m12/19/2023, 2:01:24 PM [31m  ERROR[39m[31m [38;5;3m[TypeOrmModule] [39m[31m[31mUnable to connect to the database. Retrying (5)...[39m[31m[39m[22m
+[1m[31mQueryFailedError: Incorrect datetime value: '0000-00-00 00:00:00' for column `ketoan`.`banrachitiet`.`Ngaytao` at row 1[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 31604  - [39m[31m12/19/2023, 2:01:27 PM [31m  ERROR[39m[31m [38;5;3m[TypeOrmModule] [39m[31m[31mUnable to connect to the database. Retrying (6)...[39m[31m[39m[22m
+[1m[31mQueryFailedError: Incorrect datetime value: '0000-00-00 00:00:00' for column `ketoan`.`banrachitiet`.`Ngaytao` at row 1[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 31604  - [39m[31m12/19/2023, 2:01:30 PM [31m  ERROR[39m[31m [38;5;3m[TypeOrmModule] [39m[31m[31mUnable to connect to the database. Retrying (7)...[39m[31m[39m[22m
+[1m[31mQueryFailedError: Incorrect datetime value: '0000-00-00 00:00:00' for column `ketoan`.`banrachitiet`.`Ngaytao` at row 1[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 51.8 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (e2b3768870953c4c)
+[1m[31mDebugger listening on ws://localhost:9229/da9d89d7-b7c6-483f-a297-fadb8bfac327[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/da9d89d7-b7c6-483f-a297-fadb8bfac327[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 6472  - [39m[31m12/19/2023, 2:01:33 PM [31m  ERROR[39m[31m [38;5;3m[TypeOrmModule] [39m[31m[31mUnable to connect to the database. Retrying (1)...[39m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mQueryFailedError: Incorrect datetime value: '0000-00-00 00:00:00' for column `ketoan`.`banrachitiet`.`Ngaytao` at row 1[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 6472  - [39m[31m12/19/2023, 2:01:36 PM [31m  ERROR[39m[31m [38;5;3m[TypeOrmModule] [39m[31m[31mUnable to connect to the database. Retrying (2)...[39m[31m[39m[22m
+[1m[31mQueryFailedError: Incorrect datetime value: '0000-00-00 00:00:00' for column `ketoan`.`banrachitiet`.`Ngaytao` at row 1[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 6472  - [39m[31m12/19/2023, 2:01:39 PM [31m  ERROR[39m[31m [38;5;3m[TypeOrmModule] [39m[31m[31mUnable to connect to the database. Retrying (3)...[39m[31m[39m[22m
+[1m[31mQueryFailedError: Incorrect datetime value: '0000-00-00 00:00:00' for column `ketoan`.`banrachitiet`.`Ngaytao` at row 1[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 6472  - [39m[31m12/19/2023, 2:01:42 PM [31m  ERROR[39m[31m [38;5;3m[TypeOrmModule] [39m[31m[31mUnable to connect to the database. Retrying (4)...[39m[31m[39m[22m
+[1m[31mQueryFailedError: Incorrect datetime value: '0000-00-00 00:00:00' for column `ketoan`.`banrachitiet`.`Ngaytao` at row 1[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 6472  - [39m[31m12/19/2023, 2:01:45 PM [31m  ERROR[39m[31m [38;5;3m[TypeOrmModule] [39m[31m[31mUnable to connect to the database. Retrying (5)...[39m[31m[39m[22m
+[1m[31mQueryFailedError: Incorrect datetime value: '0000-00-00 00:00:00' for column `ketoan`.`banrachitiet`.`Ngaytao` at row 1[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 6472  - [39m[31m12/19/2023, 2:01:48 PM [31m  ERROR[39m[31m [38;5;3m[TypeOrmModule] [39m[31m[31mUnable to connect to the database. Retrying (6)...[39m[31m[39m[22m
+[1m[31mQueryFailedError: Incorrect datetime value: '0000-00-00 00:00:00' for column `ketoan`.`banrachitiet`.`Ngaytao` at row 1[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 6472  - [39m[31m12/19/2023, 2:01:51 PM [31m  ERROR[39m[31m [38;5;3m[TypeOrmModule] [39m[31m[31mUnable to connect to the database. Retrying (7)...[39m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mQueryFailedError: Incorrect datetime value: '0000-00-00 00:00:00' for column `ketoan`.`banrachitiet`.`Ngaytao` at row 1[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m

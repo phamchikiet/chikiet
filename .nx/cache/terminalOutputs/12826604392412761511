@@ -1,0 +1,202 @@
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 14.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (1659ed3287f14d79)
+[1m[31mDebugger listening on ws://localhost:9229/28bf38b6-483c-4871-95be-3bde657e13aa[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/28bf38b6-483c-4871-95be-3bde657e13aa[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 20016  - [39m[31m12/17/2023, 12:48:52 AM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mNo metadata for "hoadonbanraEntity" was found.[39m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mEntityMetadataNotFoundError: No metadata for "hoadonbanraEntity" was found.[39m[22m
+[1m[31m    at DataSource.getMetadata (F:\chikiet\BEKetoan\src\data-source\DataSource.ts:444:30)[39m[22m
+[1m[31m    at Repository.get metadata [as metadata] (F:\chikiet\BEKetoan\src\repository\Repository.ts:53:40)[39m[22m
+[1m[31m    at Repository.find (F:\chikiet\BEKetoan\src\repository\Repository.ts:524:39)[39m[22m
+[1m[31m    at hoadonbanraService.findAll (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\hoadonbanra\hoadonbanra.service.ts:19:45)[39m[22m
+[1m[31m    at hoadonbanraController.findAll (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\hoadonbanra\hoadonbanra.controller.ts:15:42)[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\node_modules\@nestjs\core\router\router-execution-context.js:38:29[39m[22m
+[1m[31m    at InterceptorsConsumer.intercept (F:\chikiet\BEKetoan\node_modules\@nestjs\core\interceptors\interceptors-consumer.js:12:20)[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\node_modules\@nestjs\core\router\router-execution-context.js:46:60[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\node_modules\@nestjs\core\router\router-proxy.js:9:23[39m[22m
+[1m[31m    at Layer.handle [as handle_request] (F:\chikiet\BEKetoan\node_modules\express\lib\router\layer.js:95:5)[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 14.6 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (1659ed3287f14d79)
+[1m[31mDebugger listening on ws://localhost:9229/91a03c42-7907-4f75-aa45-5e76c3db56f3[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/91a03c42-7907-4f75-aa45-5e76c3db56f3[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 14.5 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/main.ts:[32m[1m16:63[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'globalPrefix'.
+  [0m [90m 14 |[39m   [36mawait[39m app[33m.[39mlisten(port)[33m;[39m[0m
+  [0m [90m 15 |[39m   [33mLogger[39m[33m.[39mlog([0m
+  [0m[31m[1m>[22m[39m[90m 16 |[39m     [32m`🚀 Application is running on: http://localhost:${port}/${globalPrefix}`[39m[0m
+  [0m [90m    |[39m                                                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 17 |[39m   )[33m;[39m[0m
+  [0m [90m 18 |[39m }[0m
+  [0m [90m 19 |[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (f8e2ccbf0541b882)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 14.5 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/main.ts:[32m[1m16:63[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'globalPrefix'.
+  [0m [90m 14 |[39m   [36mawait[39m app[33m.[39mlisten(port)[33m;[39m[0m
+  [0m [90m 15 |[39m   [33mLogger[39m[33m.[39mlog([0m
+  [0m[31m[1m>[22m[39m[90m 16 |[39m     [32m`🚀 Application is running on: http://localhost:${port}/${globalPrefix}`[39m[0m
+  [0m [90m    |[39m                                                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 17 |[39m   )[33m;[39m[0m
+  [0m [90m 18 |[39m }[0m
+  [0m [90m 19 |[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (f8e2ccbf0541b882)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 14.5 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/main.ts:[32m[1m16:63[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'globalPrefix'.
+  [0m [90m 14 |[39m   [36mawait[39m app[33m.[39mlisten(port)[33m;[39m[0m
+  [0m [90m 15 |[39m   [33mLogger[39m[33m.[39mlog([0m
+  [0m[31m[1m>[22m[39m[90m 16 |[39m     [32m`🚀 Application is running on: http://localhost:${port}/${globalPrefix}`[39m[0m
+  [0m [90m    |[39m                                                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 17 |[39m   )[33m;[39m[0m
+  [0m [90m 18 |[39m }[0m
+  [0m [90m 19 |[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (f8e2ccbf0541b882)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 14.5 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/main.ts:[32m[1m16:63[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'globalPrefix'.
+  [0m [90m 14 |[39m   [36mawait[39m app[33m.[39mlisten(port)[33m;[39m[0m
+  [0m [90m 15 |[39m   [33mLogger[39m[33m.[39mlog([0m
+  [0m[31m[1m>[22m[39m[90m 16 |[39m     [32m`🚀 Application is running on: http://localhost:${port}/${globalPrefix}`[39m[0m
+  [0m [90m    |[39m                                                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 17 |[39m   )[33m;[39m[0m
+  [0m [90m 18 |[39m }[0m
+  [0m [90m 19 |[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (cb2490a2c9c6bedb)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 14.5 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/main.ts:[32m[1m16:63[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'globalPrefix'.
+  [0m [90m 14 |[39m   [36mawait[39m app[33m.[39mlisten(port)[33m;[39m[0m
+  [0m [90m 15 |[39m   [33mLogger[39m[33m.[39mlog([0m
+  [0m[31m[1m>[22m[39m[90m 16 |[39m     [32m`🚀 Application is running on: http://localhost:${port}/${globalPrefix}`[39m[0m
+  [0m [90m    |[39m                                                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 17 |[39m   )[33m;[39m[0m
+  [0m [90m 18 |[39m }[0m
+  [0m [90m 19 |[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (1d545dfab77c4040)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 14.5 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/main.ts:[32m[1m16:63[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'globalPrefix'.
+  [0m [90m 14 |[39m   [36mawait[39m app[33m.[39mlisten(port)[33m;[39m[0m
+  [0m [90m 15 |[39m   [33mLogger[39m[33m.[39mlog([0m
+  [0m[31m[1m>[22m[39m[90m 16 |[39m     [32m`🚀 Application is running on: http://localhost:${port}/${globalPrefix}`[39m[0m
+  [0m [90m    |[39m                                                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 17 |[39m   )[33m;[39m[0m
+  [0m [90m 18 |[39m }[0m
+  [0m [90m 19 |[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (2992fcb8ec9e6a4d)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 14.5 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/main.ts:[32m[1m16:63[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'globalPrefix'.
+  [0m [90m 14 |[39m   [36mawait[39m app[33m.[39mlisten(port)[33m;[39m[0m
+  [0m [90m 15 |[39m   [33mLogger[39m[33m.[39mlog([0m
+  [0m[31m[1m>[22m[39m[90m 16 |[39m     [32m`🚀 Application is running on: http://localhost:${port}/${globalPrefix}`[39m[0m
+  [0m [90m    |[39m                                                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 17 |[39m   )[33m;[39m[0m
+  [0m [90m 18 |[39m }[0m
+  [0m [90m 19 |[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (dc81310e24a73c49)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 14.5 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/main.ts:[32m[1m16:63[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'globalPrefix'.
+  [0m [90m 14 |[39m   [36mawait[39m app[33m.[39mlisten(port)[33m;[39m[0m
+  [0m [90m 15 |[39m   [33mLogger[39m[33m.[39mlog([0m
+  [0m[31m[1m>[22m[39m[90m 16 |[39m     [32m`🚀 Application is running on: http://localhost:${port}/${globalPrefix}`[39m[0m
+  [0m [90m    |[39m                                                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 17 |[39m   )[33m;[39m[0m
+  [0m [90m 18 |[39m }[0m
+  [0m [90m 19 |[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (22588be83dfc1922)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 14.5 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/main.ts:[32m[1m16:63[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'globalPrefix'.
+  [0m [90m 14 |[39m   [36mawait[39m app[33m.[39mlisten(port)[33m;[39m[0m
+  [0m [90m 15 |[39m   [33mLogger[39m[33m.[39mlog([0m
+  [0m[31m[1m>[22m[39m[90m 16 |[39m     [32m`🚀 Application is running on: http://localhost:${port}/${globalPrefix}`[39m[0m
+  [0m [90m    |[39m                                                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 17 |[39m   )[33m;[39m[0m
+  [0m [90m 18 |[39m }[0m
+  [0m [90m 19 |[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (22588be83dfc1922)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 14.5 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/main.ts:[32m[1m16:63[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'globalPrefix'.
+  [0m [90m 14 |[39m   [36mawait[39m app[33m.[39mlisten(port)[33m;[39m[0m
+  [0m [90m 15 |[39m   [33mLogger[39m[33m.[39mlog([0m
+  [0m[31m[1m>[22m[39m[90m 16 |[39m     [32m`🚀 Application is running on: http://localhost:${port}/${globalPrefix}`[39m[0m
+  [0m [90m    |[39m                                                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 17 |[39m   )[33m;[39m[0m
+  [0m [90m 18 |[39m }[0m
+  [0m [90m 19 |[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (22588be83dfc1922)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 14.5 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/main.ts:[32m[1m16:63[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'globalPrefix'.
+  [0m [90m 14 |[39m   [36mawait[39m app[33m.[39mlisten(port)[33m;[39m[0m
+  [0m [90m 15 |[39m   [33mLogger[39m[33m.[39mlog([0m
+  [0m[31m[1m>[22m[39m[90m 16 |[39m     [32m`🚀 Application is running on: http://localhost:${port}/${globalPrefix}`[39m[0m
+  [0m [90m    |[39m                                                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 17 |[39m   )[33m;[39m[0m
+  [0m [90m 18 |[39m }[0m
+  [0m [90m 19 |[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (22588be83dfc1922)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 599 bytes [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/main.ts[39m[22m [1m[32m14:79[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: Unterminated template (14:79)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|     const port = process.env.PORT || 3100;
+|     await app.listen(port);
+>     common_1.Logger.log(`🚀 Application is running on: http://localhost:${port}
+|   );
+| }[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\main.ts[39m[22m
+[1m./src/main.ts[39m[22m [1m[32m21:0[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\main.ts(21,1)[39m[22m
+[1m[31m      TS1160: Unterminated template literal.[39m[22m
+
+webpack compiled with [1m[31m2 errors[39m[22m (a6b59a19f7c0c692)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 14.5 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (703120ba39033d8b)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 14.5 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (703120ba39033d8b)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 14.5 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (703120ba39033d8b)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m

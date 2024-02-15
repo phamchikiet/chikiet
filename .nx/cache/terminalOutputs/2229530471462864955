@@ -1,0 +1,1445 @@
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 60.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (36d09e99351c4849)
+[1m[31mDebugger listening on ws://localhost:9229/6ac6b115-0dfa-47e8-8e65-2061892ff821[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/6ac6b115-0dfa-47e8-8e65-2061892ff821[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 58.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m30:21-22[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(30,22)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m30:22-23[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(30,23)[39m[22m
+[1m[31m      TS1109: Expression expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m30:23-24[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(30,24)[39m[22m
+[1m[31m      TS1005: ';' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m34:9[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(34,10)[39m[22m
+[1m[31m      TS1146: Declaration expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m34:35[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(34,36)[39m[22m
+[1m[31m      TS1109: Expression expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m34:36-41[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(34,37)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m34:41-42[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(34,42)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m34:50-51[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(34,51)[39m[22m
+[1m[31m      TS1005: ';' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m37:15[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(37,16)[39m[22m
+[1m[31m      TS1146: Declaration expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m38:21[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(38,22)[39m[22m
+[1m[31m      TS1109: Expression expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m38:22-24[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(38,23)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m38:24-25[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(38,25)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m38:41[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(38,42)[39m[22m
+[1m[31m      TS1109: Expression expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m38:42-57[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(38,43)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m38:57-58[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(38,58)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m38:76-77[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(38,77)[39m[22m
+[1m[31m      TS1005: ';' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m42:16[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(42,17)[39m[22m
+[1m[31m      TS1146: Declaration expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m43:21[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(43,22)[39m[22m
+[1m[31m      TS1109: Expression expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m43:22-24[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(43,23)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m43:24-25[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(43,25)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m43:34-35[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(43,35)[39m[22m
+[1m[31m      TS1005: ';' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m46:0-1[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(46,1)[39m[22m
+[1m[31m      TS1128: Declaration or statement expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m70:1[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: [1m[31mUnexpected[39m[22m[1m token (70:1)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|     tslib_1.__metadata("design:paramtypes", [typeof (_a = typeof muavao_service_1.MuavaoService !== "undefined" && muavao_service_1.MuavaoService) === "function" ? _a : Object])
+| ], MuavaoController);
+> ();
+| {
+|     return await this.muavaoService.finddate(begin, end);[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.controller.ts:[32m[1m34:11[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'findQuery'.
+  [0m [90m 32 |[39m   }[0m
+  [0m [90m 33 |[39m   [33m@[39m[33mGet[39m([32m'findquery'[39m)[0m
+  [0m[31m[1m>[22m[39m[90m 34 |[39m     [36masync[39m findQuery([33m@[39m[33mQuery[39m([32m'query'[39m) query[33m:[39m string){[0m
+  [0m [90m    |[39m           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 35 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39mmuavaoService[33m.[39mfindQuery(query)[33m;[39m[0m
+  [0m [90m 36 |[39m   }[0m
+  [0m [90m 37 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.controller.ts:[32m[1m34:37[22m[39m[1m[39m[22m
+[90mTS2552: [39mCannot find name 'query'. Did you mean 'Query'?
+  [0m [90m 32 |[39m   }[0m
+  [0m [90m 33 |[39m   [33m@[39m[33mGet[39m([32m'findquery'[39m)[0m
+  [0m[31m[1m>[22m[39m[90m 34 |[39m     [36masync[39m findQuery([33m@[39m[33mQuery[39m([32m'query'[39m) query[33m:[39m string){[0m
+  [0m [90m    |[39m                                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 35 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39mmuavaoService[33m.[39mfindQuery(query)[33m;[39m[0m
+  [0m [90m 36 |[39m   }[0m
+  [0m [90m 37 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.controller.ts:[32m[1m34:44[22m[39m[1m[39m[22m
+[90mTS2693: [39m'string' only refers to a type, but is being used as a value here.
+  [0m [90m 32 |[39m   }[0m
+  [0m [90m 33 |[39m   [33m@[39m[33mGet[39m([32m'findquery'[39m)[0m
+  [0m[31m[1m>[22m[39m[90m 34 |[39m     [36masync[39m findQuery([33m@[39m[33mQuery[39m([32m'query'[39m) query[33m:[39m string){[0m
+  [0m [90m    |[39m                                            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 35 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39mmuavaoService[33m.[39mfindQuery(query)[33m;[39m[0m
+  [0m [90m 36 |[39m   }[0m
+  [0m [90m 37 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.controller.ts:[32m[1m38:3[22m[39m[1m[39m[22m
+[90mTS2552: [39mCannot find name 'update'. Did you mean 'Date'?
+  [0m [90m 36 |[39m   }[0m
+  [0m [90m 37 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+  [0m[31m[1m>[22m[39m[90m 38 |[39m   update([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string[33m,[39m [33m@[39m[33mBody[39m() updateMuavaoDto[33m:[39m [33mUpdateMuavaoDto[39m) {[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 39 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mmuavaoService[33m.[39mupdate(id[33m,[39m updateMuavaoDto)[33m;[39m[0m
+  [0m [90m 40 |[39m   }[0m
+  [0m [90m 41 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.controller.ts:[32m[1m38:23[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'id'.
+  [0m [90m 36 |[39m   }[0m
+  [0m [90m 37 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+  [0m[31m[1m>[22m[39m[90m 38 |[39m   update([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string[33m,[39m [33m@[39m[33mBody[39m() updateMuavaoDto[33m:[39m [33mUpdateMuavaoDto[39m) {[0m
+  [0m [90m    |[39m                       [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 39 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mmuavaoService[33m.[39mupdate(id[33m,[39m updateMuavaoDto)[33m;[39m[0m
+  [0m [90m 40 |[39m   }[0m
+  [0m [90m 41 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.controller.ts:[32m[1m38:27[22m[39m[1m[39m[22m
+[90mTS2693: [39m'string' only refers to a type, but is being used as a value here.
+  [0m [90m 36 |[39m   }[0m
+  [0m [90m 37 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+  [0m[31m[1m>[22m[39m[90m 38 |[39m   update([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string[33m,[39m [33m@[39m[33mBody[39m() updateMuavaoDto[33m:[39m [33mUpdateMuavaoDto[39m) {[0m
+  [0m [90m    |[39m                           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 39 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mmuavaoService[33m.[39mupdate(id[33m,[39m updateMuavaoDto)[33m;[39m[0m
+  [0m [90m 40 |[39m   }[0m
+  [0m [90m 41 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.controller.ts:[32m[1m38:43[22m[39m[1m[39m[22m
+[90mTS2552: [39mCannot find name 'updateMuavaoDto'. Did you mean 'UpdateMuavaoDto'?
+  [0m [90m 36 |[39m   }[0m
+  [0m [90m 37 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+  [0m[31m[1m>[22m[39m[90m 38 |[39m   update([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string[33m,[39m [33m@[39m[33mBody[39m() updateMuavaoDto[33m:[39m [33mUpdateMuavaoDto[39m) {[0m
+  [0m [90m    |[39m                                           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 39 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mmuavaoService[33m.[39mupdate(id[33m,[39m updateMuavaoDto)[33m;[39m[0m
+  [0m [90m 40 |[39m   }[0m
+  [0m [90m 41 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.controller.ts:[32m[1m43:3[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'remove'.
+  [0m [90m 41 |[39m[0m
+  [0m [90m 42 |[39m   [33m@[39m[33mDelete[39m([32m':id'[39m)[0m
+  [0m[31m[1m>[22m[39m[90m 43 |[39m   remove([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 44 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mmuavaoService[33m.[39mremove(id)[33m;[39m[0m
+  [0m [90m 45 |[39m   }[0m
+  [0m [90m 46 |[39m }[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.controller.ts:[32m[1m43:23[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'id'.
+  [0m [90m 41 |[39m[0m
+  [0m [90m 42 |[39m   [33m@[39m[33mDelete[39m([32m':id'[39m)[0m
+  [0m[31m[1m>[22m[39m[90m 43 |[39m   remove([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m [90m    |[39m                       [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 44 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mmuavaoService[33m.[39mremove(id)[33m;[39m[0m
+  [0m [90m 45 |[39m   }[0m
+  [0m [90m 46 |[39m }[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.controller.ts:[32m[1m43:27[22m[39m[1m[39m[22m
+[90mTS2693: [39m'string' only refers to a type, but is being used as a value here.
+  [0m [90m 41 |[39m[0m
+  [0m [90m 42 |[39m   [33m@[39m[33mDelete[39m([32m':id'[39m)[0m
+  [0m[31m[1m>[22m[39m[90m 43 |[39m   remove([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m [90m    |[39m                           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 44 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mmuavaoService[33m.[39mremove(id)[33m;[39m[0m
+  [0m [90m 45 |[39m   }[0m
+  [0m [90m 46 |[39m }[0m
+
+webpack compiled with [1m[31m33 errors[39m[22m (7ad11b1dfdd90e8b)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 58.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m30:21-22[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(30,22)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m30:22-23[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(30,23)[39m[22m
+[1m[31m      TS1109: Expression expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m30:23-26[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(30,24)[39m[22m
+[1m[31m      TS1005: ';' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m30:26-27[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(30,27)[39m[22m
+[1m[31m      TS1128: Declaration or statement expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m34:9[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(34,10)[39m[22m
+[1m[31m      TS1146: Declaration expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m34:35[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(34,36)[39m[22m
+[1m[31m      TS1109: Expression expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m34:36-41[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(34,37)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m34:41-42[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(34,42)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m34:50-51[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(34,51)[39m[22m
+[1m[31m      TS1005: ';' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m37:15[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(37,16)[39m[22m
+[1m[31m      TS1146: Declaration expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m38:21[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(38,22)[39m[22m
+[1m[31m      TS1109: Expression expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m38:22-24[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(38,23)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m38:24-25[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(38,25)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m38:41[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(38,42)[39m[22m
+[1m[31m      TS1109: Expression expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m38:42-57[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(38,43)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m38:57-58[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(38,58)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m38:76-77[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(38,77)[39m[22m
+[1m[31m      TS1005: ';' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m42:16[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(42,17)[39m[22m
+[1m[31m      TS1146: Declaration expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m43:21[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(43,22)[39m[22m
+[1m[31m      TS1109: Expression expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m43:22-24[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(43,23)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m43:24-25[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(43,25)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m43:34-35[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(43,35)[39m[22m
+[1m[31m      TS1005: ';' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m46:0-1[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(46,1)[39m[22m
+[1m[31m      TS1128: Declaration or statement expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m70:1[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: [1m[31mUnexpected[39m[22m[1m token (70:1)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|     tslib_1.__metadata("design:paramtypes", [typeof (_a = typeof muavao_service_1.MuavaoService !== "undefined" && muavao_service_1.MuavaoService) === "function" ? _a : Object])
+| ], MuavaoController);
+> ();
+| dât;
+| {[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.controller.ts:[32m[1m30:24[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'dât'.
+  [0m [90m 28 |[39m   }[0m
+  [0m [90m 29 |[39m   [33m@[39m[33mGet[39m([32m'finddate'[39m)[0m
+  [0m[31m[1m>[22m[39m[90m 30 |[39m   [36masync[39m finddate([33mBody[39m()dât){[0m
+  [0m [90m    |[39m                        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 31 |[39m        [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39mmuavaoService[33m.[39mfinddate(begin[33m,[39mend)[33m;[39m[0m
+  [0m [90m 32 |[39m   }[0m
+  [0m [90m 33 |[39m   [33m@[39m[33mGet[39m([32m'findquery'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.controller.ts:[32m[1m34:11[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'findQuery'.
+  [0m [90m 32 |[39m   }[0m
+  [0m [90m 33 |[39m   [33m@[39m[33mGet[39m([32m'findquery'[39m)[0m
+  [0m[31m[1m>[22m[39m[90m 34 |[39m     [36masync[39m findQuery([33m@[39m[33mQuery[39m([32m'query'[39m) query[33m:[39m string){[0m
+  [0m [90m    |[39m           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 35 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39mmuavaoService[33m.[39mfindQuery(query)[33m;[39m[0m
+  [0m [90m 36 |[39m   }[0m
+  [0m [90m 37 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.controller.ts:[32m[1m34:37[22m[39m[1m[39m[22m
+[90mTS2552: [39mCannot find name 'query'. Did you mean 'Query'?
+  [0m [90m 32 |[39m   }[0m
+  [0m [90m 33 |[39m   [33m@[39m[33mGet[39m([32m'findquery'[39m)[0m
+  [0m[31m[1m>[22m[39m[90m 34 |[39m     [36masync[39m findQuery([33m@[39m[33mQuery[39m([32m'query'[39m) query[33m:[39m string){[0m
+  [0m [90m    |[39m                                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 35 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39mmuavaoService[33m.[39mfindQuery(query)[33m;[39m[0m
+  [0m [90m 36 |[39m   }[0m
+  [0m [90m 37 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.controller.ts:[32m[1m34:44[22m[39m[1m[39m[22m
+[90mTS2693: [39m'string' only refers to a type, but is being used as a value here.
+  [0m [90m 32 |[39m   }[0m
+  [0m [90m 33 |[39m   [33m@[39m[33mGet[39m([32m'findquery'[39m)[0m
+  [0m[31m[1m>[22m[39m[90m 34 |[39m     [36masync[39m findQuery([33m@[39m[33mQuery[39m([32m'query'[39m) query[33m:[39m string){[0m
+  [0m [90m    |[39m                                            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 35 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39mmuavaoService[33m.[39mfindQuery(query)[33m;[39m[0m
+  [0m [90m 36 |[39m   }[0m
+  [0m [90m 37 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.controller.ts:[32m[1m38:3[22m[39m[1m[39m[22m
+[90mTS2552: [39mCannot find name 'update'. Did you mean 'Date'?
+  [0m [90m 36 |[39m   }[0m
+  [0m [90m 37 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+  [0m[31m[1m>[22m[39m[90m 38 |[39m   update([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string[33m,[39m [33m@[39m[33mBody[39m() updateMuavaoDto[33m:[39m [33mUpdateMuavaoDto[39m) {[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 39 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mmuavaoService[33m.[39mupdate(id[33m,[39m updateMuavaoDto)[33m;[39m[0m
+  [0m [90m 40 |[39m   }[0m
+  [0m [90m 41 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.controller.ts:[32m[1m38:23[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'id'.
+  [0m [90m 36 |[39m   }[0m
+  [0m [90m 37 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+  [0m[31m[1m>[22m[39m[90m 38 |[39m   update([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string[33m,[39m [33m@[39m[33mBody[39m() updateMuavaoDto[33m:[39m [33mUpdateMuavaoDto[39m) {[0m
+  [0m [90m    |[39m                       [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 39 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mmuavaoService[33m.[39mupdate(id[33m,[39m updateMuavaoDto)[33m;[39m[0m
+  [0m [90m 40 |[39m   }[0m
+  [0m [90m 41 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.controller.ts:[32m[1m38:27[22m[39m[1m[39m[22m
+[90mTS2693: [39m'string' only refers to a type, but is being used as a value here.
+  [0m [90m 36 |[39m   }[0m
+  [0m [90m 37 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+  [0m[31m[1m>[22m[39m[90m 38 |[39m   update([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string[33m,[39m [33m@[39m[33mBody[39m() updateMuavaoDto[33m:[39m [33mUpdateMuavaoDto[39m) {[0m
+  [0m [90m    |[39m                           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 39 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mmuavaoService[33m.[39mupdate(id[33m,[39m updateMuavaoDto)[33m;[39m[0m
+  [0m [90m 40 |[39m   }[0m
+  [0m [90m 41 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.controller.ts:[32m[1m38:43[22m[39m[1m[39m[22m
+[90mTS2552: [39mCannot find name 'updateMuavaoDto'. Did you mean 'UpdateMuavaoDto'?
+  [0m [90m 36 |[39m   }[0m
+  [0m [90m 37 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+  [0m[31m[1m>[22m[39m[90m 38 |[39m   update([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string[33m,[39m [33m@[39m[33mBody[39m() updateMuavaoDto[33m:[39m [33mUpdateMuavaoDto[39m) {[0m
+  [0m [90m    |[39m                                           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 39 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mmuavaoService[33m.[39mupdate(id[33m,[39m updateMuavaoDto)[33m;[39m[0m
+  [0m [90m 40 |[39m   }[0m
+  [0m [90m 41 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.controller.ts:[32m[1m43:3[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'remove'.
+  [0m [90m 41 |[39m[0m
+  [0m [90m 42 |[39m   [33m@[39m[33mDelete[39m([32m':id'[39m)[0m
+  [0m[31m[1m>[22m[39m[90m 43 |[39m   remove([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 44 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mmuavaoService[33m.[39mremove(id)[33m;[39m[0m
+  [0m [90m 45 |[39m   }[0m
+  [0m [90m 46 |[39m }[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.controller.ts:[32m[1m43:23[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'id'.
+  [0m [90m 41 |[39m[0m
+  [0m [90m 42 |[39m   [33m@[39m[33mDelete[39m([32m':id'[39m)[0m
+  [0m[31m[1m>[22m[39m[90m 43 |[39m   remove([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m [90m    |[39m                       [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 44 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mmuavaoService[33m.[39mremove(id)[33m;[39m[0m
+  [0m [90m 45 |[39m   }[0m
+  [0m [90m 46 |[39m }[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.controller.ts:[32m[1m43:27[22m[39m[1m[39m[22m
+[90mTS2693: [39m'string' only refers to a type, but is being used as a value here.
+  [0m [90m 41 |[39m[0m
+  [0m [90m 42 |[39m   [33m@[39m[33mDelete[39m([32m':id'[39m)[0m
+  [0m[31m[1m>[22m[39m[90m 43 |[39m   remove([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m [90m    |[39m                           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 44 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mmuavaoService[33m.[39mremove(id)[33m;[39m[0m
+  [0m [90m 45 |[39m   }[0m
+  [0m [90m 46 |[39m }[0m
+
+webpack compiled with [1m[31m35 errors[39m[22m (9955fdcc49953d9c)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 58.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m30:21-22[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(30,22)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m30:22-23[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(30,23)[39m[22m
+[1m[31m      TS1109: Expression expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m30:23-27[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(30,24)[39m[22m
+[1m[31m      TS1005: ';' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m30:28-31[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(30,29)[39m[22m
+[1m[31m      TS1434: Unexpected keyword or identifier.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m30:31-32[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(30,32)[39m[22m
+[1m[31m      TS1128: Declaration or statement expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m34:9[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(34,10)[39m[22m
+[1m[31m      TS1146: Declaration expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m34:35[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(34,36)[39m[22m
+[1m[31m      TS1109: Expression expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m34:36-41[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(34,37)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m34:41-42[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(34,42)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m34:50-51[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(34,51)[39m[22m
+[1m[31m      TS1005: ';' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m37:15[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(37,16)[39m[22m
+[1m[31m      TS1146: Declaration expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m38:21[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(38,22)[39m[22m
+[1m[31m      TS1109: Expression expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m38:22-24[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(38,23)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m38:24-25[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(38,25)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m38:41[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(38,42)[39m[22m
+[1m[31m      TS1109: Expression expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m38:42-57[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(38,43)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m38:57-58[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(38,58)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m38:76-77[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(38,77)[39m[22m
+[1m[31m      TS1005: ';' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m42:16[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(42,17)[39m[22m
+[1m[31m      TS1146: Declaration expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m43:21[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(43,22)[39m[22m
+[1m[31m      TS1109: Expression expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m43:22-24[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(43,23)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m43:24-25[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(43,25)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m43:34-35[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(43,35)[39m[22m
+[1m[31m      TS1005: ';' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m46:0-1[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(46,1)[39m[22m
+[1m[31m      TS1128: Declaration or statement expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m70:1[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: [1m[31mUnexpected[39m[22m[1m token (70:1)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|     tslib_1.__metadata("design:paramtypes", [typeof (_a = typeof muavao_service_1.MuavaoService !== "undefined" && muavao_service_1.MuavaoService) === "function" ? _a : Object])
+| ], MuavaoController);
+> ();
+| data: any;
+| {[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.controller.ts:[32m[1m30:29[22m[39m[1m[39m[22m
+[90mTS2693: [39m'any' only refers to a type, but is being used as a value here.
+  [0m [90m 28 |[39m   }[0m
+  [0m [90m 29 |[39m   [33m@[39m[33mGet[39m([32m'finddate'[39m)[0m
+  [0m[31m[1m>[22m[39m[90m 30 |[39m   [36masync[39m finddate([33mBody[39m()data[33m:[39many){[0m
+  [0m [90m    |[39m                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 31 |[39m        [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39mmuavaoService[33m.[39mfinddate(begin[33m,[39mend)[33m;[39m[0m
+  [0m [90m 32 |[39m   }[0m
+  [0m [90m 33 |[39m   [33m@[39m[33mGet[39m([32m'findquery'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.controller.ts:[32m[1m34:11[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'findQuery'.
+  [0m [90m 32 |[39m   }[0m
+  [0m [90m 33 |[39m   [33m@[39m[33mGet[39m([32m'findquery'[39m)[0m
+  [0m[31m[1m>[22m[39m[90m 34 |[39m     [36masync[39m findQuery([33m@[39m[33mQuery[39m([32m'query'[39m) query[33m:[39m string){[0m
+  [0m [90m    |[39m           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 35 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39mmuavaoService[33m.[39mfindQuery(query)[33m;[39m[0m
+  [0m [90m 36 |[39m   }[0m
+  [0m [90m 37 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.controller.ts:[32m[1m34:37[22m[39m[1m[39m[22m
+[90mTS2552: [39mCannot find name 'query'. Did you mean 'Query'?
+  [0m [90m 32 |[39m   }[0m
+  [0m [90m 33 |[39m   [33m@[39m[33mGet[39m([32m'findquery'[39m)[0m
+  [0m[31m[1m>[22m[39m[90m 34 |[39m     [36masync[39m findQuery([33m@[39m[33mQuery[39m([32m'query'[39m) query[33m:[39m string){[0m
+  [0m [90m    |[39m                                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 35 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39mmuavaoService[33m.[39mfindQuery(query)[33m;[39m[0m
+  [0m [90m 36 |[39m   }[0m
+  [0m [90m 37 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.controller.ts:[32m[1m34:44[22m[39m[1m[39m[22m
+[90mTS2693: [39m'string' only refers to a type, but is being used as a value here.
+  [0m [90m 32 |[39m   }[0m
+  [0m [90m 33 |[39m   [33m@[39m[33mGet[39m([32m'findquery'[39m)[0m
+  [0m[31m[1m>[22m[39m[90m 34 |[39m     [36masync[39m findQuery([33m@[39m[33mQuery[39m([32m'query'[39m) query[33m:[39m string){[0m
+  [0m [90m    |[39m                                            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 35 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39mmuavaoService[33m.[39mfindQuery(query)[33m;[39m[0m
+  [0m [90m 36 |[39m   }[0m
+  [0m [90m 37 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.controller.ts:[32m[1m38:3[22m[39m[1m[39m[22m
+[90mTS2552: [39mCannot find name 'update'. Did you mean 'Date'?
+  [0m [90m 36 |[39m   }[0m
+  [0m [90m 37 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+  [0m[31m[1m>[22m[39m[90m 38 |[39m   update([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string[33m,[39m [33m@[39m[33mBody[39m() updateMuavaoDto[33m:[39m [33mUpdateMuavaoDto[39m) {[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 39 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mmuavaoService[33m.[39mupdate(id[33m,[39m updateMuavaoDto)[33m;[39m[0m
+  [0m [90m 40 |[39m   }[0m
+  [0m [90m 41 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.controller.ts:[32m[1m38:23[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'id'.
+  [0m [90m 36 |[39m   }[0m
+  [0m [90m 37 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+  [0m[31m[1m>[22m[39m[90m 38 |[39m   update([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string[33m,[39m [33m@[39m[33mBody[39m() updateMuavaoDto[33m:[39m [33mUpdateMuavaoDto[39m) {[0m
+  [0m [90m    |[39m                       [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 39 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mmuavaoService[33m.[39mupdate(id[33m,[39m updateMuavaoDto)[33m;[39m[0m
+  [0m [90m 40 |[39m   }[0m
+  [0m [90m 41 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.controller.ts:[32m[1m38:27[22m[39m[1m[39m[22m
+[90mTS2693: [39m'string' only refers to a type, but is being used as a value here.
+  [0m [90m 36 |[39m   }[0m
+  [0m [90m 37 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+  [0m[31m[1m>[22m[39m[90m 38 |[39m   update([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string[33m,[39m [33m@[39m[33mBody[39m() updateMuavaoDto[33m:[39m [33mUpdateMuavaoDto[39m) {[0m
+  [0m [90m    |[39m                           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 39 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mmuavaoService[33m.[39mupdate(id[33m,[39m updateMuavaoDto)[33m;[39m[0m
+  [0m [90m 40 |[39m   }[0m
+  [0m [90m 41 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.controller.ts:[32m[1m38:43[22m[39m[1m[39m[22m
+[90mTS2552: [39mCannot find name 'updateMuavaoDto'. Did you mean 'UpdateMuavaoDto'?
+  [0m [90m 36 |[39m   }[0m
+  [0m [90m 37 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+  [0m[31m[1m>[22m[39m[90m 38 |[39m   update([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string[33m,[39m [33m@[39m[33mBody[39m() updateMuavaoDto[33m:[39m [33mUpdateMuavaoDto[39m) {[0m
+  [0m [90m    |[39m                                           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 39 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mmuavaoService[33m.[39mupdate(id[33m,[39m updateMuavaoDto)[33m;[39m[0m
+  [0m [90m 40 |[39m   }[0m
+  [0m [90m 41 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.controller.ts:[32m[1m43:3[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'remove'.
+  [0m [90m 41 |[39m[0m
+  [0m [90m 42 |[39m   [33m@[39m[33mDelete[39m([32m':id'[39m)[0m
+  [0m[31m[1m>[22m[39m[90m 43 |[39m   remove([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 44 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mmuavaoService[33m.[39mremove(id)[33m;[39m[0m
+  [0m [90m 45 |[39m   }[0m
+  [0m [90m 46 |[39m }[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.controller.ts:[32m[1m43:23[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'id'.
+  [0m [90m 41 |[39m[0m
+  [0m [90m 42 |[39m   [33m@[39m[33mDelete[39m([32m':id'[39m)[0m
+  [0m[31m[1m>[22m[39m[90m 43 |[39m   remove([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m [90m    |[39m                       [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 44 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mmuavaoService[33m.[39mremove(id)[33m;[39m[0m
+  [0m [90m 45 |[39m   }[0m
+  [0m [90m 46 |[39m }[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.controller.ts:[32m[1m43:27[22m[39m[1m[39m[22m
+[90mTS2693: [39m'string' only refers to a type, but is being used as a value here.
+  [0m [90m 41 |[39m[0m
+  [0m [90m 42 |[39m   [33m@[39m[33mDelete[39m([32m':id'[39m)[0m
+  [0m[31m[1m>[22m[39m[90m 43 |[39m   remove([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m [90m    |[39m                           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 44 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mmuavaoService[33m.[39mremove(id)[33m;[39m[0m
+  [0m [90m 45 |[39m   }[0m
+  [0m [90m 46 |[39m }[0m
+
+webpack compiled with [1m[31m36 errors[39m[22m (bba4d42be73236d2)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 58.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m30:17-18[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(30,18)[39m[22m
+[1m[31m      TS1003: Identifier expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m30:22-23[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(30,23)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m30:23-24[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(30,24)[39m[22m
+[1m[31m      TS1109: Expression expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m30:24-28[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(30,25)[39m[22m
+[1m[31m      TS1005: ';' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m30:29-32[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(30,30)[39m[22m
+[1m[31m      TS1434: Unexpected keyword or identifier.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m30:32-33[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(30,33)[39m[22m
+[1m[31m      TS1128: Declaration or statement expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m34:9[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(34,10)[39m[22m
+[1m[31m      TS1146: Declaration expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m34:35[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(34,36)[39m[22m
+[1m[31m      TS1109: Expression expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m34:36-41[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(34,37)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m34:41-42[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(34,42)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m34:50-51[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(34,51)[39m[22m
+[1m[31m      TS1005: ';' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m37:15[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(37,16)[39m[22m
+[1m[31m      TS1146: Declaration expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m38:21[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(38,22)[39m[22m
+[1m[31m      TS1109: Expression expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m38:22-24[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(38,23)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m38:24-25[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(38,25)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m38:41[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(38,42)[39m[22m
+[1m[31m      TS1109: Expression expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m38:42-57[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(38,43)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m38:57-58[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(38,58)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m38:76-77[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(38,77)[39m[22m
+[1m[31m      TS1005: ';' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m42:16[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(42,17)[39m[22m
+[1m[31m      TS1146: Declaration expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m43:21[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(43,22)[39m[22m
+[1m[31m      TS1109: Expression expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m43:22-24[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(43,23)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m43:24-25[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(43,25)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m43:34-35[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(43,35)[39m[22m
+[1m[31m      TS1005: ';' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m46:0-1[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(46,1)[39m[22m
+[1m[31m      TS1128: Declaration or statement expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m70:1[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: [1m[31mUnexpected[39m[22m[1m token (70:1)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|     tslib_1.__metadata("design:paramtypes", [typeof (_a = typeof muavao_service_1.MuavaoService !== "undefined" && muavao_service_1.MuavaoService) === "function" ? _a : Object])
+| ], MuavaoController);
+> ();
+| data: any;
+| {[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.controller.ts:[32m[1m30:30[22m[39m[1m[39m[22m
+[90mTS2693: [39m'any' only refers to a type, but is being used as a value here.
+  [0m [90m 28 |[39m   }[0m
+  [0m [90m 29 |[39m   [33m@[39m[33mGet[39m([32m'finddate'[39m)[0m
+  [0m[31m[1m>[22m[39m[90m 30 |[39m   [36masync[39m finddate([33m&[39m[33mBody[39m()data[33m:[39many){[0m
+  [0m [90m    |[39m                              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 31 |[39m        [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39mmuavaoService[33m.[39mfinddate(begin[33m,[39mend)[33m;[39m[0m
+  [0m [90m 32 |[39m   }[0m
+  [0m [90m 33 |[39m   [33m@[39m[33mGet[39m([32m'findquery'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.controller.ts:[32m[1m34:11[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'findQuery'.
+  [0m [90m 32 |[39m   }[0m
+  [0m [90m 33 |[39m   [33m@[39m[33mGet[39m([32m'findquery'[39m)[0m
+  [0m[31m[1m>[22m[39m[90m 34 |[39m     [36masync[39m findQuery([33m@[39m[33mQuery[39m([32m'query'[39m) query[33m:[39m string){[0m
+  [0m [90m    |[39m           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 35 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39mmuavaoService[33m.[39mfindQuery(query)[33m;[39m[0m
+  [0m [90m 36 |[39m   }[0m
+  [0m [90m 37 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.controller.ts:[32m[1m34:37[22m[39m[1m[39m[22m
+[90mTS2552: [39mCannot find name 'query'. Did you mean 'Query'?
+  [0m [90m 32 |[39m   }[0m
+  [0m [90m 33 |[39m   [33m@[39m[33mGet[39m([32m'findquery'[39m)[0m
+  [0m[31m[1m>[22m[39m[90m 34 |[39m     [36masync[39m findQuery([33m@[39m[33mQuery[39m([32m'query'[39m) query[33m:[39m string){[0m
+  [0m [90m    |[39m                                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 35 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39mmuavaoService[33m.[39mfindQuery(query)[33m;[39m[0m
+  [0m [90m 36 |[39m   }[0m
+  [0m [90m 37 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.controller.ts:[32m[1m34:44[22m[39m[1m[39m[22m
+[90mTS2693: [39m'string' only refers to a type, but is being used as a value here.
+  [0m [90m 32 |[39m   }[0m
+  [0m [90m 33 |[39m   [33m@[39m[33mGet[39m([32m'findquery'[39m)[0m
+  [0m[31m[1m>[22m[39m[90m 34 |[39m     [36masync[39m findQuery([33m@[39m[33mQuery[39m([32m'query'[39m) query[33m:[39m string){[0m
+  [0m [90m    |[39m                                            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 35 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39mmuavaoService[33m.[39mfindQuery(query)[33m;[39m[0m
+  [0m [90m 36 |[39m   }[0m
+  [0m [90m 37 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.controller.ts:[32m[1m38:3[22m[39m[1m[39m[22m
+[90mTS2552: [39mCannot find name 'update'. Did you mean 'Date'?
+  [0m [90m 36 |[39m   }[0m
+  [0m [90m 37 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+  [0m[31m[1m>[22m[39m[90m 38 |[39m   update([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string[33m,[39m [33m@[39m[33mBody[39m() updateMuavaoDto[33m:[39m [33mUpdateMuavaoDto[39m) {[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 39 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mmuavaoService[33m.[39mupdate(id[33m,[39m updateMuavaoDto)[33m;[39m[0m
+  [0m [90m 40 |[39m   }[0m
+  [0m [90m 41 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.controller.ts:[32m[1m38:23[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'id'.
+  [0m [90m 36 |[39m   }[0m
+  [0m [90m 37 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+  [0m[31m[1m>[22m[39m[90m 38 |[39m   update([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string[33m,[39m [33m@[39m[33mBody[39m() updateMuavaoDto[33m:[39m [33mUpdateMuavaoDto[39m) {[0m
+  [0m [90m    |[39m                       [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 39 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mmuavaoService[33m.[39mupdate(id[33m,[39m updateMuavaoDto)[33m;[39m[0m
+  [0m [90m 40 |[39m   }[0m
+  [0m [90m 41 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.controller.ts:[32m[1m38:27[22m[39m[1m[39m[22m
+[90mTS2693: [39m'string' only refers to a type, but is being used as a value here.
+  [0m [90m 36 |[39m   }[0m
+  [0m [90m 37 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+  [0m[31m[1m>[22m[39m[90m 38 |[39m   update([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string[33m,[39m [33m@[39m[33mBody[39m() updateMuavaoDto[33m:[39m [33mUpdateMuavaoDto[39m) {[0m
+  [0m [90m    |[39m                           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 39 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mmuavaoService[33m.[39mupdate(id[33m,[39m updateMuavaoDto)[33m;[39m[0m
+  [0m [90m 40 |[39m   }[0m
+  [0m [90m 41 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.controller.ts:[32m[1m38:43[22m[39m[1m[39m[22m
+[90mTS2552: [39mCannot find name 'updateMuavaoDto'. Did you mean 'UpdateMuavaoDto'?
+  [0m [90m 36 |[39m   }[0m
+  [0m [90m 37 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+  [0m[31m[1m>[22m[39m[90m 38 |[39m   update([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string[33m,[39m [33m@[39m[33mBody[39m() updateMuavaoDto[33m:[39m [33mUpdateMuavaoDto[39m) {[0m
+  [0m [90m    |[39m                                           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 39 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mmuavaoService[33m.[39mupdate(id[33m,[39m updateMuavaoDto)[33m;[39m[0m
+  [0m [90m 40 |[39m   }[0m
+  [0m [90m 41 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.controller.ts:[32m[1m43:3[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'remove'.
+  [0m [90m 41 |[39m[0m
+  [0m [90m 42 |[39m   [33m@[39m[33mDelete[39m([32m':id'[39m)[0m
+  [0m[31m[1m>[22m[39m[90m 43 |[39m   remove([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 44 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mmuavaoService[33m.[39mremove(id)[33m;[39m[0m
+  [0m [90m 45 |[39m   }[0m
+  [0m [90m 46 |[39m }[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.controller.ts:[32m[1m43:23[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'id'.
+  [0m [90m 41 |[39m[0m
+  [0m [90m 42 |[39m   [33m@[39m[33mDelete[39m([32m':id'[39m)[0m
+  [0m[31m[1m>[22m[39m[90m 43 |[39m   remove([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m [90m    |[39m                       [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 44 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mmuavaoService[33m.[39mremove(id)[33m;[39m[0m
+  [0m [90m 45 |[39m   }[0m
+  [0m [90m 46 |[39m }[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.controller.ts:[32m[1m43:27[22m[39m[1m[39m[22m
+[90mTS2693: [39m'string' only refers to a type, but is being used as a value here.
+  [0m [90m 41 |[39m[0m
+  [0m [90m 42 |[39m   [33m@[39m[33mDelete[39m([32m':id'[39m)[0m
+  [0m[31m[1m>[22m[39m[90m 43 |[39m   remove([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m [90m    |[39m                           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 44 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mmuavaoService[33m.[39mremove(id)[33m;[39m[0m
+  [0m [90m 45 |[39m   }[0m
+  [0m [90m 46 |[39m }[0m
+
+webpack compiled with [1m[31m37 errors[39m[22m (55cd76d79ff0c3d3)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 58.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m30:22-23[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(30,23)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m30:23-24[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(30,24)[39m[22m
+[1m[31m      TS1109: Expression expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m30:24-28[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(30,25)[39m[22m
+[1m[31m      TS1005: ';' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m30:29-32[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(30,30)[39m[22m
+[1m[31m      TS1434: Unexpected keyword or identifier.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m30:32-33[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(30,33)[39m[22m
+[1m[31m      TS1128: Declaration or statement expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m34:9[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(34,10)[39m[22m
+[1m[31m      TS1146: Declaration expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m34:35[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(34,36)[39m[22m
+[1m[31m      TS1109: Expression expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m34:36-41[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(34,37)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m34:41-42[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(34,42)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m34:50-51[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(34,51)[39m[22m
+[1m[31m      TS1005: ';' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m37:15[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(37,16)[39m[22m
+[1m[31m      TS1146: Declaration expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m38:21[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(38,22)[39m[22m
+[1m[31m      TS1109: Expression expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m38:22-24[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(38,23)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m38:24-25[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(38,25)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m38:41[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(38,42)[39m[22m
+[1m[31m      TS1109: Expression expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m38:42-57[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(38,43)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m38:57-58[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(38,58)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m38:76-77[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(38,77)[39m[22m
+[1m[31m      TS1005: ';' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m42:16[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(42,17)[39m[22m
+[1m[31m      TS1146: Declaration expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m43:21[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(43,22)[39m[22m
+[1m[31m      TS1109: Expression expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m43:22-24[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(43,23)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m43:24-25[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(43,25)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m43:34-35[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(43,35)[39m[22m
+[1m[31m      TS1005: ';' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts[39m[22m
+[1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m46:0-1[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.controller.ts(46,1)[39m[22m
+[1m[31m      TS1128: Declaration or statement expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m70:1[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: [1m[31mUnexpected[39m[22m[1m token (70:1)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|     tslib_1.__metadata("design:paramtypes", [typeof (_a = typeof muavao_service_1.MuavaoService !== "undefined" && muavao_service_1.MuavaoService) === "function" ? _a : Object])
+| ], MuavaoController);
+> ();
+| data: any;
+| {[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.controller.ts:[32m[1m30:30[22m[39m[1m[39m[22m
+[90mTS2693: [39m'any' only refers to a type, but is being used as a value here.
+  [0m [90m 28 |[39m   }[0m
+  [0m [90m 29 |[39m   [33m@[39m[33mGet[39m([32m'finddate'[39m)[0m
+  [0m[31m[1m>[22m[39m[90m 30 |[39m   [36masync[39m finddate($Body()data[33m:[39many){[0m
+  [0m [90m    |[39m                              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 31 |[39m        [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39mmuavaoService[33m.[39mfinddate(begin[33m,[39mend)[33m;[39m[0m
+  [0m [90m 32 |[39m   }[0m
+  [0m [90m 33 |[39m   [33m@[39m[33mGet[39m([32m'findquery'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.controller.ts:[32m[1m34:11[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'findQuery'.
+  [0m [90m 32 |[39m   }[0m
+  [0m [90m 33 |[39m   [33m@[39m[33mGet[39m([32m'findquery'[39m)[0m
+  [0m[31m[1m>[22m[39m[90m 34 |[39m     [36masync[39m findQuery([33m@[39m[33mQuery[39m([32m'query'[39m) query[33m:[39m string){[0m
+  [0m [90m    |[39m           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 35 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39mmuavaoService[33m.[39mfindQuery(query)[33m;[39m[0m
+  [0m [90m 36 |[39m   }[0m
+  [0m [90m 37 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.controller.ts:[32m[1m34:37[22m[39m[1m[39m[22m
+[90mTS2552: [39mCannot find name 'query'. Did you mean 'Query'?
+  [0m [90m 32 |[39m   }[0m
+  [0m [90m 33 |[39m   [33m@[39m[33mGet[39m([32m'findquery'[39m)[0m
+  [0m[31m[1m>[22m[39m[90m 34 |[39m     [36masync[39m findQuery([33m@[39m[33mQuery[39m([32m'query'[39m) query[33m:[39m string){[0m
+  [0m [90m    |[39m                                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 35 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39mmuavaoService[33m.[39mfindQuery(query)[33m;[39m[0m
+  [0m [90m 36 |[39m   }[0m
+  [0m [90m 37 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.controller.ts:[32m[1m34:44[22m[39m[1m[39m[22m
+[90mTS2693: [39m'string' only refers to a type, but is being used as a value here.
+  [0m [90m 32 |[39m   }[0m
+  [0m [90m 33 |[39m   [33m@[39m[33mGet[39m([32m'findquery'[39m)[0m
+  [0m[31m[1m>[22m[39m[90m 34 |[39m     [36masync[39m findQuery([33m@[39m[33mQuery[39m([32m'query'[39m) query[33m:[39m string){[0m
+  [0m [90m    |[39m                                            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 35 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39mmuavaoService[33m.[39mfindQuery(query)[33m;[39m[0m
+  [0m [90m 36 |[39m   }[0m
+  [0m [90m 37 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.controller.ts:[32m[1m38:3[22m[39m[1m[39m[22m
+[90mTS2552: [39mCannot find name 'update'. Did you mean 'Date'?
+  [0m [90m 36 |[39m   }[0m
+  [0m [90m 37 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+  [0m[31m[1m>[22m[39m[90m 38 |[39m   update([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string[33m,[39m [33m@[39m[33mBody[39m() updateMuavaoDto[33m:[39m [33mUpdateMuavaoDto[39m) {[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 39 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mmuavaoService[33m.[39mupdate(id[33m,[39m updateMuavaoDto)[33m;[39m[0m
+  [0m [90m 40 |[39m   }[0m
+  [0m [90m 41 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.controller.ts:[32m[1m38:23[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'id'.
+  [0m [90m 36 |[39m   }[0m
+  [0m [90m 37 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+  [0m[31m[1m>[22m[39m[90m 38 |[39m   update([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string[33m,[39m [33m@[39m[33mBody[39m() updateMuavaoDto[33m:[39m [33mUpdateMuavaoDto[39m) {[0m
+  [0m [90m    |[39m                       [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 39 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mmuavaoService[33m.[39mupdate(id[33m,[39m updateMuavaoDto)[33m;[39m[0m
+  [0m [90m 40 |[39m   }[0m
+  [0m [90m 41 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.controller.ts:[32m[1m38:27[22m[39m[1m[39m[22m
+[90mTS2693: [39m'string' only refers to a type, but is being used as a value here.
+  [0m [90m 36 |[39m   }[0m
+  [0m [90m 37 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+  [0m[31m[1m>[22m[39m[90m 38 |[39m   update([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string[33m,[39m [33m@[39m[33mBody[39m() updateMuavaoDto[33m:[39m [33mUpdateMuavaoDto[39m) {[0m
+  [0m [90m    |[39m                           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 39 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mmuavaoService[33m.[39mupdate(id[33m,[39m updateMuavaoDto)[33m;[39m[0m
+  [0m [90m 40 |[39m   }[0m
+  [0m [90m 41 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.controller.ts:[32m[1m38:43[22m[39m[1m[39m[22m
+[90mTS2552: [39mCannot find name 'updateMuavaoDto'. Did you mean 'UpdateMuavaoDto'?
+  [0m [90m 36 |[39m   }[0m
+  [0m [90m 37 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+  [0m[31m[1m>[22m[39m[90m 38 |[39m   update([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string[33m,[39m [33m@[39m[33mBody[39m() updateMuavaoDto[33m:[39m [33mUpdateMuavaoDto[39m) {[0m
+  [0m [90m    |[39m                                           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 39 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mmuavaoService[33m.[39mupdate(id[33m,[39m updateMuavaoDto)[33m;[39m[0m
+  [0m [90m 40 |[39m   }[0m
+  [0m [90m 41 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.controller.ts:[32m[1m43:3[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'remove'.
+  [0m [90m 41 |[39m[0m
+  [0m [90m 42 |[39m   [33m@[39m[33mDelete[39m([32m':id'[39m)[0m
+  [0m[31m[1m>[22m[39m[90m 43 |[39m   remove([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 44 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mmuavaoService[33m.[39mremove(id)[33m;[39m[0m
+  [0m [90m 45 |[39m   }[0m
+  [0m [90m 46 |[39m }[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.controller.ts:[32m[1m43:23[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'id'.
+  [0m [90m 41 |[39m[0m
+  [0m [90m 42 |[39m   [33m@[39m[33mDelete[39m([32m':id'[39m)[0m
+  [0m[31m[1m>[22m[39m[90m 43 |[39m   remove([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m [90m    |[39m                       [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 44 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mmuavaoService[33m.[39mremove(id)[33m;[39m[0m
+  [0m [90m 45 |[39m   }[0m
+  [0m [90m 46 |[39m }[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.controller.ts:[32m[1m43:27[22m[39m[1m[39m[22m
+[90mTS2693: [39m'string' only refers to a type, but is being used as a value here.
+  [0m [90m 41 |[39m[0m
+  [0m [90m 42 |[39m   [33m@[39m[33mDelete[39m([32m':id'[39m)[0m
+  [0m[31m[1m>[22m[39m[90m 43 |[39m   remove([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m [90m    |[39m                           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 44 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mmuavaoService[33m.[39mremove(id)[33m;[39m[0m
+  [0m [90m 45 |[39m   }[0m
+  [0m [90m 46 |[39m }[0m
+
+webpack compiled with [1m[31m36 errors[39m[22m (efa7ce519386c2c8)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 60.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.controller.ts:[32m[1m31:49[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'begin'.
+  [0m [90m 29 |[39m   [33m@[39m[33mGet[39m([32m'finddate'[39m)[0m
+  [0m [90m 30 |[39m   [36masync[39m finddate([33m@[39m[33mBody[39m()data[33m:[39many){[0m
+  [0m[31m[1m>[22m[39m[90m 31 |[39m        [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39mmuavaoService[33m.[39mfinddate(begin[33m,[39mend)[33m;[39m[0m
+  [0m [90m    |[39m                                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 32 |[39m   }[0m
+  [0m [90m 33 |[39m   [33m@[39m[33mGet[39m([32m'findquery'[39m)[0m
+  [0m [90m 34 |[39m     [36masync[39m findQuery([33m@[39m[33mQuery[39m([32m'query'[39m) query[33m:[39m string){[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.controller.ts:[32m[1m31:55[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'end'.
+  [0m [90m 29 |[39m   [33m@[39m[33mGet[39m([32m'finddate'[39m)[0m
+  [0m [90m 30 |[39m   [36masync[39m finddate([33m@[39m[33mBody[39m()data[33m:[39many){[0m
+  [0m[31m[1m>[22m[39m[90m 31 |[39m        [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39mmuavaoService[33m.[39mfinddate(begin[33m,[39mend)[33m;[39m[0m
+  [0m [90m    |[39m                                                       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 32 |[39m   }[0m
+  [0m [90m 33 |[39m   [33m@[39m[33mGet[39m([32m'findquery'[39m)[0m
+  [0m [90m 34 |[39m     [36masync[39m findQuery([33m@[39m[33mQuery[39m([32m'query'[39m) query[33m:[39m string){[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (4f871fa7c4321eea)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 60.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.controller.ts:[32m[1m31:49[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'begin'.
+  [0m [90m 29 |[39m   [33m@[39m[33mGet[39m([32m'finddate'[39m)[0m
+  [0m [90m 30 |[39m   [36masync[39m finddate([33m@[39m[33mBody[39m() data[33m:[39many){[0m
+  [0m[31m[1m>[22m[39m[90m 31 |[39m        [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39mmuavaoService[33m.[39mfinddate(begin[33m,[39mend)[33m;[39m[0m
+  [0m [90m    |[39m                                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 32 |[39m   }[0m
+  [0m [90m 33 |[39m   [33m@[39m[33mGet[39m([32m'findquery'[39m)[0m
+  [0m [90m 34 |[39m     [36masync[39m findQuery([33m@[39m[33mQuery[39m([32m'query'[39m) query[33m:[39m string){[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.controller.ts:[32m[1m31:55[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'end'.
+  [0m [90m 29 |[39m   [33m@[39m[33mGet[39m([32m'finddate'[39m)[0m
+  [0m [90m 30 |[39m   [36masync[39m finddate([33m@[39m[33mBody[39m() data[33m:[39many){[0m
+  [0m[31m[1m>[22m[39m[90m 31 |[39m        [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39mmuavaoService[33m.[39mfinddate(begin[33m,[39mend)[33m;[39m[0m
+  [0m [90m    |[39m                                                       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 32 |[39m   }[0m
+  [0m [90m 33 |[39m   [33m@[39m[33mGet[39m([32m'findquery'[39m)[0m
+  [0m [90m 34 |[39m     [36masync[39m findQuery([33m@[39m[33mQuery[39m([32m'query'[39m) query[33m:[39m string){[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (4bd1e8cb32788dfb)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 60.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.controller.ts:[32m[1m31:40[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 2 arguments, but got 1.
+  [0m [90m 29 |[39m   [33m@[39m[33mGet[39m([32m'finddate'[39m)[0m
+  [0m [90m 30 |[39m   [36masync[39m finddate([33m@[39m[33mBody[39m() data[33m:[39many){[0m
+  [0m[31m[1m>[22m[39m[90m 31 |[39m        [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39mmuavaoService[33m.[39mfinddate(data)[33m;[39m[0m
+  [0m [90m    |[39m                                        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 32 |[39m   }[0m
+  [0m [90m 33 |[39m   [33m@[39m[33mGet[39m([32m'findquery'[39m)[0m
+  [0m [90m 34 |[39m     [36masync[39m findQuery([33m@[39m[33mQuery[39m([32m'query'[39m) query[33m:[39m string){[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (a51d11e49cdaba76)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 60.2 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.controller.ts:[32m[1m31:40[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 2 arguments, but got 1.
+  [0m [90m 29 |[39m   [33m@[39m[33mGet[39m([32m'finddate'[39m)[0m
+  [0m [90m 30 |[39m   [36masync[39m finddate([33m@[39m[33mBody[39m() data[33m:[39many){[0m
+  [0m[31m[1m>[22m[39m[90m 31 |[39m        [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39mmuavaoService[33m.[39mfinddate(data)[33m;[39m[0m
+  [0m [90m    |[39m                                        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 32 |[39m   }[0m
+  [0m [90m 33 |[39m   [33m@[39m[33mGet[39m([32m'findquery'[39m)[0m
+  [0m [90m 34 |[39m     [36masync[39m findQuery([33m@[39m[33mQuery[39m([32m'query'[39m) query[33m:[39m string){[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (a51d11e49cdaba76)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 60.2 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.controller.ts:[32m[1m31:40[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 2 arguments, but got 1.
+  [0m [90m 29 |[39m   [33m@[39m[33mGet[39m([32m'finddate'[39m)[0m
+  [0m [90m 30 |[39m   [36masync[39m finddate([33m@[39m[33mBody[39m() data[33m:[39many){[0m
+  [0m[31m[1m>[22m[39m[90m 31 |[39m        [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39mmuavaoService[33m.[39mfinddate(data)[33m;[39m[0m
+  [0m [90m    |[39m                                        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 32 |[39m   }[0m
+  [0m [90m 33 |[39m   [33m@[39m[33mGet[39m([32m'findquery'[39m)[0m
+  [0m [90m 34 |[39m     [36masync[39m findQuery([33m@[39m[33mQuery[39m([32m'query'[39m) query[33m:[39m string){[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (a51d11e49cdaba76)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 60.2 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.controller.ts:[32m[1m31:40[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 2 arguments, but got 1.
+  [0m [90m 29 |[39m   [33m@[39m[33mGet[39m([32m'finddate'[39m)[0m
+  [0m [90m 30 |[39m   [36masync[39m finddate([33m@[39m[33mBody[39m() data[33m:[39many){[0m
+  [0m[31m[1m>[22m[39m[90m 31 |[39m        [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39mmuavaoService[33m.[39mfinddate(data)[33m;[39m[0m
+  [0m [90m    |[39m                                        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 32 |[39m   }[0m
+  [0m [90m 33 |[39m   [33m@[39m[33mGet[39m([32m'findquery'[39m)[0m
+  [0m [90m 34 |[39m     [36masync[39m findQuery([33m@[39m[33mQuery[39m([32m'query'[39m) query[33m:[39m string){[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (a51d11e49cdaba76)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 60.2 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.controller.ts:[32m[1m31:40[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 2 arguments, but got 1.
+  [0m [90m 29 |[39m   [33m@[39m[33mGet[39m([32m'finddate'[39m)[0m
+  [0m [90m 30 |[39m   [36masync[39m finddate([33m@[39m[33mBody[39m() data[33m:[39many){[0m
+  [0m[31m[1m>[22m[39m[90m 31 |[39m        [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39mmuavaoService[33m.[39mfinddate(data)[33m;[39m[0m
+  [0m [90m    |[39m                                        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 32 |[39m   }[0m
+  [0m [90m 33 |[39m   [33m@[39m[33mGet[39m([32m'findquery'[39m)[0m
+  [0m [90m 34 |[39m     [36masync[39m findQuery([33m@[39m[33mQuery[39m([32m'query'[39m) query[33m:[39m string){[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (a51d11e49cdaba76)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 60.2 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.controller.ts:[32m[1m31:40[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 2 arguments, but got 1.
+  [0m [90m 29 |[39m   [33m@[39m[33mGet[39m([32m'finddate'[39m)[0m
+  [0m [90m 30 |[39m   [36masync[39m finddate([33m@[39m[33mBody[39m() data[33m:[39many){[0m
+  [0m[31m[1m>[22m[39m[90m 31 |[39m        [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39mmuavaoService[33m.[39mfinddate(data)[33m;[39m[0m
+  [0m [90m    |[39m                                        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 32 |[39m   }[0m
+  [0m [90m 33 |[39m   [33m@[39m[33mGet[39m([32m'findquery'[39m)[0m
+  [0m [90m 34 |[39m     [36masync[39m findQuery([33m@[39m[33mQuery[39m([32m'query'[39m) query[33m:[39m string){[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (a51d11e49cdaba76)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 60.2 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.controller.ts:[32m[1m31:40[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 2 arguments, but got 1.
+  [0m [90m 29 |[39m   [33m@[39m[33mGet[39m([32m'finddate'[39m)[0m
+  [0m [90m 30 |[39m   [36masync[39m finddate([33m@[39m[33mBody[39m() data[33m:[39many){[0m
+  [0m[31m[1m>[22m[39m[90m 31 |[39m        [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39mmuavaoService[33m.[39mfinddate(data)[33m;[39m[0m
+  [0m [90m    |[39m                                        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 32 |[39m   }[0m
+  [0m [90m 33 |[39m   [33m@[39m[33mGet[39m([32m'findquery'[39m)[0m
+  [0m [90m 34 |[39m     [36masync[39m findQuery([33m@[39m[33mQuery[39m([32m'query'[39m) query[33m:[39m string){[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (a51d11e49cdaba76)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 60.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.service.ts:[32m[1m57:32[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'begin'.
+  [0m [90m 55 |[39m   }[0m
+  [0m [90m 56 |[39m   [36masync[39m finddate(data){[0m
+  [0m[31m[1m>[22m[39m[90m 57 |[39m     [36mconst[39m startDate [33m=[39m [36mnew[39m [33mDate[39m(begin)[33m;[39m[0m
+  [0m [90m    |[39m                                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 58 |[39m     [36mconst[39m endDate [33m=[39m [36mnew[39m [33mDate[39m(end)[33m;[39m[0m
+  [0m [90m 59 |[39m     console[33m.[39merror(startDate)[33m;[39m[0m
+  [0m [90m 60 |[39m     console[33m.[39merror(endDate)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.service.ts:[32m[1m58:30[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'end'.
+  [0m [90m 56 |[39m   [36masync[39m finddate(data){[0m
+  [0m [90m 57 |[39m     [36mconst[39m startDate [33m=[39m [36mnew[39m [33mDate[39m(begin)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 58 |[39m     [36mconst[39m endDate [33m=[39m [36mnew[39m [33mDate[39m(end)[33m;[39m[0m
+  [0m [90m    |[39m                              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 59 |[39m     console[33m.[39merror(startDate)[33m;[39m[0m
+  [0m [90m 60 |[39m     console[33m.[39merror(endDate)[33m;[39m[0m
+  [0m [90m 61 |[39m     [0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (f626c510c2a8f325)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 60.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.service.ts:[32m[1m57:32[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'begin'.
+  [0m [90m 55 |[39m   }[0m
+  [0m [90m 56 |[39m   [36masync[39m finddate(data[33m:[39many){[0m
+  [0m[31m[1m>[22m[39m[90m 57 |[39m     [36mconst[39m startDate [33m=[39m [36mnew[39m [33mDate[39m(begin)[33m;[39m[0m
+  [0m [90m    |[39m                                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 58 |[39m     [36mconst[39m endDate [33m=[39m [36mnew[39m [33mDate[39m(end)[33m;[39m[0m
+  [0m [90m 59 |[39m     console[33m.[39merror(startDate)[33m;[39m[0m
+  [0m [90m 60 |[39m     console[33m.[39merror(endDate)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.service.ts:[32m[1m58:30[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'end'.
+  [0m [90m 56 |[39m   [36masync[39m finddate(data[33m:[39many){[0m
+  [0m [90m 57 |[39m     [36mconst[39m startDate [33m=[39m [36mnew[39m [33mDate[39m(begin)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 58 |[39m     [36mconst[39m endDate [33m=[39m [36mnew[39m [33mDate[39m(end)[33m;[39m[0m
+  [0m [90m    |[39m                              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 59 |[39m     console[33m.[39merror(startDate)[33m;[39m[0m
+  [0m [90m 60 |[39m     console[33m.[39merror(endDate)[33m;[39m[0m
+  [0m [90m 61 |[39m     [0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (5ddc5fb02b8e4846)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 60.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.service.ts:[32m[1m58:30[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'end'.
+  [0m [90m 56 |[39m   [36masync[39m finddate(data[33m:[39many){[0m
+  [0m [90m 57 |[39m     [36mconst[39m startDate [33m=[39m [36mnew[39m [33mDate[39m(data[33m.[39mbegin)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 58 |[39m     [36mconst[39m endDate [33m=[39m [36mnew[39m [33mDate[39m(end)[33m;[39m[0m
+  [0m [90m    |[39m                              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 59 |[39m     console[33m.[39merror(startDate)[33m;[39m[0m
+  [0m [90m 60 |[39m     console[33m.[39merror(endDate)[33m;[39m[0m
+  [0m [90m 61 |[39m     [0m
+
+webpack compiled with [1m[31m1 error[39m[22m (6f5d900482cd7a03)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 60.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.service.ts:[32m[1m58:30[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'dataend'.
+  [0m [90m 56 |[39m   [36masync[39m finddate(data[33m:[39many){[0m
+  [0m [90m 57 |[39m     [36mconst[39m startDate [33m=[39m [36mnew[39m [33mDate[39m(data[33m.[39mbegin)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 58 |[39m     [36mconst[39m endDate [33m=[39m [36mnew[39m [33mDate[39m(dataend)[33m;[39m[0m
+  [0m [90m    |[39m                              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 59 |[39m     console[33m.[39merror(startDate)[33m;[39m[0m
+  [0m [90m 60 |[39m     console[33m.[39merror(endDate)[33m;[39m[0m
+  [0m [90m 61 |[39m     [0m
+
+webpack compiled with [1m[31m1 error[39m[22m (92e3a138503050c3)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 60.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (59e549e2dcf9aaf7)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 60.2 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (59e549e2dcf9aaf7)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 60.2 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (59e549e2dcf9aaf7)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 60.2 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (59e549e2dcf9aaf7)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 60.2 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (59e549e2dcf9aaf7)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 60.2 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (59e549e2dcf9aaf7)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m

@@ -1,0 +1,2442 @@
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 114 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (c75e6156953075c6)
+[1m[31mDebugger listening on ws://localhost:9229/c1030418-3857-4f18-889a-a78468de4d6f[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/c1030418-3857-4f18-889a-a78468de4d6f[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 21316  - [39m[31m01/21/2024, 11:57:37 AM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mUnknown column 'muavaochitiet.Thang' in 'where clause'[39m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mQueryFailedError: Unknown column 'muavaochitiet.Thang' in 'where clause'[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 114 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (18e9298fa77ee9c4)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 114 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (18e9298fa77ee9c4)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 114 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (18e9298fa77ee9c4)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 114 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (18e9298fa77ee9c4)
+[1m[31mDebugger listening on ws://localhost:9229/4e2692e3-e904-4e35-9d4c-15c2148a1e30[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/4e2692e3-e904-4e35-9d4c-15c2148a1e30[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 12912  - [39m[31m01/21/2024, 12:31:43 PM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mread ECONNRESET[39m[31m[39m[22m
+[1m[31mQueryFailedError: read ECONNRESET[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at PoolConnection._notifyError (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:228:21)[39m[22m
+[1m[31m    at PoolConnection._handleFatalError (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:183:10)[39m[22m
+[1m[31m    at PoolConnection._handleNetworkError (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:196:10)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at emitErrorNT (node:internal/streams/destroy:151:8)[39m[22m
+[1m[31m    at emitErrorCloseNT (node:internal/streams/destroy:116:3)[39m[22m
+[1m[31m    at processTicksAndRejections (node:internal/process/task_queues:82:21)[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 114 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (18e9298fa77ee9c4)
+[1m[31mDebugger listening on ws://localhost:9229/77170e4f-f16a-427b-b773-457e8f09e70a[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/77170e4f-f16a-427b-b773-457e8f09e70a[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 114 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (18e9298fa77ee9c4)
+[1m[31mDebugger listening on ws://localhost:9229/73dbe56a-f126-4848-90c2-abee69e936ac[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/73dbe56a-f126-4848-90c2-abee69e936ac[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 120 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (b47f53548ba1d574)
+[1m[31mDebugger listening on ws://localhost:9229/48945671-46e8-4385-9bdf-8ca1f54288a7[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/48945671-46e8-4385-9bdf-8ca1f54288a7[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 120 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (b47f53548ba1d574)
+[1m[31mDebugger listening on ws://localhost:9229/37a40461-1c66-4767-a1df-3c26593eb43a[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/37a40461-1c66-4767-a1df-3c26593eb43a[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 125 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (e9bb08fb671d9160)
+[1m[31mDebugger listening on ws://localhost:9229/173962dc-8248-4a3b-aab0-c1c936b2a6a8[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/173962dc-8248-4a3b-aab0-c1c936b2a6a8[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 125 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (e9bb08fb671d9160)
+[1m[31mDebugger listening on ws://localhost:9229/575cb1a3-0477-4f06-a6ca-17406cdb7fed[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/575cb1a3-0477-4f06-a6ca-17406cdb7fed[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 124 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muasanpham/muasanpham.controller.ts:[32m[1m2:35[22m[39m[1m[39m[22m
+[90mTS2306: [39mFile 'F:/chikiet/BEKetoan/be_ketoan/src/app/muasanpham/muasanpham.service.ts' is not a module.
+  [0m [90m 1 |[39m [36mimport[39m { [33mController[39m[33m,[39m [33mGet[39m[33m,[39m [33mPost[39m[33m,[39m [33mBody[39m[33m,[39m [33mPatch[39m[33m,[39m [33mParam[39m[33m,[39m [33mDelete[39m } [36mfrom[39m [32m'@nestjs/common'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 2 |[39m [36mimport[39m { [33mMuasanphamService[39m } [36mfrom[39m [32m'./muasanpham.service'[39m[33m;[39m[0m
+  [0m [90m   |[39m                                   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m { [33mCreateMuasanphamDto[39m } [36mfrom[39m [32m'./dto/create-muasanpham.dto'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mUpdateMuasanphamDto[39m } [36mfrom[39m [32m'./dto/update-muasanpham.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muasanpham/muasanpham.module.ts:[32m[1m2:35[22m[39m[1m[39m[22m
+[90mTS2306: [39mFile 'F:/chikiet/BEKetoan/be_ketoan/src/app/muasanpham/muasanpham.service.ts' is not a module.
+  [0m [90m 1 |[39m [36mimport[39m { [33mModule[39m } [36mfrom[39m [32m'@nestjs/common'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 2 |[39m [36mimport[39m { [33mMuasanphamService[39m } [36mfrom[39m [32m'./muasanpham.service'[39m[33m;[39m[0m
+  [0m [90m   |[39m                                   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m { [33mMuasanphamController[39m } [36mfrom[39m [32m'./muasanpham.controller'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m[0m
+  [0m [90m 5 |[39m [33m@[39m[33mModule[39m({[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muasanpham/muasanpham.service.ts[39m[22m
+[90mTS2304: [39mCannot find name 'k_'.
+
+webpack compiled with [1m[31m3 errors[39m[22m (d6c0288d0015e6be)
+[1m[31mDebugger listening on ws://localhost:9229/8fc5976c-2cd0-42f4-8bd6-33f801330d88[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/8fc5976c-2cd0-42f4-8bd6-33f801330d88[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mF:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\muasanpham\muasanpham.service.ts:1[39m[22m
+[1m[31mk_[39m[22m
+[1m[31m^[39m[22m
+[1m[31mReferenceError: k_ is not defined[39m[22m
+[1m[31m    at Array.Object.defineProperty.value (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\muasanpham\muasanpham.service.ts:1:1)[39m[22m
+[1m[31m    at __webpack_require__ (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\webpack\bootstrap:19:1)[39m[22m
+[1m[31m    at Array.Object.defineProperty.value (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\muasanpham\muasanpham.module.ts:2:1)[39m[22m
+[1m[31m    at __webpack_require__ (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\webpack\bootstrap:19:1)[39m[22m
+[1m[31m    at Array.<anonymous> (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\app.module.ts:14:1)[39m[22m
+[1m[31m    at __webpack_require__ (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\webpack\bootstrap:19:1)[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\main.ts:9:1[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\dist\be_ketoan\main.js:3498:3[39m[22m
+[1m[31m    at Object.<anonymous> (F:\chikiet\BEKetoan\dist\be_ketoan\main.js:3500:12)[39m[22m
+[1m[31m    at Module._compile (node:internal/modules/cjs/loader:1376:14)[39m[22m
+[1m[31m[39m[22m
+
+[36m>[39m [7m[1m[36m NX [39m[22m[27m [1mProcess exited with code 1, waiting for changes to restart...[22m
+
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 127 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/muasanpham/muasanpham.service.ts[39m[22m [1m[32m9:24-59[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './entities/dichvu.entity' in 'F:\chikiet\BEKetoan\be_ketoan\src\app\muasanpham'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muasanpham/muasanpham.controller.ts:[32m[1m2:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./muasanpham.service"' has no exported member 'MuasanphamService'.
+  [0m [90m 1 |[39m [36mimport[39m { [33mController[39m[33m,[39m [33mGet[39m[33m,[39m [33mPost[39m[33m,[39m [33mBody[39m[33m,[39m [33mPatch[39m[33m,[39m [33mParam[39m[33m,[39m [33mDelete[39m } [36mfrom[39m [32m'@nestjs/common'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 2 |[39m [36mimport[39m { [33mMuasanphamService[39m } [36mfrom[39m [32m'./muasanpham.service'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m { [33mCreateMuasanphamDto[39m } [36mfrom[39m [32m'./dto/create-muasanpham.dto'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mUpdateMuasanphamDto[39m } [36mfrom[39m [32m'./dto/update-muasanpham.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muasanpham/muasanpham.module.ts:[32m[1m2:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./muasanpham.service"' has no exported member 'MuasanphamService'.
+  [0m [90m 1 |[39m [36mimport[39m { [33mModule[39m } [36mfrom[39m [32m'@nestjs/common'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 2 |[39m [36mimport[39m { [33mMuasanphamService[39m } [36mfrom[39m [32m'./muasanpham.service'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m { [33mMuasanphamController[39m } [36mfrom[39m [32m'./muasanpham.controller'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m[0m
+  [0m [90m 5 |[39m [33m@[39m[33mModule[39m({[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muasanpham/muasanpham.service.ts:[32m[1m4:33[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './dto/create-dichvu.dto' or its corresponding type declarations.
+  [0m [90m 2 |[39m [36mimport[39m { [33mInjectRepository[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m { [33mLike[39m[33m,[39m [33mRepository[39m } [36mfrom[39m [32m'typeorm'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 4 |[39m [36mimport[39m { [33mCreateDichvuDto[39m } [36mfrom[39m [32m'./dto/create-dichvu.dto'[39m[33m;[39m[0m
+  [0m [90m   |[39m                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mUpdateDichvuDto[39m } [36mfrom[39m [32m'./dto/update-dichvu.dto'[39m[33m;[39m[0m
+  [0m [90m 6 |[39m [36mimport[39m { [33mDichvuEntity[39m } [36mfrom[39m [32m'./entities/dichvu.entity'[39m[33m;[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muasanpham/muasanpham.service.ts:[32m[1m5:33[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './dto/update-dichvu.dto' or its corresponding type declarations.
+  [0m [90m 3 |[39m [36mimport[39m { [33mLike[39m[33m,[39m [33mRepository[39m } [36mfrom[39m [32m'typeorm'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mCreateDichvuDto[39m } [36mfrom[39m [32m'./dto/create-dichvu.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mUpdateDichvuDto[39m } [36mfrom[39m [32m'./dto/update-dichvu.dto'[39m[33m;[39m[0m
+  [0m [90m   |[39m                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 6 |[39m [36mimport[39m { [33mDichvuEntity[39m } [36mfrom[39m [32m'./entities/dichvu.entity'[39m[33m;[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 8 |[39m [36mexport[39m [36mclass[39m [33mDichvuService[39m {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muasanpham/muasanpham.service.ts:[32m[1m6:30[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './entities/dichvu.entity' or its corresponding type declarations.
+  [0m [90m 4 |[39m [36mimport[39m { [33mCreateDichvuDto[39m } [36mfrom[39m [32m'./dto/create-dichvu.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mUpdateDichvuDto[39m } [36mfrom[39m [32m'./dto/update-dichvu.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mDichvuEntity[39m } [36mfrom[39m [32m'./entities/dichvu.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m                              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 8 |[39m [36mexport[39m [36mclass[39m [33mDichvuService[39m {[0m
+  [0m [90m 9 |[39m   constructor([0m
+
+webpack compiled with [1m[31m6 errors[39m[22m (8f0ebd50b198c58d)
+[1m[31mDebugger listening on ws://localhost:9229/b9506b1c-cd74-4205-b93f-b2a0f056158e[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/b9506b1c-cd74-4205-b93f-b2a0f056158e[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mF:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\muasanpham\muasanpham.service.ts:6[39m[22m
+[1m[31mimport { DichvuEntity } from './entities/dichvu.entity';[39m[22m
+[1m[31m^[39m[22m
+[1m[31mError: Cannot find module './entities/dichvu.entity'[39m[22m
+[1m[31m    at webpackMissingModule (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\muasanpham\muasanpham.service.ts:6:1)[39m[22m
+[1m[31m    at Array.Object.defineProperty.value (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\muasanpham\muasanpham.service.ts:6:1)[39m[22m
+[1m[31m    at __webpack_require__ (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\webpack\bootstrap:19:1)[39m[22m
+[1m[31m    at Array.Object.defineProperty.value (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\muasanpham\muasanpham.module.ts:2:1)[39m[22m
+[1m[31m    at __webpack_require__ (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\webpack\bootstrap:19:1)[39m[22m
+[1m[31m    at Array.<anonymous> (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\app.module.ts:14:1)[39m[22m
+[1m[31m    at __webpack_require__ (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\webpack\bootstrap:19:1)[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\main.ts:9:1[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\dist\be_ketoan\main.js:3515:3[39m[22m
+[1m[31m    at Object.<anonymous> (F:\chikiet\BEKetoan\dist\be_ketoan\main.js:3517:12)[39m[22m
+[1m[31m[39m[22m
+
+[36m>[39m [7m[1m[36m NX [39m[22m[27m [1mProcess exited with code 1, waiting for changes to restart...[22m
+
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 127 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muasanpham/muasanpham.controller.ts:[32m[1m2:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./muasanpham.service"' has no exported member 'MuasanphamService'.
+  [0m [90m 1 |[39m [36mimport[39m { [33mController[39m[33m,[39m [33mGet[39m[33m,[39m [33mPost[39m[33m,[39m [33mBody[39m[33m,[39m [33mPatch[39m[33m,[39m [33mParam[39m[33m,[39m [33mDelete[39m } [36mfrom[39m [32m'@nestjs/common'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 2 |[39m [36mimport[39m { [33mMuasanphamService[39m } [36mfrom[39m [32m'./muasanpham.service'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m { [33mCreateMuasanphamDto[39m } [36mfrom[39m [32m'./dto/create-muasanpham.dto'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mUpdateMuasanphamDto[39m } [36mfrom[39m [32m'./dto/update-muasanpham.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muasanpham/muasanpham.module.ts:[32m[1m2:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./muasanpham.service"' has no exported member 'MuasanphamService'.
+  [0m [90m 1 |[39m [36mimport[39m { [33mModule[39m } [36mfrom[39m [32m'@nestjs/common'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 2 |[39m [36mimport[39m { [33mMuasanphamService[39m } [36mfrom[39m [32m'./muasanpham.service'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m { [33mMuasanphamController[39m } [36mfrom[39m [32m'./muasanpham.controller'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m[0m
+  [0m [90m 5 |[39m [33m@[39m[33mModule[39m({[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muasanpham/muasanpham.service.ts:[32m[1m4:33[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './dto/create-dichvu.dto' or its corresponding type declarations.
+  [0m [90m 2 |[39m [36mimport[39m { [33mInjectRepository[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m { [33mLike[39m[33m,[39m [33mRepository[39m } [36mfrom[39m [32m'typeorm'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 4 |[39m [36mimport[39m { [33mCreateDichvuDto[39m } [36mfrom[39m [32m'./dto/create-dichvu.dto'[39m[33m;[39m[0m
+  [0m [90m   |[39m                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mUpdateDichvuDto[39m } [36mfrom[39m [32m'./dto/update-dichvu.dto'[39m[33m;[39m[0m
+  [0m [90m 6 |[39m [36mimport[39m { [33mDichvuEntity[39m } [36mfrom[39m [32m'./entities/dichvu.entity'[39m[33m;[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muasanpham/muasanpham.service.ts:[32m[1m5:33[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './dto/update-dichvu.dto' or its corresponding type declarations.
+  [0m [90m 3 |[39m [36mimport[39m { [33mLike[39m[33m,[39m [33mRepository[39m } [36mfrom[39m [32m'typeorm'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mCreateDichvuDto[39m } [36mfrom[39m [32m'./dto/create-dichvu.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mUpdateDichvuDto[39m } [36mfrom[39m [32m'./dto/update-dichvu.dto'[39m[33m;[39m[0m
+  [0m [90m   |[39m                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 6 |[39m [36mimport[39m { [33mDichvuEntity[39m } [36mfrom[39m [32m'./entities/dichvu.entity'[39m[33m;[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 8 |[39m [36mexport[39m [36mclass[39m [33mDichvuService[39m {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muasanpham/muasanpham.service.ts:[32m[1m6:30[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './entities/dichvu.entity' or its corresponding type declarations.
+  [0m [90m 4 |[39m [36mimport[39m { [33mCreateDichvuDto[39m } [36mfrom[39m [32m'./dto/create-dichvu.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mUpdateDichvuDto[39m } [36mfrom[39m [32m'./dto/update-dichvu.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mDichvuEntity[39m } [36mfrom[39m [32m'./entities/dichvu.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m                              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 8 |[39m [36mexport[39m [36mclass[39m [33mDichvuService[39m {[0m
+  [0m [90m 9 |[39m   constructor([0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muasanpham/muasanpham.service.ts:[32m[1m10:23[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'MuasanphamEntity'.
+  [0m [90m  8 |[39m [36mexport[39m [36mclass[39m [33mDichvuService[39m {[0m
+  [0m [90m  9 |[39m   constructor([0m
+  [0m[31m[1m>[22m[39m[90m 10 |[39m     [33m@[39m[33mInjectRepository[39m([33mMuasanphamEntity[39m)[0m
+  [0m [90m    |[39m                       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 11 |[39m     [36mprivate[39m [33mDichvuRepository[39m[33m:[39m [33mRepository[39m[33m<[39m[33mDichvuEntity[39m[33m>[39m[0m
+  [0m [90m 12 |[39m   ) { }[0m
+  [0m [90m 13 |[39m   [36masync[39m create(data[33m:[39m any) {[0m
+
+webpack compiled with [1m[31m6 errors[39m[22m (1dc1aac591688b25)
+[1m[31mDebugger listening on ws://localhost:9229/95ac08b2-0015-4543-ba1c-7f3a15936c24[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/95ac08b2-0015-4543-ba1c-7f3a15936c24[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mF:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\muasanpham\muasanpham.service.ts:10[39m[22m
+[1m[31m    @InjectRepository(MuasanphamEntity)[39m[22m
+[1m[31m                      ^[39m[22m
+[1m[31m[39m[22m
+[1m[31mReferenceError: MuasanphamEntity is not defined[39m[22m
+[1m[31m    at Array.Object.defineProperty.value (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\muasanpham\muasanpham.service.ts:10:23)[39m[22m
+[1m[31m    at __webpack_require__ (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\webpack\bootstrap:19:1)[39m[22m
+[1m[31m    at Array.Object.defineProperty.value (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\muasanpham\muasanpham.module.ts:2:1)[39m[22m
+[1m[31m    at __webpack_require__ (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\webpack\bootstrap:19:1)[39m[22m
+[1m[31m    at Array.<anonymous> (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\app.module.ts:14:1)[39m[22m
+[1m[31m    at __webpack_require__ (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\webpack\bootstrap:19:1)[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\main.ts:9:1[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\dist\be_ketoan\main.js:3514:3[39m[22m
+[1m[31m    at Object.<anonymous> (F:\chikiet\BEKetoan\dist\be_ketoan\main.js:3516:12)[39m[22m
+[1m[31m    at Module._compile (node:internal/modules/cjs/loader:1376:14)[39m[22m
+[1m[31m[39m[22m
+
+[36m>[39m [7m[1m[36m NX [39m[22m[27m [1mProcess exited with code 1, waiting for changes to restart...[22m
+
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 128 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muasanpham/muasanpham.controller.ts:[32m[1m22:35[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findOne' does not exist on type 'MuasanphamService'.
+  [0m [90m 20 |[39m   [33m@[39m[33mGet[39m([32m':id'[39m)[0m
+  [0m [90m 21 |[39m   findOne([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 22 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mmuasanphamService[33m.[39mfindOne([33m+[39mid)[33m;[39m[0m
+  [0m [90m    |[39m                                   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 23 |[39m   }[0m
+  [0m [90m 24 |[39m[0m
+  [0m [90m 25 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muasanpham/muasanpham.controller.ts:[32m[1m27:42[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'number' is not assignable to parameter of type 'string'.
+  [0m [90m 25 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+  [0m [90m 26 |[39m   update([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string[33m,[39m [33m@[39m[33mBody[39m() updateMuasanphamDto[33m:[39m [33mUpdateMuasanphamDto[39m) {[0m
+  [0m[31m[1m>[22m[39m[90m 27 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mmuasanphamService[33m.[39mupdate([33m+[39mid[33m,[39m updateMuasanphamDto)[33m;[39m[0m
+  [0m [90m    |[39m                                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 28 |[39m   }[0m
+  [0m [90m 29 |[39m[0m
+  [0m [90m 30 |[39m   [33m@[39m[33mDelete[39m([32m':id'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muasanpham/muasanpham.controller.ts:[32m[1m32:42[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'number' is not assignable to parameter of type 'string'.
+  [0m [90m 30 |[39m   [33m@[39m[33mDelete[39m([32m':id'[39m)[0m
+  [0m [90m 31 |[39m   remove([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 32 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mmuasanphamService[33m.[39mremove([33m+[39mid)[33m;[39m[0m
+  [0m [90m    |[39m                                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 33 |[39m   }[0m
+  [0m [90m 34 |[39m }[0m
+  [0m [90m 35 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muasanpham/muasanpham.service.ts:[32m[1m6:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./entities/muasanpham.entity"' has no exported member 'MuasanphamEntity'.
+  [0m [90m 4 |[39m [36mimport[39m { [33mCreateMuasanphamDto[39m } [36mfrom[39m [32m'./dto/create-muasanpham.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mUpdateMuasanphamDto[39m } [36mfrom[39m [32m'./dto/update-muasanpham.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mMuasanphamEntity[39m } [36mfrom[39m [32m'./entities/muasanpham.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 8 |[39m [36mexport[39m [36mclass[39m [33mMuasanphamService[39m {[0m
+  [0m [90m 9 |[39m   constructor([0m
+
+webpack compiled with [1m[31m4 errors[39m[22m (b0a6e165fdb2902f)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 128 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muasanpham/muasanpham.controller.ts:[32m[1m22:35[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findOne' does not exist on type 'MuasanphamService'.
+  [0m [90m 20 |[39m   [33m@[39m[33mGet[39m([32m':id'[39m)[0m
+  [0m [90m 21 |[39m   findOne([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 22 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mmuasanphamService[33m.[39mfindOne([33m+[39mid)[33m;[39m[0m
+  [0m [90m    |[39m                                   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 23 |[39m   }[0m
+  [0m [90m 24 |[39m[0m
+  [0m [90m 25 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muasanpham/muasanpham.controller.ts:[32m[1m27:42[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'number' is not assignable to parameter of type 'string'.
+  [0m [90m 25 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+  [0m [90m 26 |[39m   update([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string[33m,[39m [33m@[39m[33mBody[39m() updateMuasanphamDto[33m:[39m [33mUpdateMuasanphamDto[39m) {[0m
+  [0m[31m[1m>[22m[39m[90m 27 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mmuasanphamService[33m.[39mupdate([33m+[39mid[33m,[39m updateMuasanphamDto)[33m;[39m[0m
+  [0m [90m    |[39m                                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 28 |[39m   }[0m
+  [0m [90m 29 |[39m[0m
+  [0m [90m 30 |[39m   [33m@[39m[33mDelete[39m([32m':id'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muasanpham/muasanpham.controller.ts:[32m[1m32:42[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'number' is not assignable to parameter of type 'string'.
+  [0m [90m 30 |[39m   [33m@[39m[33mDelete[39m([32m':id'[39m)[0m
+  [0m [90m 31 |[39m   remove([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 32 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mmuasanphamService[33m.[39mremove([33m+[39mid)[33m;[39m[0m
+  [0m [90m    |[39m                                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 33 |[39m   }[0m
+  [0m [90m 34 |[39m }[0m
+  [0m [90m 35 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muasanpham/muasanpham.service.ts:[32m[1m6:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./entities/muasanpham.entity"' has no exported member 'MuasanphamEntity'.
+  [0m [90m 4 |[39m [36mimport[39m { [33mCreateMuasanphamDto[39m } [36mfrom[39m [32m'./dto/create-muasanpham.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mUpdateMuasanphamDto[39m } [36mfrom[39m [32m'./dto/update-muasanpham.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mMuasanphamEntity[39m } [36mfrom[39m [32m'./entities/muasanpham.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 8 |[39m [36mexport[39m [36mclass[39m [33mMuasanphamService[39m {[0m
+  [0m [90m 9 |[39m   constructor([0m
+
+webpack compiled with [1m[31m4 errors[39m[22m (b0a6e165fdb2902f)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 121 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/muasanpham/muasanpham.module.ts[39m[22m [1m[32m6:25-52[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './dichvu.service' in 'F:\chikiet\BEKetoan\be_ketoan\src\app\muasanpham'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/muasanpham/muasanpham.module.ts[39m[22m [1m[32m7:28-58[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './dichvu.controller' in 'F:\chikiet\BEKetoan\be_ketoan\src\app\muasanpham'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/muasanpham/muasanpham.module.ts[39m[22m [1m[32m9:24-59[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './entities/dichvu.entity' in 'F:\chikiet\BEKetoan\be_ketoan\src\app\muasanpham'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/app.module.ts:[32m[1m14:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./muasanpham/muasanpham.module"' has no exported member 'MuasanphamModule'.
+  [0m [90m 12 |[39m [36mimport[39m { [33mSanphamModule[39m } [36mfrom[39m [32m'./sanpham/sanpham.module'[39m[33m;[39m[0m
+  [0m [90m 13 |[39m [36mimport[39m { [33mHoadonhhpModule[39m } [36mfrom[39m [32m'./hoadonhhp/hoadonhhp.module'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 14 |[39m [36mimport[39m { [33mMuasanphamModule[39m } [36mfrom[39m [32m'./muasanpham/muasanpham.module'[39m[33m;[39m[0m
+  [0m [90m    |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 15 |[39m [36mimport[39m { [33mBansanphamModule[39m } [36mfrom[39m [32m'./bansanpham/bansanpham.module'[39m[33m;[39m[0m
+  [0m [90m 16 |[39m [33m@[39m[33mModule[39m({[0m
+  [0m [90m 17 |[39m   imports[33m:[39m [    [0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muasanpham/muasanpham.module.ts:[32m[1m2:31[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './dichvu.service' or its corresponding type declarations.
+  [0m [90m 1 |[39m [36mimport[39m { [33mModule[39m } [36mfrom[39m [32m'@nestjs/common'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 2 |[39m [36mimport[39m { [33mDichvuService[39m } [36mfrom[39m [32m'./dichvu.service'[39m[33m;[39m[0m
+  [0m [90m   |[39m                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m { [33mDichvuController[39m } [36mfrom[39m [32m'./dichvu.controller'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mTypeOrmModule[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mDichvuEntity[39m } [36mfrom[39m [32m'./entities/dichvu.entity'[39m[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muasanpham/muasanpham.module.ts:[32m[1m3:34[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './dichvu.controller' or its corresponding type declarations.
+  [0m [90m 1 |[39m [36mimport[39m { [33mModule[39m } [36mfrom[39m [32m'@nestjs/common'[39m[33m;[39m[0m
+  [0m [90m 2 |[39m [36mimport[39m { [33mDichvuService[39m } [36mfrom[39m [32m'./dichvu.service'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 3 |[39m [36mimport[39m { [33mDichvuController[39m } [36mfrom[39m [32m'./dichvu.controller'[39m[33m;[39m[0m
+  [0m [90m   |[39m                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mTypeOrmModule[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mDichvuEntity[39m } [36mfrom[39m [32m'./entities/dichvu.entity'[39m[33m;[39m[0m
+  [0m [90m 6 |[39m [33m@[39m[33mModule[39m({[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muasanpham/muasanpham.module.ts:[32m[1m5:30[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './entities/dichvu.entity' or its corresponding type declarations.
+  [0m [90m 3 |[39m [36mimport[39m { [33mDichvuController[39m } [36mfrom[39m [32m'./dichvu.controller'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mTypeOrmModule[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mDichvuEntity[39m } [36mfrom[39m [32m'./entities/dichvu.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m                              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 6 |[39m [33m@[39m[33mModule[39m({[0m
+  [0m [90m 7 |[39m   imports[33m:[39m [[33mTypeOrmModule[39m[33m.[39mforFeature([[33mDichvuEntity[39m])][33m,[39m[0m
+  [0m [90m 8 |[39m   controllers[33m:[39m [[33mDichvuController[39m][33m,[39m[0m
+
+webpack compiled with [1m[31m7 errors[39m[22m (6d43bae526fad9a1)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 128 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muasanpham/muasanpham.controller.ts:[32m[1m22:35[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findOne' does not exist on type 'MuasanphamService'.
+  [0m [90m 20 |[39m   [33m@[39m[33mGet[39m([32m':id'[39m)[0m
+  [0m [90m 21 |[39m   findOne([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 22 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mmuasanphamService[33m.[39mfindOne([33m+[39mid)[33m;[39m[0m
+  [0m [90m    |[39m                                   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 23 |[39m   }[0m
+  [0m [90m 24 |[39m[0m
+  [0m [90m 25 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muasanpham/muasanpham.controller.ts:[32m[1m27:42[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'number' is not assignable to parameter of type 'string'.
+  [0m [90m 25 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+  [0m [90m 26 |[39m   update([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string[33m,[39m [33m@[39m[33mBody[39m() updateMuasanphamDto[33m:[39m [33mUpdateMuasanphamDto[39m) {[0m
+  [0m[31m[1m>[22m[39m[90m 27 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mmuasanphamService[33m.[39mupdate([33m+[39mid[33m,[39m updateMuasanphamDto)[33m;[39m[0m
+  [0m [90m    |[39m                                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 28 |[39m   }[0m
+  [0m [90m 29 |[39m[0m
+  [0m [90m 30 |[39m   [33m@[39m[33mDelete[39m([32m':id'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muasanpham/muasanpham.controller.ts:[32m[1m32:42[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'number' is not assignable to parameter of type 'string'.
+  [0m [90m 30 |[39m   [33m@[39m[33mDelete[39m([32m':id'[39m)[0m
+  [0m [90m 31 |[39m   remove([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 32 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mmuasanphamService[33m.[39mremove([33m+[39mid)[33m;[39m[0m
+  [0m [90m    |[39m                                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 33 |[39m   }[0m
+  [0m [90m 34 |[39m }[0m
+  [0m [90m 35 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muasanpham/muasanpham.module.ts:[32m[1m5:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./entities/muasanpham.entity"' has no exported member 'MuasanphamEntity'.
+  [0m [90m 3 |[39m [36mimport[39m { [33mMuasanphamController[39m } [36mfrom[39m [32m'./muasanpham.controller'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mTypeOrmModule[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mMuasanphamEntity[39m } [36mfrom[39m [32m'./entities/muasanpham.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 6 |[39m [33m@[39m[33mModule[39m({[0m
+  [0m [90m 7 |[39m   imports[33m:[39m [[33mTypeOrmModule[39m[33m.[39mforFeature([[33mMuasanphamEntity[39m])][33m,[39m[0m
+  [0m [90m 8 |[39m   controllers[33m:[39m [[33mMuasanphamController[39m][33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muasanpham/muasanpham.service.ts:[32m[1m6:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./entities/muasanpham.entity"' has no exported member 'MuasanphamEntity'.
+  [0m [90m 4 |[39m [36mimport[39m { [33mCreateMuasanphamDto[39m } [36mfrom[39m [32m'./dto/create-muasanpham.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mUpdateMuasanphamDto[39m } [36mfrom[39m [32m'./dto/update-muasanpham.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mMuasanphamEntity[39m } [36mfrom[39m [32m'./entities/muasanpham.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 8 |[39m [36mexport[39m [36mclass[39m [33mMuasanphamService[39m {[0m
+  [0m [90m 9 |[39m   constructor([0m
+
+webpack compiled with [1m[31m5 errors[39m[22m (f9d9f46e2eaf9fc3)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 128 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/muasanpham/muasanpham.controller.ts[39m[22m [1m[32m7:25-52[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './dichvu.service' in 'F:\chikiet\BEKetoan\be_ketoan\src\app\muasanpham'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/muasanpham/muasanpham.controller.ts[39m[22m [1m[32m8:28-62[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './dto/create-dichvu.dto' in 'F:\chikiet\BEKetoan\be_ketoan\src\app\muasanpham'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/muasanpham/muasanpham.controller.ts[39m[22m [1m[32m9:28-62[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './dto/update-dichvu.dto' in 'F:\chikiet\BEKetoan\be_ketoan\src\app\muasanpham'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muasanpham/muasanpham.controller.ts:[32m[1m2:30[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './dichvu.service' or its corresponding type declarations.
+  [0m [90m 1 |[39m [36mimport[39m { [33mController[39m[33m,[39m [33mGet[39m[33m,[39m [33mPost[39m[33m,[39m [33mBody[39m[33m,[39m [33mPatch[39m[33m,[39m [33mParam[39m[33m,[39m [33mDelete[39m[33m,[39m [33mQuery[39m } [36mfrom[39m [32m'@nestjs/common'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 2 |[39m [36mimport[39m {[33mDichvuService[39m } [36mfrom[39m [32m'./dichvu.service'[39m[33m;[39m[0m
+  [0m [90m   |[39m                              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m { [33mCreateDichvuDto[39m } [36mfrom[39m [32m'./dto/create-dichvu.dto'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mUpdateDichvuDto[39m } [36mfrom[39m [32m'./dto/update-dichvu.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [33m@[39m[33mController[39m([32m'dichvu'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muasanpham/muasanpham.controller.ts:[32m[1m3:33[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './dto/create-dichvu.dto' or its corresponding type declarations.
+  [0m [90m 1 |[39m [36mimport[39m { [33mController[39m[33m,[39m [33mGet[39m[33m,[39m [33mPost[39m[33m,[39m [33mBody[39m[33m,[39m [33mPatch[39m[33m,[39m [33mParam[39m[33m,[39m [33mDelete[39m[33m,[39m [33mQuery[39m } [36mfrom[39m [32m'@nestjs/common'[39m[33m;[39m[0m
+  [0m [90m 2 |[39m [36mimport[39m {[33mDichvuService[39m } [36mfrom[39m [32m'./dichvu.service'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 3 |[39m [36mimport[39m { [33mCreateDichvuDto[39m } [36mfrom[39m [32m'./dto/create-dichvu.dto'[39m[33m;[39m[0m
+  [0m [90m   |[39m                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mUpdateDichvuDto[39m } [36mfrom[39m [32m'./dto/update-dichvu.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [33m@[39m[33mController[39m([32m'dichvu'[39m)[0m
+  [0m [90m 6 |[39m [36mexport[39m [36mclass[39m [33mDichvuController[39m {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muasanpham/muasanpham.controller.ts:[32m[1m4:33[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './dto/update-dichvu.dto' or its corresponding type declarations.
+  [0m [90m 2 |[39m [36mimport[39m {[33mDichvuService[39m } [36mfrom[39m [32m'./dichvu.service'[39m[33m;[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m { [33mCreateDichvuDto[39m } [36mfrom[39m [32m'./dto/create-dichvu.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 4 |[39m [36mimport[39m { [33mUpdateDichvuDto[39m } [36mfrom[39m [32m'./dto/update-dichvu.dto'[39m[33m;[39m[0m
+  [0m [90m   |[39m                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 5 |[39m [33m@[39m[33mController[39m([32m'dichvu'[39m)[0m
+  [0m [90m 6 |[39m [36mexport[39m [36mclass[39m [33mDichvuController[39m {[0m
+  [0m [90m 7 |[39m   constructor([36mprivate[39m readonly dichvuService[33m:[39m[33mDichvuService[39m) {}[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muasanpham/muasanpham.module.ts:[32m[1m3:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./muasanpham.controller"' has no exported member 'MuasanphamController'.
+  [0m [90m 1 |[39m [36mimport[39m { [33mModule[39m } [36mfrom[39m [32m'@nestjs/common'[39m[33m;[39m[0m
+  [0m [90m 2 |[39m [36mimport[39m { [33mMuasanphamService[39m } [36mfrom[39m [32m'./muasanpham.service'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 3 |[39m [36mimport[39m { [33mMuasanphamController[39m } [36mfrom[39m [32m'./muasanpham.controller'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mTypeOrmModule[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mMuasanphamEntity[39m } [36mfrom[39m [32m'./entities/muasanpham.entity'[39m[33m;[39m[0m
+  [0m [90m 6 |[39m [33m@[39m[33mModule[39m({[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muasanpham/muasanpham.module.ts:[32m[1m5:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./entities/muasanpham.entity"' has no exported member 'MuasanphamEntity'.
+  [0m [90m 3 |[39m [36mimport[39m { [33mMuasanphamController[39m } [36mfrom[39m [32m'./muasanpham.controller'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mTypeOrmModule[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mMuasanphamEntity[39m } [36mfrom[39m [32m'./entities/muasanpham.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 6 |[39m [33m@[39m[33mModule[39m({[0m
+  [0m [90m 7 |[39m   imports[33m:[39m [[33mTypeOrmModule[39m[33m.[39mforFeature([[33mMuasanphamEntity[39m])][33m,[39m[0m
+  [0m [90m 8 |[39m   controllers[33m:[39m [[33mMuasanphamController[39m][33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muasanpham/muasanpham.service.ts:[32m[1m6:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./entities/muasanpham.entity"' has no exported member 'MuasanphamEntity'.
+  [0m [90m 4 |[39m [36mimport[39m { [33mCreateMuasanphamDto[39m } [36mfrom[39m [32m'./dto/create-muasanpham.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mUpdateMuasanphamDto[39m } [36mfrom[39m [32m'./dto/update-muasanpham.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mMuasanphamEntity[39m } [36mfrom[39m [32m'./entities/muasanpham.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 8 |[39m [36mexport[39m [36mclass[39m [33mMuasanphamService[39m {[0m
+  [0m [90m 9 |[39m   constructor([0m
+
+webpack compiled with [1m[31m9 errors[39m[22m (b1da03935fda1cb9)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 129 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muasanpham/muasanpham.module.ts:[32m[1m5:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./entities/muasanpham.entity"' has no exported member 'MuasanphamEntity'.
+  [0m [90m 3 |[39m [36mimport[39m { [33mMuasanphamController[39m } [36mfrom[39m [32m'./muasanpham.controller'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mTypeOrmModule[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mMuasanphamEntity[39m } [36mfrom[39m [32m'./entities/muasanpham.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 6 |[39m [33m@[39m[33mModule[39m({[0m
+  [0m [90m 7 |[39m   imports[33m:[39m [[33mTypeOrmModule[39m[33m.[39mforFeature([[33mMuasanphamEntity[39m])][33m,[39m[0m
+  [0m [90m 8 |[39m   controllers[33m:[39m [[33mMuasanphamController[39m][33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muasanpham/muasanpham.service.ts:[32m[1m6:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./entities/muasanpham.entity"' has no exported member 'MuasanphamEntity'.
+  [0m [90m 4 |[39m [36mimport[39m { [33mCreateMuasanphamDto[39m } [36mfrom[39m [32m'./dto/create-muasanpham.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mUpdateMuasanphamDto[39m } [36mfrom[39m [32m'./dto/update-muasanpham.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mMuasanphamEntity[39m } [36mfrom[39m [32m'./entities/muasanpham.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 8 |[39m [36mexport[39m [36mclass[39m [33mMuasanphamService[39m {[0m
+  [0m [90m 9 |[39m   constructor([0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (a8a02f48c76a7bc1)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 129 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muasanpham/muasanpham.module.ts:[32m[1m5:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./entities/muasanpham.entity"' has no exported member 'MuasanphamEntity'.
+  [0m [90m 3 |[39m [36mimport[39m { [33mMuasanphamController[39m } [36mfrom[39m [32m'./muasanpham.controller'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mTypeOrmModule[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mMuasanphamEntity[39m } [36mfrom[39m [32m'./entities/muasanpham.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 6 |[39m [33m@[39m[33mModule[39m({[0m
+  [0m [90m 7 |[39m   imports[33m:[39m [[33mTypeOrmModule[39m[33m.[39mforFeature([[33mMuasanphamEntity[39m])][33m,[39m[0m
+  [0m [90m 8 |[39m   controllers[33m:[39m [[33mMuasanphamController[39m][33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muasanpham/muasanpham.service.ts:[32m[1m6:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./entities/muasanpham.entity"' has no exported member 'MuasanphamEntity'.
+  [0m [90m 4 |[39m [36mimport[39m { [33mCreateMuasanphamDto[39m } [36mfrom[39m [32m'./dto/create-muasanpham.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mUpdateMuasanphamDto[39m } [36mfrom[39m [32m'./dto/update-muasanpham.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mMuasanphamEntity[39m } [36mfrom[39m [32m'./entities/muasanpham.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 8 |[39m [36mexport[39m [36mclass[39m [33mMuasanphamService[39m {[0m
+  [0m [90m 9 |[39m   constructor([0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (a8a02f48c76a7bc1)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 129 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muasanpham/muasanpham.module.ts:[32m[1m5:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./entities/muasanpham.entity"' has no exported member 'MuasanphamEntity'.
+  [0m [90m 3 |[39m [36mimport[39m { [33mMuasanphamController[39m } [36mfrom[39m [32m'./muasanpham.controller'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mTypeOrmModule[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mMuasanphamEntity[39m } [36mfrom[39m [32m'./entities/muasanpham.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 6 |[39m [33m@[39m[33mModule[39m({[0m
+  [0m [90m 7 |[39m   imports[33m:[39m [[33mTypeOrmModule[39m[33m.[39mforFeature([[33mMuasanphamEntity[39m])][33m,[39m[0m
+  [0m [90m 8 |[39m   controllers[33m:[39m [[33mMuasanphamController[39m][33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muasanpham/muasanpham.service.ts:[32m[1m6:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./entities/muasanpham.entity"' has no exported member 'MuasanphamEntity'.
+  [0m [90m 4 |[39m [36mimport[39m { [33mCreateMuasanphamDto[39m } [36mfrom[39m [32m'./dto/create-muasanpham.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mUpdateMuasanphamDto[39m } [36mfrom[39m [32m'./dto/update-muasanpham.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mMuasanphamEntity[39m } [36mfrom[39m [32m'./entities/muasanpham.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 8 |[39m [36mexport[39m [36mclass[39m [33mMuasanphamService[39m {[0m
+  [0m [90m 9 |[39m   constructor([0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (a8a02f48c76a7bc1)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 129 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muasanpham/muasanpham.module.ts:[32m[1m5:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./entities/muasanpham.entity"' has no exported member 'MuasanphamEntity'.
+  [0m [90m 3 |[39m [36mimport[39m { [33mMuasanphamController[39m } [36mfrom[39m [32m'./muasanpham.controller'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mTypeOrmModule[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mMuasanphamEntity[39m } [36mfrom[39m [32m'./entities/muasanpham.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 6 |[39m [33m@[39m[33mModule[39m({[0m
+  [0m [90m 7 |[39m   imports[33m:[39m [[33mTypeOrmModule[39m[33m.[39mforFeature([[33mMuasanphamEntity[39m])][33m,[39m[0m
+  [0m [90m 8 |[39m   controllers[33m:[39m [[33mMuasanphamController[39m][33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muasanpham/muasanpham.service.ts:[32m[1m6:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./entities/muasanpham.entity"' has no exported member 'MuasanphamEntity'.
+  [0m [90m 4 |[39m [36mimport[39m { [33mCreateMuasanphamDto[39m } [36mfrom[39m [32m'./dto/create-muasanpham.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mUpdateMuasanphamDto[39m } [36mfrom[39m [32m'./dto/update-muasanpham.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mMuasanphamEntity[39m } [36mfrom[39m [32m'./entities/muasanpham.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 8 |[39m [36mexport[39m [36mclass[39m [33mMuasanphamService[39m {[0m
+  [0m [90m 9 |[39m   constructor([0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (a8a02f48c76a7bc1)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 129 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muasanpham/entities/muasanpham.entity.ts[39m[22m
+[90mTS2304: [39mCannot find name 'k_'.
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muasanpham/muasanpham.module.ts:[32m[1m5:34[22m[39m[1m[39m[22m
+[90mTS2306: [39mFile 'F:/chikiet/BEKetoan/be_ketoan/src/app/muasanpham/entities/muasanpham.entity.ts' is not a module.
+  [0m [90m 3 |[39m [36mimport[39m { [33mMuasanphamController[39m } [36mfrom[39m [32m'./muasanpham.controller'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mTypeOrmModule[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mMuasanphamEntity[39m } [36mfrom[39m [32m'./entities/muasanpham.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 6 |[39m [33m@[39m[33mModule[39m({[0m
+  [0m [90m 7 |[39m   imports[33m:[39m [[33mTypeOrmModule[39m[33m.[39mforFeature([[33mMuasanphamEntity[39m])][33m,[39m[0m
+  [0m [90m 8 |[39m   controllers[33m:[39m [[33mMuasanphamController[39m][33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muasanpham/muasanpham.service.ts:[32m[1m6:34[22m[39m[1m[39m[22m
+[90mTS2306: [39mFile 'F:/chikiet/BEKetoan/be_ketoan/src/app/muasanpham/entities/muasanpham.entity.ts' is not a module.
+  [0m [90m 4 |[39m [36mimport[39m { [33mCreateMuasanphamDto[39m } [36mfrom[39m [32m'./dto/create-muasanpham.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mUpdateMuasanphamDto[39m } [36mfrom[39m [32m'./dto/update-muasanpham.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mMuasanphamEntity[39m } [36mfrom[39m [32m'./entities/muasanpham.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 8 |[39m [36mexport[39m [36mclass[39m [33mMuasanphamService[39m {[0m
+  [0m [90m 9 |[39m   constructor([0m
+
+webpack compiled with [1m[31m3 errors[39m[22m (1f07c15dd934a6e5)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 132 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muasanpham/muasanpham.module.ts:[32m[1m5:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./entities/muasanpham.entity"' has no exported member 'MuasanphamEntity'.
+  [0m [90m 3 |[39m [36mimport[39m { [33mMuasanphamController[39m } [36mfrom[39m [32m'./muasanpham.controller'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mTypeOrmModule[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mMuasanphamEntity[39m } [36mfrom[39m [32m'./entities/muasanpham.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 6 |[39m [33m@[39m[33mModule[39m({[0m
+  [0m [90m 7 |[39m   imports[33m:[39m [[33mTypeOrmModule[39m[33m.[39mforFeature([[33mMuasanphamEntity[39m])][33m,[39m[0m
+  [0m [90m 8 |[39m   controllers[33m:[39m [[33mMuasanphamController[39m][33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muasanpham/muasanpham.service.ts:[32m[1m6:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./entities/muasanpham.entity"' has no exported member 'MuasanphamEntity'.
+  [0m [90m 4 |[39m [36mimport[39m { [33mCreateMuasanphamDto[39m } [36mfrom[39m [32m'./dto/create-muasanpham.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mUpdateMuasanphamDto[39m } [36mfrom[39m [32m'./dto/update-muasanpham.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mMuasanphamEntity[39m } [36mfrom[39m [32m'./entities/muasanpham.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 8 |[39m [36mexport[39m [36mclass[39m [33mMuasanphamService[39m {[0m
+  [0m [90m 9 |[39m   constructor([0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (80e0b198101ee121)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 132 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muasanpham/muasanpham.service.ts:[32m[1m34:9[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ SHD: any; Type: any; }' is not assignable to type 'FindOptionsWhere<MuasanphamEntity> | FindOptionsWhere<MuasanphamEntity>[]'.
+  Object literal may only specify known properties, and 'SHD' does not exist in type 'FindOptionsWhere<MuasanphamEntity> | FindOptionsWhere<MuasanphamEntity>[]'.
+  [0m [90m 32 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mMuasanphamRepository[39m[33m.[39mfindOne({[0m
+  [0m [90m 33 |[39m       where[33m:[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 34 |[39m         [33mSHD[39m[33m:[39m data[33m.[39m[33mSHD[39m[33m,[39m[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 35 |[39m         [33mType[39m[33m:[39m data[33m.[39m[33mType[39m[0m
+  [0m [90m 36 |[39m       }[33m,[39m[0m
+  [0m [90m 37 |[39m     })[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muasanpham/muasanpham.service.ts:[32m[1m41:16[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ SHD: any; }' is not assignable to type 'FindOptionsWhere<MuasanphamEntity> | FindOptionsWhere<MuasanphamEntity>[]'.
+  Object literal may only specify known properties, and 'SHD' does not exist in type 'FindOptionsWhere<MuasanphamEntity> | FindOptionsWhere<MuasanphamEntity>[]'.
+  [0m [90m 39 |[39m   [36masync[39m findslug([33mSHD[39m[33m:[39m any) {[0m
+  [0m [90m 40 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mMuasanphamRepository[39m[33m.[39mfindOne({[0m
+  [0m[31m[1m>[22m[39m[90m 41 |[39m       where[33m:[39m { [33mSHD[39m[33m:[39m [33mSHD[39m }[33m,[39m[0m
+  [0m [90m    |[39m                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 42 |[39m     })[33m;[39m[0m
+  [0m [90m 43 |[39m   }[0m
+  [0m [90m 44 |[39m   [36masync[39m findPagination(page[33m:[39m number[33m,[39m perPage[33m:[39m number) {[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (0111641dc5746c52)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 132 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muasanpham/muasanpham.service.ts:[32m[1m34:9[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ SHD: any; Type: any; }' is not assignable to type 'FindOptionsWhere<MuasanphamEntity> | FindOptionsWhere<MuasanphamEntity>[]'.
+  Object literal may only specify known properties, and 'SHD' does not exist in type 'FindOptionsWhere<MuasanphamEntity> | FindOptionsWhere<MuasanphamEntity>[]'.
+  [0m [90m 32 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mMuasanphamRepository[39m[33m.[39mfindOne({[0m
+  [0m [90m 33 |[39m       where[33m:[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 34 |[39m         [33mSHD[39m[33m:[39m data[33m.[39m[33mSHD[39m[33m,[39m[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 35 |[39m         [33mType[39m[33m:[39m data[33m.[39m[33mType[39m[0m
+  [0m [90m 36 |[39m       }[33m,[39m[0m
+  [0m [90m 37 |[39m     })[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muasanpham/muasanpham.service.ts:[32m[1m41:16[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ SHD: any; }' is not assignable to type 'FindOptionsWhere<MuasanphamEntity> | FindOptionsWhere<MuasanphamEntity>[]'.
+  Object literal may only specify known properties, and 'SHD' does not exist in type 'FindOptionsWhere<MuasanphamEntity> | FindOptionsWhere<MuasanphamEntity>[]'.
+  [0m [90m 39 |[39m   [36masync[39m findslug([33mSHD[39m[33m:[39m any) {[0m
+  [0m [90m 40 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mMuasanphamRepository[39m[33m.[39mfindOne({[0m
+  [0m[31m[1m>[22m[39m[90m 41 |[39m       where[33m:[39m { [33mSHD[39m[33m:[39m [33mSHD[39m }[33m,[39m[0m
+  [0m [90m    |[39m                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 42 |[39m     })[33m;[39m[0m
+  [0m [90m 43 |[39m   }[0m
+  [0m [90m 44 |[39m   [36masync[39m findPagination(page[33m:[39m number[33m,[39m perPage[33m:[39m number) {[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (e496a2c9182f6044)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 132 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (fa7cbd773d952324)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 132 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (fa7cbd773d952324)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 132 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (fa7cbd773d952324)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 132 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (fa7cbd773d952324)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 132 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (fa7cbd773d952324)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 132 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (fa7cbd773d952324)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 132 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (fa7cbd773d952324)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 132 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (fa7cbd773d952324)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 132 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (fa7cbd773d952324)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 132 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (fa7cbd773d952324)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 132 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (fa7cbd773d952324)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 132 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (fa7cbd773d952324)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 132 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (fa7cbd773d952324)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 132 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (fa7cbd773d952324)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 132 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (fa7cbd773d952324)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 132 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (fa7cbd773d952324)
+[1m[31mDebugger listening on ws://localhost:9229/64d92b77-f333-44f1-b053-834412d25f6c[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/64d92b77-f333-44f1-b053-834412d25f6c[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 137 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (910cb690fc7908f3)
+[1m[31mDebugger listening on ws://localhost:9229/cd68ad51-c3df-4030-93d5-72f7d9fbbcff[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/cd68ad51-c3df-4030-93d5-72f7d9fbbcff[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 137 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (910cb690fc7908f3)
+[1m[31mDebugger listening on ws://localhost:9229/d4945d92-3430-4a4d-ae14-b1e33d8b7d86[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/d4945d92-3430-4a4d-ae14-b1e33d8b7d86[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 137 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (910cb690fc7908f3)
+[1m[31mDebugger listening on ws://localhost:9229/ca49ff3a-33e6-463b-af44-96222204ec33[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/ca49ff3a-33e6-463b-af44-96222204ec33[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 137 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (910cb690fc7908f3)
+[1m[31mDebugger listening on ws://localhost:9229/142b8b57-3e2a-413e-9602-bd16e38bc79c[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/142b8b57-3e2a-413e-9602-bd16e38bc79c[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 137 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (910cb690fc7908f3)
+[1m[31mDebugger listening on ws://localhost:9229/7bfbf9b8-068e-48a2-8d4f-81252917e545[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/7bfbf9b8-068e-48a2-8d4f-81252917e545[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 139 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/nhapsanpham/nhapsanpham.controller.ts:[32m[1m19:42[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findid' does not exist on type 'NhapsanphamService'.
+  [0m [90m 17 |[39m   [33m@[39m[33mGet[39m([32m'findid/:id'[39m)[0m
+  [0m [90m 18 |[39m   [36masync[39m findOne([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 19 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39mnhapsanphamService[33m.[39mfindid(id)[33m;[39m[0m
+  [0m [90m    |[39m                                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 20 |[39m   }[0m
+  [0m [90m 21 |[39m   [33m@[39m[33mGet[39m([32m'findslug/:slug'[39m)[0m
+  [0m [90m 22 |[39m   [36masync[39m findslug([33m@[39m[33mParam[39m([32m'slug'[39m) slug[33m:[39m string) {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/nhapsanpham/nhapsanpham.controller.ts:[32m[1m23:42[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findslug' does not exist on type 'NhapsanphamService'.
+  [0m [90m 21 |[39m   [33m@[39m[33mGet[39m([32m'findslug/:slug'[39m)[0m
+  [0m [90m 22 |[39m   [36masync[39m findslug([33m@[39m[33mParam[39m([32m'slug'[39m) slug[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 23 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39mnhapsanphamService[33m.[39mfindslug(slug)[33m;[39m[0m
+  [0m [90m    |[39m                                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 24 |[39m   }[0m
+  [0m [90m 25 |[39m   [33m@[39m[33mGet[39m([32m'pagination'[39m)[0m
+  [0m [90m 26 |[39m   [36masync[39m findPagination([33m@[39m[33mQuery[39m([32m'page'[39m) page[33m:[39m number[33m,[39m[33m@[39m[33mQuery[39m([32m'perPage'[39m) perPage[33m:[39m number){[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/nhapsanpham/nhapsanpham.controller.ts:[32m[1m27:45[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findPagination' does not exist on type 'NhapsanphamService'.
+  [0m [90m 25 |[39m   [33m@[39m[33mGet[39m([32m'pagination'[39m)[0m
+  [0m [90m 26 |[39m   [36masync[39m findPagination([33m@[39m[33mQuery[39m([32m'page'[39m) page[33m:[39m number[33m,[39m[33m@[39m[33mQuery[39m([32m'perPage'[39m) perPage[33m:[39m number){[0m
+  [0m[31m[1m>[22m[39m[90m 27 |[39m        [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39mnhapsanphamService[33m.[39mfindPagination(page[33m,[39mperPage)[33m;[39m[0m
+  [0m [90m    |[39m                                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 28 |[39m     }[0m
+  [0m [90m 29 |[39m   [33m@[39m[33mPost[39m([32m'search'[39m)[0m
+  [0m [90m 30 |[39m     [36masync[39m findQuery([33m@[39m[33mBody[39m() [33mSearchParams[39m[33m:[39m any){[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/nhapsanpham/nhapsanpham.controller.ts:[32m[1m31:44[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findQuery' does not exist on type 'NhapsanphamService'.
+  [0m [90m 29 |[39m   [33m@[39m[33mPost[39m([32m'search'[39m)[0m
+  [0m [90m 30 |[39m     [36masync[39m findQuery([33m@[39m[33mBody[39m() [33mSearchParams[39m[33m:[39m any){[0m
+  [0m[31m[1m>[22m[39m[90m 31 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39mnhapsanphamService[33m.[39mfindQuery([33mSearchParams[39m)[33m;[39m[0m
+  [0m [90m    |[39m                                            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 32 |[39m   }[0m
+  [0m [90m 33 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+  [0m [90m 34 |[39m   update([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string[33m,[39m [33m@[39m[33mBody[39m() updateNhapsanphamDto[33m:[39m [33mUpdateNhapsanphamDto[39m) {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/nhapsanpham/nhapsanpham.controller.ts:[32m[1m35:43[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'string' is not assignable to parameter of type 'number'.
+  [0m [90m 33 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+  [0m [90m 34 |[39m   update([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string[33m,[39m [33m@[39m[33mBody[39m() updateNhapsanphamDto[33m:[39m [33mUpdateNhapsanphamDto[39m) {[0m
+  [0m[31m[1m>[22m[39m[90m 35 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mnhapsanphamService[33m.[39mupdate(id[33m,[39m updateNhapsanphamDto)[33m;[39m[0m
+  [0m [90m    |[39m                                           [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 36 |[39m   }[0m
+  [0m [90m 37 |[39m[0m
+  [0m [90m 38 |[39m   [33m@[39m[33mDelete[39m([32m':id'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/nhapsanpham/nhapsanpham.controller.ts:[32m[1m40:43[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'string' is not assignable to parameter of type 'number'.
+  [0m [90m 38 |[39m   [33m@[39m[33mDelete[39m([32m':id'[39m)[0m
+  [0m [90m 39 |[39m   remove([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 40 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mnhapsanphamService[33m.[39mremove(id)[33m;[39m[0m
+  [0m [90m    |[39m                                           [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 41 |[39m   }[0m
+  [0m [90m 42 |[39m }[0m
+
+webpack compiled with [1m[31m6 errors[39m[22m (f8f3e5965ebe3991)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 139 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/nhapsanpham/nhapsanpham.controller.ts:[32m[1m19:42[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findid' does not exist on type 'NhapsanphamService'.
+  [0m [90m 17 |[39m   [33m@[39m[33mGet[39m([32m'findid/:id'[39m)[0m
+  [0m [90m 18 |[39m   [36masync[39m findOne([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 19 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39mnhapsanphamService[33m.[39mfindid(id)[33m;[39m[0m
+  [0m [90m    |[39m                                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 20 |[39m   }[0m
+  [0m [90m 21 |[39m   [33m@[39m[33mGet[39m([32m'findslug/:slug'[39m)[0m
+  [0m [90m 22 |[39m   [36masync[39m findslug([33m@[39m[33mParam[39m([32m'slug'[39m) slug[33m:[39m string) {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/nhapsanpham/nhapsanpham.controller.ts:[32m[1m23:42[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findslug' does not exist on type 'NhapsanphamService'.
+  [0m [90m 21 |[39m   [33m@[39m[33mGet[39m([32m'findslug/:slug'[39m)[0m
+  [0m [90m 22 |[39m   [36masync[39m findslug([33m@[39m[33mParam[39m([32m'slug'[39m) slug[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 23 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39mnhapsanphamService[33m.[39mfindslug(slug)[33m;[39m[0m
+  [0m [90m    |[39m                                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 24 |[39m   }[0m
+  [0m [90m 25 |[39m   [33m@[39m[33mGet[39m([32m'pagination'[39m)[0m
+  [0m [90m 26 |[39m   [36masync[39m findPagination([33m@[39m[33mQuery[39m([32m'page'[39m) page[33m:[39m number[33m,[39m[33m@[39m[33mQuery[39m([32m'perPage'[39m) perPage[33m:[39m number){[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/nhapsanpham/nhapsanpham.controller.ts:[32m[1m27:45[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findPagination' does not exist on type 'NhapsanphamService'.
+  [0m [90m 25 |[39m   [33m@[39m[33mGet[39m([32m'pagination'[39m)[0m
+  [0m [90m 26 |[39m   [36masync[39m findPagination([33m@[39m[33mQuery[39m([32m'page'[39m) page[33m:[39m number[33m,[39m[33m@[39m[33mQuery[39m([32m'perPage'[39m) perPage[33m:[39m number){[0m
+  [0m[31m[1m>[22m[39m[90m 27 |[39m        [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39mnhapsanphamService[33m.[39mfindPagination(page[33m,[39mperPage)[33m;[39m[0m
+  [0m [90m    |[39m                                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 28 |[39m     }[0m
+  [0m [90m 29 |[39m   [33m@[39m[33mPost[39m([32m'search'[39m)[0m
+  [0m [90m 30 |[39m     [36masync[39m findQuery([33m@[39m[33mBody[39m() [33mSearchParams[39m[33m:[39m any){[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/nhapsanpham/nhapsanpham.controller.ts:[32m[1m31:44[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findQuery' does not exist on type 'NhapsanphamService'.
+  [0m [90m 29 |[39m   [33m@[39m[33mPost[39m([32m'search'[39m)[0m
+  [0m [90m 30 |[39m     [36masync[39m findQuery([33m@[39m[33mBody[39m() [33mSearchParams[39m[33m:[39m any){[0m
+  [0m[31m[1m>[22m[39m[90m 31 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39mnhapsanphamService[33m.[39mfindQuery([33mSearchParams[39m)[33m;[39m[0m
+  [0m [90m    |[39m                                            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 32 |[39m   }[0m
+  [0m [90m 33 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+  [0m [90m 34 |[39m   update([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string[33m,[39m [33m@[39m[33mBody[39m() updateNhapsanphamDto[33m:[39m [33mUpdateNhapsanphamDto[39m) {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/nhapsanpham/nhapsanpham.controller.ts:[32m[1m35:43[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'string' is not assignable to parameter of type 'number'.
+  [0m [90m 33 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+  [0m [90m 34 |[39m   update([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string[33m,[39m [33m@[39m[33mBody[39m() updateNhapsanphamDto[33m:[39m [33mUpdateNhapsanphamDto[39m) {[0m
+  [0m[31m[1m>[22m[39m[90m 35 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mnhapsanphamService[33m.[39mupdate(id[33m,[39m updateNhapsanphamDto)[33m;[39m[0m
+  [0m [90m    |[39m                                           [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 36 |[39m   }[0m
+  [0m [90m 37 |[39m[0m
+  [0m [90m 38 |[39m   [33m@[39m[33mDelete[39m([32m':id'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/nhapsanpham/nhapsanpham.controller.ts:[32m[1m40:43[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'string' is not assignable to parameter of type 'number'.
+  [0m [90m 38 |[39m   [33m@[39m[33mDelete[39m([32m':id'[39m)[0m
+  [0m [90m 39 |[39m   remove([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 40 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mnhapsanphamService[33m.[39mremove(id)[33m;[39m[0m
+  [0m [90m    |[39m                                           [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 41 |[39m   }[0m
+  [0m [90m 42 |[39m }[0m
+
+webpack compiled with [1m[31m6 errors[39m[22m (f8f3e5965ebe3991)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 139 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/nhapsanpham/nhapsanpham.controller.ts:[32m[1m19:42[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findid' does not exist on type 'NhapsanphamService'.
+  [0m [90m 17 |[39m   [33m@[39m[33mGet[39m([32m'findid/:id'[39m)[0m
+  [0m [90m 18 |[39m   [36masync[39m findOne([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 19 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39mnhapsanphamService[33m.[39mfindid(id)[33m;[39m[0m
+  [0m [90m    |[39m                                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 20 |[39m   }[0m
+  [0m [90m 21 |[39m   [33m@[39m[33mGet[39m([32m'findslug/:slug'[39m)[0m
+  [0m [90m 22 |[39m   [36masync[39m findslug([33m@[39m[33mParam[39m([32m'slug'[39m) slug[33m:[39m string) {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/nhapsanpham/nhapsanpham.controller.ts:[32m[1m23:42[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findslug' does not exist on type 'NhapsanphamService'.
+  [0m [90m 21 |[39m   [33m@[39m[33mGet[39m([32m'findslug/:slug'[39m)[0m
+  [0m [90m 22 |[39m   [36masync[39m findslug([33m@[39m[33mParam[39m([32m'slug'[39m) slug[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 23 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39mnhapsanphamService[33m.[39mfindslug(slug)[33m;[39m[0m
+  [0m [90m    |[39m                                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 24 |[39m   }[0m
+  [0m [90m 25 |[39m   [33m@[39m[33mGet[39m([32m'pagination'[39m)[0m
+  [0m [90m 26 |[39m   [36masync[39m findPagination([33m@[39m[33mQuery[39m([32m'page'[39m) page[33m:[39m number[33m,[39m[33m@[39m[33mQuery[39m([32m'perPage'[39m) perPage[33m:[39m number){[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/nhapsanpham/nhapsanpham.controller.ts:[32m[1m27:45[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findPagination' does not exist on type 'NhapsanphamService'.
+  [0m [90m 25 |[39m   [33m@[39m[33mGet[39m([32m'pagination'[39m)[0m
+  [0m [90m 26 |[39m   [36masync[39m findPagination([33m@[39m[33mQuery[39m([32m'page'[39m) page[33m:[39m number[33m,[39m[33m@[39m[33mQuery[39m([32m'perPage'[39m) perPage[33m:[39m number){[0m
+  [0m[31m[1m>[22m[39m[90m 27 |[39m        [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39mnhapsanphamService[33m.[39mfindPagination(page[33m,[39mperPage)[33m;[39m[0m
+  [0m [90m    |[39m                                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 28 |[39m     }[0m
+  [0m [90m 29 |[39m   [33m@[39m[33mPost[39m([32m'search'[39m)[0m
+  [0m [90m 30 |[39m     [36masync[39m findQuery([33m@[39m[33mBody[39m() [33mSearchParams[39m[33m:[39m any){[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/nhapsanpham/nhapsanpham.controller.ts:[32m[1m31:44[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findQuery' does not exist on type 'NhapsanphamService'.
+  [0m [90m 29 |[39m   [33m@[39m[33mPost[39m([32m'search'[39m)[0m
+  [0m [90m 30 |[39m     [36masync[39m findQuery([33m@[39m[33mBody[39m() [33mSearchParams[39m[33m:[39m any){[0m
+  [0m[31m[1m>[22m[39m[90m 31 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39mnhapsanphamService[33m.[39mfindQuery([33mSearchParams[39m)[33m;[39m[0m
+  [0m [90m    |[39m                                            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 32 |[39m   }[0m
+  [0m [90m 33 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+  [0m [90m 34 |[39m   update([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string[33m,[39m [33m@[39m[33mBody[39m() updateNhapsanphamDto[33m:[39m [33mUpdateNhapsanphamDto[39m) {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/nhapsanpham/nhapsanpham.controller.ts:[32m[1m35:43[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'string' is not assignable to parameter of type 'number'.
+  [0m [90m 33 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+  [0m [90m 34 |[39m   update([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string[33m,[39m [33m@[39m[33mBody[39m() updateNhapsanphamDto[33m:[39m [33mUpdateNhapsanphamDto[39m) {[0m
+  [0m[31m[1m>[22m[39m[90m 35 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mnhapsanphamService[33m.[39mupdate(id[33m,[39m updateNhapsanphamDto)[33m;[39m[0m
+  [0m [90m    |[39m                                           [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 36 |[39m   }[0m
+  [0m [90m 37 |[39m[0m
+  [0m [90m 38 |[39m   [33m@[39m[33mDelete[39m([32m':id'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/nhapsanpham/nhapsanpham.controller.ts:[32m[1m40:43[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'string' is not assignable to parameter of type 'number'.
+  [0m [90m 38 |[39m   [33m@[39m[33mDelete[39m([32m':id'[39m)[0m
+  [0m [90m 39 |[39m   remove([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 40 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mnhapsanphamService[33m.[39mremove(id)[33m;[39m[0m
+  [0m [90m    |[39m                                           [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 41 |[39m   }[0m
+  [0m [90m 42 |[39m }[0m
+
+webpack compiled with [1m[31m6 errors[39m[22m (f8f3e5965ebe3991)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 139 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/nhapsanpham/nhapsanpham.controller.ts:[32m[1m19:42[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findid' does not exist on type 'NhapsanphamService'.
+  [0m [90m 17 |[39m   [33m@[39m[33mGet[39m([32m'findid/:id'[39m)[0m
+  [0m [90m 18 |[39m   [36masync[39m findOne([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 19 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39mnhapsanphamService[33m.[39mfindid(id)[33m;[39m[0m
+  [0m [90m    |[39m                                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 20 |[39m   }[0m
+  [0m [90m 21 |[39m   [33m@[39m[33mGet[39m([32m'findslug/:slug'[39m)[0m
+  [0m [90m 22 |[39m   [36masync[39m findslug([33m@[39m[33mParam[39m([32m'slug'[39m) slug[33m:[39m string) {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/nhapsanpham/nhapsanpham.controller.ts:[32m[1m23:42[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findslug' does not exist on type 'NhapsanphamService'.
+  [0m [90m 21 |[39m   [33m@[39m[33mGet[39m([32m'findslug/:slug'[39m)[0m
+  [0m [90m 22 |[39m   [36masync[39m findslug([33m@[39m[33mParam[39m([32m'slug'[39m) slug[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 23 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39mnhapsanphamService[33m.[39mfindslug(slug)[33m;[39m[0m
+  [0m [90m    |[39m                                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 24 |[39m   }[0m
+  [0m [90m 25 |[39m   [33m@[39m[33mGet[39m([32m'pagination'[39m)[0m
+  [0m [90m 26 |[39m   [36masync[39m findPagination([33m@[39m[33mQuery[39m([32m'page'[39m) page[33m:[39m number[33m,[39m[33m@[39m[33mQuery[39m([32m'perPage'[39m) perPage[33m:[39m number){[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/nhapsanpham/nhapsanpham.controller.ts:[32m[1m27:45[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findPagination' does not exist on type 'NhapsanphamService'.
+  [0m [90m 25 |[39m   [33m@[39m[33mGet[39m([32m'pagination'[39m)[0m
+  [0m [90m 26 |[39m   [36masync[39m findPagination([33m@[39m[33mQuery[39m([32m'page'[39m) page[33m:[39m number[33m,[39m[33m@[39m[33mQuery[39m([32m'perPage'[39m) perPage[33m:[39m number){[0m
+  [0m[31m[1m>[22m[39m[90m 27 |[39m        [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39mnhapsanphamService[33m.[39mfindPagination(page[33m,[39mperPage)[33m;[39m[0m
+  [0m [90m    |[39m                                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 28 |[39m     }[0m
+  [0m [90m 29 |[39m   [33m@[39m[33mPost[39m([32m'search'[39m)[0m
+  [0m [90m 30 |[39m     [36masync[39m findQuery([33m@[39m[33mBody[39m() [33mSearchParams[39m[33m:[39m any){[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/nhapsanpham/nhapsanpham.controller.ts:[32m[1m31:44[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findQuery' does not exist on type 'NhapsanphamService'.
+  [0m [90m 29 |[39m   [33m@[39m[33mPost[39m([32m'search'[39m)[0m
+  [0m [90m 30 |[39m     [36masync[39m findQuery([33m@[39m[33mBody[39m() [33mSearchParams[39m[33m:[39m any){[0m
+  [0m[31m[1m>[22m[39m[90m 31 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39mnhapsanphamService[33m.[39mfindQuery([33mSearchParams[39m)[33m;[39m[0m
+  [0m [90m    |[39m                                            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 32 |[39m   }[0m
+  [0m [90m 33 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+  [0m [90m 34 |[39m   update([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string[33m,[39m [33m@[39m[33mBody[39m() updateNhapsanphamDto[33m:[39m [33mUpdateNhapsanphamDto[39m) {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/nhapsanpham/nhapsanpham.controller.ts:[32m[1m35:43[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'string' is not assignable to parameter of type 'number'.
+  [0m [90m 33 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+  [0m [90m 34 |[39m   update([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string[33m,[39m [33m@[39m[33mBody[39m() updateNhapsanphamDto[33m:[39m [33mUpdateNhapsanphamDto[39m) {[0m
+  [0m[31m[1m>[22m[39m[90m 35 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mnhapsanphamService[33m.[39mupdate(id[33m,[39m updateNhapsanphamDto)[33m;[39m[0m
+  [0m [90m    |[39m                                           [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 36 |[39m   }[0m
+  [0m [90m 37 |[39m[0m
+  [0m [90m 38 |[39m   [33m@[39m[33mDelete[39m([32m':id'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/nhapsanpham/nhapsanpham.controller.ts:[32m[1m40:43[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'string' is not assignable to parameter of type 'number'.
+  [0m [90m 38 |[39m   [33m@[39m[33mDelete[39m([32m':id'[39m)[0m
+  [0m [90m 39 |[39m   remove([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 40 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mnhapsanphamService[33m.[39mremove(id)[33m;[39m[0m
+  [0m [90m    |[39m                                           [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 41 |[39m   }[0m
+  [0m [90m 42 |[39m }[0m
+
+webpack compiled with [1m[31m6 errors[39m[22m (f8f3e5965ebe3991)
+[1m[31mDebugger listening on ws://localhost:9229/4ce45eea-6c04-4722-9b3d-b0981d8dfcce[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/4ce45eea-6c04-4722-9b3d-b0981d8dfcce[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 133 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/nhapsanpham/nhapsanpham.module.ts[39m[22m [1m[32m6:29-60[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './muasanpham.service' in 'F:\chikiet\BEKetoan\be_ketoan\src\app\nhapsanpham'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/nhapsanpham/nhapsanpham.module.ts[39m[22m [1m[32m7:32-66[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './muasanpham.controller' in 'F:\chikiet\BEKetoan\be_ketoan\src\app\nhapsanpham'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/nhapsanpham/nhapsanpham.module.ts[39m[22m [1m[32m9:28-67[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './entities/muasanpham.entity' in 'F:\chikiet\BEKetoan\be_ketoan\src\app\nhapsanpham'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/app.module.ts:[32m[1m16:10[22m[39m[1m[39m[22m
+[90mTS2724: [39m'"./nhapsanpham/nhapsanpham.module"' has no exported member named 'NhapsanphamModule'. Did you mean 'MuasanphamModule'?
+  [0m [90m 14 |[39m [36mimport[39m { [33mMuasanphamModule[39m } [36mfrom[39m [32m'./muasanpham/muasanpham.module'[39m[33m;[39m[0m
+  [0m [90m 15 |[39m [36mimport[39m { [33mBansanphamModule[39m } [36mfrom[39m [32m'./bansanpham/bansanpham.module'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 16 |[39m [36mimport[39m { [33mNhapsanphamModule[39m } [36mfrom[39m [32m'./nhapsanpham/nhapsanpham.module'[39m[33m;[39m[0m
+  [0m [90m    |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 17 |[39m [33m@[39m[33mModule[39m({[0m
+  [0m [90m 18 |[39m   imports[33m:[39m [    [0m
+  [0m [90m 19 |[39m     [33mTypeOrmModule[39m[33m.[39mforRoot({[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/nhapsanpham/nhapsanpham.module.ts:[32m[1m2:35[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './muasanpham.service' or its corresponding type declarations.
+  [0m [90m 1 |[39m [36mimport[39m { [33mModule[39m } [36mfrom[39m [32m'@nestjs/common'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 2 |[39m [36mimport[39m { [33mMuasanphamService[39m } [36mfrom[39m [32m'./muasanpham.service'[39m[33m;[39m[0m
+  [0m [90m   |[39m                                   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m { [33mMuasanphamController[39m } [36mfrom[39m [32m'./muasanpham.controller'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mTypeOrmModule[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mMuasanphamEntity[39m } [36mfrom[39m [32m'./entities/muasanpham.entity'[39m[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/nhapsanpham/nhapsanpham.module.ts:[32m[1m3:38[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './muasanpham.controller' or its corresponding type declarations.
+  [0m [90m 1 |[39m [36mimport[39m { [33mModule[39m } [36mfrom[39m [32m'@nestjs/common'[39m[33m;[39m[0m
+  [0m [90m 2 |[39m [36mimport[39m { [33mMuasanphamService[39m } [36mfrom[39m [32m'./muasanpham.service'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 3 |[39m [36mimport[39m { [33mMuasanphamController[39m } [36mfrom[39m [32m'./muasanpham.controller'[39m[33m;[39m[0m
+  [0m [90m   |[39m                                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mTypeOrmModule[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mMuasanphamEntity[39m } [36mfrom[39m [32m'./entities/muasanpham.entity'[39m[33m;[39m[0m
+  [0m [90m 6 |[39m [33m@[39m[33mModule[39m({[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/nhapsanpham/nhapsanpham.module.ts:[32m[1m5:34[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './entities/muasanpham.entity' or its corresponding type declarations.
+  [0m [90m 3 |[39m [36mimport[39m { [33mMuasanphamController[39m } [36mfrom[39m [32m'./muasanpham.controller'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mTypeOrmModule[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mMuasanphamEntity[39m } [36mfrom[39m [32m'./entities/muasanpham.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 6 |[39m [33m@[39m[33mModule[39m({[0m
+  [0m [90m 7 |[39m   imports[33m:[39m [[33mTypeOrmModule[39m[33m.[39mforFeature([[33mMuasanphamEntity[39m])][33m,[39m[0m
+  [0m [90m 8 |[39m   controllers[33m:[39m [[33mMuasanphamController[39m][33m,[39m[0m
+
+webpack compiled with [1m[31m7 errors[39m[22m (f6adbda01e3794f8)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 142 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/nhapsanpham/nhapsanpham.controller.ts:[32m[1m19:42[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findid' does not exist on type 'NhapsanphamService'.
+  [0m [90m 17 |[39m   [33m@[39m[33mGet[39m([32m'findid/:id'[39m)[0m
+  [0m [90m 18 |[39m   [36masync[39m findOne([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 19 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39mnhapsanphamService[33m.[39mfindid(id)[33m;[39m[0m
+  [0m [90m    |[39m                                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 20 |[39m   }[0m
+  [0m [90m 21 |[39m   [33m@[39m[33mGet[39m([32m'findslug/:slug'[39m)[0m
+  [0m [90m 22 |[39m   [36masync[39m findslug([33m@[39m[33mParam[39m([32m'slug'[39m) slug[33m:[39m string) {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/nhapsanpham/nhapsanpham.controller.ts:[32m[1m23:42[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findslug' does not exist on type 'NhapsanphamService'.
+  [0m [90m 21 |[39m   [33m@[39m[33mGet[39m([32m'findslug/:slug'[39m)[0m
+  [0m [90m 22 |[39m   [36masync[39m findslug([33m@[39m[33mParam[39m([32m'slug'[39m) slug[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 23 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39mnhapsanphamService[33m.[39mfindslug(slug)[33m;[39m[0m
+  [0m [90m    |[39m                                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 24 |[39m   }[0m
+  [0m [90m 25 |[39m   [33m@[39m[33mGet[39m([32m'pagination'[39m)[0m
+  [0m [90m 26 |[39m   [36masync[39m findPagination([33m@[39m[33mQuery[39m([32m'page'[39m) page[33m:[39m number[33m,[39m[33m@[39m[33mQuery[39m([32m'perPage'[39m) perPage[33m:[39m number){[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/nhapsanpham/nhapsanpham.controller.ts:[32m[1m27:45[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findPagination' does not exist on type 'NhapsanphamService'.
+  [0m [90m 25 |[39m   [33m@[39m[33mGet[39m([32m'pagination'[39m)[0m
+  [0m [90m 26 |[39m   [36masync[39m findPagination([33m@[39m[33mQuery[39m([32m'page'[39m) page[33m:[39m number[33m,[39m[33m@[39m[33mQuery[39m([32m'perPage'[39m) perPage[33m:[39m number){[0m
+  [0m[31m[1m>[22m[39m[90m 27 |[39m        [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39mnhapsanphamService[33m.[39mfindPagination(page[33m,[39mperPage)[33m;[39m[0m
+  [0m [90m    |[39m                                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 28 |[39m     }[0m
+  [0m [90m 29 |[39m   [33m@[39m[33mPost[39m([32m'search'[39m)[0m
+  [0m [90m 30 |[39m     [36masync[39m findQuery([33m@[39m[33mBody[39m() [33mSearchParams[39m[33m:[39m any){[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/nhapsanpham/nhapsanpham.controller.ts:[32m[1m31:44[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findQuery' does not exist on type 'NhapsanphamService'.
+  [0m [90m 29 |[39m   [33m@[39m[33mPost[39m([32m'search'[39m)[0m
+  [0m [90m 30 |[39m     [36masync[39m findQuery([33m@[39m[33mBody[39m() [33mSearchParams[39m[33m:[39m any){[0m
+  [0m[31m[1m>[22m[39m[90m 31 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39mnhapsanphamService[33m.[39mfindQuery([33mSearchParams[39m)[33m;[39m[0m
+  [0m [90m    |[39m                                            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 32 |[39m   }[0m
+  [0m [90m 33 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+  [0m [90m 34 |[39m   update([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string[33m,[39m [33m@[39m[33mBody[39m() updateNhapsanphamDto[33m:[39m [33mUpdateNhapsanphamDto[39m) {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/nhapsanpham/nhapsanpham.controller.ts:[32m[1m35:43[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'string' is not assignable to parameter of type 'number'.
+  [0m [90m 33 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+  [0m [90m 34 |[39m   update([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string[33m,[39m [33m@[39m[33mBody[39m() updateNhapsanphamDto[33m:[39m [33mUpdateNhapsanphamDto[39m) {[0m
+  [0m[31m[1m>[22m[39m[90m 35 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mnhapsanphamService[33m.[39mupdate(id[33m,[39m updateNhapsanphamDto)[33m;[39m[0m
+  [0m [90m    |[39m                                           [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 36 |[39m   }[0m
+  [0m [90m 37 |[39m[0m
+  [0m [90m 38 |[39m   [33m@[39m[33mDelete[39m([32m':id'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/nhapsanpham/nhapsanpham.controller.ts:[32m[1m40:43[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'string' is not assignable to parameter of type 'number'.
+  [0m [90m 38 |[39m   [33m@[39m[33mDelete[39m([32m':id'[39m)[0m
+  [0m [90m 39 |[39m   remove([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 40 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mnhapsanphamService[33m.[39mremove(id)[33m;[39m[0m
+  [0m [90m    |[39m                                           [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 41 |[39m   }[0m
+  [0m [90m 42 |[39m }[0m
+
+webpack compiled with [1m[31m6 errors[39m[22m (f010aed54d3fb1e1)
+[1m[31mDebugger listening on ws://localhost:9229/1b4c6018-0f11-47a9-a6cd-4cb1659a5922[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/1b4c6018-0f11-47a9-a6cd-4cb1659a5922[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 142 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/nhapsanpham/nhapsanpham.controller.ts:[32m[1m19:42[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findid' does not exist on type 'NhapsanphamService'.
+  [0m [90m 17 |[39m   [33m@[39m[33mGet[39m([32m'findid/:id'[39m)[0m
+  [0m [90m 18 |[39m   [36masync[39m findOne([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 19 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39mnhapsanphamService[33m.[39mfindid(id)[33m;[39m[0m
+  [0m [90m    |[39m                                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 20 |[39m   }[0m
+  [0m [90m 21 |[39m   [33m@[39m[33mGet[39m([32m'findslug/:slug'[39m)[0m
+  [0m [90m 22 |[39m   [36masync[39m findslug([33m@[39m[33mParam[39m([32m'slug'[39m) slug[33m:[39m string) {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/nhapsanpham/nhapsanpham.controller.ts:[32m[1m23:42[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findslug' does not exist on type 'NhapsanphamService'.
+  [0m [90m 21 |[39m   [33m@[39m[33mGet[39m([32m'findslug/:slug'[39m)[0m
+  [0m [90m 22 |[39m   [36masync[39m findslug([33m@[39m[33mParam[39m([32m'slug'[39m) slug[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 23 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39mnhapsanphamService[33m.[39mfindslug(slug)[33m;[39m[0m
+  [0m [90m    |[39m                                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 24 |[39m   }[0m
+  [0m [90m 25 |[39m   [33m@[39m[33mGet[39m([32m'pagination'[39m)[0m
+  [0m [90m 26 |[39m   [36masync[39m findPagination([33m@[39m[33mQuery[39m([32m'page'[39m) page[33m:[39m number[33m,[39m[33m@[39m[33mQuery[39m([32m'perPage'[39m) perPage[33m:[39m number){[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/nhapsanpham/nhapsanpham.controller.ts:[32m[1m27:45[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findPagination' does not exist on type 'NhapsanphamService'.
+  [0m [90m 25 |[39m   [33m@[39m[33mGet[39m([32m'pagination'[39m)[0m
+  [0m [90m 26 |[39m   [36masync[39m findPagination([33m@[39m[33mQuery[39m([32m'page'[39m) page[33m:[39m number[33m,[39m[33m@[39m[33mQuery[39m([32m'perPage'[39m) perPage[33m:[39m number){[0m
+  [0m[31m[1m>[22m[39m[90m 27 |[39m        [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39mnhapsanphamService[33m.[39mfindPagination(page[33m,[39mperPage)[33m;[39m[0m
+  [0m [90m    |[39m                                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 28 |[39m     }[0m
+  [0m [90m 29 |[39m   [33m@[39m[33mPost[39m([32m'search'[39m)[0m
+  [0m [90m 30 |[39m     [36masync[39m findQuery([33m@[39m[33mBody[39m() [33mSearchParams[39m[33m:[39m any){[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/nhapsanpham/nhapsanpham.controller.ts:[32m[1m31:44[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findQuery' does not exist on type 'NhapsanphamService'.
+  [0m [90m 29 |[39m   [33m@[39m[33mPost[39m([32m'search'[39m)[0m
+  [0m [90m 30 |[39m     [36masync[39m findQuery([33m@[39m[33mBody[39m() [33mSearchParams[39m[33m:[39m any){[0m
+  [0m[31m[1m>[22m[39m[90m 31 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39mnhapsanphamService[33m.[39mfindQuery([33mSearchParams[39m)[33m;[39m[0m
+  [0m [90m    |[39m                                            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 32 |[39m   }[0m
+  [0m [90m 33 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+  [0m [90m 34 |[39m   update([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string[33m,[39m [33m@[39m[33mBody[39m() updateNhapsanphamDto[33m:[39m [33mUpdateNhapsanphamDto[39m) {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/nhapsanpham/nhapsanpham.controller.ts:[32m[1m35:43[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'string' is not assignable to parameter of type 'number'.
+  [0m [90m 33 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+  [0m [90m 34 |[39m   update([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string[33m,[39m [33m@[39m[33mBody[39m() updateNhapsanphamDto[33m:[39m [33mUpdateNhapsanphamDto[39m) {[0m
+  [0m[31m[1m>[22m[39m[90m 35 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mnhapsanphamService[33m.[39mupdate(id[33m,[39m updateNhapsanphamDto)[33m;[39m[0m
+  [0m [90m    |[39m                                           [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 36 |[39m   }[0m
+  [0m [90m 37 |[39m[0m
+  [0m [90m 38 |[39m   [33m@[39m[33mDelete[39m([32m':id'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/nhapsanpham/nhapsanpham.controller.ts:[32m[1m40:43[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'string' is not assignable to parameter of type 'number'.
+  [0m [90m 38 |[39m   [33m@[39m[33mDelete[39m([32m':id'[39m)[0m
+  [0m [90m 39 |[39m   remove([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 40 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mnhapsanphamService[33m.[39mremove(id)[33m;[39m[0m
+  [0m [90m    |[39m                                           [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 41 |[39m   }[0m
+  [0m [90m 42 |[39m }[0m
+
+webpack compiled with [1m[31m6 errors[39m[22m (f010aed54d3fb1e1)
+[1m[31mDebugger listening on ws://localhost:9229/df2d630d-9c01-4656-907b-828ca3906461[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/df2d630d-9c01-4656-907b-828ca3906461[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 144 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/nhapsanpham/nhapsanpham.service.ts[39m[22m [1m[32m9:28-67[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './entities/muasanpham.entity' in 'F:\chikiet\BEKetoan\be_ketoan\src\app\nhapsanpham'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/nhapsanpham/nhapsanpham.controller.ts:[32m[1m2:9[22m[39m[1m[39m[22m
+[90mTS2724: [39m'"./nhapsanpham.service"' has no exported member named 'NhapsanphamService'. Did you mean 'MuasanphamService'?
+  [0m [90m 1 |[39m [36mimport[39m { [33mController[39m[33m,[39m [33mGet[39m[33m,[39m [33mPost[39m[33m,[39m [33mBody[39m[33m,[39m [33mPatch[39m[33m,[39m [33mParam[39m[33m,[39m [33mDelete[39m[33m,[39m [33mQuery[39m } [36mfrom[39m [32m'@nestjs/common'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 2 |[39m [36mimport[39m {[33mNhapsanphamService[39m } [36mfrom[39m [32m'./nhapsanpham.service'[39m[33m;[39m[0m
+  [0m [90m   |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m { [33mCreateNhapsanphamDto[39m } [36mfrom[39m [32m'./dto/create-nhapsanpham.dto'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mUpdateNhapsanphamDto[39m } [36mfrom[39m [32m'./dto/update-nhapsanpham.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [33m@[39m[33mController[39m([32m'nhapsanpham'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/nhapsanpham/nhapsanpham.module.ts:[32m[1m2:10[22m[39m[1m[39m[22m
+[90mTS2724: [39m'"./nhapsanpham.service"' has no exported member named 'NhapsanphamService'. Did you mean 'MuasanphamService'?
+  [0m [90m 1 |[39m [36mimport[39m { [33mModule[39m } [36mfrom[39m [32m'@nestjs/common'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 2 |[39m [36mimport[39m { [33mNhapsanphamService[39m } [36mfrom[39m [32m'./nhapsanpham.service'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m { [33mNhapsanphamController[39m } [36mfrom[39m [32m'./nhapsanpham.controller'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mTypeOrmModule[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mNhapsanphamEntity[39m } [36mfrom[39m [32m'./entities/nhapsanpham.entity'[39m[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/nhapsanpham/nhapsanpham.service.ts:[32m[1m4:37[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './dto/create-muasanpham.dto' or its corresponding type declarations.
+  [0m [90m 2 |[39m [36mimport[39m { [33mInjectRepository[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m { [33mLike[39m[33m,[39m [33mRepository[39m } [36mfrom[39m [32m'typeorm'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 4 |[39m [36mimport[39m { [33mCreateMuasanphamDto[39m } [36mfrom[39m [32m'./dto/create-muasanpham.dto'[39m[33m;[39m[0m
+  [0m [90m   |[39m                                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mUpdateMuasanphamDto[39m } [36mfrom[39m [32m'./dto/update-muasanpham.dto'[39m[33m;[39m[0m
+  [0m [90m 6 |[39m [36mimport[39m { [33mMuasanphamEntity[39m } [36mfrom[39m [32m'./entities/muasanpham.entity'[39m[33m;[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/nhapsanpham/nhapsanpham.service.ts:[32m[1m5:37[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './dto/update-muasanpham.dto' or its corresponding type declarations.
+  [0m [90m 3 |[39m [36mimport[39m { [33mLike[39m[33m,[39m [33mRepository[39m } [36mfrom[39m [32m'typeorm'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mCreateMuasanphamDto[39m } [36mfrom[39m [32m'./dto/create-muasanpham.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mUpdateMuasanphamDto[39m } [36mfrom[39m [32m'./dto/update-muasanpham.dto'[39m[33m;[39m[0m
+  [0m [90m   |[39m                                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 6 |[39m [36mimport[39m { [33mMuasanphamEntity[39m } [36mfrom[39m [32m'./entities/muasanpham.entity'[39m[33m;[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 8 |[39m [36mexport[39m [36mclass[39m [33mMuasanphamService[39m {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/nhapsanpham/nhapsanpham.service.ts:[32m[1m6:34[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './entities/muasanpham.entity' or its corresponding type declarations.
+  [0m [90m 4 |[39m [36mimport[39m { [33mCreateMuasanphamDto[39m } [36mfrom[39m [32m'./dto/create-muasanpham.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mUpdateMuasanphamDto[39m } [36mfrom[39m [32m'./dto/update-muasanpham.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mMuasanphamEntity[39m } [36mfrom[39m [32m'./entities/muasanpham.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 8 |[39m [36mexport[39m [36mclass[39m [33mMuasanphamService[39m {[0m
+  [0m [90m 9 |[39m   constructor([0m
+
+webpack compiled with [1m[31m6 errors[39m[22m (46df3b651987fa06)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 144 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/nhapsanpham/nhapsanpham.service.ts[39m[22m [1m[32m9:28-67[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './entities/muasanpham.entity' in 'F:\chikiet\BEKetoan\be_ketoan\src\app\nhapsanpham'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/nhapsanpham/nhapsanpham.controller.ts:[32m[1m2:9[22m[39m[1m[39m[22m
+[90mTS2724: [39m'"./nhapsanpham.service"' has no exported member named 'NhapsanphamService'. Did you mean 'MuasanphamService'?
+  [0m [90m 1 |[39m [36mimport[39m { [33mController[39m[33m,[39m [33mGet[39m[33m,[39m [33mPost[39m[33m,[39m [33mBody[39m[33m,[39m [33mPatch[39m[33m,[39m [33mParam[39m[33m,[39m [33mDelete[39m[33m,[39m [33mQuery[39m } [36mfrom[39m [32m'@nestjs/common'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 2 |[39m [36mimport[39m {[33mNhapsanphamService[39m } [36mfrom[39m [32m'./nhapsanpham.service'[39m[33m;[39m[0m
+  [0m [90m   |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m { [33mCreateNhapsanphamDto[39m } [36mfrom[39m [32m'./dto/create-nhapsanpham.dto'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mUpdateNhapsanphamDto[39m } [36mfrom[39m [32m'./dto/update-nhapsanpham.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [33m@[39m[33mController[39m([32m'nhapsanpham'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/nhapsanpham/nhapsanpham.module.ts:[32m[1m2:10[22m[39m[1m[39m[22m
+[90mTS2724: [39m'"./nhapsanpham.service"' has no exported member named 'NhapsanphamService'. Did you mean 'MuasanphamService'?
+  [0m [90m 1 |[39m [36mimport[39m { [33mModule[39m } [36mfrom[39m [32m'@nestjs/common'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 2 |[39m [36mimport[39m { [33mNhapsanphamService[39m } [36mfrom[39m [32m'./nhapsanpham.service'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m { [33mNhapsanphamController[39m } [36mfrom[39m [32m'./nhapsanpham.controller'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mTypeOrmModule[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mNhapsanphamEntity[39m } [36mfrom[39m [32m'./entities/nhapsanpham.entity'[39m[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/nhapsanpham/nhapsanpham.service.ts:[32m[1m4:37[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './dto/create-muasanpham.dto' or its corresponding type declarations.
+  [0m [90m 2 |[39m [36mimport[39m { [33mInjectRepository[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m { [33mLike[39m[33m,[39m [33mRepository[39m } [36mfrom[39m [32m'typeorm'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 4 |[39m [36mimport[39m { [33mCreateMuasanphamDto[39m } [36mfrom[39m [32m'./dto/create-muasanpham.dto'[39m[33m;[39m[0m
+  [0m [90m   |[39m                                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mUpdateMuasanphamDto[39m } [36mfrom[39m [32m'./dto/update-muasanpham.dto'[39m[33m;[39m[0m
+  [0m [90m 6 |[39m [36mimport[39m { [33mMuasanphamEntity[39m } [36mfrom[39m [32m'./entities/muasanpham.entity'[39m[33m;[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/nhapsanpham/nhapsanpham.service.ts:[32m[1m5:37[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './dto/update-muasanpham.dto' or its corresponding type declarations.
+  [0m [90m 3 |[39m [36mimport[39m { [33mLike[39m[33m,[39m [33mRepository[39m } [36mfrom[39m [32m'typeorm'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mCreateMuasanphamDto[39m } [36mfrom[39m [32m'./dto/create-muasanpham.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mUpdateMuasanphamDto[39m } [36mfrom[39m [32m'./dto/update-muasanpham.dto'[39m[33m;[39m[0m
+  [0m [90m   |[39m                                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 6 |[39m [36mimport[39m { [33mMuasanphamEntity[39m } [36mfrom[39m [32m'./entities/muasanpham.entity'[39m[33m;[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 8 |[39m [36mexport[39m [36mclass[39m [33mMuasanphamService[39m {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/nhapsanpham/nhapsanpham.service.ts:[32m[1m6:34[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './entities/muasanpham.entity' or its corresponding type declarations.
+  [0m [90m 4 |[39m [36mimport[39m { [33mCreateMuasanphamDto[39m } [36mfrom[39m [32m'./dto/create-muasanpham.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mUpdateMuasanphamDto[39m } [36mfrom[39m [32m'./dto/update-muasanpham.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mMuasanphamEntity[39m } [36mfrom[39m [32m'./entities/muasanpham.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 8 |[39m [36mexport[39m [36mclass[39m [33mMuasanphamService[39m {[0m
+  [0m [90m 9 |[39m   constructor([0m
+
+webpack compiled with [1m[31m6 errors[39m[22m (46df3b651987fa06)
+[1m[31mDebugger listening on ws://localhost:9229/5054157e-c43c-473a-8af4-71f556b3aaeb[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/5054157e-c43c-473a-8af4-71f556b3aaeb[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 144 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (31a267219c3c89e6)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 144 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (31a267219c3c89e6)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 144 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (31a267219c3c89e6)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 144 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (31a267219c3c89e6)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 144 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (31a267219c3c89e6)
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mF:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\nhapsanpham\nhapsanpham.service.ts:6[39m[22m
+[1m[31mimport { NhapsanphamEntity } from './entities/nhapsanpham.entity';[39m[22m
+[1m[31m                                                                  ^[39m[22m
+[1m[31mError: Cannot find module './entities/muasanpham.entity'[39m[22m
+[1m[31m    at webpackMissingModule (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\nhapsanpham\nhapsanpham.service.ts:6:67)[39m[22m
+[1m[31m    at Array.Object.defineProperty.value (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\nhapsanpham\nhapsanpham.service.ts:6:67)[39m[22m
+[1m[31m    at __webpack_require__ (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\webpack\bootstrap:19:1)[39m[22m
+[1m[31m    at Array.Object.defineProperty.value (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\nhapsanpham\nhapsanpham.module.ts:2:1)[39m[22m
+[1m[31m    at __webpack_require__ (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\webpack\bootstrap:19:1)[39m[22m
+[1m[31m    at Array.<anonymous> (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\app.module.ts:16:1)[39m[22m
+[1m[31m    at __webpack_require__ (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\webpack\bootstrap:19:1)[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\main.ts:9:1[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\dist\be_ketoan\main.js:3942:3[39m[22m
+[1m[31m    at Object.<anonymous> (F:\chikiet\BEKetoan\dist\be_ketoan\main.js:3944:12)[39m[22m
+[1m[31m[39m[22m
+
+[36m>[39m [7m[1m[36m NX [39m[22m[27m [1mProcess exited with code 1, waiting for changes to restart...[22m
+
+[1m[31mDebugger listening on ws://localhost:9229/919f02c0-20eb-4ccd-a04c-43c080db97b6[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/919f02c0-20eb-4ccd-a04c-43c080db97b6[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 144 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (76903c7949b7ba3e)
+[1m[31mDebugger listening on ws://localhost:9229/4d521020-703c-464a-ba92-2d7ca2223602[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/4d521020-703c-464a-ba92-2d7ca2223602[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 144 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (b1801859839ab04f)
+[1m[31mDebugger listening on ws://localhost:9229/82c62268-ceea-490a-b7e6-ed70c550c7ef[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/82c62268-ceea-490a-b7e6-ed70c550c7ef[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 144 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (fc7cc89c0de7f2ed)
+[1m[31mDebugger listening on ws://localhost:9229/5dacd068-4204-487c-8c20-3e803b0126cd[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/5dacd068-4204-487c-8c20-3e803b0126cd[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 144 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (fc7cc89c0de7f2ed)
+[1m[31mDebugger listening on ws://localhost:9229/8be988c0-6f84-4ec5-940c-9cf45c72cb95[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/8be988c0-6f84-4ec5-940c-9cf45c72cb95[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 144 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonbanra\hoadonbanra.service.ts[39m[22m
+[1m./src/app/hoadonbanra/hoadonbanra.service.ts[39m[22m [1m[32m55:5-6[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonbanra\hoadonbanra.service.ts(55,6)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+webpack compiled with [1m[31m1 error[39m[22m (f17483aba8cf4dcd)
+[1m[31mDebugger listening on ws://localhost:9229/8db53641-200d-4a38-95a6-51724d97f5e1[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/8db53641-200d-4a38-95a6-51724d97f5e1[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 144 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonbanra\hoadonbanra.service.ts[39m[22m
+[1m./src/app/hoadonbanra/hoadonbanra.service.ts[39m[22m [1m[32m55:5-6[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonbanra\hoadonbanra.service.ts(55,6)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+webpack compiled with [1m[31m1 error[39m[22m (42485373670e6042)
+[1m[31mDebugger listening on ws://localhost:9229/1bb2f062-0c7e-45a6-94c0-1485f79f0e31[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/1bb2f062-0c7e-45a6-94c0-1485f79f0e31[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 144 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (eb3643eb6d18d9bb)
+[1m[31mDebugger listening on ws://localhost:9229/5a6af1fd-eac0-4677-9c3b-66352bf5b5d2[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/5a6af1fd-eac0-4677-9c3b-66352bf5b5d2[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 144 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (7e64477288deda45)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 144 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (7e64477288deda45)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 144 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (7e64477288deda45)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 144 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (7e64477288deda45)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 144 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (7e64477288deda45)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 144 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (7e64477288deda45)
+[1m[31mDebugger listening on ws://localhost:9229/1bde96b4-3e82-4661-9bc8-5ea675cda8d9[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/1bde96b4-3e82-4661-9bc8-5ea675cda8d9[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31m643[39m[22m
+[1m[31m[39m[22m
+[1m[31m642[39m[22m
+[1m[31m[39m[22m
+[1m[31m638[39m[22m
+[1m[31m[39m[22m
+[1m[31m640[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31m641[39m[22m
+[1m[31m[39m[22m
+[1m[31m635[39m[22m
+[1m[31m[39m[22m
+[1m[31m631[39m[22m
+[1m[31m[39m[22m
+[1m[31m639[39m[22m
+[1m[31m[39m[22m
+[1m[31m628[39m[22m
+[1m[31m[39m[22m
+[1m[31m634[39m[22m
+[1m[31m[39m[22m
+[1m[31m632[39m[22m
+[1m[31m[39m[22m
+[1m[31m633[39m[22m
+[1m[31m[39m[22m
+[1m[31m625[39m[22m
+[1m[31m[39m[22m
+[1m[31m623[39m[22m
+[1m[31m[39m[22m
+[1m[31m627[39m[22m
+[1m[31m[39m[22m
+[1m[31m629[39m[22m
+[1m[31m[39m[22m
+[1m[31m622[39m[22m
+[1m[31m[39m[22m
+[1m[31m626[39m[22m
+[1m[31m[39m[22m
+[1m[31m619[39m[22m
+[1m[31m[39m[22m
+[1m[31m618[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31m621[39m[22m
+[1m[31m[39m[22m
+[1m[31m617[39m[22m
+[1m[31m[39m[22m
+[1m[31m615[39m[22m
+[1m[31m[39m[22m
+[1m[31m614[39m[22m
+[1m[31m[39m[22m
+[1m[31m616[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31m613[39m[22m
+[1m[31m[39m[22m
+[1m[31m608[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31m607[39m[22m
+[1m[31m[39m[22m
+[1m[31m610[39m[22m
+[1m[31m[39m[22m
+[1m[31m606[39m[22m
+[1m[31m[39m[22m
+[1m[31m609[39m[22m
+[1m[31m[39m[22m
+[1m[31m605[39m[22m
+[1m[31m[39m[22m
+[1m[31m602[39m[22m
+[1m[31m[39m[22m
+[1m[31m604[39m[22m
+[1m[31m[39m[22m
+[1m[31m597[39m[22m
+[1m[31m[39m[22m
+[1m[31m598[39m[22m
+[1m[31m[39m[22m
+[1m[31m603[39m[22m
+[1m[31m[39m[22m
+[1m[31m596[39m[22m
+[1m[31m[39m[22m
+[1m[31m594[39m[22m
+[1m[31m[39m[22m
+[1m[31m595[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31m593[39m[22m
+[1m[31m[39m[22m
+[1m[31m591[39m[22m
+[1m[31m[39m[22m
+[1m[31m590[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31m592[39m[22m
+[1m[31m[39m[22m
+[1m[31m586[39m[22m
+[1m[31m[39m[22m
+[1m[31m588[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31m643[39m[22m
+[1m[31m[39m[22m
+[1m[31m642[39m[22m
+[1m[31m[39m[22m
+[1m[31m638[39m[22m
+[1m[31m[39m[22m
+[1m[31m640[39m[22m
+[1m[31m[39m[22m
+[1m[31m636[39m[22m
+[1m[31m[39m[22m
+[1m[31m641[39m[22m
+[1m[31m[39m[22m
+[1m[31m637[39m[22m
+[1m[31m[39m[22m
+[1m[31m635[39m[22m
+[1m[31m[39m[22m
+[1m[31m631[39m[22m
+[1m[31m[39m[22m
+[1m[31m639[39m[22m
+[1m[31m[39m[22m
+[1m[31m634[39m[22m
+[1m[31m[39m[22m
+[1m[31m625[39m[22m
+[1m[31m[39m[22m
+[1m[31m630[39m[22m
+[1m[31m[39m[22m
+[1m[31m623[39m[22m
+[1m[31m[39m[22m
+[1m[31m620[39m[22m
+[1m[31m[39m[22m
+[1m[31m629[39m[22m
+[1m[31m[39m[22m
+[1m[31m622[39m[22m
+[1m[31m[39m[22m
+[1m[31m626[39m[22m
+[1m[31m[39m[22m
+[1m[31m619[39m[22m
+[1m[31m[39m[22m
+[1m[31m618[39m[22m
+[1m[31m[39m[22m
+[1m[31m624[39m[22m
+[1m[31m[39m[22m
+[1m[31m621[39m[22m
+[1m[31m[39m[22m
+[1m[31m617[39m[22m
+[1m[31m[39m[22m
+[1m[31m615[39m[22m
+[1m[31m[39m[22m
+[1m[31m614[39m[22m
+[1m[31m[39m[22m
+[1m[31m616[39m[22m
+[1m[31m[39m[22m
+[1m[31m611[39m[22m
+[1m[31m[39m[22m
+[1m[31m613[39m[22m
+[1m[31m[39m[22m
+[1m[31m612[39m[22m
+[1m[31m[39m[22m
+[1m[31m607[39m[22m
+[1m[31m[39m[22m
+[1m[31m610[39m[22m
+[1m[31m[39m[22m
+[1m[31m606[39m[22m
+[1m[31m[39m[22m
+[1m[31m609[39m[22m
+[1m[31m[39m[22m
+[1m[31m605[39m[22m
+[1m[31m[39m[22m
+[1m[31m602[39m[22m
+[1m[31m[39m[22m
+[1m[31m597[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 26128  - [39m[31m01/21/2024, 3:35:39 PM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mUnknown column 'muavaochitiet.Thang' in 'field list'[39m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mQueryFailedError: Unknown column 'muavaochitiet.Thang' in 'field list'[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 26128  - [39m[31m01/21/2024, 3:35:40 PM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mUnknown column 'muavaochitiet.Thang' in 'field list'[39m[31m[39m[22m
+[1m[31mQueryFailedError: Unknown column 'muavaochitiet.Thang' in 'field list'[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 26128  - [39m[31m01/21/2024, 3:35:46 PM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mUnknown column 'muavaochitiet.Thang' in 'field list'[39m[31m[39m[22m
+[1m[31mQueryFailedError: Unknown column 'muavaochitiet.Thang' in 'field list'[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 26128  - [39m[31m01/21/2024, 3:35:46 PM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mUnknown column 'muavaochitiet.Thang' in 'field list'[39m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mQueryFailedError: Unknown column 'muavaochitiet.Thang' in 'field list'[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+[1m[31m643[39m[22m
+[1m[31m[39m[22m
+[1m[31m638[39m[22m
+[1m[31m[39m[22m
+[1m[31m640[39m[22m
+[1m[31m[39m[22m
+[1m[31m636[39m[22m
+[1m[31m[39m[22m
+[1m[31m641[39m[22m
+[1m[31m[39m[22m
+[1m[31m637[39m[22m
+[1m[31m[39m[22m
+[1m[31m635[39m[22m
+[1m[31m[39m[22m
+[1m[31m631[39m[22m
+[1m[31m[39m[22m
+[1m[31m639[39m[22m
+[1m[31m[39m[22m
+[1m[31m628[39m[22m
+[1m[31m[39m[22m
+[1m[31m634[39m[22m
+[1m[31m[39m[22m
+[1m[31m632[39m[22m
+[1m[31m[39m[22m
+[1m[31m633[39m[22m
+[1m[31m[39m[22m
+[1m[31m625[39m[22m
+[1m[31m[39m[22m
+[1m[31m630[39m[22m
+[1m[31m[39m[22m
+[1m[31m623[39m[22m
+[1m[31m[39m[22m
+[1m[31m627[39m[22m
+[1m[31m[39m[22m
+[1m[31m620[39m[22m
+[1m[31m[39m[22m
+[1m[31m622[39m[22m
+[1m[31m[39m[22m
+[1m[31m629[39m[22m
+[1m[31m[39m[22m
+[1m[31m626[39m[22m
+[1m[31m[39m[22m
+[1m[31m619[39m[22m
+[1m[31m[39m[22m
+[1m[31m618[39m[22m
+[1m[31m[39m[22m
+[1m[31m624[39m[22m
+[1m[31m[39m[22m
+[1m[31m621[39m[22m
+[1m[31m[39m[22m
+[1m[31m617[39m[22m
+[1m[31m[39m[22m
+[1m[31m615[39m[22m
+[1m[31m[39m[22m
+[1m[31m614[39m[22m
+[1m[31m[39m[22m
+[1m[31m616[39m[22m
+[1m[31m[39m[22m
+[1m[31m611[39m[22m
+[1m[31m[39m[22m
+[1m[31m613[39m[22m
+[1m[31m[39m[22m
+[1m[31m608[39m[22m
+[1m[31m[39m[22m
+[1m[31m607[39m[22m
+[1m[31m[39m[22m
+[1m[31m610[39m[22m
+[1m[31m[39m[22m
+[1m[31m609[39m[22m
+[1m[31m[39m[22m
+[1m[31m602[39m[22m
+[1m[31m[39m[22m
+[1m[31m604[39m[22m
+[1m[31m[39m[22m
+[1m[31m597[39m[22m
+[1m[31m[39m[22m
+[1m[31m598[39m[22m
+[1m[31m[39m[22m
+[1m[31m603[39m[22m
+[1m[31m[39m[22m
+[1m[31m594[39m[22m
+[1m[31m[39m[22m
+[1m[31m595[39m[22m
+[1m[31m[39m[22m
+[1m[31m600[39m[22m
+[1m[31m[39m[22m
+[1m[31m601[39m[22m
+[1m[31m[39m[22m
+[1m[31m593[39m[22m
+[1m[31m[39m[22m
+[1m[31m599[39m[22m
+[1m[31m[39m[22m
+[1m[31m591[39m[22m
+[1m[31m[39m[22m
+[1m[31m590[39m[22m
+[1m[31m[39m[22m
+[1m[31m589[39m[22m
+[1m[31m[39m[22m
+[1m[31m592[39m[22m
+[1m[31m[39m[22m
+[1m[31m586[39m[22m
+[1m[31m[39m[22m
+[1m[31m588[39m[22m
+[1m[31m[39m[22m
+[1m[31m587[39m[22m
+[1m[31m[39m[22m
+[1m[31m581[39m[22m
+[1m[31m[39m[22m
+[1m[31m582[39m[22m
+[1m[31m[39m[22m
+[1m[31m584[39m[22m
+[1m[31m[39m[22m
+[1m[31m585[39m[22m
+[1m[31m[39m[22m
+[1m[31m583[39m[22m
+[1m[31m[39m[22m
+[1m[31m576[39m[22m
+[1m[31m[39m[22m
+[1m[31m575[39m[22m
+[1m[31m[39m[22m
+[1m[31m574[39m[22m
+[1m[31m[39m[22m
+[1m[31m579[39m[22m
+[1m[31m[39m[22m
+[1m[31m577[39m[22m
+[1m[31m[39m[22m
+[1m[31m572[39m[22m
+[1m[31m[39m[22m
+[1m[31m571[39m[22m
+[1m[31m[39m[22m
+[1m[31m578[39m[22m
+[1m[31m[39m[22m
+[1m[31m573[39m[22m
+[1m[31m[39m[22m
+[1m[31m568[39m[22m
+[1m[31m[39m[22m
+[1m[31m570[39m[22m
+[1m[31m[39m[22m
+[1m[31m565[39m[22m
+[1m[31m[39m[22m
+[1m[31m566[39m[22m
+[1m[31m[39m[22m
+[1m[31m560[39m[22m
+[1m[31m[39m[22m
+[1m[31m561[39m[22m
+[1m[31m[39m[22m
+[1m[31m563[39m[22m
+[1m[31m[39m[22m
+[1m[31m558[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31m559[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31m557[39m[22m
+[1m[31m[39m[22m
+[1m[31m550[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31m555[39m[22m
+[1m[31m[39m[22m
+[1m[31m554[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31m546[39m[22m
+[1m[31m[39m[22m
+[1m[31m542[39m[22m
+[1m[31m[39m[22m
+[1m[31m545[39m[22m
+[1m[31m[39m[22m
+[1m[31m547[39m[22m
+[1m[31m[39m[22m
+[1m[31m538[39m[22m
+[1m[31m[39m[22m
+[1m[31m539[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31mundefined[39m[22m
+[1m[31m[39m[22m
+[1m[31m643[39m[22m
+[1m[31m[39m[22m
+[1m[31m642[39m[22m
+[1m[31m[39m[22m
+[1m[31m640[39m[22m
+[1m[31m[39m[22m
+[1m[31m638[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 26128  - [39m[31m01/21/2024, 3:54:19 PM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mUnknown column 'muavaochitiet.Thang' in 'field list'[39m[31m[39m[22m
+[1m[31mQueryFailedError: Unknown column 'muavaochitiet.Thang' in 'field list'[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 144 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (408ec369a94fa422)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 144 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (408ec369a94fa422)
+[1m[31mDebugger listening on ws://localhost:9229/bc4aac37-045d-4560-b806-b63ab09b6750[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/bc4aac37-045d-4560-b806-b63ab09b6750[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 144 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (408ec369a94fa422)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 144 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (408ec369a94fa422)
+[1m[31mDebugger listening on ws://localhost:9229/a59d1d03-7897-479c-8724-4306bc748240[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/a59d1d03-7897-479c-8724-4306bc748240[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 144 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (408ec369a94fa422)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m

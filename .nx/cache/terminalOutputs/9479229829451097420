@@ -1,0 +1,173 @@
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 196 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (7a1ad5d06f9dcd24)
+[1m[31mDebugger listening on ws://localhost:9229/a7f140b9-98c4-4b37-b8b2-67e221d8c708[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/a7f140b9-98c4-4b37-b8b2-67e221d8c708[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: 99, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: 99, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: 99, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: 99, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: 99, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: 99, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: 99, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: 99, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 1, Type: 'NHAP', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: 99, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: 99, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: 99, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: 99, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: '99', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: '999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: '99999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: '99999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: '99999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 196 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (cb1f422fe190fbc5)
+[1m[31mDebugger listening on ws://localhost:9229/7e8ff21b-9ac3-4f59-b61f-272fe0a0ce48[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/7e8ff21b-9ac3-4f59-b61f-272fe0a0ce48[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 196 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (29b424a200e3c207)
+[1m[31mDebugger listening on ws://localhost:9229/1204dae0-4b7e-4656-aa10-e1945330a42e[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/1204dae0-4b7e-4656-aa10-e1945330a42e[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 196 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (b7012324a422188e)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 196 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (b7012324a422188e)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 196 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (b7012324a422188e)
+[1m[31mDebugger listening on ws://localhost:9229/7aa54c62-7f2b-4c06-a1dd-fbff9d94cc5c[39m[22m
+[1m[31m[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/7aa54c62-7f2b-4c06-a1dd-fbff9d94cc5c[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: 99, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: '9', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: '99', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: '9999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: '9999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: 99, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: '9999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: '99999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: '99999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: 99, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: '9999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'NHAP', pageSize: '99999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  pageSize: '9999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  pageSize: '9999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  pageSize: '9999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: 99, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: '9999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: '99999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: '99999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: 99, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: '9999', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'XUAT',[39m[22m
+[1m[31m  pageSize: '999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'XUAT',[39m[22m
+[1m[31m  pageSize: '9999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'XUAT',[39m[22m
+[1m[31m  pageSize: '9999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{[39m[22m
+[1m[31m  Thang: 1,[39m[22m
+[1m[31m  Nam: 2024,[39m[22m
+[1m[31m  Type: 'XUAT',[39m[22m
+[1m[31m  pageSize: '9999999',[39m[22m
+[1m[31m  pageNumber: 0[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: 99, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m

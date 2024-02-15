@@ -1,0 +1,1145 @@
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 14.5 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (5903dbd9cc5f2b82)
+[1m[31mDebugger listening on ws://localhost:9229/370edb9f-1997-4278-8a48-53ac075abb94[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/370edb9f-1997-4278-8a48-53ac075abb94[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 8276  - [39m[31m12/17/2023, 12:50:38 AM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mNo metadata for "hoadonbanraEntity" was found.[39m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mEntityMetadataNotFoundError: No metadata for "hoadonbanraEntity" was found.[39m[22m
+[1m[31m    at DataSource.getMetadata (F:\chikiet\BEKetoan\src\data-source\DataSource.ts:444:30)[39m[22m
+[1m[31m    at Repository.get metadata [as metadata] (F:\chikiet\BEKetoan\src\repository\Repository.ts:53:40)[39m[22m
+[1m[31m    at Repository.find (F:\chikiet\BEKetoan\src\repository\Repository.ts:524:39)[39m[22m
+[1m[31m    at hoadonbanraService.findAll (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\hoadonbanra\hoadonbanra.service.ts:19:45)[39m[22m
+[1m[31m    at hoadonbanraController.findAll (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\hoadonbanra\hoadonbanra.controller.ts:15:42)[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\node_modules\@nestjs\core\router\router-execution-context.js:38:29[39m[22m
+[1m[31m    at InterceptorsConsumer.intercept (F:\chikiet\BEKetoan\node_modules\@nestjs\core\interceptors\interceptors-consumer.js:12:20)[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\node_modules\@nestjs\core\router\router-execution-context.js:46:60[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\node_modules\@nestjs\core\router\router-proxy.js:9:23[39m[22m
+[1m[31m    at Layer.handle [as handle_request] (F:\chikiet\BEKetoan\node_modules\express\lib\router\layer.js:95:5)[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 14.5 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (5903dbd9cc5f2b82)
+[1m[31mDebugger listening on ws://localhost:9229/b7204e67-c692-4560-87b0-5729e7118f22[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/b7204e67-c692-4560-87b0-5729e7118f22[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 14.5 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (5903dbd9cc5f2b82)
+[1m[31mDebugger listening on ws://localhost:9229/2bb84103-151c-42dc-b05d-f5bf9835410e[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/2bb84103-151c-42dc-b05d-f5bf9835410e[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 14.5 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (5903dbd9cc5f2b82)
+[1m[31mDebugger listening on ws://localhost:9229/b9c00e24-bf38-4961-a332-55083df7ee5e[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/b9c00e24-bf38-4961-a332-55083df7ee5e[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 14.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (4f5bead32a1d34f4)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 14.6 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (4f5bead32a1d34f4)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 14.6 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (4f5bead32a1d34f4)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 14.6 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (4f5bead32a1d34f4)
+[1m[31mDebugger listening on ws://localhost:9229/521a92a4-de34-463c-8792-7891dbee6ef4[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/521a92a4-de34-463c-8792-7891dbee6ef4[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 24104  - [39m[31m12/17/2023, 2:00:33 AM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mColumn 'Title' cannot be null[39m[31m[39m[22m
+[1m[31mQueryFailedError: Column 'Title' cannot be null[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 24104  - [39m[31m12/17/2023, 2:00:33 AM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mColumn 'Title' cannot be null[39m[31m[39m[22m
+[1m[31mQueryFailedError: Column 'Title' cannot be null[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 24104  - [39m[31m12/17/2023, 2:00:33 AM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mColumn 'Title' cannot be null[39m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mQueryFailedError: Column 'Title' cannot be null[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 24104  - [39m[31m12/17/2023, 2:00:33 AM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mColumn 'Title' cannot be null[39m[31m[39m[22m
+[1m[31mQueryFailedError: Column 'Title' cannot be null[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 24104  - [39m[31m12/17/2023, 2:00:33 AM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mColumn 'Title' cannot be null[39m[31m[39m[22m
+[1m[31mQueryFailedError: Column 'Title' cannot be null[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 24104  - [39m[31m12/17/2023, 2:00:33 AM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mColumn 'Title' cannot be null[39m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mQueryFailedError: Column 'Title' cannot be null[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 24104  - [39m[31m12/17/2023, 2:00:37 AM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mColumn 'Title' cannot be null[39m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mQueryFailedError: Column 'Title' cannot be null[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 24104  - [39m[31m12/17/2023, 2:00:37 AM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mColumn 'Title' cannot be null[39m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mQueryFailedError: Column 'Title' cannot be null[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 24104  - [39m[31m12/17/2023, 2:00:37 AM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mColumn 'Title' cannot be null[39m[31m[39m[22m
+[1m[31mQueryFailedError: Column 'Title' cannot be null[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 24104  - [39m[31m12/17/2023, 2:00:37 AM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mColumn 'Title' cannot be null[39m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mQueryFailedError: Column 'Title' cannot be null[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 24104  - [39m[31m12/17/2023, 2:00:37 AM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mColumn 'Title' cannot be null[39m[31m[39m[22m
+[1m[31mQueryFailedError: Column 'Title' cannot be null[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 24104  - [39m[31m12/17/2023, 2:00:37 AM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mColumn 'Title' cannot be null[39m[31m[39m[22m
+[1m[31mQueryFailedError: Column 'Title' cannot be null[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 24104  - [39m[31m12/17/2023, 2:00:37 AM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mColumn 'Title' cannot be null[39m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mQueryFailedError: Column 'Title' cannot be null[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 24104  - [39m[31m12/17/2023, 2:00:41 AM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mColumn 'Title' cannot be null[39m[31m[39m[22m
+[1m[31mQueryFailedError: Column 'Title' cannot be null[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 24104  - [39m[31m12/17/2023, 2:00:41 AM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mColumn 'Title' cannot be null[39m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mQueryFailedError: Column 'Title' cannot be null[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 24104  - [39m[31m12/17/2023, 2:00:41 AM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mColumn 'Title' cannot be null[39m[31m[39m[22m
+[1m[31mQueryFailedError: Column 'Title' cannot be null[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 24104  - [39m[31m12/17/2023, 2:00:41 AM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mColumn 'Title' cannot be null[39m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mQueryFailedError: Column 'Title' cannot be null[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 24104  - [39m[31m12/17/2023, 2:00:41 AM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mColumn 'Title' cannot be null[39m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mQueryFailedError: Column 'Title' cannot be null[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 24104  - [39m[31m12/17/2023, 2:00:41 AM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mColumn 'Title' cannot be null[39m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mQueryFailedError: Column 'Title' cannot be null[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 24104  - [39m[31m12/17/2023, 2:00:41 AM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mColumn 'Title' cannot be null[39m[31m[39m[22m
+[1m[31mQueryFailedError: Column 'Title' cannot be null[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 24104  - [39m[31m12/17/2023, 2:00:44 AM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mColumn 'Title' cannot be null[39m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mQueryFailedError: Column 'Title' cannot be null[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 24104  - [39m[31m12/17/2023, 2:00:44 AM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mColumn 'Title' cannot be null[39m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mQueryFailedError: Column 'Title' cannot be null[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 24104  - [39m[31m12/17/2023, 2:00:44 AM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mColumn 'Title' cannot be null[39m[31m[39m[22m
+[1m[31mQueryFailedError: Column 'Title' cannot be null[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 24104  - [39m[31m12/17/2023, 2:00:44 AM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mColumn 'Title' cannot be null[39m[31m[39m[22m
+[1m[31mQueryFailedError: Column 'Title' cannot be null[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 24104  - [39m[31m12/17/2023, 2:00:44 AM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mColumn 'Title' cannot be null[39m[31m[39m[22m
+[1m[31mQueryFailedError: Column 'Title' cannot be null[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 24104  - [39m[31m12/17/2023, 2:00:44 AM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mColumn 'Title' cannot be null[39m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mQueryFailedError: Column 'Title' cannot be null[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 24104  - [39m[31m12/17/2023, 2:00:48 AM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mColumn 'Title' cannot be null[39m[31m[39m[22m
+[1m[31mQueryFailedError: Column 'Title' cannot be null[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 24104  - [39m[31m12/17/2023, 2:00:48 AM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mColumn 'Title' cannot be null[39m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mQueryFailedError: Column 'Title' cannot be null[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 24104  - [39m[31m12/17/2023, 2:00:48 AM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mColumn 'Title' cannot be null[39m[31m[39m[22m
+[1m[31mQueryFailedError: Column 'Title' cannot be null[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 24104  - [39m[31m12/17/2023, 2:00:48 AM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mColumn 'Title' cannot be null[39m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mQueryFailedError: Column 'Title' cannot be null[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 24104  - [39m[31m12/17/2023, 2:00:48 AM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mColumn 'Title' cannot be null[39m[31m[39m[22m
+[1m[31mQueryFailedError: Column 'Title' cannot be null[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 24104  - [39m[31m12/17/2023, 2:00:48 AM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mColumn 'Title' cannot be null[39m[31m[39m[22m
+[1m[31mQueryFailedError: Column 'Title' cannot be null[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 24104  - [39m[31m12/17/2023, 2:00:52 AM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mColumn 'Title' cannot be null[39m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mQueryFailedError: Column 'Title' cannot be null[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 24104  - [39m[31m12/17/2023, 2:00:52 AM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mColumn 'Title' cannot be null[39m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mQueryFailedError: Column 'Title' cannot be null[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 24104  - [39m[31m12/17/2023, 2:00:52 AM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mColumn 'Title' cannot be null[39m[31m[39m[22m
+[1m[31mQueryFailedError: Column 'Title' cannot be null[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 24104  - [39m[31m12/17/2023, 2:00:52 AM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mColumn 'Title' cannot be null[39m[31m[39m[22m
+[1m[31mQueryFailedError: Column 'Title' cannot be null[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 24104  - [39m[31m12/17/2023, 2:00:52 AM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mColumn 'Title' cannot be null[39m[31m[39m[22m
+[1m[31mQueryFailedError: Column 'Title' cannot be null[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 24104  - [39m[31m12/17/2023, 2:00:52 AM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mColumn 'Title' cannot be null[39m[31m[39m[22m
+[1m[31mQueryFailedError: Column 'Title' cannot be null[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 15.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/entities/hoadonbanra.entity.ts:[32m[1m18:3[22m[39m[1m[39m[22m
+[90mTS2300: [39mDuplicate identifier 'Title'.
+  [0m [90m 16 |[39m   [33mTitle[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 17 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m[31m[1m>[22m[39m[90m 18 |[39m   [33mTitle[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 19 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m [90m 20 |[39m   [33mTitle[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 21 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/entities/hoadonbanra.entity.ts:[32m[1m20:3[22m[39m[1m[39m[22m
+[90mTS2300: [39mDuplicate identifier 'Title'.
+  [0m [90m 18 |[39m   [33mTitle[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 19 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m[31m[1m>[22m[39m[90m 20 |[39m   [33mTitle[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 21 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m [90m 22 |[39m   [33mTitle[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 23 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/entities/hoadonbanra.entity.ts:[32m[1m22:3[22m[39m[1m[39m[22m
+[90mTS2300: [39mDuplicate identifier 'Title'.
+  [0m [90m 20 |[39m   [33mTitle[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 21 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m[31m[1m>[22m[39m[90m 22 |[39m   [33mTitle[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 23 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m [90m 24 |[39m   [33mTitle[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 25 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/entities/hoadonbanra.entity.ts:[32m[1m24:3[22m[39m[1m[39m[22m
+[90mTS2300: [39mDuplicate identifier 'Title'.
+  [0m [90m 22 |[39m   [33mTitle[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 23 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m[31m[1m>[22m[39m[90m 24 |[39m   [33mTitle[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 25 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m [90m 26 |[39m   [33mTitle[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 27 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/entities/hoadonbanra.entity.ts:[32m[1m26:3[22m[39m[1m[39m[22m
+[90mTS2300: [39mDuplicate identifier 'Title'.
+  [0m [90m 24 |[39m   [33mTitle[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 25 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m[31m[1m>[22m[39m[90m 26 |[39m   [33mTitle[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 27 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m [90m 28 |[39m   [33mTitle[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 29 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/entities/hoadonbanra.entity.ts:[32m[1m28:3[22m[39m[1m[39m[22m
+[90mTS2300: [39mDuplicate identifier 'Title'.
+  [0m [90m 26 |[39m   [33mTitle[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 27 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m[31m[1m>[22m[39m[90m 28 |[39m   [33mTitle[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 29 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m [90m 30 |[39m   [33mTitle[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 31 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/entities/hoadonbanra.entity.ts:[32m[1m30:3[22m[39m[1m[39m[22m
+[90mTS2300: [39mDuplicate identifier 'Title'.
+  [0m [90m 28 |[39m   [33mTitle[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 29 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m[31m[1m>[22m[39m[90m 30 |[39m   [33mTitle[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 31 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m [90m 32 |[39m   [33mMota[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 33 |[39m   [33m@[39m[33mColumn[39m({ [36mdefault[39m[33m:[39m [32m''[39m })[0m
+
+webpack compiled with [1m[31m7 errors[39m[22m (bf4aa0cfac71d749)
+[1m[31mDebugger listening on ws://localhost:9229/821f49a4-e9b7-4f65-8018-5392cb03f9aa[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/821f49a4-e9b7-4f65-8018-5392cb03f9aa[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 15.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/entities/hoadonbanra.entity.ts:[32m[1m20:3[22m[39m[1m[39m[22m
+[90mTS2300: [39mDuplicate identifier 'Title'.
+  [0m [90m 18 |[39m   [33mTinhchat[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 19 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m[31m[1m>[22m[39m[90m 20 |[39m   [33mTitle[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 21 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m [90m 22 |[39m   [33mTitle[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 23 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/entities/hoadonbanra.entity.ts:[32m[1m22:3[22m[39m[1m[39m[22m
+[90mTS2300: [39mDuplicate identifier 'Title'.
+  [0m [90m 20 |[39m   [33mTitle[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 21 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m[31m[1m>[22m[39m[90m 22 |[39m   [33mTitle[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 23 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m [90m 24 |[39m   [33mTitle[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 25 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/entities/hoadonbanra.entity.ts:[32m[1m24:3[22m[39m[1m[39m[22m
+[90mTS2300: [39mDuplicate identifier 'Title'.
+  [0m [90m 22 |[39m   [33mTitle[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 23 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m[31m[1m>[22m[39m[90m 24 |[39m   [33mTitle[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 25 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m [90m 26 |[39m   [33mTitle[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 27 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/entities/hoadonbanra.entity.ts:[32m[1m26:3[22m[39m[1m[39m[22m
+[90mTS2300: [39mDuplicate identifier 'Title'.
+  [0m [90m 24 |[39m   [33mTitle[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 25 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m[31m[1m>[22m[39m[90m 26 |[39m   [33mTitle[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 27 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m [90m 28 |[39m   [33mTitle[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 29 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/entities/hoadonbanra.entity.ts:[32m[1m28:3[22m[39m[1m[39m[22m
+[90mTS2300: [39mDuplicate identifier 'Title'.
+  [0m [90m 26 |[39m   [33mTitle[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 27 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m[31m[1m>[22m[39m[90m 28 |[39m   [33mTitle[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 29 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m [90m 30 |[39m   [33mTitle[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 31 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/entities/hoadonbanra.entity.ts:[32m[1m30:3[22m[39m[1m[39m[22m
+[90mTS2300: [39mDuplicate identifier 'Title'.
+  [0m [90m 28 |[39m   [33mTitle[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 29 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m[31m[1m>[22m[39m[90m 30 |[39m   [33mTitle[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 31 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m [90m 32 |[39m   [33mMota[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 33 |[39m   [33m@[39m[33mColumn[39m({ [36mdefault[39m[33m:[39m [32m''[39m })[0m
+
+webpack compiled with [1m[31m6 errors[39m[22m (01a605f853cee31e)
+[1m[31mDebugger listening on ws://localhost:9229/c91bd738-50fa-43d6-93f2-14f048ce1dc7[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/c91bd738-50fa-43d6-93f2-14f048ce1dc7[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 15.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/entities/hoadonbanra.entity.ts:[32m[1m22:3[22m[39m[1m[39m[22m
+[90mTS2300: [39mDuplicate identifier 'Title'.
+  [0m [90m 20 |[39m   [33mTenHH[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 21 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m[31m[1m>[22m[39m[90m 22 |[39m   [33mTitle[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 23 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m [90m 24 |[39m   [33mTitle[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 25 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/entities/hoadonbanra.entity.ts:[32m[1m24:3[22m[39m[1m[39m[22m
+[90mTS2300: [39mDuplicate identifier 'Title'.
+  [0m [90m 22 |[39m   [33mTitle[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 23 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m[31m[1m>[22m[39m[90m 24 |[39m   [33mTitle[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 25 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m [90m 26 |[39m   [33mTitle[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 27 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/entities/hoadonbanra.entity.ts:[32m[1m26:3[22m[39m[1m[39m[22m
+[90mTS2300: [39mDuplicate identifier 'Title'.
+  [0m [90m 24 |[39m   [33mTitle[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 25 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m[31m[1m>[22m[39m[90m 26 |[39m   [33mTitle[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 27 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m [90m 28 |[39m   [33mTitle[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 29 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/entities/hoadonbanra.entity.ts:[32m[1m28:3[22m[39m[1m[39m[22m
+[90mTS2300: [39mDuplicate identifier 'Title'.
+  [0m [90m 26 |[39m   [33mTitle[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 27 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m[31m[1m>[22m[39m[90m 28 |[39m   [33mTitle[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 29 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m [90m 30 |[39m   [33mTitle[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 31 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/entities/hoadonbanra.entity.ts:[32m[1m30:3[22m[39m[1m[39m[22m
+[90mTS2300: [39mDuplicate identifier 'Title'.
+  [0m [90m 28 |[39m   [33mTitle[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 29 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m[31m[1m>[22m[39m[90m 30 |[39m   [33mTitle[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 31 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m [90m 32 |[39m   [33mMota[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 33 |[39m   [33m@[39m[33mColumn[39m({ [36mdefault[39m[33m:[39m [32m''[39m })[0m
+
+webpack compiled with [1m[31m5 errors[39m[22m (3484ada0c0f40173)
+[1m[31mDebugger listening on ws://localhost:9229/5805abac-b5e8-4ce9-9ebb-3e0d197340dc[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/5805abac-b5e8-4ce9-9ebb-3e0d197340dc[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 15.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/entities/hoadonbanra.entity.ts:[32m[1m24:3[22m[39m[1m[39m[22m
+[90mTS2300: [39mDuplicate identifier 'Title'.
+  [0m [90m 22 |[39m   [33mDonvitinh[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 23 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m[31m[1m>[22m[39m[90m 24 |[39m   [33mTitle[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 25 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m [90m 26 |[39m   [33mTitle[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 27 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/entities/hoadonbanra.entity.ts:[32m[1m26:3[22m[39m[1m[39m[22m
+[90mTS2300: [39mDuplicate identifier 'Title'.
+  [0m [90m 24 |[39m   [33mTitle[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 25 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m[31m[1m>[22m[39m[90m 26 |[39m   [33mTitle[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 27 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m [90m 28 |[39m   [33mTitle[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 29 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/entities/hoadonbanra.entity.ts:[32m[1m28:3[22m[39m[1m[39m[22m
+[90mTS2300: [39mDuplicate identifier 'Title'.
+  [0m [90m 26 |[39m   [33mTitle[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 27 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m[31m[1m>[22m[39m[90m 28 |[39m   [33mTitle[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 29 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m [90m 30 |[39m   [33mTitle[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 31 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/entities/hoadonbanra.entity.ts:[32m[1m30:3[22m[39m[1m[39m[22m
+[90mTS2300: [39mDuplicate identifier 'Title'.
+  [0m [90m 28 |[39m   [33mTitle[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 29 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m[31m[1m>[22m[39m[90m 30 |[39m   [33mTitle[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 31 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m [90m 32 |[39m   [33mMota[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 33 |[39m   [33m@[39m[33mColumn[39m({ [36mdefault[39m[33m:[39m [32m''[39m })[0m
+
+webpack compiled with [1m[31m4 errors[39m[22m (45437b346a974181)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 15.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/entities/hoadonbanra.entity.ts:[32m[1m26:3[22m[39m[1m[39m[22m
+[90mTS2300: [39mDuplicate identifier 'Title'.
+  [0m [90m 24 |[39m   [33mSoluong[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 25 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m[31m[1m>[22m[39m[90m 26 |[39m   [33mTitle[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 27 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m [90m 28 |[39m   [33mTitle[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 29 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/entities/hoadonbanra.entity.ts:[32m[1m28:3[22m[39m[1m[39m[22m
+[90mTS2300: [39mDuplicate identifier 'Title'.
+  [0m [90m 26 |[39m   [33mTitle[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 27 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m[31m[1m>[22m[39m[90m 28 |[39m   [33mTitle[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 29 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m [90m 30 |[39m   [33mTitle[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 31 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/entities/hoadonbanra.entity.ts:[32m[1m30:3[22m[39m[1m[39m[22m
+[90mTS2300: [39mDuplicate identifier 'Title'.
+  [0m [90m 28 |[39m   [33mTitle[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 29 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m[31m[1m>[22m[39m[90m 30 |[39m   [33mTitle[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 31 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m [90m 32 |[39m   [33mMota[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 33 |[39m   [33m@[39m[33mColumn[39m({ [36mdefault[39m[33m:[39m [32m''[39m })[0m
+
+webpack compiled with [1m[31m3 errors[39m[22m (842f1d975b0d747a)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 15.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/entities/hoadonbanra.entity.ts:[32m[1m28:3[22m[39m[1m[39m[22m
+[90mTS2300: [39mDuplicate identifier 'Title'.
+  [0m [90m 26 |[39m   [33mDongia[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 27 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m[31m[1m>[22m[39m[90m 28 |[39m   [33mTitle[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 29 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m [90m 30 |[39m   [33mTitle[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 31 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/entities/hoadonbanra.entity.ts:[32m[1m30:3[22m[39m[1m[39m[22m
+[90mTS2300: [39mDuplicate identifier 'Title'.
+  [0m [90m 28 |[39m   [33mTitle[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 29 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m[31m[1m>[22m[39m[90m 30 |[39m   [33mTitle[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 31 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m [90m 32 |[39m   [33mMota[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 33 |[39m   [33m@[39m[33mColumn[39m({ [36mdefault[39m[33m:[39m [32m''[39m })[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (45b928b3a2c45e6c)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 15.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/entities/hoadonbanra.entity.ts:[32m[1m30:3[22m[39m[1m[39m[22m
+[90mTS2300: [39mDuplicate identifier 'Title'.
+  [0m [90m 28 |[39m   [33mChietkhau[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 29 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m[31m[1m>[22m[39m[90m 30 |[39m   [33mTitle[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 31 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m [90m 32 |[39m   [33mMota[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 33 |[39m   [33m@[39m[33mColumn[39m({ [36mdefault[39m[33m:[39m [32m''[39m })[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (527659093185f40e)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 15.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (fad16348d941eac0)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 15.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (5d035ede8ad3004f)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 15.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (e2a5beb641f3b6f0)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 15.9 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (e2a5beb641f3b6f0)
+[1m[31mDebugger listening on ws://localhost:9229/4759b620-c08d-4eaa-ab16-26c42c4e0fc7[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/4759b620-c08d-4eaa-ab16-26c42c4e0fc7[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 15.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (bb52e36cfe1e815e)
+[1m[31mDebugger listening on ws://localhost:9229/55c38c46-e9ec-4413-aaf6-5fe5d17f148f[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/55c38c46-e9ec-4413-aaf6-5fe5d17f148f[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 15.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (48f142f2adb02988)
+[1m[31mDebugger listening on ws://localhost:9229/c9e2307f-49c9-4914-b408-4e10306f970c[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/c9e2307f-49c9-4914-b408-4e10306f970c[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 15.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (625f8794eefa74e2)
+[1m[31mDebugger listening on ws://localhost:9229/9815d42e-c98d-4b8d-950a-3fb1462b727a[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/9815d42e-c98d-4b8d-950a-3fb1462b727a[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 15.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (2ccc7fab386521c3)
+[1m[31mDebugger listening on ws://localhost:9229/729d1638-98f0-4161-b3dd-56d626c47368[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/729d1638-98f0-4161-b3dd-56d626c47368[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 15.8 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (74807c6390522dea)
+[1m[31mDebugger listening on ws://localhost:9229/5e88243b-b0c3-4d95-9e38-5dc7e8c97c46[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/5e88243b-b0c3-4d95-9e38-5dc7e8c97c46[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 15.8 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (423b5a6d8a5726da)
+[1m[31mDebugger listening on ws://localhost:9229/e5f522cc-a524-4f5b-89a0-e8205b7ac521[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/e5f522cc-a524-4f5b-89a0-e8205b7ac521[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 15.8 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (99a9c95aaa751ebe)
+[1m[31mDebugger listening on ws://localhost:9229/8d3ab76e-d605-48b5-ae75-aaa173bb7022[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/8d3ab76e-d605-48b5-ae75-aaa173bb7022[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 15.8 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (8aaafa47922543db)
+[1m[31mDebugger listening on ws://localhost:9229/74c51ffd-a09b-4def-8710-c287e43ecd38[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/74c51ffd-a09b-4def-8710-c287e43ecd38[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 15.8 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (8829c0a99e8eb431)
+[1m[31mDebugger listening on ws://localhost:9229/a7c23a76-4e3f-48ab-b0e1-b3542ec8af44[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/a7c23a76-4e3f-48ab-b0e1-b3542ec8af44[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 15.7 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (80cdd12e0cf76894)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 15.7 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (80cdd12e0cf76894)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 15.7 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (80cdd12e0cf76894)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 15.7 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (80cdd12e0cf76894)
+[1m[31mDebugger listening on ws://localhost:9229/c4c0eeca-ad8b-480d-bfb3-a864fea4677c[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/c4c0eeca-ad8b-480d-bfb3-a864fea4677c[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 15.8 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (8df2a180de3054c1)
+[1m[31mDebugger listening on ws://localhost:9229/a21ead25-6ad3-4356-bc38-4a93fd46db16[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/a21ead25-6ad3-4356-bc38-4a93fd46db16[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 15.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (07b4ad1cea4f1eb6)
+[1m[31mDebugger listening on ws://localhost:9229/07c3b36f-4085-4008-bc3b-37087ce3b9b5[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/07c3b36f-4085-4008-bc3b-37087ce3b9b5[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 15.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (e6cfbda4e99108f9)
+[1m[31mDebugger listening on ws://localhost:9229/5127e777-e947-482d-b895-5e602829d5e4[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/5127e777-e947-482d-b895-5e602829d5e4[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 15.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (d7e2012ab71707b6)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 15.9 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (d7e2012ab71707b6)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 15.9 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (d7e2012ab71707b6)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 15.9 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (d7e2012ab71707b6)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 15.9 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (d7e2012ab71707b6)
+[1m[31mDebugger listening on ws://localhost:9229/5f1da2b5-2fea-47d5-ab09-849987ba69c4[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/5f1da2b5-2fea-47d5-ab09-849987ba69c4[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 16.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/entities/hoadonbanra.entity.ts:[32m[1m34:3[22m[39m[1m[39m[22m
+[90mTS2300: [39mDuplicate identifier 'Thanhtienchuathue'.
+  [0m [90m 32 |[39m   [33mThanhtienchuathue[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 33 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m[31m[1m>[22m[39m[90m 34 |[39m   [33mThanhtienchuathue[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 35 |[39m   [33m@[39m[33mColumn[39m({ [36mdefault[39m[33m:[39m [32m''[39m })[0m
+  [0m [90m 36 |[39m   [33mSlug[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 37 |[39m   [33m@[39m[33mColumn[39m({collation[33m:[39m [32m"utf8_general_ci"[39m[33m,[39mtype[33m:[39m[32m"simple-json"[39m[33m,[39m[36mdefault[39m[33m:[39m () [33m=>[39m [32m"('{}')"[39m })[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (15b1a45df21c1f20)
+[1m[31mDebugger listening on ws://localhost:9229/1d884471-7e37-4011-ab64-351905cef416[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/1d884471-7e37-4011-ab64-351905cef416[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 16.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (a0473500847b2452)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 16.1 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (a0473500847b2452)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 16.1 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (a0473500847b2452)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 16.1 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (a0473500847b2452)
+[1m[31mDebugger listening on ws://localhost:9229/da5726c4-fa1c-4b13-88b8-48906bed56d3[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/da5726c4-fa1c-4b13-88b8-48906bed56d3[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 16.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/entities/hoadonbanra.entity.ts:[32m[1m36:3[22m[39m[1m[39m[22m
+[90mTS2300: [39mDuplicate identifier 'NgaytaoHD'.
+  [0m [90m 34 |[39m   [33mNgaytaoHD[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 35 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m[31m[1m>[22m[39m[90m 36 |[39m   [33mNgaytaoHD[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 37 |[39m   [33m@[39m[33mColumn[39m({ [36mdefault[39m[33m:[39m [32m''[39m })[0m
+  [0m [90m 38 |[39m   [33mSlug[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 39 |[39m   [33m@[39m[33mColumn[39m({collation[33m:[39m [32m"utf8_general_ci"[39m[33m,[39mtype[33m:[39m[32m"simple-json"[39m[33m,[39m[36mdefault[39m[33m:[39m () [33m=>[39m [32m"('{}')"[39m })[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (761a36f158095cd9)
+[1m[31mDebugger listening on ws://localhost:9229/fc02258f-14b9-4c99-be46-5765525e4b1e[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/fc02258f-14b9-4c99-be46-5765525e4b1e[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 16.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (3d438282faa1ce35)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 16.3 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (3d438282faa1ce35)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 16.3 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (3d438282faa1ce35)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 16.3 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (3d438282faa1ce35)
+[1m[31mDebugger listening on ws://localhost:9229/c4e4afb7-5930-4490-a000-f3c562aaba22[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/c4e4afb7-5930-4490-a000-f3c562aaba22[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 16.5 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/entities/hoadonbanra.entity.ts:[32m[1m19:3[22m[39m[1m[39m[22m
+[90mTS2300: [39mDuplicate identifier 'Title'.
+  [0m [90m 17 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m [90m 18 |[39m   [33mTinhchat[39m[33m:[39m string[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 19 |[39m   [33mTitle[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 20 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m [90m 21 |[39m   [33mTinhchat[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 22 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/entities/hoadonbanra.entity.ts:[32m[1m21:3[22m[39m[1m[39m[22m
+[90mTS2300: [39mDuplicate identifier 'Tinhchat'.
+  [0m [90m 19 |[39m   [33mTitle[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 20 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m[31m[1m>[22m[39m[90m 21 |[39m   [33mTinhchat[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 22 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m [90m 23 |[39m   [33mTenHH[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 24 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (9454bc8bc7eb86ec)
+[1m[31mDebugger listening on ws://localhost:9229/359749ef-e790-4d7b-b7bb-28f2ac6747d7[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/359749ef-e790-4d7b-b7bb-28f2ac6747d7[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 16.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (e384dfb89d86e32c)
+[1m[31mDebugger listening on ws://localhost:9229/d25cb464-ae5c-49d2-aafa-7fb4df749590[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/d25cb464-ae5c-49d2-aafa-7fb4df749590[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 16.5 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/entities/hoadonbanra.entity.ts:[32m[1m20:3[22m[39m[1m[39m[22m
+[90mTS2300: [39mDuplicate identifier 'Tinhchat'.
+  [0m [90m 18 |[39m   [33mTinhchat[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 19 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m[31m[1m>[22m[39m[90m 20 |[39m   [33mTinhchat[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 21 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m [90m 22 |[39m   [33mTenHH[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 23 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (1c6f03ba0a9ac470)
+[1m[31mDebugger listening on ws://localhost:9229/1d57eaa4-c47c-4e1d-a3fc-17e36ced947e[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/1d57eaa4-c47c-4e1d-a3fc-17e36ced947e[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 16.5 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (a286fc5b90002df1)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 16.5 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (a286fc5b90002df1)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 16.5 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (a286fc5b90002df1)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 16.5 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (a286fc5b90002df1)
+[1m[31mDebugger listening on ws://localhost:9229/7f1552ee-521f-4d48-86bf-b42abc34e8cb[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/7f1552ee-521f-4d48-86bf-b42abc34e8cb[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/3f909f6a-5654-472d-b5cb-dc02c5775a4d[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/3f909f6a-5654-472d-b5cb-dc02c5775a4d[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 16.7 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/entities/hoadonbanra.entity.ts:[32m[1m44:3[22m[39m[1m[39m[22m
+[90mTS2300: [39mDuplicate identifier 'Image'.
+  [0m [90m 42 |[39m   [33mSlug[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 43 |[39m   [33m@[39m[33mColumn[39m({collation[33m:[39m [32m"utf8_general_ci"[39m[33m,[39mtype[33m:[39m[32m"simple-json"[39m[33m,[39m[36mdefault[39m[33m:[39m () [33m=>[39m [32m"('{}')"[39m })[0m
+  [0m[31m[1m>[22m[39m[90m 44 |[39m   [33mImage[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 45 |[39m   [33m@[39m[33mColumn[39m({ [36mdefault[39m[33m:[39m [32m''[39m })[0m
+  [0m [90m 46 |[39m   [33mType[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 47 |[39m   [33m@[39m[33mColumn[39m({ [36mdefault[39m[33m:[39m [35m1[39m })[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (ce7371d92e132cfa)
+[1m[31mDebugger listening on ws://localhost:9229/1c7c5f8f-7b76-432b-a76f-88f439891272[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/1c7c5f8f-7b76-432b-a76f-88f439891272[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 16.7 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (94c72fde62e13490)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 16.7 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (94c72fde62e13490)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 16.7 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (94c72fde62e13490)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 16.7 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (94c72fde62e13490)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 16.7 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (94c72fde62e13490)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 16.7 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (94c72fde62e13490)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m

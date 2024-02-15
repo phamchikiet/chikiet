@@ -1,0 +1,1950 @@
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 98.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (c88af5a0fb21c95f)
+[1m[31mDebugger listening on ws://localhost:9229/944406f6-df1f-4daf-afaf-72dba1539b46[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/944406f6-df1f-4daf-afaf-72dba1539b46[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 98.1 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (c88af5a0fb21c95f)
+[1m[31mDebugger listening on ws://localhost:9229/fb7d0a6d-522a-4f2e-ab58-af7de6c75eee[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/fb7d0a6d-522a-4f2e-ab58-af7de6c75eee[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 98.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (330b484490dc2c2d)
+[1m[31mDebugger listening on ws://localhost:9229/d7370ff6-1161-4a80-86f1-ce3b1da28d8c[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/d7370ff6-1161-4a80-86f1-ce3b1da28d8c[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 98.4 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m25:9[22m[39m[1m[39m[22m
+[90mTS2393: [39mDuplicate function implementation.
+  [0m [90m 23 |[39m     }[0m
+  [0m [90m 24 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 25 |[39m   [36masync[39m findThang(data[33m:[39m any) {[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 26 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mfind({[0m
+  [0m [90m 27 |[39m       where[33m:[39m { [0m
+  [0m [90m 28 |[39m         thang[33m:[39m data[33m.[39mthang[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m34:9[22m[39m[1m[39m[22m
+[90mTS2393: [39mDuplicate function implementation.
+  [0m [90m 32 |[39m     })[33m;[39m[0m
+  [0m [90m 33 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 34 |[39m   [36masync[39m findThang(data[33m:[39m any) {[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 35 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mfind({[0m
+  [0m [90m 36 |[39m       where[33m:[39m { [0m
+  [0m [90m 37 |[39m         thang[33m:[39m data[33m.[39mthang[33m,[39m[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (080caf1248225985)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 98.4 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (3f8233c26bda8cf1)
+[1m[31mDebugger listening on ws://localhost:9229/6a58e793-cdf0-4d11-b300-3f0feb15bb08[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/6a58e793-cdf0-4d11-b300-3f0feb15bb08[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 99.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m34:9[22m[39m[1m[39m[22m
+[90mTS2393: [39mDuplicate function implementation.
+  [0m [90m 32 |[39m     })[33m;[39m[0m
+  [0m [90m 33 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 34 |[39m   [36masync[39m findQuery(params[33m:[39m any) {[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 35 |[39m     console[33m.[39merror(params)[33m;[39m[0m
+  [0m [90m 36 |[39m     [36mconst[39m queryBuilder [33m=[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mcreateQueryBuilder([32m'chitiet'[39m)[33m;[39m[0m
+  [0m [90m 37 |[39m     [36mif[39m (params[33m.[39m[33mBatdau[39m [33m&&[39m params[33m.[39m[33mKetthuc[39m) {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m90:9[22m[39m[1m[39m[22m
+[90mTS2393: [39mDuplicate function implementation.
+  [0m [90m 88 |[39m     }[33m;[39m[0m
+  [0m [90m 89 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 90 |[39m   [36masync[39m findQuery(params[33m:[39m any) {[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 91 |[39m     console[33m.[39merror(params)[33m;[39m[0m
+  [0m [90m 92 |[39m     [36mconst[39m queryBuilder [33m=[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mcreateQueryBuilder([32m'chitiet'[39m)[33m;[39m[0m
+  [0m [90m 93 |[39m     [36mif[39m (params[33m.[39m[33mBatdau[39m [33m&&[39m params[33m.[39m[33mKetthuc[39m) {[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (350b4ded4a5fc821)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 99.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m25:9[22m[39m[1m[39m[22m
+[90mTS2393: [39mDuplicate function implementation.
+  [0m [90m 23 |[39m     }[0m
+  [0m [90m 24 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 25 |[39m   [36masync[39m findThang(data[33m:[39m any) {[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 26 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mfind({[0m
+  [0m [90m 27 |[39m       where[33m:[39m { [0m
+  [0m [90m 28 |[39m         thang[33m:[39m data[33m.[39mthang[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m34:9[22m[39m[1m[39m[22m
+[90mTS2393: [39mDuplicate function implementation.
+  [0m [90m 32 |[39m     })[33m;[39m[0m
+  [0m [90m 33 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 34 |[39m   [36masync[39m findThang(params[33m:[39m any) {[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 35 |[39m     console[33m.[39merror(params)[33m;[39m[0m
+  [0m [90m 36 |[39m     [36mconst[39m queryBuilder [33m=[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mcreateQueryBuilder([32m'chitiet'[39m)[33m;[39m[0m
+  [0m [90m 37 |[39m     [36mif[39m (params[33m.[39m[33mBatdau[39m [33m&&[39m params[33m.[39m[33mKetthuc[39m) {[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (a1d5c70793da821a)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 99.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (935ade4c2533b868)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 99.2 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (935ade4c2533b868)
+[1m[31mDebugger listening on ws://localhost:9229/7339bf9c-ac38-43f3-ae5b-5478c10f8e7f[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/7339bf9c-ac38-43f3-ae5b-5478c10f8e7f[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 99.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts[39m[22m
+[1m./src/app/chitiet/chitiet.service.ts[39m[22m [1m[32m41:4-6[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts(41,5)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+webpack compiled with [1m[31m1 error[39m[22m (e722d2b988ec3028)
+[1m[31mDebugger listening on ws://localhost:9229/84c0d898-a1e9-4150-b85d-e1c07c85440f[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/84c0d898-a1e9-4150-b85d-e1c07c85440f[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 99.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts[39m[22m
+[1m./src/app/chitiet/chitiet.service.ts[39m[22m [1m[32m40:14-15[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts(40,15)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts[39m[22m
+[1m./src/app/chitiet/chitiet.service.ts[39m[22m [1m[32m40:20-21[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts(40,21)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts[39m[22m
+[1m./src/app/chitiet/chitiet.service.ts[39m[22m [1m[32m40:22-23[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts(40,23)[39m[22m
+[1m[31m      TS1005: ';' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/chitiet/chitiet.service.ts[39m[22m [1m[32m41:28[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: [1m[31mUnexpected[39m[22m[1m token (41:28)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|             startDate: params.Batdau,
+|             endDate: params.Ketthuc,
+>             if(params) { }, : .Title
+|         });
+|         {[39m[22m
+
+webpack compiled with [1m[31m4 errors[39m[22m (08238160904c7d82)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 99 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts[39m[22m
+[1m./src/app/chitiet/chitiet.service.ts[39m[22m [1m[32m42:14-15[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts(42,15)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts[39m[22m
+[1m./src/app/chitiet/chitiet.service.ts[39m[22m [1m[32m45:30-31[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts(45,31)[39m[22m
+[1m[31m      TS1005: ';' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts[39m[22m
+[1m./src/app/chitiet/chitiet.service.ts[39m[22m [1m[32m45:32-37[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts(45,33)[39m[22m
+[1m[31m      TS1068: Unexpected token. A constructor, method, accessor, or property was expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts[39m[22m
+[1m./src/app/chitiet/chitiet.service.ts[39m[22m [1m[32m50:2-3[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts(50,3)[39m[22m
+[1m[31m      TS1128: Declaration or statement expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/chitiet/chitiet.service.ts[39m[22m [1m[32m58:0[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: 'return' outside of function (58:0)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|     .offset(params.pageNumber * params.pageSize || 0)
+|     .getManyAndCount();
+> return { items, totalCount };
+| // async findThang(data: any) {
+| //   return await this.ChitietRepository.find({[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts[39m[22m
+[1m./src/app/chitiet/chitiet.service.ts[39m[22m [1m[32m60:2-7[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts(60,3)[39m[22m
+[1m[31m      TS1434: Unexpected keyword or identifier.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts[39m[22m
+[1m./src/app/chitiet/chitiet.service.ts[39m[22m [1m[32m60:18-19[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts(60,19)[39m[22m
+[1m[31m      TS1005: ';' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts[39m[22m
+[1m./src/app/chitiet/chitiet.service.ts[39m[22m [1m[32m63:2-7[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts(63,3)[39m[22m
+[1m[31m      TS1434: Unexpected keyword or identifier.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts[39m[22m
+[1m./src/app/chitiet/chitiet.service.ts[39m[22m [1m[32m63:17-18[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts(63,18)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts[39m[22m
+[1m./src/app/chitiet/chitiet.service.ts[39m[22m [1m[32m63:27-28[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts(63,28)[39m[22m
+[1m[31m      TS1005: ';' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts[39m[22m
+[1m./src/app/chitiet/chitiet.service.ts[39m[22m [1m[32m69:2-7[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts(69,3)[39m[22m
+[1m[31m      TS1434: Unexpected keyword or identifier.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts[39m[22m
+[1m./src/app/chitiet/chitiet.service.ts[39m[22m [1m[32m69:20-21[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts(69,21)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts[39m[22m
+[1m./src/app/chitiet/chitiet.service.ts[39m[22m [1m[32m69:27-28[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts(69,28)[39m[22m
+[1m[31m      TS1005: ';' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts[39m[22m
+[1m./src/app/chitiet/chitiet.service.ts[39m[22m [1m[32m77:2-7[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts(77,3)[39m[22m
+[1m[31m      TS1434: Unexpected keyword or identifier.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts[39m[22m
+[1m./src/app/chitiet/chitiet.service.ts[39m[22m [1m[32m77:27-28[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts(77,28)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts[39m[22m
+[1m./src/app/chitiet/chitiet.service.ts[39m[22m [1m[32m77:44-45[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts(77,45)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts[39m[22m
+[1m./src/app/chitiet/chitiet.service.ts[39m[22m [1m[32m77:53-54[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts(77,54)[39m[22m
+[1m[31m      TS1005: ';' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts[39m[22m
+[1m./src/app/chitiet/chitiet.service.ts[39m[22m [1m[32m89:2-7[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts(89,3)[39m[22m
+[1m[31m      TS1434: Unexpected keyword or identifier.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts[39m[22m
+[1m./src/app/chitiet/chitiet.service.ts[39m[22m [1m[32m89:24-25[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts(89,25)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts[39m[22m
+[1m./src/app/chitiet/chitiet.service.ts[39m[22m [1m[32m89:31-32[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts(89,32)[39m[22m
+[1m[31m      TS1005: ';' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts[39m[22m
+[1m./src/app/chitiet/chitiet.service.ts[39m[22m [1m[32m107:2-7[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts(107,3)[39m[22m
+[1m[31m      TS1434: Unexpected keyword or identifier.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts[39m[22m
+[1m./src/app/chitiet/chitiet.service.ts[39m[22m [1m[32m107:17-18[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts(107,18)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts[39m[22m
+[1m./src/app/chitiet/chitiet.service.ts[39m[22m [1m[32m107:43-44[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts(107,44)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts[39m[22m
+[1m./src/app/chitiet/chitiet.service.ts[39m[22m [1m[32m107:63-64[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts(107,64)[39m[22m
+[1m[31m      TS1005: ';' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts[39m[22m
+[1m./src/app/chitiet/chitiet.service.ts[39m[22m [1m[32m111:2-7[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts(111,3)[39m[22m
+[1m[31m      TS1434: Unexpected keyword or identifier.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts[39m[22m
+[1m./src/app/chitiet/chitiet.service.ts[39m[22m [1m[32m111:17-18[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts(111,18)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts[39m[22m
+[1m./src/app/chitiet/chitiet.service.ts[39m[22m [1m[32m111:27-28[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts(111,28)[39m[22m
+[1m[31m      TS1005: ';' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts[39m[22m
+[1m./src/app/chitiet/chitiet.service.ts[39m[22m [1m[32m116:0-1[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts(116,1)[39m[22m
+[1m[31m      TS1128: Declaration or statement expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.controller.ts:[32m[1m15:38[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findAll' does not exist on type 'ChitietService'.
+  [0m [90m 13 |[39m   [33m@[39m[33mGet[39m()[0m
+  [0m [90m 14 |[39m   [36masync[39m findAll() {[0m
+  [0m[31m[1m>[22m[39m[90m 15 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39mchitietService[33m.[39mfindAll()[33m;[39m[0m
+  [0m [90m    |[39m                                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 16 |[39m   }[0m
+  [0m [90m 17 |[39m   [33m@[39m[33mGet[39m([32m'findid/:id'[39m)[0m
+  [0m [90m 18 |[39m   [36masync[39m findOne([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.controller.ts:[32m[1m19:38[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findid' does not exist on type 'ChitietService'.
+  [0m [90m 17 |[39m   [33m@[39m[33mGet[39m([32m'findid/:id'[39m)[0m
+  [0m [90m 18 |[39m   [36masync[39m findOne([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 19 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39mchitietService[33m.[39mfindid(id)[33m;[39m[0m
+  [0m [90m    |[39m                                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 20 |[39m   }[0m
+  [0m [90m 21 |[39m   [33m@[39m[33mGet[39m([32m'findslug/:slug'[39m)[0m
+  [0m [90m 22 |[39m   [36masync[39m findslug([33m@[39m[33mParam[39m([32m'slug'[39m) slug[33m:[39m string) {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.controller.ts:[32m[1m23:38[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findSHD' does not exist on type 'ChitietService'.
+  [0m [90m 21 |[39m   [33m@[39m[33mGet[39m([32m'findslug/:slug'[39m)[0m
+  [0m [90m 22 |[39m   [36masync[39m findslug([33m@[39m[33mParam[39m([32m'slug'[39m) slug[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 23 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39mchitietService[33m.[39mfindSHD(slug)[33m;[39m[0m
+  [0m [90m    |[39m                                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 24 |[39m   }[0m
+  [0m [90m 25 |[39m   [33m@[39m[33mGet[39m([32m'pagination'[39m)[0m
+  [0m [90m 26 |[39m   [36masync[39m findPagination([33m@[39m[33mQuery[39m([32m'page'[39m) page[33m:[39m number[33m,[39m [33m@[39m[33mQuery[39m([32m'perPage'[39m) perPage[33m:[39m number) {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.controller.ts:[32m[1m27:38[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findPagination' does not exist on type 'ChitietService'.
+  [0m [90m 25 |[39m   [33m@[39m[33mGet[39m([32m'pagination'[39m)[0m
+  [0m [90m 26 |[39m   [36masync[39m findPagination([33m@[39m[33mQuery[39m([32m'page'[39m) page[33m:[39m number[33m,[39m [33m@[39m[33mQuery[39m([32m'perPage'[39m) perPage[33m:[39m number) {[0m
+  [0m[31m[1m>[22m[39m[90m 27 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39mchitietService[33m.[39mfindPagination(page[33m,[39m perPage)[33m;[39m[0m
+  [0m [90m    |[39m                                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 28 |[39m   }[0m
+  [0m [90m 29 |[39m   [33m@[39m[33mPost[39m([32m'findthang'[39m)[0m
+  [0m [90m 30 |[39m   [36masync[39m findThang([33m@[39m[33mBody[39m() data[33m:[39m any) {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.controller.ts:[32m[1m35:38[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findQuery' does not exist on type 'ChitietService'.
+  [0m [90m 33 |[39m   [33m@[39m[33mPost[39m([32m'search'[39m)[0m
+  [0m [90m 34 |[39m   [36masync[39m findQuery([33m@[39m[33mBody[39m() [33mSearchParams[39m[33m:[39m any) {[0m
+  [0m[31m[1m>[22m[39m[90m 35 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39mchitietService[33m.[39mfindQuery([33mSearchParams[39m)[33m;[39m[0m
+  [0m [90m    |[39m                                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 36 |[39m   }[0m
+  [0m [90m 37 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+  [0m [90m 38 |[39m   update([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string[33m,[39m [33m@[39m[33mBody[39m() updateChitietDto[33m:[39m [33mUpdateChitietDto[39m) {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.controller.ts:[32m[1m39:32[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'update' does not exist on type 'ChitietService'.
+  [0m [90m 37 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+  [0m [90m 38 |[39m   update([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string[33m,[39m [33m@[39m[33mBody[39m() updateChitietDto[33m:[39m [33mUpdateChitietDto[39m) {[0m
+  [0m[31m[1m>[22m[39m[90m 39 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mchitietService[33m.[39mupdate(id[33m,[39m updateChitietDto)[33m;[39m[0m
+  [0m [90m    |[39m                                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 40 |[39m   }[0m
+  [0m [90m 41 |[39m[0m
+  [0m [90m 42 |[39m   [33m@[39m[33mDelete[39m([32m':id'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.controller.ts:[32m[1m44:32[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'remove' does not exist on type 'ChitietService'.
+  [0m [90m 42 |[39m   [33m@[39m[33mDelete[39m([32m':id'[39m)[0m
+  [0m [90m 43 |[39m   remove([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 44 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mchitietService[33m.[39mremove(id)[33m;[39m[0m
+  [0m [90m    |[39m                                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 45 |[39m   }[0m
+  [0m [90m 46 |[39m }[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m15:29[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findSHD' does not exist on type 'ChitietService'.
+  [0m [90m 13 |[39m   [36masync[39m create([33mCreateChitietDto[39m[33m:[39m any) {[0m
+  [0m [90m 14 |[39m     console[33m.[39mlog([33mCreateChitietDto[39m)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 15 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindSHD([33mCreateChitietDto[39m)[0m
+  [0m [90m    |[39m                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 16 |[39m     console[33m.[39mlog(item)[33m;[39m[0m
+  [0m [90m 17 |[39m     [36mif[39m (item) {[0m
+  [0m [90m 18 |[39m       [36mreturn[39m {res[33m:[39m[32m"Trùng SHD"[39m}[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m43:7[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'queryBuilder'.
+  [0m [90m 41 |[39m     }[0m
+  [0m [90m 42 |[39m     [36mif[39m (params[33m.[39m[33mTitle[39m) {[0m
+  [0m[31m[1m>[22m[39m[90m 43 |[39m       queryBuilder[33m.[39mandWhere([32m'chitiet.Title LIKE :Title'[39m[33m,[39m { [33mSDT[39m[33m:[39m [32m`%${params.Title}%`[39m })[33m;[39m[0m
+  [0m [90m    |[39m       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 44 |[39m     }[0m
+  [0m [90m 45 |[39m     [36mconst[39m [items[33m,[39m totalCount] [33m=[39m [36mawait[39m queryBuilder[0m
+  [0m [90m 46 |[39m     [33m.[39mlimit(params[33m.[39mpageSize [33m||[39m [35m10[39m) [90m// Set a default page size if not provided[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m45:39[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'queryBuilder'.
+  [0m [90m 43 |[39m       queryBuilder[33m.[39mandWhere([32m'chitiet.Title LIKE :Title'[39m[33m,[39m { [33mSDT[39m[33m:[39m [32m`%${params.Title}%`[39m })[33m;[39m[0m
+  [0m [90m 44 |[39m     }[0m
+  [0m[31m[1m>[22m[39m[90m 45 |[39m     [36mconst[39m [items[33m,[39m totalCount] [33m=[39m [36mawait[39m queryBuilder[0m
+  [0m [90m    |[39m                                       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 46 |[39m     [33m.[39mlimit(params[33m.[39mpageSize [33m||[39m [35m10[39m) [90m// Set a default page size if not provided[39m[0m
+  [0m [90m 47 |[39m     [33m.[39moffset(params[33m.[39mpageNumber [33m*[39m params[33m.[39mpageSize [33m||[39m [35m0[39m)[0m
+  [0m [90m 48 |[39m     [33m.[39mgetManyAndCount()[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m46:12[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'params'.
+  [0m [90m 44 |[39m     }[0m
+  [0m [90m 45 |[39m     [36mconst[39m [items[33m,[39m totalCount] [33m=[39m [36mawait[39m queryBuilder[0m
+  [0m[31m[1m>[22m[39m[90m 46 |[39m     [33m.[39mlimit(params[33m.[39mpageSize [33m||[39m [35m10[39m) [90m// Set a default page size if not provided[39m[0m
+  [0m [90m    |[39m            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 47 |[39m     [33m.[39moffset(params[33m.[39mpageNumber [33m*[39m params[33m.[39mpageSize [33m||[39m [35m0[39m)[0m
+  [0m [90m 48 |[39m     [33m.[39mgetManyAndCount()[33m;[39m[0m
+  [0m [90m 49 |[39m   [36mreturn[39m { items[33m,[39m totalCount }[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m47:13[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'params'.
+  [0m [90m 45 |[39m     [36mconst[39m [items[33m,[39m totalCount] [33m=[39m [36mawait[39m queryBuilder[0m
+  [0m [90m 46 |[39m     [33m.[39mlimit(params[33m.[39mpageSize [33m||[39m [35m10[39m) [90m// Set a default page size if not provided[39m[0m
+  [0m[31m[1m>[22m[39m[90m 47 |[39m     [33m.[39moffset(params[33m.[39mpageNumber [33m*[39m params[33m.[39mpageSize [33m||[39m [35m0[39m)[0m
+  [0m [90m    |[39m             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 48 |[39m     [33m.[39mgetManyAndCount()[33m;[39m[0m
+  [0m [90m 49 |[39m   [36mreturn[39m { items[33m,[39m totalCount }[33m;[39m[0m
+  [0m [90m 50 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m47:33[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'params'.
+  [0m [90m 45 |[39m     [36mconst[39m [items[33m,[39m totalCount] [33m=[39m [36mawait[39m queryBuilder[0m
+  [0m [90m 46 |[39m     [33m.[39mlimit(params[33m.[39mpageSize [33m||[39m [35m10[39m) [90m// Set a default page size if not provided[39m[0m
+  [0m[31m[1m>[22m[39m[90m 47 |[39m     [33m.[39moffset(params[33m.[39mpageNumber [33m*[39m params[33m.[39mpageSize [33m||[39m [35m0[39m)[0m
+  [0m [90m    |[39m                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 48 |[39m     [33m.[39mgetManyAndCount()[33m;[39m[0m
+  [0m [90m 49 |[39m   [36mreturn[39m { items[33m,[39m totalCount }[33m;[39m[0m
+  [0m [90m 50 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m60:3[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'async'.
+  [0m [90m 58 |[39m   [90m//   });[39m[0m
+  [0m [90m 59 |[39m   [90m// }[39m[0m
+  [0m[31m[1m>[22m[39m[90m 60 |[39m   [36masync[39m findAll() {[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 61 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mfind()[33m;[39m[0m
+  [0m [90m 62 |[39m   }[0m
+  [0m [90m 63 |[39m   [36masync[39m findid(id[33m:[39m string) {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m60:9[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'findAll'.
+  [0m [90m 58 |[39m   [90m//   });[39m[0m
+  [0m [90m 59 |[39m   [90m// }[39m[0m
+  [0m[31m[1m>[22m[39m[90m 60 |[39m   [36masync[39m findAll() {[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 61 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mfind()[33m;[39m[0m
+  [0m [90m 62 |[39m   }[0m
+  [0m [90m 63 |[39m   [36masync[39m findid(id[33m:[39m string) {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m63:3[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'async'.
+  [0m [90m 61 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mfind()[33m;[39m[0m
+  [0m [90m 62 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 63 |[39m   [36masync[39m findid(id[33m:[39m string) {[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 64 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mfindOne({[0m
+  [0m [90m 65 |[39m       where[33m:[39m { id[33m:[39m id }[33m,[39m[0m
+  [0m [90m 66 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m63:9[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'findid'.
+  [0m [90m 61 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mfind()[33m;[39m[0m
+  [0m [90m 62 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 63 |[39m   [36masync[39m findid(id[33m:[39m string) {[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 64 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mfindOne({[0m
+  [0m [90m 65 |[39m       where[33m:[39m { id[33m:[39m id }[33m,[39m[0m
+  [0m [90m 66 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m63:16[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'id'.
+  [0m [90m 61 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mfind()[33m;[39m[0m
+  [0m [90m 62 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 63 |[39m   [36masync[39m findid(id[33m:[39m string) {[0m
+  [0m [90m    |[39m                [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 64 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mfindOne({[0m
+  [0m [90m 65 |[39m       where[33m:[39m { id[33m:[39m id }[33m,[39m[0m
+  [0m [90m 66 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m63:20[22m[39m[1m[39m[22m
+[90mTS2693: [39m'string' only refers to a type, but is being used as a value here.
+  [0m [90m 61 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mfind()[33m;[39m[0m
+  [0m [90m 62 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 63 |[39m   [36masync[39m findid(id[33m:[39m string) {[0m
+  [0m [90m    |[39m                    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 64 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mfindOne({[0m
+  [0m [90m 65 |[39m       where[33m:[39m { id[33m:[39m id }[33m,[39m[0m
+  [0m [90m 66 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m69:3[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'async'.
+  [0m [90m 67 |[39m     })[33m;[39m[0m
+  [0m [90m 68 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 69 |[39m   [36masync[39m findSHD(data[33m:[39m any) {[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 70 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mfindOne({[0m
+  [0m [90m 71 |[39m       where[33m:[39m { [0m
+  [0m [90m 72 |[39m         idChitiet[33m:[39m data[33m.[39midChitiet[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m69:9[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'findSHD'.
+  [0m [90m 67 |[39m     })[33m;[39m[0m
+  [0m [90m 68 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 69 |[39m   [36masync[39m findSHD(data[33m:[39m any) {[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 70 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mfindOne({[0m
+  [0m [90m 71 |[39m       where[33m:[39m { [0m
+  [0m [90m 72 |[39m         idChitiet[33m:[39m data[33m.[39midChitiet[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m69:17[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'data'.
+  [0m [90m 67 |[39m     })[33m;[39m[0m
+  [0m [90m 68 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 69 |[39m   [36masync[39m findSHD(data[33m:[39m any) {[0m
+  [0m [90m    |[39m                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 70 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mfindOne({[0m
+  [0m [90m 71 |[39m       where[33m:[39m { [0m
+  [0m [90m 72 |[39m         idChitiet[33m:[39m data[33m.[39midChitiet[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m69:23[22m[39m[1m[39m[22m
+[90mTS2693: [39m'any' only refers to a type, but is being used as a value here.
+  [0m [90m 67 |[39m     })[33m;[39m[0m
+  [0m [90m 68 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 69 |[39m   [36masync[39m findSHD(data[33m:[39m any) {[0m
+  [0m [90m    |[39m                       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 70 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mfindOne({[0m
+  [0m [90m 71 |[39m       where[33m:[39m { [0m
+  [0m [90m 72 |[39m         idChitiet[33m:[39m data[33m.[39midChitiet[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m77:3[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'async'.
+  [0m [90m 75 |[39m     })[33m;[39m[0m
+  [0m [90m 76 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 77 |[39m   [36masync[39m findPagination(page[33m:[39m number[33m,[39m perPage[33m:[39m number){[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 78 |[39m     [36mconst[39m skip [33m=[39m (page [33m-[39m [35m1[39m) [33m*[39m perPage[33m;[39m[0m
+  [0m [90m 79 |[39m     [36mconst[39m totalItems [33m=[39m [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mcount()[33m;[39m[0m
+  [0m [90m 80 |[39m     [36mconst[39m chitiets [33m=[39m [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mfind({ skip[33m,[39m take[33m:[39m perPage })[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m77:9[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'findPagination'.
+  [0m [90m 75 |[39m     })[33m;[39m[0m
+  [0m [90m 76 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 77 |[39m   [36masync[39m findPagination(page[33m:[39m number[33m,[39m perPage[33m:[39m number){[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 78 |[39m     [36mconst[39m skip [33m=[39m (page [33m-[39m [35m1[39m) [33m*[39m perPage[33m;[39m[0m
+  [0m [90m 79 |[39m     [36mconst[39m totalItems [33m=[39m [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mcount()[33m;[39m[0m
+  [0m [90m 80 |[39m     [36mconst[39m chitiets [33m=[39m [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mfind({ skip[33m,[39m take[33m:[39m perPage })[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m77:24[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'page'.
+  [0m [90m 75 |[39m     })[33m;[39m[0m
+  [0m [90m 76 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 77 |[39m   [36masync[39m findPagination(page[33m:[39m number[33m,[39m perPage[33m:[39m number){[0m
+  [0m [90m    |[39m                        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 78 |[39m     [36mconst[39m skip [33m=[39m (page [33m-[39m [35m1[39m) [33m*[39m perPage[33m;[39m[0m
+  [0m [90m 79 |[39m     [36mconst[39m totalItems [33m=[39m [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mcount()[33m;[39m[0m
+  [0m [90m 80 |[39m     [36mconst[39m chitiets [33m=[39m [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mfind({ skip[33m,[39m take[33m:[39m perPage })[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m77:30[22m[39m[1m[39m[22m
+[90mTS2693: [39m'number' only refers to a type, but is being used as a value here.
+  [0m [90m 75 |[39m     })[33m;[39m[0m
+  [0m [90m 76 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 77 |[39m   [36masync[39m findPagination(page[33m:[39m number[33m,[39m perPage[33m:[39m number){[0m
+  [0m [90m    |[39m                              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 78 |[39m     [36mconst[39m skip [33m=[39m (page [33m-[39m [35m1[39m) [33m*[39m perPage[33m;[39m[0m
+  [0m [90m 79 |[39m     [36mconst[39m totalItems [33m=[39m [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mcount()[33m;[39m[0m
+  [0m [90m 80 |[39m     [36mconst[39m chitiets [33m=[39m [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mfind({ skip[33m,[39m take[33m:[39m perPage })[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m77:38[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'perPage'.
+  [0m [90m 75 |[39m     })[33m;[39m[0m
+  [0m [90m 76 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 77 |[39m   [36masync[39m findPagination(page[33m:[39m number[33m,[39m perPage[33m:[39m number){[0m
+  [0m [90m    |[39m                                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 78 |[39m     [36mconst[39m skip [33m=[39m (page [33m-[39m [35m1[39m) [33m*[39m perPage[33m;[39m[0m
+  [0m [90m 79 |[39m     [36mconst[39m totalItems [33m=[39m [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mcount()[33m;[39m[0m
+  [0m [90m 80 |[39m     [36mconst[39m chitiets [33m=[39m [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mfind({ skip[33m,[39m take[33m:[39m perPage })[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m77:47[22m[39m[1m[39m[22m
+[90mTS2693: [39m'number' only refers to a type, but is being used as a value here.
+  [0m [90m 75 |[39m     })[33m;[39m[0m
+  [0m [90m 76 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 77 |[39m   [36masync[39m findPagination(page[33m:[39m number[33m,[39m perPage[33m:[39m number){[0m
+  [0m [90m    |[39m                                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 78 |[39m     [36mconst[39m skip [33m=[39m (page [33m-[39m [35m1[39m) [33m*[39m perPage[33m;[39m[0m
+  [0m [90m 79 |[39m     [36mconst[39m totalItems [33m=[39m [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mcount()[33m;[39m[0m
+  [0m [90m 80 |[39m     [36mconst[39m chitiets [33m=[39m [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mfind({ skip[33m,[39m take[33m:[39m perPage })[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m78:19[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'page'.
+  [0m [90m 76 |[39m   }[0m
+  [0m [90m 77 |[39m   [36masync[39m findPagination(page[33m:[39m number[33m,[39m perPage[33m:[39m number){[0m
+  [0m[31m[1m>[22m[39m[90m 78 |[39m     [36mconst[39m skip [33m=[39m (page [33m-[39m [35m1[39m) [33m*[39m perPage[33m;[39m[0m
+  [0m [90m    |[39m                   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 79 |[39m     [36mconst[39m totalItems [33m=[39m [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mcount()[33m;[39m[0m
+  [0m [90m 80 |[39m     [36mconst[39m chitiets [33m=[39m [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mfind({ skip[33m,[39m take[33m:[39m perPage })[33m;[39m[0m
+  [0m [90m 81 |[39m     [36mreturn[39m {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m78:31[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'perPage'.
+  [0m [90m 76 |[39m   }[0m
+  [0m [90m 77 |[39m   [36masync[39m findPagination(page[33m:[39m number[33m,[39m perPage[33m:[39m number){[0m
+  [0m[31m[1m>[22m[39m[90m 78 |[39m     [36mconst[39m skip [33m=[39m (page [33m-[39m [35m1[39m) [33m*[39m perPage[33m;[39m[0m
+  [0m [90m    |[39m                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 79 |[39m     [36mconst[39m totalItems [33m=[39m [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mcount()[33m;[39m[0m
+  [0m [90m 80 |[39m     [36mconst[39m chitiets [33m=[39m [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mfind({ skip[33m,[39m take[33m:[39m perPage })[33m;[39m[0m
+  [0m [90m 81 |[39m     [36mreturn[39m {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m79:30[22m[39m[1m[39m[22m
+[90mTS2532: [39mObject is possibly 'undefined'.
+  [0m [90m 77 |[39m   [36masync[39m findPagination(page[33m:[39m number[33m,[39m perPage[33m:[39m number){[0m
+  [0m [90m 78 |[39m     [36mconst[39m skip [33m=[39m (page [33m-[39m [35m1[39m) [33m*[39m perPage[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 79 |[39m     [36mconst[39m totalItems [33m=[39m [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mcount()[33m;[39m[0m
+  [0m [90m    |[39m                              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 80 |[39m     [36mconst[39m chitiets [33m=[39m [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mfind({ skip[33m,[39m take[33m:[39m perPage })[33m;[39m[0m
+  [0m [90m 81 |[39m     [36mreturn[39m {[0m
+  [0m [90m 82 |[39m       currentPage[33m:[39m page[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m80:28[22m[39m[1m[39m[22m
+[90mTS2532: [39mObject is possibly 'undefined'.
+  [0m [90m 78 |[39m     [36mconst[39m skip [33m=[39m (page [33m-[39m [35m1[39m) [33m*[39m perPage[33m;[39m[0m
+  [0m [90m 79 |[39m     [36mconst[39m totalItems [33m=[39m [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mcount()[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 80 |[39m     [36mconst[39m chitiets [33m=[39m [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mfind({ skip[33m,[39m take[33m:[39m perPage })[33m;[39m[0m
+  [0m [90m    |[39m                            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 81 |[39m     [36mreturn[39m {[0m
+  [0m [90m 82 |[39m       currentPage[33m:[39m page[33m,[39m[0m
+  [0m [90m 83 |[39m       perPage[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m80:70[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'perPage'.
+  [0m [90m 78 |[39m     [36mconst[39m skip [33m=[39m (page [33m-[39m [35m1[39m) [33m*[39m perPage[33m;[39m[0m
+  [0m [90m 79 |[39m     [36mconst[39m totalItems [33m=[39m [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mcount()[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 80 |[39m     [36mconst[39m chitiets [33m=[39m [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mfind({ skip[33m,[39m take[33m:[39m perPage })[33m;[39m[0m
+  [0m [90m    |[39m                                                                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 81 |[39m     [36mreturn[39m {[0m
+  [0m [90m 82 |[39m       currentPage[33m:[39m page[33m,[39m[0m
+  [0m [90m 83 |[39m       perPage[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m89:3[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'async'.
+  [0m [90m 87 |[39m     }[33m;[39m[0m
+  [0m [90m 88 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 89 |[39m   [36masync[39m findQuery(params[33m:[39m any) {[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 90 |[39m     console[33m.[39merror(params)[33m;[39m[0m
+  [0m [90m 91 |[39m     [36mconst[39m queryBuilder [33m=[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mcreateQueryBuilder([32m'chitiet'[39m)[33m;[39m[0m
+  [0m [90m 92 |[39m     [36mif[39m (params[33m.[39m[33mBatdau[39m [33m&&[39m params[33m.[39m[33mKetthuc[39m) {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m89:9[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'findQuery'.
+  [0m [90m 87 |[39m     }[33m;[39m[0m
+  [0m [90m 88 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 89 |[39m   [36masync[39m findQuery(params[33m:[39m any) {[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 90 |[39m     console[33m.[39merror(params)[33m;[39m[0m
+  [0m [90m 91 |[39m     [36mconst[39m queryBuilder [33m=[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mcreateQueryBuilder([32m'chitiet'[39m)[33m;[39m[0m
+  [0m [90m 92 |[39m     [36mif[39m (params[33m.[39m[33mBatdau[39m [33m&&[39m params[33m.[39m[33mKetthuc[39m) {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m89:19[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'params'.
+  [0m [90m 87 |[39m     }[33m;[39m[0m
+  [0m [90m 88 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 89 |[39m   [36masync[39m findQuery(params[33m:[39m any) {[0m
+  [0m [90m    |[39m                   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 90 |[39m     console[33m.[39merror(params)[33m;[39m[0m
+  [0m [90m 91 |[39m     [36mconst[39m queryBuilder [33m=[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mcreateQueryBuilder([32m'chitiet'[39m)[33m;[39m[0m
+  [0m [90m 92 |[39m     [36mif[39m (params[33m.[39m[33mBatdau[39m [33m&&[39m params[33m.[39m[33mKetthuc[39m) {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m89:27[22m[39m[1m[39m[22m
+[90mTS2693: [39m'any' only refers to a type, but is being used as a value here.
+  [0m [90m 87 |[39m     }[33m;[39m[0m
+  [0m [90m 88 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 89 |[39m   [36masync[39m findQuery(params[33m:[39m any) {[0m
+  [0m [90m    |[39m                           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 90 |[39m     console[33m.[39merror(params)[33m;[39m[0m
+  [0m [90m 91 |[39m     [36mconst[39m queryBuilder [33m=[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mcreateQueryBuilder([32m'chitiet'[39m)[33m;[39m[0m
+  [0m [90m 92 |[39m     [36mif[39m (params[33m.[39m[33mBatdau[39m [33m&&[39m params[33m.[39m[33mKetthuc[39m) {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m90:19[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'params'.
+  [0m [90m 88 |[39m   }[0m
+  [0m [90m 89 |[39m   [36masync[39m findQuery(params[33m:[39m any) {[0m
+  [0m[31m[1m>[22m[39m[90m 90 |[39m     console[33m.[39merror(params)[33m;[39m[0m
+  [0m [90m    |[39m                   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 91 |[39m     [36mconst[39m queryBuilder [33m=[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mcreateQueryBuilder([32m'chitiet'[39m)[33m;[39m[0m
+  [0m [90m 92 |[39m     [36mif[39m (params[33m.[39m[33mBatdau[39m [33m&&[39m params[33m.[39m[33mKetthuc[39m) {[0m
+  [0m [90m 93 |[39m       queryBuilder[33m.[39mandWhere([32m'chitiet.CreateAt BETWEEN :startDate AND :endDate'[39m[33m,[39m {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m91:26[22m[39m[1m[39m[22m
+[90mTS2532: [39mObject is possibly 'undefined'.
+  [0m [90m 89 |[39m   [36masync[39m findQuery(params[33m:[39m any) {[0m
+  [0m [90m 90 |[39m     console[33m.[39merror(params)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 91 |[39m     [36mconst[39m queryBuilder [33m=[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mcreateQueryBuilder([32m'chitiet'[39m)[33m;[39m[0m
+  [0m [90m    |[39m                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 92 |[39m     [36mif[39m (params[33m.[39m[33mBatdau[39m [33m&&[39m params[33m.[39m[33mKetthuc[39m) {[0m
+  [0m [90m 93 |[39m       queryBuilder[33m.[39mandWhere([32m'chitiet.CreateAt BETWEEN :startDate AND :endDate'[39m[33m,[39m {[0m
+  [0m [90m 94 |[39m         startDate[33m:[39mparams[33m.[39m[33mBatdau[39m[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m92:9[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'params'.
+  [0m [90m 90 |[39m     console[33m.[39merror(params)[33m;[39m[0m
+  [0m [90m 91 |[39m     [36mconst[39m queryBuilder [33m=[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mcreateQueryBuilder([32m'chitiet'[39m)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 92 |[39m     [36mif[39m (params[33m.[39m[33mBatdau[39m [33m&&[39m params[33m.[39m[33mKetthuc[39m) {[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 93 |[39m       queryBuilder[33m.[39mandWhere([32m'chitiet.CreateAt BETWEEN :startDate AND :endDate'[39m[33m,[39m {[0m
+  [0m [90m 94 |[39m         startDate[33m:[39mparams[33m.[39m[33mBatdau[39m[33m,[39m[0m
+  [0m [90m 95 |[39m         endDate[33m:[39mparams[33m.[39m[33mKetthuc[39m[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m92:26[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'params'.
+  [0m [90m 90 |[39m     console[33m.[39merror(params)[33m;[39m[0m
+  [0m [90m 91 |[39m     [36mconst[39m queryBuilder [33m=[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mcreateQueryBuilder([32m'chitiet'[39m)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 92 |[39m     [36mif[39m (params[33m.[39m[33mBatdau[39m [33m&&[39m params[33m.[39m[33mKetthuc[39m) {[0m
+  [0m [90m    |[39m                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 93 |[39m       queryBuilder[33m.[39mandWhere([32m'chitiet.CreateAt BETWEEN :startDate AND :endDate'[39m[33m,[39m {[0m
+  [0m [90m 94 |[39m         startDate[33m:[39mparams[33m.[39m[33mBatdau[39m[33m,[39m[0m
+  [0m [90m 95 |[39m         endDate[33m:[39mparams[33m.[39m[33mKetthuc[39m[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m94:19[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'params'.
+  [0m [90m 92 |[39m     [36mif[39m (params[33m.[39m[33mBatdau[39m [33m&&[39m params[33m.[39m[33mKetthuc[39m) {[0m
+  [0m [90m 93 |[39m       queryBuilder[33m.[39mandWhere([32m'chitiet.CreateAt BETWEEN :startDate AND :endDate'[39m[33m,[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 94 |[39m         startDate[33m:[39mparams[33m.[39m[33mBatdau[39m[33m,[39m[0m
+  [0m [90m    |[39m                   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 95 |[39m         endDate[33m:[39mparams[33m.[39m[33mKetthuc[39m[33m,[39m[0m
+  [0m [90m 96 |[39m       })[33m;[39m[0m
+  [0m [90m 97 |[39m     }[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m95:17[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'params'.
+  [0m [90m 93 |[39m       queryBuilder[33m.[39mandWhere([32m'chitiet.CreateAt BETWEEN :startDate AND :endDate'[39m[33m,[39m {[0m
+  [0m [90m 94 |[39m         startDate[33m:[39mparams[33m.[39m[33mBatdau[39m[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 95 |[39m         endDate[33m:[39mparams[33m.[39m[33mKetthuc[39m[33m,[39m[0m
+  [0m [90m    |[39m                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 96 |[39m       })[33m;[39m[0m
+  [0m [90m 97 |[39m     }[0m
+  [0m [90m 98 |[39m     [36mif[39m (params[33m.[39m[33mTitle[39m) {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m98:9[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'params'.
+  [0m [90m  96 |[39m       })[33m;[39m[0m
+  [0m [90m  97 |[39m     }[0m
+  [0m[31m[1m>[22m[39m[90m  98 |[39m     [36mif[39m (params[33m.[39m[33mTitle[39m) {[0m
+  [0m [90m     |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m  99 |[39m       queryBuilder[33m.[39mandWhere([32m'chitiet.Title LIKE :Title'[39m[33m,[39m { [33mSDT[39m[33m:[39m [32m`%${params.Title}%`[39m })[33m;[39m[0m
+  [0m [90m 100 |[39m     }[0m
+  [0m [90m 101 |[39m     [36mconst[39m [items[33m,[39m totalCount] [33m=[39m [36mawait[39m queryBuilder[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m99:69[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'params'.
+  [0m [90m  97 |[39m     }[0m
+  [0m [90m  98 |[39m     [36mif[39m (params[33m.[39m[33mTitle[39m) {[0m
+  [0m[31m[1m>[22m[39m[90m  99 |[39m       queryBuilder[33m.[39mandWhere([32m'chitiet.Title LIKE :Title'[39m[33m,[39m { [33mSDT[39m[33m:[39m [32m`%${params.Title}%`[39m })[33m;[39m[0m
+  [0m [90m     |[39m                                                                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 100 |[39m     }[0m
+  [0m [90m 101 |[39m     [36mconst[39m [items[33m,[39m totalCount] [33m=[39m [36mawait[39m queryBuilder[0m
+  [0m [90m 102 |[39m     [33m.[39mlimit(params[33m.[39mpageSize [33m||[39m [35m10[39m) [90m// Set a default page size if not provided[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m102:12[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'params'.
+  [0m [90m 100 |[39m     }[0m
+  [0m [90m 101 |[39m     [36mconst[39m [items[33m,[39m totalCount] [33m=[39m [36mawait[39m queryBuilder[0m
+  [0m[31m[1m>[22m[39m[90m 102 |[39m     [33m.[39mlimit(params[33m.[39mpageSize [33m||[39m [35m10[39m) [90m// Set a default page size if not provided[39m[0m
+  [0m [90m     |[39m            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 103 |[39m     [33m.[39moffset(params[33m.[39mpageNumber [33m*[39m params[33m.[39mpageSize [33m||[39m [35m0[39m)[0m
+  [0m [90m 104 |[39m     [33m.[39mgetManyAndCount()[33m;[39m[0m
+  [0m [90m 105 |[39m   [36mreturn[39m { items[33m,[39m totalCount }[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m103:13[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'params'.
+  [0m [90m 101 |[39m     [36mconst[39m [items[33m,[39m totalCount] [33m=[39m [36mawait[39m queryBuilder[0m
+  [0m [90m 102 |[39m     [33m.[39mlimit(params[33m.[39mpageSize [33m||[39m [35m10[39m) [90m// Set a default page size if not provided[39m[0m
+  [0m[31m[1m>[22m[39m[90m 103 |[39m     [33m.[39moffset(params[33m.[39mpageNumber [33m*[39m params[33m.[39mpageSize [33m||[39m [35m0[39m)[0m
+  [0m [90m     |[39m             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 104 |[39m     [33m.[39mgetManyAndCount()[33m;[39m[0m
+  [0m [90m 105 |[39m   [36mreturn[39m { items[33m,[39m totalCount }[33m;[39m[0m
+  [0m [90m 106 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m103:33[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'params'.
+  [0m [90m 101 |[39m     [36mconst[39m [items[33m,[39m totalCount] [33m=[39m [36mawait[39m queryBuilder[0m
+  [0m [90m 102 |[39m     [33m.[39mlimit(params[33m.[39mpageSize [33m||[39m [35m10[39m) [90m// Set a default page size if not provided[39m[0m
+  [0m[31m[1m>[22m[39m[90m 103 |[39m     [33m.[39moffset(params[33m.[39mpageNumber [33m*[39m params[33m.[39mpageSize [33m||[39m [35m0[39m)[0m
+  [0m [90m     |[39m                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 104 |[39m     [33m.[39mgetManyAndCount()[33m;[39m[0m
+  [0m [90m 105 |[39m   [36mreturn[39m { items[33m,[39m totalCount }[33m;[39m[0m
+  [0m [90m 106 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m107:3[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'async'.
+  [0m [90m 105 |[39m   [36mreturn[39m { items[33m,[39m totalCount }[33m;[39m[0m
+  [0m [90m 106 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 107 |[39m   [36masync[39m update(id[33m:[39m string[33m,[39m [33mUpdateChitietDto[39m[33m:[39m [33mUpdateChitietDto[39m) {[0m
+  [0m [90m     |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 108 |[39m     [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39msave([33mUpdateChitietDto[39m)[33m;[39m[0m
+  [0m [90m 109 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mfindOne({ where[33m:[39m { id[33m:[39m id } })[33m;[39m[0m
+  [0m [90m 110 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m107:9[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'update'.
+  [0m [90m 105 |[39m   [36mreturn[39m { items[33m,[39m totalCount }[33m;[39m[0m
+  [0m [90m 106 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 107 |[39m   [36masync[39m update(id[33m:[39m string[33m,[39m [33mUpdateChitietDto[39m[33m:[39m [33mUpdateChitietDto[39m) {[0m
+  [0m [90m     |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 108 |[39m     [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39msave([33mUpdateChitietDto[39m)[33m;[39m[0m
+  [0m [90m 109 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mfindOne({ where[33m:[39m { id[33m:[39m id } })[33m;[39m[0m
+  [0m [90m 110 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m107:16[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'id'.
+  [0m [90m 105 |[39m   [36mreturn[39m { items[33m,[39m totalCount }[33m;[39m[0m
+  [0m [90m 106 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 107 |[39m   [36masync[39m update(id[33m:[39m string[33m,[39m [33mUpdateChitietDto[39m[33m:[39m [33mUpdateChitietDto[39m) {[0m
+  [0m [90m     |[39m                [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 108 |[39m     [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39msave([33mUpdateChitietDto[39m)[33m;[39m[0m
+  [0m [90m 109 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mfindOne({ where[33m:[39m { id[33m:[39m id } })[33m;[39m[0m
+  [0m [90m 110 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m107:20[22m[39m[1m[39m[22m
+[90mTS2693: [39m'string' only refers to a type, but is being used as a value here.
+  [0m [90m 105 |[39m   [36mreturn[39m { items[33m,[39m totalCount }[33m;[39m[0m
+  [0m [90m 106 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 107 |[39m   [36masync[39m update(id[33m:[39m string[33m,[39m [33mUpdateChitietDto[39m[33m:[39m [33mUpdateChitietDto[39m) {[0m
+  [0m [90m     |[39m                    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 108 |[39m     [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39msave([33mUpdateChitietDto[39m)[33m;[39m[0m
+  [0m [90m 109 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mfindOne({ where[33m:[39m { id[33m:[39m id } })[33m;[39m[0m
+  [0m [90m 110 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m108:5[22m[39m[1m[39m[22m
+[90mTS2532: [39mObject is possibly 'undefined'.
+  [0m [90m 106 |[39m   }[0m
+  [0m [90m 107 |[39m   [36masync[39m update(id[33m:[39m string[33m,[39m [33mUpdateChitietDto[39m[33m:[39m [33mUpdateChitietDto[39m) {[0m
+  [0m[31m[1m>[22m[39m[90m 108 |[39m     [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39msave([33mUpdateChitietDto[39m)[33m;[39m[0m
+  [0m [90m     |[39m     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 109 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mfindOne({ where[33m:[39m { id[33m:[39m id } })[33m;[39m[0m
+  [0m [90m 110 |[39m   }[0m
+  [0m [90m 111 |[39m   [36masync[39m remove(id[33m:[39m string) {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m111:3[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'async'.
+  [0m [90m 109 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mfindOne({ where[33m:[39m { id[33m:[39m id } })[33m;[39m[0m
+  [0m [90m 110 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 111 |[39m   [36masync[39m remove(id[33m:[39m string) {[0m
+  [0m [90m     |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 112 |[39m     console[33m.[39merror(id)[0m
+  [0m [90m 113 |[39m     [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39m[36mdelete[39m(id)[33m;[39m[0m
+  [0m [90m 114 |[39m     [36mreturn[39m { deleted[33m:[39m [36mtrue[39m }[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m111:9[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'remove'.
+  [0m [90m 109 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mfindOne({ where[33m:[39m { id[33m:[39m id } })[33m;[39m[0m
+  [0m [90m 110 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 111 |[39m   [36masync[39m remove(id[33m:[39m string) {[0m
+  [0m [90m     |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 112 |[39m     console[33m.[39merror(id)[0m
+  [0m [90m 113 |[39m     [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39m[36mdelete[39m(id)[33m;[39m[0m
+  [0m [90m 114 |[39m     [36mreturn[39m { deleted[33m:[39m [36mtrue[39m }[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m111:16[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'id'.
+  [0m [90m 109 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mfindOne({ where[33m:[39m { id[33m:[39m id } })[33m;[39m[0m
+  [0m [90m 110 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 111 |[39m   [36masync[39m remove(id[33m:[39m string) {[0m
+  [0m [90m     |[39m                [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 112 |[39m     console[33m.[39merror(id)[0m
+  [0m [90m 113 |[39m     [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39m[36mdelete[39m(id)[33m;[39m[0m
+  [0m [90m 114 |[39m     [36mreturn[39m { deleted[33m:[39m [36mtrue[39m }[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m111:20[22m[39m[1m[39m[22m
+[90mTS2693: [39m'string' only refers to a type, but is being used as a value here.
+  [0m [90m 109 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mfindOne({ where[33m:[39m { id[33m:[39m id } })[33m;[39m[0m
+  [0m [90m 110 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 111 |[39m   [36masync[39m remove(id[33m:[39m string) {[0m
+  [0m [90m     |[39m                    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 112 |[39m     console[33m.[39merror(id)[0m
+  [0m [90m 113 |[39m     [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39m[36mdelete[39m(id)[33m;[39m[0m
+  [0m [90m 114 |[39m     [36mreturn[39m { deleted[33m:[39m [36mtrue[39m }[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m112:19[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'id'.
+  [0m [90m 110 |[39m   }[0m
+  [0m [90m 111 |[39m   [36masync[39m remove(id[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 112 |[39m     console[33m.[39merror(id)[0m
+  [0m [90m     |[39m                   [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 113 |[39m     [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39m[36mdelete[39m(id)[33m;[39m[0m
+  [0m [90m 114 |[39m     [36mreturn[39m { deleted[33m:[39m [36mtrue[39m }[33m;[39m[0m
+  [0m [90m 115 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m113:11[22m[39m[1m[39m[22m
+[90mTS2532: [39mObject is possibly 'undefined'.
+  [0m [90m 111 |[39m   [36masync[39m remove(id[33m:[39m string) {[0m
+  [0m [90m 112 |[39m     console[33m.[39merror(id)[0m
+  [0m[31m[1m>[22m[39m[90m 113 |[39m     [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39m[36mdelete[39m(id)[33m;[39m[0m
+  [0m [90m     |[39m           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 114 |[39m     [36mreturn[39m { deleted[33m:[39m [36mtrue[39m }[33m;[39m[0m
+  [0m [90m 115 |[39m   }[0m
+  [0m [90m 116 |[39m }[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m113:41[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'id'.
+  [0m [90m 111 |[39m   [36masync[39m remove(id[33m:[39m string) {[0m
+  [0m [90m 112 |[39m     console[33m.[39merror(id)[0m
+  [0m[31m[1m>[22m[39m[90m 113 |[39m     [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39m[36mdelete[39m(id)[33m;[39m[0m
+  [0m [90m     |[39m                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 114 |[39m     [36mreturn[39m { deleted[33m:[39m [36mtrue[39m }[33m;[39m[0m
+  [0m [90m 115 |[39m   }[0m
+  [0m [90m 116 |[39m }[0m
+
+webpack compiled with [1m[31m89 errors[39m[22m (52075323cd97dde9)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 99.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (c5e261eed19a6e7d)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 99.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (39040803dbccf5b2)
+[1m[31mDebugger listening on ws://localhost:9229/92a90027-dd52-45f6-b895-7cffb980bfeb[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/92a90027-dd52-45f6-b895-7cffb980bfeb[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 99.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts[39m[22m
+[1m./src/app/chitiet/chitiet.service.ts[39m[22m [1m[32m38:18-20[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts(38,19)[39m[22m
+[1m[31m      TS1121: Octal literals are not allowed. Use the syntax '0o1'.[39m[22m
+
+webpack compiled with [1m[31m1 error[39m[22m (d05eff79e7a975f5)
+[1m[31mDebugger listening on ws://localhost:9229/5abef935-bcb2-432d-b239-d6f20d5dd399[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/5abef935-bcb2-432d-b239-d6f20d5dd399[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 99.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts[39m[22m
+[1m./src/app/chitiet/chitiet.service.ts[39m[22m [1m[32m38:18-20[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts(38,19)[39m[22m
+[1m[31m      TS1121: Octal literals are not allowed. Use the syntax '0o1'.[39m[22m
+
+webpack compiled with [1m[31m1 error[39m[22m (737f02aa6261c408)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 99.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts[39m[22m
+[1m./src/app/chitiet/chitiet.service.ts[39m[22m [1m[32m38:18-20[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts(38,19)[39m[22m
+[1m[31m      TS1121: Octal literals are not allowed. Use the syntax '0o1'.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts[39m[22m
+[1m./src/app/chitiet/chitiet.service.ts[39m[22m [1m[32m39:20[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts(39,21)[39m[22m
+[1m[31m      TS1002: Unterminated string literal.[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/chitiet/chitiet.service.ts[39m[22m [1m[32m40:21[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: Unterminated string constant (40:21)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|         queryBuilder.andWhere('chitiet.thang BETWEEN :startDate AND :endDate', {
+|             startDate: 1,
+>             endDate: "11,
+|         });
+|         if (params.Title) {[39m[22m
+
+webpack compiled with [1m[31m3 errors[39m[22m (c95ad446a9f9a637)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 99.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (240a29c582424a3f)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 99.1 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (240a29c582424a3f)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 99.1 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (240a29c582424a3f)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 99.1 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (240a29c582424a3f)
+[1m[31mDebugger listening on ws://localhost:9229/b2f7be57-2574-497d-aedb-4c0cb66d45fd[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/b2f7be57-2574-497d-aedb-4c0cb66d45fd[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 99 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (8809b35b5dfec076)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 99 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (8809b35b5dfec076)
+[1m[31mDebugger listening on ws://localhost:9229/ec44e71a-1af7-4026-a82f-ff2ffe15d886[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/ec44e71a-1af7-4026-a82f-ff2ffe15d886[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 99 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (da512190bb95843e)
+[1m[31mDebugger listening on ws://localhost:9229/4f8ce9b3-392a-4541-8db4-d2022fc167e7[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/4f8ce9b3-392a-4541-8db4-d2022fc167e7[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 99 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (f110e1dc28e4d337)
+[1m[31mDebugger listening on ws://localhost:9229/9b7a350b-7416-4da6-bdfe-a19a65c53bdd[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/9b7a350b-7416-4da6-bdfe-a19a65c53bdd[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 99 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (b3c4306d316fbe78)
+[1m[31mDebugger listening on ws://localhost:9229/e9ddb3d7-431a-496a-b270-d264de1bce50[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/e9ddb3d7-431a-496a-b270-d264de1bce50[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 99 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (520e47d6c5d3109c)
+[1m[31mDebugger listening on ws://localhost:9229/19d2abf7-48cc-4ddc-954f-13091453b329[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/19d2abf7-48cc-4ddc-954f-13091453b329[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 99 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (2cac54303041dd66)
+[1m[31mDebugger listening on ws://localhost:9229/34b3fb91-cb77-43c0-ba3b-fe650239dac5[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/34b3fb91-cb77-43c0-ba3b-fe650239dac5[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 99 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (eb5ba42e4bb30bd9)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 99 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (eb5ba42e4bb30bd9)
+[1m[31mDebugger listening on ws://localhost:9229/bb5e1840-4195-4693-8e41-ae9aa6cb100c[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/bb5e1840-4195-4693-8e41-ae9aa6cb100c[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 99 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (fd7ab720b7a540f5)
+[1m[31mDebugger listening on ws://localhost:9229/2e8863e2-b438-4db7-b24f-4f00757d0ef3[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/2e8863e2-b438-4db7-b24f-4f00757d0ef3[39m[22m
+[1m[31m[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 99 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (4f07ad5146a03576)
+[1m[31mDebugger listening on ws://localhost:9229/f1361e08-2c8b-4440-bad9-7c7d4644918f[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/f1361e08-2c8b-4440-bad9-7c7d4644918f[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 99 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (2d1a4f2f6b60b057)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 99 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (2d1a4f2f6b60b057)
+[1m[31mDebugger listening on ws://localhost:9229/71b03ae0-1db1-46e6-b328-e1e2efab5513[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/71b03ae0-1db1-46e6-b328-e1e2efab5513[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 99 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (2d1a4f2f6b60b057)
+[1m[31mDebugger listening on ws://localhost:9229/f3135714-5942-4b5c-97b3-4d7a64f19785[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/f3135714-5942-4b5c-97b3-4d7a64f19785[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 98.8 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts[39m[22m
+[1m./src/app/chitiet/chitiet.service.ts[39m[22m [1m[32m42:30-31[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts(42,31)[39m[22m
+[1m[31m      TS1005: ';' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts[39m[22m
+[1m./src/app/chitiet/chitiet.service.ts[39m[22m [1m[32m42:32-37[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts(42,33)[39m[22m
+[1m[31m      TS1068: Unexpected token. A constructor, method, accessor, or property was expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts[39m[22m
+[1m./src/app/chitiet/chitiet.service.ts[39m[22m [1m[32m47:2-3[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts(47,3)[39m[22m
+[1m[31m      TS1128: Declaration or statement expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/chitiet/chitiet.service.ts[39m[22m [1m[32m55:0[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: 'return' outside of function (55:0)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|     .offset(params.pageNumber * params.pageSize || 0)
+|     .getManyAndCount();
+> return { items, totalCount };
+| // async findThang(data: any) {
+| //   return await this.ChitietRepository.find({[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts[39m[22m
+[1m./src/app/chitiet/chitiet.service.ts[39m[22m [1m[32m57:2-7[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts(57,3)[39m[22m
+[1m[31m      TS1434: Unexpected keyword or identifier.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts[39m[22m
+[1m./src/app/chitiet/chitiet.service.ts[39m[22m [1m[32m57:18-19[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts(57,19)[39m[22m
+[1m[31m      TS1005: ';' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts[39m[22m
+[1m./src/app/chitiet/chitiet.service.ts[39m[22m [1m[32m60:2-7[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts(60,3)[39m[22m
+[1m[31m      TS1434: Unexpected keyword or identifier.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts[39m[22m
+[1m./src/app/chitiet/chitiet.service.ts[39m[22m [1m[32m60:17-18[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts(60,18)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts[39m[22m
+[1m./src/app/chitiet/chitiet.service.ts[39m[22m [1m[32m60:27-28[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts(60,28)[39m[22m
+[1m[31m      TS1005: ';' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts[39m[22m
+[1m./src/app/chitiet/chitiet.service.ts[39m[22m [1m[32m66:2-7[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts(66,3)[39m[22m
+[1m[31m      TS1434: Unexpected keyword or identifier.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts[39m[22m
+[1m./src/app/chitiet/chitiet.service.ts[39m[22m [1m[32m66:20-21[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts(66,21)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts[39m[22m
+[1m./src/app/chitiet/chitiet.service.ts[39m[22m [1m[32m66:27-28[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts(66,28)[39m[22m
+[1m[31m      TS1005: ';' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts[39m[22m
+[1m./src/app/chitiet/chitiet.service.ts[39m[22m [1m[32m74:2-7[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts(74,3)[39m[22m
+[1m[31m      TS1434: Unexpected keyword or identifier.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts[39m[22m
+[1m./src/app/chitiet/chitiet.service.ts[39m[22m [1m[32m74:27-28[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts(74,28)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts[39m[22m
+[1m./src/app/chitiet/chitiet.service.ts[39m[22m [1m[32m74:44-45[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts(74,45)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts[39m[22m
+[1m./src/app/chitiet/chitiet.service.ts[39m[22m [1m[32m74:53-54[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts(74,54)[39m[22m
+[1m[31m      TS1005: ';' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts[39m[22m
+[1m./src/app/chitiet/chitiet.service.ts[39m[22m [1m[32m86:2-7[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts(86,3)[39m[22m
+[1m[31m      TS1434: Unexpected keyword or identifier.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts[39m[22m
+[1m./src/app/chitiet/chitiet.service.ts[39m[22m [1m[32m86:24-25[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts(86,25)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts[39m[22m
+[1m./src/app/chitiet/chitiet.service.ts[39m[22m [1m[32m86:31-32[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts(86,32)[39m[22m
+[1m[31m      TS1005: ';' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts[39m[22m
+[1m./src/app/chitiet/chitiet.service.ts[39m[22m [1m[32m104:2-7[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts(104,3)[39m[22m
+[1m[31m      TS1434: Unexpected keyword or identifier.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts[39m[22m
+[1m./src/app/chitiet/chitiet.service.ts[39m[22m [1m[32m104:17-18[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts(104,18)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts[39m[22m
+[1m./src/app/chitiet/chitiet.service.ts[39m[22m [1m[32m104:43-44[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts(104,44)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts[39m[22m
+[1m./src/app/chitiet/chitiet.service.ts[39m[22m [1m[32m104:63-64[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts(104,64)[39m[22m
+[1m[31m      TS1005: ';' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts[39m[22m
+[1m./src/app/chitiet/chitiet.service.ts[39m[22m [1m[32m108:2-7[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts(108,3)[39m[22m
+[1m[31m      TS1434: Unexpected keyword or identifier.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts[39m[22m
+[1m./src/app/chitiet/chitiet.service.ts[39m[22m [1m[32m108:17-18[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts(108,18)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts[39m[22m
+[1m./src/app/chitiet/chitiet.service.ts[39m[22m [1m[32m108:27-28[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts(108,28)[39m[22m
+[1m[31m      TS1005: ';' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts[39m[22m
+[1m./src/app/chitiet/chitiet.service.ts[39m[22m [1m[32m113:0-1[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts(113,1)[39m[22m
+[1m[31m      TS1128: Declaration or statement expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.controller.ts:[32m[1m15:38[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findAll' does not exist on type 'ChitietService'.
+  [0m [90m 13 |[39m   [33m@[39m[33mGet[39m()[0m
+  [0m [90m 14 |[39m   [36masync[39m findAll() {[0m
+  [0m[31m[1m>[22m[39m[90m 15 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39mchitietService[33m.[39mfindAll()[33m;[39m[0m
+  [0m [90m    |[39m                                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 16 |[39m   }[0m
+  [0m [90m 17 |[39m   [33m@[39m[33mGet[39m([32m'findid/:id'[39m)[0m
+  [0m [90m 18 |[39m   [36masync[39m findOne([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.controller.ts:[32m[1m19:38[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findid' does not exist on type 'ChitietService'.
+  [0m [90m 17 |[39m   [33m@[39m[33mGet[39m([32m'findid/:id'[39m)[0m
+  [0m [90m 18 |[39m   [36masync[39m findOne([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 19 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39mchitietService[33m.[39mfindid(id)[33m;[39m[0m
+  [0m [90m    |[39m                                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 20 |[39m   }[0m
+  [0m [90m 21 |[39m   [33m@[39m[33mGet[39m([32m'findslug/:slug'[39m)[0m
+  [0m [90m 22 |[39m   [36masync[39m findslug([33m@[39m[33mParam[39m([32m'slug'[39m) slug[33m:[39m string) {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.controller.ts:[32m[1m23:38[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findSHD' does not exist on type 'ChitietService'.
+  [0m [90m 21 |[39m   [33m@[39m[33mGet[39m([32m'findslug/:slug'[39m)[0m
+  [0m [90m 22 |[39m   [36masync[39m findslug([33m@[39m[33mParam[39m([32m'slug'[39m) slug[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 23 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39mchitietService[33m.[39mfindSHD(slug)[33m;[39m[0m
+  [0m [90m    |[39m                                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 24 |[39m   }[0m
+  [0m [90m 25 |[39m   [33m@[39m[33mGet[39m([32m'pagination'[39m)[0m
+  [0m [90m 26 |[39m   [36masync[39m findPagination([33m@[39m[33mQuery[39m([32m'page'[39m) page[33m:[39m number[33m,[39m [33m@[39m[33mQuery[39m([32m'perPage'[39m) perPage[33m:[39m number) {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.controller.ts:[32m[1m27:38[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findPagination' does not exist on type 'ChitietService'.
+  [0m [90m 25 |[39m   [33m@[39m[33mGet[39m([32m'pagination'[39m)[0m
+  [0m [90m 26 |[39m   [36masync[39m findPagination([33m@[39m[33mQuery[39m([32m'page'[39m) page[33m:[39m number[33m,[39m [33m@[39m[33mQuery[39m([32m'perPage'[39m) perPage[33m:[39m number) {[0m
+  [0m[31m[1m>[22m[39m[90m 27 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39mchitietService[33m.[39mfindPagination(page[33m,[39m perPage)[33m;[39m[0m
+  [0m [90m    |[39m                                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 28 |[39m   }[0m
+  [0m [90m 29 |[39m   [33m@[39m[33mPost[39m([32m'findthang'[39m)[0m
+  [0m [90m 30 |[39m   [36masync[39m findThang([33m@[39m[33mBody[39m() data[33m:[39m any) {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.controller.ts:[32m[1m35:38[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findQuery' does not exist on type 'ChitietService'.
+  [0m [90m 33 |[39m   [33m@[39m[33mPost[39m([32m'search'[39m)[0m
+  [0m [90m 34 |[39m   [36masync[39m findQuery([33m@[39m[33mBody[39m() [33mSearchParams[39m[33m:[39m any) {[0m
+  [0m[31m[1m>[22m[39m[90m 35 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39mchitietService[33m.[39mfindQuery([33mSearchParams[39m)[33m;[39m[0m
+  [0m [90m    |[39m                                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 36 |[39m   }[0m
+  [0m [90m 37 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+  [0m [90m 38 |[39m   update([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string[33m,[39m [33m@[39m[33mBody[39m() updateChitietDto[33m:[39m [33mUpdateChitietDto[39m) {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.controller.ts:[32m[1m39:32[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'update' does not exist on type 'ChitietService'.
+  [0m [90m 37 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+  [0m [90m 38 |[39m   update([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string[33m,[39m [33m@[39m[33mBody[39m() updateChitietDto[33m:[39m [33mUpdateChitietDto[39m) {[0m
+  [0m[31m[1m>[22m[39m[90m 39 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mchitietService[33m.[39mupdate(id[33m,[39m updateChitietDto)[33m;[39m[0m
+  [0m [90m    |[39m                                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 40 |[39m   }[0m
+  [0m [90m 41 |[39m[0m
+  [0m [90m 42 |[39m   [33m@[39m[33mDelete[39m([32m':id'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.controller.ts:[32m[1m44:32[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'remove' does not exist on type 'ChitietService'.
+  [0m [90m 42 |[39m   [33m@[39m[33mDelete[39m([32m':id'[39m)[0m
+  [0m [90m 43 |[39m   remove([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 44 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mchitietService[33m.[39mremove(id)[33m;[39m[0m
+  [0m [90m    |[39m                                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 45 |[39m   }[0m
+  [0m [90m 46 |[39m }[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m15:29[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findSHD' does not exist on type 'ChitietService'.
+  [0m [90m 13 |[39m   [36masync[39m create([33mCreateChitietDto[39m[33m:[39m any) {[0m
+  [0m [90m 14 |[39m     console[33m.[39mlog([33mCreateChitietDto[39m)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 15 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindSHD([33mCreateChitietDto[39m)[0m
+  [0m [90m    |[39m                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 16 |[39m     console[33m.[39mlog(item)[33m;[39m[0m
+  [0m [90m 17 |[39m     [36mif[39m (item) {[0m
+  [0m [90m 18 |[39m       [36mreturn[39m {res[33m:[39m[32m"Trùng SHD"[39m}[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m42:39[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'queryBuilder'.
+  [0m [90m 40 |[39m       queryBuilder[33m.[39mandWhere([32m'chitiet.nam = 2023'[39m)[33m;[39m[0m
+  [0m [90m 41 |[39m     }[0m
+  [0m[31m[1m>[22m[39m[90m 42 |[39m     [36mconst[39m [items[33m,[39m totalCount] [33m=[39m [36mawait[39m queryBuilder[0m
+  [0m [90m    |[39m                                       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 43 |[39m     [33m.[39mlimit(params[33m.[39mpageSize [33m||[39m [35m10[39m) [90m// Set a default page size if not provided[39m[0m
+  [0m [90m 44 |[39m     [33m.[39moffset(params[33m.[39mpageNumber [33m*[39m params[33m.[39mpageSize [33m||[39m [35m0[39m)[0m
+  [0m [90m 45 |[39m     [33m.[39mgetManyAndCount()[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m43:12[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'params'.
+  [0m [90m 41 |[39m     }[0m
+  [0m [90m 42 |[39m     [36mconst[39m [items[33m,[39m totalCount] [33m=[39m [36mawait[39m queryBuilder[0m
+  [0m[31m[1m>[22m[39m[90m 43 |[39m     [33m.[39mlimit(params[33m.[39mpageSize [33m||[39m [35m10[39m) [90m// Set a default page size if not provided[39m[0m
+  [0m [90m    |[39m            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 44 |[39m     [33m.[39moffset(params[33m.[39mpageNumber [33m*[39m params[33m.[39mpageSize [33m||[39m [35m0[39m)[0m
+  [0m [90m 45 |[39m     [33m.[39mgetManyAndCount()[33m;[39m[0m
+  [0m [90m 46 |[39m   [36mreturn[39m { items[33m,[39m totalCount }[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m44:13[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'params'.
+  [0m [90m 42 |[39m     [36mconst[39m [items[33m,[39m totalCount] [33m=[39m [36mawait[39m queryBuilder[0m
+  [0m [90m 43 |[39m     [33m.[39mlimit(params[33m.[39mpageSize [33m||[39m [35m10[39m) [90m// Set a default page size if not provided[39m[0m
+  [0m[31m[1m>[22m[39m[90m 44 |[39m     [33m.[39moffset(params[33m.[39mpageNumber [33m*[39m params[33m.[39mpageSize [33m||[39m [35m0[39m)[0m
+  [0m [90m    |[39m             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 45 |[39m     [33m.[39mgetManyAndCount()[33m;[39m[0m
+  [0m [90m 46 |[39m   [36mreturn[39m { items[33m,[39m totalCount }[33m;[39m[0m
+  [0m [90m 47 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m44:33[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'params'.
+  [0m [90m 42 |[39m     [36mconst[39m [items[33m,[39m totalCount] [33m=[39m [36mawait[39m queryBuilder[0m
+  [0m [90m 43 |[39m     [33m.[39mlimit(params[33m.[39mpageSize [33m||[39m [35m10[39m) [90m// Set a default page size if not provided[39m[0m
+  [0m[31m[1m>[22m[39m[90m 44 |[39m     [33m.[39moffset(params[33m.[39mpageNumber [33m*[39m params[33m.[39mpageSize [33m||[39m [35m0[39m)[0m
+  [0m [90m    |[39m                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 45 |[39m     [33m.[39mgetManyAndCount()[33m;[39m[0m
+  [0m [90m 46 |[39m   [36mreturn[39m { items[33m,[39m totalCount }[33m;[39m[0m
+  [0m [90m 47 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m57:3[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'async'.
+  [0m [90m 55 |[39m   [90m//   });[39m[0m
+  [0m [90m 56 |[39m   [90m// }[39m[0m
+  [0m[31m[1m>[22m[39m[90m 57 |[39m   [36masync[39m findAll() {[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 58 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mfind()[33m;[39m[0m
+  [0m [90m 59 |[39m   }[0m
+  [0m [90m 60 |[39m   [36masync[39m findid(id[33m:[39m string) {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m57:9[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'findAll'.
+  [0m [90m 55 |[39m   [90m//   });[39m[0m
+  [0m [90m 56 |[39m   [90m// }[39m[0m
+  [0m[31m[1m>[22m[39m[90m 57 |[39m   [36masync[39m findAll() {[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 58 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mfind()[33m;[39m[0m
+  [0m [90m 59 |[39m   }[0m
+  [0m [90m 60 |[39m   [36masync[39m findid(id[33m:[39m string) {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m60:3[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'async'.
+  [0m [90m 58 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mfind()[33m;[39m[0m
+  [0m [90m 59 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 60 |[39m   [36masync[39m findid(id[33m:[39m string) {[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 61 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mfindOne({[0m
+  [0m [90m 62 |[39m       where[33m:[39m { id[33m:[39m id }[33m,[39m[0m
+  [0m [90m 63 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m60:9[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'findid'.
+  [0m [90m 58 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mfind()[33m;[39m[0m
+  [0m [90m 59 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 60 |[39m   [36masync[39m findid(id[33m:[39m string) {[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 61 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mfindOne({[0m
+  [0m [90m 62 |[39m       where[33m:[39m { id[33m:[39m id }[33m,[39m[0m
+  [0m [90m 63 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m60:16[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'id'.
+  [0m [90m 58 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mfind()[33m;[39m[0m
+  [0m [90m 59 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 60 |[39m   [36masync[39m findid(id[33m:[39m string) {[0m
+  [0m [90m    |[39m                [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 61 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mfindOne({[0m
+  [0m [90m 62 |[39m       where[33m:[39m { id[33m:[39m id }[33m,[39m[0m
+  [0m [90m 63 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m60:20[22m[39m[1m[39m[22m
+[90mTS2693: [39m'string' only refers to a type, but is being used as a value here.
+  [0m [90m 58 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mfind()[33m;[39m[0m
+  [0m [90m 59 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 60 |[39m   [36masync[39m findid(id[33m:[39m string) {[0m
+  [0m [90m    |[39m                    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 61 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mfindOne({[0m
+  [0m [90m 62 |[39m       where[33m:[39m { id[33m:[39m id }[33m,[39m[0m
+  [0m [90m 63 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m66:3[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'async'.
+  [0m [90m 64 |[39m     })[33m;[39m[0m
+  [0m [90m 65 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 66 |[39m   [36masync[39m findSHD(data[33m:[39m any) {[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 67 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mfindOne({[0m
+  [0m [90m 68 |[39m       where[33m:[39m { [0m
+  [0m [90m 69 |[39m         idChitiet[33m:[39m data[33m.[39midChitiet[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m66:9[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'findSHD'.
+  [0m [90m 64 |[39m     })[33m;[39m[0m
+  [0m [90m 65 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 66 |[39m   [36masync[39m findSHD(data[33m:[39m any) {[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 67 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mfindOne({[0m
+  [0m [90m 68 |[39m       where[33m:[39m { [0m
+  [0m [90m 69 |[39m         idChitiet[33m:[39m data[33m.[39midChitiet[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m66:17[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'data'.
+  [0m [90m 64 |[39m     })[33m;[39m[0m
+  [0m [90m 65 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 66 |[39m   [36masync[39m findSHD(data[33m:[39m any) {[0m
+  [0m [90m    |[39m                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 67 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mfindOne({[0m
+  [0m [90m 68 |[39m       where[33m:[39m { [0m
+  [0m [90m 69 |[39m         idChitiet[33m:[39m data[33m.[39midChitiet[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m66:23[22m[39m[1m[39m[22m
+[90mTS2693: [39m'any' only refers to a type, but is being used as a value here.
+  [0m [90m 64 |[39m     })[33m;[39m[0m
+  [0m [90m 65 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 66 |[39m   [36masync[39m findSHD(data[33m:[39m any) {[0m
+  [0m [90m    |[39m                       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 67 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mfindOne({[0m
+  [0m [90m 68 |[39m       where[33m:[39m { [0m
+  [0m [90m 69 |[39m         idChitiet[33m:[39m data[33m.[39midChitiet[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m74:3[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'async'.
+  [0m [90m 72 |[39m     })[33m;[39m[0m
+  [0m [90m 73 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 74 |[39m   [36masync[39m findPagination(page[33m:[39m number[33m,[39m perPage[33m:[39m number){[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 75 |[39m     [36mconst[39m skip [33m=[39m (page [33m-[39m [35m1[39m) [33m*[39m perPage[33m;[39m[0m
+  [0m [90m 76 |[39m     [36mconst[39m totalItems [33m=[39m [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mcount()[33m;[39m[0m
+  [0m [90m 77 |[39m     [36mconst[39m chitiets [33m=[39m [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mfind({ skip[33m,[39m take[33m:[39m perPage })[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m74:9[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'findPagination'.
+  [0m [90m 72 |[39m     })[33m;[39m[0m
+  [0m [90m 73 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 74 |[39m   [36masync[39m findPagination(page[33m:[39m number[33m,[39m perPage[33m:[39m number){[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 75 |[39m     [36mconst[39m skip [33m=[39m (page [33m-[39m [35m1[39m) [33m*[39m perPage[33m;[39m[0m
+  [0m [90m 76 |[39m     [36mconst[39m totalItems [33m=[39m [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mcount()[33m;[39m[0m
+  [0m [90m 77 |[39m     [36mconst[39m chitiets [33m=[39m [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mfind({ skip[33m,[39m take[33m:[39m perPage })[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m74:24[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'page'.
+  [0m [90m 72 |[39m     })[33m;[39m[0m
+  [0m [90m 73 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 74 |[39m   [36masync[39m findPagination(page[33m:[39m number[33m,[39m perPage[33m:[39m number){[0m
+  [0m [90m    |[39m                        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 75 |[39m     [36mconst[39m skip [33m=[39m (page [33m-[39m [35m1[39m) [33m*[39m perPage[33m;[39m[0m
+  [0m [90m 76 |[39m     [36mconst[39m totalItems [33m=[39m [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mcount()[33m;[39m[0m
+  [0m [90m 77 |[39m     [36mconst[39m chitiets [33m=[39m [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mfind({ skip[33m,[39m take[33m:[39m perPage })[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m74:30[22m[39m[1m[39m[22m
+[90mTS2693: [39m'number' only refers to a type, but is being used as a value here.
+  [0m [90m 72 |[39m     })[33m;[39m[0m
+  [0m [90m 73 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 74 |[39m   [36masync[39m findPagination(page[33m:[39m number[33m,[39m perPage[33m:[39m number){[0m
+  [0m [90m    |[39m                              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 75 |[39m     [36mconst[39m skip [33m=[39m (page [33m-[39m [35m1[39m) [33m*[39m perPage[33m;[39m[0m
+  [0m [90m 76 |[39m     [36mconst[39m totalItems [33m=[39m [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mcount()[33m;[39m[0m
+  [0m [90m 77 |[39m     [36mconst[39m chitiets [33m=[39m [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mfind({ skip[33m,[39m take[33m:[39m perPage })[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m74:38[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'perPage'.
+  [0m [90m 72 |[39m     })[33m;[39m[0m
+  [0m [90m 73 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 74 |[39m   [36masync[39m findPagination(page[33m:[39m number[33m,[39m perPage[33m:[39m number){[0m
+  [0m [90m    |[39m                                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 75 |[39m     [36mconst[39m skip [33m=[39m (page [33m-[39m [35m1[39m) [33m*[39m perPage[33m;[39m[0m
+  [0m [90m 76 |[39m     [36mconst[39m totalItems [33m=[39m [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mcount()[33m;[39m[0m
+  [0m [90m 77 |[39m     [36mconst[39m chitiets [33m=[39m [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mfind({ skip[33m,[39m take[33m:[39m perPage })[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m74:47[22m[39m[1m[39m[22m
+[90mTS2693: [39m'number' only refers to a type, but is being used as a value here.
+  [0m [90m 72 |[39m     })[33m;[39m[0m
+  [0m [90m 73 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 74 |[39m   [36masync[39m findPagination(page[33m:[39m number[33m,[39m perPage[33m:[39m number){[0m
+  [0m [90m    |[39m                                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 75 |[39m     [36mconst[39m skip [33m=[39m (page [33m-[39m [35m1[39m) [33m*[39m perPage[33m;[39m[0m
+  [0m [90m 76 |[39m     [36mconst[39m totalItems [33m=[39m [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mcount()[33m;[39m[0m
+  [0m [90m 77 |[39m     [36mconst[39m chitiets [33m=[39m [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mfind({ skip[33m,[39m take[33m:[39m perPage })[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m75:19[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'page'.
+  [0m [90m 73 |[39m   }[0m
+  [0m [90m 74 |[39m   [36masync[39m findPagination(page[33m:[39m number[33m,[39m perPage[33m:[39m number){[0m
+  [0m[31m[1m>[22m[39m[90m 75 |[39m     [36mconst[39m skip [33m=[39m (page [33m-[39m [35m1[39m) [33m*[39m perPage[33m;[39m[0m
+  [0m [90m    |[39m                   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 76 |[39m     [36mconst[39m totalItems [33m=[39m [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mcount()[33m;[39m[0m
+  [0m [90m 77 |[39m     [36mconst[39m chitiets [33m=[39m [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mfind({ skip[33m,[39m take[33m:[39m perPage })[33m;[39m[0m
+  [0m [90m 78 |[39m     [36mreturn[39m {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m75:31[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'perPage'.
+  [0m [90m 73 |[39m   }[0m
+  [0m [90m 74 |[39m   [36masync[39m findPagination(page[33m:[39m number[33m,[39m perPage[33m:[39m number){[0m
+  [0m[31m[1m>[22m[39m[90m 75 |[39m     [36mconst[39m skip [33m=[39m (page [33m-[39m [35m1[39m) [33m*[39m perPage[33m;[39m[0m
+  [0m [90m    |[39m                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 76 |[39m     [36mconst[39m totalItems [33m=[39m [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mcount()[33m;[39m[0m
+  [0m [90m 77 |[39m     [36mconst[39m chitiets [33m=[39m [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mfind({ skip[33m,[39m take[33m:[39m perPage })[33m;[39m[0m
+  [0m [90m 78 |[39m     [36mreturn[39m {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m76:30[22m[39m[1m[39m[22m
+[90mTS2532: [39mObject is possibly 'undefined'.
+  [0m [90m 74 |[39m   [36masync[39m findPagination(page[33m:[39m number[33m,[39m perPage[33m:[39m number){[0m
+  [0m [90m 75 |[39m     [36mconst[39m skip [33m=[39m (page [33m-[39m [35m1[39m) [33m*[39m perPage[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 76 |[39m     [36mconst[39m totalItems [33m=[39m [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mcount()[33m;[39m[0m
+  [0m [90m    |[39m                              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 77 |[39m     [36mconst[39m chitiets [33m=[39m [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mfind({ skip[33m,[39m take[33m:[39m perPage })[33m;[39m[0m
+  [0m [90m 78 |[39m     [36mreturn[39m {[0m
+  [0m [90m 79 |[39m       currentPage[33m:[39m page[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m77:28[22m[39m[1m[39m[22m
+[90mTS2532: [39mObject is possibly 'undefined'.
+  [0m [90m 75 |[39m     [36mconst[39m skip [33m=[39m (page [33m-[39m [35m1[39m) [33m*[39m perPage[33m;[39m[0m
+  [0m [90m 76 |[39m     [36mconst[39m totalItems [33m=[39m [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mcount()[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 77 |[39m     [36mconst[39m chitiets [33m=[39m [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mfind({ skip[33m,[39m take[33m:[39m perPage })[33m;[39m[0m
+  [0m [90m    |[39m                            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 78 |[39m     [36mreturn[39m {[0m
+  [0m [90m 79 |[39m       currentPage[33m:[39m page[33m,[39m[0m
+  [0m [90m 80 |[39m       perPage[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m77:70[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'perPage'.
+  [0m [90m 75 |[39m     [36mconst[39m skip [33m=[39m (page [33m-[39m [35m1[39m) [33m*[39m perPage[33m;[39m[0m
+  [0m [90m 76 |[39m     [36mconst[39m totalItems [33m=[39m [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mcount()[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 77 |[39m     [36mconst[39m chitiets [33m=[39m [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mfind({ skip[33m,[39m take[33m:[39m perPage })[33m;[39m[0m
+  [0m [90m    |[39m                                                                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 78 |[39m     [36mreturn[39m {[0m
+  [0m [90m 79 |[39m       currentPage[33m:[39m page[33m,[39m[0m
+  [0m [90m 80 |[39m       perPage[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m86:3[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'async'.
+  [0m [90m 84 |[39m     }[33m;[39m[0m
+  [0m [90m 85 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 86 |[39m   [36masync[39m findQuery(params[33m:[39m any) {[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 87 |[39m     console[33m.[39merror(params)[33m;[39m[0m
+  [0m [90m 88 |[39m     [36mconst[39m queryBuilder [33m=[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mcreateQueryBuilder([32m'chitiet'[39m)[33m;[39m[0m
+  [0m [90m 89 |[39m     [36mif[39m (params[33m.[39m[33mBatdau[39m [33m&&[39m params[33m.[39m[33mKetthuc[39m) {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m86:9[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'findQuery'.
+  [0m [90m 84 |[39m     }[33m;[39m[0m
+  [0m [90m 85 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 86 |[39m   [36masync[39m findQuery(params[33m:[39m any) {[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 87 |[39m     console[33m.[39merror(params)[33m;[39m[0m
+  [0m [90m 88 |[39m     [36mconst[39m queryBuilder [33m=[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mcreateQueryBuilder([32m'chitiet'[39m)[33m;[39m[0m
+  [0m [90m 89 |[39m     [36mif[39m (params[33m.[39m[33mBatdau[39m [33m&&[39m params[33m.[39m[33mKetthuc[39m) {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m86:19[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'params'.
+  [0m [90m 84 |[39m     }[33m;[39m[0m
+  [0m [90m 85 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 86 |[39m   [36masync[39m findQuery(params[33m:[39m any) {[0m
+  [0m [90m    |[39m                   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 87 |[39m     console[33m.[39merror(params)[33m;[39m[0m
+  [0m [90m 88 |[39m     [36mconst[39m queryBuilder [33m=[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mcreateQueryBuilder([32m'chitiet'[39m)[33m;[39m[0m
+  [0m [90m 89 |[39m     [36mif[39m (params[33m.[39m[33mBatdau[39m [33m&&[39m params[33m.[39m[33mKetthuc[39m) {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m86:27[22m[39m[1m[39m[22m
+[90mTS2693: [39m'any' only refers to a type, but is being used as a value here.
+  [0m [90m 84 |[39m     }[33m;[39m[0m
+  [0m [90m 85 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 86 |[39m   [36masync[39m findQuery(params[33m:[39m any) {[0m
+  [0m [90m    |[39m                           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 87 |[39m     console[33m.[39merror(params)[33m;[39m[0m
+  [0m [90m 88 |[39m     [36mconst[39m queryBuilder [33m=[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mcreateQueryBuilder([32m'chitiet'[39m)[33m;[39m[0m
+  [0m [90m 89 |[39m     [36mif[39m (params[33m.[39m[33mBatdau[39m [33m&&[39m params[33m.[39m[33mKetthuc[39m) {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m87:19[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'params'.
+  [0m [90m 85 |[39m   }[0m
+  [0m [90m 86 |[39m   [36masync[39m findQuery(params[33m:[39m any) {[0m
+  [0m[31m[1m>[22m[39m[90m 87 |[39m     console[33m.[39merror(params)[33m;[39m[0m
+  [0m [90m    |[39m                   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 88 |[39m     [36mconst[39m queryBuilder [33m=[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mcreateQueryBuilder([32m'chitiet'[39m)[33m;[39m[0m
+  [0m [90m 89 |[39m     [36mif[39m (params[33m.[39m[33mBatdau[39m [33m&&[39m params[33m.[39m[33mKetthuc[39m) {[0m
+  [0m [90m 90 |[39m       queryBuilder[33m.[39mandWhere([32m'chitiet.CreateAt BETWEEN :startDate AND :endDate'[39m[33m,[39m {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m88:26[22m[39m[1m[39m[22m
+[90mTS2532: [39mObject is possibly 'undefined'.
+  [0m [90m 86 |[39m   [36masync[39m findQuery(params[33m:[39m any) {[0m
+  [0m [90m 87 |[39m     console[33m.[39merror(params)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 88 |[39m     [36mconst[39m queryBuilder [33m=[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mcreateQueryBuilder([32m'chitiet'[39m)[33m;[39m[0m
+  [0m [90m    |[39m                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 89 |[39m     [36mif[39m (params[33m.[39m[33mBatdau[39m [33m&&[39m params[33m.[39m[33mKetthuc[39m) {[0m
+  [0m [90m 90 |[39m       queryBuilder[33m.[39mandWhere([32m'chitiet.CreateAt BETWEEN :startDate AND :endDate'[39m[33m,[39m {[0m
+  [0m [90m 91 |[39m         startDate[33m:[39mparams[33m.[39m[33mBatdau[39m[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m89:9[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'params'.
+  [0m [90m 87 |[39m     console[33m.[39merror(params)[33m;[39m[0m
+  [0m [90m 88 |[39m     [36mconst[39m queryBuilder [33m=[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mcreateQueryBuilder([32m'chitiet'[39m)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 89 |[39m     [36mif[39m (params[33m.[39m[33mBatdau[39m [33m&&[39m params[33m.[39m[33mKetthuc[39m) {[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 90 |[39m       queryBuilder[33m.[39mandWhere([32m'chitiet.CreateAt BETWEEN :startDate AND :endDate'[39m[33m,[39m {[0m
+  [0m [90m 91 |[39m         startDate[33m:[39mparams[33m.[39m[33mBatdau[39m[33m,[39m[0m
+  [0m [90m 92 |[39m         endDate[33m:[39mparams[33m.[39m[33mKetthuc[39m[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m89:26[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'params'.
+  [0m [90m 87 |[39m     console[33m.[39merror(params)[33m;[39m[0m
+  [0m [90m 88 |[39m     [36mconst[39m queryBuilder [33m=[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mcreateQueryBuilder([32m'chitiet'[39m)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 89 |[39m     [36mif[39m (params[33m.[39m[33mBatdau[39m [33m&&[39m params[33m.[39m[33mKetthuc[39m) {[0m
+  [0m [90m    |[39m                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 90 |[39m       queryBuilder[33m.[39mandWhere([32m'chitiet.CreateAt BETWEEN :startDate AND :endDate'[39m[33m,[39m {[0m
+  [0m [90m 91 |[39m         startDate[33m:[39mparams[33m.[39m[33mBatdau[39m[33m,[39m[0m
+  [0m [90m 92 |[39m         endDate[33m:[39mparams[33m.[39m[33mKetthuc[39m[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m91:19[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'params'.
+  [0m [90m 89 |[39m     [36mif[39m (params[33m.[39m[33mBatdau[39m [33m&&[39m params[33m.[39m[33mKetthuc[39m) {[0m
+  [0m [90m 90 |[39m       queryBuilder[33m.[39mandWhere([32m'chitiet.CreateAt BETWEEN :startDate AND :endDate'[39m[33m,[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 91 |[39m         startDate[33m:[39mparams[33m.[39m[33mBatdau[39m[33m,[39m[0m
+  [0m [90m    |[39m                   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 92 |[39m         endDate[33m:[39mparams[33m.[39m[33mKetthuc[39m[33m,[39m[0m
+  [0m [90m 93 |[39m       })[33m;[39m[0m
+  [0m [90m 94 |[39m     }[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m92:17[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'params'.
+  [0m [90m 90 |[39m       queryBuilder[33m.[39mandWhere([32m'chitiet.CreateAt BETWEEN :startDate AND :endDate'[39m[33m,[39m {[0m
+  [0m [90m 91 |[39m         startDate[33m:[39mparams[33m.[39m[33mBatdau[39m[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 92 |[39m         endDate[33m:[39mparams[33m.[39m[33mKetthuc[39m[33m,[39m[0m
+  [0m [90m    |[39m                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 93 |[39m       })[33m;[39m[0m
+  [0m [90m 94 |[39m     }[0m
+  [0m [90m 95 |[39m     [36mif[39m (params[33m.[39m[33mTitle[39m) {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m95:9[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'params'.
+  [0m [90m 93 |[39m       })[33m;[39m[0m
+  [0m [90m 94 |[39m     }[0m
+  [0m[31m[1m>[22m[39m[90m 95 |[39m     [36mif[39m (params[33m.[39m[33mTitle[39m) {[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 96 |[39m       queryBuilder[33m.[39mandWhere([32m'chitiet.Title LIKE :Title'[39m[33m,[39m { [33mSDT[39m[33m:[39m [32m`%${params.Title}%`[39m })[33m;[39m[0m
+  [0m [90m 97 |[39m     }[0m
+  [0m [90m 98 |[39m     [36mconst[39m [items[33m,[39m totalCount] [33m=[39m [36mawait[39m queryBuilder[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m96:69[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'params'.
+  [0m [90m 94 |[39m     }[0m
+  [0m [90m 95 |[39m     [36mif[39m (params[33m.[39m[33mTitle[39m) {[0m
+  [0m[31m[1m>[22m[39m[90m 96 |[39m       queryBuilder[33m.[39mandWhere([32m'chitiet.Title LIKE :Title'[39m[33m,[39m { [33mSDT[39m[33m:[39m [32m`%${params.Title}%`[39m })[33m;[39m[0m
+  [0m [90m    |[39m                                                                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 97 |[39m     }[0m
+  [0m [90m 98 |[39m     [36mconst[39m [items[33m,[39m totalCount] [33m=[39m [36mawait[39m queryBuilder[0m
+  [0m [90m 99 |[39m     [33m.[39mlimit(params[33m.[39mpageSize [33m||[39m [35m10[39m) [90m// Set a default page size if not provided[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m99:12[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'params'.
+  [0m [90m  97 |[39m     }[0m
+  [0m [90m  98 |[39m     [36mconst[39m [items[33m,[39m totalCount] [33m=[39m [36mawait[39m queryBuilder[0m
+  [0m[31m[1m>[22m[39m[90m  99 |[39m     [33m.[39mlimit(params[33m.[39mpageSize [33m||[39m [35m10[39m) [90m// Set a default page size if not provided[39m[0m
+  [0m [90m     |[39m            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 100 |[39m     [33m.[39moffset(params[33m.[39mpageNumber [33m*[39m params[33m.[39mpageSize [33m||[39m [35m0[39m)[0m
+  [0m [90m 101 |[39m     [33m.[39mgetManyAndCount()[33m;[39m[0m
+  [0m [90m 102 |[39m   [36mreturn[39m { items[33m,[39m totalCount }[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m100:13[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'params'.
+  [0m [90m  98 |[39m     [36mconst[39m [items[33m,[39m totalCount] [33m=[39m [36mawait[39m queryBuilder[0m
+  [0m [90m  99 |[39m     [33m.[39mlimit(params[33m.[39mpageSize [33m||[39m [35m10[39m) [90m// Set a default page size if not provided[39m[0m
+  [0m[31m[1m>[22m[39m[90m 100 |[39m     [33m.[39moffset(params[33m.[39mpageNumber [33m*[39m params[33m.[39mpageSize [33m||[39m [35m0[39m)[0m
+  [0m [90m     |[39m             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 101 |[39m     [33m.[39mgetManyAndCount()[33m;[39m[0m
+  [0m [90m 102 |[39m   [36mreturn[39m { items[33m,[39m totalCount }[33m;[39m[0m
+  [0m [90m 103 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m100:33[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'params'.
+  [0m [90m  98 |[39m     [36mconst[39m [items[33m,[39m totalCount] [33m=[39m [36mawait[39m queryBuilder[0m
+  [0m [90m  99 |[39m     [33m.[39mlimit(params[33m.[39mpageSize [33m||[39m [35m10[39m) [90m// Set a default page size if not provided[39m[0m
+  [0m[31m[1m>[22m[39m[90m 100 |[39m     [33m.[39moffset(params[33m.[39mpageNumber [33m*[39m params[33m.[39mpageSize [33m||[39m [35m0[39m)[0m
+  [0m [90m     |[39m                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 101 |[39m     [33m.[39mgetManyAndCount()[33m;[39m[0m
+  [0m [90m 102 |[39m   [36mreturn[39m { items[33m,[39m totalCount }[33m;[39m[0m
+  [0m [90m 103 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m104:3[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'async'.
+  [0m [90m 102 |[39m   [36mreturn[39m { items[33m,[39m totalCount }[33m;[39m[0m
+  [0m [90m 103 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 104 |[39m   [36masync[39m update(id[33m:[39m string[33m,[39m [33mUpdateChitietDto[39m[33m:[39m [33mUpdateChitietDto[39m) {[0m
+  [0m [90m     |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 105 |[39m     [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39msave([33mUpdateChitietDto[39m)[33m;[39m[0m
+  [0m [90m 106 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mfindOne({ where[33m:[39m { id[33m:[39m id } })[33m;[39m[0m
+  [0m [90m 107 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m104:9[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'update'.
+  [0m [90m 102 |[39m   [36mreturn[39m { items[33m,[39m totalCount }[33m;[39m[0m
+  [0m [90m 103 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 104 |[39m   [36masync[39m update(id[33m:[39m string[33m,[39m [33mUpdateChitietDto[39m[33m:[39m [33mUpdateChitietDto[39m) {[0m
+  [0m [90m     |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 105 |[39m     [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39msave([33mUpdateChitietDto[39m)[33m;[39m[0m
+  [0m [90m 106 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mfindOne({ where[33m:[39m { id[33m:[39m id } })[33m;[39m[0m
+  [0m [90m 107 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m104:16[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'id'.
+  [0m [90m 102 |[39m   [36mreturn[39m { items[33m,[39m totalCount }[33m;[39m[0m
+  [0m [90m 103 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 104 |[39m   [36masync[39m update(id[33m:[39m string[33m,[39m [33mUpdateChitietDto[39m[33m:[39m [33mUpdateChitietDto[39m) {[0m
+  [0m [90m     |[39m                [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 105 |[39m     [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39msave([33mUpdateChitietDto[39m)[33m;[39m[0m
+  [0m [90m 106 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mfindOne({ where[33m:[39m { id[33m:[39m id } })[33m;[39m[0m
+  [0m [90m 107 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m104:20[22m[39m[1m[39m[22m
+[90mTS2693: [39m'string' only refers to a type, but is being used as a value here.
+  [0m [90m 102 |[39m   [36mreturn[39m { items[33m,[39m totalCount }[33m;[39m[0m
+  [0m [90m 103 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 104 |[39m   [36masync[39m update(id[33m:[39m string[33m,[39m [33mUpdateChitietDto[39m[33m:[39m [33mUpdateChitietDto[39m) {[0m
+  [0m [90m     |[39m                    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 105 |[39m     [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39msave([33mUpdateChitietDto[39m)[33m;[39m[0m
+  [0m [90m 106 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mfindOne({ where[33m:[39m { id[33m:[39m id } })[33m;[39m[0m
+  [0m [90m 107 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m105:5[22m[39m[1m[39m[22m
+[90mTS2532: [39mObject is possibly 'undefined'.
+  [0m [90m 103 |[39m   }[0m
+  [0m [90m 104 |[39m   [36masync[39m update(id[33m:[39m string[33m,[39m [33mUpdateChitietDto[39m[33m:[39m [33mUpdateChitietDto[39m) {[0m
+  [0m[31m[1m>[22m[39m[90m 105 |[39m     [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39msave([33mUpdateChitietDto[39m)[33m;[39m[0m
+  [0m [90m     |[39m     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 106 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mfindOne({ where[33m:[39m { id[33m:[39m id } })[33m;[39m[0m
+  [0m [90m 107 |[39m   }[0m
+  [0m [90m 108 |[39m   [36masync[39m remove(id[33m:[39m string) {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m108:3[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'async'.
+  [0m [90m 106 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mfindOne({ where[33m:[39m { id[33m:[39m id } })[33m;[39m[0m
+  [0m [90m 107 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 108 |[39m   [36masync[39m remove(id[33m:[39m string) {[0m
+  [0m [90m     |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 109 |[39m     console[33m.[39merror(id)[0m
+  [0m [90m 110 |[39m     [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39m[36mdelete[39m(id)[33m;[39m[0m
+  [0m [90m 111 |[39m     [36mreturn[39m { deleted[33m:[39m [36mtrue[39m }[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m108:9[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'remove'.
+  [0m [90m 106 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mfindOne({ where[33m:[39m { id[33m:[39m id } })[33m;[39m[0m
+  [0m [90m 107 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 108 |[39m   [36masync[39m remove(id[33m:[39m string) {[0m
+  [0m [90m     |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 109 |[39m     console[33m.[39merror(id)[0m
+  [0m [90m 110 |[39m     [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39m[36mdelete[39m(id)[33m;[39m[0m
+  [0m [90m 111 |[39m     [36mreturn[39m { deleted[33m:[39m [36mtrue[39m }[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m108:16[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'id'.
+  [0m [90m 106 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mfindOne({ where[33m:[39m { id[33m:[39m id } })[33m;[39m[0m
+  [0m [90m 107 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 108 |[39m   [36masync[39m remove(id[33m:[39m string) {[0m
+  [0m [90m     |[39m                [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 109 |[39m     console[33m.[39merror(id)[0m
+  [0m [90m 110 |[39m     [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39m[36mdelete[39m(id)[33m;[39m[0m
+  [0m [90m 111 |[39m     [36mreturn[39m { deleted[33m:[39m [36mtrue[39m }[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m108:20[22m[39m[1m[39m[22m
+[90mTS2693: [39m'string' only refers to a type, but is being used as a value here.
+  [0m [90m 106 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mfindOne({ where[33m:[39m { id[33m:[39m id } })[33m;[39m[0m
+  [0m [90m 107 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 108 |[39m   [36masync[39m remove(id[33m:[39m string) {[0m
+  [0m [90m     |[39m                    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 109 |[39m     console[33m.[39merror(id)[0m
+  [0m [90m 110 |[39m     [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39m[36mdelete[39m(id)[33m;[39m[0m
+  [0m [90m 111 |[39m     [36mreturn[39m { deleted[33m:[39m [36mtrue[39m }[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m109:19[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'id'.
+  [0m [90m 107 |[39m   }[0m
+  [0m [90m 108 |[39m   [36masync[39m remove(id[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 109 |[39m     console[33m.[39merror(id)[0m
+  [0m [90m     |[39m                   [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 110 |[39m     [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39m[36mdelete[39m(id)[33m;[39m[0m
+  [0m [90m 111 |[39m     [36mreturn[39m { deleted[33m:[39m [36mtrue[39m }[33m;[39m[0m
+  [0m [90m 112 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m110:11[22m[39m[1m[39m[22m
+[90mTS2532: [39mObject is possibly 'undefined'.
+  [0m [90m 108 |[39m   [36masync[39m remove(id[33m:[39m string) {[0m
+  [0m [90m 109 |[39m     console[33m.[39merror(id)[0m
+  [0m[31m[1m>[22m[39m[90m 110 |[39m     [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39m[36mdelete[39m(id)[33m;[39m[0m
+  [0m [90m     |[39m           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 111 |[39m     [36mreturn[39m { deleted[33m:[39m [36mtrue[39m }[33m;[39m[0m
+  [0m [90m 112 |[39m   }[0m
+  [0m [90m 113 |[39m }[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m110:41[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'id'.
+  [0m [90m 108 |[39m   [36masync[39m remove(id[33m:[39m string) {[0m
+  [0m [90m 109 |[39m     console[33m.[39merror(id)[0m
+  [0m[31m[1m>[22m[39m[90m 110 |[39m     [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39m[36mdelete[39m(id)[33m;[39m[0m
+  [0m [90m     |[39m                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 111 |[39m     [36mreturn[39m { deleted[33m:[39m [36mtrue[39m }[33m;[39m[0m
+  [0m [90m 112 |[39m   }[0m
+  [0m [90m 113 |[39m }[0m
+
+webpack compiled with [1m[31m87 errors[39m[22m (38254767f2a4443b)
+[1m[31mDebugger listening on ws://localhost:9229/a35d1f37-715f-4a10-b753-0ae98615a80d[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/a35d1f37-715f-4a10-b753-0ae98615a80d[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mF:\chikiet\BEKetoan\dist\be_ketoan\main.js:2061[39m[22m
+[1m[31mthrow new Error("Module parse failed: 'return' outside of function (55:0)\nFile was processed with these loaders:\n * ../node_modules/ts-loader/index.js\nYou may need an additional loader to handle the result of these loaders.\n|     .offset(params.pageNumber * params.pageSize || 0)\n|     .getManyAndCount();\n> return { items, totalCount };\n| // async findThang(data: any) {\n| //   return await this.ChitietRepository.find({");[39m[22m
+[1m[31m      ^[39m[22m
+[1m[31m[39m[22m
+[1m[31mError: Module parse failed: 'return' outside of function (55:0)[39m[22m
+[1m[31mFile was processed with these loaders:[39m[22m
+[1m[31m * ../node_modules/ts-loader/index.js[39m[22m
+[1m[31mYou may need an additional loader to handle the result of these loaders.[39m[22m
+[1m[31m|     .offset(params.pageNumber * params.pageSize || 0)[39m[22m
+[1m[31m|     .getManyAndCount();[39m[22m
+[1m[31m> return { items, totalCount };[39m[22m
+[1m[31m| // async findThang(data: any) {[39m[22m
+[1m[31m| //   return await this.ChitietRepository.find({[39m[22m
+[1m[31m    at Array.Object.defineProperty.value (F:\chikiet\BEKetoan\dist\be_ketoan\main.js:2061:7)[39m[22m
+[1m[31m    at __webpack_require__ (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\webpack\bootstrap:19:1)[39m[22m
+[1m[31m    at Array.Object.defineProperty.value (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\chitiet\chitiet.module.ts:2:1)[39m[22m
+[1m[31m    at __webpack_require__ (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\webpack\bootstrap:19:1)[39m[22m
+[1m[31m    at Array.<anonymous> (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\app.module.ts:11:1)[39m[22m
+[1m[31m    at __webpack_require__ (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\webpack\bootstrap:19:1)[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\main.ts:9:1[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\dist\be_ketoan\main.js:2684:3[39m[22m
+[1m[31m    at Object.<anonymous> (F:\chikiet\BEKetoan\dist\be_ketoan\main.js:2686:12)[39m[22m
+[1m[31m    at Module._compile (node:internal/modules/cjs/loader:1376:14)[39m[22m
+[1m[31m[39m[22m
+
+[36m>[39m [7m[1m[36m NX [39m[22m[27m [1mProcess exited with code 1, waiting for changes to restart...[22m
+
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 99 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (390b7b3dc373b100)
+[1m[31mDebugger listening on ws://localhost:9229/5281bf96-7f9b-4aa5-b9b0-6cfb33b115d7[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/5281bf96-7f9b-4aa5-b9b0-6cfb33b115d7[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 99 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (a434ff8d28dd1022)
+[1m[31mDebugger listening on ws://localhost:9229/190508f2-3e0b-40e0-b5cc-55e8e61720ee[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/190508f2-3e0b-40e0-b5cc-55e8e61720ee[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 99 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (b7431e9e95ab6f3f)
+[1m[31mDebugger listening on ws://localhost:9229/f0850ebd-8400-415e-8b4e-22813e9c8cc4[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/f0850ebd-8400-415e-8b4e-22813e9c8cc4[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 99 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (4d39a0d8dc76601d)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 99 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (4d39a0d8dc76601d)
+[1m[31mDebugger listening on ws://localhost:9229/a1e7bffc-b7ac-4247-8711-16713b0d2346[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/a1e7bffc-b7ac-4247-8711-16713b0d2346[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/29725a5a-c9d5-4899-bda1-e58a74dda0fc[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/29725a5a-c9d5-4899-bda1-e58a74dda0fc[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 99 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (4d39a0d8dc76601d)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 98.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (841d4db37c3b20f1)
+[1m[31mDebugger listening on ws://localhost:9229/7e2999c8-9367-40f7-8b5e-64bb9475a8da[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/7e2999c8-9367-40f7-8b5e-64bb9475a8da[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 98.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (3cfba38dd12636bb)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 98.9 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (3cfba38dd12636bb)
+[1m[31mDebugger listening on ws://localhost:9229/82882d14-b7c6-4c01-bfc7-0d32812fee39[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/82882d14-b7c6-4c01-bfc7-0d32812fee39[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 98.9 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (3cfba38dd12636bb)
+[1m[31mDebugger listening on ws://localhost:9229/724ac55a-792f-4571-8344-ab6a9f10eb2d[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/724ac55a-792f-4571-8344-ab6a9f10eb2d[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 12880  - [39m[31m01/14/2024, 10:23:50 AM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mUnknown column 'Nhap' in 'where clause'[39m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mQueryFailedError: Unknown column 'Nhap' in 'where clause'[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 98.9 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (3cfba38dd12636bb)
+[1m[31mDebugger listening on ws://localhost:9229/99aac828-8405-41be-941b-44c1b74b46e9[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/99aac828-8405-41be-941b-44c1b74b46e9[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 98.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts[39m[22m
+[1m./src/app/chitiet/chitiet.service.ts[39m[22m [1m[32m41:45-49[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts(41,46)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts[39m[22m
+[1m./src/app/chitiet/chitiet.service.ts[39m[22m [1m[32m41:49-51[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts(41,50)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m41:46[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'Nhap'.
+  [0m [90m 39 |[39m       })[33m;[39m[0m
+  [0m [90m 40 |[39m       queryBuilder[33m.[39mandWhere([32m'chitiet.nam = 2023'[39m)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 41 |[39m       queryBuilder[33m.[39mandWhere([32m'chitiet.Loai = '[39m[33mNhap[39m[32m''[39m)[33m;[39m[0m
+  [0m [90m    |[39m                                              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 42 |[39m     [36mconst[39m [items[33m,[39m totalCount] [33m=[39m [36mawait[39m queryBuilder[33m.[39mgetManyAndCount()[33m;[39m[0m
+  [0m [90m 43 |[39m   [36mreturn[39m { items[33m,[39m totalCount }[33m;[39m[0m
+  [0m [90m 44 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m41:50[22m[39m[1m[39m[22m
+[90mTS2554: [39mExpected 1-2 arguments, but got 3.
+  [0m [90m 39 |[39m       })[33m;[39m[0m
+  [0m [90m 40 |[39m       queryBuilder[33m.[39mandWhere([32m'chitiet.nam = 2023'[39m)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 41 |[39m       queryBuilder[33m.[39mandWhere([32m'chitiet.Loai = '[39m[33mNhap[39m[32m''[39m)[33m;[39m[0m
+  [0m [90m    |[39m                                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 42 |[39m     [36mconst[39m [items[33m,[39m totalCount] [33m=[39m [36mawait[39m queryBuilder[33m.[39mgetManyAndCount()[33m;[39m[0m
+  [0m [90m 43 |[39m   [36mreturn[39m { items[33m,[39m totalCount }[33m;[39m[0m
+  [0m [90m 44 |[39m   }[0m
+
+webpack compiled with [1m[31m4 errors[39m[22m (c3c6090e517aa53b)
+[1m[31mDebugger listening on ws://localhost:9229/26be1043-a568-4ada-ba59-359ffcf57889[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/26be1043-a568-4ada-ba59-359ffcf57889[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 98.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (d5b33d221d52b835)
+[1m[31mDebugger listening on ws://localhost:9229/9193b77e-eb62-430e-a9f2-233df55eb4d8[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/9193b77e-eb62-430e-a9f2-233df55eb4d8[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 98.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (aa866994dfae8495)
+[1m[31mDebugger listening on ws://localhost:9229/746314af-d007-4b83-b7c5-8a38b1af09dd[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/746314af-d007-4b83-b7c5-8a38b1af09dd[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 98.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (52eeeb0484f82e3d)
+[1m[31mDebugger listening on ws://localhost:9229/4328de3b-047d-4f52-a33b-da2618b87b3e[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/4328de3b-047d-4f52-a33b-da2618b87b3e[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m

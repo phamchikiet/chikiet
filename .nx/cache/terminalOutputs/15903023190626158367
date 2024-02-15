@@ -1,0 +1,315 @@
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 98.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (a51d920d291eccc6)
+[1m[31mDebugger listening on ws://localhost:9229/20b3ff2d-c9ab-42e2-a2ad-33d7cbce57d2[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/20b3ff2d-c9ab-42e2-a2ad-33d7cbce57d2[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 98.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.controller.ts:[32m[1m31:38[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findThang' does not exist on type 'ChitietService'.
+  [0m [90m 29 |[39m   [33m@[39m[33mPost[39m([32m'findthang'[39m)[0m
+  [0m [90m 30 |[39m   [36masync[39m findThang([33m@[39m[33mBody[39m() data[33m:[39m any) {[0m
+  [0m[31m[1m>[22m[39m[90m 31 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39mchitietService[33m.[39mfindThang(data)[33m;[39m[0m
+  [0m [90m    |[39m                                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 32 |[39m   }[0m
+  [0m [90m 33 |[39m   [33m@[39m[33mPost[39m([32m'search'[39m)[0m
+  [0m [90m 34 |[39m   [36masync[39m findQuery([33m@[39m[33mBody[39m() [33mSearchParams[39m[33m:[39m any) {[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (9f236e019da935f5)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 98.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (89fb3ac92d3c40f2)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 98.9 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (89fb3ac92d3c40f2)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 98.9 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (89fb3ac92d3c40f2)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 98.9 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (89fb3ac92d3c40f2)
+[1m[31mDebugger listening on ws://localhost:9229/1f9f59c2-a82b-4c84-b3aa-b2f23334d118[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/1f9f59c2-a82b-4c84-b3aa-b2f23334d118[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 98.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/chitiet/chitiet.service.ts[39m[22m [1m[32m27:14[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: [1m[31mUnexpected[39m[22m[1m token (27:14)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|     }
+|     async findThang(data) {
+>         const ;
+|         return await this.ChitietRepository.find({
+|             where: {[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts[39m[22m
+[90mTS1123: [39mVariable declaration list cannot be empty.
+
+webpack compiled with [1m[31m2 errors[39m[22m (610e3be6e31ed723)
+[1m[31mDebugger listening on ws://localhost:9229/8e1ee443-4908-4743-968d-772b7467d1ae[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/8e1ee443-4908-4743-968d-772b7467d1ae[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mF:\chikiet\BEKetoan\dist\be_ketoan\main.js:2061[39m[22m
+[1m[31mthrow new Error("Module parse failed: Unexpected token (27:14)\nFile was processed with these loaders:\n * ../node_modules/ts-loader/index.js\nYou may need an additional loader to handle the result of these loaders.\n|     }\n|     async findThang(data) {\n>         const ;\n|         return await this.ChitietRepository.find({\n|             where: {");[39m[22m
+[1m[31m      ^[39m[22m
+[1m[31m[39m[22m
+[1m[31mError: Module parse failed: Unexpected token (27:14)[39m[22m
+[1m[31mFile was processed with these loaders:[39m[22m
+[1m[31m * ../node_modules/ts-loader/index.js[39m[22m
+[1m[31mYou may need an additional loader to handle the result of these loaders.[39m[22m
+[1m[31m|     }[39m[22m
+[1m[31m|     async findThang(data) {[39m[22m
+[1m[31m>         const ;[39m[22m
+[1m[31m|         return await this.ChitietRepository.find({[39m[22m
+[1m[31m|             where: {[39m[22m
+[1m[31m    at Array.Object.defineProperty.value (F:\chikiet\BEKetoan\dist\be_ketoan\main.js:2061:7)[39m[22m
+[1m[31m    at __webpack_require__ (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\webpack\bootstrap:19:1)[39m[22m
+[1m[31m    at Array.Object.defineProperty.value (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\chitiet\chitiet.module.ts:2:1)[39m[22m
+[1m[31m    at __webpack_require__ (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\webpack\bootstrap:19:1)[39m[22m
+[1m[31m    at Array.<anonymous> (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\app.module.ts:11:1)[39m[22m
+[1m[31m    at __webpack_require__ (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\webpack\bootstrap:19:1)[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\main.ts:9:1[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\dist\be_ketoan\main.js:2684:3[39m[22m
+[1m[31m    at Object.<anonymous> (F:\chikiet\BEKetoan\dist\be_ketoan\main.js:2686:12)[39m[22m
+[1m[31m    at Module._compile (node:internal/modules/cjs/loader:1376:14)[39m[22m
+[1m[31m[39m[22m
+
+[36m>[39m [7m[1m[36m NX [39m[22m[27m [1mProcess exited with code 1, waiting for changes to restart...[22m
+
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 98.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts[39m[22m
+[1m./src/app/chitiet/chitiet.service.ts[39m[22m [1m[32m27:4-10[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts(27,5)[39m[22m
+[1m[31m      TS1109: Expression expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/chitiet/chitiet.service.ts[39m[22m [1m[32m27:22[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: [1m[31mUnexpected[39m[22m[1m token (27:22)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|     }
+|     async findThang(data) {
+>         const items = ;
+|         return await this.ChitietRepository.find({
+|             where: {[39m[22m
+
+webpack compiled with [1m[31m2 errors[39m[22m (d46a7b7d0cac96a0)
+[1m[31mDebugger listening on ws://localhost:9229/ba0df3e8-5150-4d9c-ba09-c26b1d00ec10[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/ba0df3e8-5150-4d9c-ba09-c26b1d00ec10[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mF:\chikiet\BEKetoan\dist\be_ketoan\main.js:2061[39m[22m
+[1m[31mthrow new Error("Module parse failed: Unexpected token (27:22)\nFile was processed with these loaders:\n * ../node_modules/ts-loader/index.js\nYou may need an additional loader to handle the result of these loaders.\n|     }\n|     async findThang(data) {\n>         const items = ;\n|         return await this.ChitietRepository.find({\n|             where: {");[39m[22m
+[1m[31m      ^[39m[22m
+[1m[31mError: Module parse failed: Unexpected token (27:22)[39m[22m
+[1m[31mFile was processed with these loaders:[39m[22m
+[1m[31m * ../node_modules/ts-loader/index.js[39m[22m
+[1m[31mYou may need an additional loader to handle the result of these loaders.[39m[22m
+[1m[31m|     }[39m[22m
+[1m[31m|     async findThang(data) {[39m[22m
+[1m[31m>         const items = ;[39m[22m
+[1m[31m|         return await this.ChitietRepository.find({[39m[22m
+[1m[31m|             where: {[39m[22m
+[1m[31m    at Array.Object.defineProperty.value (F:\chikiet\BEKetoan\dist\be_ketoan\main.js:2061:7)[39m[22m
+[1m[31m    at __webpack_require__ (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\webpack\bootstrap:19:1)[39m[22m
+[1m[31m    at Array.Object.defineProperty.value (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\chitiet\chitiet.module.ts:2:1)[39m[22m
+[1m[31m    at __webpack_require__ (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\webpack\bootstrap:19:1)[39m[22m
+[1m[31m    at Array.<anonymous> (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\app.module.ts:11:1)[39m[22m
+[1m[31m    at __webpack_require__ (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\webpack\bootstrap:19:1)[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\main.ts:9:1[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\dist\be_ketoan\main.js:2684:3[39m[22m
+[1m[31m    at Object.<anonymous> (F:\chikiet\BEKetoan\dist\be_ketoan\main.js:2686:12)[39m[22m
+[1m[31m    at Module._compile (node:internal/modules/cjs/loader:1376:14)[39m[22m
+[1m[31m[39m[22m
+
+[36m>[39m [7m[1m[36m NX [39m[22m[27m [1mProcess exited with code 1, waiting for changes to restart...[22m
+
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 98.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts[39m[22m
+[1m./src/app/chitiet/chitiet.service.ts[39m[22m [1m[32m27:4-10[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts(27,5)[39m[22m
+[1m[31m      TS1109: Expression expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/chitiet/chitiet.service.ts[39m[22m [1m[32m27:22[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: [1m[31mUnexpected[39m[22m[1m token (27:22)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|     }
+|     async findThang(data) {
+>         const items = ;
+|         return await this.ChitietRepository.find({
+|             where: {[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m34:21[22m[39m[1m[39m[22m
+[90mTS18004: [39mNo value exists in scope for the shorthand property 'totalCount'. Either declare one or provide an initializer.
+  [0m [90m 32 |[39m       }[33m,[39m[0m
+  [0m [90m 33 |[39m     })[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 34 |[39m     [36mreturn[39m { items[33m,[39m totalCount }[33m;[39m[0m
+  [0m [90m    |[39m                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 35 |[39m   }[0m
+  [0m [90m 36 |[39m   [90m// async findThang(params: any) {[39m[0m
+  [0m [90m 37 |[39m   [90m//   const queryBuilder = this.ChitietRepository.createQueryBuilder('chitiet');[39m[0m
+
+webpack compiled with [1m[31m3 errors[39m[22m (25d52e0e4dcf548a)
+[1m[31mDebugger listening on ws://localhost:9229/07f609f4-1ad5-4195-9ee1-97926e740062[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/07f609f4-1ad5-4195-9ee1-97926e740062[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mF:\chikiet\BEKetoan\dist\be_ketoan\main.js:2061[39m[22m
+[1m[31mthrow new Error("Module parse failed: Unexpected token (27:22)\nFile was processed with these loaders:\n * ../node_modules/ts-loader/index.js\nYou may need an additional loader to handle the result of these loaders.\n|     }\n|     async findThang(data) {\n>         const items = ;\n|         return await this.ChitietRepository.find({\n|             where: {");[39m[22m
+[1m[31m      ^[39m[22m
+[1m[31m[39m[22m
+[1m[31mError: Module parse failed: Unexpected token (27:22)[39m[22m
+[1m[31mFile was processed with these loaders:[39m[22m
+[1m[31m * ../node_modules/ts-loader/index.js[39m[22m
+[1m[31mYou may need an additional loader to handle the result of these loaders.[39m[22m
+[1m[31m|     }[39m[22m
+[1m[31m|     async findThang(data) {[39m[22m
+[1m[31m>         const items = ;[39m[22m
+[1m[31m|         return await this.ChitietRepository.find({[39m[22m
+[1m[31m|             where: {[39m[22m
+[1m[31m    at Array.Object.defineProperty.value (F:\chikiet\BEKetoan\dist\be_ketoan\main.js:2061:7)[39m[22m
+[1m[31m    at __webpack_require__ (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\webpack\bootstrap:19:1)[39m[22m
+[1m[31m    at Array.Object.defineProperty.value (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\chitiet\chitiet.module.ts:2:1)[39m[22m
+[1m[31m    at __webpack_require__ (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\webpack\bootstrap:19:1)[39m[22m
+[1m[31m    at Array.<anonymous> (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\app.module.ts:11:1)[39m[22m
+[1m[31m    at __webpack_require__ (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\webpack\bootstrap:19:1)[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\main.ts:9:1[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\dist\be_ketoan\main.js:2684:3[39m[22m
+[1m[31m    at Object.<anonymous> (F:\chikiet\BEKetoan\dist\be_ketoan\main.js:2686:12)[39m[22m
+[1m[31m    at Module._compile (node:internal/modules/cjs/loader:1376:14)[39m[22m
+[1m[31m[39m[22m
+
+[36m>[39m [7m[1m[36m NX [39m[22m[27m [1mProcess exited with code 1, waiting for changes to restart...[22m
+
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 98.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m33:21[22m[39m[1m[39m[22m
+[90mTS18004: [39mNo value exists in scope for the shorthand property 'totalCount'. Either declare one or provide an initializer.
+  [0m [90m 31 |[39m       }[33m,[39m[0m
+  [0m [90m 32 |[39m     })[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 33 |[39m     [36mreturn[39m { items[33m,[39m totalCount }[33m;[39m[0m
+  [0m [90m    |[39m                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 34 |[39m   }[0m
+  [0m [90m 35 |[39m   [90m// async findThang(params: any) {[39m[0m
+  [0m [90m 36 |[39m   [90m//   const queryBuilder = this.ChitietRepository.createQueryBuilder('chitiet');[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (fd22249c8fae1e1e)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 98.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m33:21[22m[39m[1m[39m[22m
+[90mTS1117: [39mAn object literal cannot have multiple properties with the same name.
+  [0m [90m 31 |[39m       }[33m,[39m[0m
+  [0m [90m 32 |[39m     })[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 33 |[39m     [36mreturn[39m { items[33m,[39m items }[33m;[39m[0m
+  [0m [90m    |[39m                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 34 |[39m   }[0m
+  [0m [90m 35 |[39m   [90m// async findThang(params: any) {[39m[0m
+  [0m [90m 36 |[39m   [90m//   const queryBuilder = this.ChitietRepository.createQueryBuilder('chitiet');[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (606b49c14e23236d)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 98.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts[39m[22m
+[1m./src/app/chitiet/chitiet.service.ts[39m[22m [1m[32m33:25-26[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts(33,26)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/chitiet/chitiet.service.ts[39m[22m [1m[32m34:31[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: [1m[31mUnexpected[39m[22m[1m token (34:31)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|             },
+|         });
+>         return { items, items, : .le };
+|     }
+|     // async findThang(params: any) {[39m[22m
+
+webpack compiled with [1m[31m2 errors[39m[22m (4778b5d6b71ad435)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 98.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts[39m[22m
+[1m./src/app/chitiet/chitiet.service.ts[39m[22m [1m[32m33:25-26[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts(33,26)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/chitiet/chitiet.service.ts[39m[22m [1m[32m34:31[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: [1m[31mUnexpected[39m[22m[1m token (34:31)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|             },
+|         });
+>         return { items, items, : .length };
+|     }
+|     // async findThang(params: any) {[39m[22m
+
+webpack compiled with [1m[31m2 errors[39m[22m (fd8e4b129ecf8ab2)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 99 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts[39m[22m
+[1m./src/app/chitiet/chitiet.service.ts[39m[22m [1m[32m34:4-10[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts(34,5)[39m[22m
+[1m[31m      TS1109: Expression expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts[39m[22m
+[1m./src/app/chitiet/chitiet.service.ts[39m[22m [1m[32m34:25-26[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts(34,26)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/chitiet/chitiet.service.ts[39m[22m [1m[32m34:27[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: [1m[31mUnexpected[39m[22m[1m token (34:27)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|             },
+|         });
+>         const totalCount = ;
+|         return { items, items, : .length };
+|     }[39m[22m
+
+webpack compiled with [1m[31m3 errors[39m[22m (de7c5c6f5becee62)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 99 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts[39m[22m
+[1m./src/app/chitiet/chitiet.service.ts[39m[22m [1m[32m34:25-26[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts(34,26)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/chitiet/chitiet.service.ts[39m[22m [1m[32m35:31[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: [1m[31mUnexpected[39m[22m[1m token (35:31)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|         });
+|         const totalCount = items.length;
+>         return { items, items, : .length };
+|     }
+|     // async findThang(params: any) {[39m[22m
+
+webpack compiled with [1m[31m2 errors[39m[22m (813ce8908990a1ff)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 99 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (829a453ada0c14a0)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 99 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (829a453ada0c14a0)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 99 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (829a453ada0c14a0)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m

@@ -1,0 +1,113 @@
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (c10ba7373e0dd296)
+[1m[31mDebugger listening on ws://localhost:9229/8f236e7a-28d7-4fe4-adaf-c9e8adad0af8[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/8f236e7a-28d7-4fe4-adaf-c9e8adad0af8[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 3, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (c492da2d50c090e7)
+[1m[31mDebugger listening on ws://localhost:9229/f1efd131-9e99-4f4d-bdee-920552da1bac[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/f1efd131-9e99-4f4d-bdee-920552da1bac[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonbanra\hoadonbanra.service.ts[39m[22m
+[1m./src/app/hoadonbanra/hoadonbanra.service.ts[39m[22m [1m[32m84:30-35[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonbanra\hoadonbanra.service.ts(84,31)[39m[22m
+[1m[31m      TS1005: ')' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonbanra\hoadonbanra.service.ts[39m[22m
+[1m./src/app/hoadonbanra/hoadonbanra.service.ts[39m[22m [1m[32m84:35-36[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonbanra\hoadonbanra.service.ts(84,36)[39m[22m
+[1m[31m      TS1128: Declaration or statement expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/hoadonbanra.service.ts:[32m[1m84:31[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'Thang'.
+  [0m [90m 82 |[39m       queryBuilder[33m.[39mandWhere([32m'hoadonbanra.Thang =:Thang'[39m[33m,[39m { [33mThang[39m[33m:[39m [32m`${params.Thang}`[39m })[33m;[39m[0m
+  [0m [90m 83 |[39m     }[0m
+  [0m[31m[1m>[22m[39m[90m 84 |[39m     [36mif[39m (params[33m.[39mhasOwnProperty [33mThang[39m) {[0m
+  [0m [90m    |[39m                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 85 |[39m       queryBuilder[33m.[39mandWhere([32m'hoadonbanra.Thang =:Thang'[39m[33m,[39m { [33mThang[39m[33m:[39m [32m`${params.Thang}`[39m })[33m;[39m[0m
+  [0m [90m 86 |[39m     }[0m
+  [0m [90m 87 |[39m     [36mif[39m (params[33m.[39m[33mType[39m) {[0m
+
+webpack compiled with [1m[31m3 errors[39m[22m (a0aa45a59d1f33a2)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonbanra\hoadonbanra.service.ts[39m[22m
+[1m./src/app/hoadonbanra/hoadonbanra.service.ts[39m[22m [1m[32m84:37-38[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonbanra\hoadonbanra.service.ts(84,38)[39m[22m
+[1m[31m      TS1005: ')' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/hoadonbanra.service.ts:[32m[1m84:31[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'Thang'.
+  [0m [90m 82 |[39m       queryBuilder[33m.[39mandWhere([32m'hoadonbanra.Thang =:Thang'[39m[33m,[39m { [33mThang[39m[33m:[39m [32m`${params.Thang}`[39m })[33m;[39m[0m
+  [0m [90m 83 |[39m     }[0m
+  [0m[31m[1m>[22m[39m[90m 84 |[39m     [36mif[39m (params[33m.[39mhasOwnProperty([33mThang[39m) {[0m
+  [0m [90m    |[39m                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 85 |[39m       queryBuilder[33m.[39mandWhere([32m'hoadonbanra.Thang =:Thang'[39m[33m,[39m { [33mThang[39m[33m:[39m [32m`${params.Thang}`[39m })[33m;[39m[0m
+  [0m [90m 86 |[39m     }[0m
+  [0m [90m 87 |[39m     [36mif[39m (params[33m.[39m[33mType[39m) {[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (0b9fc8b094d3965c)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/hoadonbanra.service.ts:[32m[1m84:31[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'Thang'.
+  [0m [90m 82 |[39m       queryBuilder[33m.[39mandWhere([32m'hoadonbanra.Thang =:Thang'[39m[33m,[39m { [33mThang[39m[33m:[39m [32m`${params.Thang}`[39m })[33m;[39m[0m
+  [0m [90m 83 |[39m     }[0m
+  [0m[31m[1m>[22m[39m[90m 84 |[39m     [36mif[39m (params[33m.[39mhasOwnProperty([33mThang[39m)) {[0m
+  [0m [90m    |[39m                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 85 |[39m       queryBuilder[33m.[39mandWhere([32m'hoadonbanra.Thang =:Thang'[39m[33m,[39m { [33mThang[39m[33m:[39m [32m`${params.Thang}`[39m })[33m;[39m[0m
+  [0m [90m 86 |[39m     }[0m
+  [0m [90m 87 |[39m     [36mif[39m (params[33m.[39m[33mType[39m) {[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (1f15eeb66baec868)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (0ab8a288b3e6bf18)
+[1m[31mDebugger listening on ws://localhost:9229/73157a98-c199-4a6f-8e0a-96eb51e2069d[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/73157a98-c199-4a6f-8e0a-96eb51e2069d[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (22977cf8383a7371)
+[1m[31mDebugger listening on ws://localhost:9229/4542017b-5c09-4b16-9b9e-b5725a7318ab[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/4542017b-5c09-4b16-9b9e-b5725a7318ab[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (22977cf8383a7371)
+[1m[31mDebugger listening on ws://localhost:9229/334bc9c8-1cc2-4f81-b5f8-915272fc4c90[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/334bc9c8-1cc2-4f81-b5f8-915272fc4c90[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (0ee80c6738855f23)
+[1m[31mDebugger listening on ws://localhost:9229/bfc6c337-e2b7-4e50-a56f-f166ff0effad[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/bfc6c337-e2b7-4e50-a56f-f166ff0effad[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (eeb8d049bd9c93d7)
+[1m[31mDebugger listening on ws://localhost:9229/0e45dae6-bcbf-464d-af57-b0eddbcda307[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/0e45dae6-bcbf-464d-af57-b0eddbcda307[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (6aa1916e10a48471)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (6aa1916e10a48471)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (6aa1916e10a48471)
+[1m[31mDebugger listening on ws://localhost:9229/a7e7c7e8-d415-4fb1-a800-c7a54ed949e2[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/a7e7c7e8-d415-4fb1-a800-c7a54ed949e2[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 3, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m

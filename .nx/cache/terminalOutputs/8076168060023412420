@@ -1,0 +1,104 @@
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 157 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (e7bfb4aaae3dee41)
+[1m[31mDebugger listening on ws://localhost:9229/b6504855-d1af-4de6-8742-bd6222314138[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/b6504855-d1af-4de6-8742-bd6222314138[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 157 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/nhapkho/nhapkho.service.ts:[32m[1m33:9[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ SHD: any; Gianhap: any; Thang: any; Soluong: any; TenSP: any; }' is not assignable to type 'FindOptionsWhere<NhapkhoEntity> | FindOptionsWhere<NhapkhoEntity>[]'.
+  Object literal may only specify known properties, and 'Gianhap' does not exist in type 'FindOptionsWhere<NhapkhoEntity> | FindOptionsWhere<NhapkhoEntity>[]'.
+  [0m [90m 31 |[39m       where[33m:[39m {[0m
+  [0m [90m 32 |[39m         [33mSHD[39m[33m:[39m data[33m.[39m[33mSHD[39m[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 33 |[39m         [33mGianhap[39m[33m:[39m data[33m.[39m[33mGianhap[39m[33m,[39m[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 34 |[39m         [33mThang[39m[33m:[39m data[33m.[39m[33mThang[39m[33m,[39m[0m
+  [0m [90m 35 |[39m         [33mSoluong[39m[33m:[39m data[33m.[39m[33mSoluong[39m[33m,[39m[0m
+  [0m [90m 36 |[39m         [33mTenSP[39m[33m:[39m data[33m.[39m[33mTenSP[39m[33m,[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (9485f1df15ee79da)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 157 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/nhapkho/nhapkho.service.ts:[32m[1m33:9[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ SHD: any; Gianhap: any; Thang: any; Soluong: any; TenSP: any; }' is not assignable to type 'FindOptionsWhere<NhapkhoEntity> | FindOptionsWhere<NhapkhoEntity>[]'.
+  Object literal may only specify known properties, and 'Gianhap' does not exist in type 'FindOptionsWhere<NhapkhoEntity> | FindOptionsWhere<NhapkhoEntity>[]'.
+  [0m [90m 31 |[39m       where[33m:[39m {[0m
+  [0m [90m 32 |[39m         [33mSHD[39m[33m:[39m data[33m.[39m[33mSHD[39m[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 33 |[39m         [33mGianhap[39m[33m:[39m data[33m.[39m[33mGianhap[39m[33m,[39m[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 34 |[39m         [33mThang[39m[33m:[39m data[33m.[39m[33mThang[39m[33m,[39m[0m
+  [0m [90m 35 |[39m         [33mSoluong[39m[33m:[39m data[33m.[39m[33mSoluong[39m[33m,[39m[0m
+  [0m [90m 36 |[39m         [33mTenSP[39m[33m:[39m data[33m.[39m[33mTenSP[39m[33m,[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (9485f1df15ee79da)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 157 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/nhapkho/nhapkho.service.ts:[32m[1m33:9[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ SHD: any; Gianhap: any; Thang: any; Soluong: any; TenSP: any; }' is not assignable to type 'FindOptionsWhere<NhapkhoEntity> | FindOptionsWhere<NhapkhoEntity>[]'.
+  Object literal may only specify known properties, and 'Gianhap' does not exist in type 'FindOptionsWhere<NhapkhoEntity> | FindOptionsWhere<NhapkhoEntity>[]'.
+  [0m [90m 31 |[39m       where[33m:[39m {[0m
+  [0m [90m 32 |[39m         [33mSHD[39m[33m:[39m data[33m.[39m[33mSHD[39m[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 33 |[39m         [33mGianhap[39m[33m:[39m data[33m.[39m[33mGianhap[39m[33m,[39m[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 34 |[39m         [33mThang[39m[33m:[39m data[33m.[39m[33mThang[39m[33m,[39m[0m
+  [0m [90m 35 |[39m         [33mSoluong[39m[33m:[39m data[33m.[39m[33mSoluong[39m[33m,[39m[0m
+  [0m [90m 36 |[39m         [33mTenSP[39m[33m:[39m data[33m.[39m[33mTenSP[39m[33m,[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (9485f1df15ee79da)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 157 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/nhapkho/nhapkho.service.ts:[32m[1m33:9[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ SHD: any; Gianhap: any; Thang: any; Soluong: any; TenSP: any; }' is not assignable to type 'FindOptionsWhere<NhapkhoEntity> | FindOptionsWhere<NhapkhoEntity>[]'.
+  Object literal may only specify known properties, and 'Gianhap' does not exist in type 'FindOptionsWhere<NhapkhoEntity> | FindOptionsWhere<NhapkhoEntity>[]'.
+  [0m [90m 31 |[39m       where[33m:[39m {[0m
+  [0m [90m 32 |[39m         [33mSHD[39m[33m:[39m data[33m.[39m[33mSHD[39m[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 33 |[39m         [33mGianhap[39m[33m:[39m data[33m.[39m[33mGianhap[39m[33m,[39m[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 34 |[39m         [33mThang[39m[33m:[39m data[33m.[39m[33mThang[39m[33m,[39m[0m
+  [0m [90m 35 |[39m         [33mSoluong[39m[33m:[39m data[33m.[39m[33mSoluong[39m[33m,[39m[0m
+  [0m [90m 36 |[39m         [33mTenSP[39m[33m:[39m data[33m.[39m[33mTenSP[39m[33m,[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (9485f1df15ee79da)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 157 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/nhapkho/nhapkho.service.ts:[32m[1m33:9[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ SHD: any; Gianhap: any; Thang: any; Soluong: any; TenSP: any; }' is not assignable to type 'FindOptionsWhere<NhapkhoEntity> | FindOptionsWhere<NhapkhoEntity>[]'.
+  Object literal may only specify known properties, and 'Gianhap' does not exist in type 'FindOptionsWhere<NhapkhoEntity> | FindOptionsWhere<NhapkhoEntity>[]'.
+  [0m [90m 31 |[39m       where[33m:[39m {[0m
+  [0m [90m 32 |[39m         [33mSHD[39m[33m:[39m data[33m.[39m[33mSHD[39m[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 33 |[39m         [33mGianhap[39m[33m:[39m data[33m.[39m[33mGianhap[39m[33m,[39m[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 34 |[39m         [33mThang[39m[33m:[39m data[33m.[39m[33mThang[39m[33m,[39m[0m
+  [0m [90m 35 |[39m         [33mSoluong[39m[33m:[39m data[33m.[39m[33mSoluong[39m[33m,[39m[0m
+  [0m [90m 36 |[39m         [33mTenSP[39m[33m:[39m data[33m.[39m[33mTenSP[39m[33m,[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (9485f1df15ee79da)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 157 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/nhapkho/nhapkho.service.ts:[32m[1m33:9[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ SHD: any; Gianhap: any; Thang: any; Soluong: any; TenSP: any; }' is not assignable to type 'FindOptionsWhere<NhapkhoEntity> | FindOptionsWhere<NhapkhoEntity>[]'.
+  Object literal may only specify known properties, and 'Gianhap' does not exist in type 'FindOptionsWhere<NhapkhoEntity> | FindOptionsWhere<NhapkhoEntity>[]'.
+  [0m [90m 31 |[39m       where[33m:[39m {[0m
+  [0m [90m 32 |[39m         [33mSHD[39m[33m:[39m data[33m.[39m[33mSHD[39m[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 33 |[39m         [33mGianhap[39m[33m:[39m data[33m.[39m[33mGianhap[39m[33m,[39m[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 34 |[39m         [33mThang[39m[33m:[39m data[33m.[39m[33mThang[39m[33m,[39m[0m
+  [0m [90m 35 |[39m         [33mSoluong[39m[33m:[39m data[33m.[39m[33mSoluong[39m[33m,[39m[0m
+  [0m [90m 36 |[39m         [33mTenSP[39m[33m:[39m data[33m.[39m[33mTenSP[39m[33m,[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (9485f1df15ee79da)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m

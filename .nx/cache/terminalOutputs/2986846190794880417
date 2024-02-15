@@ -1,0 +1,226 @@
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 85.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (eb99002b8d69b600)
+[1m[31mDebugger listening on ws://localhost:9229/7a3961e6-4b9b-4460-8378-ea76f571fc22[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/7a3961e6-4b9b-4460-8378-ea76f571fc22[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 85.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m48:9[22m[39m[1m[39m[22m
+[90mTS18004: [39mNo value exists in scope for the shorthand property 'Loai'. Either declare one or provide an initializer.
+  [0m [90m 46 |[39m       where[33m:[39m { [0m
+  [0m [90m 47 |[39m         idChitiet[33m:[39m idChitiet[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 48 |[39m         [33mLoai[39m[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 49 |[39m       }[33m,[39m[0m
+  [0m [90m 50 |[39m     })[33m;[39m[0m
+  [0m [90m 51 |[39m   }[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (43e7c16491857287)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 85.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/chitiet/chitiet.service.ts[39m[22m [1m[32m48:12[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: [1m[31mUnexpected[39m[22m[1m token (48:12)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|                 idChitiet: idChitiet,
+|                 Loai: 
+>             },
+|         });
+|     }[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts[39m[22m
+[1m./src/app/chitiet/chitiet.service.ts[39m[22m [1m[32m49:6-7[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\chitiet\chitiet.service.ts(49,7)[39m[22m
+[1m[31m      TS1109: Expression expected.[39m[22m
+
+webpack compiled with [1m[31m2 errors[39m[22m (0e6a5d6ddec4205b)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 85.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m48:27[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'la' does not exist on type '{ new (): DataTransfer; prototype: DataTransfer; }'.
+  [0m [90m 46 |[39m       where[33m:[39m { [0m
+  [0m [90m 47 |[39m         idChitiet[33m:[39m idChitiet[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 48 |[39m         [33mLoai[39m[33m:[39m[33mDataTransfer[39m[33m.[39mla[0m
+  [0m [90m    |[39m                           [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 49 |[39m       }[33m,[39m[0m
+  [0m [90m 50 |[39m     })[33m;[39m[0m
+  [0m [90m 51 |[39m   }[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (dd4360bd63ff2028)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 85.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m48:14[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'data'.
+  [0m [90m 46 |[39m       where[33m:[39m { [0m
+  [0m [90m 47 |[39m         idChitiet[33m:[39m idChitiet[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 48 |[39m         [33mLoai[39m[33m:[39mdata[33m.[39mla[0m
+  [0m [90m    |[39m              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 49 |[39m       }[33m,[39m[0m
+  [0m [90m 50 |[39m     })[33m;[39m[0m
+  [0m [90m 51 |[39m   }[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (3a0b0a2c7cd0cfaa)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 85.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m48:14[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'data'.
+  [0m [90m 46 |[39m       where[33m:[39m { [0m
+  [0m [90m 47 |[39m         idChitiet[33m:[39m idChitiet[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 48 |[39m         [33mLoai[39m[33m:[39mdata[33m.[39m[33mLoai[39m[0m
+  [0m [90m    |[39m              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 49 |[39m       }[33m,[39m[0m
+  [0m [90m 50 |[39m     })[33m;[39m[0m
+  [0m [90m 51 |[39m   }[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (63a4e92a89daa6b0)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 85.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/chitiet/chitiet.service.ts:[32m[1m47:20[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'idChitiet'.
+  [0m [90m 45 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mChitietRepository[39m[33m.[39mfindOne({[0m
+  [0m [90m 46 |[39m       where[33m:[39m { [0m
+  [0m[31m[1m>[22m[39m[90m 47 |[39m         idChitiet[33m:[39m idChitiet[33m,[39m[0m
+  [0m [90m    |[39m                    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 48 |[39m         [33mLoai[39m[33m:[39mdata[33m.[39m[33mLoai[39m[0m
+  [0m [90m 49 |[39m       }[33m,[39m[0m
+  [0m [90m 50 |[39m     })[33m;[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (837708c5eb3a88ed)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 85.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (037fcc03675cf25a)
+[1m[31mDebugger listening on ws://localhost:9229/e9246402-be9c-44b1-af33-250de01b1c5c[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/e9246402-be9c-44b1-af33-250de01b1c5c[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 85.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (c0c6ee907af31877)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 85.9 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (c0c6ee907af31877)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 85.9 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (c0c6ee907af31877)
+[1m[31mDebugger listening on ws://localhost:9229/a1ebf6bb-1faf-45cb-a24f-ede0ebcf002f[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/a1ebf6bb-1faf-45cb-a24f-ede0ebcf002f[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 85.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/sohoadon/sohoadon.service.ts[39m[22m [1m[32m30:59[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: [1m[31mUnexpected[39m[22m[1m token (30:59)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|     async findSHD(data) {
+|         return await this.SohoadonRepository.findOne({
+>             where: { shdon: data.shdon, thang: Loai, data, : .Loai },
+|         });
+|     }[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\sohoadon\sohoadon.service.ts[39m[22m
+[1m./src/app/sohoadon/sohoadon.service.ts[39m[22m [1m[32m31:43-44[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\sohoadon\sohoadon.service.ts(31,44)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\sohoadon\sohoadon.service.ts[39m[22m
+[1m./src/app/sohoadon/sohoadon.service.ts[39m[22m [1m[32m31:48-49[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\sohoadon\sohoadon.service.ts(31,49)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.service.ts:[32m[1m31:40[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'Loai'.
+  [0m [90m 29 |[39m   [36masync[39m findSHD(data[33m:[39m any) {[0m
+  [0m [90m 30 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mSohoadonRepository[39m[33m.[39mfindOne({[0m
+  [0m[31m[1m>[22m[39m[90m 31 |[39m       where[33m:[39m { shdon[33m:[39m data[33m.[39mshdon[33m,[39mthang[33m:[39m[33mLoai[39m[33m:[39mdata[33m.[39m[33mLoai[39m }[33m,[39m[0m
+  [0m [90m    |[39m                                        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 32 |[39m     })[33m;[39m[0m
+  [0m [90m 33 |[39m   }[0m
+  [0m [90m 34 |[39m   [36masync[39m findid(id[33m:[39m string) {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.service.ts:[32m[1m31:45[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ shdon: any; thang: any; data: any; "": any; }' is not assignable to type 'FindOptionsWhere<SohoadonEntity> | FindOptionsWhere<SohoadonEntity>[]'.
+  Object literal may only specify known properties, and 'data' does not exist in type 'FindOptionsWhere<SohoadonEntity> | FindOptionsWhere<SohoadonEntity>[]'.
+  [0m [90m 29 |[39m   [36masync[39m findSHD(data[33m:[39m any) {[0m
+  [0m [90m 30 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mSohoadonRepository[39m[33m.[39mfindOne({[0m
+  [0m[31m[1m>[22m[39m[90m 31 |[39m       where[33m:[39m { shdon[33m:[39m data[33m.[39mshdon[33m,[39mthang[33m:[39m[33mLoai[39m[33m:[39mdata[33m.[39m[33mLoai[39m }[33m,[39m[0m
+  [0m [90m    |[39m                                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 32 |[39m     })[33m;[39m[0m
+  [0m [90m 33 |[39m   }[0m
+  [0m [90m 34 |[39m   [36masync[39m findid(id[33m:[39m string) {[0m
+
+webpack compiled with [1m[31m5 errors[39m[22m (ce88a67a439f64fd)
+[1m[31mDebugger listening on ws://localhost:9229/7c3459ed-c389-4de7-890d-f2daecb16796[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/7c3459ed-c389-4de7-890d-f2daecb16796[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 85.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (7ba637ef265379e8)
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mF:\chikiet\BEKetoan\dist\be_ketoan\main.js:1718[39m[22m
+[1m[31m        return await this.SohoadonRepository.find({[39m[22m
+[1m[31m      ^[39m[22m
+[1m[31mError: Module parse failed: Unexpected token (30:59)[39m[22m
+[1m[31mFile was processed with these loaders:[39m[22m
+[1m[31m * ../node_modules/ts-loader/index.js[39m[22m
+[1m[31mYou may need an additional loader to handle the result of these loaders.[39m[22m
+[1m[31m|     async findSHD(data) {[39m[22m
+[1m[31m|         return await this.SohoadonRepository.findOne({[39m[22m
+[1m[31m>             where: { shdon: data.shdon, thang: Loai, data, : .Loai },[39m[22m
+[1m[31m|         });[39m[22m
+[1m[31m|     }[39m[22m
+[1m[31m    at Array.Object.defineProperty.value (F:\chikiet\BEKetoan\dist\be_ketoan\main.js:1718:7)[39m[22m
+[1m[31m    at __webpack_require__ (F:\chikiet\BEKetoan\dist\be_ketoan\main.js:2314:41)[39m[22m
+[1m[31m    at Array.Object.defineProperty.value (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\sohoadon\sohoadon.service.ts:19:6)[39m[22m
+[1m[31m    at __webpack_require__ (F:\chikiet\BEKetoan\dist\be_ketoan\main.js:2314:41)[39m[22m
+[1m[31m    at Array.<anonymous> (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\app.module.ts:43:14)[39m[22m
+[1m[31m    at __webpack_require__ (F:\chikiet\BEKetoan\dist\be_ketoan\main.js:2314:41)[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\dist\be_ketoan\main.js:2334:22[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\dist\be_ketoan\main.js:2344:3[39m[22m
+[1m[31m    at Object.<anonymous> (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\webpack\bootstrap:2:1)[39m[22m
+[1m[31m    at Module._compile (node:internal/modules/cjs/loader:1376:14)[39m[22m
+[1m[31m[39m[22m
+
+[36m>[39m [7m[1m[36m NX [39m[22m[27m [1mProcess exited with code 1, waiting for changes to restart...[22m
+
+[1m[31mDebugger listening on ws://localhost:9229/3b78688a-a9a5-4aad-bfb2-8fb7f104cb5d[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/3b78688a-a9a5-4aad-bfb2-8fb7f104cb5d[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 85.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (f03e18ec3c4ec221)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 85.9 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (f03e18ec3c4ec221)
+[1m[31mDebugger listening on ws://localhost:9229/2dd53a50-e20f-4af7-ade4-f21535737ff9[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/2dd53a50-e20f-4af7-ade4-f21535737ff9[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 24296  - [39m[31m12/31/2023, 11:10:00 PM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mread ECONNRESET[39m[31m[39m[22m
+[1m[31mQueryFailedError: read ECONNRESET[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at PoolConnection._notifyError (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:228:21)[39m[22m
+[1m[31m    at PoolConnection._handleFatalError (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:183:10)[39m[22m
+[1m[31m    at PoolConnection._handleNetworkError (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:196:10)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at emitErrorNT (node:internal/streams/destroy:151:8)[39m[22m
+[1m[31m    at emitErrorCloseNT (node:internal/streams/destroy:116:3)[39m[22m
+[1m[31m    at processTicksAndRejections (node:internal/process/task_queues:82:21)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 24296  - [39m[31m01/01/2024, 9:36:33 AM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mread ECONNRESET[39m[31m[39m[22m
+[1m[31mQueryFailedError: read ECONNRESET[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at PoolConnection._notifyError (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:228:21)[39m[22m
+[1m[31m    at PoolConnection._handleFatalError (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:183:10)[39m[22m
+[1m[31m    at PoolConnection._handleNetworkError (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:196:10)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at emitErrorNT (node:internal/streams/destroy:151:8)[39m[22m
+[1m[31m    at emitErrorCloseNT (node:internal/streams/destroy:116:3)[39m[22m
+[1m[31m    at processTicksAndRejections (node:internal/process/task_queues:82:21)[39m[22m
+[1m[31m[39m[22m

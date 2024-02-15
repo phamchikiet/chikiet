@@ -1,0 +1,68 @@
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 16.7 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (83c0fb1db95aa085)
+[1m[31mDebugger listening on ws://localhost:9229/fbd71f7a-0e2b-4de8-afea-8e252b0dda33[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/fbd71f7a-0e2b-4de8-afea-8e252b0dda33[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 16.7 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (0456d5b3c47807ee)
+[1m[31mDebugger listening on ws://localhost:9229/0f6adc31-ad71-430a-99ec-8e5b5103ee9b[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/0f6adc31-ad71-430a-99ec-8e5b5103ee9b[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 16.7 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/main.ts:[32m[1m15:7[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'cro' does not exist on type 'INestApplication<any>'.
+  [0m [90m 13 |[39m   [36mconst[39m port [33m=[39m process[33m.[39menv[33m.[39m[33mPORT[39m [33m||[39m [35m3100[39m[33m;[39m[0m
+  [0m [90m 14 |[39m   [36mawait[39m app[33m.[39mlisten(port)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 15 |[39m   app[33m.[39mcro[0m
+  [0m [90m    |[39m       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 16 |[39m   [33mLogger[39m[33m.[39mlog([0m
+  [0m [90m 17 |[39m     [32m`🚀 Application is running on: http://localhost:${port}`[39m[0m
+  [0m [90m 18 |[39m   )[33m;[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (ce8b18414a14406f)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 16.8 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (0daa400d72cd07d6)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 16.8 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (0daa400d72cd07d6)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 16.8 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (0daa400d72cd07d6)
+[1m[31mDebugger listening on ws://localhost:9229/8745bb6c-e5d0-410b-b5b0-e86d9eeb4ef7[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/8745bb6c-e5d0-410b-b5b0-e86d9eeb4ef7[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 16.8 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (0daa400d72cd07d6)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 16.8 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (0daa400d72cd07d6)
+[1m[31mDebugger listening on ws://localhost:9229/659ac633-c431-444e-b0fe-acfc2d5f6d73[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/659ac633-c431-444e-b0fe-acfc2d5f6d73[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 16.8 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (1598449df53cdbc5)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 16.8 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (1598449df53cdbc5)
+[1m[31mDebugger listening on ws://localhost:9229/464730cf-317f-4975-860b-4d6ce631c65d[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/464730cf-317f-4975-860b-4d6ce631c65d[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/dfbe0e98-ae44-4319-8dd1-5a374ce88221[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/dfbe0e98-ae44-4319-8dd1-5a374ce88221[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 16.8 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (ce9a34f7484707bd)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 16.8 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (ce9a34f7484707bd)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 16.8 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (ce9a34f7484707bd)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 16.8 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (ce9a34f7484707bd)
+[1m[31mDebugger listening on ws://localhost:9229/15139a78-8c7a-4d27-a973-a0121d1d2d26[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/15139a78-8c7a-4d27-a973-a0121d1d2d26[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m

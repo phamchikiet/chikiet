@@ -1,0 +1,1429 @@
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 99 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (ad22d6e10b353bad)
+[1m[31mDebugger listening on ws://localhost:9229/6d4efef9-b64c-4361-a0f7-3624dbb5e4df[39m[22m
+[1m[31m[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/6d4efef9-b64c-4361-a0f7-3624dbb5e4df[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 104 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (ff1e9549ff2dfe86)
+[1m[31mDebugger listening on ws://localhost:9229/e5620dfd-7aaa-4894-a381-0c0fd988ccee[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/e5620dfd-7aaa-4894-a381-0c0fd988ccee[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 104 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (ff1e9549ff2dfe86)
+[1m[31mDebugger listening on ws://localhost:9229/6a62918b-784d-43d1-a075-0d1fab6bb599[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/6a62918b-784d-43d1-a075-0d1fab6bb599[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 104 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (ff1e9549ff2dfe86)
+[1m[31mDebugger listening on ws://localhost:9229/a012fd6c-d3ca-48bf-827c-172289756f22[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/a012fd6c-d3ca-48bf-827c-172289756f22[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 106 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/hoadonhhp/hoadonhhp.service.ts[39m[22m [1m[32m9:24-59[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './entities/dichvu.entity' in 'F:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.controller.ts:[32m[1m2:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./hoadonhhp.service"' has no exported member 'HoadonhhpService'.
+  [0m [90m 1 |[39m [36mimport[39m { [33mController[39m[33m,[39m [33mGet[39m[33m,[39m [33mPost[39m[33m,[39m [33mBody[39m[33m,[39m [33mPatch[39m[33m,[39m [33mParam[39m[33m,[39m [33mDelete[39m } [36mfrom[39m [32m'@nestjs/common'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 2 |[39m [36mimport[39m { [33mHoadonhhpService[39m } [36mfrom[39m [32m'./hoadonhhp.service'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m { [33mCreateHoadonhhpDto[39m } [36mfrom[39m [32m'./dto/create-hoadonhhp.dto'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mUpdateHoadonhhpDto[39m } [36mfrom[39m [32m'./dto/update-hoadonhhp.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.module.ts:[32m[1m2:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./hoadonhhp.service"' has no exported member 'HoadonhhpService'.
+  [0m [90m 1 |[39m [36mimport[39m { [33mModule[39m } [36mfrom[39m [32m'@nestjs/common'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 2 |[39m [36mimport[39m { [33mHoadonhhpService[39m } [36mfrom[39m [32m'./hoadonhhp.service'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m { [33mHoadonhhpController[39m } [36mfrom[39m [32m'./hoadonhhp.controller'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m[0m
+  [0m [90m 5 |[39m [33m@[39m[33mModule[39m({[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m4:33[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './dto/create-dichvu.dto' or its corresponding type declarations.
+  [0m [90m 2 |[39m [36mimport[39m { [33mInjectRepository[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m { [33mLike[39m[33m,[39m [33mRepository[39m } [36mfrom[39m [32m'typeorm'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 4 |[39m [36mimport[39m { [33mCreateDichvuDto[39m } [36mfrom[39m [32m'./dto/create-dichvu.dto'[39m[33m;[39m[0m
+  [0m [90m   |[39m                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mUpdateDichvuDto[39m } [36mfrom[39m [32m'./dto/update-dichvu.dto'[39m[33m;[39m[0m
+  [0m [90m 6 |[39m [36mimport[39m { [33mDichvuEntity[39m } [36mfrom[39m [32m'./entities/dichvu.entity'[39m[33m;[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m5:33[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './dto/update-dichvu.dto' or its corresponding type declarations.
+  [0m [90m 3 |[39m [36mimport[39m { [33mLike[39m[33m,[39m [33mRepository[39m } [36mfrom[39m [32m'typeorm'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mCreateDichvuDto[39m } [36mfrom[39m [32m'./dto/create-dichvu.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mUpdateDichvuDto[39m } [36mfrom[39m [32m'./dto/update-dichvu.dto'[39m[33m;[39m[0m
+  [0m [90m   |[39m                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 6 |[39m [36mimport[39m { [33mDichvuEntity[39m } [36mfrom[39m [32m'./entities/dichvu.entity'[39m[33m;[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 8 |[39m [36mexport[39m [36mclass[39m [33mDichvuService[39m {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m6:30[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './entities/dichvu.entity' or its corresponding type declarations.
+  [0m [90m 4 |[39m [36mimport[39m { [33mCreateDichvuDto[39m } [36mfrom[39m [32m'./dto/create-dichvu.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mUpdateDichvuDto[39m } [36mfrom[39m [32m'./dto/update-dichvu.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mDichvuEntity[39m } [36mfrom[39m [32m'./entities/dichvu.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m                              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 8 |[39m [36mexport[39m [36mclass[39m [33mDichvuService[39m {[0m
+  [0m [90m 9 |[39m   constructor([0m
+
+webpack compiled with [1m[31m6 errors[39m[22m (76d9f7b680d80d98)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 106 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/hoadonhhp/hoadonhhp.service.ts[39m[22m [1m[32m9:24-59[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './entities/dichvu.entity' in 'F:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.controller.ts:[32m[1m2:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./hoadonhhp.service"' has no exported member 'HoadonhhpService'.
+  [0m [90m 1 |[39m [36mimport[39m { [33mController[39m[33m,[39m [33mGet[39m[33m,[39m [33mPost[39m[33m,[39m [33mBody[39m[33m,[39m [33mPatch[39m[33m,[39m [33mParam[39m[33m,[39m [33mDelete[39m } [36mfrom[39m [32m'@nestjs/common'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 2 |[39m [36mimport[39m { [33mHoadonhhpService[39m } [36mfrom[39m [32m'./hoadonhhp.service'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m { [33mCreateHoadonhhpDto[39m } [36mfrom[39m [32m'./dto/create-hoadonhhp.dto'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mUpdateHoadonhhpDto[39m } [36mfrom[39m [32m'./dto/update-hoadonhhp.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.module.ts:[32m[1m2:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./hoadonhhp.service"' has no exported member 'HoadonhhpService'.
+  [0m [90m 1 |[39m [36mimport[39m { [33mModule[39m } [36mfrom[39m [32m'@nestjs/common'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 2 |[39m [36mimport[39m { [33mHoadonhhpService[39m } [36mfrom[39m [32m'./hoadonhhp.service'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m { [33mHoadonhhpController[39m } [36mfrom[39m [32m'./hoadonhhp.controller'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m[0m
+  [0m [90m 5 |[39m [33m@[39m[33mModule[39m({[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m4:33[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './dto/create-dichvu.dto' or its corresponding type declarations.
+  [0m [90m 2 |[39m [36mimport[39m { [33mInjectRepository[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m { [33mLike[39m[33m,[39m [33mRepository[39m } [36mfrom[39m [32m'typeorm'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 4 |[39m [36mimport[39m { [33mCreateDichvuDto[39m } [36mfrom[39m [32m'./dto/create-dichvu.dto'[39m[33m;[39m[0m
+  [0m [90m   |[39m                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mUpdateDichvuDto[39m } [36mfrom[39m [32m'./dto/update-dichvu.dto'[39m[33m;[39m[0m
+  [0m [90m 6 |[39m [36mimport[39m { [33mDichvuEntity[39m } [36mfrom[39m [32m'./entities/dichvu.entity'[39m[33m;[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m5:33[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './dto/update-dichvu.dto' or its corresponding type declarations.
+  [0m [90m 3 |[39m [36mimport[39m { [33mLike[39m[33m,[39m [33mRepository[39m } [36mfrom[39m [32m'typeorm'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mCreateDichvuDto[39m } [36mfrom[39m [32m'./dto/create-dichvu.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mUpdateDichvuDto[39m } [36mfrom[39m [32m'./dto/update-dichvu.dto'[39m[33m;[39m[0m
+  [0m [90m   |[39m                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 6 |[39m [36mimport[39m { [33mDichvuEntity[39m } [36mfrom[39m [32m'./entities/dichvu.entity'[39m[33m;[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 8 |[39m [36mexport[39m [36mclass[39m [33mDichvuService[39m {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m6:30[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './entities/dichvu.entity' or its corresponding type declarations.
+  [0m [90m 4 |[39m [36mimport[39m { [33mCreateDichvuDto[39m } [36mfrom[39m [32m'./dto/create-dichvu.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mUpdateDichvuDto[39m } [36mfrom[39m [32m'./dto/update-dichvu.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mDichvuEntity[39m } [36mfrom[39m [32m'./entities/dichvu.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m                              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 8 |[39m [36mexport[39m [36mclass[39m [33mDichvuService[39m {[0m
+  [0m [90m 9 |[39m   constructor([0m
+
+webpack compiled with [1m[31m6 errors[39m[22m (76d9f7b680d80d98)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 106 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/hoadonhhp/hoadonhhp.service.ts[39m[22m [1m[32m9:24-59[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './entities/dichvu.entity' in 'F:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.controller.ts:[32m[1m2:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./hoadonhhp.service"' has no exported member 'HoadonhhpService'.
+  [0m [90m 1 |[39m [36mimport[39m { [33mController[39m[33m,[39m [33mGet[39m[33m,[39m [33mPost[39m[33m,[39m [33mBody[39m[33m,[39m [33mPatch[39m[33m,[39m [33mParam[39m[33m,[39m [33mDelete[39m } [36mfrom[39m [32m'@nestjs/common'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 2 |[39m [36mimport[39m { [33mHoadonhhpService[39m } [36mfrom[39m [32m'./hoadonhhp.service'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m { [33mCreateHoadonhhpDto[39m } [36mfrom[39m [32m'./dto/create-hoadonhhp.dto'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mUpdateHoadonhhpDto[39m } [36mfrom[39m [32m'./dto/update-hoadonhhp.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.module.ts:[32m[1m2:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./hoadonhhp.service"' has no exported member 'HoadonhhpService'.
+  [0m [90m 1 |[39m [36mimport[39m { [33mModule[39m } [36mfrom[39m [32m'@nestjs/common'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 2 |[39m [36mimport[39m { [33mHoadonhhpService[39m } [36mfrom[39m [32m'./hoadonhhp.service'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m { [33mHoadonhhpController[39m } [36mfrom[39m [32m'./hoadonhhp.controller'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m[0m
+  [0m [90m 5 |[39m [33m@[39m[33mModule[39m({[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m4:33[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './dto/create-dichvu.dto' or its corresponding type declarations.
+  [0m [90m 2 |[39m [36mimport[39m { [33mInjectRepository[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m { [33mLike[39m[33m,[39m [33mRepository[39m } [36mfrom[39m [32m'typeorm'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 4 |[39m [36mimport[39m { [33mCreateDichvuDto[39m } [36mfrom[39m [32m'./dto/create-dichvu.dto'[39m[33m;[39m[0m
+  [0m [90m   |[39m                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mUpdateDichvuDto[39m } [36mfrom[39m [32m'./dto/update-dichvu.dto'[39m[33m;[39m[0m
+  [0m [90m 6 |[39m [36mimport[39m { [33mDichvuEntity[39m } [36mfrom[39m [32m'./entities/dichvu.entity'[39m[33m;[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m5:33[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './dto/update-dichvu.dto' or its corresponding type declarations.
+  [0m [90m 3 |[39m [36mimport[39m { [33mLike[39m[33m,[39m [33mRepository[39m } [36mfrom[39m [32m'typeorm'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mCreateDichvuDto[39m } [36mfrom[39m [32m'./dto/create-dichvu.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mUpdateDichvuDto[39m } [36mfrom[39m [32m'./dto/update-dichvu.dto'[39m[33m;[39m[0m
+  [0m [90m   |[39m                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 6 |[39m [36mimport[39m { [33mDichvuEntity[39m } [36mfrom[39m [32m'./entities/dichvu.entity'[39m[33m;[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 8 |[39m [36mexport[39m [36mclass[39m [33mDichvuService[39m {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m6:30[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './entities/dichvu.entity' or its corresponding type declarations.
+  [0m [90m 4 |[39m [36mimport[39m { [33mCreateDichvuDto[39m } [36mfrom[39m [32m'./dto/create-dichvu.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mUpdateDichvuDto[39m } [36mfrom[39m [32m'./dto/update-dichvu.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mDichvuEntity[39m } [36mfrom[39m [32m'./entities/dichvu.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m                              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 8 |[39m [36mexport[39m [36mclass[39m [33mDichvuService[39m {[0m
+  [0m [90m 9 |[39m   constructor([0m
+
+webpack compiled with [1m[31m6 errors[39m[22m (76d9f7b680d80d98)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 107 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.controller.ts:[32m[1m22:34[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findOne' does not exist on type 'HoadonhhpService'.
+  [0m [90m 20 |[39m   [33m@[39m[33mGet[39m([32m':id'[39m)[0m
+  [0m [90m 21 |[39m   findOne([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 22 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mhoadonhhpService[33m.[39mfindOne([33m+[39mid)[33m;[39m[0m
+  [0m [90m    |[39m                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 23 |[39m   }[0m
+  [0m [90m 24 |[39m[0m
+  [0m [90m 25 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.controller.ts:[32m[1m27:41[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'number' is not assignable to parameter of type 'string'.
+  [0m [90m 25 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+  [0m [90m 26 |[39m   update([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string[33m,[39m [33m@[39m[33mBody[39m() updateHoadonhhpDto[33m:[39m [33mUpdateHoadonhhpDto[39m) {[0m
+  [0m[31m[1m>[22m[39m[90m 27 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mhoadonhhpService[33m.[39mupdate([33m+[39mid[33m,[39m updateHoadonhhpDto)[33m;[39m[0m
+  [0m [90m    |[39m                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 28 |[39m   }[0m
+  [0m [90m 29 |[39m[0m
+  [0m [90m 30 |[39m   [33m@[39m[33mDelete[39m([32m':id'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.controller.ts:[32m[1m32:41[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'number' is not assignable to parameter of type 'string'.
+  [0m [90m 30 |[39m   [33m@[39m[33mDelete[39m([32m':id'[39m)[0m
+  [0m [90m 31 |[39m   remove([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 32 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mhoadonhhpService[33m.[39mremove([33m+[39mid)[33m;[39m[0m
+  [0m [90m    |[39m                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 33 |[39m   }[0m
+  [0m [90m 34 |[39m }[0m
+  [0m [90m 35 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m6:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./entities/hoadonhhp.entity"' has no exported member 'HoadonhhpEntity'.
+  [0m [90m 4 |[39m [36mimport[39m { [33mCreateHoadonhhpDto[39m } [36mfrom[39m [32m'./dto/create-hoadonhhp.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mUpdateHoadonhhpDto[39m } [36mfrom[39m [32m'./dto/update-hoadonhhp.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mHoadonhhpEntity[39m } [36mfrom[39m [32m'./entities/hoadonhhp.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 8 |[39m [36mexport[39m [36mclass[39m [33mHoadonhhpService[39m {[0m
+  [0m [90m 9 |[39m   constructor([0m
+
+webpack compiled with [1m[31m4 errors[39m[22m (5373f05ec0db1ec9)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 107 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.controller.ts:[32m[1m22:34[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findOne' does not exist on type 'HoadonhhpService'.
+  [0m [90m 20 |[39m   [33m@[39m[33mGet[39m([32m':id'[39m)[0m
+  [0m [90m 21 |[39m   findOne([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 22 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mhoadonhhpService[33m.[39mfindOne([33m+[39mid)[33m;[39m[0m
+  [0m [90m    |[39m                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 23 |[39m   }[0m
+  [0m [90m 24 |[39m[0m
+  [0m [90m 25 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.controller.ts:[32m[1m27:41[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'number' is not assignable to parameter of type 'string'.
+  [0m [90m 25 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+  [0m [90m 26 |[39m   update([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string[33m,[39m [33m@[39m[33mBody[39m() updateHoadonhhpDto[33m:[39m [33mUpdateHoadonhhpDto[39m) {[0m
+  [0m[31m[1m>[22m[39m[90m 27 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mhoadonhhpService[33m.[39mupdate([33m+[39mid[33m,[39m updateHoadonhhpDto)[33m;[39m[0m
+  [0m [90m    |[39m                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 28 |[39m   }[0m
+  [0m [90m 29 |[39m[0m
+  [0m [90m 30 |[39m   [33m@[39m[33mDelete[39m([32m':id'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.controller.ts:[32m[1m32:41[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'number' is not assignable to parameter of type 'string'.
+  [0m [90m 30 |[39m   [33m@[39m[33mDelete[39m([32m':id'[39m)[0m
+  [0m [90m 31 |[39m   remove([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 32 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mhoadonhhpService[33m.[39mremove([33m+[39mid)[33m;[39m[0m
+  [0m [90m    |[39m                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 33 |[39m   }[0m
+  [0m [90m 34 |[39m }[0m
+  [0m [90m 35 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m6:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./entities/hoadonhhp.entity"' has no exported member 'HoadonhhpEntity'.
+  [0m [90m 4 |[39m [36mimport[39m { [33mCreateHoadonhhpDto[39m } [36mfrom[39m [32m'./dto/create-hoadonhhp.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mUpdateHoadonhhpDto[39m } [36mfrom[39m [32m'./dto/update-hoadonhhp.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mHoadonhhpEntity[39m } [36mfrom[39m [32m'./entities/hoadonhhp.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 8 |[39m [36mexport[39m [36mclass[39m [33mHoadonhhpService[39m {[0m
+  [0m [90m 9 |[39m   constructor([0m
+
+webpack compiled with [1m[31m4 errors[39m[22m (5373f05ec0db1ec9)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 107 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.controller.ts:[32m[1m22:34[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findOne' does not exist on type 'HoadonhhpService'.
+  [0m [90m 20 |[39m   [33m@[39m[33mGet[39m([32m':id'[39m)[0m
+  [0m [90m 21 |[39m   findOne([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 22 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mhoadonhhpService[33m.[39mfindOne([33m+[39mid)[33m;[39m[0m
+  [0m [90m    |[39m                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 23 |[39m   }[0m
+  [0m [90m 24 |[39m[0m
+  [0m [90m 25 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.controller.ts:[32m[1m27:41[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'number' is not assignable to parameter of type 'string'.
+  [0m [90m 25 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+  [0m [90m 26 |[39m   update([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string[33m,[39m [33m@[39m[33mBody[39m() updateHoadonhhpDto[33m:[39m [33mUpdateHoadonhhpDto[39m) {[0m
+  [0m[31m[1m>[22m[39m[90m 27 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mhoadonhhpService[33m.[39mupdate([33m+[39mid[33m,[39m updateHoadonhhpDto)[33m;[39m[0m
+  [0m [90m    |[39m                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 28 |[39m   }[0m
+  [0m [90m 29 |[39m[0m
+  [0m [90m 30 |[39m   [33m@[39m[33mDelete[39m([32m':id'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.controller.ts:[32m[1m32:41[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'number' is not assignable to parameter of type 'string'.
+  [0m [90m 30 |[39m   [33m@[39m[33mDelete[39m([32m':id'[39m)[0m
+  [0m [90m 31 |[39m   remove([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 32 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mhoadonhhpService[33m.[39mremove([33m+[39mid)[33m;[39m[0m
+  [0m [90m    |[39m                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 33 |[39m   }[0m
+  [0m [90m 34 |[39m }[0m
+  [0m [90m 35 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m6:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./entities/hoadonhhp.entity"' has no exported member 'HoadonhhpEntity'.
+  [0m [90m 4 |[39m [36mimport[39m { [33mCreateHoadonhhpDto[39m } [36mfrom[39m [32m'./dto/create-hoadonhhp.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mUpdateHoadonhhpDto[39m } [36mfrom[39m [32m'./dto/update-hoadonhhp.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mHoadonhhpEntity[39m } [36mfrom[39m [32m'./entities/hoadonhhp.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 8 |[39m [36mexport[39m [36mclass[39m [33mHoadonhhpService[39m {[0m
+  [0m [90m 9 |[39m   constructor([0m
+
+webpack compiled with [1m[31m4 errors[39m[22m (5373f05ec0db1ec9)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 107 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.controller.ts:[32m[1m22:34[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findOne' does not exist on type 'HoadonhhpService'.
+  [0m [90m 20 |[39m   [33m@[39m[33mGet[39m([32m':id'[39m)[0m
+  [0m [90m 21 |[39m   findOne([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 22 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mhoadonhhpService[33m.[39mfindOne([33m+[39mid)[33m;[39m[0m
+  [0m [90m    |[39m                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 23 |[39m   }[0m
+  [0m [90m 24 |[39m[0m
+  [0m [90m 25 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.controller.ts:[32m[1m27:41[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'number' is not assignable to parameter of type 'string'.
+  [0m [90m 25 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+  [0m [90m 26 |[39m   update([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string[33m,[39m [33m@[39m[33mBody[39m() updateHoadonhhpDto[33m:[39m [33mUpdateHoadonhhpDto[39m) {[0m
+  [0m[31m[1m>[22m[39m[90m 27 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mhoadonhhpService[33m.[39mupdate([33m+[39mid[33m,[39m updateHoadonhhpDto)[33m;[39m[0m
+  [0m [90m    |[39m                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 28 |[39m   }[0m
+  [0m [90m 29 |[39m[0m
+  [0m [90m 30 |[39m   [33m@[39m[33mDelete[39m([32m':id'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.controller.ts:[32m[1m32:41[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'number' is not assignable to parameter of type 'string'.
+  [0m [90m 30 |[39m   [33m@[39m[33mDelete[39m([32m':id'[39m)[0m
+  [0m [90m 31 |[39m   remove([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 32 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mhoadonhhpService[33m.[39mremove([33m+[39mid)[33m;[39m[0m
+  [0m [90m    |[39m                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 33 |[39m   }[0m
+  [0m [90m 34 |[39m }[0m
+  [0m [90m 35 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m6:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./entities/hoadonhhp.entity"' has no exported member 'HoadonhhpEntity'.
+  [0m [90m 4 |[39m [36mimport[39m { [33mCreateHoadonhhpDto[39m } [36mfrom[39m [32m'./dto/create-hoadonhhp.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mUpdateHoadonhhpDto[39m } [36mfrom[39m [32m'./dto/update-hoadonhhp.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mHoadonhhpEntity[39m } [36mfrom[39m [32m'./entities/hoadonhhp.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 8 |[39m [36mexport[39m [36mclass[39m [33mHoadonhhpService[39m {[0m
+  [0m [90m 9 |[39m   constructor([0m
+
+webpack compiled with [1m[31m4 errors[39m[22m (5373f05ec0db1ec9)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 99.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/app.module.ts:[32m[1m13:33[22m[39m[1m[39m[22m
+[90mTS2306: [39mFile 'F:/chikiet/BEKetoan/be_ketoan/src/app/hoadonhhp/hoadonhhp.module.ts' is not a module.
+  [0m [90m 11 |[39m [36mimport[39m { [33mChitietModule[39m } [36mfrom[39m [32m'./chitiet/chitiet.module'[39m[33m;[39m[0m
+  [0m [90m 12 |[39m [36mimport[39m { [33mSanphamModule[39m } [36mfrom[39m [32m'./sanpham/sanpham.module'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 13 |[39m [36mimport[39m { [33mHoadonhhpModule[39m } [36mfrom[39m [32m'./hoadonhhp/hoadonhhp.module'[39m[33m;[39m[0m
+  [0m [90m    |[39m                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 14 |[39m [33m@[39m[33mModule[39m({[0m
+  [0m [90m 15 |[39m   imports[33m:[39m [    [0m
+  [0m [90m 16 |[39m     [33mTypeOrmModule[39m[33m.[39mforRoot({[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.module.ts[39m[22m
+[90mTS2304: [39mCannot find name 'k_aip'.
+
+webpack compiled with [1m[31m2 errors[39m[22m (848991fb5dac38d1)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 99.8 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/hoadonhhp/hoadonhhp.module.ts[39m[22m [1m[32m6:25-52[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './dichvu.service' in 'F:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/hoadonhhp/hoadonhhp.module.ts[39m[22m [1m[32m7:28-58[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './dichvu.controller' in 'F:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/hoadonhhp/hoadonhhp.module.ts[39m[22m [1m[32m9:24-59[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './entities/dichvu.entity' in 'F:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/app.module.ts:[32m[1m13:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./hoadonhhp/hoadonhhp.module"' has no exported member 'HoadonhhpModule'.
+  [0m [90m 11 |[39m [36mimport[39m { [33mChitietModule[39m } [36mfrom[39m [32m'./chitiet/chitiet.module'[39m[33m;[39m[0m
+  [0m [90m 12 |[39m [36mimport[39m { [33mSanphamModule[39m } [36mfrom[39m [32m'./sanpham/sanpham.module'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 13 |[39m [36mimport[39m { [33mHoadonhhpModule[39m } [36mfrom[39m [32m'./hoadonhhp/hoadonhhp.module'[39m[33m;[39m[0m
+  [0m [90m    |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 14 |[39m [33m@[39m[33mModule[39m({[0m
+  [0m [90m 15 |[39m   imports[33m:[39m [    [0m
+  [0m [90m 16 |[39m     [33mTypeOrmModule[39m[33m.[39mforRoot({[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.module.ts:[32m[1m2:31[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './dichvu.service' or its corresponding type declarations.
+  [0m [90m 1 |[39m [36mimport[39m { [33mModule[39m } [36mfrom[39m [32m'@nestjs/common'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 2 |[39m [36mimport[39m { [33mDichvuService[39m } [36mfrom[39m [32m'./dichvu.service'[39m[33m;[39m[0m
+  [0m [90m   |[39m                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m { [33mDichvuController[39m } [36mfrom[39m [32m'./dichvu.controller'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mTypeOrmModule[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mDichvuEntity[39m } [36mfrom[39m [32m'./entities/dichvu.entity'[39m[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.module.ts:[32m[1m3:34[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './dichvu.controller' or its corresponding type declarations.
+  [0m [90m 1 |[39m [36mimport[39m { [33mModule[39m } [36mfrom[39m [32m'@nestjs/common'[39m[33m;[39m[0m
+  [0m [90m 2 |[39m [36mimport[39m { [33mDichvuService[39m } [36mfrom[39m [32m'./dichvu.service'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 3 |[39m [36mimport[39m { [33mDichvuController[39m } [36mfrom[39m [32m'./dichvu.controller'[39m[33m;[39m[0m
+  [0m [90m   |[39m                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mTypeOrmModule[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mDichvuEntity[39m } [36mfrom[39m [32m'./entities/dichvu.entity'[39m[33m;[39m[0m
+  [0m [90m 6 |[39m [33m@[39m[33mModule[39m({[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.module.ts:[32m[1m5:30[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './entities/dichvu.entity' or its corresponding type declarations.
+  [0m [90m 3 |[39m [36mimport[39m { [33mDichvuController[39m } [36mfrom[39m [32m'./dichvu.controller'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mTypeOrmModule[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mDichvuEntity[39m } [36mfrom[39m [32m'./entities/dichvu.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m                              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 6 |[39m [33m@[39m[33mModule[39m({[0m
+  [0m [90m 7 |[39m   imports[33m:[39m [[33mTypeOrmModule[39m[33m.[39mforFeature([[33mDichvuEntity[39m])][33m,[39m[0m
+  [0m [90m 8 |[39m   controllers[33m:[39m [[33mDichvuController[39m][33m,[39m[0m
+
+webpack compiled with [1m[31m7 errors[39m[22m (075581386c27f0d6)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 107 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.controller.ts:[32m[1m22:34[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findOne' does not exist on type 'HoadonhhpService'.
+  [0m [90m 20 |[39m   [33m@[39m[33mGet[39m([32m':id'[39m)[0m
+  [0m [90m 21 |[39m   findOne([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 22 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mhoadonhhpService[33m.[39mfindOne([33m+[39mid)[33m;[39m[0m
+  [0m [90m    |[39m                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 23 |[39m   }[0m
+  [0m [90m 24 |[39m[0m
+  [0m [90m 25 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.controller.ts:[32m[1m27:41[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'number' is not assignable to parameter of type 'string'.
+  [0m [90m 25 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+  [0m [90m 26 |[39m   update([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string[33m,[39m [33m@[39m[33mBody[39m() updateHoadonhhpDto[33m:[39m [33mUpdateHoadonhhpDto[39m) {[0m
+  [0m[31m[1m>[22m[39m[90m 27 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mhoadonhhpService[33m.[39mupdate([33m+[39mid[33m,[39m updateHoadonhhpDto)[33m;[39m[0m
+  [0m [90m    |[39m                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 28 |[39m   }[0m
+  [0m [90m 29 |[39m[0m
+  [0m [90m 30 |[39m   [33m@[39m[33mDelete[39m([32m':id'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.controller.ts:[32m[1m32:41[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'number' is not assignable to parameter of type 'string'.
+  [0m [90m 30 |[39m   [33m@[39m[33mDelete[39m([32m':id'[39m)[0m
+  [0m [90m 31 |[39m   remove([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 32 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mhoadonhhpService[33m.[39mremove([33m+[39mid)[33m;[39m[0m
+  [0m [90m    |[39m                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 33 |[39m   }[0m
+  [0m [90m 34 |[39m }[0m
+  [0m [90m 35 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.module.ts:[32m[1m5:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./entities/hoadonhhp.entity"' has no exported member 'HoadonhhpEntity'.
+  [0m [90m 3 |[39m [36mimport[39m { [33mHoadonhhpController[39m } [36mfrom[39m [32m'./hoadonhhp.controller'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mTypeOrmModule[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mHoadonhhpEntity[39m } [36mfrom[39m [32m'./entities/hoadonhhp.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 6 |[39m [33m@[39m[33mModule[39m({[0m
+  [0m [90m 7 |[39m   imports[33m:[39m [[33mTypeOrmModule[39m[33m.[39mforFeature([[33mHoadonhhpEntity[39m])][33m,[39m[0m
+  [0m [90m 8 |[39m   controllers[33m:[39m [[33mHoadonhhpController[39m][33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m6:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./entities/hoadonhhp.entity"' has no exported member 'HoadonhhpEntity'.
+  [0m [90m 4 |[39m [36mimport[39m { [33mCreateHoadonhhpDto[39m } [36mfrom[39m [32m'./dto/create-hoadonhhp.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mUpdateHoadonhhpDto[39m } [36mfrom[39m [32m'./dto/update-hoadonhhp.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mHoadonhhpEntity[39m } [36mfrom[39m [32m'./entities/hoadonhhp.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 8 |[39m [36mexport[39m [36mclass[39m [33mHoadonhhpService[39m {[0m
+  [0m [90m 9 |[39m   constructor([0m
+
+webpack compiled with [1m[31m5 errors[39m[22m (96c19a56477aa1fa)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 107 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.controller.ts:[32m[1m22:34[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findOne' does not exist on type 'HoadonhhpService'.
+  [0m [90m 20 |[39m   [33m@[39m[33mGet[39m([32m':id'[39m)[0m
+  [0m [90m 21 |[39m   findOne([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 22 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mhoadonhhpService[33m.[39mfindOne([33m+[39mid)[33m;[39m[0m
+  [0m [90m    |[39m                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 23 |[39m   }[0m
+  [0m [90m 24 |[39m[0m
+  [0m [90m 25 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.controller.ts:[32m[1m27:41[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'number' is not assignable to parameter of type 'string'.
+  [0m [90m 25 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+  [0m [90m 26 |[39m   update([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string[33m,[39m [33m@[39m[33mBody[39m() updateHoadonhhpDto[33m:[39m [33mUpdateHoadonhhpDto[39m) {[0m
+  [0m[31m[1m>[22m[39m[90m 27 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mhoadonhhpService[33m.[39mupdate([33m+[39mid[33m,[39m updateHoadonhhpDto)[33m;[39m[0m
+  [0m [90m    |[39m                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 28 |[39m   }[0m
+  [0m [90m 29 |[39m[0m
+  [0m [90m 30 |[39m   [33m@[39m[33mDelete[39m([32m':id'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.controller.ts:[32m[1m32:41[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'number' is not assignable to parameter of type 'string'.
+  [0m [90m 30 |[39m   [33m@[39m[33mDelete[39m([32m':id'[39m)[0m
+  [0m [90m 31 |[39m   remove([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 32 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mhoadonhhpService[33m.[39mremove([33m+[39mid)[33m;[39m[0m
+  [0m [90m    |[39m                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 33 |[39m   }[0m
+  [0m [90m 34 |[39m }[0m
+  [0m [90m 35 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.module.ts:[32m[1m5:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./entities/hoadonhhp.entity"' has no exported member 'HoadonhhpEntity'.
+  [0m [90m 3 |[39m [36mimport[39m { [33mHoadonhhpController[39m } [36mfrom[39m [32m'./hoadonhhp.controller'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mTypeOrmModule[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mHoadonhhpEntity[39m } [36mfrom[39m [32m'./entities/hoadonhhp.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 6 |[39m [33m@[39m[33mModule[39m({[0m
+  [0m [90m 7 |[39m   imports[33m:[39m [[33mTypeOrmModule[39m[33m.[39mforFeature([[33mHoadonhhpEntity[39m])][33m,[39m[0m
+  [0m [90m 8 |[39m   controllers[33m:[39m [[33mHoadonhhpController[39m][33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m6:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./entities/hoadonhhp.entity"' has no exported member 'HoadonhhpEntity'.
+  [0m [90m 4 |[39m [36mimport[39m { [33mCreateHoadonhhpDto[39m } [36mfrom[39m [32m'./dto/create-hoadonhhp.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mUpdateHoadonhhpDto[39m } [36mfrom[39m [32m'./dto/update-hoadonhhp.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mHoadonhhpEntity[39m } [36mfrom[39m [32m'./entities/hoadonhhp.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 8 |[39m [36mexport[39m [36mclass[39m [33mHoadonhhpService[39m {[0m
+  [0m [90m 9 |[39m   constructor([0m
+
+webpack compiled with [1m[31m5 errors[39m[22m (96c19a56477aa1fa)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 107 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.controller.ts:[32m[1m22:34[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findOne' does not exist on type 'HoadonhhpService'.
+  [0m [90m 20 |[39m   [33m@[39m[33mGet[39m([32m':id'[39m)[0m
+  [0m [90m 21 |[39m   findOne([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 22 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mhoadonhhpService[33m.[39mfindOne([33m+[39mid)[33m;[39m[0m
+  [0m [90m    |[39m                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 23 |[39m   }[0m
+  [0m [90m 24 |[39m[0m
+  [0m [90m 25 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.controller.ts:[32m[1m27:41[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'number' is not assignable to parameter of type 'string'.
+  [0m [90m 25 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+  [0m [90m 26 |[39m   update([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string[33m,[39m [33m@[39m[33mBody[39m() updateHoadonhhpDto[33m:[39m [33mUpdateHoadonhhpDto[39m) {[0m
+  [0m[31m[1m>[22m[39m[90m 27 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mhoadonhhpService[33m.[39mupdate([33m+[39mid[33m,[39m updateHoadonhhpDto)[33m;[39m[0m
+  [0m [90m    |[39m                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 28 |[39m   }[0m
+  [0m [90m 29 |[39m[0m
+  [0m [90m 30 |[39m   [33m@[39m[33mDelete[39m([32m':id'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.controller.ts:[32m[1m32:41[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'number' is not assignable to parameter of type 'string'.
+  [0m [90m 30 |[39m   [33m@[39m[33mDelete[39m([32m':id'[39m)[0m
+  [0m [90m 31 |[39m   remove([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 32 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mhoadonhhpService[33m.[39mremove([33m+[39mid)[33m;[39m[0m
+  [0m [90m    |[39m                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 33 |[39m   }[0m
+  [0m [90m 34 |[39m }[0m
+  [0m [90m 35 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.module.ts:[32m[1m5:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./entities/hoadonhhp.entity"' has no exported member 'HoadonhhpEntity'.
+  [0m [90m 3 |[39m [36mimport[39m { [33mHoadonhhpController[39m } [36mfrom[39m [32m'./hoadonhhp.controller'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mTypeOrmModule[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mHoadonhhpEntity[39m } [36mfrom[39m [32m'./entities/hoadonhhp.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 6 |[39m [33m@[39m[33mModule[39m({[0m
+  [0m [90m 7 |[39m   imports[33m:[39m [[33mTypeOrmModule[39m[33m.[39mforFeature([[33mHoadonhhpEntity[39m])][33m,[39m[0m
+  [0m [90m 8 |[39m   controllers[33m:[39m [[33mHoadonhhpController[39m][33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m6:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./entities/hoadonhhp.entity"' has no exported member 'HoadonhhpEntity'.
+  [0m [90m 4 |[39m [36mimport[39m { [33mCreateHoadonhhpDto[39m } [36mfrom[39m [32m'./dto/create-hoadonhhp.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mUpdateHoadonhhpDto[39m } [36mfrom[39m [32m'./dto/update-hoadonhhp.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mHoadonhhpEntity[39m } [36mfrom[39m [32m'./entities/hoadonhhp.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 8 |[39m [36mexport[39m [36mclass[39m [33mHoadonhhpService[39m {[0m
+  [0m [90m 9 |[39m   constructor([0m
+
+webpack compiled with [1m[31m5 errors[39m[22m (96c19a56477aa1fa)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 107 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/hoadonhhp/hoadonhhp.controller.ts[39m[22m [1m[32m7:25-52[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './dichvu.service' in 'F:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/hoadonhhp/hoadonhhp.controller.ts[39m[22m [1m[32m8:28-62[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './dto/create-dichvu.dto' in 'F:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/hoadonhhp/hoadonhhp.controller.ts[39m[22m [1m[32m9:28-62[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './dto/update-dichvu.dto' in 'F:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.controller.ts:[32m[1m2:30[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './dichvu.service' or its corresponding type declarations.
+  [0m [90m 1 |[39m [36mimport[39m { [33mController[39m[33m,[39m [33mGet[39m[33m,[39m [33mPost[39m[33m,[39m [33mBody[39m[33m,[39m [33mPatch[39m[33m,[39m [33mParam[39m[33m,[39m [33mDelete[39m[33m,[39m [33mQuery[39m } [36mfrom[39m [32m'@nestjs/common'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 2 |[39m [36mimport[39m {[33mDichvuService[39m } [36mfrom[39m [32m'./dichvu.service'[39m[33m;[39m[0m
+  [0m [90m   |[39m                              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m { [33mCreateDichvuDto[39m } [36mfrom[39m [32m'./dto/create-dichvu.dto'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mUpdateDichvuDto[39m } [36mfrom[39m [32m'./dto/update-dichvu.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [33m@[39m[33mController[39m([32m'dichvu'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.controller.ts:[32m[1m3:33[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './dto/create-dichvu.dto' or its corresponding type declarations.
+  [0m [90m 1 |[39m [36mimport[39m { [33mController[39m[33m,[39m [33mGet[39m[33m,[39m [33mPost[39m[33m,[39m [33mBody[39m[33m,[39m [33mPatch[39m[33m,[39m [33mParam[39m[33m,[39m [33mDelete[39m[33m,[39m [33mQuery[39m } [36mfrom[39m [32m'@nestjs/common'[39m[33m;[39m[0m
+  [0m [90m 2 |[39m [36mimport[39m {[33mDichvuService[39m } [36mfrom[39m [32m'./dichvu.service'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 3 |[39m [36mimport[39m { [33mCreateDichvuDto[39m } [36mfrom[39m [32m'./dto/create-dichvu.dto'[39m[33m;[39m[0m
+  [0m [90m   |[39m                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mUpdateDichvuDto[39m } [36mfrom[39m [32m'./dto/update-dichvu.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [33m@[39m[33mController[39m([32m'dichvu'[39m)[0m
+  [0m [90m 6 |[39m [36mexport[39m [36mclass[39m [33mDichvuController[39m {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.controller.ts:[32m[1m4:33[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './dto/update-dichvu.dto' or its corresponding type declarations.
+  [0m [90m 2 |[39m [36mimport[39m {[33mDichvuService[39m } [36mfrom[39m [32m'./dichvu.service'[39m[33m;[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m { [33mCreateDichvuDto[39m } [36mfrom[39m [32m'./dto/create-dichvu.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 4 |[39m [36mimport[39m { [33mUpdateDichvuDto[39m } [36mfrom[39m [32m'./dto/update-dichvu.dto'[39m[33m;[39m[0m
+  [0m [90m   |[39m                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 5 |[39m [33m@[39m[33mController[39m([32m'dichvu'[39m)[0m
+  [0m [90m 6 |[39m [36mexport[39m [36mclass[39m [33mDichvuController[39m {[0m
+  [0m [90m 7 |[39m   constructor([36mprivate[39m readonly dichvuService[33m:[39m[33mDichvuService[39m) {}[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.module.ts:[32m[1m3:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./hoadonhhp.controller"' has no exported member 'HoadonhhpController'.
+  [0m [90m 1 |[39m [36mimport[39m { [33mModule[39m } [36mfrom[39m [32m'@nestjs/common'[39m[33m;[39m[0m
+  [0m [90m 2 |[39m [36mimport[39m { [33mHoadonhhpService[39m } [36mfrom[39m [32m'./hoadonhhp.service'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 3 |[39m [36mimport[39m { [33mHoadonhhpController[39m } [36mfrom[39m [32m'./hoadonhhp.controller'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mTypeOrmModule[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mHoadonhhpEntity[39m } [36mfrom[39m [32m'./entities/hoadonhhp.entity'[39m[33m;[39m[0m
+  [0m [90m 6 |[39m [33m@[39m[33mModule[39m({[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.module.ts:[32m[1m5:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./entities/hoadonhhp.entity"' has no exported member 'HoadonhhpEntity'.
+  [0m [90m 3 |[39m [36mimport[39m { [33mHoadonhhpController[39m } [36mfrom[39m [32m'./hoadonhhp.controller'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mTypeOrmModule[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mHoadonhhpEntity[39m } [36mfrom[39m [32m'./entities/hoadonhhp.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 6 |[39m [33m@[39m[33mModule[39m({[0m
+  [0m [90m 7 |[39m   imports[33m:[39m [[33mTypeOrmModule[39m[33m.[39mforFeature([[33mHoadonhhpEntity[39m])][33m,[39m[0m
+  [0m [90m 8 |[39m   controllers[33m:[39m [[33mHoadonhhpController[39m][33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m6:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./entities/hoadonhhp.entity"' has no exported member 'HoadonhhpEntity'.
+  [0m [90m 4 |[39m [36mimport[39m { [33mCreateHoadonhhpDto[39m } [36mfrom[39m [32m'./dto/create-hoadonhhp.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mUpdateHoadonhhpDto[39m } [36mfrom[39m [32m'./dto/update-hoadonhhp.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mHoadonhhpEntity[39m } [36mfrom[39m [32m'./entities/hoadonhhp.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 8 |[39m [36mexport[39m [36mclass[39m [33mHoadonhhpService[39m {[0m
+  [0m [90m 9 |[39m   constructor([0m
+
+webpack compiled with [1m[31m9 errors[39m[22m (407e618bc5974e9a)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 108 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.module.ts:[32m[1m5:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./entities/hoadonhhp.entity"' has no exported member 'HoadonhhpEntity'.
+  [0m [90m 3 |[39m [36mimport[39m { [33mHoadonhhpController[39m } [36mfrom[39m [32m'./hoadonhhp.controller'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mTypeOrmModule[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mHoadonhhpEntity[39m } [36mfrom[39m [32m'./entities/hoadonhhp.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 6 |[39m [33m@[39m[33mModule[39m({[0m
+  [0m [90m 7 |[39m   imports[33m:[39m [[33mTypeOrmModule[39m[33m.[39mforFeature([[33mHoadonhhpEntity[39m])][33m,[39m[0m
+  [0m [90m 8 |[39m   controllers[33m:[39m [[33mHoadonhhpController[39m][33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m6:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./entities/hoadonhhp.entity"' has no exported member 'HoadonhhpEntity'.
+  [0m [90m 4 |[39m [36mimport[39m { [33mCreateHoadonhhpDto[39m } [36mfrom[39m [32m'./dto/create-hoadonhhp.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mUpdateHoadonhhpDto[39m } [36mfrom[39m [32m'./dto/update-hoadonhhp.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mHoadonhhpEntity[39m } [36mfrom[39m [32m'./entities/hoadonhhp.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 8 |[39m [36mexport[39m [36mclass[39m [33mHoadonhhpService[39m {[0m
+  [0m [90m 9 |[39m   constructor([0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (f70d6e3e4ded7e6c)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 108 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.module.ts:[32m[1m5:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./entities/hoadonhhp.entity"' has no exported member 'HoadonhhpEntity'.
+  [0m [90m 3 |[39m [36mimport[39m { [33mHoadonhhpController[39m } [36mfrom[39m [32m'./hoadonhhp.controller'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mTypeOrmModule[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mHoadonhhpEntity[39m } [36mfrom[39m [32m'./entities/hoadonhhp.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 6 |[39m [33m@[39m[33mModule[39m({[0m
+  [0m [90m 7 |[39m   imports[33m:[39m [[33mTypeOrmModule[39m[33m.[39mforFeature([[33mHoadonhhpEntity[39m])][33m,[39m[0m
+  [0m [90m 8 |[39m   controllers[33m:[39m [[33mHoadonhhpController[39m][33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m6:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./entities/hoadonhhp.entity"' has no exported member 'HoadonhhpEntity'.
+  [0m [90m 4 |[39m [36mimport[39m { [33mCreateHoadonhhpDto[39m } [36mfrom[39m [32m'./dto/create-hoadonhhp.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mUpdateHoadonhhpDto[39m } [36mfrom[39m [32m'./dto/update-hoadonhhp.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mHoadonhhpEntity[39m } [36mfrom[39m [32m'./entities/hoadonhhp.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 8 |[39m [36mexport[39m [36mclass[39m [33mHoadonhhpService[39m {[0m
+  [0m [90m 9 |[39m   constructor([0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (f70d6e3e4ded7e6c)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 108 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.module.ts:[32m[1m5:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./entities/hoadonhhp.entity"' has no exported member 'HoadonhhpEntity'.
+  [0m [90m 3 |[39m [36mimport[39m { [33mHoadonhhpController[39m } [36mfrom[39m [32m'./hoadonhhp.controller'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mTypeOrmModule[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mHoadonhhpEntity[39m } [36mfrom[39m [32m'./entities/hoadonhhp.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 6 |[39m [33m@[39m[33mModule[39m({[0m
+  [0m [90m 7 |[39m   imports[33m:[39m [[33mTypeOrmModule[39m[33m.[39mforFeature([[33mHoadonhhpEntity[39m])][33m,[39m[0m
+  [0m [90m 8 |[39m   controllers[33m:[39m [[33mHoadonhhpController[39m][33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m6:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./entities/hoadonhhp.entity"' has no exported member 'HoadonhhpEntity'.
+  [0m [90m 4 |[39m [36mimport[39m { [33mCreateHoadonhhpDto[39m } [36mfrom[39m [32m'./dto/create-hoadonhhp.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mUpdateHoadonhhpDto[39m } [36mfrom[39m [32m'./dto/update-hoadonhhp.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mHoadonhhpEntity[39m } [36mfrom[39m [32m'./entities/hoadonhhp.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 8 |[39m [36mexport[39m [36mclass[39m [33mHoadonhhpService[39m {[0m
+  [0m [90m 9 |[39m   constructor([0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (f70d6e3e4ded7e6c)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 108 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.module.ts:[32m[1m5:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./entities/hoadonhhp.entity"' has no exported member 'HoadonhhpEntity'.
+  [0m [90m 3 |[39m [36mimport[39m { [33mHoadonhhpController[39m } [36mfrom[39m [32m'./hoadonhhp.controller'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mTypeOrmModule[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mHoadonhhpEntity[39m } [36mfrom[39m [32m'./entities/hoadonhhp.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 6 |[39m [33m@[39m[33mModule[39m({[0m
+  [0m [90m 7 |[39m   imports[33m:[39m [[33mTypeOrmModule[39m[33m.[39mforFeature([[33mHoadonhhpEntity[39m])][33m,[39m[0m
+  [0m [90m 8 |[39m   controllers[33m:[39m [[33mHoadonhhpController[39m][33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m6:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./entities/hoadonhhp.entity"' has no exported member 'HoadonhhpEntity'.
+  [0m [90m 4 |[39m [36mimport[39m { [33mCreateHoadonhhpDto[39m } [36mfrom[39m [32m'./dto/create-hoadonhhp.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mUpdateHoadonhhpDto[39m } [36mfrom[39m [32m'./dto/update-hoadonhhp.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mHoadonhhpEntity[39m } [36mfrom[39m [32m'./entities/hoadonhhp.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 8 |[39m [36mexport[39m [36mclass[39m [33mHoadonhhpService[39m {[0m
+  [0m [90m 9 |[39m   constructor([0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (f70d6e3e4ded7e6c)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 108 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/entities/hoadonhhp.entity.ts[39m[22m
+[90mTS2304: [39mCannot find name 'kapi'.
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.module.ts:[32m[1m5:33[22m[39m[1m[39m[22m
+[90mTS2306: [39mFile 'F:/chikiet/BEKetoan/be_ketoan/src/app/hoadonhhp/entities/hoadonhhp.entity.ts' is not a module.
+  [0m [90m 3 |[39m [36mimport[39m { [33mHoadonhhpController[39m } [36mfrom[39m [32m'./hoadonhhp.controller'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mTypeOrmModule[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mHoadonhhpEntity[39m } [36mfrom[39m [32m'./entities/hoadonhhp.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 6 |[39m [33m@[39m[33mModule[39m({[0m
+  [0m [90m 7 |[39m   imports[33m:[39m [[33mTypeOrmModule[39m[33m.[39mforFeature([[33mHoadonhhpEntity[39m])][33m,[39m[0m
+  [0m [90m 8 |[39m   controllers[33m:[39m [[33mHoadonhhpController[39m][33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m6:33[22m[39m[1m[39m[22m
+[90mTS2306: [39mFile 'F:/chikiet/BEKetoan/be_ketoan/src/app/hoadonhhp/entities/hoadonhhp.entity.ts' is not a module.
+  [0m [90m 4 |[39m [36mimport[39m { [33mCreateHoadonhhpDto[39m } [36mfrom[39m [32m'./dto/create-hoadonhhp.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mUpdateHoadonhhpDto[39m } [36mfrom[39m [32m'./dto/update-hoadonhhp.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mHoadonhhpEntity[39m } [36mfrom[39m [32m'./entities/hoadonhhp.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 8 |[39m [36mexport[39m [36mclass[39m [33mHoadonhhpService[39m {[0m
+  [0m [90m 9 |[39m   constructor([0m
+
+webpack compiled with [1m[31m3 errors[39m[22m (4715f269862f4568)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.module.ts:[32m[1m5:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./entities/hoadonhhp.entity"' has no exported member 'HoadonhhpEntity'.
+  [0m [90m 3 |[39m [36mimport[39m { [33mHoadonhhpController[39m } [36mfrom[39m [32m'./hoadonhhp.controller'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mTypeOrmModule[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mHoadonhhpEntity[39m } [36mfrom[39m [32m'./entities/hoadonhhp.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 6 |[39m [33m@[39m[33mModule[39m({[0m
+  [0m [90m 7 |[39m   imports[33m:[39m [[33mTypeOrmModule[39m[33m.[39mforFeature([[33mHoadonhhpEntity[39m])][33m,[39m[0m
+  [0m [90m 8 |[39m   controllers[33m:[39m [[33mHoadonhhpController[39m][33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m6:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./entities/hoadonhhp.entity"' has no exported member 'HoadonhhpEntity'.
+  [0m [90m 4 |[39m [36mimport[39m { [33mCreateHoadonhhpDto[39m } [36mfrom[39m [32m'./dto/create-hoadonhhp.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mUpdateHoadonhhpDto[39m } [36mfrom[39m [32m'./dto/update-hoadonhhp.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mHoadonhhpEntity[39m } [36mfrom[39m [32m'./entities/hoadonhhp.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 8 |[39m [36mexport[39m [36mclass[39m [33mHoadonhhpService[39m {[0m
+  [0m [90m 9 |[39m   constructor([0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (d232bfb7a7812757)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.module.ts:[32m[1m5:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./entities/hoadonhhp.entity"' has no exported member 'HoadonhhpEntity'.
+  [0m [90m 3 |[39m [36mimport[39m { [33mHoadonhhpController[39m } [36mfrom[39m [32m'./hoadonhhp.controller'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mTypeOrmModule[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mHoadonhhpEntity[39m } [36mfrom[39m [32m'./entities/hoadonhhp.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 6 |[39m [33m@[39m[33mModule[39m({[0m
+  [0m [90m 7 |[39m   imports[33m:[39m [[33mTypeOrmModule[39m[33m.[39mforFeature([[33mHoadonhhpEntity[39m])][33m,[39m[0m
+  [0m [90m 8 |[39m   controllers[33m:[39m [[33mHoadonhhpController[39m][33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m6:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./entities/hoadonhhp.entity"' has no exported member 'HoadonhhpEntity'.
+  [0m [90m 4 |[39m [36mimport[39m { [33mCreateHoadonhhpDto[39m } [36mfrom[39m [32m'./dto/create-hoadonhhp.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mUpdateHoadonhhpDto[39m } [36mfrom[39m [32m'./dto/update-hoadonhhp.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mHoadonhhpEntity[39m } [36mfrom[39m [32m'./entities/hoadonhhp.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 8 |[39m [36mexport[39m [36mclass[39m [33mHoadonhhpService[39m {[0m
+  [0m [90m 9 |[39m   constructor([0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (d232bfb7a7812757)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.module.ts:[32m[1m5:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./entities/hoadonhhp.entity"' has no exported member 'HoadonhhpEntity'.
+  [0m [90m 3 |[39m [36mimport[39m { [33mHoadonhhpController[39m } [36mfrom[39m [32m'./hoadonhhp.controller'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mTypeOrmModule[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mHoadonhhpEntity[39m } [36mfrom[39m [32m'./entities/hoadonhhp.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 6 |[39m [33m@[39m[33mModule[39m({[0m
+  [0m [90m 7 |[39m   imports[33m:[39m [[33mTypeOrmModule[39m[33m.[39mforFeature([[33mHoadonhhpEntity[39m])][33m,[39m[0m
+  [0m [90m 8 |[39m   controllers[33m:[39m [[33mHoadonhhpController[39m][33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m6:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./entities/hoadonhhp.entity"' has no exported member 'HoadonhhpEntity'.
+  [0m [90m 4 |[39m [36mimport[39m { [33mCreateHoadonhhpDto[39m } [36mfrom[39m [32m'./dto/create-hoadonhhp.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mUpdateHoadonhhpDto[39m } [36mfrom[39m [32m'./dto/update-hoadonhhp.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mHoadonhhpEntity[39m } [36mfrom[39m [32m'./entities/hoadonhhp.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 8 |[39m [36mexport[39m [36mclass[39m [33mHoadonhhpService[39m {[0m
+  [0m [90m 9 |[39m   constructor([0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (d232bfb7a7812757)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.module.ts:[32m[1m5:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./entities/hoadonhhp.entity"' has no exported member 'HoadonhhpEntity'.
+  [0m [90m 3 |[39m [36mimport[39m { [33mHoadonhhpController[39m } [36mfrom[39m [32m'./hoadonhhp.controller'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mTypeOrmModule[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mHoadonhhpEntity[39m } [36mfrom[39m [32m'./entities/hoadonhhp.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 6 |[39m [33m@[39m[33mModule[39m({[0m
+  [0m [90m 7 |[39m   imports[33m:[39m [[33mTypeOrmModule[39m[33m.[39mforFeature([[33mHoadonhhpEntity[39m])][33m,[39m[0m
+  [0m [90m 8 |[39m   controllers[33m:[39m [[33mHoadonhhpController[39m][33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m6:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./entities/hoadonhhp.entity"' has no exported member 'HoadonhhpEntity'.
+  [0m [90m 4 |[39m [36mimport[39m { [33mCreateHoadonhhpDto[39m } [36mfrom[39m [32m'./dto/create-hoadonhhp.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mUpdateHoadonhhpDto[39m } [36mfrom[39m [32m'./dto/update-hoadonhhp.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mHoadonhhpEntity[39m } [36mfrom[39m [32m'./entities/hoadonhhp.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 8 |[39m [36mexport[39m [36mclass[39m [33mHoadonhhpService[39m {[0m
+  [0m [90m 9 |[39m   constructor([0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (d232bfb7a7812757)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 108 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/entities/hoadonhhp.entity.ts[39m[22m
+[90mTS2304: [39mCannot find name 'kapi'.
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.module.ts:[32m[1m5:33[22m[39m[1m[39m[22m
+[90mTS2306: [39mFile 'F:/chikiet/BEKetoan/be_ketoan/src/app/hoadonhhp/entities/hoadonhhp.entity.ts' is not a module.
+  [0m [90m 3 |[39m [36mimport[39m { [33mHoadonhhpController[39m } [36mfrom[39m [32m'./hoadonhhp.controller'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mTypeOrmModule[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mHoadonhhpEntity[39m } [36mfrom[39m [32m'./entities/hoadonhhp.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 6 |[39m [33m@[39m[33mModule[39m({[0m
+  [0m [90m 7 |[39m   imports[33m:[39m [[33mTypeOrmModule[39m[33m.[39mforFeature([[33mHoadonhhpEntity[39m])][33m,[39m[0m
+  [0m [90m 8 |[39m   controllers[33m:[39m [[33mHoadonhhpController[39m][33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m6:33[22m[39m[1m[39m[22m
+[90mTS2306: [39mFile 'F:/chikiet/BEKetoan/be_ketoan/src/app/hoadonhhp/entities/hoadonhhp.entity.ts' is not a module.
+  [0m [90m 4 |[39m [36mimport[39m { [33mCreateHoadonhhpDto[39m } [36mfrom[39m [32m'./dto/create-hoadonhhp.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mUpdateHoadonhhpDto[39m } [36mfrom[39m [32m'./dto/update-hoadonhhp.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mHoadonhhpEntity[39m } [36mfrom[39m [32m'./entities/hoadonhhp.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 8 |[39m [36mexport[39m [36mclass[39m [33mHoadonhhpService[39m {[0m
+  [0m [90m 9 |[39m   constructor([0m
+
+webpack compiled with [1m[31m3 errors[39m[22m (d6d72e144e6080b0)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 111 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.module.ts:[32m[1m5:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./entities/hoadonhhp.entity"' has no exported member 'HoadonhhpEntity'.
+  [0m [90m 3 |[39m [36mimport[39m { [33mHoadonhhpController[39m } [36mfrom[39m [32m'./hoadonhhp.controller'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mTypeOrmModule[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mHoadonhhpEntity[39m } [36mfrom[39m [32m'./entities/hoadonhhp.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 6 |[39m [33m@[39m[33mModule[39m({[0m
+  [0m [90m 7 |[39m   imports[33m:[39m [[33mTypeOrmModule[39m[33m.[39mforFeature([[33mHoadonhhpEntity[39m])][33m,[39m[0m
+  [0m [90m 8 |[39m   controllers[33m:[39m [[33mHoadonhhpController[39m][33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m6:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./entities/hoadonhhp.entity"' has no exported member 'HoadonhhpEntity'.
+  [0m [90m 4 |[39m [36mimport[39m { [33mCreateHoadonhhpDto[39m } [36mfrom[39m [32m'./dto/create-hoadonhhp.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mUpdateHoadonhhpDto[39m } [36mfrom[39m [32m'./dto/update-hoadonhhp.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mHoadonhhpEntity[39m } [36mfrom[39m [32m'./entities/hoadonhhp.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 8 |[39m [36mexport[39m [36mclass[39m [33mHoadonhhpService[39m {[0m
+  [0m [90m 9 |[39m   constructor([0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (d94368eb304e375e)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 111 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (73b8fd3619c5a83d)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 111 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (73b8fd3619c5a83d)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 111 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (73b8fd3619c5a83d)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (50bbcfef50cef8c4)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m29:16[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ Slug: any; }' is not assignable to type 'FindOptionsWhere<HoadonhhpEntity> | FindOptionsWhere<HoadonhhpEntity>[]'.
+  Object literal may only specify known properties, and 'Slug' does not exist in type 'FindOptionsWhere<HoadonhhpEntity> | FindOptionsWhere<HoadonhhpEntity>[]'.
+  [0m [90m 27 |[39m   [36masync[39m findslug(slug[33m:[39m any) {[0m
+  [0m [90m 28 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mfindOne({[0m
+  [0m[31m[1m>[22m[39m[90m 29 |[39m       where[33m:[39m { [33mSlug[39m[33m:[39m slug}[33m,[39m[0m
+  [0m [90m    |[39m                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 30 |[39m     })[33m;[39m[0m
+  [0m [90m 31 |[39m   }[0m
+  [0m [90m 32 |[39m   [36masync[39m findPagination(page[33m:[39m number[33m,[39m perPage[33m:[39m number){[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (973471b4184f4790)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m29:16[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ Slug: any; }' is not assignable to type 'FindOptionsWhere<HoadonhhpEntity> | FindOptionsWhere<HoadonhhpEntity>[]'.
+  Object literal may only specify known properties, and 'Slug' does not exist in type 'FindOptionsWhere<HoadonhhpEntity> | FindOptionsWhere<HoadonhhpEntity>[]'.
+  [0m [90m 27 |[39m   [36masync[39m findslug(slug[33m:[39m any) {[0m
+  [0m [90m 28 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mfindOne({[0m
+  [0m[31m[1m>[22m[39m[90m 29 |[39m       where[33m:[39m { [33mSlug[39m[33m:[39m slug}[33m,[39m[0m
+  [0m [90m    |[39m                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 30 |[39m     })[33m;[39m[0m
+  [0m [90m 31 |[39m   }[0m
+  [0m [90m 32 |[39m   [36masync[39m findPagination(page[33m:[39m number[33m,[39m perPage[33m:[39m number){[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (8b177c67acdf9844)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m29:16[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ Slug: any; }' is not assignable to type 'FindOptionsWhere<HoadonhhpEntity> | FindOptionsWhere<HoadonhhpEntity>[]'.
+  Object literal may only specify known properties, and 'Slug' does not exist in type 'FindOptionsWhere<HoadonhhpEntity> | FindOptionsWhere<HoadonhhpEntity>[]'.
+  [0m [90m 27 |[39m   [36masync[39m findslug(slug[33m:[39m any) {[0m
+  [0m [90m 28 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mfindOne({[0m
+  [0m[31m[1m>[22m[39m[90m 29 |[39m       where[33m:[39m { [33mSlug[39m[33m:[39m slug}[33m,[39m[0m
+  [0m [90m    |[39m                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 30 |[39m     })[33m;[39m[0m
+  [0m [90m 31 |[39m   }[0m
+  [0m [90m 32 |[39m   [36masync[39m findPagination(page[33m:[39m number[33m,[39m perPage[33m:[39m number){[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (8b177c67acdf9844)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m29:16[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ Slug: any; }' is not assignable to type 'FindOptionsWhere<HoadonhhpEntity> | FindOptionsWhere<HoadonhhpEntity>[]'.
+  Object literal may only specify known properties, and 'Slug' does not exist in type 'FindOptionsWhere<HoadonhhpEntity> | FindOptionsWhere<HoadonhhpEntity>[]'.
+  [0m [90m 27 |[39m   [36masync[39m findslug(slug[33m:[39m any) {[0m
+  [0m [90m 28 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mfindOne({[0m
+  [0m[31m[1m>[22m[39m[90m 29 |[39m       where[33m:[39m { [33mSlug[39m[33m:[39m slug}[33m,[39m[0m
+  [0m [90m    |[39m                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 30 |[39m     })[33m;[39m[0m
+  [0m [90m 31 |[39m   }[0m
+  [0m [90m 32 |[39m   [36masync[39m findPagination(page[33m:[39m number[33m,[39m perPage[33m:[39m number){[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (8b177c67acdf9844)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m29:16[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ Slug: any; }' is not assignable to type 'FindOptionsWhere<HoadonhhpEntity> | FindOptionsWhere<HoadonhhpEntity>[]'.
+  Object literal may only specify known properties, and 'Slug' does not exist in type 'FindOptionsWhere<HoadonhhpEntity> | FindOptionsWhere<HoadonhhpEntity>[]'.
+  [0m [90m 27 |[39m   [36masync[39m findslug(slug[33m:[39m any) {[0m
+  [0m [90m 28 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mfindOne({[0m
+  [0m[31m[1m>[22m[39m[90m 29 |[39m       where[33m:[39m { [33mSlug[39m[33m:[39m slug}[33m,[39m[0m
+  [0m [90m    |[39m                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 30 |[39m     })[33m;[39m[0m
+  [0m [90m 31 |[39m   }[0m
+  [0m [90m 32 |[39m   [36masync[39m findPagination(page[33m:[39m number[33m,[39m perPage[33m:[39m number){[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (8b177c67acdf9844)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m29:16[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ Slug: any; }' is not assignable to type 'FindOptionsWhere<HoadonhhpEntity> | FindOptionsWhere<HoadonhhpEntity>[]'.
+  Object literal may only specify known properties, and 'Slug' does not exist in type 'FindOptionsWhere<HoadonhhpEntity> | FindOptionsWhere<HoadonhhpEntity>[]'.
+  [0m [90m 27 |[39m   [36masync[39m findslug(slug[33m:[39m any) {[0m
+  [0m [90m 28 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mfindOne({[0m
+  [0m[31m[1m>[22m[39m[90m 29 |[39m       where[33m:[39m { [33mSlug[39m[33m:[39m slug}[33m,[39m[0m
+  [0m [90m    |[39m                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 30 |[39m     })[33m;[39m[0m
+  [0m [90m 31 |[39m   }[0m
+  [0m [90m 32 |[39m   [36masync[39m findPagination(page[33m:[39m number[33m,[39m perPage[33m:[39m number){[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (8b177c67acdf9844)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m29:16[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ Slug: any; }' is not assignable to type 'FindOptionsWhere<HoadonhhpEntity> | FindOptionsWhere<HoadonhhpEntity>[]'.
+  Object literal may only specify known properties, and 'Slug' does not exist in type 'FindOptionsWhere<HoadonhhpEntity> | FindOptionsWhere<HoadonhhpEntity>[]'.
+  [0m [90m 27 |[39m   [36masync[39m findslug(slug[33m:[39m any) {[0m
+  [0m [90m 28 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mfindOne({[0m
+  [0m[31m[1m>[22m[39m[90m 29 |[39m       where[33m:[39m { [33mSlug[39m[33m:[39m slug}[33m,[39m[0m
+  [0m [90m    |[39m                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 30 |[39m     })[33m;[39m[0m
+  [0m [90m 31 |[39m   }[0m
+  [0m [90m 32 |[39m   [36masync[39m findPagination(page[33m:[39m number[33m,[39m perPage[33m:[39m number){[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (4e470b28d57f1e59)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m29:16[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ Slug: any; }' is not assignable to type 'FindOptionsWhere<HoadonhhpEntity> | FindOptionsWhere<HoadonhhpEntity>[]'.
+  Object literal may only specify known properties, and 'Slug' does not exist in type 'FindOptionsWhere<HoadonhhpEntity> | FindOptionsWhere<HoadonhhpEntity>[]'.
+  [0m [90m 27 |[39m   [36masync[39m findslug(slug[33m:[39m any) {[0m
+  [0m [90m 28 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mfindOne({[0m
+  [0m[31m[1m>[22m[39m[90m 29 |[39m       where[33m:[39m { [33mSlug[39m[33m:[39m slug}[33m,[39m[0m
+  [0m [90m    |[39m                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 30 |[39m     })[33m;[39m[0m
+  [0m [90m 31 |[39m   }[0m
+  [0m [90m 32 |[39m   [36masync[39m findPagination(page[33m:[39m number[33m,[39m perPage[33m:[39m number){[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (7da0f4f780173773)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m29:16[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ Slug: any; }' is not assignable to type 'FindOptionsWhere<HoadonhhpEntity> | FindOptionsWhere<HoadonhhpEntity>[]'.
+  Object literal may only specify known properties, and 'Slug' does not exist in type 'FindOptionsWhere<HoadonhhpEntity> | FindOptionsWhere<HoadonhhpEntity>[]'.
+  [0m [90m 27 |[39m   [36masync[39m findslug(slug[33m:[39m any) {[0m
+  [0m [90m 28 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mfindOne({[0m
+  [0m[31m[1m>[22m[39m[90m 29 |[39m       where[33m:[39m { [33mSlug[39m[33m:[39m slug}[33m,[39m[0m
+  [0m [90m    |[39m                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 30 |[39m     })[33m;[39m[0m
+  [0m [90m 31 |[39m   }[0m
+  [0m [90m 32 |[39m   [36masync[39m findPagination(page[33m:[39m number[33m,[39m perPage[33m:[39m number){[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (7da0f4f780173773)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m29:16[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ Slug: any; }' is not assignable to type 'FindOptionsWhere<HoadonhhpEntity> | FindOptionsWhere<HoadonhhpEntity>[]'.
+  Object literal may only specify known properties, and 'Slug' does not exist in type 'FindOptionsWhere<HoadonhhpEntity> | FindOptionsWhere<HoadonhhpEntity>[]'.
+  [0m [90m 27 |[39m   [36masync[39m findslug(slug[33m:[39m any) {[0m
+  [0m [90m 28 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mfindOne({[0m
+  [0m[31m[1m>[22m[39m[90m 29 |[39m       where[33m:[39m { [33mSlug[39m[33m:[39m slug}[33m,[39m[0m
+  [0m [90m    |[39m                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 30 |[39m     })[33m;[39m[0m
+  [0m [90m 31 |[39m   }[0m
+  [0m [90m 32 |[39m   [36masync[39m findPagination(page[33m:[39m number[33m,[39m perPage[33m:[39m number){[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (7da0f4f780173773)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m29:16[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ Slug: any; }' is not assignable to type 'FindOptionsWhere<HoadonhhpEntity> | FindOptionsWhere<HoadonhhpEntity>[]'.
+  Object literal may only specify known properties, and 'Slug' does not exist in type 'FindOptionsWhere<HoadonhhpEntity> | FindOptionsWhere<HoadonhhpEntity>[]'.
+  [0m [90m 27 |[39m   [36masync[39m findslug(slug[33m:[39m any) {[0m
+  [0m [90m 28 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mfindOne({[0m
+  [0m[31m[1m>[22m[39m[90m 29 |[39m       where[33m:[39m { [33mSlug[39m[33m:[39m slug}[33m,[39m[0m
+  [0m [90m    |[39m                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 30 |[39m     })[33m;[39m[0m
+  [0m [90m 31 |[39m   }[0m
+  [0m [90m 32 |[39m   [36masync[39m findPagination(page[33m:[39m number[33m,[39m perPage[33m:[39m number){[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (7da0f4f780173773)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/entities/hoadonhhp.entity.ts:[32m[1m18:3[22m[39m[1m[39m[22m
+[90mTS2300: [39mDuplicate identifier 'ThangKhaibao'.
+  [0m [90m 16 |[39m   [33mThangKhaibao[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 17 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m[31m[1m>[22m[39m[90m 18 |[39m   [33mThangKhaibao[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 19 |[39m   [33mOrdering[39m[33m:[39m number[33m;[39m[0m
+  [0m [90m 20 |[39m   [33m@[39m[33mColumn[39m({ [36mdefault[39m[33m:[39m [35m0[39m })[0m
+  [0m [90m 21 |[39m   [33mStatus[39m[33m:[39m number[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m29:16[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ Slug: any; }' is not assignable to type 'FindOptionsWhere<HoadonhhpEntity> | FindOptionsWhere<HoadonhhpEntity>[]'.
+  Object literal may only specify known properties, and 'Slug' does not exist in type 'FindOptionsWhere<HoadonhhpEntity> | FindOptionsWhere<HoadonhhpEntity>[]'.
+  [0m [90m 27 |[39m   [36masync[39m findslug(slug[33m:[39m any) {[0m
+  [0m [90m 28 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mfindOne({[0m
+  [0m[31m[1m>[22m[39m[90m 29 |[39m       where[33m:[39m { [33mSlug[39m[33m:[39m slug}[33m,[39m[0m
+  [0m [90m    |[39m                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 30 |[39m     })[33m;[39m[0m
+  [0m [90m 31 |[39m   }[0m
+  [0m [90m 32 |[39m   [36masync[39m findPagination(page[33m:[39m number[33m,[39m perPage[33m:[39m number){[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (f7bc50e9eeb2b043)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m29:16[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ Slug: any; }' is not assignable to type 'FindOptionsWhere<HoadonhhpEntity> | FindOptionsWhere<HoadonhhpEntity>[]'.
+  Object literal may only specify known properties, and 'Slug' does not exist in type 'FindOptionsWhere<HoadonhhpEntity> | FindOptionsWhere<HoadonhhpEntity>[]'.
+  [0m [90m 27 |[39m   [36masync[39m findslug(slug[33m:[39m any) {[0m
+  [0m [90m 28 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mfindOne({[0m
+  [0m[31m[1m>[22m[39m[90m 29 |[39m       where[33m:[39m { [33mSlug[39m[33m:[39m slug}[33m,[39m[0m
+  [0m [90m    |[39m                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 30 |[39m     })[33m;[39m[0m
+  [0m [90m 31 |[39m   }[0m
+  [0m [90m 32 |[39m   [36masync[39m findPagination(page[33m:[39m number[33m,[39m perPage[33m:[39m number){[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (d044cecd56af94db)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/entities/hoadonhhp.entity.ts:[32m[1m18:3[22m[39m[1m[39m[22m
+[90mTS2300: [39mDuplicate identifier 'ThangKhaibao'.
+  [0m [90m 16 |[39m   [33mThangKhaibao[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 17 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m[31m[1m>[22m[39m[90m 18 |[39m   [33mThangKhaibao[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 19 |[39m   [33mOrdering[39m[33m:[39m number[33m;[39m[0m
+  [0m [90m 20 |[39m   [33m@[39m[33mColumn[39m({ [36mdefault[39m[33m:[39m [35m0[39m })[0m
+  [0m [90m 21 |[39m   [33mStatus[39m[33m:[39m number[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m29:16[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ Slug: any; }' is not assignable to type 'FindOptionsWhere<HoadonhhpEntity> | FindOptionsWhere<HoadonhhpEntity>[]'.
+  Object literal may only specify known properties, and 'Slug' does not exist in type 'FindOptionsWhere<HoadonhhpEntity> | FindOptionsWhere<HoadonhhpEntity>[]'.
+  [0m [90m 27 |[39m   [36masync[39m findslug(slug[33m:[39m any) {[0m
+  [0m [90m 28 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mfindOne({[0m
+  [0m[31m[1m>[22m[39m[90m 29 |[39m       where[33m:[39m { [33mSlug[39m[33m:[39m slug}[33m,[39m[0m
+  [0m [90m    |[39m                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 30 |[39m     })[33m;[39m[0m
+  [0m [90m 31 |[39m   }[0m
+  [0m [90m 32 |[39m   [36masync[39m findPagination(page[33m:[39m number[33m,[39m perPage[33m:[39m number){[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (17fde09e7fe89772)
+[1m[31mDebugger listening on ws://localhost:9229/e545e619-b005-477f-99bb-d9b1574c1e0b[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/e545e619-b005-477f-99bb-d9b1574c1e0b[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m29:16[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ Slug: any; }' is not assignable to type 'FindOptionsWhere<HoadonhhpEntity> | FindOptionsWhere<HoadonhhpEntity>[]'.
+  Object literal may only specify known properties, and 'Slug' does not exist in type 'FindOptionsWhere<HoadonhhpEntity> | FindOptionsWhere<HoadonhhpEntity>[]'.
+  [0m [90m 27 |[39m   [36masync[39m findslug(slug[33m:[39m any) {[0m
+  [0m [90m 28 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mfindOne({[0m
+  [0m[31m[1m>[22m[39m[90m 29 |[39m       where[33m:[39m { [33mSlug[39m[33m:[39m slug}[33m,[39m[0m
+  [0m [90m    |[39m                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 30 |[39m     })[33m;[39m[0m
+  [0m [90m 31 |[39m   }[0m
+  [0m [90m 32 |[39m   [36masync[39m findPagination(page[33m:[39m number[33m,[39m perPage[33m:[39m number){[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (1387db23bece4f3f)
+[1m[31mDebugger listening on ws://localhost:9229/37c983d8-46a8-47a9-88d8-516602d085fd[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/37c983d8-46a8-47a9-88d8-516602d085fd[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/entities/hoadonhhp.entity.ts:[32m[1m18:3[22m[39m[1m[39m[22m
+[90mTS2300: [39mDuplicate identifier 'ThangKhaibao'.
+  [0m [90m 16 |[39m   [33mThangKhaibao[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 17 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m[31m[1m>[22m[39m[90m 18 |[39m   [33mThangKhaibao[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 19 |[39m   [33mOrdering[39m[33m:[39m number[33m;[39m[0m
+  [0m [90m 20 |[39m   [33m@[39m[33mColumn[39m({ [36mdefault[39m[33m:[39m [35m0[39m })[0m
+  [0m [90m 21 |[39m   [33mStatus[39m[33m:[39m number[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m29:16[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ Slug: any; }' is not assignable to type 'FindOptionsWhere<HoadonhhpEntity> | FindOptionsWhere<HoadonhhpEntity>[]'.
+  Object literal may only specify known properties, and 'Slug' does not exist in type 'FindOptionsWhere<HoadonhhpEntity> | FindOptionsWhere<HoadonhhpEntity>[]'.
+  [0m [90m 27 |[39m   [36masync[39m findslug(slug[33m:[39m any) {[0m
+  [0m [90m 28 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mfindOne({[0m
+  [0m[31m[1m>[22m[39m[90m 29 |[39m       where[33m:[39m { [33mSlug[39m[33m:[39m slug}[33m,[39m[0m
+  [0m [90m    |[39m                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 30 |[39m     })[33m;[39m[0m
+  [0m [90m 31 |[39m   }[0m
+  [0m [90m 32 |[39m   [36masync[39m findPagination(page[33m:[39m number[33m,[39m perPage[33m:[39m number){[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (80d1dc8aef0a2029)
+[1m[31mDebugger listening on ws://localhost:9229/41aefd89-d077-4cd6-966c-deb696da88e1[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/41aefd89-d077-4cd6-966c-deb696da88e1[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m29:16[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ Slug: any; }' is not assignable to type 'FindOptionsWhere<HoadonhhpEntity> | FindOptionsWhere<HoadonhhpEntity>[]'.
+  Object literal may only specify known properties, and 'Slug' does not exist in type 'FindOptionsWhere<HoadonhhpEntity> | FindOptionsWhere<HoadonhhpEntity>[]'.
+  [0m [90m 27 |[39m   [36masync[39m findslug(slug[33m:[39m any) {[0m
+  [0m [90m 28 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mfindOne({[0m
+  [0m[31m[1m>[22m[39m[90m 29 |[39m       where[33m:[39m { [33mSlug[39m[33m:[39m slug}[33m,[39m[0m
+  [0m [90m    |[39m                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 30 |[39m     })[33m;[39m[0m
+  [0m [90m 31 |[39m   }[0m
+  [0m [90m 32 |[39m   [36masync[39m findPagination(page[33m:[39m number[33m,[39m perPage[33m:[39m number){[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (7a6dbc76b6a6afa2)
+[1m[31mDebugger listening on ws://localhost:9229/e42c4cc6-17dc-4dd0-9475-6d9dd62a8acd[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/e42c4cc6-17dc-4dd0-9475-6d9dd62a8acd[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m29:16[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ Slug: any; }' is not assignable to type 'FindOptionsWhere<HoadonhhpEntity> | FindOptionsWhere<HoadonhhpEntity>[]'.
+  Object literal may only specify known properties, and 'Slug' does not exist in type 'FindOptionsWhere<HoadonhhpEntity> | FindOptionsWhere<HoadonhhpEntity>[]'.
+  [0m [90m 27 |[39m   [36masync[39m findslug(slug[33m:[39m any) {[0m
+  [0m [90m 28 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mfindOne({[0m
+  [0m[31m[1m>[22m[39m[90m 29 |[39m       where[33m:[39m { [33mSlug[39m[33m:[39m slug}[33m,[39m[0m
+  [0m [90m    |[39m                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 30 |[39m     })[33m;[39m[0m
+  [0m [90m 31 |[39m   }[0m
+  [0m [90m 32 |[39m   [36masync[39m findPagination(page[33m:[39m number[33m,[39m perPage[33m:[39m number){[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (5b0cef1530b7a68a)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m29:16[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ Slug: any; }' is not assignable to type 'FindOptionsWhere<HoadonhhpEntity> | FindOptionsWhere<HoadonhhpEntity>[]'.
+  Object literal may only specify known properties, and 'Slug' does not exist in type 'FindOptionsWhere<HoadonhhpEntity> | FindOptionsWhere<HoadonhhpEntity>[]'.
+  [0m [90m 27 |[39m   [36masync[39m findslug(slug[33m:[39m any) {[0m
+  [0m [90m 28 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mfindOne({[0m
+  [0m[31m[1m>[22m[39m[90m 29 |[39m       where[33m:[39m { [33mSlug[39m[33m:[39m slug}[33m,[39m[0m
+  [0m [90m    |[39m                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 30 |[39m     })[33m;[39m[0m
+  [0m [90m 31 |[39m   }[0m
+  [0m [90m 32 |[39m   [36masync[39m findPagination(page[33m:[39m number[33m,[39m perPage[33m:[39m number){[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (5b0cef1530b7a68a)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m29:16[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ Slug: any; }' is not assignable to type 'FindOptionsWhere<HoadonhhpEntity> | FindOptionsWhere<HoadonhhpEntity>[]'.
+  Object literal may only specify known properties, and 'Slug' does not exist in type 'FindOptionsWhere<HoadonhhpEntity> | FindOptionsWhere<HoadonhhpEntity>[]'.
+  [0m [90m 27 |[39m   [36masync[39m findslug(slug[33m:[39m any) {[0m
+  [0m [90m 28 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mfindOne({[0m
+  [0m[31m[1m>[22m[39m[90m 29 |[39m       where[33m:[39m { [33mSlug[39m[33m:[39m slug}[33m,[39m[0m
+  [0m [90m    |[39m                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 30 |[39m     })[33m;[39m[0m
+  [0m [90m 31 |[39m   }[0m
+  [0m [90m 32 |[39m   [36masync[39m findPagination(page[33m:[39m number[33m,[39m perPage[33m:[39m number){[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (5b0cef1530b7a68a)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m29:16[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ Slug: any; }' is not assignable to type 'FindOptionsWhere<HoadonhhpEntity> | FindOptionsWhere<HoadonhhpEntity>[]'.
+  Object literal may only specify known properties, and 'Slug' does not exist in type 'FindOptionsWhere<HoadonhhpEntity> | FindOptionsWhere<HoadonhhpEntity>[]'.
+  [0m [90m 27 |[39m   [36masync[39m findslug(slug[33m:[39m any) {[0m
+  [0m [90m 28 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mfindOne({[0m
+  [0m[31m[1m>[22m[39m[90m 29 |[39m       where[33m:[39m { [33mSlug[39m[33m:[39m slug}[33m,[39m[0m
+  [0m [90m    |[39m                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 30 |[39m     })[33m;[39m[0m
+  [0m [90m 31 |[39m   }[0m
+  [0m [90m 32 |[39m   [36masync[39m findPagination(page[33m:[39m number[33m,[39m perPage[33m:[39m number){[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (5b0cef1530b7a68a)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m29:16[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ Slug: any; }' is not assignable to type 'FindOptionsWhere<HoadonhhpEntity> | FindOptionsWhere<HoadonhhpEntity>[]'.
+  Object literal may only specify known properties, and 'Slug' does not exist in type 'FindOptionsWhere<HoadonhhpEntity> | FindOptionsWhere<HoadonhhpEntity>[]'.
+  [0m [90m 27 |[39m   [36masync[39m findslug(slug[33m:[39m any) {[0m
+  [0m [90m 28 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mfindOne({[0m
+  [0m[31m[1m>[22m[39m[90m 29 |[39m       where[33m:[39m { [33mSlug[39m[33m:[39m slug}[33m,[39m[0m
+  [0m [90m    |[39m                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 30 |[39m     })[33m;[39m[0m
+  [0m [90m 31 |[39m   }[0m
+  [0m [90m 32 |[39m   [36masync[39m findPagination(page[33m:[39m number[33m,[39m perPage[33m:[39m number){[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (0d74a5600e4e526e)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m29:16[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ Slug: any; }' is not assignable to type 'FindOptionsWhere<HoadonhhpEntity> | FindOptionsWhere<HoadonhhpEntity>[]'.
+  Object literal may only specify known properties, and 'Slug' does not exist in type 'FindOptionsWhere<HoadonhhpEntity> | FindOptionsWhere<HoadonhhpEntity>[]'.
+  [0m [90m 27 |[39m   [36masync[39m findslug(slug[33m:[39m any) {[0m
+  [0m [90m 28 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mfindOne({[0m
+  [0m[31m[1m>[22m[39m[90m 29 |[39m       where[33m:[39m { [33mSlug[39m[33m:[39m slug}[33m,[39m[0m
+  [0m [90m    |[39m                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 30 |[39m     })[33m;[39m[0m
+  [0m [90m 31 |[39m   }[0m
+  [0m [90m 32 |[39m   [36masync[39m findPagination(page[33m:[39m number[33m,[39m perPage[33m:[39m number){[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (0d74a5600e4e526e)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m29:16[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ Slug: any; }' is not assignable to type 'FindOptionsWhere<HoadonhhpEntity> | FindOptionsWhere<HoadonhhpEntity>[]'.
+  Object literal may only specify known properties, and 'Slug' does not exist in type 'FindOptionsWhere<HoadonhhpEntity> | FindOptionsWhere<HoadonhhpEntity>[]'.
+  [0m [90m 27 |[39m   [36masync[39m findslug(slug[33m:[39m any) {[0m
+  [0m [90m 28 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mfindOne({[0m
+  [0m[31m[1m>[22m[39m[90m 29 |[39m       where[33m:[39m { [33mSlug[39m[33m:[39m slug}[33m,[39m[0m
+  [0m [90m    |[39m                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 30 |[39m     })[33m;[39m[0m
+  [0m [90m 31 |[39m   }[0m
+  [0m [90m 32 |[39m   [36masync[39m findPagination(page[33m:[39m number[33m,[39m perPage[33m:[39m number){[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (0d74a5600e4e526e)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m29:16[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ Slug: any; }' is not assignable to type 'FindOptionsWhere<HoadonhhpEntity> | FindOptionsWhere<HoadonhhpEntity>[]'.
+  Object literal may only specify known properties, and 'Slug' does not exist in type 'FindOptionsWhere<HoadonhhpEntity> | FindOptionsWhere<HoadonhhpEntity>[]'.
+  [0m [90m 27 |[39m   [36masync[39m findslug(slug[33m:[39m any) {[0m
+  [0m [90m 28 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mfindOne({[0m
+  [0m[31m[1m>[22m[39m[90m 29 |[39m       where[33m:[39m { [33mSlug[39m[33m:[39m slug}[33m,[39m[0m
+  [0m [90m    |[39m                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 30 |[39m     })[33m;[39m[0m
+  [0m [90m 31 |[39m   }[0m
+  [0m [90m 32 |[39m   [36masync[39m findPagination(page[33m:[39m number[33m,[39m perPage[33m:[39m number){[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (0d74a5600e4e526e)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m29:16[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ Slug: any; }' is not assignable to type 'FindOptionsWhere<HoadonhhpEntity> | FindOptionsWhere<HoadonhhpEntity>[]'.
+  Object literal may only specify known properties, and 'Slug' does not exist in type 'FindOptionsWhere<HoadonhhpEntity> | FindOptionsWhere<HoadonhhpEntity>[]'.
+  [0m [90m 27 |[39m   [36masync[39m findslug(slug[33m:[39m any) {[0m
+  [0m [90m 28 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mfindOne({[0m
+  [0m[31m[1m>[22m[39m[90m 29 |[39m       where[33m:[39m { [33mSlug[39m[33m:[39m slug}[33m,[39m[0m
+  [0m [90m    |[39m                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 30 |[39m     })[33m;[39m[0m
+  [0m [90m 31 |[39m   }[0m
+  [0m [90m 32 |[39m   [36masync[39m findPagination(page[33m:[39m number[33m,[39m perPage[33m:[39m number){[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (0d74a5600e4e526e)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m29:21[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'SHD'.
+  [0m [90m 27 |[39m   [36masync[39m findslug(slug[33m:[39m any) {[0m
+  [0m [90m 28 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mfindOne({[0m
+  [0m[31m[1m>[22m[39m[90m 29 |[39m       where[33m:[39m { [33mSHD[39m[33m:[39m [33mSHD[39m}[33m,[39m[0m
+  [0m [90m    |[39m                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 30 |[39m     })[33m;[39m[0m
+  [0m [90m 31 |[39m   }[0m
+  [0m [90m 32 |[39m   [36masync[39m findPagination(page[33m:[39m number[33m,[39m perPage[33m:[39m number){[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (41433a7a6c29b8a5)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m29:21[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'SHD'.
+  [0m [90m 27 |[39m   [36masync[39m findslug(slug[33m:[39m any) {[0m
+  [0m [90m 28 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mfindOne({[0m
+  [0m[31m[1m>[22m[39m[90m 29 |[39m       where[33m:[39m { [33mSHD[39m[33m:[39m [33mSHD[39m}[33m,[39m[0m
+  [0m [90m    |[39m                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 30 |[39m     })[33m;[39m[0m
+  [0m [90m 31 |[39m   }[0m
+  [0m [90m 32 |[39m   [36masync[39m findPagination(page[33m:[39m number[33m,[39m perPage[33m:[39m number){[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (41433a7a6c29b8a5)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m29:21[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'SHD'.
+  [0m [90m 27 |[39m   [36masync[39m findslug(slug[33m:[39m any) {[0m
+  [0m [90m 28 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mfindOne({[0m
+  [0m[31m[1m>[22m[39m[90m 29 |[39m       where[33m:[39m { [33mSHD[39m[33m:[39m [33mSHD[39m}[33m,[39m[0m
+  [0m [90m    |[39m                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 30 |[39m     })[33m;[39m[0m
+  [0m [90m 31 |[39m   }[0m
+  [0m [90m 32 |[39m   [36masync[39m findPagination(page[33m:[39m number[33m,[39m perPage[33m:[39m number){[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (41433a7a6c29b8a5)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m29:21[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'SHD'.
+  [0m [90m 27 |[39m   [36masync[39m findslug(slug[33m:[39m any) {[0m
+  [0m [90m 28 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mfindOne({[0m
+  [0m[31m[1m>[22m[39m[90m 29 |[39m       where[33m:[39m { [33mSHD[39m[33m:[39m [33mSHD[39m}[33m,[39m[0m
+  [0m [90m    |[39m                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 30 |[39m     })[33m;[39m[0m
+  [0m [90m 31 |[39m   }[0m
+  [0m [90m 32 |[39m   [36masync[39m findPagination(page[33m:[39m number[33m,[39m perPage[33m:[39m number){[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (41433a7a6c29b8a5)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (c13bc30359b1da45)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (c13bc30359b1da45)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (c13bc30359b1da45)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (c13bc30359b1da45)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (c13bc30359b1da45)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (c13bc30359b1da45)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m

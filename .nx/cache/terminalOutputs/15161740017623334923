@@ -1,0 +1,717 @@
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 111 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (17804d6d47c40361)
+[1m[31mDebugger listening on ws://localhost:9229/39508b59-0510-4130-9976-c6aa7484772f[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/39508b59-0510-4130-9976-c6aa7484772f[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31m{}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{}[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 111 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (822073257753acd9)
+[1m[31mDebugger listening on ws://localhost:9229/4ed1c5b5-7362-4de2-8c75-f2eea069905b[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/4ed1c5b5-7362-4de2-8c75-f2eea069905b[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 111 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m15:5[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'err'.
+  [0m [90m 13 |[39m   [36masync[39m create(data[33m:[39m any) {[0m
+  [0m [90m 14 |[39m     [36mconst[39m check [33m=[39m [36mthis[39m[33m.[39mfindSHD(data)[0m
+  [0m[31m[1m>[22m[39m[90m 15 |[39m     err[0m
+  [0m [90m    |[39m     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 16 |[39m     [36mif[39m(check) {[0m
+  [0m [90m 17 |[39m       [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mcreate(data)[33m;[39m[0m
+  [0m [90m 18 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39msave(data)[33m;[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (281727742df19373)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 111 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m15:5[22m[39m[1m[39m[22m
+[90mTS2552: [39mCannot find name 'error'. Did you mean 'Error'?
+  [0m [90m 13 |[39m   [36masync[39m create(data[33m:[39m any) {[0m
+  [0m [90m 14 |[39m     [36mconst[39m check [33m=[39m [36mthis[39m[33m.[39mfindSHD(data)[0m
+  [0m[31m[1m>[22m[39m[90m 15 |[39m     error[0m
+  [0m [90m    |[39m     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 16 |[39m     [36mif[39m(check) {[0m
+  [0m [90m 17 |[39m       [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mcreate(data)[33m;[39m[0m
+  [0m [90m 18 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39msave(data)[33m;[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (3549ee697c20fed7)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 111 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (8bd00807f93bf412)
+[1m[31mDebugger listening on ws://localhost:9229/c1c720f7-2f8e-4170-8900-508aafb9f963[39m[22m
+[1m[31m[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/c1c720f7-2f8e-4170-8900-508aafb9f963[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 111 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (74eb3094a4d4a43a)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 111 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (74eb3094a4d4a43a)
+[1m[31mDebugger listening on ws://localhost:9229/f8603b86-1caf-4f6c-bc77-1730cd20626d[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/f8603b86-1caf-4f6c-bc77-1730cd20626d[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31mPromise { <pending> }[39m[22m
+[1m[31m[39m[22m
+[1m[31mPromise { <pending> }[39m[22m
+[1m[31m[39m[22m
+[1m[31mPromise { <pending> }[39m[22m
+[1m[31m[39m[22m
+[1m[31mPromise { <pending> }[39m[22m
+[1m[31m[39m[22m
+[1m[31mPromise { <pending> }[39m[22m
+[1m[31m[39m[22m
+[1m[31mPromise { <pending> }[39m[22m
+[1m[31m[39m[22m
+[1m[31mPromise { <pending> }[39m[22m
+[1m[31m[39m[22m
+[1m[31mPromise { <pending> }[39m[22m
+[1m[31m[39m[22m
+[1m[31mPromise { <pending> }[39m[22m
+[1m[31m[39m[22m
+[1m[31mPromise { <pending> }[39m[22m
+[1m[31m[39m[22m
+[1m[31mPromise { <pending> }[39m[22m
+[1m[31m[39m[22m
+[1m[31mPromise { <pending> }[39m[22m
+[1m[31m[39m[22m
+[1m[31mPromise { <pending> }[39m[22m
+[1m[31m[39m[22m
+[1m[31mPromise { <pending> }[39m[22m
+[1m[31m[39m[22m
+[1m[31mPromise { <pending> }[39m[22m
+[1m[31m[39m[22m
+[1m[31mPromise { <pending> }[39m[22m
+[1m[31m[39m[22m
+[1m[31mPromise { <pending> }[39m[22m
+[1m[31m[39m[22m
+[1m[31mPromise { <pending> }[39m[22m
+[1m[31m[39m[22m
+[1m[31mPromise { <pending> }[39m[22m
+[1m[31m[39m[22m
+[1m[31mPromise { <pending> }[39m[22m
+[1m[31m[39m[22m
+[1m[31mPromise { <pending> }[39m[22m
+[1m[31m[39m[22m
+[1m[31mPromise { <pending> }[39m[22m
+[1m[31m[39m[22m
+[1m[31mPromise { <pending> }[39m[22m
+[1m[31m[39m[22m
+[1m[31mPromise { <pending> }[39m[22m
+[1m[31m[39m[22m
+[1m[31mPromise { <pending> }[39m[22m
+[1m[31m[39m[22m
+[1m[31mPromise { <pending> }[39m[22m
+[1m[31m[39m[22m
+[1m[31mPromise { <pending> }[39m[22m
+[1m[31m[39m[22m
+[1m[31mPromise { <pending> }[39m[22m
+[1m[31m[39m[22m
+[1m[31mPromise { <pending> }[39m[22m
+[1m[31m[39m[22m
+[1m[31mPromise { <pending> }[39m[22m
+[1m[31m[39m[22m
+[1m[31mPromise { <pending> }[39m[22m
+[1m[31m[39m[22m
+[1m[31mPromise { <pending> }[39m[22m
+[1m[31m[39m[22m
+[1m[31mPromise { <pending> }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{}[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 111 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (08ebf8593fb1a54f)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 111 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (08ebf8593fb1a54f)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 111 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (08ebf8593fb1a54f)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 111 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (08ebf8593fb1a54f)
+[1m[31mDebugger listening on ws://localhost:9229/127aea1e-de16-4989-a7b1-41eb019878f9[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/127aea1e-de16-4989-a7b1-41eb019878f9[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31mHoadonhhpEntity {[39m[22m
+[1m[31m  id: '48159f82-e7ab-4ffa-81b6-b2f71b5e8474',[39m[22m
+[1m[31m  SHD: '23558',[39m[22m
+[1m[31m  Thang: '1',[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  Ordering: 0,[39m[22m
+[1m[31m  Status: 0,[39m[22m
+[1m[31m  CreateAt: 2024-01-16T14:04:13.174Z,[39m[22m
+[1m[31m  UpdateAt: 2024-01-16T14:04:13.174Z,[39m[22m
+[1m[31m  DeleteAt: null,[39m[22m
+[1m[31m  idCreate: null[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31mHoadonhhpEntity {[39m[22m
+[1m[31m  id: '937bc26a-5f32-4341-84f9-75f33c669655',[39m[22m
+[1m[31m  SHD: '23559',[39m[22m
+[1m[31m  Thang: '1',[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  Ordering: 0,[39m[22m
+[1m[31m  Status: 0,[39m[22m
+[1m[31m  CreateAt: 2024-01-16T14:04:13.182Z,[39m[22m
+[1m[31m  UpdateAt: 2024-01-16T14:04:13.182Z,[39m[22m
+[1m[31m  DeleteAt: null,[39m[22m
+[1m[31m  idCreate: null[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31mHoadonhhpEntity {[39m[22m
+[1m[31m  id: '6fe922b3-38f1-49e4-9e6b-38d96a1b0aeb',[39m[22m
+[1m[31m  SHD: '23235',[39m[22m
+[1m[31m  Thang: '1',[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  Ordering: 0,[39m[22m
+[1m[31m  Status: 0,[39m[22m
+[1m[31m  CreateAt: 2024-01-16T14:04:13.154Z,[39m[22m
+[1m[31m  UpdateAt: 2024-01-16T14:04:13.154Z,[39m[22m
+[1m[31m  DeleteAt: null,[39m[22m
+[1m[31m  idCreate: null[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31mHoadonhhpEntity {[39m[22m
+[1m[31m  id: '771ca6c2-42f4-464f-8625-a5a27accb67e',[39m[22m
+[1m[31m  SHD: '29',[39m[22m
+[1m[31m  Thang: '1',[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  Ordering: 0,[39m[22m
+[1m[31m  Status: 0,[39m[22m
+[1m[31m  CreateAt: 2024-01-16T14:04:13.526Z,[39m[22m
+[1m[31m  UpdateAt: 2024-01-16T14:04:13.526Z,[39m[22m
+[1m[31m  DeleteAt: null,[39m[22m
+[1m[31m  idCreate: null[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31mHoadonhhpEntity {[39m[22m
+[1m[31m  id: 'c417fc03-cf4e-4471-9878-73b56f493c90',[39m[22m
+[1m[31m  SHD: '1336',[39m[22m
+[1m[31m  Thang: '1',[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  Ordering: 0,[39m[22m
+[1m[31m  Status: 0,[39m[22m
+[1m[31m  CreateAt: 2024-01-16T14:04:13.365Z,[39m[22m
+[1m[31m  UpdateAt: 2024-01-16T14:04:13.365Z,[39m[22m
+[1m[31m  DeleteAt: null,[39m[22m
+[1m[31m  idCreate: null[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31mHoadonhhpEntity {[39m[22m
+[1m[31m  id: '9de138d4-1233-415a-bd34-0ac088c92b30',[39m[22m
+[1m[31m  SHD: '47',[39m[22m
+[1m[31m  Thang: '1',[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  Ordering: 0,[39m[22m
+[1m[31m  Status: 0,[39m[22m
+[1m[31m  CreateAt: 2024-01-16T14:04:13.742Z,[39m[22m
+[1m[31m  UpdateAt: 2024-01-16T14:04:13.742Z,[39m[22m
+[1m[31m  DeleteAt: null,[39m[22m
+[1m[31m  idCreate: null[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31mHoadonhhpEntity {[39m[22m
+[1m[31m  id: 'd549c9e3-c7d9-4a37-9dd2-b4d94948aeee',[39m[22m
+[1m[31m  SHD: '1312',[39m[22m
+[1m[31m  Thang: '1',[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  Ordering: 0,[39m[22m
+[1m[31m  Status: 0,[39m[22m
+[1m[31m  CreateAt: 2024-01-16T14:04:13.680Z,[39m[22m
+[1m[31m  UpdateAt: 2024-01-16T14:04:13.680Z,[39m[22m
+[1m[31m  DeleteAt: null,[39m[22m
+[1m[31m  idCreate: null[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31mHoadonhhpEntity {[39m[22m
+[1m[31m  id: '489a2be7-7069-4bce-b97c-5c387eec9fb1',[39m[22m
+[1m[31m  SHD: '1387',[39m[22m
+[1m[31m  Thang: '1',[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  Ordering: 0,[39m[22m
+[1m[31m  Status: 0,[39m[22m
+[1m[31m  CreateAt: 2024-01-16T14:04:14.058Z,[39m[22m
+[1m[31m  UpdateAt: 2024-01-16T14:04:14.058Z,[39m[22m
+[1m[31m  DeleteAt: null,[39m[22m
+[1m[31m  idCreate: null[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31mHoadonhhpEntity {[39m[22m
+[1m[31m  id: 'b012434d-bf63-42a9-9948-a8ded64fd22c',[39m[22m
+[1m[31m  SHD: '23560',[39m[22m
+[1m[31m  Thang: '1',[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  Ordering: 0,[39m[22m
+[1m[31m  Status: 0,[39m[22m
+[1m[31m  CreateAt: 2024-01-16T14:04:13.162Z,[39m[22m
+[1m[31m  UpdateAt: 2024-01-16T14:04:13.162Z,[39m[22m
+[1m[31m  DeleteAt: null,[39m[22m
+[1m[31m  idCreate: null[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31mHoadonhhpEntity {[39m[22m
+[1m[31m  id: 'f373145b-bbe3-4f38-b66c-c303829917c9',[39m[22m
+[1m[31m  SHD: '24478',[39m[22m
+[1m[31m  Thang: '1',[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  Ordering: 0,[39m[22m
+[1m[31m  Status: 0,[39m[22m
+[1m[31m  CreateAt: 2024-01-16T14:04:14.508Z,[39m[22m
+[1m[31m  UpdateAt: 2024-01-16T14:04:14.508Z,[39m[22m
+[1m[31m  DeleteAt: null,[39m[22m
+[1m[31m  idCreate: null[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31mHoadonhhpEntity {[39m[22m
+[1m[31m  id: '6eb9ec85-c461-4d58-969c-0edb47de0ced',[39m[22m
+[1m[31m  SHD: '63',[39m[22m
+[1m[31m  Thang: '1',[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  Ordering: 0,[39m[22m
+[1m[31m  Status: 0,[39m[22m
+[1m[31m  CreateAt: 2024-01-16T14:04:14.389Z,[39m[22m
+[1m[31m  UpdateAt: 2024-01-16T14:04:14.389Z,[39m[22m
+[1m[31m  DeleteAt: null,[39m[22m
+[1m[31m  idCreate: null[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31mHoadonhhpEntity {[39m[22m
+[1m[31m  id: 'ddbbc93e-3186-4a48-b0ac-d74cc4b0c3ce',[39m[22m
+[1m[31m  SHD: '1363',[39m[22m
+[1m[31m  Thang: '1',[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  Ordering: 0,[39m[22m
+[1m[31m  Status: 0,[39m[22m
+[1m[31m  CreateAt: 2024-01-16T14:04:14.062Z,[39m[22m
+[1m[31m  UpdateAt: 2024-01-16T14:04:14.062Z,[39m[22m
+[1m[31m  DeleteAt: null,[39m[22m
+[1m[31m  idCreate: null[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31mHoadonhhpEntity {[39m[22m
+[1m[31m  id: '00680ef8-633f-42bc-a526-06c550c272b6',[39m[22m
+[1m[31m  SHD: '27',[39m[22m
+[1m[31m  Thang: '1',[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  Ordering: 0,[39m[22m
+[1m[31m  Status: 0,[39m[22m
+[1m[31m  CreateAt: 2024-01-16T14:04:14.159Z,[39m[22m
+[1m[31m  UpdateAt: 2024-01-16T14:04:14.159Z,[39m[22m
+[1m[31m  DeleteAt: null,[39m[22m
+[1m[31m  idCreate: null[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31mHoadonhhpEntity {[39m[22m
+[1m[31m  id: 'ce9700f3-dc37-4bfd-9cad-9b756dc8d6d8',[39m[22m
+[1m[31m  SHD: '23699',[39m[22m
+[1m[31m  Thang: '1',[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  Ordering: 0,[39m[22m
+[1m[31m  Status: 0,[39m[22m
+[1m[31m  CreateAt: 2024-01-16T14:04:14.495Z,[39m[22m
+[1m[31m  UpdateAt: 2024-01-16T14:04:14.495Z,[39m[22m
+[1m[31m  DeleteAt: null,[39m[22m
+[1m[31m  idCreate: null[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31mHoadonhhpEntity {[39m[22m
+[1m[31m  id: '1107c804-7c98-403c-a700-f6729fd0ecfe',[39m[22m
+[1m[31m  SHD: '24477',[39m[22m
+[1m[31m  Thang: '1',[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  Ordering: 0,[39m[22m
+[1m[31m  Status: 0,[39m[22m
+[1m[31m  CreateAt: 2024-01-16T14:04:14.314Z,[39m[22m
+[1m[31m  UpdateAt: 2024-01-16T14:04:14.314Z,[39m[22m
+[1m[31m  DeleteAt: null,[39m[22m
+[1m[31m  idCreate: null[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31mHoadonhhpEntity {[39m[22m
+[1m[31m  id: '4adb33fc-5963-4b77-81a1-707794627d08',[39m[22m
+[1m[31m  SHD: '23618',[39m[22m
+[1m[31m  Thang: '1',[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  Ordering: 0,[39m[22m
+[1m[31m  Status: 0,[39m[22m
+[1m[31m  CreateAt: 2024-01-16T14:04:15.094Z,[39m[22m
+[1m[31m  UpdateAt: 2024-01-16T14:04:15.094Z,[39m[22m
+[1m[31m  DeleteAt: null,[39m[22m
+[1m[31m  idCreate: null[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31mHoadonhhpEntity {[39m[22m
+[1m[31m  id: '18a52155-9478-44f2-bae9-4c4d600215f6',[39m[22m
+[1m[31m  SHD: '24475',[39m[22m
+[1m[31m  Thang: '1',[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  Ordering: 0,[39m[22m
+[1m[31m  Status: 0,[39m[22m
+[1m[31m  CreateAt: 2024-01-16T14:04:14.629Z,[39m[22m
+[1m[31m  UpdateAt: 2024-01-16T14:04:14.629Z,[39m[22m
+[1m[31m  DeleteAt: null,[39m[22m
+[1m[31m  idCreate: null[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31mHoadonhhpEntity {[39m[22m
+[1m[31m  id: '11f02dfa-2a16-4727-929e-86d9402fd269',[39m[22m
+[1m[31m  SHD: '23866',[39m[22m
+[1m[31m  Thang: '1',[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  Ordering: 0,[39m[22m
+[1m[31m  Status: 0,[39m[22m
+[1m[31m  CreateAt: 2024-01-16T14:04:15.297Z,[39m[22m
+[1m[31m  UpdateAt: 2024-01-16T14:04:15.297Z,[39m[22m
+[1m[31m  DeleteAt: null,[39m[22m
+[1m[31m  idCreate: null[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31mHoadonhhpEntity {[39m[22m
+[1m[31m  id: '6c2d6d48-a730-4129-a942-88d8c2d8d79d',[39m[22m
+[1m[31m  SHD: '23784',[39m[22m
+[1m[31m  Thang: '1',[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  Ordering: 0,[39m[22m
+[1m[31m  Status: 0,[39m[22m
+[1m[31m  CreateAt: 2024-01-16T14:04:14.448Z,[39m[22m
+[1m[31m  UpdateAt: 2024-01-16T14:04:14.448Z,[39m[22m
+[1m[31m  DeleteAt: null,[39m[22m
+[1m[31m  idCreate: null[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31mHoadonhhpEntity {[39m[22m
+[1m[31m  id: '95a7cfa3-00a4-485d-8405-87a740bd07e1',[39m[22m
+[1m[31m  SHD: '23950',[39m[22m
+[1m[31m  Thang: '1',[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  Ordering: 0,[39m[22m
+[1m[31m  Status: 0,[39m[22m
+[1m[31m  CreateAt: 2024-01-16T14:04:14.878Z,[39m[22m
+[1m[31m  UpdateAt: 2024-01-16T14:04:14.878Z,[39m[22m
+[1m[31m  DeleteAt: null,[39m[22m
+[1m[31m  idCreate: null[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31mHoadonhhpEntity {[39m[22m
+[1m[31m  id: 'c5408ba5-668c-463d-bfeb-37e4e79f1c48',[39m[22m
+[1m[31m  SHD: '24118',[39m[22m
+[1m[31m  Thang: '1',[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  Ordering: 0,[39m[22m
+[1m[31m  Status: 0,[39m[22m
+[1m[31m  CreateAt: 2024-01-16T14:04:15.248Z,[39m[22m
+[1m[31m  UpdateAt: 2024-01-16T14:04:15.248Z,[39m[22m
+[1m[31m  DeleteAt: null,[39m[22m
+[1m[31m  idCreate: null[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31mHoadonhhpEntity {[39m[22m
+[1m[31m  id: 'cd4cb1c9-c5c1-4b6f-8cd0-ee7900c583f9',[39m[22m
+[1m[31m  SHD: '24202',[39m[22m
+[1m[31m  Thang: '1',[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  Ordering: 0,[39m[22m
+[1m[31m  Status: 0,[39m[22m
+[1m[31m  CreateAt: 2024-01-16T14:04:14.885Z,[39m[22m
+[1m[31m  UpdateAt: 2024-01-16T14:04:14.885Z,[39m[22m
+[1m[31m  DeleteAt: null,[39m[22m
+[1m[31m  idCreate: null[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31mHoadonhhpEntity {[39m[22m
+[1m[31m  id: 'ca630c2a-8f67-49fb-ac85-996ec6120708',[39m[22m
+[1m[31m  SHD: '81',[39m[22m
+[1m[31m  Thang: '1',[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  Ordering: 0,[39m[22m
+[1m[31m  Status: 0,[39m[22m
+[1m[31m  CreateAt: 2024-01-16T14:04:15.726Z,[39m[22m
+[1m[31m  UpdateAt: 2024-01-16T14:04:15.726Z,[39m[22m
+[1m[31m  DeleteAt: null,[39m[22m
+[1m[31m  idCreate: null[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31mHoadonhhpEntity {[39m[22m
+[1m[31m  id: 'ff38b9e7-6e36-4525-9035-fd0d7044ac58',[39m[22m
+[1m[31m  SHD: '24033',[39m[22m
+[1m[31m  Thang: '1',[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  Ordering: 0,[39m[22m
+[1m[31m  Status: 0,[39m[22m
+[1m[31m  CreateAt: 2024-01-16T14:04:15.111Z,[39m[22m
+[1m[31m  UpdateAt: 2024-01-16T14:04:15.111Z,[39m[22m
+[1m[31m  DeleteAt: null,[39m[22m
+[1m[31m  idCreate: null[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31mHoadonhhpEntity {[39m[22m
+[1m[31m  id: 'ee67e813-a02a-4a50-a48c-67ac5c148d3c',[39m[22m
+[1m[31m  SHD: '24554',[39m[22m
+[1m[31m  Thang: '1',[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  Ordering: 0,[39m[22m
+[1m[31m  Status: 0,[39m[22m
+[1m[31m  CreateAt: 2024-01-16T14:04:16.284Z,[39m[22m
+[1m[31m  UpdateAt: 2024-01-16T14:04:16.284Z,[39m[22m
+[1m[31m  DeleteAt: null,[39m[22m
+[1m[31m  idCreate: null[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31mHoadonhhpEntity {[39m[22m
+[1m[31m  id: 'e4b1bad7-056e-441b-88c0-db9ca3eb0a82',[39m[22m
+[1m[31m  SHD: '24553',[39m[22m
+[1m[31m  Thang: '1',[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  Ordering: 0,[39m[22m
+[1m[31m  Status: 0,[39m[22m
+[1m[31m  CreateAt: 2024-01-16T14:04:15.736Z,[39m[22m
+[1m[31m  UpdateAt: 2024-01-16T14:04:15.736Z,[39m[22m
+[1m[31m  DeleteAt: null,[39m[22m
+[1m[31m  idCreate: null[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31mHoadonhhpEntity {[39m[22m
+[1m[31m  id: '3f3c19df-8c1e-4991-91d1-30c844cdaf51',[39m[22m
+[1m[31m  SHD: '401',[39m[22m
+[1m[31m  Thang: '1',[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  Ordering: 0,[39m[22m
+[1m[31m  Status: 0,[39m[22m
+[1m[31m  CreateAt: 2024-01-16T14:04:15.086Z,[39m[22m
+[1m[31m  UpdateAt: 2024-01-16T14:04:15.086Z,[39m[22m
+[1m[31m  DeleteAt: null,[39m[22m
+[1m[31m  idCreate: null[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31mHoadonhhpEntity {[39m[22m
+[1m[31m  id: '11a605d6-370e-4a64-959e-45705c723717',[39m[22m
+[1m[31m  SHD: '24555',[39m[22m
+[1m[31m  Thang: '1',[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  Ordering: 0,[39m[22m
+[1m[31m  Status: 0,[39m[22m
+[1m[31m  CreateAt: 2024-01-16T14:04:16.069Z,[39m[22m
+[1m[31m  UpdateAt: 2024-01-16T14:04:16.069Z,[39m[22m
+[1m[31m  DeleteAt: null,[39m[22m
+[1m[31m  idCreate: null[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31mHoadonhhpEntity {[39m[22m
+[1m[31m  id: 'b3cec012-312a-426f-a637-a082a278f345',[39m[22m
+[1m[31m  SHD: '152',[39m[22m
+[1m[31m  Thang: '1',[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  Ordering: 0,[39m[22m
+[1m[31m  Status: 0,[39m[22m
+[1m[31m  CreateAt: 2024-01-16T14:03:33.877Z,[39m[22m
+[1m[31m  UpdateAt: 2024-01-16T14:03:33.877Z,[39m[22m
+[1m[31m  DeleteAt: null,[39m[22m
+[1m[31m  idCreate: null[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31mHoadonhhpEntity {[39m[22m
+[1m[31m  id: '33c9e79b-8b79-48b6-9c45-15528443ec1d',[39m[22m
+[1m[31m  SHD: '402',[39m[22m
+[1m[31m  Thang: '1',[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  Ordering: 0,[39m[22m
+[1m[31m  Status: 0,[39m[22m
+[1m[31m  CreateAt: 2024-01-16T14:04:15.300Z,[39m[22m
+[1m[31m  UpdateAt: 2024-01-16T14:04:15.300Z,[39m[22m
+[1m[31m  DeleteAt: null,[39m[22m
+[1m[31m  idCreate: null[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31mHoadonhhpEntity {[39m[22m
+[1m[31m  id: 'daf72070-d4d1-494b-baef-90350c8b23ac',[39m[22m
+[1m[31m  SHD: '142',[39m[22m
+[1m[31m  Thang: '1',[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  Ordering: 0,[39m[22m
+[1m[31m  Status: 0,[39m[22m
+[1m[31m  CreateAt: 2024-01-16T14:04:15.316Z,[39m[22m
+[1m[31m  UpdateAt: 2024-01-16T14:04:15.316Z,[39m[22m
+[1m[31m  DeleteAt: null,[39m[22m
+[1m[31m  idCreate: null[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31mHoadonhhpEntity {[39m[22m
+[1m[31m  id: 'abc4e3fb-d052-4fe2-b348-6878ebcbde85',[39m[22m
+[1m[31m  SHD: '153',[39m[22m
+[1m[31m  Thang: '1',[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  Ordering: 0,[39m[22m
+[1m[31m  Status: 0,[39m[22m
+[1m[31m  CreateAt: 2024-01-16T14:03:33.974Z,[39m[22m
+[1m[31m  UpdateAt: 2024-01-16T14:03:33.974Z,[39m[22m
+[1m[31m  DeleteAt: null,[39m[22m
+[1m[31m  idCreate: null[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31mHoadonhhpEntity {[39m[22m
+[1m[31m  id: '2f0c1d5e-8a86-4383-b528-5d2d17218aba',[39m[22m
+[1m[31m  SHD: '151',[39m[22m
+[1m[31m  Thang: '1',[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  Ordering: 0,[39m[22m
+[1m[31m  Status: 0,[39m[22m
+[1m[31m  CreateAt: 2024-01-16T14:04:15.918Z,[39m[22m
+[1m[31m  UpdateAt: 2024-01-16T14:04:15.918Z,[39m[22m
+[1m[31m  DeleteAt: null,[39m[22m
+[1m[31m  idCreate: null[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31mHoadonhhpEntity {[39m[22m
+[1m[31m  id: 'a3327000-4eef-4e97-a0a7-f0584a04f49c',[39m[22m
+[1m[31m  SHD: '24470',[39m[22m
+[1m[31m  Thang: '1',[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  Ordering: 0,[39m[22m
+[1m[31m  Status: 0,[39m[22m
+[1m[31m  CreateAt: 2024-01-16T14:04:15.694Z,[39m[22m
+[1m[31m  UpdateAt: 2024-01-16T14:04:15.694Z,[39m[22m
+[1m[31m  DeleteAt: null,[39m[22m
+[1m[31m  idCreate: null[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31mHoadonhhpEntity {[39m[22m
+[1m[31m  id: '908e3b60-db20-4db9-b594-a4f36c2ef492',[39m[22m
+[1m[31m  SHD: '154',[39m[22m
+[1m[31m  Thang: '1',[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  Ordering: 0,[39m[22m
+[1m[31m  Status: 0,[39m[22m
+[1m[31m  CreateAt: 2024-01-16T14:03:33.991Z,[39m[22m
+[1m[31m  UpdateAt: 2024-01-16T14:03:33.991Z,[39m[22m
+[1m[31m  DeleteAt: null,[39m[22m
+[1m[31m  idCreate: null[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31mHoadonhhpEntity {[39m[22m
+[1m[31m  id: '6a55dfb6-4cdc-4b43-9a2b-f2d85a87eb4b',[39m[22m
+[1m[31m  SHD: '258',[39m[22m
+[1m[31m  Thang: '1',[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  Ordering: 0,[39m[22m
+[1m[31m  Status: 0,[39m[22m
+[1m[31m  CreateAt: 2024-01-16T14:03:34.551Z,[39m[22m
+[1m[31m  UpdateAt: 2024-01-16T14:03:34.551Z,[39m[22m
+[1m[31m  DeleteAt: null,[39m[22m
+[1m[31m  idCreate: null[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31mHoadonhhpEntity {[39m[22m
+[1m[31m  id: 'b65a294a-0506-4e67-aca0-d2db650bfb3a',[39m[22m
+[1m[31m  SHD: '24473',[39m[22m
+[1m[31m  Thang: '1',[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  Ordering: 0,[39m[22m
+[1m[31m  Status: 0,[39m[22m
+[1m[31m  CreateAt: 2024-01-16T14:04:16.292Z,[39m[22m
+[1m[31m  UpdateAt: 2024-01-16T14:04:16.292Z,[39m[22m
+[1m[31m  DeleteAt: null,[39m[22m
+[1m[31m  idCreate: null[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31mHoadonhhpEntity {[39m[22m
+[1m[31m  id: 'a068836e-978b-4a48-95e5-aa830f5f1f49',[39m[22m
+[1m[31m  SHD: '547',[39m[22m
+[1m[31m  Thang: '1',[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  Ordering: 0,[39m[22m
+[1m[31m  Status: 0,[39m[22m
+[1m[31m  CreateAt: 2024-01-16T14:03:34.999Z,[39m[22m
+[1m[31m  UpdateAt: 2024-01-16T14:03:34.999Z,[39m[22m
+[1m[31m  DeleteAt: null,[39m[22m
+[1m[31m  idCreate: null[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31mHoadonhhpEntity {[39m[22m
+[1m[31m  id: '30914cc4-6ed4-43dd-a902-caffc6b7b95f',[39m[22m
+[1m[31m  SHD: '259',[39m[22m
+[1m[31m  Thang: '1',[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  Ordering: 0,[39m[22m
+[1m[31m  Status: 0,[39m[22m
+[1m[31m  CreateAt: 2024-01-16T14:03:34.550Z,[39m[22m
+[1m[31m  UpdateAt: 2024-01-16T14:03:34.550Z,[39m[22m
+[1m[31m  DeleteAt: null,[39m[22m
+[1m[31m  idCreate: null[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31mHoadonhhpEntity {[39m[22m
+[1m[31m  id: '5a31a310-da58-42fd-bbd0-4efccada17a1',[39m[22m
+[1m[31m  SHD: '257',[39m[22m
+[1m[31m  Thang: '1',[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  Ordering: 0,[39m[22m
+[1m[31m  Status: 0,[39m[22m
+[1m[31m  CreateAt: 2024-01-16T14:03:34.595Z,[39m[22m
+[1m[31m  UpdateAt: 2024-01-16T14:03:34.595Z,[39m[22m
+[1m[31m  DeleteAt: null,[39m[22m
+[1m[31m  idCreate: null[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31mHoadonhhpEntity {[39m[22m
+[1m[31m  id: 'fa4cbd4d-22a1-4fab-a567-43a3cfa74141',[39m[22m
+[1m[31m  SHD: '548',[39m[22m
+[1m[31m  Thang: '1',[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  Ordering: 0,[39m[22m
+[1m[31m  Status: 0,[39m[22m
+[1m[31m  CreateAt: 2024-01-16T14:03:34.398Z,[39m[22m
+[1m[31m  UpdateAt: 2024-01-16T14:03:34.398Z,[39m[22m
+[1m[31m  DeleteAt: null,[39m[22m
+[1m[31m  idCreate: null[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31mHoadonhhpEntity {[39m[22m
+[1m[31m  id: '89ca883b-3aaf-4a4b-85a9-614d28af401f',[39m[22m
+[1m[31m  SHD: '97',[39m[22m
+[1m[31m  Thang: '1',[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  Ordering: 0,[39m[22m
+[1m[31m  Status: 0,[39m[22m
+[1m[31m  CreateAt: 2024-01-16T14:03:35.588Z,[39m[22m
+[1m[31m  UpdateAt: 2024-01-16T14:03:35.588Z,[39m[22m
+[1m[31m  DeleteAt: null,[39m[22m
+[1m[31m  idCreate: null[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31mHoadonhhpEntity {[39m[22m
+[1m[31m  id: '7d0c6ad1-b93e-4dd0-9b31-177e3f5faad0',[39m[22m
+[1m[31m  SHD: '551',[39m[22m
+[1m[31m  Thang: '1',[39m[22m
+[1m[31m  Type: 'NHAP',[39m[22m
+[1m[31m  Ordering: 0,[39m[22m
+[1m[31m  Status: 0,[39m[22m
+[1m[31m  CreateAt: 2024-01-16T14:03:35.202Z,[39m[22m
+[1m[31m  UpdateAt: 2024-01-16T14:03:35.202Z,[39m[22m
+[1m[31m  DeleteAt: null,[39m[22m
+[1m[31m  idCreate: null[39m[22m
+[1m[31m}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{}[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 111 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (b97408646c268391)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 111 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (b97408646c268391)
+[1m[31mDebugger listening on ws://localhost:9229/3002908d-f5a5-4228-88da-b82b3ab9647b[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/3002908d-f5a5-4228-88da-b82b3ab9647b[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 111 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (9eff6bdfb5b7bd59)
+[1m[31mDebugger listening on ws://localhost:9229/a0a2dbbc-976f-4e11-9b25-e08fffdfe81d[39m[22m
+[1m[31m[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/a0a2dbbc-976f-4e11-9b25-e08fffdfe81d[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m

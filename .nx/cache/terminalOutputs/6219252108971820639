@@ -1,0 +1,609 @@
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 76.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (de7104c7694acf36)
+[1m[31mDebugger listening on ws://localhost:9229/ff512d94-70e3-48c1-b850-a6ffa6cf6076[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/ff512d94-70e3-48c1-b850-a6ffa6cf6076[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 76.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/entities/sohoadon.entity.ts:[32m[1m20:3[22m[39m[1m[39m[22m
+[90mTS2300: [39mDuplicate identifier 'shdon'.
+  [0m [90m 18 |[39m   shdon[33m:[39m string[33m;[39m[0m
+  [0m [90m 19 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m[31m[1m>[22m[39m[90m 20 |[39m   shdon[33m:[39m string[33m;[39m[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 21 |[39m   [33m@[39m[33mColumn[39m({ [36mdefault[39m[33m:[39m [32m''[39m })[0m
+  [0m [90m 22 |[39m   [33mType[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 23 |[39m   [33m@[39m[33mColumn[39m({ [36mdefault[39m[33m:[39m [35m1[39m })[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (6415fc00d2a91f6c)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 76.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (33c350c3b8914a99)
+[1m[31mDebugger listening on ws://localhost:9229/b9d8a5fd-3259-48c2-a29b-9b521d64e002[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/b9d8a5fd-3259-48c2-a29b-9b521d64e002[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 76.4 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (c26f9bfac2d7dd86)
+[1m[31mDebugger listening on ws://localhost:9229/5cf6d4a2-f8fc-44ac-85d0-200c0e901f34[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/5cf6d4a2-f8fc-44ac-85d0-200c0e901f34[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 76.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (b51391ae541a8fc9)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 76.3 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (b51391ae541a8fc9)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 76.3 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (b51391ae541a8fc9)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 76.3 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (b51391ae541a8fc9)
+[1m[31mDebugger listening on ws://localhost:9229/8e7e2700-c3fd-4e2d-a5c3-b72ae6b2dfb6[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/8e7e2700-c3fd-4e2d-a5c3-b72ae6b2dfb6[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 76.3 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (b51391ae541a8fc9)
+[1m[31mDebugger listening on ws://localhost:9229/5d4a1413-dcc5-4d9c-98ad-f7a50ba46239[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/5d4a1413-dcc5-4d9c-98ad-f7a50ba46239[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 76.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.service.ts:[32m[1m14:29[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findSHD' does not exist on type 'SohoadonService'.
+  [0m [90m 12 |[39m   ) {}[0m
+  [0m [90m 13 |[39m   [36masync[39m create([33mCreateSohoadonDto[39m[33m:[39m [33mCreateSohoadonDto[39m) {[0m
+  [0m[31m[1m>[22m[39m[90m 14 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindSHD([33mCreateMuavaoDto[39m)[0m
+  [0m [90m    |[39m                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 15 |[39m     [36mif[39m(item)[0m
+  [0m [90m 16 |[39m     {[0m
+  [0m [90m 17 |[39m       [36mreturn[39m [32m"Trùng SHD"[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.service.ts:[32m[1m14:37[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'CreateMuavaoDto'.
+  [0m [90m 12 |[39m   ) {}[0m
+  [0m [90m 13 |[39m   [36masync[39m create([33mCreateSohoadonDto[39m[33m:[39m [33mCreateSohoadonDto[39m) {[0m
+  [0m[31m[1m>[22m[39m[90m 14 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindSHD([33mCreateMuavaoDto[39m)[0m
+  [0m [90m    |[39m                                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 15 |[39m     [36mif[39m(item)[0m
+  [0m [90m 16 |[39m     {[0m
+  [0m [90m 17 |[39m       [36mreturn[39m [32m"Trùng SHD"[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.service.ts:[32m[1m20:12[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'MuavaoRepository' does not exist on type 'SohoadonService'.
+  [0m [90m 18 |[39m     }[0m
+  [0m [90m 19 |[39m     [36melse[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 20 |[39m       [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39mcreate([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m [90m    |[39m            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 21 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39msave([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m [90m 22 |[39m     }[0m
+  [0m [90m 23 |[39m     [36mthis[39m[33m.[39m[33mSohoadonRepository[39m[33m.[39mcreate([33mCreateSohoadonDto[39m)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.service.ts:[32m[1m20:36[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'CreateMuavaoDto'.
+  [0m [90m 18 |[39m     }[0m
+  [0m [90m 19 |[39m     [36melse[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 20 |[39m       [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39mcreate([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m [90m    |[39m                                    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 21 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39msave([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m [90m 22 |[39m     }[0m
+  [0m [90m 23 |[39m     [36mthis[39m[33m.[39m[33mSohoadonRepository[39m[33m.[39mcreate([33mCreateSohoadonDto[39m)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.service.ts:[32m[1m21:25[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'MuavaoRepository' does not exist on type 'SohoadonService'.
+  [0m [90m 19 |[39m     [36melse[39m {[0m
+  [0m [90m 20 |[39m       [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39mcreate([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 21 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39msave([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m [90m    |[39m                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 22 |[39m     }[0m
+  [0m [90m 23 |[39m     [36mthis[39m[33m.[39m[33mSohoadonRepository[39m[33m.[39mcreate([33mCreateSohoadonDto[39m)[33m;[39m[0m
+  [0m [90m 24 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mSohoadonRepository[39m[33m.[39msave([33mCreateSohoadonDto[39m)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.service.ts:[32m[1m21:47[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'CreateMuavaoDto'.
+  [0m [90m 19 |[39m     [36melse[39m {[0m
+  [0m [90m 20 |[39m       [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39mcreate([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 21 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39msave([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m [90m    |[39m                                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 22 |[39m     }[0m
+  [0m [90m 23 |[39m     [36mthis[39m[33m.[39m[33mSohoadonRepository[39m[33m.[39mcreate([33mCreateSohoadonDto[39m)[33m;[39m[0m
+  [0m [90m 24 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mSohoadonRepository[39m[33m.[39msave([33mCreateSohoadonDto[39m)[33m;[39m[0m
+
+webpack compiled with [1m[31m6 errors[39m[22m (0f80d7311c6d63ec)
+[1m[31mDebugger listening on ws://localhost:9229/0b8a7e7b-266f-4e4b-94ee-a05cadbf232b[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/0b8a7e7b-266f-4e4b-94ee-a05cadbf232b[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 76.7 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.service.ts:[32m[1m14:29[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findSHD' does not exist on type 'SohoadonService'.
+  [0m [90m 12 |[39m   ) {}[0m
+  [0m [90m 13 |[39m   [36masync[39m create([33mCreateSohoadonDto[39m[33m:[39m [33mCreateSohoadonDto[39m) {[0m
+  [0m[31m[1m>[22m[39m[90m 14 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindSHD([33mCreateMuavaoDto[39m)[0m
+  [0m [90m    |[39m                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 15 |[39m     [36mif[39m(item)[0m
+  [0m [90m 16 |[39m     {[0m
+  [0m [90m 17 |[39m       [36mreturn[39m [32m"Trùng SHD"[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.service.ts:[32m[1m14:37[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'CreateMuavaoDto'.
+  [0m [90m 12 |[39m   ) {}[0m
+  [0m [90m 13 |[39m   [36masync[39m create([33mCreateSohoadonDto[39m[33m:[39m [33mCreateSohoadonDto[39m) {[0m
+  [0m[31m[1m>[22m[39m[90m 14 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindSHD([33mCreateMuavaoDto[39m)[0m
+  [0m [90m    |[39m                                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 15 |[39m     [36mif[39m(item)[0m
+  [0m [90m 16 |[39m     {[0m
+  [0m [90m 17 |[39m       [36mreturn[39m [32m"Trùng SHD"[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.service.ts:[32m[1m20:12[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'MuavaoRepository' does not exist on type 'SohoadonService'.
+  [0m [90m 18 |[39m     }[0m
+  [0m [90m 19 |[39m     [36melse[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 20 |[39m       [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39mcreate([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m [90m    |[39m            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 21 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39msave([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m [90m 22 |[39m     }[0m
+  [0m [90m 23 |[39m     [36mthis[39m[33m.[39m[33mSohoadonRepository[39m[33m.[39mcreate([33mCreateSohoadonDto[39m)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.service.ts:[32m[1m20:36[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'CreateMuavaoDto'.
+  [0m [90m 18 |[39m     }[0m
+  [0m [90m 19 |[39m     [36melse[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 20 |[39m       [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39mcreate([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m [90m    |[39m                                    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 21 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39msave([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m [90m 22 |[39m     }[0m
+  [0m [90m 23 |[39m     [36mthis[39m[33m.[39m[33mSohoadonRepository[39m[33m.[39mcreate([33mCreateSohoadonDto[39m)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.service.ts:[32m[1m21:25[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'MuavaoRepository' does not exist on type 'SohoadonService'.
+  [0m [90m 19 |[39m     [36melse[39m {[0m
+  [0m [90m 20 |[39m       [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39mcreate([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 21 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39msave([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m [90m    |[39m                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 22 |[39m     }[0m
+  [0m [90m 23 |[39m     [36mthis[39m[33m.[39m[33mSohoadonRepository[39m[33m.[39mcreate([33mCreateSohoadonDto[39m)[33m;[39m[0m
+  [0m [90m 24 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mSohoadonRepository[39m[33m.[39msave([33mCreateSohoadonDto[39m)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.service.ts:[32m[1m21:47[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'CreateMuavaoDto'.
+  [0m [90m 19 |[39m     [36melse[39m {[0m
+  [0m [90m 20 |[39m       [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39mcreate([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 21 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39msave([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m [90m    |[39m                                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 22 |[39m     }[0m
+  [0m [90m 23 |[39m     [36mthis[39m[33m.[39m[33mSohoadonRepository[39m[33m.[39mcreate([33mCreateSohoadonDto[39m)[33m;[39m[0m
+  [0m [90m 24 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mSohoadonRepository[39m[33m.[39msave([33mCreateSohoadonDto[39m)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.service.ts:[32m[1m30:9[22m[39m[1m[39m[22m
+[90mTS2393: [39mDuplicate function implementation.
+  [0m [90m 28 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mSohoadonRepository[39m[33m.[39mfind()[33m;[39m[0m
+  [0m [90m 29 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 30 |[39m   [36masync[39m findid(id[33m:[39m string) {[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 31 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mSohoadonRepository[39m[33m.[39mfindOne({[0m
+  [0m [90m 32 |[39m       where[33m:[39m { id[33m:[39m id }[33m,[39m[0m
+  [0m [90m 33 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.service.ts:[32m[1m36:9[22m[39m[1m[39m[22m
+[90mTS2393: [39mDuplicate function implementation.
+  [0m [90m 34 |[39m     })[33m;[39m[0m
+  [0m [90m 35 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 36 |[39m   [36masync[39m findid(id[33m:[39m string) {[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 37 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mSohoadonRepository[39m[33m.[39mfindOne({[0m
+  [0m [90m 38 |[39m       where[33m:[39m { id[33m:[39m id }[33m,[39m[0m
+  [0m [90m 39 |[39m[0m
+
+webpack compiled with [1m[31m8 errors[39m[22m (d5017c8e26e4ca57)
+[1m[31mDebugger listening on ws://localhost:9229/d62fe6ee-eac3-43ca-a878-bebecc5f0260[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/d62fe6ee-eac3-43ca-a878-bebecc5f0260[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 76.7 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.service.ts:[32m[1m14:37[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'CreateMuavaoDto'.
+  [0m [90m 12 |[39m   ) {}[0m
+  [0m [90m 13 |[39m   [36masync[39m create([33mCreateSohoadonDto[39m[33m:[39m [33mCreateSohoadonDto[39m) {[0m
+  [0m[31m[1m>[22m[39m[90m 14 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindSHD([33mCreateMuavaoDto[39m)[0m
+  [0m [90m    |[39m                                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 15 |[39m     [36mif[39m(item)[0m
+  [0m [90m 16 |[39m     {[0m
+  [0m [90m 17 |[39m       [36mreturn[39m [32m"Trùng SHD"[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.service.ts:[32m[1m20:12[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'MuavaoRepository' does not exist on type 'SohoadonService'.
+  [0m [90m 18 |[39m     }[0m
+  [0m [90m 19 |[39m     [36melse[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 20 |[39m       [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39mcreate([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m [90m    |[39m            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 21 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39msave([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m [90m 22 |[39m     }[0m
+  [0m [90m 23 |[39m     [36mthis[39m[33m.[39m[33mSohoadonRepository[39m[33m.[39mcreate([33mCreateSohoadonDto[39m)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.service.ts:[32m[1m20:36[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'CreateMuavaoDto'.
+  [0m [90m 18 |[39m     }[0m
+  [0m [90m 19 |[39m     [36melse[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 20 |[39m       [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39mcreate([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m [90m    |[39m                                    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 21 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39msave([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m [90m 22 |[39m     }[0m
+  [0m [90m 23 |[39m     [36mthis[39m[33m.[39m[33mSohoadonRepository[39m[33m.[39mcreate([33mCreateSohoadonDto[39m)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.service.ts:[32m[1m21:25[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'MuavaoRepository' does not exist on type 'SohoadonService'.
+  [0m [90m 19 |[39m     [36melse[39m {[0m
+  [0m [90m 20 |[39m       [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39mcreate([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 21 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39msave([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m [90m    |[39m                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 22 |[39m     }[0m
+  [0m [90m 23 |[39m     [36mthis[39m[33m.[39m[33mSohoadonRepository[39m[33m.[39mcreate([33mCreateSohoadonDto[39m)[33m;[39m[0m
+  [0m [90m 24 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mSohoadonRepository[39m[33m.[39msave([33mCreateSohoadonDto[39m)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.service.ts:[32m[1m21:47[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'CreateMuavaoDto'.
+  [0m [90m 19 |[39m     [36melse[39m {[0m
+  [0m [90m 20 |[39m       [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39mcreate([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 21 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39msave([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m [90m    |[39m                                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 22 |[39m     }[0m
+  [0m [90m 23 |[39m     [36mthis[39m[33m.[39m[33mSohoadonRepository[39m[33m.[39mcreate([33mCreateSohoadonDto[39m)[33m;[39m[0m
+  [0m [90m 24 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mSohoadonRepository[39m[33m.[39msave([33mCreateSohoadonDto[39m)[33m;[39m[0m
+
+webpack compiled with [1m[31m5 errors[39m[22m (8649d7ffe1d7871d)
+[1m[31mDebugger listening on ws://localhost:9229/0b8756d6-3926-4f99-9461-4c6537cdf24b[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/0b8756d6-3926-4f99-9461-4c6537cdf24b[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 76.7 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.service.ts:[32m[1m14:37[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'CreateMuavaoDto'.
+  [0m [90m 12 |[39m   ) {}[0m
+  [0m [90m 13 |[39m   [36masync[39m create([33mCreateSohoadonDto[39m[33m:[39m [33mCreateSohoadonDto[39m) {[0m
+  [0m[31m[1m>[22m[39m[90m 14 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindSHD([33mCreateMuavaoDto[39m)[0m
+  [0m [90m    |[39m                                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 15 |[39m     [36mif[39m(item)[0m
+  [0m [90m 16 |[39m     {[0m
+  [0m [90m 17 |[39m       [36mreturn[39m [32m"Trùng SHD"[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.service.ts:[32m[1m20:12[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'MuavaoRepository' does not exist on type 'SohoadonService'.
+  [0m [90m 18 |[39m     }[0m
+  [0m [90m 19 |[39m     [36melse[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 20 |[39m       [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39mcreate([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m [90m    |[39m            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 21 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39msave([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m [90m 22 |[39m     }[0m
+  [0m [90m 23 |[39m     [36mthis[39m[33m.[39m[33mSohoadonRepository[39m[33m.[39mcreate([33mCreateSohoadonDto[39m)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.service.ts:[32m[1m20:36[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'CreateMuavaoDto'.
+  [0m [90m 18 |[39m     }[0m
+  [0m [90m 19 |[39m     [36melse[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 20 |[39m       [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39mcreate([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m [90m    |[39m                                    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 21 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39msave([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m [90m 22 |[39m     }[0m
+  [0m [90m 23 |[39m     [36mthis[39m[33m.[39m[33mSohoadonRepository[39m[33m.[39mcreate([33mCreateSohoadonDto[39m)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.service.ts:[32m[1m21:25[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'MuavaoRepository' does not exist on type 'SohoadonService'.
+  [0m [90m 19 |[39m     [36melse[39m {[0m
+  [0m [90m 20 |[39m       [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39mcreate([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 21 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39msave([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m [90m    |[39m                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 22 |[39m     }[0m
+  [0m [90m 23 |[39m     [36mthis[39m[33m.[39m[33mSohoadonRepository[39m[33m.[39mcreate([33mCreateSohoadonDto[39m)[33m;[39m[0m
+  [0m [90m 24 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mSohoadonRepository[39m[33m.[39msave([33mCreateSohoadonDto[39m)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.service.ts:[32m[1m21:47[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'CreateMuavaoDto'.
+  [0m [90m 19 |[39m     [36melse[39m {[0m
+  [0m [90m 20 |[39m       [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39mcreate([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 21 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39msave([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m [90m    |[39m                                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 22 |[39m     }[0m
+  [0m [90m 23 |[39m     [36mthis[39m[33m.[39m[33mSohoadonRepository[39m[33m.[39mcreate([33mCreateSohoadonDto[39m)[33m;[39m[0m
+  [0m [90m 24 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mSohoadonRepository[39m[33m.[39msave([33mCreateSohoadonDto[39m)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.service.ts:[32m[1m32:16[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ SHD: string; }' is not assignable to type 'FindOptionsWhere<SohoadonEntity> | FindOptionsWhere<SohoadonEntity>[]'.
+  Object literal may only specify known properties, and 'SHD' does not exist in type 'FindOptionsWhere<SohoadonEntity> | FindOptionsWhere<SohoadonEntity>[]'.
+  [0m [90m 30 |[39m   [36masync[39m findSHD(id[33m:[39m string) {[0m
+  [0m [90m 31 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mSohoadonRepository[39m[33m.[39mfindOne({[0m
+  [0m[31m[1m>[22m[39m[90m 32 |[39m       where[33m:[39m { [33mSHD[39m[33m:[39m id }[33m,[39m[0m
+  [0m [90m    |[39m                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 33 |[39m[0m
+  [0m [90m 34 |[39m     })[33m;[39m[0m
+  [0m [90m 35 |[39m   }[0m
+
+webpack compiled with [1m[31m6 errors[39m[22m (cb3bd0cf6ecfdece)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 76.7 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.service.ts:[32m[1m14:37[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'CreateMuavaoDto'.
+  [0m [90m 12 |[39m   ) {}[0m
+  [0m [90m 13 |[39m   [36masync[39m create([33mCreateSohoadonDto[39m[33m:[39m [33mCreateSohoadonDto[39m) {[0m
+  [0m[31m[1m>[22m[39m[90m 14 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindSHD([33mCreateMuavaoDto[39m)[0m
+  [0m [90m    |[39m                                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 15 |[39m     [36mif[39m(item)[0m
+  [0m [90m 16 |[39m     {[0m
+  [0m [90m 17 |[39m       [36mreturn[39m [32m"Trùng SHD"[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.service.ts:[32m[1m20:12[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'MuavaoRepository' does not exist on type 'SohoadonService'.
+  [0m [90m 18 |[39m     }[0m
+  [0m [90m 19 |[39m     [36melse[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 20 |[39m       [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39mcreate([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m [90m    |[39m            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 21 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39msave([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m [90m 22 |[39m     }[0m
+  [0m [90m 23 |[39m     [36mthis[39m[33m.[39m[33mSohoadonRepository[39m[33m.[39mcreate([33mCreateSohoadonDto[39m)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.service.ts:[32m[1m20:36[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'CreateMuavaoDto'.
+  [0m [90m 18 |[39m     }[0m
+  [0m [90m 19 |[39m     [36melse[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 20 |[39m       [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39mcreate([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m [90m    |[39m                                    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 21 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39msave([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m [90m 22 |[39m     }[0m
+  [0m [90m 23 |[39m     [36mthis[39m[33m.[39m[33mSohoadonRepository[39m[33m.[39mcreate([33mCreateSohoadonDto[39m)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.service.ts:[32m[1m21:25[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'MuavaoRepository' does not exist on type 'SohoadonService'.
+  [0m [90m 19 |[39m     [36melse[39m {[0m
+  [0m [90m 20 |[39m       [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39mcreate([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 21 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39msave([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m [90m    |[39m                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 22 |[39m     }[0m
+  [0m [90m 23 |[39m     [36mthis[39m[33m.[39m[33mSohoadonRepository[39m[33m.[39mcreate([33mCreateSohoadonDto[39m)[33m;[39m[0m
+  [0m [90m 24 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mSohoadonRepository[39m[33m.[39msave([33mCreateSohoadonDto[39m)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.service.ts:[32m[1m21:47[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'CreateMuavaoDto'.
+  [0m [90m 19 |[39m     [36melse[39m {[0m
+  [0m [90m 20 |[39m       [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39mcreate([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 21 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39msave([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m [90m    |[39m                                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 22 |[39m     }[0m
+  [0m [90m 23 |[39m     [36mthis[39m[33m.[39m[33mSohoadonRepository[39m[33m.[39mcreate([33mCreateSohoadonDto[39m)[33m;[39m[0m
+  [0m [90m 24 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mSohoadonRepository[39m[33m.[39msave([33mCreateSohoadonDto[39m)[33m;[39m[0m
+
+webpack compiled with [1m[31m5 errors[39m[22m (2233ca5c1ef65bfa)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 76.7 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.service.ts:[32m[1m14:37[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'CreateMuavaoDto'.
+  [0m [90m 12 |[39m   ) {}[0m
+  [0m [90m 13 |[39m   [36masync[39m create([33mCreateSohoadonDto[39m[33m:[39m [33mCreateSohoadonDto[39m) {[0m
+  [0m[31m[1m>[22m[39m[90m 14 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindSHD([33mCreateMuavaoDto[39m)[0m
+  [0m [90m    |[39m                                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 15 |[39m     [36mif[39m(item)[0m
+  [0m [90m 16 |[39m     {[0m
+  [0m [90m 17 |[39m       [36mreturn[39m [32m"Trùng SHD"[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.service.ts:[32m[1m20:12[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'MuavaoRepository' does not exist on type 'SohoadonService'.
+  [0m [90m 18 |[39m     }[0m
+  [0m [90m 19 |[39m     [36melse[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 20 |[39m       [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39mcreate([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m [90m    |[39m            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 21 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39msave([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m [90m 22 |[39m     }[0m
+  [0m [90m 23 |[39m     [36mthis[39m[33m.[39m[33mSohoadonRepository[39m[33m.[39mcreate([33mCreateSohoadonDto[39m)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.service.ts:[32m[1m20:36[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'CreateMuavaoDto'.
+  [0m [90m 18 |[39m     }[0m
+  [0m [90m 19 |[39m     [36melse[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 20 |[39m       [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39mcreate([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m [90m    |[39m                                    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 21 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39msave([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m [90m 22 |[39m     }[0m
+  [0m [90m 23 |[39m     [36mthis[39m[33m.[39m[33mSohoadonRepository[39m[33m.[39mcreate([33mCreateSohoadonDto[39m)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.service.ts:[32m[1m21:25[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'MuavaoRepository' does not exist on type 'SohoadonService'.
+  [0m [90m 19 |[39m     [36melse[39m {[0m
+  [0m [90m 20 |[39m       [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39mcreate([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 21 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39msave([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m [90m    |[39m                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 22 |[39m     }[0m
+  [0m [90m 23 |[39m     [36mthis[39m[33m.[39m[33mSohoadonRepository[39m[33m.[39mcreate([33mCreateSohoadonDto[39m)[33m;[39m[0m
+  [0m [90m 24 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mSohoadonRepository[39m[33m.[39msave([33mCreateSohoadonDto[39m)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.service.ts:[32m[1m21:47[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'CreateMuavaoDto'.
+  [0m [90m 19 |[39m     [36melse[39m {[0m
+  [0m [90m 20 |[39m       [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39mcreate([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 21 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39msave([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m [90m    |[39m                                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 22 |[39m     }[0m
+  [0m [90m 23 |[39m     [36mthis[39m[33m.[39m[33mSohoadonRepository[39m[33m.[39mcreate([33mCreateSohoadonDto[39m)[33m;[39m[0m
+  [0m [90m 24 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mSohoadonRepository[39m[33m.[39msave([33mCreateSohoadonDto[39m)[33m;[39m[0m
+
+webpack compiled with [1m[31m5 errors[39m[22m (207423f1c2fb698f)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 76.7 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.service.ts:[32m[1m14:37[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'CreateMuavaoDto'.
+  [0m [90m 12 |[39m   ) {}[0m
+  [0m [90m 13 |[39m   [36masync[39m create([33mCreateSohoadonDto[39m[33m:[39m [33mCreateSohoadonDto[39m) {[0m
+  [0m[31m[1m>[22m[39m[90m 14 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindSHD([33mCreateMuavaoDto[39m)[0m
+  [0m [90m    |[39m                                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 15 |[39m     [36mif[39m(item)[0m
+  [0m [90m 16 |[39m     {[0m
+  [0m [90m 17 |[39m       [36mreturn[39m [32m"Trùng SHD"[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.service.ts:[32m[1m20:12[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'MuavaoRepository' does not exist on type 'SohoadonService'.
+  [0m [90m 18 |[39m     }[0m
+  [0m [90m 19 |[39m     [36melse[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 20 |[39m       [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39mcreate([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m [90m    |[39m            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 21 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39msave([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m [90m 22 |[39m     }[0m
+  [0m [90m 23 |[39m     [36mthis[39m[33m.[39m[33mSohoadonRepository[39m[33m.[39mcreate([33mCreateSohoadonDto[39m)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.service.ts:[32m[1m20:36[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'CreateMuavaoDto'.
+  [0m [90m 18 |[39m     }[0m
+  [0m [90m 19 |[39m     [36melse[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 20 |[39m       [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39mcreate([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m [90m    |[39m                                    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 21 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39msave([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m [90m 22 |[39m     }[0m
+  [0m [90m 23 |[39m     [36mthis[39m[33m.[39m[33mSohoadonRepository[39m[33m.[39mcreate([33mCreateSohoadonDto[39m)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.service.ts:[32m[1m21:25[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'MuavaoRepository' does not exist on type 'SohoadonService'.
+  [0m [90m 19 |[39m     [36melse[39m {[0m
+  [0m [90m 20 |[39m       [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39mcreate([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 21 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39msave([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m [90m    |[39m                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 22 |[39m     }[0m
+  [0m [90m 23 |[39m     [36mthis[39m[33m.[39m[33mSohoadonRepository[39m[33m.[39mcreate([33mCreateSohoadonDto[39m)[33m;[39m[0m
+  [0m [90m 24 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mSohoadonRepository[39m[33m.[39msave([33mCreateSohoadonDto[39m)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.service.ts:[32m[1m21:47[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'CreateMuavaoDto'.
+  [0m [90m 19 |[39m     [36melse[39m {[0m
+  [0m [90m 20 |[39m       [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39mcreate([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 21 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39msave([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m [90m    |[39m                                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 22 |[39m     }[0m
+  [0m [90m 23 |[39m     [36mthis[39m[33m.[39m[33mSohoadonRepository[39m[33m.[39mcreate([33mCreateSohoadonDto[39m)[33m;[39m[0m
+  [0m [90m 24 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mSohoadonRepository[39m[33m.[39msave([33mCreateSohoadonDto[39m)[33m;[39m[0m
+
+webpack compiled with [1m[31m5 errors[39m[22m (514a0af179a54341)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 76.7 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.service.ts:[32m[1m20:12[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'MuavaoRepository' does not exist on type 'SohoadonService'.
+  [0m [90m 18 |[39m     }[0m
+  [0m [90m 19 |[39m     [36melse[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 20 |[39m       [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39mcreate([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m [90m    |[39m            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 21 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39msave([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m [90m 22 |[39m     }[0m
+  [0m [90m 23 |[39m     [36mthis[39m[33m.[39m[33mSohoadonRepository[39m[33m.[39mcreate([33mCreateSohoadonDto[39m)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.service.ts:[32m[1m20:36[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'CreateMuavaoDto'.
+  [0m [90m 18 |[39m     }[0m
+  [0m [90m 19 |[39m     [36melse[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 20 |[39m       [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39mcreate([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m [90m    |[39m                                    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 21 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39msave([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m [90m 22 |[39m     }[0m
+  [0m [90m 23 |[39m     [36mthis[39m[33m.[39m[33mSohoadonRepository[39m[33m.[39mcreate([33mCreateSohoadonDto[39m)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.service.ts:[32m[1m21:25[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'MuavaoRepository' does not exist on type 'SohoadonService'.
+  [0m [90m 19 |[39m     [36melse[39m {[0m
+  [0m [90m 20 |[39m       [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39mcreate([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 21 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39msave([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m [90m    |[39m                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 22 |[39m     }[0m
+  [0m [90m 23 |[39m     [36mthis[39m[33m.[39m[33mSohoadonRepository[39m[33m.[39mcreate([33mCreateSohoadonDto[39m)[33m;[39m[0m
+  [0m [90m 24 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mSohoadonRepository[39m[33m.[39msave([33mCreateSohoadonDto[39m)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.service.ts:[32m[1m21:47[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'CreateMuavaoDto'.
+  [0m [90m 19 |[39m     [36melse[39m {[0m
+  [0m [90m 20 |[39m       [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39mcreate([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 21 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39msave([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m [90m    |[39m                                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 22 |[39m     }[0m
+  [0m [90m 23 |[39m     [36mthis[39m[33m.[39m[33mSohoadonRepository[39m[33m.[39mcreate([33mCreateSohoadonDto[39m)[33m;[39m[0m
+  [0m [90m 24 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mSohoadonRepository[39m[33m.[39msave([33mCreateSohoadonDto[39m)[33m;[39m[0m
+
+webpack compiled with [1m[31m4 errors[39m[22m (70a84bba003f9e50)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 76.7 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.service.ts:[32m[1m20:12[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'MuavaoRepository' does not exist on type 'SohoadonService'.
+  [0m [90m 18 |[39m     }[0m
+  [0m [90m 19 |[39m     [36melse[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 20 |[39m       [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39mcreate([33mCreateSohoadonDto[39m)[33m;[39m[0m
+  [0m [90m    |[39m            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 21 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39msave([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m [90m 22 |[39m     }[0m
+  [0m [90m 23 |[39m     [36mthis[39m[33m.[39m[33mSohoadonRepository[39m[33m.[39mcreate([33mCreateSohoadonDto[39m)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.service.ts:[32m[1m21:25[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'MuavaoRepository' does not exist on type 'SohoadonService'.
+  [0m [90m 19 |[39m     [36melse[39m {[0m
+  [0m [90m 20 |[39m       [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39mcreate([33mCreateSohoadonDto[39m)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 21 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39msave([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m [90m    |[39m                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 22 |[39m     }[0m
+  [0m [90m 23 |[39m     [36mthis[39m[33m.[39m[33mSohoadonRepository[39m[33m.[39mcreate([33mCreateSohoadonDto[39m)[33m;[39m[0m
+  [0m [90m 24 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mSohoadonRepository[39m[33m.[39msave([33mCreateSohoadonDto[39m)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.service.ts:[32m[1m21:47[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'CreateMuavaoDto'.
+  [0m [90m 19 |[39m     [36melse[39m {[0m
+  [0m [90m 20 |[39m       [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39mcreate([33mCreateSohoadonDto[39m)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 21 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39msave([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m [90m    |[39m                                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 22 |[39m     }[0m
+  [0m [90m 23 |[39m     [36mthis[39m[33m.[39m[33mSohoadonRepository[39m[33m.[39mcreate([33mCreateSohoadonDto[39m)[33m;[39m[0m
+  [0m [90m 24 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mSohoadonRepository[39m[33m.[39msave([33mCreateSohoadonDto[39m)[33m;[39m[0m
+
+webpack compiled with [1m[31m3 errors[39m[22m (82b50a3093dc4f01)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 76.7 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.service.ts:[32m[1m20:12[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'MuavaoRepository' does not exist on type 'SohoadonService'.
+  [0m [90m 18 |[39m     }[0m
+  [0m [90m 19 |[39m     [36melse[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 20 |[39m       [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39mcreate([33mCreateSohoadonDto[39m)[33m;[39m[0m
+  [0m [90m    |[39m            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 21 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39msave([33mCreateSohoadonDto[39m)[33m;[39m[0m
+  [0m [90m 22 |[39m     }[0m
+  [0m [90m 23 |[39m     [36mthis[39m[33m.[39m[33mSohoadonRepository[39m[33m.[39mcreate([33mCreateSohoadonDto[39m)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.service.ts:[32m[1m21:25[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'MuavaoRepository' does not exist on type 'SohoadonService'.
+  [0m [90m 19 |[39m     [36melse[39m {[0m
+  [0m [90m 20 |[39m       [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39mcreate([33mCreateSohoadonDto[39m)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 21 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39msave([33mCreateSohoadonDto[39m)[33m;[39m[0m
+  [0m [90m    |[39m                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 22 |[39m     }[0m
+  [0m [90m 23 |[39m     [36mthis[39m[33m.[39m[33mSohoadonRepository[39m[33m.[39mcreate([33mCreateSohoadonDto[39m)[33m;[39m[0m
+  [0m [90m 24 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mSohoadonRepository[39m[33m.[39msave([33mCreateSohoadonDto[39m)[33m;[39m[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (b1efc56187618f45)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 76.7 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (b9f323d748fdf8db)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 76.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (059c6f7b275ae31c)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 76.6 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (059c6f7b275ae31c)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 76.6 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (059c6f7b275ae31c)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 76.6 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (059c6f7b275ae31c)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 76.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (9e7306e1f0c7ee3d)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 76.6 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (9e7306e1f0c7ee3d)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 76.6 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (9e7306e1f0c7ee3d)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m

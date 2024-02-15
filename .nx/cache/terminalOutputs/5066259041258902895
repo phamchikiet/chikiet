@@ -1,0 +1,52 @@
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 60.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (651f2d8274b2e279)
+[1m[31mDebugger listening on ws://localhost:9229/28d949c8-fbee-4f65-8edf-ee6142b2d256[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/28d949c8-fbee-4f65-8edf-ee6142b2d256[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 60.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.service.ts:[32m[1m59:5[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'er'.
+  [0m [90m 57 |[39m     [36mconst[39m startDate [33m=[39m [36mnew[39m [33mDate[39m(begin)[33m;[39m[0m
+  [0m [90m 58 |[39m     [36mconst[39m endDate [33m=[39m [36mnew[39m [33mDate[39m(end)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 59 |[39m     er[0m
+  [0m [90m    |[39m     [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 60 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39mfind({[0m
+  [0m [90m 61 |[39m       where[33m:[39m  {[0m
+  [0m [90m 62 |[39m         [33mNgaytao[39m[33m:[39m [33mBetween[39m(startDate[33m,[39m endDate)[33m,[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (dd4bbe3e8606bed0)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 60.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (33a185cdeea3dee9)
+[1m[31mDebugger listening on ws://localhost:9229/59b8a862-2294-4e02-9da4-26479f581729[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/59b8a862-2294-4e02-9da4-26479f581729[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 60.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (f9c4c80469ad844a)
+[1m[31mDebugger listening on ws://localhost:9229/26886850-f02b-495d-88d8-5d6327851582[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/26886850-f02b-495d-88d8-5d6327851582[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 60.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (9405c4993d970d38)
+[1m[31mDebugger listening on ws://localhost:9229/38ea3f4f-fa81-4b09-b647-95f7826c5639[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/38ea3f4f-fa81-4b09-b647-95f7826c5639[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 60.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (bd603b3ef69cd187)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 60.3 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (bd603b3ef69cd187)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 60.3 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (bd603b3ef69cd187)
+[1m[31mDebugger listening on ws://localhost:9229/a8ef6098-2d1e-4d1a-a655-e7b22b29fd8b[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/a8ef6098-2d1e-4d1a-a655-e7b22b29fd8b[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31m2023-01-01T00:00:00.000Z[39m[22m
+[1m[31m[39m[22m
+[1m[31m2023-01-31T00:00:00.000Z[39m[22m
+[1m[31m[39m[22m

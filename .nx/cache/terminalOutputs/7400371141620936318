@@ -1,0 +1,1033 @@
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 60.4 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (5b827897567a3b2e)
+[1m[31mDebugger listening on ws://localhost:9229/7eb4ce60-d445-4402-aa1e-a7c69105f957[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/7eb4ce60-d445-4402-aa1e-a7c69105f957[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31mDebugger attached.[39m[22m
+[1m[31m[39m[22m
+[1m[31mDebugger ending on ws://localhost:9229/7eb4ce60-d445-4402-aa1e-a7c69105f957[39m[22m
+[1m[31mDebugger ending on ws://localhost:9229/7eb4ce60-d445-4402-aa1e-a7c69105f957[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 65.5 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (6c5c21619e56771b)
+[1m[31mDebugger listening on ws://localhost:9229/bcde77c5-491e-47ad-9251-b99ccc9fb865[39m[22m
+[1m[31m[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/bcde77c5-491e-47ad-9251-b99ccc9fb865[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 65.5 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (6c5c21619e56771b)
+[1m[31mDebugger listening on ws://localhost:9229/a9421a6a-fa7b-4c3c-8491-ab0824f18e86[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/a9421a6a-fa7b-4c3c-8491-ab0824f18e86[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 70.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (adf108768ba43662)
+[1m[31mDebugger listening on ws://localhost:9229/c06239e2-d946-4968-aa6d-7ed892260f4f[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/c06239e2-d946-4968-aa6d-7ed892260f4f[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 70.6 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (adf108768ba43662)
+[1m[31mDebugger listening on ws://localhost:9229/898ca4aa-e953-4864-bb87-2c1424072f9a[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/898ca4aa-e953-4864-bb87-2c1424072f9a[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 70.6 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (adf108768ba43662)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 70.6 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (adf108768ba43662)
+[1m[31mDebugger listening on ws://localhost:9229/440601cd-cc4a-47a2-a7af-9ba5bb645e17[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/440601cd-cc4a-47a2-a7af-9ba5bb645e17[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 69.8 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.controller.ts:[32m[1m2:33[22m[39m[1m[39m[22m
+[90mTS2306: [39mFile 'F:/chikiet/BEKetoan/be_ketoan/src/app/sohoadon/sohoadon.service.ts' is not a module.
+  [0m [90m 1 |[39m [36mimport[39m { [33mController[39m[33m,[39m [33mGet[39m[33m,[39m [33mPost[39m[33m,[39m [33mBody[39m[33m,[39m [33mPatch[39m[33m,[39m [33mParam[39m[33m,[39m [33mDelete[39m } [36mfrom[39m [32m'@nestjs/common'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 2 |[39m [36mimport[39m { [33mSohoadonService[39m } [36mfrom[39m [32m'./sohoadon.service'[39m[33m;[39m[0m
+  [0m [90m   |[39m                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m { [33mCreateSohoadonDto[39m } [36mfrom[39m [32m'./dto/create-sohoadon.dto'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mUpdateSohoadonDto[39m } [36mfrom[39m [32m'./dto/update-sohoadon.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.module.ts:[32m[1m2:33[22m[39m[1m[39m[22m
+[90mTS2306: [39mFile 'F:/chikiet/BEKetoan/be_ketoan/src/app/sohoadon/sohoadon.service.ts' is not a module.
+  [0m [90m 1 |[39m [36mimport[39m { [33mModule[39m } [36mfrom[39m [32m'@nestjs/common'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 2 |[39m [36mimport[39m { [33mSohoadonService[39m } [36mfrom[39m [32m'./sohoadon.service'[39m[33m;[39m[0m
+  [0m [90m   |[39m                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m { [33mSohoadonController[39m } [36mfrom[39m [32m'./sohoadon.controller'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m[0m
+  [0m [90m 5 |[39m [33m@[39m[33mModule[39m({[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.service.ts[39m[22m
+[90mTS2304: [39mCannot find name 'k_'.
+
+webpack compiled with [1m[31m3 errors[39m[22m (bc058bd4c6427990)
+[1m[31mDebugger listening on ws://localhost:9229/fe12fe54-3a19-4c27-ac17-47b35246bccf[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/fe12fe54-3a19-4c27-ac17-47b35246bccf[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mF:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\sohoadon\sohoadon.service.ts:1[39m[22m
+[1m[31mk_[39m[22m
+[1m[31m^[39m[22m
+[1m[31m[39m[22m
+[1m[31mReferenceError: k_ is not defined[39m[22m
+[1m[31m    at Array.Object.defineProperty.value (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\sohoadon\sohoadon.service.ts:1:1)[39m[22m
+[1m[31m    at __webpack_require__ (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\webpack\bootstrap:19:1)[39m[22m
+[1m[31m    at Array.Object.defineProperty.value (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\sohoadon\sohoadon.module.ts:2:1)[39m[22m
+[1m[31m    at __webpack_require__ (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\webpack\bootstrap:19:1)[39m[22m
+[1m[31m    at Array.<anonymous> (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\app.module.ts:10:1)[39m[22m
+[1m[31m    at __webpack_require__ (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\webpack\bootstrap:19:1)[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\main.ts:9:1[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\dist\be_ketoan\main.js:2033:3[39m[22m
+[1m[31m    at Object.<anonymous> (F:\chikiet\BEKetoan\dist\be_ketoan\main.js:2035:12)[39m[22m
+[1m[31m    at Module._compile (node:internal/modules/cjs/loader:1376:14)[39m[22m
+[1m[31m[39m[22m
+
+[36m>[39m [7m[1m[36m NX [39m[22m[27m [1mProcess exited with code 1, waiting for changes to restart...[22m
+
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 72.7 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/sohoadon/sohoadon.service.ts[39m[22m [1m[32m9:24-59[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './entities/dichvu.entity' in 'F:\chikiet\BEKetoan\be_ketoan\src\app\sohoadon'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.controller.ts:[32m[1m2:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./sohoadon.service"' has no exported member 'SohoadonService'.
+  [0m [90m 1 |[39m [36mimport[39m { [33mController[39m[33m,[39m [33mGet[39m[33m,[39m [33mPost[39m[33m,[39m [33mBody[39m[33m,[39m [33mPatch[39m[33m,[39m [33mParam[39m[33m,[39m [33mDelete[39m } [36mfrom[39m [32m'@nestjs/common'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 2 |[39m [36mimport[39m { [33mSohoadonService[39m } [36mfrom[39m [32m'./sohoadon.service'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m { [33mCreateSohoadonDto[39m } [36mfrom[39m [32m'./dto/create-sohoadon.dto'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mUpdateSohoadonDto[39m } [36mfrom[39m [32m'./dto/update-sohoadon.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.module.ts:[32m[1m2:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./sohoadon.service"' has no exported member 'SohoadonService'.
+  [0m [90m 1 |[39m [36mimport[39m { [33mModule[39m } [36mfrom[39m [32m'@nestjs/common'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 2 |[39m [36mimport[39m { [33mSohoadonService[39m } [36mfrom[39m [32m'./sohoadon.service'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m { [33mSohoadonController[39m } [36mfrom[39m [32m'./sohoadon.controller'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m[0m
+  [0m [90m 5 |[39m [33m@[39m[33mModule[39m({[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.service.ts:[32m[1m4:33[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './dto/create-dichvu.dto' or its corresponding type declarations.
+  [0m [90m 2 |[39m [36mimport[39m { [33mInjectRepository[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m { [33mLike[39m[33m,[39m [33mRepository[39m } [36mfrom[39m [32m'typeorm'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 4 |[39m [36mimport[39m { [33mCreateDichvuDto[39m } [36mfrom[39m [32m'./dto/create-dichvu.dto'[39m[33m;[39m[0m
+  [0m [90m   |[39m                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mUpdateDichvuDto[39m } [36mfrom[39m [32m'./dto/update-dichvu.dto'[39m[33m;[39m[0m
+  [0m [90m 6 |[39m [36mimport[39m { [33mDichvuEntity[39m } [36mfrom[39m [32m'./entities/dichvu.entity'[39m[33m;[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.service.ts:[32m[1m5:33[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './dto/update-dichvu.dto' or its corresponding type declarations.
+  [0m [90m 3 |[39m [36mimport[39m { [33mLike[39m[33m,[39m [33mRepository[39m } [36mfrom[39m [32m'typeorm'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mCreateDichvuDto[39m } [36mfrom[39m [32m'./dto/create-dichvu.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mUpdateDichvuDto[39m } [36mfrom[39m [32m'./dto/update-dichvu.dto'[39m[33m;[39m[0m
+  [0m [90m   |[39m                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 6 |[39m [36mimport[39m { [33mDichvuEntity[39m } [36mfrom[39m [32m'./entities/dichvu.entity'[39m[33m;[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 8 |[39m [36mexport[39m [36mclass[39m [33mDichvuService[39m {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.service.ts:[32m[1m6:30[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './entities/dichvu.entity' or its corresponding type declarations.
+  [0m [90m 4 |[39m [36mimport[39m { [33mCreateDichvuDto[39m } [36mfrom[39m [32m'./dto/create-dichvu.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mUpdateDichvuDto[39m } [36mfrom[39m [32m'./dto/update-dichvu.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mDichvuEntity[39m } [36mfrom[39m [32m'./entities/dichvu.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m                              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 8 |[39m [36mexport[39m [36mclass[39m [33mDichvuService[39m {[0m
+  [0m [90m 9 |[39m   constructor([0m
+
+webpack compiled with [1m[31m6 errors[39m[22m (0df5e4adc9b7b98c)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 72.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.controller.ts:[32m[1m22:33[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findOne' does not exist on type 'SohoadonService'.
+  [0m [90m 20 |[39m   [33m@[39m[33mGet[39m([32m':id'[39m)[0m
+  [0m [90m 21 |[39m   findOne([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 22 |[39m     [36mreturn[39m [36mthis[39m[33m.[39msohoadonService[33m.[39mfindOne([33m+[39mid)[33m;[39m[0m
+  [0m [90m    |[39m                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 23 |[39m   }[0m
+  [0m [90m 24 |[39m[0m
+  [0m [90m 25 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.controller.ts:[32m[1m27:40[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'number' is not assignable to parameter of type 'string'.
+  [0m [90m 25 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+  [0m [90m 26 |[39m   update([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string[33m,[39m [33m@[39m[33mBody[39m() updateSohoadonDto[33m:[39m [33mUpdateSohoadonDto[39m) {[0m
+  [0m[31m[1m>[22m[39m[90m 27 |[39m     [36mreturn[39m [36mthis[39m[33m.[39msohoadonService[33m.[39mupdate([33m+[39mid[33m,[39m updateSohoadonDto)[33m;[39m[0m
+  [0m [90m    |[39m                                        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 28 |[39m   }[0m
+  [0m [90m 29 |[39m[0m
+  [0m [90m 30 |[39m   [33m@[39m[33mDelete[39m([32m':id'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.controller.ts:[32m[1m32:40[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'number' is not assignable to parameter of type 'string'.
+  [0m [90m 30 |[39m   [33m@[39m[33mDelete[39m([32m':id'[39m)[0m
+  [0m [90m 31 |[39m   remove([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 32 |[39m     [36mreturn[39m [36mthis[39m[33m.[39msohoadonService[33m.[39mremove([33m+[39mid)[33m;[39m[0m
+  [0m [90m    |[39m                                        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 33 |[39m   }[0m
+  [0m [90m 34 |[39m }[0m
+  [0m [90m 35 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.service.ts:[32m[1m6:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./entities/sohoadon.entity"' has no exported member 'SohoadonEntity'.
+  [0m [90m 4 |[39m [36mimport[39m { [33mCreateSohoadonDto[39m } [36mfrom[39m [32m'./dto/create-sohoadon.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mUpdateSohoadonDto[39m } [36mfrom[39m [32m'./dto/update-sohoadon.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mSohoadonEntity[39m } [36mfrom[39m [32m'./entities/sohoadon.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 8 |[39m [36mexport[39m [36mclass[39m [33mSohoadonService[39m {[0m
+  [0m [90m 9 |[39m   constructor([0m
+
+webpack compiled with [1m[31m4 errors[39m[22m (0bc9b2ac66185a99)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 72.9 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.controller.ts:[32m[1m22:33[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findOne' does not exist on type 'SohoadonService'.
+  [0m [90m 20 |[39m   [33m@[39m[33mGet[39m([32m':id'[39m)[0m
+  [0m [90m 21 |[39m   findOne([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 22 |[39m     [36mreturn[39m [36mthis[39m[33m.[39msohoadonService[33m.[39mfindOne([33m+[39mid)[33m;[39m[0m
+  [0m [90m    |[39m                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 23 |[39m   }[0m
+  [0m [90m 24 |[39m[0m
+  [0m [90m 25 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.controller.ts:[32m[1m27:40[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'number' is not assignable to parameter of type 'string'.
+  [0m [90m 25 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+  [0m [90m 26 |[39m   update([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string[33m,[39m [33m@[39m[33mBody[39m() updateSohoadonDto[33m:[39m [33mUpdateSohoadonDto[39m) {[0m
+  [0m[31m[1m>[22m[39m[90m 27 |[39m     [36mreturn[39m [36mthis[39m[33m.[39msohoadonService[33m.[39mupdate([33m+[39mid[33m,[39m updateSohoadonDto)[33m;[39m[0m
+  [0m [90m    |[39m                                        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 28 |[39m   }[0m
+  [0m [90m 29 |[39m[0m
+  [0m [90m 30 |[39m   [33m@[39m[33mDelete[39m([32m':id'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.controller.ts:[32m[1m32:40[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'number' is not assignable to parameter of type 'string'.
+  [0m [90m 30 |[39m   [33m@[39m[33mDelete[39m([32m':id'[39m)[0m
+  [0m [90m 31 |[39m   remove([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 32 |[39m     [36mreturn[39m [36mthis[39m[33m.[39msohoadonService[33m.[39mremove([33m+[39mid)[33m;[39m[0m
+  [0m [90m    |[39m                                        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 33 |[39m   }[0m
+  [0m [90m 34 |[39m }[0m
+  [0m [90m 35 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.service.ts:[32m[1m6:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./entities/sohoadon.entity"' has no exported member 'SohoadonEntity'.
+  [0m [90m 4 |[39m [36mimport[39m { [33mCreateSohoadonDto[39m } [36mfrom[39m [32m'./dto/create-sohoadon.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mUpdateSohoadonDto[39m } [36mfrom[39m [32m'./dto/update-sohoadon.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mSohoadonEntity[39m } [36mfrom[39m [32m'./entities/sohoadon.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 8 |[39m [36mexport[39m [36mclass[39m [33mSohoadonService[39m {[0m
+  [0m [90m 9 |[39m   constructor([0m
+
+webpack compiled with [1m[31m4 errors[39m[22m (0bc9b2ac66185a99)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 65.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/app.module.ts:[32m[1m10:32[22m[39m[1m[39m[22m
+[90mTS2306: [39mFile 'F:/chikiet/BEKetoan/be_ketoan/src/app/sohoadon/sohoadon.module.ts' is not a module.
+  [0m [90m  8 |[39m [36mimport[39m { [33mMuavaochitietModule[39m } [36mfrom[39m [32m'./muavaochitiet/muavaochitiet.module'[39m[33m;[39m[0m
+  [0m [90m  9 |[39m [36mimport[39m { [33mCauhinhModule[39m } [36mfrom[39m [32m'./cauhinh/cauhinh.module'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 10 |[39m [36mimport[39m { [33mSohoadonModule[39m } [36mfrom[39m [32m'./sohoadon/sohoadon.module'[39m[33m;[39m[0m
+  [0m [90m    |[39m                                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 11 |[39m [36mimport[39m { [33mChitietModule[39m } [36mfrom[39m [32m'./chitiet/chitiet.module'[39m[33m;[39m[0m
+  [0m [90m 12 |[39m[0m
+  [0m [90m 13 |[39m [33m@[39m[33mModule[39m({[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.module.ts[39m[22m
+[90mTS2304: [39mCannot find name 'k_apo'.
+
+webpack compiled with [1m[31m2 errors[39m[22m (b1baf7f07f8407e9)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 68.4 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/sohoadon/sohoadon.module.ts[39m[22m [1m[32m9:24-59[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './entities/dichvu.entity' in 'F:\chikiet\BEKetoan\be_ketoan\src\app\sohoadon'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/app.module.ts:[32m[1m10:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./sohoadon/sohoadon.module"' has no exported member 'SohoadonModule'.
+  [0m [90m  8 |[39m [36mimport[39m { [33mMuavaochitietModule[39m } [36mfrom[39m [32m'./muavaochitiet/muavaochitiet.module'[39m[33m;[39m[0m
+  [0m [90m  9 |[39m [36mimport[39m { [33mCauhinhModule[39m } [36mfrom[39m [32m'./cauhinh/cauhinh.module'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 10 |[39m [36mimport[39m { [33mSohoadonModule[39m } [36mfrom[39m [32m'./sohoadon/sohoadon.module'[39m[33m;[39m[0m
+  [0m [90m    |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 11 |[39m [36mimport[39m { [33mChitietModule[39m } [36mfrom[39m [32m'./chitiet/chitiet.module'[39m[33m;[39m[0m
+  [0m [90m 12 |[39m[0m
+  [0m [90m 13 |[39m [33m@[39m[33mModule[39m({[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.module.ts:[32m[1m4:33[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './dto/create-dichvu.dto' or its corresponding type declarations.
+  [0m [90m 2 |[39m [36mimport[39m { [33mInjectRepository[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m { [33mLike[39m[33m,[39m [33mRepository[39m } [36mfrom[39m [32m'typeorm'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 4 |[39m [36mimport[39m { [33mCreateDichvuDto[39m } [36mfrom[39m [32m'./dto/create-dichvu.dto'[39m[33m;[39m[0m
+  [0m [90m   |[39m                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mUpdateDichvuDto[39m } [36mfrom[39m [32m'./dto/update-dichvu.dto'[39m[33m;[39m[0m
+  [0m [90m 6 |[39m [36mimport[39m { [33mDichvuEntity[39m } [36mfrom[39m [32m'./entities/dichvu.entity'[39m[33m;[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.module.ts:[32m[1m5:33[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './dto/update-dichvu.dto' or its corresponding type declarations.
+  [0m [90m 3 |[39m [36mimport[39m { [33mLike[39m[33m,[39m [33mRepository[39m } [36mfrom[39m [32m'typeorm'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mCreateDichvuDto[39m } [36mfrom[39m [32m'./dto/create-dichvu.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mUpdateDichvuDto[39m } [36mfrom[39m [32m'./dto/update-dichvu.dto'[39m[33m;[39m[0m
+  [0m [90m   |[39m                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 6 |[39m [36mimport[39m { [33mDichvuEntity[39m } [36mfrom[39m [32m'./entities/dichvu.entity'[39m[33m;[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 8 |[39m [36mexport[39m [36mclass[39m [33mDichvuService[39m {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.module.ts:[32m[1m6:30[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './entities/dichvu.entity' or its corresponding type declarations.
+  [0m [90m 4 |[39m [36mimport[39m { [33mCreateDichvuDto[39m } [36mfrom[39m [32m'./dto/create-dichvu.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mUpdateDichvuDto[39m } [36mfrom[39m [32m'./dto/update-dichvu.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mDichvuEntity[39m } [36mfrom[39m [32m'./entities/dichvu.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m                              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 8 |[39m [36mexport[39m [36mclass[39m [33mDichvuService[39m {[0m
+  [0m [90m 9 |[39m   constructor([0m
+
+webpack compiled with [1m[31m5 errors[39m[22m (16b66afe406f0a23)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 68.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/app.module.ts:[32m[1m10:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./sohoadon/sohoadon.module"' has no exported member 'SohoadonModule'.
+  [0m [90m  8 |[39m [36mimport[39m { [33mMuavaochitietModule[39m } [36mfrom[39m [32m'./muavaochitiet/muavaochitiet.module'[39m[33m;[39m[0m
+  [0m [90m  9 |[39m [36mimport[39m { [33mCauhinhModule[39m } [36mfrom[39m [32m'./cauhinh/cauhinh.module'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 10 |[39m [36mimport[39m { [33mSohoadonModule[39m } [36mfrom[39m [32m'./sohoadon/sohoadon.module'[39m[33m;[39m[0m
+  [0m [90m    |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 11 |[39m [36mimport[39m { [33mChitietModule[39m } [36mfrom[39m [32m'./chitiet/chitiet.module'[39m[33m;[39m[0m
+  [0m [90m 12 |[39m[0m
+  [0m [90m 13 |[39m [33m@[39m[33mModule[39m({[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.module.ts:[32m[1m6:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./entities/sohoadon.entity"' has no exported member 'SohoadonEntity'.
+  [0m [90m 4 |[39m [36mimport[39m { [33mCreateSohoadonDto[39m } [36mfrom[39m [32m'./dto/create-sohoadon.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mUpdateSohoadonDto[39m } [36mfrom[39m [32m'./dto/update-sohoadon.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mSohoadonEntity[39m } [36mfrom[39m [32m'./entities/sohoadon.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 8 |[39m [36mexport[39m [36mclass[39m [33mSohoadonService[39m {[0m
+  [0m [90m 9 |[39m   constructor([0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (84afc555d805f399)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 68.6 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/app.module.ts:[32m[1m10:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./sohoadon/sohoadon.module"' has no exported member 'SohoadonModule'.
+  [0m [90m  8 |[39m [36mimport[39m { [33mMuavaochitietModule[39m } [36mfrom[39m [32m'./muavaochitiet/muavaochitiet.module'[39m[33m;[39m[0m
+  [0m [90m  9 |[39m [36mimport[39m { [33mCauhinhModule[39m } [36mfrom[39m [32m'./cauhinh/cauhinh.module'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 10 |[39m [36mimport[39m { [33mSohoadonModule[39m } [36mfrom[39m [32m'./sohoadon/sohoadon.module'[39m[33m;[39m[0m
+  [0m [90m    |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 11 |[39m [36mimport[39m { [33mChitietModule[39m } [36mfrom[39m [32m'./chitiet/chitiet.module'[39m[33m;[39m[0m
+  [0m [90m 12 |[39m[0m
+  [0m [90m 13 |[39m [33m@[39m[33mModule[39m({[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.module.ts:[32m[1m6:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./entities/sohoadon.entity"' has no exported member 'SohoadonEntity'.
+  [0m [90m 4 |[39m [36mimport[39m { [33mCreateSohoadonDto[39m } [36mfrom[39m [32m'./dto/create-sohoadon.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mUpdateSohoadonDto[39m } [36mfrom[39m [32m'./dto/update-sohoadon.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mSohoadonEntity[39m } [36mfrom[39m [32m'./entities/sohoadon.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 8 |[39m [36mexport[39m [36mclass[39m [33mSohoadonService[39m {[0m
+  [0m [90m 9 |[39m   constructor([0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (84afc555d805f399)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 68.6 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/app.module.ts:[32m[1m10:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./sohoadon/sohoadon.module"' has no exported member 'SohoadonModule'.
+  [0m [90m  8 |[39m [36mimport[39m { [33mMuavaochitietModule[39m } [36mfrom[39m [32m'./muavaochitiet/muavaochitiet.module'[39m[33m;[39m[0m
+  [0m [90m  9 |[39m [36mimport[39m { [33mCauhinhModule[39m } [36mfrom[39m [32m'./cauhinh/cauhinh.module'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 10 |[39m [36mimport[39m { [33mSohoadonModule[39m } [36mfrom[39m [32m'./sohoadon/sohoadon.module'[39m[33m;[39m[0m
+  [0m [90m    |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 11 |[39m [36mimport[39m { [33mChitietModule[39m } [36mfrom[39m [32m'./chitiet/chitiet.module'[39m[33m;[39m[0m
+  [0m [90m 12 |[39m[0m
+  [0m [90m 13 |[39m [33m@[39m[33mModule[39m({[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.module.ts:[32m[1m6:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./entities/sohoadon.entity"' has no exported member 'SohoadonEntity'.
+  [0m [90m 4 |[39m [36mimport[39m { [33mCreateSohoadonDto[39m } [36mfrom[39m [32m'./dto/create-sohoadon.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mUpdateSohoadonDto[39m } [36mfrom[39m [32m'./dto/update-sohoadon.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mSohoadonEntity[39m } [36mfrom[39m [32m'./entities/sohoadon.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 8 |[39m [36mexport[39m [36mclass[39m [33mSohoadonService[39m {[0m
+  [0m [90m 9 |[39m   constructor([0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (84afc555d805f399)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 68.6 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/app.module.ts:[32m[1m10:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./sohoadon/sohoadon.module"' has no exported member 'SohoadonModule'.
+  [0m [90m  8 |[39m [36mimport[39m { [33mMuavaochitietModule[39m } [36mfrom[39m [32m'./muavaochitiet/muavaochitiet.module'[39m[33m;[39m[0m
+  [0m [90m  9 |[39m [36mimport[39m { [33mCauhinhModule[39m } [36mfrom[39m [32m'./cauhinh/cauhinh.module'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 10 |[39m [36mimport[39m { [33mSohoadonModule[39m } [36mfrom[39m [32m'./sohoadon/sohoadon.module'[39m[33m;[39m[0m
+  [0m [90m    |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 11 |[39m [36mimport[39m { [33mChitietModule[39m } [36mfrom[39m [32m'./chitiet/chitiet.module'[39m[33m;[39m[0m
+  [0m [90m 12 |[39m[0m
+  [0m [90m 13 |[39m [33m@[39m[33mModule[39m({[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.module.ts:[32m[1m6:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./entities/sohoadon.entity"' has no exported member 'SohoadonEntity'.
+  [0m [90m 4 |[39m [36mimport[39m { [33mCreateSohoadonDto[39m } [36mfrom[39m [32m'./dto/create-sohoadon.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mUpdateSohoadonDto[39m } [36mfrom[39m [32m'./dto/update-sohoadon.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mSohoadonEntity[39m } [36mfrom[39m [32m'./entities/sohoadon.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 8 |[39m [36mexport[39m [36mclass[39m [33mSohoadonService[39m {[0m
+  [0m [90m 9 |[39m   constructor([0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (84afc555d805f399)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 68.6 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/app.module.ts:[32m[1m10:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./sohoadon/sohoadon.module"' has no exported member 'SohoadonModule'.
+  [0m [90m  8 |[39m [36mimport[39m { [33mMuavaochitietModule[39m } [36mfrom[39m [32m'./muavaochitiet/muavaochitiet.module'[39m[33m;[39m[0m
+  [0m [90m  9 |[39m [36mimport[39m { [33mCauhinhModule[39m } [36mfrom[39m [32m'./cauhinh/cauhinh.module'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 10 |[39m [36mimport[39m { [33mSohoadonModule[39m } [36mfrom[39m [32m'./sohoadon/sohoadon.module'[39m[33m;[39m[0m
+  [0m [90m    |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 11 |[39m [36mimport[39m { [33mChitietModule[39m } [36mfrom[39m [32m'./chitiet/chitiet.module'[39m[33m;[39m[0m
+  [0m [90m 12 |[39m[0m
+  [0m [90m 13 |[39m [33m@[39m[33mModule[39m({[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.module.ts:[32m[1m6:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./entities/sohoadon.entity"' has no exported member 'SohoadonEntity'.
+  [0m [90m 4 |[39m [36mimport[39m { [33mCreateSohoadonDto[39m } [36mfrom[39m [32m'./dto/create-sohoadon.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mUpdateSohoadonDto[39m } [36mfrom[39m [32m'./dto/update-sohoadon.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mSohoadonEntity[39m } [36mfrom[39m [32m'./entities/sohoadon.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 8 |[39m [36mexport[39m [36mclass[39m [33mSohoadonService[39m {[0m
+  [0m [90m 9 |[39m   constructor([0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (84afc555d805f399)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 68.5 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/app.module.ts:[32m[1m10:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./sohoadon/sohoadon.module"' has no exported member 'SohoadonModule'.
+  [0m [90m  8 |[39m [36mimport[39m { [33mMuavaochitietModule[39m } [36mfrom[39m [32m'./muavaochitiet/muavaochitiet.module'[39m[33m;[39m[0m
+  [0m [90m  9 |[39m [36mimport[39m { [33mCauhinhModule[39m } [36mfrom[39m [32m'./cauhinh/cauhinh.module'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 10 |[39m [36mimport[39m { [33mSohoadonModule[39m } [36mfrom[39m [32m'./sohoadon/sohoadon.module'[39m[33m;[39m[0m
+  [0m [90m    |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 11 |[39m [36mimport[39m { [33mChitietModule[39m } [36mfrom[39m [32m'./chitiet/chitiet.module'[39m[33m;[39m[0m
+  [0m [90m 12 |[39m[0m
+  [0m [90m 13 |[39m [33m@[39m[33mModule[39m({[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/entities/sohoadon.entity.ts[39m[22m
+[90mTS2304: [39mCannot find name 'k_'.
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.module.ts:[32m[1m6:32[22m[39m[1m[39m[22m
+[90mTS2306: [39mFile 'F:/chikiet/BEKetoan/be_ketoan/src/app/sohoadon/entities/sohoadon.entity.ts' is not a module.
+  [0m [90m 4 |[39m [36mimport[39m { [33mCreateSohoadonDto[39m } [36mfrom[39m [32m'./dto/create-sohoadon.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mUpdateSohoadonDto[39m } [36mfrom[39m [32m'./dto/update-sohoadon.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mSohoadonEntity[39m } [36mfrom[39m [32m'./entities/sohoadon.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m                                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 8 |[39m [36mexport[39m [36mclass[39m [33mSohoadonService[39m {[0m
+  [0m [90m 9 |[39m   constructor([0m
+
+webpack compiled with [1m[31m3 errors[39m[22m (5267e57727544919)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 68.5 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/app.module.ts:[32m[1m10:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./sohoadon/sohoadon.module"' has no exported member 'SohoadonModule'.
+  [0m [90m  8 |[39m [36mimport[39m { [33mMuavaochitietModule[39m } [36mfrom[39m [32m'./muavaochitiet/muavaochitiet.module'[39m[33m;[39m[0m
+  [0m [90m  9 |[39m [36mimport[39m { [33mCauhinhModule[39m } [36mfrom[39m [32m'./cauhinh/cauhinh.module'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 10 |[39m [36mimport[39m { [33mSohoadonModule[39m } [36mfrom[39m [32m'./sohoadon/sohoadon.module'[39m[33m;[39m[0m
+  [0m [90m    |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 11 |[39m [36mimport[39m { [33mChitietModule[39m } [36mfrom[39m [32m'./chitiet/chitiet.module'[39m[33m;[39m[0m
+  [0m [90m 12 |[39m[0m
+  [0m [90m 13 |[39m [33m@[39m[33mModule[39m({[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/entities/sohoadon.entity.ts[39m[22m
+[90mTS2304: [39mCannot find name 'k_e'.
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.module.ts:[32m[1m6:32[22m[39m[1m[39m[22m
+[90mTS2306: [39mFile 'F:/chikiet/BEKetoan/be_ketoan/src/app/sohoadon/entities/sohoadon.entity.ts' is not a module.
+  [0m [90m 4 |[39m [36mimport[39m { [33mCreateSohoadonDto[39m } [36mfrom[39m [32m'./dto/create-sohoadon.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mUpdateSohoadonDto[39m } [36mfrom[39m [32m'./dto/update-sohoadon.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mSohoadonEntity[39m } [36mfrom[39m [32m'./entities/sohoadon.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m                                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 8 |[39m [36mexport[39m [36mclass[39m [33mSohoadonService[39m {[0m
+  [0m [90m 9 |[39m   constructor([0m
+
+webpack compiled with [1m[31m3 errors[39m[22m (9f80ef9be2b627a5)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 71.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/app.module.ts:[32m[1m10:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./sohoadon/sohoadon.module"' has no exported member 'SohoadonModule'.
+  [0m [90m  8 |[39m [36mimport[39m { [33mMuavaochitietModule[39m } [36mfrom[39m [32m'./muavaochitiet/muavaochitiet.module'[39m[33m;[39m[0m
+  [0m [90m  9 |[39m [36mimport[39m { [33mCauhinhModule[39m } [36mfrom[39m [32m'./cauhinh/cauhinh.module'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 10 |[39m [36mimport[39m { [33mSohoadonModule[39m } [36mfrom[39m [32m'./sohoadon/sohoadon.module'[39m[33m;[39m[0m
+  [0m [90m    |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 11 |[39m [36mimport[39m { [33mChitietModule[39m } [36mfrom[39m [32m'./chitiet/chitiet.module'[39m[33m;[39m[0m
+  [0m [90m 12 |[39m[0m
+  [0m [90m 13 |[39m [33m@[39m[33mModule[39m({[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.module.ts:[32m[1m6:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./entities/sohoadon.entity"' has no exported member 'SohoadonEntity'.
+  [0m [90m 4 |[39m [36mimport[39m { [33mCreateSohoadonDto[39m } [36mfrom[39m [32m'./dto/create-sohoadon.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mUpdateSohoadonDto[39m } [36mfrom[39m [32m'./dto/update-sohoadon.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mSohoadonEntity[39m } [36mfrom[39m [32m'./entities/sohoadon.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 8 |[39m [36mexport[39m [36mclass[39m [33mSohoadonService[39m {[0m
+  [0m [90m 9 |[39m   constructor([0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (5638a5f138250e56)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 71.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/app.module.ts:[32m[1m10:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./sohoadon/sohoadon.module"' has no exported member 'SohoadonModule'.
+  [0m [90m  8 |[39m [36mimport[39m { [33mMuavaochitietModule[39m } [36mfrom[39m [32m'./muavaochitiet/muavaochitiet.module'[39m[33m;[39m[0m
+  [0m [90m  9 |[39m [36mimport[39m { [33mCauhinhModule[39m } [36mfrom[39m [32m'./cauhinh/cauhinh.module'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 10 |[39m [36mimport[39m { [33mSohoadonModule[39m } [36mfrom[39m [32m'./sohoadon/sohoadon.module'[39m[33m;[39m[0m
+  [0m [90m    |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 11 |[39m [36mimport[39m { [33mChitietModule[39m } [36mfrom[39m [32m'./chitiet/chitiet.module'[39m[33m;[39m[0m
+  [0m [90m 12 |[39m[0m
+  [0m [90m 13 |[39m [33m@[39m[33mModule[39m({[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (4adf4dc2271e569a)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 70.7 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/app.module.ts:[32m[1m10:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./sohoadon/sohoadon.module"' has no exported member 'SohoadonModule'.
+  [0m [90m  8 |[39m [36mimport[39m { [33mMuavaochitietModule[39m } [36mfrom[39m [32m'./muavaochitiet/muavaochitiet.module'[39m[33m;[39m[0m
+  [0m [90m  9 |[39m [36mimport[39m { [33mCauhinhModule[39m } [36mfrom[39m [32m'./cauhinh/cauhinh.module'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 10 |[39m [36mimport[39m { [33mSohoadonModule[39m } [36mfrom[39m [32m'./sohoadon/sohoadon.module'[39m[33m;[39m[0m
+  [0m [90m    |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 11 |[39m [36mimport[39m { [33mChitietModule[39m } [36mfrom[39m [32m'./chitiet/chitiet.module'[39m[33m;[39m[0m
+  [0m [90m 12 |[39m[0m
+  [0m [90m 13 |[39m [33m@[39m[33mModule[39m({[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (0bd02132403f5827)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 69.7 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/app.module.ts:[32m[1m10:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./sohoadon/sohoadon.module"' has no exported member 'SohoadonModule'.
+  [0m [90m  8 |[39m [36mimport[39m { [33mMuavaochitietModule[39m } [36mfrom[39m [32m'./muavaochitiet/muavaochitiet.module'[39m[33m;[39m[0m
+  [0m [90m  9 |[39m [36mimport[39m { [33mCauhinhModule[39m } [36mfrom[39m [32m'./cauhinh/cauhinh.module'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 10 |[39m [36mimport[39m { [33mSohoadonModule[39m } [36mfrom[39m [32m'./sohoadon/sohoadon.module'[39m[33m;[39m[0m
+  [0m [90m    |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 11 |[39m [36mimport[39m { [33mChitietModule[39m } [36mfrom[39m [32m'./chitiet/chitiet.module'[39m[33m;[39m[0m
+  [0m [90m 12 |[39m[0m
+  [0m [90m 13 |[39m [33m@[39m[33mModule[39m({[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.module.ts:[32m[1m29:16[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ Slug: any; }' is not assignable to type 'FindOptionsWhere<SohoadonEntity> | FindOptionsWhere<SohoadonEntity>[]'.
+  Object literal may only specify known properties, and 'Slug' does not exist in type 'FindOptionsWhere<SohoadonEntity> | FindOptionsWhere<SohoadonEntity>[]'.
+  [0m [90m 27 |[39m   [36masync[39m findslug(slug[33m:[39m any) {[0m
+  [0m [90m 28 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mSohoadonRepository[39m[33m.[39mfindOne({[0m
+  [0m[31m[1m>[22m[39m[90m 29 |[39m       where[33m:[39m { [33mSlug[39m[33m:[39m slug}[33m,[39m[0m
+  [0m [90m    |[39m                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 30 |[39m     })[33m;[39m[0m
+  [0m [90m 31 |[39m   }[0m
+  [0m [90m 32 |[39m   [36masync[39m findPagination(page[33m:[39m number[33m,[39m perPage[33m:[39m number){[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (ead8484e4e857862)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 70.7 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/app.module.ts:[32m[1m10:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./sohoadon/sohoadon.module"' has no exported member 'SohoadonModule'.
+  [0m [90m  8 |[39m [36mimport[39m { [33mMuavaochitietModule[39m } [36mfrom[39m [32m'./muavaochitiet/muavaochitiet.module'[39m[33m;[39m[0m
+  [0m [90m  9 |[39m [36mimport[39m { [33mCauhinhModule[39m } [36mfrom[39m [32m'./cauhinh/cauhinh.module'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 10 |[39m [36mimport[39m { [33mSohoadonModule[39m } [36mfrom[39m [32m'./sohoadon/sohoadon.module'[39m[33m;[39m[0m
+  [0m [90m    |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 11 |[39m [36mimport[39m { [33mChitietModule[39m } [36mfrom[39m [32m'./chitiet/chitiet.module'[39m[33m;[39m[0m
+  [0m [90m 12 |[39m[0m
+  [0m [90m 13 |[39m [33m@[39m[33mModule[39m({[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (7ffe3b47980439d2)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 69.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/app.module.ts:[32m[1m10:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./sohoadon/sohoadon.module"' has no exported member 'SohoadonModule'.
+  [0m [90m  8 |[39m [36mimport[39m { [33mMuavaochitietModule[39m } [36mfrom[39m [32m'./muavaochitiet/muavaochitiet.module'[39m[33m;[39m[0m
+  [0m [90m  9 |[39m [36mimport[39m { [33mCauhinhModule[39m } [36mfrom[39m [32m'./cauhinh/cauhinh.module'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 10 |[39m [36mimport[39m { [33mSohoadonModule[39m } [36mfrom[39m [32m'./sohoadon/sohoadon.module'[39m[33m;[39m[0m
+  [0m [90m    |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 11 |[39m [36mimport[39m { [33mChitietModule[39m } [36mfrom[39m [32m'./chitiet/chitiet.module'[39m[33m;[39m[0m
+  [0m [90m 12 |[39m[0m
+  [0m [90m 13 |[39m [33m@[39m[33mModule[39m({[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.module.ts:[32m[1m29:16[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ Slug: any; }' is not assignable to type 'FindOptionsWhere<SohoadonEntity> | FindOptionsWhere<SohoadonEntity>[]'.
+  Object literal may only specify known properties, and 'Slug' does not exist in type 'FindOptionsWhere<SohoadonEntity> | FindOptionsWhere<SohoadonEntity>[]'.
+  [0m [90m 27 |[39m   [36masync[39m findslug(slug[33m:[39m any) {[0m
+  [0m [90m 28 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mSohoadonRepository[39m[33m.[39mfindOne({[0m
+  [0m[31m[1m>[22m[39m[90m 29 |[39m       where[33m:[39m { [33mSlug[39m[33m:[39m slug}[33m,[39m[0m
+  [0m [90m    |[39m                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 30 |[39m     })[33m;[39m[0m
+  [0m [90m 31 |[39m   }[0m
+  [0m [90m 32 |[39m   [36masync[39m findPagination(page[33m:[39m number[33m,[39m perPage[33m:[39m number){[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (1e9c91f6bf7cbe97)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 70.5 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/app.module.ts:[32m[1m10:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./sohoadon/sohoadon.module"' has no exported member 'SohoadonModule'.
+  [0m [90m  8 |[39m [36mimport[39m { [33mMuavaochitietModule[39m } [36mfrom[39m [32m'./muavaochitiet/muavaochitiet.module'[39m[33m;[39m[0m
+  [0m [90m  9 |[39m [36mimport[39m { [33mCauhinhModule[39m } [36mfrom[39m [32m'./cauhinh/cauhinh.module'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 10 |[39m [36mimport[39m { [33mSohoadonModule[39m } [36mfrom[39m [32m'./sohoadon/sohoadon.module'[39m[33m;[39m[0m
+  [0m [90m    |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 11 |[39m [36mimport[39m { [33mChitietModule[39m } [36mfrom[39m [32m'./chitiet/chitiet.module'[39m[33m;[39m[0m
+  [0m [90m 12 |[39m[0m
+  [0m [90m 13 |[39m [33m@[39m[33mModule[39m({[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/entities/sohoadon.entity.ts:[32m[1m16:3[22m[39m[1m[39m[22m
+[90mTS2300: [39mDuplicate identifier 'idDM'.
+  [0m [90m 14 |[39m   idDM[33m:[39m string[33m;[39m[0m
+  [0m [90m 15 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m[31m[1m>[22m[39m[90m 16 |[39m   idDM[33m:[39m string[33m;[39m[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 17 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m [90m 18 |[39m   idDM[33m:[39m string[33m;[39m[0m
+  [0m [90m 19 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/entities/sohoadon.entity.ts:[32m[1m18:3[22m[39m[1m[39m[22m
+[90mTS2300: [39mDuplicate identifier 'idDM'.
+  [0m [90m 16 |[39m   idDM[33m:[39m string[33m;[39m[0m
+  [0m [90m 17 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m[31m[1m>[22m[39m[90m 18 |[39m   idDM[33m:[39m string[33m;[39m[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 19 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m [90m 20 |[39m   idDM[33m:[39m string[33m;[39m[0m
+  [0m [90m 21 |[39m   [33m@[39m[33mColumn[39m({ [36mdefault[39m[33m:[39m [32m''[39m })[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/entities/sohoadon.entity.ts:[32m[1m20:3[22m[39m[1m[39m[22m
+[90mTS2300: [39mDuplicate identifier 'idDM'.
+  [0m [90m 18 |[39m   idDM[33m:[39m string[33m;[39m[0m
+  [0m [90m 19 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m[31m[1m>[22m[39m[90m 20 |[39m   idDM[33m:[39m string[33m;[39m[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 21 |[39m   [33m@[39m[33mColumn[39m({ [36mdefault[39m[33m:[39m [32m''[39m })[0m
+  [0m [90m 22 |[39m   [33mType[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 23 |[39m   [33m@[39m[33mColumn[39m({ [36mdefault[39m[33m:[39m [35m1[39m })[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.module.ts:[32m[1m29:16[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ Slug: any; }' is not assignable to type 'FindOptionsWhere<SohoadonEntity> | FindOptionsWhere<SohoadonEntity>[]'.
+  Object literal may only specify known properties, and 'Slug' does not exist in type 'FindOptionsWhere<SohoadonEntity> | FindOptionsWhere<SohoadonEntity>[]'.
+  [0m [90m 27 |[39m   [36masync[39m findslug(slug[33m:[39m any) {[0m
+  [0m [90m 28 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mSohoadonRepository[39m[33m.[39mfindOne({[0m
+  [0m[31m[1m>[22m[39m[90m 29 |[39m       where[33m:[39m { [33mSlug[39m[33m:[39m slug}[33m,[39m[0m
+  [0m [90m    |[39m                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 30 |[39m     })[33m;[39m[0m
+  [0m [90m 31 |[39m   }[0m
+  [0m [90m 32 |[39m   [36masync[39m findPagination(page[33m:[39m number[33m,[39m perPage[33m:[39m number){[0m
+
+webpack compiled with [1m[31m5 errors[39m[22m (1bee7917b8742daf)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 70.5 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/app.module.ts:[32m[1m10:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./sohoadon/sohoadon.module"' has no exported member 'SohoadonModule'.
+  [0m [90m  8 |[39m [36mimport[39m { [33mMuavaochitietModule[39m } [36mfrom[39m [32m'./muavaochitiet/muavaochitiet.module'[39m[33m;[39m[0m
+  [0m [90m  9 |[39m [36mimport[39m { [33mCauhinhModule[39m } [36mfrom[39m [32m'./cauhinh/cauhinh.module'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 10 |[39m [36mimport[39m { [33mSohoadonModule[39m } [36mfrom[39m [32m'./sohoadon/sohoadon.module'[39m[33m;[39m[0m
+  [0m [90m    |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 11 |[39m [36mimport[39m { [33mChitietModule[39m } [36mfrom[39m [32m'./chitiet/chitiet.module'[39m[33m;[39m[0m
+  [0m [90m 12 |[39m[0m
+  [0m [90m 13 |[39m [33m@[39m[33mModule[39m({[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/entities/sohoadon.entity.ts:[32m[1m18:3[22m[39m[1m[39m[22m
+[90mTS2300: [39mDuplicate identifier 'idDM'.
+  [0m [90m 16 |[39m   idDM[33m:[39m string[33m;[39m[0m
+  [0m [90m 17 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m[31m[1m>[22m[39m[90m 18 |[39m   idDM[33m:[39m string[33m;[39m[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 19 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m [90m 20 |[39m   idDM[33m:[39m string[33m;[39m[0m
+  [0m [90m 21 |[39m   [33m@[39m[33mColumn[39m({ [36mdefault[39m[33m:[39m [32m''[39m })[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/entities/sohoadon.entity.ts:[32m[1m20:3[22m[39m[1m[39m[22m
+[90mTS2300: [39mDuplicate identifier 'idDM'.
+  [0m [90m 18 |[39m   idDM[33m:[39m string[33m;[39m[0m
+  [0m [90m 19 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m[31m[1m>[22m[39m[90m 20 |[39m   idDM[33m:[39m string[33m;[39m[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 21 |[39m   [33m@[39m[33mColumn[39m({ [36mdefault[39m[33m:[39m [32m''[39m })[0m
+  [0m [90m 22 |[39m   [33mType[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 23 |[39m   [33m@[39m[33mColumn[39m({ [36mdefault[39m[33m:[39m [35m1[39m })[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.module.ts:[32m[1m29:16[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ Slug: any; }' is not assignable to type 'FindOptionsWhere<SohoadonEntity> | FindOptionsWhere<SohoadonEntity>[]'.
+  Object literal may only specify known properties, and 'Slug' does not exist in type 'FindOptionsWhere<SohoadonEntity> | FindOptionsWhere<SohoadonEntity>[]'.
+  [0m [90m 27 |[39m   [36masync[39m findslug(slug[33m:[39m any) {[0m
+  [0m [90m 28 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mSohoadonRepository[39m[33m.[39mfindOne({[0m
+  [0m[31m[1m>[22m[39m[90m 29 |[39m       where[33m:[39m { [33mSlug[39m[33m:[39m slug}[33m,[39m[0m
+  [0m [90m    |[39m                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 30 |[39m     })[33m;[39m[0m
+  [0m [90m 31 |[39m   }[0m
+  [0m [90m 32 |[39m   [36masync[39m findPagination(page[33m:[39m number[33m,[39m perPage[33m:[39m number){[0m
+
+webpack compiled with [1m[31m4 errors[39m[22m (74bee63871455fc5)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 70.5 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/app.module.ts:[32m[1m10:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./sohoadon/sohoadon.module"' has no exported member 'SohoadonModule'.
+  [0m [90m  8 |[39m [36mimport[39m { [33mMuavaochitietModule[39m } [36mfrom[39m [32m'./muavaochitiet/muavaochitiet.module'[39m[33m;[39m[0m
+  [0m [90m  9 |[39m [36mimport[39m { [33mCauhinhModule[39m } [36mfrom[39m [32m'./cauhinh/cauhinh.module'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 10 |[39m [36mimport[39m { [33mSohoadonModule[39m } [36mfrom[39m [32m'./sohoadon/sohoadon.module'[39m[33m;[39m[0m
+  [0m [90m    |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 11 |[39m [36mimport[39m { [33mChitietModule[39m } [36mfrom[39m [32m'./chitiet/chitiet.module'[39m[33m;[39m[0m
+  [0m [90m 12 |[39m[0m
+  [0m [90m 13 |[39m [33m@[39m[33mModule[39m({[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/entities/sohoadon.entity.ts:[32m[1m20:3[22m[39m[1m[39m[22m
+[90mTS2300: [39mDuplicate identifier 'idDM'.
+  [0m [90m 18 |[39m   idDM[33m:[39m string[33m;[39m[0m
+  [0m [90m 19 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m[31m[1m>[22m[39m[90m 20 |[39m   idDM[33m:[39m string[33m;[39m[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 21 |[39m   [33m@[39m[33mColumn[39m({ [36mdefault[39m[33m:[39m [32m''[39m })[0m
+  [0m [90m 22 |[39m   [33mType[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 23 |[39m   [33m@[39m[33mColumn[39m({ [36mdefault[39m[33m:[39m [35m1[39m })[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.module.ts:[32m[1m29:16[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ Slug: any; }' is not assignable to type 'FindOptionsWhere<SohoadonEntity> | FindOptionsWhere<SohoadonEntity>[]'.
+  Object literal may only specify known properties, and 'Slug' does not exist in type 'FindOptionsWhere<SohoadonEntity> | FindOptionsWhere<SohoadonEntity>[]'.
+  [0m [90m 27 |[39m   [36masync[39m findslug(slug[33m:[39m any) {[0m
+  [0m [90m 28 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mSohoadonRepository[39m[33m.[39mfindOne({[0m
+  [0m[31m[1m>[22m[39m[90m 29 |[39m       where[33m:[39m { [33mSlug[39m[33m:[39m slug}[33m,[39m[0m
+  [0m [90m    |[39m                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 30 |[39m     })[33m;[39m[0m
+  [0m [90m 31 |[39m   }[0m
+  [0m [90m 32 |[39m   [36masync[39m findPagination(page[33m:[39m number[33m,[39m perPage[33m:[39m number){[0m
+
+webpack compiled with [1m[31m3 errors[39m[22m (e03f720ffb6ebec4)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 70.5 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/app.module.ts:[32m[1m10:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./sohoadon/sohoadon.module"' has no exported member 'SohoadonModule'.
+  [0m [90m  8 |[39m [36mimport[39m { [33mMuavaochitietModule[39m } [36mfrom[39m [32m'./muavaochitiet/muavaochitiet.module'[39m[33m;[39m[0m
+  [0m [90m  9 |[39m [36mimport[39m { [33mCauhinhModule[39m } [36mfrom[39m [32m'./cauhinh/cauhinh.module'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 10 |[39m [36mimport[39m { [33mSohoadonModule[39m } [36mfrom[39m [32m'./sohoadon/sohoadon.module'[39m[33m;[39m[0m
+  [0m [90m    |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 11 |[39m [36mimport[39m { [33mChitietModule[39m } [36mfrom[39m [32m'./chitiet/chitiet.module'[39m[33m;[39m[0m
+  [0m [90m 12 |[39m[0m
+  [0m [90m 13 |[39m [33m@[39m[33mModule[39m({[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.module.ts:[32m[1m29:16[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ Slug: any; }' is not assignable to type 'FindOptionsWhere<SohoadonEntity> | FindOptionsWhere<SohoadonEntity>[]'.
+  Object literal may only specify known properties, and 'Slug' does not exist in type 'FindOptionsWhere<SohoadonEntity> | FindOptionsWhere<SohoadonEntity>[]'.
+  [0m [90m 27 |[39m   [36masync[39m findslug(slug[33m:[39m any) {[0m
+  [0m [90m 28 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mSohoadonRepository[39m[33m.[39mfindOne({[0m
+  [0m[31m[1m>[22m[39m[90m 29 |[39m       where[33m:[39m { [33mSlug[39m[33m:[39m slug}[33m,[39m[0m
+  [0m [90m    |[39m                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 30 |[39m     })[33m;[39m[0m
+  [0m [90m 31 |[39m   }[0m
+  [0m [90m 32 |[39m   [36masync[39m findPagination(page[33m:[39m number[33m,[39m perPage[33m:[39m number){[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (7285596d247bd696)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 70.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/app.module.ts:[32m[1m10:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./sohoadon/sohoadon.module"' has no exported member 'SohoadonModule'.
+  [0m [90m  8 |[39m [36mimport[39m { [33mMuavaochitietModule[39m } [36mfrom[39m [32m'./muavaochitiet/muavaochitiet.module'[39m[33m;[39m[0m
+  [0m [90m  9 |[39m [36mimport[39m { [33mCauhinhModule[39m } [36mfrom[39m [32m'./cauhinh/cauhinh.module'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 10 |[39m [36mimport[39m { [33mSohoadonModule[39m } [36mfrom[39m [32m'./sohoadon/sohoadon.module'[39m[33m;[39m[0m
+  [0m [90m    |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 11 |[39m [36mimport[39m { [33mChitietModule[39m } [36mfrom[39m [32m'./chitiet/chitiet.module'[39m[33m;[39m[0m
+  [0m [90m 12 |[39m[0m
+  [0m [90m 13 |[39m [33m@[39m[33mModule[39m({[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.module.ts:[32m[1m29:16[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ Slug: any; }' is not assignable to type 'FindOptionsWhere<SohoadonEntity> | FindOptionsWhere<SohoadonEntity>[]'.
+  Object literal may only specify known properties, and 'Slug' does not exist in type 'FindOptionsWhere<SohoadonEntity> | FindOptionsWhere<SohoadonEntity>[]'.
+  [0m [90m 27 |[39m   [36masync[39m findslug(slug[33m:[39m any) {[0m
+  [0m [90m 28 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mSohoadonRepository[39m[33m.[39mfindOne({[0m
+  [0m[31m[1m>[22m[39m[90m 29 |[39m       where[33m:[39m { [33mSlug[39m[33m:[39m slug}[33m,[39m[0m
+  [0m [90m    |[39m                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 30 |[39m     })[33m;[39m[0m
+  [0m [90m 31 |[39m   }[0m
+  [0m [90m 32 |[39m   [36masync[39m findPagination(page[33m:[39m number[33m,[39m perPage[33m:[39m number){[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (13f734bba19ea96c)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 70.3 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/app.module.ts:[32m[1m10:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./sohoadon/sohoadon.module"' has no exported member 'SohoadonModule'.
+  [0m [90m  8 |[39m [36mimport[39m { [33mMuavaochitietModule[39m } [36mfrom[39m [32m'./muavaochitiet/muavaochitiet.module'[39m[33m;[39m[0m
+  [0m [90m  9 |[39m [36mimport[39m { [33mCauhinhModule[39m } [36mfrom[39m [32m'./cauhinh/cauhinh.module'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 10 |[39m [36mimport[39m { [33mSohoadonModule[39m } [36mfrom[39m [32m'./sohoadon/sohoadon.module'[39m[33m;[39m[0m
+  [0m [90m    |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 11 |[39m [36mimport[39m { [33mChitietModule[39m } [36mfrom[39m [32m'./chitiet/chitiet.module'[39m[33m;[39m[0m
+  [0m [90m 12 |[39m[0m
+  [0m [90m 13 |[39m [33m@[39m[33mModule[39m({[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.module.ts:[32m[1m29:16[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ Slug: any; }' is not assignable to type 'FindOptionsWhere<SohoadonEntity> | FindOptionsWhere<SohoadonEntity>[]'.
+  Object literal may only specify known properties, and 'Slug' does not exist in type 'FindOptionsWhere<SohoadonEntity> | FindOptionsWhere<SohoadonEntity>[]'.
+  [0m [90m 27 |[39m   [36masync[39m findslug(slug[33m:[39m any) {[0m
+  [0m [90m 28 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mSohoadonRepository[39m[33m.[39mfindOne({[0m
+  [0m[31m[1m>[22m[39m[90m 29 |[39m       where[33m:[39m { [33mSlug[39m[33m:[39m slug}[33m,[39m[0m
+  [0m [90m    |[39m                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 30 |[39m     })[33m;[39m[0m
+  [0m [90m 31 |[39m   }[0m
+  [0m [90m 32 |[39m   [36masync[39m findPagination(page[33m:[39m number[33m,[39m perPage[33m:[39m number){[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (13f734bba19ea96c)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 70.3 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/app.module.ts:[32m[1m10:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./sohoadon/sohoadon.module"' has no exported member 'SohoadonModule'.
+  [0m [90m  8 |[39m [36mimport[39m { [33mMuavaochitietModule[39m } [36mfrom[39m [32m'./muavaochitiet/muavaochitiet.module'[39m[33m;[39m[0m
+  [0m [90m  9 |[39m [36mimport[39m { [33mCauhinhModule[39m } [36mfrom[39m [32m'./cauhinh/cauhinh.module'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 10 |[39m [36mimport[39m { [33mSohoadonModule[39m } [36mfrom[39m [32m'./sohoadon/sohoadon.module'[39m[33m;[39m[0m
+  [0m [90m    |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 11 |[39m [36mimport[39m { [33mChitietModule[39m } [36mfrom[39m [32m'./chitiet/chitiet.module'[39m[33m;[39m[0m
+  [0m [90m 12 |[39m[0m
+  [0m [90m 13 |[39m [33m@[39m[33mModule[39m({[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.module.ts:[32m[1m29:16[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ Slug: any; }' is not assignable to type 'FindOptionsWhere<SohoadonEntity> | FindOptionsWhere<SohoadonEntity>[]'.
+  Object literal may only specify known properties, and 'Slug' does not exist in type 'FindOptionsWhere<SohoadonEntity> | FindOptionsWhere<SohoadonEntity>[]'.
+  [0m [90m 27 |[39m   [36masync[39m findslug(slug[33m:[39m any) {[0m
+  [0m [90m 28 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mSohoadonRepository[39m[33m.[39mfindOne({[0m
+  [0m[31m[1m>[22m[39m[90m 29 |[39m       where[33m:[39m { [33mSlug[39m[33m:[39m slug}[33m,[39m[0m
+  [0m [90m    |[39m                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 30 |[39m     })[33m;[39m[0m
+  [0m [90m 31 |[39m   }[0m
+  [0m [90m 32 |[39m   [36masync[39m findPagination(page[33m:[39m number[33m,[39m perPage[33m:[39m number){[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (13f734bba19ea96c)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 70.3 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/app.module.ts:[32m[1m10:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./sohoadon/sohoadon.module"' has no exported member 'SohoadonModule'.
+  [0m [90m  8 |[39m [36mimport[39m { [33mMuavaochitietModule[39m } [36mfrom[39m [32m'./muavaochitiet/muavaochitiet.module'[39m[33m;[39m[0m
+  [0m [90m  9 |[39m [36mimport[39m { [33mCauhinhModule[39m } [36mfrom[39m [32m'./cauhinh/cauhinh.module'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 10 |[39m [36mimport[39m { [33mSohoadonModule[39m } [36mfrom[39m [32m'./sohoadon/sohoadon.module'[39m[33m;[39m[0m
+  [0m [90m    |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 11 |[39m [36mimport[39m { [33mChitietModule[39m } [36mfrom[39m [32m'./chitiet/chitiet.module'[39m[33m;[39m[0m
+  [0m [90m 12 |[39m[0m
+  [0m [90m 13 |[39m [33m@[39m[33mModule[39m({[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.module.ts:[32m[1m29:16[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ Slug: any; }' is not assignable to type 'FindOptionsWhere<SohoadonEntity> | FindOptionsWhere<SohoadonEntity>[]'.
+  Object literal may only specify known properties, and 'Slug' does not exist in type 'FindOptionsWhere<SohoadonEntity> | FindOptionsWhere<SohoadonEntity>[]'.
+  [0m [90m 27 |[39m   [36masync[39m findslug(slug[33m:[39m any) {[0m
+  [0m [90m 28 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mSohoadonRepository[39m[33m.[39mfindOne({[0m
+  [0m[31m[1m>[22m[39m[90m 29 |[39m       where[33m:[39m { [33mSlug[39m[33m:[39m slug}[33m,[39m[0m
+  [0m [90m    |[39m                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 30 |[39m     })[33m;[39m[0m
+  [0m [90m 31 |[39m   }[0m
+  [0m [90m 32 |[39m   [36masync[39m findPagination(page[33m:[39m number[33m,[39m perPage[33m:[39m number){[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (13f734bba19ea96c)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 70.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/app.module.ts:[32m[1m10:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./sohoadon/sohoadon.module"' has no exported member 'SohoadonModule'.
+  [0m [90m  8 |[39m [36mimport[39m { [33mMuavaochitietModule[39m } [36mfrom[39m [32m'./muavaochitiet/muavaochitiet.module'[39m[33m;[39m[0m
+  [0m [90m  9 |[39m [36mimport[39m { [33mCauhinhModule[39m } [36mfrom[39m [32m'./cauhinh/cauhinh.module'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 10 |[39m [36mimport[39m { [33mSohoadonModule[39m } [36mfrom[39m [32m'./sohoadon/sohoadon.module'[39m[33m;[39m[0m
+  [0m [90m    |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 11 |[39m [36mimport[39m { [33mChitietModule[39m } [36mfrom[39m [32m'./chitiet/chitiet.module'[39m[33m;[39m[0m
+  [0m [90m 12 |[39m[0m
+  [0m [90m 13 |[39m [33m@[39m[33mModule[39m({[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.module.ts:[32m[1m29:23[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'shdon'.
+  [0m [90m 27 |[39m   [36masync[39m findslug(slug[33m:[39m any) {[0m
+  [0m [90m 28 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mSohoadonRepository[39m[33m.[39mfindOne({[0m
+  [0m[31m[1m>[22m[39m[90m 29 |[39m       where[33m:[39m { shdon[33m:[39m shdon}[33m,[39m[0m
+  [0m [90m    |[39m                       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 30 |[39m     })[33m;[39m[0m
+  [0m [90m 31 |[39m   }[0m
+  [0m [90m 32 |[39m   [36masync[39m findPagination(page[33m:[39m number[33m,[39m perPage[33m:[39m number){[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (e09254dbebedeb45)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 70.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/app.module.ts:[32m[1m10:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./sohoadon/sohoadon.module"' has no exported member 'SohoadonModule'.
+  [0m [90m  8 |[39m [36mimport[39m { [33mMuavaochitietModule[39m } [36mfrom[39m [32m'./muavaochitiet/muavaochitiet.module'[39m[33m;[39m[0m
+  [0m [90m  9 |[39m [36mimport[39m { [33mCauhinhModule[39m } [36mfrom[39m [32m'./cauhinh/cauhinh.module'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 10 |[39m [36mimport[39m { [33mSohoadonModule[39m } [36mfrom[39m [32m'./sohoadon/sohoadon.module'[39m[33m;[39m[0m
+  [0m [90m    |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 11 |[39m [36mimport[39m { [33mChitietModule[39m } [36mfrom[39m [32m'./chitiet/chitiet.module'[39m[33m;[39m[0m
+  [0m [90m 12 |[39m[0m
+  [0m [90m 13 |[39m [33m@[39m[33mModule[39m({[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (544f5501b063320a)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 70.3 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/app.module.ts:[32m[1m10:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./sohoadon/sohoadon.module"' has no exported member 'SohoadonModule'.
+  [0m [90m  8 |[39m [36mimport[39m { [33mMuavaochitietModule[39m } [36mfrom[39m [32m'./muavaochitiet/muavaochitiet.module'[39m[33m;[39m[0m
+  [0m [90m  9 |[39m [36mimport[39m { [33mCauhinhModule[39m } [36mfrom[39m [32m'./cauhinh/cauhinh.module'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 10 |[39m [36mimport[39m { [33mSohoadonModule[39m } [36mfrom[39m [32m'./sohoadon/sohoadon.module'[39m[33m;[39m[0m
+  [0m [90m    |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 11 |[39m [36mimport[39m { [33mChitietModule[39m } [36mfrom[39m [32m'./chitiet/chitiet.module'[39m[33m;[39m[0m
+  [0m [90m 12 |[39m[0m
+  [0m [90m 13 |[39m [33m@[39m[33mModule[39m({[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (544f5501b063320a)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 70.3 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/app.module.ts:[32m[1m10:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./sohoadon/sohoadon.module"' has no exported member 'SohoadonModule'.
+  [0m [90m  8 |[39m [36mimport[39m { [33mMuavaochitietModule[39m } [36mfrom[39m [32m'./muavaochitiet/muavaochitiet.module'[39m[33m;[39m[0m
+  [0m [90m  9 |[39m [36mimport[39m { [33mCauhinhModule[39m } [36mfrom[39m [32m'./cauhinh/cauhinh.module'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 10 |[39m [36mimport[39m { [33mSohoadonModule[39m } [36mfrom[39m [32m'./sohoadon/sohoadon.module'[39m[33m;[39m[0m
+  [0m [90m    |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 11 |[39m [36mimport[39m { [33mChitietModule[39m } [36mfrom[39m [32m'./chitiet/chitiet.module'[39m[33m;[39m[0m
+  [0m [90m 12 |[39m[0m
+  [0m [90m 13 |[39m [33m@[39m[33mModule[39m({[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (544f5501b063320a)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 70.3 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/app.module.ts:[32m[1m10:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./sohoadon/sohoadon.module"' has no exported member 'SohoadonModule'.
+  [0m [90m  8 |[39m [36mimport[39m { [33mMuavaochitietModule[39m } [36mfrom[39m [32m'./muavaochitiet/muavaochitiet.module'[39m[33m;[39m[0m
+  [0m [90m  9 |[39m [36mimport[39m { [33mCauhinhModule[39m } [36mfrom[39m [32m'./cauhinh/cauhinh.module'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 10 |[39m [36mimport[39m { [33mSohoadonModule[39m } [36mfrom[39m [32m'./sohoadon/sohoadon.module'[39m[33m;[39m[0m
+  [0m [90m    |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 11 |[39m [36mimport[39m { [33mChitietModule[39m } [36mfrom[39m [32m'./chitiet/chitiet.module'[39m[33m;[39m[0m
+  [0m [90m 12 |[39m[0m
+  [0m [90m 13 |[39m [33m@[39m[33mModule[39m({[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (544f5501b063320a)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 70.3 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/app.module.ts:[32m[1m10:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./sohoadon/sohoadon.module"' has no exported member 'SohoadonModule'.
+  [0m [90m  8 |[39m [36mimport[39m { [33mMuavaochitietModule[39m } [36mfrom[39m [32m'./muavaochitiet/muavaochitiet.module'[39m[33m;[39m[0m
+  [0m [90m  9 |[39m [36mimport[39m { [33mCauhinhModule[39m } [36mfrom[39m [32m'./cauhinh/cauhinh.module'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 10 |[39m [36mimport[39m { [33mSohoadonModule[39m } [36mfrom[39m [32m'./sohoadon/sohoadon.module'[39m[33m;[39m[0m
+  [0m [90m    |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 11 |[39m [36mimport[39m { [33mChitietModule[39m } [36mfrom[39m [32m'./chitiet/chitiet.module'[39m[33m;[39m[0m
+  [0m [90m 12 |[39m[0m
+  [0m [90m 13 |[39m [33m@[39m[33mModule[39m({[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (544f5501b063320a)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 70.3 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/app.module.ts:[32m[1m10:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./sohoadon/sohoadon.module"' has no exported member 'SohoadonModule'.
+  [0m [90m  8 |[39m [36mimport[39m { [33mMuavaochitietModule[39m } [36mfrom[39m [32m'./muavaochitiet/muavaochitiet.module'[39m[33m;[39m[0m
+  [0m [90m  9 |[39m [36mimport[39m { [33mCauhinhModule[39m } [36mfrom[39m [32m'./cauhinh/cauhinh.module'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 10 |[39m [36mimport[39m { [33mSohoadonModule[39m } [36mfrom[39m [32m'./sohoadon/sohoadon.module'[39m[33m;[39m[0m
+  [0m [90m    |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 11 |[39m [36mimport[39m { [33mChitietModule[39m } [36mfrom[39m [32m'./chitiet/chitiet.module'[39m[33m;[39m[0m
+  [0m [90m 12 |[39m[0m
+  [0m [90m 13 |[39m [33m@[39m[33mModule[39m({[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (544f5501b063320a)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 70.3 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/app.module.ts:[32m[1m10:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./sohoadon/sohoadon.module"' has no exported member 'SohoadonModule'.
+  [0m [90m  8 |[39m [36mimport[39m { [33mMuavaochitietModule[39m } [36mfrom[39m [32m'./muavaochitiet/muavaochitiet.module'[39m[33m;[39m[0m
+  [0m [90m  9 |[39m [36mimport[39m { [33mCauhinhModule[39m } [36mfrom[39m [32m'./cauhinh/cauhinh.module'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 10 |[39m [36mimport[39m { [33mSohoadonModule[39m } [36mfrom[39m [32m'./sohoadon/sohoadon.module'[39m[33m;[39m[0m
+  [0m [90m    |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 11 |[39m [36mimport[39m { [33mChitietModule[39m } [36mfrom[39m [32m'./chitiet/chitiet.module'[39m[33m;[39m[0m
+  [0m [90m 12 |[39m[0m
+  [0m [90m 13 |[39m [33m@[39m[33mModule[39m({[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (544f5501b063320a)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 70.3 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/app.module.ts:[32m[1m10:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./sohoadon/sohoadon.module"' has no exported member 'SohoadonModule'.
+  [0m [90m  8 |[39m [36mimport[39m { [33mMuavaochitietModule[39m } [36mfrom[39m [32m'./muavaochitiet/muavaochitiet.module'[39m[33m;[39m[0m
+  [0m [90m  9 |[39m [36mimport[39m { [33mCauhinhModule[39m } [36mfrom[39m [32m'./cauhinh/cauhinh.module'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 10 |[39m [36mimport[39m { [33mSohoadonModule[39m } [36mfrom[39m [32m'./sohoadon/sohoadon.module'[39m[33m;[39m[0m
+  [0m [90m    |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 11 |[39m [36mimport[39m { [33mChitietModule[39m } [36mfrom[39m [32m'./chitiet/chitiet.module'[39m[33m;[39m[0m
+  [0m [90m 12 |[39m[0m
+  [0m [90m 13 |[39m [33m@[39m[33mModule[39m({[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (544f5501b063320a)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 70.3 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/app.module.ts:[32m[1m10:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./sohoadon/sohoadon.module"' has no exported member 'SohoadonModule'.
+  [0m [90m  8 |[39m [36mimport[39m { [33mMuavaochitietModule[39m } [36mfrom[39m [32m'./muavaochitiet/muavaochitiet.module'[39m[33m;[39m[0m
+  [0m [90m  9 |[39m [36mimport[39m { [33mCauhinhModule[39m } [36mfrom[39m [32m'./cauhinh/cauhinh.module'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 10 |[39m [36mimport[39m { [33mSohoadonModule[39m } [36mfrom[39m [32m'./sohoadon/sohoadon.module'[39m[33m;[39m[0m
+  [0m [90m    |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 11 |[39m [36mimport[39m { [33mChitietModule[39m } [36mfrom[39m [32m'./chitiet/chitiet.module'[39m[33m;[39m[0m
+  [0m [90m 12 |[39m[0m
+  [0m [90m 13 |[39m [33m@[39m[33mModule[39m({[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (544f5501b063320a)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 70.3 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/app.module.ts:[32m[1m10:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./sohoadon/sohoadon.module"' has no exported member 'SohoadonModule'.
+  [0m [90m  8 |[39m [36mimport[39m { [33mMuavaochitietModule[39m } [36mfrom[39m [32m'./muavaochitiet/muavaochitiet.module'[39m[33m;[39m[0m
+  [0m [90m  9 |[39m [36mimport[39m { [33mCauhinhModule[39m } [36mfrom[39m [32m'./cauhinh/cauhinh.module'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 10 |[39m [36mimport[39m { [33mSohoadonModule[39m } [36mfrom[39m [32m'./sohoadon/sohoadon.module'[39m[33m;[39m[0m
+  [0m [90m    |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 11 |[39m [36mimport[39m { [33mChitietModule[39m } [36mfrom[39m [32m'./chitiet/chitiet.module'[39m[33m;[39m[0m
+  [0m [90m 12 |[39m[0m
+  [0m [90m 13 |[39m [33m@[39m[33mModule[39m({[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (544f5501b063320a)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 70.3 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/app.module.ts:[32m[1m10:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./sohoadon/sohoadon.module"' has no exported member 'SohoadonModule'.
+  [0m [90m  8 |[39m [36mimport[39m { [33mMuavaochitietModule[39m } [36mfrom[39m [32m'./muavaochitiet/muavaochitiet.module'[39m[33m;[39m[0m
+  [0m [90m  9 |[39m [36mimport[39m { [33mCauhinhModule[39m } [36mfrom[39m [32m'./cauhinh/cauhinh.module'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 10 |[39m [36mimport[39m { [33mSohoadonModule[39m } [36mfrom[39m [32m'./sohoadon/sohoadon.module'[39m[33m;[39m[0m
+  [0m [90m    |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 11 |[39m [36mimport[39m { [33mChitietModule[39m } [36mfrom[39m [32m'./chitiet/chitiet.module'[39m[33m;[39m[0m
+  [0m [90m 12 |[39m[0m
+  [0m [90m 13 |[39m [33m@[39m[33mModule[39m({[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (544f5501b063320a)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 70.3 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/app.module.ts:[32m[1m10:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./sohoadon/sohoadon.module"' has no exported member 'SohoadonModule'.
+  [0m [90m  8 |[39m [36mimport[39m { [33mMuavaochitietModule[39m } [36mfrom[39m [32m'./muavaochitiet/muavaochitiet.module'[39m[33m;[39m[0m
+  [0m [90m  9 |[39m [36mimport[39m { [33mCauhinhModule[39m } [36mfrom[39m [32m'./cauhinh/cauhinh.module'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 10 |[39m [36mimport[39m { [33mSohoadonModule[39m } [36mfrom[39m [32m'./sohoadon/sohoadon.module'[39m[33m;[39m[0m
+  [0m [90m    |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 11 |[39m [36mimport[39m { [33mChitietModule[39m } [36mfrom[39m [32m'./chitiet/chitiet.module'[39m[33m;[39m[0m
+  [0m [90m 12 |[39m[0m
+  [0m [90m 13 |[39m [33m@[39m[33mModule[39m({[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (544f5501b063320a)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m

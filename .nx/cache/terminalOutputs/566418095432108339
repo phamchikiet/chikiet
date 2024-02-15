@@ -1,0 +1,564 @@
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 2.71 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (a50f7d71c8314fe9)
+[1m[31mDebugger listening on ws://localhost:9229/9308f68e-ba92-4447-ba5a-0581778b179b[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/9308f68e-ba92-4447-ba5a-0581778b179b[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 2.71 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (a50f7d71c8314fe9)
+[1m[31mDebugger listening on ws://localhost:9229/b8bc67b0-eb25-43e9-9341-fc555fe2b864[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/b8bc67b0-eb25-43e9-9341-fc555fe2b864[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 3.01 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/app.module.ts:[32m[1m7:17[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'TypeOrmModule'.
+  [0m [90m  5 |[39m[0m
+  [0m [90m  6 |[39m [33m@[39m[33mModule[39m({[0m
+  [0m[31m[1m>[22m[39m[90m  7 |[39m   imports[33m:[39m [    [33mTypeOrmModule[39m[33m.[39mforRoot({[0m
+  [0m [90m    |[39m                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m  8 |[39m     type[33m:[39m [32m'mysql'[39m[33m,[39m[0m
+  [0m [90m  9 |[39m     host[33m:[39m [32m'localhost'[39m[33m,[39m[0m
+  [0m [90m 10 |[39m     port[33m:[39m [35m3306[39m[33m,[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (631c2ea4b2c3c948)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 3.03 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/app.module.ts:[32m[1m8:5[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'TypeOrmModule'.
+  [0m [90m  6 |[39m [33m@[39m[33mModule[39m({[0m
+  [0m [90m  7 |[39m   imports[33m:[39m [    [0m
+  [0m[31m[1m>[22m[39m[90m  8 |[39m     [33mTypeOrmModule[39m[33m.[39mforRoot({[0m
+  [0m [90m    |[39m     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m  9 |[39m     type[33m:[39m [32m'mysql'[39m[33m,[39m[0m
+  [0m [90m 10 |[39m     host[33m:[39m [32m'localhost'[39m[33m,[39m[0m
+  [0m [90m 11 |[39m     port[33m:[39m [35m3306[39m[33m,[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (c61b017bf73cc635)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 5.27 MiB (javascript) 937 bytes (runtime) [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/app-root-path/lib/app-root-path.js[39m[22m [1m[32m14:10-56[39m[22m
+[1mCritical dependency: the request of a dependency is an expression[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/cli-highlight/dist/index.js[39m[22m
+[1mModule Warning (from ../node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'F:\chikiet\BEKetoan\node_modules\cli-highlight\src\index.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'F:\chikiet\BEKetoan\node_modules\cli-highlight\src\index.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/cli-highlight/dist/theme.js[39m[22m
+[1mModule Warning (from ../node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'F:\chikiet\BEKetoan\node_modules\cli-highlight\src\theme.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'F:\chikiet\BEKetoan\node_modules\cli-highlight\src\theme.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/connection/ConnectionOptionsReader.js[39m[22m [1m[32m118:32-51[39m[22m
+[1mCritical dependency: the request of a dependency is an expression[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/driver/react-native/ReactNativeDriver.js[39m[22m [1m[32m720:50-88[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'react-native-sqlite-storage' in 'F:\chikiet\BEKetoan\node_modules\typeorm\driver\react-native'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m42:27-59[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve '@google-cloud/spanner' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m47:27-45[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'mongodb' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m52:27-54[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve '@sap/hana-client' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m54:27-46[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'hdb-pool' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m59:27-43[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'mysql' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m66:27-46[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'oracledb' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m71:27-40[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'pg' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m73:27-47[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'pg-native' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m75:27-53[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'pg-query-stream' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m77:27-68[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'typeorm-aurora-data-api-driver' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m82:27-43[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'redis' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m84:27-45[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'ioredis' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m89:27-52[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'better-sqlite3' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m94:27-45[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'sqlite3' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m99:27-44[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'sql.js' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m104:27-43[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'mssql' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m109:27-65[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'react-native-sqlite-storage' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m113:19-81[39m[22m
+[1mCritical dependency: the request of a dependency is an expression[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/util/DirectoryExportedClassesLoader.js[39m[22m [1m[32m62:23-79[39m[22m
+[1mCritical dependency: the request of a dependency is an expression[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/util/ImportUtils.js[39m[22m [1m[32m20:16-33[39m[22m
+[1mCritical dependency: the request of a dependency is an expression[39m[22m
+
+webpack compiled with [1m[33m25 warnings[39m[22m (96e159f3a2adaa1c)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 5.27 MiB (javascript) 937 bytes (runtime) [1m[33m[entry][39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/app-root-path/lib/app-root-path.js[39m[22m [1m[32m14:10-56[39m[22m
+[1mCritical dependency: the request of a dependency is an expression[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/cli-highlight/dist/index.js[39m[22m
+[1mModule Warning (from ../node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'F:\chikiet\BEKetoan\node_modules\cli-highlight\src\index.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'F:\chikiet\BEKetoan\node_modules\cli-highlight\src\index.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/cli-highlight/dist/theme.js[39m[22m
+[1mModule Warning (from ../node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'F:\chikiet\BEKetoan\node_modules\cli-highlight\src\theme.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'F:\chikiet\BEKetoan\node_modules\cli-highlight\src\theme.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/connection/ConnectionOptionsReader.js[39m[22m [1m[32m118:32-51[39m[22m
+[1mCritical dependency: the request of a dependency is an expression[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/driver/react-native/ReactNativeDriver.js[39m[22m [1m[32m720:50-88[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'react-native-sqlite-storage' in 'F:\chikiet\BEKetoan\node_modules\typeorm\driver\react-native'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m42:27-59[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve '@google-cloud/spanner' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m47:27-45[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'mongodb' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m52:27-54[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve '@sap/hana-client' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m54:27-46[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'hdb-pool' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m59:27-43[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'mysql' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m66:27-46[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'oracledb' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m71:27-40[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'pg' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m73:27-47[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'pg-native' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m75:27-53[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'pg-query-stream' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m77:27-68[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'typeorm-aurora-data-api-driver' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m82:27-43[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'redis' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m84:27-45[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'ioredis' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m89:27-52[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'better-sqlite3' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m94:27-45[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'sqlite3' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m99:27-44[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'sql.js' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m104:27-43[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'mssql' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m109:27-65[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'react-native-sqlite-storage' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m113:19-81[39m[22m
+[1mCritical dependency: the request of a dependency is an expression[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/util/DirectoryExportedClassesLoader.js[39m[22m [1m[32m62:23-79[39m[22m
+[1mCritical dependency: the request of a dependency is an expression[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/util/ImportUtils.js[39m[22m [1m[32m20:16-33[39m[22m
+[1mCritical dependency: the request of a dependency is an expression[39m[22m
+
+webpack compiled with [1m[33m25 warnings[39m[22m (96e159f3a2adaa1c)
+[1m[31mDebugger listening on ws://localhost:9229/21f4dd48-095a-49b0-9419-24375ad9913f[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/21f4dd48-095a-49b0-9419-24375ad9913f[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mF:\chikiet\BEKetoan\node_modules\@nx\js\src\executors\node\node-with-require-overrides.js:18[39m[22m
+[1m[31m        return originalLoader.apply(this, arguments);[39m[22m
+[1m[31m                              ^[39m[22m
+[1m[31mError [ERR_REQUIRE_ESM]: require() of ES Module F:\chikiet\BEKetoan\node_modules\@babel\runtime\helpers\esm\typeof.js from F:\chikiet\BEKetoan\dist\be_ketoan\main.js not supported.[39m[22m
+[1m[31mInstead change the require of typeof.js in F:\chikiet\BEKetoan\dist\be_ketoan\main.js to a dynamic import() which is available in all CommonJS modules.[39m[22m
+[1m[31m    at Module._load (F:\chikiet\BEKetoan\node_modules\@nx\js\src\executors\node\node-with-require-overrides.js:18:31)[39m[22m
+[1m[31m    at Object.defineProperty.value (F:\chikiet\BEKetoan\dist\be_ketoan\main.js:77301:32)[39m[22m
+[1m[31m    at __webpack_require__ (F:\chikiet\BEKetoan\dist\be_ketoan\main.js:146239:42)[39m[22m
+[1m[31m    at Object.<anonymous> (F:\chikiet\BEKetoan\dist\be_ketoan\main.js:76807:20)[39m[22m
+[1m[31m    at __webpack_require__ (F:\chikiet\BEKetoan\dist\be_ketoan\main.js:146239:42)[39m[22m
+[1m[31m[39m[22m
+
+[36m>[39m [7m[1m[36m NX [39m[22m[27m [1mProcess exited with code 1, waiting for changes to restart...[22m
+
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 5.27 MiB (javascript) 937 bytes (runtime) [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/app-root-path/lib/app-root-path.js[39m[22m [1m[32m14:10-56[39m[22m
+[1mCritical dependency: the request of a dependency is an expression[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/cli-highlight/dist/index.js[39m[22m
+[1mModule Warning (from ../node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'F:\chikiet\BEKetoan\node_modules\cli-highlight\src\index.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'F:\chikiet\BEKetoan\node_modules\cli-highlight\src\index.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/cli-highlight/dist/theme.js[39m[22m
+[1mModule Warning (from ../node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'F:\chikiet\BEKetoan\node_modules\cli-highlight\src\theme.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'F:\chikiet\BEKetoan\node_modules\cli-highlight\src\theme.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/connection/ConnectionOptionsReader.js[39m[22m [1m[32m118:32-51[39m[22m
+[1mCritical dependency: the request of a dependency is an expression[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/driver/react-native/ReactNativeDriver.js[39m[22m [1m[32m720:50-88[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'react-native-sqlite-storage' in 'F:\chikiet\BEKetoan\node_modules\typeorm\driver\react-native'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m42:27-59[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve '@google-cloud/spanner' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m47:27-45[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'mongodb' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m52:27-54[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve '@sap/hana-client' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m54:27-46[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'hdb-pool' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m59:27-43[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'mysql' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m66:27-46[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'oracledb' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m71:27-40[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'pg' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m73:27-47[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'pg-native' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m75:27-53[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'pg-query-stream' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m77:27-68[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'typeorm-aurora-data-api-driver' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m82:27-43[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'redis' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m84:27-45[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'ioredis' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m89:27-52[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'better-sqlite3' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m94:27-45[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'sqlite3' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m99:27-44[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'sql.js' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m104:27-43[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'mssql' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m109:27-65[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'react-native-sqlite-storage' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m113:19-81[39m[22m
+[1mCritical dependency: the request of a dependency is an expression[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/util/DirectoryExportedClassesLoader.js[39m[22m [1m[32m62:23-79[39m[22m
+[1mCritical dependency: the request of a dependency is an expression[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/util/ImportUtils.js[39m[22m [1m[32m20:16-33[39m[22m
+[1mCritical dependency: the request of a dependency is an expression[39m[22m
+
+webpack compiled with [1m[33m25 warnings[39m[22m (dfdbcb14531aaa96)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 5.27 MiB (javascript) 937 bytes (runtime) [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/app-root-path/lib/app-root-path.js[39m[22m [1m[32m14:10-56[39m[22m
+[1mCritical dependency: the request of a dependency is an expression[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/cli-highlight/dist/index.js[39m[22m
+[1mModule Warning (from ../node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'F:\chikiet\BEKetoan\node_modules\cli-highlight\src\index.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'F:\chikiet\BEKetoan\node_modules\cli-highlight\src\index.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/cli-highlight/dist/theme.js[39m[22m
+[1mModule Warning (from ../node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'F:\chikiet\BEKetoan\node_modules\cli-highlight\src\theme.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'F:\chikiet\BEKetoan\node_modules\cli-highlight\src\theme.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/connection/ConnectionOptionsReader.js[39m[22m [1m[32m118:32-51[39m[22m
+[1mCritical dependency: the request of a dependency is an expression[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/driver/react-native/ReactNativeDriver.js[39m[22m [1m[32m720:50-88[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'react-native-sqlite-storage' in 'F:\chikiet\BEKetoan\node_modules\typeorm\driver\react-native'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m42:27-59[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve '@google-cloud/spanner' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m47:27-45[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'mongodb' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m52:27-54[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve '@sap/hana-client' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m54:27-46[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'hdb-pool' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m59:27-43[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'mysql' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m66:27-46[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'oracledb' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m71:27-40[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'pg' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m73:27-47[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'pg-native' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m75:27-53[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'pg-query-stream' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m77:27-68[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'typeorm-aurora-data-api-driver' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m82:27-43[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'redis' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m84:27-45[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'ioredis' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m89:27-52[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'better-sqlite3' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m94:27-45[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'sqlite3' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m99:27-44[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'sql.js' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m104:27-43[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'mssql' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m109:27-65[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'react-native-sqlite-storage' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m113:19-81[39m[22m
+[1mCritical dependency: the request of a dependency is an expression[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/util/DirectoryExportedClassesLoader.js[39m[22m [1m[32m62:23-79[39m[22m
+[1mCritical dependency: the request of a dependency is an expression[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/util/ImportUtils.js[39m[22m [1m[32m20:16-33[39m[22m
+[1mCritical dependency: the request of a dependency is an expression[39m[22m
+
+webpack compiled with [1m[33m25 warnings[39m[22m (039d1dc1e4d0db25)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 5.27 MiB (javascript) 937 bytes (runtime) [1m[33m[entry][39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/app-root-path/lib/app-root-path.js[39m[22m [1m[32m14:10-56[39m[22m
+[1mCritical dependency: the request of a dependency is an expression[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/cli-highlight/dist/index.js[39m[22m
+[1mModule Warning (from ../node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'F:\chikiet\BEKetoan\node_modules\cli-highlight\src\index.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'F:\chikiet\BEKetoan\node_modules\cli-highlight\src\index.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/cli-highlight/dist/theme.js[39m[22m
+[1mModule Warning (from ../node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'F:\chikiet\BEKetoan\node_modules\cli-highlight\src\theme.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'F:\chikiet\BEKetoan\node_modules\cli-highlight\src\theme.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/connection/ConnectionOptionsReader.js[39m[22m [1m[32m118:32-51[39m[22m
+[1mCritical dependency: the request of a dependency is an expression[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/driver/react-native/ReactNativeDriver.js[39m[22m [1m[32m720:50-88[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'react-native-sqlite-storage' in 'F:\chikiet\BEKetoan\node_modules\typeorm\driver\react-native'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m42:27-59[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve '@google-cloud/spanner' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m47:27-45[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'mongodb' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m52:27-54[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve '@sap/hana-client' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m54:27-46[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'hdb-pool' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m59:27-43[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'mysql' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m66:27-46[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'oracledb' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m71:27-40[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'pg' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m73:27-47[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'pg-native' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m75:27-53[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'pg-query-stream' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m77:27-68[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'typeorm-aurora-data-api-driver' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m82:27-43[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'redis' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m84:27-45[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'ioredis' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m89:27-52[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'better-sqlite3' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m94:27-45[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'sqlite3' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m99:27-44[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'sql.js' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m104:27-43[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'mssql' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m109:27-65[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'react-native-sqlite-storage' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m113:19-81[39m[22m
+[1mCritical dependency: the request of a dependency is an expression[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/util/DirectoryExportedClassesLoader.js[39m[22m [1m[32m62:23-79[39m[22m
+[1mCritical dependency: the request of a dependency is an expression[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/util/ImportUtils.js[39m[22m [1m[32m20:16-33[39m[22m
+[1mCritical dependency: the request of a dependency is an expression[39m[22m
+
+webpack compiled with [1m[33m25 warnings[39m[22m (039d1dc1e4d0db25)
+[1m[31mDebugger listening on ws://localhost:9229/c7f45530-738a-4c0e-b5b0-fa50d1122ef0[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/c7f45530-738a-4c0e-b5b0-fa50d1122ef0[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 5.27 MiB (javascript) 937 bytes (runtime) [1m[33m[entry][39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/app-root-path/lib/app-root-path.js[39m[22m [1m[32m14:10-56[39m[22m
+[1mCritical dependency: the request of a dependency is an expression[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/cli-highlight/dist/index.js[39m[22m
+[1mModule Warning (from ../node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'F:\chikiet\BEKetoan\node_modules\cli-highlight\src\index.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'F:\chikiet\BEKetoan\node_modules\cli-highlight\src\index.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/cli-highlight/dist/theme.js[39m[22m
+[1mModule Warning (from ../node_modules/source-map-loader/dist/cjs.js):
+[1m[31mFailed[39m[22m[1m to parse source map from 'F:\chikiet\BEKetoan\node_modules\cli-highlight\src\theme.ts' file: [1m[31mError[39m[22m[1m: ENOENT: no such file or directory, open 'F:\chikiet\BEKetoan\node_modules\cli-highlight\src\theme.ts'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/connection/ConnectionOptionsReader.js[39m[22m [1m[32m118:32-51[39m[22m
+[1mCritical dependency: the request of a dependency is an expression[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/driver/react-native/ReactNativeDriver.js[39m[22m [1m[32m720:50-88[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'react-native-sqlite-storage' in 'F:\chikiet\BEKetoan\node_modules\typeorm\driver\react-native'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m42:27-59[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve '@google-cloud/spanner' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m47:27-45[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'mongodb' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m52:27-54[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve '@sap/hana-client' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m54:27-46[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'hdb-pool' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m59:27-43[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'mysql' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m66:27-46[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'oracledb' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m71:27-40[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'pg' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m73:27-47[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'pg-native' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m75:27-53[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'pg-query-stream' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m77:27-68[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'typeorm-aurora-data-api-driver' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m82:27-43[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'redis' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m84:27-45[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'ioredis' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m89:27-52[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'better-sqlite3' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m94:27-45[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'sqlite3' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m99:27-44[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'sql.js' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m104:27-43[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'mssql' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m109:27-65[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve 'react-native-sqlite-storage' in 'F:\chikiet\BEKetoan\node_modules\typeorm\platform'[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/platform/PlatformTools.js[39m[22m [1m[32m113:19-81[39m[22m
+[1mCritical dependency: the request of a dependency is an expression[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/util/DirectoryExportedClassesLoader.js[39m[22m [1m[32m62:23-79[39m[22m
+[1mCritical dependency: the request of a dependency is an expression[39m[22m
+
+[1m[33mWARNING[39m[22m in [1m../node_modules/typeorm/util/ImportUtils.js[39m[22m [1m[32m20:16-33[39m[22m
+[1mCritical dependency: the request of a dependency is an expression[39m[22m
+
+webpack compiled with [1m[33m25 warnings[39m[22m (039d1dc1e4d0db25)
+[1m[31mDebugger listening on ws://localhost:9229/47165498-859b-4555-b81b-7654609c0b6d[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/47165498-859b-4555-b81b-7654609c0b6d[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mF:\chikiet\BEKetoan\node_modules\@nx\js\src\executors\node\node-with-require-overrides.js:18[39m[22m
+[1m[31m        return originalLoader.apply(this, arguments);[39m[22m
+[1m[31m                              ^[39m[22m
+[1m[31mError [ERR_REQUIRE_ESM]: require() of ES Module F:\chikiet\BEKetoan\node_modules\@babel\runtime\helpers\esm\typeof.js from F:\chikiet\BEKetoan\dist\be_ketoan\main.js not supported.[39m[22m
+[1m[31mInstead change the require of typeof.js in F:\chikiet\BEKetoan\dist\be_ketoan\main.js to a dynamic import() which is available in all CommonJS modules.[39m[22m
+[1m[31m    at Module._load (F:\chikiet\BEKetoan\node_modules\@nx\js\src\executors\node\node-with-require-overrides.js:18:31)[39m[22m
+[1m[31m    at Object.defineProperty.value (F:\chikiet\BEKetoan\dist\be_ketoan\main.js:77301:32)[39m[22m
+[1m[31m    at __webpack_require__ (F:\chikiet\BEKetoan\dist\be_ketoan\main.js:146239:42)[39m[22m
+[1m[31m    at Object.<anonymous> (F:\chikiet\BEKetoan\dist\be_ketoan\main.js:76807:20)[39m[22m
+[1m[31m    at __webpack_require__ (F:\chikiet\BEKetoan\dist\be_ketoan\main.js:146239:42)[39m[22m
+[1m[31m[39m[22m
+
+[36m>[39m [7m[1m[36m NX [39m[22m[27m [1mProcess exited with code 1, waiting for changes to restart...[22m
+

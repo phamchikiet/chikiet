@@ -1,0 +1,515 @@
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (f4c9856eefb7daa3)
+[1m[31mDebugger listening on ws://localhost:9229/38f13b5a-ce6d-4731-be91-615a2fc7ad9c[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/38f13b5a-ce6d-4731-be91-615a2fc7ad9c[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31m{}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{}[39m[22m
+[1m[31m[39m[22m
+[1m[31m{}[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m14:37[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'a'.
+  [0m [90m 12 |[39m   ) {}[0m
+  [0m [90m 13 |[39m   [36masync[39m create([33mCreateHoadonhhpDto[39m[33m:[39m [33mCreateHoadonhhpDto[39m) {[0m
+  [0m[31m[1m>[22m[39m[90m 14 |[39m     [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mcreate(a)[33m;[39m[0m
+  [0m [90m    |[39m                                     [31m[1m^[22m[39m[0m
+  [0m [90m 15 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39msave([33mCreateHoadonhhpDto[39m)[33m;[39m[0m
+  [0m [90m 16 |[39m   }[0m
+  [0m [90m 17 |[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (ea354a6f1377bb39)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m14:37[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'a'.
+  [0m [90m 12 |[39m   ) {}[0m
+  [0m [90m 13 |[39m   [36masync[39m create(data[33m:[39m any) {[0m
+  [0m[31m[1m>[22m[39m[90m 14 |[39m     [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mcreate(a)[33m;[39m[0m
+  [0m [90m    |[39m                                     [31m[1m^[22m[39m[0m
+  [0m [90m 15 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39msave([33mCreateHoadonhhpDto[39m)[33m;[39m[0m
+  [0m [90m 16 |[39m   }[0m
+  [0m [90m 17 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m15:48[22m[39m[1m[39m[22m
+[90mTS2769: [39mNo overload matches this call.
+  Overload 1 of 4, '(entities: DeepPartial<HoadonhhpEntity>[], options?: SaveOptions): Promise<(DeepPartial<HoadonhhpEntity> & HoadonhhpEntity)[]>', gave the following error.
+    Argument of type 'typeof CreateHoadonhhpDto' is not assignable to parameter of type 'DeepPartial<HoadonhhpEntity>[]'.
+      Type 'typeof CreateHoadonhhpDto' is missing the following properties from type 'DeepPartial<HoadonhhpEntity>[]': pop, push, concat, join, and 28 more.
+  Overload 2 of 4, '(entity: DeepPartial<HoadonhhpEntity>, options?: SaveOptions): Promise<DeepPartial<HoadonhhpEntity> & HoadonhhpEntity>', gave the following error.
+    Argument of type 'typeof CreateHoadonhhpDto' is not assignable to parameter of type 'DeepPartial<HoadonhhpEntity>'.
+  [0m [90m 13 |[39m   [36masync[39m create(data[33m:[39m any) {[0m
+  [0m [90m 14 |[39m     [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mcreate(a)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 15 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39msave([33mCreateHoadonhhpDto[39m)[33m;[39m[0m
+  [0m [90m    |[39m                                                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 16 |[39m   }[0m
+  [0m [90m 17 |[39m[0m
+  [0m [90m 18 |[39m   [36masync[39m findAll() {[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (a58d4b2557ca0c7b)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m15:48[22m[39m[1m[39m[22m
+[90mTS2769: [39mNo overload matches this call.
+  Overload 1 of 4, '(entities: DeepPartial<HoadonhhpEntity>[], options?: SaveOptions): Promise<(DeepPartial<HoadonhhpEntity> & HoadonhhpEntity)[]>', gave the following error.
+    Argument of type 'typeof CreateHoadonhhpDto' is not assignable to parameter of type 'DeepPartial<HoadonhhpEntity>[]'.
+      Type 'typeof CreateHoadonhhpDto' is missing the following properties from type 'DeepPartial<HoadonhhpEntity>[]': pop, push, concat, join, and 28 more.
+  Overload 2 of 4, '(entity: DeepPartial<HoadonhhpEntity>, options?: SaveOptions): Promise<DeepPartial<HoadonhhpEntity> & HoadonhhpEntity>', gave the following error.
+    Argument of type 'typeof CreateHoadonhhpDto' is not assignable to parameter of type 'DeepPartial<HoadonhhpEntity>'.
+  [0m [90m 13 |[39m   [36masync[39m create(data[33m:[39m any) {[0m
+  [0m [90m 14 |[39m     [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mcreate(data)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 15 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39msave([33mCreateHoadonhhpDto[39m)[33m;[39m[0m
+  [0m [90m    |[39m                                                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 16 |[39m   }[0m
+  [0m [90m 17 |[39m[0m
+  [0m [90m 18 |[39m   [36masync[39m findAll() {[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (1e771c7a6292bfd5)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (1f2f3fc9216a7385)
+[1m[31mDebugger listening on ws://localhost:9229/60869f2a-5943-4052-a7e1-a69dc06eed1b[39m[22m
+[1m[31m[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/60869f2a-5943-4052-a7e1-a69dc06eed1b[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/hoadonhhp/hoadonhhp.service.ts[39m[22m [1m[32m15:14[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: [1m[31mUnexpected[39m[22m[1m token (15:14)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|     }
+|     async create(data) {
+>         const ;
+|         this.HoadonhhpRepository.create(data);
+|         return await this.HoadonhhpRepository.save(data);[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts[39m[22m
+[90mTS1123: [39mVariable declaration list cannot be empty.
+
+webpack compiled with [1m[31m2 errors[39m[22m (0cd0b8444af4bf4f)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m14:19[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'fi'.
+  [0m [90m 12 |[39m   ) {}[0m
+  [0m [90m 13 |[39m   [36masync[39m create(data[33m:[39m any) {[0m
+  [0m[31m[1m>[22m[39m[90m 14 |[39m     [36mconst[39m check [33m=[39m fi[0m
+  [0m [90m    |[39m                   [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 15 |[39m     [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mcreate(data)[33m;[39m[0m
+  [0m [90m 16 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39msave(data)[33m;[39m[0m
+  [0m [90m 17 |[39m   }[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (8df23ceeafdef828)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m14:19[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'fi'.
+  [0m [90m 12 |[39m   ) {}[0m
+  [0m [90m 13 |[39m   [36masync[39m create(data[33m:[39m any) {[0m
+  [0m[31m[1m>[22m[39m[90m 14 |[39m     [36mconst[39m check [33m=[39m fi[0m
+  [0m [90m    |[39m                   [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 15 |[39m     [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mcreate(data)[33m;[39m[0m
+  [0m [90m 16 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39msave(data)[33m;[39m[0m
+  [0m [90m 17 |[39m   }[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (c9a705680737bd7e)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m14:19[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'fi'.
+  [0m [90m 12 |[39m   ) {}[0m
+  [0m [90m 13 |[39m   [36masync[39m create(data[33m:[39m any) {[0m
+  [0m[31m[1m>[22m[39m[90m 14 |[39m     [36mconst[39m check [33m=[39m fi[0m
+  [0m [90m    |[39m                   [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 15 |[39m     [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mcreate(data)[33m;[39m[0m
+  [0m [90m 16 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39msave(data)[33m;[39m[0m
+  [0m [90m 17 |[39m   }[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (aa81efe1b0a2d8ef)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m14:19[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'fi'.
+  [0m [90m 12 |[39m   ) {}[0m
+  [0m [90m 13 |[39m   [36masync[39m create(data[33m:[39m any) {[0m
+  [0m[31m[1m>[22m[39m[90m 14 |[39m     [36mconst[39m check [33m=[39m fi[0m
+  [0m [90m    |[39m                   [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 15 |[39m     [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mcreate(data)[33m;[39m[0m
+  [0m [90m 16 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39msave(data)[33m;[39m[0m
+  [0m [90m 17 |[39m   }[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (3d302f1fcf55ab24)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m14:19[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'fi'.
+  [0m [90m 12 |[39m   ) {}[0m
+  [0m [90m 13 |[39m   [36masync[39m create(data[33m:[39m any) {[0m
+  [0m[31m[1m>[22m[39m[90m 14 |[39m     [36mconst[39m check [33m=[39m fi[0m
+  [0m [90m    |[39m                   [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 15 |[39m     [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mcreate(data)[33m;[39m[0m
+  [0m [90m 16 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39msave(data)[33m;[39m[0m
+  [0m [90m 17 |[39m   }[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (3d302f1fcf55ab24)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m14:19[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'fi'.
+  [0m [90m 12 |[39m   ) {}[0m
+  [0m [90m 13 |[39m   [36masync[39m create(data[33m:[39m any) {[0m
+  [0m[31m[1m>[22m[39m[90m 14 |[39m     [36mconst[39m check [33m=[39m fi[0m
+  [0m [90m    |[39m                   [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 15 |[39m     [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mcreate(data)[33m;[39m[0m
+  [0m [90m 16 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39msave(data)[33m;[39m[0m
+  [0m [90m 17 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m22:9[22m[39m[1m[39m[22m
+[90mTS2393: [39mDuplicate function implementation.
+  [0m [90m 20 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mfind()[33m;[39m[0m
+  [0m [90m 21 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 22 |[39m   [36masync[39m findid(id[33m:[39m string) {[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 23 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mfindOne({where[33m:[39m { id[33m:[39m id }})[33m;[39m[0m
+  [0m [90m 24 |[39m   }[0m
+  [0m [90m 25 |[39m   [36masync[39m findid(id[33m:[39m string) {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m25:9[22m[39m[1m[39m[22m
+[90mTS2393: [39mDuplicate function implementation.
+  [0m [90m 23 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mfindOne({where[33m:[39m { id[33m:[39m id }})[33m;[39m[0m
+  [0m [90m 24 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 25 |[39m   [36masync[39m findid(id[33m:[39m string) {[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 26 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mfindOne({where[33m:[39m { id[33m:[39m id }})[33m;[39m[0m
+  [0m [90m 27 |[39m   }[0m
+  [0m [90m 28 |[39m   [36masync[39m findslug([33mSHD[39m[33m:[39m any) {[0m
+
+webpack compiled with [1m[31m3 errors[39m[22m (a7bbc2f2b86f9c1e)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m14:19[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'fi'.
+  [0m [90m 12 |[39m   ) {}[0m
+  [0m [90m 13 |[39m   [36masync[39m create(data[33m:[39m any) {[0m
+  [0m[31m[1m>[22m[39m[90m 14 |[39m     [36mconst[39m check [33m=[39m fi[0m
+  [0m [90m    |[39m                   [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 15 |[39m     [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mcreate(data)[33m;[39m[0m
+  [0m [90m 16 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39msave(data)[33m;[39m[0m
+  [0m [90m 17 |[39m   }[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (2315787167e582ce)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m14:19[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'fi'.
+  [0m [90m 12 |[39m   ) {}[0m
+  [0m [90m 13 |[39m   [36masync[39m create(data[33m:[39m any) {[0m
+  [0m[31m[1m>[22m[39m[90m 14 |[39m     [36mconst[39m check [33m=[39m fi[0m
+  [0m [90m    |[39m                   [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 15 |[39m     [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mcreate(data)[33m;[39m[0m
+  [0m [90m 16 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39msave(data)[33m;[39m[0m
+  [0m [90m 17 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m26:65[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'id'.
+  [0m [90m 24 |[39m   }[0m
+  [0m [90m 25 |[39m   [36masync[39m findSHD([33mSD[39m[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 26 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mfindOne({where[33m:[39m { id[33m:[39m id }})[33m;[39m[0m
+  [0m [90m    |[39m                                                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 27 |[39m   }[0m
+  [0m [90m 28 |[39m   [36masync[39m findslug([33mSHD[39m[33m:[39m any) {[0m
+  [0m [90m 29 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mfindOne({[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (84253cc113740ecd)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m14:19[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'fi'.
+  [0m [90m 12 |[39m   ) {}[0m
+  [0m [90m 13 |[39m   [36masync[39m create(data[33m:[39m any) {[0m
+  [0m[31m[1m>[22m[39m[90m 14 |[39m     [36mconst[39m check [33m=[39m fi[0m
+  [0m [90m    |[39m                   [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 15 |[39m     [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mcreate(data)[33m;[39m[0m
+  [0m [90m 16 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39msave(data)[33m;[39m[0m
+  [0m [90m 17 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m26:65[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'id'.
+  [0m [90m 24 |[39m   }[0m
+  [0m [90m 25 |[39m   [36masync[39m findSHD([33mSHD[39m[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 26 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mfindOne({where[33m:[39m { id[33m:[39m id }})[33m;[39m[0m
+  [0m [90m    |[39m                                                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 27 |[39m   }[0m
+  [0m [90m 28 |[39m   [36masync[39m findslug([33mSHD[39m[33m:[39m any) {[0m
+  [0m [90m 29 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mfindOne({[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (005e8e6f66dfdbe0)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m14:19[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'fi'.
+  [0m [90m 12 |[39m   ) {}[0m
+  [0m [90m 13 |[39m   [36masync[39m create(data[33m:[39m any) {[0m
+  [0m[31m[1m>[22m[39m[90m 14 |[39m     [36mconst[39m check [33m=[39m fi[0m
+  [0m [90m    |[39m                   [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 15 |[39m     [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mcreate(data)[33m;[39m[0m
+  [0m [90m 16 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39msave(data)[33m;[39m[0m
+  [0m [90m 17 |[39m   }[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (b9697d650deb0e2d)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m14:19[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'fi'.
+  [0m [90m 12 |[39m   ) {}[0m
+  [0m [90m 13 |[39m   [36masync[39m create(data[33m:[39m any) {[0m
+  [0m[31m[1m>[22m[39m[90m 14 |[39m     [36mconst[39m check [33m=[39m fi[0m
+  [0m [90m    |[39m                   [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 15 |[39m     [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mcreate(data)[33m;[39m[0m
+  [0m [90m 16 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39msave(data)[33m;[39m[0m
+  [0m [90m 17 |[39m   }[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (b9697d650deb0e2d)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m14:19[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'fi'.
+  [0m [90m 12 |[39m   ) {}[0m
+  [0m [90m 13 |[39m   [36masync[39m create(data[33m:[39m any) {[0m
+  [0m[31m[1m>[22m[39m[90m 14 |[39m     [36mconst[39m check [33m=[39m fi[0m
+  [0m [90m    |[39m                   [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 15 |[39m     [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mcreate(data)[33m;[39m[0m
+  [0m [90m 16 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39msave(data)[33m;[39m[0m
+  [0m [90m 17 |[39m   }[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (b9697d650deb0e2d)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m14:19[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'fi'.
+  [0m [90m 12 |[39m   ) {}[0m
+  [0m [90m 13 |[39m   [36masync[39m create(data[33m:[39m any) {[0m
+  [0m[31m[1m>[22m[39m[90m 14 |[39m     [36mconst[39m check [33m=[39m fi[0m
+  [0m [90m    |[39m                   [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 15 |[39m     [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mcreate(data)[33m;[39m[0m
+  [0m [90m 16 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39msave(data)[33m;[39m[0m
+  [0m [90m 17 |[39m   }[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (b9697d650deb0e2d)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m14:19[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'fi'.
+  [0m [90m 12 |[39m   ) {}[0m
+  [0m [90m 13 |[39m   [36masync[39m create(data[33m:[39m any) {[0m
+  [0m[31m[1m>[22m[39m[90m 14 |[39m     [36mconst[39m check [33m=[39m fi[0m
+  [0m [90m    |[39m                   [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 15 |[39m     [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mcreate(data)[33m;[39m[0m
+  [0m [90m 16 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39msave(data)[33m;[39m[0m
+  [0m [90m 17 |[39m   }[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (b9697d650deb0e2d)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m14:19[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'fi'.
+  [0m [90m 12 |[39m   ) {}[0m
+  [0m [90m 13 |[39m   [36masync[39m create(data[33m:[39m any) {[0m
+  [0m[31m[1m>[22m[39m[90m 14 |[39m     [36mconst[39m check [33m=[39m fi[0m
+  [0m [90m    |[39m                   [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 15 |[39m     [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mcreate(data)[33m;[39m[0m
+  [0m [90m 16 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39msave(data)[33m;[39m[0m
+  [0m [90m 17 |[39m   }[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (b9697d650deb0e2d)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m14:19[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'fi'.
+  [0m [90m 12 |[39m   ) {}[0m
+  [0m [90m 13 |[39m   [36masync[39m create(data[33m:[39m any) {[0m
+  [0m[31m[1m>[22m[39m[90m 14 |[39m     [36mconst[39m check [33m=[39m fi[0m
+  [0m [90m    |[39m                   [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 15 |[39m     [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39mcreate(data)[33m;[39m[0m
+  [0m [90m 16 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mHoadonhhpRepository[39m[33m.[39msave(data)[33m;[39m[0m
+  [0m [90m 17 |[39m   }[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (b9697d650deb0e2d)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (c16169defa2b6530)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (d2e70a2775842172)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (d2e70a2775842172)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (d514a88a91c5986a)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (41770e179fd8a898)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (8df2d2185d01d211)
+[1m[31mDebugger listening on ws://localhost:9229/632d605e-c1eb-4d17-b70b-9611a7e9a50b[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/632d605e-c1eb-4d17-b70b-9611a7e9a50b[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (68d5afeefff0e25e)
+[1m[31mDebugger listening on ws://localhost:9229/6024ef12-3b6a-4851-9f95-ef3387890b26[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/6024ef12-3b6a-4851-9f95-ef3387890b26[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (515b13d28eeb5b98)
+[1m[31mDebugger listening on ws://localhost:9229/8a916e87-98d6-4760-86a8-9be8d0dede8c[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/8a916e87-98d6-4760-86a8-9be8d0dede8c[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m21:15[22m[39m[1m[39m[22m
+[90mTS2552: [39mCannot find name 'error'. Did you mean 'Error'?
+  [0m [90m 19 |[39m     }[0m
+  [0m [90m 20 |[39m     [36melse[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 21 |[39m       [36mreturn[39m {error}[0m
+  [0m [90m    |[39m               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 22 |[39m     }[0m
+  [0m [90m 23 |[39m[0m
+  [0m [90m 24 |[39m   }[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (8be64836721a592f)
+[1m[31mDebugger listening on ws://localhost:9229/176c9f2f-2032-48b3-a847-bc9b470695a3[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/176c9f2f-2032-48b3-a847-bc9b470695a3[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 110 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts[39m[22m
+[1m./src/app/hoadonhhp/hoadonhhp.service.ts[39m[22m [1m[32m21:20-21[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts(21,21)[39m[22m
+[1m[31m      TS1109: Expression expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/hoadonhhp/hoadonhhp.service.ts[39m[22m [1m[32m21:29[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: [1m[31mUnexpected[39m[22m[1m token (21:29)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|         }
+|         else {
+>             return { [1m[31merror[39m[22m[1m:  };
+|         }
+|     }[39m[22m
+
+webpack compiled with [1m[31m2 errors[39m[22m (803d31c07ae5bbfe)
+[1m[31mDebugger listening on ws://localhost:9229/c1976b12-d4c1-4690-bb48-c125e17e27fe[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/c1976b12-d4c1-4690-bb48-c125e17e27fe[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mF:\chikiet\BEKetoan\dist\be_ketoan\main.js:2783[39m[22m
+[1m[31mthrow new Error("Module parse failed: Unexpected token (21:29)\nFile was processed with these loaders:\n * ../node_modules/ts-loader/index.js\nYou may need an additional loader to handle the result of these loaders.\n|         }\n|         else {\n>             return { error:  };\n|         }\n|     }");[39m[22m
+[1m[31m      ^[39m[22m
+[1m[31mError: Module parse failed: Unexpected token (21:29)[39m[22m
+[1m[31mFile was processed with these loaders:[39m[22m
+[1m[31m * ../node_modules/ts-loader/index.js[39m[22m
+[1m[31mYou may need an additional loader to handle the result of these loaders.[39m[22m
+[1m[31m|         }[39m[22m
+[1m[31m|         else {[39m[22m
+[1m[31m>             return { error:  };[39m[22m
+[1m[31m|         }[39m[22m
+[1m[31m|     }[39m[22m
+[1m[31m    at Array.Object.defineProperty.value (F:\chikiet\BEKetoan\dist\be_ketoan\main.js:2783:7)[39m[22m
+[1m[31m    at __webpack_require__ (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\webpack\bootstrap:19:1)[39m[22m
+[1m[31m    at Array.Object.defineProperty.value (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\hoadonhhp\hoadonhhp.module.ts:2:1)[39m[22m
+[1m[31m    at __webpack_require__ (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\webpack\bootstrap:19:1)[39m[22m
+[1m[31m    at Array.<anonymous> (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\app.module.ts:13:1)[39m[22m
+[1m[31m    at __webpack_require__ (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\webpack\bootstrap:19:1)[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\main.ts:9:1[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\dist\be_ketoan\main.js:3026:3[39m[22m
+[1m[31m    at Object.<anonymous> (F:\chikiet\BEKetoan\dist\be_ketoan\main.js:3028:12)[39m[22m
+[1m[31m    at Module._compile (node:internal/modules/cjs/loader:1376:14)[39m[22m
+[1m[31m[39m[22m
+
+[36m>[39m [7m[1m[36m NX [39m[22m[27m [1mProcess exited with code 1, waiting for changes to restart...[22m
+

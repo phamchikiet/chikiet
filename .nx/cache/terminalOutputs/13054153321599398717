@@ -1,0 +1,1626 @@
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 26.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (c9ec2de607ed26fe)
+[1m[31mDebugger listening on ws://localhost:9229/da31babd-a88a-4d5e-a595-ce56d6aa5fb4[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/da31babd-a88a-4d5e-a595-ce56d6aa5fb4[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 26.6 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (c9ec2de607ed26fe)
+[1m[31mDebugger listening on ws://localhost:9229/3248c9c1-3923-4b8a-9550-68a925490cc7[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/3248c9c1-3923-4b8a-9550-68a925490cc7[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 21076  - [39m[31m12/17/2023, 9:49:37 PM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mYou have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-10' at line 1[39m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mQueryFailedError: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '-10' at line 1[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 26.6 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (c9ec2de607ed26fe)
+[1m[31mDebugger listening on ws://localhost:9229/d35adafc-9bd0-4e88-bce9-c0aceb787415[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/d35adafc-9bd0-4e88-bce9-c0aceb787415[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 31.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (16105bd2bcabcb74)
+[1m[31mDebugger listening on ws://localhost:9229/98b35545-243a-41f7-8ec0-75b99a892f07[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/98b35545-243a-41f7-8ec0-75b99a892f07[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 31.6 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (16105bd2bcabcb74)
+[1m[31mDebugger listening on ws://localhost:9229/8addbf8b-70be-402f-a469-db1c27cb5297[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/8addbf8b-70be-402f-a469-db1c27cb5297[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 37.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (56041b04acc5c7f2)
+[1m[31mDebugger listening on ws://localhost:9229/6f179cf4-e1e0-44b0-9703-005109ef406f[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/6f179cf4-e1e0-44b0-9703-005109ef406f[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 37.2 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (56041b04acc5c7f2)
+[1m[31mDebugger listening on ws://localhost:9229/fe4e99b7-ec1c-4877-94a6-549d4d747d88[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/fe4e99b7-ec1c-4877-94a6-549d4d747d88[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 36.4 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.controller.ts:[32m[1m2:31[22m[39m[1m[39m[22m
+[90mTS2306: [39mFile 'F:/chikiet/BEKetoan/be_ketoan/src/app/muavao/muavao.service.ts' is not a module.
+  [0m [90m 1 |[39m [36mimport[39m { [33mController[39m[33m,[39m [33mGet[39m[33m,[39m [33mPost[39m[33m,[39m [33mBody[39m[33m,[39m [33mPatch[39m[33m,[39m [33mParam[39m[33m,[39m [33mDelete[39m } [36mfrom[39m [32m'@nestjs/common'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 2 |[39m [36mimport[39m { [33mMuavaoService[39m } [36mfrom[39m [32m'./muavao.service'[39m[33m;[39m[0m
+  [0m [90m   |[39m                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m { [33mCreateMuavaoDto[39m } [36mfrom[39m [32m'./dto/create-muavao.dto'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mUpdateMuavaoDto[39m } [36mfrom[39m [32m'./dto/update-muavao.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.module.ts:[32m[1m2:31[22m[39m[1m[39m[22m
+[90mTS2306: [39mFile 'F:/chikiet/BEKetoan/be_ketoan/src/app/muavao/muavao.service.ts' is not a module.
+  [0m [90m 1 |[39m [36mimport[39m { [33mModule[39m } [36mfrom[39m [32m'@nestjs/common'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 2 |[39m [36mimport[39m { [33mMuavaoService[39m } [36mfrom[39m [32m'./muavao.service'[39m[33m;[39m[0m
+  [0m [90m   |[39m                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m { [33mMuavaoController[39m } [36mfrom[39m [32m'./muavao.controller'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m[0m
+  [0m [90m 5 |[39m [33m@[39m[33mModule[39m({[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.service.ts[39m[22m
+[90mTS2304: [39mCannot find name 'k_a'.
+
+webpack compiled with [1m[31m3 errors[39m[22m (d110e6cd5549c6b2)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 38.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/muavao/muavao.service.ts[39m[22m [1m[32m9:24-59[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './entities/dichvu.entity' in 'F:\chikiet\BEKetoan\be_ketoan\src\app\muavao'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.controller.ts:[32m[1m2:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./muavao.service"' has no exported member 'MuavaoService'.
+  [0m [90m 1 |[39m [36mimport[39m { [33mController[39m[33m,[39m [33mGet[39m[33m,[39m [33mPost[39m[33m,[39m [33mBody[39m[33m,[39m [33mPatch[39m[33m,[39m [33mParam[39m[33m,[39m [33mDelete[39m } [36mfrom[39m [32m'@nestjs/common'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 2 |[39m [36mimport[39m { [33mMuavaoService[39m } [36mfrom[39m [32m'./muavao.service'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m { [33mCreateMuavaoDto[39m } [36mfrom[39m [32m'./dto/create-muavao.dto'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mUpdateMuavaoDto[39m } [36mfrom[39m [32m'./dto/update-muavao.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.module.ts:[32m[1m2:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./muavao.service"' has no exported member 'MuavaoService'.
+  [0m [90m 1 |[39m [36mimport[39m { [33mModule[39m } [36mfrom[39m [32m'@nestjs/common'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 2 |[39m [36mimport[39m { [33mMuavaoService[39m } [36mfrom[39m [32m'./muavao.service'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m { [33mMuavaoController[39m } [36mfrom[39m [32m'./muavao.controller'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m[0m
+  [0m [90m 5 |[39m [33m@[39m[33mModule[39m({[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.service.ts:[32m[1m4:33[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './dto/create-dichvu.dto' or its corresponding type declarations.
+  [0m [90m 2 |[39m [36mimport[39m { [33mInjectRepository[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m { [33mLike[39m[33m,[39m [33mRepository[39m } [36mfrom[39m [32m'typeorm'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 4 |[39m [36mimport[39m { [33mCreateDichvuDto[39m } [36mfrom[39m [32m'./dto/create-dichvu.dto'[39m[33m;[39m[0m
+  [0m [90m   |[39m                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mUpdateDichvuDto[39m } [36mfrom[39m [32m'./dto/update-dichvu.dto'[39m[33m;[39m[0m
+  [0m [90m 6 |[39m [36mimport[39m { [33mDichvuEntity[39m } [36mfrom[39m [32m'./entities/dichvu.entity'[39m[33m;[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.service.ts:[32m[1m5:33[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './dto/update-dichvu.dto' or its corresponding type declarations.
+  [0m [90m 3 |[39m [36mimport[39m { [33mLike[39m[33m,[39m [33mRepository[39m } [36mfrom[39m [32m'typeorm'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mCreateDichvuDto[39m } [36mfrom[39m [32m'./dto/create-dichvu.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mUpdateDichvuDto[39m } [36mfrom[39m [32m'./dto/update-dichvu.dto'[39m[33m;[39m[0m
+  [0m [90m   |[39m                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 6 |[39m [36mimport[39m { [33mDichvuEntity[39m } [36mfrom[39m [32m'./entities/dichvu.entity'[39m[33m;[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 8 |[39m [36mexport[39m [36mclass[39m [33mDichvuService[39m {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.service.ts:[32m[1m6:30[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './entities/dichvu.entity' or its corresponding type declarations.
+  [0m [90m 4 |[39m [36mimport[39m { [33mCreateDichvuDto[39m } [36mfrom[39m [32m'./dto/create-dichvu.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mUpdateDichvuDto[39m } [36mfrom[39m [32m'./dto/update-dichvu.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mDichvuEntity[39m } [36mfrom[39m [32m'./entities/dichvu.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m                              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 8 |[39m [36mexport[39m [36mclass[39m [33mDichvuService[39m {[0m
+  [0m [90m 9 |[39m   constructor([0m
+
+webpack compiled with [1m[31m6 errors[39m[22m (62b94bf7c0ecf42a)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 38.6 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/muavao/muavao.service.ts[39m[22m [1m[32m9:24-59[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './entities/dichvu.entity' in 'F:\chikiet\BEKetoan\be_ketoan\src\app\muavao'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.controller.ts:[32m[1m2:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./muavao.service"' has no exported member 'MuavaoService'.
+  [0m [90m 1 |[39m [36mimport[39m { [33mController[39m[33m,[39m [33mGet[39m[33m,[39m [33mPost[39m[33m,[39m [33mBody[39m[33m,[39m [33mPatch[39m[33m,[39m [33mParam[39m[33m,[39m [33mDelete[39m } [36mfrom[39m [32m'@nestjs/common'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 2 |[39m [36mimport[39m { [33mMuavaoService[39m } [36mfrom[39m [32m'./muavao.service'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m { [33mCreateMuavaoDto[39m } [36mfrom[39m [32m'./dto/create-muavao.dto'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mUpdateMuavaoDto[39m } [36mfrom[39m [32m'./dto/update-muavao.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.module.ts:[32m[1m2:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./muavao.service"' has no exported member 'MuavaoService'.
+  [0m [90m 1 |[39m [36mimport[39m { [33mModule[39m } [36mfrom[39m [32m'@nestjs/common'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 2 |[39m [36mimport[39m { [33mMuavaoService[39m } [36mfrom[39m [32m'./muavao.service'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m { [33mMuavaoController[39m } [36mfrom[39m [32m'./muavao.controller'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m[0m
+  [0m [90m 5 |[39m [33m@[39m[33mModule[39m({[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.service.ts:[32m[1m4:33[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './dto/create-dichvu.dto' or its corresponding type declarations.
+  [0m [90m 2 |[39m [36mimport[39m { [33mInjectRepository[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m { [33mLike[39m[33m,[39m [33mRepository[39m } [36mfrom[39m [32m'typeorm'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 4 |[39m [36mimport[39m { [33mCreateDichvuDto[39m } [36mfrom[39m [32m'./dto/create-dichvu.dto'[39m[33m;[39m[0m
+  [0m [90m   |[39m                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mUpdateDichvuDto[39m } [36mfrom[39m [32m'./dto/update-dichvu.dto'[39m[33m;[39m[0m
+  [0m [90m 6 |[39m [36mimport[39m { [33mDichvuEntity[39m } [36mfrom[39m [32m'./entities/dichvu.entity'[39m[33m;[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.service.ts:[32m[1m5:33[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './dto/update-dichvu.dto' or its corresponding type declarations.
+  [0m [90m 3 |[39m [36mimport[39m { [33mLike[39m[33m,[39m [33mRepository[39m } [36mfrom[39m [32m'typeorm'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mCreateDichvuDto[39m } [36mfrom[39m [32m'./dto/create-dichvu.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mUpdateDichvuDto[39m } [36mfrom[39m [32m'./dto/update-dichvu.dto'[39m[33m;[39m[0m
+  [0m [90m   |[39m                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 6 |[39m [36mimport[39m { [33mDichvuEntity[39m } [36mfrom[39m [32m'./entities/dichvu.entity'[39m[33m;[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 8 |[39m [36mexport[39m [36mclass[39m [33mDichvuService[39m {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.service.ts:[32m[1m6:30[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './entities/dichvu.entity' or its corresponding type declarations.
+  [0m [90m 4 |[39m [36mimport[39m { [33mCreateDichvuDto[39m } [36mfrom[39m [32m'./dto/create-dichvu.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mUpdateDichvuDto[39m } [36mfrom[39m [32m'./dto/update-dichvu.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mDichvuEntity[39m } [36mfrom[39m [32m'./entities/dichvu.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m                              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 8 |[39m [36mexport[39m [36mclass[39m [33mDichvuService[39m {[0m
+  [0m [90m 9 |[39m   constructor([0m
+
+webpack compiled with [1m[31m6 errors[39m[22m (62b94bf7c0ecf42a)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 38.8 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.controller.ts:[32m[1m22:31[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findOne' does not exist on type 'MuavaoService'.
+  [0m [90m 20 |[39m   [33m@[39m[33mGet[39m([32m':id'[39m)[0m
+  [0m [90m 21 |[39m   findOne([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 22 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mmuavaoService[33m.[39mfindOne([33m+[39mid)[33m;[39m[0m
+  [0m [90m    |[39m                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 23 |[39m   }[0m
+  [0m [90m 24 |[39m[0m
+  [0m [90m 25 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.controller.ts:[32m[1m27:38[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'number' is not assignable to parameter of type 'string'.
+  [0m [90m 25 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+  [0m [90m 26 |[39m   update([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string[33m,[39m [33m@[39m[33mBody[39m() updateMuavaoDto[33m:[39m [33mUpdateMuavaoDto[39m) {[0m
+  [0m[31m[1m>[22m[39m[90m 27 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mmuavaoService[33m.[39mupdate([33m+[39mid[33m,[39m updateMuavaoDto)[33m;[39m[0m
+  [0m [90m    |[39m                                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 28 |[39m   }[0m
+  [0m [90m 29 |[39m[0m
+  [0m [90m 30 |[39m   [33m@[39m[33mDelete[39m([32m':id'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.controller.ts:[32m[1m32:38[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'number' is not assignable to parameter of type 'string'.
+  [0m [90m 30 |[39m   [33m@[39m[33mDelete[39m([32m':id'[39m)[0m
+  [0m [90m 31 |[39m   remove([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 32 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mmuavaoService[33m.[39mremove([33m+[39mid)[33m;[39m[0m
+  [0m [90m    |[39m                                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 33 |[39m   }[0m
+  [0m [90m 34 |[39m }[0m
+  [0m [90m 35 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.service.ts:[32m[1m6:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./entities/muavao.entity"' has no exported member 'MuavaoEntity'.
+  [0m [90m 4 |[39m [36mimport[39m { [33mCreateMuavaoDto[39m } [36mfrom[39m [32m'./dto/create-muavao.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mUpdateMuavaoDto[39m } [36mfrom[39m [32m'./dto/update-muavao.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mMuavaoEntity[39m } [36mfrom[39m [32m'./entities/muavao.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 8 |[39m [36mexport[39m [36mclass[39m [33mMuavaoService[39m {[0m
+  [0m [90m 9 |[39m   constructor([0m
+
+webpack compiled with [1m[31m4 errors[39m[22m (96f320ea4e54eeb1)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 38.8 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.controller.ts:[32m[1m22:31[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findOne' does not exist on type 'MuavaoService'.
+  [0m [90m 20 |[39m   [33m@[39m[33mGet[39m([32m':id'[39m)[0m
+  [0m [90m 21 |[39m   findOne([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 22 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mmuavaoService[33m.[39mfindOne([33m+[39mid)[33m;[39m[0m
+  [0m [90m    |[39m                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 23 |[39m   }[0m
+  [0m [90m 24 |[39m[0m
+  [0m [90m 25 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.controller.ts:[32m[1m27:38[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'number' is not assignable to parameter of type 'string'.
+  [0m [90m 25 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+  [0m [90m 26 |[39m   update([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string[33m,[39m [33m@[39m[33mBody[39m() updateMuavaoDto[33m:[39m [33mUpdateMuavaoDto[39m) {[0m
+  [0m[31m[1m>[22m[39m[90m 27 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mmuavaoService[33m.[39mupdate([33m+[39mid[33m,[39m updateMuavaoDto)[33m;[39m[0m
+  [0m [90m    |[39m                                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 28 |[39m   }[0m
+  [0m [90m 29 |[39m[0m
+  [0m [90m 30 |[39m   [33m@[39m[33mDelete[39m([32m':id'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.controller.ts:[32m[1m32:38[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'number' is not assignable to parameter of type 'string'.
+  [0m [90m 30 |[39m   [33m@[39m[33mDelete[39m([32m':id'[39m)[0m
+  [0m [90m 31 |[39m   remove([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 32 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mmuavaoService[33m.[39mremove([33m+[39mid)[33m;[39m[0m
+  [0m [90m    |[39m                                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 33 |[39m   }[0m
+  [0m [90m 34 |[39m }[0m
+  [0m [90m 35 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.service.ts:[32m[1m6:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./entities/muavao.entity"' has no exported member 'MuavaoEntity'.
+  [0m [90m 4 |[39m [36mimport[39m { [33mCreateMuavaoDto[39m } [36mfrom[39m [32m'./dto/create-muavao.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mUpdateMuavaoDto[39m } [36mfrom[39m [32m'./dto/update-muavao.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mMuavaoEntity[39m } [36mfrom[39m [32m'./entities/muavao.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 8 |[39m [36mexport[39m [36mclass[39m [33mMuavaoService[39m {[0m
+  [0m [90m 9 |[39m   constructor([0m
+
+webpack compiled with [1m[31m4 errors[39m[22m (96f320ea4e54eeb1)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 38.8 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.controller.ts:[32m[1m22:31[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findOne' does not exist on type 'MuavaoService'.
+  [0m [90m 20 |[39m   [33m@[39m[33mGet[39m([32m':id'[39m)[0m
+  [0m [90m 21 |[39m   findOne([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 22 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mmuavaoService[33m.[39mfindOne([33m+[39mid)[33m;[39m[0m
+  [0m [90m    |[39m                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 23 |[39m   }[0m
+  [0m [90m 24 |[39m[0m
+  [0m [90m 25 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.controller.ts:[32m[1m27:38[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'number' is not assignable to parameter of type 'string'.
+  [0m [90m 25 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+  [0m [90m 26 |[39m   update([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string[33m,[39m [33m@[39m[33mBody[39m() updateMuavaoDto[33m:[39m [33mUpdateMuavaoDto[39m) {[0m
+  [0m[31m[1m>[22m[39m[90m 27 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mmuavaoService[33m.[39mupdate([33m+[39mid[33m,[39m updateMuavaoDto)[33m;[39m[0m
+  [0m [90m    |[39m                                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 28 |[39m   }[0m
+  [0m [90m 29 |[39m[0m
+  [0m [90m 30 |[39m   [33m@[39m[33mDelete[39m([32m':id'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.controller.ts:[32m[1m32:38[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'number' is not assignable to parameter of type 'string'.
+  [0m [90m 30 |[39m   [33m@[39m[33mDelete[39m([32m':id'[39m)[0m
+  [0m [90m 31 |[39m   remove([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 32 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mmuavaoService[33m.[39mremove([33m+[39mid)[33m;[39m[0m
+  [0m [90m    |[39m                                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 33 |[39m   }[0m
+  [0m [90m 34 |[39m }[0m
+  [0m [90m 35 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.service.ts:[32m[1m6:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./entities/muavao.entity"' has no exported member 'MuavaoEntity'.
+  [0m [90m 4 |[39m [36mimport[39m { [33mCreateMuavaoDto[39m } [36mfrom[39m [32m'./dto/create-muavao.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mUpdateMuavaoDto[39m } [36mfrom[39m [32m'./dto/update-muavao.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mMuavaoEntity[39m } [36mfrom[39m [32m'./entities/muavao.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 8 |[39m [36mexport[39m [36mclass[39m [33mMuavaoService[39m {[0m
+  [0m [90m 9 |[39m   constructor([0m
+
+webpack compiled with [1m[31m4 errors[39m[22m (96f320ea4e54eeb1)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 38.8 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.controller.ts:[32m[1m22:31[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findOne' does not exist on type 'MuavaoService'.
+  [0m [90m 20 |[39m   [33m@[39m[33mGet[39m([32m':id'[39m)[0m
+  [0m [90m 21 |[39m   findOne([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 22 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mmuavaoService[33m.[39mfindOne([33m+[39mid)[33m;[39m[0m
+  [0m [90m    |[39m                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 23 |[39m   }[0m
+  [0m [90m 24 |[39m[0m
+  [0m [90m 25 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.controller.ts:[32m[1m27:38[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'number' is not assignable to parameter of type 'string'.
+  [0m [90m 25 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+  [0m [90m 26 |[39m   update([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string[33m,[39m [33m@[39m[33mBody[39m() updateMuavaoDto[33m:[39m [33mUpdateMuavaoDto[39m) {[0m
+  [0m[31m[1m>[22m[39m[90m 27 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mmuavaoService[33m.[39mupdate([33m+[39mid[33m,[39m updateMuavaoDto)[33m;[39m[0m
+  [0m [90m    |[39m                                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 28 |[39m   }[0m
+  [0m [90m 29 |[39m[0m
+  [0m [90m 30 |[39m   [33m@[39m[33mDelete[39m([32m':id'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.controller.ts:[32m[1m32:38[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'number' is not assignable to parameter of type 'string'.
+  [0m [90m 30 |[39m   [33m@[39m[33mDelete[39m([32m':id'[39m)[0m
+  [0m [90m 31 |[39m   remove([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 32 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mmuavaoService[33m.[39mremove([33m+[39mid)[33m;[39m[0m
+  [0m [90m    |[39m                                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 33 |[39m   }[0m
+  [0m [90m 34 |[39m }[0m
+  [0m [90m 35 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.service.ts:[32m[1m6:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./entities/muavao.entity"' has no exported member 'MuavaoEntity'.
+  [0m [90m 4 |[39m [36mimport[39m { [33mCreateMuavaoDto[39m } [36mfrom[39m [32m'./dto/create-muavao.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mUpdateMuavaoDto[39m } [36mfrom[39m [32m'./dto/update-muavao.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mMuavaoEntity[39m } [36mfrom[39m [32m'./entities/muavao.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 8 |[39m [36mexport[39m [36mclass[39m [33mMuavaoService[39m {[0m
+  [0m [90m 9 |[39m   constructor([0m
+
+webpack compiled with [1m[31m4 errors[39m[22m (96f320ea4e54eeb1)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 32.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/app.module.ts:[32m[1m8:30[22m[39m[1m[39m[22m
+[90mTS2306: [39mFile 'F:/chikiet/BEKetoan/be_ketoan/src/app/muavao/muavao.module.ts' is not a module.
+  [0m [90m  6 |[39m [36mimport[39m { hoadonbanraModule } [36mfrom[39m [32m'./hoadonbanra/hoadonbanra.module'[39m[33m;[39m[0m
+  [0m [90m  7 |[39m [36mimport[39m { [33mBanrachitietModule[39m } [36mfrom[39m [32m'./banrachitiet/banrachitiet.module'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m  8 |[39m [36mimport[39m { [33mMuavaoModule[39m } [36mfrom[39m [32m'./muavao/muavao.module'[39m[33m;[39m[0m
+  [0m [90m    |[39m                              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m  9 |[39m [36mimport[39m { [33mMuavaochitietModule[39m } [36mfrom[39m [32m'./muavaochitiet/muavaochitiet.module'[39m[33m;[39m[0m
+  [0m [90m 10 |[39m[0m
+  [0m [90m 11 |[39m [33m@[39m[33mModule[39m({[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.module.ts[39m[22m
+[90mTS2304: [39mCannot find name 'k_mod'.
+
+webpack compiled with [1m[31m2 errors[39m[22m (8f289b70c2e165fe)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 33.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/muavao/muavao.module.ts[39m[22m [1m[32m6:25-52[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './dichvu.service' in 'F:\chikiet\BEKetoan\be_ketoan\src\app\muavao'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/muavao/muavao.module.ts[39m[22m [1m[32m7:28-58[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './dichvu.controller' in 'F:\chikiet\BEKetoan\be_ketoan\src\app\muavao'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/muavao/muavao.module.ts[39m[22m [1m[32m9:24-59[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './entities/dichvu.entity' in 'F:\chikiet\BEKetoan\be_ketoan\src\app\muavao'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/app.module.ts:[32m[1m8:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./muavao/muavao.module"' has no exported member 'MuavaoModule'.
+  [0m [90m  6 |[39m [36mimport[39m { hoadonbanraModule } [36mfrom[39m [32m'./hoadonbanra/hoadonbanra.module'[39m[33m;[39m[0m
+  [0m [90m  7 |[39m [36mimport[39m { [33mBanrachitietModule[39m } [36mfrom[39m [32m'./banrachitiet/banrachitiet.module'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m  8 |[39m [36mimport[39m { [33mMuavaoModule[39m } [36mfrom[39m [32m'./muavao/muavao.module'[39m[33m;[39m[0m
+  [0m [90m    |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m  9 |[39m [36mimport[39m { [33mMuavaochitietModule[39m } [36mfrom[39m [32m'./muavaochitiet/muavaochitiet.module'[39m[33m;[39m[0m
+  [0m [90m 10 |[39m[0m
+  [0m [90m 11 |[39m [33m@[39m[33mModule[39m({[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.module.ts:[32m[1m2:31[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './dichvu.service' or its corresponding type declarations.
+  [0m [90m 1 |[39m [36mimport[39m { [33mModule[39m } [36mfrom[39m [32m'@nestjs/common'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 2 |[39m [36mimport[39m { [33mDichvuService[39m } [36mfrom[39m [32m'./dichvu.service'[39m[33m;[39m[0m
+  [0m [90m   |[39m                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m { [33mDichvuController[39m } [36mfrom[39m [32m'./dichvu.controller'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mTypeOrmModule[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mDichvuEntity[39m } [36mfrom[39m [32m'./entities/dichvu.entity'[39m[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.module.ts:[32m[1m3:34[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './dichvu.controller' or its corresponding type declarations.
+  [0m [90m 1 |[39m [36mimport[39m { [33mModule[39m } [36mfrom[39m [32m'@nestjs/common'[39m[33m;[39m[0m
+  [0m [90m 2 |[39m [36mimport[39m { [33mDichvuService[39m } [36mfrom[39m [32m'./dichvu.service'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 3 |[39m [36mimport[39m { [33mDichvuController[39m } [36mfrom[39m [32m'./dichvu.controller'[39m[33m;[39m[0m
+  [0m [90m   |[39m                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mTypeOrmModule[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mDichvuEntity[39m } [36mfrom[39m [32m'./entities/dichvu.entity'[39m[33m;[39m[0m
+  [0m [90m 6 |[39m [33m@[39m[33mModule[39m({[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.module.ts:[32m[1m5:30[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './entities/dichvu.entity' or its corresponding type declarations.
+  [0m [90m 3 |[39m [36mimport[39m { [33mDichvuController[39m } [36mfrom[39m [32m'./dichvu.controller'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mTypeOrmModule[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mDichvuEntity[39m } [36mfrom[39m [32m'./entities/dichvu.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m                              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 6 |[39m [33m@[39m[33mModule[39m({[0m
+  [0m [90m 7 |[39m   imports[33m:[39m [[33mTypeOrmModule[39m[33m.[39mforFeature([[33mDichvuEntity[39m])][33m,[39m[0m
+  [0m [90m 8 |[39m   controllers[33m:[39m [[33mDichvuController[39m][33m,[39m[0m
+
+webpack compiled with [1m[31m7 errors[39m[22m (24a53d5c0bdf8e0a)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 38.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.controller.ts:[32m[1m22:31[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findOne' does not exist on type 'MuavaoService'.
+  [0m [90m 20 |[39m   [33m@[39m[33mGet[39m([32m':id'[39m)[0m
+  [0m [90m 21 |[39m   findOne([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 22 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mmuavaoService[33m.[39mfindOne([33m+[39mid)[33m;[39m[0m
+  [0m [90m    |[39m                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 23 |[39m   }[0m
+  [0m [90m 24 |[39m[0m
+  [0m [90m 25 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.controller.ts:[32m[1m27:38[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'number' is not assignable to parameter of type 'string'.
+  [0m [90m 25 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+  [0m [90m 26 |[39m   update([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string[33m,[39m [33m@[39m[33mBody[39m() updateMuavaoDto[33m:[39m [33mUpdateMuavaoDto[39m) {[0m
+  [0m[31m[1m>[22m[39m[90m 27 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mmuavaoService[33m.[39mupdate([33m+[39mid[33m,[39m updateMuavaoDto)[33m;[39m[0m
+  [0m [90m    |[39m                                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 28 |[39m   }[0m
+  [0m [90m 29 |[39m[0m
+  [0m [90m 30 |[39m   [33m@[39m[33mDelete[39m([32m':id'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.controller.ts:[32m[1m32:38[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'number' is not assignable to parameter of type 'string'.
+  [0m [90m 30 |[39m   [33m@[39m[33mDelete[39m([32m':id'[39m)[0m
+  [0m [90m 31 |[39m   remove([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 32 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mmuavaoService[33m.[39mremove([33m+[39mid)[33m;[39m[0m
+  [0m [90m    |[39m                                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 33 |[39m   }[0m
+  [0m [90m 34 |[39m }[0m
+  [0m [90m 35 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.module.ts:[32m[1m5:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./entities/muavao.entity"' has no exported member 'MuavaoEntity'.
+  [0m [90m 3 |[39m [36mimport[39m { [33mMuavaoController[39m } [36mfrom[39m [32m'./muavao.controller'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mTypeOrmModule[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mMuavaoEntity[39m } [36mfrom[39m [32m'./entities/muavao.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 6 |[39m [33m@[39m[33mModule[39m({[0m
+  [0m [90m 7 |[39m   imports[33m:[39m [[33mTypeOrmModule[39m[33m.[39mforFeature([[33mMuavaoEntity[39m])][33m,[39m[0m
+  [0m [90m 8 |[39m   controllers[33m:[39m [[33mMuavaoController[39m][33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.service.ts:[32m[1m6:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./entities/muavao.entity"' has no exported member 'MuavaoEntity'.
+  [0m [90m 4 |[39m [36mimport[39m { [33mCreateMuavaoDto[39m } [36mfrom[39m [32m'./dto/create-muavao.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mUpdateMuavaoDto[39m } [36mfrom[39m [32m'./dto/update-muavao.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mMuavaoEntity[39m } [36mfrom[39m [32m'./entities/muavao.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 8 |[39m [36mexport[39m [36mclass[39m [33mMuavaoService[39m {[0m
+  [0m [90m 9 |[39m   constructor([0m
+
+webpack compiled with [1m[31m5 errors[39m[22m (6ea4378aabc4d8b6)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 38.9 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.controller.ts:[32m[1m22:31[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findOne' does not exist on type 'MuavaoService'.
+  [0m [90m 20 |[39m   [33m@[39m[33mGet[39m([32m':id'[39m)[0m
+  [0m [90m 21 |[39m   findOne([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 22 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mmuavaoService[33m.[39mfindOne([33m+[39mid)[33m;[39m[0m
+  [0m [90m    |[39m                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 23 |[39m   }[0m
+  [0m [90m 24 |[39m[0m
+  [0m [90m 25 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.controller.ts:[32m[1m27:38[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'number' is not assignable to parameter of type 'string'.
+  [0m [90m 25 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+  [0m [90m 26 |[39m   update([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string[33m,[39m [33m@[39m[33mBody[39m() updateMuavaoDto[33m:[39m [33mUpdateMuavaoDto[39m) {[0m
+  [0m[31m[1m>[22m[39m[90m 27 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mmuavaoService[33m.[39mupdate([33m+[39mid[33m,[39m updateMuavaoDto)[33m;[39m[0m
+  [0m [90m    |[39m                                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 28 |[39m   }[0m
+  [0m [90m 29 |[39m[0m
+  [0m [90m 30 |[39m   [33m@[39m[33mDelete[39m([32m':id'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.controller.ts:[32m[1m32:38[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'number' is not assignable to parameter of type 'string'.
+  [0m [90m 30 |[39m   [33m@[39m[33mDelete[39m([32m':id'[39m)[0m
+  [0m [90m 31 |[39m   remove([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 32 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mmuavaoService[33m.[39mremove([33m+[39mid)[33m;[39m[0m
+  [0m [90m    |[39m                                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 33 |[39m   }[0m
+  [0m [90m 34 |[39m }[0m
+  [0m [90m 35 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.module.ts:[32m[1m5:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./entities/muavao.entity"' has no exported member 'MuavaoEntity'.
+  [0m [90m 3 |[39m [36mimport[39m { [33mMuavaoController[39m } [36mfrom[39m [32m'./muavao.controller'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mTypeOrmModule[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mMuavaoEntity[39m } [36mfrom[39m [32m'./entities/muavao.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 6 |[39m [33m@[39m[33mModule[39m({[0m
+  [0m [90m 7 |[39m   imports[33m:[39m [[33mTypeOrmModule[39m[33m.[39mforFeature([[33mMuavaoEntity[39m])][33m,[39m[0m
+  [0m [90m 8 |[39m   controllers[33m:[39m [[33mMuavaoController[39m][33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.service.ts:[32m[1m6:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./entities/muavao.entity"' has no exported member 'MuavaoEntity'.
+  [0m [90m 4 |[39m [36mimport[39m { [33mCreateMuavaoDto[39m } [36mfrom[39m [32m'./dto/create-muavao.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mUpdateMuavaoDto[39m } [36mfrom[39m [32m'./dto/update-muavao.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mMuavaoEntity[39m } [36mfrom[39m [32m'./entities/muavao.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 8 |[39m [36mexport[39m [36mclass[39m [33mMuavaoService[39m {[0m
+  [0m [90m 9 |[39m   constructor([0m
+
+webpack compiled with [1m[31m5 errors[39m[22m (6ea4378aabc4d8b6)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 39.7 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m7:25-52[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './dichvu.service' in 'F:\chikiet\BEKetoan\be_ketoan\src\app\muavao'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m8:28-62[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './dto/create-dichvu.dto' in 'F:\chikiet\BEKetoan\be_ketoan\src\app\muavao'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/muavao/muavao.controller.ts[39m[22m [1m[32m9:28-62[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './dto/update-dichvu.dto' in 'F:\chikiet\BEKetoan\be_ketoan\src\app\muavao'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.controller.ts:[32m[1m2:30[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './dichvu.service' or its corresponding type declarations.
+  [0m [90m 1 |[39m [36mimport[39m { [33mController[39m[33m,[39m [33mGet[39m[33m,[39m [33mPost[39m[33m,[39m [33mBody[39m[33m,[39m [33mPatch[39m[33m,[39m [33mParam[39m[33m,[39m [33mDelete[39m[33m,[39m [33mQuery[39m } [36mfrom[39m [32m'@nestjs/common'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 2 |[39m [36mimport[39m {[33mDichvuService[39m } [36mfrom[39m [32m'./dichvu.service'[39m[33m;[39m[0m
+  [0m [90m   |[39m                              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m { [33mCreateDichvuDto[39m } [36mfrom[39m [32m'./dto/create-dichvu.dto'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mUpdateDichvuDto[39m } [36mfrom[39m [32m'./dto/update-dichvu.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [33m@[39m[33mController[39m([32m'dichvu'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.controller.ts:[32m[1m3:33[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './dto/create-dichvu.dto' or its corresponding type declarations.
+  [0m [90m 1 |[39m [36mimport[39m { [33mController[39m[33m,[39m [33mGet[39m[33m,[39m [33mPost[39m[33m,[39m [33mBody[39m[33m,[39m [33mPatch[39m[33m,[39m [33mParam[39m[33m,[39m [33mDelete[39m[33m,[39m [33mQuery[39m } [36mfrom[39m [32m'@nestjs/common'[39m[33m;[39m[0m
+  [0m [90m 2 |[39m [36mimport[39m {[33mDichvuService[39m } [36mfrom[39m [32m'./dichvu.service'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 3 |[39m [36mimport[39m { [33mCreateDichvuDto[39m } [36mfrom[39m [32m'./dto/create-dichvu.dto'[39m[33m;[39m[0m
+  [0m [90m   |[39m                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mUpdateDichvuDto[39m } [36mfrom[39m [32m'./dto/update-dichvu.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [33m@[39m[33mController[39m([32m'dichvu'[39m)[0m
+  [0m [90m 6 |[39m [36mexport[39m [36mclass[39m [33mDichvuController[39m {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.controller.ts:[32m[1m4:33[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './dto/update-dichvu.dto' or its corresponding type declarations.
+  [0m [90m 2 |[39m [36mimport[39m {[33mDichvuService[39m } [36mfrom[39m [32m'./dichvu.service'[39m[33m;[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m { [33mCreateDichvuDto[39m } [36mfrom[39m [32m'./dto/create-dichvu.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 4 |[39m [36mimport[39m { [33mUpdateDichvuDto[39m } [36mfrom[39m [32m'./dto/update-dichvu.dto'[39m[33m;[39m[0m
+  [0m [90m   |[39m                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 5 |[39m [33m@[39m[33mController[39m([32m'dichvu'[39m)[0m
+  [0m [90m 6 |[39m [36mexport[39m [36mclass[39m [33mDichvuController[39m {[0m
+  [0m [90m 7 |[39m   constructor([36mprivate[39m readonly dichvuService[33m:[39m[33mDichvuService[39m) {}[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.module.ts:[32m[1m3:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./muavao.controller"' has no exported member 'MuavaoController'.
+  [0m [90m 1 |[39m [36mimport[39m { [33mModule[39m } [36mfrom[39m [32m'@nestjs/common'[39m[33m;[39m[0m
+  [0m [90m 2 |[39m [36mimport[39m { [33mMuavaoService[39m } [36mfrom[39m [32m'./muavao.service'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 3 |[39m [36mimport[39m { [33mMuavaoController[39m } [36mfrom[39m [32m'./muavao.controller'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mTypeOrmModule[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mMuavaoEntity[39m } [36mfrom[39m [32m'./entities/muavao.entity'[39m[33m;[39m[0m
+  [0m [90m 6 |[39m [33m@[39m[33mModule[39m({[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.module.ts:[32m[1m5:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./entities/muavao.entity"' has no exported member 'MuavaoEntity'.
+  [0m [90m 3 |[39m [36mimport[39m { [33mMuavaoController[39m } [36mfrom[39m [32m'./muavao.controller'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mTypeOrmModule[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mMuavaoEntity[39m } [36mfrom[39m [32m'./entities/muavao.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 6 |[39m [33m@[39m[33mModule[39m({[0m
+  [0m [90m 7 |[39m   imports[33m:[39m [[33mTypeOrmModule[39m[33m.[39mforFeature([[33mMuavaoEntity[39m])][33m,[39m[0m
+  [0m [90m 8 |[39m   controllers[33m:[39m [[33mMuavaoController[39m][33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.service.ts:[32m[1m6:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./entities/muavao.entity"' has no exported member 'MuavaoEntity'.
+  [0m [90m 4 |[39m [36mimport[39m { [33mCreateMuavaoDto[39m } [36mfrom[39m [32m'./dto/create-muavao.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mUpdateMuavaoDto[39m } [36mfrom[39m [32m'./dto/update-muavao.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mMuavaoEntity[39m } [36mfrom[39m [32m'./entities/muavao.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 8 |[39m [36mexport[39m [36mclass[39m [33mMuavaoService[39m {[0m
+  [0m [90m 9 |[39m   constructor([0m
+
+webpack compiled with [1m[31m9 errors[39m[22m (0d9b3b1edf541615)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 40.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.module.ts:[32m[1m5:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./entities/muavao.entity"' has no exported member 'MuavaoEntity'.
+  [0m [90m 3 |[39m [36mimport[39m { [33mMuavaoController[39m } [36mfrom[39m [32m'./muavao.controller'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mTypeOrmModule[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mMuavaoEntity[39m } [36mfrom[39m [32m'./entities/muavao.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 6 |[39m [33m@[39m[33mModule[39m({[0m
+  [0m [90m 7 |[39m   imports[33m:[39m [[33mTypeOrmModule[39m[33m.[39mforFeature([[33mMuavaoEntity[39m])][33m,[39m[0m
+  [0m [90m 8 |[39m   controllers[33m:[39m [[33mMuavaoController[39m][33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.service.ts:[32m[1m6:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./entities/muavao.entity"' has no exported member 'MuavaoEntity'.
+  [0m [90m 4 |[39m [36mimport[39m { [33mCreateMuavaoDto[39m } [36mfrom[39m [32m'./dto/create-muavao.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mUpdateMuavaoDto[39m } [36mfrom[39m [32m'./dto/update-muavao.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mMuavaoEntity[39m } [36mfrom[39m [32m'./entities/muavao.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 8 |[39m [36mexport[39m [36mclass[39m [33mMuavaoService[39m {[0m
+  [0m [90m 9 |[39m   constructor([0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (95577c115888a696)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 40.3 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.module.ts:[32m[1m5:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./entities/muavao.entity"' has no exported member 'MuavaoEntity'.
+  [0m [90m 3 |[39m [36mimport[39m { [33mMuavaoController[39m } [36mfrom[39m [32m'./muavao.controller'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mTypeOrmModule[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mMuavaoEntity[39m } [36mfrom[39m [32m'./entities/muavao.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 6 |[39m [33m@[39m[33mModule[39m({[0m
+  [0m [90m 7 |[39m   imports[33m:[39m [[33mTypeOrmModule[39m[33m.[39mforFeature([[33mMuavaoEntity[39m])][33m,[39m[0m
+  [0m [90m 8 |[39m   controllers[33m:[39m [[33mMuavaoController[39m][33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.service.ts:[32m[1m6:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./entities/muavao.entity"' has no exported member 'MuavaoEntity'.
+  [0m [90m 4 |[39m [36mimport[39m { [33mCreateMuavaoDto[39m } [36mfrom[39m [32m'./dto/create-muavao.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mUpdateMuavaoDto[39m } [36mfrom[39m [32m'./dto/update-muavao.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mMuavaoEntity[39m } [36mfrom[39m [32m'./entities/muavao.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 8 |[39m [36mexport[39m [36mclass[39m [33mMuavaoService[39m {[0m
+  [0m [90m 9 |[39m   constructor([0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (95577c115888a696)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 40.3 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.module.ts:[32m[1m5:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./entities/muavao.entity"' has no exported member 'MuavaoEntity'.
+  [0m [90m 3 |[39m [36mimport[39m { [33mMuavaoController[39m } [36mfrom[39m [32m'./muavao.controller'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mTypeOrmModule[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mMuavaoEntity[39m } [36mfrom[39m [32m'./entities/muavao.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 6 |[39m [33m@[39m[33mModule[39m({[0m
+  [0m [90m 7 |[39m   imports[33m:[39m [[33mTypeOrmModule[39m[33m.[39mforFeature([[33mMuavaoEntity[39m])][33m,[39m[0m
+  [0m [90m 8 |[39m   controllers[33m:[39m [[33mMuavaoController[39m][33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.service.ts:[32m[1m6:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./entities/muavao.entity"' has no exported member 'MuavaoEntity'.
+  [0m [90m 4 |[39m [36mimport[39m { [33mCreateMuavaoDto[39m } [36mfrom[39m [32m'./dto/create-muavao.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mUpdateMuavaoDto[39m } [36mfrom[39m [32m'./dto/update-muavao.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mMuavaoEntity[39m } [36mfrom[39m [32m'./entities/muavao.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 8 |[39m [36mexport[39m [36mclass[39m [33mMuavaoService[39m {[0m
+  [0m [90m 9 |[39m   constructor([0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (95577c115888a696)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 42.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.module.ts:[32m[1m5:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./entities/muavao.entity"' has no exported member 'MuavaoEntity'.
+  [0m [90m 3 |[39m [36mimport[39m { [33mMuavaoController[39m } [36mfrom[39m [32m'./muavao.controller'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mTypeOrmModule[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mMuavaoEntity[39m } [36mfrom[39m [32m'./entities/muavao.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 6 |[39m [33m@[39m[33mModule[39m({[0m
+  [0m [90m 7 |[39m   imports[33m:[39m [[33mTypeOrmModule[39m[33m.[39mforFeature([[33mMuavaoEntity[39m])][33m,[39m[0m
+  [0m [90m 8 |[39m   controllers[33m:[39m [[33mMuavaoController[39m][33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.service.ts:[32m[1m6:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./entities/muavao.entity"' has no exported member 'MuavaoEntity'.
+  [0m [90m 4 |[39m [36mimport[39m { [33mCreateMuavaoDto[39m } [36mfrom[39m [32m'./dto/create-muavao.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mUpdateMuavaoDto[39m } [36mfrom[39m [32m'./dto/update-muavao.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mMuavaoEntity[39m } [36mfrom[39m [32m'./entities/muavao.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 8 |[39m [36mexport[39m [36mclass[39m [33mMuavaoService[39m {[0m
+  [0m [90m 9 |[39m   constructor([0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (783f809ec6c90575)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 42.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (33c1d1976dfc80f2)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 42.9 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (33c1d1976dfc80f2)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 42.9 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (33c1d1976dfc80f2)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 42.9 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (33c1d1976dfc80f2)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 42.9 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (33c1d1976dfc80f2)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 42.9 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (33c1d1976dfc80f2)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 42.9 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (33c1d1976dfc80f2)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 43.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (0a8bf3f84cad7d77)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 43.1 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (0a8bf3f84cad7d77)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 43.1 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (0a8bf3f84cad7d77)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 43.1 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (0a8bf3f84cad7d77)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 43.1 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (0a8bf3f84cad7d77)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 43.1 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (0a8bf3f84cad7d77)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 42.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.controller.ts:[32m[1m2:38[22m[39m[1m[39m[22m
+[90mTS2306: [39mFile 'F:/chikiet/BEKetoan/be_ketoan/src/app/muavaochitiet/muavaochitiet.service.ts' is not a module.
+  [0m [90m 1 |[39m [36mimport[39m { [33mController[39m[33m,[39m [33mGet[39m[33m,[39m [33mPost[39m[33m,[39m [33mBody[39m[33m,[39m [33mPatch[39m[33m,[39m [33mParam[39m[33m,[39m [33mDelete[39m } [36mfrom[39m [32m'@nestjs/common'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 2 |[39m [36mimport[39m { [33mMuavaochitietService[39m } [36mfrom[39m [32m'./muavaochitiet.service'[39m[33m;[39m[0m
+  [0m [90m   |[39m                                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m { [33mCreateMuavaochitietDto[39m } [36mfrom[39m [32m'./dto/create-muavaochitiet.dto'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mUpdateMuavaochitietDto[39m } [36mfrom[39m [32m'./dto/update-muavaochitiet.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.module.ts:[32m[1m2:38[22m[39m[1m[39m[22m
+[90mTS2306: [39mFile 'F:/chikiet/BEKetoan/be_ketoan/src/app/muavaochitiet/muavaochitiet.service.ts' is not a module.
+  [0m [90m 1 |[39m [36mimport[39m { [33mModule[39m } [36mfrom[39m [32m'@nestjs/common'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 2 |[39m [36mimport[39m { [33mMuavaochitietService[39m } [36mfrom[39m [32m'./muavaochitiet.service'[39m[33m;[39m[0m
+  [0m [90m   |[39m                                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m { [33mMuavaochitietController[39m } [36mfrom[39m [32m'./muavaochitiet.controller'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m[0m
+  [0m [90m 5 |[39m [33m@[39m[33mModule[39m({[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.service.ts[39m[22m
+[90mTS2304: [39mCannot find name 'k'.
+
+webpack compiled with [1m[31m3 errors[39m[22m (7cbc085d773388a5)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 42.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.controller.ts:[32m[1m2:38[22m[39m[1m[39m[22m
+[90mTS2306: [39mFile 'F:/chikiet/BEKetoan/be_ketoan/src/app/muavaochitiet/muavaochitiet.service.ts' is not a module.
+  [0m [90m 1 |[39m [36mimport[39m { [33mController[39m[33m,[39m [33mGet[39m[33m,[39m [33mPost[39m[33m,[39m [33mBody[39m[33m,[39m [33mPatch[39m[33m,[39m [33mParam[39m[33m,[39m [33mDelete[39m } [36mfrom[39m [32m'@nestjs/common'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 2 |[39m [36mimport[39m { [33mMuavaochitietService[39m } [36mfrom[39m [32m'./muavaochitiet.service'[39m[33m;[39m[0m
+  [0m [90m   |[39m                                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m { [33mCreateMuavaochitietDto[39m } [36mfrom[39m [32m'./dto/create-muavaochitiet.dto'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mUpdateMuavaochitietDto[39m } [36mfrom[39m [32m'./dto/update-muavaochitiet.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.module.ts:[32m[1m2:38[22m[39m[1m[39m[22m
+[90mTS2306: [39mFile 'F:/chikiet/BEKetoan/be_ketoan/src/app/muavaochitiet/muavaochitiet.service.ts' is not a module.
+  [0m [90m 1 |[39m [36mimport[39m { [33mModule[39m } [36mfrom[39m [32m'@nestjs/common'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 2 |[39m [36mimport[39m { [33mMuavaochitietService[39m } [36mfrom[39m [32m'./muavaochitiet.service'[39m[33m;[39m[0m
+  [0m [90m   |[39m                                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m { [33mMuavaochitietController[39m } [36mfrom[39m [32m'./muavaochitiet.controller'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m[0m
+  [0m [90m 5 |[39m [33m@[39m[33mModule[39m({[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.service.ts[39m[22m
+[90mTS2304: [39mCannot find name 'k_api'.
+
+webpack compiled with [1m[31m3 errors[39m[22m (f27f410908359ae8)
+[1m[31mDebugger listening on ws://localhost:9229/8910be22-e919-4e5e-97c1-35ab53efc1c9[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/8910be22-e919-4e5e-97c1-35ab53efc1c9[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mF:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\muavaochitiet\muavaochitiet.service.ts:1[39m[22m
+[1m[31mk_api[39m[22m
+[1m[31m^[39m[22m
+[1m[31m[39m[22m
+[1m[31mReferenceError: k_api is not defined[39m[22m
+[1m[31m    at Array.Object.defineProperty.value (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\muavaochitiet\muavaochitiet.service.ts:1:1)[39m[22m
+[1m[31m    at __webpack_require__ (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\webpack\bootstrap:19:1)[39m[22m
+[1m[31m    at Array.Object.defineProperty.value (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\muavaochitiet\muavaochitiet.module.ts:2:1)[39m[22m
+[1m[31m    at __webpack_require__ (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\webpack\bootstrap:19:1)[39m[22m
+[1m[31m    at Array.<anonymous> (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\app.module.ts:9:1)[39m[22m
+[1m[31m    at __webpack_require__ (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\webpack\bootstrap:19:1)[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\main.ts:9:1[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\dist\be_ketoan\main.js:1245:3[39m[22m
+[1m[31m    at Object.<anonymous> (F:\chikiet\BEKetoan\dist\be_ketoan\main.js:1247:12)[39m[22m
+[1m[31m    at Module._compile (node:internal/modules/cjs/loader:1376:14)[39m[22m
+[1m[31m[39m[22m
+
+[36m>[39m [7m[1m[36m NX [39m[22m[27m [1mProcess exited with code 1, waiting for changes to restart...[22m
+
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 44.5 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/muavaochitiet/muavaochitiet.service.ts[39m[22m [1m[32m9:24-59[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './entities/dichvu.entity' in 'F:\chikiet\BEKetoan\be_ketoan\src\app\muavaochitiet'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.controller.ts:[32m[1m2:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./muavaochitiet.service"' has no exported member 'MuavaochitietService'.
+  [0m [90m 1 |[39m [36mimport[39m { [33mController[39m[33m,[39m [33mGet[39m[33m,[39m [33mPost[39m[33m,[39m [33mBody[39m[33m,[39m [33mPatch[39m[33m,[39m [33mParam[39m[33m,[39m [33mDelete[39m } [36mfrom[39m [32m'@nestjs/common'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 2 |[39m [36mimport[39m { [33mMuavaochitietService[39m } [36mfrom[39m [32m'./muavaochitiet.service'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m { [33mCreateMuavaochitietDto[39m } [36mfrom[39m [32m'./dto/create-muavaochitiet.dto'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mUpdateMuavaochitietDto[39m } [36mfrom[39m [32m'./dto/update-muavaochitiet.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.module.ts:[32m[1m2:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./muavaochitiet.service"' has no exported member 'MuavaochitietService'.
+  [0m [90m 1 |[39m [36mimport[39m { [33mModule[39m } [36mfrom[39m [32m'@nestjs/common'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 2 |[39m [36mimport[39m { [33mMuavaochitietService[39m } [36mfrom[39m [32m'./muavaochitiet.service'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m { [33mMuavaochitietController[39m } [36mfrom[39m [32m'./muavaochitiet.controller'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m[0m
+  [0m [90m 5 |[39m [33m@[39m[33mModule[39m({[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.service.ts:[32m[1m4:33[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './dto/create-dichvu.dto' or its corresponding type declarations.
+  [0m [90m 2 |[39m [36mimport[39m { [33mInjectRepository[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m { [33mLike[39m[33m,[39m [33mRepository[39m } [36mfrom[39m [32m'typeorm'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 4 |[39m [36mimport[39m { [33mCreateDichvuDto[39m } [36mfrom[39m [32m'./dto/create-dichvu.dto'[39m[33m;[39m[0m
+  [0m [90m   |[39m                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mUpdateDichvuDto[39m } [36mfrom[39m [32m'./dto/update-dichvu.dto'[39m[33m;[39m[0m
+  [0m [90m 6 |[39m [36mimport[39m { [33mDichvuEntity[39m } [36mfrom[39m [32m'./entities/dichvu.entity'[39m[33m;[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.service.ts:[32m[1m5:33[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './dto/update-dichvu.dto' or its corresponding type declarations.
+  [0m [90m 3 |[39m [36mimport[39m { [33mLike[39m[33m,[39m [33mRepository[39m } [36mfrom[39m [32m'typeorm'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mCreateDichvuDto[39m } [36mfrom[39m [32m'./dto/create-dichvu.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mUpdateDichvuDto[39m } [36mfrom[39m [32m'./dto/update-dichvu.dto'[39m[33m;[39m[0m
+  [0m [90m   |[39m                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 6 |[39m [36mimport[39m { [33mDichvuEntity[39m } [36mfrom[39m [32m'./entities/dichvu.entity'[39m[33m;[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 8 |[39m [36mexport[39m [36mclass[39m [33mDichvuService[39m {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.service.ts:[32m[1m6:30[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './entities/dichvu.entity' or its corresponding type declarations.
+  [0m [90m 4 |[39m [36mimport[39m { [33mCreateDichvuDto[39m } [36mfrom[39m [32m'./dto/create-dichvu.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mUpdateDichvuDto[39m } [36mfrom[39m [32m'./dto/update-dichvu.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mDichvuEntity[39m } [36mfrom[39m [32m'./entities/dichvu.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m                              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 8 |[39m [36mexport[39m [36mclass[39m [33mDichvuService[39m {[0m
+  [0m [90m 9 |[39m   constructor([0m
+
+webpack compiled with [1m[31m6 errors[39m[22m (6508c665f9e74e2a)
+[1m[31mDebugger listening on ws://localhost:9229/1f31b6f2-cdd2-45f2-80bb-b83ccec05f8b[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/1f31b6f2-cdd2-45f2-80bb-b83ccec05f8b[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mF:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\muavaochitiet\muavaochitiet.service.ts:6[39m[22m
+[1m[31mimport { DichvuEntity } from './entities/dichvu.entity';[39m[22m
+[1m[31m^[39m[22m
+[1m[31mError: Cannot find module './entities/dichvu.entity'[39m[22m
+[1m[31m    at webpackMissingModule (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\muavaochitiet\muavaochitiet.service.ts:6:1)[39m[22m
+[1m[31m    at Array.Object.defineProperty.value (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\muavaochitiet\muavaochitiet.service.ts:6:1)[39m[22m
+[1m[31m    at __webpack_require__ (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\webpack\bootstrap:19:1)[39m[22m
+[1m[31m    at Array.Object.defineProperty.value (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\muavaochitiet\muavaochitiet.module.ts:2:1)[39m[22m
+[1m[31m    at __webpack_require__ (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\webpack\bootstrap:19:1)[39m[22m
+[1m[31m    at Array.<anonymous> (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\app.module.ts:9:1)[39m[22m
+[1m[31m    at __webpack_require__ (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\webpack\bootstrap:19:1)[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\main.ts:9:1[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\dist\be_ketoan\main.js:1276:3[39m[22m
+[1m[31m    at Object.<anonymous> (F:\chikiet\BEKetoan\dist\be_ketoan\main.js:1278:12)[39m[22m
+[1m[31m[39m[22m
+
+[36m>[39m [7m[1m[36m NX [39m[22m[27m [1mProcess exited with code 1, waiting for changes to restart...[22m
+
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 44.8 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.controller.ts:[32m[1m22:38[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findOne' does not exist on type 'MuavaochitietService'.
+  [0m [90m 20 |[39m   [33m@[39m[33mGet[39m([32m':id'[39m)[0m
+  [0m [90m 21 |[39m   findOne([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 22 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mmuavaochitietService[33m.[39mfindOne([33m+[39mid)[33m;[39m[0m
+  [0m [90m    |[39m                                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 23 |[39m   }[0m
+  [0m [90m 24 |[39m[0m
+  [0m [90m 25 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.controller.ts:[32m[1m27:45[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'number' is not assignable to parameter of type 'string'.
+  [0m [90m 25 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+  [0m [90m 26 |[39m   update([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string[33m,[39m [33m@[39m[33mBody[39m() updateMuavaochitietDto[33m:[39m [33mUpdateMuavaochitietDto[39m) {[0m
+  [0m[31m[1m>[22m[39m[90m 27 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mmuavaochitietService[33m.[39mupdate([33m+[39mid[33m,[39m updateMuavaochitietDto)[33m;[39m[0m
+  [0m [90m    |[39m                                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 28 |[39m   }[0m
+  [0m [90m 29 |[39m[0m
+  [0m [90m 30 |[39m   [33m@[39m[33mDelete[39m([32m':id'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.controller.ts:[32m[1m32:45[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'number' is not assignable to parameter of type 'string'.
+  [0m [90m 30 |[39m   [33m@[39m[33mDelete[39m([32m':id'[39m)[0m
+  [0m [90m 31 |[39m   remove([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 32 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mmuavaochitietService[33m.[39mremove([33m+[39mid)[33m;[39m[0m
+  [0m [90m    |[39m                                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 33 |[39m   }[0m
+  [0m [90m 34 |[39m }[0m
+  [0m [90m 35 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.service.ts:[32m[1m6:10[22m[39m[1m[39m[22m
+[90mTS2724: [39m'"./entities/muavaochitiet.entity"' has no exported member named 'MuavaochitietEntity'. Did you mean 'Muavaochitiet'?
+  [0m [90m 4 |[39m [36mimport[39m { [33mCreateMuavaochitietDto[39m } [36mfrom[39m [32m'./dto/create-muavaochitiet.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mUpdateMuavaochitietDto[39m } [36mfrom[39m [32m'./dto/update-muavaochitiet.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mMuavaochitietEntity[39m } [36mfrom[39m [32m'./entities/muavaochitiet.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 8 |[39m [36mexport[39m [36mclass[39m [33mMuavaochitietService[39m {[0m
+  [0m [90m 9 |[39m   constructor([0m
+
+webpack compiled with [1m[31m4 errors[39m[22m (db6b11822a036181)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 44.8 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.controller.ts:[32m[1m22:38[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findOne' does not exist on type 'MuavaochitietService'.
+  [0m [90m 20 |[39m   [33m@[39m[33mGet[39m([32m':id'[39m)[0m
+  [0m [90m 21 |[39m   findOne([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 22 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mmuavaochitietService[33m.[39mfindOne([33m+[39mid)[33m;[39m[0m
+  [0m [90m    |[39m                                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 23 |[39m   }[0m
+  [0m [90m 24 |[39m[0m
+  [0m [90m 25 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.controller.ts:[32m[1m27:45[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'number' is not assignable to parameter of type 'string'.
+  [0m [90m 25 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+  [0m [90m 26 |[39m   update([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string[33m,[39m [33m@[39m[33mBody[39m() updateMuavaochitietDto[33m:[39m [33mUpdateMuavaochitietDto[39m) {[0m
+  [0m[31m[1m>[22m[39m[90m 27 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mmuavaochitietService[33m.[39mupdate([33m+[39mid[33m,[39m updateMuavaochitietDto)[33m;[39m[0m
+  [0m [90m    |[39m                                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 28 |[39m   }[0m
+  [0m [90m 29 |[39m[0m
+  [0m [90m 30 |[39m   [33m@[39m[33mDelete[39m([32m':id'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.controller.ts:[32m[1m32:45[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'number' is not assignable to parameter of type 'string'.
+  [0m [90m 30 |[39m   [33m@[39m[33mDelete[39m([32m':id'[39m)[0m
+  [0m [90m 31 |[39m   remove([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 32 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mmuavaochitietService[33m.[39mremove([33m+[39mid)[33m;[39m[0m
+  [0m [90m    |[39m                                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 33 |[39m   }[0m
+  [0m [90m 34 |[39m }[0m
+  [0m [90m 35 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.service.ts:[32m[1m6:10[22m[39m[1m[39m[22m
+[90mTS2724: [39m'"./entities/muavaochitiet.entity"' has no exported member named 'MuavaochitietEntity'. Did you mean 'Muavaochitiet'?
+  [0m [90m 4 |[39m [36mimport[39m { [33mCreateMuavaochitietDto[39m } [36mfrom[39m [32m'./dto/create-muavaochitiet.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mUpdateMuavaochitietDto[39m } [36mfrom[39m [32m'./dto/update-muavaochitiet.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mMuavaochitietEntity[39m } [36mfrom[39m [32m'./entities/muavaochitiet.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 8 |[39m [36mexport[39m [36mclass[39m [33mMuavaochitietService[39m {[0m
+  [0m [90m 9 |[39m   constructor([0m
+
+webpack compiled with [1m[31m4 errors[39m[22m (db6b11822a036181)
+[1m[31mDebugger listening on ws://localhost:9229/a6b7cb03-ecb9-4c91-ad62-3bae50ed4fb0[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/a6b7cb03-ecb9-4c91-ad62-3bae50ed4fb0[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mF:\chikiet\BEKetoan\node_modules\@nestjs\typeorm\dist\common\typeorm.utils.js:19[39m[22m
+[1m[31m        throw new circular_dependency_exception_1.CircularDependencyException('@InjectRepository()');[39m[22m
+[1m[31m              ^[39m[22m
+[1m[31mError: A circular dependency has been detected inside @InjectRepository(). Please, make sure that each side of a bidirectional relationships are decorated with "forwardRef()". Also, try to eliminate barrel files because they can lead to an unexpected behavior too.[39m[22m
+[1m[31m    at getRepositoryToken (F:\chikiet\BEKetoan\node_modules\@nestjs\typeorm\dist\common\typeorm.utils.js:19:15)[39m[22m
+[1m[31m    at InjectRepository (F:\chikiet\BEKetoan\node_modules\@nestjs\typeorm\dist\common\typeorm.decorators.js:7:157)[39m[22m
+[1m[31m    at Array.Object.defineProperty.value (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\muavaochitiet\muavaochitiet.service.ts:10:22)[39m[22m
+[1m[31m    at __webpack_require__ (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\webpack\bootstrap:19:1)[39m[22m
+[1m[31m    at Array.Object.defineProperty.value (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\muavaochitiet\muavaochitiet.module.ts:2:1)[39m[22m
+[1m[31m    at __webpack_require__ (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\webpack\bootstrap:19:1)[39m[22m
+[1m[31m    at Array.<anonymous> (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\app.module.ts:9:1)[39m[22m
+[1m[31m    at __webpack_require__ (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\webpack\bootstrap:19:1)[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\main.ts:9:1[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\dist\be_ketoan\main.js:1288:3[39m[22m
+[1m[31m[39m[22m
+
+[36m>[39m [7m[1m[36m NX [39m[22m[27m [1mProcess exited with code 1, waiting for changes to restart...[22m
+
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 38.4 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/muavaochitiet/muavaochitiet.module.ts[39m[22m [1m[32m6:25-52[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './dichvu.service' in 'F:\chikiet\BEKetoan\be_ketoan\src\app\muavaochitiet'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/muavaochitiet/muavaochitiet.module.ts[39m[22m [1m[32m7:28-58[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './dichvu.controller' in 'F:\chikiet\BEKetoan\be_ketoan\src\app\muavaochitiet'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/muavaochitiet/muavaochitiet.module.ts[39m[22m [1m[32m9:24-59[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './entities/dichvu.entity' in 'F:\chikiet\BEKetoan\be_ketoan\src\app\muavaochitiet'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/app.module.ts:[32m[1m9:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./muavaochitiet/muavaochitiet.module"' has no exported member 'MuavaochitietModule'.
+  [0m [90m  7 |[39m [36mimport[39m { [33mBanrachitietModule[39m } [36mfrom[39m [32m'./banrachitiet/banrachitiet.module'[39m[33m;[39m[0m
+  [0m [90m  8 |[39m [36mimport[39m { [33mMuavaoModule[39m } [36mfrom[39m [32m'./muavao/muavao.module'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m  9 |[39m [36mimport[39m { [33mMuavaochitietModule[39m } [36mfrom[39m [32m'./muavaochitiet/muavaochitiet.module'[39m[33m;[39m[0m
+  [0m [90m    |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 10 |[39m[0m
+  [0m [90m 11 |[39m [33m@[39m[33mModule[39m({[0m
+  [0m [90m 12 |[39m   imports[33m:[39m [    [0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.module.ts:[32m[1m2:31[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './dichvu.service' or its corresponding type declarations.
+  [0m [90m 1 |[39m [36mimport[39m { [33mModule[39m } [36mfrom[39m [32m'@nestjs/common'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 2 |[39m [36mimport[39m { [33mDichvuService[39m } [36mfrom[39m [32m'./dichvu.service'[39m[33m;[39m[0m
+  [0m [90m   |[39m                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m { [33mDichvuController[39m } [36mfrom[39m [32m'./dichvu.controller'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mTypeOrmModule[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mDichvuEntity[39m } [36mfrom[39m [32m'./entities/dichvu.entity'[39m[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.module.ts:[32m[1m3:34[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './dichvu.controller' or its corresponding type declarations.
+  [0m [90m 1 |[39m [36mimport[39m { [33mModule[39m } [36mfrom[39m [32m'@nestjs/common'[39m[33m;[39m[0m
+  [0m [90m 2 |[39m [36mimport[39m { [33mDichvuService[39m } [36mfrom[39m [32m'./dichvu.service'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 3 |[39m [36mimport[39m { [33mDichvuController[39m } [36mfrom[39m [32m'./dichvu.controller'[39m[33m;[39m[0m
+  [0m [90m   |[39m                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mTypeOrmModule[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mDichvuEntity[39m } [36mfrom[39m [32m'./entities/dichvu.entity'[39m[33m;[39m[0m
+  [0m [90m 6 |[39m [33m@[39m[33mModule[39m({[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.module.ts:[32m[1m5:30[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './entities/dichvu.entity' or its corresponding type declarations.
+  [0m [90m 3 |[39m [36mimport[39m { [33mDichvuController[39m } [36mfrom[39m [32m'./dichvu.controller'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mTypeOrmModule[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mDichvuEntity[39m } [36mfrom[39m [32m'./entities/dichvu.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m                              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 6 |[39m [33m@[39m[33mModule[39m({[0m
+  [0m [90m 7 |[39m   imports[33m:[39m [[33mTypeOrmModule[39m[33m.[39mforFeature([[33mDichvuEntity[39m])][33m,[39m[0m
+  [0m [90m 8 |[39m   controllers[33m:[39m [[33mDichvuController[39m][33m,[39m[0m
+
+webpack compiled with [1m[31m7 errors[39m[22m (b411dd78761b30e3)
+[1m[31mDebugger listening on ws://localhost:9229/3515fe9f-309f-4201-b35e-39405ca4522e[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/3515fe9f-309f-4201-b35e-39405ca4522e[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mF:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\muavaochitiet\muavaochitiet.module.ts:2[39m[22m
+[1m[31mimport { DichvuService } from './dichvu.service';[39m[22m
+[1m[31m^[39m[22m
+[1m[31m[39m[22m
+[1m[31mError: Cannot find module './dichvu.service'[39m[22m
+[1m[31m    at webpackMissingModule (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\muavaochitiet\muavaochitiet.module.ts:2:1)[39m[22m
+[1m[31m    at Array.Object.defineProperty.value (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\muavaochitiet\muavaochitiet.module.ts:2:1)[39m[22m
+[1m[31m    at __webpack_require__ (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\webpack\bootstrap:19:1)[39m[22m
+[1m[31m    at Array.<anonymous> (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\app.module.ts:9:1)[39m[22m
+[1m[31m    at __webpack_require__ (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\webpack\bootstrap:19:1)[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\main.ts:9:1[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\dist\be_ketoan\main.js:1113:3[39m[22m
+[1m[31m    at Object.<anonymous> (F:\chikiet\BEKetoan\dist\be_ketoan\main.js:1115:12)[39m[22m
+[1m[31m    at Module._compile (node:internal/modules/cjs/loader:1376:14)[39m[22m
+[1m[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1435:10)[39m[22m
+[1m[31m[39m[22m
+
+[36m>[39m [7m[1m[36m NX [39m[22m[27m [1mProcess exited with code 1, waiting for changes to restart...[22m
+
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 45.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.controller.ts:[32m[1m22:38[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findOne' does not exist on type 'MuavaochitietService'.
+  [0m [90m 20 |[39m   [33m@[39m[33mGet[39m([32m':id'[39m)[0m
+  [0m [90m 21 |[39m   findOne([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 22 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mmuavaochitietService[33m.[39mfindOne([33m+[39mid)[33m;[39m[0m
+  [0m [90m    |[39m                                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 23 |[39m   }[0m
+  [0m [90m 24 |[39m[0m
+  [0m [90m 25 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.controller.ts:[32m[1m27:45[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'number' is not assignable to parameter of type 'string'.
+  [0m [90m 25 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+  [0m [90m 26 |[39m   update([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string[33m,[39m [33m@[39m[33mBody[39m() updateMuavaochitietDto[33m:[39m [33mUpdateMuavaochitietDto[39m) {[0m
+  [0m[31m[1m>[22m[39m[90m 27 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mmuavaochitietService[33m.[39mupdate([33m+[39mid[33m,[39m updateMuavaochitietDto)[33m;[39m[0m
+  [0m [90m    |[39m                                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 28 |[39m   }[0m
+  [0m [90m 29 |[39m[0m
+  [0m [90m 30 |[39m   [33m@[39m[33mDelete[39m([32m':id'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.controller.ts:[32m[1m32:45[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'number' is not assignable to parameter of type 'string'.
+  [0m [90m 30 |[39m   [33m@[39m[33mDelete[39m([32m':id'[39m)[0m
+  [0m [90m 31 |[39m   remove([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 32 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mmuavaochitietService[33m.[39mremove([33m+[39mid)[33m;[39m[0m
+  [0m [90m    |[39m                                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 33 |[39m   }[0m
+  [0m [90m 34 |[39m }[0m
+  [0m [90m 35 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.module.ts:[32m[1m5:10[22m[39m[1m[39m[22m
+[90mTS2724: [39m'"./entities/muavaochitiet.entity"' has no exported member named 'MuavaochitietEntity'. Did you mean 'Muavaochitiet'?
+  [0m [90m 3 |[39m [36mimport[39m { [33mMuavaochitietController[39m } [36mfrom[39m [32m'./muavaochitiet.controller'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mTypeOrmModule[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mMuavaochitietEntity[39m } [36mfrom[39m [32m'./entities/muavaochitiet.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 6 |[39m [33m@[39m[33mModule[39m({[0m
+  [0m [90m 7 |[39m   imports[33m:[39m [[33mTypeOrmModule[39m[33m.[39mforFeature([[33mMuavaochitietEntity[39m])][33m,[39m[0m
+  [0m [90m 8 |[39m   controllers[33m:[39m [[33mMuavaochitietController[39m][33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.service.ts:[32m[1m6:10[22m[39m[1m[39m[22m
+[90mTS2724: [39m'"./entities/muavaochitiet.entity"' has no exported member named 'MuavaochitietEntity'. Did you mean 'Muavaochitiet'?
+  [0m [90m 4 |[39m [36mimport[39m { [33mCreateMuavaochitietDto[39m } [36mfrom[39m [32m'./dto/create-muavaochitiet.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mUpdateMuavaochitietDto[39m } [36mfrom[39m [32m'./dto/update-muavaochitiet.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mMuavaochitietEntity[39m } [36mfrom[39m [32m'./entities/muavaochitiet.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 8 |[39m [36mexport[39m [36mclass[39m [33mMuavaochitietService[39m {[0m
+  [0m [90m 9 |[39m   constructor([0m
+
+webpack compiled with [1m[31m5 errors[39m[22m (3ccd6eacabd52358)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 45.1 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.controller.ts:[32m[1m22:38[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findOne' does not exist on type 'MuavaochitietService'.
+  [0m [90m 20 |[39m   [33m@[39m[33mGet[39m([32m':id'[39m)[0m
+  [0m [90m 21 |[39m   findOne([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 22 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mmuavaochitietService[33m.[39mfindOne([33m+[39mid)[33m;[39m[0m
+  [0m [90m    |[39m                                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 23 |[39m   }[0m
+  [0m [90m 24 |[39m[0m
+  [0m [90m 25 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.controller.ts:[32m[1m27:45[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'number' is not assignable to parameter of type 'string'.
+  [0m [90m 25 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+  [0m [90m 26 |[39m   update([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string[33m,[39m [33m@[39m[33mBody[39m() updateMuavaochitietDto[33m:[39m [33mUpdateMuavaochitietDto[39m) {[0m
+  [0m[31m[1m>[22m[39m[90m 27 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mmuavaochitietService[33m.[39mupdate([33m+[39mid[33m,[39m updateMuavaochitietDto)[33m;[39m[0m
+  [0m [90m    |[39m                                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 28 |[39m   }[0m
+  [0m [90m 29 |[39m[0m
+  [0m [90m 30 |[39m   [33m@[39m[33mDelete[39m([32m':id'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.controller.ts:[32m[1m32:45[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'number' is not assignable to parameter of type 'string'.
+  [0m [90m 30 |[39m   [33m@[39m[33mDelete[39m([32m':id'[39m)[0m
+  [0m [90m 31 |[39m   remove([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 32 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mmuavaochitietService[33m.[39mremove([33m+[39mid)[33m;[39m[0m
+  [0m [90m    |[39m                                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 33 |[39m   }[0m
+  [0m [90m 34 |[39m }[0m
+  [0m [90m 35 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.module.ts:[32m[1m5:10[22m[39m[1m[39m[22m
+[90mTS2724: [39m'"./entities/muavaochitiet.entity"' has no exported member named 'MuavaochitietEntity'. Did you mean 'Muavaochitiet'?
+  [0m [90m 3 |[39m [36mimport[39m { [33mMuavaochitietController[39m } [36mfrom[39m [32m'./muavaochitiet.controller'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mTypeOrmModule[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mMuavaochitietEntity[39m } [36mfrom[39m [32m'./entities/muavaochitiet.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 6 |[39m [33m@[39m[33mModule[39m({[0m
+  [0m [90m 7 |[39m   imports[33m:[39m [[33mTypeOrmModule[39m[33m.[39mforFeature([[33mMuavaochitietEntity[39m])][33m,[39m[0m
+  [0m [90m 8 |[39m   controllers[33m:[39m [[33mMuavaochitietController[39m][33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.service.ts:[32m[1m6:10[22m[39m[1m[39m[22m
+[90mTS2724: [39m'"./entities/muavaochitiet.entity"' has no exported member named 'MuavaochitietEntity'. Did you mean 'Muavaochitiet'?
+  [0m [90m 4 |[39m [36mimport[39m { [33mCreateMuavaochitietDto[39m } [36mfrom[39m [32m'./dto/create-muavaochitiet.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mUpdateMuavaochitietDto[39m } [36mfrom[39m [32m'./dto/update-muavaochitiet.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mMuavaochitietEntity[39m } [36mfrom[39m [32m'./entities/muavaochitiet.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 8 |[39m [36mexport[39m [36mclass[39m [33mMuavaochitietService[39m {[0m
+  [0m [90m 9 |[39m   constructor([0m
+
+webpack compiled with [1m[31m5 errors[39m[22m (3ccd6eacabd52358)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 45.1 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.controller.ts:[32m[1m22:38[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findOne' does not exist on type 'MuavaochitietService'.
+  [0m [90m 20 |[39m   [33m@[39m[33mGet[39m([32m':id'[39m)[0m
+  [0m [90m 21 |[39m   findOne([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 22 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mmuavaochitietService[33m.[39mfindOne([33m+[39mid)[33m;[39m[0m
+  [0m [90m    |[39m                                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 23 |[39m   }[0m
+  [0m [90m 24 |[39m[0m
+  [0m [90m 25 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.controller.ts:[32m[1m27:45[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'number' is not assignable to parameter of type 'string'.
+  [0m [90m 25 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+  [0m [90m 26 |[39m   update([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string[33m,[39m [33m@[39m[33mBody[39m() updateMuavaochitietDto[33m:[39m [33mUpdateMuavaochitietDto[39m) {[0m
+  [0m[31m[1m>[22m[39m[90m 27 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mmuavaochitietService[33m.[39mupdate([33m+[39mid[33m,[39m updateMuavaochitietDto)[33m;[39m[0m
+  [0m [90m    |[39m                                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 28 |[39m   }[0m
+  [0m [90m 29 |[39m[0m
+  [0m [90m 30 |[39m   [33m@[39m[33mDelete[39m([32m':id'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.controller.ts:[32m[1m32:45[22m[39m[1m[39m[22m
+[90mTS2345: [39mArgument of type 'number' is not assignable to parameter of type 'string'.
+  [0m [90m 30 |[39m   [33m@[39m[33mDelete[39m([32m':id'[39m)[0m
+  [0m [90m 31 |[39m   remove([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 32 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mmuavaochitietService[33m.[39mremove([33m+[39mid)[33m;[39m[0m
+  [0m [90m    |[39m                                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 33 |[39m   }[0m
+  [0m [90m 34 |[39m }[0m
+  [0m [90m 35 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.module.ts:[32m[1m5:10[22m[39m[1m[39m[22m
+[90mTS2724: [39m'"./entities/muavaochitiet.entity"' has no exported member named 'MuavaochitietEntity'. Did you mean 'Muavaochitiet'?
+  [0m [90m 3 |[39m [36mimport[39m { [33mMuavaochitietController[39m } [36mfrom[39m [32m'./muavaochitiet.controller'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mTypeOrmModule[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mMuavaochitietEntity[39m } [36mfrom[39m [32m'./entities/muavaochitiet.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 6 |[39m [33m@[39m[33mModule[39m({[0m
+  [0m [90m 7 |[39m   imports[33m:[39m [[33mTypeOrmModule[39m[33m.[39mforFeature([[33mMuavaochitietEntity[39m])][33m,[39m[0m
+  [0m [90m 8 |[39m   controllers[33m:[39m [[33mMuavaochitietController[39m][33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.service.ts:[32m[1m6:10[22m[39m[1m[39m[22m
+[90mTS2724: [39m'"./entities/muavaochitiet.entity"' has no exported member named 'MuavaochitietEntity'. Did you mean 'Muavaochitiet'?
+  [0m [90m 4 |[39m [36mimport[39m { [33mCreateMuavaochitietDto[39m } [36mfrom[39m [32m'./dto/create-muavaochitiet.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mUpdateMuavaochitietDto[39m } [36mfrom[39m [32m'./dto/update-muavaochitiet.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mMuavaochitietEntity[39m } [36mfrom[39m [32m'./entities/muavaochitiet.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 8 |[39m [36mexport[39m [36mclass[39m [33mMuavaochitietService[39m {[0m
+  [0m [90m 9 |[39m   constructor([0m
+
+webpack compiled with [1m[31m5 errors[39m[22m (3ccd6eacabd52358)
+[1m[31mDebugger listening on ws://localhost:9229/8cef0c71-1d13-4fb3-bd1b-eafe3d79bfd6[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/8cef0c71-1d13-4fb3-bd1b-eafe3d79bfd6[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mF:\chikiet\BEKetoan\node_modules\@nestjs\typeorm\dist\common\typeorm.utils.js:19[39m[22m
+[1m[31m        throw new circular_dependency_exception_1.CircularDependencyException('@InjectRepository()');[39m[22m
+[1m[31m              ^[39m[22m
+[1m[31mError: A circular dependency has been detected inside @InjectRepository(). Please, make sure that each side of a bidirectional relationships are decorated with "forwardRef()". Also, try to eliminate barrel files because they can lead to an unexpected behavior too.[39m[22m
+[1m[31m    at getRepositoryToken (F:\chikiet\BEKetoan\node_modules\@nestjs\typeorm\dist\common\typeorm.utils.js:19:15)[39m[22m
+[1m[31m    at InjectRepository (F:\chikiet\BEKetoan\node_modules\@nestjs\typeorm\dist\common\typeorm.decorators.js:7:157)[39m[22m
+[1m[31m    at Array.Object.defineProperty.value (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\muavaochitiet\muavaochitiet.service.ts:10:22)[39m[22m
+[1m[31m    at __webpack_require__ (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\webpack\bootstrap:19:1)[39m[22m
+[1m[31m    at Array.Object.defineProperty.value (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\muavaochitiet\muavaochitiet.module.ts:2:1)[39m[22m
+[1m[31m    at __webpack_require__ (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\webpack\bootstrap:19:1)[39m[22m
+[1m[31m    at Array.<anonymous> (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\app.module.ts:9:1)[39m[22m
+[1m[31m    at __webpack_require__ (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\webpack\bootstrap:19:1)[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\main.ts:9:1[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\dist\be_ketoan\main.js:1291:3[39m[22m
+[1m[31m[39m[22m
+
+[36m>[39m [7m[1m[36m NX [39m[22m[27m [1mProcess exited with code 1, waiting for changes to restart...[22m
+
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 45.5 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/muavaochitiet/muavaochitiet.controller.ts[39m[22m [1m[32m7:25-52[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './dichvu.service' in 'F:\chikiet\BEKetoan\be_ketoan\src\app\muavaochitiet'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/muavaochitiet/muavaochitiet.controller.ts[39m[22m [1m[32m8:28-62[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './dto/create-dichvu.dto' in 'F:\chikiet\BEKetoan\be_ketoan\src\app\muavaochitiet'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/muavaochitiet/muavaochitiet.controller.ts[39m[22m [1m[32m9:28-62[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './dto/update-dichvu.dto' in 'F:\chikiet\BEKetoan\be_ketoan\src\app\muavaochitiet'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.controller.ts:[32m[1m2:30[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './dichvu.service' or its corresponding type declarations.
+  [0m [90m 1 |[39m [36mimport[39m { [33mController[39m[33m,[39m [33mGet[39m[33m,[39m [33mPost[39m[33m,[39m [33mBody[39m[33m,[39m [33mPatch[39m[33m,[39m [33mParam[39m[33m,[39m [33mDelete[39m[33m,[39m [33mQuery[39m } [36mfrom[39m [32m'@nestjs/common'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 2 |[39m [36mimport[39m {[33mDichvuService[39m } [36mfrom[39m [32m'./dichvu.service'[39m[33m;[39m[0m
+  [0m [90m   |[39m                              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m { [33mCreateDichvuDto[39m } [36mfrom[39m [32m'./dto/create-dichvu.dto'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mUpdateDichvuDto[39m } [36mfrom[39m [32m'./dto/update-dichvu.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [33m@[39m[33mController[39m([32m'dichvu'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.controller.ts:[32m[1m3:33[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './dto/create-dichvu.dto' or its corresponding type declarations.
+  [0m [90m 1 |[39m [36mimport[39m { [33mController[39m[33m,[39m [33mGet[39m[33m,[39m [33mPost[39m[33m,[39m [33mBody[39m[33m,[39m [33mPatch[39m[33m,[39m [33mParam[39m[33m,[39m [33mDelete[39m[33m,[39m [33mQuery[39m } [36mfrom[39m [32m'@nestjs/common'[39m[33m;[39m[0m
+  [0m [90m 2 |[39m [36mimport[39m {[33mDichvuService[39m } [36mfrom[39m [32m'./dichvu.service'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 3 |[39m [36mimport[39m { [33mCreateDichvuDto[39m } [36mfrom[39m [32m'./dto/create-dichvu.dto'[39m[33m;[39m[0m
+  [0m [90m   |[39m                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mUpdateDichvuDto[39m } [36mfrom[39m [32m'./dto/update-dichvu.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [33m@[39m[33mController[39m([32m'dichvu'[39m)[0m
+  [0m [90m 6 |[39m [36mexport[39m [36mclass[39m [33mDichvuController[39m {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.controller.ts:[32m[1m4:33[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './dto/update-dichvu.dto' or its corresponding type declarations.
+  [0m [90m 2 |[39m [36mimport[39m {[33mDichvuService[39m } [36mfrom[39m [32m'./dichvu.service'[39m[33m;[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m { [33mCreateDichvuDto[39m } [36mfrom[39m [32m'./dto/create-dichvu.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 4 |[39m [36mimport[39m { [33mUpdateDichvuDto[39m } [36mfrom[39m [32m'./dto/update-dichvu.dto'[39m[33m;[39m[0m
+  [0m [90m   |[39m                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 5 |[39m [33m@[39m[33mController[39m([32m'dichvu'[39m)[0m
+  [0m [90m 6 |[39m [36mexport[39m [36mclass[39m [33mDichvuController[39m {[0m
+  [0m [90m 7 |[39m   constructor([36mprivate[39m readonly dichvuService[33m:[39m[33mDichvuService[39m) {}[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.module.ts:[32m[1m3:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./muavaochitiet.controller"' has no exported member 'MuavaochitietController'.
+  [0m [90m 1 |[39m [36mimport[39m { [33mModule[39m } [36mfrom[39m [32m'@nestjs/common'[39m[33m;[39m[0m
+  [0m [90m 2 |[39m [36mimport[39m { [33mMuavaochitietService[39m } [36mfrom[39m [32m'./muavaochitiet.service'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 3 |[39m [36mimport[39m { [33mMuavaochitietController[39m } [36mfrom[39m [32m'./muavaochitiet.controller'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mTypeOrmModule[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mMuavaochitietEntity[39m } [36mfrom[39m [32m'./entities/muavaochitiet.entity'[39m[33m;[39m[0m
+  [0m [90m 6 |[39m [33m@[39m[33mModule[39m({[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.module.ts:[32m[1m5:10[22m[39m[1m[39m[22m
+[90mTS2724: [39m'"./entities/muavaochitiet.entity"' has no exported member named 'MuavaochitietEntity'. Did you mean 'Muavaochitiet'?
+  [0m [90m 3 |[39m [36mimport[39m { [33mMuavaochitietController[39m } [36mfrom[39m [32m'./muavaochitiet.controller'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mTypeOrmModule[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mMuavaochitietEntity[39m } [36mfrom[39m [32m'./entities/muavaochitiet.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 6 |[39m [33m@[39m[33mModule[39m({[0m
+  [0m [90m 7 |[39m   imports[33m:[39m [[33mTypeOrmModule[39m[33m.[39mforFeature([[33mMuavaochitietEntity[39m])][33m,[39m[0m
+  [0m [90m 8 |[39m   controllers[33m:[39m [[33mMuavaochitietController[39m][33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.service.ts:[32m[1m6:10[22m[39m[1m[39m[22m
+[90mTS2724: [39m'"./entities/muavaochitiet.entity"' has no exported member named 'MuavaochitietEntity'. Did you mean 'Muavaochitiet'?
+  [0m [90m 4 |[39m [36mimport[39m { [33mCreateMuavaochitietDto[39m } [36mfrom[39m [32m'./dto/create-muavaochitiet.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mUpdateMuavaochitietDto[39m } [36mfrom[39m [32m'./dto/update-muavaochitiet.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mMuavaochitietEntity[39m } [36mfrom[39m [32m'./entities/muavaochitiet.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 8 |[39m [36mexport[39m [36mclass[39m [33mMuavaochitietService[39m {[0m
+  [0m [90m 9 |[39m   constructor([0m
+
+webpack compiled with [1m[31m9 errors[39m[22m (2f1175ec34ef97e6)
+[1m[31mDebugger listening on ws://localhost:9229/dab128aa-de19-4774-99a0-cc22132dfb2f[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/dab128aa-de19-4774-99a0-cc22132dfb2f[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 46.4 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.module.ts:[32m[1m5:10[22m[39m[1m[39m[22m
+[90mTS2724: [39m'"./entities/muavaochitiet.entity"' has no exported member named 'MuavaochitietEntity'. Did you mean 'Muavaochitiet'?
+  [0m [90m 3 |[39m [36mimport[39m { [33mMuavaochitietController[39m } [36mfrom[39m [32m'./muavaochitiet.controller'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mTypeOrmModule[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mMuavaochitietEntity[39m } [36mfrom[39m [32m'./entities/muavaochitiet.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 6 |[39m [33m@[39m[33mModule[39m({[0m
+  [0m [90m 7 |[39m   imports[33m:[39m [[33mTypeOrmModule[39m[33m.[39mforFeature([[33mMuavaochitietEntity[39m])][33m,[39m[0m
+  [0m [90m 8 |[39m   controllers[33m:[39m [[33mMuavaochitietController[39m][33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.service.ts:[32m[1m6:10[22m[39m[1m[39m[22m
+[90mTS2724: [39m'"./entities/muavaochitiet.entity"' has no exported member named 'MuavaochitietEntity'. Did you mean 'Muavaochitiet'?
+  [0m [90m 4 |[39m [36mimport[39m { [33mCreateMuavaochitietDto[39m } [36mfrom[39m [32m'./dto/create-muavaochitiet.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mUpdateMuavaochitietDto[39m } [36mfrom[39m [32m'./dto/update-muavaochitiet.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mMuavaochitietEntity[39m } [36mfrom[39m [32m'./entities/muavaochitiet.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 8 |[39m [36mexport[39m [36mclass[39m [33mMuavaochitietService[39m {[0m
+  [0m [90m 9 |[39m   constructor([0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (2ab029f16c734e37)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 46.4 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.module.ts:[32m[1m5:10[22m[39m[1m[39m[22m
+[90mTS2724: [39m'"./entities/muavaochitiet.entity"' has no exported member named 'MuavaochitietEntity'. Did you mean 'Muavaochitiet'?
+  [0m [90m 3 |[39m [36mimport[39m { [33mMuavaochitietController[39m } [36mfrom[39m [32m'./muavaochitiet.controller'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mTypeOrmModule[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mMuavaochitietEntity[39m } [36mfrom[39m [32m'./entities/muavaochitiet.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 6 |[39m [33m@[39m[33mModule[39m({[0m
+  [0m [90m 7 |[39m   imports[33m:[39m [[33mTypeOrmModule[39m[33m.[39mforFeature([[33mMuavaochitietEntity[39m])][33m,[39m[0m
+  [0m [90m 8 |[39m   controllers[33m:[39m [[33mMuavaochitietController[39m][33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.service.ts:[32m[1m6:10[22m[39m[1m[39m[22m
+[90mTS2724: [39m'"./entities/muavaochitiet.entity"' has no exported member named 'MuavaochitietEntity'. Did you mean 'Muavaochitiet'?
+  [0m [90m 4 |[39m [36mimport[39m { [33mCreateMuavaochitietDto[39m } [36mfrom[39m [32m'./dto/create-muavaochitiet.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mUpdateMuavaochitietDto[39m } [36mfrom[39m [32m'./dto/update-muavaochitiet.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mMuavaochitietEntity[39m } [36mfrom[39m [32m'./entities/muavaochitiet.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 8 |[39m [36mexport[39m [36mclass[39m [33mMuavaochitietService[39m {[0m
+  [0m [90m 9 |[39m   constructor([0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (2ab029f16c734e37)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 46.4 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.module.ts:[32m[1m5:10[22m[39m[1m[39m[22m
+[90mTS2724: [39m'"./entities/muavaochitiet.entity"' has no exported member named 'MuavaochitietEntity'. Did you mean 'Muavaochitiet'?
+  [0m [90m 3 |[39m [36mimport[39m { [33mMuavaochitietController[39m } [36mfrom[39m [32m'./muavaochitiet.controller'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mTypeOrmModule[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mMuavaochitietEntity[39m } [36mfrom[39m [32m'./entities/muavaochitiet.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 6 |[39m [33m@[39m[33mModule[39m({[0m
+  [0m [90m 7 |[39m   imports[33m:[39m [[33mTypeOrmModule[39m[33m.[39mforFeature([[33mMuavaochitietEntity[39m])][33m,[39m[0m
+  [0m [90m 8 |[39m   controllers[33m:[39m [[33mMuavaochitietController[39m][33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.service.ts:[32m[1m6:10[22m[39m[1m[39m[22m
+[90mTS2724: [39m'"./entities/muavaochitiet.entity"' has no exported member named 'MuavaochitietEntity'. Did you mean 'Muavaochitiet'?
+  [0m [90m 4 |[39m [36mimport[39m { [33mCreateMuavaochitietDto[39m } [36mfrom[39m [32m'./dto/create-muavaochitiet.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mUpdateMuavaochitietDto[39m } [36mfrom[39m [32m'./dto/update-muavaochitiet.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mMuavaochitietEntity[39m } [36mfrom[39m [32m'./entities/muavaochitiet.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 8 |[39m [36mexport[39m [36mclass[39m [33mMuavaochitietService[39m {[0m
+  [0m [90m 9 |[39m   constructor([0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (2ab029f16c734e37)
+[1m[31mDebugger listening on ws://localhost:9229/6a071084-31d6-4375-816b-304f9e5808ca[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/6a071084-31d6-4375-816b-304f9e5808ca[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mF:\chikiet\BEKetoan\node_modules\@nestjs\typeorm\dist\common\typeorm.utils.js:19[39m[22m
+[1m[31m        throw new circular_dependency_exception_1.CircularDependencyException('@InjectRepository()');[39m[22m
+[1m[31m              ^[39m[22m
+[1m[31mError: A circular dependency has been detected inside @InjectRepository(). Please, make sure that each side of a bidirectional relationships are decorated with "forwardRef()". Also, try to eliminate barrel files because they can lead to an unexpected behavior too.[39m[22m
+[1m[31m    at getRepositoryToken (F:\chikiet\BEKetoan\node_modules\@nestjs\typeorm\dist\common\typeorm.utils.js:19:15)[39m[22m
+[1m[31m    at InjectRepository (F:\chikiet\BEKetoan\node_modules\@nestjs\typeorm\dist\common\typeorm.decorators.js:7:157)[39m[22m
+[1m[31m    at Array.Object.defineProperty.value (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\muavaochitiet\muavaochitiet.service.ts:10:22)[39m[22m
+[1m[31m    at __webpack_require__ (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\webpack\bootstrap:19:1)[39m[22m
+[1m[31m    at Array.Object.defineProperty.value (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\muavaochitiet\muavaochitiet.module.ts:2:1)[39m[22m
+[1m[31m    at __webpack_require__ (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\webpack\bootstrap:19:1)[39m[22m
+[1m[31m    at Array.<anonymous> (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\app.module.ts:9:1)[39m[22m
+[1m[31m    at __webpack_require__ (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\webpack\bootstrap:19:1)[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\main.ts:9:1[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\dist\be_ketoan\main.js:1322:3[39m[22m
+[1m[31m[39m[22m
+
+[36m>[39m [7m[1m[36m NX [39m[22m[27m [1mProcess exited with code 1, waiting for changes to restart...[22m
+
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 46.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/entities/muavaochitiet.entity.ts[39m[22m
+[90mTS2304: [39mCannot find name 'k_'.
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.module.ts:[32m[1m5:37[22m[39m[1m[39m[22m
+[90mTS2306: [39mFile 'F:/chikiet/BEKetoan/be_ketoan/src/app/muavaochitiet/entities/muavaochitiet.entity.ts' is not a module.
+  [0m [90m 3 |[39m [36mimport[39m { [33mMuavaochitietController[39m } [36mfrom[39m [32m'./muavaochitiet.controller'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mTypeOrmModule[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mMuavaochitietEntity[39m } [36mfrom[39m [32m'./entities/muavaochitiet.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m                                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 6 |[39m [33m@[39m[33mModule[39m({[0m
+  [0m [90m 7 |[39m   imports[33m:[39m [[33mTypeOrmModule[39m[33m.[39mforFeature([[33mMuavaochitietEntity[39m])][33m,[39m[0m
+  [0m [90m 8 |[39m   controllers[33m:[39m [[33mMuavaochitietController[39m][33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.service.ts:[32m[1m6:37[22m[39m[1m[39m[22m
+[90mTS2306: [39mFile 'F:/chikiet/BEKetoan/be_ketoan/src/app/muavaochitiet/entities/muavaochitiet.entity.ts' is not a module.
+  [0m [90m 4 |[39m [36mimport[39m { [33mCreateMuavaochitietDto[39m } [36mfrom[39m [32m'./dto/create-muavaochitiet.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mUpdateMuavaochitietDto[39m } [36mfrom[39m [32m'./dto/update-muavaochitiet.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mMuavaochitietEntity[39m } [36mfrom[39m [32m'./entities/muavaochitiet.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m                                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 8 |[39m [36mexport[39m [36mclass[39m [33mMuavaochitietService[39m {[0m
+  [0m [90m 9 |[39m   constructor([0m
+
+webpack compiled with [1m[31m3 errors[39m[22m (3b04ca9a3a5c8308)
+[1m[31mDebugger listening on ws://localhost:9229/79049bf9-297b-46f8-aa23-67e805f13f49[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/79049bf9-297b-46f8-aa23-67e805f13f49[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 49 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.module.ts:[32m[1m5:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./entities/muavaochitiet.entity"' has no exported member 'MuavaochitietEntity'.
+  [0m [90m 3 |[39m [36mimport[39m { [33mMuavaochitietController[39m } [36mfrom[39m [32m'./muavaochitiet.controller'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mTypeOrmModule[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mMuavaochitietEntity[39m } [36mfrom[39m [32m'./entities/muavaochitiet.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 6 |[39m [33m@[39m[33mModule[39m({[0m
+  [0m [90m 7 |[39m   imports[33m:[39m [[33mTypeOrmModule[39m[33m.[39mforFeature([[33mMuavaochitietEntity[39m])][33m,[39m[0m
+  [0m [90m 8 |[39m   controllers[33m:[39m [[33mMuavaochitietController[39m][33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.service.ts:[32m[1m6:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./entities/muavaochitiet.entity"' has no exported member 'MuavaochitietEntity'.
+  [0m [90m 4 |[39m [36mimport[39m { [33mCreateMuavaochitietDto[39m } [36mfrom[39m [32m'./dto/create-muavaochitiet.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mUpdateMuavaochitietDto[39m } [36mfrom[39m [32m'./dto/update-muavaochitiet.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mMuavaochitietEntity[39m } [36mfrom[39m [32m'./entities/muavaochitiet.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 8 |[39m [36mexport[39m [36mclass[39m [33mMuavaochitietService[39m {[0m
+  [0m [90m 9 |[39m   constructor([0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (f6887c9d265c29d9)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 49 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.module.ts:[32m[1m5:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./entities/muavaochitiet.entity"' has no exported member 'MuavaochitietEntity'.
+  [0m [90m 3 |[39m [36mimport[39m { [33mMuavaochitietController[39m } [36mfrom[39m [32m'./muavaochitiet.controller'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mTypeOrmModule[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mMuavaochitietEntity[39m } [36mfrom[39m [32m'./entities/muavaochitiet.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 6 |[39m [33m@[39m[33mModule[39m({[0m
+  [0m [90m 7 |[39m   imports[33m:[39m [[33mTypeOrmModule[39m[33m.[39mforFeature([[33mMuavaochitietEntity[39m])][33m,[39m[0m
+  [0m [90m 8 |[39m   controllers[33m:[39m [[33mMuavaochitietController[39m][33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.service.ts:[32m[1m6:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./entities/muavaochitiet.entity"' has no exported member 'MuavaochitietEntity'.
+  [0m [90m 4 |[39m [36mimport[39m { [33mCreateMuavaochitietDto[39m } [36mfrom[39m [32m'./dto/create-muavaochitiet.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mUpdateMuavaochitietDto[39m } [36mfrom[39m [32m'./dto/update-muavaochitiet.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mMuavaochitietEntity[39m } [36mfrom[39m [32m'./entities/muavaochitiet.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 8 |[39m [36mexport[39m [36mclass[39m [33mMuavaochitietService[39m {[0m
+  [0m [90m 9 |[39m   constructor([0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (f6887c9d265c29d9)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 49 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.module.ts:[32m[1m5:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./entities/muavaochitiet.entity"' has no exported member 'MuavaochitietEntity'.
+  [0m [90m 3 |[39m [36mimport[39m { [33mMuavaochitietController[39m } [36mfrom[39m [32m'./muavaochitiet.controller'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mTypeOrmModule[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mMuavaochitietEntity[39m } [36mfrom[39m [32m'./entities/muavaochitiet.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 6 |[39m [33m@[39m[33mModule[39m({[0m
+  [0m [90m 7 |[39m   imports[33m:[39m [[33mTypeOrmModule[39m[33m.[39mforFeature([[33mMuavaochitietEntity[39m])][33m,[39m[0m
+  [0m [90m 8 |[39m   controllers[33m:[39m [[33mMuavaochitietController[39m][33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.service.ts:[32m[1m6:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./entities/muavaochitiet.entity"' has no exported member 'MuavaochitietEntity'.
+  [0m [90m 4 |[39m [36mimport[39m { [33mCreateMuavaochitietDto[39m } [36mfrom[39m [32m'./dto/create-muavaochitiet.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mUpdateMuavaochitietDto[39m } [36mfrom[39m [32m'./dto/update-muavaochitiet.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mMuavaochitietEntity[39m } [36mfrom[39m [32m'./entities/muavaochitiet.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 8 |[39m [36mexport[39m [36mclass[39m [33mMuavaochitietService[39m {[0m
+  [0m [90m 9 |[39m   constructor([0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (f6887c9d265c29d9)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 49 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.module.ts:[32m[1m5:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./entities/muavaochitiet.entity"' has no exported member 'MuavaochitietEntity'.
+  [0m [90m 3 |[39m [36mimport[39m { [33mMuavaochitietController[39m } [36mfrom[39m [32m'./muavaochitiet.controller'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mTypeOrmModule[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mMuavaochitietEntity[39m } [36mfrom[39m [32m'./entities/muavaochitiet.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 6 |[39m [33m@[39m[33mModule[39m({[0m
+  [0m [90m 7 |[39m   imports[33m:[39m [[33mTypeOrmModule[39m[33m.[39mforFeature([[33mMuavaochitietEntity[39m])][33m,[39m[0m
+  [0m [90m 8 |[39m   controllers[33m:[39m [[33mMuavaochitietController[39m][33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.service.ts:[32m[1m6:10[22m[39m[1m[39m[22m
+[90mTS2305: [39mModule '"./entities/muavaochitiet.entity"' has no exported member 'MuavaochitietEntity'.
+  [0m [90m 4 |[39m [36mimport[39m { [33mCreateMuavaochitietDto[39m } [36mfrom[39m [32m'./dto/create-muavaochitiet.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mUpdateMuavaochitietDto[39m } [36mfrom[39m [32m'./dto/update-muavaochitiet.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mMuavaochitietEntity[39m } [36mfrom[39m [32m'./entities/muavaochitiet.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 8 |[39m [36mexport[39m [36mclass[39m [33mMuavaochitietService[39m {[0m
+  [0m [90m 9 |[39m   constructor([0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (f6887c9d265c29d9)
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mF:\chikiet\BEKetoan\dist\be_ketoan\main.js:1295[39m[22m
+[1m[31m    tslib_1.__metadata("design:type", String)[39m[22m
+[1m[31m^[39m[22m
+[1m[31m[39m[22m
+[1m[31mReferenceError: k_ is not defined[39m[22m
+[1m[31m    at Array.__webpack_modules__ (F:\chikiet\BEKetoan\dist\be_ketoan\main.js:1295:1)[39m[22m
+[1m[31m    at __webpack_require__ (F:\chikiet\BEKetoan\dist\be_ketoan\main.js:1319:41)[39m[22m
+[1m[31m    at Array.Object.defineProperty.value (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\muavaochitiet\muavaochitiet.service.ts:37:24)[39m[22m
+[1m[31m    at __webpack_require__ (F:\chikiet\BEKetoan\dist\be_ketoan\main.js:1319:41)[39m[22m
+[1m[31m    at Array.Object.defineProperty.value (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\muavaochitiet\muavaochitiet.service.ts:2:1)[39m[22m
+[1m[31m    at __webpack_require__ (F:\chikiet\BEKetoan\dist\be_ketoan\main.js:1319:41)[39m[22m
+[1m[31m    at Array.<anonymous> (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\app.module.ts:30:26)[39m[22m
+[1m[31m    at __webpack_require__ (F:\chikiet\BEKetoan\dist\be_ketoan\main.js:1319:41)[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\webpack\bootstrap:7:1[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\dist\be_ketoan\main.js:1349:3[39m[22m
+[1m[31m[39m[22m
+
+[36m>[39m [7m[1m[36m NX [39m[22m[27m [1mProcess exited with code 1, waiting for changes to restart...[22m
+
+[1m[31mDebugger listening on ws://localhost:9229/05f5fe01-e80e-4b7a-aba1-747d6aea7384[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/05f5fe01-e80e-4b7a-aba1-747d6aea7384[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mF:\chikiet\BEKetoan\node_modules\@nestjs\typeorm\dist\common\typeorm.utils.js:19[39m[22m
+[1m[31m        throw new circular_dependency_exception_1.CircularDependencyException('@InjectRepository()');[39m[22m
+[1m[31m              ^[39m[22m
+[1m[31mError: A circular dependency has been detected inside @InjectRepository(). Please, make sure that each side of a bidirectional relationships are decorated with "forwardRef()". Also, try to eliminate barrel files because they can lead to an unexpected behavior too.[39m[22m
+[1m[31m    at getRepositoryToken (F:\chikiet\BEKetoan\node_modules\@nestjs\typeorm\dist\common\typeorm.utils.js:19:15)[39m[22m
+[1m[31m    at InjectRepository (F:\chikiet\BEKetoan\node_modules\@nestjs\typeorm\dist\common\typeorm.decorators.js:7:157)[39m[22m
+[1m[31m    at Array.Object.defineProperty.value (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\muavaochitiet\muavaochitiet.service.ts:10:22)[39m[22m
+[1m[31m    at __webpack_require__ (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\webpack\bootstrap:19:1)[39m[22m
+[1m[31m    at Array.Object.defineProperty.value (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\muavaochitiet\muavaochitiet.module.ts:2:1)[39m[22m
+[1m[31m    at __webpack_require__ (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\webpack\bootstrap:19:1)[39m[22m
+[1m[31m    at Array.<anonymous> (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\app.module.ts:9:1)[39m[22m
+[1m[31m    at __webpack_require__ (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\webpack\bootstrap:19:1)[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\main.ts:9:1[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\dist\be_ketoan\main.js:1380:3[39m[22m
+[1m[31m[39m[22m
+
+[36m>[39m [7m[1m[36m NX [39m[22m[27m [1mProcess exited with code 1, waiting for changes to restart...[22m
+
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 49.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (1e0058f1c0169b78)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 49.2 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (1e0058f1c0169b78)
+[1m[31mDebugger listening on ws://localhost:9229/afbfb799-401a-433b-a519-9e483a7e017f[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/afbfb799-401a-433b-a519-9e483a7e017f[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 49.4 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (9bc4c8cddccaaa67)
+[1m[31mDebugger listening on ws://localhost:9229/e2ce9ca5-8bba-4939-b481-f0b2a2791a80[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/e2ce9ca5-8bba-4939-b481-f0b2a2791a80[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 49.8 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (f569bb2c8e05a11b)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 49.8 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (f569bb2c8e05a11b)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 49.8 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (f569bb2c8e05a11b)
+[1m[31mDebugger listening on ws://localhost:9229/10b881b1-5616-4eb5-9b1d-f5731bcc8c4f[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/10b881b1-5616-4eb5-9b1d-f5731bcc8c4f[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 49.8 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (f569bb2c8e05a11b)
+[1m[31mDebugger listening on ws://localhost:9229/76edd8cf-b247-4cd1-9451-6f8bd7fe0046[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/76edd8cf-b247-4cd1-9451-6f8bd7fe0046[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 49.8 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (f569bb2c8e05a11b)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m

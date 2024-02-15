@@ -1,0 +1,315 @@
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (9d76186a91cda204)
+[1m[31mDebugger listening on ws://localhost:9229/5a65fcb4-eb98-4f9e-a37e-78721efe288d[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/5a65fcb4-eb98-4f9e-a37e-78721efe288d[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (5f9cb23fe1b88e12)
+[1m[31mDebugger listening on ws://localhost:9229/9c47b5c8-247f-49df-ab82-6d5584a78f51[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/9c47b5c8-247f-49df-ab82-6d5584a78f51[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavaochitiet\muavaochitiet.service.ts[39m[22m
+[1m./src/app/muavaochitiet/muavaochitiet.service.ts[39m[22m [1m[32m71:30-35[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavaochitiet\muavaochitiet.service.ts(71,31)[39m[22m
+[1m[31m      TS1005: ')' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavaochitiet\muavaochitiet.service.ts[39m[22m
+[1m./src/app/muavaochitiet/muavaochitiet.service.ts[39m[22m [1m[32m71:35-36[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavaochitiet\muavaochitiet.service.ts(71,36)[39m[22m
+[1m[31m      TS1128: Declaration or statement expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.service.ts:[32m[1m71:31[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'Thang'.
+  [0m [90m 69 |[39m       queryBuilder[33m.[39mandWhere([32m'muavaochitiet.Title LIKE :Title'[39m[33m,[39m { [33mSDT[39m[33m:[39m [32m`%${params.Title}%`[39m })[33m;[39m[0m
+  [0m [90m 70 |[39m     }[0m
+  [0m[31m[1m>[22m[39m[90m 71 |[39m     [36mif[39m (params[33m.[39mhasOwnProperty [33mThang[39m) {[0m
+  [0m [90m    |[39m                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 72 |[39m       queryBuilder[33m.[39mandWhere([32m'muavaochitiet.Thang =:Thang'[39m[33m,[39m { [33mThang[39m[33m:[39m [32m`${params.Thang}`[39m })[33m;[39m[0m
+  [0m [90m 73 |[39m     }[0m
+  [0m [90m 74 |[39m     [36mif[39m (params[33m.[39m[33mThang[39m) {[0m
+
+webpack compiled with [1m[31m3 errors[39m[22m (1553a501decb2176)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavaochitiet\muavaochitiet.service.ts[39m[22m
+[1m./src/app/muavaochitiet/muavaochitiet.service.ts[39m[22m [1m[32m71:37-38[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavaochitiet\muavaochitiet.service.ts(71,38)[39m[22m
+[1m[31m      TS1005: ')' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.service.ts:[32m[1m71:31[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'Thang'.
+  [0m [90m 69 |[39m       queryBuilder[33m.[39mandWhere([32m'muavaochitiet.Title LIKE :Title'[39m[33m,[39m { [33mSDT[39m[33m:[39m [32m`%${params.Title}%`[39m })[33m;[39m[0m
+  [0m [90m 70 |[39m     }[0m
+  [0m[31m[1m>[22m[39m[90m 71 |[39m     [36mif[39m (params[33m.[39mhasOwnProperty([33mThang[39m) {[0m
+  [0m [90m    |[39m                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 72 |[39m       queryBuilder[33m.[39mandWhere([32m'muavaochitiet.Thang =:Thang'[39m[33m,[39m { [33mThang[39m[33m:[39m [32m`${params.Thang}`[39m })[33m;[39m[0m
+  [0m [90m 73 |[39m     }[0m
+  [0m [90m 74 |[39m     [36mif[39m (params[33m.[39m[33mThang[39m) {[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (c1091caa28d9d1c7)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.service.ts:[32m[1m71:31[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'Thang'.
+  [0m [90m 69 |[39m       queryBuilder[33m.[39mandWhere([32m'muavaochitiet.Title LIKE :Title'[39m[33m,[39m { [33mSDT[39m[33m:[39m [32m`%${params.Title}%`[39m })[33m;[39m[0m
+  [0m [90m 70 |[39m     }[0m
+  [0m[31m[1m>[22m[39m[90m 71 |[39m     [36mif[39m (params[33m.[39mhasOwnProperty([33mThang[39m)) {[0m
+  [0m [90m    |[39m                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 72 |[39m       queryBuilder[33m.[39mandWhere([32m'muavaochitiet.Thang =:Thang'[39m[33m,[39m { [33mThang[39m[33m:[39m [32m`${params.Thang}`[39m })[33m;[39m[0m
+  [0m [90m 73 |[39m     }[0m
+  [0m [90m 74 |[39m     [36mif[39m (params[33m.[39m[33mThang[39m) {[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (14ac124c53a4e9ad)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (f7cd83bd1cb38282)
+[1m[31mDebugger listening on ws://localhost:9229/de509b84-ba2d-4d9d-b507-3ae4fd728c84[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/de509b84-ba2d-4d9d-b507-3ae4fd728c84[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (f1c0127e2e2e9beb)
+[1m[31mDebugger listening on ws://localhost:9229/7cfc6922-4933-486d-868a-cf956c0a634d[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/7cfc6922-4933-486d-868a-cf956c0a634d[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (a067cd5a1a5abc58)
+[1m[31mDebugger listening on ws://localhost:9229/de669cab-b31f-4fa7-b050-a29a9710f2b1[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/de669cab-b31f-4fa7-b050-a29a9710f2b1[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (bdfeffd3c8bcb178)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (bdfeffd3c8bcb178)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (bdfeffd3c8bcb178)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (bdfeffd3c8bcb178)
+[1m[31mDebugger listening on ws://localhost:9229/667a3cf4-d67c-4ac1-b922-322f1fefcb69[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/667a3cf4-d67c-4ac1-b922-322f1fefcb69[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/cced116f-95e3-49d3-8106-1beac2930926[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/cced116f-95e3-49d3-8106-1beac2930926[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (d846013290c59980)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (d846013290c59980)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (d846013290c59980)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (d846013290c59980)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (d846013290c59980)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (d846013290c59980)
+[1m[31mDebugger listening on ws://localhost:9229/e71917cf-bcd5-4761-af60-f6ceed1a8e4a[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/e71917cf-bcd5-4761-af60-f6ceed1a8e4a[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (d846013290c59980)
+[1m[31mDebugger listening on ws://localhost:9229/a20eae7c-4275-409b-aa3a-c017eb26f619[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/a20eae7c-4275-409b-aa3a-c017eb26f619[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 196 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (e6f410c064a52b5c)
+[1m[31mDebugger listening on ws://localhost:9229/33ae27ef-1a2c-454b-a0ef-f3ec4dc64627[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/33ae27ef-1a2c-454b-a0ef-f3ec4dc64627[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 196 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (a5d427a1a5a940f5)
+[1m[31mDebugger listening on ws://localhost:9229/4ca8f56e-8921-461d-831d-cc33dbee5f7e[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/4ca8f56e-8921-461d-831d-cc33dbee5f7e[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (8ae8f82111d63eb5)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (8ae8f82111d63eb5)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (8ae8f82111d63eb5)
+[1m[31mDebugger listening on ws://localhost:9229/72374aa7-ec76-4d25-aaf4-eb6ae1576322[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/72374aa7-ec76-4d25-aaf4-eb6ae1576322[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 3, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 3, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 3, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 3, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2024, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/banrachitiet/banrachitiet.service.ts:[32m[1m45:9[22m[39m[1m[39m[22m
+[90mTS1117: [39mAn object literal cannot have multiple properties with the same name.
+  [0m [90m 43 |[39m         [33mSHD[39m[33m:[39m data[33m.[39m[33mSHD[39m[33m,[39m[0m
+  [0m [90m 44 |[39m         [33mThang[39m[33m:[39mdata[33m.[39m[33mThang[39m[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 45 |[39m         [33mThang[39m[33m:[39mdata[33m.[39m[33mThang[39m[33m,[39m[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 46 |[39m       }[33m,[39m[0m
+  [0m [90m 47 |[39m     })[33m;[39m[0m
+  [0m [90m 48 |[39m   }[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (9b934700db78c0b2)
+[1m[31mDebugger listening on ws://localhost:9229/61e272b8-32f7-4a53-b008-8c634ee1a791[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/61e272b8-32f7-4a53-b008-8c634ee1a791[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/banrachitiet/banrachitiet.service.ts:[32m[1m45:9[22m[39m[1m[39m[22m
+[90mTS1117: [39mAn object literal cannot have multiple properties with the same name.
+  [0m [90m 43 |[39m         [33mSHD[39m[33m:[39m data[33m.[39m[33mSHD[39m[33m,[39m[0m
+  [0m [90m 44 |[39m         [33mThang[39m[33m:[39mdata[33m.[39m[33mThang[39m[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 45 |[39m         [33mThang[39m[33m:[39mdata[33m.[39m[33mThang[39m[33m,[39m[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 46 |[39m         [33mThang[39m[33m:[39mdata[33m.[39m[33mThang[39m[33m,[39m[0m
+  [0m [90m 47 |[39m       }[33m,[39m[0m
+  [0m [90m 48 |[39m     })[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/banrachitiet/banrachitiet.service.ts:[32m[1m46:9[22m[39m[1m[39m[22m
+[90mTS1117: [39mAn object literal cannot have multiple properties with the same name.
+  [0m [90m 44 |[39m         [33mThang[39m[33m:[39mdata[33m.[39m[33mThang[39m[33m,[39m[0m
+  [0m [90m 45 |[39m         [33mThang[39m[33m:[39mdata[33m.[39m[33mThang[39m[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 46 |[39m         [33mThang[39m[33m:[39mdata[33m.[39m[33mThang[39m[33m,[39m[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 47 |[39m       }[33m,[39m[0m
+  [0m [90m 48 |[39m     })[33m;[39m[0m
+  [0m [90m 49 |[39m   }[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (e2a036f276026972)
+[1m[31mDebugger listening on ws://localhost:9229/c52c3190-1fc0-48f6-92c7-6e3a4958ae2a[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/c52c3190-1fc0-48f6-92c7-6e3a4958ae2a[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/banrachitiet/banrachitiet.service.ts:[32m[1m46:9[22m[39m[1m[39m[22m
+[90mTS1117: [39mAn object literal cannot have multiple properties with the same name.
+  [0m [90m 44 |[39m         [33mThang[39m[33m:[39mdata[33m.[39m[33mThang[39m[33m,[39m[0m
+  [0m [90m 45 |[39m         [33mNam[39m[33m:[39mdata[33m.[39m[33mThang[39m[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 46 |[39m         [33mThang[39m[33m:[39mdata[33m.[39m[33mThang[39m[33m,[39m[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 47 |[39m       }[33m,[39m[0m
+  [0m [90m 48 |[39m     })[33m;[39m[0m
+  [0m [90m 49 |[39m   }[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (d13cc6103224cfa5)
+[1m[31mDebugger listening on ws://localhost:9229/242791b1-18b4-4755-8a11-1346afc41e2f[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/242791b1-18b4-4755-8a11-1346afc41e2f[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/banrachitiet/banrachitiet.service.ts:[32m[1m46:9[22m[39m[1m[39m[22m
+[90mTS1117: [39mAn object literal cannot have multiple properties with the same name.
+  [0m [90m 44 |[39m         [33mThang[39m[33m:[39mdata[33m.[39m[33mThang[39m[33m,[39m[0m
+  [0m [90m 45 |[39m         [33mNam[39m[33m:[39mdata[33m.[39m[33mNam[39m[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 46 |[39m         [33mThang[39m[33m:[39mdata[33m.[39m[33mThang[39m[33m,[39m[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 47 |[39m       }[33m,[39m[0m
+  [0m [90m 48 |[39m     })[33m;[39m[0m
+  [0m [90m 49 |[39m   }[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (81e4bf55dd310350)
+[1m[31mDebugger listening on ws://localhost:9229/ed02b74c-34a3-4d07-a138-7cea2bb7da53[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/ed02b74c-34a3-4d07-a138-7cea2bb7da53[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (10c88490d00433ce)
+[1m[31mDebugger listening on ws://localhost:9229/08518120-6840-440d-98c3-4b32b6d1cf25[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/08518120-6840-440d-98c3-4b32b6d1cf25[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (3e8e6734c7dcdaf1)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (3e8e6734c7dcdaf1)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (3e8e6734c7dcdaf1)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (3e8e6734c7dcdaf1)
+[1m[31mDebugger listening on ws://localhost:9229/d97801fa-7c0c-46e5-8334-55bc0e930553[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/d97801fa-7c0c-46e5-8334-55bc0e930553[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (3e8e6734c7dcdaf1)
+[1m[31mDebugger listening on ws://localhost:9229/356d7096-ab4c-423c-8738-bb4631027fb3[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/356d7096-ab4c-423c-8738-bb4631027fb3[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (766989e21e517f7c)
+[1m[31mDebugger listening on ws://localhost:9229/772ee721-4a61-46dc-bc9f-4bb7a47a8967[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/772ee721-4a61-46dc-bc9f-4bb7a47a8967[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (766989e21e517f7c)
+[1m[31mDebugger listening on ws://localhost:9229/29979d1e-ae2c-48cf-8267-8b3c90fd7828[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/29979d1e-ae2c-48cf-8267-8b3c90fd7828[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 196 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavaochitiet\muavaochitiet.service.ts[39m[22m
+[1m./src/app/muavaochitiet/muavaochitiet.service.ts[39m[22m [1m[32m45:8-11[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavaochitiet\muavaochitiet.service.ts(45,9)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+webpack compiled with [1m[31m1 error[39m[22m (a869443b7a662ee0)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 196 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavaochitiet\muavaochitiet.service.ts[39m[22m
+[1m./src/app/muavaochitiet/muavaochitiet.service.ts[39m[22m [1m[32m45:8-11[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavaochitiet\muavaochitiet.service.ts(45,9)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+webpack compiled with [1m[31m1 error[39m[22m (a869443b7a662ee0)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 196 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavaochitiet\muavaochitiet.service.ts[39m[22m
+[1m./src/app/muavaochitiet/muavaochitiet.service.ts[39m[22m [1m[32m45:8-11[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavaochitiet\muavaochitiet.service.ts(45,9)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+webpack compiled with [1m[31m1 error[39m[22m (a869443b7a662ee0)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 196 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavaochitiet\muavaochitiet.service.ts[39m[22m
+[1m./src/app/muavaochitiet/muavaochitiet.service.ts[39m[22m [1m[32m45:8-11[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavaochitiet\muavaochitiet.service.ts(45,9)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+webpack compiled with [1m[31m1 error[39m[22m (a869443b7a662ee0)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 196 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (5a1cf964affae79b)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 196 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (5a1cf964affae79b)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 196 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (5a1cf964affae79b)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 196 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (5a1cf964affae79b)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 196 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (5a1cf964affae79b)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m

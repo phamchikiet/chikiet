@@ -1,0 +1,133 @@
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 157 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/nhapkho/nhapkho.service.ts:[32m[1m33:9[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ SHD: any; Gianhap: any; Thang: any; Soluong: any; TenSP: any; }' is not assignable to type 'FindOptionsWhere<NhapkhoEntity> | FindOptionsWhere<NhapkhoEntity>[]'.
+  Object literal may only specify known properties, and 'Gianhap' does not exist in type 'FindOptionsWhere<NhapkhoEntity> | FindOptionsWhere<NhapkhoEntity>[]'.
+  [0m [90m 31 |[39m       where[33m:[39m {[0m
+  [0m [90m 32 |[39m         [33mSHD[39m[33m:[39m data[33m.[39m[33mSHD[39m[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 33 |[39m         [33mGianhap[39m[33m:[39m data[33m.[39m[33mGianhap[39m[33m,[39m[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 34 |[39m         [33mThang[39m[33m:[39m data[33m.[39m[33mThang[39m[33m,[39m[0m
+  [0m [90m 35 |[39m         [33mSoluong[39m[33m:[39m data[33m.[39m[33mSoluong[39m[33m,[39m[0m
+  [0m [90m 36 |[39m         [33mTenSP[39m[33m:[39m data[33m.[39m[33mTenSP[39m[33m,[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (90f5399d740275d7)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 157 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (b03cad6199cfdca4)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 157 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (b03cad6199cfdca4)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 157 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (b03cad6199cfdca4)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 157 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (b03cad6199cfdca4)
+[1m[31mDebugger listening on ws://localhost:9229/b452720e-b7c8-4502-ba02-1ef10f2a4c68[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/b452720e-b7c8-4502-ba02-1ef10f2a4c68[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 157 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (b03cad6199cfdca4)
+[1m[31mDebugger listening on ws://localhost:9229/962e2333-eefc-435e-b729-a6b2b2462189[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/962e2333-eefc-435e-b729-a6b2b2462189[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 157 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/xuatkho/xuatkho.service.ts:[32m[1m33:9[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ SHD: any; Gianhap: any; Thang: any; Soluong: any; TenSP: any; }' is not assignable to type 'FindOptionsWhere<XuatkhoEntity> | FindOptionsWhere<XuatkhoEntity>[]'.
+  Object literal may only specify known properties, and 'Gianhap' does not exist in type 'FindOptionsWhere<XuatkhoEntity> | FindOptionsWhere<XuatkhoEntity>[]'.
+  [0m [90m 31 |[39m       where[33m:[39m {[0m
+  [0m [90m 32 |[39m         [33mSHD[39m[33m:[39m data[33m.[39m[33mSHD[39m[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 33 |[39m         [33mGianhap[39m[33m:[39m data[33m.[39m[33mGianhap[39m[33m,[39m[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 34 |[39m         [33mThang[39m[33m:[39m data[33m.[39m[33mThang[39m[33m,[39m[0m
+  [0m [90m 35 |[39m         [33mSoluong[39m[33m:[39m data[33m.[39m[33mSoluong[39m[33m,[39m[0m
+  [0m [90m 36 |[39m         [33mTenSP[39m[33m:[39m data[33m.[39m[33mTenSP[39m[33m,[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (110f5d4ada5a409d)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 157 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/xuatkho/xuatkho.service.ts:[32m[1m33:9[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ SHD: any; Gianhap: any; Thang: any; Soluong: any; TenSP: any; }' is not assignable to type 'FindOptionsWhere<XuatkhoEntity> | FindOptionsWhere<XuatkhoEntity>[]'.
+  Object literal may only specify known properties, and 'Gianhap' does not exist in type 'FindOptionsWhere<XuatkhoEntity> | FindOptionsWhere<XuatkhoEntity>[]'.
+  [0m [90m 31 |[39m       where[33m:[39m {[0m
+  [0m [90m 32 |[39m         [33mSHD[39m[33m:[39m data[33m.[39m[33mSHD[39m[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 33 |[39m         [33mGianhap[39m[33m:[39m data[33m.[39m[33mGianhap[39m[33m,[39m[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 34 |[39m         [33mThang[39m[33m:[39m data[33m.[39m[33mThang[39m[33m,[39m[0m
+  [0m [90m 35 |[39m         [33mSoluong[39m[33m:[39m data[33m.[39m[33mSoluong[39m[33m,[39m[0m
+  [0m [90m 36 |[39m         [33mTenSP[39m[33m:[39m data[33m.[39m[33mTenSP[39m[33m,[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (110f5d4ada5a409d)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 157 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/xuatkho/xuatkho.service.ts:[32m[1m33:9[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ SHD: any; Gianhap: any; Thang: any; Soluong: any; TenSP: any; }' is not assignable to type 'FindOptionsWhere<XuatkhoEntity> | FindOptionsWhere<XuatkhoEntity>[]'.
+  Object literal may only specify known properties, and 'Gianhap' does not exist in type 'FindOptionsWhere<XuatkhoEntity> | FindOptionsWhere<XuatkhoEntity>[]'.
+  [0m [90m 31 |[39m       where[33m:[39m {[0m
+  [0m [90m 32 |[39m         [33mSHD[39m[33m:[39m data[33m.[39m[33mSHD[39m[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 33 |[39m         [33mGianhap[39m[33m:[39m data[33m.[39m[33mGianhap[39m[33m,[39m[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 34 |[39m         [33mThang[39m[33m:[39m data[33m.[39m[33mThang[39m[33m,[39m[0m
+  [0m [90m 35 |[39m         [33mSoluong[39m[33m:[39m data[33m.[39m[33mSoluong[39m[33m,[39m[0m
+  [0m [90m 36 |[39m         [33mTenSP[39m[33m:[39m data[33m.[39m[33mTenSP[39m[33m,[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (110f5d4ada5a409d)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 157 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/xuatkho/xuatkho.service.ts:[32m[1m33:9[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ SHD: any; Gianhap: any; Thang: any; Soluong: any; TenSP: any; }' is not assignable to type 'FindOptionsWhere<XuatkhoEntity> | FindOptionsWhere<XuatkhoEntity>[]'.
+  Object literal may only specify known properties, and 'Gianhap' does not exist in type 'FindOptionsWhere<XuatkhoEntity> | FindOptionsWhere<XuatkhoEntity>[]'.
+  [0m [90m 31 |[39m       where[33m:[39m {[0m
+  [0m [90m 32 |[39m         [33mSHD[39m[33m:[39m data[33m.[39m[33mSHD[39m[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 33 |[39m         [33mGianhap[39m[33m:[39m data[33m.[39m[33mGianhap[39m[33m,[39m[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 34 |[39m         [33mThang[39m[33m:[39m data[33m.[39m[33mThang[39m[33m,[39m[0m
+  [0m [90m 35 |[39m         [33mSoluong[39m[33m:[39m data[33m.[39m[33mSoluong[39m[33m,[39m[0m
+  [0m [90m 36 |[39m         [33mTenSP[39m[33m:[39m data[33m.[39m[33mTenSP[39m[33m,[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (110f5d4ada5a409d)
+[1m[31mDebugger listening on ws://localhost:9229/83ca1b6a-ff94-4007-88ba-d7d38de9571e[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/83ca1b6a-ff94-4007-88ba-d7d38de9571e[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 13444  - [39m[31m01/27/2024, 3:35:25 PM [31m  ERROR[39m[31m [38;5;3m[TypeOrmModule] [39m[31m[31mUnable to connect to the database. Retrying (1)...[39m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mQueryFailedError: Invalid default value for 'Giaxuat'[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 13444  - [39m[31m01/27/2024, 3:35:28 PM [31m  ERROR[39m[31m [38;5;3m[TypeOrmModule] [39m[31m[31mUnable to connect to the database. Retrying (2)...[39m[31m[39m[22m
+[1m[31mQueryFailedError: Invalid default value for 'Giaxuat'[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 13444  - [39m[31m01/27/2024, 3:35:32 PM [31m  ERROR[39m[31m [38;5;3m[TypeOrmModule] [39m[31m[31mUnable to connect to the database. Retrying (3)...[39m[31m[39m[22m
+[1m[31mQueryFailedError: Invalid default value for 'Giaxuat'[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m

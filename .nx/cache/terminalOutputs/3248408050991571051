@@ -1,0 +1,1126 @@
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 193 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (93f340e4c8689d7a)
+[1m[31mDebugger listening on ws://localhost:9229/15f97999-14d8-4f11-89e3-52bb369c8172[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/15f97999-14d8-4f11-89e3-52bb369c8172[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 193 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/nhapkho/nhapkho.service.ts[39m[22m [1m[32m44:33[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: [1m[31mUnexpected[39m[22m[1m token (44:33)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|         const queryBuilder = this.NhapkhoRepository.createQueryBuilder('nhapkho');
+|         queryBuilder.andWhere('nhapkho.TenSP LIKE :TenSP', { TenSP: `%${TenSP}%` });
+>         const [items, totalCount];
+|         return await queryBuilder.getManyAndCount();
+|     }[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/nhapkho/nhapkho.service.ts:[32m[1m43:13[22m[39m[1m[39m[22m
+[90mTS1182: [39mA destructuring declaration must have an initializer.
+  [0m [90m 41 |[39m     [36mconst[39m queryBuilder [33m=[39m [36mthis[39m[33m.[39m[33mNhapkhoRepository[39m[33m.[39mcreateQueryBuilder([32m'nhapkho'[39m)[33m;[39m[0m
+  [0m [90m 42 |[39m       queryBuilder[33m.[39mandWhere([32m'nhapkho.TenSP LIKE :TenSP'[39m[33m,[39m { [33mTenSP[39m[33m:[39m [32m`%${TenSP}%`[39m })[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 43 |[39m       [36mconst[39m [items[33m,[39m totalCount][0m
+  [0m [90m    |[39m             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 44 |[39m     [36mreturn[39m [36mawait[39m queryBuilder[33m.[39mgetManyAndCount()[33m;[39m[0m
+  [0m [90m 45 |[39m   }[0m
+  [0m [90m 46 |[39m   [36masync[39m findslug([33mSHD[39m[33m:[39m any) {[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (e3684e161fcc407f)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 193 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (32f5b4d1d1068e62)
+[1m[31mDebugger listening on ws://localhost:9229/f0495eba-e4f2-482b-b180-88445ff7a145[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/f0495eba-e4f2-482b-b180-88445ff7a145[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 193 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (3664385f1657b9c2)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 193 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (3664385f1657b9c2)
+[1m[31mDebugger listening on ws://localhost:9229/9c5555d8-72a2-4f92-89f8-a724effb56bf[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/9c5555d8-72a2-4f92-89f8-a724effb56bf[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2022, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2022, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2022, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2022, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2022, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2022, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2022, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2022, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2022, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2022, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2022, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2022, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2022, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2022, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2022, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2022, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2022, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 9000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 9000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2022, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 9000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 9000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 11, Nam: 2022, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 9000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 9000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 11, Nam: 2023, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Type: 'NHAP', pageSize: 9000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Type: 'NHAP', pageSize: 9000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 11, Nam: 2023, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Type: 'NHAP', pageSize: 9000, pageNumber: 0, Nam: 2023 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Type: 'NHAP', pageSize: 9000, pageNumber: 0, Nam: 2023 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 3, Nam: 2023, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 4, Type: 'NHAP', pageSize: 9000, pageNumber: 0, Nam: 2023 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 4, Type: 'NHAP', pageSize: 9000, pageNumber: 0, Nam: 2023 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 3, Nam: 2023, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 2, Type: 'NHAP', pageSize: 9000, pageNumber: 0, Nam: 2023 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 2, Type: 'NHAP', pageSize: 9000, pageNumber: 0, Nam: 2023 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 3, Nam: 2023, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 2, Type: 'NHAP', pageSize: 9000, pageNumber: 0, Nam: 2023 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 2, Type: 'NHAP', pageSize: 9000, pageNumber: 0, Nam: 2023 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2023, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 3, Type: 'NHAP', pageSize: 9000, pageNumber: 0, Nam: 2023 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 3, Type: 'NHAP', pageSize: 9000, pageNumber: 0, Nam: 2023 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2023, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 3, Type: 'NHAP', pageSize: 9000, pageNumber: 0, Nam: 2023 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 3, Type: 'NHAP', pageSize: 9000, pageNumber: 0, Nam: 2023 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 2, Nam: 2023, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 3, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 3, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 3, Type: 'XUAT', pageSize: '50', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 3, Type: 'XUAT', pageSize: '500', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 3, Type: 'XUAT', pageSize: '5000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 3, Type: 'XUAT', pageSize: '50000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 3, Type: 'XUAT', pageSize: '500000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 3, Type: 'XUAT', pageSize: '5000000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 193 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (17be9793ffe92428)
+[1m[31mDebugger listening on ws://localhost:9229/1b76e037-ce80-4396-ad24-0434643b2866[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/1b76e037-ce80-4396-ad24-0434643b2866[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 193 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/nhapkho/nhapkho.service.ts:[32m[1m44:82[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'field'.
+  [0m [90m 42 |[39m       queryBuilder[33m.[39mandWhere([32m'nhapkho.TenSP LIKE :TenSP'[39m[33m,[39m { [33mTenSP[39m[33m:[39m [32m`%${TenSP}%`[39m })[33m;[39m[0m
+  [0m [90m 43 |[39m       [36mconst[39m [items[33m,[39m totalCount] [33m=[39m[36mawait[39m queryBuilder[33m.[39mgetManyAndCount()[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 44 |[39m       [36mconst[39m totalSum [33m=[39m items[33m.[39mreduce((total[33m:[39many[33m,[39m item[33m:[39many) [33m=>[39m total [33m+[39m [33mNumber[39m(item[field][33m||[39m[35m0[39m)[33m,[39m [35m0[39m)[33m;[39m[0m
+  [0m [90m    |[39m                                                                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 45 |[39m[0m
+  [0m [90m 46 |[39m     [36mreturn[39m {items[33m,[39m totalCount}[0m
+  [0m [90m 47 |[39m   }[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (1728bef44775fc52)
+[1m[31mDebugger listening on ws://localhost:9229/78809a43-0e1e-44d8-be47-ab6ad7be4d5f[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/78809a43-0e1e-44d8-be47-ab6ad7be4d5f[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 193 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/nhapkho/nhapkho.service.ts:[32m[1m44:76[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'field'.
+  [0m [90m 42 |[39m       queryBuilder[33m.[39mandWhere([32m'nhapkho.TenSP LIKE :TenSP'[39m[33m,[39m { [33mTenSP[39m[33m:[39m [32m`%${TenSP}%`[39m })[33m;[39m[0m
+  [0m [90m 43 |[39m       [36mconst[39m [items[33m,[39m totalCount] [33m=[39m[36mawait[39m queryBuilder[33m.[39mgetManyAndCount()[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 44 |[39m       [36mconst[39m totalSum [33m=[39m items[33m.[39mreduce((total[33m:[39many[33m,[39m item[33m:[39many) [33m=>[39m total [33m+[39m (item[field][33m||[39m[35m0[39m)[33m,[39m [35m0[39m)[33m;[39m[0m
+  [0m [90m    |[39m                                                                            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 45 |[39m[0m
+  [0m [90m 46 |[39m     [36mreturn[39m {items[33m,[39m totalCount}[0m
+  [0m [90m 47 |[39m   }[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (587b6b7387f67526)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 193 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/nhapkho/nhapkho.service.ts:[32m[1m44:82[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'field'.
+  [0m [90m 42 |[39m       queryBuilder[33m.[39mandWhere([32m'nhapkho.TenSP LIKE :TenSP'[39m[33m,[39m { [33mTenSP[39m[33m:[39m [32m`%${TenSP}%`[39m })[33m;[39m[0m
+  [0m [90m 43 |[39m       [36mconst[39m [items[33m,[39m totalCount] [33m=[39m[36mawait[39m queryBuilder[33m.[39mgetManyAndCount()[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 44 |[39m       [36mconst[39m totalSum [33m=[39m items[33m.[39mreduce((total[33m:[39many[33m,[39m item[33m:[39many) [33m=>[39m total [33m+[39m [33mNumber[39m(item[field][33m||[39m[35m0[39m)[33m,[39m [35m0[39m)[33m;[39m[0m
+  [0m [90m    |[39m                                                                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 45 |[39m[0m
+  [0m [90m 46 |[39m     [36mreturn[39m {items[33m,[39m totalCount}[0m
+  [0m [90m 47 |[39m   }[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (4edfb281cfbfe806)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 193 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/nhapkho/nhapkho.service.ts:[32m[1m44:82[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'field'.
+  [0m [90m 42 |[39m       queryBuilder[33m.[39mandWhere([32m'nhapkho.TenSP LIKE :TenSP'[39m[33m,[39m { [33mTenSP[39m[33m:[39m [32m`%${TenSP}%`[39m })[33m;[39m[0m
+  [0m [90m 43 |[39m       [36mconst[39m [items[33m,[39m totalCount] [33m=[39m[36mawait[39m queryBuilder[33m.[39mgetManyAndCount()[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 44 |[39m       [36mconst[39m totalSum [33m=[39m items[33m.[39mreduce((total[33m:[39many[33m,[39m item[33m:[39many) [33m=>[39m total [33m+[39m [33mNumber[39m(item[field])[33m,[39m [35m0[39m)[33m;[39m[0m
+  [0m [90m    |[39m                                                                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 45 |[39m[0m
+  [0m [90m 46 |[39m     [36mreturn[39m {items[33m,[39m totalCount}[0m
+  [0m [90m 47 |[39m   }[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (4dfc0b282b5b9ee9)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 193 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (3c34d5354039d6c8)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 193 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (524563db458711fd)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 193 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (524563db458711fd)
+[1m[31mDebugger listening on ws://localhost:9229/bbfb746b-b465-4166-9536-170acc572ed8[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/bbfb746b-b465-4166-9536-170acc572ed8[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 193 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (524563db458711fd)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 193 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (524563db458711fd)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 193 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (524563db458711fd)
+[1m[31mDebugger listening on ws://localhost:9229/d27acb4f-233f-4ce8-9514-03cbaf4631ef[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/d27acb4f-233f-4ce8-9514-03cbaf4631ef[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 193 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (f2fd8302def5b7c5)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 193 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (f2fd8302def5b7c5)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 193 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (f2fd8302def5b7c5)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 193 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (f2fd8302def5b7c5)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 193 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (f2fd8302def5b7c5)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 193 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (f2fd8302def5b7c5)
+[1m[31mDebugger listening on ws://localhost:9229/c2bb3522-5ebf-40ea-b491-a8db83c1469c[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/c2bb3522-5ebf-40ea-b491-a8db83c1469c[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 193 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/nhapkho/nhapkho.service.ts:[32m[1m46:31[22m[39m[1m[39m[22m
+[90mTS18004: [39mNo value exists in scope for the shorthand property 'Soluong'. Either declare one or provide an initializer.
+  [0m [90m 44 |[39m       [36mconst[39m totalSum [33m=[39m items[33m.[39mreduce((total[33m:[39many[33m,[39m item[33m:[39many) [33m=>[39m total [33m+[39m [33mNumber[39m(item[33m.[39m[33mSoluong[39m)[33m,[39m [35m0[39m)[33m;[39m[0m
+  [0m [90m 45 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 46 |[39m     [36mreturn[39m {items[33m,[39m totalCount[33m,[39m[33mSoluong[39m}[0m
+  [0m [90m    |[39m                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 47 |[39m   }[0m
+  [0m [90m 48 |[39m   [36masync[39m findslug([33mSHD[39m[33m:[39m any) {[0m
+  [0m [90m 49 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mNhapkhoRepository[39m[33m.[39mfindOne({[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (ba4ccace436a84d7)
+[1m[31mDebugger listening on ws://localhost:9229/32bf4a1c-f9b4-4efe-9367-4a8057bb8430[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/32bf4a1c-f9b4-4efe-9367-4a8057bb8430[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 193 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (18a3607d732884b2)
+[1m[31mDebugger listening on ws://localhost:9229/9a043071-b200-431b-9b0c-6b6fefb52054[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/9a043071-b200-431b-9b0c-6b6fefb52054[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 193 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/nhapkho/nhapkho.service.ts:[32m[1m46:39[22m[39m[1m[39m[22m
+[90mTS18004: [39mNo value exists in scope for the shorthand property 'Tongcoong'. Either declare one or provide an initializer.
+  [0m [90m 44 |[39m       [36mconst[39m [33mSoluong[39m [33m=[39m items[33m.[39mreduce((total[33m:[39many[33m,[39m item[33m:[39many) [33m=>[39m total [33m+[39m [33mNumber[39m(item[33m.[39m[33mSoluong[39m)[33m,[39m [35m0[39m)[33m;[39m[0m
+  [0m [90m 45 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 46 |[39m     [36mreturn[39m {items[33m,[39m totalCount[33m,[39m[33mSoluong[39m[33m,[39m[33mTongcoong[39m}[0m
+  [0m [90m    |[39m                                       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 47 |[39m   }[0m
+  [0m [90m 48 |[39m   [36masync[39m findslug([33mSHD[39m[33m:[39m any) {[0m
+  [0m [90m 49 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mNhapkhoRepository[39m[33m.[39mfindOne({[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (1ba34e8f71d87c8b)
+[1m[31mDebugger listening on ws://localhost:9229/ecfa22b8-43db-49a0-99e0-6209f338b0c2[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/ecfa22b8-43db-49a0-99e0-6209f338b0c2[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 193 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/nhapkho/nhapkho.service.ts[39m[22m [1m[32m46:14[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: Identifier 'Soluong' has already been declared (46:14)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|         const [items, totalCount] = await queryBuilder.getManyAndCount();
+|         const Soluong = items.reduce((total, item) => total + Number(item.Soluong), 0);
+>         const Soluong = items.reduce((total, item) => total + Number(item.Soluong), 0);
+|         return { items, totalCount, Soluong, Tongcoong };
+|     }[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/nhapkho/nhapkho.service.ts:[32m[1m44:13[22m[39m[1m[39m[22m
+[90mTS2451: [39mCannot redeclare block-scoped variable 'Soluong'.
+  [0m [90m 42 |[39m       queryBuilder[33m.[39mandWhere([32m'nhapkho.TenSP LIKE :TenSP'[39m[33m,[39m { [33mTenSP[39m[33m:[39m [32m`%${TenSP}%`[39m })[33m;[39m[0m
+  [0m [90m 43 |[39m       [36mconst[39m [items[33m,[39m totalCount] [33m=[39m[36mawait[39m queryBuilder[33m.[39mgetManyAndCount()[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 44 |[39m       [36mconst[39m [33mSoluong[39m [33m=[39m items[33m.[39mreduce((total[33m:[39many[33m,[39m item[33m:[39many) [33m=>[39m total [33m+[39m [33mNumber[39m(item[33m.[39m[33mSoluong[39m)[33m,[39m [35m0[39m)[33m;[39m[0m
+  [0m [90m    |[39m             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 45 |[39m       [36mconst[39m [33mSoluong[39m [33m=[39m items[33m.[39mreduce((total[33m:[39many[33m,[39m item[33m:[39many) [33m=>[39m total [33m+[39m [33mNumber[39m(item[33m.[39m[33mSoluong[39m)[33m,[39m [35m0[39m)[33m;[39m[0m
+  [0m [90m 46 |[39m[0m
+  [0m [90m 47 |[39m     [36mreturn[39m {items[33m,[39m totalCount[33m,[39m[33mSoluong[39m[33m,[39m[33mTongcoong[39m}[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/nhapkho/nhapkho.service.ts:[32m[1m45:13[22m[39m[1m[39m[22m
+[90mTS2451: [39mCannot redeclare block-scoped variable 'Soluong'.
+  [0m [90m 43 |[39m       [36mconst[39m [items[33m,[39m totalCount] [33m=[39m[36mawait[39m queryBuilder[33m.[39mgetManyAndCount()[33m;[39m[0m
+  [0m [90m 44 |[39m       [36mconst[39m [33mSoluong[39m [33m=[39m items[33m.[39mreduce((total[33m:[39many[33m,[39m item[33m:[39many) [33m=>[39m total [33m+[39m [33mNumber[39m(item[33m.[39m[33mSoluong[39m)[33m,[39m [35m0[39m)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 45 |[39m       [36mconst[39m [33mSoluong[39m [33m=[39m items[33m.[39mreduce((total[33m:[39many[33m,[39m item[33m:[39many) [33m=>[39m total [33m+[39m [33mNumber[39m(item[33m.[39m[33mSoluong[39m)[33m,[39m [35m0[39m)[33m;[39m[0m
+  [0m [90m    |[39m             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 46 |[39m[0m
+  [0m [90m 47 |[39m     [36mreturn[39m {items[33m,[39m totalCount[33m,[39m[33mSoluong[39m[33m,[39m[33mTongcoong[39m}[0m
+  [0m [90m 48 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/nhapkho/nhapkho.service.ts:[32m[1m47:39[22m[39m[1m[39m[22m
+[90mTS18004: [39mNo value exists in scope for the shorthand property 'Tongcoong'. Either declare one or provide an initializer.
+  [0m [90m 45 |[39m       [36mconst[39m [33mSoluong[39m [33m=[39m items[33m.[39mreduce((total[33m:[39many[33m,[39m item[33m:[39many) [33m=>[39m total [33m+[39m [33mNumber[39m(item[33m.[39m[33mSoluong[39m)[33m,[39m [35m0[39m)[33m;[39m[0m
+  [0m [90m 46 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 47 |[39m     [36mreturn[39m {items[33m,[39m totalCount[33m,[39m[33mSoluong[39m[33m,[39m[33mTongcoong[39m}[0m
+  [0m [90m    |[39m                                       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 48 |[39m   }[0m
+  [0m [90m 49 |[39m   [36masync[39m findslug([33mSHD[39m[33m:[39m any) {[0m
+  [0m [90m 50 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mNhapkhoRepository[39m[33m.[39mfindOne({[0m
+
+webpack compiled with [1m[31m4 errors[39m[22m (75235634dec32d95)
+[1m[31mDebugger listening on ws://localhost:9229/4284285e-5f44-4322-bb84-812450381d3c[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/4284285e-5f44-4322-bb84-812450381d3c[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 193 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/nhapkho/nhapkho.service.ts[39m[22m [1m[32m46:14[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: Identifier 'Soluong' has already been declared (46:14)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|         const [items, totalCount] = await queryBuilder.getManyAndCount();
+|         const Soluong = items.reduce((total, item) => total + Number(item.Soluong), 0);
+>         const Soluong = items.reduce((total, item) => total + Number(item.Soluong), 0);
+|         return { items, totalCount, Soluong, Tongcong };
+|     }[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/nhapkho/nhapkho.service.ts:[32m[1m44:13[22m[39m[1m[39m[22m
+[90mTS2451: [39mCannot redeclare block-scoped variable 'Soluong'.
+  [0m [90m 42 |[39m       queryBuilder[33m.[39mandWhere([32m'nhapkho.TenSP LIKE :TenSP'[39m[33m,[39m { [33mTenSP[39m[33m:[39m [32m`%${TenSP}%`[39m })[33m;[39m[0m
+  [0m [90m 43 |[39m       [36mconst[39m [items[33m,[39m totalCount] [33m=[39m[36mawait[39m queryBuilder[33m.[39mgetManyAndCount()[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 44 |[39m       [36mconst[39m [33mSoluong[39m [33m=[39m items[33m.[39mreduce((total[33m:[39many[33m,[39m item[33m:[39many) [33m=>[39m total [33m+[39m [33mNumber[39m(item[33m.[39m[33mSoluong[39m)[33m,[39m [35m0[39m)[33m;[39m[0m
+  [0m [90m    |[39m             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 45 |[39m       [36mconst[39m [33mSoluong[39m [33m=[39m items[33m.[39mreduce((total[33m:[39many[33m,[39m item[33m:[39many) [33m=>[39m total [33m+[39m [33mNumber[39m(item[33m.[39m[33mSoluong[39m)[33m,[39m [35m0[39m)[33m;[39m[0m
+  [0m [90m 46 |[39m[0m
+  [0m [90m 47 |[39m     [36mreturn[39m {items[33m,[39m totalCount[33m,[39m[33mSoluong[39m[33m,[39m[33mTongcong[39m}[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/nhapkho/nhapkho.service.ts:[32m[1m45:13[22m[39m[1m[39m[22m
+[90mTS2451: [39mCannot redeclare block-scoped variable 'Soluong'.
+  [0m [90m 43 |[39m       [36mconst[39m [items[33m,[39m totalCount] [33m=[39m[36mawait[39m queryBuilder[33m.[39mgetManyAndCount()[33m;[39m[0m
+  [0m [90m 44 |[39m       [36mconst[39m [33mSoluong[39m [33m=[39m items[33m.[39mreduce((total[33m:[39many[33m,[39m item[33m:[39many) [33m=>[39m total [33m+[39m [33mNumber[39m(item[33m.[39m[33mSoluong[39m)[33m,[39m [35m0[39m)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 45 |[39m       [36mconst[39m [33mSoluong[39m [33m=[39m items[33m.[39mreduce((total[33m:[39many[33m,[39m item[33m:[39many) [33m=>[39m total [33m+[39m [33mNumber[39m(item[33m.[39m[33mSoluong[39m)[33m,[39m [35m0[39m)[33m;[39m[0m
+  [0m [90m    |[39m             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 46 |[39m[0m
+  [0m [90m 47 |[39m     [36mreturn[39m {items[33m,[39m totalCount[33m,[39m[33mSoluong[39m[33m,[39m[33mTongcong[39m}[0m
+  [0m [90m 48 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/nhapkho/nhapkho.service.ts:[32m[1m47:39[22m[39m[1m[39m[22m
+[90mTS18004: [39mNo value exists in scope for the shorthand property 'Tongcong'. Either declare one or provide an initializer.
+  [0m [90m 45 |[39m       [36mconst[39m [33mSoluong[39m [33m=[39m items[33m.[39mreduce((total[33m:[39many[33m,[39m item[33m:[39many) [33m=>[39m total [33m+[39m [33mNumber[39m(item[33m.[39m[33mSoluong[39m)[33m,[39m [35m0[39m)[33m;[39m[0m
+  [0m [90m 46 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 47 |[39m     [36mreturn[39m {items[33m,[39m totalCount[33m,[39m[33mSoluong[39m[33m,[39m[33mTongcong[39m}[0m
+  [0m [90m    |[39m                                       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 48 |[39m   }[0m
+  [0m [90m 49 |[39m   [36masync[39m findslug([33mSHD[39m[33m:[39m any) {[0m
+  [0m [90m 50 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mNhapkhoRepository[39m[33m.[39mfindOne({[0m
+
+webpack compiled with [1m[31m4 errors[39m[22m (1f3b77c641f402d5)
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mF:\chikiet\BEKetoan\dist\be_ketoan\main.js:3914[39m[22m
+[1m[31mthrow new Error("Module parse failed: Identifier 'Soluong' has already been declared (46:14)\nFile was processed with these loaders:\n * ../node_modules/ts-loader/index.js\nYou may need an additional loader to handle the result of these loaders.\n|         const [items, totalCount] = await queryBuilder.getManyAndCount();\n|         const Soluong = items.reduce((total, item) => total + Number(item.Soluong), 0);\n>         const Soluong = items.reduce((total, item) => total + Number(item.Soluong), 0);\n|         return { items, totalCount, Soluong, Tongcong };\n|     }");[39m[22m
+[1m[31m      ^[39m[22m
+[1m[31mError: Module parse failed: Identifier 'Soluong' has already been declared (46:14)[39m[22m
+[1m[31mFile was processed with these loaders:[39m[22m
+[1m[31m * ../node_modules/ts-loader/index.js[39m[22m
+[1m[31mYou may need an additional loader to handle the result of these loaders.[39m[22m
+[1m[31m|         const [items, totalCount] = await queryBuilder.getManyAndCount();[39m[22m
+[1m[31m|         const Soluong = items.reduce((total, item) => total + Number(item.Soluong), 0);[39m[22m
+[1m[31m>         const Soluong = items.reduce((total, item) => total + Number(item.Soluong), 0);[39m[22m
+[1m[31m|         return { items, totalCount, Soluong, Tongcoong };[39m[22m
+[1m[31m|     }[39m[22m
+[1m[31m    at Array.Object.defineProperty.value (F:\chikiet\BEKetoan\dist\be_ketoan\main.js:3914:7)[39m[22m
+[1m[31m    at __webpack_require__ (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\webpack\bootstrap:19:1)[39m[22m
+[1m[31m    at Array.Object.defineProperty.value (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\nhapkho\nhapkho.module.ts:2:1)[39m[22m
+[1m[31m    at __webpack_require__ (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\webpack\bootstrap:19:1)[39m[22m
+[1m[31m    at Array.<anonymous> (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\app.module.ts:16:1)[39m[22m
+[1m[31m    at __webpack_require__ (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\webpack\bootstrap:19:1)[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\main.ts:9:1[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\dist\be_ketoan\main.js:5193:3[39m[22m
+[1m[31m    at Object.<anonymous> (F:\chikiet\BEKetoan\dist\be_ketoan\main.js:5195:12)[39m[22m
+[1m[31m    at Module._compile (node:internal/modules/cjs/loader:1376:14)[39m[22m
+[1m[31m[39m[22m
+
+[36m>[39m [7m[1m[36m NX [39m[22m[27m [1mProcess exited with code 1, waiting for changes to restart...[22m
+
+[1m[31mDebugger listening on ws://localhost:9229/e5f90f0c-8a1d-4db2-a497-c413482df2a2[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/e5f90f0c-8a1d-4db2-a497-c413482df2a2[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mF:\chikiet\BEKetoan\dist\be_ketoan\main.js:3914[39m[22m
+[1m[31mthrow new Error("Module parse failed: Identifier 'Soluong' has already been declared (46:14)\nFile was processed with these loaders:\n * ../node_modules/ts-loader/index.js\nYou may need an additional loader to handle the result of these loaders.\n|         const [items, totalCount] = await queryBuilder.getManyAndCount();\n|         const Soluong = items.reduce((total, item) => total + Number(item.Soluong), 0);\n>         const Soluong = items.reduce((total, item) => total + Number(item.Soluong), 0);\n|         return { items, totalCount, Soluong, Tongcong };\n|     }");[39m[22m
+[1m[31m      ^[39m[22m
+[1m[31mError: Module parse failed: Identifier 'Soluong' has already been declared (46:14)[39m[22m
+[1m[31mFile was processed with these loaders:[39m[22m
+[1m[31m * ../node_modules/ts-loader/index.js[39m[22m
+[1m[31mYou may need an additional loader to handle the result of these loaders.[39m[22m
+[1m[31m|         const [items, totalCount] = await queryBuilder.getManyAndCount();[39m[22m
+[1m[31m|         const Soluong = items.reduce((total, item) => total + Number(item.Soluong), 0);[39m[22m
+[1m[31m>         const Soluong = items.reduce((total, item) => total + Number(item.Soluong), 0);[39m[22m
+[1m[31m|         return { items, totalCount, Soluong, Tongcong };[39m[22m
+[1m[31m|     }[39m[22m
+[1m[31m    at Array.Object.defineProperty.value (F:\chikiet\BEKetoan\dist\be_ketoan\main.js:3914:7)[39m[22m
+[1m[31m    at __webpack_require__ (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\webpack\bootstrap:19:1)[39m[22m
+[1m[31m    at Array.Object.defineProperty.value (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\nhapkho\nhapkho.module.ts:2:1)[39m[22m
+[1m[31m    at __webpack_require__ (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\webpack\bootstrap:19:1)[39m[22m
+[1m[31m    at Array.<anonymous> (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\app.module.ts:16:1)[39m[22m
+[1m[31m    at __webpack_require__ (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\webpack\bootstrap:19:1)[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\main.ts:9:1[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\dist\be_ketoan\main.js:5193:3[39m[22m
+[1m[31m    at Object.<anonymous> (F:\chikiet\BEKetoan\dist\be_ketoan\main.js:5195:12)[39m[22m
+[1m[31m    at Module._compile (node:internal/modules/cjs/loader:1376:14)[39m[22m
+[1m[31m[39m[22m
+
+[36m>[39m [7m[1m[36m NX [39m[22m[27m [1mProcess exited with code 1, waiting for changes to restart...[22m
+
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 193 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/nhapkho/nhapkho.service.ts[39m[22m [1m[32m46:14[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: Identifier 'Soluong' has already been declared (46:14)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|         const [items, totalCount] = await queryBuilder.getManyAndCount();
+|         const Soluong = items.reduce((total, item) => total + Number(item.Soluong), 0);
+>         const Soluong = items.reduce((total, item) => total + Number(item.Soluong), 0);
+|         return { items, totalCount, Soluong, Tongtien };
+|     }[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/nhapkho/nhapkho.service.ts:[32m[1m44:13[22m[39m[1m[39m[22m
+[90mTS2451: [39mCannot redeclare block-scoped variable 'Soluong'.
+  [0m [90m 42 |[39m       queryBuilder[33m.[39mandWhere([32m'nhapkho.TenSP LIKE :TenSP'[39m[33m,[39m { [33mTenSP[39m[33m:[39m [32m`%${TenSP}%`[39m })[33m;[39m[0m
+  [0m [90m 43 |[39m       [36mconst[39m [items[33m,[39m totalCount] [33m=[39m[36mawait[39m queryBuilder[33m.[39mgetManyAndCount()[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 44 |[39m       [36mconst[39m [33mSoluong[39m [33m=[39m items[33m.[39mreduce((total[33m:[39many[33m,[39m item[33m:[39many) [33m=>[39m total [33m+[39m [33mNumber[39m(item[33m.[39m[33mSoluong[39m)[33m,[39m [35m0[39m)[33m;[39m[0m
+  [0m [90m    |[39m             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 45 |[39m       [36mconst[39m [33mSoluong[39m [33m=[39m items[33m.[39mreduce((total[33m:[39many[33m,[39m item[33m:[39many) [33m=>[39m total [33m+[39m [33mNumber[39m(item[33m.[39m[33mSoluong[39m)[33m,[39m [35m0[39m)[33m;[39m[0m
+  [0m [90m 46 |[39m[0m
+  [0m [90m 47 |[39m     [36mreturn[39m {items[33m,[39m totalCount[33m,[39m[33mSoluong[39m[33m,[39m[33mTongtien[39m}[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/nhapkho/nhapkho.service.ts:[32m[1m45:13[22m[39m[1m[39m[22m
+[90mTS2451: [39mCannot redeclare block-scoped variable 'Soluong'.
+  [0m [90m 43 |[39m       [36mconst[39m [items[33m,[39m totalCount] [33m=[39m[36mawait[39m queryBuilder[33m.[39mgetManyAndCount()[33m;[39m[0m
+  [0m [90m 44 |[39m       [36mconst[39m [33mSoluong[39m [33m=[39m items[33m.[39mreduce((total[33m:[39many[33m,[39m item[33m:[39many) [33m=>[39m total [33m+[39m [33mNumber[39m(item[33m.[39m[33mSoluong[39m)[33m,[39m [35m0[39m)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 45 |[39m       [36mconst[39m [33mSoluong[39m [33m=[39m items[33m.[39mreduce((total[33m:[39many[33m,[39m item[33m:[39many) [33m=>[39m total [33m+[39m [33mNumber[39m(item[33m.[39m[33mSoluong[39m)[33m,[39m [35m0[39m)[33m;[39m[0m
+  [0m [90m    |[39m             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 46 |[39m[0m
+  [0m [90m 47 |[39m     [36mreturn[39m {items[33m,[39m totalCount[33m,[39m[33mSoluong[39m[33m,[39m[33mTongtien[39m}[0m
+  [0m [90m 48 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/nhapkho/nhapkho.service.ts:[32m[1m47:39[22m[39m[1m[39m[22m
+[90mTS18004: [39mNo value exists in scope for the shorthand property 'Tongtien'. Either declare one or provide an initializer.
+  [0m [90m 45 |[39m       [36mconst[39m [33mSoluong[39m [33m=[39m items[33m.[39mreduce((total[33m:[39many[33m,[39m item[33m:[39many) [33m=>[39m total [33m+[39m [33mNumber[39m(item[33m.[39m[33mSoluong[39m)[33m,[39m [35m0[39m)[33m;[39m[0m
+  [0m [90m 46 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 47 |[39m     [36mreturn[39m {items[33m,[39m totalCount[33m,[39m[33mSoluong[39m[33m,[39m[33mTongtien[39m}[0m
+  [0m [90m    |[39m                                       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 48 |[39m   }[0m
+  [0m [90m 49 |[39m   [36masync[39m findslug([33mSHD[39m[33m:[39m any) {[0m
+  [0m [90m 50 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mNhapkhoRepository[39m[33m.[39mfindOne({[0m
+
+webpack compiled with [1m[31m4 errors[39m[22m (e185930984db4bd9)
+[1m[31mDebugger listening on ws://localhost:9229/75b27ea5-94cd-4b26-9aaf-c13b8214fd7b[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/75b27ea5-94cd-4b26-9aaf-c13b8214fd7b[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 193 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/nhapkho/nhapkho.service.ts[39m[22m [1m[32m46:14[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: Identifier 'Soluong' has already been declared (46:14)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|         const [items, totalCount] = await queryBuilder.getManyAndCount();
+|         const Soluong = items.reduce((total, item) => total + Number(item.Soluong), 0);
+>         const Soluong = items.reduce((total, item) => total + Number(item.Tongtien), 0);
+|         return { items, totalCount, Soluong, Tongcong };
+|     }[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/nhapkho/nhapkho.service.ts:[32m[1m44:13[22m[39m[1m[39m[22m
+[90mTS2451: [39mCannot redeclare block-scoped variable 'Soluong'.
+  [0m [90m 42 |[39m       queryBuilder[33m.[39mandWhere([32m'nhapkho.TenSP LIKE :TenSP'[39m[33m,[39m { [33mTenSP[39m[33m:[39m [32m`%${TenSP}%`[39m })[33m;[39m[0m
+  [0m [90m 43 |[39m       [36mconst[39m [items[33m,[39m totalCount] [33m=[39m[36mawait[39m queryBuilder[33m.[39mgetManyAndCount()[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 44 |[39m       [36mconst[39m [33mSoluong[39m [33m=[39m items[33m.[39mreduce((total[33m:[39many[33m,[39m item[33m:[39many) [33m=>[39m total [33m+[39m [33mNumber[39m(item[33m.[39m[33mSoluong[39m)[33m,[39m [35m0[39m)[33m;[39m[0m
+  [0m [90m    |[39m             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 45 |[39m       [36mconst[39m [33mSoluong[39m [33m=[39m items[33m.[39mreduce((total[33m:[39many[33m,[39m item[33m:[39many) [33m=>[39m total [33m+[39m [33mNumber[39m(item[33m.[39m[33mTongtien[39m)[33m,[39m [35m0[39m)[33m;[39m[0m
+  [0m [90m 46 |[39m[0m
+  [0m [90m 47 |[39m     [36mreturn[39m {items[33m,[39m totalCount[33m,[39m[33mSoluong[39m[33m,[39m[33mTongcong[39m}[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/nhapkho/nhapkho.service.ts:[32m[1m45:13[22m[39m[1m[39m[22m
+[90mTS2451: [39mCannot redeclare block-scoped variable 'Soluong'.
+  [0m [90m 43 |[39m       [36mconst[39m [items[33m,[39m totalCount] [33m=[39m[36mawait[39m queryBuilder[33m.[39mgetManyAndCount()[33m;[39m[0m
+  [0m [90m 44 |[39m       [36mconst[39m [33mSoluong[39m [33m=[39m items[33m.[39mreduce((total[33m:[39many[33m,[39m item[33m:[39many) [33m=>[39m total [33m+[39m [33mNumber[39m(item[33m.[39m[33mSoluong[39m)[33m,[39m [35m0[39m)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 45 |[39m       [36mconst[39m [33mSoluong[39m [33m=[39m items[33m.[39mreduce((total[33m:[39many[33m,[39m item[33m:[39many) [33m=>[39m total [33m+[39m [33mNumber[39m(item[33m.[39m[33mTongtien[39m)[33m,[39m [35m0[39m)[33m;[39m[0m
+  [0m [90m    |[39m             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 46 |[39m[0m
+  [0m [90m 47 |[39m     [36mreturn[39m {items[33m,[39m totalCount[33m,[39m[33mSoluong[39m[33m,[39m[33mTongcong[39m}[0m
+  [0m [90m 48 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/nhapkho/nhapkho.service.ts:[32m[1m47:39[22m[39m[1m[39m[22m
+[90mTS18004: [39mNo value exists in scope for the shorthand property 'Tongcong'. Either declare one or provide an initializer.
+  [0m [90m 45 |[39m       [36mconst[39m [33mSoluong[39m [33m=[39m items[33m.[39mreduce((total[33m:[39many[33m,[39m item[33m:[39many) [33m=>[39m total [33m+[39m [33mNumber[39m(item[33m.[39m[33mTongtien[39m)[33m,[39m [35m0[39m)[33m;[39m[0m
+  [0m [90m 46 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 47 |[39m     [36mreturn[39m {items[33m,[39m totalCount[33m,[39m[33mSoluong[39m[33m,[39m[33mTongcong[39m}[0m
+  [0m [90m    |[39m                                       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 48 |[39m   }[0m
+  [0m [90m 49 |[39m   [36masync[39m findslug([33mSHD[39m[33m:[39m any) {[0m
+  [0m [90m 50 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mNhapkhoRepository[39m[33m.[39mfindOne({[0m
+
+webpack compiled with [1m[31m4 errors[39m[22m (4bf4ed5ab0d73a97)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 193 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/nhapkho/nhapkho.service.ts[39m[22m [1m[32m46:14[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: Identifier 'Soluong' has already been declared (46:14)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|         const [items, totalCount] = await queryBuilder.getManyAndCount();
+|         const Soluong = items.reduce((total, item) => total + Number(item.Soluong), 0);
+>         const Soluong = items.reduce((total, item) => total + Number(item.Tongtien), 0);
+|         return { items, totalCount, Soluong, Tongcong };
+|     }[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/nhapkho/nhapkho.service.ts:[32m[1m44:13[22m[39m[1m[39m[22m
+[90mTS2451: [39mCannot redeclare block-scoped variable 'Soluong'.
+  [0m [90m 42 |[39m       queryBuilder[33m.[39mandWhere([32m'nhapkho.TenSP LIKE :TenSP'[39m[33m,[39m { [33mTenSP[39m[33m:[39m [32m`%${TenSP}%`[39m })[33m;[39m[0m
+  [0m [90m 43 |[39m       [36mconst[39m [items[33m,[39m totalCount] [33m=[39m[36mawait[39m queryBuilder[33m.[39mgetManyAndCount()[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 44 |[39m       [36mconst[39m [33mSoluong[39m [33m=[39m items[33m.[39mreduce((total[33m:[39many[33m,[39m item[33m:[39many) [33m=>[39m total [33m+[39m [33mNumber[39m(item[33m.[39m[33mSoluong[39m)[33m,[39m [35m0[39m)[33m;[39m[0m
+  [0m [90m    |[39m             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 45 |[39m       [36mconst[39m [33mSoluong[39m [33m=[39m items[33m.[39mreduce((total[33m:[39many[33m,[39m item[33m:[39many) [33m=>[39m total [33m+[39m [33mNumber[39m(item[33m.[39m[33mTongtien[39m)[33m,[39m [35m0[39m)[33m;[39m[0m
+  [0m [90m 46 |[39m[0m
+  [0m [90m 47 |[39m     [36mreturn[39m {items[33m,[39m totalCount[33m,[39m[33mSoluong[39m[33m,[39m[33mTongcong[39m}[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/nhapkho/nhapkho.service.ts:[32m[1m45:13[22m[39m[1m[39m[22m
+[90mTS2451: [39mCannot redeclare block-scoped variable 'Soluong'.
+  [0m [90m 43 |[39m       [36mconst[39m [items[33m,[39m totalCount] [33m=[39m[36mawait[39m queryBuilder[33m.[39mgetManyAndCount()[33m;[39m[0m
+  [0m [90m 44 |[39m       [36mconst[39m [33mSoluong[39m [33m=[39m items[33m.[39mreduce((total[33m:[39many[33m,[39m item[33m:[39many) [33m=>[39m total [33m+[39m [33mNumber[39m(item[33m.[39m[33mSoluong[39m)[33m,[39m [35m0[39m)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 45 |[39m       [36mconst[39m [33mSoluong[39m [33m=[39m items[33m.[39mreduce((total[33m:[39many[33m,[39m item[33m:[39many) [33m=>[39m total [33m+[39m [33mNumber[39m(item[33m.[39m[33mTongtien[39m)[33m,[39m [35m0[39m)[33m;[39m[0m
+  [0m [90m    |[39m             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 46 |[39m[0m
+  [0m [90m 47 |[39m     [36mreturn[39m {items[33m,[39m totalCount[33m,[39m[33mSoluong[39m[33m,[39m[33mTongcong[39m}[0m
+  [0m [90m 48 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/nhapkho/nhapkho.service.ts:[32m[1m47:39[22m[39m[1m[39m[22m
+[90mTS18004: [39mNo value exists in scope for the shorthand property 'Tongcong'. Either declare one or provide an initializer.
+  [0m [90m 45 |[39m       [36mconst[39m [33mSoluong[39m [33m=[39m items[33m.[39mreduce((total[33m:[39many[33m,[39m item[33m:[39many) [33m=>[39m total [33m+[39m [33mNumber[39m(item[33m.[39m[33mTongtien[39m)[33m,[39m [35m0[39m)[33m;[39m[0m
+  [0m [90m 46 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 47 |[39m     [36mreturn[39m {items[33m,[39m totalCount[33m,[39m[33mSoluong[39m[33m,[39m[33mTongcong[39m}[0m
+  [0m [90m    |[39m                                       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 48 |[39m   }[0m
+  [0m [90m 49 |[39m   [36masync[39m findslug([33mSHD[39m[33m:[39m any) {[0m
+  [0m [90m 50 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mNhapkhoRepository[39m[33m.[39mfindOne({[0m
+
+webpack compiled with [1m[31m4 errors[39m[22m (4bf4ed5ab0d73a97)
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mF:\chikiet\BEKetoan\dist\be_ketoan\main.js:3914[39m[22m
+[1m[31mthrow new Error("Module parse failed: Identifier 'Soluong' has already been declared (46:14)\nFile was processed with these loaders:\n * ../node_modules/ts-loader/index.js\nYou may need an additional loader to handle the result of these loaders.\n|         const [items, totalCount] = await queryBuilder.getManyAndCount();\n|         const Soluong = items.reduce((total, item) => total + Number(item.Soluong), 0);\n>         const Soluong = items.reduce((total, item) => total + Number(item.Tongtien), 0);\n|         return { items, totalCount, Soluong, Tongcong };\n|     }");[39m[22m
+[1m[31m      ^[39m[22m
+[1m[31mError: Module parse failed: Identifier 'Soluong' has already been declared (46:14)[39m[22m
+[1m[31mFile was processed with these loaders:[39m[22m
+[1m[31m * ../node_modules/ts-loader/index.js[39m[22m
+[1m[31mYou may need an additional loader to handle the result of these loaders.[39m[22m
+[1m[31m|         const [items, totalCount] = await queryBuilder.getManyAndCount();[39m[22m
+[1m[31m|         const Soluong = items.reduce((total, item) => total + Number(item.Soluong), 0);[39m[22m
+[1m[31m>         const Soluong = items.reduce((total, item) => total + Number(item.Soluong), 0);[39m[22m
+[1m[31m|         return { items, totalCount, Soluong, Tongtien };[39m[22m
+[1m[31m|     }[39m[22m
+[1m[31m    at Array.Object.defineProperty.value (F:\chikiet\BEKetoan\dist\be_ketoan\main.js:3914:7)[39m[22m
+[1m[31m    at __webpack_require__ (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\webpack\bootstrap:19:1)[39m[22m
+[1m[31m    at Array.Object.defineProperty.value (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\nhapkho\nhapkho.module.ts:2:1)[39m[22m
+[1m[31m    at __webpack_require__ (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\webpack\bootstrap:19:1)[39m[22m
+[1m[31m    at Array.<anonymous> (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\app.module.ts:16:1)[39m[22m
+[1m[31m    at __webpack_require__ (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\webpack\bootstrap:19:1)[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\main.ts:9:1[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\dist\be_ketoan\main.js:5193:3[39m[22m
+[1m[31m    at Object.<anonymous> (F:\chikiet\BEKetoan\dist\be_ketoan\main.js:5195:12)[39m[22m
+[1m[31m    at Module._compile (node:internal/modules/cjs/loader:1376:14)[39m[22m
+[1m[31m[39m[22m
+
+[36m>[39m [7m[1m[36m NX [39m[22m[27m [1mProcess exited with code 1, waiting for changes to restart...[22m
+
+[1m[31mDebugger listening on ws://localhost:9229/92c2a1c5-a3ef-4db6-80ee-e8cadf8295f2[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/92c2a1c5-a3ef-4db6-80ee-e8cadf8295f2[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mF:\chikiet\BEKetoan\dist\be_ketoan\main.js:3914[39m[22m
+[1m[31mthrow new Error("Module parse failed: Identifier 'Soluong' has already been declared (46:14)\nFile was processed with these loaders:\n * ../node_modules/ts-loader/index.js\nYou may need an additional loader to handle the result of these loaders.\n|         const [items, totalCount] = await queryBuilder.getManyAndCount();\n|         const Soluong = items.reduce((total, item) => total + Number(item.Soluong), 0);\n>         const Soluong = items.reduce((total, item) => total + Number(item.Tongtien), 0);\n|         return { items, totalCount, Soluong, Tongcong };\n|     }");[39m[22m
+[1m[31m      ^[39m[22m
+[1m[31mError: Module parse failed: Identifier 'Soluong' has already been declared (46:14)[39m[22m
+[1m[31mFile was processed with these loaders:[39m[22m
+[1m[31m * ../node_modules/ts-loader/index.js[39m[22m
+[1m[31mYou may need an additional loader to handle the result of these loaders.[39m[22m
+[1m[31m|         const [items, totalCount] = await queryBuilder.getManyAndCount();[39m[22m
+[1m[31m|         const Soluong = items.reduce((total, item) => total + Number(item.Soluong), 0);[39m[22m
+[1m[31m>         const Soluong = items.reduce((total, item) => total + Number(item.Tongtien), 0);[39m[22m
+[1m[31m|         return { items, totalCount, Soluong, Tongcong };[39m[22m
+[1m[31m|     }[39m[22m
+[1m[31m    at Array.Object.defineProperty.value (F:\chikiet\BEKetoan\dist\be_ketoan\main.js:3914:7)[39m[22m
+[1m[31m    at __webpack_require__ (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\webpack\bootstrap:19:1)[39m[22m
+[1m[31m    at Array.Object.defineProperty.value (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\nhapkho\nhapkho.module.ts:2:1)[39m[22m
+[1m[31m    at __webpack_require__ (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\webpack\bootstrap:19:1)[39m[22m
+[1m[31m    at Array.<anonymous> (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\app.module.ts:16:1)[39m[22m
+[1m[31m    at __webpack_require__ (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\webpack\bootstrap:19:1)[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\main.ts:9:1[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\dist\be_ketoan\main.js:5193:3[39m[22m
+[1m[31m    at Object.<anonymous> (F:\chikiet\BEKetoan\dist\be_ketoan\main.js:5195:12)[39m[22m
+[1m[31m    at Module._compile (node:internal/modules/cjs/loader:1376:14)[39m[22m
+[1m[31m[39m[22m
+
+[36m>[39m [7m[1m[36m NX [39m[22m[27m [1mProcess exited with code 1, waiting for changes to restart...[22m
+
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 193 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (4137fb999577792a)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 193 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (4137fb999577792a)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 193 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (4137fb999577792a)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 193 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (4137fb999577792a)
+[1m[31mDebugger listening on ws://localhost:9229/612223a1-d192-4198-923d-ca7d42bb82ea[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/612223a1-d192-4198-923d-ca7d42bb82ea[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 193 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (4137fb999577792a)
+[1m[31mDebugger listening on ws://localhost:9229/ab13e448-c8c5-4988-941c-cfeb9d55408d[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/ab13e448-c8c5-4988-941c-cfeb9d55408d[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 9000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 9000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2022, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 9000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 9000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2022, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 9000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 9000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2022, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 9000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 9000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2022, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 9000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 9000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 9000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 9000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2022, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 9000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 9000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2022, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 9000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 9000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2022, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2022, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 9000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 9000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2022, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Type: 'NHAP', pageSize: 9000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Type: 'NHAP', pageSize: 9000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2022, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Type: 'NHAP', pageSize: 9000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Type: 'NHAP', pageSize: 9000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 11, Nam: 2022, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Type: 'NHAP', pageSize: 9000, pageNumber: 0, Nam: 2023 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Type: 'NHAP', pageSize: 9000, pageNumber: 0, Nam: 2023 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 11, Nam: 2023, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 9000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 9000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 9000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 9000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2022, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2022, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 9000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 9000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2022, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 9000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 9000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2022, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 9000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 9000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2022, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 9000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 9000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2022, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 9000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 9000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2022, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 9000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 9000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2022, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 9000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 9000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2022, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 9000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 9000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2022, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 9000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 9000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2022, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 9000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 9000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2022, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 9000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 9000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2022, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 9000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 9000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 9000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2022, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 9000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2022, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 9000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 9000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2022, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 9000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 9000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2022, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 9000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 9000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2023, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 2, Type: 'NHAP', pageSize: 9000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 2, Type: 'NHAP', pageSize: 9000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Nam: 2023, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 9000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 9000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2022, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 9000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 9000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 9000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 9000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2022, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 12, Nam: 2022, pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 193 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/xuatkho/xuatkho.service.ts:[32m[1m81:31[22m[39m[1m[39m[22m
+[90mTS2551: [39mProperty 'NhapkhoRepository' does not exist on type 'XuatkhoService'. Did you mean 'XuatkhoRepository'?
+  [0m [90m 79 |[39m   }[0m
+  [0m [90m 80 |[39m   [36masync[39m findtensp([33mTenSP[39m[33m:[39m any) {[0m
+  [0m[31m[1m>[22m[39m[90m 81 |[39m     [36mconst[39m queryBuilder [33m=[39m [36mthis[39m[33m.[39m[33mNhapkhoRepository[39m[33m.[39mcreateQueryBuilder([32m'nhapkho'[39m)[33m;[39m[0m
+  [0m [90m    |[39m                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 82 |[39m       queryBuilder[33m.[39mandWhere([32m'nhapkho.TenSP LIKE :TenSP'[39m[33m,[39m { [33mTenSP[39m[33m:[39m [32m`%${TenSP}%`[39m })[33m;[39m[0m
+  [0m [90m 83 |[39m       [36mconst[39m [items[33m,[39m totalCount] [33m=[39m[36mawait[39m queryBuilder[33m.[39mgetManyAndCount()[33m;[39m[0m
+  [0m [90m 84 |[39m       [36mconst[39m [33mSoluong[39m [33m=[39m items[33m.[39mreduce((total[33m:[39many[33m,[39m item[33m:[39many) [33m=>[39m total [33m+[39m [33mNumber[39m(item[33m.[39m[33mSoluong[39m)[33m,[39m [35m0[39m)[33m;[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (2342d60600e9afd9)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 193 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (43ddd45713abc163)
+[1m[31mDebugger listening on ws://localhost:9229/53e77d8e-143a-4950-87ce-89745fef6655[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/53e77d8e-143a-4950-87ce-89745fef6655[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 193 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (a13f83a06928fc65)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 193 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (89e91040c5ed0697)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 193 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (89e91040c5ed0697)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 193 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (89e91040c5ed0697)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 194 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/xuatkho/xuatkho.controller.ts:[32m[1m25:23[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'nhapkhoService' does not exist on type 'XuatkhoController'.
+  [0m [90m 23 |[39m   [33m@[39m[33mGet[39m([32m'findtensp/:data'[39m)[0m
+  [0m [90m 24 |[39m   [36masync[39m findtensp([33m@[39m[33mParam[39m([32m'data'[39m) data[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 25 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39mnhapkhoService[33m.[39mfindtensp(data)[33m;[39m[0m
+  [0m [90m    |[39m                       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 26 |[39m   }[0m
+  [0m [90m 27 |[39m   [33m@[39m[33mGet[39m([32m'pagination'[39m)[0m
+  [0m [90m 28 |[39m   [36masync[39m findPagination([33m@[39m[33mQuery[39m([32m'page'[39m) page[33m:[39m number[33m,[39m[33m@[39m[33mQuery[39m([32m'perPage'[39m) perPage[33m:[39m number){[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (01c2332b61e9fcdb)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 194 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (24d04f38a09f4b15)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 194 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (24d04f38a09f4b15)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 194 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (24d04f38a09f4b15)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 194 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (24d04f38a09f4b15)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m

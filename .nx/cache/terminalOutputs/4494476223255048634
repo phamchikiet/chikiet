@@ -1,0 +1,971 @@
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 76.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (624f1c798959e2db)
+[1m[31mDebugger listening on ws://localhost:9229/f16d22ff-4880-4a56-b37e-13f433bba322[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/f16d22ff-4880-4a56-b37e-13f433bba322[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 26336  - [39m[31m12/30/2023, 2:10:35 PM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mUnknown column 'tdlap' in 'where clause'[39m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mQueryFailedError: Unknown column 'tdlap' in 'where clause'[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 26336  - [39m[31m12/30/2023, 2:10:39 PM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mUnknown column 'tdlap' in 'where clause'[39m[31m[39m[22m
+[1m[31mQueryFailedError: Unknown column 'tdlap' in 'where clause'[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 76.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (bb6fea81c101ded3)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 76.6 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (bb6fea81c101ded3)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 76.6 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (bb6fea81c101ded3)
+[1m[31mDebugger listening on ws://localhost:9229/f749f7f4-3524-436b-af85-bd549502fcdb[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/f749f7f4-3524-436b-af85-bd549502fcdb[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 19444  - [39m[31m12/30/2023, 2:10:54 PM [31m  ERROR[39m[31m [38;5;3m[TypeOrmModule] [39m[31m[31mUnable to connect to the database. Retrying (1)...[39m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mQueryFailedError: Invalid default value for 'tdlap'[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 76.6 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (bb6fea81c101ded3)
+[1m[31mDebugger listening on ws://localhost:9229/f17432c6-36c9-458c-93ae-837f4e68a4c0[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/f17432c6-36c9-458c-93ae-837f4e68a4c0[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 22220  - [39m[31m12/30/2023, 2:10:56 PM [31m  ERROR[39m[31m [38;5;3m[TypeOrmModule] [39m[31m[31mUnable to connect to the database. Retrying (1)...[39m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mQueryFailedError: Invalid default value for 'tdlap'[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 22220  - [39m[31m12/30/2023, 2:10:59 PM [31m  ERROR[39m[31m [38;5;3m[TypeOrmModule] [39m[31m[31mUnable to connect to the database. Retrying (2)...[39m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mQueryFailedError: Invalid default value for 'tdlap'[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 22220  - [39m[31m12/30/2023, 2:11:02 PM [31m  ERROR[39m[31m [38;5;3m[TypeOrmModule] [39m[31m[31mUnable to connect to the database. Retrying (3)...[39m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mQueryFailedError: Invalid default value for 'tdlap'[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 22220  - [39m[31m12/30/2023, 2:11:05 PM [31m  ERROR[39m[31m [38;5;3m[TypeOrmModule] [39m[31m[31mUnable to connect to the database. Retrying (4)...[39m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mQueryFailedError: Invalid default value for 'tdlap'[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 22220  - [39m[31m12/30/2023, 2:11:08 PM [31m  ERROR[39m[31m [38;5;3m[TypeOrmModule] [39m[31m[31mUnable to connect to the database. Retrying (5)...[39m[31m[39m[22m
+[1m[31mQueryFailedError: Invalid default value for 'tdlap'[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 22220  - [39m[31m12/30/2023, 2:11:11 PM [31m  ERROR[39m[31m [38;5;3m[TypeOrmModule] [39m[31m[31mUnable to connect to the database. Retrying (6)...[39m[31m[39m[22m
+[1m[31mQueryFailedError: Invalid default value for 'tdlap'[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 22220  - [39m[31m12/30/2023, 2:11:14 PM [31m  ERROR[39m[31m [38;5;3m[TypeOrmModule] [39m[31m[31mUnable to connect to the database. Retrying (7)...[39m[31m[39m[22m
+[1m[31mQueryFailedError: Invalid default value for 'tdlap'[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 22220  - [39m[31m12/30/2023, 2:11:17 PM [31m  ERROR[39m[31m [38;5;3m[TypeOrmModule] [39m[31m[31mUnable to connect to the database. Retrying (8)...[39m[31m[39m[22m
+[1m[31mQueryFailedError: Invalid default value for 'tdlap'[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 22220  - [39m[31m12/30/2023, 2:11:21 PM [31m  ERROR[39m[31m [38;5;3m[TypeOrmModule] [39m[31m[31mUnable to connect to the database. Retrying (9)...[39m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mQueryFailedError: Invalid default value for 'tdlap'[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 22220  - [39m[31m12/30/2023, 2:11:21 PM [31m  ERROR[39m[31m [38;5;3m[ExceptionHandler] [39m[31m[31mInvalid default value for 'tdlap'[39m[31m[39m[22m
+[1m[31mQueryFailedError: Invalid default value for 'tdlap'[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+
+[36m>[39m [7m[1m[36m NX [39m[22m[27m [1mProcess exited with code 1, waiting for changes to restart...[22m
+
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 76.4 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (a04066052037699e)
+[1m[31mDebugger listening on ws://localhost:9229/90576aed-abab-486c-bb83-43ee0d00c07e[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/90576aed-abab-486c-bb83-43ee0d00c07e[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 76.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (6318c0677c01caf6)
+[1m[31mDebugger listening on ws://localhost:9229/bff3ede3-2b86-4082-bf94-e91ef3dadbf5[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/bff3ede3-2b86-4082-bf94-e91ef3dadbf5[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 9316  - [39m[31m12/30/2023, 2:12:24 PM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mOperand should contain 1 column(s)[39m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mQueryFailedError: Operand should contain 1 column(s)[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 9316  - [39m[31m12/30/2023, 2:12:25 PM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mOperand should contain 1 column(s)[39m[31m[39m[22m
+[1m[31mQueryFailedError: Operand should contain 1 column(s)[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 9316  - [39m[31m12/30/2023, 2:12:25 PM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mOperand should contain 1 column(s)[39m[31m[39m[22m
+[1m[31mQueryFailedError: Operand should contain 1 column(s)[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 9316  - [39m[31m12/30/2023, 2:12:34 PM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mOperand should contain 1 column(s)[39m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mQueryFailedError: Operand should contain 1 column(s)[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 9316  - [39m[31m12/30/2023, 2:12:35 PM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mOperand should contain 1 column(s)[39m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mQueryFailedError: Operand should contain 1 column(s)[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 9316  - [39m[31m12/30/2023, 2:12:36 PM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mOperand should contain 1 column(s)[39m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mQueryFailedError: Operand should contain 1 column(s)[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 76.6 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (6318c0677c01caf6)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 76.6 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (6318c0677c01caf6)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 76.6 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (6318c0677c01caf6)
+[1m[31mDebugger listening on ws://localhost:9229/04ab9310-f2a9-4dd7-a1f4-166a1b24ee9c[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/04ab9310-f2a9-4dd7-a1f4-166a1b24ee9c[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 76.6 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (6318c0677c01caf6)
+[1m[31mDebugger listening on ws://localhost:9229/85da8ff2-bd39-4a07-8b34-9b94f74a6d3d[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/85da8ff2-bd39-4a07-8b34-9b94f74a6d3d[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 76.6 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (6318c0677c01caf6)
+[1m[31mDebugger listening on ws://localhost:9229/37494945-2be1-4d2a-a2b8-6ce2bcbaa89a[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/37494945-2be1-4d2a-a2b8-6ce2bcbaa89a[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 22736  - [39m[31m12/30/2023, 2:13:26 PM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mOperand should contain 1 column(s)[39m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mQueryFailedError: Operand should contain 1 column(s)[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 22736  - [39m[31m12/30/2023, 2:13:27 PM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mOperand should contain 1 column(s)[39m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mQueryFailedError: Operand should contain 1 column(s)[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 22736  - [39m[31m12/30/2023, 2:13:27 PM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mOperand should contain 1 column(s)[39m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mQueryFailedError: Operand should contain 1 column(s)[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 22736  - [39m[31m12/30/2023, 2:13:28 PM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mOperand should contain 1 column(s)[39m[31m[39m[22m
+[1m[31mQueryFailedError: Operand should contain 1 column(s)[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 22736  - [39m[31m12/30/2023, 2:13:36 PM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mOperand should contain 1 column(s)[39m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mQueryFailedError: Operand should contain 1 column(s)[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 76.6 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (6318c0677c01caf6)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 76.6 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (6318c0677c01caf6)
+[1m[31mDebugger listening on ws://localhost:9229/c3200b22-6336-475b-bbf5-13428b8eb8c7[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/c3200b22-6336-475b-bbf5-13428b8eb8c7[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 76.6 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (6318c0677c01caf6)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 76.6 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (6318c0677c01caf6)
+[1m[31mDebugger listening on ws://localhost:9229/56114e26-164d-42b7-8679-c84f45778570[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/56114e26-164d-42b7-8679-c84f45778570[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/15100029-c692-4996-8758-ed91df3fab54[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/15100029-c692-4996-8758-ed91df3fab54[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 76.6 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (6318c0677c01caf6)
+[1m[31mDebugger listening on ws://localhost:9229/7e9db90a-1f77-4a4b-9afb-b8b42cb2101b[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/7e9db90a-1f77-4a4b-9afb-b8b42cb2101b[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 76.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (0b68ad33fc0043c7)
+[1m[31mDebugger listening on ws://localhost:9229/d797de81-69eb-411a-9e72-ece81b83307c[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/d797de81-69eb-411a-9e72-ece81b83307c[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 76.7 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (235104027a7b51b6)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 76.7 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (235104027a7b51b6)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 76.7 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (235104027a7b51b6)
+[1m[31mDebugger listening on ws://localhost:9229/3bea3cb5-6a0b-43e4-8281-702e6bf5ee8d[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/3bea3cb5-6a0b-43e4-8281-702e6bf5ee8d[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 76.7 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (235104027a7b51b6)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 76.7 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (235104027a7b51b6)
+[1m[31mDebugger listening on ws://localhost:9229/e83df4b8-467e-40c0-b16f-6c680d202dff[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/e83df4b8-467e-40c0-b16f-6c680d202dff[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 25340  - [39m[31m12/30/2023, 2:17:06 PM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mOperand should contain 1 column(s)[39m[31m[39m[22m
+[1m[31mQueryFailedError: Operand should contain 1 column(s)[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 25340  - [39m[31m12/30/2023, 2:17:07 PM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mOperand should contain 1 column(s)[39m[31m[39m[22m
+[1m[31mQueryFailedError: Operand should contain 1 column(s)[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 76.7 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (235104027a7b51b6)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 76.7 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (235104027a7b51b6)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 76.7 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (235104027a7b51b6)
+[1m[31mDebugger listening on ws://localhost:9229/60fedc69-45b0-49ae-bdc8-0b16127a540c[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/60fedc69-45b0-49ae-bdc8-0b16127a540c[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 76.8 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/entities/sohoadon.entity.ts:[32m[1m16:3[22m[39m[1m[39m[22m
+[90mTS2300: [39mDuplicate identifier 'nbmst'.
+  [0m [90m 14 |[39m   nbmst[33m:[39m string[33m;[39m[0m
+  [0m [90m 15 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m[31m[1m>[22m[39m[90m 16 |[39m   nbmst[33m:[39m string[33m;[39m[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 17 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m [90m 18 |[39m   khhdon[33m:[39m string[33m;[39m[0m
+  [0m [90m 19 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (43627cb680a32311)
+[1m[31mDebugger listening on ws://localhost:9229/cd736e6b-a45d-4224-a57a-cd4bcb2488f4[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/cd736e6b-a45d-4224-a57a-cd4bcb2488f4[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 76.8 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (34b44aab5459a33f)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 76.8 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (34b44aab5459a33f)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 76.8 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (34b44aab5459a33f)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 76.8 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (34b44aab5459a33f)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 76.8 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (34b44aab5459a33f)
+[1m[31mDebugger listening on ws://localhost:9229/22e8a9b1-2389-4339-b540-caa4d71d9744[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/22e8a9b1-2389-4339-b540-caa4d71d9744[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 25432  - [39m[31m12/30/2023, 2:19:17 PM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mOperand should contain 1 column(s)[39m[31m[39m[22m
+[1m[31mQueryFailedError: Operand should contain 1 column(s)[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 76.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (a064ff524aeb4ff7)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 76.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (3423ccfba198bdb8)
+[1m[31mDebugger listening on ws://localhost:9229/5448c9e6-1f9c-4fa0-9dbc-1322dbaea76c[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/5448c9e6-1f9c-4fa0-9dbc-1322dbaea76c[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 76.9 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (3423ccfba198bdb8)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 76.9 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (3423ccfba198bdb8)
+[1m[31mDebugger listening on ws://localhost:9229/8c4901f2-d9f3-4739-99a8-c5fb2f95df69[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/8c4901f2-d9f3-4739-99a8-c5fb2f95df69[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 76.9 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (3423ccfba198bdb8)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 76.9 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (3423ccfba198bdb8)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 76.9 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (3423ccfba198bdb8)
+[1m[31mDebugger listening on ws://localhost:9229/c1e7828c-39d1-40bf-94a3-169b65fa3c3f[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/c1e7828c-39d1-40bf-94a3-169b65fa3c3f[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 76.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\sohoadon\sohoadon.service.ts[39m[22m
+[1m./src/app/sohoadon/sohoadon.service.ts[39m[22m [1m[32m16:54-55[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\sohoadon\sohoadon.service.ts(16,55)[39m[22m
+[1m[31m      TS1003: Identifier expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/sohoadon/sohoadon.service.ts[39m[22m [1m[32m16:58[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: [1m[31mUnexpected[39m[22m[1m token (16:58)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|     async create(CreateSohoadonDto) {
+|         console.log(CreateSohoadonDto);
+>         const item = await this.findSHD(CreateSohoadonDto.);
+|         console.log(item);
+|         if (item) {[39m[22m
+
+webpack compiled with [1m[31m2 errors[39m[22m (2dd62dec9ae50d09)
+[1m[31mDebugger listening on ws://localhost:9229/d958d7f3-60ec-4b5c-94d6-c08f30b5b902[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/d958d7f3-60ec-4b5c-94d6-c08f30b5b902[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 76.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.service.ts:[32m[1m16:55[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'so' does not exist on type 'CreateSohoadonDto'.
+  [0m [90m 14 |[39m     console[33m.[39mlog([33mCreateSohoadonDto[39m)[33m;[39m[0m
+  [0m [90m 15 |[39m     [0m
+  [0m[31m[1m>[22m[39m[90m 16 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindSHD([33mCreateSohoadonDto[39m[33m.[39mso)[0m
+  [0m [90m    |[39m                                                       [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 17 |[39m     console[33m.[39mlog(item)[33m;[39m[0m
+  [0m [90m 18 |[39m     [0m
+  [0m [90m 19 |[39m     [36mif[39m (item) {[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (c241f4f57a872972)
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mF:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\sohoadon\sohoadon.service.ts:42[39m[22m
+[1m[31m  async findslug(shdon: any) {[39m[22m
+[1m[31m  ^[39m[22m
+[1m[31mError: Module parse failed: Unexpected token (16:58)[39m[22m
+[1m[31mFile was processed with these loaders:[39m[22m
+[1m[31m * ../node_modules/ts-loader/index.js[39m[22m
+[1m[31mYou may need an additional loader to handle the result of these loaders.[39m[22m
+[1m[31m|     async create(CreateSohoadonDto) {[39m[22m
+[1m[31m|         console.log(CreateSohoadonDto);[39m[22m
+[1m[31m>         const item = await this.findSHD(CreateSohoadonDto.);[39m[22m
+[1m[31m|         console.log(item);[39m[22m
+[1m[31m|         if (item) {[39m[22m
+[1m[31m    at Array.Object.defineProperty.value (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\sohoadon\sohoadon.service.ts:42:3)[39m[22m
+[1m[31m    at __webpack_require__ (F:\chikiet\BEKetoan\dist\be_ketoan\main.js:2095:41)[39m[22m
+[1m[31m    at Array.Object.defineProperty.value (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\sohoadon\sohoadon.service.ts:20:14)[39m[22m
+[1m[31m    at __webpack_require__ (F:\chikiet\BEKetoan\dist\be_ketoan\main.js:2095:41)[39m[22m
+[1m[31m    at Array.<anonymous> (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\app.module.ts:43:14)[39m[22m
+[1m[31m    at __webpack_require__ (F:\chikiet\BEKetoan\dist\be_ketoan\main.js:2095:41)[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\dist\be_ketoan\main.js:2115:22[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\dist\be_ketoan\main.js:2125:3[39m[22m
+[1m[31m    at Object.<anonymous> (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\webpack\bootstrap:9:1)[39m[22m
+[1m[31m    at Module._compile (node:internal/modules/cjs/loader:1376:14)[39m[22m
+[1m[31m[39m[22m
+
+[36m>[39m [7m[1m[36m NX [39m[22m[27m [1mProcess exited with code 1, waiting for changes to restart...[22m
+
+[1m[31mDebugger listening on ws://localhost:9229/115698a5-4e11-4b91-ab05-30179fb75950[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/115698a5-4e11-4b91-ab05-30179fb75950[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 76.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.service.ts:[32m[1m16:55[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'shdon' does not exist on type 'CreateSohoadonDto'.
+  [0m [90m 14 |[39m     console[33m.[39mlog([33mCreateSohoadonDto[39m)[33m;[39m[0m
+  [0m [90m 15 |[39m     [0m
+  [0m[31m[1m>[22m[39m[90m 16 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindSHD([33mCreateSohoadonDto[39m[33m.[39mshdon)[0m
+  [0m [90m    |[39m                                                       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 17 |[39m     console[33m.[39mlog(item)[33m;[39m[0m
+  [0m [90m 18 |[39m     [0m
+  [0m [90m 19 |[39m     [36mif[39m (item) {[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (37be9cc4ea48e0a5)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 76.9 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.service.ts:[32m[1m16:55[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'shdon' does not exist on type 'CreateSohoadonDto'.
+  [0m [90m 14 |[39m     console[33m.[39mlog([33mCreateSohoadonDto[39m)[33m;[39m[0m
+  [0m [90m 15 |[39m     [0m
+  [0m[31m[1m>[22m[39m[90m 16 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindSHD([33mCreateSohoadonDto[39m[33m.[39mshdon)[0m
+  [0m [90m    |[39m                                                       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 17 |[39m     console[33m.[39mlog(item)[33m;[39m[0m
+  [0m [90m 18 |[39m     [0m
+  [0m [90m 19 |[39m     [36mif[39m (item) {[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (37be9cc4ea48e0a5)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 76.9 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.service.ts:[32m[1m16:55[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'shdon' does not exist on type 'CreateSohoadonDto'.
+  [0m [90m 14 |[39m     console[33m.[39mlog([33mCreateSohoadonDto[39m)[33m;[39m[0m
+  [0m [90m 15 |[39m     [0m
+  [0m[31m[1m>[22m[39m[90m 16 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindSHD([33mCreateSohoadonDto[39m[33m.[39mshdon)[0m
+  [0m [90m    |[39m                                                       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 17 |[39m     console[33m.[39mlog(item)[33m;[39m[0m
+  [0m [90m 18 |[39m     [0m
+  [0m [90m 19 |[39m     [36mif[39m (item) {[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (37be9cc4ea48e0a5)
+[1m[31mDebugger listening on ws://localhost:9229/f4b656e6-fa81-435a-bb98-f4d248b212df[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/f4b656e6-fa81-435a-bb98-f4d248b212df[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 76.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (7b3784cf7c94c9f6)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 76.9 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (7b3784cf7c94c9f6)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 76.9 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (7b3784cf7c94c9f6)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 76.9 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (7b3784cf7c94c9f6)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 76.9 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (7b3784cf7c94c9f6)
+[1m[31mDebugger listening on ws://localhost:9229/c8571869-f5ca-4cc0-b95f-71b789ba7224[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/c8571869-f5ca-4cc0-b95f-71b789ba7224[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 77.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.controller.ts:[32m[1m18:9[22m[39m[1m[39m[22m
+[90mTS2393: [39mDuplicate function implementation.
+  [0m [90m 16 |[39m   }[0m
+  [0m [90m 17 |[39m   [33m@[39m[33mGet[39m([32m'findid/:id'[39m)[0m
+  [0m[31m[1m>[22m[39m[90m 18 |[39m   [36masync[39m findOne([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 19 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39msohoadonService[33m.[39mfindid(id)[33m;[39m[0m
+  [0m [90m 20 |[39m   }[0m
+  [0m [90m 21 |[39m   [33m@[39m[33mGet[39m([32m'findid/:id'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.controller.ts:[32m[1m22:9[22m[39m[1m[39m[22m
+[90mTS2393: [39mDuplicate function implementation.
+  [0m [90m 20 |[39m   }[0m
+  [0m [90m 21 |[39m   [33m@[39m[33mGet[39m([32m'findid/:id'[39m)[0m
+  [0m[31m[1m>[22m[39m[90m 22 |[39m   [36masync[39m findOne([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 23 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39msohoadonService[33m.[39mfindid(id)[33m;[39m[0m
+  [0m [90m 24 |[39m   }[0m
+  [0m [90m 25 |[39m   [33m@[39m[33mGet[39m([32m'findslug/:slug'[39m)[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (994733b0767c5662)
+[1m[31mDebugger listening on ws://localhost:9229/a0aa4693-0c2f-4fe8-9ed8-45395f82ded2[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/a0aa4693-0c2f-4fe8-9ed8-45395f82ded2[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 77.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.controller.ts:[32m[1m18:9[22m[39m[1m[39m[22m
+[90mTS2393: [39mDuplicate function implementation.
+  [0m [90m 16 |[39m   }[0m
+  [0m [90m 17 |[39m   [33m@[39m[33mGet[39m([32m'findid/:id'[39m)[0m
+  [0m[31m[1m>[22m[39m[90m 18 |[39m   [36masync[39m findOne([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 19 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39msohoadonService[33m.[39mfindid(id)[33m;[39m[0m
+  [0m [90m 20 |[39m   }[0m
+  [0m [90m 21 |[39m   [33m@[39m[33mGet[39m([32m'sltheothang/:id'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.controller.ts:[32m[1m22:9[22m[39m[1m[39m[22m
+[90mTS2393: [39mDuplicate function implementation.
+  [0m [90m 20 |[39m   }[0m
+  [0m [90m 21 |[39m   [33m@[39m[33mGet[39m([32m'sltheothang/:id'[39m)[0m
+  [0m[31m[1m>[22m[39m[90m 22 |[39m   [36masync[39m findOne([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 23 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39msohoadonService[33m.[39mfindid(id)[33m;[39m[0m
+  [0m [90m 24 |[39m   }[0m
+  [0m [90m 25 |[39m   [33m@[39m[33mGet[39m([32m'findslug/:slug'[39m)[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (e4460c9f68b7ac78)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 77.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.controller.ts:[32m[1m18:9[22m[39m[1m[39m[22m
+[90mTS2393: [39mDuplicate function implementation.
+  [0m [90m 16 |[39m   }[0m
+  [0m [90m 17 |[39m   [33m@[39m[33mGet[39m([32m'findid/:id'[39m)[0m
+  [0m[31m[1m>[22m[39m[90m 18 |[39m   [36masync[39m findOne([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 19 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39msohoadonService[33m.[39mfindid(id)[33m;[39m[0m
+  [0m [90m 20 |[39m   }[0m
+  [0m [90m 21 |[39m   [33m@[39m[33mGet[39m([32m'sltheothang/:thang'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.controller.ts:[32m[1m22:9[22m[39m[1m[39m[22m
+[90mTS2393: [39mDuplicate function implementation.
+  [0m [90m 20 |[39m   }[0m
+  [0m [90m 21 |[39m   [33m@[39m[33mGet[39m([32m'sltheothang/:thang'[39m)[0m
+  [0m[31m[1m>[22m[39m[90m 22 |[39m   [36masync[39m findOne([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 23 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39msohoadonService[33m.[39mfindid(id)[33m;[39m[0m
+  [0m [90m 24 |[39m   }[0m
+  [0m [90m 25 |[39m   [33m@[39m[33mGet[39m([32m'findslug/:slug'[39m)[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (6689a0eecddd3c0c)
+[1m[31mDebugger listening on ws://localhost:9229/84fc1778-7d8d-4163-97ff-b2a018f409f7[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/84fc1778-7d8d-4163-97ff-b2a018f409f7[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 77.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.controller.ts:[32m[1m18:9[22m[39m[1m[39m[22m
+[90mTS2393: [39mDuplicate function implementation.
+  [0m [90m 16 |[39m   }[0m
+  [0m [90m 17 |[39m   [33m@[39m[33mGet[39m([32m'findid/:id'[39m)[0m
+  [0m[31m[1m>[22m[39m[90m 18 |[39m   [36masync[39m findOne([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 19 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39msohoadonService[33m.[39mfindid(id)[33m;[39m[0m
+  [0m [90m 20 |[39m   }[0m
+  [0m [90m 21 |[39m   [33m@[39m[33mGet[39m([32m'sltheothang/:thang'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.controller.ts:[32m[1m22:9[22m[39m[1m[39m[22m
+[90mTS2393: [39mDuplicate function implementation.
+  [0m [90m 20 |[39m   }[0m
+  [0m [90m 21 |[39m   [33m@[39m[33mGet[39m([32m'sltheothang/:thang'[39m)[0m
+  [0m[31m[1m>[22m[39m[90m 22 |[39m   [36masync[39m findOne([33m@[39m[33mParam[39m([32m'thang'[39m) id[33m:[39m string) {[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 23 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39msohoadonService[33m.[39mfindid(id)[33m;[39m[0m
+  [0m [90m 24 |[39m   }[0m
+  [0m [90m 25 |[39m   [33m@[39m[33mGet[39m([32m'findslug/:slug'[39m)[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (6c5e55507ae4bb75)
+[1m[31mDebugger listening on ws://localhost:9229/b9d9557f-bfac-4634-b60a-9b742fd4fb44[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/b9d9557f-bfac-4634-b60a-9b742fd4fb44[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 77.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.controller.ts:[32m[1m18:9[22m[39m[1m[39m[22m
+[90mTS2393: [39mDuplicate function implementation.
+  [0m [90m 16 |[39m   }[0m
+  [0m [90m 17 |[39m   [33m@[39m[33mGet[39m([32m'findid/:id'[39m)[0m
+  [0m[31m[1m>[22m[39m[90m 18 |[39m   [36masync[39m findOne([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 19 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39msohoadonService[33m.[39mfindid(id)[33m;[39m[0m
+  [0m [90m 20 |[39m   }[0m
+  [0m [90m 21 |[39m   [33m@[39m[33mGet[39m([32m'sltheothang/:thang'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.controller.ts:[32m[1m22:9[22m[39m[1m[39m[22m
+[90mTS2393: [39mDuplicate function implementation.
+  [0m [90m 20 |[39m   }[0m
+  [0m [90m 21 |[39m   [33m@[39m[33mGet[39m([32m'sltheothang/:thang'[39m)[0m
+  [0m[31m[1m>[22m[39m[90m 22 |[39m   [36masync[39m findOne([33m@[39m[33mParam[39m([32m'thang'[39m) thang[33m:[39m string) {[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 23 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39msohoadonService[33m.[39mfindid(id)[33m;[39m[0m
+  [0m [90m 24 |[39m   }[0m
+  [0m [90m 25 |[39m   [33m@[39m[33mGet[39m([32m'findslug/:slug'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.controller.ts:[32m[1m23:46[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'id'.
+  [0m [90m 21 |[39m   [33m@[39m[33mGet[39m([32m'sltheothang/:thang'[39m)[0m
+  [0m [90m 22 |[39m   [36masync[39m findOne([33m@[39m[33mParam[39m([32m'thang'[39m) thang[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 23 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39msohoadonService[33m.[39mfindid(id)[33m;[39m[0m
+  [0m [90m    |[39m                                              [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 24 |[39m   }[0m
+  [0m [90m 25 |[39m   [33m@[39m[33mGet[39m([32m'findslug/:slug'[39m)[0m
+  [0m [90m 26 |[39m   [36masync[39m findslug([33m@[39m[33mParam[39m([32m'slug'[39m) slug[33m:[39m string) {[0m
+
+webpack compiled with [1m[31m3 errors[39m[22m (a2cb24084edfa2ef)
+[1m[31mDebugger listening on ws://localhost:9229/975c2a1f-552b-4c2b-bdea-76a1b7a4f2aa[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/975c2a1f-552b-4c2b-bdea-76a1b7a4f2aa[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 77.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.controller.ts:[32m[1m23:46[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'id'.
+  [0m [90m 21 |[39m   [33m@[39m[33mGet[39m([32m'sltheothang/:thang'[39m)[0m
+  [0m [90m 22 |[39m   [36masync[39m findThang([33m@[39m[33mParam[39m([32m'thang'[39m) thang[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 23 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39msohoadonService[33m.[39mfindid(id)[33m;[39m[0m
+  [0m [90m    |[39m                                              [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 24 |[39m   }[0m
+  [0m [90m 25 |[39m   [33m@[39m[33mGet[39m([32m'findslug/:slug'[39m)[0m
+  [0m [90m 26 |[39m   [36masync[39m findslug([33m@[39m[33mParam[39m([32m'slug'[39m) slug[33m:[39m string) {[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (77739224dbbe747d)
+[1m[31mDebugger listening on ws://localhost:9229/6432c042-e842-4646-a807-63ecd66ac13b[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/6432c042-e842-4646-a807-63ecd66ac13b[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 77.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.controller.ts:[32m[1m23:39[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findThang' does not exist on type 'SohoadonService'.
+  [0m [90m 21 |[39m   [33m@[39m[33mGet[39m([32m'sltheothang/:thang'[39m)[0m
+  [0m [90m 22 |[39m   [36masync[39m findThang([33m@[39m[33mParam[39m([32m'thang'[39m) thang[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 23 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39msohoadonService[33m.[39mfindThang(id)[33m;[39m[0m
+  [0m [90m    |[39m                                       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 24 |[39m   }[0m
+  [0m [90m 25 |[39m   [33m@[39m[33mGet[39m([32m'findslug/:slug'[39m)[0m
+  [0m [90m 26 |[39m   [36masync[39m findslug([33m@[39m[33mParam[39m([32m'slug'[39m) slug[33m:[39m string) {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.controller.ts:[32m[1m23:49[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'id'.
+  [0m [90m 21 |[39m   [33m@[39m[33mGet[39m([32m'sltheothang/:thang'[39m)[0m
+  [0m [90m 22 |[39m   [36masync[39m findThang([33m@[39m[33mParam[39m([32m'thang'[39m) thang[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 23 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39msohoadonService[33m.[39mfindThang(id)[33m;[39m[0m
+  [0m [90m    |[39m                                                 [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 24 |[39m   }[0m
+  [0m [90m 25 |[39m   [33m@[39m[33mGet[39m([32m'findslug/:slug'[39m)[0m
+  [0m [90m 26 |[39m   [36masync[39m findslug([33m@[39m[33mParam[39m([32m'slug'[39m) slug[33m:[39m string) {[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (d469cba9a276120f)
+[1m[31mDebugger listening on ws://localhost:9229/cf07205a-6b7b-43cc-bf26-2c3a1a967b30[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/cf07205a-6b7b-43cc-bf26-2c3a1a967b30[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 77.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.controller.ts:[32m[1m23:39[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findThang' does not exist on type 'SohoadonService'.
+  [0m [90m 21 |[39m   [33m@[39m[33mGet[39m([32m'sltheothang/:thang'[39m)[0m
+  [0m [90m 22 |[39m   [36masync[39m findThang([33m@[39m[33mParam[39m([32m'thang'[39m) thang[33m:[39m string) {[0m
+  [0m[31m[1m>[22m[39m[90m 23 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39msohoadonService[33m.[39mfindThang(thang)[33m;[39m[0m
+  [0m [90m    |[39m                                       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 24 |[39m   }[0m
+  [0m [90m 25 |[39m   [33m@[39m[33mGet[39m([32m'findslug/:slug'[39m)[0m
+  [0m [90m 26 |[39m   [36masync[39m findslug([33m@[39m[33mParam[39m([32m'slug'[39m) slug[33m:[39m string) {[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (57bd08cbe5e5c85e)
+[1m[31mDebugger listening on ws://localhost:9229/a85b3b7c-1f19-4ee6-b656-e771f92a72b3[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/a85b3b7c-1f19-4ee6-b656-e771f92a72b3[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 77.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.controller.ts:[32m[1m23:39[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findThang' does not exist on type 'SohoadonService'.
+  [0m [90m 21 |[39m   [33m@[39m[33mGet[39m([32m'sltheothang/:thang'[39m)[0m
+  [0m [90m 22 |[39m   [36masync[39m findThang([33m@[39m[33mParam[39m([32m'thang'[39m) thang[33m:[39m any) {[0m
+  [0m[31m[1m>[22m[39m[90m 23 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39msohoadonService[33m.[39mfindThang(thang)[33m;[39m[0m
+  [0m [90m    |[39m                                       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 24 |[39m   }[0m
+  [0m [90m 25 |[39m   [33m@[39m[33mGet[39m([32m'findslug/:slug'[39m)[0m
+  [0m [90m 26 |[39m   [36masync[39m findslug([33m@[39m[33mParam[39m([32m'slug'[39m) slug[33m:[39m string) {[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (b8db4c019a6f2e76)
+[1m[31mDebugger listening on ws://localhost:9229/f5d84809-4119-45d8-bf0c-d2dabd036b6a[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/f5d84809-4119-45d8-bf0c-d2dabd036b6a[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 77.4 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.controller.ts:[32m[1m23:39[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findThang' does not exist on type 'SohoadonService'.
+  [0m [90m 21 |[39m   [33m@[39m[33mGet[39m([32m'sltheothang/:thang'[39m)[0m
+  [0m [90m 22 |[39m   [36masync[39m findThang([33m@[39m[33mParam[39m([32m'thang'[39m) thang[33m:[39m any) {[0m
+  [0m[31m[1m>[22m[39m[90m 23 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39msohoadonService[33m.[39mfindThang(thang)[33m;[39m[0m
+  [0m [90m    |[39m                                       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 24 |[39m   }[0m
+  [0m [90m 25 |[39m   [33m@[39m[33mGet[39m([32m'findslug/:slug'[39m)[0m
+  [0m [90m 26 |[39m   [36masync[39m findslug([33m@[39m[33mParam[39m([32m'slug'[39m) slug[33m:[39m string) {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.service.ts:[32m[1m36:9[22m[39m[1m[39m[22m
+[90mTS2393: [39mDuplicate function implementation.
+  [0m [90m 34 |[39m     })[33m;[39m[0m
+  [0m [90m 35 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 36 |[39m   [36masync[39m findid(id[33m:[39m string) {[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 37 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mSohoadonRepository[39m[33m.[39mfindOne({[0m
+  [0m [90m 38 |[39m       where[33m:[39m { id[33m:[39m id }[33m,[39m[0m
+  [0m [90m 39 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.service.ts:[32m[1m42:9[22m[39m[1m[39m[22m
+[90mTS2393: [39mDuplicate function implementation.
+  [0m [90m 40 |[39m     })[33m;[39m[0m
+  [0m [90m 41 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 42 |[39m   [36masync[39m findid(id[33m:[39m string) {[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 43 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mSohoadonRepository[39m[33m.[39mfindOne({[0m
+  [0m [90m 44 |[39m       where[33m:[39m { id[33m:[39m id }[33m,[39m[0m
+  [0m [90m 45 |[39m[0m
+
+webpack compiled with [1m[31m3 errors[39m[22m (e4e5e57a1654344d)
+[1m[31mDebugger listening on ws://localhost:9229/7e85ec77-b481-4233-8304-e1adeccfec5b[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/7e85ec77-b481-4233-8304-e1adeccfec5b[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 77.4 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (77b9f93203e7747b)
+[1m[31mDebugger listening on ws://localhost:9229/a874bf14-13e3-4fa5-be20-d568e2581a77[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/a874bf14-13e3-4fa5-be20-d568e2581a77[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 77.4 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (93307ef871153dea)
+[1m[31mDebugger listening on ws://localhost:9229/3a410724-a147-4757-a28c-f0da14393696[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/3a410724-a147-4757-a28c-f0da14393696[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 77.4 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (bacf8d024705b3b7)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 77.4 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (bacf8d024705b3b7)
+[1m[31mDebugger listening on ws://localhost:9229/949b4c1f-1b1d-4057-9942-9a4af8ddee6c[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/949b4c1f-1b1d-4057-9942-9a4af8ddee6c[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 77.4 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (2d4f22e4160e00ab)
+[1m[31mDebugger listening on ws://localhost:9229/3baebab4-5c28-44ae-bd71-230f42cf629f[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/3baebab4-5c28-44ae-bd71-230f42cf629f[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 77.4 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sohoadon/sohoadon.service.ts:[32m[1m44:23[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'id'.
+  [0m [90m 42 |[39m   [36masync[39m findThang(thang[33m:[39m any) {[0m
+  [0m [90m 43 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mSohoadonRepository[39m[33m.[39mfind({[0m
+  [0m[31m[1m>[22m[39m[90m 44 |[39m       where[33m:[39m { thang[33m:[39m id }[33m,[39m[0m
+  [0m [90m    |[39m                       [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 45 |[39m[0m
+  [0m [90m 46 |[39m     })[33m;[39m[0m
+  [0m [90m 47 |[39m   }[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (559e710f62873585)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 77.4 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (0bb718738291816c)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 77.4 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (0bb718738291816c)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 77.4 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (0bb718738291816c)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m

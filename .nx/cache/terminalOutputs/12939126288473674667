@@ -1,0 +1,623 @@
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 60.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (ffa50640a5f8d4c3)
+[1m[31mDebugger listening on ws://localhost:9229/08e83013-0cb9-4409-a8d2-fc1ed819e8be[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/08e83013-0cb9-4409-a8d2-fc1ed819e8be[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31mInvalid Date[39m[22m
+[1m[31m[39m[22m
+[1m[31mInvalid Date[39m[22m
+[1m[31m[39m[22m
+[1m[31m2022-12-31T17:00:00.000Z[39m[22m
+[1m[31m[39m[22m
+[1m[31mInvalid Date[39m[22m
+[1m[31m[39m[22m
+[1m[31m2022-12-31T17:00:00.000Z[39m[22m
+[1m[31m2023-01-30T17:00:00.000Z[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 60.2 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (ffa50640a5f8d4c3)
+[1m[31mDebugger listening on ws://localhost:9229/1a76947a-c01b-4c4c-bca5-84276e70ce81[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/1a76947a-c01b-4c4c-bca5-84276e70ce81[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 60.2 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (ffa50640a5f8d4c3)
+[1m[31mDebugger listening on ws://localhost:9229/65d252fd-a9e2-4d29-b296-6fc29566df36[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/65d252fd-a9e2-4d29-b296-6fc29566df36[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31mInvalid Date[39m[22m
+[1m[31m[39m[22m
+[1m[31mInvalid Date[39m[22m
+[1m[31m[39m[22m
+[1m[31mInvalid Date[39m[22m
+[1m[31m[39m[22m
+[1m[31mInvalid Date[39m[22m
+[1m[31m[39m[22m
+[1m[31mInvalid Date[39m[22m
+[1m[31m[39m[22m
+[1m[31mInvalid Date[39m[22m
+[1m[31m[39m[22m
+[1m[31mInvalid Date[39m[22m
+[1m[31m[39m[22m
+[1m[31mInvalid Date[39m[22m
+[1m[31m[39m[22m
+[1m[31mInvalid Date[39m[22m
+[1m[31m[39m[22m
+[1m[31mInvalid Date[39m[22m
+[1m[31m[39m[22m
+[1m[31mInvalid Date[39m[22m
+[1m[31m[39m[22m
+[1m[31mInvalid Date[39m[22m
+[1m[31m[39m[22m
+[1m[31mInvalid Date[39m[22m
+[1m[31m[39m[22m
+[1m[31mInvalid Date[39m[22m
+[1m[31m[39m[22m
+[1m[31m2022-12-31T17:00:00.000Z[39m[22m
+[1m[31m[39m[22m
+[1m[31m2023-01-30T17:00:00.000Z[39m[22m
+[1m[31m[39m[22m
+[1m[31mInvalid Date[39m[22m
+[1m[31m[39m[22m
+[1m[31mInvalid Date[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 60.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.controller.ts:[32m[1m31:5[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'lo'.
+  [0m [90m 29 |[39m   [33m@[39m[33mGet[39m([32m'finddate'[39m)[0m
+  [0m [90m 30 |[39m   [36masync[39m finddate([33m@[39m[33mBody[39m() data[33m:[39many){[0m
+  [0m[31m[1m>[22m[39m[90m 31 |[39m     lo[0m
+  [0m [90m    |[39m     [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 32 |[39m        [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39mmuavaoService[33m.[39mfinddate(data)[33m;[39m[0m
+  [0m [90m 33 |[39m   }[0m
+  [0m [90m 34 |[39m   [33m@[39m[33mGet[39m([32m'findquery'[39m)[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (bd4c0756ff80bcdd)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 60.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (d580180b3e21cc1d)
+[1m[31mDebugger listening on ws://localhost:9229/3c5646c5-d804-428f-bb20-3d51c11a2093[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/3c5646c5-d804-428f-bb20-3d51c11a2093[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31mInvalid Date[39m[22m
+[1m[31m[39m[22m
+[1m[31mInvalid Date[39m[22m
+[1m[31m[39m[22m
+[1m[31mInvalid Date[39m[22m
+[1m[31m[39m[22m
+[1m[31mInvalid Date[39m[22m
+[1m[31m[39m[22m
+[1m[31m2022-12-31T17:00:00.000Z[39m[22m
+[1m[31m[39m[22m
+[1m[31m2023-01-30T17:00:00.000Z[39m[22m
+[1m[31m[39m[22m
+[1m[31m2022-12-31T17:00:00.000Z[39m[22m
+[1m[31m[39m[22m
+[1m[31m2023-01-30T17:00:00.000Z[39m[22m
+[1m[31m[39m[22m
+[1m[31m2022-12-31T17:00:00.000Z[39m[22m
+[1m[31m[39m[22m
+[1m[31m2023-01-30T17:00:00.000Z[39m[22m
+[1m[31m[39m[22m
+[1m[31mInvalid Date[39m[22m
+[1m[31m[39m[22m
+[1m[31mInvalid Date[39m[22m
+[1m[31m[39m[22m
+[1m[31mInvalid Date[39m[22m
+[1m[31m[39m[22m
+[1m[31mInvalid Date[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 60.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (fe6dd5a94993e702)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 60.2 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (fe6dd5a94993e702)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 60.2 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (fe6dd5a94993e702)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 60.2 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (fe6dd5a94993e702)
+[1m[31mDebugger listening on ws://localhost:9229/09279eef-1285-4e3e-9165-b166e11ecefa[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/09279eef-1285-4e3e-9165-b166e11ecefa[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31m2022-12-31T17:00:00.000Z[39m[22m
+[1m[31m[39m[22m
+[1m[31m2023-01-30T17:00:00.000Z[39m[22m
+[1m[31m[39m[22m
+[1m[31m2022-12-31T17:00:00.000Z[39m[22m
+[1m[31m[39m[22m
+[1m[31m2023-01-30T17:00:00.000Z[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 60.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (a27260aebde2e796)
+[1m[31mDebugger listening on ws://localhost:9229/136dbf9c-6be4-4833-bd82-2d83ee4892cc[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/136dbf9c-6be4-4833-bd82-2d83ee4892cc[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 60.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.service.ts:[32m[1m41:21[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'slug'.
+  [0m [90m 39 |[39m   [36masync[39m findSHD(data[33m:[39m any) {[0m
+  [0m [90m 40 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39mfindOne({[0m
+  [0m[31m[1m>[22m[39m[90m 41 |[39m       where[33m:[39m { [33mSHD[39m[33m:[39m slug}[33m,[39m[0m
+  [0m [90m    |[39m                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 42 |[39m     })[33m;[39m[0m
+  [0m [90m 43 |[39m   }[0m
+  [0m [90m 44 |[39m   [36masync[39m findPagination(page[33m:[39m number[33m,[39m perPage[33m:[39m number){[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (cf4c920bcc96e261)
+[1m[31mDebugger listening on ws://localhost:9229/a3a0bb0f-1649-4407-a65b-071cc50a93f2[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/a3a0bb0f-1649-4407-a65b-071cc50a93f2[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 60.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/muavao/muavao.service.ts[39m[22m [1m[32m39:32[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: [1m[31mUnexpected[39m[22m[1m token (39:32)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|     async findSHD(data) {
+|         return await this.MuavaoRepository.findOne({
+>             where: { SHD: data. },
+|         });
+|     }[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.service.ts[39m[22m
+[1m./src/app/muavao/muavao.service.ts[39m[22m [1m[32m41:25-26[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.service.ts(41,26)[39m[22m
+[1m[31m      TS1003: Identifier expected.[39m[22m
+
+webpack compiled with [1m[31m2 errors[39m[22m (6621e57f041db6ee)
+[1m[31mDebugger listening on ws://localhost:9229/06b53bb4-d051-4acc-acfb-bd83ff1fc38c[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/06b53bb4-d051-4acc-acfb-bd83ff1fc38c[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mF:\chikiet\BEKetoan\dist\be_ketoan\main.js:848[39m[22m
+[1m[31mthrow new Error("Module parse failed: Unexpected token (39:32)\nFile was processed with these loaders:\n * ../node_modules/ts-loader/index.js\nYou may need an additional loader to handle the result of these loaders.\n|     async findSHD(data) {\n|         return await this.MuavaoRepository.findOne({\n>             where: { SHD: data. },\n|         });\n|     }");[39m[22m
+[1m[31m      ^[39m[22m
+[1m[31mError: Module parse failed: Unexpected token (39:32)[39m[22m
+[1m[31mFile was processed with these loaders:[39m[22m
+[1m[31m * ../node_modules/ts-loader/index.js[39m[22m
+[1m[31mYou may need an additional loader to handle the result of these loaders.[39m[22m
+[1m[31m|     async findSHD(data) {[39m[22m
+[1m[31m|         return await this.MuavaoRepository.findOne({[39m[22m
+[1m[31m>             where: { SHD: data. },[39m[22m
+[1m[31m|         });[39m[22m
+[1m[31m|     }[39m[22m
+[1m[31m    at Array.Object.defineProperty.value (F:\chikiet\BEKetoan\dist\be_ketoan\main.js:848:7)[39m[22m
+[1m[31m    at __webpack_require__ (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\webpack\bootstrap:19:1)[39m[22m
+[1m[31m    at Array.Object.defineProperty.value (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\muavao\muavao.module.ts:2:1)[39m[22m
+[1m[31m    at __webpack_require__ (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\webpack\bootstrap:19:1)[39m[22m
+[1m[31m    at Array.<anonymous> (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\app.module.ts:7:1)[39m[22m
+[1m[31m    at __webpack_require__ (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\webpack\bootstrap:19:1)[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\main.ts:9:1[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\dist\be_ketoan\main.js:1639:3[39m[22m
+[1m[31m    at Object.<anonymous> (F:\chikiet\BEKetoan\dist\be_ketoan\main.js:1641:12)[39m[22m
+[1m[31m    at Module._compile (node:internal/modules/cjs/loader:1376:14)[39m[22m
+[1m[31m[39m[22m
+
+[36m>[39m [7m[1m[36m NX [39m[22m[27m [1mProcess exited with code 1, waiting for changes to restart...[22m
+
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 60.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (56c5fda5dbfab045)
+[1m[31mDebugger listening on ws://localhost:9229/bab326ec-722d-4496-acaa-63c0be4a06bf[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/bab326ec-722d-4496-acaa-63c0be4a06bf[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 60.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (b44d144d1d19dafb)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 60.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (43acf58976e00c5a)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 60.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (13db9fa8a683f918)
+[1m[31mDebugger listening on ws://localhost:9229/f5a0a416-0256-4146-be07-d4ca5f54db80[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/f5a0a416-0256-4146-be07-d4ca5f54db80[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 60.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/muavao/muavao.service.ts[39m[22m [1m[32m42:12[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: [1m[31mUnexpected[39m[22m[1m token (42:12)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|                 SHD: data.SHD,
+|                 Ngaytao: 
+>             },
+|         });
+|     }[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.service.ts[39m[22m
+[1m./src/app/muavao/muavao.service.ts[39m[22m [1m[32m44:6-7[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.service.ts(44,7)[39m[22m
+[1m[31m      TS1109: Expression expected.[39m[22m
+
+webpack compiled with [1m[31m2 errors[39m[22m (6ff1ff0c1b7a08fc)
+[1m[31mDebugger listening on ws://localhost:9229/4e1dfa36-a381-4615-9514-22dafc41004e[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/4e1dfa36-a381-4615-9514-22dafc41004e[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mF:\chikiet\BEKetoan\dist\be_ketoan\main.js:848[39m[22m
+[1m[31mthrow new Error("Module parse failed: Unexpected token (42:12)\nFile was processed with these loaders:\n * ../node_modules/ts-loader/index.js\nYou may need an additional loader to handle the result of these loaders.\n|                 SHD: data.SHD,\n|                 Ngaytao: \n>             },\n|         });\n|     }");[39m[22m
+[1m[31m      ^[39m[22m
+[1m[31mError: Module parse failed: Unexpected token (42:12)[39m[22m
+[1m[31mFile was processed with these loaders:[39m[22m
+[1m[31m * ../node_modules/ts-loader/index.js[39m[22m
+[1m[31mYou may need an additional loader to handle the result of these loaders.[39m[22m
+[1m[31m|                 SHD: data.SHD,[39m[22m
+[1m[31m|                 Ngaytao: [39m[22m
+[1m[31m>             },[39m[22m
+[1m[31m|         });[39m[22m
+[1m[31m|     }[39m[22m
+[1m[31m    at Array.Object.defineProperty.value (F:\chikiet\BEKetoan\dist\be_ketoan\main.js:848:7)[39m[22m
+[1m[31m    at __webpack_require__ (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\webpack\bootstrap:19:1)[39m[22m
+[1m[31m    at Array.Object.defineProperty.value (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\muavao\muavao.module.ts:2:1)[39m[22m
+[1m[31m    at __webpack_require__ (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\webpack\bootstrap:19:1)[39m[22m
+[1m[31m    at Array.<anonymous> (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\app.module.ts:7:1)[39m[22m
+[1m[31m    at __webpack_require__ (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\webpack\bootstrap:19:1)[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\main.ts:9:1[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\dist\be_ketoan\main.js:1639:3[39m[22m
+[1m[31m    at Object.<anonymous> (F:\chikiet\BEKetoan\dist\be_ketoan\main.js:1641:12)[39m[22m
+[1m[31m    at Module._compile (node:internal/modules/cjs/loader:1376:14)[39m[22m
+[1m[31m[39m[22m
+
+[36m>[39m [7m[1m[36m NX [39m[22m[27m [1mProcess exited with code 1, waiting for changes to restart...[22m
+
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 60.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (d6ec4550dbc3d341)
+[1m[31mDebugger listening on ws://localhost:9229/d47377ae-a3b5-4002-813c-587757e9c29e[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/d47377ae-a3b5-4002-813c-587757e9c29e[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 60.3 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (d6ec4550dbc3d341)
+[1m[31mDebugger listening on ws://localhost:9229/92bd5837-ca4c-4e52-923a-20c0246af17a[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/92bd5837-ca4c-4e52-923a-20c0246af17a[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31m2022-12-31T17:00:00.000Z[39m[22m
+[1m[31m[39m[22m
+[1m[31m2023-01-30T17:00:00.000Z[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 60.4 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.service.ts:[32m[1m43:14[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'data'.
+  [0m [90m 41 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mMuavaochitietRepository[39m[33m.[39mfindOne({[0m
+  [0m [90m 42 |[39m       where[33m:[39m { [0m
+  [0m[31m[1m>[22m[39m[90m 43 |[39m         [33mSHD[39m[33m:[39m data[33m.[39m[33mSHD[39m[33m,[39m[0m
+  [0m [90m    |[39m              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 44 |[39m         [33mNgaytao[39m[33m:[39mdata[33m.[39m[33mNgaytao[39m[0m
+  [0m [90m 45 |[39m       }[33m,[39m[0m
+  [0m [90m 46 |[39m     })[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.service.ts:[32m[1m44:17[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'data'.
+  [0m [90m 42 |[39m       where[33m:[39m { [0m
+  [0m [90m 43 |[39m         [33mSHD[39m[33m:[39m data[33m.[39m[33mSHD[39m[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 44 |[39m         [33mNgaytao[39m[33m:[39mdata[33m.[39m[33mNgaytao[39m[0m
+  [0m [90m    |[39m                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 45 |[39m       }[33m,[39m[0m
+  [0m [90m 46 |[39m     })[33m;[39m[0m
+  [0m [90m 47 |[39m   }[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (e6ff0a9c5a70167a)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 60.4 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (8b9248ad64a8f170)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 60.4 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (8b9248ad64a8f170)
+[1m[31mDebugger listening on ws://localhost:9229/5c411e5d-a84e-4387-9fd5-a5fce89d8219[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/5c411e5d-a84e-4387-9fd5-a5fce89d8219[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 60.4 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (844267d0a4cab0d0)
+[1m[31mDebugger listening on ws://localhost:9229/98902556-b33e-4138-9499-5456ac64a752[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/98902556-b33e-4138-9499-5456ac64a752[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 60.4 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.service.ts:[32m[1m20:43[22m[39m[1m[39m[22m
+[90mTS2769: [39mNo overload matches this call.
+  Overload 1 of 3, '(entityLikeArray: DeepPartial<MuavaochitietEntity>[]): MuavaochitietEntity[]', gave the following error.
+    Argument of type 'typeof CreateMuavaochitietDto' is not assignable to parameter of type 'DeepPartial<MuavaochitietEntity>[]'.
+  Overload 2 of 3, '(entityLike: DeepPartial<MuavaochitietEntity>): MuavaochitietEntity', gave the following error.
+    Argument of type 'typeof CreateMuavaochitietDto' is not assignable to parameter of type 'DeepPartial<MuavaochitietEntity>'.
+  [0m [90m 18 |[39m     }[0m
+  [0m [90m 19 |[39m     [36melse[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 20 |[39m       [36mthis[39m[33m.[39m[33mMuavaochitietRepository[39m[33m.[39mcreate([33mCreateMuavaochitietDto[39m)[33m;[39m[0m
+  [0m [90m    |[39m                                           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 21 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mMuavaochitietRepository[39m[33m.[39msave([33mCreateMuavaochitietDto[39m)[33m;[39m[0m
+  [0m [90m 22 |[39m     }[0m
+  [0m [90m 23 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.service.ts:[32m[1m21:54[22m[39m[1m[39m[22m
+[90mTS2769: [39mNo overload matches this call.
+  Overload 1 of 4, '(entities: DeepPartial<MuavaochitietEntity>[], options?: SaveOptions): Promise<(DeepPartial<MuavaochitietEntity> & MuavaochitietEntity)[]>', gave the following error.
+    Argument of type 'typeof CreateMuavaochitietDto' is not assignable to parameter of type 'DeepPartial<MuavaochitietEntity>[]'.
+      Type 'typeof CreateMuavaochitietDto' is missing the following properties from type 'DeepPartial<MuavaochitietEntity>[]': pop, push, concat, join, and 28 more.
+  Overload 2 of 4, '(entity: DeepPartial<MuavaochitietEntity>, options?: SaveOptions): Promise<DeepPartial<MuavaochitietEntity> & MuavaochitietEntity>', gave the following error.
+    Argument of type 'typeof CreateMuavaochitietDto' is not assignable to parameter of type 'DeepPartial<MuavaochitietEntity>'.
+  [0m [90m 19 |[39m     [36melse[39m {[0m
+  [0m [90m 20 |[39m       [36mthis[39m[33m.[39m[33mMuavaochitietRepository[39m[33m.[39mcreate([33mCreateMuavaochitietDto[39m)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 21 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mMuavaochitietRepository[39m[33m.[39msave([33mCreateMuavaochitietDto[39m)[33m;[39m[0m
+  [0m [90m    |[39m                                                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 22 |[39m     }[0m
+  [0m [90m 23 |[39m[0m
+  [0m [90m 24 |[39m   }[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (cdea7ceab6e386a5)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 60.4 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.service.ts:[32m[1m21:54[22m[39m[1m[39m[22m
+[90mTS2769: [39mNo overload matches this call.
+  Overload 1 of 4, '(entities: DeepPartial<MuavaochitietEntity>[], options?: SaveOptions): Promise<(DeepPartial<MuavaochitietEntity> & MuavaochitietEntity)[]>', gave the following error.
+    Argument of type 'typeof CreateMuavaochitietDto' is not assignable to parameter of type 'DeepPartial<MuavaochitietEntity>[]'.
+      Type 'typeof CreateMuavaochitietDto' is missing the following properties from type 'DeepPartial<MuavaochitietEntity>[]': pop, push, concat, join, and 28 more.
+  Overload 2 of 4, '(entity: DeepPartial<MuavaochitietEntity>, options?: SaveOptions): Promise<DeepPartial<MuavaochitietEntity> & MuavaochitietEntity>', gave the following error.
+    Argument of type 'typeof CreateMuavaochitietDto' is not assignable to parameter of type 'DeepPartial<MuavaochitietEntity>'.
+  [0m [90m 19 |[39m     [36melse[39m {[0m
+  [0m [90m 20 |[39m       [36mthis[39m[33m.[39m[33mMuavaochitietRepository[39m[33m.[39mcreate(data)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 21 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mMuavaochitietRepository[39m[33m.[39msave([33mCreateMuavaochitietDto[39m)[33m;[39m[0m
+  [0m [90m    |[39m                                                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 22 |[39m     }[0m
+  [0m [90m 23 |[39m[0m
+  [0m [90m 24 |[39m   }[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (4d63f0c7b9438bbf)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 60.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (75aade74c37f4e61)
+[1m[31mDebugger listening on ws://localhost:9229/0d16aba5-cac6-4c5d-9e9b-883b777a705f[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/0d16aba5-cac6-4c5d-9e9b-883b777a705f[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 60.3 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (75aade74c37f4e61)
+[1m[31mDebugger listening on ws://localhost:9229/37f39087-f2db-42e4-9c4b-7149744f3a09[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/37f39087-f2db-42e4-9c4b-7149744f3a09[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 60.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (67eeb7aba88dab9c)
+[1m[31mDebugger listening on ws://localhost:9229/986541c9-0b59-45cc-abaf-b1fd728037f0[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/986541c9-0b59-45cc-abaf-b1fd728037f0[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 60.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/hoadonbanra.service.ts:[32m[1m53:14[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'data'.
+  [0m [90m 51 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39mhoadonbanraRepository[33m.[39mfindOne({[0m
+  [0m [90m 52 |[39m       where[33m:[39m { [0m
+  [0m[31m[1m>[22m[39m[90m 53 |[39m         [33mSHD[39m[33m:[39m data[33m.[39m[33mSHD[39m[33m,[39m[0m
+  [0m [90m    |[39m              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 54 |[39m         [33mNgaytao[39m[33m:[39mdata[33m.[39m[33mNgaytao[39m[0m
+  [0m [90m 55 |[39m       }[33m,[39m[0m
+  [0m [90m 56 |[39m     })[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/hoadonbanra.service.ts:[32m[1m54:17[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'data'.
+  [0m [90m 52 |[39m       where[33m:[39m { [0m
+  [0m [90m 53 |[39m         [33mSHD[39m[33m:[39m data[33m.[39m[33mSHD[39m[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 54 |[39m         [33mNgaytao[39m[33m:[39mdata[33m.[39m[33mNgaytao[39m[0m
+  [0m [90m    |[39m                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 55 |[39m       }[33m,[39m[0m
+  [0m [90m 56 |[39m     })[33m;[39m[0m
+  [0m [90m 57 |[39m   }[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (65276824278d0cee)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 60.3 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/hoadonbanra.service.ts:[32m[1m53:14[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'data'.
+  [0m [90m 51 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39mhoadonbanraRepository[33m.[39mfindOne({[0m
+  [0m [90m 52 |[39m       where[33m:[39m { [0m
+  [0m[31m[1m>[22m[39m[90m 53 |[39m         [33mSHD[39m[33m:[39m data[33m.[39m[33mSHD[39m[33m,[39m[0m
+  [0m [90m    |[39m              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 54 |[39m         [33mNgaytao[39m[33m:[39mdata[33m.[39m[33mNgaytao[39m[0m
+  [0m [90m 55 |[39m       }[33m,[39m[0m
+  [0m [90m 56 |[39m     })[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/hoadonbanra.service.ts:[32m[1m54:17[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'data'.
+  [0m [90m 52 |[39m       where[33m:[39m { [0m
+  [0m [90m 53 |[39m         [33mSHD[39m[33m:[39m data[33m.[39m[33mSHD[39m[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 54 |[39m         [33mNgaytao[39m[33m:[39mdata[33m.[39m[33mNgaytao[39m[0m
+  [0m [90m    |[39m                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 55 |[39m       }[33m,[39m[0m
+  [0m [90m 56 |[39m     })[33m;[39m[0m
+  [0m [90m 57 |[39m   }[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (65276824278d0cee)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 60.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (cdf661ce51a2e69f)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 60.3 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (cdf661ce51a2e69f)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 60.3 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (cdf661ce51a2e69f)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 60.3 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (cdf661ce51a2e69f)
+[1m[31mDebugger listening on ws://localhost:9229/a1fe0094-7bba-4237-acb2-3afb2a05cf24[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/a1fe0094-7bba-4237-acb2-3afb2a05cf24[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 60.5 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/banrachitiet/banrachitiet.service.ts:[32m[1m14:59[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'SHD' does not exist on type 'typeof CreateBanrachitietDto'.
+  [0m [90m 12 |[39m   ) {}[0m
+  [0m [90m 13 |[39m   [36masync[39m create(data[33m:[39m any) {[0m
+  [0m[31m[1m>[22m[39m[90m 14 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindSHD([33mCreateBanrachitietDto[39m[33m.[39m[33mSHD[39m)[0m
+  [0m [90m    |[39m                                                           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 15 |[39m     [36mif[39m(item)[0m
+  [0m [90m 16 |[39m     {[0m
+  [0m [90m 17 |[39m       [36mreturn[39m [32m"Trùng SHD"[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/banrachitiet/banrachitiet.service.ts:[32m[1m20:42[22m[39m[1m[39m[22m
+[90mTS2769: [39mNo overload matches this call.
+  Overload 1 of 3, '(entityLikeArray: DeepPartial<BanrachitietEntity>[]): BanrachitietEntity[]', gave the following error.
+    Argument of type 'typeof CreateBanrachitietDto' is not assignable to parameter of type 'DeepPartial<BanrachitietEntity>[]'.
+  Overload 2 of 3, '(entityLike: DeepPartial<BanrachitietEntity>): BanrachitietEntity', gave the following error.
+    Argument of type 'typeof CreateBanrachitietDto' is not assignable to parameter of type 'DeepPartial<BanrachitietEntity>'.
+  [0m [90m 18 |[39m     }[0m
+  [0m [90m 19 |[39m     [36melse[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 20 |[39m       [36mthis[39m[33m.[39m[33mBanrachitietRepository[39m[33m.[39mcreate([33mCreateBanrachitietDto[39m)[33m;[39m[0m
+  [0m [90m    |[39m                                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 21 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mBanrachitietRepository[39m[33m.[39msave([33mCreateBanrachitietDto[39m)[33m;[39m[0m
+  [0m [90m 22 |[39m     }[0m
+  [0m [90m 23 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/banrachitiet/banrachitiet.service.ts:[32m[1m21:53[22m[39m[1m[39m[22m
+[90mTS2769: [39mNo overload matches this call.
+  Overload 1 of 4, '(entities: DeepPartial<BanrachitietEntity>[], options?: SaveOptions): Promise<(DeepPartial<BanrachitietEntity> & BanrachitietEntity)[]>', gave the following error.
+    Argument of type 'typeof CreateBanrachitietDto' is not assignable to parameter of type 'DeepPartial<BanrachitietEntity>[]'.
+      Type 'typeof CreateBanrachitietDto' is missing the following properties from type 'DeepPartial<BanrachitietEntity>[]': pop, push, concat, join, and 28 more.
+  Overload 2 of 4, '(entity: DeepPartial<BanrachitietEntity>, options?: SaveOptions): Promise<DeepPartial<BanrachitietEntity> & BanrachitietEntity>', gave the following error.
+    Argument of type 'typeof CreateBanrachitietDto' is not assignable to parameter of type 'DeepPartial<BanrachitietEntity>'.
+  [0m [90m 19 |[39m     [36melse[39m {[0m
+  [0m [90m 20 |[39m       [36mthis[39m[33m.[39m[33mBanrachitietRepository[39m[33m.[39mcreate([33mCreateBanrachitietDto[39m)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 21 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mBanrachitietRepository[39m[33m.[39msave([33mCreateBanrachitietDto[39m)[33m;[39m[0m
+  [0m [90m    |[39m                                                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 22 |[39m     }[0m
+  [0m [90m 23 |[39m   }[0m
+  [0m [90m 24 |[39m   [36masync[39m findAll() {[0m
+
+webpack compiled with [1m[31m3 errors[39m[22m (e10c231805a793ff)
+[1m[31mDebugger listening on ws://localhost:9229/52438236-4b43-415e-9f75-73eeee6abcfe[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/52438236-4b43-415e-9f75-73eeee6abcfe[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 60.4 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/banrachitiet/banrachitiet.service.ts:[32m[1m21:53[22m[39m[1m[39m[22m
+[90mTS2769: [39mNo overload matches this call.
+  Overload 1 of 4, '(entities: DeepPartial<BanrachitietEntity>[], options?: SaveOptions): Promise<(DeepPartial<BanrachitietEntity> & BanrachitietEntity)[]>', gave the following error.
+    Argument of type 'typeof CreateBanrachitietDto' is not assignable to parameter of type 'DeepPartial<BanrachitietEntity>[]'.
+      Type 'typeof CreateBanrachitietDto' is missing the following properties from type 'DeepPartial<BanrachitietEntity>[]': pop, push, concat, join, and 28 more.
+  Overload 2 of 4, '(entity: DeepPartial<BanrachitietEntity>, options?: SaveOptions): Promise<DeepPartial<BanrachitietEntity> & BanrachitietEntity>', gave the following error.
+    Argument of type 'typeof CreateBanrachitietDto' is not assignable to parameter of type 'DeepPartial<BanrachitietEntity>'.
+  [0m [90m 19 |[39m     [36melse[39m {[0m
+  [0m [90m 20 |[39m       [36mthis[39m[33m.[39m[33mBanrachitietRepository[39m[33m.[39mcreate(data)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 21 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mBanrachitietRepository[39m[33m.[39msave([33mCreateBanrachitietDto[39m)[33m;[39m[0m
+  [0m [90m    |[39m                                                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 22 |[39m     }[0m
+  [0m [90m 23 |[39m   }[0m
+  [0m [90m 24 |[39m   [36masync[39m findAll() {[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (8a93823b9a0cdf46)
+[1m[31mDebugger listening on ws://localhost:9229/1a6a2c9f-10e4-4cad-bde0-e62eea582de7[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/1a6a2c9f-10e4-4cad-bde0-e62eea582de7[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 60.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (7f4d0e61c18abbd0)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 60.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/banrachitiet/banrachitiet.service.ts:[32m[1m41:14[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'data'.
+  [0m [90m 39 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mBanrachitietRepository[39m[33m.[39mfindOne({[0m
+  [0m [90m 40 |[39m       where[33m:[39m { [0m
+  [0m[31m[1m>[22m[39m[90m 41 |[39m         [33mSHD[39m[33m:[39m data[33m.[39m[33mSHD[39m[33m,[39m[0m
+  [0m [90m    |[39m              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 42 |[39m         [33mNgaytao[39m[33m:[39mdata[33m.[39m[33mNgaytao[39m[0m
+  [0m [90m 43 |[39m       }[33m,[39m[0m
+  [0m [90m 44 |[39m     })[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/banrachitiet/banrachitiet.service.ts:[32m[1m42:17[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'data'.
+  [0m [90m 40 |[39m       where[33m:[39m { [0m
+  [0m [90m 41 |[39m         [33mSHD[39m[33m:[39m data[33m.[39m[33mSHD[39m[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 42 |[39m         [33mNgaytao[39m[33m:[39mdata[33m.[39m[33mNgaytao[39m[0m
+  [0m [90m    |[39m                 [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 43 |[39m       }[33m,[39m[0m
+  [0m [90m 44 |[39m     })[33m;[39m[0m
+  [0m [90m 45 |[39m   }[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (5c7eb2f99ac56c8d)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 60.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (e1f0b8697a75dc75)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 60.3 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (e1f0b8697a75dc75)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 60.3 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (e1f0b8697a75dc75)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 60.3 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (e1f0b8697a75dc75)
+[1m[31mDebugger listening on ws://localhost:9229/08dc4e4e-1015-4afb-b6e1-93ec701feb4c[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/08dc4e4e-1015-4afb-b6e1-93ec701feb4c[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 60.4 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.service.ts:[32m[1m43:21[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'Datedata'.
+  [0m [90m 41 |[39m       where[33m:[39m { [0m
+  [0m [90m 42 |[39m         [33mSHD[39m[33m:[39m data[33m.[39m[33mSHD[39m[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 43 |[39m         [33mNgaytao[39m[33m:[39m[36mnew[39m [33mDatedata[39m[33m.[39m[33mNgaytao[39m[0m
+  [0m [90m    |[39m                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 44 |[39m       }[33m,[39m[0m
+  [0m [90m 45 |[39m     })[33m;[39m[0m
+  [0m [90m 46 |[39m   }[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (7cabd726ad836708)
+[1m[31mDebugger listening on ws://localhost:9229/81eb663a-9617-4228-89f4-0a5468219f8e[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/81eb663a-9617-4228-89f4-0a5468219f8e[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 60.4 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.service.ts[39m[22m
+[1m./src/app/muavao/muavao.service.ts[39m[22m [1m[32m44:6-7[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\muavao\muavao.service.ts(44,7)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+webpack compiled with [1m[31m1 error[39m[22m (81b1342a7c5b8a19)
+[1m[31mDebugger listening on ws://localhost:9229/3053b83f-114c-4e7e-81f0-ca7ac0990193[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/3053b83f-114c-4e7e-81f0-ca7ac0990193[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 60.4 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (cb9e1e69366c8a11)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 60.4 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (cb9e1e69366c8a11)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 60.4 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (cb9e1e69366c8a11)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 60.4 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (cb9e1e69366c8a11)
+[1m[31mDebugger listening on ws://localhost:9229/82150656-6912-4621-a5b7-9ee729c5dd9d[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/82150656-6912-4621-a5b7-9ee729c5dd9d[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 60.4 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (f6119a54d6bf8b0b)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 60.4 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (f6119a54d6bf8b0b)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 60.4 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (f6119a54d6bf8b0b)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 60.4 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (f6119a54d6bf8b0b)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 60.4 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (f6119a54d6bf8b0b)
+[1m[31mDebugger listening on ws://localhost:9229/d971ba2a-f2c4-4cf9-8677-7f7ff613f06f[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/d971ba2a-f2c4-4cf9-8677-7f7ff613f06f[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m

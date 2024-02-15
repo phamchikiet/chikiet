@@ -1,0 +1,1267 @@
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 50.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (a9c01862f991d24d)
+[1m[31mDebugger listening on ws://localhost:9229/e8d0bb2d-7089-44c4-a4e6-eff95639206a[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/e8d0bb2d-7089-44c4-a4e6-eff95639206a[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 50.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (460ba58e81485c67)
+[1m[31mDebugger listening on ws://localhost:9229/b8e4c541-3121-4aaa-afe6-425078daabab[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/b8e4c541-3121-4aaa-afe6-425078daabab[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 49.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/hoadonbanra/hoadonbanra.controller.ts[39m[22m [1m[32m16:21[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: Cannot use keyword 'await' outside an async function (16:21)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|     create(createhoadonbanraDto) {
+|         return this.hoadonbanraService.create(createhoadonbanraDto);
+>         const item = await this.findSHD(CreateMuavaoDto.SHD);
+|         if (item) {
+|             return "Trùng SHD";[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/hoadonbanra.controller.ts:[32m[1m12:18[22m[39m[1m[39m[22m
+[90mTS1308: [39m'await' expressions are only allowed within async functions and at the top levels of modules.
+  [0m [90m 10 |[39m   create([33m@[39m[33mBody[39m() createhoadonbanraDto[33m:[39m [33mCreateHoadonbanraDto[39m) {[0m
+  [0m [90m 11 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mhoadonbanraService[33m.[39mcreate(createhoadonbanraDto)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 12 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindSHD([33mCreateMuavaoDto[39m[33m.[39m[33mSHD[39m)[0m
+  [0m [90m    |[39m                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 13 |[39m     [36mif[39m(item)[0m
+  [0m [90m 14 |[39m     {[0m
+  [0m [90m 15 |[39m       [36mreturn[39m [32m"Trùng SHD"[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/hoadonbanra.controller.ts:[32m[1m12:29[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findSHD' does not exist on type 'hoadonbanraController'.
+  [0m [90m 10 |[39m   create([33m@[39m[33mBody[39m() createhoadonbanraDto[33m:[39m [33mCreateHoadonbanraDto[39m) {[0m
+  [0m [90m 11 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mhoadonbanraService[33m.[39mcreate(createhoadonbanraDto)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 12 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindSHD([33mCreateMuavaoDto[39m[33m.[39m[33mSHD[39m)[0m
+  [0m [90m    |[39m                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 13 |[39m     [36mif[39m(item)[0m
+  [0m [90m 14 |[39m     {[0m
+  [0m [90m 15 |[39m       [36mreturn[39m [32m"Trùng SHD"[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/hoadonbanra.controller.ts:[32m[1m12:37[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'CreateMuavaoDto'.
+  [0m [90m 10 |[39m   create([33m@[39m[33mBody[39m() createhoadonbanraDto[33m:[39m [33mCreateHoadonbanraDto[39m) {[0m
+  [0m [90m 11 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mhoadonbanraService[33m.[39mcreate(createhoadonbanraDto)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 12 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindSHD([33mCreateMuavaoDto[39m[33m.[39m[33mSHD[39m)[0m
+  [0m [90m    |[39m                                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 13 |[39m     [36mif[39m(item)[0m
+  [0m [90m 14 |[39m     {[0m
+  [0m [90m 15 |[39m       [36mreturn[39m [32m"Trùng SHD"[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/hoadonbanra.controller.ts:[32m[1m18:12[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'MuavaoRepository' does not exist on type 'hoadonbanraController'.
+  [0m [90m 16 |[39m     }[0m
+  [0m [90m 17 |[39m     [36melse[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 18 |[39m       [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39mcreate([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m [90m    |[39m            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 19 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39msave([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m [90m 20 |[39m     }[0m
+  [0m [90m 21 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/hoadonbanra.controller.ts:[32m[1m18:36[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'CreateMuavaoDto'.
+  [0m [90m 16 |[39m     }[0m
+  [0m [90m 17 |[39m     [36melse[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 18 |[39m       [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39mcreate([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m [90m    |[39m                                    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 19 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39msave([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m [90m 20 |[39m     }[0m
+  [0m [90m 21 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/hoadonbanra.controller.ts:[32m[1m19:14[22m[39m[1m[39m[22m
+[90mTS1308: [39m'await' expressions are only allowed within async functions and at the top levels of modules.
+  [0m [90m 17 |[39m     [36melse[39m {[0m
+  [0m [90m 18 |[39m       [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39mcreate([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 19 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39msave([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m [90m    |[39m              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 20 |[39m     }[0m
+  [0m [90m 21 |[39m   }[0m
+  [0m [90m 22 |[39m   [33m@[39m[33mGet[39m()[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/hoadonbanra.controller.ts:[32m[1m19:25[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'MuavaoRepository' does not exist on type 'hoadonbanraController'.
+  [0m [90m 17 |[39m     [36melse[39m {[0m
+  [0m [90m 18 |[39m       [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39mcreate([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 19 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39msave([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m [90m    |[39m                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 20 |[39m     }[0m
+  [0m [90m 21 |[39m   }[0m
+  [0m [90m 22 |[39m   [33m@[39m[33mGet[39m()[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/hoadonbanra.controller.ts:[32m[1m19:47[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'CreateMuavaoDto'.
+  [0m [90m 17 |[39m     [36melse[39m {[0m
+  [0m [90m 18 |[39m       [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39mcreate([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 19 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39msave([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m [90m    |[39m                                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 20 |[39m     }[0m
+  [0m [90m 21 |[39m   }[0m
+  [0m [90m 22 |[39m   [33m@[39m[33mGet[39m()[0m
+
+webpack compiled with [1m[31m9 errors[39m[22m (7bf73bef3429fbea)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 49.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/hoadonbanra/hoadonbanra.controller.ts[39m[22m [1m[32m16:21[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: Cannot use keyword 'await' outside an async function (16:21)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|     create(createhoadonbanraDto) {
+|         return this.hoadonbanraService.create(createhoadonbanraDto);
+>         const item = await this.findSHD(CreateMuavaoDto.SHD);
+|         if (item) {
+|             return "Trùng SHD";[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/hoadonbanra.controller.ts:[32m[1m12:18[22m[39m[1m[39m[22m
+[90mTS1308: [39m'await' expressions are only allowed within async functions and at the top levels of modules.
+  [0m [90m 10 |[39m   create([33m@[39m[33mBody[39m() createhoadonbanraDto[33m:[39m [33mCreateHoadonbanraDto[39m) {[0m
+  [0m [90m 11 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mhoadonbanraService[33m.[39mcreate(createhoadonbanraDto)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 12 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindSHD([33mCreateMuavaoDto[39m[33m.[39m[33mSHD[39m)[0m
+  [0m [90m    |[39m                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 13 |[39m     [36mif[39m(item)[0m
+  [0m [90m 14 |[39m     {[0m
+  [0m [90m 15 |[39m       [36mreturn[39m [32m"Trùng SHD"[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/hoadonbanra.controller.ts:[32m[1m12:29[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findSHD' does not exist on type 'hoadonbanraController'.
+  [0m [90m 10 |[39m   create([33m@[39m[33mBody[39m() createhoadonbanraDto[33m:[39m [33mCreateHoadonbanraDto[39m) {[0m
+  [0m [90m 11 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mhoadonbanraService[33m.[39mcreate(createhoadonbanraDto)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 12 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindSHD([33mCreateMuavaoDto[39m[33m.[39m[33mSHD[39m)[0m
+  [0m [90m    |[39m                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 13 |[39m     [36mif[39m(item)[0m
+  [0m [90m 14 |[39m     {[0m
+  [0m [90m 15 |[39m       [36mreturn[39m [32m"Trùng SHD"[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/hoadonbanra.controller.ts:[32m[1m12:37[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'CreateMuavaoDto'.
+  [0m [90m 10 |[39m   create([33m@[39m[33mBody[39m() createhoadonbanraDto[33m:[39m [33mCreateHoadonbanraDto[39m) {[0m
+  [0m [90m 11 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mhoadonbanraService[33m.[39mcreate(createhoadonbanraDto)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 12 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindSHD([33mCreateMuavaoDto[39m[33m.[39m[33mSHD[39m)[0m
+  [0m [90m    |[39m                                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 13 |[39m     [36mif[39m(item)[0m
+  [0m [90m 14 |[39m     {[0m
+  [0m [90m 15 |[39m       [36mreturn[39m [32m"Trùng SHD"[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/hoadonbanra.controller.ts:[32m[1m19:14[22m[39m[1m[39m[22m
+[90mTS1308: [39m'await' expressions are only allowed within async functions and at the top levels of modules.
+  [0m [90m 17 |[39m     [36melse[39m {[0m
+  [0m [90m 18 |[39m       [36mthis[39m[33m.[39mhoadonbanraService[33m.[39mcreate(createhoadonbanraDto)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 19 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39msave([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m [90m    |[39m              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 20 |[39m     }[0m
+  [0m [90m 21 |[39m   }[0m
+  [0m [90m 22 |[39m   [33m@[39m[33mGet[39m()[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/hoadonbanra.controller.ts:[32m[1m19:25[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'MuavaoRepository' does not exist on type 'hoadonbanraController'.
+  [0m [90m 17 |[39m     [36melse[39m {[0m
+  [0m [90m 18 |[39m       [36mthis[39m[33m.[39mhoadonbanraService[33m.[39mcreate(createhoadonbanraDto)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 19 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39msave([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m [90m    |[39m                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 20 |[39m     }[0m
+  [0m [90m 21 |[39m   }[0m
+  [0m [90m 22 |[39m   [33m@[39m[33mGet[39m()[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/hoadonbanra.controller.ts:[32m[1m19:47[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'CreateMuavaoDto'.
+  [0m [90m 17 |[39m     [36melse[39m {[0m
+  [0m [90m 18 |[39m       [36mthis[39m[33m.[39mhoadonbanraService[33m.[39mcreate(createhoadonbanraDto)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 19 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39msave([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m [90m    |[39m                                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 20 |[39m     }[0m
+  [0m [90m 21 |[39m   }[0m
+  [0m [90m 22 |[39m   [33m@[39m[33mGet[39m()[0m
+
+webpack compiled with [1m[31m7 errors[39m[22m (33c8b2378e9f5d37)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 49.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/hoadonbanra/hoadonbanra.controller.ts[39m[22m [1m[32m21:19[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: Cannot use keyword 'await' outside an async function (21:19)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|         else {
+|             this.hoadonbanraService.create(createhoadonbanraDto);
+>             return await this.MuavaoRepository.save(CreateMuavaoDto);
+|         }
+|     }[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/hoadonbanra.controller.ts:[32m[1m11:68[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'item'.
+  [0m [90m  9 |[39m   [33m@[39m[33mPost[39m()[0m
+  [0m [90m 10 |[39m   create([33m@[39m[33mBody[39m() createhoadonbanraDto[33m:[39m [33mCreateHoadonbanraDto[39m) {[0m
+  [0m[31m[1m>[22m[39m[90m 11 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mhoadonbanraService[33m.[39mcreate(createhoadonbanraDto)[33m;[39m[36mif[39m(item)[0m
+  [0m [90m    |[39m                                                                    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 12 |[39m     {[0m
+  [0m [90m 13 |[39m       [36mreturn[39m [32m"Trùng SHD"[39m[0m
+  [0m [90m 14 |[39m     }[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/hoadonbanra.controller.ts:[32m[1m17:14[22m[39m[1m[39m[22m
+[90mTS1308: [39m'await' expressions are only allowed within async functions and at the top levels of modules.
+  [0m [90m 15 |[39m     [36melse[39m {[0m
+  [0m [90m 16 |[39m       [36mthis[39m[33m.[39mhoadonbanraService[33m.[39mcreate(createhoadonbanraDto)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 17 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39msave([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m [90m    |[39m              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 18 |[39m     }[0m
+  [0m [90m 19 |[39m   }[0m
+  [0m [90m 20 |[39m   [33m@[39m[33mGet[39m()[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/hoadonbanra.controller.ts:[32m[1m17:25[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'MuavaoRepository' does not exist on type 'hoadonbanraController'.
+  [0m [90m 15 |[39m     [36melse[39m {[0m
+  [0m [90m 16 |[39m       [36mthis[39m[33m.[39mhoadonbanraService[33m.[39mcreate(createhoadonbanraDto)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 17 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39msave([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m [90m    |[39m                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 18 |[39m     }[0m
+  [0m [90m 19 |[39m   }[0m
+  [0m [90m 20 |[39m   [33m@[39m[33mGet[39m()[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/hoadonbanra.controller.ts:[32m[1m17:47[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'CreateMuavaoDto'.
+  [0m [90m 15 |[39m     [36melse[39m {[0m
+  [0m [90m 16 |[39m       [36mthis[39m[33m.[39mhoadonbanraService[33m.[39mcreate(createhoadonbanraDto)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 17 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39msave([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m [90m    |[39m                                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 18 |[39m     }[0m
+  [0m [90m 19 |[39m   }[0m
+  [0m [90m 20 |[39m   [33m@[39m[33mGet[39m()[0m
+
+webpack compiled with [1m[31m5 errors[39m[22m (e300a249e7c73420)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 49.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/hoadonbanra/hoadonbanra.controller.ts[39m[22m [1m[32m16:21[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: Cannot use keyword 'await' outside an async function (16:21)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|     create(createhoadonbanraDto) {
+|         return this.hoadonbanraService.create(createhoadonbanraDto);
+>         const item = await this.findSHD(CreateMuavaoDto.SHD);
+|         if (item) {
+|             return "Trùng SHD";[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/hoadonbanra.controller.ts:[32m[1m12:18[22m[39m[1m[39m[22m
+[90mTS1308: [39m'await' expressions are only allowed within async functions and at the top levels of modules.
+  [0m [90m 10 |[39m   create([33m@[39m[33mBody[39m() createhoadonbanraDto[33m:[39m [33mCreateHoadonbanraDto[39m) {[0m
+  [0m [90m 11 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mhoadonbanraService[33m.[39mcreate(createhoadonbanraDto)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 12 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindSHD([33mCreateMuavaoDto[39m[33m.[39m[33mSHD[39m)[0m
+  [0m [90m    |[39m                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 13 |[39m     [36mif[39m(item)[0m
+  [0m [90m 14 |[39m     {[0m
+  [0m [90m 15 |[39m       [36mreturn[39m [32m"Trùng SHD"[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/hoadonbanra.controller.ts:[32m[1m12:29[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findSHD' does not exist on type 'hoadonbanraController'.
+  [0m [90m 10 |[39m   create([33m@[39m[33mBody[39m() createhoadonbanraDto[33m:[39m [33mCreateHoadonbanraDto[39m) {[0m
+  [0m [90m 11 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mhoadonbanraService[33m.[39mcreate(createhoadonbanraDto)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 12 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindSHD([33mCreateMuavaoDto[39m[33m.[39m[33mSHD[39m)[0m
+  [0m [90m    |[39m                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 13 |[39m     [36mif[39m(item)[0m
+  [0m [90m 14 |[39m     {[0m
+  [0m [90m 15 |[39m       [36mreturn[39m [32m"Trùng SHD"[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/hoadonbanra.controller.ts:[32m[1m12:37[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'CreateMuavaoDto'.
+  [0m [90m 10 |[39m   create([33m@[39m[33mBody[39m() createhoadonbanraDto[33m:[39m [33mCreateHoadonbanraDto[39m) {[0m
+  [0m [90m 11 |[39m     [36mreturn[39m [36mthis[39m[33m.[39mhoadonbanraService[33m.[39mcreate(createhoadonbanraDto)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 12 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindSHD([33mCreateMuavaoDto[39m[33m.[39m[33mSHD[39m)[0m
+  [0m [90m    |[39m                                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 13 |[39m     [36mif[39m(item)[0m
+  [0m [90m 14 |[39m     {[0m
+  [0m [90m 15 |[39m       [36mreturn[39m [32m"Trùng SHD"[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/hoadonbanra.controller.ts:[32m[1m19:14[22m[39m[1m[39m[22m
+[90mTS1308: [39m'await' expressions are only allowed within async functions and at the top levels of modules.
+  [0m [90m 17 |[39m     [36melse[39m {[0m
+  [0m [90m 18 |[39m       [36mthis[39m[33m.[39mhoadonbanraService[33m.[39mcreate(createhoadonbanraDto)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 19 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39msave([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m [90m    |[39m              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 20 |[39m     }[0m
+  [0m [90m 21 |[39m   }[0m
+  [0m [90m 22 |[39m   [33m@[39m[33mGet[39m()[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/hoadonbanra.controller.ts:[32m[1m19:25[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'MuavaoRepository' does not exist on type 'hoadonbanraController'.
+  [0m [90m 17 |[39m     [36melse[39m {[0m
+  [0m [90m 18 |[39m       [36mthis[39m[33m.[39mhoadonbanraService[33m.[39mcreate(createhoadonbanraDto)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 19 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39msave([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m [90m    |[39m                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 20 |[39m     }[0m
+  [0m [90m 21 |[39m   }[0m
+  [0m [90m 22 |[39m   [33m@[39m[33mGet[39m()[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/hoadonbanra.controller.ts:[32m[1m19:47[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'CreateMuavaoDto'.
+  [0m [90m 17 |[39m     [36melse[39m {[0m
+  [0m [90m 18 |[39m       [36mthis[39m[33m.[39mhoadonbanraService[33m.[39mcreate(createhoadonbanraDto)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 19 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39msave([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m [90m    |[39m                                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 20 |[39m     }[0m
+  [0m [90m 21 |[39m   }[0m
+  [0m [90m 22 |[39m   [33m@[39m[33mGet[39m()[0m
+
+webpack compiled with [1m[31m7 errors[39m[22m (33c8b2378e9f5d37)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 49.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/hoadonbanra/hoadonbanra.controller.ts[39m[22m [1m[32m15:21[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: Cannot use keyword 'await' outside an async function (15:21)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|     }
+|     create(createhoadonbanraDto) {
+>         const item = await this.findSHD(CreateMuavaoDto.SHD);
+|         if (item) {
+|             return "Trùng SHD";[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/hoadonbanra.controller.ts:[32m[1m11:18[22m[39m[1m[39m[22m
+[90mTS1308: [39m'await' expressions are only allowed within async functions and at the top levels of modules.
+  [0m [90m  9 |[39m   [33m@[39m[33mPost[39m()[0m
+  [0m [90m 10 |[39m   create([33m@[39m[33mBody[39m() createhoadonbanraDto[33m:[39m [33mCreateHoadonbanraDto[39m) {[0m
+  [0m[31m[1m>[22m[39m[90m 11 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindSHD([33mCreateMuavaoDto[39m[33m.[39m[33mSHD[39m)[0m
+  [0m [90m    |[39m                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 12 |[39m     [36mif[39m(item)[0m
+  [0m [90m 13 |[39m     {[0m
+  [0m [90m 14 |[39m       [36mreturn[39m [32m"Trùng SHD"[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/hoadonbanra.controller.ts:[32m[1m11:29[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findSHD' does not exist on type 'hoadonbanraController'.
+  [0m [90m  9 |[39m   [33m@[39m[33mPost[39m()[0m
+  [0m [90m 10 |[39m   create([33m@[39m[33mBody[39m() createhoadonbanraDto[33m:[39m [33mCreateHoadonbanraDto[39m) {[0m
+  [0m[31m[1m>[22m[39m[90m 11 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindSHD([33mCreateMuavaoDto[39m[33m.[39m[33mSHD[39m)[0m
+  [0m [90m    |[39m                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 12 |[39m     [36mif[39m(item)[0m
+  [0m [90m 13 |[39m     {[0m
+  [0m [90m 14 |[39m       [36mreturn[39m [32m"Trùng SHD"[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/hoadonbanra.controller.ts:[32m[1m11:37[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'CreateMuavaoDto'.
+  [0m [90m  9 |[39m   [33m@[39m[33mPost[39m()[0m
+  [0m [90m 10 |[39m   create([33m@[39m[33mBody[39m() createhoadonbanraDto[33m:[39m [33mCreateHoadonbanraDto[39m) {[0m
+  [0m[31m[1m>[22m[39m[90m 11 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindSHD([33mCreateMuavaoDto[39m[33m.[39m[33mSHD[39m)[0m
+  [0m [90m    |[39m                                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 12 |[39m     [36mif[39m(item)[0m
+  [0m [90m 13 |[39m     {[0m
+  [0m [90m 14 |[39m       [36mreturn[39m [32m"Trùng SHD"[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/hoadonbanra.controller.ts:[32m[1m18:14[22m[39m[1m[39m[22m
+[90mTS1308: [39m'await' expressions are only allowed within async functions and at the top levels of modules.
+  [0m [90m 16 |[39m     [36melse[39m {[0m
+  [0m [90m 17 |[39m       [36mthis[39m[33m.[39mhoadonbanraService[33m.[39mcreate(createhoadonbanraDto)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 18 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39msave([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m [90m    |[39m              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 19 |[39m     }[0m
+  [0m [90m 20 |[39m   }[0m
+  [0m [90m 21 |[39m   [33m@[39m[33mGet[39m()[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/hoadonbanra.controller.ts:[32m[1m18:25[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'MuavaoRepository' does not exist on type 'hoadonbanraController'.
+  [0m [90m 16 |[39m     [36melse[39m {[0m
+  [0m [90m 17 |[39m       [36mthis[39m[33m.[39mhoadonbanraService[33m.[39mcreate(createhoadonbanraDto)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 18 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39msave([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m [90m    |[39m                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 19 |[39m     }[0m
+  [0m [90m 20 |[39m   }[0m
+  [0m [90m 21 |[39m   [33m@[39m[33mGet[39m()[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/hoadonbanra.controller.ts:[32m[1m18:47[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'CreateMuavaoDto'.
+  [0m [90m 16 |[39m     [36melse[39m {[0m
+  [0m [90m 17 |[39m       [36mthis[39m[33m.[39mhoadonbanraService[33m.[39mcreate(createhoadonbanraDto)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 18 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39msave([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m [90m    |[39m                                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 19 |[39m     }[0m
+  [0m [90m 20 |[39m   }[0m
+  [0m [90m 21 |[39m   [33m@[39m[33mGet[39m()[0m
+
+webpack compiled with [1m[31m7 errors[39m[22m (8312764a14e8d961)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 49.9 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/hoadonbanra/hoadonbanra.controller.ts[39m[22m [1m[32m15:21[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: Cannot use keyword 'await' outside an async function (15:21)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|     }
+|     create(createhoadonbanraDto) {
+>         const item = await this.findSHD(CreateMuavaoDto.SHD);
+|         if (item) {
+|             return "Trùng SHD";[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/hoadonbanra.controller.ts:[32m[1m11:18[22m[39m[1m[39m[22m
+[90mTS1308: [39m'await' expressions are only allowed within async functions and at the top levels of modules.
+  [0m [90m  9 |[39m   [33m@[39m[33mPost[39m()[0m
+  [0m [90m 10 |[39m   create([33m@[39m[33mBody[39m() createhoadonbanraDto[33m:[39m [33mCreateHoadonbanraDto[39m) {[0m
+  [0m[31m[1m>[22m[39m[90m 11 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindSHD([33mCreateMuavaoDto[39m[33m.[39m[33mSHD[39m)[0m
+  [0m [90m    |[39m                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 12 |[39m     [36mif[39m(item)[0m
+  [0m [90m 13 |[39m     {[0m
+  [0m [90m 14 |[39m       [36mreturn[39m [32m"Trùng SHD"[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/hoadonbanra.controller.ts:[32m[1m11:29[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findSHD' does not exist on type 'hoadonbanraController'.
+  [0m [90m  9 |[39m   [33m@[39m[33mPost[39m()[0m
+  [0m [90m 10 |[39m   create([33m@[39m[33mBody[39m() createhoadonbanraDto[33m:[39m [33mCreateHoadonbanraDto[39m) {[0m
+  [0m[31m[1m>[22m[39m[90m 11 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindSHD([33mCreateMuavaoDto[39m[33m.[39m[33mSHD[39m)[0m
+  [0m [90m    |[39m                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 12 |[39m     [36mif[39m(item)[0m
+  [0m [90m 13 |[39m     {[0m
+  [0m [90m 14 |[39m       [36mreturn[39m [32m"Trùng SHD"[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/hoadonbanra.controller.ts:[32m[1m11:37[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'CreateMuavaoDto'.
+  [0m [90m  9 |[39m   [33m@[39m[33mPost[39m()[0m
+  [0m [90m 10 |[39m   create([33m@[39m[33mBody[39m() createhoadonbanraDto[33m:[39m [33mCreateHoadonbanraDto[39m) {[0m
+  [0m[31m[1m>[22m[39m[90m 11 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindSHD([33mCreateMuavaoDto[39m[33m.[39m[33mSHD[39m)[0m
+  [0m [90m    |[39m                                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 12 |[39m     [36mif[39m(item)[0m
+  [0m [90m 13 |[39m     {[0m
+  [0m [90m 14 |[39m       [36mreturn[39m [32m"Trùng SHD"[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/hoadonbanra.controller.ts:[32m[1m18:14[22m[39m[1m[39m[22m
+[90mTS1308: [39m'await' expressions are only allowed within async functions and at the top levels of modules.
+  [0m [90m 16 |[39m     [36melse[39m {[0m
+  [0m [90m 17 |[39m       [36mthis[39m[33m.[39mhoadonbanraService[33m.[39mcreate(createhoadonbanraDto)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 18 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39msave([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m [90m    |[39m              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 19 |[39m     }[0m
+  [0m [90m 20 |[39m   }[0m
+  [0m [90m 21 |[39m   [33m@[39m[33mGet[39m()[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/hoadonbanra.controller.ts:[32m[1m18:25[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'MuavaoRepository' does not exist on type 'hoadonbanraController'.
+  [0m [90m 16 |[39m     [36melse[39m {[0m
+  [0m [90m 17 |[39m       [36mthis[39m[33m.[39mhoadonbanraService[33m.[39mcreate(createhoadonbanraDto)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 18 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39msave([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m [90m    |[39m                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 19 |[39m     }[0m
+  [0m [90m 20 |[39m   }[0m
+  [0m [90m 21 |[39m   [33m@[39m[33mGet[39m()[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/hoadonbanra.controller.ts:[32m[1m18:47[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'CreateMuavaoDto'.
+  [0m [90m 16 |[39m     [36melse[39m {[0m
+  [0m [90m 17 |[39m       [36mthis[39m[33m.[39mhoadonbanraService[33m.[39mcreate(createhoadonbanraDto)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 18 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39msave([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m [90m    |[39m                                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 19 |[39m     }[0m
+  [0m [90m 20 |[39m   }[0m
+  [0m [90m 21 |[39m   [33m@[39m[33mGet[39m()[0m
+
+webpack compiled with [1m[31m7 errors[39m[22m (8312764a14e8d961)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 49.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/hoadonbanra/hoadonbanra.controller.ts[39m[22m [1m[32m15:21[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: Cannot use keyword 'await' outside an async function (15:21)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|     }
+|     create(createhoadonbanraDto) {
+>         const item = await this.findSHD(CreateMuavaoDto.SHD);
+|         if (item) {
+|             return "Trùng SHD";[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/hoadonbanra.controller.ts:[32m[1m11:18[22m[39m[1m[39m[22m
+[90mTS1308: [39m'await' expressions are only allowed within async functions and at the top levels of modules.
+  [0m [90m  9 |[39m   [33m@[39m[33mPost[39m()[0m
+  [0m [90m 10 |[39m   create([33m@[39m[33mBody[39m() createhoadonbanraDto[33m:[39m [33mCreateHoadonbanraDto[39m) {[0m
+  [0m[31m[1m>[22m[39m[90m 11 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindSHD([33mCreateMuavaoDto[39m[33m.[39m[33mSHD[39m)[0m
+  [0m [90m    |[39m                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 12 |[39m     [36mif[39m(item)[0m
+  [0m [90m 13 |[39m     {[0m
+  [0m [90m 14 |[39m       [36mreturn[39m [32m"Trùng SHD"[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/hoadonbanra.controller.ts:[32m[1m11:29[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findSHD' does not exist on type 'hoadonbanraController'.
+  [0m [90m  9 |[39m   [33m@[39m[33mPost[39m()[0m
+  [0m [90m 10 |[39m   create([33m@[39m[33mBody[39m() createhoadonbanraDto[33m:[39m [33mCreateHoadonbanraDto[39m) {[0m
+  [0m[31m[1m>[22m[39m[90m 11 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindSHD([33mCreateMuavaoDto[39m[33m.[39m[33mSHD[39m)[0m
+  [0m [90m    |[39m                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 12 |[39m     [36mif[39m(item)[0m
+  [0m [90m 13 |[39m     {[0m
+  [0m [90m 14 |[39m       [36mreturn[39m [32m"Trùng SHD"[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/hoadonbanra.controller.ts:[32m[1m11:37[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'CreateMuavaoDto'.
+  [0m [90m  9 |[39m   [33m@[39m[33mPost[39m()[0m
+  [0m [90m 10 |[39m   create([33m@[39m[33mBody[39m() createhoadonbanraDto[33m:[39m [33mCreateHoadonbanraDto[39m) {[0m
+  [0m[31m[1m>[22m[39m[90m 11 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindSHD([33mCreateMuavaoDto[39m[33m.[39m[33mSHD[39m)[0m
+  [0m [90m    |[39m                                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 12 |[39m     [36mif[39m(item)[0m
+  [0m [90m 13 |[39m     {[0m
+  [0m [90m 14 |[39m       [36mreturn[39m [32m"Trùng SHD"[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/hoadonbanra.controller.ts:[32m[1m18:14[22m[39m[1m[39m[22m
+[90mTS1308: [39m'await' expressions are only allowed within async functions and at the top levels of modules.
+  [0m [90m 16 |[39m     [36melse[39m {[0m
+  [0m [90m 17 |[39m       [36mthis[39m[33m.[39mhoadonbanraService[33m.[39mcreate(createhoadonbanraDto)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 18 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39msave(createhoadonbanraDto)[33m;[39m[0m
+  [0m [90m    |[39m              [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 19 |[39m     }[0m
+  [0m [90m 20 |[39m   }[0m
+  [0m [90m 21 |[39m   [33m@[39m[33mGet[39m()[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/hoadonbanra.controller.ts:[32m[1m18:25[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'MuavaoRepository' does not exist on type 'hoadonbanraController'.
+  [0m [90m 16 |[39m     [36melse[39m {[0m
+  [0m [90m 17 |[39m       [36mthis[39m[33m.[39mhoadonbanraService[33m.[39mcreate(createhoadonbanraDto)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 18 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39msave(createhoadonbanraDto)[33m;[39m[0m
+  [0m [90m    |[39m                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 19 |[39m     }[0m
+  [0m [90m 20 |[39m   }[0m
+  [0m [90m 21 |[39m   [33m@[39m[33mGet[39m()[0m
+
+webpack compiled with [1m[31m6 errors[39m[22m (cadb1113e97046f6)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 50.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (f586c4176748809c)
+[1m[31mDebugger listening on ws://localhost:9229/ce35c1cb-0efa-4d28-8f29-7d857cf3d42d[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/ce35c1cb-0efa-4d28-8f29-7d857cf3d42d[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 50.3 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (f586c4176748809c)
+[1m[31mDebugger listening on ws://localhost:9229/1b5483cc-e3be-4cd1-9feb-86c4d1e38c07[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/1b5483cc-e3be-4cd1-9feb-86c4d1e38c07[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 50.3 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (506729cca605f4dd)
+[1m[31mDebugger listening on ws://localhost:9229/3543eed0-953e-4760-88d9-d29898f5f176[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/3543eed0-953e-4760-88d9-d29898f5f176[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 50.5 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/hoadonbanra.service.ts:[32m[1m14:29[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findSHD' does not exist on type 'hoadonbanraService'.
+  [0m [90m 12 |[39m   ) {}[0m
+  [0m [90m 13 |[39m   [36masync[39m create([33mCreatehoadonbanraDto[39m[33m:[39m [33mCreateHoadonbanraDto[39m) {[0m
+  [0m[31m[1m>[22m[39m[90m 14 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindSHD([33mCreateMuavaoDto[39m[33m.[39m[33mSHD[39m)[0m
+  [0m [90m    |[39m                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 15 |[39m     [36mif[39m(item)[0m
+  [0m [90m 16 |[39m     {[0m
+  [0m [90m 17 |[39m       [36mreturn[39m [32m"Trùng SHD"[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/hoadonbanra.service.ts:[32m[1m14:37[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'CreateMuavaoDto'.
+  [0m [90m 12 |[39m   ) {}[0m
+  [0m [90m 13 |[39m   [36masync[39m create([33mCreatehoadonbanraDto[39m[33m:[39m [33mCreateHoadonbanraDto[39m) {[0m
+  [0m[31m[1m>[22m[39m[90m 14 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindSHD([33mCreateMuavaoDto[39m[33m.[39m[33mSHD[39m)[0m
+  [0m [90m    |[39m                                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 15 |[39m     [36mif[39m(item)[0m
+  [0m [90m 16 |[39m     {[0m
+  [0m [90m 17 |[39m       [36mreturn[39m [32m"Trùng SHD"[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/hoadonbanra.service.ts:[32m[1m20:12[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'MuavaoRepository' does not exist on type 'hoadonbanraService'.
+  [0m [90m 18 |[39m     }[0m
+  [0m [90m 19 |[39m     [36melse[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 20 |[39m       [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39mcreate([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m [90m    |[39m            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 21 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39msave([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m [90m 22 |[39m     }[0m
+  [0m [90m 23 |[39m     [36mthis[39m[33m.[39mhoadonbanraRepository[33m.[39mcreate([33mCreatehoadonbanraDto[39m)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/hoadonbanra.service.ts:[32m[1m20:36[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'CreateMuavaoDto'.
+  [0m [90m 18 |[39m     }[0m
+  [0m [90m 19 |[39m     [36melse[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 20 |[39m       [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39mcreate([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m [90m    |[39m                                    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 21 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39msave([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m [90m 22 |[39m     }[0m
+  [0m [90m 23 |[39m     [36mthis[39m[33m.[39mhoadonbanraRepository[33m.[39mcreate([33mCreatehoadonbanraDto[39m)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/hoadonbanra.service.ts:[32m[1m21:25[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'MuavaoRepository' does not exist on type 'hoadonbanraService'.
+  [0m [90m 19 |[39m     [36melse[39m {[0m
+  [0m [90m 20 |[39m       [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39mcreate([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 21 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39msave([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m [90m    |[39m                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 22 |[39m     }[0m
+  [0m [90m 23 |[39m     [36mthis[39m[33m.[39mhoadonbanraRepository[33m.[39mcreate([33mCreatehoadonbanraDto[39m)[33m;[39m[0m
+  [0m [90m 24 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39mhoadonbanraRepository[33m.[39msave([33mCreatehoadonbanraDto[39m)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/hoadonbanra.service.ts:[32m[1m21:47[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'CreateMuavaoDto'.
+  [0m [90m 19 |[39m     [36melse[39m {[0m
+  [0m [90m 20 |[39m       [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39mcreate([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 21 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39msave([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m [90m    |[39m                                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 22 |[39m     }[0m
+  [0m [90m 23 |[39m     [36mthis[39m[33m.[39mhoadonbanraRepository[33m.[39mcreate([33mCreatehoadonbanraDto[39m)[33m;[39m[0m
+  [0m [90m 24 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39mhoadonbanraRepository[33m.[39msave([33mCreatehoadonbanraDto[39m)[33m;[39m[0m
+
+webpack compiled with [1m[31m6 errors[39m[22m (4f230210e6ee15b0)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 50.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/hoadonbanra.service.ts:[32m[1m14:29[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findSHD' does not exist on type 'hoadonbanraService'.
+  [0m [90m 12 |[39m   ) {}[0m
+  [0m [90m 13 |[39m   [36masync[39m create([33mCreatehoadonbanraDto[39m[33m:[39m [33mCreateHoadonbanraDto[39m) {[0m
+  [0m[31m[1m>[22m[39m[90m 14 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindSHD([33mCreateMuavaoDto[39m[33m.[39m[33mSHD[39m)[0m
+  [0m [90m    |[39m                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 15 |[39m     [36mif[39m(item)[0m
+  [0m [90m 16 |[39m     {[0m
+  [0m [90m 17 |[39m       [36mreturn[39m [32m"Trùng SHD"[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/hoadonbanra.service.ts:[32m[1m14:37[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'CreateMuavaoDto'.
+  [0m [90m 12 |[39m   ) {}[0m
+  [0m [90m 13 |[39m   [36masync[39m create([33mCreatehoadonbanraDto[39m[33m:[39m [33mCreateHoadonbanraDto[39m) {[0m
+  [0m[31m[1m>[22m[39m[90m 14 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindSHD([33mCreateMuavaoDto[39m[33m.[39m[33mSHD[39m)[0m
+  [0m [90m    |[39m                                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 15 |[39m     [36mif[39m(item)[0m
+  [0m [90m 16 |[39m     {[0m
+  [0m [90m 17 |[39m       [36mreturn[39m [32m"Trùng SHD"[39m[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (8e24899b694b2a4b)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 50.4 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/hoadonbanra.service.ts:[32m[1m14:29[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findSHD' does not exist on type 'hoadonbanraService'.
+  [0m [90m 12 |[39m   ) {}[0m
+  [0m [90m 13 |[39m   [36masync[39m create([33mCreatehoadonbanraDto[39m[33m:[39m [33mCreateHoadonbanraDto[39m) {[0m
+  [0m[31m[1m>[22m[39m[90m 14 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindSHD([33mCreateMuavaoDto[39m[33m.[39m[33mSHD[39m)[0m
+  [0m [90m    |[39m                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 15 |[39m     [36mif[39m(item)[0m
+  [0m [90m 16 |[39m     {[0m
+  [0m [90m 17 |[39m       [36mreturn[39m [32m"Trùng SHD"[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/hoadonbanra.service.ts:[32m[1m14:37[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'CreateMuavaoDto'.
+  [0m [90m 12 |[39m   ) {}[0m
+  [0m [90m 13 |[39m   [36masync[39m create([33mCreatehoadonbanraDto[39m[33m:[39m [33mCreateHoadonbanraDto[39m) {[0m
+  [0m[31m[1m>[22m[39m[90m 14 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindSHD([33mCreateMuavaoDto[39m[33m.[39m[33mSHD[39m)[0m
+  [0m [90m    |[39m                                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 15 |[39m     [36mif[39m(item)[0m
+  [0m [90m 16 |[39m     {[0m
+  [0m [90m 17 |[39m       [36mreturn[39m [32m"Trùng SHD"[39m[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (ae88ca10bfb36573)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 50.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/hoadonbanra.service.ts:[32m[1m14:29[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findSHD' does not exist on type 'hoadonbanraService'.
+  [0m [90m 12 |[39m   ) {}[0m
+  [0m [90m 13 |[39m   [36masync[39m create([33mCreatehoadonbanraDto[39m[33m:[39m [33mCreateHoadonbanraDto[39m) {[0m
+  [0m[31m[1m>[22m[39m[90m 14 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindSHD([33mCreateMuavaoDto[39m[33m.[39m[33mSHD[39m)[0m
+  [0m [90m    |[39m                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 15 |[39m     [36mif[39m(item)[0m
+  [0m [90m 16 |[39m     {[0m
+  [0m [90m 17 |[39m       [36mreturn[39m [32m"Trùng SHD"[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/hoadonbanra.service.ts:[32m[1m14:37[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'CreateMuavaoDto'.
+  [0m [90m 12 |[39m   ) {}[0m
+  [0m [90m 13 |[39m   [36masync[39m create([33mCreatehoadonbanraDto[39m[33m:[39m [33mCreateHoadonbanraDto[39m) {[0m
+  [0m[31m[1m>[22m[39m[90m 14 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindSHD([33mCreateMuavaoDto[39m[33m.[39m[33mSHD[39m)[0m
+  [0m [90m    |[39m                                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 15 |[39m     [36mif[39m(item)[0m
+  [0m [90m 16 |[39m     {[0m
+  [0m [90m 17 |[39m       [36mreturn[39m [32m"Trùng SHD"[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/hoadonbanra.service.ts:[32m[1m34:9[22m[39m[1m[39m[22m
+[90mTS2393: [39mDuplicate function implementation.
+  [0m [90m 32 |[39m     })[33m;[39m[0m
+  [0m [90m 33 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 34 |[39m   [36masync[39m findslug(slug[33m:[39m any) {[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 35 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39mhoadonbanraRepository[33m.[39mfindOne({[0m
+  [0m [90m 36 |[39m       where[33m:[39m { [33mSlug[39m[33m:[39m slug}[33m,[39m[0m
+  [0m [90m 37 |[39m     })[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/hoadonbanra.service.ts:[32m[1m39:9[22m[39m[1m[39m[22m
+[90mTS2393: [39mDuplicate function implementation.
+  [0m [90m 37 |[39m     })[33m;[39m[0m
+  [0m [90m 38 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 39 |[39m   [36masync[39m findslug(slug[33m:[39m any) {[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 40 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39mhoadonbanraRepository[33m.[39mfindOne({[0m
+  [0m [90m 41 |[39m       where[33m:[39m { [33mSlug[39m[33m:[39m slug}[33m,[39m[0m
+  [0m [90m 42 |[39m     })[33m;[39m[0m
+
+webpack compiled with [1m[31m4 errors[39m[22m (66d2004d734a869f)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 50.5 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/hoadonbanra.service.ts:[32m[1m14:37[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'CreateMuavaoDto'.
+  [0m [90m 12 |[39m   ) {}[0m
+  [0m [90m 13 |[39m   [36masync[39m create([33mCreatehoadonbanraDto[39m[33m:[39m [33mCreateHoadonbanraDto[39m) {[0m
+  [0m[31m[1m>[22m[39m[90m 14 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindSHD([33mCreateMuavaoDto[39m[33m.[39m[33mSHD[39m)[0m
+  [0m [90m    |[39m                                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 15 |[39m     [36mif[39m(item)[0m
+  [0m [90m 16 |[39m     {[0m
+  [0m [90m 17 |[39m       [36mreturn[39m [32m"Trùng SHD"[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (db03383568adbfe9)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 50.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/hoadonbanra.service.ts:[32m[1m14:37[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'CreateMuavaoDto'.
+  [0m [90m 12 |[39m   ) {}[0m
+  [0m [90m 13 |[39m   [36masync[39m create([33mCreatehoadonbanraDto[39m[33m:[39m [33mCreateHoadonbanraDto[39m) {[0m
+  [0m[31m[1m>[22m[39m[90m 14 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindSHD([33mCreateMuavaoDto[39m[33m.[39m[33mSHD[39m)[0m
+  [0m [90m    |[39m                                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 15 |[39m     [36mif[39m(item)[0m
+  [0m [90m 16 |[39m     {[0m
+  [0m [90m 17 |[39m       [36mreturn[39m [32m"Trùng SHD"[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/hoadonbanra.service.ts:[32m[1m41:16[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ findSHD: any; }' is not assignable to type 'FindOptionsWhere<hoadonbanraEntity> | FindOptionsWhere<hoadonbanraEntity>[]'.
+  Object literal may only specify known properties, and 'findSHD' does not exist in type 'FindOptionsWhere<hoadonbanraEntity> | FindOptionsWhere<hoadonbanraEntity>[]'.
+  [0m [90m 39 |[39m   [36masync[39m findSHD(slug[33m:[39m any) {[0m
+  [0m [90m 40 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39mhoadonbanraRepository[33m.[39mfindOne({[0m
+  [0m[31m[1m>[22m[39m[90m 41 |[39m       where[33m:[39m { findSHD[33m:[39m slug}[33m,[39m[0m
+  [0m [90m    |[39m                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 42 |[39m     })[33m;[39m[0m
+  [0m [90m 43 |[39m   }[0m
+  [0m [90m 44 |[39m   [36masync[39m findPagination(page[33m:[39m number[33m,[39m perPage[33m:[39m number){[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (2609cf5771ee8583)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 50.5 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/hoadonbanra.service.ts:[32m[1m14:37[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'CreateMuavaoDto'.
+  [0m [90m 12 |[39m   ) {}[0m
+  [0m [90m 13 |[39m   [36masync[39m create([33mCreatehoadonbanraDto[39m[33m:[39m [33mCreateHoadonbanraDto[39m) {[0m
+  [0m[31m[1m>[22m[39m[90m 14 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindSHD([33mCreateMuavaoDto[39m[33m.[39m[33mSHD[39m)[0m
+  [0m [90m    |[39m                                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 15 |[39m     [36mif[39m(item)[0m
+  [0m [90m 16 |[39m     {[0m
+  [0m [90m 17 |[39m       [36mreturn[39m [32m"Trùng SHD"[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (156057dd3b81334d)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 50.5 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/hoadonbanra.service.ts:[32m[1m14:37[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'CreateMuavaoDto'.
+  [0m [90m 12 |[39m   ) {}[0m
+  [0m [90m 13 |[39m   [36masync[39m create([33mCreatehoadonbanraDto[39m[33m:[39m [33mCreateHoadonbanraDto[39m) {[0m
+  [0m[31m[1m>[22m[39m[90m 14 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindSHD([33mCreateMuavaoDto[39m[33m.[39m[33mSHD[39m)[0m
+  [0m [90m    |[39m                                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 15 |[39m     [36mif[39m(item)[0m
+  [0m [90m 16 |[39m     {[0m
+  [0m [90m 17 |[39m       [36mreturn[39m [32m"Trùng SHD"[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (156057dd3b81334d)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 50.5 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/hoadonbanra.service.ts:[32m[1m14:37[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'CreateMuavaoDto'.
+  [0m [90m 12 |[39m   ) {}[0m
+  [0m [90m 13 |[39m   [36masync[39m create([33mCreatehoadonbanraDto[39m[33m:[39m [33mCreateHoadonbanraDto[39m) {[0m
+  [0m[31m[1m>[22m[39m[90m 14 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindSHD([33mCreateMuavaoDto[39m[33m.[39m[33mSHD[39m)[0m
+  [0m [90m    |[39m                                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 15 |[39m     [36mif[39m(item)[0m
+  [0m [90m 16 |[39m     {[0m
+  [0m [90m 17 |[39m       [36mreturn[39m [32m"Trùng SHD"[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (156057dd3b81334d)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 50.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/hoadonbanra.service.ts:[32m[1m14:58[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'SHD' does not exist on type 'CreateHoadonbanraDto'.
+  [0m [90m 12 |[39m   ) {}[0m
+  [0m [90m 13 |[39m   [36masync[39m create([33mCreatehoadonbanraDto[39m[33m:[39m [33mCreateHoadonbanraDto[39m) {[0m
+  [0m[31m[1m>[22m[39m[90m 14 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindSHD([33mCreatehoadonbanraDto[39m[33m.[39m[33mSHD[39m)[0m
+  [0m [90m    |[39m                                                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 15 |[39m     [36mif[39m(item)[0m
+  [0m [90m 16 |[39m     {[0m
+  [0m [90m 17 |[39m       [36mreturn[39m [32m"Trùng SHD"[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (ac29c79afcb313c5)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 50.6 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/hoadonbanra.service.ts:[32m[1m14:58[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'SHD' does not exist on type 'CreateHoadonbanraDto'.
+  [0m [90m 12 |[39m   ) {}[0m
+  [0m [90m 13 |[39m   [36masync[39m create([33mCreatehoadonbanraDto[39m[33m:[39m [33mCreateHoadonbanraDto[39m) {[0m
+  [0m[31m[1m>[22m[39m[90m 14 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindSHD([33mCreatehoadonbanraDto[39m[33m.[39m[33mSHD[39m)[0m
+  [0m [90m    |[39m                                                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 15 |[39m     [36mif[39m(item)[0m
+  [0m [90m 16 |[39m     {[0m
+  [0m [90m 17 |[39m       [36mreturn[39m [32m"Trùng SHD"[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (ac29c79afcb313c5)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 50.6 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/hoadonbanra.service.ts:[32m[1m14:58[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'SHD' does not exist on type 'CreateHoadonbanraDto'.
+  [0m [90m 12 |[39m   ) {}[0m
+  [0m [90m 13 |[39m   [36masync[39m create([33mCreatehoadonbanraDto[39m[33m:[39m [33mCreateHoadonbanraDto[39m) {[0m
+  [0m[31m[1m>[22m[39m[90m 14 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindSHD([33mCreatehoadonbanraDto[39m[33m.[39m[33mSHD[39m)[0m
+  [0m [90m    |[39m                                                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 15 |[39m     [36mif[39m(item)[0m
+  [0m [90m 16 |[39m     {[0m
+  [0m [90m 17 |[39m       [36mreturn[39m [32m"Trùng SHD"[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (ac29c79afcb313c5)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 50.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (4defd2ede4886bfd)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 50.6 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (4defd2ede4886bfd)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 50.6 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (4defd2ede4886bfd)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 50.6 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (4defd2ede4886bfd)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 50.6 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (4defd2ede4886bfd)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 50.6 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (4defd2ede4886bfd)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 50.6 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (4defd2ede4886bfd)
+[1m[31mDebugger listening on ws://localhost:9229/e75c7f0e-e853-4fbd-888a-3f593b7b7af3[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/e75c7f0e-e853-4fbd-888a-3f593b7b7af3[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 50.8 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (3108507e609ecb15)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 50.8 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (3108507e609ecb15)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 50.8 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (3108507e609ecb15)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 50.8 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (3108507e609ecb15)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 50.8 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (3108507e609ecb15)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 50.8 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (3108507e609ecb15)
+[1m[31mDebugger listening on ws://localhost:9229/c70e329c-6f64-4635-8624-c95bbcc1ffc9[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/c70e329c-6f64-4635-8624-c95bbcc1ffc9[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 50.8 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (3108507e609ecb15)
+[1m[31mDebugger listening on ws://localhost:9229/d4bc63ee-9b7c-46b3-8501-e781b3b2d2f5[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/d4bc63ee-9b7c-46b3-8501-e781b3b2d2f5[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 51 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.service.ts:[32m[1m14:29[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findSHD' does not exist on type 'MuavaochitietService'.
+  [0m [90m 12 |[39m   ) {}[0m
+  [0m [90m 13 |[39m   [36masync[39m create([33mCreateMuavaochitietDto[39m[33m:[39m [33mCreateMuavaochitietDto[39m) {[0m
+  [0m[31m[1m>[22m[39m[90m 14 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindSHD([33mCreateMuavaoDto[39m[33m.[39m[33mSHD[39m)[0m
+  [0m [90m    |[39m                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 15 |[39m     [36mif[39m(item)[0m
+  [0m [90m 16 |[39m     {[0m
+  [0m [90m 17 |[39m       [36mreturn[39m [32m"Trùng SHD"[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.service.ts:[32m[1m14:37[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'CreateMuavaoDto'.
+  [0m [90m 12 |[39m   ) {}[0m
+  [0m [90m 13 |[39m   [36masync[39m create([33mCreateMuavaochitietDto[39m[33m:[39m [33mCreateMuavaochitietDto[39m) {[0m
+  [0m[31m[1m>[22m[39m[90m 14 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindSHD([33mCreateMuavaoDto[39m[33m.[39m[33mSHD[39m)[0m
+  [0m [90m    |[39m                                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 15 |[39m     [36mif[39m(item)[0m
+  [0m [90m 16 |[39m     {[0m
+  [0m [90m 17 |[39m       [36mreturn[39m [32m"Trùng SHD"[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.service.ts:[32m[1m20:12[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'MuavaoRepository' does not exist on type 'MuavaochitietService'.
+  [0m [90m 18 |[39m     }[0m
+  [0m [90m 19 |[39m     [36melse[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 20 |[39m       [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39mcreate([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m [90m    |[39m            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 21 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39msave([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m [90m 22 |[39m     }[0m
+  [0m [90m 23 |[39m     [36mthis[39m[33m.[39m[33mMuavaochitietRepository[39m[33m.[39mcreate([33mCreateMuavaochitietDto[39m)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.service.ts:[32m[1m20:36[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'CreateMuavaoDto'.
+  [0m [90m 18 |[39m     }[0m
+  [0m [90m 19 |[39m     [36melse[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 20 |[39m       [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39mcreate([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m [90m    |[39m                                    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 21 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39msave([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m [90m 22 |[39m     }[0m
+  [0m [90m 23 |[39m     [36mthis[39m[33m.[39m[33mMuavaochitietRepository[39m[33m.[39mcreate([33mCreateMuavaochitietDto[39m)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.service.ts:[32m[1m21:25[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'MuavaoRepository' does not exist on type 'MuavaochitietService'.
+  [0m [90m 19 |[39m     [36melse[39m {[0m
+  [0m [90m 20 |[39m       [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39mcreate([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 21 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39msave([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m [90m    |[39m                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 22 |[39m     }[0m
+  [0m [90m 23 |[39m     [36mthis[39m[33m.[39m[33mMuavaochitietRepository[39m[33m.[39mcreate([33mCreateMuavaochitietDto[39m)[33m;[39m[0m
+  [0m [90m 24 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mMuavaochitietRepository[39m[33m.[39msave([33mCreateMuavaochitietDto[39m)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.service.ts:[32m[1m21:47[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'CreateMuavaoDto'.
+  [0m [90m 19 |[39m     [36melse[39m {[0m
+  [0m [90m 20 |[39m       [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39mcreate([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 21 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39msave([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m [90m    |[39m                                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 22 |[39m     }[0m
+  [0m [90m 23 |[39m     [36mthis[39m[33m.[39m[33mMuavaochitietRepository[39m[33m.[39mcreate([33mCreateMuavaochitietDto[39m)[33m;[39m[0m
+  [0m [90m 24 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mMuavaochitietRepository[39m[33m.[39msave([33mCreateMuavaochitietDto[39m)[33m;[39m[0m
+
+webpack compiled with [1m[31m6 errors[39m[22m (38b5abdc584b497e)
+[1m[31mDebugger listening on ws://localhost:9229/778a7b3c-7417-4e05-bd32-75435e7192d5[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/778a7b3c-7417-4e05-bd32-75435e7192d5[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 51 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.service.ts:[32m[1m14:29[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findSHD' does not exist on type 'MuavaochitietService'.
+  [0m [90m 12 |[39m   ) {}[0m
+  [0m [90m 13 |[39m   [36masync[39m create([33mCreateMuavaochitietDto[39m[33m:[39m [33mCreateMuavaochitietDto[39m) {[0m
+  [0m[31m[1m>[22m[39m[90m 14 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindSHD([33mCreateMuavaoDto[39m[33m.[39m[33mSHD[39m)[0m
+  [0m [90m    |[39m                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 15 |[39m     [36mif[39m(item)[0m
+  [0m [90m 16 |[39m     {[0m
+  [0m [90m 17 |[39m       [36mreturn[39m [32m"Trùng SHD"[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.service.ts:[32m[1m14:37[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'CreateMuavaoDto'.
+  [0m [90m 12 |[39m   ) {}[0m
+  [0m [90m 13 |[39m   [36masync[39m create([33mCreateMuavaochitietDto[39m[33m:[39m [33mCreateMuavaochitietDto[39m) {[0m
+  [0m[31m[1m>[22m[39m[90m 14 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindSHD([33mCreateMuavaoDto[39m[33m.[39m[33mSHD[39m)[0m
+  [0m [90m    |[39m                                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 15 |[39m     [36mif[39m(item)[0m
+  [0m [90m 16 |[39m     {[0m
+  [0m [90m 17 |[39m       [36mreturn[39m [32m"Trùng SHD"[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.service.ts:[32m[1m20:12[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'MuavaoRepository' does not exist on type 'MuavaochitietService'.
+  [0m [90m 18 |[39m     }[0m
+  [0m [90m 19 |[39m     [36melse[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 20 |[39m       [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39mcreate([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m [90m    |[39m            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 21 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39msave([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m [90m 22 |[39m     }[0m
+  [0m [90m 23 |[39m     [0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.service.ts:[32m[1m20:36[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'CreateMuavaoDto'.
+  [0m [90m 18 |[39m     }[0m
+  [0m [90m 19 |[39m     [36melse[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 20 |[39m       [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39mcreate([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m [90m    |[39m                                    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 21 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39msave([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m [90m 22 |[39m     }[0m
+  [0m [90m 23 |[39m     [0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.service.ts:[32m[1m21:25[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'MuavaoRepository' does not exist on type 'MuavaochitietService'.
+  [0m [90m 19 |[39m     [36melse[39m {[0m
+  [0m [90m 20 |[39m       [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39mcreate([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 21 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39msave([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m [90m    |[39m                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 22 |[39m     }[0m
+  [0m [90m 23 |[39m     [0m
+  [0m [90m 24 |[39m     [36mthis[39m[33m.[39m[33mMuavaochitietRepository[39m[33m.[39mcreate([33mCreateMuavaochitietDto[39m)[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.service.ts:[32m[1m21:47[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'CreateMuavaoDto'.
+  [0m [90m 19 |[39m     [36melse[39m {[0m
+  [0m [90m 20 |[39m       [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39mcreate([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 21 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39msave([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m [90m    |[39m                                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 22 |[39m     }[0m
+  [0m [90m 23 |[39m     [0m
+  [0m [90m 24 |[39m     [36mthis[39m[33m.[39m[33mMuavaochitietRepository[39m[33m.[39mcreate([33mCreateMuavaochitietDto[39m)[33m;[39m[0m
+
+webpack compiled with [1m[31m6 errors[39m[22m (709b19e545f30db0)
+[1m[31mDebugger listening on ws://localhost:9229/5a45bab1-f521-491b-ba8d-1a77cc0f6997[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/5a45bab1-f521-491b-ba8d-1a77cc0f6997[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 50.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.service.ts:[32m[1m14:29[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findSHD' does not exist on type 'MuavaochitietService'.
+  [0m [90m 12 |[39m   ) {}[0m
+  [0m [90m 13 |[39m   [36masync[39m create([33mCreateMuavaochitietDto[39m[33m:[39m [33mCreateMuavaochitietDto[39m) {[0m
+  [0m[31m[1m>[22m[39m[90m 14 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindSHD([33mCreateMuavaoDto[39m[33m.[39m[33mSHD[39m)[0m
+  [0m [90m    |[39m                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 15 |[39m     [36mif[39m(item)[0m
+  [0m [90m 16 |[39m     {[0m
+  [0m [90m 17 |[39m       [36mreturn[39m [32m"Trùng SHD"[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.service.ts:[32m[1m14:37[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'CreateMuavaoDto'.
+  [0m [90m 12 |[39m   ) {}[0m
+  [0m [90m 13 |[39m   [36masync[39m create([33mCreateMuavaochitietDto[39m[33m:[39m [33mCreateMuavaochitietDto[39m) {[0m
+  [0m[31m[1m>[22m[39m[90m 14 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindSHD([33mCreateMuavaoDto[39m[33m.[39m[33mSHD[39m)[0m
+  [0m [90m    |[39m                                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 15 |[39m     [36mif[39m(item)[0m
+  [0m [90m 16 |[39m     {[0m
+  [0m [90m 17 |[39m       [36mreturn[39m [32m"Trùng SHD"[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.service.ts:[32m[1m20:12[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'MuavaoRepository' does not exist on type 'MuavaochitietService'.
+  [0m [90m 18 |[39m     }[0m
+  [0m [90m 19 |[39m     [36melse[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 20 |[39m       [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39mcreate([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m [90m    |[39m            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 21 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39msave([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m [90m 22 |[39m     }[0m
+  [0m [90m 23 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.service.ts:[32m[1m20:36[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'CreateMuavaoDto'.
+  [0m [90m 18 |[39m     }[0m
+  [0m [90m 19 |[39m     [36melse[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 20 |[39m       [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39mcreate([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m [90m    |[39m                                    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 21 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39msave([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m [90m 22 |[39m     }[0m
+  [0m [90m 23 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.service.ts:[32m[1m21:25[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'MuavaoRepository' does not exist on type 'MuavaochitietService'.
+  [0m [90m 19 |[39m     [36melse[39m {[0m
+  [0m [90m 20 |[39m       [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39mcreate([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 21 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39msave([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m [90m    |[39m                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 22 |[39m     }[0m
+  [0m [90m 23 |[39m[0m
+  [0m [90m 24 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.service.ts:[32m[1m21:47[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'CreateMuavaoDto'.
+  [0m [90m 19 |[39m     [36melse[39m {[0m
+  [0m [90m 20 |[39m       [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39mcreate([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 21 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mMuavaoRepository[39m[33m.[39msave([33mCreateMuavaoDto[39m)[33m;[39m[0m
+  [0m [90m    |[39m                                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 22 |[39m     }[0m
+  [0m [90m 23 |[39m[0m
+  [0m [90m 24 |[39m   }[0m
+
+webpack compiled with [1m[31m6 errors[39m[22m (00c2deae21a84ff2)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 50.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.service.ts:[32m[1m14:29[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findSHD' does not exist on type 'MuavaochitietService'.
+  [0m [90m 12 |[39m   ) {}[0m
+  [0m [90m 13 |[39m   [36masync[39m create([33mCreateMuavaochitietDto[39m[33m:[39m [33mCreateMuavaochitietDto[39m) {[0m
+  [0m[31m[1m>[22m[39m[90m 14 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindSHD([33mCreateMuavaoDto[39m[33m.[39m[33mSHD[39m)[0m
+  [0m [90m    |[39m                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 15 |[39m     [36mif[39m(item)[0m
+  [0m [90m 16 |[39m     {[0m
+  [0m [90m 17 |[39m       [36mreturn[39m [32m"Trùng SHD"[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.service.ts:[32m[1m14:37[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'CreateMuavaoDto'.
+  [0m [90m 12 |[39m   ) {}[0m
+  [0m [90m 13 |[39m   [36masync[39m create([33mCreateMuavaochitietDto[39m[33m:[39m [33mCreateMuavaochitietDto[39m) {[0m
+  [0m[31m[1m>[22m[39m[90m 14 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindSHD([33mCreateMuavaoDto[39m[33m.[39m[33mSHD[39m)[0m
+  [0m [90m    |[39m                                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 15 |[39m     [36mif[39m(item)[0m
+  [0m [90m 16 |[39m     {[0m
+  [0m [90m 17 |[39m       [36mreturn[39m [32m"Trùng SHD"[39m[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (4dc2c489857f3f46)
+[1m[31mDebugger listening on ws://localhost:9229/50c51322-b6c6-439c-8f01-98a115f10147[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/50c51322-b6c6-439c-8f01-98a115f10147[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/9df64241-14a0-4ee1-81fa-c84b10ba0e1d[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/9df64241-14a0-4ee1-81fa-c84b10ba0e1d[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 50.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.service.ts:[32m[1m14:29[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findSHD' does not exist on type 'MuavaochitietService'.
+  [0m [90m 12 |[39m   ) {}[0m
+  [0m [90m 13 |[39m   [36masync[39m create([33mCreateMuavaochitietDto[39m[33m:[39m [33mCreateMuavaochitietDto[39m) {[0m
+  [0m[31m[1m>[22m[39m[90m 14 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindSHD([33mCreateMuavaochitietDto[39m[33m.[39m[33mSHD[39m)[0m
+  [0m [90m    |[39m                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 15 |[39m     [36mif[39m(item)[0m
+  [0m [90m 16 |[39m     {[0m
+  [0m [90m 17 |[39m       [36mreturn[39m [32m"Trùng SHD"[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.service.ts:[32m[1m14:60[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'SHD' does not exist on type 'CreateMuavaochitietDto'.
+  [0m [90m 12 |[39m   ) {}[0m
+  [0m [90m 13 |[39m   [36masync[39m create([33mCreateMuavaochitietDto[39m[33m:[39m [33mCreateMuavaochitietDto[39m) {[0m
+  [0m[31m[1m>[22m[39m[90m 14 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindSHD([33mCreateMuavaochitietDto[39m[33m.[39m[33mSHD[39m)[0m
+  [0m [90m    |[39m                                                            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 15 |[39m     [36mif[39m(item)[0m
+  [0m [90m 16 |[39m     {[0m
+  [0m [90m 17 |[39m       [36mreturn[39m [32m"Trùng SHD"[39m[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (5c153ee00312e234)
+[1m[31mDebugger listening on ws://localhost:9229/43a49b8b-b37a-4e64-892a-dd1c3f6d28a9[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/43a49b8b-b37a-4e64-892a-dd1c3f6d28a9[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 50.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.service.ts:[32m[1m13:40[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'a'.
+  [0m [90m 11 |[39m     [36mprivate[39m [33mMuavaochitietRepository[39m[33m:[39m [33mRepository[39m[33m<[39m[33mMuavaochitietEntity[39m[33m>[39m[0m
+  [0m [90m 12 |[39m   ) {}[0m
+  [0m[31m[1m>[22m[39m[90m 13 |[39m   [36masync[39m create([33mCreateMuavaochitietDto[39m[33m:[39m a) {[0m
+  [0m [90m    |[39m                                        [31m[1m^[22m[39m[0m
+  [0m [90m 14 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindSHD([33mCreateMuavaochitietDto[39m[33m.[39m[33mSHD[39m)[0m
+  [0m [90m 15 |[39m     [36mif[39m(item)[0m
+  [0m [90m 16 |[39m     {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.service.ts:[32m[1m14:29[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findSHD' does not exist on type 'MuavaochitietService'.
+  [0m [90m 12 |[39m   ) {}[0m
+  [0m [90m 13 |[39m   [36masync[39m create([33mCreateMuavaochitietDto[39m[33m:[39m a) {[0m
+  [0m[31m[1m>[22m[39m[90m 14 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindSHD([33mCreateMuavaochitietDto[39m[33m.[39m[33mSHD[39m)[0m
+  [0m [90m    |[39m                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 15 |[39m     [36mif[39m(item)[0m
+  [0m [90m 16 |[39m     {[0m
+  [0m [90m 17 |[39m       [36mreturn[39m [32m"Trùng SHD"[39m[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (6cefb631f93a0c42)
+[1m[31mDebugger listening on ws://localhost:9229/04d35251-f447-4b6d-b478-1bcd13cc5338[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/04d35251-f447-4b6d-b478-1bcd13cc5338[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 50.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.service.ts:[32m[1m13:40[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'ay'.
+  [0m [90m 11 |[39m     [36mprivate[39m [33mMuavaochitietRepository[39m[33m:[39m [33mRepository[39m[33m<[39m[33mMuavaochitietEntity[39m[33m>[39m[0m
+  [0m [90m 12 |[39m   ) {}[0m
+  [0m[31m[1m>[22m[39m[90m 13 |[39m   [36masync[39m create([33mCreateMuavaochitietDto[39m[33m:[39m ay) {[0m
+  [0m [90m    |[39m                                        [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 14 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindSHD([33mCreateMuavaochitietDto[39m[33m.[39m[33mSHD[39m)[0m
+  [0m [90m 15 |[39m     [36mif[39m(item)[0m
+  [0m [90m 16 |[39m     {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.service.ts:[32m[1m14:29[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findSHD' does not exist on type 'MuavaochitietService'.
+  [0m [90m 12 |[39m   ) {}[0m
+  [0m [90m 13 |[39m   [36masync[39m create([33mCreateMuavaochitietDto[39m[33m:[39m ay) {[0m
+  [0m[31m[1m>[22m[39m[90m 14 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindSHD([33mCreateMuavaochitietDto[39m[33m.[39m[33mSHD[39m)[0m
+  [0m [90m    |[39m                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 15 |[39m     [36mif[39m(item)[0m
+  [0m [90m 16 |[39m     {[0m
+  [0m [90m 17 |[39m       [36mreturn[39m [32m"Trùng SHD"[39m[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (87d476e40d5f5fde)
+[1m[31mDebugger listening on ws://localhost:9229/1a6406cc-5c24-47d7-b49b-801bdf33cfc2[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/1a6406cc-5c24-47d7-b49b-801bdf33cfc2[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 50.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.service.ts:[32m[1m14:29[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findSHD' does not exist on type 'MuavaochitietService'.
+  [0m [90m 12 |[39m   ) {}[0m
+  [0m [90m 13 |[39m   [36masync[39m create([33mCreateMuavaochitietDto[39m[33m:[39m any) {[0m
+  [0m[31m[1m>[22m[39m[90m 14 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindSHD([33mCreateMuavaochitietDto[39m[33m.[39m[33mSHD[39m)[0m
+  [0m [90m    |[39m                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 15 |[39m     [36mif[39m(item)[0m
+  [0m [90m 16 |[39m     {[0m
+  [0m [90m 17 |[39m       [36mreturn[39m [32m"Trùng SHD"[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (04bd9579ea87810a)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 50.9 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.service.ts:[32m[1m14:29[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findSHD' does not exist on type 'MuavaochitietService'.
+  [0m [90m 12 |[39m   ) {}[0m
+  [0m [90m 13 |[39m   [36masync[39m create([33mCreateMuavaochitietDto[39m[33m:[39m any) {[0m
+  [0m[31m[1m>[22m[39m[90m 14 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindSHD([33mCreateMuavaochitietDto[39m[33m.[39m[33mSHD[39m)[0m
+  [0m [90m    |[39m                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 15 |[39m     [36mif[39m(item)[0m
+  [0m [90m 16 |[39m     {[0m
+  [0m [90m 17 |[39m       [36mreturn[39m [32m"Trùng SHD"[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (04bd9579ea87810a)
+[1m[31mDebugger listening on ws://localhost:9229/13f90bc2-54ec-47ea-a6b0-b409de4bcf38[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/13f90bc2-54ec-47ea-a6b0-b409de4bcf38[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/2a75a79a-a7d9-456c-aae2-afaafd1ad387[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/2a75a79a-a7d9-456c-aae2-afaafd1ad387[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 51.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.service.ts:[32m[1m14:29[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findSHD' does not exist on type 'MuavaochitietService'.
+  [0m [90m 12 |[39m   ) {}[0m
+  [0m [90m 13 |[39m   [36masync[39m create([33mCreateMuavaochitietDto[39m[33m:[39m any) {[0m
+  [0m[31m[1m>[22m[39m[90m 14 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindSHD([33mCreateMuavaochitietDto[39m[33m.[39m[33mSHD[39m)[0m
+  [0m [90m    |[39m                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 15 |[39m     [36mif[39m(item)[0m
+  [0m [90m 16 |[39m     {[0m
+  [0m [90m 17 |[39m       [36mreturn[39m [32m"Trùng SHD"[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.service.ts:[32m[1m35:9[22m[39m[1m[39m[22m
+[90mTS2393: [39mDuplicate function implementation.
+  [0m [90m 33 |[39m     })[33m;[39m[0m
+  [0m [90m 34 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 35 |[39m   [36masync[39m findslug(slug[33m:[39m any) {[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 36 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mMuavaochitietRepository[39m[33m.[39mfindOne({[0m
+  [0m [90m 37 |[39m       where[33m:[39m { [33mSlug[39m[33m:[39m slug}[33m,[39m[0m
+  [0m [90m 38 |[39m     })[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavaochitiet/muavaochitiet.service.ts:[32m[1m40:9[22m[39m[1m[39m[22m
+[90mTS2393: [39mDuplicate function implementation.
+  [0m [90m 38 |[39m     })[33m;[39m[0m
+  [0m [90m 39 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 40 |[39m   [36masync[39m findslug(slug[33m:[39m any) {[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 41 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mMuavaochitietRepository[39m[33m.[39mfindOne({[0m
+  [0m [90m 42 |[39m       where[33m:[39m { [33mSlug[39m[33m:[39m slug}[33m,[39m[0m
+  [0m [90m 43 |[39m     })[33m;[39m[0m
+
+webpack compiled with [1m[31m3 errors[39m[22m (05c53eb1d9fc0cf5)
+[1m[31mDebugger listening on ws://localhost:9229/f772428f-4f7d-4aff-9e68-08593d8039b1[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/f772428f-4f7d-4aff-9e68-08593d8039b1[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 51.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (e08345e9c7f1cce6)
+[1m[31mDebugger listening on ws://localhost:9229/51746a39-9ef8-456f-be87-c7ea408b2fa1[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/51746a39-9ef8-456f-be87-c7ea408b2fa1[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 51.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (ee11a8ecbaa43e03)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 51.1 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (ee11a8ecbaa43e03)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 51.1 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (ee11a8ecbaa43e03)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 51.1 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (ee11a8ecbaa43e03)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 51.1 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (ee11a8ecbaa43e03)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 51.1 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (ee11a8ecbaa43e03)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 51.1 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (ee11a8ecbaa43e03)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m

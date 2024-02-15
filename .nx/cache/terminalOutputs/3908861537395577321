@@ -1,0 +1,852 @@
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 158 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (054375090eabd129)
+[1m[31mDebugger listening on ws://localhost:9229/15ef61ee-c589-4041-9382-9b91c34ba6f7[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/15ef61ee-c589-4041-9382-9b91c34ba6f7[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'XUAT', pageSize: 5, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: '000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: '000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: '5000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: '000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: '000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: '5000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: '5000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: '000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: '000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: '5000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: '5000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: '000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: '000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: '1000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: '10000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: '10000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: 1000, pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+[1m[31m{ Thang: 1, Type: 'NHAP', pageSize: '10000', pageNumber: 0 }[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 158 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (054375090eabd129)
+[1m[31mDebugger listening on ws://localhost:9229/f5b36ad0-b481-4a37-952b-2af3fa31e2f4[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/f5b36ad0-b481-4a37-952b-2af3fa31e2f4[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 158 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (054375090eabd129)
+[1m[31mDebugger listening on ws://localhost:9229/0a66c297-0449-4271-82b6-1376ec270202[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/0a66c297-0449-4271-82b6-1376ec270202[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 158 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (054375090eabd129)
+[1m[31mDebugger listening on ws://localhost:9229/780634f2-0b6c-43c6-82c8-0b70b6c828d3[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/780634f2-0b6c-43c6-82c8-0b70b6c828d3[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 158 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (054375090eabd129)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 158 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (054375090eabd129)
+[1m[31mDebugger listening on ws://localhost:9229/0f690b83-bc38-40fc-b9ae-5073c95fcfae[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/0f690b83-bc38-40fc-b9ae-5073c95fcfae[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/0348d714-7cef-486f-ad19-dd5b9c0cf548[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/0348d714-7cef-486f-ad19-dd5b9c0cf548[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 158 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (054375090eabd129)
+[1m[31mDebugger listening on ws://localhost:9229/189a2638-b3d3-4012-b5e6-6d458dddc60e[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/189a2638-b3d3-4012-b5e6-6d458dddc60e[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 158 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (054375090eabd129)
+[1m[31mDebugger listening on ws://localhost:9229/9c32e045-1e1d-4417-89d7-4fcb3dabbf3b[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/9c32e045-1e1d-4417-89d7-4fcb3dabbf3b[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 158 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (054375090eabd129)
+[1m[31mDebugger listening on ws://localhost:9229/ad5f3398-9623-40e9-bfaf-203b9d81797d[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/ad5f3398-9623-40e9-bfaf-203b9d81797d[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 158 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (054375090eabd129)
+[1m[31mDebugger listening on ws://localhost:9229/e451848f-7abe-47f4-9989-b01dddde6d36[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/e451848f-7abe-47f4-9989-b01dddde6d36[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 158 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (054375090eabd129)
+[1m[31mDebugger listening on ws://localhost:9229/beb8b030-fa69-41b2-9025-56d2b15157bd[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/beb8b030-fa69-41b2-9025-56d2b15157bd[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 158 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (054375090eabd129)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 158 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (054375090eabd129)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 158 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (054375090eabd129)
+[1m[31mDebugger listening on ws://localhost:9229/8177de07-9858-4f46-a831-ba3a2e8d3094[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/8177de07-9858-4f46-a831-ba3a2e8d3094[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 158 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (054375090eabd129)
+[1m[31mDebugger listening on ws://localhost:9229/b750e09a-f3c6-4405-acae-ed21561c81c0[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/b750e09a-f3c6-4405-acae-ed21561c81c0[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 158 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (054375090eabd129)
+[1m[31mDebugger listening on ws://localhost:9229/18894213-3528-44f4-8fb0-cdddd9231e3f[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/18894213-3528-44f4-8fb0-cdddd9231e3f[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 158 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (054375090eabd129)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 158 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (054375090eabd129)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 158 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (054375090eabd129)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 158 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (054375090eabd129)
+[1m[31mDebugger listening on ws://localhost:9229/948207c8-e80f-4ede-a731-471e90268088[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/948207c8-e80f-4ede-a731-471e90268088[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 158 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (054375090eabd129)
+[1m[31mDebugger listening on ws://localhost:9229/f838e7d8-3657-40da-9d35-392cf30fc3fa[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/f838e7d8-3657-40da-9d35-392cf30fc3fa[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 158 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (054375090eabd129)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 158 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (054375090eabd129)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 158 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (054375090eabd129)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 158 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (054375090eabd129)
+[1m[31mDebugger listening on ws://localhost:9229/fd517a45-104f-45e4-88e2-862fbd5dfe86[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/fd517a45-104f-45e4-88e2-862fbd5dfe86[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/413faa44-7e5f-480b-8143-2dd679b762bb[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/413faa44-7e5f-480b-8143-2dd679b762bb[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 158 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.module.ts:[32m[1m7:53[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'sanpham'.
+  [0m [90m  5 |[39m [36mimport[39m { [33mSanphamEntity[39m } [36mfrom[39m [32m'./entities/sanpham.entity'[39m[33m;[39m[0m
+  [0m [90m  6 |[39m [33m@[39m[33mModule[39m({[0m
+  [0m[31m[1m>[22m[39m[90m  7 |[39m   imports[33m:[39m [[33mTypeOrmModule[39m[33m.[39mforFeature([[33mSanphamEntity[39m[33m,[39msanpham])][33m,[39m[0m
+  [0m [90m    |[39m                                                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m  8 |[39m   controllers[33m:[39m [[33mSanphamController[39m][33m,[39m[0m
+  [0m [90m  9 |[39m   providers[33m:[39m [[33mSanphamService[39m][0m
+  [0m [90m 10 |[39m })[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (8683e203428ff44a)
+[1m[31mDebugger listening on ws://localhost:9229/a0c3b368-781a-4dad-99d3-d396c5dd4f84[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/a0c3b368-781a-4dad-99d3-d396c5dd4f84[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mF:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\sanpham\sanpham.module.ts:7[39m[22m
+[1m[31m  imports: [TypeOrmModule.forFeature([SanphamEntity,sanpham])],[39m[22m
+[1m[31m                                                    ^[39m[22m
+[1m[31mReferenceError: sanpham is not defined[39m[22m
+[1m[31m    at Array.Object.defineProperty.value (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\sanpham\sanpham.module.ts:7:53)[39m[22m
+[1m[31m    at __webpack_require__ (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\webpack\bootstrap:19:1)[39m[22m
+[1m[31m    at Array.<anonymous> (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\app.module.ts:12:1)[39m[22m
+[1m[31m    at __webpack_require__ (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\webpack\bootstrap:19:1)[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\main.ts:9:1[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\dist\be_ketoan\main.js:4324:3[39m[22m
+[1m[31m    at Object.<anonymous> (F:\chikiet\BEKetoan\dist\be_ketoan\main.js:4326:12)[39m[22m
+[1m[31m    at Module._compile (node:internal/modules/cjs/loader:1376:14)[39m[22m
+[1m[31m    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1435:10)[39m[22m
+[1m[31m    at Module.load (node:internal/modules/cjs/loader:1207:32)[39m[22m
+[1m[31m[39m[22m
+
+[36m>[39m [7m[1m[36m NX [39m[22m[27m [1mProcess exited with code 1, waiting for changes to restart...[22m
+
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 162 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (cb4c528a5fe94d67)
+[1m[31mDebugger listening on ws://localhost:9229/fe2f6d6f-c5f7-44a2-aebd-eca17035a1d4[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/fe2f6d6f-c5f7-44a2-aebd-eca17035a1d4[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 162 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (cb4c528a5fe94d67)
+[1m[31mDebugger listening on ws://localhost:9229/33301e23-8318-4960-8004-e8662f5eb881[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/33301e23-8318-4960-8004-e8662f5eb881[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 162 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (cb4c528a5fe94d67)
+[1m[31mDebugger listening on ws://localhost:9229/bd20c65d-6fac-433a-973d-f049086c2e76[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/bd20c65d-6fac-433a-973d-f049086c2e76[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 162 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.controller.ts:[32m[1m14:9[22m[39m[1m[39m[22m
+[90mTS2393: [39mDuplicate function implementation.
+  [0m [90m 12 |[39m   }[0m
+  [0m [90m 13 |[39m   [33m@[39m[33mGet[39m()[0m
+  [0m[31m[1m>[22m[39m[90m 14 |[39m   [36masync[39m findAll() {[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 15 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39msanphamService[33m.[39mfindAll()[33m;[39m[0m
+  [0m [90m 16 |[39m   }[0m
+  [0m [90m 17 |[39m   [33m@[39m[33mGet[39m()[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.controller.ts:[32m[1m18:9[22m[39m[1m[39m[22m
+[90mTS2393: [39mDuplicate function implementation.
+  [0m [90m 16 |[39m   }[0m
+  [0m [90m 17 |[39m   [33m@[39m[33mGet[39m()[0m
+  [0m[31m[1m>[22m[39m[90m 18 |[39m   [36masync[39m findAll() {[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 19 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39msanphamService[33m.[39mfindAll()[33m;[39m[0m
+  [0m [90m 20 |[39m   }[0m
+  [0m [90m 21 |[39m   [33m@[39m[33mGet[39m([32m'findid/:id'[39m)[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (ddd161d044f33e4b)
+[1m[31mDebugger listening on ws://localhost:9229/5e133be7-fb65-496c-af26-731497e0ad84[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/5e133be7-fb65-496c-af26-731497e0ad84[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 162 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.controller.ts:[32m[1m14:9[22m[39m[1m[39m[22m
+[90mTS2393: [39mDuplicate function implementation.
+  [0m [90m 12 |[39m   }[0m
+  [0m [90m 13 |[39m   [33m@[39m[33mGet[39m()[0m
+  [0m[31m[1m>[22m[39m[90m 14 |[39m   [36masync[39m findAll() {[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 15 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39msanphamService[33m.[39mfindAll()[33m;[39m[0m
+  [0m [90m 16 |[39m   }[0m
+  [0m [90m 17 |[39m   [33m@[39m[33mGet[39m([32m'sanphamchung'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.controller.ts:[32m[1m18:9[22m[39m[1m[39m[22m
+[90mTS2393: [39mDuplicate function implementation.
+  [0m [90m 16 |[39m   }[0m
+  [0m [90m 17 |[39m   [33m@[39m[33mGet[39m([32m'sanphamchung'[39m)[0m
+  [0m[31m[1m>[22m[39m[90m 18 |[39m   [36masync[39m findAll() {[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 19 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39msanphamService[33m.[39mfindAll()[33m;[39m[0m
+  [0m [90m 20 |[39m   }[0m
+  [0m [90m 21 |[39m   [33m@[39m[33mGet[39m([32m'findid/:id'[39m)[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (66d7bab2a2e8649a)
+[1m[31mDebugger listening on ws://localhost:9229/9926fc20-ab17-4a72-994b-0fcbd8f793bf[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/9926fc20-ab17-4a72-994b-0fcbd8f793bf[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 162 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (29df26ea930570ee)
+[1m[31mDebugger listening on ws://localhost:9229/58775c35-f81a-4e7a-89a9-01e6ce3530a6[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/58775c35-f81a-4e7a-89a9-01e6ce3530a6[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 162 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.controller.ts:[32m[1m19:38[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findAllChung' does not exist on type 'SanphamService'.
+  [0m [90m 17 |[39m   [33m@[39m[33mGet[39m([32m'sanphamchung'[39m)[0m
+  [0m [90m 18 |[39m   [36masync[39m findAllChung() {[0m
+  [0m[31m[1m>[22m[39m[90m 19 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39msanphamService[33m.[39mfindAllChung()[33m;[39m[0m
+  [0m [90m    |[39m                                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 20 |[39m   }[0m
+  [0m [90m 21 |[39m   [33m@[39m[33mGet[39m([32m'findid/:id'[39m)[0m
+  [0m [90m 22 |[39m   [36masync[39m findOne([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string) {[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (861505c73f827dc9)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 162 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (0acc0e3e982bad6a)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 162 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (0acc0e3e982bad6a)
+[1m[31mDebugger listening on ws://localhost:9229/ccbe1e1f-adbf-4020-9110-383909de1c04[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/ccbe1e1f-adbf-4020-9110-383909de1c04[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 162 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.controller.ts:[32m[1m30:11[22m[39m[1m[39m[22m
+[90mTS2393: [39mDuplicate function implementation.
+  [0m [90m 28 |[39m     }[0m
+  [0m [90m 29 |[39m   [33m@[39m[33mPost[39m([32m'search'[39m)[0m
+  [0m[31m[1m>[22m[39m[90m 30 |[39m     [36masync[39m findQuery([33m@[39m[33mBody[39m() [33mSearchParams[39m[33m:[39m any){[0m
+  [0m [90m    |[39m           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 31 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39msanphamService[33m.[39mfindQuery([33mSearchParams[39m)[33m;[39m[0m
+  [0m [90m 32 |[39m   }[0m
+  [0m [90m 33 |[39m   [33m@[39m[33mPost[39m([32m'search'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.controller.ts:[32m[1m34:11[22m[39m[1m[39m[22m
+[90mTS2393: [39mDuplicate function implementation.
+  [0m [90m 32 |[39m   }[0m
+  [0m [90m 33 |[39m   [33m@[39m[33mPost[39m([32m'search'[39m)[0m
+  [0m[31m[1m>[22m[39m[90m 34 |[39m     [36masync[39m findQuery([33m@[39m[33mBody[39m() [33mSearchParams[39m[33m:[39m any){[0m
+  [0m [90m    |[39m           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 35 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39msanphamService[33m.[39mfindQuery([33mSearchParams[39m)[33m;[39m[0m
+  [0m [90m 36 |[39m   }[0m
+  [0m [90m 37 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (74e801f099be7df0)
+[1m[31mDebugger listening on ws://localhost:9229/15a42002-a25c-40f2-bfd8-942746fe78dd[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/15a42002-a25c-40f2-bfd8-942746fe78dd[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 162 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.controller.ts:[32m[1m30:11[22m[39m[1m[39m[22m
+[90mTS2393: [39mDuplicate function implementation.
+  [0m [90m 28 |[39m     }[0m
+  [0m [90m 29 |[39m   [33m@[39m[33mPost[39m([32m'search'[39m)[0m
+  [0m[31m[1m>[22m[39m[90m 30 |[39m     [36masync[39m findQuery([33m@[39m[33mBody[39m() [33mSearchParams[39m[33m:[39m any){[0m
+  [0m [90m    |[39m           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 31 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39msanphamService[33m.[39mfindQuery([33mSearchParams[39m)[33m;[39m[0m
+  [0m [90m 32 |[39m   }[0m
+  [0m [90m 33 |[39m   [33m@[39m[33mPost[39m([32m'searchchung'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.controller.ts:[32m[1m34:11[22m[39m[1m[39m[22m
+[90mTS2393: [39mDuplicate function implementation.
+  [0m [90m 32 |[39m   }[0m
+  [0m [90m 33 |[39m   [33m@[39m[33mPost[39m([32m'searchchung'[39m)[0m
+  [0m[31m[1m>[22m[39m[90m 34 |[39m     [36masync[39m findQuery([33m@[39m[33mBody[39m() [33mSearchParams[39m[33m:[39m any){[0m
+  [0m [90m    |[39m           [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 35 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39msanphamService[33m.[39mfindQuery([33mSearchParams[39m)[33m;[39m[0m
+  [0m [90m 36 |[39m   }[0m
+  [0m [90m 37 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (d620a2aa53f367c8)
+[1m[31mDebugger listening on ws://localhost:9229/e3b95bf9-25c0-46aa-afcb-825ffd8a2678[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/e3b95bf9-25c0-46aa-afcb-825ffd8a2678[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 162 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (0d81b08c0f29ce2b)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 162 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.controller.ts:[32m[1m35:40[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findQuerychung' does not exist on type 'SanphamService'.
+  [0m [90m 33 |[39m   [33m@[39m[33mPost[39m([32m'searchchung'[39m)[0m
+  [0m [90m 34 |[39m     [36masync[39m findQuerychung([33m@[39m[33mBody[39m() [33mSearchParams[39m[33m:[39m any){[0m
+  [0m[31m[1m>[22m[39m[90m 35 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39msanphamService[33m.[39mfindQuerychung([33mSearchParams[39m)[33m;[39m[0m
+  [0m [90m    |[39m                                        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 36 |[39m   }[0m
+  [0m [90m 37 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+  [0m [90m 38 |[39m   update([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string[33m,[39m [33m@[39m[33mBody[39m() updateSanphamDto[33m:[39m [33mUpdateSanphamDto[39m) {[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (3105f5b8239fbf21)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 162 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.controller.ts:[32m[1m35:40[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findQuerychung' does not exist on type 'SanphamService'.
+  [0m [90m 33 |[39m   [33m@[39m[33mPost[39m([32m'searchchung'[39m)[0m
+  [0m [90m 34 |[39m     [36masync[39m findQuerychung([33m@[39m[33mBody[39m() [33mSearchParams[39m[33m:[39m any){[0m
+  [0m[31m[1m>[22m[39m[90m 35 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39msanphamService[33m.[39mfindQuerychung([33mSearchParams[39m)[33m;[39m[0m
+  [0m [90m    |[39m                                        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 36 |[39m   }[0m
+  [0m [90m 37 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+  [0m [90m 38 |[39m   update([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string[33m,[39m [33m@[39m[33mBody[39m() updateSanphamDto[33m:[39m [33mUpdateSanphamDto[39m) {[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (3105f5b8239fbf21)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 162 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.controller.ts:[32m[1m35:40[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findQuerychung' does not exist on type 'SanphamService'.
+  [0m [90m 33 |[39m   [33m@[39m[33mPost[39m([32m'searchchung'[39m)[0m
+  [0m [90m 34 |[39m     [36masync[39m findQuerychung([33m@[39m[33mBody[39m() [33mSearchParams[39m[33m:[39m any){[0m
+  [0m[31m[1m>[22m[39m[90m 35 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39msanphamService[33m.[39mfindQuerychung([33mSearchParams[39m)[33m;[39m[0m
+  [0m [90m    |[39m                                        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 36 |[39m   }[0m
+  [0m [90m 37 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+  [0m [90m 38 |[39m   update([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string[33m,[39m [33m@[39m[33mBody[39m() updateSanphamDto[33m:[39m [33mUpdateSanphamDto[39m) {[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (3105f5b8239fbf21)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 163 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.controller.ts:[32m[1m35:40[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findQuerychung' does not exist on type 'SanphamService'.
+  [0m [90m 33 |[39m   [33m@[39m[33mPost[39m([32m'searchchung'[39m)[0m
+  [0m [90m 34 |[39m     [36masync[39m findQuerychung([33m@[39m[33mBody[39m() [33mSearchParams[39m[33m:[39m any){[0m
+  [0m[31m[1m>[22m[39m[90m 35 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39msanphamService[33m.[39mfindQuerychung([33mSearchParams[39m)[33m;[39m[0m
+  [0m [90m    |[39m                                        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 36 |[39m   }[0m
+  [0m [90m 37 |[39m   [33m@[39m[33mPatch[39m([32m':id'[39m)[0m
+  [0m [90m 38 |[39m   update([33m@[39m[33mParam[39m([32m'id'[39m) id[33m:[39m string[33m,[39m [33m@[39m[33mBody[39m() updateSanphamDto[33m:[39m [33mUpdateSanphamDto[39m) {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.service.ts:[32m[1m61:9[22m[39m[1m[39m[22m
+[90mTS2393: [39mDuplicate function implementation.
+  [0m [90m 59 |[39m     }[33m;[39m[0m
+  [0m [90m 60 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 61 |[39m   [36masync[39m findQuery(params[33m:[39m any) {[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 62 |[39m     console[33m.[39merror(params)[33m;[39m[0m
+  [0m [90m 63 |[39m     [36mconst[39m queryBuilder [33m=[39m [36mthis[39m[33m.[39m[33mSanphamRepository[39m[33m.[39mcreateQueryBuilder([32m'sanpham'[39m)[33m;[39m[0m
+  [0m [90m 64 |[39m     [36mif[39m (params[33m.[39m[33mBatdau[39m [33m&&[39m params[33m.[39m[33mKetthuc[39m) {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.service.ts:[32m[1m79:9[22m[39m[1m[39m[22m
+[90mTS2393: [39mDuplicate function implementation.
+  [0m [90m 77 |[39m   [36mreturn[39m { items[33m,[39m totalCount }[33m;[39m[0m
+  [0m [90m 78 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 79 |[39m   [36masync[39m findQuery(params[33m:[39m any) {[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 80 |[39m     console[33m.[39merror(params)[33m;[39m[0m
+  [0m [90m 81 |[39m     [36mconst[39m queryBuilder [33m=[39m [36mthis[39m[33m.[39m[33mSanphamRepository[39m[33m.[39mcreateQueryBuilder([32m'sanpham'[39m)[33m;[39m[0m
+  [0m [90m 82 |[39m     [36mif[39m (params[33m.[39m[33mBatdau[39m [33m&&[39m params[33m.[39m[33mKetthuc[39m) {[0m
+
+webpack compiled with [1m[31m3 errors[39m[22m (8d22b9e2a0f80d1f)
+[1m[31mDebugger listening on ws://localhost:9229/f7f552bd-d70c-467c-b653-c556c91c24df[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/f7f552bd-d70c-467c-b653-c556c91c24df[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 163 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (addaa7966d7da65e)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 163 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (addaa7966d7da65e)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 163 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/sanpham/sanpham.service.ts[39m[22m [1m[32m11:35[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: Argument name clash (11:35)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+| const sanpham_entity_1 = require("./entities/sanpham.entity");
+| let SanphamService = class SanphamService {
+>     constructor(SanphamRepository, SanphamRepository) {
+|         this.SanphamRepository = SanphamRepository;
+|         this.SanphamRepository = SanphamRepository;[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\sanpham\sanpham.service.ts[39m[22m
+[1m./src/app/sanpham/sanpham.service.ts[39m[22m [1m[32m12:4-5[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\sanpham\sanpham.service.ts(12,5)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.service.ts:[32m[1m11:13[22m[39m[1m[39m[22m
+[90mTS2300: [39mDuplicate identifier 'SanphamRepository'.
+  [0m [90m  9 |[39m   constructor([0m
+  [0m [90m 10 |[39m     [33m@[39m[33mInjectRepository[39m([33mSanphamEntity[39m)[0m
+  [0m[31m[1m>[22m[39m[90m 11 |[39m     [36mprivate[39m [33mSanphamRepository[39m[33m:[39m [33mRepository[39m[33m<[39m[33mSanphamEntity[39m[33m>[39m[0m
+  [0m [90m    |[39m             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 12 |[39m     [33m@[39m[33mInjectRepository[39m([33mSanphamEntity[39m)[0m
+  [0m [90m 13 |[39m     [36mprivate[39m [33mSanphamRepository[39m[33m:[39m [33mRepository[39m[33m<[39m[33mSanphamEntity[39m[33m>[39m[0m
+  [0m [90m 14 |[39m   ) {}[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.service.ts:[32m[1m13:13[22m[39m[1m[39m[22m
+[90mTS2300: [39mDuplicate identifier 'SanphamRepository'.
+  [0m [90m 11 |[39m     [36mprivate[39m [33mSanphamRepository[39m[33m:[39m [33mRepository[39m[33m<[39m[33mSanphamEntity[39m[33m>[39m[0m
+  [0m [90m 12 |[39m     [33m@[39m[33mInjectRepository[39m([33mSanphamEntity[39m)[0m
+  [0m[31m[1m>[22m[39m[90m 13 |[39m     [36mprivate[39m [33mSanphamRepository[39m[33m:[39m [33mRepository[39m[33m<[39m[33mSanphamEntity[39m[33m>[39m[0m
+  [0m [90m    |[39m             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 14 |[39m   ) {}[0m
+  [0m [90m 15 |[39m   [36masync[39m create(data[33m:[39m any) {[0m
+  [0m [90m 16 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindTenSP(data)[0m
+
+webpack compiled with [1m[31m4 errors[39m[22m (3f65e65443548c02)
+[1m[31mDebugger listening on ws://localhost:9229/8e3ea96d-5063-493f-a80f-64467453ddf6[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/8e3ea96d-5063-493f-a80f-64467453ddf6[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mF:\chikiet\BEKetoan\dist\be_ketoan\main.js:2564[39m[22m
+[1m[31mthrow new Error("Module parse failed: Argument name clash (11:35)\nFile was processed with these loaders:\n * ../node_modules/ts-loader/index.js\nYou may need an additional loader to handle the result of these loaders.\n| const sanpham_entity_1 = require(\"./entities/sanpham.entity\");\n| let SanphamService = class SanphamService {\n>     constructor(SanphamRepository, SanphamRepository) {\n|         this.SanphamRepository = SanphamRepository;\n|         this.SanphamRepository = SanphamRepository;");[39m[22m
+[1m[31m      ^[39m[22m
+[1m[31mError: Module parse failed: Argument name clash (11:35)[39m[22m
+[1m[31mFile was processed with these loaders:[39m[22m
+[1m[31m * ../node_modules/ts-loader/index.js[39m[22m
+[1m[31mYou may need an additional loader to handle the result of these loaders.[39m[22m
+[1m[31m| const sanpham_entity_1 = require("./entities/sanpham.entity");[39m[22m
+[1m[31m| let SanphamService = class SanphamService {[39m[22m
+[1m[31m>     constructor(SanphamRepository, SanphamRepository) {[39m[22m
+[1m[31m|         this.SanphamRepository = SanphamRepository;[39m[22m
+[1m[31m|         this.SanphamRepository = SanphamRepository;[39m[22m
+[1m[31m    at Array.Object.defineProperty.value (F:\chikiet\BEKetoan\dist\be_ketoan\main.js:2564:7)[39m[22m
+[1m[31m    at __webpack_require__ (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\webpack\bootstrap:19:1)[39m[22m
+[1m[31m    at Array.Object.defineProperty.value (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\sanpham\sanpham.module.ts:2:1)[39m[22m
+[1m[31m    at __webpack_require__ (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\webpack\bootstrap:19:1)[39m[22m
+[1m[31m    at Array.<anonymous> (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\app.module.ts:12:1)[39m[22m
+[1m[31m    at __webpack_require__ (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\webpack\bootstrap:19:1)[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\main.ts:9:1[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\dist\be_ketoan\main.js:4407:3[39m[22m
+[1m[31m    at Object.<anonymous> (F:\chikiet\BEKetoan\dist\be_ketoan\main.js:4409:12)[39m[22m
+[1m[31m    at Module._compile (node:internal/modules/cjs/loader:1376:14)[39m[22m
+[1m[31m[39m[22m
+
+[36m>[39m [7m[1m[36m NX [39m[22m[27m [1mProcess exited with code 1, waiting for changes to restart...[22m
+
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 163 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/sanpham/sanpham.service.ts[39m[22m [1m[32m11:35[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: Argument name clash (11:35)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+| const sanpham_entity_1 = require("./entities/sanpham.entity");
+| let SanphamService = class SanphamService {
+>     constructor(SanphamRepository, SanphamRepository) {
+|         this.SanphamRepository = SanphamRepository;
+|         this.SanphamRepository = SanphamRepository;[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.service.ts:[32m[1m11:13[22m[39m[1m[39m[22m
+[90mTS2300: [39mDuplicate identifier 'SanphamRepository'.
+  [0m [90m  9 |[39m   constructor([0m
+  [0m [90m 10 |[39m     [33m@[39m[33mInjectRepository[39m([33mSanphamEntity[39m)[0m
+  [0m[31m[1m>[22m[39m[90m 11 |[39m     [36mprivate[39m [33mSanphamRepository[39m[33m:[39m [33mRepository[39m[33m<[39m[33mSanphamEntity[39m[33m>[39m[33m,[39m[0m
+  [0m [90m    |[39m             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 12 |[39m     [33m@[39m[33mInjectRepository[39m([33mSanphamEntity[39m)[0m
+  [0m [90m 13 |[39m     [36mprivate[39m [33mSanphamRepository[39m[33m:[39m [33mRepository[39m[33m<[39m[33mSanphamEntity[39m[33m>[39m[0m
+  [0m [90m 14 |[39m   ) {}[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.service.ts:[32m[1m13:13[22m[39m[1m[39m[22m
+[90mTS2300: [39mDuplicate identifier 'SanphamRepository'.
+  [0m [90m 11 |[39m     [36mprivate[39m [33mSanphamRepository[39m[33m:[39m [33mRepository[39m[33m<[39m[33mSanphamEntity[39m[33m>[39m[33m,[39m[0m
+  [0m [90m 12 |[39m     [33m@[39m[33mInjectRepository[39m([33mSanphamEntity[39m)[0m
+  [0m[31m[1m>[22m[39m[90m 13 |[39m     [36mprivate[39m [33mSanphamRepository[39m[33m:[39m [33mRepository[39m[33m<[39m[33mSanphamEntity[39m[33m>[39m[0m
+  [0m [90m    |[39m             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 14 |[39m   ) {}[0m
+  [0m [90m 15 |[39m   [36masync[39m create(data[33m:[39m any) {[0m
+  [0m [90m 16 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindTenSP(data)[0m
+
+webpack compiled with [1m[31m3 errors[39m[22m (4eecc929654d214d)
+[1m[31mDebugger listening on ws://localhost:9229/e607ac5a-34df-4180-9011-2c190f5d98d1[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/e607ac5a-34df-4180-9011-2c190f5d98d1[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mF:\chikiet\BEKetoan\dist\be_ketoan\main.js:2564[39m[22m
+[1m[31mthrow new Error("Module parse failed: Argument name clash (11:35)\nFile was processed with these loaders:\n * ../node_modules/ts-loader/index.js\nYou may need an additional loader to handle the result of these loaders.\n| const sanpham_entity_1 = require(\"./entities/sanpham.entity\");\n| let SanphamService = class SanphamService {\n>     constructor(SanphamRepository, SanphamRepository) {\n|         this.SanphamRepository = SanphamRepository;\n|         this.SanphamRepository = SanphamRepository;");[39m[22m
+[1m[31m      ^[39m[22m
+[1m[31mError: Module parse failed: Argument name clash (11:35)[39m[22m
+[1m[31mFile was processed with these loaders:[39m[22m
+[1m[31m * ../node_modules/ts-loader/index.js[39m[22m
+[1m[31mYou may need an additional loader to handle the result of these loaders.[39m[22m
+[1m[31m| const sanpham_entity_1 = require("./entities/sanpham.entity");[39m[22m
+[1m[31m| let SanphamService = class SanphamService {[39m[22m
+[1m[31m>     constructor(SanphamRepository, SanphamRepository) {[39m[22m
+[1m[31m|         this.SanphamRepository = SanphamRepository;[39m[22m
+[1m[31m|         this.SanphamRepository = SanphamRepository;[39m[22m
+[1m[31m    at Array.Object.defineProperty.value (F:\chikiet\BEKetoan\dist\be_ketoan\main.js:2564:7)[39m[22m
+[1m[31m    at __webpack_require__ (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\webpack\bootstrap:19:1)[39m[22m
+[1m[31m    at Array.Object.defineProperty.value (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\sanpham\sanpham.module.ts:2:1)[39m[22m
+[1m[31m    at __webpack_require__ (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\webpack\bootstrap:19:1)[39m[22m
+[1m[31m    at Array.<anonymous> (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\app.module.ts:12:1)[39m[22m
+[1m[31m    at __webpack_require__ (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\webpack\bootstrap:19:1)[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\main.ts:9:1[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\dist\be_ketoan\main.js:4407:3[39m[22m
+[1m[31m    at Object.<anonymous> (F:\chikiet\BEKetoan\dist\be_ketoan\main.js:4409:12)[39m[22m
+[1m[31m    at Module._compile (node:internal/modules/cjs/loader:1376:14)[39m[22m
+[1m[31m[39m[22m
+
+[36m>[39m [7m[1m[36m NX [39m[22m[27m [1mProcess exited with code 1, waiting for changes to restart...[22m
+
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 163 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/sanpham/sanpham.service.ts[39m[22m [1m[32m11:35[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: Argument name clash (11:35)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+| const sanpham_entity_1 = require("./entities/sanpham.entity");
+| let SanphamService = class SanphamService {
+>     constructor(SanphamRepository, SanphamRepository) {
+|         this.SanphamRepository = SanphamRepository;
+|         this.SanphamRepository = SanphamRepository;[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.service.ts:[32m[1m11:13[22m[39m[1m[39m[22m
+[90mTS2300: [39mDuplicate identifier 'SanphamRepository'.
+  [0m [90m  9 |[39m   constructor([0m
+  [0m [90m 10 |[39m     [33m@[39m[33mInjectRepository[39m([33mSanphamEntity[39m)[0m
+  [0m[31m[1m>[22m[39m[90m 11 |[39m     [36mprivate[39m [33mSanphamRepository[39m[33m:[39m [33mRepository[39m[33m<[39m[33mSanphamEntity[39m[33m>[39m[33m,[39m[0m
+  [0m [90m    |[39m             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 12 |[39m     [33m@[39m[33mInjectRepository[39m(sanpha)[0m
+  [0m [90m 13 |[39m     [36mprivate[39m [33mSanphamRepository[39m[33m:[39m [33mRepository[39m[33m<[39m[33mSanphamEntity[39m[33m>[39m[0m
+  [0m [90m 14 |[39m   ) {}[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.service.ts:[32m[1m12:23[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'sanpha'.
+  [0m [90m 10 |[39m     [33m@[39m[33mInjectRepository[39m([33mSanphamEntity[39m)[0m
+  [0m [90m 11 |[39m     [36mprivate[39m [33mSanphamRepository[39m[33m:[39m [33mRepository[39m[33m<[39m[33mSanphamEntity[39m[33m>[39m[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 12 |[39m     [33m@[39m[33mInjectRepository[39m(sanpha)[0m
+  [0m [90m    |[39m                       [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 13 |[39m     [36mprivate[39m [33mSanphamRepository[39m[33m:[39m [33mRepository[39m[33m<[39m[33mSanphamEntity[39m[33m>[39m[0m
+  [0m [90m 14 |[39m   ) {}[0m
+  [0m [90m 15 |[39m   [36masync[39m create(data[33m:[39m any) {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.service.ts:[32m[1m13:13[22m[39m[1m[39m[22m
+[90mTS2300: [39mDuplicate identifier 'SanphamRepository'.
+  [0m [90m 11 |[39m     [36mprivate[39m [33mSanphamRepository[39m[33m:[39m [33mRepository[39m[33m<[39m[33mSanphamEntity[39m[33m>[39m[33m,[39m[0m
+  [0m [90m 12 |[39m     [33m@[39m[33mInjectRepository[39m(sanpha)[0m
+  [0m[31m[1m>[22m[39m[90m 13 |[39m     [36mprivate[39m [33mSanphamRepository[39m[33m:[39m [33mRepository[39m[33m<[39m[33mSanphamEntity[39m[33m>[39m[0m
+  [0m [90m    |[39m             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 14 |[39m   ) {}[0m
+  [0m [90m 15 |[39m   [36masync[39m create(data[33m:[39m any) {[0m
+  [0m [90m 16 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindTenSP(data)[0m
+
+webpack compiled with [1m[31m4 errors[39m[22m (095aa3429a45790a)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 163 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/sanpham/sanpham.service.ts[39m[22m [1m[32m12:35[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: Argument name clash (12:35)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+| const sanphamchung_entity_1 = require("./entities/sanphamchung.entity");
+| let SanphamService = class SanphamService {
+>     constructor(SanphamRepository, SanphamRepository) {
+|         this.SanphamRepository = SanphamRepository;
+|         this.SanphamRepository = SanphamRepository;[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.service.ts:[32m[1m12:13[22m[39m[1m[39m[22m
+[90mTS2300: [39mDuplicate identifier 'SanphamRepository'.
+  [0m [90m 10 |[39m   constructor([0m
+  [0m [90m 11 |[39m     [33m@[39m[33mInjectRepository[39m([33mSanphamEntity[39m)[0m
+  [0m[31m[1m>[22m[39m[90m 12 |[39m     [36mprivate[39m [33mSanphamRepository[39m[33m:[39m [33mRepository[39m[33m<[39m[33mSanphamEntity[39m[33m>[39m[33m,[39m[0m
+  [0m [90m    |[39m             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 13 |[39m     [33m@[39m[33mInjectRepository[39m([33mSanphamchungEntity[39m)[0m
+  [0m [90m 14 |[39m     [36mprivate[39m [33mSanphamRepository[39m[33m:[39m [33mRepository[39m[33m<[39m[33mSanphamEntity[39m[33m>[39m[0m
+  [0m [90m 15 |[39m   ) {}[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.service.ts:[32m[1m14:13[22m[39m[1m[39m[22m
+[90mTS2300: [39mDuplicate identifier 'SanphamRepository'.
+  [0m [90m 12 |[39m     [36mprivate[39m [33mSanphamRepository[39m[33m:[39m [33mRepository[39m[33m<[39m[33mSanphamEntity[39m[33m>[39m[33m,[39m[0m
+  [0m [90m 13 |[39m     [33m@[39m[33mInjectRepository[39m([33mSanphamchungEntity[39m)[0m
+  [0m[31m[1m>[22m[39m[90m 14 |[39m     [36mprivate[39m [33mSanphamRepository[39m[33m:[39m [33mRepository[39m[33m<[39m[33mSanphamEntity[39m[33m>[39m[0m
+  [0m [90m    |[39m             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 15 |[39m   ) {}[0m
+  [0m [90m 16 |[39m   [36masync[39m create(data[33m:[39m any) {[0m
+  [0m [90m 17 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindTenSP(data)[0m
+
+webpack compiled with [1m[31m3 errors[39m[22m (5f569a15126d975c)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 163 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/sanpham/sanpham.service.ts[39m[22m [1m[32m12:35[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: Argument name clash (12:35)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+| const sanphamchung_entity_1 = require("./entities/sanphamchung.entity");
+| let SanphamService = class SanphamService {
+>     constructor(SanphamRepository, SanphamRepository) {
+|         this.SanphamRepository = SanphamRepository;
+|         this.SanphamRepository = SanphamRepository;[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.service.ts:[32m[1m12:13[22m[39m[1m[39m[22m
+[90mTS2300: [39mDuplicate identifier 'SanphamRepository'.
+  [0m [90m 10 |[39m   constructor([0m
+  [0m [90m 11 |[39m     [33m@[39m[33mInjectRepository[39m([33mSanphamEntity[39m)[0m
+  [0m[31m[1m>[22m[39m[90m 12 |[39m     [36mprivate[39m [33mSanphamRepository[39m[33m:[39m [33mRepository[39m[33m<[39m[33mSanphamEntity[39m[33m>[39m[33m,[39m[0m
+  [0m [90m    |[39m             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 13 |[39m     [33m@[39m[33mInjectRepository[39m([33mSanphamchungEntity[39m)[0m
+  [0m [90m 14 |[39m     [36mprivate[39m [33mSanphamRepository[39m[33m:[39m [33mRepository[39m[33m<[39m[33mSanphamchungEntity[39m[33m>[39m[0m
+  [0m [90m 15 |[39m   ) {}[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.service.ts:[32m[1m14:13[22m[39m[1m[39m[22m
+[90mTS2300: [39mDuplicate identifier 'SanphamRepository'.
+  [0m [90m 12 |[39m     [36mprivate[39m [33mSanphamRepository[39m[33m:[39m [33mRepository[39m[33m<[39m[33mSanphamEntity[39m[33m>[39m[33m,[39m[0m
+  [0m [90m 13 |[39m     [33m@[39m[33mInjectRepository[39m([33mSanphamchungEntity[39m)[0m
+  [0m[31m[1m>[22m[39m[90m 14 |[39m     [36mprivate[39m [33mSanphamRepository[39m[33m:[39m [33mRepository[39m[33m<[39m[33mSanphamchungEntity[39m[33m>[39m[0m
+  [0m [90m    |[39m             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 15 |[39m   ) {}[0m
+  [0m [90m 16 |[39m   [36masync[39m create(data[33m:[39m any) {[0m
+  [0m [90m 17 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindTenSP(data)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.service.ts:[32m[1m14:13[22m[39m[1m[39m[22m
+[90mTS2403: [39mSubsequent variable declarations must have the same type.  Variable 'SanphamRepository' must be of type 'Repository<SanphamEntity>', but here has type 'Repository<SanphamchungEntity>'.
+  [0m [90m 12 |[39m     [36mprivate[39m [33mSanphamRepository[39m[33m:[39m [33mRepository[39m[33m<[39m[33mSanphamEntity[39m[33m>[39m[33m,[39m[0m
+  [0m [90m 13 |[39m     [33m@[39m[33mInjectRepository[39m([33mSanphamchungEntity[39m)[0m
+  [0m[31m[1m>[22m[39m[90m 14 |[39m     [36mprivate[39m [33mSanphamRepository[39m[33m:[39m [33mRepository[39m[33m<[39m[33mSanphamchungEntity[39m[33m>[39m[0m
+  [0m [90m    |[39m             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 15 |[39m   ) {}[0m
+  [0m [90m 16 |[39m   [36masync[39m create(data[33m:[39m any) {[0m
+  [0m [90m 17 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindTenSP(data)[0m
+
+webpack compiled with [1m[31m4 errors[39m[22m (0160591d4c77eaeb)
+[1m[31mDebugger listening on ws://localhost:9229/a5ac8007-17c0-43e9-90c8-3618514041ac[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/a5ac8007-17c0-43e9-90c8-3618514041ac[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mF:\chikiet\BEKetoan\dist\be_ketoan\main.js:2564[39m[22m
+[1m[31mthrow new Error("Module parse failed: Argument name clash (12:35)\nFile was processed with these loaders:\n * ../node_modules/ts-loader/index.js\nYou may need an additional loader to handle the result of these loaders.\n| const sanphamchung_entity_1 = require(\"./entities/sanphamchung.entity\");\n| let SanphamService = class SanphamService {\n>     constructor(SanphamRepository, SanphamRepository) {\n|         this.SanphamRepository = SanphamRepository;\n|         this.SanphamRepository = SanphamRepository;");[39m[22m
+[1m[31m      ^[39m[22m
+[1m[31mError: Module parse failed: Argument name clash (12:35)[39m[22m
+[1m[31mFile was processed with these loaders:[39m[22m
+[1m[31m * ../node_modules/ts-loader/index.js[39m[22m
+[1m[31mYou may need an additional loader to handle the result of these loaders.[39m[22m
+[1m[31m| const sanphamchung_entity_1 = require("./entities/sanphamchung.entity");[39m[22m
+[1m[31m| let SanphamService = class SanphamService {[39m[22m
+[1m[31m>     constructor(SanphamRepository, SanphamRepository) {[39m[22m
+[1m[31m|         this.SanphamRepository = SanphamRepository;[39m[22m
+[1m[31m|         this.SanphamRepository = SanphamRepository;[39m[22m
+[1m[31m    at Array.Object.defineProperty.value (F:\chikiet\BEKetoan\dist\be_ketoan\main.js:2564:7)[39m[22m
+[1m[31m    at __webpack_require__ (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\webpack\bootstrap:19:1)[39m[22m
+[1m[31m    at Array.Object.defineProperty.value (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\sanpham\sanpham.module.ts:2:1)[39m[22m
+[1m[31m    at __webpack_require__ (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\webpack\bootstrap:19:1)[39m[22m
+[1m[31m    at Array.<anonymous> (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\app\app.module.ts:12:1)[39m[22m
+[1m[31m    at __webpack_require__ (F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\webpack\bootstrap:19:1)[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\dist\be_ketoan\webpack:\src\main.ts:9:1[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\dist\be_ketoan\main.js:4407:3[39m[22m
+[1m[31m    at Object.<anonymous> (F:\chikiet\BEKetoan\dist\be_ketoan\main.js:4409:12)[39m[22m
+[1m[31m    at Module._compile (node:internal/modules/cjs/loader:1376:14)[39m[22m
+[1m[31m[39m[22m
+
+[36m>[39m [7m[1m[36m NX [39m[22m[27m [1mProcess exited with code 1, waiting for changes to restart...[22m
+
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 163 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (d326990f4b84a69b)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 163 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (6f27ad86985df273)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 163 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (6f27ad86985df273)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 163 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (6f27ad86985df273)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 163 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (6f27ad86985df273)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 163 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (1b85a9fe070c1ef2)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 163 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (86c9738b4325a628)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 163 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (86c9738b4325a628)
+[1m[31mDebugger listening on ws://localhost:9229/c3f9f99a-3140-44cc-aebf-7ac75e6946ed[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/c3f9f99a-3140-44cc-aebf-7ac75e6946ed[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 163 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (4b5f3fa1357f69b6)
+[1m[31mDebugger listening on ws://localhost:9229/c0f34b16-ff08-4865-9326-4c46b95f1ea1[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/c0f34b16-ff08-4865-9326-4c46b95f1ea1[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 163 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (8582eafcc159dc80)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 163 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (d5954124776f9ebf)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 163 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (d5954124776f9ebf)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 163 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (d5954124776f9ebf)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 163 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (d5954124776f9ebf)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 163 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (d5954124776f9ebf)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 163 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (d5954124776f9ebf)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m

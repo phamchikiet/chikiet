@@ -1,0 +1,260 @@
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 143 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (9d86480721abe1a3)
+[1m[31mDebugger listening on ws://localhost:9229/89dc5762-0db9-42f8-94f6-abdb451efde9[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/89dc5762-0db9-42f8-94f6-abdb451efde9[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 144 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/banrachitiet/banrachitiet.service.ts[39m[22m [1m[32m9:31-73[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './entities/muavaochitiet.entity' in 'F:\chikiet\BEKetoan\be_ketoan\src\app\banrachitiet'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/banrachitiet/banrachitiet.controller.ts:[32m[1m2:9[22m[39m[1m[39m[22m
+[90mTS2724: [39m'"./banrachitiet.service"' has no exported member named 'BanrachitietService'. Did you mean 'MuavaochitietService'?
+  [0m [90m 1 |[39m [36mimport[39m { [33mController[39m[33m,[39m [33mGet[39m[33m,[39m [33mPost[39m[33m,[39m [33mBody[39m[33m,[39m [33mPatch[39m[33m,[39m [33mParam[39m[33m,[39m [33mDelete[39m[33m,[39m [33mQuery[39m } [36mfrom[39m [32m'@nestjs/common'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 2 |[39m [36mimport[39m {[33mBanrachitietService[39m } [36mfrom[39m [32m'./banrachitiet.service'[39m[33m;[39m[0m
+  [0m [90m   |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m { [33mCreateBanrachitietDto[39m } [36mfrom[39m [32m'./dto/create-banrachitiet.dto'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mUpdateBanrachitietDto[39m } [36mfrom[39m [32m'./dto/update-banrachitiet.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [33m@[39m[33mController[39m([32m'banrachitiet'[39m)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/banrachitiet/banrachitiet.module.ts:[32m[1m2:10[22m[39m[1m[39m[22m
+[90mTS2724: [39m'"./banrachitiet.service"' has no exported member named 'BanrachitietService'. Did you mean 'MuavaochitietService'?
+  [0m [90m 1 |[39m [36mimport[39m { [33mModule[39m } [36mfrom[39m [32m'@nestjs/common'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 2 |[39m [36mimport[39m { [33mBanrachitietService[39m } [36mfrom[39m [32m'./banrachitiet.service'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m { [33mBanrachitietController[39m } [36mfrom[39m [32m'./banrachitiet.controller'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mTypeOrmModule[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mBanrachitietEntity[39m } [36mfrom[39m [32m'./entities/banrachitiet.entity'[39m[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/banrachitiet/banrachitiet.service.ts:[32m[1m4:40[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './dto/create-muavaochitiet.dto' or its corresponding type declarations.
+  [0m [90m 2 |[39m [36mimport[39m { [33mInjectRepository[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m { [33mLike[39m[33m,[39m [33mRepository[39m } [36mfrom[39m [32m'typeorm'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 4 |[39m [36mimport[39m { [33mCreateMuavaochitietDto[39m } [36mfrom[39m [32m'./dto/create-muavaochitiet.dto'[39m[33m;[39m[0m
+  [0m [90m   |[39m                                        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mUpdateMuavaochitietDto[39m } [36mfrom[39m [32m'./dto/update-muavaochitiet.dto'[39m[33m;[39m[0m
+  [0m [90m 6 |[39m [36mimport[39m { [33mMuavaochitietEntity[39m } [36mfrom[39m [32m'./entities/muavaochitiet.entity'[39m[33m;[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/banrachitiet/banrachitiet.service.ts:[32m[1m5:40[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './dto/update-muavaochitiet.dto' or its corresponding type declarations.
+  [0m [90m 3 |[39m [36mimport[39m { [33mLike[39m[33m,[39m [33mRepository[39m } [36mfrom[39m [32m'typeorm'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mCreateMuavaochitietDto[39m } [36mfrom[39m [32m'./dto/create-muavaochitiet.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mUpdateMuavaochitietDto[39m } [36mfrom[39m [32m'./dto/update-muavaochitiet.dto'[39m[33m;[39m[0m
+  [0m [90m   |[39m                                        [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 6 |[39m [36mimport[39m { [33mMuavaochitietEntity[39m } [36mfrom[39m [32m'./entities/muavaochitiet.entity'[39m[33m;[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 8 |[39m [36mexport[39m [36mclass[39m [33mMuavaochitietService[39m {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/banrachitiet/banrachitiet.service.ts:[32m[1m6:37[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './entities/muavaochitiet.entity' or its corresponding type declarations.
+  [0m [90m 4 |[39m [36mimport[39m { [33mCreateMuavaochitietDto[39m } [36mfrom[39m [32m'./dto/create-muavaochitiet.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mUpdateMuavaochitietDto[39m } [36mfrom[39m [32m'./dto/update-muavaochitiet.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mMuavaochitietEntity[39m } [36mfrom[39m [32m'./entities/muavaochitiet.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m                                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 8 |[39m [36mexport[39m [36mclass[39m [33mMuavaochitietService[39m {[0m
+  [0m [90m 9 |[39m   constructor([0m
+
+webpack compiled with [1m[31m6 errors[39m[22m (86758fb9438c79e8)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 143 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/banrachitiet/banrachitiet.service.ts:[32m[1m44:9[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ SHD: any; Thang: any; }' is not assignable to type 'FindOptionsWhere<BanrachitietEntity> | FindOptionsWhere<BanrachitietEntity>[]'.
+  Object literal may only specify known properties, and 'Thang' does not exist in type 'FindOptionsWhere<BanrachitietEntity> | FindOptionsWhere<BanrachitietEntity>[]'.
+  [0m [90m 42 |[39m       where[33m:[39m { [0m
+  [0m [90m 43 |[39m         [33mSHD[39m[33m:[39m data[33m.[39m[33mSHD[39m[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 44 |[39m         [33mThang[39m[33m:[39mdata[33m.[39m[33mThang[39m[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 45 |[39m       }[33m,[39m[0m
+  [0m [90m 46 |[39m     })[33m;[39m[0m
+  [0m [90m 47 |[39m   }[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (d1e328679a3aed56)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 131 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/banrachitiet/banrachitiet.module.ts[39m[22m [1m[32m6:32-66[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './muavaochitiet.service' in 'F:\chikiet\BEKetoan\be_ketoan\src\app\banrachitiet'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/banrachitiet/banrachitiet.module.ts[39m[22m [1m[32m7:35-72[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './muavaochitiet.controller' in 'F:\chikiet\BEKetoan\be_ketoan\src\app\banrachitiet'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/banrachitiet/banrachitiet.module.ts[39m[22m [1m[32m9:31-73[39m[22m
+[1mModule [1m[31mnot found[39m[22m[1m: [1m[31mError[39m[22m[1m: Can't resolve './entities/muavaochitiet.entity' in 'F:\chikiet\BEKetoan\be_ketoan\src\app\banrachitiet'[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/app.module.ts:[32m[1m6:10[22m[39m[1m[39m[22m
+[90mTS2724: [39m'"./banrachitiet/banrachitiet.module"' has no exported member named 'BanrachitietModule'. Did you mean 'MuavaochitietModule'?
+  [0m [90m 4 |[39m [36mimport[39m { [33mTypeOrmModule[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { hoadonbanraModule } [36mfrom[39m [32m'./hoadonbanra/hoadonbanra.module'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mBanrachitietModule[39m } [36mfrom[39m [32m'./banrachitiet/banrachitiet.module'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 7 |[39m [36mimport[39m { [33mMuavaoModule[39m } [36mfrom[39m [32m'./muavao/muavao.module'[39m[33m;[39m[0m
+  [0m [90m 8 |[39m [36mimport[39m { [33mMuavaochitietModule[39m } [36mfrom[39m [32m'./muavaochitiet/muavaochitiet.module'[39m[33m;[39m[0m
+  [0m [90m 9 |[39m [36mimport[39m { [33mCauhinhModule[39m } [36mfrom[39m [32m'./cauhinh/cauhinh.module'[39m[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/banrachitiet/banrachitiet.module.ts:[32m[1m2:38[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './muavaochitiet.service' or its corresponding type declarations.
+  [0m [90m 1 |[39m [36mimport[39m { [33mModule[39m } [36mfrom[39m [32m'@nestjs/common'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 2 |[39m [36mimport[39m { [33mMuavaochitietService[39m } [36mfrom[39m [32m'./muavaochitiet.service'[39m[33m;[39m[0m
+  [0m [90m   |[39m                                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 3 |[39m [36mimport[39m { [33mMuavaochitietController[39m } [36mfrom[39m [32m'./muavaochitiet.controller'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mTypeOrmModule[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mMuavaochitietEntity[39m } [36mfrom[39m [32m'./entities/muavaochitiet.entity'[39m[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/banrachitiet/banrachitiet.module.ts:[32m[1m3:41[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './muavaochitiet.controller' or its corresponding type declarations.
+  [0m [90m 1 |[39m [36mimport[39m { [33mModule[39m } [36mfrom[39m [32m'@nestjs/common'[39m[33m;[39m[0m
+  [0m [90m 2 |[39m [36mimport[39m { [33mMuavaochitietService[39m } [36mfrom[39m [32m'./muavaochitiet.service'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 3 |[39m [36mimport[39m { [33mMuavaochitietController[39m } [36mfrom[39m [32m'./muavaochitiet.controller'[39m[33m;[39m[0m
+  [0m [90m   |[39m                                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mTypeOrmModule[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mMuavaochitietEntity[39m } [36mfrom[39m [32m'./entities/muavaochitiet.entity'[39m[33m;[39m[0m
+  [0m [90m 6 |[39m [33m@[39m[33mModule[39m({[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/banrachitiet/banrachitiet.module.ts:[32m[1m5:37[22m[39m[1m[39m[22m
+[90mTS2307: [39mCannot find module './entities/muavaochitiet.entity' or its corresponding type declarations.
+  [0m [90m 3 |[39m [36mimport[39m { [33mMuavaochitietController[39m } [36mfrom[39m [32m'./muavaochitiet.controller'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mTypeOrmModule[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mMuavaochitietEntity[39m } [36mfrom[39m [32m'./entities/muavaochitiet.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m                                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 6 |[39m [33m@[39m[33mModule[39m({[0m
+  [0m [90m 7 |[39m   imports[33m:[39m [[33mTypeOrmModule[39m[33m.[39mforFeature([[33mMuavaochitietEntity[39m])][33m,[39m[0m
+  [0m [90m 8 |[39m   controllers[33m:[39m [[33mMuavaochitietController[39m][33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/banrachitiet/banrachitiet.service.ts:[32m[1m44:9[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ SHD: any; Thang: any; }' is not assignable to type 'FindOptionsWhere<BanrachitietEntity> | FindOptionsWhere<BanrachitietEntity>[]'.
+  Object literal may only specify known properties, and 'Thang' does not exist in type 'FindOptionsWhere<BanrachitietEntity> | FindOptionsWhere<BanrachitietEntity>[]'.
+  [0m [90m 42 |[39m       where[33m:[39m { [0m
+  [0m [90m 43 |[39m         [33mSHD[39m[33m:[39m data[33m.[39m[33mSHD[39m[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 44 |[39m         [33mThang[39m[33m:[39mdata[33m.[39m[33mThang[39m[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 45 |[39m       }[33m,[39m[0m
+  [0m [90m 46 |[39m     })[33m;[39m[0m
+  [0m [90m 47 |[39m   }[0m
+
+webpack compiled with [1m[31m8 errors[39m[22m (ca76769bb3320637)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 143 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/banrachitiet/banrachitiet.service.ts:[32m[1m44:9[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ SHD: any; Thang: any; }' is not assignable to type 'FindOptionsWhere<BanrachitietEntity> | FindOptionsWhere<BanrachitietEntity>[]'.
+  Object literal may only specify known properties, and 'Thang' does not exist in type 'FindOptionsWhere<BanrachitietEntity> | FindOptionsWhere<BanrachitietEntity>[]'.
+  [0m [90m 42 |[39m       where[33m:[39m { [0m
+  [0m [90m 43 |[39m         [33mSHD[39m[33m:[39m data[33m.[39m[33mSHD[39m[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 44 |[39m         [33mThang[39m[33m:[39mdata[33m.[39m[33mThang[39m[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 45 |[39m       }[33m,[39m[0m
+  [0m [90m 46 |[39m     })[33m;[39m[0m
+  [0m [90m 47 |[39m   }[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (6a0979a86bd1cc52)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 143 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/banrachitiet/banrachitiet.service.ts:[32m[1m44:9[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ SHD: any; Thang: any; }' is not assignable to type 'FindOptionsWhere<BanrachitietEntity> | FindOptionsWhere<BanrachitietEntity>[]'.
+  Object literal may only specify known properties, and 'Thang' does not exist in type 'FindOptionsWhere<BanrachitietEntity> | FindOptionsWhere<BanrachitietEntity>[]'.
+  [0m [90m 42 |[39m       where[33m:[39m { [0m
+  [0m [90m 43 |[39m         [33mSHD[39m[33m:[39m data[33m.[39m[33mSHD[39m[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 44 |[39m         [33mThang[39m[33m:[39mdata[33m.[39m[33mThang[39m[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 45 |[39m       }[33m,[39m[0m
+  [0m [90m 46 |[39m     })[33m;[39m[0m
+  [0m [90m 47 |[39m   }[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (6a0979a86bd1cc52)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 143 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/banrachitiet/banrachitiet.service.ts:[32m[1m44:9[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ SHD: any; Thang: any; }' is not assignable to type 'FindOptionsWhere<BanrachitietEntity> | FindOptionsWhere<BanrachitietEntity>[]'.
+  Object literal may only specify known properties, and 'Thang' does not exist in type 'FindOptionsWhere<BanrachitietEntity> | FindOptionsWhere<BanrachitietEntity>[]'.
+  [0m [90m 42 |[39m       where[33m:[39m { [0m
+  [0m [90m 43 |[39m         [33mSHD[39m[33m:[39m data[33m.[39m[33mSHD[39m[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 44 |[39m         [33mThang[39m[33m:[39mdata[33m.[39m[33mThang[39m[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 45 |[39m       }[33m,[39m[0m
+  [0m [90m 46 |[39m     })[33m;[39m[0m
+  [0m [90m 47 |[39m   }[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (6a0979a86bd1cc52)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 144 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/banrachitiet/banrachitiet.service.ts:[32m[1m44:9[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ SHD: any; Thang: any; }' is not assignable to type 'FindOptionsWhere<BanrachitietEntity> | FindOptionsWhere<BanrachitietEntity>[]'.
+  Object literal may only specify known properties, and 'Thang' does not exist in type 'FindOptionsWhere<BanrachitietEntity> | FindOptionsWhere<BanrachitietEntity>[]'.
+  [0m [90m 42 |[39m       where[33m:[39m { [0m
+  [0m [90m 43 |[39m         [33mSHD[39m[33m:[39m data[33m.[39m[33mSHD[39m[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 44 |[39m         [33mThang[39m[33m:[39mdata[33m.[39m[33mThang[39m[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 45 |[39m       }[33m,[39m[0m
+  [0m [90m 46 |[39m     })[33m;[39m[0m
+  [0m [90m 47 |[39m   }[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (c6796cc7f812a622)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 144 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/banrachitiet/banrachitiet.service.ts:[32m[1m44:9[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ SHD: any; Thang: any; }' is not assignable to type 'FindOptionsWhere<BanrachitietEntity> | FindOptionsWhere<BanrachitietEntity>[]'.
+  Object literal may only specify known properties, and 'Thang' does not exist in type 'FindOptionsWhere<BanrachitietEntity> | FindOptionsWhere<BanrachitietEntity>[]'.
+  [0m [90m 42 |[39m       where[33m:[39m { [0m
+  [0m [90m 43 |[39m         [33mSHD[39m[33m:[39m data[33m.[39m[33mSHD[39m[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 44 |[39m         [33mThang[39m[33m:[39mdata[33m.[39m[33mThang[39m[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 45 |[39m       }[33m,[39m[0m
+  [0m [90m 46 |[39m     })[33m;[39m[0m
+  [0m [90m 47 |[39m   }[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (c6796cc7f812a622)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 144 KiB [1m[33m[entry][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/banrachitiet/banrachitiet.service.ts:[32m[1m44:9[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ SHD: any; Thang: any; }' is not assignable to type 'FindOptionsWhere<BanrachitietEntity> | FindOptionsWhere<BanrachitietEntity>[]'.
+  Object literal may only specify known properties, and 'Thang' does not exist in type 'FindOptionsWhere<BanrachitietEntity> | FindOptionsWhere<BanrachitietEntity>[]'.
+  [0m [90m 42 |[39m       where[33m:[39m { [0m
+  [0m [90m 43 |[39m         [33mSHD[39m[33m:[39m data[33m.[39m[33mSHD[39m[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 44 |[39m         [33mThang[39m[33m:[39mdata[33m.[39m[33mThang[39m[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 45 |[39m       }[33m,[39m[0m
+  [0m [90m 46 |[39m     })[33m;[39m[0m
+  [0m [90m 47 |[39m   }[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (c6796cc7f812a622)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 144 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/banrachitiet/banrachitiet.module.ts:[32m[1m5:10[22m[39m[1m[39m[22m
+[90mTS2724: [39m'"./entities/banrachitiet.entity"' has no exported member named 'BanrachitietEntity'. Did you mean 'MuavaochitietEntity'?
+  [0m [90m 3 |[39m [36mimport[39m { [33mBanrachitietController[39m } [36mfrom[39m [32m'./banrachitiet.controller'[39m[33m;[39m[0m
+  [0m [90m 4 |[39m [36mimport[39m { [33mTypeOrmModule[39m } [36mfrom[39m [32m'@nestjs/typeorm'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 5 |[39m [36mimport[39m { [33mBanrachitietEntity[39m } [36mfrom[39m [32m'./entities/banrachitiet.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 6 |[39m [33m@[39m[33mModule[39m({[0m
+  [0m [90m 7 |[39m   imports[33m:[39m [[33mTypeOrmModule[39m[33m.[39mforFeature([[33mBanrachitietEntity[39m])][33m,[39m[0m
+  [0m [90m 8 |[39m   controllers[33m:[39m [[33mBanrachitietController[39m][33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/banrachitiet/banrachitiet.service.ts:[32m[1m6:10[22m[39m[1m[39m[22m
+[90mTS2724: [39m'"./entities/banrachitiet.entity"' has no exported member named 'BanrachitietEntity'. Did you mean 'MuavaochitietEntity'?
+  [0m [90m 4 |[39m [36mimport[39m { [33mCreateBanrachitietDto[39m } [36mfrom[39m [32m'./dto/create-banrachitiet.dto'[39m[33m;[39m[0m
+  [0m [90m 5 |[39m [36mimport[39m { [33mUpdateBanrachitietDto[39m } [36mfrom[39m [32m'./dto/update-banrachitiet.dto'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 6 |[39m [36mimport[39m { [33mBanrachitietEntity[39m } [36mfrom[39m [32m'./entities/banrachitiet.entity'[39m[33m;[39m[0m
+  [0m [90m   |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 7 |[39m [33m@[39m[33mInjectable[39m()[0m
+  [0m [90m 8 |[39m [36mexport[39m [36mclass[39m [33mBanrachitietService[39m {[0m
+  [0m [90m 9 |[39m   constructor([0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (15a9ce1e9e2c05f5)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 144 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (5aa9463cf3cdf563)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 144 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (5aa9463cf3cdf563)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 144 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (5aa9463cf3cdf563)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 144 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (5aa9463cf3cdf563)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m

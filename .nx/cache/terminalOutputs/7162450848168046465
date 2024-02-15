@@ -1,0 +1,368 @@
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 194 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (5a36027fa238efcf)
+[1m[31mStarting inspector on localhost:9229 failed: address already in use[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (c5da98449a31a749)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts[39m[22m
+[1m./src/app/hoadonhhp/hoadonhhp.service.ts[39m[22m [1m[32m71:19-24[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts(71,20)[39m[22m
+[1m[31m      TS1005: ')' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts[39m[22m
+[1m./src/app/hoadonhhp/hoadonhhp.service.ts[39m[22m [1m[32m71:24-25[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts(71,25)[39m[22m
+[1m[31m      TS1128: Declaration or statement expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m71:20[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'Thang'.
+  [0m [90m 69 |[39m       queryBuilder[33m.[39mandWhere([32m'hoadonhhp.Thang =:Thang'[39m[33m,[39m { [33mThang[39m[33m:[39m [32m`${params.Thang}`[39m })[33m;[39m[0m
+  [0m [90m 70 |[39m     }[0m
+  [0m[31m[1m>[22m[39m[90m 71 |[39m     [36mif[39m (params[33m.[39mhas [33mThang[39m) {[0m
+  [0m [90m    |[39m                    [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 72 |[39m       queryBuilder[33m.[39mandWhere([32m'hoadonhhp.Thang =:Thang'[39m[33m,[39m { [33mThang[39m[33m:[39m [32m`${params.Thang}`[39m })[33m;[39m[0m
+  [0m [90m 73 |[39m     }[0m
+  [0m [90m 74 |[39m     [36mif[39m (params[33m.[39m[33mType[39m) {[0m
+
+webpack compiled with [1m[31m3 errors[39m[22m (3412c2a3d6502b20)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts[39m[22m
+[1m./src/app/hoadonhhp/hoadonhhp.service.ts[39m[22m [1m[32m71:20-25[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts(71,21)[39m[22m
+[1m[31m      TS1005: ')' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts[39m[22m
+[1m./src/app/hoadonhhp/hoadonhhp.service.ts[39m[22m [1m[32m71:25-26[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts(71,26)[39m[22m
+[1m[31m      TS1128: Declaration or statement expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m71:21[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'Thang'.
+  [0m [90m 69 |[39m       queryBuilder[33m.[39mandWhere([32m'hoadonhhp.Thang =:Thang'[39m[33m,[39m { [33mThang[39m[33m:[39m [32m`${params.Thang}`[39m })[33m;[39m[0m
+  [0m [90m 70 |[39m     }[0m
+  [0m[31m[1m>[22m[39m[90m 71 |[39m     [36mif[39m (params[33m.[39m[33mHaso[39m [33mThang[39m) {[0m
+  [0m [90m    |[39m                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 72 |[39m       queryBuilder[33m.[39mandWhere([32m'hoadonhhp.Thang =:Thang'[39m[33m,[39m { [33mThang[39m[33m:[39m [32m`${params.Thang}`[39m })[33m;[39m[0m
+  [0m [90m 73 |[39m     }[0m
+  [0m [90m 74 |[39m     [36mif[39m (params[33m.[39m[33mType[39m) {[0m
+
+webpack compiled with [1m[31m3 errors[39m[22m (1031c7778d231838)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts[39m[22m
+[1m./src/app/hoadonhhp/hoadonhhp.service.ts[39m[22m [1m[32m71:21-26[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts(71,22)[39m[22m
+[1m[31m      TS1005: ')' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts[39m[22m
+[1m./src/app/hoadonhhp/hoadonhhp.service.ts[39m[22m [1m[32m71:26-27[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts(71,27)[39m[22m
+[1m[31m      TS1128: Declaration or statement expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m71:22[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'Thang'.
+  [0m [90m 69 |[39m       queryBuilder[33m.[39mandWhere([32m'hoadonhhp.Thang =:Thang'[39m[33m,[39m { [33mThang[39m[33m:[39m [32m`${params.Thang}`[39m })[33m;[39m[0m
+  [0m [90m 70 |[39m     }[0m
+  [0m[31m[1m>[22m[39m[90m 71 |[39m     [36mif[39m (params[33m.[39m[33mHasow[39m [33mThang[39m) {[0m
+  [0m [90m    |[39m                      [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 72 |[39m       queryBuilder[33m.[39mandWhere([32m'hoadonhhp.Thang =:Thang'[39m[33m,[39m { [33mThang[39m[33m:[39m [32m`${params.Thang}`[39m })[33m;[39m[0m
+  [0m [90m 73 |[39m     }[0m
+  [0m [90m 74 |[39m     [36mif[39m (params[33m.[39m[33mType[39m) {[0m
+
+webpack compiled with [1m[31m3 errors[39m[22m (9f1317531d1b40c4)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (855de67fc073cc4c)
+[1m[31mStarting inspector on localhost:9229 failed: address already in use[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts[39m[22m
+[1m./src/app/hoadonhhp/hoadonhhp.service.ts[39m[22m [1m[32m71:30-35[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts(71,31)[39m[22m
+[1m[31m      TS1005: ')' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts[39m[22m
+[1m./src/app/hoadonhhp/hoadonhhp.service.ts[39m[22m [1m[32m71:35-36[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts(71,36)[39m[22m
+[1m[31m      TS1128: Declaration or statement expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m71:31[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'Thang'.
+  [0m [90m 69 |[39m       queryBuilder[33m.[39mandWhere([32m'hoadonhhp.Thang =:Thang'[39m[33m,[39m { [33mThang[39m[33m:[39m [32m`${params.Thang}`[39m })[33m;[39m[0m
+  [0m [90m 70 |[39m     }[0m
+  [0m[31m[1m>[22m[39m[90m 71 |[39m     [36mif[39m (params[33m.[39mhasOwnProperty [33mThang[39m) {[0m
+  [0m [90m    |[39m                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 72 |[39m       queryBuilder[33m.[39mandWhere([32m'hoadonhhp.Thang =:Thang'[39m[33m,[39m { [33mThang[39m[33m:[39m [32m`${params.Thang}`[39m })[33m;[39m[0m
+  [0m [90m 73 |[39m     }[0m
+  [0m [90m 74 |[39m     [36mif[39m (params[33m.[39m[33mType[39m) {[0m
+
+webpack compiled with [1m[31m3 errors[39m[22m (e8f7fd990eb38452)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts[39m[22m
+[1m./src/app/hoadonhhp/hoadonhhp.service.ts[39m[22m [1m[32m71:37-38[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\hoadonhhp\hoadonhhp.service.ts(71,38)[39m[22m
+[1m[31m      TS1005: ')' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m71:31[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'Thang'.
+  [0m [90m 69 |[39m       queryBuilder[33m.[39mandWhere([32m'hoadonhhp.Thang =:Thang'[39m[33m,[39m { [33mThang[39m[33m:[39m [32m`${params.Thang}`[39m })[33m;[39m[0m
+  [0m [90m 70 |[39m     }[0m
+  [0m[31m[1m>[22m[39m[90m 71 |[39m     [36mif[39m (params[33m.[39mhasOwnProperty([33mThang[39m) {[0m
+  [0m [90m    |[39m                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 72 |[39m       queryBuilder[33m.[39mandWhere([32m'hoadonhhp.Thang =:Thang'[39m[33m,[39m { [33mThang[39m[33m:[39m [32m`${params.Thang}`[39m })[33m;[39m[0m
+  [0m [90m 73 |[39m     }[0m
+  [0m [90m 74 |[39m     [36mif[39m (params[33m.[39m[33mType[39m) {[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (5c4f252833303ba9)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m71:31[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'Thang'.
+  [0m [90m 69 |[39m       queryBuilder[33m.[39mandWhere([32m'hoadonhhp.Thang =:Thang'[39m[33m,[39m { [33mThang[39m[33m:[39m [32m`${params.Thang}`[39m })[33m;[39m[0m
+  [0m [90m 70 |[39m     }[0m
+  [0m[31m[1m>[22m[39m[90m 71 |[39m     [36mif[39m (params[33m.[39mhasOwnProperty([33mThang[39m)) {[0m
+  [0m [90m    |[39m                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 72 |[39m       queryBuilder[33m.[39mandWhere([32m'hoadonhhp.Thang =:Thang'[39m[33m,[39m { [33mThang[39m[33m:[39m [32m`${params.Thang}`[39m })[33m;[39m[0m
+  [0m [90m 73 |[39m     }[0m
+  [0m [90m 74 |[39m     [36mif[39m (params[33m.[39m[33mType[39m) {[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (36b967939e404d46)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (57a1b279192e72c2)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (57a1b279192e72c2)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (57a1b279192e72c2)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (57a1b279192e72c2)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (57a1b279192e72c2)
+[1m[31mStarting inspector on localhost:9229 failed: address already in use[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (e18580cc85a002b9)
+[1m[31mStarting inspector on localhost:9229 failed: address already in use[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (9afca5d2003bde09)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (fa5c36d0b02429ca)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (fa5c36d0b02429ca)
+[1m[31mStarting inspector on localhost:9229 failed: address already in use[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (fa5c36d0b02429ca)
+[1m[31mStarting inspector on localhost:9229 failed: address already in use[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (fa5c36d0b02429ca)
+[1m[31mStarting inspector on localhost:9229 failed: address already in use[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (e998c92e65083e39)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (e998c92e65083e39)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (e998c92e65083e39)
+[1m[31mStarting inspector on localhost:9229 failed: address already in use[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (7a00fb9be9b5a068)
+[1m[31mStarting inspector on localhost:9229 failed: address already in use[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (c700dfe64e1801a4)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (c700dfe64e1801a4)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (c700dfe64e1801a4)
+[1m[31mStarting inspector on localhost:9229 failed: address already in use[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 526380  - [39m[31m02/03/2024, 10:18:28 PM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mUnknown column 'hoadonhhp.Thang' in 'where clause'[39m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mQueryFailedError: Unknown column 'hoadonhhp.Thang' in 'where clause'[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 526380  - [39m[31m02/03/2024, 10:18:31 PM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mUnknown column 'hoadonhhp.Thang' in 'where clause'[39m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mQueryFailedError: Unknown column 'hoadonhhp.Thang' in 'where clause'[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (c700dfe64e1801a4)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (c700dfe64e1801a4)
+[1m[31mStarting inspector on localhost:9229 failed: address already in use[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 527692  - [39m[31m02/03/2024, 10:18:54 PM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mUnknown column 'hoadonhhp.Thang' in 'where clause'[39m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mQueryFailedError: Unknown column 'hoadonhhp.Thang' in 'where clause'[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at Query.execute (F:\chikiet\BEKetoan\node_modules\mysql2\lib\commands\command.js:36:14)[39m[22m
+[1m[31m    at PoolConnection.handlePacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:478:34)[39m[22m
+[1m[31m    at PacketParser.onPacket (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:97:12)[39m[22m
+[1m[31m    at PacketParser.executeStart (F:\chikiet\BEKetoan\node_modules\mysql2\lib\packet_parser.js:75:16)[39m[22m
+[1m[31m    at Socket.<anonymous> (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:104:25)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at addChunk (node:internal/streams/readable:545:12)[39m[22m
+[1m[31m    at readableAddChunkPushByteMode (node:internal/streams/readable:495:3)[39m[22m
+[1m[31m    at Socket.Readable.push (node:internal/streams/readable:375:5)[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (d8429639020cfa0d)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (d8429639020cfa0d)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (d8429639020cfa0d)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (d8429639020cfa0d)
+[1m[31mStarting inspector on localhost:9229 failed: address already in use[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (e4e6240df0e37075)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (21e0c23491df4a57)
+[1m[31mStarting inspector on localhost:9229 failed: address already in use[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.service.ts:[32m[1m43:9[22m[39m[1m[39m[22m
+[90mTS1117: [39mAn object literal cannot have multiple properties with the same name.
+  [0m [90m 41 |[39m       where[33m:[39m { [0m
+  [0m [90m 42 |[39m         [33mSHD[39m[33m:[39m data[33m.[39m[33mSHD[39m[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 43 |[39m         [33mSHD[39m[33m:[39m data[33m.[39m[33mSHD[39m[33m,[39m[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 44 |[39m         [33mSHD[39m[33m:[39m data[33m.[39m[33mSHD[39m[33m,[39m[0m
+  [0m [90m 45 |[39m       }[33m,[39m[0m
+  [0m [90m 46 |[39m     })[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.service.ts:[32m[1m44:9[22m[39m[1m[39m[22m
+[90mTS1117: [39mAn object literal cannot have multiple properties with the same name.
+  [0m [90m 42 |[39m         [33mSHD[39m[33m:[39m data[33m.[39m[33mSHD[39m[33m,[39m[0m
+  [0m [90m 43 |[39m         [33mSHD[39m[33m:[39m data[33m.[39m[33mSHD[39m[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 44 |[39m         [33mSHD[39m[33m:[39m data[33m.[39m[33mSHD[39m[33m,[39m[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 45 |[39m       }[33m,[39m[0m
+  [0m [90m 46 |[39m     })[33m;[39m[0m
+  [0m [90m 47 |[39m   }[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (a9b27047b5c0420b)
+[1m[31mDebugger listening on ws://localhost:9229/f0bbee5c-66ac-4fc9-9c6d-469f727fbf51[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/f0bbee5c-66ac-4fc9-9c6d-469f727fbf51[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.service.ts:[32m[1m44:9[22m[39m[1m[39m[22m
+[90mTS1117: [39mAn object literal cannot have multiple properties with the same name.
+  [0m [90m 42 |[39m         [33mSHD[39m[33m:[39m data[33m.[39m[33mSHD[39m[33m,[39m[0m
+  [0m [90m 43 |[39m         [33mThang[39m[33m:[39m data[33m.[39m[33mSHD[39m[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 44 |[39m         [33mSHD[39m[33m:[39m data[33m.[39m[33mSHD[39m[33m,[39m[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 45 |[39m       }[33m,[39m[0m
+  [0m [90m 46 |[39m     })[33m;[39m[0m
+  [0m [90m 47 |[39m   }[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (2a034d1e24f01dac)
+[1m[31mDebugger listening on ws://localhost:9229/af7ea6f6-85c5-4c3f-b9e7-bed4e4c26082[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/af7ea6f6-85c5-4c3f-b9e7-bed4e4c26082[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/muavao/muavao.service.ts:[32m[1m44:9[22m[39m[1m[39m[22m
+[90mTS1117: [39mAn object literal cannot have multiple properties with the same name.
+  [0m [90m 42 |[39m         [33mSHD[39m[33m:[39m data[33m.[39m[33mSHD[39m[33m,[39m[0m
+  [0m [90m 43 |[39m         [33mThang[39m[33m:[39m data[33m.[39m[33mThang[39m[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 44 |[39m         [33mSHD[39m[33m:[39m data[33m.[39m[33mSHD[39m[33m,[39m[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 45 |[39m       }[33m,[39m[0m
+  [0m [90m 46 |[39m     })[33m;[39m[0m
+  [0m [90m 47 |[39m   }[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (0886aa739cf961ae)
+[1m[31mDebugger listening on ws://localhost:9229/cb06a28b-a0bd-4ebf-8511-5ce4b2d4a505[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/cb06a28b-a0bd-4ebf-8511-5ce4b2d4a505[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (96022ffa0e04a2e4)
+[1m[31mDebugger listening on ws://localhost:9229/7dec69e6-c5d0-4e46-b3ba-52a455288d66[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/7dec69e6-c5d0-4e46-b3ba-52a455288d66[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (db5307f7d7753a01)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (db5307f7d7753a01)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (db5307f7d7753a01)
+[1m[31mDebugger listening on ws://localhost:9229/b3359032-9a53-4ac6-98b0-f3bf57d7a363[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/b3359032-9a53-4ac6-98b0-f3bf57d7a363[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (db5307f7d7753a01)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (db5307f7d7753a01)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (db5307f7d7753a01)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (db5307f7d7753a01)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (db5307f7d7753a01)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (db5307f7d7753a01)
+[1m[31mDebugger listening on ws://localhost:9229/74f461e4-5682-4c9e-af1d-24147d11fff1[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/74f461e4-5682-4c9e-af1d-24147d11fff1[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (5a1856dd6ddf97a2)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (5a1856dd6ddf97a2)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (5a1856dd6ddf97a2)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (5a1856dd6ddf97a2)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (5a1856dd6ddf97a2)
+[1m[31mDebugger listening on ws://localhost:9229/7569bc7a-a13d-4509-9efd-013d9fcadf73[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/7569bc7a-a13d-4509-9efd-013d9fcadf73[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (5a1856dd6ddf97a2)
+[1m[31mDebugger listening on ws://localhost:9229/8afdb293-053a-4bef-b830-90ec65ea0c03[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/8afdb293-053a-4bef-b830-90ec65ea0c03[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m

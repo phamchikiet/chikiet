@@ -1,0 +1,111 @@
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (a1c6a26ea9f8a7e0)
+[1m[31mDebugger listening on ws://localhost:9229/0665c404-a048-4274-a971-de7359fc1205[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/0665c404-a048-4274-a971-de7359fc1205[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonhhp/hoadonhhp.service.ts:[32m[1m36:9[22m[39m[1m[39m[22m
+[90mTS1117: [39mAn object literal cannot have multiple properties with the same name.
+  [0m [90m 34 |[39m         [33mSHD[39m[33m:[39m data[33m.[39m[33mSHD[39m[33m,[39m[0m
+  [0m [90m 35 |[39m         [33mThang[39m[33m:[39m data[33m.[39m[33mThang[39m[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 36 |[39m         [33mThang[39m[33m:[39m data[33m.[39m[33mThang[39m[33m,[39m[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 37 |[39m         [33mType[39m[33m:[39m data[33m.[39m[33mType[39m[0m
+  [0m [90m 38 |[39m       }[33m,[39m[0m
+  [0m [90m 39 |[39m     })[33m;[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (115042c6cff90b60)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (77cf1cc631469b7d)
+[1m[31mDebugger listening on ws://localhost:9229/edf4522e-bf12-46bb-afd0-5eda6521e69b[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/edf4522e-bf12-46bb-afd0-5eda6521e69b[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (51619baa113be11d)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (51619baa113be11d)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (51619baa113be11d)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (51619baa113be11d)
+[1m[31mDebugger listening on ws://localhost:9229/67db4a94-09dc-40ce-9a30-42375e6c40c3[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/67db4a94-09dc-40ce-9a30-42375e6c40c3[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/hoadonbanra.service.ts:[32m[1m53:9[22m[39m[1m[39m[22m
+[90mTS1117: [39mAn object literal cannot have multiple properties with the same name.
+  [0m [90m 51 |[39m         [33mSHD[39m[33m:[39m data[33m.[39m[33mSHD[39m[33m,[39m[0m
+  [0m [90m 52 |[39m         [33mThang[39m[33m:[39mdata[33m.[39m[33mThang[39m[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 53 |[39m         [33mThang[39m[33m:[39mdata[33m.[39m[33mThang[39m[33m,[39m[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 54 |[39m         [33mThang[39m[33m:[39mdata[33m.[39m[33mThang[39m[33m,[39m[0m
+  [0m [90m 55 |[39m       }[33m,[39m[0m
+  [0m [90m 56 |[39m     })[33m;[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/hoadonbanra.service.ts:[32m[1m54:9[22m[39m[1m[39m[22m
+[90mTS1117: [39mAn object literal cannot have multiple properties with the same name.
+  [0m [90m 52 |[39m         [33mThang[39m[33m:[39mdata[33m.[39m[33mThang[39m[33m,[39m[0m
+  [0m [90m 53 |[39m         [33mThang[39m[33m:[39mdata[33m.[39m[33mThang[39m[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 54 |[39m         [33mThang[39m[33m:[39mdata[33m.[39m[33mThang[39m[33m,[39m[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 55 |[39m       }[33m,[39m[0m
+  [0m [90m 56 |[39m     })[33m;[39m[0m
+  [0m [90m 57 |[39m   }[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (dbd1414027b24ace)
+[1m[31mDebugger listening on ws://localhost:9229/59c5baa4-0a33-4940-b25f-349b2096a20d[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/59c5baa4-0a33-4940-b25f-349b2096a20d[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/hoadonbanra.service.ts:[32m[1m54:9[22m[39m[1m[39m[22m
+[90mTS1117: [39mAn object literal cannot have multiple properties with the same name.
+  [0m [90m 52 |[39m         [33mThang[39m[33m:[39mdata[33m.[39m[33mThang[39m[33m,[39m[0m
+  [0m [90m 53 |[39m         [33mNam[39m[33m:[39mdata[33m.[39m[33mThang[39m[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 54 |[39m         [33mThang[39m[33m:[39mdata[33m.[39m[33mThang[39m[33m,[39m[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 55 |[39m       }[33m,[39m[0m
+  [0m [90m 56 |[39m     })[33m;[39m[0m
+  [0m [90m 57 |[39m   }[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (f5f9dcdfe8166bc0)
+[1m[31mDebugger listening on ws://localhost:9229/0f4f6cff-9066-462d-be9c-2a3b8d15ac0f[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/0f4f6cff-9066-462d-be9c-2a3b8d15ac0f[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/hoadonbanra/hoadonbanra.service.ts:[32m[1m54:9[22m[39m[1m[39m[22m
+[90mTS1117: [39mAn object literal cannot have multiple properties with the same name.
+  [0m [90m 52 |[39m         [33mThang[39m[33m:[39mdata[33m.[39m[33mThang[39m[33m,[39m[0m
+  [0m [90m 53 |[39m         [33mNam[39m[33m:[39mdata[33m.[39m[33mNam[39m[33m,[39m[0m
+  [0m[31m[1m>[22m[39m[90m 54 |[39m         [33mThang[39m[33m:[39mdata[33m.[39m[33mThang[39m[33m,[39m[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 55 |[39m       }[33m,[39m[0m
+  [0m [90m 56 |[39m     })[33m;[39m[0m
+  [0m [90m 57 |[39m   }[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (824a2e447d7e9419)
+[1m[31mDebugger listening on ws://localhost:9229/3881337d-95f4-4824-a452-cce5db4bdc26[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/3881337d-95f4-4824-a452-cce5db4bdc26[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (e9546a288fb15e36)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (e8fa8c258302ab26)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (e8fa8c258302ab26)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (e8fa8c258302ab26)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 195 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (e8fa8c258302ab26)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m

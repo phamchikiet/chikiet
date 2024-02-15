@@ -1,0 +1,267 @@
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 97.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (5921900b13295471)
+[1m[31mDebugger listening on ws://localhost:9229/96e78e96-87a8-4a89-a0a0-e06f15c48b4a[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/96e78e96-87a8-4a89-a0a0-e06f15c48b4a[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 97.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\sanpham\sanpham.service.ts[39m[22m
+[1m./src/app/sanpham/sanpham.service.ts[39m[22m [1m[32m17:25-26[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\sanpham\sanpham.service.ts(17,26)[39m[22m
+[1m[31m      TS1005: ':' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/sanpham/sanpham.service.ts[39m[22m [1m[32m17:35[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: [1m[31mUnexpected[39m[22m[1m token (17:35)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|         const item = await this.findTenSP(data);
+|         if (item) {
+>             return { "Trùng SHD":  };
+|         }
+|         else {[39m[22m
+
+webpack compiled with [1m[31m2 errors[39m[22m (3e64676d26a0526c)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 97.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\sanpham\sanpham.service.ts[39m[22m
+[1m./src/app/sanpham/sanpham.service.ts[39m[22m [1m[32m17:18-29[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\sanpham\sanpham.service.ts(17,19)[39m[22m
+[1m[31m      TS1005: ',' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1mF:\chikiet\BEKetoan\be_ketoan\src\app\sanpham\sanpham.service.ts[39m[22m
+[1m./src/app/sanpham/sanpham.service.ts[39m[22m [1m[32m17:29-30[39m[22m
+[90m[tsl] [39m[1m[31mERROR[39m[22m[1m[31m in [39m[22m[1m[36mF:\chikiet\BEKetoan\be_ketoan\src\app\sanpham\sanpham.service.ts(17,30)[39m[22m
+[1m[31m      TS1005: ':' expected.[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./src/app/sanpham/sanpham.service.ts[39m[22m [1m[32m17:41[39m[22m
+[1mModule parse [1m[31mfailed[39m[22m[1m: [1m[31mUnexpected[39m[22m[1m token (17:41)
+File was processed with these loaders:
+ * ../node_modules/ts-loader/index.js
+You may need an additional loader to handle the result of these loaders.
+|         const item = await this.findTenSP(data);
+|         if (item) {
+>             return { resu, "Trùng SHD":  };
+|         }
+|         else {[39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.service.ts:[32m[1m17:15[22m[39m[1m[39m[22m
+[90mTS18004: [39mNo value exists in scope for the shorthand property 'resu'. Either declare one or provide an initializer.
+  [0m [90m 15 |[39m     [36mif[39m(item)[0m
+  [0m [90m 16 |[39m     {[0m
+  [0m[31m[1m>[22m[39m[90m 17 |[39m       [36mreturn[39m {resu[32m"Trùng SHD"[39m}[0m
+  [0m [90m    |[39m               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 18 |[39m     }[0m
+  [0m [90m 19 |[39m     [36melse[39m {[0m
+  [0m [90m 20 |[39m       [36mthis[39m[33m.[39m[33mSanphamRepository[39m[33m.[39mcreate(data)[33m;[39m[0m
+
+webpack compiled with [1m[31m4 errors[39m[22m (09ad79bc6e4ea029)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 97.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (870432c79063614b)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 97.6 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (870432c79063614b)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 97.6 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (870432c79063614b)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 97.6 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (870432c79063614b)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 97.6 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (870432c79063614b)
+[1m[31mDebugger listening on ws://localhost:9229/90a4fc87-9b37-4b2b-adaf-0e0502669d8f[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/90a4fc87-9b37-4b2b-adaf-0e0502669d8f[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 98 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/entities/sanpham.entity.ts:[32m[1m18:3[22m[39m[1m[39m[22m
+[90mTS2300: [39mDuplicate identifier 'TenSP'.
+  [0m [90m 16 |[39m   [33mTenSP[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 17 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m[31m[1m>[22m[39m[90m 18 |[39m   [33mTenSP[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 19 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m [90m 20 |[39m   [33mTenSP[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 21 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/entities/sanpham.entity.ts:[32m[1m20:3[22m[39m[1m[39m[22m
+[90mTS2300: [39mDuplicate identifier 'TenSP'.
+  [0m [90m 18 |[39m   [33mTenSP[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 19 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m[31m[1m>[22m[39m[90m 20 |[39m   [33mTenSP[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 21 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m [90m 22 |[39m   [33mMota[39m[33m:[39m string[33m;[39m[0m
+  [0m [90m 23 |[39m   [33m@[39m[33mColumn[39m({ [36mdefault[39m[33m:[39m [32m''[39m })[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (6acbc108e702f914)
+[1m[31mDebugger listening on ws://localhost:9229/6cebeac0-2b9c-4f46-b5d6-b0c120575e88[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/6cebeac0-2b9c-4f46-b5d6-b0c120575e88[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 98 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (a2feb8ba6e2d0bd4)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 98 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (a2feb8ba6e2d0bd4)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 98 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (a2feb8ba6e2d0bd4)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 98 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (a2feb8ba6e2d0bd4)
+[1m[31mDebugger listening on ws://localhost:9229/28f38a09-56a0-4417-935f-8d3fc4cc089c[39m[22m
+[1m[31m[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/28f38a09-56a0-4417-935f-8d3fc4cc089c[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 19876  - [39m[31m01/13/2024, 7:52:44 PM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mread ECONNRESET[39m[31m[39m[22m
+[1m[31mQueryFailedError: read ECONNRESET[39m[22m
+[1m[31m    at Query.onResult (F:\chikiet\BEKetoan\src\driver\mysql\MysqlQueryRunner.ts:222:33)[39m[22m
+[1m[31m    at PoolConnection._notifyError (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:228:21)[39m[22m
+[1m[31m    at PoolConnection._handleFatalError (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:183:10)[39m[22m
+[1m[31m    at PoolConnection._handleNetworkError (F:\chikiet\BEKetoan\node_modules\mysql2\lib\connection.js:196:10)[39m[22m
+[1m[31m    at Socket.emit (node:events:514:28)[39m[22m
+[1m[31m    at emitErrorNT (node:internal/streams/destroy:151:8)[39m[22m
+[1m[31m    at emitErrorCloseNT (node:internal/streams/destroy:116:3)[39m[22m
+[1m[31m    at processTicksAndRejections (node:internal/process/task_queues:82:21)[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 98 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (a2feb8ba6e2d0bd4)
+[1m[31mDebugger listening on ws://localhost:9229/b5831f00-8483-494c-8e8c-4856c0b0ae28[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/b5831f00-8483-494c-8e8c-4856c0b0ae28[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 98 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (fba1722d720a7f45)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 98 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (fba1722d720a7f45)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 98 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (fba1722d720a7f45)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 98 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (fba1722d720a7f45)
+[1m[31mDebugger listening on ws://localhost:9229/70e6cd79-19eb-473f-9ecd-e508548247ce[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/70e6cd79-19eb-473f-9ecd-e508548247ce[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 98 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (11832323294dffb8)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 98 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (11832323294dffb8)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 98 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (11832323294dffb8)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 98 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (11832323294dffb8)
+[1m[31mDebugger listening on ws://localhost:9229/aa39b636-c184-450d-b4d1-ebbe3700331d[39m[22m
+[1m[31m[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/aa39b636-c184-450d-b4d1-ebbe3700331d[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 98.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/entities/sanpham.entity.ts:[32m[1m14:3[22m[39m[1m[39m[22m
+[90mTS2300: [39mDuplicate identifier 'id'.
+  [0m [90m 12 |[39m   id[33m:[39m string[33m;[39m[0m
+  [0m [90m 13 |[39m   [33m@[39m[33mPrimaryGeneratedColumn[39m([32m'uuid'[39m)[0m
+  [0m[31m[1m>[22m[39m[90m 14 |[39m   id[33m:[39m string[33m;[39m[0m
+  [0m [90m    |[39m   [31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 15 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+  [0m [90m 16 |[39m   idDM[33m:[39m string[33m;[39m[0m
+  [0m [90m 17 |[39m   [33m@[39m[33mColumn[39m({ type[33m:[39m [32m'text'[39m[33m,[39m collation[33m:[39m [32m'utf8_general_ci'[39m })[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (abcc8b8dfa470ee0)
+[1m[31mDebugger listening on ws://localhost:9229/bafe6d89-8f1a-4bb6-ab00-3e5e14facb9e[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/bafe6d89-8f1a-4bb6-ab00-3e5e14facb9e[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 98.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (66c6c7008336ad8f)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 98.2 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (66c6c7008336ad8f)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 98.2 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (66c6c7008336ad8f)
+[1m[31mDebugger listening on ws://localhost:9229/41c68f4b-1b3b-4f35-a805-b4b8b6a652ca[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/41c68f4b-1b3b-4f35-a805-b4b8b6a652ca[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 98.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (ff8a288789422a66)
+[1m[31mDebugger listening on ws://localhost:9229/6884bbf4-4a67-4bab-b0f5-52b5a71e461a[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/6884bbf4-4a67-4bab-b0f5-52b5a71e461a[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 98.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (3b4de1f6fe66fd12)
+[1m[31mDebugger listening on ws://localhost:9229/e532fece-3fb2-4216-a078-784734a82514[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/e532fece-3fb2-4216-a078-784734a82514[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 98.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (c61e14a370626ca3)
+[1m[31mDebugger listening on ws://localhost:9229/5457189d-d8d6-4ab4-a45f-785df6b6c68b[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/5457189d-d8d6-4ab4-a45f-785df6b6c68b[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 98.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (865f072961876613)
+[1m[31mDebugger listening on ws://localhost:9229/3a05576f-7ac2-499b-ad22-76d7e536f03e[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/3a05576f-7ac2-499b-ad22-76d7e536f03e[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 98.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (69dac04f61fc0ff7)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 98.2 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (69dac04f61fc0ff7)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 98.2 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (69dac04f61fc0ff7)
+[1m[31mDebugger listening on ws://localhost:9229/b4ffcae2-a7d1-4956-9751-56d86aef832a[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/b4ffcae2-a7d1-4956-9751-56d86aef832a[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 98.2 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (69dac04f61fc0ff7)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 98.2 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (69dac04f61fc0ff7)
+[1m[31mDebugger listening on ws://localhost:9229/f20e9b4b-e233-4126-94b3-dcf5efcc00f0[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/f20e9b4b-e233-4126-94b3-dcf5efcc00f0[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 98.2 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (69dac04f61fc0ff7)
+[1m[31mDebugger listening on ws://localhost:9229/2530df3f-24d5-4bb5-ab87-7541f5536516[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/2530df3f-24d5-4bb5-ab87-7541f5536516[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 98.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/entities/sanpham.entity.ts:[32m[1m9:32[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '"idSP"' is not assignable to type '"ASC" | "DESC" | { order: "ASC" | "DESC"; nulls?: "NULLS FIRST" | "NULLS LAST"; }'.
+  [0m [90m  7 |[39m   [33mDeleteDateColumn[39m[33m,[39m[0m
+  [0m [90m  8 |[39m } [36mfrom[39m [32m'typeorm'[39m[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m  9 |[39m [33m@[39m[33mEntity[39m([32m'sanpham'[39m[33m,[39m {orderBy[33m:[39m { [33mTenSP[39m[33m:[39m [32m'idSP'[39m } })[0m
+  [0m [90m    |[39m                                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 10 |[39m [36mexport[39m [36mclass[39m [33mSanphamEntity[39m {[0m
+  [0m [90m 11 |[39m   [33m@[39m[33mPrimaryGeneratedColumn[39m([32m'uuid'[39m)[0m
+  [0m [90m 12 |[39m   id[33m:[39m string[33m;[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (499a406ff562710e)
+[1m[31mDebugger listening on ws://localhost:9229/0a993419-ca8b-4e30-9f3c-a0321dde286b[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/0a993419-ca8b-4e30-9f3c-a0321dde286b[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 98.2 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (dbc6c62b5adf6620)
+[1m[31mDebugger listening on ws://localhost:9229/40de65fc-d70e-48b8-9749-d13bc5174af7[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/40de65fc-d70e-48b8-9749-d13bc5174af7[39m[22m
+[1m[31m[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 98.1 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (c911b203850dd40c)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 98.1 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (c911b203850dd40c)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 98.1 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (c911b203850dd40c)
+[1m[31mDebugger listening on ws://localhost:9229/1827ec3f-04ae-495a-a94d-3ac1148b0065[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/1827ec3f-04ae-495a-a94d-3ac1148b0065[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m

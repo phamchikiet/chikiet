@@ -1,0 +1,1163 @@
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 97.4 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (47ea4fb4fef4432b)
+[1m[31mDebugger listening on ws://localhost:9229/80359911-5f82-4311-bc14-d2f6b6cae227[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/80359911-5f82-4311-bc14-d2f6b6cae227[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 97.4 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (47ea4fb4fef4432b)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 97.4 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (47ea4fb4fef4432b)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 97.4 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (47ea4fb4fef4432b)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 97.4 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (47ea4fb4fef4432b)
+[1m[31mDebugger listening on ws://localhost:9229/13c940f5-71ea-4b0b-9fb0-27a27d5405b0[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/13c940f5-71ea-4b0b-9fb0-27a27d5405b0[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 21468  - [39m[31m01/13/2024, 7:21:10 PM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mrequest entity too large[39m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mPayloadTooLargeError: request entity too large[39m[22m
+[1m[31m    at readStream (F:\chikiet\BEKetoan\node_modules\raw-body\index.js:163:17)[39m[22m
+[1m[31m    at getRawBody (F:\chikiet\BEKetoan\node_modules\raw-body\index.js:116:12)[39m[22m
+[1m[31m    at read (F:\chikiet\BEKetoan\node_modules\body-parser\lib\read.js:79:3)[39m[22m
+[1m[31m    at jsonParser (F:\chikiet\BEKetoan\node_modules\body-parser\lib\types\json.js:138:5)[39m[22m
+[1m[31m    at Layer.handle [as handle_request] (F:\chikiet\BEKetoan\node_modules\express\lib\router\layer.js:95:5)[39m[22m
+[1m[31m    at trim_prefix (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:328:13)[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:286:9[39m[22m
+[1m[31m    at Function.process_params (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:346:12)[39m[22m
+[1m[31m    at next (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:280:10)[39m[22m
+[1m[31m    at cors (F:\chikiet\BEKetoan\node_modules\cors\lib\index.js:188:7)[39m[22m
+[1m[31m[31m[Nest] 21468  - [39m[31m01/13/2024, 7:21:10 PM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mrequest entity too large[39m[31m[39m[22m
+[1m[31mPayloadTooLargeError: request entity too large[39m[22m
+[1m[31m    at readStream (F:\chikiet\BEKetoan\node_modules\raw-body\index.js:163:17)[39m[22m
+[1m[31m    at getRawBody (F:\chikiet\BEKetoan\node_modules\raw-body\index.js:116:12)[39m[22m
+[1m[31m    at read (F:\chikiet\BEKetoan\node_modules\body-parser\lib\read.js:79:3)[39m[22m
+[1m[31m    at jsonParser (F:\chikiet\BEKetoan\node_modules\body-parser\lib\types\json.js:138:5)[39m[22m
+[1m[31m    at Layer.handle [as handle_request] (F:\chikiet\BEKetoan\node_modules\express\lib\router\layer.js:95:5)[39m[22m
+[1m[31m    at trim_prefix (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:328:13)[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:286:9[39m[22m
+[1m[31m    at Function.process_params (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:346:12)[39m[22m
+[1m[31m    at next (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:280:10)[39m[22m
+[1m[31m    at cors (F:\chikiet\BEKetoan\node_modules\cors\lib\index.js:188:7)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 21468  - [39m[31m01/13/2024, 7:21:10 PM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mrequest entity too large[39m[31m[39m[22m
+[1m[31mPayloadTooLargeError: request entity too large[39m[22m
+[1m[31m    at readStream (F:\chikiet\BEKetoan\node_modules\raw-body\index.js:163:17)[39m[22m
+[1m[31m    at getRawBody (F:\chikiet\BEKetoan\node_modules\raw-body\index.js:116:12)[39m[22m
+[1m[31m    at read (F:\chikiet\BEKetoan\node_modules\body-parser\lib\read.js:79:3)[39m[22m
+[1m[31m    at jsonParser (F:\chikiet\BEKetoan\node_modules\body-parser\lib\types\json.js:138:5)[39m[22m
+[1m[31m    at Layer.handle [as handle_request] (F:\chikiet\BEKetoan\node_modules\express\lib\router\layer.js:95:5)[39m[22m
+[1m[31m    at trim_prefix (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:328:13)[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:286:9[39m[22m
+[1m[31m    at Function.process_params (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:346:12)[39m[22m
+[1m[31m    at next (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:280:10)[39m[22m
+[1m[31m    at cors (F:\chikiet\BEKetoan\node_modules\cors\lib\index.js:188:7)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 21468  - [39m[31m01/13/2024, 7:21:10 PM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mrequest entity too large[39m[31m[39m[22m
+[1m[31mPayloadTooLargeError: request entity too large[39m[22m
+[1m[31m    at readStream (F:\chikiet\BEKetoan\node_modules\raw-body\index.js:163:17)[39m[22m
+[1m[31m    at getRawBody (F:\chikiet\BEKetoan\node_modules\raw-body\index.js:116:12)[39m[22m
+[1m[31m    at read (F:\chikiet\BEKetoan\node_modules\body-parser\lib\read.js:79:3)[39m[22m
+[1m[31m    at jsonParser (F:\chikiet\BEKetoan\node_modules\body-parser\lib\types\json.js:138:5)[39m[22m
+[1m[31m    at Layer.handle [as handle_request] (F:\chikiet\BEKetoan\node_modules\express\lib\router\layer.js:95:5)[39m[22m
+[1m[31m    at trim_prefix (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:328:13)[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:286:9[39m[22m
+[1m[31m    at Function.process_params (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:346:12)[39m[22m
+[1m[31m    at next (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:280:10)[39m[22m
+[1m[31m    at cors (F:\chikiet\BEKetoan\node_modules\cors\lib\index.js:188:7)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 21468  - [39m[31m01/13/2024, 7:21:10 PM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mrequest entity too large[39m[31m[39m[22m
+[1m[31mPayloadTooLargeError: request entity too large[39m[22m
+[1m[31m    at readStream (F:\chikiet\BEKetoan\node_modules\raw-body\index.js:163:17)[39m[22m
+[1m[31m    at getRawBody (F:\chikiet\BEKetoan\node_modules\raw-body\index.js:116:12)[39m[22m
+[1m[31m    at read (F:\chikiet\BEKetoan\node_modules\body-parser\lib\read.js:79:3)[39m[22m
+[1m[31m    at jsonParser (F:\chikiet\BEKetoan\node_modules\body-parser\lib\types\json.js:138:5)[39m[22m
+[1m[31m    at Layer.handle [as handle_request] (F:\chikiet\BEKetoan\node_modules\express\lib\router\layer.js:95:5)[39m[22m
+[1m[31m    at trim_prefix (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:328:13)[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:286:9[39m[22m
+[1m[31m    at Function.process_params (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:346:12)[39m[22m
+[1m[31m    at next (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:280:10)[39m[22m
+[1m[31m    at cors (F:\chikiet\BEKetoan\node_modules\cors\lib\index.js:188:7)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 21468  - [39m[31m01/13/2024, 7:21:10 PM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mrequest entity too large[39m[31m[39m[22m
+[1m[31mPayloadTooLargeError: request entity too large[39m[22m
+[1m[31m    at readStream (F:\chikiet\BEKetoan\node_modules\raw-body\index.js:163:17)[39m[22m
+[1m[31m    at getRawBody (F:\chikiet\BEKetoan\node_modules\raw-body\index.js:116:12)[39m[22m
+[1m[31m    at read (F:\chikiet\BEKetoan\node_modules\body-parser\lib\read.js:79:3)[39m[22m
+[1m[31m    at jsonParser (F:\chikiet\BEKetoan\node_modules\body-parser\lib\types\json.js:138:5)[39m[22m
+[1m[31m    at Layer.handle [as handle_request] (F:\chikiet\BEKetoan\node_modules\express\lib\router\layer.js:95:5)[39m[22m
+[1m[31m    at trim_prefix (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:328:13)[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:286:9[39m[22m
+[1m[31m    at Function.process_params (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:346:12)[39m[22m
+[1m[31m    at next (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:280:10)[39m[22m
+[1m[31m    at cors (F:\chikiet\BEKetoan\node_modules\cors\lib\index.js:188:7)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 21468  - [39m[31m01/13/2024, 7:21:10 PM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mrequest entity too large[39m[31m[39m[22m
+[1m[31mPayloadTooLargeError: request entity too large[39m[22m
+[1m[31m    at readStream (F:\chikiet\BEKetoan\node_modules\raw-body\index.js:163:17)[39m[22m
+[1m[31m    at getRawBody (F:\chikiet\BEKetoan\node_modules\raw-body\index.js:116:12)[39m[22m
+[1m[31m    at read (F:\chikiet\BEKetoan\node_modules\body-parser\lib\read.js:79:3)[39m[22m
+[1m[31m    at jsonParser (F:\chikiet\BEKetoan\node_modules\body-parser\lib\types\json.js:138:5)[39m[22m
+[1m[31m    at Layer.handle [as handle_request] (F:\chikiet\BEKetoan\node_modules\express\lib\router\layer.js:95:5)[39m[22m
+[1m[31m    at trim_prefix (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:328:13)[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:286:9[39m[22m
+[1m[31m    at Function.process_params (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:346:12)[39m[22m
+[1m[31m    at next (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:280:10)[39m[22m
+[1m[31m    at cors (F:\chikiet\BEKetoan\node_modules\cors\lib\index.js:188:7)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 21468  - [39m[31m01/13/2024, 7:21:10 PM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mrequest entity too large[39m[31m[39m[22m
+[1m[31mPayloadTooLargeError: request entity too large[39m[22m
+[1m[31m    at readStream (F:\chikiet\BEKetoan\node_modules\raw-body\index.js:163:17)[39m[22m
+[1m[31m    at getRawBody (F:\chikiet\BEKetoan\node_modules\raw-body\index.js:116:12)[39m[22m
+[1m[31m    at read (F:\chikiet\BEKetoan\node_modules\body-parser\lib\read.js:79:3)[39m[22m
+[1m[31m    at jsonParser (F:\chikiet\BEKetoan\node_modules\body-parser\lib\types\json.js:138:5)[39m[22m
+[1m[31m    at Layer.handle [as handle_request] (F:\chikiet\BEKetoan\node_modules\express\lib\router\layer.js:95:5)[39m[22m
+[1m[31m    at trim_prefix (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:328:13)[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:286:9[39m[22m
+[1m[31m    at Function.process_params (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:346:12)[39m[22m
+[1m[31m    at next (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:280:10)[39m[22m
+[1m[31m    at cors (F:\chikiet\BEKetoan\node_modules\cors\lib\index.js:188:7)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 21468  - [39m[31m01/13/2024, 7:21:10 PM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mrequest entity too large[39m[31m[39m[22m
+[1m[31mPayloadTooLargeError: request entity too large[39m[22m
+[1m[31m    at readStream (F:\chikiet\BEKetoan\node_modules\raw-body\index.js:163:17)[39m[22m
+[1m[31m    at getRawBody (F:\chikiet\BEKetoan\node_modules\raw-body\index.js:116:12)[39m[22m
+[1m[31m    at read (F:\chikiet\BEKetoan\node_modules\body-parser\lib\read.js:79:3)[39m[22m
+[1m[31m    at jsonParser (F:\chikiet\BEKetoan\node_modules\body-parser\lib\types\json.js:138:5)[39m[22m
+[1m[31m    at Layer.handle [as handle_request] (F:\chikiet\BEKetoan\node_modules\express\lib\router\layer.js:95:5)[39m[22m
+[1m[31m    at trim_prefix (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:328:13)[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:286:9[39m[22m
+[1m[31m    at Function.process_params (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:346:12)[39m[22m
+[1m[31m    at next (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:280:10)[39m[22m
+[1m[31m    at cors (F:\chikiet\BEKetoan\node_modules\cors\lib\index.js:188:7)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 21468  - [39m[31m01/13/2024, 7:21:10 PM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mrequest entity too large[39m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mPayloadTooLargeError: request entity too large[39m[22m
+[1m[31m    at readStream (F:\chikiet\BEKetoan\node_modules\raw-body\index.js:163:17)[39m[22m
+[1m[31m    at getRawBody (F:\chikiet\BEKetoan\node_modules\raw-body\index.js:116:12)[39m[22m
+[1m[31m    at read (F:\chikiet\BEKetoan\node_modules\body-parser\lib\read.js:79:3)[39m[22m
+[1m[31m    at jsonParser (F:\chikiet\BEKetoan\node_modules\body-parser\lib\types\json.js:138:5)[39m[22m
+[1m[31m    at Layer.handle [as handle_request] (F:\chikiet\BEKetoan\node_modules\express\lib\router\layer.js:95:5)[39m[22m
+[1m[31m    at trim_prefix (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:328:13)[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:286:9[39m[22m
+[1m[31m    at Function.process_params (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:346:12)[39m[22m
+[1m[31m    at next (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:280:10)[39m[22m
+[1m[31m    at cors (F:\chikiet\BEKetoan\node_modules\cors\lib\index.js:188:7)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 21468  - [39m[31m01/13/2024, 7:21:10 PM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mrequest entity too large[39m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mPayloadTooLargeError: request entity too large[39m[22m
+[1m[31m    at readStream (F:\chikiet\BEKetoan\node_modules\raw-body\index.js:163:17)[39m[22m
+[1m[31m    at getRawBody (F:\chikiet\BEKetoan\node_modules\raw-body\index.js:116:12)[39m[22m
+[1m[31m    at read (F:\chikiet\BEKetoan\node_modules\body-parser\lib\read.js:79:3)[39m[22m
+[1m[31m    at jsonParser (F:\chikiet\BEKetoan\node_modules\body-parser\lib\types\json.js:138:5)[39m[22m
+[1m[31m    at Layer.handle [as handle_request] (F:\chikiet\BEKetoan\node_modules\express\lib\router\layer.js:95:5)[39m[22m
+[1m[31m    at trim_prefix (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:328:13)[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:286:9[39m[22m
+[1m[31m    at Function.process_params (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:346:12)[39m[22m
+[1m[31m    at next (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:280:10)[39m[22m
+[1m[31m    at cors (F:\chikiet\BEKetoan\node_modules\cors\lib\index.js:188:7)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 21468  - [39m[31m01/13/2024, 7:21:10 PM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mrequest entity too large[39m[31m[39m[22m
+[1m[31mPayloadTooLargeError: request entity too large[39m[22m
+[1m[31m    at readStream (F:\chikiet\BEKetoan\node_modules\raw-body\index.js:163:17)[39m[22m
+[1m[31m    at getRawBody (F:\chikiet\BEKetoan\node_modules\raw-body\index.js:116:12)[39m[22m
+[1m[31m    at read (F:\chikiet\BEKetoan\node_modules\body-parser\lib\read.js:79:3)[39m[22m
+[1m[31m    at jsonParser (F:\chikiet\BEKetoan\node_modules\body-parser\lib\types\json.js:138:5)[39m[22m
+[1m[31m    at Layer.handle [as handle_request] (F:\chikiet\BEKetoan\node_modules\express\lib\router\layer.js:95:5)[39m[22m
+[1m[31m    at trim_prefix (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:328:13)[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:286:9[39m[22m
+[1m[31m    at Function.process_params (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:346:12)[39m[22m
+[1m[31m    at next (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:280:10)[39m[22m
+[1m[31m    at cors (F:\chikiet\BEKetoan\node_modules\cors\lib\index.js:188:7)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 21468  - [39m[31m01/13/2024, 7:21:10 PM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mrequest entity too large[39m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mPayloadTooLargeError: request entity too large[39m[22m
+[1m[31m    at readStream (F:\chikiet\BEKetoan\node_modules\raw-body\index.js:163:17)[39m[22m
+[1m[31m    at getRawBody (F:\chikiet\BEKetoan\node_modules\raw-body\index.js:116:12)[39m[22m
+[1m[31m    at read (F:\chikiet\BEKetoan\node_modules\body-parser\lib\read.js:79:3)[39m[22m
+[1m[31m    at jsonParser (F:\chikiet\BEKetoan\node_modules\body-parser\lib\types\json.js:138:5)[39m[22m
+[1m[31m    at Layer.handle [as handle_request] (F:\chikiet\BEKetoan\node_modules\express\lib\router\layer.js:95:5)[39m[22m
+[1m[31m    at trim_prefix (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:328:13)[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:286:9[39m[22m
+[1m[31m    at Function.process_params (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:346:12)[39m[22m
+[1m[31m    at next (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:280:10)[39m[22m
+[1m[31m    at cors (F:\chikiet\BEKetoan\node_modules\cors\lib\index.js:188:7)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 21468  - [39m[31m01/13/2024, 7:21:10 PM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mrequest entity too large[39m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mPayloadTooLargeError: request entity too large[39m[22m
+[1m[31m    at readStream (F:\chikiet\BEKetoan\node_modules\raw-body\index.js:163:17)[39m[22m
+[1m[31m    at getRawBody (F:\chikiet\BEKetoan\node_modules\raw-body\index.js:116:12)[39m[22m
+[1m[31m    at read (F:\chikiet\BEKetoan\node_modules\body-parser\lib\read.js:79:3)[39m[22m
+[1m[31m    at jsonParser (F:\chikiet\BEKetoan\node_modules\body-parser\lib\types\json.js:138:5)[39m[22m
+[1m[31m    at Layer.handle [as handle_request] (F:\chikiet\BEKetoan\node_modules\express\lib\router\layer.js:95:5)[39m[22m
+[1m[31m    at trim_prefix (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:328:13)[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:286:9[39m[22m
+[1m[31m    at Function.process_params (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:346:12)[39m[22m
+[1m[31m    at next (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:280:10)[39m[22m
+[1m[31m    at cors (F:\chikiet\BEKetoan\node_modules\cors\lib\index.js:188:7)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 21468  - [39m[31m01/13/2024, 7:21:10 PM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mrequest entity too large[39m[31m[39m[22m
+[1m[31mPayloadTooLargeError: request entity too large[39m[22m
+[1m[31m    at readStream (F:\chikiet\BEKetoan\node_modules\raw-body\index.js:163:17)[39m[22m
+[1m[31m    at getRawBody (F:\chikiet\BEKetoan\node_modules\raw-body\index.js:116:12)[39m[22m
+[1m[31m    at read (F:\chikiet\BEKetoan\node_modules\body-parser\lib\read.js:79:3)[39m[22m
+[1m[31m    at jsonParser (F:\chikiet\BEKetoan\node_modules\body-parser\lib\types\json.js:138:5)[39m[22m
+[1m[31m    at Layer.handle [as handle_request] (F:\chikiet\BEKetoan\node_modules\express\lib\router\layer.js:95:5)[39m[22m
+[1m[31m    at trim_prefix (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:328:13)[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:286:9[39m[22m
+[1m[31m    at Function.process_params (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:346:12)[39m[22m
+[1m[31m    at next (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:280:10)[39m[22m
+[1m[31m    at cors (F:\chikiet\BEKetoan\node_modules\cors\lib\index.js:188:7)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 21468  - [39m[31m01/13/2024, 7:21:10 PM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mrequest entity too large[39m[31m[39m[22m
+[1m[31mPayloadTooLargeError: request entity too large[39m[22m
+[1m[31m    at readStream (F:\chikiet\BEKetoan\node_modules\raw-body\index.js:163:17)[39m[22m
+[1m[31m    at getRawBody (F:\chikiet\BEKetoan\node_modules\raw-body\index.js:116:12)[39m[22m
+[1m[31m    at read (F:\chikiet\BEKetoan\node_modules\body-parser\lib\read.js:79:3)[39m[22m
+[1m[31m    at jsonParser (F:\chikiet\BEKetoan\node_modules\body-parser\lib\types\json.js:138:5)[39m[22m
+[1m[31m    at Layer.handle [as handle_request] (F:\chikiet\BEKetoan\node_modules\express\lib\router\layer.js:95:5)[39m[22m
+[1m[31m    at trim_prefix (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:328:13)[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:286:9[39m[22m
+[1m[31m    at Function.process_params (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:346:12)[39m[22m
+[1m[31m    at next (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:280:10)[39m[22m
+[1m[31m    at cors (F:\chikiet\BEKetoan\node_modules\cors\lib\index.js:188:7)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 21468  - [39m[31m01/13/2024, 7:21:10 PM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mrequest entity too large[39m[31m[39m[22m
+[1m[31mPayloadTooLargeError: request entity too large[39m[22m
+[1m[31m    at readStream (F:\chikiet\BEKetoan\node_modules\raw-body\index.js:163:17)[39m[22m
+[1m[31m    at getRawBody (F:\chikiet\BEKetoan\node_modules\raw-body\index.js:116:12)[39m[22m
+[1m[31m    at read (F:\chikiet\BEKetoan\node_modules\body-parser\lib\read.js:79:3)[39m[22m
+[1m[31m    at jsonParser (F:\chikiet\BEKetoan\node_modules\body-parser\lib\types\json.js:138:5)[39m[22m
+[1m[31m    at Layer.handle [as handle_request] (F:\chikiet\BEKetoan\node_modules\express\lib\router\layer.js:95:5)[39m[22m
+[1m[31m    at trim_prefix (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:328:13)[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:286:9[39m[22m
+[1m[31m    at Function.process_params (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:346:12)[39m[22m
+[1m[31m    at next (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:280:10)[39m[22m
+[1m[31m    at cors (F:\chikiet\BEKetoan\node_modules\cors\lib\index.js:188:7)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 21468  - [39m[31m01/13/2024, 7:21:10 PM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mrequest entity too large[39m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mPayloadTooLargeError: request entity too large[39m[22m
+[1m[31m    at readStream (F:\chikiet\BEKetoan\node_modules\raw-body\index.js:163:17)[39m[22m
+[1m[31m    at getRawBody (F:\chikiet\BEKetoan\node_modules\raw-body\index.js:116:12)[39m[22m
+[1m[31m    at read (F:\chikiet\BEKetoan\node_modules\body-parser\lib\read.js:79:3)[39m[22m
+[1m[31m    at jsonParser (F:\chikiet\BEKetoan\node_modules\body-parser\lib\types\json.js:138:5)[39m[22m
+[1m[31m    at Layer.handle [as handle_request] (F:\chikiet\BEKetoan\node_modules\express\lib\router\layer.js:95:5)[39m[22m
+[1m[31m    at trim_prefix (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:328:13)[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:286:9[39m[22m
+[1m[31m    at Function.process_params (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:346:12)[39m[22m
+[1m[31m    at next (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:280:10)[39m[22m
+[1m[31m    at cors (F:\chikiet\BEKetoan\node_modules\cors\lib\index.js:188:7)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 21468  - [39m[31m01/13/2024, 7:21:10 PM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mrequest entity too large[39m[31m[39m[22m
+[1m[31mPayloadTooLargeError: request entity too large[39m[22m
+[1m[31m    at readStream (F:\chikiet\BEKetoan\node_modules\raw-body\index.js:163:17)[39m[22m
+[1m[31m    at getRawBody (F:\chikiet\BEKetoan\node_modules\raw-body\index.js:116:12)[39m[22m
+[1m[31m    at read (F:\chikiet\BEKetoan\node_modules\body-parser\lib\read.js:79:3)[39m[22m
+[1m[31m    at jsonParser (F:\chikiet\BEKetoan\node_modules\body-parser\lib\types\json.js:138:5)[39m[22m
+[1m[31m    at Layer.handle [as handle_request] (F:\chikiet\BEKetoan\node_modules\express\lib\router\layer.js:95:5)[39m[22m
+[1m[31m    at trim_prefix (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:328:13)[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:286:9[39m[22m
+[1m[31m    at Function.process_params (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:346:12)[39m[22m
+[1m[31m    at next (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:280:10)[39m[22m
+[1m[31m    at cors (F:\chikiet\BEKetoan\node_modules\cors\lib\index.js:188:7)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 21468  - [39m[31m01/13/2024, 7:21:10 PM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mrequest entity too large[39m[31m[39m[22m
+[1m[31mPayloadTooLargeError: request entity too large[39m[22m
+[1m[31m    at readStream (F:\chikiet\BEKetoan\node_modules\raw-body\index.js:163:17)[39m[22m
+[1m[31m    at getRawBody (F:\chikiet\BEKetoan\node_modules\raw-body\index.js:116:12)[39m[22m
+[1m[31m    at read (F:\chikiet\BEKetoan\node_modules\body-parser\lib\read.js:79:3)[39m[22m
+[1m[31m    at jsonParser (F:\chikiet\BEKetoan\node_modules\body-parser\lib\types\json.js:138:5)[39m[22m
+[1m[31m    at Layer.handle [as handle_request] (F:\chikiet\BEKetoan\node_modules\express\lib\router\layer.js:95:5)[39m[22m
+[1m[31m    at trim_prefix (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:328:13)[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:286:9[39m[22m
+[1m[31m    at Function.process_params (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:346:12)[39m[22m
+[1m[31m    at next (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:280:10)[39m[22m
+[1m[31m    at cors (F:\chikiet\BEKetoan\node_modules\cors\lib\index.js:188:7)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 21468  - [39m[31m01/13/2024, 7:21:10 PM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mrequest entity too large[39m[31m[39m[22m
+[1m[31mPayloadTooLargeError: request entity too large[39m[22m
+[1m[31m    at readStream (F:\chikiet\BEKetoan\node_modules\raw-body\index.js:163:17)[39m[22m
+[1m[31m    at getRawBody (F:\chikiet\BEKetoan\node_modules\raw-body\index.js:116:12)[39m[22m
+[1m[31m    at read (F:\chikiet\BEKetoan\node_modules\body-parser\lib\read.js:79:3)[39m[22m
+[1m[31m    at jsonParser (F:\chikiet\BEKetoan\node_modules\body-parser\lib\types\json.js:138:5)[39m[22m
+[1m[31m    at Layer.handle [as handle_request] (F:\chikiet\BEKetoan\node_modules\express\lib\router\layer.js:95:5)[39m[22m
+[1m[31m    at trim_prefix (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:328:13)[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:286:9[39m[22m
+[1m[31m    at Function.process_params (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:346:12)[39m[22m
+[1m[31m    at next (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:280:10)[39m[22m
+[1m[31m    at cors (F:\chikiet\BEKetoan\node_modules\cors\lib\index.js:188:7)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 21468  - [39m[31m01/13/2024, 7:21:10 PM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mrequest entity too large[39m[31m[39m[22m
+[1m[31mPayloadTooLargeError: request entity too large[39m[22m
+[1m[31m    at readStream (F:\chikiet\BEKetoan\node_modules\raw-body\index.js:163:17)[39m[22m
+[1m[31m    at getRawBody (F:\chikiet\BEKetoan\node_modules\raw-body\index.js:116:12)[39m[22m
+[1m[31m    at read (F:\chikiet\BEKetoan\node_modules\body-parser\lib\read.js:79:3)[39m[22m
+[1m[31m    at jsonParser (F:\chikiet\BEKetoan\node_modules\body-parser\lib\types\json.js:138:5)[39m[22m
+[1m[31m    at Layer.handle [as handle_request] (F:\chikiet\BEKetoan\node_modules\express\lib\router\layer.js:95:5)[39m[22m
+[1m[31m    at trim_prefix (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:328:13)[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:286:9[39m[22m
+[1m[31m    at Function.process_params (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:346:12)[39m[22m
+[1m[31m    at next (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:280:10)[39m[22m
+[1m[31m    at cors (F:\chikiet\BEKetoan\node_modules\cors\lib\index.js:188:7)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 21468  - [39m[31m01/13/2024, 7:21:10 PM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mrequest entity too large[39m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mPayloadTooLargeError: request entity too large[39m[22m
+[1m[31m    at readStream (F:\chikiet\BEKetoan\node_modules\raw-body\index.js:163:17)[39m[22m
+[1m[31m    at getRawBody (F:\chikiet\BEKetoan\node_modules\raw-body\index.js:116:12)[39m[22m
+[1m[31m    at read (F:\chikiet\BEKetoan\node_modules\body-parser\lib\read.js:79:3)[39m[22m
+[1m[31m    at jsonParser (F:\chikiet\BEKetoan\node_modules\body-parser\lib\types\json.js:138:5)[39m[22m
+[1m[31m    at Layer.handle [as handle_request] (F:\chikiet\BEKetoan\node_modules\express\lib\router\layer.js:95:5)[39m[22m
+[1m[31m    at trim_prefix (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:328:13)[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:286:9[39m[22m
+[1m[31m    at Function.process_params (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:346:12)[39m[22m
+[1m[31m    at next (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:280:10)[39m[22m
+[1m[31m    at cors (F:\chikiet\BEKetoan\node_modules\cors\lib\index.js:188:7)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 21468  - [39m[31m01/13/2024, 7:21:10 PM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mrequest entity too large[39m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31mPayloadTooLargeError: request entity too large[39m[22m
+[1m[31m    at readStream (F:\chikiet\BEKetoan\node_modules\raw-body\index.js:163:17)[39m[22m
+[1m[31m    at getRawBody (F:\chikiet\BEKetoan\node_modules\raw-body\index.js:116:12)[39m[22m
+[1m[31m    at read (F:\chikiet\BEKetoan\node_modules\body-parser\lib\read.js:79:3)[39m[22m
+[1m[31m    at jsonParser (F:\chikiet\BEKetoan\node_modules\body-parser\lib\types\json.js:138:5)[39m[22m
+[1m[31m    at Layer.handle [as handle_request] (F:\chikiet\BEKetoan\node_modules\express\lib\router\layer.js:95:5)[39m[22m
+[1m[31m    at trim_prefix (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:328:13)[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:286:9[39m[22m
+[1m[31m    at Function.process_params (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:346:12)[39m[22m
+[1m[31m    at next (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:280:10)[39m[22m
+[1m[31m    at cors (F:\chikiet\BEKetoan\node_modules\cors\lib\index.js:188:7)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 21468  - [39m[31m01/13/2024, 7:21:10 PM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mrequest entity too large[39m[31m[39m[22m
+[1m[31mPayloadTooLargeError: request entity too large[39m[22m
+[1m[31m    at readStream (F:\chikiet\BEKetoan\node_modules\raw-body\index.js:163:17)[39m[22m
+[1m[31m    at getRawBody (F:\chikiet\BEKetoan\node_modules\raw-body\index.js:116:12)[39m[22m
+[1m[31m    at read (F:\chikiet\BEKetoan\node_modules\body-parser\lib\read.js:79:3)[39m[22m
+[1m[31m    at jsonParser (F:\chikiet\BEKetoan\node_modules\body-parser\lib\types\json.js:138:5)[39m[22m
+[1m[31m    at Layer.handle [as handle_request] (F:\chikiet\BEKetoan\node_modules\express\lib\router\layer.js:95:5)[39m[22m
+[1m[31m    at trim_prefix (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:328:13)[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:286:9[39m[22m
+[1m[31m    at Function.process_params (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:346:12)[39m[22m
+[1m[31m    at next (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:280:10)[39m[22m
+[1m[31m    at cors (F:\chikiet\BEKetoan\node_modules\cors\lib\index.js:188:7)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 21468  - [39m[31m01/13/2024, 7:21:10 PM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mrequest entity too large[39m[31m[39m[22m
+[1m[31mPayloadTooLargeError: request entity too large[39m[22m
+[1m[31m    at readStream (F:\chikiet\BEKetoan\node_modules\raw-body\index.js:163:17)[39m[22m
+[1m[31m    at getRawBody (F:\chikiet\BEKetoan\node_modules\raw-body\index.js:116:12)[39m[22m
+[1m[31m    at read (F:\chikiet\BEKetoan\node_modules\body-parser\lib\read.js:79:3)[39m[22m
+[1m[31m    at jsonParser (F:\chikiet\BEKetoan\node_modules\body-parser\lib\types\json.js:138:5)[39m[22m
+[1m[31m    at Layer.handle [as handle_request] (F:\chikiet\BEKetoan\node_modules\express\lib\router\layer.js:95:5)[39m[22m
+[1m[31m    at trim_prefix (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:328:13)[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:286:9[39m[22m
+[1m[31m    at Function.process_params (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:346:12)[39m[22m
+[1m[31m    at next (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:280:10)[39m[22m
+[1m[31m    at cors (F:\chikiet\BEKetoan\node_modules\cors\lib\index.js:188:7)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 21468  - [39m[31m01/13/2024, 7:21:10 PM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mrequest entity too large[39m[31m[39m[22m
+[1m[31mPayloadTooLargeError: request entity too large[39m[22m
+[1m[31m    at readStream (F:\chikiet\BEKetoan\node_modules\raw-body\index.js:163:17)[39m[22m
+[1m[31m    at getRawBody (F:\chikiet\BEKetoan\node_modules\raw-body\index.js:116:12)[39m[22m
+[1m[31m    at read (F:\chikiet\BEKetoan\node_modules\body-parser\lib\read.js:79:3)[39m[22m
+[1m[31m    at jsonParser (F:\chikiet\BEKetoan\node_modules\body-parser\lib\types\json.js:138:5)[39m[22m
+[1m[31m    at Layer.handle [as handle_request] (F:\chikiet\BEKetoan\node_modules\express\lib\router\layer.js:95:5)[39m[22m
+[1m[31m    at trim_prefix (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:328:13)[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:286:9[39m[22m
+[1m[31m    at Function.process_params (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:346:12)[39m[22m
+[1m[31m    at next (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:280:10)[39m[22m
+[1m[31m    at cors (F:\chikiet\BEKetoan\node_modules\cors\lib\index.js:188:7)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 21468  - [39m[31m01/13/2024, 7:21:10 PM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mrequest entity too large[39m[31m[39m[22m
+[1m[31mPayloadTooLargeError: request entity too large[39m[22m
+[1m[31m    at readStream (F:\chikiet\BEKetoan\node_modules\raw-body\index.js:163:17)[39m[22m
+[1m[31m    at getRawBody (F:\chikiet\BEKetoan\node_modules\raw-body\index.js:116:12)[39m[22m
+[1m[31m    at read (F:\chikiet\BEKetoan\node_modules\body-parser\lib\read.js:79:3)[39m[22m
+[1m[31m    at jsonParser (F:\chikiet\BEKetoan\node_modules\body-parser\lib\types\json.js:138:5)[39m[22m
+[1m[31m    at Layer.handle [as handle_request] (F:\chikiet\BEKetoan\node_modules\express\lib\router\layer.js:95:5)[39m[22m
+[1m[31m    at trim_prefix (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:328:13)[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:286:9[39m[22m
+[1m[31m    at Function.process_params (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:346:12)[39m[22m
+[1m[31m    at next (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:280:10)[39m[22m
+[1m[31m    at cors (F:\chikiet\BEKetoan\node_modules\cors\lib\index.js:188:7)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 21468  - [39m[31m01/13/2024, 7:21:10 PM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mrequest entity too large[39m[31m[39m[22m
+[1m[31mPayloadTooLargeError: request entity too large[39m[22m
+[1m[31m    at readStream (F:\chikiet\BEKetoan\node_modules\raw-body\index.js:163:17)[39m[22m
+[1m[31m    at getRawBody (F:\chikiet\BEKetoan\node_modules\raw-body\index.js:116:12)[39m[22m
+[1m[31m    at read (F:\chikiet\BEKetoan\node_modules\body-parser\lib\read.js:79:3)[39m[22m
+[1m[31m    at jsonParser (F:\chikiet\BEKetoan\node_modules\body-parser\lib\types\json.js:138:5)[39m[22m
+[1m[31m    at Layer.handle [as handle_request] (F:\chikiet\BEKetoan\node_modules\express\lib\router\layer.js:95:5)[39m[22m
+[1m[31m    at trim_prefix (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:328:13)[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:286:9[39m[22m
+[1m[31m    at Function.process_params (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:346:12)[39m[22m
+[1m[31m    at next (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:280:10)[39m[22m
+[1m[31m    at cors (F:\chikiet\BEKetoan\node_modules\cors\lib\index.js:188:7)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 21468  - [39m[31m01/13/2024, 7:21:10 PM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mrequest entity too large[39m[31m[39m[22m
+[1m[31mPayloadTooLargeError: request entity too large[39m[22m
+[1m[31m    at readStream (F:\chikiet\BEKetoan\node_modules\raw-body\index.js:163:17)[39m[22m
+[1m[31m    at getRawBody (F:\chikiet\BEKetoan\node_modules\raw-body\index.js:116:12)[39m[22m
+[1m[31m    at read (F:\chikiet\BEKetoan\node_modules\body-parser\lib\read.js:79:3)[39m[22m
+[1m[31m    at jsonParser (F:\chikiet\BEKetoan\node_modules\body-parser\lib\types\json.js:138:5)[39m[22m
+[1m[31m    at Layer.handle [as handle_request] (F:\chikiet\BEKetoan\node_modules\express\lib\router\layer.js:95:5)[39m[22m
+[1m[31m    at trim_prefix (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:328:13)[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:286:9[39m[22m
+[1m[31m    at Function.process_params (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:346:12)[39m[22m
+[1m[31m    at next (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:280:10)[39m[22m
+[1m[31m    at cors (F:\chikiet\BEKetoan\node_modules\cors\lib\index.js:188:7)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 21468  - [39m[31m01/13/2024, 7:21:10 PM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mrequest entity too large[39m[31m[39m[22m
+[1m[31mPayloadTooLargeError: request entity too large[39m[22m
+[1m[31m    at readStream (F:\chikiet\BEKetoan\node_modules\raw-body\index.js:163:17)[39m[22m
+[1m[31m    at getRawBody (F:\chikiet\BEKetoan\node_modules\raw-body\index.js:116:12)[39m[22m
+[1m[31m    at read (F:\chikiet\BEKetoan\node_modules\body-parser\lib\read.js:79:3)[39m[22m
+[1m[31m    at jsonParser (F:\chikiet\BEKetoan\node_modules\body-parser\lib\types\json.js:138:5)[39m[22m
+[1m[31m    at Layer.handle [as handle_request] (F:\chikiet\BEKetoan\node_modules\express\lib\router\layer.js:95:5)[39m[22m
+[1m[31m    at trim_prefix (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:328:13)[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:286:9[39m[22m
+[1m[31m    at Function.process_params (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:346:12)[39m[22m
+[1m[31m    at next (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:280:10)[39m[22m
+[1m[31m    at cors (F:\chikiet\BEKetoan\node_modules\cors\lib\index.js:188:7)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 21468  - [39m[31m01/13/2024, 7:21:10 PM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mrequest entity too large[39m[31m[39m[22m
+[1m[31mPayloadTooLargeError: request entity too large[39m[22m
+[1m[31m    at readStream (F:\chikiet\BEKetoan\node_modules\raw-body\index.js:163:17)[39m[22m
+[1m[31m    at getRawBody (F:\chikiet\BEKetoan\node_modules\raw-body\index.js:116:12)[39m[22m
+[1m[31m    at read (F:\chikiet\BEKetoan\node_modules\body-parser\lib\read.js:79:3)[39m[22m
+[1m[31m    at jsonParser (F:\chikiet\BEKetoan\node_modules\body-parser\lib\types\json.js:138:5)[39m[22m
+[1m[31m    at Layer.handle [as handle_request] (F:\chikiet\BEKetoan\node_modules\express\lib\router\layer.js:95:5)[39m[22m
+[1m[31m    at trim_prefix (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:328:13)[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:286:9[39m[22m
+[1m[31m    at Function.process_params (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:346:12)[39m[22m
+[1m[31m    at next (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:280:10)[39m[22m
+[1m[31m    at cors (F:\chikiet\BEKetoan\node_modules\cors\lib\index.js:188:7)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 21468  - [39m[31m01/13/2024, 7:21:11 PM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mrequest entity too large[39m[31m[39m[22m
+[1m[31mPayloadTooLargeError: request entity too large[39m[22m
+[1m[31m    at readStream (F:\chikiet\BEKetoan\node_modules\raw-body\index.js:163:17)[39m[22m
+[1m[31m    at getRawBody (F:\chikiet\BEKetoan\node_modules\raw-body\index.js:116:12)[39m[22m
+[1m[31m    at read (F:\chikiet\BEKetoan\node_modules\body-parser\lib\read.js:79:3)[39m[22m
+[1m[31m    at jsonParser (F:\chikiet\BEKetoan\node_modules\body-parser\lib\types\json.js:138:5)[39m[22m
+[1m[31m    at Layer.handle [as handle_request] (F:\chikiet\BEKetoan\node_modules\express\lib\router\layer.js:95:5)[39m[22m
+[1m[31m    at trim_prefix (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:328:13)[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:286:9[39m[22m
+[1m[31m    at Function.process_params (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:346:12)[39m[22m
+[1m[31m    at next (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:280:10)[39m[22m
+[1m[31m    at cors (F:\chikiet\BEKetoan\node_modules\cors\lib\index.js:188:7)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 21468  - [39m[31m01/13/2024, 7:21:11 PM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mrequest entity too large[39m[31m[39m[22m
+[1m[31mPayloadTooLargeError: request entity too large[39m[22m
+[1m[31m    at readStream (F:\chikiet\BEKetoan\node_modules\raw-body\index.js:163:17)[39m[22m
+[1m[31m    at getRawBody (F:\chikiet\BEKetoan\node_modules\raw-body\index.js:116:12)[39m[22m
+[1m[31m    at read (F:\chikiet\BEKetoan\node_modules\body-parser\lib\read.js:79:3)[39m[22m
+[1m[31m    at jsonParser (F:\chikiet\BEKetoan\node_modules\body-parser\lib\types\json.js:138:5)[39m[22m
+[1m[31m    at Layer.handle [as handle_request] (F:\chikiet\BEKetoan\node_modules\express\lib\router\layer.js:95:5)[39m[22m
+[1m[31m    at trim_prefix (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:328:13)[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:286:9[39m[22m
+[1m[31m    at Function.process_params (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:346:12)[39m[22m
+[1m[31m    at next (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:280:10)[39m[22m
+[1m[31m    at cors (F:\chikiet\BEKetoan\node_modules\cors\lib\index.js:188:7)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 21468  - [39m[31m01/13/2024, 7:21:11 PM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mrequest entity too large[39m[31m[39m[22m
+[1m[31mPayloadTooLargeError: request entity too large[39m[22m
+[1m[31m    at readStream (F:\chikiet\BEKetoan\node_modules\raw-body\index.js:163:17)[39m[22m
+[1m[31m    at getRawBody (F:\chikiet\BEKetoan\node_modules\raw-body\index.js:116:12)[39m[22m
+[1m[31m    at read (F:\chikiet\BEKetoan\node_modules\body-parser\lib\read.js:79:3)[39m[22m
+[1m[31m    at jsonParser (F:\chikiet\BEKetoan\node_modules\body-parser\lib\types\json.js:138:5)[39m[22m
+[1m[31m    at Layer.handle [as handle_request] (F:\chikiet\BEKetoan\node_modules\express\lib\router\layer.js:95:5)[39m[22m
+[1m[31m    at trim_prefix (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:328:13)[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:286:9[39m[22m
+[1m[31m    at Function.process_params (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:346:12)[39m[22m
+[1m[31m    at next (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:280:10)[39m[22m
+[1m[31m    at cors (F:\chikiet\BEKetoan\node_modules\cors\lib\index.js:188:7)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 21468  - [39m[31m01/13/2024, 7:21:11 PM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mrequest entity too large[39m[31m[39m[22m
+[1m[31mPayloadTooLargeError: request entity too large[39m[22m
+[1m[31m    at readStream (F:\chikiet\BEKetoan\node_modules\raw-body\index.js:163:17)[39m[22m
+[1m[31m    at getRawBody (F:\chikiet\BEKetoan\node_modules\raw-body\index.js:116:12)[39m[22m
+[1m[31m    at read (F:\chikiet\BEKetoan\node_modules\body-parser\lib\read.js:79:3)[39m[22m
+[1m[31m    at jsonParser (F:\chikiet\BEKetoan\node_modules\body-parser\lib\types\json.js:138:5)[39m[22m
+[1m[31m    at Layer.handle [as handle_request] (F:\chikiet\BEKetoan\node_modules\express\lib\router\layer.js:95:5)[39m[22m
+[1m[31m    at trim_prefix (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:328:13)[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:286:9[39m[22m
+[1m[31m    at Function.process_params (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:346:12)[39m[22m
+[1m[31m    at next (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:280:10)[39m[22m
+[1m[31m    at cors (F:\chikiet\BEKetoan\node_modules\cors\lib\index.js:188:7)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 21468  - [39m[31m01/13/2024, 7:21:12 PM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mrequest entity too large[39m[31m[39m[22m
+[1m[31mPayloadTooLargeError: request entity too large[39m[22m
+[1m[31m    at readStream (F:\chikiet\BEKetoan\node_modules\raw-body\index.js:163:17)[39m[22m
+[1m[31m    at getRawBody (F:\chikiet\BEKetoan\node_modules\raw-body\index.js:116:12)[39m[22m
+[1m[31m    at read (F:\chikiet\BEKetoan\node_modules\body-parser\lib\read.js:79:3)[39m[22m
+[1m[31m    at jsonParser (F:\chikiet\BEKetoan\node_modules\body-parser\lib\types\json.js:138:5)[39m[22m
+[1m[31m    at Layer.handle [as handle_request] (F:\chikiet\BEKetoan\node_modules\express\lib\router\layer.js:95:5)[39m[22m
+[1m[31m    at trim_prefix (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:328:13)[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:286:9[39m[22m
+[1m[31m    at Function.process_params (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:346:12)[39m[22m
+[1m[31m    at next (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:280:10)[39m[22m
+[1m[31m    at cors (F:\chikiet\BEKetoan\node_modules\cors\lib\index.js:188:7)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 21468  - [39m[31m01/13/2024, 7:21:13 PM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mrequest entity too large[39m[31m[39m[22m
+[1m[31mPayloadTooLargeError: request entity too large[39m[22m
+[1m[31m    at readStream (F:\chikiet\BEKetoan\node_modules\raw-body\index.js:163:17)[39m[22m
+[1m[31m    at getRawBody (F:\chikiet\BEKetoan\node_modules\raw-body\index.js:116:12)[39m[22m
+[1m[31m    at read (F:\chikiet\BEKetoan\node_modules\body-parser\lib\read.js:79:3)[39m[22m
+[1m[31m    at jsonParser (F:\chikiet\BEKetoan\node_modules\body-parser\lib\types\json.js:138:5)[39m[22m
+[1m[31m    at Layer.handle [as handle_request] (F:\chikiet\BEKetoan\node_modules\express\lib\router\layer.js:95:5)[39m[22m
+[1m[31m    at trim_prefix (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:328:13)[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:286:9[39m[22m
+[1m[31m    at Function.process_params (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:346:12)[39m[22m
+[1m[31m    at next (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:280:10)[39m[22m
+[1m[31m    at cors (F:\chikiet\BEKetoan\node_modules\cors\lib\index.js:188:7)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[31m[Nest] 21468  - [39m[31m01/13/2024, 7:21:14 PM [31m  ERROR[39m[31m [38;5;3m[ExceptionsHandler] [39m[31m[31mrequest entity too large[39m[31m[39m[22m
+[1m[31mPayloadTooLargeError: request entity too large[39m[22m
+[1m[31m    at readStream (F:\chikiet\BEKetoan\node_modules\raw-body\index.js:163:17)[39m[22m
+[1m[31m    at getRawBody (F:\chikiet\BEKetoan\node_modules\raw-body\index.js:116:12)[39m[22m
+[1m[31m    at read (F:\chikiet\BEKetoan\node_modules\body-parser\lib\read.js:79:3)[39m[22m
+[1m[31m    at jsonParser (F:\chikiet\BEKetoan\node_modules\body-parser\lib\types\json.js:138:5)[39m[22m
+[1m[31m    at Layer.handle [as handle_request] (F:\chikiet\BEKetoan\node_modules\express\lib\router\layer.js:95:5)[39m[22m
+[1m[31m    at trim_prefix (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:328:13)[39m[22m
+[1m[31m    at F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:286:9[39m[22m
+[1m[31m    at Function.process_params (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:346:12)[39m[22m
+[1m[31m    at next (F:\chikiet\BEKetoan\node_modules\express\lib\router\index.js:280:10)[39m[22m
+[1m[31m    at cors (F:\chikiet\BEKetoan\node_modules\cors\lib\index.js:188:7)[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 97.4 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (d269907035bdaeb0)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 97.4 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (d269907035bdaeb0)
+[1m[31mDebugger listening on ws://localhost:9229/d2150877-083d-4f64-987a-274ab71fffc6[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/d2150877-083d-4f64-987a-274ab71fffc6[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 97.4 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.controller.ts:[32m[1m11:5[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'err'.
+  [0m [90m  9 |[39m   [33m@[39m[33mPost[39m()[0m
+  [0m [90m 10 |[39m   create([33m@[39m[33mBody[39m() createSanphamDto[33m:[39m [33mCreateSanphamDto[39m) {[0m
+  [0m[31m[1m>[22m[39m[90m 11 |[39m     err[0m
+  [0m [90m    |[39m     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 12 |[39m     [36mreturn[39m [36mthis[39m[33m.[39msanphamService[33m.[39mcreate(createSanphamDto)[33m;[39m[0m
+  [0m [90m 13 |[39m   }[0m
+  [0m [90m 14 |[39m   [33m@[39m[33mGet[39m()[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (1b647a8bdae07b3b)
+[1m[31mDebugger listening on ws://localhost:9229/12fbd72c-258c-430a-86d7-d7ed18852288[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/12fbd72c-258c-430a-86d7-d7ed18852288[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 97.4 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (f3f525f6974106d2)
+[1m[31mDebugger listening on ws://localhost:9229/b9bf7a53-db3a-4585-bc42-d037d6469d7c[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/b9bf7a53-db3a-4585-bc42-d037d6469d7c[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 97.4 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (aa33c4db248b32d4)
+[1m[31mDebugger listening on ws://localhost:9229/5015d403-d692-4b2c-a962-9e3d8742b492[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/5015d403-d692-4b2c-a962-9e3d8742b492[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 97.4 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (aa33c4db248b32d4)
+[1m[31mDebugger listening on ws://localhost:9229/1a463425-d447-4eb8-bcc9-670f1b25bfe2[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/1a463425-d447-4eb8-bcc9-670f1b25bfe2[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 97.4 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (aa33c4db248b32d4)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 97.7 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.service.ts:[32m[1m13:9[22m[39m[1m[39m[22m
+[90mTS2393: [39mDuplicate function implementation.
+  [0m [90m 11 |[39m     [36mprivate[39m [33mSanphamRepository[39m[33m:[39m [33mRepository[39m[33m<[39m[33mSanphamEntity[39m[33m>[39m[0m
+  [0m [90m 12 |[39m   ) {}[0m
+  [0m[31m[1m>[22m[39m[90m 13 |[39m   [36masync[39m create([33mCreateSanphamDto[39m[33m:[39m [33mCreateSanphamDto[39m) {[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 14 |[39m     [36mthis[39m[33m.[39m[33mSanphamRepository[39m[33m.[39mcreate([33mCreateSanphamDto[39m)[33m;[39m[0m
+  [0m [90m 15 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mSanphamRepository[39m[33m.[39msave([33mCreateSanphamDto[39m)[33m;[39m[0m
+  [0m [90m 16 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.service.ts:[32m[1m18:9[22m[39m[1m[39m[22m
+[90mTS2393: [39mDuplicate function implementation.
+  [0m [90m 16 |[39m   }[0m
+  [0m [90m 17 |[39m   [0m
+  [0m[31m[1m>[22m[39m[90m 18 |[39m   [36masync[39m create(data[33m:[39m any) {[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 19 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindSHD(data)[0m
+  [0m [90m 20 |[39m     [36mif[39m(item)[0m
+  [0m [90m 21 |[39m     {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.service.ts:[32m[1m19:29[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findSHD' does not exist on type 'SanphamService'.
+  [0m [90m 17 |[39m   [0m
+  [0m [90m 18 |[39m   [36masync[39m create(data[33m:[39m any) {[0m
+  [0m[31m[1m>[22m[39m[90m 19 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindSHD(data)[0m
+  [0m [90m    |[39m                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 20 |[39m     [36mif[39m(item)[0m
+  [0m [90m 21 |[39m     {[0m
+  [0m [90m 22 |[39m       [36mreturn[39m [32m"Trùng SHD"[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.service.ts:[32m[1m25:12[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'BanrachitietRepository' does not exist on type 'SanphamService'.
+  [0m [90m 23 |[39m     }[0m
+  [0m [90m 24 |[39m     [36melse[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 25 |[39m       [36mthis[39m[33m.[39m[33mBanrachitietRepository[39m[33m.[39mcreate(data)[33m;[39m[0m
+  [0m [90m    |[39m            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 26 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mBanrachitietRepository[39m[33m.[39msave(data)[33m;[39m[0m
+  [0m [90m 27 |[39m     }[0m
+  [0m [90m 28 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.service.ts:[32m[1m26:25[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'BanrachitietRepository' does not exist on type 'SanphamService'.
+  [0m [90m 24 |[39m     [36melse[39m {[0m
+  [0m [90m 25 |[39m       [36mthis[39m[33m.[39m[33mBanrachitietRepository[39m[33m.[39mcreate(data)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 26 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mBanrachitietRepository[39m[33m.[39msave(data)[33m;[39m[0m
+  [0m [90m    |[39m                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 27 |[39m     }[0m
+  [0m [90m 28 |[39m   }[0m
+  [0m [90m 29 |[39m[0m
+
+webpack compiled with [1m[31m5 errors[39m[22m (1a1be4064004c095)
+[1m[31mDebugger listening on ws://localhost:9229/9e35e7d3-7319-4e2a-9067-f32ef347c3ea[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/9e35e7d3-7319-4e2a-9067-f32ef347c3ea[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 97.9 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.service.ts:[32m[1m13:9[22m[39m[1m[39m[22m
+[90mTS2393: [39mDuplicate function implementation.
+  [0m [90m 11 |[39m     [36mprivate[39m [33mSanphamRepository[39m[33m:[39m [33mRepository[39m[33m<[39m[33mSanphamEntity[39m[33m>[39m[0m
+  [0m [90m 12 |[39m   ) {}[0m
+  [0m[31m[1m>[22m[39m[90m 13 |[39m   [36masync[39m create([33mCreateSanphamDto[39m[33m:[39m [33mCreateSanphamDto[39m) {[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 14 |[39m     [36mthis[39m[33m.[39m[33mSanphamRepository[39m[33m.[39mcreate([33mCreateSanphamDto[39m)[33m;[39m[0m
+  [0m [90m 15 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mSanphamRepository[39m[33m.[39msave([33mCreateSanphamDto[39m)[33m;[39m[0m
+  [0m [90m 16 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindSHD(data)[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.service.ts:[32m[1m16:29[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findSHD' does not exist on type 'SanphamService'.
+  [0m [90m 14 |[39m     [36mthis[39m[33m.[39m[33mSanphamRepository[39m[33m.[39mcreate([33mCreateSanphamDto[39m)[33m;[39m[0m
+  [0m [90m 15 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mSanphamRepository[39m[33m.[39msave([33mCreateSanphamDto[39m)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 16 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindSHD(data)[0m
+  [0m [90m    |[39m                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 17 |[39m     [36mif[39m(item)[0m
+  [0m [90m 18 |[39m     {[0m
+  [0m [90m 19 |[39m       [36mreturn[39m [32m"Trùng SHD"[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.service.ts:[32m[1m16:37[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'data'.
+  [0m [90m 14 |[39m     [36mthis[39m[33m.[39m[33mSanphamRepository[39m[33m.[39mcreate([33mCreateSanphamDto[39m)[33m;[39m[0m
+  [0m [90m 15 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mSanphamRepository[39m[33m.[39msave([33mCreateSanphamDto[39m)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 16 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindSHD(data)[0m
+  [0m [90m    |[39m                                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 17 |[39m     [36mif[39m(item)[0m
+  [0m [90m 18 |[39m     {[0m
+  [0m [90m 19 |[39m       [36mreturn[39m [32m"Trùng SHD"[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.service.ts:[32m[1m22:12[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'BanrachitietRepository' does not exist on type 'SanphamService'.
+  [0m [90m 20 |[39m     }[0m
+  [0m [90m 21 |[39m     [36melse[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 22 |[39m       [36mthis[39m[33m.[39m[33mBanrachitietRepository[39m[33m.[39mcreate(data)[33m;[39m[0m
+  [0m [90m    |[39m            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 23 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mBanrachitietRepository[39m[33m.[39msave(data)[33m;[39m[0m
+  [0m [90m 24 |[39m     }[0m
+  [0m [90m 25 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.service.ts:[32m[1m22:42[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'data'.
+  [0m [90m 20 |[39m     }[0m
+  [0m [90m 21 |[39m     [36melse[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 22 |[39m       [36mthis[39m[33m.[39m[33mBanrachitietRepository[39m[33m.[39mcreate(data)[33m;[39m[0m
+  [0m [90m    |[39m                                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 23 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mBanrachitietRepository[39m[33m.[39msave(data)[33m;[39m[0m
+  [0m [90m 24 |[39m     }[0m
+  [0m [90m 25 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.service.ts:[32m[1m23:25[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'BanrachitietRepository' does not exist on type 'SanphamService'.
+  [0m [90m 21 |[39m     [36melse[39m {[0m
+  [0m [90m 22 |[39m       [36mthis[39m[33m.[39m[33mBanrachitietRepository[39m[33m.[39mcreate(data)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 23 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mBanrachitietRepository[39m[33m.[39msave(data)[33m;[39m[0m
+  [0m [90m    |[39m                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 24 |[39m     }[0m
+  [0m [90m 25 |[39m   }[0m
+  [0m [90m 26 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.service.ts:[32m[1m23:53[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'data'.
+  [0m [90m 21 |[39m     [36melse[39m {[0m
+  [0m [90m 22 |[39m       [36mthis[39m[33m.[39m[33mBanrachitietRepository[39m[33m.[39mcreate(data)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 23 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mBanrachitietRepository[39m[33m.[39msave(data)[33m;[39m[0m
+  [0m [90m    |[39m                                                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 24 |[39m     }[0m
+  [0m [90m 25 |[39m   }[0m
+  [0m [90m 26 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.service.ts:[32m[1m27:9[22m[39m[1m[39m[22m
+[90mTS2393: [39mDuplicate function implementation.
+  [0m [90m 25 |[39m   }[0m
+  [0m [90m 26 |[39m[0m
+  [0m[31m[1m>[22m[39m[90m 27 |[39m   [36masync[39m create(data[33m:[39m any) {[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 28 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindSHD(data)[0m
+  [0m [90m 29 |[39m     [36mif[39m(item)[0m
+  [0m [90m 30 |[39m     {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.service.ts:[32m[1m28:29[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findSHD' does not exist on type 'SanphamService'.
+  [0m [90m 26 |[39m[0m
+  [0m [90m 27 |[39m   [36masync[39m create(data[33m:[39m any) {[0m
+  [0m[31m[1m>[22m[39m[90m 28 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindSHD(data)[0m
+  [0m [90m    |[39m                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 29 |[39m     [36mif[39m(item)[0m
+  [0m [90m 30 |[39m     {[0m
+  [0m [90m 31 |[39m       [36mreturn[39m [32m"Trùng SHD"[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.service.ts:[32m[1m34:12[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'BanrachitietRepository' does not exist on type 'SanphamService'.
+  [0m [90m 32 |[39m     }[0m
+  [0m [90m 33 |[39m     [36melse[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 34 |[39m       [36mthis[39m[33m.[39m[33mBanrachitietRepository[39m[33m.[39mcreate(data)[33m;[39m[0m
+  [0m [90m    |[39m            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 35 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mBanrachitietRepository[39m[33m.[39msave(data)[33m;[39m[0m
+  [0m [90m 36 |[39m     }[0m
+  [0m [90m 37 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.service.ts:[32m[1m35:25[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'BanrachitietRepository' does not exist on type 'SanphamService'.
+  [0m [90m 33 |[39m     [36melse[39m {[0m
+  [0m [90m 34 |[39m       [36mthis[39m[33m.[39m[33mBanrachitietRepository[39m[33m.[39mcreate(data)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 35 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mBanrachitietRepository[39m[33m.[39msave(data)[33m;[39m[0m
+  [0m [90m    |[39m                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 36 |[39m     }[0m
+  [0m [90m 37 |[39m   }[0m
+  [0m [90m 38 |[39m[0m
+
+webpack compiled with [1m[31m11 errors[39m[22m (6562930ebb457c8c)
+[1m[31mDebugger listening on ws://localhost:9229/d7b27699-db4e-4bee-9dfe-63f41f9ffc2b[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/d7b27699-db4e-4bee-9dfe-63f41f9ffc2b[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 97.7 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.service.ts:[32m[1m16:29[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findSHD' does not exist on type 'SanphamService'.
+  [0m [90m 14 |[39m     [36mthis[39m[33m.[39m[33mSanphamRepository[39m[33m.[39mcreate([33mCreateSanphamDto[39m)[33m;[39m[0m
+  [0m [90m 15 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mSanphamRepository[39m[33m.[39msave([33mCreateSanphamDto[39m)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 16 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindSHD(data)[0m
+  [0m [90m    |[39m                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 17 |[39m     [36mif[39m(item)[0m
+  [0m [90m 18 |[39m     {[0m
+  [0m [90m 19 |[39m       [36mreturn[39m [32m"Trùng SHD"[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.service.ts:[32m[1m16:37[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'data'.
+  [0m [90m 14 |[39m     [36mthis[39m[33m.[39m[33mSanphamRepository[39m[33m.[39mcreate([33mCreateSanphamDto[39m)[33m;[39m[0m
+  [0m [90m 15 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mSanphamRepository[39m[33m.[39msave([33mCreateSanphamDto[39m)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 16 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindSHD(data)[0m
+  [0m [90m    |[39m                                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 17 |[39m     [36mif[39m(item)[0m
+  [0m [90m 18 |[39m     {[0m
+  [0m [90m 19 |[39m       [36mreturn[39m [32m"Trùng SHD"[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.service.ts:[32m[1m22:12[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'BanrachitietRepository' does not exist on type 'SanphamService'.
+  [0m [90m 20 |[39m     }[0m
+  [0m [90m 21 |[39m     [36melse[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 22 |[39m       [36mthis[39m[33m.[39m[33mBanrachitietRepository[39m[33m.[39mcreate(data)[33m;[39m[0m
+  [0m [90m    |[39m            [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 23 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mBanrachitietRepository[39m[33m.[39msave(data)[33m;[39m[0m
+  [0m [90m 24 |[39m     }[0m
+  [0m [90m 25 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.service.ts:[32m[1m22:42[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'data'.
+  [0m [90m 20 |[39m     }[0m
+  [0m [90m 21 |[39m     [36melse[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 22 |[39m       [36mthis[39m[33m.[39m[33mBanrachitietRepository[39m[33m.[39mcreate(data)[33m;[39m[0m
+  [0m [90m    |[39m                                          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 23 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mBanrachitietRepository[39m[33m.[39msave(data)[33m;[39m[0m
+  [0m [90m 24 |[39m     }[0m
+  [0m [90m 25 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.service.ts:[32m[1m23:25[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'BanrachitietRepository' does not exist on type 'SanphamService'.
+  [0m [90m 21 |[39m     [36melse[39m {[0m
+  [0m [90m 22 |[39m       [36mthis[39m[33m.[39m[33mBanrachitietRepository[39m[33m.[39mcreate(data)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 23 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mBanrachitietRepository[39m[33m.[39msave(data)[33m;[39m[0m
+  [0m [90m    |[39m                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 24 |[39m     }[0m
+  [0m [90m 25 |[39m   }[0m
+  [0m [90m 26 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.service.ts:[32m[1m23:53[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'data'.
+  [0m [90m 21 |[39m     [36melse[39m {[0m
+  [0m [90m 22 |[39m       [36mthis[39m[33m.[39m[33mBanrachitietRepository[39m[33m.[39mcreate(data)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 23 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mBanrachitietRepository[39m[33m.[39msave(data)[33m;[39m[0m
+  [0m [90m    |[39m                                                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 24 |[39m     }[0m
+  [0m [90m 25 |[39m   }[0m
+  [0m [90m 26 |[39m[0m
+
+webpack compiled with [1m[31m6 errors[39m[22m (4d8807ba48d26541)
+[1m[31mDebugger listening on ws://localhost:9229/0017d0e7-dba7-45df-9c61-646940578469[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/0017d0e7-dba7-45df-9c61-646940578469[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 97.7 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.service.ts:[32m[1m16:29[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findSHD' does not exist on type 'SanphamService'.
+  [0m [90m 14 |[39m     [36mthis[39m[33m.[39m[33mSanphamRepository[39m[33m.[39mcreate([33mCreateSanphamDto[39m)[33m;[39m[0m
+  [0m [90m 15 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mSanphamRepository[39m[33m.[39msave([33mCreateSanphamDto[39m)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 16 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindSHD(data)[0m
+  [0m [90m    |[39m                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 17 |[39m     [36mif[39m(item)[0m
+  [0m [90m 18 |[39m     {[0m
+  [0m [90m 19 |[39m       [36mreturn[39m [32m"Trùng SHD"[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.service.ts:[32m[1m16:37[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'data'.
+  [0m [90m 14 |[39m     [36mthis[39m[33m.[39m[33mSanphamRepository[39m[33m.[39mcreate([33mCreateSanphamDto[39m)[33m;[39m[0m
+  [0m [90m 15 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mSanphamRepository[39m[33m.[39msave([33mCreateSanphamDto[39m)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 16 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindSHD(data)[0m
+  [0m [90m    |[39m                                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 17 |[39m     [36mif[39m(item)[0m
+  [0m [90m 18 |[39m     {[0m
+  [0m [90m 19 |[39m       [36mreturn[39m [32m"Trùng SHD"[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.service.ts:[32m[1m22:37[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'data'.
+  [0m [90m 20 |[39m     }[0m
+  [0m [90m 21 |[39m     [36melse[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 22 |[39m       [36mthis[39m[33m.[39m[33mSanphamRepository[39m[33m.[39mcreate(data)[33m;[39m[0m
+  [0m [90m    |[39m                                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 23 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mBanrachitietRepository[39m[33m.[39msave(data)[33m;[39m[0m
+  [0m [90m 24 |[39m     }[0m
+  [0m [90m 25 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.service.ts:[32m[1m23:25[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'BanrachitietRepository' does not exist on type 'SanphamService'.
+  [0m [90m 21 |[39m     [36melse[39m {[0m
+  [0m [90m 22 |[39m       [36mthis[39m[33m.[39m[33mSanphamRepository[39m[33m.[39mcreate(data)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 23 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mBanrachitietRepository[39m[33m.[39msave(data)[33m;[39m[0m
+  [0m [90m    |[39m                         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 24 |[39m     }[0m
+  [0m [90m 25 |[39m   }[0m
+  [0m [90m 26 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.service.ts:[32m[1m23:53[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'data'.
+  [0m [90m 21 |[39m     [36melse[39m {[0m
+  [0m [90m 22 |[39m       [36mthis[39m[33m.[39m[33mSanphamRepository[39m[33m.[39mcreate(data)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 23 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mBanrachitietRepository[39m[33m.[39msave(data)[33m;[39m[0m
+  [0m [90m    |[39m                                                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 24 |[39m     }[0m
+  [0m [90m 25 |[39m   }[0m
+  [0m [90m 26 |[39m[0m
+
+webpack compiled with [1m[31m5 errors[39m[22m (0d2045456cac3fa0)
+[1m[31mDebugger listening on ws://localhost:9229/86e4c385-81ad-4b29-91cf-ce8dfca71d8f[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/86e4c385-81ad-4b29-91cf-ce8dfca71d8f[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 97.7 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.service.ts:[32m[1m16:29[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findSHD' does not exist on type 'SanphamService'.
+  [0m [90m 14 |[39m     [36mthis[39m[33m.[39m[33mSanphamRepository[39m[33m.[39mcreate([33mCreateSanphamDto[39m)[33m;[39m[0m
+  [0m [90m 15 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mSanphamRepository[39m[33m.[39msave([33mCreateSanphamDto[39m)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 16 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindSHD(data)[0m
+  [0m [90m    |[39m                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 17 |[39m     [36mif[39m(item)[0m
+  [0m [90m 18 |[39m     {[0m
+  [0m [90m 19 |[39m       [36mreturn[39m [32m"Trùng SHD"[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.service.ts:[32m[1m16:37[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'data'.
+  [0m [90m 14 |[39m     [36mthis[39m[33m.[39m[33mSanphamRepository[39m[33m.[39mcreate([33mCreateSanphamDto[39m)[33m;[39m[0m
+  [0m [90m 15 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mSanphamRepository[39m[33m.[39msave([33mCreateSanphamDto[39m)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 16 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindSHD(data)[0m
+  [0m [90m    |[39m                                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 17 |[39m     [36mif[39m(item)[0m
+  [0m [90m 18 |[39m     {[0m
+  [0m [90m 19 |[39m       [36mreturn[39m [32m"Trùng SHD"[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.service.ts:[32m[1m22:37[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'data'.
+  [0m [90m 20 |[39m     }[0m
+  [0m [90m 21 |[39m     [36melse[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 22 |[39m       [36mthis[39m[33m.[39m[33mSanphamRepository[39m[33m.[39mcreate(data)[33m;[39m[0m
+  [0m [90m    |[39m                                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 23 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mSanphamRepository[39m[33m.[39msave(data)[33m;[39m[0m
+  [0m [90m 24 |[39m     }[0m
+  [0m [90m 25 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.service.ts:[32m[1m23:48[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'data'.
+  [0m [90m 21 |[39m     [36melse[39m {[0m
+  [0m [90m 22 |[39m       [36mthis[39m[33m.[39m[33mSanphamRepository[39m[33m.[39mcreate(data)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 23 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mSanphamRepository[39m[33m.[39msave(data)[33m;[39m[0m
+  [0m [90m    |[39m                                                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 24 |[39m     }[0m
+  [0m [90m 25 |[39m   }[0m
+  [0m [90m 26 |[39m[0m
+
+webpack compiled with [1m[31m4 errors[39m[22m (e76a9a47a3d420f2)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 97.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.service.ts:[32m[1m15:29[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findSHD' does not exist on type 'SanphamService'.
+  [0m [90m 13 |[39m   [36masync[39m create([33mCreateSanphamDto[39m[33m:[39m [33mCreateSanphamDto[39m) {[0m
+  [0m [90m 14 |[39m     [36mthis[39m[33m.[39m[33mSanphamRepository[39m[33m.[39mcreate([33mCreateSanphamDto[39m)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 15 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindSHD(data)[0m
+  [0m [90m    |[39m                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 16 |[39m     [36mif[39m(item)[0m
+  [0m [90m 17 |[39m     {[0m
+  [0m [90m 18 |[39m       [36mreturn[39m [32m"Trùng SHD"[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.service.ts:[32m[1m15:37[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'data'.
+  [0m [90m 13 |[39m   [36masync[39m create([33mCreateSanphamDto[39m[33m:[39m [33mCreateSanphamDto[39m) {[0m
+  [0m [90m 14 |[39m     [36mthis[39m[33m.[39m[33mSanphamRepository[39m[33m.[39mcreate([33mCreateSanphamDto[39m)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 15 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindSHD(data)[0m
+  [0m [90m    |[39m                                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 16 |[39m     [36mif[39m(item)[0m
+  [0m [90m 17 |[39m     {[0m
+  [0m [90m 18 |[39m       [36mreturn[39m [32m"Trùng SHD"[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.service.ts:[32m[1m21:37[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'data'.
+  [0m [90m 19 |[39m     }[0m
+  [0m [90m 20 |[39m     [36melse[39m {[0m
+  [0m[31m[1m>[22m[39m[90m 21 |[39m       [36mthis[39m[33m.[39m[33mSanphamRepository[39m[33m.[39mcreate(data)[33m;[39m[0m
+  [0m [90m    |[39m                                     [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 22 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mSanphamRepository[39m[33m.[39msave(data)[33m;[39m[0m
+  [0m [90m 23 |[39m     }[0m
+  [0m [90m 24 |[39m   }[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.service.ts:[32m[1m22:48[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'data'.
+  [0m [90m 20 |[39m     [36melse[39m {[0m
+  [0m [90m 21 |[39m       [36mthis[39m[33m.[39m[33mSanphamRepository[39m[33m.[39mcreate(data)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 22 |[39m       [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mSanphamRepository[39m[33m.[39msave(data)[33m;[39m[0m
+  [0m [90m    |[39m                                                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 23 |[39m     }[0m
+  [0m [90m 24 |[39m   }[0m
+  [0m [90m 25 |[39m[0m
+
+webpack compiled with [1m[31m4 errors[39m[22m (b697f5adb8247cb9)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 97.7 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.service.ts:[32m[1m14:35[22m[39m[1m[39m[22m
+[90mTS2769: [39mNo overload matches this call.
+  Overload 1 of 3, '(entityLikeArray: DeepPartial<SanphamEntity>[]): SanphamEntity[]', gave the following error.
+    Argument of type 'typeof CreateSanphamDto' is not assignable to parameter of type 'DeepPartial<SanphamEntity>[]'.
+      Type 'typeof CreateSanphamDto' is missing the following properties from type 'DeepPartial<SanphamEntity>[]': pop, push, concat, join, and 28 more.
+  Overload 2 of 3, '(entityLike: DeepPartial<SanphamEntity>): SanphamEntity', gave the following error.
+    Argument of type 'typeof CreateSanphamDto' is not assignable to parameter of type 'DeepPartial<SanphamEntity>'.
+  [0m [90m 12 |[39m   ) {}[0m
+  [0m [90m 13 |[39m   [36masync[39m create(data[33m:[39m [33mCreateSanphamDto[39m) {[0m
+  [0m[31m[1m>[22m[39m[90m 14 |[39m     [36mthis[39m[33m.[39m[33mSanphamRepository[39m[33m.[39mcreate([33mCreateSanphamDto[39m)[33m;[39m[0m
+  [0m [90m    |[39m                                   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 15 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindSHD(data)[0m
+  [0m [90m 16 |[39m     [36mif[39m(item)[0m
+  [0m [90m 17 |[39m     {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.service.ts:[32m[1m15:29[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findSHD' does not exist on type 'SanphamService'.
+  [0m [90m 13 |[39m   [36masync[39m create(data[33m:[39m [33mCreateSanphamDto[39m) {[0m
+  [0m [90m 14 |[39m     [36mthis[39m[33m.[39m[33mSanphamRepository[39m[33m.[39mcreate([33mCreateSanphamDto[39m)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 15 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindSHD(data)[0m
+  [0m [90m    |[39m                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 16 |[39m     [36mif[39m(item)[0m
+  [0m [90m 17 |[39m     {[0m
+  [0m [90m 18 |[39m       [36mreturn[39m [32m"Trùng SHD"[39m[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (b0143b2942f44993)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 97.7 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.service.ts:[32m[1m14:35[22m[39m[1m[39m[22m
+[90mTS2769: [39mNo overload matches this call.
+  Overload 1 of 3, '(entityLikeArray: DeepPartial<SanphamEntity>[]): SanphamEntity[]', gave the following error.
+    Argument of type 'typeof CreateSanphamDto' is not assignable to parameter of type 'DeepPartial<SanphamEntity>[]'.
+      Type 'typeof CreateSanphamDto' is missing the following properties from type 'DeepPartial<SanphamEntity>[]': pop, push, concat, join, and 28 more.
+  Overload 2 of 3, '(entityLike: DeepPartial<SanphamEntity>): SanphamEntity', gave the following error.
+    Argument of type 'typeof CreateSanphamDto' is not assignable to parameter of type 'DeepPartial<SanphamEntity>'.
+  [0m [90m 12 |[39m   ) {}[0m
+  [0m [90m 13 |[39m   [36masync[39m create(data[33m:[39m any) {[0m
+  [0m[31m[1m>[22m[39m[90m 14 |[39m     [36mthis[39m[33m.[39m[33mSanphamRepository[39m[33m.[39mcreate([33mCreateSanphamDto[39m)[33m;[39m[0m
+  [0m [90m    |[39m                                   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 15 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindSHD(data)[0m
+  [0m [90m 16 |[39m     [36mif[39m(item)[0m
+  [0m [90m 17 |[39m     {[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.service.ts:[32m[1m15:29[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findSHD' does not exist on type 'SanphamService'.
+  [0m [90m 13 |[39m   [36masync[39m create(data[33m:[39m any) {[0m
+  [0m [90m 14 |[39m     [36mthis[39m[33m.[39m[33mSanphamRepository[39m[33m.[39mcreate([33mCreateSanphamDto[39m)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 15 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindSHD(data)[0m
+  [0m [90m    |[39m                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 16 |[39m     [36mif[39m(item)[0m
+  [0m [90m 17 |[39m     {[0m
+  [0m [90m 18 |[39m       [36mreturn[39m [32m"Trùng SHD"[39m[0m
+
+webpack compiled with [1m[31m2 errors[39m[22m (216fbb5f8599733e)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 97.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.service.ts:[32m[1m15:29[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findSHD' does not exist on type 'SanphamService'.
+  [0m [90m 13 |[39m   [36masync[39m create(data[33m:[39m any) {[0m
+  [0m [90m 14 |[39m     [36mthis[39m[33m.[39m[33mSanphamRepository[39m[33m.[39mcreate(data)[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 15 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindSHD(data)[0m
+  [0m [90m    |[39m                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 16 |[39m     [36mif[39m(item)[0m
+  [0m [90m 17 |[39m     {[0m
+  [0m [90m 18 |[39m       [36mreturn[39m [32m"Trùng SHD"[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (a025d3c238c82c5f)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 97.5 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.service.ts:[32m[1m14:29[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findSHD' does not exist on type 'SanphamService'.
+  [0m [90m 12 |[39m   ) {}[0m
+  [0m [90m 13 |[39m   [36masync[39m create(data[33m:[39m any) {[0m
+  [0m[31m[1m>[22m[39m[90m 14 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindSHD(data)[0m
+  [0m [90m    |[39m                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 15 |[39m     [36mif[39m(item)[0m
+  [0m [90m 16 |[39m     {[0m
+  [0m [90m 17 |[39m       [36mreturn[39m [32m"Trùng SHD"[39m[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (46866e15d26491e5)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 97.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.service.ts:[32m[1m14:29[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findSHD' does not exist on type 'SanphamService'.
+  [0m [90m 12 |[39m   ) {}[0m
+  [0m [90m 13 |[39m   [36masync[39m create(data[33m:[39m any) {[0m
+  [0m[31m[1m>[22m[39m[90m 14 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindSHD(data)[0m
+  [0m [90m    |[39m                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 15 |[39m     [36mif[39m(item)[0m
+  [0m [90m 16 |[39m     {[0m
+  [0m [90m 17 |[39m       [36mreturn[39m [32m"Trùng SHD"[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.service.ts:[32m[1m28:9[22m[39m[1m[39m[22m
+[90mTS2393: [39mDuplicate function implementation.
+  [0m [90m 26 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mSanphamRepository[39m[33m.[39mfind()[33m;[39m[0m
+  [0m [90m 27 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 28 |[39m   [36masync[39m findid(id[33m:[39m string) {[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 29 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mSanphamRepository[39m[33m.[39mfindOne({[0m
+  [0m [90m 30 |[39m       where[33m:[39m { id[33m:[39m id }[33m,[39m[0m
+  [0m [90m 31 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.service.ts:[32m[1m34:9[22m[39m[1m[39m[22m
+[90mTS2393: [39mDuplicate function implementation.
+  [0m [90m 32 |[39m     })[33m;[39m[0m
+  [0m [90m 33 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 34 |[39m   [36masync[39m findid(id[33m:[39m string) {[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 35 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mSanphamRepository[39m[33m.[39mfindOne({[0m
+  [0m [90m 36 |[39m       where[33m:[39m { id[33m:[39m id }[33m,[39m[0m
+  [0m [90m 37 |[39m[0m
+
+webpack compiled with [1m[31m3 errors[39m[22m (affa71f30f2ed188)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 97.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.service.ts:[32m[1m14:29[22m[39m[1m[39m[22m
+[90mTS2339: [39mProperty 'findTenSP' does not exist on type 'SanphamService'.
+  [0m [90m 12 |[39m   ) {}[0m
+  [0m [90m 13 |[39m   [36masync[39m create(data[33m:[39m any) {[0m
+  [0m[31m[1m>[22m[39m[90m 14 |[39m     [36mconst[39m item [33m=[39m [36mawait[39m [36mthis[39m[33m.[39mfindTenSP(data)[0m
+  [0m [90m    |[39m                             [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 15 |[39m     [36mif[39m(item)[0m
+  [0m [90m 16 |[39m     {[0m
+  [0m [90m 17 |[39m       [36mreturn[39m [32m"Trùng SHD"[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.service.ts:[32m[1m28:9[22m[39m[1m[39m[22m
+[90mTS2393: [39mDuplicate function implementation.
+  [0m [90m 26 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mSanphamRepository[39m[33m.[39mfind()[33m;[39m[0m
+  [0m [90m 27 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 28 |[39m   [36masync[39m findid(id[33m:[39m string) {[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 29 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mSanphamRepository[39m[33m.[39mfindOne({[0m
+  [0m [90m 30 |[39m       where[33m:[39m { id[33m:[39m id }[33m,[39m[0m
+  [0m [90m 31 |[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.service.ts:[32m[1m34:9[22m[39m[1m[39m[22m
+[90mTS2393: [39mDuplicate function implementation.
+  [0m [90m 32 |[39m     })[33m;[39m[0m
+  [0m [90m 33 |[39m   }[0m
+  [0m[31m[1m>[22m[39m[90m 34 |[39m   [36masync[39m findid(id[33m:[39m string) {[0m
+  [0m [90m    |[39m         [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 35 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mSanphamRepository[39m[33m.[39mfindOne({[0m
+  [0m [90m 36 |[39m       where[33m:[39m { id[33m:[39m id }[33m,[39m[0m
+  [0m [90m 37 |[39m[0m
+
+webpack compiled with [1m[31m3 errors[39m[22m (5a47bf16ac3459d9)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 97.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (e2e4595032667476)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 97.7 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/sanpham/sanpham.service.ts:[32m[1m30:16[22m[39m[1m[39m[22m
+[90mTS2322: [39mType '{ findTenSP: string; }' is not assignable to type 'FindOptionsWhere<SanphamEntity> | FindOptionsWhere<SanphamEntity>[]'.
+  Object literal may only specify known properties, and 'findTenSP' does not exist in type 'FindOptionsWhere<SanphamEntity> | FindOptionsWhere<SanphamEntity>[]'.
+  [0m [90m 28 |[39m   [36masync[39m findTenSP(id[33m:[39m string) {[0m
+  [0m [90m 29 |[39m     [36mreturn[39m [36mawait[39m [36mthis[39m[33m.[39m[33mSanphamRepository[39m[33m.[39mfindOne({[0m
+  [0m[31m[1m>[22m[39m[90m 30 |[39m       where[33m:[39m { findTenSP[33m:[39m id }[33m,[39m[0m
+  [0m [90m    |[39m                [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 31 |[39m[0m
+  [0m [90m 32 |[39m     })[33m;[39m[0m
+  [0m [90m 33 |[39m   }[0m
+
+webpack compiled with [1m[31m1 error[39m[22m (ccd83515575fa7d8)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 97.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (0bb2753308b371cf)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 97.7 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (1215d5a7fb690d0d)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 97.7 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (1215d5a7fb690d0d)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 97.7 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (1215d5a7fb690d0d)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 97.7 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (1215d5a7fb690d0d)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 97.7 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (1215d5a7fb690d0d)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 97.7 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (1215d5a7fb690d0d)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 97.7 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (1215d5a7fb690d0d)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 97.7 KiB [1m[33m[entry][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (1215d5a7fb690d0d)
+[1m[31mDebugger listening on ws://localhost:9229/d7998455-50bc-4037-bd19-417265c1242b[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/d7998455-50bc-4037-bd19-417265c1242b[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 97.7 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (1022511b86a23802)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m

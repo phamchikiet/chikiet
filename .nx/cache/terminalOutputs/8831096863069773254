@@ -1,0 +1,198 @@
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 59.5 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (418dca90750aa640)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 59.5 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (bd8fc704e8c9fec4)
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 59.5 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+webpack compiled [1m[32msuccessfully[39m[22m (db443d8c37a20d2f)
+[1m[31mDebugger listening on ws://localhost:9229/b346addf-c5b9-467c-b4d0-3b886dbd546e[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/b346addf-c5b9-467c-b4d0-3b886dbd546e[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 59.6 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/cauhinh/cauhinh.controller.ts:[32m[1m13:10[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'state'.
+  [0m [90m 11 |[39m       [36mconst[39m headers [33m=[39m [36mnew[39m [33mHeaders[39m({ [33mAuthorization[39m[33m:[39m [36mthis[39m[33m.[39m[33mAuthorization[39m })[33m;[39m[0m
+  [0m [90m 12 |[39m       [36mlet[39m [33mURL[39m[33m:[39many[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 13 |[39m       [36mif[39m(state)[0m
+  [0m [90m    |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 14 |[39m       {[0m
+  [0m [90m 15 |[39m         [33mURL[39m [33m=[39m [32m"https://hoadondientu.gdt.gov.vn:30000/query/invoices/sold?sort=tdlap:desc,khmshdon:asc,shdon:desc&size=50&state="[39m[33m+[39mstate[33m+[39m[32m"&search=tdlap=ge=01/"[39m[33m+[39mthang[33m+[39m[32m"/2023T00:00:00;tdlap=le=31/"[39m[33m+[39mthang[33m+[39m[32m"/2023T23:59:59"[39m[0m
+  [0m [90m 16 |[39m       }[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/cauhinh/cauhinh.controller.ts:[32m[1m15:130[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'state'.
+  [0m [90m 13 |[39m       [36mif[39m(state)[0m
+  [0m [90m 14 |[39m       {[0m
+  [0m[31m[1m>[22m[39m[90m 15 |[39m         [33mURL[39m [33m=[39m [32m"https://hoadondientu.gdt.gov.vn:30000/query/invoices/sold?sort=tdlap:desc,khmshdon:asc,shdon:desc&size=50&state="[39m[33m+[39mstate[33m+[39m[32m"&search=tdlap=ge=01/"[39m[33m+[39mthang[33m+[39m[32m"/2023T00:00:00;tdlap=le=31/"[39m[33m+[39mthang[33m+[39m[32m"/2023T23:59:59"[39m[0m
+  [0m [90m    |[39m                                                                                                                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 16 |[39m       }[0m
+  [0m [90m 17 |[39m       [36melse[39m{[0m
+  [0m [90m 18 |[39m         [33mURL[39m [33m=[39m [32m"https://hoadondientu.gdt.gov.vn:30000/query/invoices/sold?sort=tdlap:desc,khmshdon:asc,shdon:desc&size=50&search=tdlap=ge=01/"[39m[33m+[39mthang[33m+[39m[32m"/2023T00:00:00;tdlap=le=31/"[39m[33m+[39mthang[33m+[39m[32m"/2023T23:59:59"[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/cauhinh/cauhinh.controller.ts:[32m[1m15:159[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'thang'.
+  [0m [90m 13 |[39m       [36mif[39m(state)[0m
+  [0m [90m 14 |[39m       {[0m
+  [0m[31m[1m>[22m[39m[90m 15 |[39m         [33mURL[39m [33m=[39m [32m"https://hoadondientu.gdt.gov.vn:30000/query/invoices/sold?sort=tdlap:desc,khmshdon:asc,shdon:desc&size=50&state="[39m[33m+[39mstate[33m+[39m[32m"&search=tdlap=ge=01/"[39m[33m+[39mthang[33m+[39m[32m"/2023T00:00:00;tdlap=le=31/"[39m[33m+[39mthang[33m+[39m[32m"/2023T23:59:59"[39m[0m
+  [0m [90m    |[39m                                                                                                                                                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 16 |[39m       }[0m
+  [0m [90m 17 |[39m       [36melse[39m{[0m
+  [0m [90m 18 |[39m         [33mURL[39m [33m=[39m [32m"https://hoadondientu.gdt.gov.vn:30000/query/invoices/sold?sort=tdlap:desc,khmshdon:asc,shdon:desc&size=50&search=tdlap=ge=01/"[39m[33m+[39mthang[33m+[39m[32m"/2023T00:00:00;tdlap=le=31/"[39m[33m+[39mthang[33m+[39m[32m"/2023T23:59:59"[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/cauhinh/cauhinh.controller.ts:[32m[1m15:195[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'thang'.
+  [0m [90m 13 |[39m       [36mif[39m(state)[0m
+  [0m [90m 14 |[39m       {[0m
+  [0m[31m[1m>[22m[39m[90m 15 |[39m         [33mURL[39m [33m=[39m [32m"https://hoadondientu.gdt.gov.vn:30000/query/invoices/sold?sort=tdlap:desc,khmshdon:asc,shdon:desc&size=50&state="[39m[33m+[39mstate[33m+[39m[32m"&search=tdlap=ge=01/"[39m[33m+[39mthang[33m+[39m[32m"/2023T00:00:00;tdlap=le=31/"[39m[33m+[39mthang[33m+[39m[32m"/2023T23:59:59"[39m[0m
+  [0m [90m    |[39m                                                                                                                                                                                                   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 16 |[39m       }[0m
+  [0m [90m 17 |[39m       [36melse[39m{[0m
+  [0m [90m 18 |[39m         [33mURL[39m [33m=[39m [32m"https://hoadondientu.gdt.gov.vn:30000/query/invoices/sold?sort=tdlap:desc,khmshdon:asc,shdon:desc&size=50&search=tdlap=ge=01/"[39m[33m+[39mthang[33m+[39m[32m"/2023T00:00:00;tdlap=le=31/"[39m[33m+[39mthang[33m+[39m[32m"/2023T23:59:59"[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/cauhinh/cauhinh.controller.ts:[32m[1m18:143[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'thang'.
+  [0m [90m 16 |[39m       }[0m
+  [0m [90m 17 |[39m       [36melse[39m{[0m
+  [0m[31m[1m>[22m[39m[90m 18 |[39m         [33mURL[39m [33m=[39m [32m"https://hoadondientu.gdt.gov.vn:30000/query/invoices/sold?sort=tdlap:desc,khmshdon:asc,shdon:desc&size=50&search=tdlap=ge=01/"[39m[33m+[39mthang[33m+[39m[32m"/2023T00:00:00;tdlap=le=31/"[39m[33m+[39mthang[33m+[39m[32m"/2023T23:59:59"[39m[0m
+  [0m [90m    |[39m                                                                                                                                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 19 |[39m       }[0m
+  [0m [90m 20 |[39m       [36mconst[39m response [33m=[39m [36mawait[39m fetch([33mURL[39m[33m,[39m {[0m
+  [0m [90m 21 |[39m         method[33m:[39m [32m"GET"[39m[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/cauhinh/cauhinh.controller.ts:[32m[1m18:179[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'thang'.
+  [0m [90m 16 |[39m       }[0m
+  [0m [90m 17 |[39m       [36melse[39m{[0m
+  [0m[31m[1m>[22m[39m[90m 18 |[39m         [33mURL[39m [33m=[39m [32m"https://hoadondientu.gdt.gov.vn:30000/query/invoices/sold?sort=tdlap:desc,khmshdon:asc,shdon:desc&size=50&search=tdlap=ge=01/"[39m[33m+[39mthang[33m+[39m[32m"/2023T00:00:00;tdlap=le=31/"[39m[33m+[39mthang[33m+[39m[32m"/2023T23:59:59"[39m[0m
+  [0m [90m    |[39m                                                                                                                                                                                   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 19 |[39m       }[0m
+  [0m [90m 20 |[39m       [36mconst[39m response [33m=[39m [36mawait[39m fetch([33mURL[39m[33m,[39m {[0m
+  [0m [90m 21 |[39m         method[33m:[39m [32m"GET"[39m[33m,[39m[0m
+
+webpack compiled with [1m[31m6 errors[39m[22m (6489bba15455e30d)
+[1m[31mDebugger listening on ws://localhost:9229/11a7aaa1-98f9-40b7-8ab8-cd170043d38b[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/11a7aaa1-98f9-40b7-8ab8-cd170043d38b[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 59.4 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/cauhinh/cauhinh.controller.ts:[32m[1m13:10[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'state'.
+  [0m [90m 11 |[39m       [36mconst[39m headers [33m=[39m [36mnew[39m [33mHeaders[39m({ [33mAuthorization[39m[33m:[39m [36mthis[39m[33m.[39m[33mAuthorization[39m })[33m;[39m[0m
+  [0m [90m 12 |[39m       [36mlet[39m [33mURL[39m[33m:[39many[33m;[39m[0m
+  [0m[31m[1m>[22m[39m[90m 13 |[39m       [36mif[39m(state)[0m
+  [0m [90m    |[39m          [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 14 |[39m       {[0m
+  [0m [90m 15 |[39m         [33mURL[39m [33m=[39m [32m"https://hoadondientu.gdt.gov.vn:30000/query/invoices/sold?sort=tdlap:desc,khmshdon:asc,shdon:desc&size=50&state="[39m[33m+[39mstate[33m+[39m[32m"&search=tdlap=ge=01/"[39m[33m+[39mthang[33m+[39m[32m"/2023T00:00:00;tdlap=le=31/"[39m[33m+[39mthang[33m+[39m[32m"/2023T23:59:59"[39m[0m
+  [0m [90m 16 |[39m       }[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/cauhinh/cauhinh.controller.ts:[32m[1m15:130[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'state'.
+  [0m [90m 13 |[39m       [36mif[39m(state)[0m
+  [0m [90m 14 |[39m       {[0m
+  [0m[31m[1m>[22m[39m[90m 15 |[39m         [33mURL[39m [33m=[39m [32m"https://hoadondientu.gdt.gov.vn:30000/query/invoices/sold?sort=tdlap:desc,khmshdon:asc,shdon:desc&size=50&state="[39m[33m+[39mstate[33m+[39m[32m"&search=tdlap=ge=01/"[39m[33m+[39mthang[33m+[39m[32m"/2023T00:00:00;tdlap=le=31/"[39m[33m+[39mthang[33m+[39m[32m"/2023T23:59:59"[39m[0m
+  [0m [90m    |[39m                                                                                                                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 16 |[39m       }[0m
+  [0m [90m 17 |[39m       [36melse[39m{[0m
+  [0m [90m 18 |[39m         [33mURL[39m [33m=[39m [32m"https://hoadondientu.gdt.gov.vn:30000/query/invoices/sold?sort=tdlap:desc,khmshdon:asc,shdon:desc&size=50&search=tdlap=ge=01/"[39m[33m+[39mthang[33m+[39m[32m"/2023T00:00:00;tdlap=le=31/"[39m[33m+[39mthang[33m+[39m[32m"/2023T23:59:59"[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/cauhinh/cauhinh.controller.ts:[32m[1m15:159[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'thang'.
+  [0m [90m 13 |[39m       [36mif[39m(state)[0m
+  [0m [90m 14 |[39m       {[0m
+  [0m[31m[1m>[22m[39m[90m 15 |[39m         [33mURL[39m [33m=[39m [32m"https://hoadondientu.gdt.gov.vn:30000/query/invoices/sold?sort=tdlap:desc,khmshdon:asc,shdon:desc&size=50&state="[39m[33m+[39mstate[33m+[39m[32m"&search=tdlap=ge=01/"[39m[33m+[39mthang[33m+[39m[32m"/2023T00:00:00;tdlap=le=31/"[39m[33m+[39mthang[33m+[39m[32m"/2023T23:59:59"[39m[0m
+  [0m [90m    |[39m                                                                                                                                                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 16 |[39m       }[0m
+  [0m [90m 17 |[39m       [36melse[39m{[0m
+  [0m [90m 18 |[39m         [33mURL[39m [33m=[39m [32m"https://hoadondientu.gdt.gov.vn:30000/query/invoices/sold?sort=tdlap:desc,khmshdon:asc,shdon:desc&size=50&search=tdlap=ge=01/"[39m[33m+[39mthang[33m+[39m[32m"/2023T00:00:00;tdlap=le=31/"[39m[33m+[39mthang[33m+[39m[32m"/2023T23:59:59"[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/cauhinh/cauhinh.controller.ts:[32m[1m15:195[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'thang'.
+  [0m [90m 13 |[39m       [36mif[39m(state)[0m
+  [0m [90m 14 |[39m       {[0m
+  [0m[31m[1m>[22m[39m[90m 15 |[39m         [33mURL[39m [33m=[39m [32m"https://hoadondientu.gdt.gov.vn:30000/query/invoices/sold?sort=tdlap:desc,khmshdon:asc,shdon:desc&size=50&state="[39m[33m+[39mstate[33m+[39m[32m"&search=tdlap=ge=01/"[39m[33m+[39mthang[33m+[39m[32m"/2023T00:00:00;tdlap=le=31/"[39m[33m+[39mthang[33m+[39m[32m"/2023T23:59:59"[39m[0m
+  [0m [90m    |[39m                                                                                                                                                                                                   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 16 |[39m       }[0m
+  [0m [90m 17 |[39m       [36melse[39m{[0m
+  [0m [90m 18 |[39m         [33mURL[39m [33m=[39m [32m"https://hoadondientu.gdt.gov.vn:30000/query/invoices/sold?sort=tdlap:desc,khmshdon:asc,shdon:desc&size=50&search=tdlap=ge=01/"[39m[33m+[39mthang[33m+[39m[32m"/2023T00:00:00;tdlap=le=31/"[39m[33m+[39mthang[33m+[39m[32m"/2023T23:59:59"[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/cauhinh/cauhinh.controller.ts:[32m[1m18:143[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'thang'.
+  [0m [90m 16 |[39m       }[0m
+  [0m [90m 17 |[39m       [36melse[39m{[0m
+  [0m[31m[1m>[22m[39m[90m 18 |[39m         [33mURL[39m [33m=[39m [32m"https://hoadondientu.gdt.gov.vn:30000/query/invoices/sold?sort=tdlap:desc,khmshdon:asc,shdon:desc&size=50&search=tdlap=ge=01/"[39m[33m+[39mthang[33m+[39m[32m"/2023T00:00:00;tdlap=le=31/"[39m[33m+[39mthang[33m+[39m[32m"/2023T23:59:59"[39m[0m
+  [0m [90m    |[39m                                                                                                                                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 19 |[39m       }[0m
+  [0m [90m 20 |[39m       [36mconst[39m response [33m=[39m [36mawait[39m fetch([33mURL[39m[33m,[39m {[0m
+  [0m [90m 21 |[39m         method[33m:[39m [32m"GET"[39m[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/cauhinh/cauhinh.controller.ts:[32m[1m18:179[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'thang'.
+  [0m [90m 16 |[39m       }[0m
+  [0m [90m 17 |[39m       [36melse[39m{[0m
+  [0m[31m[1m>[22m[39m[90m 18 |[39m         [33mURL[39m [33m=[39m [32m"https://hoadondientu.gdt.gov.vn:30000/query/invoices/sold?sort=tdlap:desc,khmshdon:asc,shdon:desc&size=50&search=tdlap=ge=01/"[39m[33m+[39mthang[33m+[39m[32m"/2023T00:00:00;tdlap=le=31/"[39m[33m+[39mthang[33m+[39m[32m"/2023T23:59:59"[39m[0m
+  [0m [90m    |[39m                                                                                                                                                                                   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 19 |[39m       }[0m
+  [0m [90m 20 |[39m       [36mconst[39m response [33m=[39m [36mawait[39m fetch([33mURL[39m[33m,[39m {[0m
+  [0m [90m 21 |[39m         method[33m:[39m [32m"GET"[39m[33m,[39m[0m
+
+webpack compiled with [1m[31m6 errors[39m[22m (4130dc4e1f9f90a6)
+[1m[31mDebugger listening on ws://localhost:9229/9a534b9d-145b-4600-aac5-f97e7e1e9942[39m[22m
+[1m[31mDebugger listening on ws://localhost:9229/9a534b9d-145b-4600-aac5-f97e7e1e9942[39m[22m
+[1m[31mFor help, see: https://nodejs.org/en/docs/inspector[39m[22m
+[1m[31m[39m[22m
+chunk (runtime: main) [1m[32mmain.js[39m[22m (main) 59.4 KiB [1m[33m[entry][39m[22m [1m[32m[rendered][39m[22m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/cauhinh/cauhinh.controller.ts:[32m[1m15:130[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'state'.
+  [0m [90m 13 |[39m       [36mif[39m(data[33m.[39mstate)[0m
+  [0m [90m 14 |[39m       {[0m
+  [0m[31m[1m>[22m[39m[90m 15 |[39m         [33mURL[39m [33m=[39m [32m"https://hoadondientu.gdt.gov.vn:30000/query/invoices/sold?sort=tdlap:desc,khmshdon:asc,shdon:desc&size=50&state="[39m[33m+[39mstate[33m+[39m[32m"&search=tdlap=ge=01/"[39m[33m+[39mthang[33m+[39m[32m"/2023T00:00:00;tdlap=le=31/"[39m[33m+[39mthang[33m+[39m[32m"/2023T23:59:59"[39m[0m
+  [0m [90m    |[39m                                                                                                                                  [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 16 |[39m       }[0m
+  [0m [90m 17 |[39m       [36melse[39m{[0m
+  [0m [90m 18 |[39m         [33mURL[39m [33m=[39m [32m"https://hoadondientu.gdt.gov.vn:30000/query/invoices/sold?sort=tdlap:desc,khmshdon:asc,shdon:desc&size=50&search=tdlap=ge=01/"[39m[33m+[39mthang[33m+[39m[32m"/2023T00:00:00;tdlap=le=31/"[39m[33m+[39mthang[33m+[39m[32m"/2023T23:59:59"[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/cauhinh/cauhinh.controller.ts:[32m[1m15:159[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'thang'.
+  [0m [90m 13 |[39m       [36mif[39m(data[33m.[39mstate)[0m
+  [0m [90m 14 |[39m       {[0m
+  [0m[31m[1m>[22m[39m[90m 15 |[39m         [33mURL[39m [33m=[39m [32m"https://hoadondientu.gdt.gov.vn:30000/query/invoices/sold?sort=tdlap:desc,khmshdon:asc,shdon:desc&size=50&state="[39m[33m+[39mstate[33m+[39m[32m"&search=tdlap=ge=01/"[39m[33m+[39mthang[33m+[39m[32m"/2023T00:00:00;tdlap=le=31/"[39m[33m+[39mthang[33m+[39m[32m"/2023T23:59:59"[39m[0m
+  [0m [90m    |[39m                                                                                                                                                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 16 |[39m       }[0m
+  [0m [90m 17 |[39m       [36melse[39m{[0m
+  [0m [90m 18 |[39m         [33mURL[39m [33m=[39m [32m"https://hoadondientu.gdt.gov.vn:30000/query/invoices/sold?sort=tdlap:desc,khmshdon:asc,shdon:desc&size=50&search=tdlap=ge=01/"[39m[33m+[39mthang[33m+[39m[32m"/2023T00:00:00;tdlap=le=31/"[39m[33m+[39mthang[33m+[39m[32m"/2023T23:59:59"[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/cauhinh/cauhinh.controller.ts:[32m[1m15:195[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'thang'.
+  [0m [90m 13 |[39m       [36mif[39m(data[33m.[39mstate)[0m
+  [0m [90m 14 |[39m       {[0m
+  [0m[31m[1m>[22m[39m[90m 15 |[39m         [33mURL[39m [33m=[39m [32m"https://hoadondientu.gdt.gov.vn:30000/query/invoices/sold?sort=tdlap:desc,khmshdon:asc,shdon:desc&size=50&state="[39m[33m+[39mstate[33m+[39m[32m"&search=tdlap=ge=01/"[39m[33m+[39mthang[33m+[39m[32m"/2023T00:00:00;tdlap=le=31/"[39m[33m+[39mthang[33m+[39m[32m"/2023T23:59:59"[39m[0m
+  [0m [90m    |[39m                                                                                                                                                                                                   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 16 |[39m       }[0m
+  [0m [90m 17 |[39m       [36melse[39m{[0m
+  [0m [90m 18 |[39m         [33mURL[39m [33m=[39m [32m"https://hoadondientu.gdt.gov.vn:30000/query/invoices/sold?sort=tdlap:desc,khmshdon:asc,shdon:desc&size=50&search=tdlap=ge=01/"[39m[33m+[39mthang[33m+[39m[32m"/2023T00:00:00;tdlap=le=31/"[39m[33m+[39mthang[33m+[39m[32m"/2023T23:59:59"[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/cauhinh/cauhinh.controller.ts:[32m[1m18:143[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'thang'.
+  [0m [90m 16 |[39m       }[0m
+  [0m [90m 17 |[39m       [36melse[39m{[0m
+  [0m[31m[1m>[22m[39m[90m 18 |[39m         [33mURL[39m [33m=[39m [32m"https://hoadondientu.gdt.gov.vn:30000/query/invoices/sold?sort=tdlap:desc,khmshdon:asc,shdon:desc&size=50&search=tdlap=ge=01/"[39m[33m+[39mthang[33m+[39m[32m"/2023T00:00:00;tdlap=le=31/"[39m[33m+[39mthang[33m+[39m[32m"/2023T23:59:59"[39m[0m
+  [0m [90m    |[39m                                                                                                                                               [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 19 |[39m       }[0m
+  [0m [90m 20 |[39m       [36mconst[39m response [33m=[39m [36mawait[39m fetch([33mURL[39m[33m,[39m {[0m
+  [0m [90m 21 |[39m         method[33m:[39m [32m"GET"[39m[33m,[39m[0m
+
+[1m[31mERROR[39m[22m in [1m./be_ketoan/src/app/cauhinh/cauhinh.controller.ts:[32m[1m18:179[22m[39m[1m[39m[22m
+[90mTS2304: [39mCannot find name 'thang'.
+  [0m [90m 16 |[39m       }[0m
+  [0m [90m 17 |[39m       [36melse[39m{[0m
+  [0m[31m[1m>[22m[39m[90m 18 |[39m         [33mURL[39m [33m=[39m [32m"https://hoadondientu.gdt.gov.vn:30000/query/invoices/sold?sort=tdlap:desc,khmshdon:asc,shdon:desc&size=50&search=tdlap=ge=01/"[39m[33m+[39mthang[33m+[39m[32m"/2023T00:00:00;tdlap=le=31/"[39m[33m+[39mthang[33m+[39m[32m"/2023T23:59:59"[39m[0m
+  [0m [90m    |[39m                                                                                                                                                                                   [31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[31m[1m^[22m[39m[0m
+  [0m [90m 19 |[39m       }[0m
+  [0m [90m 20 |[39m       [36mconst[39m response [33m=[39m [36mawait[39m fetch([33mURL[39m[33m,[39m {[0m
+  [0m [90m 21 |[39m         method[33m:[39m [32m"GET"[39m[33m,[39m[0m
+
+webpack compiled with [1m[31m5 errors[39m[22m (83f3bbac03fce6f2)
+[1m[31mBuild failed, waiting for changes to restart...[39m[22m
