@@ -11,4 +11,4 @@ npx nx g @nx/nest:app be_ketoan
   
 git add .
 git commit -m "update"
-git pushn 
+git push
