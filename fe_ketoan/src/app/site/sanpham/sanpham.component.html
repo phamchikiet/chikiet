@@ -50,6 +50,11 @@
           <td mat-cell *matCellDef="let row"> {{row.TenS2P}} </td>
           <td mat-footer-cell *matFooterCellDef></td>
         </ng-container>
+        <ng-container matColumnDef="CreateAt">
+          <th mat-header-cell *matHeaderCellDef mat-sort-header> Ngày Tạo</th>
+          <td mat-cell *matCellDef="let row"> {{row.CreateAt|date:"dd/MM/yyyy"}} </td>
+          <td mat-footer-cell *matFooterCellDef></td>
+        </ng-container>
 
         <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
         <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>

@@ -14,6 +14,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatSelectChange, MatSelectModule } from '@angular/material/select';
 import { NhapkhoService } from '../nhapkho/nhapkho.service';
 import { XuatkhoService } from '../xuatkho/xuatkho.service';
+import * as moment from 'moment';
 @Component({
   selector: 'app-tonkho',
   standalone: true,
@@ -44,12 +45,11 @@ export class TonkhoComponent implements OnInit {
   dataSource!: MatTableDataSource<any>;
   ListTonkho: any
   Listfilter: any[]=[]
-  Chonngay: any = { Batdau: new Date('2023-01-01'), Ketthuc: new Date('2023-01-31') }
+  Chonngay: any = { Batdau: new Date('2024-01-01'), Ketthuc: new Date('2024-01-31') }
   SearchParams: any = {
     Thang:12,
-    Nam:2022,
-    Type:"XUAT",
-    pageSize:5,
+    Nam:2023,
+    pageSize:99,
     pageNumber:0
   };
   pageSizeOptions:any[]=[5]
@@ -57,12 +57,12 @@ export class TonkhoComponent implements OnInit {
   @ViewChild(MatSort) sort!: MatSort;
   constructor() {}
   async ngOnInit() {
-    // this.ListTonkho  = await this._TonkhoService.SearchTonkho(this.SearchParams)
-    // console.log(this.ListTonkho);
-    //   this.dataSource = new MatTableDataSource(this.ListTonkho.items);
-    //   this.dataSource.paginator = this.paginator;
-    //   this.dataSource.sort = this.sort;
-    //   this.pageSizeOptions = [10, 20, this.ListTonkho.totalCount].filter(v => v <= this.ListTonkho.totalCount);
+    this.ListTonkho  = await this._TonkhoService.SearchTonkho(this.SearchParams)
+    console.log(this.ListTonkho);
+      this.dataSource = new MatTableDataSource(this.ListTonkho.items);
+      this.dataSource.paginator = this.paginator;
+      this.dataSource.sort = this.sort;
+      this.pageSizeOptions = [10, 20, this.ListTonkho.totalCount].filter(v => v <= this.ListTonkho.totalCount);
   }
   ChangeDate() {
     // this.Listfilter = this.ListTonkho.filter((v: any) => {
@@ -111,7 +111,7 @@ export class TonkhoComponent implements OnInit {
     const worksheet: XLSX.WorkSheet = XLSX.utils.json_to_sheet(exportData);
     const workbook: XLSX.WorkBook = { Sheets: { 'Sheet1': worksheet }, SheetNames: ['Sheet1'] };
     const excelBuffer: any = XLSX.write(workbook, { bookType: 'xlsx', type: 'array' });
-    this.saveAsExcelFile(excelBuffer, 'data');
+    this.saveAsExcelFile(excelBuffer, 'Tonkho_'+moment().format("DD_MM_YYYY"));
   }
   saveAsExcelFile(buffer: any, fileName: string) {
     const data: Blob = new Blob([buffer], { type: 'application/octet-stream' });

@@ -12,4 +12,4 @@ npx nx g @nx/angular:setup-tailwind fe_ketoan
 ### Git CLI
 git add .
 git commit -m "update"
-git push
+git pus

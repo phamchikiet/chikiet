@@ -9,6 +9,14 @@
           }
         </mat-select>
       </mat-form-field>
+      <mat-form-field>
+        <mat-label>Năm</mat-label>
+        <mat-select [(ngModel)]="SearchParams.Nam" [ngModelOptions]="{standalone: true}" (selectionChange)="ngOnInit()">
+          @for (item of [2021,2022,2023,2024,2025]; track $index) {
+          <mat-option [value]="item">{{item}}</mat-option>
+          }
+        </mat-select>
+      </mat-form-field>
     <mat-form-field>
         <mat-label>Tình Trạng</mat-label>
         <mat-select [(ngModel)]="ttxly" [ngModelOptions]="{standalone: true}" (selectionChange)="onChangeTinhtrang($event)">

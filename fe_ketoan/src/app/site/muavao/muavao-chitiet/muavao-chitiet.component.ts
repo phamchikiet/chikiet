@@ -51,15 +51,16 @@ export class MuavaochitietComponent implements OnInit {
   Listfilter: any[] = []
   ListMuavao: any
   ListMuavaochitiet: any
-  Chonngay: any = { Batdau: new Date('2023-01-01'), Ketthuc: new Date('2023-01-31') }
+  Chonngay: any = { Batdau: new Date('2024-01-01'), Ketthuc: new Date('2024-01-31') }
   ttxly: any = 5
   Thang: any = 1
-  Nam: any = 2023
+  Nam: any = 2024
   Token: any = localStorage.getItem('TokenWeb')
   SearchParams: any = {
-    Thang: 10,
+    Thang: 1,
+    Nam:2024,
     Type: "NHAP",
-    pageSize: 5,
+    pageSize: 99,
     pageNumber: 0
   };
   ListSanpham: any[] = []
@@ -85,6 +86,7 @@ export class MuavaochitietComponent implements OnInit {
         thtien: v1.thtien,
         SHD: v.SHD,
         Thang: v.Thang,
+        Nam: v.Nam,
         tgtttbso: v.Dulieu.tgtttbso,
         Ngaytao:v.Ngaytao
       }));
@@ -173,6 +175,7 @@ export class MuavaochitietComponent implements OnInit {
           item.Dulieu = result
           item.SHD = v.SHD
           item.Thang = v.Thang
+          item.Nam = v.Nam
           item.Type = v.Type,
           item.Ngaytao =v.Ngaytao
           this._MuavaoService.Createvaochitiet(item)

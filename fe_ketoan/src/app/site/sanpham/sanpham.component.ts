@@ -29,7 +29,7 @@ export class SanphamComponent implements OnInit {
   ListSP: any[] = []
   ListSPChung: any[] = []
   constructor() { }
-  displayedColumns: string[] = ['TenSP', 'TenSP1','TenSP2'];
+  displayedColumns: string[] = ['TenSP', 'TenSP1','TenSP2','CreateAt'];
   dataSource!: MatTableDataSource<any>;
   @ViewChild(MatPaginator) paginator!: MatPaginator;
   @ViewChild(MatSort) sort!: MatSort;

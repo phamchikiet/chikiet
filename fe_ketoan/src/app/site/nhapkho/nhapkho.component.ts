@@ -41,11 +41,12 @@ export class NhapkhoComponent implements OnInit {
   dataSource!: MatTableDataSource<any>;
   ListNhapkho: any
   Listfilter: any[]=[]
-  Chonngay: any = { Batdau: new Date('2023-01-01'), Ketthuc: new Date('2023-01-31') }
+  Chonngay: any = { Batdau: new Date('2024-01-01'), Ketthuc: new Date('2024-01-31') }
   SearchParams: any = {
     Thang:1,
+    Nam:2024,
     Type:"NHAP",
-    pageSize:5,
+    pageSize:99,
     pageNumber:0
   };
   pageSizeOptions:any[]=[5]

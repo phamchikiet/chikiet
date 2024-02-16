@@ -52,15 +52,15 @@ export class BanrachitietComponent implements OnInit {
   ListBanra: any
   ListBanrachitiet: any
   ListXuatkho: any
-  Chonngay: any = { Batdau: new Date('2023-03-01'), Ketthuc: new Date('2023-03-31') }
+  Chonngay: any = { Batdau: new Date('2024-01-01'), Ketthuc: new Date('2024-01-31') }
   ttxly: any = 5
   Thang: any = 1
-  Nam: any = 2023
   Token: any = localStorage.getItem('TokenWeb')
   SearchParams: any = {
-    Thang: 3,
+    Thang: 1,
+    Nam:2024,
     Type: "XUAT",
-    pageSize: 5,
+    pageSize: 99,
     pageNumber: 0
   };
   ListSanpham: any[] = []
@@ -92,6 +92,7 @@ export class BanrachitietComponent implements OnInit {
         thtien: v1.thtien,
         SHD: v.SHD,
         Thang: v.Thang,
+        Nam : v.Nam,
         Ngaytao :v.Ngaytao,
         tgtttbso: v.Dulieu.tgtttbso
       }));
@@ -122,6 +123,8 @@ export class BanrachitietComponent implements OnInit {
   {
     const data1Ids = new Set(this.ListXuatkho.items.map((obj: any) => obj.idCT));
     const data = this.ListSanpham.filter((obj: any) => !data1Ids.has(obj.idCT));
+    console.log(data);
+    
     data.forEach((v:any,k:any)=>
     {
       setTimeout(() => {
@@ -194,6 +197,7 @@ export class BanrachitietComponent implements OnInit {
           item.Dulieu = result
           item.SHD = v.SHD
           item.Thang = v.Thang
+          item.Nam = v.Nam
           item.Type = v.Type
           item.Ngaytao =v.Ngaytao
           this._BanraService.CreateBanrachitiets(item)
