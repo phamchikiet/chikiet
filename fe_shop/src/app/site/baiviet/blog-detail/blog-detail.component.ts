@@ -1,7 +1,7 @@
 import { DatePipe, DecimalPipe } from '@angular/common';
 import { Component, OnInit, inject } from '@angular/core';
 import { MatButtonModule } from '@angular/material/button';
-import { RouterLink } from '@angular/router';
+import { ActivatedRoute, RouterLink } from '@angular/router';
 import {
   MatBottomSheet,
   MatBottomSheetModule,
@@ -46,15 +46,25 @@ export class BlogDetailComponent implements OnInit {
     {id:1,Title:"Rau Sạch Trần Gia"},
   ]
   Detail:any={}
-  constructor(private _bottomSheet: MatBottomSheet) {}
+  Slug:any
+  route: ActivatedRoute = inject(ActivatedRoute);
+  constructor(private _bottomSheet: MatBottomSheet) {
+    this.Slug = this.route.snapshot.params['slug'];
+  }
   openBottomSheet(): void {
     this._bottomSheet.open(BaivietBottomsheetComponent);
   }
   async ngOnInit() {
-    this.ListBaiviet = await this._BaivietAdminService.SearchBaivietAdmin(this.SearchParams)
-    this.FilterBaiviet = this.ListBaiviet.items
-    this.Detail = this.ListBaiviet.items[0]
-    console.log(this.ListBaiviet);
+    if(this.Slug)
+    {
+      console.log(this.Slug);
+      this.Detail = await this._BaivietAdminService.getSanphamBySlug(this.Slug)
+      console.log(this.Detail);
+    }
+    // this.ListBaiviet = await this._BaivietAdminService.SearchBaivietAdmin(this.SearchParams)
+    // this.FilterBaiviet = this.ListBaiviet.items
+    // this.Detail = this.ListBaiviet.items[0]
+    // console.log(this.ListBaiviet);
     
   }
 

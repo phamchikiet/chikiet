@@ -30,11 +30,14 @@
 <section class="bg-white">
   <div class="container grid lg:grid-cols-3 grid-cols-1 gap-3 py-8">
     @for (item of ListBaiviet; track $index) {
-      <div class="flex flex-col space-y-3 p-6 rounded-lg border hover:shadow-xl transition-all">
+      <a href="khuyen-mai/{{item.Slug}}" class="flex flex-col space-y-3 p-6 rounded-lg border hover:shadow-xl transition-all">
         <img src="{{item.Image.Main}}">
-        <a href="khuyen-mai/{{item.Slug}}" class="text-center text-xl font-semibold">{{item.Title}}</a>
+        <span class="text-center text-xl font-semibold">{{item.Title}}</span>
         <div class="text-justify line-clamp-3">{{item.Mota}}</div>
+        <div class="flex justify-center">
+          <button class="relative items-center justify-center px-6 py-3 rounded-full text-base bg-[#e22026] text-white capitalize transition-all hover:bg-[#e8686c]">Xem Thêm </button>
       </div>
+    </a>
     }
 
   </div>

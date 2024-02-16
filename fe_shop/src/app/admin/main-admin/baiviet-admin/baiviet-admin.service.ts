@@ -41,6 +41,26 @@ export class BaivietAdminService {
           return console.error(error);
       }
   }
+  async getSanphamBySlug(Slug:any) {
+    try {
+      const options = {
+        method:'GET',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+      };
+          const response = await fetch(`${environment.APIURL}/baiviet/findslug/${Slug}`,options);
+          if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+          }
+          const data = await response.json();   
+          console.log(data);
+                
+          return data;
+      } catch (error) {
+          return console.error(error);
+      }
+  }
   async SearchBaivietAdmin(SearchParams:any) {
     console.log(SearchParams);
     

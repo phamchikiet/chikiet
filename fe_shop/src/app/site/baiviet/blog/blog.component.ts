@@ -55,5 +55,17 @@ export class BlogComponent implements OnInit {
     console.log(this.ListBaiviet);
     
   }
-
+  async applyFilter(event: Event) {
+    const value = (event.target as HTMLInputElement).value;
+    if (value.length > 2) {
+      this.SearchParams.Query=value
+      this.ListBaiviet = await this._BaivietAdminService.SearchBaivietAdmin(this.SearchParams)
+      this.FilterBaiviet = this.ListBaiviet.items
+    }
+    else {
+      delete this.SearchParams.Query
+      this.ListBaiviet = await this._BaivietAdminService.SearchBaivietAdmin(this.SearchParams)
+      this.FilterBaiviet = this.ListBaiviet.items
+    }
+  }
 }

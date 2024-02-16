@@ -230,7 +230,7 @@ export class HeaderComponent implements OnInit {
       ]
     },
     { id: 3, Title: 'Khuyến Mãi', Slug: 'khuyen-mai' },
-    { id: 4, Title: 'Món Ngon Mỗi Ngày', Slug: 'blog' },
+    { id: 4, Title: 'Món Ngon Mỗi Ngày', Slug: 'mon-ngon-moi-ngay' },
     { id: 5, Title: 'Tin tức', Slug: 'tin-tuc' },
     {
       id: 3, Title: 'Về chúng tôi ', Slug: 've-chung-toi', Show: false,
@@ -296,7 +296,7 @@ export class HeaderComponent implements OnInit {
   async ngOnInit(): Promise<void> {
     this.dataSource.data = this.Menus;
     this.Danhmucs = await this._DanhmucService.SearchDanhmuc(this.SearchParams)
-    console.log(this.Menus);
+    // console.log(this.Menus);
   }
 
   toggleTheme() {

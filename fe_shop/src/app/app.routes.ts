@@ -92,11 +92,11 @@ export const appRoutes: Route[] = [
                     component: KhuyenmaiChitietComponent,
                 },
                 {
-                    path: 'blog',
+                    path: 'mon-ngon-moi-ngay',
                     component: BlogComponent,
                 },
                 {
-                    path: 'blog-detail',
+                    path: 'mon-ngon-moi-ngay/:slug',
                     component: BlogDetailComponent,
                 },
                 {
