@@ -36,10 +36,11 @@ export class BaivietService {
   //     },
   //   });
   // }
-  async findslug(data: any) {
-    return await this.BaivietRepository.findOne({
-      where: { Slug: data.Slug },
-    });
+  async findslug(Slug: any) {
+    const result = await this.BaivietRepository.findOne({
+      where: { Slug: Slug },
+    });    
+    return result
   }
   async findPagination(page: number, perPage: number) {
     const skip = (page - 1) * perPage;
@@ -68,8 +69,6 @@ export class BaivietService {
       .limit(params.pageSize || 10) // Set a default page size if not provided
       .offset(params.pageNumber * params.pageSize || 0)
       .getManyAndCount();
-    console.log(items, totalCount);
-
     return { items, totalCount };
   }
   async update(id: string, UpdateBaivietDto: UpdateBaivietDto) {
