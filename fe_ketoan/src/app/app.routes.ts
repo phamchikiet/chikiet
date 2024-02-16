@@ -13,7 +13,7 @@ import { XuatnhaptonComponent } from './site/xuatnhapton/xuatnhapton.component';
 import { TonkhoComponent } from './site/tonkho/tonkho.component';
 import { SanphamchungComponent } from './site/sanpham/sanphamchung/sanphamchung.component';
 import { TonghopComponent } from './site/tonghop/tonghop.component';
-import { XNTComponent } from './site/xuatnhapton/XNT/xnt.component';
+import { XNTComponent } from './site/xuatnhapton/xnt/xnt.component';
 
 export const appRoutes: Route[] = [
     { path: '', redirectTo: 'shdhhp', pathMatch: 'full' },
@@ -79,11 +79,11 @@ export const appRoutes: Route[] = [
         component: XuatnhaptonComponent,
         title: 'Xuất Nhập Tồn'
     },
-    {
-        path: 'XNT',
-        component: XNTComponent,
-        title: 'Xuất Nhập Tồn'
-    },
+    // {
+    //     path: 'XNT',
+    //     component: XNTComponent,
+    //     title: 'Xuất Nhập Tồn'
+    // },
     {
         path: 'tonghop',
         component: TonghopComponent,
