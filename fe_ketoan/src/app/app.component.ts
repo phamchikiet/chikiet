@@ -33,6 +33,7 @@ export class AppComponent {
   ]
   applyFilter(e:any)
   {
-
+    // console.log("abc");
   }
+  
 }
