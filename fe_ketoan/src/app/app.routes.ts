@@ -10,7 +10,7 @@ import { MuavaochitietComponent } from './site/muavao/muavao-chitiet/muavao-chit
 import { NhapkhoComponent } from './site/nhapkho/nhapkho.component';
 import { XuatkhoComponent } from './site/xuatkho/xuatkho.component';
 import { XuatnhaptonComponent } from './site/xuatnhapton/xuatnhapton.component';
-import { XNTComponent } from './site/xuatnhapton/XNT/XNT.component';
+import { XNTComponent } from './site/xuatnhapton/XNT/xnt.component';
 import { TonkhoComponent } from './site/tonkho/tonkho.component';
 import { SanphamchungComponent } from './site/sanpham/sanphamchung/sanphamchung.component';
 import { TonghopComponent } from './site/tonghop/tonghop.component';

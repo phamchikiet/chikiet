@@ -3,7 +3,7 @@ import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
 import { DebugElement } from '@angular/core';
 
-import { XNTComponent } from './XNT.component';
+import { XNTComponent } from './xnt.component';
 
 describe('XNTComponent', () => {
   let component: XNTComponent;
