@@ -1,6 +1,7 @@
 import { Component, OnInit, inject } from '@angular/core';
 import { GiohangService } from './giohang.service';
 import { DecimalPipe } from '@angular/common';
+import { MatSnackBar } from '@angular/material/snack-bar';
 
 @Component({
   selector: 'app-giohang',
@@ -13,15 +14,18 @@ import { DecimalPipe } from '@angular/common';
 })
 export class GiohangComponent implements OnInit {
   _GiohangService: GiohangService = inject(GiohangService)
-  Giohangs: any[] = []
+  Donhang: any ={Giohangs:[]}
   Phivanchuyen: any = 10
   Giamgia: any = 30
-  constructor() { }
+  constructor(private _snackBar: MatSnackBar) { }
   ngOnInit() {
     this._GiohangService.getDonhang()
     this._GiohangService.donhang$.subscribe((data: any) => {
-      this.Giohangs = data.Giohangs
-      console.log(data);
+      if(data)
+      {
+        this.Donhang = data
+        console.log(data);
+      }
     })
   }
   GetTotal(data: any, field: any, field1: any) {
@@ -33,7 +37,7 @@ export class GiohangComponent implements OnInit {
     }
   }
   GetTongcong() {
-    return this.GetTotal(this.Giohangs, 'Soluong', 'Giachon') + this.Phivanchuyen + this.Giamgia + this.GetTotal(this.Giohangs, 'Thue', '')
+    return this.GetTotal(this.Donhang.Giohangs, 'Soluong', 'Giachon') + this.Phivanchuyen + this.Giamgia + this.GetTotal(this.Donhang.Giohangs, 'Thue', '')
   }
   DeleteCart()
   {
@@ -41,15 +45,28 @@ export class GiohangComponent implements OnInit {
   }
   RemoveFromCart(item:any)
   {
-    console.log(item);
-    this._GiohangService.removeFromCart(item)
+    this._GiohangService.removeFromCart(item).then(()=>
+    {
+      this._snackBar.open('Cập Nhật Thành Công','',{
+        horizontalPosition: "end",
+        verticalPosition: "top",
+        panelClass:'success',
+        duration: 2000,
+      });
+    })
   }
   Increment(item:any)
   {
-    console.log(item);
-    
     item.Soluong = Number(item.Soluong)+1
-    this._GiohangService.Crement(item)
+    this._GiohangService.Crement(item).then(()=>
+    {
+      this._snackBar.open('Cập Nhật Thành Công','',{
+        horizontalPosition: "end",
+        verticalPosition: "top",
+        panelClass:'success',
+        duration: 2000,
+      });
+    })
   }
   Decrement(item:any)
   {
@@ -57,7 +74,15 @@ export class GiohangComponent implements OnInit {
     if(item.Soluong>1)
     {
     item.Soluong = Number(item.Soluong)-1
-    this._GiohangService.Crement(item)
+    this._GiohangService.Crement(item).then(()=>
+    {
+      this._snackBar.open('Cập Nhật Thành Công','',{
+        horizontalPosition: "end",
+        verticalPosition: "top",
+        panelClass:'success',
+        duration: 2000,
+      });
+    })
     }
   }
 }

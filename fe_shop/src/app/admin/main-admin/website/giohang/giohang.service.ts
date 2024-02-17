@@ -12,8 +12,8 @@ export class GiohangService {
     private _donhang: BehaviorSubject<any| null> = new BehaviorSubject<any | null>(null);
     private _addonhangs: BehaviorSubject<any[]|[]> = new BehaviorSubject<any | null>(null);
     private _addonhang: BehaviorSubject<any| null> = new BehaviorSubject<any | null>(null);
-    Giohangs: any  = this._LocalStorageService.getItem('Giohang')||[]
-    Donhang:any = this._LocalStorageService.getItem('Donhang')||{}
+   // Giohangs: any  = this._LocalStorageService.getItem('Giohang')||[]
+    Donhang:any = this._LocalStorageService.getItem('Donhang')||{Giohangs:[]}
     get addonhangs$(): Observable<any[] | null> {
       return this._addonhangs.asObservable();
     }
@@ -27,7 +27,7 @@ export class GiohangService {
       return this._donhang.asObservable();
     }
     async getGiohangs(): Promise<any> {
-        this._giohang.next(this.Giohangs)
+      //  this._giohang.next(this.Giohangs)
         try {
             const options = {
                 method: 'GET',
@@ -46,7 +46,7 @@ export class GiohangService {
         }
     }
     async getGiohangByUser(id:any): Promise<any> {
-        this._giohang.next(this.Giohangs)
+       // this._giohang.next(this.Giohangs)
         try {
             const options = {
                 method: 'GET',
@@ -337,9 +337,9 @@ export class GiohangService {
     //     return this.cartItems;
     // }
     async clearCart(): Promise<void> {
-        this.Giohangs=[]
-        this._giohang.next(this.Giohangs)
-        this._LocalStorageService.setItem('Giohang',this.Giohangs)
+        this.Donhang={Giohangs:[]}
+        this._donhang.next(this.Donhang)
+        this._LocalStorageService.setItem('Donhang',this.Donhang)
     }
     // updateItemQuantity(itemId: number, newQuantity: number): void {
     //     const itemIndex = this.cartItems.findIndex(i => i.id === itemId);
