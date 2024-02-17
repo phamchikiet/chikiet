@@ -11,6 +11,7 @@ import { DonhangModule } from './donhang/donhang.module';
 import { KhachhangModule } from './khachhang/khachhang.module';
 import { UsersModule } from './users/users.module';
 import { UploadModule } from './upload/upload.module';
+import { LienheModule } from './lienhe/lienhe.module';
 
 @Module({
   imports: [
@@ -33,7 +34,8 @@ import { UploadModule } from './upload/upload.module';
      DonhangModule,
      KhachhangModule,
      UsersModule,
-     UploadModule
+     UploadModule,
+     LienheModule
   ],
   controllers: [AppController],
   providers: [AppService],
