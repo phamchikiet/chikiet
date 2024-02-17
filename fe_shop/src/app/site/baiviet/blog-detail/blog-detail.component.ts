@@ -51,6 +51,7 @@ export class BlogDetailComponent implements OnInit {
   ]
   Detail:any={}
   Slug:any
+  TypeArticle:any[] = []
   route: ActivatedRoute = inject(ActivatedRoute);
   constructor(private _bottomSheet: MatBottomSheet) {
     this.Slug = this.route.snapshot.params['slug'];
@@ -59,14 +60,17 @@ export class BlogDetailComponent implements OnInit {
     this._bottomSheet.open(BaivietBottomsheetComponent);
   }
   async ngOnInit() {
+    this.TypeArticle = await this._BaivietAdminService.GetLListTypeBaiviet()
     this.ListBaiviet = await this._BaivietAdminService.SearchBaivietAdmin(this.SearchParams)
     this.Danhmucs = await this._DanhmucService.getAllDanhmuc()    
     this.FilterBaiviet = this.ListBaiviet.items
     this.FilterBaivietKhac = this.ListBaiviet.items.splice(0,4)
+    console.log(this.FilterBaivietKhac);
+    
     if(this.Slug)
     {
       console.log(this.Slug);
-      this.Detail = await this._BaivietAdminService.getSanphamBySlug(this.Slug)
+      this.Detail = await this._BaivietAdminService.getBaivietBySlug(this.Slug)
       console.log(this.Detail);
     }
     // this.ListBaiviet = await this._BaivietAdminService.SearchBaivietAdmin(this.SearchParams)

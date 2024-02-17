@@ -68,21 +68,22 @@
                 <div>Liên Hệ</div>
                 <div class="text-xl font-bold">Thông Tin Liên Lạc</div>
                 <div class="grid lg:grid-cols-2 grid-cols-1 gap-4 text-center">
-                    <input type="text"
+                    <input type="text" [(ngModel)]="Detail.Hoten" [ngModelOptions]="{standalone: true}"
+                    
                         class="border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-2 focus:ring-fuchsia-50 focus:border-fuchsia-300 block w-full p-2.5"
                         placeholder="Họ Tên">
-                    <input type="text"
+                    <input type="text" [(ngModel)]="Detail.Email" [ngModelOptions]="{standalone: true}"
                         class="border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-2 focus:ring-fuchsia-50 focus:border-fuchsia-300 block w-full p-2.5"
                         placeholder="Email">
-                    <input type="text"
+                    <input type="text" [(ngModel)]="Detail.Title" [ngModelOptions]="{standalone: true}"
                         class="col-span-2 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-2 focus:ring-fuchsia-50 focus:border-fuchsia-300 block w-full p-2.5"
                         placeholder="Chủ Đề">
-                    <textarea rows="5"
+                    <textarea rows="5" [(ngModel)]="Detail.Noidung" [ngModelOptions]="{standalone: true}"
                         class="col-span-2 block p-4 w-full text-gray-900 rounded-lg border border-gray-300 sm:text-sm focus:ring-2 focus:ring-fuchsia-50 focus:border-fuchsia-300"
                         placeholder="Nội dung"></textarea>
                 </div>
                 <div class="flex flex-row space-x-3 justify-center text-center">
-                    <button type="button" class="text-white bg-primary hover:bg-primary-500 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2">
+                    <button (click)="CreateLienhe()" type="button" class="text-white bg-primary hover:bg-primary-500 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2">
                         Gửi Thông Tin</button>
                 </div>
             </div>

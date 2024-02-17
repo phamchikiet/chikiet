@@ -9,11 +9,11 @@ import { MatButtonModule} from '@angular/material/button';
 import { RouterLink, RouterOutlet } from '@angular/router';
 import * as XLSX from 'xlsx';
 import { MatPaginatorModule } from '@angular/material/paginator';
-import { BaivietAdminService } from './baiviet-admin.service';
 import {MatChipsModule} from '@angular/material/chips';
 import { convertToSlug } from 'fe_shop/src/app/shared/shared.utils';
+import { LienheAdminService } from './admin-lienhe.service';
 @Component({
-  selector: 'app-baiviet-admin',
+  selector: 'app-admin-lienhe',
   standalone:true,
   imports:[
     MatSidenavModule,
@@ -28,10 +28,10 @@ import { convertToSlug } from 'fe_shop/src/app/shared/shared.utils';
     MatPaginatorModule,
     MatChipsModule
   ],
-  templateUrl: './baiviet-admin.component.html',
-  styleUrls: ['./baiviet-admin.component.css']
+  templateUrl: './admin-lienhe.component.html',
+  styleUrls: ['./admin-lienhe.component.css']
 })
-export class BaivietAdminComponent implements OnInit {
+export class AdminLienheComponent implements OnInit {
   Detail: any = {};
   Lists: any={}
   FilterLists: any[] = []
@@ -42,32 +42,20 @@ export class BaivietAdminComponent implements OnInit {
     pageSize:10,
     pageNumber:0
   };
-  TypeArticle:any[] = [
-      // {id:1,pid:4,Select:true,Title:"Tin Tức"},
-      // {id:2,pid:4,Select:false,Title:"Khuyến Mãi"},
-      // {id:3,pid:4,Select:false,Title:"Chính Sách Quy Định"},
-      // {id:4,pid:4,Select:false,Title:"Món Ngon Mỗi Ngày"},
-      // {id:5,pid:4,Select:false,Title:"Giới Thiệu"},
-      // {id:6,pid:4,Select:false,Title:"Liên Hệ"},
-      // {id:7,pid:4,Select:false,Title:"Thông Tin Chuyển Khoản"}
-  ]
+  TypeArticle:any[] = []
+  pageSizeOptions: any[] = []
   
-  _BaivietAdminService:BaivietAdminService = inject(BaivietAdminService)
+  _LienheAdminService:LienheAdminService = inject(LienheAdminService)
   @ViewChild('drawer', { static: true }) drawer!: MatDrawer;
   constructor(
     private dialog: MatDialog,
   ) {
   }
   async ngOnInit(): Promise<void> {
-    this.Lists = await this._BaivietAdminService.SearchBaivietAdmin(this.SearchParams)
-    this.TypeArticle = await this._BaivietAdminService.GetLListTypeBaiviet()
+    this.Lists = await this._LienheAdminService.SearchLienheAdmin(this.SearchParams)
+    this.pageSizeOptions = [10, 20, this.Lists.totalCount].filter(v => v < this.Lists.totalCount);
     this.FilterLists = this.Lists.items
      console.log(this.Lists);
-  }
-  async ChoseType(item:any,index:any) {
-    this.SearchParams.Slug = item.Slug
-    this.Lists = await this._BaivietAdminService.SearchBaivietAdmin(this.SearchParams)
-    this.FilterLists = this.Lists.items
   } 
   applyFilter(event: Event) {
     const value = (event.target as HTMLInputElement).value;
@@ -83,7 +71,7 @@ export class BaivietAdminComponent implements OnInit {
     console.log(event);
     this.SearchParams.pageSize=event.pageSize
      this.SearchParams.pageNumber=event.pageIndex
-     this.Lists = await this._BaivietAdminService.SearchBaivietAdmin(this.SearchParams)
+     this.Lists = await this._LienheAdminService.SearchLienheAdmin(this.SearchParams)
      this.FilterLists = this.Lists.items
   }
   openDialog(teamplate: TemplateRef<any>): void {
@@ -91,7 +79,7 @@ export class BaivietAdminComponent implements OnInit {
     });
     dialogRef.afterClosed().subscribe((result) => {
       if (result) {
-        this._BaivietAdminService.CreateBaivietAdmin(this.Detail)
+        this._LienheAdminService.CreateLienheAdmin(this.Detail)
       }
     });
   }
@@ -119,7 +107,7 @@ export class BaivietAdminComponent implements OnInit {
       }));
       transformedData.forEach((v:any,k:any) => {
         setTimeout(() => {
-           this._BaivietAdminService.CreateBaivietAdmin(v)
+           this._LienheAdminService.CreateLienheAdmin(v)
         }, 100*k);
       });
       console.log(transformedData);

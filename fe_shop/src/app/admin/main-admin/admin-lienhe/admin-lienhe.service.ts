@@ -4,11 +4,11 @@ import { BehaviorSubject, map, Observable, switchMap, take } from 'rxjs';
 @Injectable({
   providedIn: 'root'
 })
-export class BaivietAdminService {
-  private _baivietadmins: BehaviorSubject<any[] | null> = new BehaviorSubject<any[] | null>(null);
-  private _baivietadmin: BehaviorSubject<any | null> = new BehaviorSubject<any | null>(null);
+export class LienheAdminService {
+  private _lienheadmins: BehaviorSubject<any[] | null> = new BehaviorSubject<any[] | null>(null);
+  private _lienheadmin: BehaviorSubject<any | null> = new BehaviorSubject<any | null>(null);
   constructor() {}
-  async getAllBaivietAdmin() {
+  async getAllLienheAdmin() {
     try {
       const options = {
         method:'GET',
@@ -16,14 +16,14 @@ export class BaivietAdminService {
           'Content-Type': 'application/json',
         },
       };
-          const response = await fetch(`${environment.APIURL}/baiviet`,options);
+          const response = await fetch(`${environment.APIURL}/lienhe`,options);
           const data = await response.json();                  
           return data;
       } catch (error) {
           return console.error(error);
       }
   }
-  async getBaivietByid(id:any) {
+  async getLienheByid(id:any) {
     try {
       const options = {
         method:'GET',
@@ -31,7 +31,7 @@ export class BaivietAdminService {
           'Content-Type': 'application/json',
         },
       };
-          const response = await fetch(`${environment.APIURL}/baiviet/findid/${id}`,options);
+          const response = await fetch(`${environment.APIURL}/lienhe/findid/${id}`,options);
           if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
           }
@@ -41,7 +41,7 @@ export class BaivietAdminService {
           return console.error(error);
       }
   }
-  async getBaivietBySlug(Slug:any) {
+  async getLienheBySlug(Slug:any) {
     try {
       const options = {
         method:'GET',
@@ -49,7 +49,7 @@ export class BaivietAdminService {
           'Content-Type': 'application/json',
         },
       };
-          const response = await fetch(`${environment.APIURL}/baiviet/findslug/${Slug}`,options);
+          const response = await fetch(`${environment.APIURL}/lienhe/findslug/${Slug}`,options);
           if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
           }
@@ -61,7 +61,7 @@ export class BaivietAdminService {
           return console.error(error);
       }
   }
-  async SearchBaivietAdmin(SearchParams:any) {
+  async SearchLienheAdmin(SearchParams:any) {
     console.log(SearchParams);
     
     try {
@@ -72,7 +72,7 @@ export class BaivietAdminService {
         },
         body: JSON.stringify(SearchParams),
       };
-          const response = await fetch(`${environment.APIURL}/baiviet/search`,options);
+          const response = await fetch(`${environment.APIURL}/lienhe/search`,options);
           if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
           }
@@ -82,7 +82,7 @@ export class BaivietAdminService {
           return console.error(error);
       }
   }
-  async GetLListTypeBaiviet() {    
+  async GetLListTypeLienhe() {    
     try {
       const options = {
         method:'GET',
@@ -90,7 +90,7 @@ export class BaivietAdminService {
           'Content-Type': 'application/json',
         },
       };
-          const response = await fetch(`${environment.APIURL}/baiviet/listtype`,options);
+          const response = await fetch(`${environment.APIURL}/lienhe/listtype`,options);
           if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
           }
@@ -102,7 +102,7 @@ export class BaivietAdminService {
           return console.error(error);
       }
   }
-  async CreateBaivietAdmin(item:any) {
+  async CreateLienheAdmin(item:any) {
     try {
         const options = {
             method:'POST',
@@ -111,7 +111,7 @@ export class BaivietAdminService {
             },
             body: JSON.stringify(item),
           };
-          const response = await fetch(`${environment.APIURL}/baiviet`, options);          
+          const response = await fetch(`${environment.APIURL}/lienhe`, options);          
           if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
           }
@@ -123,7 +123,7 @@ export class BaivietAdminService {
           return console.error(error);
       }
   }  
-  async UpdateBaivietAdmin(item:any) {
+  async UpdateLienheAdmin(item:any) {
     try {
         const options = {
             method:'PATCH',
@@ -132,13 +132,13 @@ export class BaivietAdminService {
             },
             body: JSON.stringify(item),
           };
-          const response = await fetch(`${environment.APIURL}/baiviet/${item.id}`, options);
+          const response = await fetch(`${environment.APIURL}/lienhe/${item.id}`, options);
           return await response.json();         
       } catch (error) {
           return console.error(error);
       }
   }  
-  async DeleteBaivietAdmin(item:any) {
+  async DeleteLienheAdmin(item:any) {
     try {
         const options = {
             method:'DELETE',
@@ -146,7 +146,7 @@ export class BaivietAdminService {
               'Content-Type': 'application/json',
             },
           };
-          const response = await fetch(`${environment.APIURL}/baiviet/${item.id}`, options);
+          const response = await fetch(`${environment.APIURL}/lienhe/${item.id}`, options);
           return await response.json();         
       } catch (error) {
           return console.error(error);

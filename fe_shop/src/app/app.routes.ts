@@ -31,9 +31,10 @@ import { KhuyenmaiChitietComponent } from './site/baiviet/khuyenmai/khuyenmai-ch
 import { KhuyenmaiComponent } from './site/baiviet/khuyenmai/khuyenmai.component';
 import { AdminuserComponent } from './admin/users/adminuser/adminuser.component';
 import { AdminuserDetailComponent } from './admin/users/adminuser/adminuser-detail/adminuser-detail.component';
-import { BaivietChitietComponent } from './site/baiviet/baiviet-chitiet/baiviet-chitiet.component';
 import { BaivietadminChitietComponent } from './admin/main-admin/baiviet-admin/baivietadminchitiet/baivietadminchitiet.component';
 import { GioithieuchungComponent } from './site/baiviet/gioithieuchung/gioithieuchung.component';
+import { AdminLienheChitietComponent } from './admin/main-admin/admin-lienhe/admin-lienhe-chitiet/admin-lienhe-chitiet.component';
+import { AdminLienheComponent } from './admin/main-admin/admin-lienhe/admin-lienhe.component';
 
 
 export const appRoutes: Route[] = [
@@ -113,6 +114,7 @@ export const appRoutes: Route[] = [
                 {
                     path: 'gioi-thieu-chung',
                     component: GioithieuchungComponent,
+                    data: { slug: 've-chung-toi' } 
                 },
                 {
                     path: 'lien-he',
@@ -186,6 +188,16 @@ export const appRoutes: Route[] = [
                     {
                         path: ':id',
                         component: BaivietadminChitietComponent,
+                    }
+                ]
+            },
+            {
+                path: 'lienhe',
+                component: AdminLienheComponent,
+                children:[
+                    {
+                        path: ':id',
+                        component: AdminLienheChitietComponent,
                     }
                 ]
             },

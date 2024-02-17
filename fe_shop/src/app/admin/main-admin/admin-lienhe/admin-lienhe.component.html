@@ -6,15 +6,15 @@
   </mat-drawer>
   <mat-drawer-content class="!flex flex-col flex-auto min-w-0 relative !h-[90vh]">
     <div class="relative flex flex-col">
-      <div class="flex justify-between items-center space-x-2 bg-white p-2 rounded-lg">
+      <div class="flex justify-between items-center space-x-2 m-2 bg-white p-3 rounded-lg">
         <div class="flex flex-row space-x-3 justify-center items-center">
           <div class="relative mt-1 lg:w-80">
             <input (keyup)="applyFilter($event)" type="text" name="email" id="topbar-search"
               class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-2 focus:ring-fuchsia-50 focus:border-fuchsia-300 block w-full p-2.5"
-              placeholder="Tìm Kiếm Sản Phẩm">
+              placeholder="Tìm Kiếm">
           </div>
           <mat-menu #menu="matMenu">
-            <button mat-menu-item> 
+            <button mat-menu-item>
               <div class="flex flex-row space-x-2 items-center justify-center">
                 <span class="material-symbols-outlined text-xl" matTooltip="Tùy Chỉnh">tune</span>
                 <span class="text-sm">Cấu Hình</span>
@@ -47,33 +47,18 @@
             </div>
           </div>
         </div>
-        <div class="flex flex-row space-x-2 items-center">
+        <!-- <div class="flex flex-row space-x-2 items-center">
           <button mat-flat-button color="primary">
             <div (click)="openDialog(dialogTemplate)" class="flex flex-row items-center">
               <span class="material-symbols-outlined">add</span>
-              <span class="hidden lg:flex">Bài viết</span>
+              <span class="hidden lg:flex">Sản Phẩm</span>
             </div>
           </button>
           <button class="lg:!hidden flex" mat-icon-button [matMenuTriggerFor]="menu">
             <span class="material-symbols-outlined">more_vert</span>
           </button>
-        </div>
+        </div> -->
       </div>
-      <div class="flex justify-between items-center space-x-2 bg-white p-2 rounded-lg w-full">
-       <div class="">
-        <mat-chip-listbox>
-          @for (item of TypeArticle; track $index) {
-            <mat-chip-option [selected]="item.Select"  (click)="ChoseType(item,$index)">{{item.Title}}</mat-chip-option>
-          }
-          <!-- <mat-chip-option>One fish</mat-chip-option>
-          <mat-chip-option>Two fish</mat-chip-option>
-          <mat-chip-option color="accent" selected>Accent fish</mat-chip-option>
-          <mat-chip-option color="warn">Warn fish</mat-chip-option> -->
-        </mat-chip-listbox>
-       </div>
-
-      </div>
-
     </div>
     <div class="relative flex flex-col h-full w-full overflow-auto">
       <div class="flex flex-col my-6 mx-4 rounded-lg shadow-xl shadow-gray-200">
@@ -83,26 +68,33 @@
               <table class="min-w-full divide-y divide-gray-200 table-fixed">
                 <thead class="bg-white">
                   <tr>
+                    <!-- <th scope="col" class="p-4 lg:p-5">
+                      <div class="flex items-center">
+                        <input id="checkbox-all" aria-describedby="checkbox-1" type="checkbox"
+                          class="w-5 h-5 rounded border-gray-300 focus:ring-0 checked:bg-dark-900">
+                        <label for="checkbox-all" class="sr-only">checkbox</label>
+                      </div>
+                    </th> -->
                     <th scope="col" class="p-4 text-xs font-medium text-left text-gray-500 uppercase lg:p-5">
-                      Hình ảnh
+                      Họ Tên
                     </th>
                     <th scope="col" class="p-4 text-xs font-medium text-left text-gray-500 uppercase lg:p-5">
-                      Tên Bài Viết
+                      Tiêu Đề
                     </th>
                     <th scope="col" class="p-4 text-xs font-medium text-left text-gray-500 uppercase lg:p-5">
-                      Danh Mục
+                      Nội Dung
                     </th>
                     <th scope="col" class="p-4 text-xs font-medium text-left text-gray-500 uppercase lg:p-5">
-                      Trạng Thái
+                      Email
                     </th>
                     <th scope="col" class="p-4 text-xs font-medium text-left text-gray-500 uppercase lg:p-5">
-                      Bán Chạy
+                      Địa Chỉ
                     </th>
                     <th scope="col" class="p-4 text-xs font-medium text-left text-gray-500 uppercase lg:p-5">
-                      Nổi Bật
+                      Loại
                     </th>
                     <th scope="col" class="p-4 text-xs font-medium text-left text-gray-500 uppercase lg:p-5">
-                      Mới
+                     Ngày Gửi
                     </th>
                     <th scope="col" class="p-4 text-xs font-medium text-left text-gray-500 uppercase lg:p-5">
                       Hành Động
@@ -112,50 +104,36 @@
                 <tbody class="bg-white divide-y divide-gray-200">
                   @for (item of FilterLists; track $index) {
                   <tr class="hover:bg-gray-100">
-                    <td class="text-sm font-normal text-gray-500 whitespace-nowrap">
-                      <div class="text-base font-semibold text-gray-900">
-                        @if(item.Image.Thumb)
-                        {
-                          <img src="assets/images/baiviet/{{item.Image.Thumb}}" class="p-3 max-w-32 mx-auto rounded-lg"> 
-                        }
-                        @else {
-                          <img src="assets/images/noimage.png" class="p-3 max-w-32 mx-auto rounded-lg">
-                        }
-                       
+                    <!-- <td class="p-4 w-4 lg:p-5">
+                      <div class="flex items-center">
+                        <input id="checkbox-194556" aria-describedby="checkbox-1" type="checkbox"
+                          class="w-5 h-5 rounded border-gray-300 focus:ring-0 checked:bg-dark-900">
+                        <label for="checkbox-194556" class="sr-only">checkbox</label>
+                      </div>
+                    </td> -->
+                    <td class="p-4 text-sm font-normal text-gray-500 whitespace-nowrap lg:p-5">
+                      <div class="flex flex-col space-y-2">
+                        <span>{{item.Hoten}}</span>
+                        <span class="text-xs">{{item.SDT}}</span>
                       </div>
                     </td>
-                    <td class="p-4 text-sm font-normal text-gray-500 whitespace-normal lg:p-5 truncate">
-                      <a href="admin/baiviet/{{item.id}}">
-                        <div class="text-base font-semibold text-gray-900">{{item.Title}}</div>
-                        <div class="text-sm font-normal text-gray-500">{{item.Slug}}</div>
-                      </a>
+                    <td class="p-4 text-sm font-normal text-gray-500 whitespace-nowrap lg:p-5">
+                      <div>{{item.Title}}</div>
                     </td>
                     <td class="p-4 text-sm font-normal text-gray-500 whitespace-nowrap lg:p-5">
-                      <div class="text-base font-semibold text-gray-900">{{item.id_cat}}</div>
+                      <div>{{item.Noidung}}</div>
+                    </td>
+                    <td class="p-4 text-sm font-normal text-gray-500 whitespace-nowrap lg:p-5">
+                      <div>{{item.Email}}</div>
+                    </td>
+                    <td class="p-4 text-sm font-normal text-gray-500 whitespace-nowrap lg:p-5">
+                      <div>{{item.Diachi}}</div>
+                    </td>
+                    <td class="p-4 text-sm font-normal text-gray-500 whitespace-nowrap lg:p-5">
+                      <div>{{item?.Type?.Title}}</div>
                     </td>
                     <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap lg:p-5">
-                      @if (item.Status==1) {
-                      <span class="material-symbols-outlined text-blue-500">check_circle</span>
-                      }
-                      @else { <span class="material-symbols-outlined text-red-500">cancel</span> }
-                    </td>
-                    <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap lg:p-5">
-                      @if (item.Banchay==0) {
-                      <span class="material-symbols-outlined text-blue-500">check_circle</span>
-                      }
-                      @else { <span class="material-symbols-outlined text-red-500">cancel</span> }
-                    </td>
-                    <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap lg:p-5">
-                      @if (item.Noibat==0) {
-                      <span class="material-symbols-outlined text-blue-500">check_circle</span>
-                      }
-                      @else { <span class="material-symbols-outlined text-red-500">cancel</span> }
-                    </td>
-                    <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap lg:p-5">
-                      @if (item.Moi==0) {
-                      <span class="material-symbols-outlined text-blue-500">check_circle</span>
-                      }
-                      @else { <span class="material-symbols-outlined text-red-500">cancel</span> }
+                       <span class="text-xs">{{item.CreateAt|date:'dd/MM/yyyy'}}</span>
                     </td>
                     <td class="p-4 space-x-2 whitespace-nowrap lg:p-5">
                       <button type="button" data-modal-toggle="product-modal"
@@ -168,7 +146,7 @@
                             d="M2 6a2 2 0 012-2h4a1 1 0 010 2H4v10h10v-4a1 1 0 112 0v4a2 2 0 01-2 2H4a2 2 0 01-2-2V6z"
                             clip-rule="evenodd"></path>
                         </svg>
-                        Chỉnh Sửa
+                        Sửa
                       </button>
                       <button type="button" data-modal-toggle="delete-product-modal"
                         class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-white bg-gradient-to-br from-red-400 to-red-600 rounded-lg shadow-md shadow-gray-300 hover:scale-[1.02] transition-transform">
@@ -190,13 +168,13 @@
           </div>
         </div>
       </div>
-      <div class="flex justify-between items-center mx-4 mt-4 mb-6 bg-white p-3 rounded-lg">
-        <mat-paginator class="w-full" [pageSizeOptions]="[10, 20, 50]" [pageSize]="SearchParams.pageSize"
-          [length]="this.Lists.totalCount" [pageIndex]="SearchParams.pageNumber" (page)="onPageChange($event)">
-        </mat-paginator>
-      </div> 
     </div>
-
+    <div class="flex justify-between items-center mx-4 mt-4 mb-6 bg-white p-3 rounded-lg">
+      <mat-paginator class="w-full" [pageSizeOptions]="[10, 20, 50]" [pageSize]="SearchParams.pageSize"
+        [length]="this.Lists.totalCount" [pageSizeOptions]="pageSizeOptions" [pageIndex]="SearchParams.pageNumber"
+        (page)="onPageChange($event)">
+      </mat-paginator>
+    </div>
   </mat-drawer-content>
 </mat-drawer-container>
 <ng-template #dialogTemplate>

@@ -59,8 +59,8 @@
             <hr />
             <div class="flex flex-col space-y-2 text-start">
                 <div class="text-xl">Danh mục</div>
-                @for (item of Danhmucs; track $index) {
-                <a [href]="'danh-muc/'+item.Slug"
+                @for (item of TypeArticle; track $index) {
+                <a [href]="item.Slug"
                     class="p-2 rounded-lg hover:bg-slate-200 flex flex-row space-x-2 items-center">
                     <div>{{item.Title}}</div>
                 </a>
@@ -84,7 +84,7 @@
         </div>
             <div class="lg:col-span-3 w-full flex flex-col space-y-6 lg:p-6">
                 <img src="assets/images/baiviet/{{Detail?.Image?.Main}}" class="rounded-xl">
-                 <span>{{Detail?.Type?.Title}} | {{Detail?.CreateAt|date:'yyyy-MM-dd'}}</span>
+                    <span>{{Detail?.Type?.Title}} | {{Detail?.CreateAt|date:'yyyy-MM-dd'}}</span>
                 <div class="text-2xl font-semibold">{{Detail?.Title}}</div>
                 <div class="text-justify" [innerHTML]="Detail?.Mota"></div>
             </div>
