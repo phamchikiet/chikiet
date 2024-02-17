@@ -18,6 +18,10 @@ export class BaivietController {
   async findOne(@Param('id') id: string) {
     return await this.baivietService.findid(id);
   }
+  @Get('listtype')
+  async listtype() {
+    return await this.baivietService.listtype();
+  }
   @Get('findslug/:slug')
   async findslug(@Param('slug') slug: string) {
     return await this.baivietService.findslug(slug);

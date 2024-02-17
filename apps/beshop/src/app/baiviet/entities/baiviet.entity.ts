@@ -15,14 +15,16 @@ export class BaivietEntity {
   @Column({ type: 'text', collation: 'utf8_general_ci' })
   Title: string;
   @Column({ type: 'text', collation: 'utf8_general_ci' })
+  Motangan: string;
+  @Column({ type: 'text', collation: 'utf8_general_ci' })
   Mota: string;
   @Column({ type: 'text', collation: 'utf8_general_ci' })
   Noidung: string;
-  @Column({ default: '' })
+  @Column({ type: 'text', collation: 'utf8_general_ci' })
   Slug: string;
   @Column({collation: "utf8_general_ci",type:"simple-json",default: () => "('{}')" })
   Image: string;
-  @Column({ default: '' })
+  @Column({collation: "utf8_general_ci",type:"simple-json",default: () => "('{}')" })
   Type: string;
   @Column({ default: 0 })
   Noibat: number;
