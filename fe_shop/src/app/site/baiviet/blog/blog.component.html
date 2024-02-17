@@ -43,15 +43,13 @@
               placeholder="Tìm Kiếm">
       </div>
       </div>
-      <div class="py-4">
-        <hr />
-      </div>
-      <div class="flex flex-col space-y-4 text-start">
+      <hr />
+      <div class="flex flex-col space-y-2 text-start">
         <div class="text-xl">Danh mục</div>
-        @for (item of LocDanhmuc; track $index) {
-        <div class="flex flex-row space-x-2 items-center">
+        @for (item of Danhmucs; track $index) {
+        <a [href]="'danh-muc/'+item.Slug" class="p-2 rounded-lg hover:bg-slate-200 flex flex-row space-x-2 items-center">
           <div>{{item.Title}}</div>
-        </div>
+        </a>
         }
       </div>
       <div class="py-4">
@@ -59,14 +57,14 @@
       </div>
       <div class="flex flex-col space-y-4">
         <div class="text-xl">Bài Viết Khác</div>
-        @for (item of FilterBaiviet; track $index) {
-        <div class="grid grid-cols-2 gap-4">
+        @for (item of FilterBaivietKhac; track $index) {
+        <a [href]="'mon-ngon-moi-ngay/'+item.Slug" class="grid grid-cols-2 gap-4">
           <img src="assets/images/baiviet/{{item.Image.Main}}" />
           <div class="flex flex-col space-y-2">
-            <div class="line-clamp-2" [innerHTML]="item.Title"></div>
+            <div class="line-clamp-3" [innerHTML]="item.Title"></div>
             <div class="italic text-xs">{{item.CreateAt|date:'dd-MM-yyyy'}}</div>
           </div>
-        </div>
+        </a>
         }
       </div>
     </div>
@@ -94,9 +92,7 @@
         <a [href]="'mon-ngon-moi-ngay/'+item.Slug" class="flex flex-row space-x-4 border rounded-lg p-3">
           <img src="assets/images/baiviet/{{item.Image.Main}}" class="h-20" />
           <div class="flex flex-col space-y-2">
-            <div class="flex flex-row justify-between">
-              <span>{{item.CreateAt|date:'dd-MM-yyyy'}}</span>
-            </div>
+            <span>{{item?.Type?.Title}} | {{item?.CreateAt|date:'yyyy-MM-dd'}}</span>
             <div class="font-bold line-clamp-2 text-lg" [innerHTML]="item.Title"></div>
             <div class="text-justify line-clamp-3" [innerHTML]="item.Mota"></div>
           </div>

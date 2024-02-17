@@ -33,6 +33,7 @@ import { AdminuserComponent } from './admin/users/adminuser/adminuser.component'
 import { AdminuserDetailComponent } from './admin/users/adminuser/adminuser-detail/adminuser-detail.component';
 import { BaivietChitietComponent } from './site/baiviet/baiviet-chitiet/baiviet-chitiet.component';
 import { BaivietadminChitietComponent } from './admin/main-admin/baiviet-admin/baivietadminchitiet/baivietadminchitiet.component';
+import { GioithieuchungComponent } from './site/baiviet/gioithieuchung/gioithieuchung.component';
 
 
 export const appRoutes: Route[] = [
@@ -94,6 +95,7 @@ export const appRoutes: Route[] = [
                 {
                     path: 'mon-ngon-moi-ngay',
                     component: BlogComponent,
+                    data: { type: 'mon-ngon-moi-ngay' } 
                 },
                 {
                     path: 'mon-ngon-moi-ngay/:slug',
@@ -101,7 +103,16 @@ export const appRoutes: Route[] = [
                 },
                 {
                     path: 'tin-tuc',
-                    component: BaivietStyle1Component,
+                    component: BlogComponent,
+                    data: { type: 'tin-tuc' } 
+                },
+                {
+                    path: 'tin-tuc/:slug',
+                    component: BlogDetailComponent,
+                },
+                {
+                    path: 'gioi-thieu-chung',
+                    component: GioithieuchungComponent,
                 },
                 {
                     path: 'lien-he',

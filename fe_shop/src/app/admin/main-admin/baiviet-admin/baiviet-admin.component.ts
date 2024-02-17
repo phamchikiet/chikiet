@@ -10,7 +10,8 @@ import { RouterLink, RouterOutlet } from '@angular/router';
 import * as XLSX from 'xlsx';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { BaivietAdminService } from './baiviet-admin.service';
-
+import {MatChipsModule} from '@angular/material/chips';
+import { convertToSlug } from 'fe_shop/src/app/shared/shared.utils';
 @Component({
   selector: 'app-baiviet-admin',
   standalone:true,
@@ -24,7 +25,8 @@ import { BaivietAdminService } from './baiviet-admin.service';
     FormsModule,
     MatDialogModule,
     MatButtonModule,
-    MatPaginatorModule
+    MatPaginatorModule,
+    MatChipsModule
   ],
   templateUrl: './baiviet-admin.component.html',
   styleUrls: ['./baiviet-admin.component.css']
@@ -40,6 +42,16 @@ export class BaivietAdminComponent implements OnInit {
     pageSize:10,
     pageNumber:0
   };
+  TypeArticle = [
+      {id:1,pid:4,Select:true,Title:"Tin Tức"},
+      {id:2,pid:4,Select:false,Title:"Khuyến Mãi"},
+      {id:3,pid:4,Select:false,Title:"Chính Sách Quy Định"},
+      {id:4,pid:4,Select:false,Title:"Món Ngon Mỗi Ngày"},
+      {id:5,pid:4,Select:false,Title:"Giới Thiệu"},
+      {id:6,pid:4,Select:false,Title:"Liên Hệ"},
+      {id:7,pid:4,Select:false,Title:"Thông Tin Chuyển Khoản"}
+  ]
+  
   _BaivietAdminService:BaivietAdminService = inject(BaivietAdminService)
   @ViewChild('drawer', { static: true }) drawer!: MatDrawer;
   constructor(
@@ -48,9 +60,15 @@ export class BaivietAdminComponent implements OnInit {
   }
   async ngOnInit(): Promise<void> {
     this.Lists = await this._BaivietAdminService.SearchBaivietAdmin(this.SearchParams)
+    this.TypeArticle = await this._BaivietAdminService.GetLListTypeBaiviet()
     this.FilterLists = this.Lists.items
      console.log(this.Lists);
   }
+  async ChoseType(item:any,index:any) {
+    this.SearchParams.Slug = item.Slug
+    this.Lists = await this._BaivietAdminService.SearchBaivietAdmin(this.SearchParams)
+    this.FilterLists = this.Lists.items
+  } 
   applyFilter(event: Event) {
     const value = (event.target as HTMLInputElement).value;
     if (value.length > 2) {
@@ -87,21 +105,25 @@ export class BaivietAdminComponent implements OnInit {
       const worksheet = workbook.Sheets[sheetName];
       const jsonData = XLSX.utils.sheet_to_json(worksheet, { raw: true });
       console.log(jsonData);
-      jsonData.forEach((v:any,k:any) => {
+      const transformedData = jsonData.map((v:any, k) => ({
+       Title: v.name_vi,
+        Mota: v.mota_vi,
+        Motangan: v.description||'',
+       Slug: v.tenkhongdau,
+        Noidung: v.content_vi,
+        Ordering: v.stt,
+        Status: v.hienthi,
+        Image: { Main: v.photo, Thumb: v.thumb },
+        Noibat: v.tinnoibat,
+        Type: { Title: v.Type, Slug: convertToSlug(v.Type) },
+      }));
+      transformedData.forEach((v:any,k:any) => {
         setTimeout(() => {
-          const item:any={}
-          const Image:any = {Main:v.photo,Thumb:v.thumb}
-          item.Title = v.name_vi
-          item.Mota = v.mota_vi
-          item.Slug = v.tenkhongdau
-          item.Noidung = v.content_vi
-          item.Ordering = v.stt
-          item.Status = v.hienthi
-          item.Image = Image
-          item.Noibat = v.tinnoibat
-           this._BaivietAdminService.CreateBaivietAdmin(item)
+           this._BaivietAdminService.CreateBaivietAdmin(v)
         }, 100*k);
       });
+      console.log(transformedData);
+      
     };
     fileReader.readAsArrayBuffer(file);
   }

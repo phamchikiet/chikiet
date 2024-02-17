@@ -236,9 +236,9 @@ export class HeaderComponent implements OnInit {
       id: 3, Title: 'Về chúng tôi ', Slug: 've-chung-toi', Show: false,
       children: [
         { id: 101, Title: 'Giới Thiệu Chung', Slug: 'gioi-thieu-chung' },
-        { id: 102, Title: 'Qui Trình', Slug: 'quy-trinh' },
-        { id: 103, Title: 'Hỏi Đáp', Slug: 'hoi-dap' },
-        { id: 104, Title: 'Tuyển Dụng', Slug: 'tuyen-dung' },
+        // { id: 102, Title: 'Qui Trình', Slug: 'quy-trinh' },
+        // { id: 103, Title: 'Hỏi Đáp', Slug: 'hoi-dap' },
+        // { id: 104, Title: 'Tuyển Dụng', Slug: 'tuyen-dung' },
       ]
     },
     { id: 3, Title: 'Liên hệ', Slug: 'lien-he' },

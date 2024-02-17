@@ -82,6 +82,26 @@ export class BaivietAdminService {
           return console.error(error);
       }
   }
+  async GetLListTypeBaiviet() {    
+    try {
+      const options = {
+        method:'GET',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+      };
+          const response = await fetch(`${environment.APIURL}/baiviet/listtype`,options);
+          if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+          }
+          const data = await response.json();      
+          console.log(data);
+                         
+          return data;
+      } catch (error) {
+          return console.error(error);
+      }
+  }
   async CreateBaivietAdmin(item:any) {
     try {
         const options = {
@@ -95,7 +115,9 @@ export class BaivietAdminService {
           if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
           }
-          const data = await response.json();      
+          const data = await response.json();   
+          console.log(data);
+             
           return data;            
       } catch (error) {
           return console.error(error);

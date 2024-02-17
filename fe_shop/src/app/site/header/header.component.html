@@ -35,7 +35,7 @@
       @else {
         <div class="border rounded-lg grid grid-cols-1 gap-4 bg-white p-4" (mouseleave)="Menus[$index].Show=false">
             @for (item of item.children; track $index) {
-                <a href="danh-muc/{{item.Slug}}">{{item.Title}}</a>
+                <a href="{{item.Slug}}">{{item.Title}}</a>
             }
         </div>
       }

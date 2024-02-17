@@ -1,7 +1,7 @@
 import { DatePipe, DecimalPipe } from '@angular/common';
 import { Component, OnInit, inject } from '@angular/core';
 import { MatButtonModule } from '@angular/material/button';
-import { RouterLink } from '@angular/router';
+import { ActivatedRoute, RouterLink } from '@angular/router';
 import {
   MatBottomSheet,
   MatBottomSheetModule,
@@ -9,6 +9,7 @@ import {
 } from '@angular/material/bottom-sheet'
 import { BaivietBottomsheetComponent } from '../baiviet-bottomsheet/baiviet-bottomsheet.component';
 import { BaivietAdminService } from 'fe_shop/src/app/admin/main-admin/baiviet-admin/baiviet-admin.service';
+import { DanhmucService } from 'fe_shop/src/app/admin/main-admin/danhmuc/danhmuc.service';
 @Component({
   selector: 'app-baiviet-style1',
   standalone:true,
@@ -24,10 +25,13 @@ import { BaivietAdminService } from 'fe_shop/src/app/admin/main-admin/baiviet-ad
 })
 export class BlogComponent implements OnInit {
   _BaivietAdminService: BaivietAdminService = inject(BaivietAdminService);
+  _DanhmucService: DanhmucService = inject(DanhmucService);
   ListBaiviet:any={}
   FilterBaiviet:any[]=[]
+  FilterBaivietKhac:any[]=[]
+  Danhmucs:any[]=[]
   SearchParams: any = {
-    pageSize:50,
+    pageSize:12,
     pageNumber:0
   };
   Sorting:any[]=[
@@ -45,15 +49,21 @@ export class BlogComponent implements OnInit {
   LocThuongHieu:any[]=[
     {id:1,Title:"Rau Sạch Trần Gia"},
   ]
-  constructor(private _bottomSheet: MatBottomSheet) {}
+  type:any
+  constructor(
+    private _bottomSheet: MatBottomSheet,
+    private route: ActivatedRoute) {
+    this.type = this.route.snapshot.data['type'];
+  }
   openBottomSheet(): void {
     this._bottomSheet.open(BaivietBottomsheetComponent);
   }
   async ngOnInit() {
+    if(this.type){this.SearchParams.Type=this.type}
     this.ListBaiviet = await this._BaivietAdminService.SearchBaivietAdmin(this.SearchParams)
+    this.Danhmucs = await this._DanhmucService.getAllDanhmuc()    
     this.FilterBaiviet = this.ListBaiviet.items
-    console.log(this.ListBaiviet);
-    
+    this.FilterBaivietKhac = this.ListBaiviet.items.splice(0,4)
   }
   async applyFilter(event: Event) {
     const value = (event.target as HTMLInputElement).value;

@@ -9,6 +9,7 @@ import {
 } from '@angular/material/bottom-sheet'
 import { BaivietBottomsheetComponent } from '../baiviet-bottomsheet/baiviet-bottomsheet.component';
 import { BaivietAdminService } from 'fe_shop/src/app/admin/main-admin/baiviet-admin/baiviet-admin.service';
+import { DanhmucService } from 'fe_shop/src/app/admin/main-admin/danhmuc/danhmuc.service';
 @Component({
   selector: 'app-baiviet-style1',
   standalone:true,
@@ -24,8 +25,11 @@ import { BaivietAdminService } from 'fe_shop/src/app/admin/main-admin/baiviet-ad
 })
 export class BlogDetailComponent implements OnInit {
   _BaivietAdminService: BaivietAdminService = inject(BaivietAdminService);
+  _DanhmucService: DanhmucService = inject(DanhmucService);
   ListBaiviet:any={}
   FilterBaiviet:any[]=[]
+  FilterBaivietKhac:any[]=[]
+  Danhmucs:any[]=[]
   SearchParams: any = {
     pageSize:50,
     pageNumber:0
@@ -55,6 +59,10 @@ export class BlogDetailComponent implements OnInit {
     this._bottomSheet.open(BaivietBottomsheetComponent);
   }
   async ngOnInit() {
+    this.ListBaiviet = await this._BaivietAdminService.SearchBaivietAdmin(this.SearchParams)
+    this.Danhmucs = await this._DanhmucService.getAllDanhmuc()    
+    this.FilterBaiviet = this.ListBaiviet.items
+    this.FilterBaivietKhac = this.ListBaiviet.items.splice(0,4)
     if(this.Slug)
     {
       console.log(this.Slug);
@@ -66,6 +74,19 @@ export class BlogDetailComponent implements OnInit {
     // this.Detail = this.ListBaiviet.items[0]
     // console.log(this.ListBaiviet);
     
+  }
+  async applyFilter(event: Event) {
+    const value = (event.target as HTMLInputElement).value;
+    if (value.length > 2) {
+      this.SearchParams.Query=value
+      this.ListBaiviet = await this._BaivietAdminService.SearchBaivietAdmin(this.SearchParams)
+      this.FilterBaiviet = this.ListBaiviet.items
+    }
+    else {
+      delete this.SearchParams.Query
+      this.ListBaiviet = await this._BaivietAdminService.SearchBaivietAdmin(this.SearchParams)
+      this.FilterBaiviet = this.ListBaiviet.items
+    }
   }
 
 }
