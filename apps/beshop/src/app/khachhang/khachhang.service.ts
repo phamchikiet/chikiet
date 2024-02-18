@@ -11,13 +11,13 @@ export class KhachhangService {
     private KhachhangRepository: Repository<KhachhangEntity>
   ) { }
   async create(data: any) {
-    const check = await this.findSHD(data)
+    const check = await this.findSDT(data)
     if(!check) {
       this.KhachhangRepository.create(data);
       return await this.KhachhangRepository.save(data);
     }
     else {
-      return { error: 1001, data: "Trùng Dữ Liệu" }
+      return check
     }
 
   }
@@ -28,10 +28,10 @@ export class KhachhangService {
   async findid(id: string) {
     return await this.KhachhangRepository.findOne({ where: { id: id } });
   }
-  async findSHD(data: any) {
+  async findSDT(data: any) {
     return await this.KhachhangRepository.findOne({
       where: {
-        Type: data.Type
+        SDT: data.SDT
       },
     });
   }

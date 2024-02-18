@@ -12,6 +12,7 @@ import { KhachhangModule } from './khachhang/khachhang.module';
 import { UsersModule } from './users/users.module';
 import { UploadModule } from './upload/upload.module';
 import { LienheModule } from './lienhe/lienhe.module';
+import { ChuongtrinhkhuyenmaiModule } from './chuongtrinhkhuyenmai/chuongtrinhkhuyenmai.module';
 
 @Module({
   imports: [
@@ -35,7 +36,8 @@ import { LienheModule } from './lienhe/lienhe.module';
      KhachhangModule,
      UsersModule,
      UploadModule,
-     LienheModule
+     LienheModule,
+     ChuongtrinhkhuyenmaiModule
   ],
   controllers: [AppController],
   providers: [AppService],
