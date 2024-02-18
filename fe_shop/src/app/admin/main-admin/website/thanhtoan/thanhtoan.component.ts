@@ -22,22 +22,17 @@ export class ThanhtoanComponent implements OnInit {
 
   _GiohangService: GiohangService = inject(GiohangService)
   _NotifierService: NotifierService = inject(NotifierService)
-  // Giohangs: any[] = []
-  Khachhang:any={}
   Phivanchuyen: any = 10
   Giamgia: any = 30
   ListNotifyType:any=ListNotifyType
   Notify:any={}
   Donhang:any={}
-  Thanhtoan:any={Hinhthuc:'COD'}
-  Vanchuyen:any={}
   constructor(private _snackBar: MatSnackBar) { }
 
   ngOnInit() {
     this._GiohangService.getDonhang()
     this._GiohangService.donhang$.subscribe((data: any) => {
       console.log(data)
-      //this.Giohangs = data?.Giohangs
       this.Donhang = data
     })
   }
@@ -54,8 +49,8 @@ export class ThanhtoanComponent implements OnInit {
   }
   Xacnhandonhang(customSnackbar:TemplateRef<any>)
   {
-   this.Khachhang = {Hoten:"test",Diachi:"test",SDT:"0987654321"}
-    if(!this.Khachhang.Hoten)
+  //this.Donhang.Khachhang = {Hoten:"test",Diachi:"test",SDT:"0987654321"}
+    if(!this.Donhang.Khachhang.Hoten)
     {
       this.Notify.Noidung = "Vui Lòng Nhập Họ Tên"
       this.Notify.type = "danger"
@@ -66,7 +61,7 @@ export class ThanhtoanComponent implements OnInit {
         duration: 2000,
       });
     }
-    else if(!this.Khachhang.Diachi)
+    else if(!this.Donhang.Khachhang.Diachi)
     {
       this.Notify.Noidung = "Vui Lòng Nhập Địa Chỉ"
       this.Notify.type = "danger"
@@ -77,7 +72,7 @@ export class ThanhtoanComponent implements OnInit {
         duration: 2000,
       });
     }
-    else if(!this.Khachhang.SDT)
+    else if(!this.Donhang.Khachhang.SDT)
     {
       this.Notify.Noidung = "Vui Lòng Nhập Số Điện Thoại"
       this.Notify.type = "danger"
@@ -90,9 +85,6 @@ export class ThanhtoanComponent implements OnInit {
     }
     else
     {
-      this.Donhang.Khachhang =this.Khachhang 
-      this.Donhang.Thanhtoan =this.Thanhtoan 
-      this.Donhang.Vanchuyen =this.Vanchuyen 
       this._GiohangService.CreateDonhang(this.Donhang).then((data:any)=>
       {
         window.location.href = `cam-on?MaDonHang=${data.MaDonHang}`;

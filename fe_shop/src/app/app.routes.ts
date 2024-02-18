@@ -35,6 +35,8 @@ import { BaivietadminChitietComponent } from './admin/main-admin/baiviet-admin/b
 import { GioithieuchungComponent } from './site/baiviet/gioithieuchung/gioithieuchung.component';
 import { AdminLienheChitietComponent } from './admin/main-admin/admin-lienhe/admin-lienhe-chitiet/admin-lienhe-chitiet.component';
 import { AdminLienheComponent } from './admin/main-admin/admin-lienhe/admin-lienhe.component';
+import { AdminKhachhangComponent } from './admin/main-admin/admin-khachhang/admin-khachhang.component';
+import { AdminChuongtrinhkhuyenmaiComponent } from './admin/main-admin/admin-chuongtrinhkhuyenmai/admin-chuongtrinhkhuyenmai.component';
 
 
 export const appRoutes: Route[] = [
@@ -161,6 +163,16 @@ export const appRoutes: Route[] = [
                 ]
             },
             {
+                path: 'khachhang',
+                component: AdminKhachhangComponent,
+                children:[
+                    {
+                        path: ':id',
+                        component: DonhangAdminChitietComponent,
+                    },
+                ]
+            },
+            {
                 path: 'sanpham',
                 component: SanphamComponent,
                 children:[
@@ -200,6 +212,16 @@ export const appRoutes: Route[] = [
                         component: AdminLienheChitietComponent,
                     }
                 ]
+            },
+            {
+                path: 'khuyenmai',
+                component: AdminChuongtrinhkhuyenmaiComponent,
+                // children:[
+                //     {
+                //         path: ':id',
+                //         component: AdminLienheChitietComponent,
+                //     }
+                // ]
             },
             {
                 path: 'user',
