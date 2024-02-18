@@ -187,7 +187,7 @@ export class GiohangService {
                 }
                 const data = await response.json();
                 console.log(data);
-                this._donhang.next({})
+                this._donhang.next({Giohangs:[]})
                 this._LocalStorageService.removeItem('Donhang')
                 return data             
             } catch (error) {
@@ -215,7 +215,7 @@ export class GiohangService {
         // }
     }
     async addToCart(item: any): Promise<void> {        
-        if(Object.entries(this.Donhang).length===0)
+        if(!this.Donhang.hasOwnProperty('MaDonHang'))
         {
             this.Donhang.MaDonHang = "RSTG"+GenId(8,false)
             this.Donhang.Khachhang = {Hoten:'Guest'}
@@ -261,7 +261,7 @@ export class GiohangService {
 
     }
     async Crement(item: any): Promise<void> {        
-        if(Object.entries(this.Donhang).length===0)
+        if(!this.Donhang.hasOwnProperty('MaDonHang'))
         {
             this.Donhang.MaDonHang = "RSTG"+GenId(8,false)
             this.Donhang.Khachhang = {Hoten:'Guest'}

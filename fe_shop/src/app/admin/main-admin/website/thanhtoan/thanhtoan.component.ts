@@ -22,7 +22,7 @@ export class ThanhtoanComponent implements OnInit {
 
   _GiohangService: GiohangService = inject(GiohangService)
   _NotifierService: NotifierService = inject(NotifierService)
-  Giohangs: any[] = []
+  // Giohangs: any[] = []
   Khachhang:any={}
   Phivanchuyen: any = 10
   Giamgia: any = 30
@@ -37,7 +37,7 @@ export class ThanhtoanComponent implements OnInit {
     this._GiohangService.getDonhang()
     this._GiohangService.donhang$.subscribe((data: any) => {
       console.log(data)
-      this.Giohangs = data?.Giohangs
+      //this.Giohangs = data?.Giohangs
       this.Donhang = data
     })
   }
@@ -50,7 +50,7 @@ export class ThanhtoanComponent implements OnInit {
     }
   }
   GetTongcong() {
-    return this.GetTotal(this.Giohangs, 'Soluong', 'Giachon') + this.Phivanchuyen + this.Giamgia + this.GetTotal(this.Giohangs, 'Thue', '')
+    return this.GetTotal(this.Donhang.Giohangs, 'Soluong', 'Giachon') + this.Phivanchuyen + this.Giamgia + this.GetTotal(this.Donhang.Giohangs, 'Thue', '')
   }
   Xacnhandonhang(customSnackbar:TemplateRef<any>)
   {
