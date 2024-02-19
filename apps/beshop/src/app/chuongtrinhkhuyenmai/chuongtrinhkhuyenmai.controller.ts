@@ -18,9 +18,9 @@ export class ChuongtrinhkhuyenmaiController {
   async findOne(@Param('id') id: string) {
     return await this.chuongtrinhkhuyenmaiService.findid(id);
   }
-  @Get('findslug/:slug')
-  async findslug(@Param('slug') slug: string) {
-    return await this.chuongtrinhkhuyenmaiService.findCode(slug);
+  @Get('findcode/:code')
+  async findslug(@Param('code') code: string) {
+    return await this.chuongtrinhkhuyenmaiService.findCode(code);
   }
   @Get('pagination')
   async findPagination(@Query('page') page: number,@Query('perPage') perPage: number){

@@ -11,7 +11,7 @@ export class ChuongtrinhkhuyenmaiService {
     private ChuongtrinhkhuyenmaiRepository: Repository<ChuongtrinhkhuyenmaiEntity>
   ) { }
   async create(data: any) {
-    const check = await this.findCode(data)
+    const check = await this.findCode(data.Code)
     if(!check) {
       this.ChuongtrinhkhuyenmaiRepository.create(data);
       return await this.ChuongtrinhkhuyenmaiRepository.save(data);
@@ -31,7 +31,7 @@ export class ChuongtrinhkhuyenmaiService {
   async findCode(data: any) {
     return await this.ChuongtrinhkhuyenmaiRepository.findOne({
       where: {
-        Code: data.Code
+        Code: data
       },
     });
   }

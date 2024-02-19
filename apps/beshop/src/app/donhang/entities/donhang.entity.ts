@@ -16,12 +16,16 @@ export class DonhangEntity {
   MaDonHang: string;
   @Column({ type: 'text', collation: 'utf8_general_ci' })
   idGiohang: string;
+  @Column({ type: 'text', collation: 'utf8_general_ci' })
+  idKM: string;
   @Column({collation: "utf8_general_ci",type:"simple-json",default: () => "('{}')" })
   Image: string;
   @Column({collation: "utf8_general_ci",type:"simple-json",default: () => "('{}')" })
   Thanhtoan: string;
   @Column({collation: "utf8_general_ci",type:"simple-json",default: () => "('{}')" })
   Vanchuyen: string;
+  @Column({ type: 'bigint' })
+  Total: number;
   @Column({ default: '' })
   Type: string;
   @Column({ default: 1 })
