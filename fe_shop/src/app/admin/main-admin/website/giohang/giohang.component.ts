@@ -2,18 +2,22 @@ import { Component, OnInit, inject } from '@angular/core';
 import { GiohangService } from './giohang.service';
 import { DecimalPipe } from '@angular/common';
 import { MatSnackBar } from '@angular/material/snack-bar';
+import { FormsModule } from '@angular/forms';
+import { ChuongtrinhkhuyenmaiAdminService } from '../../admin-chuongtrinhkhuyenmai/admin-chuongtrinhkhuyenmai.service';
 
 @Component({
   selector: 'app-giohang',
   standalone: true,
   imports: [
-    DecimalPipe
+    DecimalPipe,
+    FormsModule
   ],
   templateUrl: './giohang.component.html',
   styleUrls: ['./giohang.component.css']
 })
 export class GiohangComponent implements OnInit {
   _GiohangService: GiohangService = inject(GiohangService)
+  _ChuongtrinhkhuyenmaiAdminService: ChuongtrinhkhuyenmaiAdminService = inject(ChuongtrinhkhuyenmaiAdminService)
   Donhang: any ={Giohangs:[]}
   Phivanchuyen: any = 10
   Giamgia: any = 30
@@ -28,6 +32,7 @@ export class GiohangComponent implements OnInit {
       }
     })
   }
+
   GetTotal(data: any, field: any, field1: any) {
     if (field1) {
       return data?.reduce((acc: any, item: any) => acc + item[field] * item[field1]?.gia, 0) || 0;
@@ -37,7 +42,7 @@ export class GiohangComponent implements OnInit {
     }
   }
   GetTongcong() {
-    return this.GetTotal(this.Donhang.Giohangs, 'Soluong', 'Giachon') + this.Phivanchuyen + this.Giamgia + this.GetTotal(this.Donhang.Giohangs, 'Thue', '')
+    return this.Donhang.Total + this.Phivanchuyen - this.Donhang.Giamgia + this.GetTotal(this.Donhang.Giohangs, 'Thue', '')
   }
   DeleteCart()
   {
@@ -84,5 +89,36 @@ export class GiohangComponent implements OnInit {
       });
     })
     }
+  }
+  async ApdungKhuyenmai()
+  {
+    const Khuyenmai = await this._ChuongtrinhkhuyenmaiAdminService.getChuongtrinhkhuyenmaiByCode(this.Donhang.Code)
+    if(Khuyenmai)
+    {
+
+      this.Donhang.Khuyenmai = {id:Khuyenmai.id,Type:Khuyenmai.Type,Value:Khuyenmai.Value}
+      this._GiohangService.UpdateDonhang(this.Donhang).then(()=>
+      {
+        this._snackBar.open('Áp Dụng Mã Khuyến Mãi','',{
+          horizontalPosition: "end",
+          verticalPosition: "top",
+          panelClass:'success',
+          duration: 2000,
+        });  
+      })
+
+    }
+    else{
+      delete this.Donhang.Khuyenmai
+      this.Donhang.Giamgia = 0
+      this.Donhang.Code=''
+      this._GiohangService.UpdateDonhang(this.Donhang)
+      this._snackBar.open('Mã Khuyến Mãi Không Đúng','',{
+        horizontalPosition: "end",
+        verticalPosition: "top",
+        panelClass:'danger',
+        duration: 2000,
+      });
+    }    
   }
 }

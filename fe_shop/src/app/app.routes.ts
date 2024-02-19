@@ -113,14 +113,15 @@ export const appRoutes: Route[] = [
                     path: 'tin-tuc/:slug',
                     component: BlogDetailComponent,
                 },
-                {
-                    path: 'gioi-thieu-chung',
-                    component: GioithieuchungComponent,
-                    data: { slug: 've-chung-toi' } 
-                },
+                // {
+                //     path: 'gioi-thieu-chung',
+                //     component: GioithieuchungComponent,
+                //     data: { slug: 've-chung-toi' } 
+                // },
                 {
                     path: 'lien-he',
                     component: ContactComponent,
+                    data: { slug: 've-chung-toi' } 
                 },
                 {
                     path: 'tra-cuu-don',

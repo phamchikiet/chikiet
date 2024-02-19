@@ -7,6 +7,7 @@ import { HTTP_INTERCEPTORS } from '@angular/common/http';
 import { AuthService } from './admin/users/auth/auth.service';
 import { UsersInterceptor } from './admin/users/auth/users.interceptor';
 import { AuthModule } from './admin/users/auth/auth.module';
+import { SiteCtaComponent } from './admin/main-admin/admin-cta/site-cta/site-cta.component';
 
 @Component({
   standalone: true,
@@ -15,7 +16,8 @@ import { AuthModule } from './admin/users/auth/auth.module';
     MainComponent,
     CommonModule,
     NotifierModule,
-    AuthModule
+    AuthModule,
+    SiteCtaComponent
   ],
   providers: [
     AuthService,

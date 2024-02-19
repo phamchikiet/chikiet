@@ -1,5 +1,5 @@
 import { CommonModule } from '@angular/common';
-import { Component, HostBinding, HostListener, OnInit, ViewChild, effect, inject, signal } from '@angular/core';
+import { Component, HostBinding, HostListener, OnInit, TemplateRef, ViewChild, effect, inject, signal } from '@angular/core';
 import { AppService } from '../../app.service';
 import { MatMenuModule } from '@angular/material/menu';
 import { MainComponent } from '../main/main.component';
@@ -18,6 +18,11 @@ import { LocalStorageService } from '../../shared/localstorage.service';
 import { AuthService } from '../../admin/users/auth/auth.service';
 import { FlatTreeControl } from '@angular/cdk/tree';
 import { MatTreeFlatDataSource, MatTreeFlattener, MatTreeModule } from '@angular/material/tree';
+import { MatDialog } from '@angular/material/dialog';
+import { MatInputModule } from '@angular/material/input';
+import { FormsModule } from '@angular/forms';
+import { MatButtonModule } from '@angular/material/button';
+import {MatIconModule} from '@angular/material/icon';
 @Component({
   selector: 'app-header',
   standalone: true,
@@ -32,7 +37,11 @@ import { MatTreeFlatDataSource, MatTreeFlattener, MatTreeModule } from '@angular
     ButtonModule,
     MegaMenuModule,
     InputTextModule,
-    MatTreeModule
+    MatTreeModule,
+    MatInputModule,
+    FormsModule,
+    MatButtonModule,
+    MatIconModule
   ],
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.css']
@@ -55,6 +64,7 @@ export class HeaderComponent implements OnInit {
   darkmode: boolean = false
   Danhmucs: any = {}
   User: any = {}
+  Timkiem:any
   Token:any=this._LocalStorageService.getItem('token') ?? null;
   @ViewChild('sidebarRef') sidebarRef!: Sidebar;
 
@@ -230,17 +240,17 @@ export class HeaderComponent implements OnInit {
       ]
     },
     { id: 3, Title: 'Khuyến Mãi', Slug: 'khuyen-mai' },
-    { id: 4, Title: 'Món Ngon Mỗi Ngày', Slug: 'mon-ngon-moi-ngay' },
+    { id: 4, Title: 'Món Ngon', Slug: 'mon-ngon-moi-ngay' },
     { id: 5, Title: 'Tin tức', Slug: 'tin-tuc' },
-    {
-      id: 3, Title: 'Về chúng tôi ', Slug: 've-chung-toi', Show: false,
-      children: [
-        { id: 101, Title: 'Giới Thiệu Chung', Slug: 'gioi-thieu-chung' },
-        // { id: 102, Title: 'Qui Trình', Slug: 'quy-trinh' },
-        // { id: 103, Title: 'Hỏi Đáp', Slug: 'hoi-dap' },
-        // { id: 104, Title: 'Tuyển Dụng', Slug: 'tuyen-dung' },
-      ]
-    },
+    // {
+    //   id: 3, Title: 'Về chúng tôi ', Slug: 've-chung-toi', Show: false,
+    //   children: [
+    //     { id: 101, Title: 'Giới Thiệu Chung', Slug: 'gioi-thieu-chung' },
+    //     // { id: 102, Title: 'Qui Trình', Slug: 'quy-trinh' },
+    //     // { id: 103, Title: 'Hỏi Đáp', Slug: 'hoi-dap' },
+    //     // { id: 104, Title: 'Tuyển Dụng', Slug: 'tuyen-dung' },
+    //   ]
+    // },
     { id: 3, Title: 'Liên hệ', Slug: 'lien-he' },
   ]
 
@@ -265,7 +275,9 @@ export class HeaderComponent implements OnInit {
   dataSource = new MatTreeFlatDataSource(this.treeControl, this.treeFlattener);
   hasChild = (_: number, node: any) => node.expandable;
   Today:any= new Date()
-  constructor() {
+  constructor(
+    private dialog:MatDialog
+  ) {
     this._AppService.isDarkTheme$.subscribe(isDarkTheme => {
       document.body.classList.toggle('dark', isDarkTheme);
     });
@@ -280,7 +292,7 @@ export class HeaderComponent implements OnInit {
       this._UsersService.profile$.subscribe((data) => {
         if (data) {
           this.User = data
-          console.log(data);
+          // console.log(data);
           
         }
       })
@@ -317,5 +329,14 @@ export class HeaderComponent implements OnInit {
     if(result){
       window.location.href ='/'
     }
+  }
+  TimkiemDialog(teamplate: TemplateRef<any>): void {
+    const dialogRef = this.dialog.open(teamplate, {
+    });
+    // dialogRef.afterClosed().subscribe((result) => {
+    //   if (result) {
+    //     this._RedirectService.createRedirect(this.Detail).subscribe((data)=>this._Notification.notify('success','Thêm mới thành công'))
+    //   }
+    // });
   }
 }

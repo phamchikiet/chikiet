@@ -191,8 +191,8 @@
                         <div class="flex justify-between mb-3">
                             <p class="text-sm text-default-500">Tổng</p>
                             <p class="text-sm text-default-700 font-medium">
-                                {{(GetTotal(Donhang.Giohangs,'Soluong','Giachon')|
-                                number:'1.0-0')||'0'}}đ</p>
+                                {{this.Donhang.Total|
+                                number:'1.0-0'||'0'}}đ</p>
                         </div>
                         <div class="flex justify-between mb-3">
                             <p class="text-sm text-default-500">Phí Vận Chuyển</p>
@@ -200,7 +200,17 @@
                         </div>
                         <div class="flex justify-between mb-3">
                             <p class="text-sm text-default-500">Giảm giá</p>
-                            <p class="text-sm text-default-700 font-medium">{{(Giamgia| number:'1.0-0')||'0'}}đ</p>
+                            @if(this.Donhang.Giamgia>0)
+                            {
+                            <p class="text-sm text-default-700 font-medium text-red-500">
+                                - {{(this.Donhang.Giamgia| number:'1.0-0')||'0'}}đ
+                            </p>
+                            }
+                            @else {
+                            <p class="text-sm text-default-700 font-medium">
+                                {{(this.Donhang.Giamgia| number:'1.0-0')||'0'}}đ
+                            </p>
+                            }
                         </div>
                         <div class="flex justify-between mb-3">
                             <p class="text-sm text-default-500">Thuế</p>

@@ -45,7 +45,7 @@ export class ThanhtoanComponent implements OnInit {
     }
   }
   GetTongcong() {
-    return this.GetTotal(this.Donhang.Giohangs, 'Soluong', 'Giachon') + this.Phivanchuyen + this.Giamgia + this.GetTotal(this.Donhang.Giohangs, 'Thue', '')
+    return this.Donhang.Total + this.Phivanchuyen - this.Donhang.Giamgia + this.GetTotal(this.Donhang.Giohangs, 'Thue', '')
   }
   Xacnhandonhang(customSnackbar:TemplateRef<any>)
   {

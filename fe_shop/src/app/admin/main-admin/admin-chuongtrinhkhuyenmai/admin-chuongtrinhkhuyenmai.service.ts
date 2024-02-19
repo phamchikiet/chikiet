@@ -41,7 +41,7 @@ export class ChuongtrinhkhuyenmaiAdminService {
           return console.error(error);
       }
   }
-  async getChuongtrinhkhuyenmaiBySlug(Slug:any) {
+  async getChuongtrinhkhuyenmaiByCode(Code:any) {
     try {
       const options = {
         method:'GET',
@@ -49,13 +49,11 @@ export class ChuongtrinhkhuyenmaiAdminService {
           'Content-Type': 'application/json',
         },
       };
-          const response = await fetch(`${environment.APIURL}/chuongtrinhkhuyenmai/findslug/${Slug}`,options);
+          const response = await fetch(`${environment.APIURL}/chuongtrinhkhuyenmai/findcode/${Code}`,options);
           if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
           }
           const data = await response.json();   
-          console.log(data);
-                
           return data;
       } catch (error) {
           return console.error(error);

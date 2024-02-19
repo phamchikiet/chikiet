@@ -85,6 +85,7 @@ export class SanphamChitietComponent implements OnInit {
   }
   UpdateSanpham()
   {
+    this.Detail.Giagoc =  this.Detail.Giagoc.filter((v:any)=>v.loai!==''&&v.gia!==''&&v.dvt!=='')
     this._SanphamService.UpdateSanpham(this.Detail).then(()=>
     {
         this._snackBar.open('Cập Nhật Thành Công','',{
@@ -94,6 +95,14 @@ export class SanphamChitietComponent implements OnInit {
           duration: 2000,
         });
       })
+  }
+  AddBienthe()
+  {
+      this.Detail.Giagoc.push({loai:'',gia:'',dvt:''})
+  }
+  RemoveBienThe()
+  {
+    
   }
   APITINYMCE= environment.APITINYMCE;
   configTiny: EditorComponent['init'] = {

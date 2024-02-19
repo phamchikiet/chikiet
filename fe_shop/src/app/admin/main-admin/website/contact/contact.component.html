@@ -29,6 +29,12 @@
 </section>
 <section class="lg:py-16 py-6">
     <div class="container space-y-4">
+        <div class="flex flex-col space-y-6 lg:p-6">
+            <!-- <img src="assets/images/baiviet/{{Detail?.Image?.Main}}" class="rounded-xl lg:w-1/2 mx-auto"> -->
+            <div>{{Baiviet?.CreateAt|date:'yyyy-MM-dd'}}</div>
+            <div class="text-2xl font-semibold">{{Baiviet?.Title}}</div>
+            <div class="text-justify" [innerHTML]="Baiviet?.Noidung"></div>
+          </div>
         <div class="text-xl font-bold">Thông Tin Liên Hệ</div>
         <div class="grid lg:grid-cols-3 gap-4 grid-cols-1">
             <div class="flex flex-col space-y-4  justify-center bg-gray-100 rounded-lg px-4 py-16 text-center">
