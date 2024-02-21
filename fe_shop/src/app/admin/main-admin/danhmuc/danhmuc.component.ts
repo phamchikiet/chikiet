@@ -24,7 +24,8 @@ import * as moment from 'moment';
     FormsModule,
     MatDialogModule,
     MatButtonModule,
-    MatPaginatorModule
+    MatPaginatorModule,
+    MatButtonModule
   ],
   templateUrl: './danhmuc.component.html',
   styleUrls: ['./danhmuc.component.css']
