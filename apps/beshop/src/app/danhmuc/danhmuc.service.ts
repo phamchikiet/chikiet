@@ -63,6 +63,9 @@ export class DanhmucService {
     if (params.Title) {
       queryBuilder.andWhere('danhmuc.Title LIKE :Title', { SDT: `%${params.Title}%` });
     }
+    if (params.hasOwnProperty('Status')) {
+      queryBuilder.andWhere('danhmuc.Status LIKE :Status', { Status: `${params.Status}` });
+    }
     const [items, totalCount] = await queryBuilder
       .limit(params.pageSize || 10) // Set a default page size if not provided
       .offset(params.pageNumber * params.pageSize || 0)

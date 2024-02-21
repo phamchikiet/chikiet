@@ -87,7 +87,6 @@ export class SanphamService {
   }
   async update(id: string, data: any) {
     console.log(id,data);
-    
     this.SanphamRepository.save(data);
     return await this.SanphamRepository.findOne({ where: { id: id } });
   }

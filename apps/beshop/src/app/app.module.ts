@@ -13,6 +13,8 @@ import { UsersModule } from './users/users.module';
 import { UploadModule } from './upload/upload.module';
 import { LienheModule } from './lienhe/lienhe.module';
 import { ChuongtrinhkhuyenmaiModule } from './chuongtrinhkhuyenmai/chuongtrinhkhuyenmai.module';
+import { NhapkhoModule } from './xnt/nhapkho/nhapkho.module';
+import { TonkhoModule } from './xnt/tonkho/tonkho.module';
 
 @Module({
   imports: [
@@ -37,7 +39,9 @@ import { ChuongtrinhkhuyenmaiModule } from './chuongtrinhkhuyenmai/chuongtrinhkh
      UsersModule,
      UploadModule,
      LienheModule,
-     ChuongtrinhkhuyenmaiModule
+     ChuongtrinhkhuyenmaiModule,
+     NhapkhoModule,
+     TonkhoModule
   ],
   controllers: [AppController],
   providers: [AppService],

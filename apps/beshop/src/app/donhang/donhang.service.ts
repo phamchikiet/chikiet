@@ -15,6 +15,8 @@ export class DonhangService {
     private _KhachhangService: KhachhangService,
   ) { }
   async create(data: any) {
+    console.log(data);
+    
     const Khachhang = await this._KhachhangService.create(data.Khachhang)
     const InitGiohang:any ={}  
     InitGiohang.idKH = Khachhang.id
