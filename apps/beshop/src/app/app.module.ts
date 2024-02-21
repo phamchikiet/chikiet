@@ -15,6 +15,7 @@ import { LienheModule } from './lienhe/lienhe.module';
 import { ChuongtrinhkhuyenmaiModule } from './chuongtrinhkhuyenmai/chuongtrinhkhuyenmai.module';
 import { NhapkhoModule } from './xnt/nhapkho/nhapkho.module';
 import { TonkhoModule } from './xnt/tonkho/tonkho.module';
+import { EmailModule } from './email/email.module';
 
 @Module({
   imports: [
@@ -41,7 +42,8 @@ import { TonkhoModule } from './xnt/tonkho/tonkho.module';
      LienheModule,
      ChuongtrinhkhuyenmaiModule,
      NhapkhoModule,
-     TonkhoModule
+     TonkhoModule,
+     EmailModule
   ],
   controllers: [AppController],
   providers: [AppService],
