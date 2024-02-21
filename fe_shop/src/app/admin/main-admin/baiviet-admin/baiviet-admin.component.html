@@ -200,27 +200,45 @@
   </mat-drawer-content>
 </mat-drawer-container>
 <ng-template #dialogTemplate>
-  <div class="min-w-[672px]">
+  <div class="lg:w-[40vw] p-2 flex flex-col space-y-3">
     <div mat-dialog-title>Thêm Mới</div>
     <div mat-dialog-content>
-      <div class="flex flex-col w-full space-y-4 p-4">
+      <div class="flex flex-col w-full space-y-4 lg:p-4">
         <mat-form-field appearance="outline" class="w-full">
           <mat-label>Tiêu Đề</mat-label>
-          <input matInput [(ngModel)]="Detail.Tieude" [ngModelOptions]="{standalone: true}" placeholder="Tiêu Đề">
+          <input matInput [(ngModel)]="Detail.Title" [ngModelOptions]="{standalone: true}" placeholder="Tiêu Đề" (input)="FillSlug()">
         </mat-form-field>
         <mat-form-field appearance="outline" class="w-full">
-          <mat-label>Oldlink</mat-label>
-          <input matInput [(ngModel)]="Detail.Oldlink" [ngModelOptions]="{standalone: true}" placeholder="Oldlink">
+          <mat-label>Slug</mat-label>
+          <input matInput [(ngModel)]="Detail.Slug" [ngModelOptions]="{standalone: true}" placeholder="Oldlink">
         </mat-form-field>
-        <mat-form-field appearance="outline" class="w-full">
-          <mat-label>Newlink</mat-label>
-          <input matInput [(ngModel)]="Detail.Newlink" [ngModelOptions]="{standalone: true}" placeholder="Newlink">
-        </mat-form-field>
+        <mat-form-field appearance="outline">
+            <mat-label>Danh Mục</mat-label>
+            <mat-select [(ngModel)]="Detail.cat_id" [ngModelOptions]="{standalone: true}">
+              <mat-option [value]="item.id" *ngFor="let item of ListDanhmuc">{{item.Title}}</mat-option>
+            </mat-select>
+          </mat-form-field>
+      </div>
+      <div class="flex flex-row space-x-2 items-center justify-center">
+        <button mat-flat-button color="warn" mat-dialog-close="false">Huỷ</button>
+        <button mat-flat-button color="primary" mat-dialog-close="true">Đồng Ý</button>
       </div>
     </div>
-    <div mat-dialog-actions class="justify-center">
-      <button mat-button class="bg-red-400 hover:bg-red-600 text-white" mat-dialog-close="false">Huỷ</button>
-      <button mat-button class="bg-blue-400 hover:bg-blue-600 text-white" mat-dialog-close="true">Đồng Ý</button>
+  </div>
+</ng-template>
+
+
+<ng-template #XoaTeamplate>
+  <div class="lg:w-[40vw] p-2 flex flex-col space-y-3">
+    <div mat-dialog-title>Xoá</div>
+    <div mat-dialog-content>
+      <div class="flex flex-col w-full space-y-4 lg:p-4">
+          Bạn chắc chắn muốn Xoá?
+      </div>
+      <div class="flex flex-row space-x-2 items-center justify-center">
+        <button mat-flat-button color="warn" mat-dialog-close="false">Huỷ</button>
+        <button mat-flat-button color="primary" mat-dialog-close="true">Đồng Ý</button>
+      </div>
     </div>
   </div>
 </ng-template>

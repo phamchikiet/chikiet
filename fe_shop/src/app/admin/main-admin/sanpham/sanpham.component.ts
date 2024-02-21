@@ -12,7 +12,10 @@ import * as XLSX from 'xlsx';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { ButtonModule } from 'primeng/button';
 import * as moment from 'moment';
-import { groupByfield } from 'fe_shop/src/app/shared/shared.utils';
+import { convertToSlug, groupByfield } from 'fe_shop/src/app/shared/shared.utils';
+import { MatSelectModule } from '@angular/material/select';
+import { DanhmucService } from '../danhmuc/danhmuc.service';
+import { MatSnackBar } from '@angular/material/snack-bar';
 @Component({
   selector: 'app-sanpham',
   standalone:true,
@@ -28,6 +31,7 @@ import { groupByfield } from 'fe_shop/src/app/shared/shared.utils';
     MatButtonModule,
     MatPaginatorModule,
     ButtonModule,
+    MatSelectModule
   ],
   templateUrl: './sanpham.component.html',
   styleUrls: ['./sanpham.component.css']
@@ -35,6 +39,8 @@ import { groupByfield } from 'fe_shop/src/app/shared/shared.utils';
 export class SanphamComponent implements OnInit {
   Detail: any = {};
   Lists: any={}
+  SelectItem:any={}
+  ListDanhmuc: any=[]
   FilterLists: any[] = []
   pageSizeOptions: any[] = []
   Sitemap: any = { loc: '', priority: '' }
@@ -46,16 +52,36 @@ export class SanphamComponent implements OnInit {
   };
   sidebarVisible: boolean = false;
   _SanphamService:SanphamService = inject(SanphamService)
+  _DanhmucService:DanhmucService = inject(DanhmucService)
   @ViewChild('drawer', { static: true }) drawer!: MatDrawer;
   constructor(
     private dialog: MatDialog,
+    private _snackBar: MatSnackBar
   ) {
   }
   async ngOnInit(): Promise<void> {
     this.Lists = await this._SanphamService.SearchSanpham(this.SearchParams)
+    this.ListDanhmuc = await this._DanhmucService.getAllDanhmuc()
     this.FilterLists = this.Lists.items
     this.pageSizeOptions = [10, 20, this.Lists.totalCount].filter(v => v <= this.Lists.totalCount);
     //  console.log(this.FilterLists);
+  }
+  GetTenDanhmuc(item:any)
+  {
+    return  this.ListDanhmuc.find((v:any)=>v.id_cat ==item)?.Title
+  }
+  ChangeStatus(item:any,type:any)
+  {
+    item[type]=item[type]==0?1:0
+    this._SanphamService.UpdateSanpham(item).then(()=>
+    {
+      this._snackBar.open('Cập Nhật Thành Công','',{
+        horizontalPosition: "end",
+        verticalPosition: "top",
+        panelClass:'success',
+        duration: 2000,
+      });
+    })
   }
   applyFilter(event: Event) {
     const value = (event.target as HTMLInputElement).value;
@@ -78,10 +104,23 @@ export class SanphamComponent implements OnInit {
     const dialogRef = this.dialog.open(teamplate, {
     });
     dialogRef.afterClosed().subscribe((result) => {
-      if (result) {
+      if (result=='true') {
         this._SanphamService.CreateSanpham(this.Detail)
       }
     });
+  }
+  XoaDialog(teamplate: TemplateRef<any>): void {
+    const dialogRef = this.dialog.open(teamplate, {
+    });
+    dialogRef.afterClosed().subscribe((result) => {
+      if (result=='true') {
+        this._SanphamService.DeleteSanpham(this.SelectItem)
+      }
+    });
+  }
+  FillSlug()
+  {
+    this.Detail.Slug = convertToSlug(this.Detail.Title)
   }
   readExcelFile(event: any) {
     const file = event.target.files[0];

@@ -11,6 +11,9 @@ import { RouterLink, RouterOutlet } from '@angular/router';
 import { DanhmucService } from './danhmuc.service';
 import * as XLSX from 'xlsx';
 import * as moment from 'moment';
+import { convertToSlug } from 'fe_shop/src/app/shared/shared.utils';
+import { MatSelectModule } from '@angular/material/select';
+import { MatSnackBar } from '@angular/material/snack-bar';
 @Component({
   selector: 'app-danhmuc',
   standalone:true,
@@ -25,13 +28,15 @@ import * as moment from 'moment';
     MatDialogModule,
     MatButtonModule,
     MatPaginatorModule,
-    MatButtonModule
+    MatButtonModule,
+    MatSelectModule
   ],
   templateUrl: './danhmuc.component.html',
   styleUrls: ['./danhmuc.component.css']
 })
 export class DanhmucComponent implements OnInit {
   Detail: any = {};
+  SelectItem: any = {};
   Lists: any ={}
   FilterLists: any[] = []
   Sitemap: any = { loc: '', priority: '' }
@@ -45,8 +50,8 @@ export class DanhmucComponent implements OnInit {
   @ViewChild('drawer', { static: true }) drawer!: MatDrawer;
   constructor(
     private dialog: MatDialog,
-  ) {
-  }
+    private _snackBar: MatSnackBar
+  ) {}
   async ngOnInit(): Promise<void> {
 
    this.Lists = await this._DanhmucService.SearchDanhmuc(this.SearchParams)
@@ -71,14 +76,40 @@ export class DanhmucComponent implements OnInit {
     }
     else {this.FilterLists = this.Lists.items}
   }
+  FillSlug()
+  {
+    this.Detail.Slug = convertToSlug(this.Detail.Title)
+  }
   openDialog(teamplate: TemplateRef<any>): void {
     const dialogRef = this.dialog.open(teamplate, {
     });
     dialogRef.afterClosed().subscribe((result) => {
-      if (result) {
+      if (result=='true') {
         this._DanhmucService.CreateDanhmuc(this.Detail)
       }
     });
+  }
+  XoaDialog(teamplate: TemplateRef<any>): void {
+    const dialogRef = this.dialog.open(teamplate, {
+    });
+    dialogRef.afterClosed().subscribe((result) => {
+      if (result=='true') {
+        this._DanhmucService.DeleteDanhmuc(this.SelectItem)
+      }
+    });
+  }
+  ChangeStatus(item:any,type:any)
+  {
+    item[type]=item[type]==0?1:0
+    this._DanhmucService.UpdateDanhmuc(item).then(()=>
+    {
+      this._snackBar.open('Cập Nhật Thành Công','',{
+        horizontalPosition: "end",
+        verticalPosition: "top",
+        panelClass:'success',
+        duration: 2000,
+      });
+    })
   }
     readExcelFile(event: any) {
       const file = event.target.files[0];
