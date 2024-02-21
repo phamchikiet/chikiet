@@ -8,16 +8,26 @@
   "targets": {
     "build": {
       "executor": "@angular-devkit/build-angular:browser",
-      "outputs": ["{options.outputPath}"],
+      "outputs": [
+        "{options.outputPath}"
+      ],
       "options": {
         "outputPath": "dist/fe_portfolio/browser",
         "index": "fe_portfolio/src/index.html",
         "main": "fe_portfolio/src/main.ts",
-        "polyfills": ["zone.js"],
+        "polyfills": [
+          "zone.js"
+        ],
         "tsConfig": "fe_portfolio/tsconfig.app.json",
         "inlineStyleLanguage": "scss",
-        "assets": ["fe_portfolio/src/favicon.ico", "fe_portfolio/src/assets"],
-        "styles": ["fe_portfolio/src/styles.scss"],
+        "assets": [
+          "fe_portfolio/src/favicon.ico",
+          "fe_portfolio/src/assets"
+        ],
+        "styles": [
+          "@angular/material/prebuilt-themes/indigo-pink.css",
+          "fe_portfolio/src/styles.scss"
+        ],
         "scripts": []
       },
       "configurations": {
@@ -67,14 +77,21 @@
     },
     "lint": {
       "executor": "@nx/eslint:lint",
-      "outputs": ["{options.outputFile}"],
+      "outputs": [
+        "{options.outputFile}"
+      ],
       "options": {
-        "lintFilePatterns": ["fe_portfolio/**/*.ts", "fe_portfolio/**/*.html"]
+        "lintFilePatterns": [
+          "fe_portfolio/**/*.ts",
+          "fe_portfolio/**/*.html"
+        ]
       }
     },
     "test": {
       "executor": "@nx/jest:jest",
-      "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
+      "outputs": [
+        "{workspaceRoot}/coverage/{projectRoot}"
+      ],
       "options": {
         "jestConfig": "fe_portfolio/jest.config.ts"
       }
@@ -86,7 +103,9 @@
       }
     },
     "server": {
-      "dependsOn": ["build"],
+      "dependsOn": [
+        "build"
+      ],
       "executor": "@angular-devkit/build-angular:server",
       "options": {
         "outputPath": "dist/fe_portfolio/server",
@@ -125,7 +144,9 @@
     "prerender": {
       "executor": "@angular-devkit/build-angular:prerender",
       "options": {
-        "routes": ["/"]
+        "routes": [
+          "/"
+        ]
       },
       "configurations": {
         "development": {

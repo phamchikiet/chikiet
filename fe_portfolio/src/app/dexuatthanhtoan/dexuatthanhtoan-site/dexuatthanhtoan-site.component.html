@@ -1,0 +1,110 @@
+<div class="w-screen h-screen bg-slate-50 flex items-center justify-center">
+  <div class="flex flex-col space-y-2 p-4 bg-white rounded-lg shadow-md w-[80vw] items-center justify-center">
+    <!-- <div class="flex flex-col space-y-2">
+      <mat-form-field appearance="outline" class="w-full">
+        <mat-label>Họ Tên</mat-label>
+        <input [(ngModel)]="Detail.Hoten" [ngModelOptions]="{standalone: true}" type="text" matInput
+          class="w-full px-3 py-2 border border-gray-200 rounded" [placeholder]="'Họ Tên'" />
+      </mat-form-field>
+      <mat-form-field appearance="outline" class="w-full">
+        <mat-label>Bộ Phận</mat-label>
+        <input [(ngModel)]="Detail.Bophan" [ngModelOptions]="{standalone: true}" type="text" matInput
+          class="w-full px-3 py-2 border border-gray-200 rounded" [placeholder]="'Bộ Phận'" />
+      </mat-form-field>
+      <mat-form-field appearance="outline" class="w-full">
+        <mat-label>Chức Danh</mat-label>
+        <input [(ngModel)]="Detail.Chucdanh" [ngModelOptions]="{standalone: true}" type="text" matInput
+          class="w-full px-3 py-2 border border-gray-200 rounded" [placeholder]="'Chức Danh'" />
+      </mat-form-field>
+
+    </div> -->
+    <div class="flex flex-col space-y-4 items-center border p-4 rounded-lg">
+      <div class="w-full flex flex-row space-x-2 justify-between items-center">
+        <div><img src="https://tazagroup.vn/assets/images/tazagroup-logo-trangchu.svg" class="h-20"></div>
+        <div>BM-01-QT-KT-02</div>
+      </div>
+      <div>Ngày hiệu lực: 10/01/2018</div>
+      <div class="text-xl font-bold">PHIẾU ĐỀ XUẤT CÔNG VIỆC</div>
+      <div class="w-full  grid grid-cols-3 gap-2">
+        @if(isEdit){
+          <mat-form-field appearance="outline" class="w-full">
+            <mat-label>Họ Tên</mat-label>
+            <input [(ngModel)]="Detail.Hoten" [ngModelOptions]="{standalone: true}" type="text" matInput
+              class="w-full px-3 py-2 border border-gray-200 rounded" [placeholder]="'Họ Tên'" />
+          </mat-form-field>
+        }
+        @else{
+          <div>Họ và tên: <strong>{{Detail.Hoten}}</strong></div>
+        }
+
+        @if(isEdit){
+          <mat-form-field appearance="outline" class="w-full">
+            <mat-label>Bộ phận</mat-label>
+            <input [(ngModel)]="Detail.Bophan" [ngModelOptions]="{standalone: true}" type="text" matInput
+              class="w-full px-3 py-2 border border-gray-200 rounded" [placeholder]="'Bộ phận'" />
+          </mat-form-field>
+        }
+        @else{
+          <div>Họ và tên : <strong>{{Detail.Bophan}}</strong></div>
+        }
+
+        @if(isEdit){
+          <mat-form-field appearance="outline" class="w-full">
+            <mat-label>Chức danh</mat-label>
+            <input [(ngModel)]="Detail.Chucdanh" [ngModelOptions]="{standalone: true}" type="text" matInput
+              class="w-full px-3 py-2 border border-gray-200 rounded" [placeholder]="'Chức danh'" />
+          </mat-form-field>
+        }
+        @else{
+          <div>Chức danh : <strong>{{Detail.Chucdanh}}</strong></div>
+        }
+      </div>
+      <div class="w-full flex flex-col space-y-2 justify-start">
+        <div>Đề xuất công việc như sau :</div>
+
+        @if(isEdit){
+        <ul class="ml-4 space-y-1 text-gray-500 list-disc list-inside dark:text-gray-400">
+          @for (item of [1,2,3]; track $index) {
+            <mat-form-field appearance="outline" class="w-full">
+              <mat-label>Công việc {{$index+1}}</mat-label>
+              <input [(ngModel)]="Detail.Chucdanh" [ngModelOptions]="{standalone: true}" type="text" matInput
+                class="w-full px-3 py-2 border border-gray-200 rounded" placeholder="Công Việc {{$index+1}}" />
+            </mat-form-field>
+                    
+          }
+        </ul>
+        }
+        @else{
+        <ul class="ml-4 space-y-1 text-gray-500 list-disc list-inside dark:text-gray-400">
+          @for (item of [1,2,3]; track $index) {
+            <li class="font-bold">{{item}}</li>
+          }
+        </ul>
+        }
+      </div>
+      <div class="w-full">Dự toán kinh phí : </div>
+      <div class="w-full grid grid-cols-2 gap-2 justify-center">
+        <div class="text-center">
+          <div class="font-bold text-base"> BGĐ/ Trưởng Bộ phận</div>
+          <div> (Ký và Ghi rõ Họ Tên)</div>
+        </div>
+        <div class="text-center">
+          <div> ..........., Ngày…..…tháng….….năm 20…..</div>
+          <div class="font-bold"> Người đề nghị</div>
+          <div> (Ký và Ghi rõ Họ Tên)</div>
+        </div>
+      </div>
+    </div>
+    <div class="flex flex-row space-x-2 items-center">
+      @if(isEdit==true)
+      {
+        <button mat-flat-button color="primary" (click)="Luuthongtin();isEdit=false">Lưu</button>
+        <button mat-flat-button (click)="Luuthongtin()">Reset</button>
+      }
+      @else {
+        <button mat-flat-button color="accent" (click)="isEdit=true">Sửa</button>
+        <button mat-flat-button color="primary">In</button>
+      }
+    </div>
+  </div>
+</div>
