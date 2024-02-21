@@ -8,12 +8,15 @@ import { NotifierService } from 'angular-notifier';
 import { ListNotifyType } from 'fe_shop/src/app/shared/shared.utils';
 import { FormsModule } from '@angular/forms';
 import {MatRadioModule} from '@angular/material/radio';
+import { SendemailService } from 'fe_shop/src/app/sendemail/sendemail-admin/sendemail.service';
+import { SlideSanphamComponent } from '../slide-sanpham/slide-sanpham.component';
 @Component({
   selector: 'app-thanhtoan',
   standalone:true,
   imports:[DecimalPipe,
     FormsModule,
     MatRadioModule,
+    SlideSanphamComponent
   ],
   templateUrl: './thanhtoan.component.html',
   styleUrls: ['./thanhtoan.component.css']
@@ -22,6 +25,7 @@ export class ThanhtoanComponent implements OnInit {
 
   _GiohangService: GiohangService = inject(GiohangService)
   _NotifierService: NotifierService = inject(NotifierService)
+  _SendemailService: SendemailService = inject(SendemailService)
   Phivanchuyen: any = 10
   Giamgia: any = 30
   ListNotifyType:any=ListNotifyType
@@ -34,6 +38,7 @@ export class ThanhtoanComponent implements OnInit {
     this._GiohangService.donhang$.subscribe((data: any) => {
       console.log(data)
       this.Donhang = data
+      this.Donhang.Khachhang = {Hoten:"test",Diachi:"test",Email:"chikiet88@gmail.com",SDT:"0987654321"}
     })
   }
   GetTotal(data: any, field: any, field1: any) {    
@@ -58,6 +63,15 @@ export class ThanhtoanComponent implements OnInit {
         horizontalPosition: "end",
         verticalPosition: "top",
         panelClass:"danger",
+        duration: 2000,
+      });
+    }
+    else if(!this.Donhang.Khachhang.Email)
+    {
+      this._snackBar.open('Vui Lòng Nhập Email','',{
+        horizontalPosition: "end",
+        verticalPosition: "top",
+        panelClass:'danger',
         duration: 2000,
       });
     }
@@ -87,7 +101,28 @@ export class ThanhtoanComponent implements OnInit {
     {
       this._GiohangService.CreateDonhang(this.Donhang).then((data:any)=>
       {
-        window.location.href = `cam-on?MaDonHang=${data.MaDonHang}`;
+        const item:any={
+          "host": "smtp.gmail.com",
+          "port": 587,
+          "secure": false,
+          "auth": {
+            "user": "wetdragon1996@gmail.com",
+            "pass": "opxbvldmnxgnebsn"
+          },
+        "Brand":"Rau Sạch Trần Gia",
+        "toemail":"chikiet88@gmail.com",
+        "subject":"123456",
+        "text":"xinchao"
+    }
+        this._SendemailService.SendEmail(item)
+        this._snackBar.open('Đặt Hàng Thành Công','',{
+          horizontalPosition: "end",
+          verticalPosition: "top",
+          panelClass:'success',
+          duration: 2000,
+        });
+        
+        //window.location.href = `cam-on?MaDonHang=${data.MaDonHang}`;
       })
 
     }

@@ -11,7 +11,7 @@
           <div class="relative mt-1 lg:w-80">
             <input (keyup)="applyFilter($event)" type="text" name="email" id="topbar-search"
               class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-2 focus:ring-fuchsia-50 focus:border-fuchsia-300 block w-full p-2.5"
-              placeholder="Tìm Kiếm Sản Phẩm">
+              placeholder="Tìm Kiếm">
           </div>
           <button mat-icon-button [matMenuTriggerFor]="menu">
             <span class="material-symbols-outlined">more_vert</span>
@@ -54,7 +54,7 @@
           <button mat-flat-button color="primary">
             <div (click)="openDialog(dialogTemplate)" class="flex flex-row items-center">
               <span class="material-symbols-outlined">add</span>
-              <span class="hidden lg:flex">Sản Phẩm</span>
+              <span class="hidden lg:flex">Thêm Mới</span>
             </div>
           </button>
         </div>

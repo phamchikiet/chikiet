@@ -38,6 +38,7 @@ import { AdminKhachhangComponent } from './admin/main-admin/admin-khachhang/admi
 import { AdminChuongtrinhkhuyenmaiComponent } from './admin/main-admin/admin-chuongtrinhkhuyenmai/admin-chuongtrinhkhuyenmai.component';
 import { AdminTonkhoComponent } from './admin/main-admin/admin-xnt/admin-tonkho/admin-tonkho.component';
 import { AdminTonkhoChitietComponent } from './admin/main-admin/admin-xnt/admin-tonkho/admin-tonkho-chitiet/admin-tonkho-chitiet.component';
+import { DemoComponent } from './admin/main-admin/demo/demo.component';
 
 export const appRoutes: Route[] = [
     // { path: '', redirectTo: 'trang-chu', pathMatch: 'full' },
@@ -237,6 +238,10 @@ export const appRoutes: Route[] = [
                 children:[
                    {path:':id',component:AdminTonkhoChitietComponent}
                 ]
+            },
+            {
+                path: 'demo',
+                component: DemoComponent,
             },
 
         ]
