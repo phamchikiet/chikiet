@@ -9,12 +9,12 @@
       <span class="lg:text-xl text-xs font-semibold">
         {{Detail.Title}}
       </span>
-      <button mat-stroked-button (click)="UpdateBaivietadmin()">Lưu</button>
+      <button mat-stroked-button (click)="UpdateTonkho()">Lưu</button>
     </div>
         <div class="p-4 grid lg:grid-cols-2 grid-cols-1 gap-4">
-          <div>
+          <!-- <div>
             <app-hinhanh [height]="'h-40'" [Image]="{Main:Detail.Image.Main}" (UploadEmit)="GetUpload($event)"></app-hinhanh> 
-          </div>         
+          </div>          -->
           <div class="flex flex-col space-y-3">
             <mat-form-field appearance="outline" class="w-full text-xs">
               <mat-label>Tiêu đề</mat-label>

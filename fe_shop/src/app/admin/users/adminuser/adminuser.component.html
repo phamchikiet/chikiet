@@ -75,19 +75,10 @@
                       Họ Tên
                     </th>
                     <th scope="col" class="p-4 text-xs font-medium text-left text-gray-500 uppercase lg:p-5">
-                      Số Điện Thoại
-                    </th>
-                    <th scope="col" class="p-4 text-xs font-medium text-left text-gray-500 uppercase lg:p-5">
-                      Email
-                    </th>
-                    <th scope="col" class="p-4 text-xs font-medium text-left text-gray-500 uppercase lg:p-5">
                      Role
                     </th>
                     <th scope="col" class="p-4 text-xs font-medium text-left text-gray-500 uppercase lg:p-5">
                       Status
-                    </th>
-                    <th scope="col" class="p-4 text-xs font-medium text-left text-gray-500 uppercase lg:p-5">
-                    Hành Động
                     </th>
                   </tr>
                 </thead>
@@ -101,28 +92,24 @@
                       </td>
                       <td class="p-4 text-sm font-normal text-gray-500 whitespace-nowrap lg:p-5">
                        <a routerLink="{{item.id}}" (click)="drawer.toggle()">
-                        <div class="text-base font-semibold text-gray-900">{{item.Hoten}}</div>
+                        <div class="flex flex-col space-y-2">
+                          <div class="text-base font-semibold text-gray-900">{{item.Hoten}}</div>
+                          <div class="text-xs">{{item.SDT}}</div>
+                          <div class="text-xs">{{item.email}}</div>
+                        </div>
+                     
                       </a>
                       </td>
                       <td class="p-4 text-sm font-normal text-gray-500 whitespace-nowrap lg:p-5">
-                        <div class="text-base font-semibold text-gray-900">{{item.SDT}}</div>
-                      </td>
-                      <td class="p-4 text-sm font-normal text-gray-500 whitespace-nowrap lg:p-5">
-                        <div class="text-base font-semibold text-gray-900">{{item.email}}</div>
-                      </td>
-                      <td class="p-4 text-sm font-normal text-gray-500 whitespace-nowrap lg:p-5">
-                        <div class="text-base font-semibold text-gray-900">{{item.role}}</div>
+                        <div class="text-base font-semibold text-gray-900">{{item.Role}}</div>
                       </td>
                       <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap lg:p-5">
                         @if (item.Status==1) {
                           <span class="material-symbols-outlined text-blue-500">check_circle</span>
                          }
                         @else { <span class="material-symbols-outlined text-red-500">cancel</span> }
-                      </td>
-  
-
-      
-                      <td class="p-4 space-x-2 whitespace-nowrap lg:p-5">
+                      </td>      
+                      <!-- <td class="p-4 space-x-2 whitespace-nowrap lg:p-5">
                         <button type="button" data-modal-toggle="product-modal"
                           class="inline-flex items-center py-2 px-3 text-sm font-medium text-center text-gray-700 bg-gray-200 rounded-lg hover:bg-gray-300 hover:text-gray-900 hover:scale-[1.02] transition-all">
                           <svg class="mr-2 w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
@@ -145,7 +132,7 @@
                           </svg>
                           Xoá
                         </button>
-                      </td>
+                      </td> -->
                     </tr>
                   }
 

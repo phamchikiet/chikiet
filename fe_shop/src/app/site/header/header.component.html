@@ -6,41 +6,36 @@
         @for(item of Menus; track item.id) {
         @if (item.children!=null&&item.children.length>0) {
 
-        <a class="flex flex-row items-center header-link py-2 font-semibold uppercase transition-all"
-        cdkOverlayOrigin #trigger="cdkOverlayOrigin" 
-        (mouseover)="Menus[$index].Show=true"
-        >
-        {{item.Title}}
-        <span class="material-symbols-outlined">
-            expand_more
+        <a class="flex flex-row items-center header-link py-2 font-semibold uppercase transition-all" cdkOverlayOrigin
+            #trigger="cdkOverlayOrigin" (mouseover)="Menus[$index].Show=true">
+            {{item.Title}}
+            <span class="material-symbols-outlined">
+                expand_more
             </span>
-    </a>
+        </a>
 
-        <ng-template
-        cdkConnectedOverlay
-        [cdkConnectedOverlayOrigin]="trigger"
-        [cdkConnectedOverlayOpen]="Menus[$index].Show"
-      >
-      @if (item.id==2) {
-        <div class="border rounded-lg grid grid-cols-4 gap-4 bg-white p-4" (mouseleave)="Menus[$index].Show=false">
-            @for (item of item.children; track $index) {
+        <ng-template cdkConnectedOverlay [cdkConnectedOverlayOrigin]="trigger"
+            [cdkConnectedOverlayOpen]="Menus[$index].Show">
+            @if (item.id==2) {
+            <div class="border rounded-lg grid grid-cols-4 gap-4 bg-white p-4" (mouseleave)="Menus[$index].Show=false">
+                @for (item of item.children; track $index) {
                 <div class="flex flex-row space-x-2 items-center">
                     <img src="/assets/images/sanpham/rau-lang26385834.PNG" class="h-10">
                     <a href="danh-muc/{{item.Slug}}">{{item.Title}}</a>
                 </div>
 
+                }
+            </div>
             }
-        </div>
-      }
-      @else {
-        <div class="border rounded-lg grid grid-cols-1 gap-4 bg-white p-4" (mouseleave)="Menus[$index].Show=false">
-            @for (item of item.children; track $index) {
+            @else {
+            <div class="border rounded-lg grid grid-cols-1 gap-4 bg-white p-4" (mouseleave)="Menus[$index].Show=false">
+                @for (item of item.children; track $index) {
                 <a href="{{item.Slug}}">{{item.Title}}</a>
+                }
+            </div>
             }
-        </div>
-      }
-      </ng-template>
-       <!-- <mat-menu #beforeMenu="matMenu" xPosition="before" class="w-screen">
+        </ng-template>
+        <!-- <mat-menu #beforeMenu="matMenu" xPosition="before" class="w-screen">
             <div class="w-screen grid grid-cols-4" (mouseleave)="menuTrigger.closeMenu()">
                 <a [routerLink]="[item1.Slug]" routerLinkActive="!bg-black !text-white" mat-menu-item
                     *ngFor="let item1 of item.children">{{item1.Title}}
@@ -49,7 +44,8 @@
         </mat-menu> -->
         }
         @else {
-        <a class="flex flex-row items-center header-link py-2 font-semibold uppercase transition-all" [routerLink]="[item.Slug]">
+        <a class="flex flex-row items-center header-link py-2 font-semibold uppercase transition-all"
+            [routerLink]="[item.Slug]">
             <span class="text-sm">
                 {{item.Title}}
             </span>
@@ -57,17 +53,19 @@
         }
     </div>
     <div class="flex flex-row space-x-4 items-center">
-        <span (click)="TimkiemDialog(dialogTimkiem)" class="material-symbols-outlined text-red-500 p-2 cursor-pointer rounded-full border hover:bg-red-500 hover:text-white">search</span>
+        <span (click)="TimkiemDialog(dialogTimkiem)"
+            class="material-symbols-outlined text-red-500 p-2 cursor-pointer rounded-full border hover:bg-red-500 hover:text-white">search</span>
 
         @if(this.Token){
-            <img [src]="User?.Image?.Main||'/assets/images/logo.webp'" class="rounded-full w-10 h-10 border" [matMenuTriggerFor]="user">
+        <img [src]="User?.Image?.Main||'/assets/images/logo.webp'" class="rounded-full w-10 h-10 border"
+            [matMenuTriggerFor]="user">
         }
         @else {
-          <a href="dangnhap" mat-icon-button>
-                <span class="material-symbols-outlined">
-                    person
-                </span>
-            </a>
+        <a href="dangnhap" mat-icon-button>
+            <span class="material-symbols-outlined">
+                person
+            </span>
+        </a>
         }
 
         <!-- <a href="san-pham-yeu-thich" matBadgeColor="warn" mat-icon-button matBadge="0">
@@ -113,49 +111,50 @@
 
 </div>
 <p-sidebar [(visible)]="sidebarVisible" class="z-10" position="right" class="w-1/2">
-    <ng-template pTemplate="header">    
+    <ng-template pTemplate="header">
         <a href="/">
-        <img src="/assets/images/logo.webp" class="lg:h-20 h-10">
-    </a></ng-template>
+            <img src="/assets/images/logo.webp" class="lg:h-20 h-10">
+        </a></ng-template>
     <ng-template pTemplate="content">
-        
-<mat-tree [dataSource]="dataSource" [treeControl]="treeControl">
-  <mat-tree-node *matTreeNodeDef="let node" matTreeNodePadding>
-    <button mat-icon-button disabled></button>
-    <a href="{{node.Slug}}">{{node.Title}}</a> 
-  </mat-tree-node>
-  <mat-tree-node *matTreeNodeDef="let node;when: hasChild" matTreeNodePadding>
-    <button mat-icon-button matTreeNodeToggle [attr.aria-label]="'Toggle ' + node.Title">
-      <span
-        class="material-symbols-outlined">{{treeControl.isExpanded(node)?'expand_more':'navigate_next'}}</span>
-    </button>
-    <a href="{{node.Slug}}">{{node.Title}}</a> 
-  </mat-tree-node>
-</mat-tree>
+
+        <mat-tree [dataSource]="dataSource" [treeControl]="treeControl">
+            <mat-tree-node *matTreeNodeDef="let node" matTreeNodePadding>
+                <button mat-icon-button disabled></button>
+                <a href="{{node.Slug}}">{{node.Title}}</a>
+            </mat-tree-node>
+            <mat-tree-node *matTreeNodeDef="let node;when: hasChild" matTreeNodePadding>
+                <button mat-icon-button matTreeNodeToggle [attr.aria-label]="'Toggle ' + node.Title">
+                    <span
+                        class="material-symbols-outlined">{{treeControl.isExpanded(node)?'expand_more':'navigate_next'}}</span>
+                </button>
+                <a href="{{node.Slug}}">{{node.Title}}</a>
+            </mat-tree-node>
+        </mat-tree>
 
     </ng-template>
-    <ng-template pTemplate="footer">               
-         <div class="text-pgray-400 text-sm text-center">
-        <p>© Copyright {{Today|date:'yyyy'}}</p>
-    </div></ng-template>
+    <ng-template pTemplate="footer">
+        <div class="text-pgray-400 text-sm text-center">
+            <p>© Copyright {{Today|date:'yyyy'}}</p>
+        </div>
+    </ng-template>
 </p-sidebar>
 
 <ng-template #dialogTimkiem>
-    <div class="lg:w-[40vw] lg:h-[40vh] h-[95vh] w-[95vw] p-4 flex flex-col space-y-3">
-       <div mat-dialog-content>
-        <div class="flex flex-col w-full space-y-4 p-4">  
-            <mat-form-field appearance="outline" class="w-full text-xs">
+    <div class="lg:w-[40vw] lg:h-[40vh] h-[95vh] w-[95vw] p-2 flex flex-col justify-between space-y-3">
+        <div mat-dialog-content>
+            <div class="flex flex-col w-full space-y-4 p-2">
+                <mat-form-field appearance="outline" class="w-full text-xs">
                     <input matInput [(ngModel)]="Timkiem" [ngModelOptions]="{standalone: true}" placeholder="Tìm Kiếm">
-                        <span matPrefix class="p-2 material-symbols-outlined">search</span>
-             </mat-form-field>
-             <div class="">
-                
-             </div>
+                    <span matPrefix class="p-2 material-symbols-outlined">search</span>
+                </mat-form-field>
+                <div class="">
+
+                </div>
+            </div>
+        </div>
+        <div mat-dialog-actions class="flex items-end">
+            <button class="ml-auto" mat-flat-button color="primary"  mat-dialog-close="false">Đóng</button>
         </div>
     </div>
-  </div>
-  </ng-template>
 
-
-
-
+</ng-template>

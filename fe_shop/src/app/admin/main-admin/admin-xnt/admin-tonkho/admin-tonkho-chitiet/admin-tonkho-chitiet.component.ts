@@ -1,26 +1,25 @@
-import { Component, Inject, Input, OnInit, inject } from '@angular/core';
-import { InputTextModule } from 'primeng/inputtext';
-import { MatSelect, MatSelectModule } from '@angular/material/select';
-import { FormsModule } from '@angular/forms';
-import { CommonModule } from '@angular/common';
-import { ActivatedRoute, RouterLink } from '@angular/router';
-import { MatButtonModule } from '@angular/material/button';
-import { AdminuserComponent } from '../adminuser.component';
+import { Component, OnInit, inject } from '@angular/core';
+import { TonkhoAdminService } from '../admin-tonkho.service';
+import { AdminTonkhoComponent } from '../admin-tonkho.component';
 import { MatSnackBar } from '@angular/material/snack-bar';
-import { EditorComponent, EditorModule } from '@tinymce/tinymce-angular';
-import { environment } from 'fe_shop/src/environments/environment';
-import { BaivietAdminComponent } from '../../../main-admin/baiviet-admin/baiviet-admin.component';
-import { BaivietAdminService } from '../../../main-admin/baiviet-admin/baiviet-admin.service';
-import { DanhmucService } from '../../../main-admin/danhmuc/danhmuc.service';
+import { ActivatedRoute, RouterLink } from '@angular/router';
+import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
+import { MatButtonModule } from '@angular/material/button';
 import { MatInputModule } from '@angular/material/input';
+import { MatSelectModule } from '@angular/material/select';
+import { EditorComponent, EditorModule } from '@tinymce/tinymce-angular';
 import { HinhanhComponent } from 'fe_shop/src/app/shared/hinhanh/hinhanh.component';
 import { NgxDropzoneModule } from 'ngx-dropzone';
 import { AutoCompleteModule } from 'primeng/autocomplete';
 import { ButtonModule } from 'primeng/button';
 import { DropdownModule } from 'primeng/dropdown';
-import { UsersService } from '../../auth/users.service';
+import { InputTextModule } from 'primeng/inputtext';
+import { BaivietAdminComponent } from '../../../baiviet-admin/baiviet-admin.component';
+import { environment } from 'fe_shop/src/environments/environment';
+
 @Component({
-  selector: 'app-adminuser-chitiet',
+  selector: 'app-admin-tonkho-chitiet',
   standalone:true,
   imports:[
     InputTextModule,
@@ -29,59 +28,42 @@ import { UsersService } from '../../auth/users.service';
     CommonModule,
     RouterLink,
     MatButtonModule,
+    BaivietAdminComponent,
     ButtonModule,
     DropdownModule,
     AutoCompleteModule,
     MatInputModule,
     NgxDropzoneModule,
     HinhanhComponent,
-    EditorModule 
+    EditorModule    
   ],
-  templateUrl: './adminuser-detail.component.html',
-  styleUrls: ['./adminuser-detail.component.css']
+  templateUrl: './admin-tonkho-chitiet.component.html',
+  styleUrls: ['./admin-tonkho-chitiet.component.css']
 })
-export class AdminuserDetailComponent implements OnInit {
+export class AdminTonkhoChitietComponent implements OnInit {
   route: ActivatedRoute = inject(ActivatedRoute);
-  _AdminuserComponent: AdminuserComponent = inject(AdminuserComponent);
-  _UsersService: UsersService = inject(UsersService);
-  _DanhmucService: DanhmucService = inject(DanhmucService);
+  _AdminTonkhoComponent: AdminTonkhoComponent = inject(AdminTonkhoComponent);
+  _TonkhoAdminService: TonkhoAdminService = inject(TonkhoAdminService);
   idSP:any;
   Detail:any={}
   Danhmuc:any[]=[]
   filteredDanhmuc:any[]=[]
+  APITINYMCE= environment.APITINYMCE;
   constructor(private _snackBar: MatSnackBar) {
       this.idSP = this.route.snapshot.params['id'];
   }
   async ngOnInit() {
-    if(this.idSP)
-    {
-    this.Detail = await this._UsersService.getUserByid(this.idSP)
-    this.Danhmuc = await this._DanhmucService.getAllDanhmuc()
+    this.Detail = await this._TonkhoAdminService.getTonkhoByid(this.idSP)
     console.log(this.Detail);
-    this._AdminuserComponent.drawer.open()
-    }
+    this._AdminTonkhoComponent.drawer.open()
   }
   CloseDrawer()
   {
-    this._AdminuserComponent.drawer.close()
+    this._AdminTonkhoComponent.drawer.close()
   }
-  GetUpload(e:any)
+  UpdateTonkho()
   {
-    console.log(e.src);
-    
-    this.Detail.Image.Main = e.src
-    this._UsersService.updateOneUser(this.Detail);
-  }
-  GetUploadList(e:any,i:any)
-  {   
-    console.log(e);
-    this.Detail.ListImage[i] = e
-    console.log(this.Detail);
-    this._UsersService.UpdateUser(this.Detail);
-  }
-  UpdateBaivietadmin()
-  {
-    this._UsersService.UpdateUser(this.Detail).then(()=>
+    this._TonkhoAdminService.UpdateTonkhoAdmin(this.Detail).then(()=>
     {
         this._snackBar.open('Cập Nhật Thành Công','',{
           horizontalPosition: "end",
@@ -91,7 +73,6 @@ export class AdminuserDetailComponent implements OnInit {
         });
       })
   }
-  APITINYMCE= environment.APITINYMCE;
   configTiny: EditorComponent['init'] = {
     // selector: '.dfree-header',
     content_style: '.mce-content-body { border: 1px dashed blue; padding: 10px;  } '+'.mce-content-body p {margin-top: 0;margin-bottom: 0;}',
@@ -127,5 +108,4 @@ export class AdminuserDetailComponent implements OnInit {
       return promise;
     }, 
   };
-
 }

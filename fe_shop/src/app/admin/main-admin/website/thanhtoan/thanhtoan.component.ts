@@ -13,7 +13,7 @@ import {MatRadioModule} from '@angular/material/radio';
   standalone:true,
   imports:[DecimalPipe,
     FormsModule,
-    MatRadioModule
+    MatRadioModule,
   ],
   templateUrl: './thanhtoan.component.html',
   styleUrls: ['./thanhtoan.component.css']

@@ -11,7 +11,6 @@ import { SanphamChitietComponent } from './admin/main-admin/sanpham/sanpham-chit
 import { DanhmucComponent } from './admin/main-admin/danhmuc/danhmuc.component';
 import { DanhmucChitietComponent } from './admin/main-admin/danhmuc/danhmuc-chitiet/danhmuc-chitiet.component';
 import { DashboardComponent } from './admin/main-admin/dashboard/dashboard.component';
-import { BaivietStyle1Component } from './site/baiviet/baiviet-style1/baiviet-style1.component';
 import { BaivietAdminComponent } from './admin/main-admin/baiviet-admin/baiviet-admin.component';
 import { SanphamyeuthichComponent } from './admin/main-admin/website/sanphamyeuthich/sanphamyeuthich.component';
 import { ThanhtoanComponent } from './admin/main-admin/website/thanhtoan/thanhtoan.component';
@@ -37,7 +36,8 @@ import { AdminLienheChitietComponent } from './admin/main-admin/admin-lienhe/adm
 import { AdminLienheComponent } from './admin/main-admin/admin-lienhe/admin-lienhe.component';
 import { AdminKhachhangComponent } from './admin/main-admin/admin-khachhang/admin-khachhang.component';
 import { AdminChuongtrinhkhuyenmaiComponent } from './admin/main-admin/admin-chuongtrinhkhuyenmai/admin-chuongtrinhkhuyenmai.component';
-
+import { AdminTonkhoComponent } from './admin/main-admin/admin-xnt/admin-tonkho/admin-tonkho.component';
+import { AdminTonkhoChitietComponent } from './admin/main-admin/admin-xnt/admin-tonkho/admin-tonkho-chitiet/admin-tonkho-chitiet.component';
 
 export const appRoutes: Route[] = [
     // { path: '', redirectTo: 'trang-chu', pathMatch: 'full' },
@@ -229,6 +229,13 @@ export const appRoutes: Route[] = [
                 component: AdminuserComponent,
                 children:[
                     {path:':id',component:AdminuserDetailComponent}
+                ]
+            },
+            {
+                path: 'tonkho',
+                component: AdminTonkhoComponent,
+                children:[
+                   {path:':id',component:AdminTonkhoChitietComponent}
                 ]
             },
 

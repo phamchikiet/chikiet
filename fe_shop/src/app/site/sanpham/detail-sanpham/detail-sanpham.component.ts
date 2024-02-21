@@ -8,6 +8,7 @@ import { SlideSanphamComponent } from 'fe_shop/src/app/admin/main-admin/website/
 import { ImageModule } from 'primeng/image';
 import {MatSnackBar,} from '@angular/material/snack-bar';
 import { ListNotifyType } from 'fe_shop/src/app/shared/shared.utils';
+import { TonkhoAdminService } from 'fe_shop/src/app/admin/main-admin/admin-xnt/admin-tonkho/admin-tonkho.service';
 @Component({
   selector: 'app-detail-sanpham',
   standalone:true,
@@ -42,8 +43,10 @@ export class DetailSanphamComponent implements OnInit {
 ];
   _SanphamService: SanphamService = inject(SanphamService);
   _GiohangService: GiohangService = inject(GiohangService);
+  _TonkhoAdminService: TonkhoAdminService = inject(TonkhoAdminService);
   route: ActivatedRoute = inject(ActivatedRoute);
   Detail:any
+  Tonkho:any
   Notify:any
   Giachon:any={}
   SearchParams: any = {
@@ -62,6 +65,8 @@ export class DetailSanphamComponent implements OnInit {
     {
       this.Detail = await this._SanphamService.getSanphamBySlug(this.Slug)
       this.Giachon = this.Detail.Giagoc[0]
+      this.Tonkho =  await this._TonkhoAdminService.getTonkhoByidSP(this.Detail.id)
+      console.log(this.Tonkho);
       console.log(this.Detail);
     }
 
