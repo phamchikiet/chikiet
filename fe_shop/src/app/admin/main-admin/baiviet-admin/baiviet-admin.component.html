@@ -199,7 +199,7 @@
 
   </mat-drawer-content>
 </mat-drawer-container>
-<!-- <ng-template #dialogTemplate>
+<ng-template #dialogTemplate>
   <div class="lg:w-[40vw] p-2 flex flex-col space-y-3">
     <div mat-dialog-title>Thêm Mới</div>
     <div mat-dialog-content>
@@ -212,12 +212,12 @@
           <mat-label>Slug</mat-label>
           <input matInput [(ngModel)]="Detail.Slug" [ngModelOptions]="{standalone: true}" placeholder="Oldlink">
         </mat-form-field>
-        <mat-form-field appearance="outline">
+        <!-- <mat-form-field appearance="outline">
             <mat-label>Danh Mục</mat-label>
             <mat-select [(ngModel)]="Detail.cat_id" [ngModelOptions]="{standalone: true}">
               <mat-option [value]="item.id" *ngFor="let item of ListDanhmuc">{{item.Title}}</mat-option>
             </mat-select>
-          </mat-form-field>
+          </mat-form-field> -->
       </div>
       <div class="flex flex-row space-x-2 items-center justify-center">
         <button mat-flat-button color="warn" mat-dialog-close="false">Huỷ</button>
@@ -225,7 +225,7 @@
       </div>
     </div>
   </div>
-</ng-template> -->
+</ng-template>
 
 
 <ng-template #XoaTeamplate>

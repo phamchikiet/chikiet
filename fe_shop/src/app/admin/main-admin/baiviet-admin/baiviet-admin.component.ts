@@ -69,6 +69,10 @@ export class BaivietAdminComponent implements OnInit {
     this.Lists = await this._BaivietAdminService.SearchBaivietAdmin(this.SearchParams)
     this.FilterLists = this.Lists.items
   } 
+  FillSlug()
+  {
+    this.Detail.Slug = convertToSlug(this.Detail.Title)
+  }
   applyFilter(event: Event) {
     const value = (event.target as HTMLInputElement).value;
     if (value.length > 2) {
