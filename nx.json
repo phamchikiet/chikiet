@@ -1,22 +1,60 @@
 {
-  "extends": "nx/presets/npm.json",
   "$schema": "./node_modules/nx/schemas/nx-schema.json",
+  "npmScope": "ketoan",
   "affected": {
     "defaultBase": "master"
   },
+  "tasksRunnerOptions": {
+    "default": {
+      "runner": "@nrwl/nx-cloud",
+      "options": {
+        "cacheableOperations": [
+          "build",
+          "lint",
+          "test",
+          "e2e"
+        ],
+        "accessToken": "NTk4OGVkYzktYmJjYi00MzNlLWJiYzktZTY5MWQ2NWIxMDY4fHJlYWQtd3JpdGU="
+      }
+    }
+  },
   "targetDefaults": {
     "build": {
-      "cache": true,
       "dependsOn": [
         "^build"
+      ],
+      "inputs": [
+        "production",
+        "^production"
+      ]
+    },
+    "test": {
+      "inputs": [
+        "default",
+        "^production",
+        "{workspaceRoot}/jest.preset.js"
       ]
     },
     "lint": {
-      "cache": true
-    },
-    "e2e": {
-      "cache": true
+      "inputs": [
+        "default",
+        "{workspaceRoot}/.eslintrc.json"
+      ]
     }
   },
-  "nxCloudAccessToken": "NDJmZTQ2ZDUtMTU1MS00NDQxLWFiNTMtMTc0OTFlNTYxNWE0fHJlYWQtd3JpdGU="
+  "namedInputs": {
+    "default": [
+      "{projectRoot}/**/*",
+      "sharedGlobals"
+    ],
+    "production": [
+      "default",
+      "!{projectRoot}/**/?(*.)+(spec|test).[jt]s?(x)?(.snap)",
+      "!{projectRoot}/tsconfig.spec.json",
+      "!{projectRoot}/jest.config.[jt]s",
+      "!{projectRoot}/.eslintrc.json"
+    ],
+    "sharedGlobals": []
+  },
+  "defaultProject": "bechikiet"
 }
