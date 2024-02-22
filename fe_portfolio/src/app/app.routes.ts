@@ -1,6 +1,7 @@
 import { Route } from '@angular/router';
 import { MainSiteComponent } from './main/main-site/main-site.component';
 import { DexuatthanhtoanSiteComponent } from './dexuatthanhtoan/dexuatthanhtoan-site/dexuatthanhtoan-site.component';
+import { TrangchuSiteComponent } from './trangchu/trangchu-site/trangchu-site.component';
 
 export const appRoutes: Route[] = [
     // { path: '', redirectTo: 'trang-chu', pathMatch: 'full' },
@@ -12,6 +13,11 @@ export const appRoutes: Route[] = [
         children:[ 
                 {
                     path: '',
+                    component: TrangchuSiteComponent,
+                    title: 'Trang Chủ'
+                },
+                {
+                    path: 'dexuatthanhtoan',
                     component: DexuatthanhtoanSiteComponent,
                     title: 'Đề xuất'
                 }

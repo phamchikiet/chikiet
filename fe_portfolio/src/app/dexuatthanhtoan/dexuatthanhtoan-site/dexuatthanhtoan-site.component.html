@@ -60,24 +60,39 @@
         }
       </div>
       <div class="w-full flex flex-col space-y-2 justify-start">
-        <div>Đề xuất công việc như sau :</div>
+        <div>Đề xuất công việc như sau : </div>
 
         @if(isEdit){
         <ul class="ml-4 space-y-1 text-gray-500 list-disc list-inside dark:text-gray-400">
-          @for (item of [1,2,3]; track $index) {
-            <mat-form-field appearance="outline" class="w-full">
+          @for (item of Detail.ListCongviec; track $index) {
+            <div class="flex flex-row space-x-2">
+           <mat-form-field appearance="outline" class="w-full">
               <mat-label>Công việc {{$index+1}}</mat-label>
-              <input [(ngModel)]="Detail.Chucdanh" [ngModelOptions]="{standalone: true}" type="text" matInput
+              <input [(ngModel)]="item.Title" [ngModelOptions]="{standalone: true}" type="text" matInput
                 class="w-full px-3 py-2 border border-gray-200 rounded" placeholder="Công Việc {{$index+1}}" />
-            </mat-form-field>
-                    
+                <!-- <button mat-flat-button matSuffix color="primary" class="bg-red-500" (click)="AddCongviec()">Copy</button>    -->
+            </mat-form-field> 
+            <button mat-icon-button matSuffix (click)="CopyCongviec(item)">
+              <span class="material-icons mr-2">content_copy</span>
+            </button>
+            <button mat-icon-button matSuffix (click)="XoaCongviec(item)">
+              <span class="material-icons mr-2">delete</span>
+            </button>
+            </div>
+ 
+
           }
         </ul>
+
+        <div class="mx-auto">
+          <button mat-flat-button color="primary" class="bg-red-500" (click)="AddCongviec()">Thêm</button>
+        </div>
+
         }
         @else{
         <ul class="ml-4 space-y-1 text-gray-500 list-disc list-inside dark:text-gray-400">
-          @for (item of [1,2,3]; track $index) {
-            <li class="font-bold">{{item}}</li>
+          @for (item of Detail.ListCongviec; track $index) {
+            <li class="font-bold">{{item.Title}}</li>
           }
         </ul>
         }
