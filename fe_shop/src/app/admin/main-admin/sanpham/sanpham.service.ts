@@ -7,7 +7,33 @@ import { BehaviorSubject, map, Observable, switchMap, take } from 'rxjs';
 export class SanphamService {
   private _sanphams: BehaviorSubject<any[] | null> = new BehaviorSubject<any[] | null>(null);
   private _sanpham: BehaviorSubject<any | null> = new BehaviorSubject<any | null>(null);
+  private _totalCount: BehaviorSubject<any | null> = new BehaviorSubject<any | null>(null);
+  get sanphams$(): Observable<any[] | null> {
+    return this._sanphams.asObservable();
+  }
+  get sanpham$(): Observable<any | null> {
+    return this._sanpham.asObservable();
+  }
+  get totalCount$(): Observable<any | null> {
+    return this._totalCount.asObservable();
+  }
   constructor() {}
+  async getDrive() {
+    try {
+      const options = {
+        method:'GET',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+      };
+    const response = await fetch(`https://sheets.googleapis.com/v4/spreadsheets/1VghpYpLVKug07LJm1-pdcpeQcEoh5VaCOgBvOfQ0-L8/values/Sanpham?key=AIzaSyCWh10EgrjVBm8qKpnsGOgXrIsT5uqroMc`,options);
+    const data = await response.json();  
+          //this._sanphams.next(data)                 
+    return data;
+      } catch (error) {
+          return console.error(error);
+      }
+  }
   async getAllSanpham() {
     try {
       const options = {
@@ -17,7 +43,8 @@ export class SanphamService {
         },
       };
           const response = await fetch(`${environment.APIURL}/sanpham`,options);
-          const data = await response.json();                  
+          const data = await response.json(); 
+          this._sanphams.next(data)                 
           return data;
       } catch (error) {
           return console.error(error);
@@ -32,7 +59,8 @@ export class SanphamService {
         },
       };
           const response = await fetch(`${environment.APIURL}/sanpham/findslug/${Slug}`,options);
-          const data = await response.json();                  
+          const data = await response.json();    
+          this._sanpham.next(data)                      
           return data;
       } catch (error) {
           return console.error(error);
@@ -50,7 +78,8 @@ export class SanphamService {
           if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
           }
-          const data = await response.json();         
+          const data = await response.json();   
+          this._sanpham.next(data)              
           return data;
       } catch (error) {
           return console.error(error);
@@ -68,7 +97,12 @@ export class SanphamService {
         body: JSON.stringify(SearchParams),
       };
           const response = await fetch(`${environment.APIURL}/sanpham/search`,options);
-          const data = await response.json();                  
+          if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+          }
+          const data = await response.json();   
+          this._sanphams.next(data.items)              
+          this._totalCount.next(data.totalCount)              
           return data;
       } catch (error) {
           return console.error(error);
@@ -84,7 +118,11 @@ export class SanphamService {
             body: JSON.stringify(item),
           };
           const response = await fetch(`${environment.APIURL}/sanpham`, options);          
-          return await response.json();                  
+          if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+          }
+          const data = await response.json();  
+          return data                
       } catch (error) {
           return console.error(error);
       }
@@ -102,7 +140,8 @@ export class SanphamService {
           if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
           }
-          const data = await response.json();                   
+          const data = await response.json();     
+          this._sanpham.next(data)                       
           return data;  
       } catch (error) {
           return console.error(error);
@@ -123,4 +162,3 @@ export class SanphamService {
       }
   } 
 }
-

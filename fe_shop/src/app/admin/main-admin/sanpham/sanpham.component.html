@@ -45,6 +45,12 @@
               <span class="text-xs">Upload</span>
               <input class="hidden" (change)="readExcelFile($event)" type="file" #uploadfile>
             </div>
+            <div (click)="LoadDrive()"
+              class="flex flex-col items-center space-x-2 p-2 hover:bg-gray-200 rounded-lg">
+              <span matBadge="{{SanphamsDrive.length}}"  class="material-symbols-outlined text-xl" matTooltip="Drive">cloud_download</span>
+              <span class="text-xs">Drive</span>
+              
+            </div>
           </div>
         </div>
         <div class="flex flex-row space-x-2 items-center">

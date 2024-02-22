@@ -26,10 +26,7 @@ export class HinhanhComponent implements OnInit {
   @Output() UploadEmit = new EventEmitter();
   _UploadService:UploadService = inject(UploadService)
   constructor(public dialog: MatDialog) { }
-  ngOnInit() {
-   this.Image.src=this.Image?.Main
-    console.log(this.Image);
-  }
+  ngOnInit() {}
   async onSelect(event: any) {    
     const result = await this._UploadService.uploadDriver(event.addedFiles[0])
     this.Image = result
@@ -45,8 +42,6 @@ export class HinhanhComponent implements OnInit {
         this.UploadEmit.emit(this.Image);
       }
     });
-
-
   }
 
 }

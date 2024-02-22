@@ -26,8 +26,10 @@ export class AuthInterceptor implements HttpInterceptor
             catchError((error) => {
                 if ( error instanceof HttpErrorResponse && error.status === 401 )
                 {
-                    this._authService.Dangxuat();
-                    location.reload();
+                    console.log(error);
+                    
+                   this._authService.Dangxuat();
+                   location.reload();
                 }
                 return throwError(error);
             })
