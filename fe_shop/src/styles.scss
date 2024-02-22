@@ -63,8 +63,14 @@ mat-snack-bar-container{
 {
   border: 0;
 }
-// .cdk-overlay-pane
-// {
-//   max-width: 100vw !important;
-//   top: 10%;
-// }
+.mdc-dialog .mdc-dialog__content {
+  padding: 15px;
+}
+.mat-mdc-form-field-bottom-align
+{
+  height: 0;
+}
+.cdk-overlay-pane
+{
+  max-width: 100vw !important;
+}

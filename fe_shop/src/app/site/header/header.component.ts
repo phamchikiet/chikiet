@@ -23,6 +23,7 @@ import { MatInputModule } from '@angular/material/input';
 import { FormsModule } from '@angular/forms';
 import { MatButtonModule } from '@angular/material/button';
 import {MatIconModule} from '@angular/material/icon';
+import { SanphamService } from '../../admin/main-admin/sanpham/sanpham.service';
 @Component({
   selector: 'app-header',
   standalone: true,
@@ -56,6 +57,7 @@ export class HeaderComponent implements OnInit {
   _GiohangService: GiohangService = inject(GiohangService);
   _UsersService: UsersService = inject(UsersService);
   _AuthService: AuthService = inject(AuthService);
+  _SanphamService: SanphamService = inject(SanphamService);
   _Router: Router = inject(Router);
   _LocalStorageService: LocalStorageService = inject(LocalStorageService);
   SearchParams: any = {
@@ -276,6 +278,7 @@ export class HeaderComponent implements OnInit {
   dataSource = new MatTreeFlatDataSource(this.treeControl, this.treeFlattener);
   hasChild = (_: number, node: any) => node.expandable;
   Today:any= new Date()
+  Timkiems:any=[]
   constructor(
     private dialog:MatDialog
   ) {
@@ -334,10 +337,19 @@ export class HeaderComponent implements OnInit {
   TimkiemDialog(teamplate: TemplateRef<any>): void {
     const dialogRef = this.dialog.open(teamplate, {
     });
-    // dialogRef.afterClosed().subscribe((result) => {
-    //   if (result) {
-    //     this._RedirectService.createRedirect(this.Detail).subscribe((data)=>this._Notification.notify('success','Thêm mới thành công'))
-    //   }
-    // });
+    dialogRef.afterClosed().subscribe(() => {
+        this.Timkiems = []
+    });
+  }
+  async DoSearch(event: Event) {
+    const value = (event.target as HTMLInputElement).value;
+    if (value.length > 2) {
+      const Sanpham = await this._SanphamService.SearchSanpham({Query:value})
+      console.log(Sanpham);
+      this.Timkiems = Sanpham.items
+    }
+    else {
+      this.Timkiems = []
+    }
   }
 }
