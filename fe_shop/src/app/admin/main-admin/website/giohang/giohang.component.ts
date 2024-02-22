@@ -4,13 +4,15 @@ import { DecimalPipe } from '@angular/common';
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { FormsModule } from '@angular/forms';
 import { ChuongtrinhkhuyenmaiAdminService } from '../../admin-chuongtrinhkhuyenmai/admin-chuongtrinhkhuyenmai.service';
+import { SlideSanphamComponent } from '../slide-sanpham/slide-sanpham.component';
 
 @Component({
   selector: 'app-giohang',
   standalone: true,
   imports: [
     DecimalPipe,
-    FormsModule
+    FormsModule,
+    SlideSanphamComponent
   ],
   templateUrl: './giohang.component.html',
   styleUrls: ['./giohang.component.css']
