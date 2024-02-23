@@ -12,7 +12,7 @@ import * as XLSX from 'xlsx';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { ButtonModule } from 'primeng/button';
 import * as moment from 'moment';
-import { convertToSlug, groupByfield } from 'fe_shop/src/app/shared/shared.utils';
+import { ConvertDriveData, convertToSlug, groupByfield } from 'fe_shop/src/app/shared/shared.utils';
 import { MatSelectModule } from '@angular/material/select';
 import { DanhmucService } from '../danhmuc/danhmuc.service';
 import { MatSnackBar } from '@angular/material/snack-bar';
@@ -78,7 +78,21 @@ export class SanphamComponent implements OnInit {
     this._SanphamService.sanphams$.subscribe((data) => {
       if (data) {
         this.FilterLists =data
-        console.log(data);
+        // console.log(data.map((v)=>({
+        //   Title:v.Title,
+        //   Danhmuc:v.Danhmuc,
+        //   SKU:v.SKU,
+        //   // Mota:v.Mota,
+        //   // Noidung:v.Noidung,
+        //   Slug:v.Slug,
+        //   View:v.View,
+        //   Banchay:v.Banchay,
+        //   Noibat:v.Noibat,
+        //   Moi:v.Moi,
+        //   Type:v.Type,
+        //   Ordering:v.Ordering,
+        //   Status:v.Status
+        // })));
         
       }
     })
@@ -90,8 +104,8 @@ export class SanphamComponent implements OnInit {
 
   async LoadDrive()
   {
-   const data =  await this._SanphamService.getDrive();
-   this.SanphamsDrive = data.values
+   const data =  await this._SanphamService.getDrive();   
+   this.SanphamsDrive = ConvertDriveData(data.values)||0   
   }
   GetTenDanhmuc(item: any) {
     return this.ListDanhmuc.find((v: any) => v.id_cat == item)?.Title

@@ -1,3 +1,20 @@
+// const data = [
+//   ["Title", "Danhmuc", "SKU"],
+//   ["Sản Phẩm Test", "CÁC LOẠI NẤM", "TEST1"],
+//   ["RAU SẠCH - ĐẬU HÀ LAN", "CÁC LOẠI QUẢ", "DAUHALAN"],
+// ];
+
+export function ConvertDriveData(data:any){
+  return data.slice(1).map((row:any) => {
+    return {
+      Title: row[0],
+      Danhmuc: row[1],
+      SKU: row[2],
+    };
+  });
+} 
+
+
 export interface SearchParams {
   idChinhanh?: string;
   Dateranger?: {};
