@@ -19,9 +19,10 @@ import { FileInterceptor } from '@nestjs/platform-express';
 import { diskStorage } from 'multer';
 import { extname } from 'path';
 import { UpserveService } from './upserve.service';
+import { convertToSlug } from '../shared.utils';
 export const editFileName = (req: any, file: any, callback: any) => {
   file.originalname = Buffer.from(file.originalname, 'latin1').toString('utf8');
-  const filename = file.originalname.split('.')[0];
+  const filename = convertToSlug(file.originalname.split('.')[0]);
   const fileExtName = extname(file.originalname);
   const randomName = new Date().getTime();
   callback(null, `${filename}_${randomName}${fileExtName}`);
