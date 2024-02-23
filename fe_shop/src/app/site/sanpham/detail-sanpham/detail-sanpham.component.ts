@@ -9,6 +9,7 @@ import { ImageModule } from 'primeng/image';
 import {MatSnackBar,} from '@angular/material/snack-bar';
 import { ListNotifyType } from 'fe_shop/src/app/shared/shared.utils';
 import { TonkhoAdminService } from 'fe_shop/src/app/admin/main-admin/admin-xnt/admin-tonkho/admin-tonkho.service';
+import Swiper, { Pagination } from 'swiper';
 @Component({
   selector: 'app-detail-sanpham',
   standalone:true,
@@ -63,18 +64,21 @@ export class DetailSanphamComponent implements OnInit {
   async ngOnInit() {
     if(this.Slug)
     {
-      this.Detail = await this._SanphamService.getSanphamBySlug(this.Slug)
-      this.Giachon = this.Detail.Giagoc[0]
-      this.Tonkho =  await this._TonkhoAdminService.getTonkhoByidSP(this.Detail.id)
-      console.log(this.Tonkho);
-      console.log(this.Detail);
+     this._SanphamService.getSanphamBySlug(this.Slug)
+     this._SanphamService.sanpham$.subscribe(async (data)=>{
+      if(data){ 
+        this.Detail = data
+        this.Giachon = this.Detail.Giagoc[0]
+        this.Tonkho =  await this._TonkhoAdminService.getTonkhoByidSP(this.Detail.id)
+        console.log(this.Detail);
+      }
+     })    
     }
 
   }
   GetListImages(data:any)
   {
     console.log(Object.entries(data));
-    
     return Object.entries(data)
   }
   AddtoCart(data:any)
@@ -95,6 +99,32 @@ export class DetailSanphamComponent implements OnInit {
   GiamSoluong()
   {
     return this.Soluong>1?this.Soluong--:1
+  }
+  ngAfterViewInit(): void {
+    const swiper = new Swiper('.mySwiper', {
+      modules: [Pagination],
+      pagination: {
+        el: '.swiper-pagination',
+        clickable:true
+      },
+      navigation:true,
+      slidesPerView:1,
+      spaceBetween: 0,
+      breakpoints: {
+        640: {
+          slidesPerView: 1,
+          spaceBetween: 0,
+        },
+        768: {
+          slidesPerView: 1,
+          spaceBetween: 0,
+        },
+        1024: {
+          slidesPerView: 1,
+          spaceBetween: 0,
+        },
+      },
+    });
   }
 
 }

@@ -45,35 +45,71 @@
                         <swiper-container style="
                 --swiper-navigation-color: #fff;
                 --swiper-pagination-color: #fff;
-              " class="mySwiper" thumbs-swiper=".mySwiper2" space-between="10" navigation="true">
-                            @for (item of [1,2,3,4]; track $index) {
-                            <swiper-slide>
-                                <!-- <img src="assets/images/sanpham/{{ Detail?.Image?.Main }}" /> -->
-                                <p-image src="assets/images/sanpham/{{ Detail?.Image?.Main }}" alt="Image" [preview]="true"></p-image>
+              " class="mySwiper" thumbs-swiper=".mySwiper2"  space-between="0" navigation="true">
+                            @if(Detail&&Detail.ListImage&&Detail.ListImage.length>0){
+                                @for (item of Detail?.ListImage; track $index) {
+                                <swiper-slide class="p-2 border rounded-lg">
+                                    @if(item && item.src){
+                                    <img src="{{item.src}}" class="w-80 mx-auto">
+                                    }
+                                    @else{
+                                    <img src="assets/images/noimage.png" class="p-3 max-w-32 mx-auto rounded-lg">
+                                    }
+                                </swiper-slide>
+                                }
+                            }
+                            @else if(Detail&&Detail.Image&&Detail.Image.Main){
+                            <swiper-slide class="p-2 border rounded-lg">
+                                <img src="assets/images/sanpham/{{ Detail?.Image?.Main }}" />
                             </swiper-slide>
+                            <swiper-slide class="p-2 border rounded-lg">
+                                <img src="assets/images/sanpham/{{ Detail?.Image?.Main }}" />
+                            </swiper-slide>
+                            <swiper-slide class="p-2 border rounded-lg">
+                                <img src="assets/images/sanpham/{{ Detail?.Image?.Main }}" />
+                            </swiper-slide>
+                            <swiper-slide class="p-2 border rounded-lg">
+                                <img src="assets/images/sanpham/{{ Detail?.Image?.Main }}" />
+                            </swiper-slide>
+                            }
+                            @else{
+                            <img src="assets/images/noimage.png" class="p-16 mx-auto rounded-lg">
                             }
                         </swiper-container>
                     </div>
                 </div>
                 <div>
                     <div>
-                        <swiper-container class="mySwiper2" space-between="10" slides-per-view="4" free-mode="true"
-                            watch-slides-progress="true">
-                            <swiper-slide>
+                        <swiper-container class="mySwiper2" space-between="10" slides-per-view="4" watch-slides-progress="true">
+                            @if(Detail&&Detail.ListImage&&Detail.ListImage.length>0){
+                                @for (item of Detail?.ListImage; track $index) {
+                                <swiper-slide class="p-2 border rounded-lg">
+                                    @if(item && item.src){
+                                    <img src="{{item.src}}" class="w-20">
+                                    }
+                                    @else{
+                                    <img src="assets/images/noimage.png" class="p-3 max-w-32 mx-auto rounded-lg">
+                                    }
+                                </swiper-slide>
+                                }
+                            }
+                            @else if(Detail&&Detail.Image&&Detail.Image.Main){
+                            <swiper-slide class="p-2 border rounded-lg">
                                 <img src="assets/images/sanpham/{{ Detail?.Image?.Main }}" />
                             </swiper-slide>
-                            <swiper-slide>
+                            <swiper-slide class="p-2 border rounded-lg">
                                 <img src="assets/images/sanpham/{{ Detail?.Image?.Main }}" />
                             </swiper-slide>
-                            <swiper-slide>
+                            <swiper-slide class="p-2 border rounded-lg">
                                 <img src="assets/images/sanpham/{{ Detail?.Image?.Main }}" />
                             </swiper-slide>
-                            <swiper-slide>
+                            <swiper-slide class="p-2 border rounded-lg">
                                 <img src="assets/images/sanpham/{{ Detail?.Image?.Main }}" />
                             </swiper-slide>
-                            <swiper-slide>
-                                <img src="assets/images/sanpham/{{ Detail?.Image?.Main }}" />
-                            </swiper-slide>
+                            }
+                            @else{
+                            <img src="assets/images/noimage.png" class="p-16 mx-auto rounded-lg">
+                            }
                         </swiper-container>
                     </div>
                 </div>
@@ -87,20 +123,20 @@
                 </div>
                 <div [innerHTML]="Detail?.Mota"></div>
                 <div class="text-3xl font-semiboldbold">
-                    {{ Giachon.gia | number : '1.0-0' }} VNĐ
+                    {{ Giachon?.gia | number : '1.0-0' ||0 }} VNĐ
                 </div>
                 <div class="flex flex-row items-center gap-3">
                     <div class="text-sm text-default-700">Khối Lượng :</div>
                     @for (item of Detail?.Giagoc; track $index) {
-                        <div (click)="Giachon=item">
-                            <label for="1"
-                                class="{{item.id==Giachon.id?'text-white bg-primary':''}} p-3 flex justify-center items-center cursor-pointer select-none rounded-full text-sm text-center bg-default-200 peer-checked:bg-primary peer-checked:text-white">
-                                {{item.loai}}{{item.dvt}}  </label>
-                        </div>
-    
+                    <div (click)="Giachon=item">
+                        <label for="1"
+                            class="{{item.id==Giachon.id?'text-white bg-primary':''}} p-3 flex justify-center items-center cursor-pointer select-none rounded-full text-sm text-center bg-default-200 peer-checked:bg-primary peer-checked:text-white">
+                            {{item.loai}}{{item.dvt}} </label>
+                    </div>
+
                     }
                 </div>
-                <div>Số Lượng Còn : <span class="font-bold">{{Tonkho.Soluong | number:'1.0-0'}}</span></div>
+                <div>Số Lượng Còn : <span class="font-bold">{{Tonkho?.Soluong | number:'1.0-0'||0}}</span></div>
                 <div class="flex flex-row space-x-2">
                     <div class="relative inline-flex justify-between border border-default-200 p-1 rounded-full">
                         <button type="button" (click)="GiamSoluong()"
@@ -108,15 +144,15 @@
                             –
                         </button>
                         <input type="text" [(ngModel)]="Soluong" [ngModelOptions]="{standalone: true}"
-                         class="w-12 border-0 text-sm text-center focus:ring-0 p-0 bg-transparent"
-                            value="1" min="0" max="100" readonly />
+                            class="w-12 border-0 text-sm text-center focus:ring-0 p-0 bg-transparent" value="1" min="0"
+                            max="100" readonly />
                         <button type="button" (click)="Soluong=Soluong+1 "
                             class="plus flex-shrink-0 bg-default-200 text-default-800 rounded-full h-9 w-9 text-sm inline-flex items-center justify-center bg-slate-100 hover:bg-slate-300">
                             +
                         </button>
                     </div>
                     <a (click)="AddtoCart(Detail)"
-                         class="inline-flex items-center justify-center rounded-full border border-primary bg-primary px-6 py-3 text-center text-sm font-medium text-white shadow-sm transition-all duration-500 hover:bg-primary-500">
+                        class="inline-flex items-center justify-center rounded-full border border-primary bg-primary px-6 py-3 text-center text-sm font-medium text-white shadow-sm transition-all duration-500 hover:bg-primary-500">
                         Thêm Vào Giỏ Hàng
                     </a>
                 </div>
