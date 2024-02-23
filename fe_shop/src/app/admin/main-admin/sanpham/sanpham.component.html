@@ -119,7 +119,16 @@
                       </td>
                       <td class="p-4 text-sm font-normal text-gray-500 whitespace-nowrap lg:p-5">
                         <div class="text-base font-semibold text-gray-900">
-                          <img src="assets/images/sanpham/{{item.Image.Thumb}}" class="w-20">
+                          @if(item && item.Image&&item.Image.Thumb)
+                          {
+                            <img src="assets/images/sanpham/{{item.Image.Thumb}}" class="w-20">
+                          }
+                          @else if(item && item.Image&&item.Image.Hinhchinh&&item.Image.Hinhchinh.src){
+                            <img src="{{item.Image.Hinhchinh.src}}" class="w-20">
+                          }
+                          @else if(item && item.Image&&item.Image.Hinhchinh&&item.Image.Hinhchinh.src){
+                            <img src="assets/images/noimage.png" class="p-3 max-w-32 mx-auto rounded-lg">
+                          }
                         </div>
                       </td>
                       <td class="p-4 text-sm font-normal text-gray-500 whitespace-nowrap lg:p-5">
