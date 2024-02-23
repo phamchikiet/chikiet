@@ -117,7 +117,21 @@
                 @for (item of FilterSanpham; track $index) {
                 <a href="san-pham/{{item.Slug}}" class="grid grid-cols-1 border rounded-lg p-3 bg-white">
                     <span class="text-center font-bold line-clamp-1">{{item.Title}}</span>
-                    <img src="/assets/images/sanpham/{{item.Image.Main}}" class="w-full" />
+
+                    @if(item && item.Image&&item.Image.Main)
+                    {
+                      <img src="assets/images/sanpham/{{item.Image.Main}}" class="w-full">
+                    }
+                    @else if(item && item.Image&&item.Image.Hinhchinh&&item.Image.Hinhchinh.src){
+                      <img src="{{item.Image.Hinhchinh.src}}" class="w-full">
+                    }
+                    @else if(item && item.Image&&item.Image.Hinhchinh&&item.Image.Hinhchinh.src){
+                      <img src="assets/images/noimage.png" class="p-3 w-full mx-auto rounded-lg">
+                    }
+
+                    <!-- <img src="/assets/images/sanpham/{{item.Image.Main}}" class="w-full" /> -->
+
+
                     <p class="text-gray-400 text-[13px] line-clamp-2" [innerHTML]="item.Mota"></p>
                     <div class="flex flex-row space-x-2 justify-center items-center">
                         <span class="font-semibold text-md">{{item?.Giagoc[0]?.gia| number:'1.0-0'}}đ /
