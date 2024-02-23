@@ -22,5 +22,72 @@
         </div>
       </div>
     }
+    <div class="col-span-2 flex flex-col space-y-3 bg-white rounded-lg p-4 border">
+      <div class="flex flex-row justify-between">
+        <span class="font-bold">Tổng Đơn hàng</span>
+      <mat-form-field appearance="outline">
+        <mat-label>Chọn Khoảng Thời Gian</mat-label>
+        <mat-date-range-input [rangePicker]="rangePicker">
+          <input matStartDate placeholder="Từ Ngày" [(ngModel)]="SearchParams.Batdau" [ngModelOptions]="{standalone: true}">
+          <input matEndDate placeholder="Đến Ngày" [(ngModel)]="SearchParams.Ketthuc" [ngModelOptions]="{standalone: true}">
+        </mat-date-range-input>
+        <mat-datepicker-toggle matSuffix [for]="rangePicker"></mat-datepicker-toggle>
+        <mat-date-range-picker #rangePicker>
+          <mat-date-range-picker-actions>
+            <button mat-button matDateRangePickerCancel>Huỷ</button>
+            <button mat-raised-button color="primary" matDateRangePickerApply (click)="ChanggeData()">Đồng ý</button>
+          </mat-date-range-picker-actions>
+        </mat-date-range-picker>
+      </mat-form-field>
+    </div>
+      <p-chart type="bar" [data]="basicData" [options]="basicOptions"></p-chart>
+    </div>
+
+    <div class="col-span-2 flex flex-col space-y-3 bg-white rounded-lg p-4 border">
+      <div class="flex flex-row justify-between">
+        <span class="font-bold">Tổng Doanh Thu</span>
+      <mat-form-field appearance="outline">
+        <mat-label>Chọn Khoảng Thời Gian</mat-label>
+        <mat-date-range-input [rangePicker]="rangePicker">
+          <input matStartDate placeholder="Từ Ngày" [(ngModel)]="SearchParams.Batdau" [ngModelOptions]="{standalone: true}">
+          <input matEndDate placeholder="Đến Ngày" [(ngModel)]="SearchParams.Ketthuc" [ngModelOptions]="{standalone: true}">
+        </mat-date-range-input>
+        <mat-datepicker-toggle matSuffix [for]="rangePicker"></mat-datepicker-toggle>
+        <mat-date-range-picker #rangePicker>
+          <mat-date-range-picker-actions>
+            <button mat-button matDateRangePickerCancel>Huỷ</button>
+            <button mat-raised-button color="primary" matDateRangePickerApply (click)="ChanggeData()">Đồng ý</button>
+          </mat-date-range-picker-actions>
+        </mat-date-range-picker>
+      </mat-form-field>
+    </div>
+      <p-chart type="bar" [data]="basicData" [options]="basicOptions"></p-chart>
+    </div>
+
+
+
+    <div class="col-span-2 flex flex-col space-y-3 bg-white rounded-lg p-4 border">
+      <div class="flex flex-row justify-between">
+        <span class="font-bold">Top 10 Sản Phẩm Bán Chạy</span>
+      <mat-form-field appearance="outline">
+        <mat-label>Chọn Khoảng Thời Gian</mat-label>
+        <mat-date-range-input [rangePicker]="rangePicker">
+          <input matStartDate placeholder="Từ Ngày" [(ngModel)]="SearchParams.Batdau" [ngModelOptions]="{standalone: true}">
+          <input matEndDate placeholder="Đến Ngày" [(ngModel)]="SearchParams.Ketthuc" [ngModelOptions]="{standalone: true}">
+        </mat-date-range-input>
+        <mat-datepicker-toggle matSuffix [for]="rangePicker"></mat-datepicker-toggle>
+        <mat-date-range-picker #rangePicker>
+          <mat-date-range-picker-actions>
+            <button mat-button matDateRangePickerCancel>Huỷ</button>
+            <button mat-raised-button color="primary" matDateRangePickerApply (click)="ChanggeData()">Đồng ý</button>
+          </mat-date-range-picker-actions>
+        </mat-date-range-picker>
+      </mat-form-field>
+    </div>
+      <p-chart type="bar" [data]="basicData" [options]="basicOptions"></p-chart>
+    </div>
+
   </div>
+
+
 </div>

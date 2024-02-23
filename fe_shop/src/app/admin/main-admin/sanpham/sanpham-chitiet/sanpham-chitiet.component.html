@@ -14,7 +14,7 @@
         <div class="p-4 grid lg:grid-cols-2 grid-cols-1 gap-4">
           <div class="flex flex-col space-y-3">
             <div>
-              <app-hinhanh [height]="'h-40'" [Image]="{Main:Detail?.Image?.Main}" (UploadEmit)="GetUpload($event)"></app-hinhanh> 
+              <app-hinhanh [height]="'h-40'" [Image]="Detail?.Image?.Hinhchinh" (UploadEmit)="GetUpload($event)"></app-hinhanh> 
             </div>
             <mat-form-field appearance="outline" class="w-full text-xs">
               <mat-label>Tên Sản Phẩm</mat-label>

@@ -6,7 +6,6 @@ import { provideAnimations } from '@angular/platform-browser/animations';
 import { AuthService } from './admin/users/auth/auth.service';
 import { MatPaginatorIntl } from '@angular/material/paginator';
 import { CustomPaginatorIntl } from './shared/CustomPaginator';
-
 export const appConfig: ApplicationConfig = {
   providers: [
     provideClientHydration(), 

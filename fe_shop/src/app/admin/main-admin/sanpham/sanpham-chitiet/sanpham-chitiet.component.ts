@@ -71,9 +71,8 @@ export class SanphamChitietComponent implements OnInit {
   }
   GetUpload(e:any)
   {
-    console.log(e.src);
-    
-    this.Detail.Image.Main = e.src
+    console.log(e);
+    this.Detail.Image.Hinhchinh = e
     this._SanphamService.UpdateSanpham(this.Detail);
   }
   GetUploadList(e:any,i:any)
