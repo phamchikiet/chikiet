@@ -23,6 +23,7 @@ export class HinhanhComponent implements OnInit {
   @Input() Image:any={};
   @Input() width:any='';
   @Input() height:any='';
+  @Input() Title:any='';
   @Output() UploadEmit = new EventEmitter();
   _UploadService:UploadService = inject(UploadService)
   constructor(public dialog: MatDialog) { }

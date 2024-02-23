@@ -79,7 +79,6 @@ export class SanphamChitietComponent implements OnInit {
   {   
     console.log(e);
     this.Detail.ListImage[i] = e
-    console.log(this.Detail);
     this._SanphamService.UpdateSanpham(this.Detail);
   }
   UpdateSanpham()
@@ -98,6 +97,8 @@ export class SanphamChitietComponent implements OnInit {
   AddBienthe()
   {
       this.Detail.Giagoc.push({loai:'',gia:'',dvt:''})
+      console.log();
+      
   }
   RemoveBienThe()
   {

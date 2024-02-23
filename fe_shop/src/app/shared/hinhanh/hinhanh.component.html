@@ -1,6 +1,6 @@
 <ng-container *ngIf="Image?.src; else elseTemplate">
-  <div class="p-4 group relative">
-    <img [src]="Image?.src" class="{{width}} {{height}} mx-auto rounded-md"  [alt]="Image?.alt"/>
+  <div class="rounded-lg border p-4 mx-auto group relative {{width}} {{height}}">
+    <img [src]="Image?.src" class="mx-auto rounded-md"  [alt]="Image?.alt"/>
     <div
       class="group-hover:block rounded-md hidden absolute inset-0 items-center justify-center bg-black opacity-10"
       (click)="onRemove(Image,dialogTemplate)">
@@ -8,6 +8,9 @@
         cancel
       </span>
     </div>
+    <span class="absolute text-xs italic flex justify-center p-2 rounded-lg bg-white top-0 left-0">
+      {{Title}}
+    </span>
   </div>
 </ng-container>
 <ng-template #elseTemplate>
