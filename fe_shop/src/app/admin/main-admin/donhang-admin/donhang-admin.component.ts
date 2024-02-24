@@ -61,7 +61,10 @@ export class DonhangAdminComponent implements OnInit {
     const value = (event.target as HTMLInputElement).value;
     if (value.length > 2) {
       this.FilterLists = this.Lists.items.filter((v:any) => {
-     return  v.Title.toLowerCase().includes(value)||v.Mota.toLowerCase().includes(value)
+     return  v.MaDonHang.toLowerCase().includes(value)
+     ||v.Khachhang?.SDT?.toLowerCase().includes(value)
+     ||v.Khachhang?.Hoten?.toLowerCase().includes(value)
+     ||v.Khachhang?.Diachi?.toLowerCase().includes(value)
        })
     }
     else {this.FilterLists = this.Lists.items}
