@@ -4,19 +4,21 @@ import { BehaviorSubject, map, Observable, switchMap, take } from 'rxjs';
 @Injectable({
   providedIn: 'root'
 })
-export class SanphamService {
-  private _sanphams: BehaviorSubject<any[] | null> = new BehaviorSubject<any[] | null>(null);
-  private _sanpham: BehaviorSubject<any | null> = new BehaviorSubject<any | null>(null);
+export class MenuService {
+  private _menus: BehaviorSubject<any[] | null> = new BehaviorSubject<any[] | null>(null);
+  private _menu: BehaviorSubject<any | null> = new BehaviorSubject<any | null>(null);
   private _totalCount: BehaviorSubject<any | null> = new BehaviorSubject<any | null>(null);
-  get sanphams$(): Observable<any[] | null> {
-    return this._sanphams.asObservable();
+  get menus$(): Observable<any[] | null> {
+    return this._menus.asObservable();
   }
-  get sanpham$(): Observable<any | null> {
-    return this._sanpham.asObservable();
+  get menu$(): Observable<any | null> {
+    return this._menu.asObservable();
   }
   get totalCount$(): Observable<any | null> {
     return this._totalCount.asObservable();
   }
+  SPREADSHEET_ID:any="1VghpYpLVKug07LJm1-pdcpeQcEoh5VaCOgBvOfQ0-L8"
+  SPREADSHEET_APIKEY:any="AIzaSyCWh10EgrjVBm8qKpnsGOgXrIsT5uqroMc-pdcpeQcEoh5VaCOgBvOfQ0-L8"
   constructor() {}
   async getDrive() {
     try {
@@ -26,15 +28,36 @@ export class SanphamService {
           'Content-Type': 'application/json',
         },
       };
-    const response = await fetch(`https://sheets.googleapis.com/v4/spreadsheets/1VghpYpLVKug07LJm1-pdcpeQcEoh5VaCOgBvOfQ0-L8/values/Sanpham?key=AIzaSyCWh10EgrjVBm8qKpnsGOgXrIsT5uqroMc`,options);
+    const response = await fetch(`https://sheets.googleapis.com/v4/spreadsheets/${this.SPREADSHEET_ID}/values/Menu?key=${this.SPREADSHEET_APIKEY}`,options);
     const data = await response.json();  
-          //this._sanphams.next(data)                 
+          //this._menus.next(data)                 
     return data;
       } catch (error) {
           return console.error(error);
       }
   }
-  async getAllSanpham() {
+  async createData() {
+    const url = `https://sheets.googleapis.com/v4/spreadsheets/${this.SPREADSHEET_ID}/values/Menu?key=${this.SPREADSHEET_APIKEY}`;
+    const body = {
+      "values": [['Title', 'Liên hệ1']]
+    };
+    const response = await fetch(url, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(body)
+    });
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
+    const data = await response.json();   
+    this._menu.next(data)              
+    return data;
+  }
+
+
+  async getAllMenu() {
     try {
       const options = {
         method:'GET',
@@ -42,15 +65,15 @@ export class SanphamService {
           'Content-Type': 'application/json',
         },
       };
-          const response = await fetch(`${environment.APIURL}/sanpham`,options);
+          const response = await fetch(`${environment.APIURL}/menu`,options);
           const data = await response.json(); 
-          this._sanphams.next(data)                 
+          this._menus.next(data)                 
           return data;
       } catch (error) {
           return console.error(error);
       }
   }
-  async getSanphamBySlug(Slug:any) {
+  async getMenuBySlug(Slug:any) {
     try {
       const options = {
         method:'GET',
@@ -58,15 +81,15 @@ export class SanphamService {
           'Content-Type': 'application/json',
         },
       };
-          const response = await fetch(`${environment.APIURL}/sanpham/findslug/${Slug}`,options);
+          const response = await fetch(`${environment.APIURL}/menu/findslug/${Slug}`,options);
           const data = await response.json();    
-          this._sanpham.next(data)                      
+          this._menu.next(data)                      
           return data;
       } catch (error) {
           return console.error(error);
       }
   }
-  async getSanphamByid(id:any) {
+  async getMenuByid(id:any) {
     try {
       const options = {
         method:'GET',
@@ -74,18 +97,18 @@ export class SanphamService {
           'Content-Type': 'application/json',
         },
       };
-          const response = await fetch(`${environment.APIURL}/sanpham/findid/${id}`,options);
+          const response = await fetch(`${environment.APIURL}/menu/findid/${id}`,options);
           if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
           }
           const data = await response.json();   
-          this._sanpham.next(data)              
+          this._menu.next(data)              
           return data;
       } catch (error) {
           return console.error(error);
       }
   }
-  async SearchSanpham(SearchParams:any) {
+  async SearchMenu(SearchParams:any) {
     console.log(SearchParams);
     
     try {
@@ -96,19 +119,19 @@ export class SanphamService {
         },
         body: JSON.stringify(SearchParams),
       };
-          const response = await fetch(`${environment.APIURL}/sanpham/search`,options);
+          const response = await fetch(`${environment.APIURL}/menu/search`,options);
           if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
           }
           const data = await response.json();   
-          this._sanphams.next(data.items)              
+          this._menus.next(data.items)              
           this._totalCount.next(data.totalCount)              
           return data;
       } catch (error) {
           return console.error(error);
       }
   }
-  async CreateSanpham(item:any) {
+  async CreateMenu(item:any) {
     try {
         const options = {
             method:'POST',
@@ -117,7 +140,7 @@ export class SanphamService {
             },
             body: JSON.stringify(item),
           };
-          const response = await fetch(`${environment.APIURL}/sanpham`, options);          
+          const response = await fetch(`${environment.APIURL}/menu`, options);          
           if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
           }
@@ -127,7 +150,7 @@ export class SanphamService {
           return console.error(error);
       }
   }  
-  async UpdateSanpham(item:any) {
+  async UpdateMenu(item:any) {
     try {
         const options = {
             method:'PATCH',
@@ -136,18 +159,18 @@ export class SanphamService {
             },
             body: JSON.stringify(item),
           };
-          const response = await fetch(`${environment.APIURL}/sanpham/${item.id}`, options);
+          const response = await fetch(`${environment.APIURL}/menu/${item.id}`, options);
           if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
           }
           const data = await response.json();     
-          this._sanpham.next(data)                       
+          this._menu.next(data)                       
           return data;  
       } catch (error) {
           return console.error(error);
       }
   }  
-  async DeleteSanpham(item:any) {
+  async DeleteMenu(item:any) {
     try {
         const options = {
             method:'DELETE',
@@ -155,7 +178,7 @@ export class SanphamService {
               'Content-Type': 'application/json',
             },
           };
-          const response = await fetch(`${environment.APIURL}/sanpham/${item.id}`, options);
+          const response = await fetch(`${environment.APIURL}/menu/${item.id}`, options);
           return await response.json();         
       } catch (error) {
           return console.error(error);

@@ -28,6 +28,7 @@ export class MainAdminComponent implements OnInit {
   Cuser: any = {}
   Menus: any[] = [
     {id:1,pid:0,Title:"Dashboard",Slug:"dashboard"},
+    {id:1,pid:0,Title:"Menu",Slug:"menu"},
     {id:2,pid:0,Title:"Sản Phẩm" ,Slug:"sanpham"},
     {id:3,pid:0,Title:"Danh Mục" ,Slug:"danhmuc"},
     {id:4,pid:0,Title:"Bài Viết" ,Slug:"baiviet",

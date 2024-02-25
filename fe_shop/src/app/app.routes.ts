@@ -39,6 +39,7 @@ import { AdminChuongtrinhkhuyenmaiComponent } from './admin/main-admin/admin-chu
 import { AdminTonkhoComponent } from './admin/main-admin/admin-xnt/admin-tonkho/admin-tonkho.component';
 import { AdminTonkhoChitietComponent } from './admin/main-admin/admin-xnt/admin-tonkho/admin-tonkho-chitiet/admin-tonkho-chitiet.component';
 import { DemoComponent } from './admin/main-admin/demo/demo.component';
+import { MenuAdminComponent } from './admin/menu/menu-admin/menu-admin.component';
 
 export const appRoutes: Route[] = [
     // { path: '', redirectTo: 'trang-chu', pathMatch: 'full' },
@@ -150,6 +151,10 @@ export const appRoutes: Route[] = [
         canActivate:[AuthGuard],
         component: MainAdminComponent,
         children:[ 
+            {
+                path: 'menu',
+                component: MenuAdminComponent,
+            },
             {
                 path: 'dashboard',
                 component: DashboardComponent,
