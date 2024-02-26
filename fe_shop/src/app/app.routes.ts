@@ -41,6 +41,7 @@ import { AdminTonkhoChitietComponent } from './admin/main-admin/admin-xnt/admin-
 import { DemoComponent } from './admin/main-admin/demo/demo.component';
 import { MenuAdminComponent } from './admin/menu/menu-admin/menu-admin.component';
 import { MenuAdminChitietComponent } from './admin/menu/menu-admin/menu-admin-chitiet/menu-admin-chitiet.component';
+import { ForminAdminComponent } from '../formin/formin-admin/formin-admin.component';
 
 export const appRoutes: Route[] = [
     // { path: '', redirectTo: 'trang-chu', pathMatch: 'full' },
@@ -255,7 +256,7 @@ export const appRoutes: Route[] = [
             },
             {
                 path: 'demo',
-                component: DemoComponent,
+                component: ForminAdminComponent,
             },
 
         ]

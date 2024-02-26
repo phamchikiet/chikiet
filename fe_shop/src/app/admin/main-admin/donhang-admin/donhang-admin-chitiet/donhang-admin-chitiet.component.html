@@ -7,7 +7,7 @@
             close
           </span>
         </a>
-        <span class="text-xl font-semibold">
+        <span class="text-xl font-semibold" (click)="XemFormin(dialogXemFormin)">
           {{Detail?.MaDonHang}}
         </span>
       </div>
@@ -219,4 +219,16 @@
 } @loading {
   Loading...
 }
+<ng-template #dialogXemFormin>
+  <div class="!relative lg:h-[90vh] lg:w-[90vw] p-4">
+      <div class="relative flex flex-col space-y-2 p-3 w-[920px] mx-auto">
+         <app-formin-admin [Donhang]="Detail"></app-formin-admin>
+      </div>
+      <div mat-dialog-actions class="!absolute top-0 right-2">
+          <span class="material-symbols-outlined" mat-dialog-close="false">
+              cancel
+              </span>
+      </div>
+  </div>
+</ng-template>
 

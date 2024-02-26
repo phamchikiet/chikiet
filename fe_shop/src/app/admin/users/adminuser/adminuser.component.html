@@ -87,7 +87,13 @@
                     <tr class="hover:bg-gray-100">
                       <td class="p-4 text-sm font-normal text-gray-500 whitespace-nowrap lg:p-5">
                         <div class="text-base font-semibold text-gray-900">
-                          <img src="assets/images/noimage.png" class="rounded-full w-20 mx-auto">
+                          @if (item.Image&&item.Image.src) {
+                            <img [src]="item.Image.src" class="rounded-full w-20 mx-auto">
+                          }
+                          @else {
+                            <img src="assets/images/noimage.png" class="rounded-full w-20 mx-auto">
+                          }
+                         
                         </div>
                       </td>
                       <td class="p-4 text-sm font-normal text-gray-500 whitespace-nowrap lg:p-5">
