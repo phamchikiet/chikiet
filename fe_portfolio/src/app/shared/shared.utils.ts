@@ -1,3 +1,91 @@
+function readGroup(group:any) {
+  const readDigit = ["Không", "Một", "Hai", "Ba", "Bốn", "Năm", "Sáu", "Bảy", "Tám", "Chín"];
+  let temp = "";
+  // Handle cases where the group is all zeros or has a trailing zero
+  if (group === "000" || group.endsWith("0")) {
+    return "";
+  }
+
+  temp += readDigit[parseInt(group.substring(0, 1))] + " Trăm";
+
+  // Handle cases where the tens and units digits are zero
+  if (group.substring(1, 2) === "0" && group.substring(2, 3) === "0") {
+    return temp;
+  }
+
+  // Handle cases where the tens digit is "0" but the units digit is not
+  if (group.substring(1, 2) === "0") {
+    temp += " Lẻ" + readDigit[parseInt(group.substring(2, 3))];
+    return temp;
+  }
+
+  temp += readDigit[parseInt(group.substring(1, 2))] + " Mươi";
+
+  // Handle cases where the units digit is "5"
+  if (group.substring(2, 3) === "5") {
+    temp += " Lăm";
+  } else if (group.substring(2, 3) !== "0") {
+    temp += readDigit[parseInt(group.substring(2, 3))];
+  }
+
+  return temp;
+}
+
+export function readMoney(num:any) {
+  if (num === null || num === "") {
+    return "";
+  }
+
+  let temp = "";
+
+  // Pad leading zeros to ensure consistent length
+  while (num.length < 18) {
+    num = "0" + num;
+  }
+
+  const groups = [
+    num.substring(0, 3),
+    num.substring(3, 6),
+    num.substring(6, 9),
+    num.substring(9, 12),
+    num.substring(12, 15),
+    num.substring(15, 18)
+  ];
+
+  // Iterate through groups in reverse order (largest to smallest)
+  for (let i = groups.length - 1; i >= 0; i--) {
+    const group = groups[i];
+
+    // Only add non-zero groups
+    if (group !== "000") {
+      temp += readGroup(group);
+
+      // Add appropriate unit (triệu, tỷ, nghìn) based on group position
+      if (i === 0) {
+        temp += " đồng chẵn";
+      } else if (i === 1 || i === 4) {
+        temp += " Nghìn";
+      } else if (i === 2 || i === 3) {
+        temp += " Triệu";
+      } else { // i === 5
+        temp += " Tỷ";
+      }
+    }
+  }
+
+  // Remove redundant spaces and capitalization
+  temp = temp.trim();
+  temp = temp.replace(/\s+/g, " "); // Replace multiple spaces with single spaces
+  temp = temp.replace(/\b[a-z]/g, (char) => char.toUpperCase()); // Capitalize first letter of each word
+
+  // Handle specific edge cases
+  temp = temp.replace("Một Mươi", "Mười");
+  temp = temp.replace("Không Trăm", "");
+  temp = temp.replace("Mười Không", "Mười");
+  temp = temp.replace("Mươi Một", "Mười Mốt");
+
+  return temp;
+}
 export interface SearchParams {
   idChinhanh?: string;
   Dateranger?: {};

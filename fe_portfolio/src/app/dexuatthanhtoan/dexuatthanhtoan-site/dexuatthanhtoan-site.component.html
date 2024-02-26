@@ -9,36 +9,36 @@
       <div class="text-xl font-bold">PHIẾU ĐỀ XUẤT CÔNG VIỆC</div>
       <div class="w-full  grid grid-cols-3 gap-2">
         @if(isEdit){
-          <mat-form-field appearance="outline" class="w-full">
-            <mat-label>Họ Tên</mat-label>
-            <input [(ngModel)]="Detail.Hoten" [ngModelOptions]="{standalone: true}" type="text" matInput
-              class="w-full px-3 py-2 border border-gray-200 rounded" [placeholder]="'Họ Tên'" />
-          </mat-form-field>
+        <mat-form-field appearance="outline" class="w-full">
+          <mat-label>Họ Tên</mat-label>
+          <input [(ngModel)]="Detail.Hoten" [ngModelOptions]="{standalone: true}" type="text" matInput
+            class="w-full px-3 py-2 border border-gray-200 rounded" [placeholder]="'Họ Tên'" />
+        </mat-form-field>
         }
         @else{
-          <div>Họ và tên: <strong>{{Detail.Hoten}}</strong></div>
+        <div>Họ và tên: <strong>{{Detail.Hoten}}</strong></div>
         }
 
         @if(isEdit){
-          <mat-form-field appearance="outline" class="w-full">
-            <mat-label>Bộ phận</mat-label>
-            <input [(ngModel)]="Detail.Bophan" [ngModelOptions]="{standalone: true}" type="text" matInput
-              class="w-full px-3 py-2 border border-gray-200 rounded" [placeholder]="'Bộ phận'" />
-          </mat-form-field>
+        <mat-form-field appearance="outline" class="w-full">
+          <mat-label>Bộ phận</mat-label>
+          <input [(ngModel)]="Detail.Bophan" [ngModelOptions]="{standalone: true}" type="text" matInput
+            class="w-full px-3 py-2 border border-gray-200 rounded" [placeholder]="'Bộ phận'" />
+        </mat-form-field>
         }
         @else{
-          <div>Họ và tên : <strong>{{Detail.Bophan}}</strong></div>
+        <div>Họ và tên : <strong>{{Detail.Bophan}}</strong></div>
         }
 
         @if(isEdit){
-          <mat-form-field appearance="outline" class="w-full">
-            <mat-label>Chức danh</mat-label>
-            <input [(ngModel)]="Detail.Chucdanh" [ngModelOptions]="{standalone: true}" type="text" matInput
-              class="w-full px-3 py-2 border border-gray-200 rounded" [placeholder]="'Chức danh'" />
-          </mat-form-field>
+        <mat-form-field appearance="outline" class="w-full">
+          <mat-label>Chức danh</mat-label>
+          <input [(ngModel)]="Detail.Chucdanh" [ngModelOptions]="{standalone: true}" type="text" matInput
+            class="w-full px-3 py-2 border border-gray-200 rounded" [placeholder]="'Chức danh'" />
+        </mat-form-field>
         }
         @else{
-          <div>Chức danh : <strong>{{Detail.Chucdanh}}</strong></div>
+        <div>Chức danh : <strong>{{Detail.Chucdanh}}</strong></div>
         }
       </div>
       <div class="w-full flex flex-col space-y-2 justify-start">
@@ -47,21 +47,21 @@
         @if(isEdit){
         <ul class="ml-4 space-y-1 text-gray-500 list-disc list-inside dark:text-gray-400">
           @for (item of Detail.ListCongviec; track $index) {
-            <div class="flex flex-row space-x-2">
-           <mat-form-field appearance="outline" class="w-full">
+          <div class="flex flex-row space-x-2">
+            <mat-form-field appearance="outline" class="w-full">
               <mat-label>Công việc {{$index+1}}</mat-label>
               <input [(ngModel)]="item.Title" [ngModelOptions]="{standalone: true}" type="text" matInput
                 class="w-full px-3 py-2 border border-gray-200 rounded" placeholder="Công Việc {{$index+1}}" />
-                <!-- <button mat-flat-button matSuffix color="primary" class="bg-red-500" (click)="AddCongviec()">Copy</button>    -->
-            </mat-form-field> 
+              <!-- <button mat-flat-button matSuffix color="primary" class="bg-red-500" (click)="AddCongviec()">Copy</button>    -->
+            </mat-form-field>
             <button mat-icon-button matSuffix (click)="CopyCongviec(item)">
               <span class="material-icons mr-2">content_copy</span>
             </button>
             <button mat-icon-button matSuffix (click)="XoaCongviec(item)">
               <span class="material-icons mr-2">delete</span>
             </button>
-            </div>
- 
+          </div>
+
 
           }
         </ul>
@@ -74,22 +74,22 @@
         @else{
         <ul class="ml-4 space-y-1 text-gray-500 list-disc list-inside dark:text-gray-400">
           @for (item of Detail.ListCongviec; track $index) {
-            <li class="font-bold">{{item.Title}}</li>
+          <li class="font-bold">{{item.Title}}</li>
           }
         </ul>
         }
       </div>
       @if(isEdit){
-        <mat-form-field appearance="outline" class="w-full">
-          <mat-label>Dự toán kinh phí</mat-label>
-          <input [(ngModel)]="Detail.Kinhphi" [ngModelOptions]="{standalone: true}" type="text" matInput
-            class="w-full px-3 py-2 border border-gray-200 rounded" [placeholder]="'Dự toán kinh phí'" />
-            <mat-hint class="text-red-500">{{Detail.Kinhphi|number:'1.0-2'}}đ</mat-hint>
-        </mat-form-field>
+      <mat-form-field appearance="outline" class="w-full">
+        <mat-label>Dự toán kinh phí</mat-label>
+        <input disabled value="{{Subtotal(Detail.ListCongviec,'Sotien')|number:'1.0-2'||0}}đ" type="text" matInput
+          class="w-full px-3 py-2 border border-gray-200 rounded" [placeholder]="'Dự toán kinh phí'" />
+        <mat-hint class="text-red-500">{{Subtotal(Detail.ListCongviec,'Sotien')|number:'1.0-2'||0}}đ</mat-hint>
+      </mat-form-field>
       }
       @else{
-        <!-- <div class="w-full">Dự toán kinh phí : {{Detail.Kinhphi}}</div> -->
-        <div class="w-full">Dự toán kinh phí : <strong>{{Detail.Kinhphi|number:'1.0-2'}}đ</strong></div>
+      <!-- <div class="w-full">Dự toán kinh phí : {{Detail.Kinhphi}}</div> -->
+      <div class="w-full">Dự toán kinh phí : <strong>{{Subtotal(Detail.ListCongviec,'Sotien')|number:'1.0-2'||0}}đ</strong></div>
       }
 
       <div class="w-full grid grid-cols-2 gap-2 justify-center">
@@ -98,20 +98,20 @@
           <div> (Ký và Ghi rõ Họ Tên)</div>
           <div class="mt-24">
             @if(isEdit){
-              <mat-form-field appearance="outline">
-                <mat-label>Trưởng Bộ Phận</mat-label>
-                <input [(ngModel)]="Detail.Truongbophan" [ngModelOptions]="{standalone: true}" type="text" matInput
-                  class="w-full px-3 py-2 border border-gray-200 rounded" [placeholder]="'Trưởng Bộ Phận'" />
-              </mat-form-field>
+            <mat-form-field appearance="outline">
+              <mat-label>Trưởng Bộ Phận</mat-label>
+              <input [(ngModel)]="Detail.Truongbophan" [ngModelOptions]="{standalone: true}" type="text" matInput
+                class="w-full px-3 py-2 border border-gray-200 rounded" [placeholder]="'Trưởng Bộ Phận'" />
+            </mat-form-field>
             }
             @else{
-              <div><strong>{{Detail.Truongbophan}}</strong></div>
+            <div><strong>{{Detail.Truongbophan}}</strong></div>
             }
           </div>
         </div>
         <div class="flex flex-col justify-between text-center">
           @if(isEdit){
-            <div class="flex flex-row space-x-2">
+          <div class="flex flex-row space-x-2">
             <mat-form-field appearance="outline">
               <mat-label>Thành Phố</mat-label>
               <input [(ngModel)]="Detail.Thanhpho" [ngModelOptions]="{standalone: true}" type="text" matInput
@@ -120,7 +120,8 @@
 
             <mat-form-field appearance="outline">
               <mat-label>Ngày Tháng</mat-label>
-              <input [(ngModel)]="Detail.Ngaythang" [ngModelOptions]="{standalone: true}" matInput [matDatepicker]="picker">
+              <input [(ngModel)]="Detail.Ngaythang" [ngModelOptions]="{standalone: true}" matInput
+                [matDatepicker]="picker">
               <mat-hint>MM/DD/YYYY</mat-hint>
               <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
               <mat-datepicker #picker></mat-datepicker>
@@ -128,27 +129,28 @@
           </div>
           }
           @else{
-            <div> <strong>{{Detail.Thanhpho}}</strong>, Ngày <strong>{{GetNgay()}}</strong> tháng <strong>{{GetThang()}}</strong> năm <strong>{{GetNam()}}</strong></div>
+          <div> <strong>{{Detail.Thanhpho}}</strong>, Ngày <strong>{{GetNgay()}}</strong> tháng
+            <strong>{{GetThang()}}</strong> năm <strong>{{GetNam()}}</strong></div>
           }
 
           <div class="font-bold"> Người đề nghị</div>
           <div> (Ký và Ghi rõ Họ Tên)</div>
-         <div class="mt-24">
-          @if(isEdit){
+          <div class="mt-24">
+            @if(isEdit){
             <mat-form-field appearance="outline">
               <mat-label>Người Đề Nghị</mat-label>
               <input [(ngModel)]="Detail.Nguoidenghi" [ngModelOptions]="{standalone: true}" type="text" matInput
                 class="w-full px-3 py-2 border border-gray-200 rounded" [placeholder]="'Người Đề Nghị'" />
             </mat-form-field>
-          }
-          @else{
+            }
+            @else{
             <div><strong>{{Detail.Nguoidenghi}}</strong></div>
-          }
-        </div>
+            }
+          </div>
         </div>
       </div>
     </div>
-    <div class="flex flex-row space-x-2 items-center">
+    <!-- <div class="flex flex-row space-x-2 items-center">
       @if(isEdit==true)
       {
         <button mat-flat-button color="primary" (click)="Luuthongtin();isEdit=false">Lưu</button>
@@ -158,169 +160,306 @@
         <button mat-flat-button color="accent" (click)="isEdit=true">Sửa</button>
         <button mat-flat-button color="primary" (click)="printDiv()">In</button>
       }
-    </div>
+    </div> -->
   </div>
   <div class="flex flex-col space-y-2 p-4 h-full w-[80vw] items-center justify-between">
     <div class="flex flex-col space-y-4 items-center border p-4 rounded-lg bg-white">
       <div class="w-full flex flex-row space-x-2 justify-between items-center">
         <div><img src="https://tazagroup.vn/assets/images/tazagroup-logo-trangchu.svg" class="h-20"></div>
-        <div>BM-04-QT-KT-02</div>
+        <div class="flex flex-col text-end">
+          <div>BM-04-QT-KT-02</div>
+          <div>Ngày hiệu lực: 10/01/2018</div>
+        </div>
       </div>
-      <div>Ngày hiệu lực: 10/01/2018</div>
       <div class="text-xl font-bold">PHIẾU ĐỀ NGHỊ THANH TOÁN, QUYẾT TOÁN</div>
-      <div class="w-full  grid grid-cols-3 gap-2">
+      <div class="w-full flex justify-end">
         @if(isEdit){
+        <div class="flex flex-row space-x-2">
+          <mat-form-field appearance="outline">
+            <mat-label>Ngày Tháng</mat-label>
+            <input [(ngModel)]="Detail.Ngaythang" [ngModelOptions]="{standalone: true}" matInput
+              [matDatepicker]="picker">
+            <mat-hint>MM/DD/YYYY</mat-hint>
+            <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+            <mat-datepicker #picker></mat-datepicker>
+          </mat-form-field>
+        </div>
+        }
+        @else{
+        <div class="text-end">Ngày <strong>{{GetNgay()}}</strong> tháng <strong>{{GetThang()}}</strong> năm
+          <strong>{{GetNam()}}</strong></div>
+        }
+      </div>
+      <div class="w-full grid grid-cols-3 gap-2">
+        <div class="col-span-3">
+          @if(isEdit){
+          <mat-form-field appearance="outline" class="w-full">
+            <mat-label>Người Nhận</mat-label>
+            <input [(ngModel)]="Detail.Nguoinhan" [ngModelOptions]="{standalone: true}" type="text" matInput
+              class="w-full px-3 py-2 border border-gray-200 rounded" [placeholder]="'Người Nhận'" />
+          </mat-form-field>
+          }
+          @else{
+          <div>Kính Gửi: <strong>{{Detail.Nguoinhan}}</strong></div>
+          }
+        </div>
+
+        <div class="col-span-2">
+          @if(isEdit){
           <mat-form-field appearance="outline" class="w-full">
             <mat-label>Họ Tên</mat-label>
             <input [(ngModel)]="Detail.Hoten" [ngModelOptions]="{standalone: true}" type="text" matInput
               class="w-full px-3 py-2 border border-gray-200 rounded" [placeholder]="'Họ Tên'" />
           </mat-form-field>
-        }
-        @else{
+          }
+          @else{
           <div>Họ và tên: <strong>{{Detail.Hoten}}</strong></div>
-        }
+          }
+        </div>
 
-        @if(isEdit){
+        <div class="col-span-1">
+          @if(isEdit){
           <mat-form-field appearance="outline" class="w-full">
             <mat-label>Bộ phận</mat-label>
             <input [(ngModel)]="Detail.Bophan" [ngModelOptions]="{standalone: true}" type="text" matInput
               class="w-full px-3 py-2 border border-gray-200 rounded" [placeholder]="'Bộ phận'" />
           </mat-form-field>
-        }
-        @else{
+          }
+          @else{
           <div>Họ và tên : <strong>{{Detail.Bophan}}</strong></div>
-        }
+          }
+        </div>
 
-        @if(isEdit){
+        <div class="col-span-3">
+          @if(isEdit){
           <mat-form-field appearance="outline" class="w-full">
             <mat-label>Chức danh</mat-label>
             <input [(ngModel)]="Detail.Chucdanh" [ngModelOptions]="{standalone: true}" type="text" matInput
               class="w-full px-3 py-2 border border-gray-200 rounded" [placeholder]="'Chức danh'" />
           </mat-form-field>
-        }
-        @else{
-          <div>Chức danh : <strong>{{Detail.Chucdanh}}</strong></div>
-        }
-      </div>
-      <div class="w-full flex flex-col space-y-2 justify-start">
-        <div>Đề xuất công việc như sau : </div>
-
-        @if(isEdit){
-        <ul class="ml-4 space-y-1 text-gray-500 list-disc list-inside dark:text-gray-400">
-          @for (item of Detail.ListCongviec; track $index) {
-            <div class="flex flex-row space-x-2">
-           <mat-form-field appearance="outline" class="w-full">
-              <mat-label>Công việc {{$index+1}}</mat-label>
-              <input [(ngModel)]="item.Title" [ngModelOptions]="{standalone: true}" type="text" matInput
-                class="w-full px-3 py-2 border border-gray-200 rounded" placeholder="Công Việc {{$index+1}}" />
-                <!-- <button mat-flat-button matSuffix color="primary" class="bg-red-500" (click)="AddCongviec()">Copy</button>    -->
-            </mat-form-field> 
-            <button mat-icon-button matSuffix (click)="CopyCongviec(item)">
-              <span class="material-icons mr-2">content_copy</span>
-            </button>
-            <button mat-icon-button matSuffix (click)="XoaCongviec(item)">
-              <span class="material-icons mr-2">delete</span>
-            </button>
-            </div>
- 
-
-          }
-        </ul>
-
-        <div class="mx-auto">
-          <button mat-flat-button color="primary" class="bg-red-500" (click)="AddCongviec()">Thêm</button>
-        </div>
-
-        }
-        @else{
-        <ul class="ml-4 space-y-1 text-gray-500 list-disc list-inside dark:text-gray-400">
-          @for (item of Detail.ListCongviec; track $index) {
-            <li class="font-bold">{{item.Title}}</li>
-          }
-        </ul>
-        }
-      </div>
-      @if(isEdit){
-        <mat-form-field appearance="outline" class="w-full">
-          <mat-label>Dự toán kinh phí</mat-label>
-          <input [(ngModel)]="Detail.Kinhphi" [ngModelOptions]="{standalone: true}" type="text" matInput
-            class="w-full px-3 py-2 border border-gray-200 rounded" [placeholder]="'Dự toán kinh phí'" />
-            <mat-hint class="text-red-500">{{Detail.Kinhphi|number:'1.0-2'}}đ</mat-hint>
-        </mat-form-field>
-      }
-      @else{
-        <!-- <div class="w-full">Dự toán kinh phí : {{Detail.Kinhphi}}</div> -->
-        <div class="w-full">Dự toán kinh phí : <strong>{{Detail.Kinhphi|number:'1.0-2'}}đ</strong></div>
-      }
-
-      <div class="w-full grid grid-cols-2 gap-2 justify-center">
-        <div class="flex flex-col justify-between text-center">
-          <div class="font-bold text-base"> BGĐ/ Trưởng Bộ phận</div>
-          <div> (Ký và Ghi rõ Họ Tên)</div>
-          <div class="mt-24">
-            @if(isEdit){
-              <mat-form-field appearance="outline">
-                <mat-label>Trưởng Bộ Phận</mat-label>
-                <input [(ngModel)]="Detail.Truongbophan" [ngModelOptions]="{standalone: true}" type="text" matInput
-                  class="w-full px-3 py-2 border border-gray-200 rounded" [placeholder]="'Trưởng Bộ Phận'" />
-              </mat-form-field>
-            }
-            @else{
-              <div><strong>{{Detail.Truongbophan}}</strong></div>
-            }
-          </div>
-        </div>
-        <div class="flex flex-col justify-between text-center">
-          @if(isEdit){
-            <div class="flex flex-row space-x-2">
-            <mat-form-field appearance="outline">
-              <mat-label>Thành Phố</mat-label>
-              <input [(ngModel)]="Detail.Thanhpho" [ngModelOptions]="{standalone: true}" type="text" matInput
-                class="w-full px-3 py-2 border border-gray-200 rounded" [placeholder]="'Thành Phố'" />
-            </mat-form-field>
-
-            <mat-form-field appearance="outline">
-              <mat-label>Ngày Tháng</mat-label>
-              <input [(ngModel)]="Detail.Ngaythang" [ngModelOptions]="{standalone: true}" matInput [matDatepicker]="picker">
-              <mat-hint>MM/DD/YYYY</mat-hint>
-              <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
-              <mat-datepicker #picker></mat-datepicker>
-            </mat-form-field>
-          </div>
           }
           @else{
-            <div> <strong>{{Detail.Thanhpho}}</strong>, Ngày <strong>{{GetNgay()}}</strong> tháng <strong>{{GetThang()}}</strong> năm <strong>{{GetNam()}}</strong></div>
+          <div>Chức danh : <strong>{{Detail.Chucdanh}}</strong></div>
           }
+        </div>
 
-          <div class="font-bold"> Người đề nghị</div>
-          <div> (Ký và Ghi rõ Họ Tên)</div>
-         <div class="mt-24">
+        <div class="col-span-2">
           @if(isEdit){
+          <mat-form-field appearance="outline" class="w-full">
+            <mat-label>Đề Nghị Chi Số Tiền</mat-label>
+            <input [(ngModel)]="Detail.Sotien" [ngModelOptions]="{standalone: true}" type="text" matInput
+              class="w-full px-3 py-2 border border-gray-200 rounded" [placeholder]="'Đề Nghị Chi Số Tiền'" />
+          </mat-form-field>
+          }
+          @else{
+          <div>Đề Nghị Chi Số Tiền: <strong>{{Detail.Sotien}}</strong></div>
+          }
+        </div>
+
+        <div class="col-span-1">
+          @if(isEdit){
+          <mat-form-field appearance="outline" class="w-full">
+            <mat-label>Chứng Từ</mat-label>
+            <input [(ngModel)]="Detail.Chungtu" [ngModelOptions]="{standalone: true}" type="text" matInput
+              class="w-full px-3 py-2 border border-gray-200 rounded" [placeholder]="'Chứng Từ'" />
+          </mat-form-field>
+          }
+          @else{
+          <div>Chứng Từ : <strong>{{Detail.Chungtu}}</strong></div>
+          }
+        </div>
+
+      </div>
+      <table class="w-full table-auto border text-xs">
+        <thead>
+          <tr>
+            <th class="border p-2">STT</th>
+            <th class="border p-2">Nội Dung</th>
+            <th class="border p-2">Số Tiền</th>
+            <th class="border p-2">Ghi Chú</th>
+          </tr>
+        </thead>
+        <tbody>
+          @if(isEdit){
+          @for (item of Detail.ListCongviec; track $index) {
+          <tr>
+            <td class="border p-2">
+              {{$index+1}}
+            </td>
+            <td class="border p-2">
+              <mat-form-field appearance="outline" class="w-full">
+                <mat-label>Nội dung {{$index+1}}</mat-label>
+                <input [(ngModel)]="item.Title" [ngModelOptions]="{standalone: true}" type="text" matInput
+                  class="w-full px-3 py-2 border border-gray-200 rounded" placeholder="Nội dung {{$index+1}}" />
+              </mat-form-field>
+            </td>
+            <td class="border p-2">
+              <mat-form-field appearance="outline" class="w-full">
+                <mat-label>Số Tiền {{$index+1}}</mat-label>
+                <input [(ngModel)]="item.Sotien" [ngModelOptions]="{standalone: true}" type="text" matInput
+                  class="w-full px-3 py-2 border border-gray-200 rounded" placeholder="Số Tiền {{$index+1}}" />
+                <mat-hint class="text-red-500">{{item.Sotien|number:'1.0-2'||0}}đ</mat-hint>
+              </mat-form-field>
+            </td>
+            <td class="border p-2">
+              <mat-form-field appearance="outline" class="w-full">
+                <mat-label>Ghi Chú {{$index+1}}</mat-label>
+                <input [(ngModel)]="item.Ghichu" [ngModelOptions]="{standalone: true}" type="text" matInput
+                  class="w-full px-3 py-2 border border-gray-200 rounded" placeholder="Ghi Chú {{$index+1}}" />
+              </mat-form-field>
+            </td>
+          </tr>
+          }
+          <!-- <tr>
+            <td class="border p-2" colspan="2">Tổng số</td>
+            <td class="border p-2">
+              <mat-form-field appearance="outline" class="w-full">
+                <mat-label>Tổng số</mat-label>
+                <input disabled value="{{Subtotal(Detail.ListCongviec,'Sotien')|number:'1.0-2'||0}}" type="text" matInput
+                  class="w-full px-3 py-2 border border-gray-200 rounded" [placeholder]="'Tổng số'" />
+                  <mat-hint class="text-red-500">{{Detail.Tongso|number:'1.0-2'||0}}đ</mat-hint>
+              </mat-form-field>
+            </td>
+            <td class="border p-2"></td>
+          </tr> -->
+          <tr>
+            <td class="border p-2" colspan="2">Số đã tạm ứng</td>
+            <td class="border p-2">
+              <mat-form-field appearance="outline" class="w-full">
+                <mat-label>Tạm Ứng</mat-label>
+                <input [(ngModel)]="Detail.Tamung" [ngModelOptions]="{standalone: true}" type="text" matInput
+                  class="w-full px-3 py-2 border border-gray-200 rounded" [placeholder]="'Tạm Ứng'" />
+                  <mat-hint class="text-red-500">{{Detail.Tamung|number:'1.0-2'||0}}đ</mat-hint>
+              </mat-form-field>
+            </td>
+            <td class="border p-2"></td>
+          </tr>
+          <!-- <tr>
+            <td class="border p-2" colspan="2">Số tiền (Còn lại) đề nghị chi </td>
+            <td class="border p-2">
+              <mat-form-field appearance="outline" class="w-full">
+                <mat-label>Số Tiền Chi</mat-label>
+                <input disabled [(ngModel)]="Detail.Sotienchi" [ngModelOptions]="{standalone: true}" type="text" matInput
+                  class="w-full px-3 py-2 border border-gray-200 rounded" [placeholder]="'Số Tiền Chi'" />
+                  <mat-hint class="text-red-500">{{Detail.Sotienchi|number:'1.0-2'||0}}đ</mat-hint>
+              </mat-form-field>
+            </td>
+            <td class="border p-2"></td>
+          </tr> -->
+          }
+          @else {
+          @for (item of Detail.ListCongviec; track $index) {
+          <tr>
+            <td class="border p-2">{{$index+1}}</td>
+            <td class="border p-2">{{item.Title}}</td>
+            <td class="border p-2 text-right">{{item.Sotien|number:'1.0-2'||0}}đ</td>
+            <td class="border p-2">{{item.Ghichu}}</td>
+          </tr>
+          }
+          <tr>
+            <td class="border p-2" colspan="2">Tổng số</td>
+            <td class="border p-2 text-right">{{Subtotal(Detail.ListCongviec,'Sotien')|number:'1.0-2'||0}}đ</td>
+            <td class="border p-2"></td>
+          </tr>
+          <tr>
+            <td class="border p-2" colspan="2">Số đã tạm ứng</td>
+            <td class="border p-2 text-right">{{Detail.Tamung|number:'1.0-2'||0}}đ</td>
+            <td class="border p-2"></td>
+          </tr>
+          <tr>
+            <td class="border p-2" colspan="2">Số tiền (Còn lại) đề nghị chi </td>
+            <td class="border p-2 text-right">{{Subtotal(Detail.ListCongviec,'Sotien') - Detail.Tamung|number:'1.0-2'||0}}đ</td>
+            <td class="border p-2"></td>
+          </tr>
+          }
+        </tbody>
+      </table>
+      <div class="w-full">Số tiền bằng chữ : <strong class="capitalize">Hai triệu năm trăm nghìn đồng</strong></div>
+
+
+      <div class="w-full grid grid-cols-4 gap-2 justify-center">
+        <div class="flex flex-col justify-between text-center">
+          <div class="font-bold text-base">Giám Đốc</div>
+          <div class="text-xs italic"> (Ký và Ghi rõ Họ Tên)</div>
+          <div class="mt-24">
+            @if(isEdit){
+            <mat-form-field appearance="outline">
+              <mat-label>Giám Đốc</mat-label>
+              <input [(ngModel)]="Detail.Giamdoc" [ngModelOptions]="{standalone: true}" type="text" matInput
+                class="w-full px-3 py-2 border border-gray-200 rounded" [placeholder]="'Giám Đốc'" />
+            </mat-form-field>
+            }
+            @else{
+            <div><strong>{{Detail.Giamdoc}}</strong></div>
+            }
+          </div>
+        </div>
+
+        <div class="flex flex-col justify-between text-center">
+          <div class="font-bold text-base"> Kế Toán</div>
+          <div class="text-xs italic"> (Ký và Ghi rõ Họ Tên)</div>
+          <div class="mt-24">
+            @if(isEdit){
+            <mat-form-field appearance="outline">
+              <mat-label>Kế Toán</mat-label>
+              <input [(ngModel)]="Detail.Ketoan" [ngModelOptions]="{standalone: true}" type="text" matInput
+                class="w-full px-3 py-2 border border-gray-200 rounded" [placeholder]="'Kế Toán'" />
+            </mat-form-field>
+            }
+            @else{
+            <div><strong>{{Detail.Ketoan}}</strong></div>
+            }
+          </div>
+        </div>
+
+        <div class="flex flex-col justify-between text-center">
+          <div class="font-bold text-base"> BGĐ/ Trưởng Bộ phận</div>
+          <div class="text-xs italic"> (Ký và Ghi rõ Họ Tên)</div>
+          <div class="mt-24">
+            @if(isEdit){
+            <mat-form-field appearance="outline">
+              <mat-label>Trưởng Bộ Phận</mat-label>
+              <input [(ngModel)]="Detail.Truongbophan" [ngModelOptions]="{standalone: true}" type="text" matInput
+                class="w-full px-3 py-2 border border-gray-200 rounded" [placeholder]="'Trưởng Bộ Phận'" />
+            </mat-form-field>
+            }
+            @else{
+            <div><strong>{{Detail.Truongbophan}}</strong></div>
+            }
+          </div>
+        </div>
+
+        <div class="flex flex-col justify-between text-center">
+          <div class="font-bold"> Người đề nghị</div>
+          <div class="text-xs italic"> (Ký và Ghi rõ Họ Tên)</div>
+          <div class="mt-24">
+            @if(isEdit){
             <mat-form-field appearance="outline">
               <mat-label>Người Đề Nghị</mat-label>
               <input [(ngModel)]="Detail.Nguoidenghi" [ngModelOptions]="{standalone: true}" type="text" matInput
                 class="w-full px-3 py-2 border border-gray-200 rounded" [placeholder]="'Người Đề Nghị'" />
             </mat-form-field>
-          }
-          @else{
+            }
+            @else{
             <div><strong>{{Detail.Nguoidenghi}}</strong></div>
-          }
-        </div>
+            }
+          </div>
         </div>
       </div>
     </div>
-
-
-    <div class="flex flex-row space-x-2 items-center">
-      @if(isEdit==true)
-      {
-        <button mat-flat-button color="primary" (click)="Luuthongtin();isEdit=false">Lưu</button>
-        <button mat-flat-button (click)="Luuthongtin()">Reset</button>
-      }
-      @else {
-        <button mat-flat-button color="accent" (click)="isEdit=true">Sửa</button>
-        <button mat-flat-button color="primary" (click)="printDiv()">In</button>
-      }
-    </div>
   </div>
+</div>
+
+
+
+<div class="{{isPrint}} fixed bottom-0 left-0 bg-white p-2 rounded-lg border flex flex-row space-x-2 items-center">
+  @if(isEdit==true)
+  {
+  <button mat-flat-button color="primary" (click)="Luuthongtin();isEdit=false">Lưu</button>
+  <button mat-flat-button (click)="Luuthongtin()">Reset</button>
+  }
+  @else {
+  <button mat-flat-button color="accent" (click)="isEdit=true">Sửa</button>
+  <button mat-flat-button color="primary" (click)="printDiv();">In</button>
+  }
 </div>

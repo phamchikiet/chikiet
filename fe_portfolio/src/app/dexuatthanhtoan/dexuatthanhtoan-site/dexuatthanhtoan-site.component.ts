@@ -9,6 +9,7 @@ import { MatDatepickerModule } from '@angular/material/datepicker';
 import { CommonModule } from '@angular/common';
 import { provideNativeDateAdapter } from '@angular/material/core';
 import * as moment from 'moment';
+import { readMoney } from '../../shared/shared.utils';
 @Component({
   selector: 'app-dexuatthanhtoan-site',
   standalone:true,
@@ -30,6 +31,7 @@ export class DexuatthanhtoanSiteComponent implements OnInit {
   @ViewChild('printArea') printAreaRef!: ElementRef;
   Detail:any=this._LocalStorageService.getItem('Detail')||{ListCongviec:[{id:1,Title:''}]}
   isEdit:boolean=false
+  isPrint:any=''
   constructor() { }
 
   ngOnInit() {
@@ -37,6 +39,7 @@ export class DexuatthanhtoanSiteComponent implements OnInit {
   }
     printDiv() {
     const printArea = this.printAreaRef.nativeElement;
+    console.log(printArea);
     const originalStyles = printArea.style.display;
     printArea.style.display = 'flex'; // Ensure visibility for printing
     printArea.style.margin = '0'; // Remove margins for full-page coverage
@@ -60,13 +63,26 @@ export class DexuatthanhtoanSiteComponent implements OnInit {
   Luuthongtin()
   {
     console.log(this.Detail);
-    
+    this.Detail.ListCongviec =  this.Detail.ListCongviec.filter((v:any)=>v.Title!==''&&v.Sotien!==''&&v.Ghichu!=='')
     this._LocalStorageService.setItem('Detail',this.Detail)
   }
   Reset()
   {
     this.Detail = {}
     this._LocalStorageService.setItem('Detail',this.Detail)
+  }
+  Subtotal(items:any[],field:any)
+  {
+    if(items.length>0)
+    {
+    const totalSum = items.reduce((total:any, item:any) => Number(total) + Number(item[field]), 0);
+    return totalSum
+    }
+    else return 0
+  }
+  Tienbangchu(data:any)
+  {        
+    return readMoney(Number(data))
   }
   AddCongviec()
   {
@@ -84,15 +100,18 @@ export class DexuatthanhtoanSiteComponent implements OnInit {
   }
   GetNgay()
   {
-   return moment(this.Detail.Ngaythang).day()
+    const today = new Date(this.Detail.Ngaythang)
+   return today.getDate()
   }
   GetThang()
   {
-    return moment(this.Detail.Ngaythang).month()
+    const today = new Date(this.Detail.Ngaythang)
+    return today.getMonth()+1
   }
   GetNam()
   {
-    return moment(this.Detail.Ngaythang).year()
+    const today = new Date(this.Detail.Ngaythang)
+    return today.getFullYear()
   }
 
 }
