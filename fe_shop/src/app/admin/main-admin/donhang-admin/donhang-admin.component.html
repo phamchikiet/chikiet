@@ -128,11 +128,18 @@
                     <td class="p-4 text-sm font-normal text-gray-500 whitespace-nowrap lg:p-5">
                       <div>{{item.Giohangs.Khachhang.Diachi}}</div>
                     </td>
-                    <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap lg:p-5">
-                      @if (item.Status==1) {
-                      <span class="material-symbols-outlined text-blue-500">check_circle</span>
-                      }
-                      @else { <span class="material-symbols-outlined text-red-500">cancel</span> }
+                    <td class="p-4 text-xs">
+                      <span class="p-2 rounded-lg {{GetStatus(item.Status,'Class')}}" [matMenuTriggerFor]="menu">{{GetStatus(item.Status,'Title')}}</span>  
+                      <mat-menu #menu="matMenu">
+                        <div class="flex flex-col space-y-2 p-3">
+                        @for (item1 of ListTrangThaiDonhang; track $index) {
+                          <span class="p-2 text-xs rounded-lg {{item1.Class}}" (click)="ChangeStatus(item,item1)">
+                            {{item1.Title}}
+                          </span>
+                          <!-- <button mat-menu-item>{{item.Title}}</button> -->
+                        }
+                      </div>
+                      </mat-menu>
                     </td>
                     <td class="p-4 space-x-2 whitespace-nowrap lg:p-5">
                       <button type="button" data-modal-toggle="product-modal"

@@ -83,7 +83,7 @@ export class SanphamChitietComponent implements OnInit {
   }
   UpdateSanpham()
   {
-    this.Detail.Giagoc =  this.Detail.Giagoc.filter((v:any)=>v.loai!==''&&v.gia!==''&&v.dvt!=='')
+    this.Detail.Giagoc =  this.Detail.Giagoc.filter((v:any)=>v.khoiluong!==''&&v.gia!==''&&v.dvt!=='')
     this._SanphamService.UpdateSanpham(this.Detail).then(()=>
     {
         this._snackBar.open('Cập Nhật Thành Công','',{
@@ -96,7 +96,7 @@ export class SanphamChitietComponent implements OnInit {
   }
   AddBienthe()
   {
-      this.Detail.Giagoc.push({loai:'',gia:'',dvt:''})
+      this.Detail.Giagoc.push({MaSP:this.Detail.MaSP+'-'+Number(Number(this.Detail.Giagoc.length)+1),khoiluong:'',gia:'',dvt:''})
       console.log();
       
   }

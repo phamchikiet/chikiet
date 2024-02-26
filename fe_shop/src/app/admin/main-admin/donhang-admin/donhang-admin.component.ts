@@ -11,8 +11,9 @@ import * as XLSX from 'xlsx';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { ButtonModule } from 'primeng/button';
 import * as moment from 'moment';
-import { groupByfield } from 'fe_shop/src/app/shared/shared.utils';
+import { ListTrangThaiDonhang, groupByfield } from 'fe_shop/src/app/shared/shared.utils';
 import { GiohangService } from '../website/giohang/giohang.service';
+import { MatSnackBar } from '@angular/material/snack-bar';
 @Component({
   selector: 'app-donhang-admin',
   standalone:true,
@@ -45,10 +46,12 @@ export class DonhangAdminComponent implements OnInit {
     pageNumber:0
   };
   sidebarVisible: boolean = false;
+  ListTrangThaiDonhang:any=ListTrangThaiDonhang
   _GiohangService:GiohangService = inject(GiohangService)
   @ViewChild('drawer', { static: true }) drawer!: MatDrawer;
   constructor(
     private dialog: MatDialog,
+    private _snackBar: MatSnackBar,
   ) {
   }
   async ngOnInit(): Promise<void> {
@@ -145,5 +148,23 @@ export class DonhangAdminComponent implements OnInit {
     link.click();
     window.URL.revokeObjectURL(url);
     link.remove();
-  }  
+  }
+  GetStatus(item:any,field:any)
+  {
+    const result = ListTrangThaiDonhang.find((v)=>v.id==item)
+    return result[field]
+  }
+  ChangeStatus(item: any, item1: any) {
+    console.log(item,item1);
+    
+     item.Status=item1.id
+      this._GiohangService.UpdateDonhang(item).then(() => {
+        this._snackBar.open('Cập Nhật Thành Công', '', {
+          horizontalPosition: "end",
+          verticalPosition: "top",
+          panelClass: 'success',
+          duration: 2000,
+        });
+      })
+     }
 }

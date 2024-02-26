@@ -11,6 +11,8 @@ import {MatTabsModule} from '@angular/material/tabs';
 import { ListNotifyType } from 'fe_shop/src/app/shared/shared.utils';
 import { TonkhoAdminService } from 'fe_shop/src/app/admin/main-admin/admin-xnt/admin-tonkho/admin-tonkho.service';
 import Swiper, { Pagination } from 'swiper';
+import { MatDialog, MatDialogModule } from '@angular/material/dialog';
+import { MatButtonModule } from '@angular/material/button';
 @Component({
   selector: 'app-detail-sanpham',
   standalone:true,
@@ -19,7 +21,9 @@ import Swiper, { Pagination } from 'swiper';
     SlideSanphamComponent,
     ImageModule,
     FormsModule,
-    MatTabsModule
+    MatTabsModule,
+    MatButtonModule,
+    MatDialogModule
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   templateUrl: './detail-sanpham.component.html',
@@ -59,8 +63,12 @@ export class DetailSanphamComponent implements OnInit {
   Slug:any
   Soluong:any=1
   ListNotifyType:any=ListNotifyType
-  constructor(private _snackBar: MatSnackBar) { 
+  constructor(
+    private _snackBar: MatSnackBar,
+    private dialog:MatDialog
+    ) { 
     this.Slug = this.route.snapshot.params['slug'];
+
   }
 
   async ngOnInit() {
@@ -128,5 +136,13 @@ export class DetailSanphamComponent implements OnInit {
       },
     });
   }
+  ZoomImage(teamplate: TemplateRef<any>): void {
+    console.log("abcdef");
+    
+    const dialogRef = this.dialog.open(teamplate, {
+    });
+    dialogRef.afterClosed().subscribe(() => {
 
+    });
+  }
 }

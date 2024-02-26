@@ -44,11 +44,11 @@
             class="w-full px-3 py-2 border border-gray-200 rounded" [placeholder]="'Slug'">
         </mat-form-field>
         <div class="flex lg:flex-row lg:space-x-2 flex-col xs:space-y-2">
-          <mat-form-field appearance="outline" class="w-full text-xs">
+          <!-- <mat-form-field appearance="outline" class="w-full text-xs">
             <mat-label>SKU</mat-label>
             <input [(ngModel)]="Detail.SKU" [ngModelOptions]="{standalone: true}" type="text" matInput
               class="w-full px-3 py-2 border border-gray-200 rounded" [placeholder]="'SKU'">
-          </mat-form-field>
+          </mat-form-field> -->
   
           <mat-form-field appearance="outline" class="w-full text-xs">
             <mat-label>Mã Sản Phẩm</mat-label>
@@ -65,13 +65,28 @@
             <mat-option [value]="item.id_cat" *ngFor="let item of Danhmuc">{{item.Title}}</mat-option>
           </mat-select>
         </mat-form-field>
-        <div class="grid lg:grid-cols-3 items-center gap-2 rounded-lg border p-2">
-          <div class="lg:col-span-3 font-bold">Biến Thể</div>
+        <div class="grid lg:grid-cols-4 items-center gap-2 rounded-lg border p-2">
+          <div class="lg:col-span-2 font-bold">
+            Biến Thể
+          </div>
+          <div class="lg:col-span-2 font-bold">
+            <mat-form-field appearance="outline" class="w-full text-xs">
+              <mat-label>Giá Cơ Sở</mat-label>
+              <input [(ngModel)]="Detail.GiaCoSo" [ngModelOptions]="{standalone: true}" type="text" matInput
+                class="w-full px-3 py-2 border border-gray-200 rounded" [placeholder]="'Giá Cơ Sở'">
+                <mat-hint class="text-red-500">{{Detail.GiaCoSo|number:'1.0-2'||0}}đ</mat-hint>
+            </mat-form-field>
+          </div>
           @for (item of Detail.Giagoc; track $index) {
           <mat-form-field appearance="outline" class="w-full text-xs">
-            <mat-label>Loại</mat-label>
-            <input [(ngModel)]="Detail.Giagoc[$index].loai" [ngModelOptions]="{standalone: true}" type="text" matInput
-              class="w-full px-3 py-2 border border-gray-200 rounded" [placeholder]="'Loại'">
+            <mat-label>Mã Sản Phẩm</mat-label>
+            <input disabled [(ngModel)]="Detail.Giagoc[$index].MaSP" [ngModelOptions]="{standalone: true}" type="text" matInput
+              class="w-full px-3 py-2 border border-gray-200 rounded" [placeholder]="'Mã Sản Phẩm'">
+          </mat-form-field>
+          <mat-form-field appearance="outline" class="w-full text-xs">
+            <mat-label>Khối Lượng</mat-label>
+            <input (input)="Detail.Giagoc[$index].gia = Detail.Giagoc[$index].khoiluong*Detail.GiaCoSo" [(ngModel)]="Detail.Giagoc[$index].khoiluong" [ngModelOptions]="{standalone: true}" type="text" matInput
+              class="w-full px-3 py-2 border border-gray-200 rounded" [placeholder]="'Khối Lượng'">
           </mat-form-field>
           <mat-form-field appearance="outline" class="w-full text-xs">
             <mat-label>Giá</mat-label>

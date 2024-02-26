@@ -9,8 +9,6 @@ import { AdminuserComponent } from '../adminuser.component';
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { EditorComponent, EditorModule } from '@tinymce/tinymce-angular';
 import { environment } from 'fe_shop/src/environments/environment';
-import { BaivietAdminComponent } from '../../../main-admin/baiviet-admin/baiviet-admin.component';
-import { BaivietAdminService } from '../../../main-admin/baiviet-admin/baiviet-admin.service';
 import { DanhmucService } from '../../../main-admin/danhmuc/danhmuc.service';
 import { MatInputModule } from '@angular/material/input';
 import { HinhanhComponent } from 'fe_shop/src/app/shared/hinhanh/hinhanh.component';
@@ -19,6 +17,7 @@ import { AutoCompleteModule } from 'primeng/autocomplete';
 import { ButtonModule } from 'primeng/button';
 import { DropdownModule } from 'primeng/dropdown';
 import { UsersService } from '../../auth/users.service';
+import { ListRole } from 'fe_shop/src/app/shared/shared.utils';
 @Component({
   selector: 'app-adminuser-chitiet',
   standalone:true,
@@ -48,11 +47,15 @@ export class AdminuserDetailComponent implements OnInit {
   idSP:any;
   Detail:any={}
   Danhmuc:any[]=[]
+  ListRole:any[]=ListRole
   filteredDanhmuc:any[]=[]
   constructor(private _snackBar: MatSnackBar) {
       this.idSP = this.route.snapshot.params['id'];
   }
   async ngOnInit() {
+    console.log("detail");
+    console.log(this.idSP);
+    
     if(this.idSP)
     {
     this.Detail = await this._UsersService.getUserByid(this.idSP)
@@ -67,9 +70,7 @@ export class AdminuserDetailComponent implements OnInit {
   }
   GetUpload(e:any)
   {
-    console.log(e.src);
-    
-    this.Detail.Image.Main = e.src
+    this.Detail.Image = e
     this._UsersService.updateOneUser(this.Detail);
   }
   GetUploadList(e:any,i:any)
@@ -79,7 +80,7 @@ export class AdminuserDetailComponent implements OnInit {
     console.log(this.Detail);
     this._UsersService.UpdateUser(this.Detail);
   }
-  UpdateBaivietadmin()
+  UpdateUseradmin()
   {
     this._UsersService.UpdateUser(this.Detail).then(()=>
     {

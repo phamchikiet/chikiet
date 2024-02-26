@@ -45,21 +45,24 @@
                         <swiper-container style="
                 --swiper-navigation-color: #fff;
                 --swiper-pagination-color: #fff;
-              " class="mySwiper" thumbs-swiper=".mySwiper2"  space-between="0" navigation="true">
+              " class="mySwiper" thumbs-swiper=".mySwiper2" space-between="0" navigation="true">
                             @if(Detail&&Detail.ListImage&&Detail.ListImage.length>0){
-                                @for (item of Detail?.ListImage; track $index) {
-                                <swiper-slide class="p-2 border rounded-lg">
-                                    @if(item && item.src){
-                                    <img src="{{item.src}}" class="w-80 mx-auto">
-                                    }
-                                    @else{
-                                    <img src="assets/images/noimage.png" class="p-3 max-w-32 mx-auto rounded-lg">
-                                    }
-                                </swiper-slide>
+                            @for (item of Detail?.ListImage; track $index) {
+                            <swiper-slide class="p-2 border rounded-lg">
+                                @if(item && item.src){
+                                <img src="{{item.src}}" class="w-80 mx-auto" (click)="ZoomImage(dialogZoom)">
                                 }
+                                @else{
+                                <img src="assets/images/noimage.png" class="p-3 max-w-32 mx-auto rounded-lg" (click)="ZoomImage(dialogZoom)">
+                                }
+                            </swiper-slide>
+                            }
                             }
                             @else if(Detail&&Detail.Image&&Detail.Image.Main){
                             <swiper-slide class="p-2 border rounded-lg">
+                                <img src="assets/images/sanpham/{{ Detail?.Image?.Main }}" (click)="ZoomImage(dialogZoom)"/>
+                            </swiper-slide>
+                            <!-- <swiper-slide class="p-2 border rounded-lg">
                                 <img src="assets/images/sanpham/{{ Detail?.Image?.Main }}" />
                             </swiper-slide>
                             <swiper-slide class="p-2 border rounded-lg">
@@ -67,10 +70,7 @@
                             </swiper-slide>
                             <swiper-slide class="p-2 border rounded-lg">
                                 <img src="assets/images/sanpham/{{ Detail?.Image?.Main }}" />
-                            </swiper-slide>
-                            <swiper-slide class="p-2 border rounded-lg">
-                                <img src="assets/images/sanpham/{{ Detail?.Image?.Main }}" />
-                            </swiper-slide>
+                            </swiper-slide> -->
                             }
                             @else{
                             <img src="assets/images/noimage.png" class="p-16 mx-auto rounded-lg">
@@ -80,18 +80,19 @@
                 </div>
                 <div>
                     <div>
-                        <swiper-container class="mySwiper2" space-between="10" slides-per-view="4" watch-slides-progress="true">
+                        <swiper-container class="mySwiper2" space-between="10" slides-per-view="4"
+                            watch-slides-progress="true">
                             @if(Detail&&Detail.ListImage&&Detail.ListImage.length>0){
-                                @for (item of Detail?.ListImage; track $index) {
-                                <swiper-slide class="p-2 border rounded-lg">
-                                    @if(item && item.src){
-                                    <img src="{{item.src}}" class="w-20">
-                                    }
-                                    @else{
-                                    <img src="assets/images/noimage.png" class="p-3 max-w-32 mx-auto rounded-lg">
-                                    }
-                                </swiper-slide>
+                            @for (item of Detail?.ListImage; track $index) {
+                            <swiper-slide class="p-2 border rounded-lg">
+                                @if(item && item.src){
+                                <img src="{{item.src}}" class="w-20">
                                 }
+                                @else{
+                                <img src="assets/images/noimage.png" class="p-3 max-w-32 mx-auto rounded-lg">
+                                }
+                            </swiper-slide>
+                            }
                             }
                             @else if(Detail&&Detail.Image&&Detail.Image.Main){
                             <swiper-slide class="p-2 border rounded-lg">
@@ -116,7 +117,7 @@
             </div>
             <div class="flex flex-col space-y-5 p-4">
                 <div class="text-xl">{{ Detail?.Title }}</div>
-                <div>SKU : {{ Detail?.SKU }}</div>
+                <!-- <div>SKU : {{ Detail?.SKU }}</div> -->
                 <div class="flex flex-row space-x-2">
                     <div></div>
                     <div>0 Đánh Giá</div>
@@ -131,7 +132,7 @@
                     <div (click)="Giachon=item">
                         <label for="1"
                             class="{{item.id==Giachon.id?'text-white bg-primary':''}} p-3 flex justify-center items-center cursor-pointer select-none rounded-full text-sm text-center bg-default-200 peer-checked:bg-primary peer-checked:text-white">
-                            {{item.loai}}{{item.dvt}} </label>
+                            {{item.khoiluong}}{{item.dvt}} </label>
                     </div>
 
                     }
@@ -180,14 +181,15 @@
         </div>
 
         <mat-tab-group animationDuration="0ms">
-            <mat-tab label="Chi Tiết">              
-          <p class="text-gray-500 dark:text-gray-400 p-4" [innerHTML]="Detail?.Noidung"></p></mat-tab>
+            <mat-tab label="Chi Tiết">
+                <p class="text-gray-500 dark:text-gray-400 p-4" [innerHTML]="Detail?.Noidung"></p>
+            </mat-tab>
             <mat-tab label="Đánh Giá Và Xếp Hạng">
                 <div class="p-4">
                     Đánh Giá
-                </div>     
+                </div>
             </mat-tab>
-          </mat-tab-group>
+        </mat-tab-group>
 
         <!-- <div class="mb-4 border-b border-gray-200 dark:border-gray-700">
             <ul class="flex flex-wrap -mb-px text-sm font-medium text-center" id="default-tab"
@@ -323,3 +325,17 @@
     <div class="text-center font-bold text-2xl">Sản Phẩm Liên Quan</div>
     <app-slide-sanpham [Sohang]="1"></app-slide-sanpham>
 </section>
+
+
+<ng-template #dialogZoom>
+    <div class="!relative lg:h-[90vh] lg:w-[90vw]">
+        <div class="relative flex flex-col space-y-2 p-3">
+            <img src="assets/images/sanpham/{{ Detail?.Image?.Main }}" class="mx-auto p-4"/>
+        </div>
+        <div mat-dialog-actions class="!absolute top-0 right-2">
+            <span class="material-symbols-outlined" mat-dialog-close="false">
+                cancel
+                </span>
+        </div>
+    </div>
+</ng-template>

@@ -11,7 +11,7 @@ import * as XLSX from 'xlsx';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { ButtonModule } from 'primeng/button';
 import * as moment from 'moment';
-import { groupByfield } from 'fe_shop/src/app/shared/shared.utils';
+import { ListRole, groupByfield } from 'fe_shop/src/app/shared/shared.utils';
 import { UsersService } from '../auth/users.service';
 @Component({
   selector: 'app-users',
@@ -45,6 +45,7 @@ export class AdminuserComponent implements OnInit {
     pageNumber:0
   };
   sidebarVisible: boolean = false;
+  ListRole:any[]=ListRole
   _UsersService:UsersService = inject(UsersService)
   @ViewChild('drawer', { static: true }) drawer!: MatDrawer;
   constructor(
@@ -142,5 +143,9 @@ export class AdminuserComponent implements OnInit {
     link.click();
     window.URL.revokeObjectURL(url);
     link.remove();
-  }  
+  }
+  GetRole(item:any)
+  {
+      return ListRole.find((v)=>v.id==item)?.value
+  } 
 }

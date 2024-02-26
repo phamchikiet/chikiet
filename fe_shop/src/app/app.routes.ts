@@ -241,7 +241,9 @@ export const appRoutes: Route[] = [
                 path: 'user',
                 component: AdminuserComponent,
                 children:[
-                    {path:':id',component:AdminuserDetailComponent}
+                    {
+                    path:':id',
+                    component:AdminuserDetailComponent}
                 ]
             },
             {

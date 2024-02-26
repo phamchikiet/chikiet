@@ -194,10 +194,29 @@ export class GiohangService {
             return console.error(error);
         }
     }
-    async UpdateDonhang(data: any): Promise<any> {
-        this._donhang.next(data)
+    async UpdateDonhang(item: any): Promise<any> {
+        this._donhang.next(item)
         this.getDonhang()
         //this._LocalStorageService.setItem('Donhang', this.Donhang)
+        try {
+            const options = {
+                method:'PATCH',
+                headers: {
+                  'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(item),
+              };
+              const response = await fetch(`${environment.APIURL}/donhang/${item.id}`, options);
+              if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+              }
+              const data = await response.json();    
+              console.log(data);
+                                  
+              return data;  
+          } catch (error) {
+              return console.error(error);
+          }
     }
     async addToCart(item: any): Promise<void> {
         if (!this.Donhang.hasOwnProperty('MaDonHang')) {
@@ -272,59 +291,11 @@ export class GiohangService {
         //     return console.error(error);
         // }
     }
-
-    // constructor() {
-    //     this.addItemSubject.pipe(
-    //         map(item => this.addOrUpdateItem(item))
-    //     ).subscribe(updatedCart => this.cartSubject.next(updatedCart));
-
-    //     this.removeItemSubject.pipe(
-    //         map(itemId => this.removeItemById(itemId))
-    //     ).subscribe(updatedCart => this.cartSubject.next(updatedCart));
-    // }
-
-    // private addOrUpdateItem(item: any): any[] {
-    //     const existingItemIndex = this.cartItems.findIndex(i => i.id === item.id);
-    //     if (existingItemIndex !== -1) {
-    //         this.cartItems[existingItemIndex].Soluong += item.Soluong;
-    //     } else {
-    //         this.cartItems.push(item);
-    //     }
-    //     return this.cartItems;
-    // }
-    // private removeItemById(itemId: any): any[] {
-    //     this.cartItems = this.cartItems.filter(i => i.id !== itemId);
-    //     return this.cartItems;
-    // }
     async clearCart(): Promise<void> {
         this.Donhang = { Giohangs: [] }
         this._donhang.next(this.Donhang)
         this._LocalStorageService.setItem('Donhang', this.Donhang)
     }
-    // updateItemQuantity(itemId: number, newQuantity: number): void {
-    //     const itemIndex = this.cartItems.findIndex(i => i.id === itemId);
-    //     if (itemIndex !== -1) {
-    //         this.cartItems[itemIndex].Soluong = newQuantity;
-    //         this.cartSubject.next(this.cartItems);
-    //     }
-    // }
-
-
-    // async getAllGiohang() {
-    //     try {
-    //         const options = {
-    //             method: 'GET',
-    //             headers: {
-    //                 'Content-Type': 'application/json',
-    //             },
-    //         };
-    //         const response = await fetch(`${environment.APIURL}/giohang`, options);
-    //         const data = await response.json();
-    //         return data;
-    //     } catch (error) {
-    //         return console.error(error);
-    //     }
-    // }
     async SearchDonhang(SearchParams: any) {
         try {
             const options = {
@@ -341,54 +312,5 @@ export class GiohangService {
             return console.error(error);
         }
     }
-    // async CreateGiohang(item: any) {
-    //     console.log(item);
-
-    //     try {
-    //         const options = {
-    //             method: 'POST',
-    //             headers: {
-    //                 'Content-Type': 'application/json',
-    //             },
-    //             body: JSON.stringify(item),
-    //         };
-    //         const response = await fetch(`${environment.APIURL}/giohang`, options);
-    //         if (!response.ok) { // Check for non-2xx status codes
-    //             throw new Error(`HTTP error! status: ${response.status}`);
-    //         }
-    //         const data = await response.json();
-    //     } catch (error) {
-    //         return console.error(error);
-    //     }
-    // }
-    // async UpdateGiohang(item: any) {
-    //     try {
-    //         const options = {
-    //             method: 'PATCH',
-    //             headers: {
-    //                 'Content-Type': 'application/json',
-    //             },
-    //             body: JSON.stringify(item),
-    //         };
-    //         const response = await fetch(`${environment.APIURL}/giohang/${item.id}`, options);
-    //         return await response.json();
-    //     } catch (error) {
-    //         return console.error(error);
-    //     }
-    // }
-    // async DeleteGiohang(item: any) {
-    //     try {
-    //         const options = {
-    //             method: 'DELETE',
-    //             headers: {
-    //                 'Content-Type': 'application/json',
-    //             },
-    //         };
-    //         const response = await fetch(`${environment.APIURL}/giohang/${item.id}`, options);
-    //         return await response.json();
-    //     } catch (error) {
-    //         return console.error(error);
-    //     }
-    // }
 }
 

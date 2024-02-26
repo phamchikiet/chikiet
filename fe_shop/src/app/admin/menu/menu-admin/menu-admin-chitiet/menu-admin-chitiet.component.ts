@@ -79,7 +79,7 @@ export class MenuAdminChitietComponent implements OnInit {
   }
   UpdateSanpham()
   {
-    this.Detail.Giagoc =  this.Detail.Giagoc.filter((v:any)=>v.loai!==''&&v.gia!==''&&v.dvt!=='')
+    this.Detail.Giagoc =  this.Detail.Giagoc.filter((v:any)=>v.khoiluong!==''&&v.gia!==''&&v.dvt!=='')
     this._MenuService.UpdateMenu(this.Detail).then(()=>
     {
         this._snackBar.open('Cập Nhật Thành Công','',{

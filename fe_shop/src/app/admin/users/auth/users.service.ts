@@ -39,7 +39,7 @@ export class UsersService {
     this._LocalStorageService.setItem('token', token);
   }
   get accessToken(): string {
-   return this._LocalStorageService.getItem('token') ?? '';
+    return this._LocalStorageService.getItem('token') ?? '';
   }
   getUsers() {
     return true
@@ -75,13 +75,27 @@ export class UsersService {
       return console.error(error);
     }
   }
-  getUserByid(id: any) {
-    // return this._httpClient.get<any>(`${this.APIURL}/userss/${id}`).pipe(
-    //   tap((response: any) => {
-    //     this._user.next(response);
-    //     return response;
-    //   })
-    // );
+  async getUserByid(id: any) {
+    console.log(id);
+    
+    try {
+      const options = {
+        method: 'GET',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+      };
+      const response = await fetch(`${environment.APIURL}/users/findid/${id}`, options);
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+      const data = await response.json();
+      console.log(data);
+      
+      return data
+    } catch (error) {
+      return console.error(error);
+    }
   }
   // updateUser(dulieu: any) {
   //   // return this.users$.pipe(
@@ -123,16 +137,16 @@ export class UsersService {
     try {
       const options = {
         method: 'GET',
-        headers: { 
+        headers: {
           'Content-Type': 'application/json',
-          'Authorization': `Bearer ${this.accessToken}` 
-        },   
+          'Authorization': `Bearer ${this.accessToken}`
+        },
       };
       const response = await fetch(`${environment.APIURL}/users/profile`, options);
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
       }
-      const data = await response.json();    
+      const data = await response.json();
       this._profile.next(data);
     } catch (error) {
       return console.error(error);
@@ -141,92 +155,92 @@ export class UsersService {
   async getAllUser() {
     try {
       const options = {
-        method:'GET',
+        method: 'GET',
         headers: {
           'Content-Type': 'application/json',
         },
       };
-          const response = await fetch(`${environment.APIURL}/users`,options);
-          const data = await response.json();                  
-          return data;
-      } catch (error) {
-          return console.error(error);
-      }
+      const response = await fetch(`${environment.APIURL}/users`, options);
+      const data = await response.json();
+      return data;
+    } catch (error) {
+      return console.error(error);
+    }
   }
-  async getUserBySlug(Slug:any) {
+  async getUserBySlug(Slug: any) {
     try {
       const options = {
-        method:'GET',
+        method: 'GET',
         headers: {
           'Content-Type': 'application/json',
         },
       };
-          const response = await fetch(`${environment.APIURL}/users/findslug/${Slug}`,options);
-          const data = await response.json();                  
-          return data;
-      } catch (error) {
-          return console.error(error);
-      }
+      const response = await fetch(`${environment.APIURL}/users/findslug/${Slug}`, options);
+      const data = await response.json();
+      return data;
+    } catch (error) {
+      return console.error(error);
+    }
   }
-  async SearchUser(SearchParams:any) {
+  async SearchUser(SearchParams: any) {
     try {
       const options = {
-        method:'POST',
+        method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify(SearchParams),
       };
-          const response = await fetch(`${environment.APIURL}/users/search`,options);
-          const data = await response.json();                  
-          return data;
-      } catch (error) {
-          return console.error(error);
-      }
+      const response = await fetch(`${environment.APIURL}/users/search`, options);
+      const data = await response.json();
+      return data;
+    } catch (error) {
+      return console.error(error);
+    }
   }
-  async CreateUser(item:any) {
+  async CreateUser(item: any) {
     console.log(item);
     try {
-        const options = {
-            method:'POST',
-            headers: {
-              'Content-Type': 'application/json',
-            },
-            body: JSON.stringify(item),
-          };
-          const response = await fetch(`${environment.APIURL}/users`, options);          
-          return await response.json();                  
-      } catch (error) {
-          return console.error(error);
-      }
-  }  
-  async UpdateUser(item:any) {
+      const options = {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(item),
+      };
+      const response = await fetch(`${environment.APIURL}/users`, options);
+      return await response.json();
+    } catch (error) {
+      return console.error(error);
+    }
+  }
+  async UpdateUser(item: any) {
     try {
-        const options = {
-            method:'PATCH',
-            headers: {
-              'Content-Type': 'application/json',
-            },
-            body: JSON.stringify(item),
-          };
-          const response = await fetch(`${environment.APIURL}/users/${item.id}`, options);
-          return await response.json();         
-      } catch (error) {
-          return console.error(error);
-      }
-  }  
-  async DeleteUser(item:any) {
+      const options = {
+        method: 'PATCH',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(item),
+      };
+      const response = await fetch(`${environment.APIURL}/users/${item.id}`, options);
+      return await response.json();
+    } catch (error) {
+      return console.error(error);
+    }
+  }
+  async DeleteUser(item: any) {
     try {
-        const options = {
-            method:'DELETE',
-            headers: {
-              'Content-Type': 'application/json',
-            },
-          };
-          const response = await fetch(`${environment.APIURL}/users/${item.id}`, options);
-          return await response.json();         
-      } catch (error) {
-          return console.error(error);
-      }
-  } 
+      const options = {
+        method: 'DELETE',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+      };
+      const response = await fetch(`${environment.APIURL}/users/${item.id}`, options);
+      return await response.json();
+    } catch (error) {
+      return console.error(error);
+    }
+  }
 }
