@@ -18,7 +18,7 @@ export class MenuService {
     return this._totalCount.asObservable();
   }
   SPREADSHEET_ID:any="1VghpYpLVKug07LJm1-pdcpeQcEoh5VaCOgBvOfQ0-L8"
-  SPREADSHEET_APIKEY:any="AIzaSyCWh10EgrjVBm8qKpnsGOgXrIsT5uqroMc-pdcpeQcEoh5VaCOgBvOfQ0-L8"
+  SPREADSHEET_APIKEY:any="AIzaSyCWh10EgrjVBm8qKpnsGOgXrIsT5uqroMc"
   constructor() {}
   async getDrive() {
     try {
@@ -36,26 +36,6 @@ export class MenuService {
           return console.error(error);
       }
   }
-  async createData() {
-    const url = `https://sheets.googleapis.com/v4/spreadsheets/${this.SPREADSHEET_ID}/values/Menu?key=${this.SPREADSHEET_APIKEY}`;
-    const body = {
-      "values": [['Title', 'Liên hệ1']]
-    };
-    const response = await fetch(url, {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json'
-      },
-      body: JSON.stringify(body)
-    });
-    if (!response.ok) {
-      throw new Error(`HTTP error! status: ${response.status}`);
-    }
-    const data = await response.json();   
-    this._menu.next(data)              
-    return data;
-  }
-
 
   async getAllMenu() {
     try {
@@ -108,9 +88,7 @@ export class MenuService {
           return console.error(error);
       }
   }
-  async SearchMenu(SearchParams:any) {
-    console.log(SearchParams);
-    
+  async SearchMenu(SearchParams:any) {    
     try {
       const options = {
         method:'POST',

@@ -326,8 +326,6 @@ export class GiohangService {
     //     }
     // }
     async SearchDonhang(SearchParams: any) {
-        console.log(SearchParams);
-
         try {
             const options = {
                 method: 'POST',

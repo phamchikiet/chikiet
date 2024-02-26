@@ -62,8 +62,6 @@ export class KhachhangAdminService {
       }
   }
   async SearchKhachhangAdmin(SearchParams:any) {
-    console.log(SearchParams);
-    
     try {
       const options = {
         method:'POST',

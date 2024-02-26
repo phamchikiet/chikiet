@@ -20,6 +20,8 @@ import { MatBadgeModule } from '@angular/material/badge';
 import { DanhmucService } from '../../main-admin/danhmuc/danhmuc.service';
 import { MenuService } from '../menu.service';
 import { HttpClient } from '@angular/common/http';
+import { FlatTreeControl } from '@angular/cdk/tree';
+import { MatTreeFlattener, MatTreeModule } from '@angular/material/tree';
 @Component({
   selector: 'app-menu',
   standalone: true,
@@ -36,7 +38,8 @@ import { HttpClient } from '@angular/common/http';
     MatPaginatorModule,
     ButtonModule,
     MatSelectModule,
-    MatBadgeModule
+    MatBadgeModule,
+    MatTreeModule
   ],
   providers: [
     {
@@ -54,7 +57,7 @@ export class MenuAdminComponent implements OnInit {
   SelectItem: any = {}
   ListDanhmuc: any = []
   FilterLists: any[] = []
-  pageSizeOptions: any[] = []
+  pageSizeOptions: any[] = [5]
   Sitemap: any = { loc: '', priority: '' }
   SearchParams: any = {
     // Batdau:moment().startOf('day').add(-1,'day').toDate(),
@@ -69,38 +72,41 @@ export class MenuAdminComponent implements OnInit {
   MenusDrive:any[]=[]
   private _unsubscribeAll: Subject<any> = new Subject<any>();
   @ViewChild('drawer', { static: true }) drawer!: MatDrawer;
-  clientId = '677966057043-g9tjgmsmbsr1j7n4bfoqcq22t8c7go75.apps.googleusercontent.com';
-  redirectUri = 'http://localhost:6100/admin/menu';
-  apiUrl = 'https://sheets.googleapis.com/v4/spreadsheets/YOUR_SPREADSHEET_ID/values/A1:B1';
-  accessToken: string='';
   data: any;
+  private _transformer = (node: any, level: number) => {
+    return {
+      expandable: !!node.children && node.children.length > 0,
+      Title: node.Title,
+      pid: node.pid,
+      Slug: node.Slug,
+      level: level,
+    };
+  };
+  treeControl = new FlatTreeControl<any>(
+    node => node.level,
+    node => node.expandable,
+  );
+  treeFlattener = new MatTreeFlattener(
+    this._transformer,
+    node => node.level,
+    node => node.expandable,
+    node => node.children,
+  );
+  hasChild = (_: number, node: any) => node.expandable;
+  dataSource: any
   constructor(
     private dialog: MatDialog,
     private _snackBar: MatSnackBar,
     private http: HttpClient
   ) {}
   async ngOnInit(): Promise<void> {
-    this.checkAccessToken();
     this._MenuService.getAllMenu();
     this._MenuService.menus$.subscribe((data) => {
       if (data) {
-        this.FilterLists =data
-        // console.log(data.map((v)=>({
-        //   Title:v.Title,
-        //   Danhmuc:v.Danhmuc,
-        //   SKU:v.SKU,
-        //   // Mota:v.Mota,
-        //   // Noidung:v.Noidung,
-        //   Slug:v.Slug,
-        //   View:v.View,
-        //   Banchay:v.Banchay,
-        //   Noibat:v.Noibat,
-        //   Moi:v.Moi,
-        //   Type:v.Type,
-        //   Ordering:v.Ordering,
-        //   Status:v.Status
-        // })));
+        console.log(data);
         
+        this.FilterLists =data
+        this.dataSource = data
       }
     })
     this.Lists = await this._MenuService.SearchMenu(this.SearchParams)
@@ -111,9 +117,29 @@ export class MenuAdminComponent implements OnInit {
 
   async LoadDrive()
   {
-   const data =  await this._MenuService.getDrive();   
-   const data1 =  await this._MenuService.createData();   
-   this.MenusDrive = ConvertDriveData(data.values)||0   
+   const data =  await this._MenuService.getDrive();    
+   this.MenusDrive =  data?.values?.slice(1).map((row:any) => {
+    return {
+      id: row[0],
+      Title: row[1],
+      Slug: row[2],
+      pid: row[3],
+    };
+  });
+   console.log(this.MenusDrive);     
+  }
+
+  async SyncDrive()
+  {
+    this.MenusDrive.forEach((v)=>{
+      const item:any={}
+      item.Title = v.Title
+      item.Slug = v.Slug
+      this._MenuService.CreateMenu(item)
+    })
+    {
+
+    } 
   }
   GetTenDanhmuc(item: any) {
     return this.ListDanhmuc.find((v: any) => v.id_cat == item)?.Title
@@ -230,50 +256,5 @@ export class MenuAdminComponent implements OnInit {
     item.Status = 0
     this._MenuService.UpdateMenu(item).then(() => this.ngOnInit())
   }
-
-
-  checkAccessToken() {
-    this.accessToken = localStorage.getItem('accessToken')||'';
-    if (this.accessToken) {
-      this.fetchData();
-    }
-  }
-
-  authorize() {
-    const scope = 'https://www.googleapis.com/auth/spreadsheets.readonly';
-    const url = `https://accounts.google.com/o/oauth2/v2/auth?client_id=${this.clientId}&redirect_uri=${this.redirectUri}&scope=${scope}&response_type=token`;
-    window.location.href = url;
-  }
-
-  async fetchData() {
-    const headers = new Headers({
-      Authorization: `Bearer ${this.accessToken}`
-    });
-  
-    try {
-      const response = await fetch(this.apiUrl, {
-        headers,
-        method: 'GET'
-      });
-  
-      if (!response.ok) {
-        throw new Error(`Error fetching data: ${response.statusText}`);
-      }
-  
-      const data = await response.json();
-      this.data = data;
-    } catch (error) {
-      console.error(error);
-    }
-  }
-  
-
-  handleCallback(hash:any) {
-    const params = new URLSearchParams(hash);
-    this.accessToken = params.get('access_token')||'';
-    localStorage.setItem('accessToken', this.accessToken);
-    this.fetchData();
-  }
-
 
 }

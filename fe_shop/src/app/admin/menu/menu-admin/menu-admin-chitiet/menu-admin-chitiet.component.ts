@@ -5,9 +5,6 @@ import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 import { ActivatedRoute, RouterLink } from '@angular/router';
 import { MatButtonModule } from '@angular/material/button';
-import { MenuComponent } from '../menu.component';
-import { MenuService } from '../menu.service';
-import { DanhmucService } from '../../danhmuc/danhmuc.service';
 import { ButtonModule } from 'primeng/button';
 import { DropdownModule } from 'primeng/dropdown';
 import { AutoCompleteModule } from 'primeng/autocomplete';
@@ -17,13 +14,14 @@ import { HinhanhComponent } from 'fe_shop/src/app/shared/hinhanh/hinhanh.compone
 import { environment } from 'fe_shop/src/environments/environment';
 import { EditorComponent, EditorModule } from '@tinymce/tinymce-angular';
 import {MatSnackBar} from '@angular/material/snack-bar';
+import { MenuService } from '../../menu.service';
+import { MenuAdminComponent } from '../menu-admin.component';
 interface AutoCompleteCompleteEvent {
   originalEvent: Event;
   query: string;
 }
 @Component({
-  selector: 'app-menu-chitiet',
-  standalone:true,
+    standalone:true,
   imports:[
     InputTextModule,
     MatSelectModule,
@@ -31,7 +29,6 @@ interface AutoCompleteCompleteEvent {
     CommonModule,
     RouterLink,
     MatButtonModule,
-    MenuComponent,
     ButtonModule,
     DropdownModule,
     AutoCompleteModule,
@@ -40,16 +37,16 @@ interface AutoCompleteCompleteEvent {
     HinhanhComponent,
     EditorModule    
   ],
-  templateUrl: './menu-chitiet.component.html',
-  styleUrls: ['./menu-chitiet.component.css']
+  selector: 'app-menu-admin-chitiet',
+  templateUrl: './menu-admin-chitiet.component.html',
+  styleUrls: ['./menu-admin-chitiet.component.css']
 })
-export class MenuChitietComponent implements OnInit {
+export class MenuAdminChitietComponent implements OnInit {
   route: ActivatedRoute = inject(ActivatedRoute);
-  _MenuComponent: MenuComponent = inject(MenuComponent);
+  _MenuAdminComponent: MenuAdminComponent = inject(MenuAdminComponent);
   _MenuService: MenuService = inject(MenuService);
-  _DanhmucService: DanhmucService = inject(DanhmucService);
   idSP:any;
-  Detail:any={}
+  Detail:any={Title:''}
   Danhmuc:any[]=[]
   filteredDanhmuc:any[]=[]
   constructor(private _snackBar: MatSnackBar) {
@@ -59,15 +56,14 @@ export class MenuChitietComponent implements OnInit {
     if(this.idSP)
     {
     this.Detail = await this._MenuService.getMenuByid(this.idSP)
-    this.Danhmuc = await this._DanhmucService.getAllDanhmuc()
     console.log(this.Detail);
     // console.log(this.Danhmuc);
-    this._MenuComponent.drawer.open()
+    this._MenuAdminComponent.drawer.open()
     }
   }
   CloseDrawer()
   {
-    this._MenuComponent.drawer.close()
+    this._MenuAdminComponent.drawer.close()
   }
   GetUpload(e:any)
   {
@@ -81,7 +77,7 @@ export class MenuChitietComponent implements OnInit {
     this.Detail.ListImage[i] = e
     this._MenuService.UpdateMenu(this.Detail);
   }
-  UpdateMenu()
+  UpdateSanpham()
   {
     this.Detail.Giagoc =  this.Detail.Giagoc.filter((v:any)=>v.loai!==''&&v.gia!==''&&v.dvt!=='')
     this._MenuService.UpdateMenu(this.Detail).then(()=>

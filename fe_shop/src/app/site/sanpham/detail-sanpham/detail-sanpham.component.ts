@@ -6,7 +6,8 @@ import { SanphamService } from 'fe_shop/src/app/admin/main-admin/sanpham/sanpham
 import { GiohangService } from 'fe_shop/src/app/admin/main-admin/website/giohang/giohang.service';
 import { SlideSanphamComponent } from 'fe_shop/src/app/admin/main-admin/website/slide-sanpham/slide-sanpham.component';
 import { ImageModule } from 'primeng/image';
-import {MatSnackBar,} from '@angular/material/snack-bar';
+import {MatSnackBar} from '@angular/material/snack-bar';
+import {MatTabsModule} from '@angular/material/tabs';
 import { ListNotifyType } from 'fe_shop/src/app/shared/shared.utils';
 import { TonkhoAdminService } from 'fe_shop/src/app/admin/main-admin/admin-xnt/admin-tonkho/admin-tonkho.service';
 import Swiper, { Pagination } from 'swiper';
@@ -17,7 +18,8 @@ import Swiper, { Pagination } from 'swiper';
     DecimalPipe,
     SlideSanphamComponent,
     ImageModule,
-    FormsModule
+    FormsModule,
+    MatTabsModule
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   templateUrl: './detail-sanpham.component.html',

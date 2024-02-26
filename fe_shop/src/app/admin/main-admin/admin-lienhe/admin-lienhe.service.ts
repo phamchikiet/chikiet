@@ -62,8 +62,6 @@ export class LienheAdminService {
       }
   }
   async SearchLienheAdmin(SearchParams:any) {
-    console.log(SearchParams);
-    
     try {
       const options = {
         method:'POST',

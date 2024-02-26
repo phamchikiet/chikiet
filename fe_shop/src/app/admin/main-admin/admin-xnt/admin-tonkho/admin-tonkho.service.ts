@@ -77,9 +77,7 @@ export class TonkhoAdminService {
           return console.error(error);
       }
   }
-  async SearchTonkhoAdmin(SearchParams:any) {
-    console.log(SearchParams);
-    
+  async SearchTonkhoAdmin(SearchParams:any) {    
     try {
       const options = {
         method:'POST',

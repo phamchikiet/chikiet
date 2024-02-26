@@ -80,9 +80,7 @@ export class SendemailService {
           return console.error(error);
       }
   }
-  async SearchSendemail(SearchParams:any) {
-    console.log(SearchParams);
-    
+  async SearchSendemail(SearchParams:any) {    
     try {
       const options = {
         method:'POST',

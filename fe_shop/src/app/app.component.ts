@@ -16,7 +16,6 @@ import { SiteCtaComponent } from './admin/main-admin/admin-cta/site-cta/site-cta
     CommonModule,
     NotifierModule,
     AuthModule,
-    SiteCtaComponent
   ],
   providers: [
     AuthService,

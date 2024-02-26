@@ -7,6 +7,7 @@ import { MatMenuModule } from '@angular/material/menu';
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { LienheAdminService } from '../../admin/main-admin/admin-lienhe/admin-lienhe.service';
 import { FormsModule } from '@angular/forms';
+import { SiteCtaComponent } from '../../admin/main-admin/admin-cta/site-cta/site-cta.component';
 @Component({
   selector: 'app-main',
   standalone:true,
@@ -15,7 +16,8 @@ import { FormsModule } from '@angular/forms';
     FooterComponent,
     MatSidenavModule,
     MatMenuModule,
-    FormsModule
+    FormsModule,
+    SiteCtaComponent
   ],
   templateUrl: './main.component.html',
   styleUrls: ['./main.component.css']

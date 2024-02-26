@@ -40,6 +40,7 @@ import { AdminTonkhoComponent } from './admin/main-admin/admin-xnt/admin-tonkho/
 import { AdminTonkhoChitietComponent } from './admin/main-admin/admin-xnt/admin-tonkho/admin-tonkho-chitiet/admin-tonkho-chitiet.component';
 import { DemoComponent } from './admin/main-admin/demo/demo.component';
 import { MenuAdminComponent } from './admin/menu/menu-admin/menu-admin.component';
+import { MenuAdminChitietComponent } from './admin/menu/menu-admin/menu-admin-chitiet/menu-admin-chitiet.component';
 
 export const appRoutes: Route[] = [
     // { path: '', redirectTo: 'trang-chu', pathMatch: 'full' },
@@ -154,6 +155,12 @@ export const appRoutes: Route[] = [
             {
                 path: 'menu',
                 component: MenuAdminComponent,
+                children:[
+                    {
+                        path: ':id',
+                        component: MenuAdminChitietComponent,
+                    },
+                ]
             },
             {
                 path: 'dashboard',

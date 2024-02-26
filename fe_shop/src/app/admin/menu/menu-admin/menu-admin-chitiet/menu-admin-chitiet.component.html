@@ -7,7 +7,7 @@
         </span>
       </a>
       <span class="lg:text-xl text-xs font-semibold">
-        {{Detail.Title}}
+        {{Detail?.Title}}
       </span>
       <button mat-flat-button color="primary" (click)="UpdateSanpham()">Lưu</button>
     </div>
@@ -17,7 +17,7 @@
           (UploadEmit)="GetUpload($event)"></app-hinhanh>
         <div class="flex flex-col space-y-2 w-full overflow-auto p-3">
           <div class="flex flex-nowrap space-x-2">
-            @for (item of Detail.ListImage; track $index) {
+            @for (item of Detail?.ListImage; track $index) {
             <app-hinhanh [Title]="'Hình '+($index+1)" [height]="'h-40'" [width]="'w-40'" [Image]="item"
               (UploadEmit)="GetUploadList($event,$index)"></app-hinhanh>
             }
@@ -25,7 +25,7 @@
         </div>
         <div>
           <button mat-flat-button color="primary">
-            <div class="flex flex-row space-x-2 items-center justify-center" (click)="Detail.ListImage.push({})">
+            <div class="flex flex-row space-x-2 items-center justify-center" (click)="Detail?.ListImage.push({})">
               <span class="material-symbols-outlined text-xl">add_circle</span>
               <span class="text-sm">Thêm Hình</span>
             </div>
