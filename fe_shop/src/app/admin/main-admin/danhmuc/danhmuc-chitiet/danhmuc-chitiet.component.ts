@@ -68,9 +68,7 @@ export class DanhmucChitietComponent implements OnInit {
   }
   GetUpload(e:any)
   {
-    console.log(e.src);
-    
-    this.Detail.Image.Main = e.src
+    this.Detail.Image.Hinhchinh = e
     this._DanhmucService.UpdateDanhmuc(this.Detail);
   }
   GetUploadList(e:any,i:any)
