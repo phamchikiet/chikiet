@@ -143,7 +143,6 @@ export class SanphamComponent implements OnInit {
   applyFilter(event: Event) {
     const value = (event.target as HTMLInputElement).value;
     if (value.length > 2) {
-      this.SearchParams.Query = value
       this.FilterLists = this.Lists.items.filter((v: any) => {
         return v.Title.toLowerCase().includes(value) || v.Mota.toLowerCase().includes(value)
       })
