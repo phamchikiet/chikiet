@@ -81,8 +81,16 @@
                                                                 <path d="m15 9-6 6"></path>
                                                                 <path d="m9 9 6 6"></path>
                                                             </svg></button>
-                                                        <img src="/assets/images/sanpham/{{item.Image.Main}}"
-                                                            class="h-18 w-18">
+                                                            @if(item && item.Image&&item.Image.Thumb)
+                                                            {
+                                                              <img src="assets/images/sanpham/{{item.Image.Thumb}}" class="h-18 w-18 mx-auto">
+                                                            }
+                                                            @else if(item && item.Image&&item.Image.Hinhchinh&&item.Image.Hinhchinh.src){
+                                                              <img src="{{item.Image.Hinhchinh.src}}" class="h-18 w-18 mx-auto">
+                                                            }
+                                                            @else {
+                                                              <img src="assets/images/noimage.png" class="p-3 h-18 w-18 mx-auto rounded-lg">
+                                                            }
                                                         <h4
                                                             class="!flex-wrap !text-wrap text-sm font-medium text-default-800">
                                                             {{item.Title}}({{item?.Giachon?.khoiluong}}{{item?.Giachon?.dvt}})
