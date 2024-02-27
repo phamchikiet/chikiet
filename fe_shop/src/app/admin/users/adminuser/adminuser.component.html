@@ -51,8 +51,8 @@
           </div>
         </div>
         <div>
-          <button mat-flat-button color="primary">
-            <div (click)="openDialog(dialogTemplate)" class="flex flex-row items-center">
+          <button mat-flat-button color="primary" (click)="openDialog(dialogTemplate)">
+            <div class="flex flex-row items-center">
               <span class="material-symbols-outlined">add</span>
               <span class="hidden lg:flex">Thêm Mới</span>
             </div>
@@ -162,28 +162,33 @@
           </div>
   </mat-drawer-content>
 </mat-drawer-container>
+
 <ng-template #dialogTemplate>
-  <div class="min-w-[672px]">
+  <div class="lg:w-[30vw] items-center justify-center p-4">
     <div mat-dialog-title>Thêm Mới</div>
     <div mat-dialog-content>
-      <div class="flex flex-col w-full space-y-4 p-4">
+      <div class="flex flex-col w-full space-y-2 p-2">
         <mat-form-field appearance="outline" class="w-full">
-          <mat-label>Tiêu Đề</mat-label>
-          <input matInput [(ngModel)]="Detail.Tieude" [ngModelOptions]="{standalone: true}" placeholder="Tiêu Đề">
+          <mat-label>Họ Tên</mat-label>
+          <input matInput [(ngModel)]="Detail.Hoten" [ngModelOptions]="{standalone: true}" placeholder="Họ Tên">
         </mat-form-field>
         <mat-form-field appearance="outline" class="w-full">
-          <mat-label>Oldlink</mat-label>
-          <input matInput [(ngModel)]="Detail.Oldlink" [ngModelOptions]="{standalone: true}" placeholder="Oldlink">
+          <mat-label>Số Điện Thoại</mat-label>
+          <input matInput [(ngModel)]="Detail.SDT" [ngModelOptions]="{standalone: true}" placeholder="Số Điện Thoại">
         </mat-form-field>
         <mat-form-field appearance="outline" class="w-full">
-          <mat-label>Newlink</mat-label>
-          <input matInput [(ngModel)]="Detail.Newlink" [ngModelOptions]="{standalone: true}" placeholder="Newlink">
+          <mat-label>Email</mat-label>
+          <input matInput [(ngModel)]="Detail.email" [ngModelOptions]="{standalone: true}" placeholder="Email">
+        </mat-form-field>
+        <mat-form-field appearance="outline" class="w-full">
+          <mat-label>Mật Khẩu</mat-label>
+          <input matInput [(ngModel)]="Detail.password" type="password" [ngModelOptions]="{standalone: true}" placeholder="Mật Khẩu">
         </mat-form-field>
       </div>
     </div>
-    <div mat-dialog-actions class="justify-center">
-      <button mat-button class="bg-red-400 hover:bg-red-600 text-white" mat-dialog-close="false">Huỷ</button>
-      <button mat-button class="bg-blue-400 hover:bg-blue-600 text-white" mat-dialog-close="true">Đồng Ý</button>
+    <div class="flex flex-row space-x-2 items-center justify-center">
+      <button mat-flat-button color="warn" mat-dialog-close="false">Huỷ</button>
+      <button mat-flat-button color="primary" mat-dialog-close="true">Đồng Ý</button>
     </div>
   </div>
 </ng-template>

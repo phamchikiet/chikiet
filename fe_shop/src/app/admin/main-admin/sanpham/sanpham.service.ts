@@ -26,7 +26,7 @@ export class SanphamService {
           'Content-Type': 'application/json',
         },
       };
-    const response = await fetch(`https://sheets.googleapis.com/v4/spreadsheets/1VghpYpLVKug07LJm1-pdcpeQcEoh5VaCOgBvOfQ0-L8/values/Sanpham?key=AIzaSyCWh10EgrjVBm8qKpnsGOgXrIsT5uqroMc`,options);
+    const response = await fetch(`https://sheets.googleapis.com/v4/spreadsheets/1VghpYpLVKug07LJm1-pdcpeQcEoh5VaCOgBvOfQ0-L8/values/sanpham1?key=AIzaSyCWh10EgrjVBm8qKpnsGOgXrIsT5uqroMc`,options);
     const data = await response.json();  
           //this._sanphams.next(data)                 
     return data;
@@ -120,6 +120,8 @@ export class SanphamService {
             throw new Error(`HTTP error! status: ${response.status}`);
           }
           const data = await response.json();  
+          console.log(data);
+          
           return data                
       } catch (error) {
           return console.error(error);

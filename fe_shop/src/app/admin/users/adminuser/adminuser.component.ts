@@ -13,6 +13,7 @@ import { ButtonModule } from 'primeng/button';
 import * as moment from 'moment';
 import { ListRole, groupByfield } from 'fe_shop/src/app/shared/shared.utils';
 import { UsersService } from '../auth/users.service';
+import { MatSnackBar } from '@angular/material/snack-bar';
 @Component({
   selector: 'app-users',
   standalone:true,
@@ -33,7 +34,7 @@ import { UsersService } from '../auth/users.service';
   styleUrls: ['./adminuser.component.css']
 })
 export class AdminuserComponent implements OnInit {
-  Detail: any = {};
+  Detail: any = {password:'123456'};
   Lists: any={}
   FilterLists: any[] = []
   pageSizeOptions: any[] = []
@@ -50,6 +51,7 @@ export class AdminuserComponent implements OnInit {
   @ViewChild('drawer', { static: true }) drawer!: MatDrawer;
   constructor(
     private dialog: MatDialog,
+    private _snackBar: MatSnackBar
   ) {
   }
   async ngOnInit(): Promise<void> {
@@ -79,8 +81,29 @@ export class AdminuserComponent implements OnInit {
     const dialogRef = this.dialog.open(teamplate, {
     });
     dialogRef.afterClosed().subscribe((result) => {
-      if (result) {
-        this._UsersService.CreateUser(this.Detail)
+      if (result=="true") {
+        this._UsersService.CreateUser(this.Detail).then((data)=>
+        {
+          if(data[0])
+          {
+            this._snackBar.open(data[1],'',{
+              horizontalPosition: "end",
+              verticalPosition: "top",
+              panelClass:'success',
+              duration: 2000,
+            });
+          }
+          else
+          {
+            this._snackBar.open(`Lỗi xảy ra : ${data[1]}`,'',{
+              horizontalPosition: "end",
+              verticalPosition: "top",
+              panelClass:'danger',
+              duration: 2000,
+            });
+          }
+
+        })
       }
     });
   }

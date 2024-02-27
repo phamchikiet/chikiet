@@ -105,7 +105,28 @@ export class SanphamComponent implements OnInit {
   async LoadDrive()
   {
    const data =  await this._SanphamService.getDrive();   
-   this.SanphamsDrive = ConvertDriveData(data.values)||0   
+   this.SanphamsDrive = data.values.slice(1).map((row:any) => {
+    return {
+      MaSP: row[0],
+      Title: row[1],
+      Danhmuc: row[2],
+      id_cat:row[6],
+      GiaCoSo: Number(row[3].replace(".", "")),
+      Giagoc:[{
+        MaSP:row[0]+'-1',
+        khoiluong:parseFloat(row[4].replace(/,/g, '.')),
+        gia:Number(row[3].replace(".", ""))*parseFloat(row[4].replace(/,/g, '.')),
+        dvt:row[5]
+      }]
+    };
+  });
+   console.log(this.SanphamsDrive); 
+  }
+  async SyncDrive()
+  {
+    this.SanphamsDrive.forEach((v)=>{
+      this._SanphamService.CreateSanpham(v)
+    })
   }
   GetTenDanhmuc(item: any) {
     return this.ListDanhmuc.find((v: any) => v.id_cat == item)?.Title

@@ -15,8 +15,8 @@ export class FooterComponent implements OnInit {
   Footer:any[]=[
     {id:1,Group:'Lienhe',Title:'CTY TNHH NÔNG SẢN THỰC PHẨM TRẦN GIA',Slug:'#',Ordering:'',Class:'text-[16px] text-[#65b009]'},
     {id:2,Group:'Lienhe',Title:'Địa chỉ: Tầng 3, Tòa nhà An Phú Plaza, 117-119 Lý Chính Thắng, Phường Võ Thị Sáu, Quận 3, TPHCM',Slug:'#',Ordering:''},
-    {id:3,Group:'Lienhe',Title:'Điện thoại: 0868614214',Slug:'#',Ordering:''},
-    {id:4,Group:'Lienhe',Title:'Hotline: 0868614214',Slug:'#',Ordering:''},
+    {id:3,Group:'Lienhe',Title:'Điện thoại: 0865770009',Slug:'#',Ordering:''},
+    {id:4,Group:'Lienhe',Title:'Hotline: 0865770009',Slug:'#',Ordering:''},
     {id:5,Group:'Lienhe',Title:'Email: rausachtrangia@gmail.com',Slug:'#',Ordering:''},
     {id:6,Group:'Vechungtoi',Title:'GIỚI THIỆU',Slug:'#',Ordering:''},
     {id:7,Group:'Vechungtoi',Title:'KHUYẾN MÃI',Slug:'#',Ordering:''},

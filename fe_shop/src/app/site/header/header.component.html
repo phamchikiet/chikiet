@@ -57,7 +57,7 @@
             class="material-symbols-outlined text-red-500 p-2 cursor-pointer rounded-full border hover:bg-red-500 hover:text-white">search</span>
 
         @if(this.Token){
-        <img [src]="User?.Image?.Main||'/assets/images/logo.webp'" class="rounded-full w-10 h-10 border"
+        <img [src]="User?.Image?.Main||'/assets/images/noimage.png'" class="rounded-full w-10 h-10 border"
             [matMenuTriggerFor]="user">
         }
         @else {
