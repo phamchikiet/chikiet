@@ -21,8 +21,7 @@ export class GiohangComponent implements OnInit {
   _GiohangService: GiohangService = inject(GiohangService)
   _ChuongtrinhkhuyenmaiAdminService: ChuongtrinhkhuyenmaiAdminService = inject(ChuongtrinhkhuyenmaiAdminService)
   Donhang: any ={Giohangs:[]}
-  Phivanchuyen: any = 10
-  Giamgia: any = 30
+  Phivanchuyen: any = 0
   constructor(private _snackBar: MatSnackBar) { }
   ngOnInit() {
     this._GiohangService.getDonhang()

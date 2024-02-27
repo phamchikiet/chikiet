@@ -13,7 +13,8 @@
     </div>
         <div class="p-4 grid lg:grid-cols-3 grid-cols-1 gap-4">
           <div>
-            <app-hinhanh [height]="'h-40'" [Image]="{Main:Detail.Image.Main}" (UploadEmit)="GetUpload($event)"></app-hinhanh> 
+            <app-hinhanh [Title]="'Hình Chính'" [height]="'h-60'" [width]="'w-60'" [Image]="Detail?.Image?.Hinhchinh"
+            (UploadEmit)="GetUpload($event)"></app-hinhanh>
           </div>
           <div class="col-span-2 flex flex-col space-y-3">
             <mat-form-field appearance="outline" class="w-full text-xs">

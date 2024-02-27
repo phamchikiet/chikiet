@@ -60,7 +60,13 @@
                                 class="block w-full bg-transparent dark:bg-default-50 rounded-full py-2.5 px-4 border border-default-200"
                                 type="text" placeholder="Vui lòng nhập số điện thoại">
                         </div>
-
+                        <app-diachi-admin  [isSingle]="true" [Diachis]="Diachis" (diachiEmit)="GetDiachi($event)" class="lg:col-span-4" ></app-diachi-admin>
+                        <div class="lg:col-span-4">
+                            <button mat-flat-button color="primary" (click)="UpdatePhiship()">Phí Ship</button>
+                        </div>
+                        <div class="lg:col-span-4">
+                           {{Khoangcach?.distance?.text}}
+                        </div>
                         <!-- <div class="flex items-center">
                             <input id="shipmentAddress"
                                 class="text-primary w-5 h-5 rounded border-default-200 focus:ring-0 bg-transparent"

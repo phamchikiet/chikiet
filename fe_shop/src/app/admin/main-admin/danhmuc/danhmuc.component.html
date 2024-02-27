@@ -69,6 +69,9 @@
                 <thead class="bg-white">
                   <tr>
                     <th scope="col" class="p-4 text-xs font-medium text-left text-gray-500 uppercase lg:p-5">
+                     Hình Ảnh
+                    </th>
+                    <th scope="col" class="p-4 text-xs font-medium text-left text-gray-500 uppercase lg:p-5">
                       Tên Danh Mục
                     </th>
                     <th scope="col" class="p-4 text-xs font-medium text-left text-gray-500 uppercase lg:p-5">
@@ -82,6 +85,20 @@
                 <tbody class="bg-white divide-y divide-gray-200">
                   @for (item of FilterLists; track $index) {
                     <tr class="hover:bg-gray-100">
+                      <td class="p-4 text-sm font-normal text-gray-500 whitespace-nowrap lg:p-5">
+                        <div class="text-base font-semibold text-gray-900">
+                          @if(item && item.Image&&item.Image.Thumb)
+                          {
+                            <img src="assets/images/sanpham/{{item.Image.Thumb}}" class="w-20">
+                          }
+                          @else if(item && item.Image&&item.Image.Hinhchinh&&item.Image.Hinhchinh.src){
+                            <img src="{{item.Image.Hinhchinh.src}}" class="w-20">
+                          }
+                          @else {
+                            <img src="assets/images/noimage.png" class="p-3 max-w-20 mx-auto rounded-lg">
+                          }
+                        </div>
+                      </td>
                       <td class="p-4 text-sm font-normal text-gray-500 whitespace-nowrap lg:p-5">
                         <a routerLink="{{item.id}}" class="text-base font-semibold text-gray-900">{{item.Title}}</a>
                         <div class="text-sm font-normal text-gray-500">{{item.Slug}}</div>

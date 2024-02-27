@@ -10,13 +10,19 @@ import { FormsModule } from '@angular/forms';
 import {MatRadioModule} from '@angular/material/radio';
 import { SendemailService } from 'fe_shop/src/app/sendemail/sendemail-admin/sendemail.service';
 import { SlideSanphamComponent } from '../slide-sanpham/slide-sanpham.component';
+import { DiachiAdminComponent } from '../../../diachi/diachi-admin/diachi-admin.component';
+import { MatButtonModule } from '@angular/material/button';
+import { ThanhtoanService } from './thanhtoan.service';
 @Component({
   selector: 'app-thanhtoan',
   standalone:true,
-  imports:[DecimalPipe,
+  imports:[
+    DecimalPipe,
     FormsModule,
     MatRadioModule,
-    SlideSanphamComponent
+    SlideSanphamComponent,
+    DiachiAdminComponent,
+    MatButtonModule
   ],
   templateUrl: './thanhtoan.component.html',
   styleUrls: ['./thanhtoan.component.css']
@@ -26,11 +32,14 @@ export class ThanhtoanComponent implements OnInit {
   _GiohangService: GiohangService = inject(GiohangService)
   _NotifierService: NotifierService = inject(NotifierService)
   _SendemailService: SendemailService = inject(SendemailService)
-  Phivanchuyen: any = 10
+  _ThanhtoanService: ThanhtoanService = inject(ThanhtoanService)
+  Phivanchuyen: any = 0
+  Khoangcach: any = {}
   Giamgia: any = 30
   ListNotifyType:any=ListNotifyType
   Notify:any={}
   Donhang:any={}
+  Diachis:any[]=[]
   constructor(private _snackBar: MatSnackBar) { }
 
   ngOnInit() {
@@ -40,6 +49,15 @@ export class ThanhtoanComponent implements OnInit {
       this.Donhang = data
       this.Donhang.Khachhang = {Hoten:"test",Diachi:"test",Email:"chikiet88@gmail.com",SDT:"0987654321"}
     })
+  }
+  GetDiachi(value:any)
+  { 
+    this.Donhang.Diachis = value
+    const Diachi  = value.find((v:any)=>v.Active==true)  
+    if(Diachi)
+    {
+      this.Donhang.Khachhang.Diachi = `${Diachi.Diachi} , ${Diachi.Phuong} , ${Diachi.Quan} , ${Diachi.Tinh}`
+    }
   }
   GetTotal(data: any, field: any, field1: any) {    
     if (field1) {
@@ -126,7 +144,12 @@ export class ThanhtoanComponent implements OnInit {
       })
 
     }
-
+  }
+  async UpdatePhiship()
+  {
+    this.Khoangcach = await this._ThanhtoanService.getPhiship(this.Donhang.Khachhang.Diachi)
+    console.log(this.Khoangcach);
+    
   }
 
 }
