@@ -6,7 +6,17 @@
         <div class="swiper-wrapper pb-16">
           @for (item of ListsSanpham; track $index) {
             <a href="san-pham/{{item.Slug}}" class="swiper-slide flex flex-col justify-center space-y-2">
-              <img src="/assets/images/sanpham/{{item.Image.Main}}" class="w-full" />
+              @if(item && item.Image&&item.Image.Thumb)
+              {
+                <img src="assets/images/sanpham/{{item.Image.Thumb}}" class="w-full">
+              }
+              @else if(item && item.Image&&item.Image.Hinhchinh&&item.Image.Hinhchinh.src){
+                <img src="{{item.Image.Hinhchinh.src}}" class="w-full">
+              }
+              @else {
+                <img src="assets/images/noimage.png" class="p-3 w-full rounded-lg">
+              }
+              <!-- <img src="/assets/images/sanpham/{{item.Image.Main}}" class="w-full" /> -->
               <span class="text-sm">{{item.Danhmuc}}</span>
             </a>
           }

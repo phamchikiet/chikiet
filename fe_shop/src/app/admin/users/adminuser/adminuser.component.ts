@@ -58,7 +58,7 @@ export class AdminuserComponent implements OnInit {
     this.Lists = await this._UsersService.SearchUser(this.SearchParams)
     this.FilterLists = this.Lists.items
     this.pageSizeOptions = [10, 20, this.Lists.totalCount].filter(v => v <= this.Lists.totalCount);
-     console.log(this.FilterLists);
+    //  console.log(this.FilterLists);
   }
   applyFilter(event: Event) {
     const value = (event.target as HTMLInputElement).value;
