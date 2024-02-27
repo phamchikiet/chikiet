@@ -48,6 +48,7 @@ export class DonhangAdminComponent implements OnInit {
   sidebarVisible: boolean = false;
   ListTrangThaiDonhang:any=ListTrangThaiDonhang
   _GiohangService:GiohangService = inject(GiohangService)
+  SelectItem: any = {}
   @ViewChild('drawer', { static: true }) drawer!: MatDrawer;
   constructor(
     private dialog: MatDialog,
@@ -167,4 +168,13 @@ export class DonhangAdminComponent implements OnInit {
         });
       })
      }
+     XoaDialog(teamplate: TemplateRef<any>): void {
+      const dialogRef = this.dialog.open(teamplate, {
+      });
+      dialogRef.afterClosed().subscribe((result) => {
+        if (result == 'true') {
+         // this._GiohangService.(this.SelectItem).then(() => this.ngOnInit())
+        }
+      });
+    }
 }
