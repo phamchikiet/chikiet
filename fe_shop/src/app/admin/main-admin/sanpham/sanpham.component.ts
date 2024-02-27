@@ -56,9 +56,7 @@ export class SanphamComponent implements OnInit {
   pageSizeOptions: any[] = []
   Sitemap: any = { loc: '', priority: '' }
   SearchParams: any = {
-    // Batdau:moment().startOf('day').add(-1,'day').toDate(),
-    // Ketthuc: moment().endOf('day').toDate(),
-    pageSize: 10,
+    pageSize: 9999,
     pageNumber: 0
   };
   sidebarVisible: boolean = false;
@@ -145,6 +143,7 @@ export class SanphamComponent implements OnInit {
   applyFilter(event: Event) {
     const value = (event.target as HTMLInputElement).value;
     if (value.length > 2) {
+      this.SearchParams.Query = value
       this.FilterLists = this.Lists.items.filter((v: any) => {
         return v.Title.toLowerCase().includes(value) || v.Mota.toLowerCase().includes(value)
       })
