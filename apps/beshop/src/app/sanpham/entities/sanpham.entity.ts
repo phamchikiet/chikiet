@@ -19,6 +19,8 @@ export class SanphamEntity {
   @Column({ type: 'text', collation: 'utf8_general_ci' })
   Danhmuc: string;
   @Column({ type: 'text', collation: 'utf8_general_ci' })
+  MaSP: string;
+  @Column({ type: 'text', collation: 'utf8_general_ci' })
   SKU: string;
   @Column({ type: 'text', collation: 'utf8_general_ci' })
   Mota: string;
@@ -26,6 +28,8 @@ export class SanphamEntity {
   Noidung: string;
   @Column({ default: '' })
   Slug: string;
+  @Column({ type: 'bigint' })
+  GiaCoSo: number;
   @Column({collation: "utf8_general_ci",type:"simple-json",default: () => "('{}')" })
   Giachon: string;
   @Column({collation: "utf8_general_ci",type:"simple-json",default: () => "('[]')" })

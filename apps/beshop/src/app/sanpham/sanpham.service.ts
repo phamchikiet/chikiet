@@ -43,6 +43,8 @@ export class SanphamService {
     };
   }
   async findQuery(params: any) {
+    console.log(params);
+    
     const queryBuilder = this.SanphamRepository.createQueryBuilder('sanpham');
     if (params.hasOwnProperty('Danhmuc')) {
       const userIdsToFind = params.Danhmuc;
