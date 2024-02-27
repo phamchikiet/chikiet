@@ -69,7 +69,7 @@ export class AdminTonkhoChitietComponent implements OnInit {
           horizontalPosition: "end",
           verticalPosition: "top",
           panelClass:'success',
-          duration: 2000,
+          duration: 1000,
         });
       })
   }

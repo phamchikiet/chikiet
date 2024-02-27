@@ -47,7 +47,7 @@ export class ProfileComponent implements OnInit {
         horizontalPosition: "end",
         verticalPosition: "top",
         panelClass:'success',
-        duration: 2000,
+        duration: 1000,
       });
     });;
   }
@@ -58,7 +58,7 @@ export class ProfileComponent implements OnInit {
         horizontalPosition: "end",
         verticalPosition: "top",
         panelClass:'success',
-        duration: 2000,
+        duration: 1000,
       });
     });
   }

@@ -90,7 +90,7 @@ export class AdminuserComponent implements OnInit {
               horizontalPosition: "end",
               verticalPosition: "top",
               panelClass:'success',
-              duration: 2000,
+              duration: 1000,
             });
           }
           else
@@ -99,7 +99,7 @@ export class AdminuserComponent implements OnInit {
               horizontalPosition: "end",
               verticalPosition: "top",
               panelClass:'danger',
-              duration: 2000,
+              duration: 1000,
             });
           }
 

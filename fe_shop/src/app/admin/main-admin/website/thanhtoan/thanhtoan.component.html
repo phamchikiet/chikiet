@@ -61,12 +61,12 @@
                                 type="text" placeholder="Vui lòng nhập số điện thoại">
                         </div>
                         <app-diachi-admin  [isSingle]="true" [Diachis]="Diachis" (diachiEmit)="GetDiachi($event)" class="lg:col-span-4" ></app-diachi-admin>
-                        <div class="lg:col-span-4">
+                        <!-- <div class="lg:col-span-4">
                             <button mat-flat-button color="primary" (click)="UpdatePhiship()">Phí Ship</button>
                         </div>
                         <div class="lg:col-span-4">
-                           {{Khoangcach?.distance?.text}}
-                        </div>
+                           {{Khoangcach?.text}}
+                        </div> -->
                         <!-- <div class="flex items-center">
                             <input id="shipmentAddress"
                                 class="text-primary w-5 h-5 rounded border-default-200 focus:ring-0 bg-transparent"
@@ -182,7 +182,17 @@
                     <h4 class="!text-xl !font-semibold text-default-700 mb-5">Tóm tắt đơn hàng</h4>
                     @for (item of Donhang.Giohangs; track $index) {
                     <div class="flex items-center mb-4">
-                        <img src="/assets/images/sanpham/{{item.Image.Main}}" class="h-20 w-20 me-2">
+                        @if(item && item.Image&&item.Image.Thumb)
+                        {
+                          <img src="assets/images/sanpham/{{item.Image.Thumb}}" class="h-20 w-20 me-2">
+                        }
+                        @else if(item && item.Image&&item.Image.Hinhchinh&&item.Image.Hinhchinh.src){
+                          <img src="{{item.Image.Hinhchinh.src}}" class="h-20 w-20 me-2">
+                        }
+                        @else {
+                          <img src="assets/images/noimage.png" class="p-3 h-20 w-20 me-2 rounded-lg">
+                        }
+                        <!-- <img src="/assets/images/sanpham/{{item.Image.Main}}" class="h-20 w-20 me-2"> -->
                         <div>
                             <h4 class="text-sm text-default-600 mb-2">
                                 {{item.Title}}({{item?.Giachon?.khoiluong}}{{item?.Giachon?.dvt}})</h4>
@@ -197,24 +207,30 @@
                         <div class="flex justify-between mb-3">
                             <p class="text-sm text-default-500">Tổng</p>
                             <p class="text-sm text-default-700 font-medium">
-                                {{this.Donhang.Total|
+                                {{Donhang.Total|
                                 number:'1.0-0'||'0'}}đ</p>
                         </div>
                         <div class="flex justify-between mb-3">
                             <p class="text-sm text-default-500">Phí Vận Chuyển</p>
-                            <p class="text-sm text-default-700 font-medium">{{(Phivanchuyen| number:'1.0-0')||'0'}}đ</p>
+                            <p class="flex flex-col text-sm text-default-700 font-medium">
+                                <span>{{(Donhang.Phivanchuyen| number:'1.0-0')||'0'}}đ</span>
+                                @if(Khoangcach&&Khoangcach.distance&&Khoangcach.distance.text)
+                                {
+                                    <span class="text-xs italic text-red-500">({{Khoangcach?.distance?.text}})</span>
+                                }
+                            </p>
                         </div>
                         <div class="flex justify-between mb-3">
                             <p class="text-sm text-default-500">Giảm giá</p>
-                            @if(this.Donhang.Giamgia>0)
+                            @if(Donhang.Giamgia>0)
                             {
                             <p class="text-sm text-default-700 font-medium text-red-500">
-                                - {{(this.Donhang.Giamgia| number:'1.0-0')||'0'}}đ
+                                - {{(Donhang.Giamgia| number:'1.0-0')||'0'}}đ
                             </p>
                             }
                             @else {
                             <p class="text-sm text-default-700 font-medium">
-                                {{(this.Donhang.Giamgia| number:'1.0-0')||'0'}}đ
+                                {{(Donhang.Giamgia| number:'1.0-0')||'0'}}đ
                             </p>
                             }
                         </div>
@@ -230,9 +246,11 @@
                             </p>
                         </div>
                     </div>
-                    <a (click)="Xacnhandonhang(customSnackbar)"
-                        class="w-full inline-flex items-center justify-center rounded-full border border-primary bg-primary px-10 py-3 text-center text-sm font-medium text-white shadow-sm transition-all duration-500 hover:bg-primary-500">Xác
-                        Nhận</a>
+                    m
+                    <button disabled (click)="Xacnhandonhang(customSnackbar)"
+                        class="w-full hover:scale-[101%] inline-flex items-center justify-center rounded-full border border-primary bg-primary px-10 py-3 text-center text-sm font-medium text-white shadow-sm transition-all duration-500 hover:bg-primary-500">
+                        Xác Nhận   <svg class="animate-spin h-5 w-5 mr-3 ..." viewBox="0 0 24 24"></svg>
+                    </button>
                 </div>
             </div>
             <app-slide-sanpham [Sohang]="1" [Title]="'Sản Phẩm Gợi Ý'" class="lg:col-span-3"></app-slide-sanpham>

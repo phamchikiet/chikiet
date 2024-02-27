@@ -57,7 +57,7 @@ export class GiohangComponent implements OnInit {
         horizontalPosition: "end",
         verticalPosition: "top",
         panelClass:'success',
-        duration: 2000,
+        duration: 1000,
       });
     })
   }
@@ -70,7 +70,7 @@ export class GiohangComponent implements OnInit {
         horizontalPosition: "end",
         verticalPosition: "top",
         panelClass:'success',
-        duration: 2000,
+        duration: 1000,
       });
     })
   }
@@ -86,7 +86,7 @@ export class GiohangComponent implements OnInit {
         horizontalPosition: "end",
         verticalPosition: "top",
         panelClass:'success',
-        duration: 2000,
+        duration: 1000,
       });
     })
     }
@@ -104,7 +104,7 @@ export class GiohangComponent implements OnInit {
           horizontalPosition: "end",
           verticalPosition: "top",
           panelClass:'success',
-          duration: 2000,
+          duration: 1000,
         });  
       })
 
@@ -118,7 +118,7 @@ export class GiohangComponent implements OnInit {
         horizontalPosition: "end",
         verticalPosition: "top",
         panelClass:'danger',
-        duration: 2000,
+        duration: 1000,
       });
     }    
   }

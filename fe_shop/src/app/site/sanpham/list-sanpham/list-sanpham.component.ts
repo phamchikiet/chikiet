@@ -169,7 +169,7 @@ RemoveFilter(item:any)
         horizontalPosition: "end",
         verticalPosition: "top",
         panelClass:'success',
-        duration: 2000,
+        duration: 1000,
       });
     })
   }
