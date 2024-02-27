@@ -140,4 +140,10 @@ export class SanphamChitietComponent implements OnInit {
       return promise;
     }, 
   };
+  UpdateGia()
+  {
+    this.Detail.Giagoc.forEach((v:any,key:any) => {
+      this.Detail.Giagoc[key].gia = this.Detail.Giagoc[key].khoiluong*this.Detail.GiaCoSo
+    });
+  }
 }

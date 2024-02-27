@@ -71,8 +71,8 @@
           </div>
           <div class="lg:col-span-2 font-bold">
             <mat-form-field appearance="outline" class="w-full text-xs">
-              <mat-label>Giá Cơ Sở</mat-label>
-              <input [(ngModel)]="Detail.GiaCoSo" [ngModelOptions]="{standalone: true}" type="text" matInput
+              <mat-label>Giá Cơ Sở </mat-label>
+              <input (input)="UpdateGia()" [(ngModel)]="Detail.GiaCoSo" [ngModelOptions]="{standalone: true}" type="text" matInput
                 class="w-full px-3 py-2 border border-gray-200 rounded" [placeholder]="'Giá Cơ Sở'">
                 <mat-hint class="text-red-500">{{Detail.GiaCoSo|number:'1.0-2'||0}}đ</mat-hint>
             </mat-form-field>
@@ -90,7 +90,7 @@
           </mat-form-field>
           <mat-form-field appearance="outline" class="w-full text-xs">
             <mat-label>Giá</mat-label>
-            <input [(ngModel)]="Detail.Giagoc[$index].gia" [ngModelOptions]="{standalone: true}" type="text" matInput
+            <input disabled [(ngModel)]="Detail.Giagoc[$index].gia" [ngModelOptions]="{standalone: true}" type="text" matInput
               class="w-full px-3 py-2 border border-gray-200 rounded" [placeholder]="'Giá'">
             <mat-hint class="text-red-500">{{Detail.Giagoc[$index].gia|number:'1.0-2'||0}}đ</mat-hint>
           </mat-form-field>
