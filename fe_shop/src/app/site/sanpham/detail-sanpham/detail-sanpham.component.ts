@@ -63,6 +63,7 @@ export class DetailSanphamComponent implements OnInit {
   Slug:any
   Soluong:any=1
   ListNotifyType:any=ListNotifyType
+  SelectImage:any='assets/images/noimage.png'
   constructor(
     private _snackBar: MatSnackBar,
     private dialog:MatDialog
@@ -137,8 +138,6 @@ export class DetailSanphamComponent implements OnInit {
     });
   }
   ZoomImage(teamplate: TemplateRef<any>): void {
-    console.log("abcdef");
-    
     const dialogRef = this.dialog.open(teamplate, {
     });
     dialogRef.afterClosed().subscribe(() => {

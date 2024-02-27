@@ -50,29 +50,22 @@
                             @for (item of Detail?.ListImage; track $index) {
                             <swiper-slide class="p-2 border rounded-lg">
                                 @if(item && item.src){
-                                <img src="{{item.src}}" class="w-80 mx-auto" (click)="ZoomImage(dialogZoom)">
+                                <img src="{{item.src}}" class="w-80 mx-auto" (click)="ZoomImage(dialogZoom);SelectImage=item.src">
                                 }
                                 @else{
-                                <img src="assets/images/noimage.png" class="p-3 max-w-32 mx-auto rounded-lg" (click)="ZoomImage(dialogZoom)">
+                                <img src="assets/images/noimage.png" class="p-3 max-w-32 mx-auto rounded-lg"
+                                    (click)="ZoomImage(dialogZoom)">
                                 }
                             </swiper-slide>
                             }
                             }
-                            @else if(Detail&&Detail.Image&&Detail.Image.Main){
+                            @else if(Detail&&Detail.Image&&Detail.Image.Hinhchinh&&Detail.Image.Hinhchinh.src){
                             <swiper-slide class="p-2 border rounded-lg">
-                                <img src="assets/images/sanpham/{{ Detail?.Image?.Main }}" (click)="ZoomImage(dialogZoom)"/>
+                                <img src="{{Detail.Image.Hinhchinh.src}}" class="p-16 mx-auto rounded-lg" 
+                                (click)="ZoomImage(dialogZoom);SelectImage=Detail.Image.Hinhchinh.src">
                             </swiper-slide>
-                            <!-- <swiper-slide class="p-2 border rounded-lg">
-                                <img src="assets/images/sanpham/{{ Detail?.Image?.Main }}" />
-                            </swiper-slide>
-                            <swiper-slide class="p-2 border rounded-lg">
-                                <img src="assets/images/sanpham/{{ Detail?.Image?.Main }}" />
-                            </swiper-slide>
-                            <swiper-slide class="p-2 border rounded-lg">
-                                <img src="assets/images/sanpham/{{ Detail?.Image?.Main }}" />
-                            </swiper-slide> -->
                             }
-                            @else{
+                            @else {
                             <img src="assets/images/noimage.png" class="p-16 mx-auto rounded-lg">
                             }
                         </swiper-container>
@@ -86,7 +79,7 @@
                             @for (item of Detail?.ListImage; track $index) {
                             <swiper-slide class="p-2 border rounded-lg">
                                 @if(item && item.src){
-                                <img src="{{item.src}}" class="w-20">
+                                <img src="{{item.src}}" class="w-20" (click)="ZoomImage(dialogZoom);SelectImage=item.src">
                                 }
                                 @else{
                                 <img src="assets/images/noimage.png" class="p-3 max-w-32 mx-auto rounded-lg">
@@ -94,23 +87,14 @@
                             </swiper-slide>
                             }
                             }
-                            @else if(Detail&&Detail.Image&&Detail.Image.Main){
-                            <swiper-slide class="p-2 border rounded-lg">
-                                <img src="assets/images/sanpham/{{ Detail?.Image?.Main }}" />
-                            </swiper-slide>
-                            <swiper-slide class="p-2 border rounded-lg">
-                                <img src="assets/images/sanpham/{{ Detail?.Image?.Main }}" />
-                            </swiper-slide>
-                            <swiper-slide class="p-2 border rounded-lg">
-                                <img src="assets/images/sanpham/{{ Detail?.Image?.Main }}" />
-                            </swiper-slide>
-                            <swiper-slide class="p-2 border rounded-lg">
-                                <img src="assets/images/sanpham/{{ Detail?.Image?.Main }}" />
-                            </swiper-slide>
-                            }
+                            <!-- @else if(Detail&&Detail.Image&&Detail.Image.Hinhchinh&&Detail.Image.Hinhchinh.src){
+                                <swiper-slide class="p-2 border rounded-lg">
+                                    <img src="{{Detail.Image.Hinhchinh.src}}" class="p-16 mx-auto rounded-lg">
+                                </swiper-slide>
+                              }
                             @else{
                             <img src="assets/images/noimage.png" class="p-16 mx-auto rounded-lg">
-                            }
+                            } -->
                         </swiper-container>
                     </div>
                 </div>
@@ -190,134 +174,6 @@
                 </div>
             </mat-tab>
         </mat-tab-group>
-
-        <!-- <div class="mb-4 border-b border-gray-200 dark:border-gray-700">
-            <ul class="flex flex-wrap -mb-px text-sm font-medium text-center" id="default-tab"
-                data-tabs-toggle="#default-tab-content" role="tablist">
-                <li class="me-2" role="presentation">
-                    <button class="inline-block p-4 border-b-2 rounded-t-lg" id="profile-tab"
-                        data-tabs-target="#profile" type="button" role="tab" aria-controls="profile"
-                        aria-selected="false">
-                        Chi Tiết
-                    </button>
-                </li>
-                <li class="me-2" role="presentation">
-                    <button
-                        class="inline-block p-4 border-b-2 rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300"
-                        id="dashboard-tab" data-tabs-target="#dashboard" type="button" role="tab"
-                        aria-controls="dashboard" aria-selected="false">
-                        Đánh Giá Và Xếp Hạng
-                    </button>
-                </li>
-            </ul>
-        </div>
-        <div id="default-tab-content">
-            <div class="hidden p-4 rounded-lg bg-gray-50 dark:bg-gray-800" id="profile" role="tabpanel"
-                aria-labelledby="profile-tab">
-                <p class="text-gray-500 dark:text-gray-400" [innerHTML]="Detail?.Noidung">
-                    ádasdasd
-                </p>
-                fdsfsdfdsfsdf
-            </div>
-            <div class="hidden p-4 rounded-lg bg-gray-50 dark:bg-gray-800" id="dashboard" role="tabpanel"
-                aria-labelledby="dashboard-tab">
-                <div class="pb-6 md:pb-7 leading-7 text-sm text-gray-600">
-                    <span>Để lại đánh giá</span>
-                    <span> Các trường bắt buộc được đánh dấu *</span>
-                    <form class="w-full mx-auto flex flex-col justify-center mt-6 lg:mt-8" novalidate="">
-                        <div class="flex flex-col space-y-5 md:space-y-6 lg:space-y-7">
-                            <div class="pb-1.5">
-                                <label
-                                    class="block text-gray-600 font-semibold text-sm leading-none mb-3 cursor-pointer">
-                                    Đánh giá của bạn *</label>
-                                <div class="react-stars-wrapper-09566990210754651" style="display: flex">
-                                    <div tabindex="0"
-                                        aria-label="add rating by typing an integer from 0 to 5 or pressing arrow keys"
-                                        class="undefined react-stars" style="overflow: hidden; position: relative">
-                                        <span class="" data-index="0" data-forhalf="★" style="
-                        position: relative;
-                        overflow: hidden;
-                        cursor: pointer;
-                        display: block;
-                        float: left;
-                        color: rgb(198, 198, 198);
-                        font-size: 20px;
-                      ">★</span><span class="" data-index="1" data-forhalf="★" style="
-                        position: relative;
-                        overflow: hidden;
-                        cursor: pointer;
-                        display: block;
-                        float: left;
-                        color: rgb(198, 198, 198);
-                        font-size: 20px;
-                      ">★</span><span class="" data-index="2" data-forhalf="★" style="
-                        position: relative;
-                        overflow: hidden;
-                        cursor: pointer;
-                        display: block;
-                        float: left;
-                        color: rgb(198, 198, 198);
-                        font-size: 20px;
-                      ">★</span><span class="" data-index="3" data-forhalf="★" style="
-                        position: relative;
-                        overflow: hidden;
-                        cursor: pointer;
-                        display: block;
-                        float: left;
-                        color: rgb(198, 198, 198);
-                        font-size: 20px;
-                      ">★</span><span class="" data-index="4" data-forhalf="★" style="
-                        position: relative;
-                        overflow: hidden;
-                        cursor: pointer;
-                        display: block;
-                        float: left;
-                        color: rgb(198, 198, 198);
-                        font-size: 20px;
-                      ">★</span>
-                                        <p role="status" style="position: absolute; left: -200rem">
-                                            0
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="grid lg:grid-cols-2 gap-4">
-                                <div class="lg:col-span-1 col-span-2">
-                                    <label for="name"
-                                        class="block text-gray-600 font-semibold text-sm leading-none mb-3 cursor-pointer">
-                                        Họ Tên *
-                                    </label>
-                                    <input id="name" name="name" type="text" placeholder=""
-                                        class="py-2 px-4 md:px-5 w-full appearance-none transition duration-150 ease-in-out border text-input text-xs lg:text-sm font-body placeholder-body min-h-12 bg-white border-gray-300 focus:outline-none focus:border-heading h-11 md:h-12 rounded-md"
-                                        autocomplete="off" spellcheck="false" aria-invalid="false" />
-                                </div>
-                                <div class="lg:col-span-1 col-span-2">
-                                    <label for="email"
-                                        class="block text-gray-600 font-semibold text-sm leading-none mb-3 cursor-pointer">Email
-                                        *</label><input id="email" name="email" type="email" placeholder=""
-                                        class="py-2 px-4 md:px-5 w-full appearance-none transition duration-150 ease-in-out border text-input text-xs lg:text-sm font-body placeholder-body min-h-12 bg-white border-gray-300 focus:outline-none focus:border-heading h-11 md:h-12 rounded-md"
-                                        autocomplete="off" spellcheck="false" aria-invalid="false" />
-                                </div>
-
-                                <label for="message"
-                                    class="block text-gray-600 font-semibold text-sm leading-none mb-3">
-                                    Nội dung *</label>
-
-                                <textarea id="message" name="message"
-                                    class="col-span-2 px-4 py-3 flex items-center w-full rounded appearance-none transition duration-300 ease-in-out text-heading text-sm focus:ring-0 bg-white border border-gray-300 focus:shadow focus:outline-none focus:border-heading placeholder-body"
-                                    autocomplete="off" spellcheck="false" rows="4" placeholder=""></textarea>
-                            </div>
-                            <div>
-                                <button
-                                    class="inline-flex items-center justify-center rounded-full border border-primary bg-primary px-10 py-3 text-center text-sm font-medium text-white shadow-sm transition-all duration-500 hover:bg-primary-500">
-                                    Vui Lòng Đăng Nhập
-                                </button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div> -->
     </div>
 </section>
 
@@ -330,12 +186,12 @@
 <ng-template #dialogZoom>
     <div class="!relative lg:h-[90vh] lg:w-[90vw]">
         <div class="relative flex flex-col space-y-2 p-3">
-            <img src="assets/images/sanpham/{{ Detail?.Image?.Main }}" class="mx-auto p-4"/>
+            <img [src]="SelectImage" class="mx-auto p-4" />
         </div>
         <div mat-dialog-actions class="!absolute top-0 right-2">
             <span class="material-symbols-outlined" mat-dialog-close="false">
                 cancel
-                </span>
+            </span>
         </div>
     </div>
 </ng-template>
