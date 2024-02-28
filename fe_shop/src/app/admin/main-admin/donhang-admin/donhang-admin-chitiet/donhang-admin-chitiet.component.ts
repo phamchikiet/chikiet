@@ -9,6 +9,7 @@ import { DonhangAdminComponent } from '../donhang-admin.component';
 import { GiohangService } from '../../website/giohang/giohang.service';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { ForminAdminComponent } from 'fe_shop/src/formin/formin-admin/formin-admin.component';
+import { TimelineDonhangComponent } from 'fe_shop/src/app/shared/timeline-donhang/timeline-donhang.component';
 @Component({
   selector: 'app-donhang-admin-chitiet',
   standalone:true,
@@ -21,7 +22,8 @@ import { ForminAdminComponent } from 'fe_shop/src/formin/formin-admin/formin-adm
     MatButtonModule,
     DonhangAdminComponent,
     MatDialogModule,
-    ForminAdminComponent
+    ForminAdminComponent,
+    TimelineDonhangComponent
   ],
   templateUrl: './donhang-admin-chitiet.component.html',
   styleUrls: ['./donhang-admin-chitiet.component.css']
