@@ -170,7 +170,7 @@ export class ThanhtoanComponent implements OnInit {
           });
         }
         else {
-          this.Donhang.Vanchuyen.Phivanchuyen = (this.Khoangcach.distance.value* 5000);
+          this.Donhang.Vanchuyen.Phivanchuyen = (this.Khoangcach.distance.value* 5);
           // this.Donhang.Vanchuyen.Phivanchuyen = ((((this.Khoangcach.distance.value - 2000) / 1000) * 5000) + 18000);
           this.Donhang.Vanchuyen.value = this.Khoangcach.distance.value
           this.Donhang.Vanchuyen.text = this.Khoangcach.distance.text
