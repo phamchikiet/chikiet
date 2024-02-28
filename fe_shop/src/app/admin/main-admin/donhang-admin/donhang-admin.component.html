@@ -125,10 +125,10 @@
                     <td class="p-4 text-sm font-normal text-gray-500 whitespace-nowrap lg:p-5 text-end">
                       <div>{{(item?.Giohangs?.Total| number:'1.0-0')||'0'}}đ</div>
                     </td>
-                    <td class="p-4 text-sm font-normal text-gray-500 whitespace-nowrap lg:p-5">
-                      <div>{{item?.Giohangs?.Khachhang?.Diachi}}</div>
+                    <td class="p-4 text-sm font-normal text-gray-500 lg:p-5">
+                      <div>{{item?.Giohangs?.Khachhang.Diachi}}</div>
                     </td>
-                    <td class="p-4 text-xs">
+                    <td class="p-4 text-xs whitespace-nowrap">
                       <span class="p-2 rounded-lg {{GetStatus(item.Status,'Class')}}" [matMenuTriggerFor]="menu">{{GetStatus(item.Status,'Title')}}</span>  
                       <mat-menu #menu="matMenu">
                         <div class="flex flex-col space-y-2 p-3">
