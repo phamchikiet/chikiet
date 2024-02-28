@@ -157,8 +157,8 @@ export class ThanhtoanComponent implements OnInit {
         });
       }
       else {
-        if (this.Khoangcach.distance.value <= 2000) {
-          this.Donhang.Vanchuyen.Phivanchuyen = 18000
+        if (this.Khoangcach.distance.value <= 4000) {
+          this.Donhang.Vanchuyen.Phivanchuyen = 20000
           this.Donhang.Vanchuyen.value = this.Khoangcach.distance.value
           this.Donhang.Vanchuyen.text = this.Khoangcach.distance.text
           this._GiohangService.getDonhang()
@@ -170,7 +170,8 @@ export class ThanhtoanComponent implements OnInit {
           });
         }
         else {
-          this.Donhang.Vanchuyen.Phivanchuyen = ((((this.Khoangcach.distance.value - 2000) / 1000) * 5000) + 18000);
+          this.Donhang.Vanchuyen.Phivanchuyen = (this.Khoangcach.distance.value* 5000);
+          // this.Donhang.Vanchuyen.Phivanchuyen = ((((this.Khoangcach.distance.value - 2000) / 1000) * 5000) + 18000);
           this.Donhang.Vanchuyen.value = this.Khoangcach.distance.value
           this.Donhang.Vanchuyen.text = this.Khoangcach.distance.text
           this._GiohangService.getDonhang()

@@ -9,7 +9,7 @@ export class ThanhtoanService {
   private _thanhtoan: BehaviorSubject<any | null> = new BehaviorSubject<any | null>(null);
   constructor() {}
   async getPhiship(to:any) {    
-    const from = "30 Kha Vạn Cân, Hiệp Bình Chánh, Thủ đức,TP Hồ Chí Minh"
+    const from = "119 Lý Chính Thắng, Phường Võ Thị Sáu, Quận 3, TPHCM"
     try {
       const options = {
         method:'GET',
