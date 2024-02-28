@@ -232,7 +232,7 @@ export class GiohangService {
             const data = await response.json();
             console.log(data);
             // this._donhang.next({ Giohangs: [] })
-            // this._LocalStorageService.removeItem('Donhang')
+            this._LocalStorageService.removeItem('Donhang')
             return data
         } catch (error) {
             return console.error(error);
