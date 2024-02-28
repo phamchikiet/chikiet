@@ -39,7 +39,7 @@
                             <label class="block text-sm text-default-700 mb-2">Họ Tên *</label>
                             <input [(ngModel)]="Donhang.Khachhang.Hoten" [ngModelOptions]="{standalone: true}"
                                 class="block w-full bg-transparent dark:bg-default-50 rounded-full py-2.5 px-4 border border-default-200"
-                                type="text" placeholder="First Name">
+                                type="text" placeholder="Họ Tên">
                         </div>
                         <div class="lg:col-span-3">
                             <label class="block text-sm text-default-700 mb-2">Số Điện Thoại *</label>
@@ -64,10 +64,17 @@
                         <span class="lg:col-span-6 !text-xl !font-semibold text-default-800 mb-6">Thông tin giao hàng</span>
 
                         <app-diachi-admin  [isSingle]="true" [Diachis]="Diachis" (diachiEmit)="GetDiachi($event)" class="lg:col-span-6"></app-diachi-admin>
+                      @if(Donhang.Khachhang.Diachi){
+                        <div class="lg:col-span-6">
+                            {{Donhang.Khachhang.Hoten}} - {{Donhang.Khachhang.SDT}} - {{Donhang.Khachhang.Diachi}}
+                          </div>
+                      }
+                        <div class="lg:col-span-6 flex justify-center">
                         <a (click)="UpdatePhiship()"
-                        class="w-full lg:col-span-3 hover:scale-[101%] inline-flex items-center justify-center rounded-full border border-primary bg-primary px-10 py-3 text-center text-sm font-medium text-white shadow-sm transition-all duration-500 hover:bg-primary-500">
+                        class="hover:scale-[101%] inline-flex items-center justify-center rounded-full border border-primary bg-primary px-10 py-3 text-center text-sm font-medium text-white shadow-sm transition-all duration-500 hover:bg-primary-500">
                         Xác Nhận Thông Tin Giao Hàng
                          </a>
+                      </div>
                          
                         <!-- <div class="lg:col-span-4">
                             <button mat-flat-button color="primary" (click)="UpdatePhiship()">Phí Ship</button>
@@ -220,7 +227,7 @@
                         <div class="flex justify-between mb-3">
                             <p class="text-sm text-default-500">Phí Vận Chuyển</p>
                             <p class="flex flex-col text-sm text-default-700 font-medium">
-                                <span>{{(Donhang.Phivanchuyen| number:'1.0-0')||'0'}}đ</span>
+                                <span>{{(Donhang.Vanchuyen.Phivanchuyen| number:'1.0-0')||'0'}}đ</span>
                                 @if(Khoangcach&&Khoangcach.distance&&Khoangcach.distance.text)
                                 {
                                     <span class="text-xs italic text-red-500">({{Khoangcach?.distance?.text}})</span>
@@ -249,7 +256,7 @@
                         <div class="border-b border-default-200 my-4"></div>
                         <div class="flex justify-between mb-3">
                             <p class="text-base text-default-700">Tổng Cộng</p>
-                            <p class="text-base text-default-700 font-medium">{{GetTongcong()| number:'1.0-0'||'0'}}đ
+                            <p class="text-base text-default-700 font-medium">{{Donhang.Total| number:'1.0-0'||'0'}}đ
                             </p>
                         </div>
                     </div>

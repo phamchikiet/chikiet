@@ -8,6 +8,7 @@ import { AuthService } from './admin/users/auth/auth.service';
 import { UsersInterceptor } from './admin/users/auth/users.interceptor';
 import { AuthModule } from './admin/users/auth/auth.module';
 import { SiteCtaComponent } from './admin/main-admin/admin-cta/site-cta/site-cta.component';
+import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
 @Component({
   standalone: true,
   imports: [
@@ -16,6 +17,7 @@ import { SiteCtaComponent } from './admin/main-admin/admin-cta/site-cta/site-cta
     CommonModule,
     NotifierModule,
     AuthModule,
+    MatProgressSpinnerModule
   ],
   providers: [
     AuthService,

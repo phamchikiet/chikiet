@@ -39,7 +39,7 @@ export class SlideSanphamComponent implements OnInit {
     this.SearchParams.Filter = this.Filter
     this.Lists = await this._SanphamService.SearchSanpham(this.SearchParams)
     this.FilterLists = this.SanphamColumn(this.Lists.items,this.Sohang).slice(0,8)    
-    console.log(this.FilterLists);
+    //console.log(this.FilterLists);
   }
   SanphamColumn(data:any,n:any)
   {

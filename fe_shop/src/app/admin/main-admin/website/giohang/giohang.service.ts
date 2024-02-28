@@ -1,6 +1,6 @@
 import { Injectable, inject, signal } from '@angular/core';
 import { LocalStorageService } from 'fe_shop/src/app/shared/localstorage.service';
-import { GenId } from 'fe_shop/src/app/shared/shared.utils';
+import { GenId, genMaDonhang } from 'fe_shop/src/app/shared/shared.utils';
 import { environment } from 'fe_shop/src/environments/environment';
 import { BehaviorSubject, map, Observable, Subject, switchMap, take } from 'rxjs';
 @Injectable({
@@ -25,6 +25,24 @@ export class GiohangService {
     }
     get donhang$(): Observable<any | null> {
         return this._donhang.asObservable();
+    }
+    async getSoluongDon(): Promise<any> {
+        try {
+            const options = {
+                method: 'GET',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+            };
+            const response = await fetch(`${environment.APIURL}/donhang/getSoluong`, options);
+            if (!response.ok) { // Check for non-2xx status codes
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            const data = await response.json();
+            return data[1]
+        } catch (error) {
+            return console.error(error);
+        }
     }
     async getGiohangs(): Promise<any> {
         //  this._giohang.next(this.Giohangs)
@@ -103,23 +121,49 @@ export class GiohangService {
             return console.error(error);
         }
     }
-
-    async getDonhang(): Promise<any> {
-        this.Donhang.SubTotal = this.Donhang.Giohangs.reduce((acc: any, item: any) => acc + item.Soluong * item.Giachon?.gia, 0) || 0;
+    getGiamgia()
+    {
         if (this.Donhang.hasOwnProperty('Khuyenmai')) {
             if (this.Donhang.Khuyenmai.Type.Value == 'phantram') {
                 this.Donhang.Giamgia = this.Donhang.SubTotal * (Number(this.Donhang.Khuyenmai.Value) / 100)
+                return this.Donhang.Giamgia
             }
             else {
                 if (this.Donhang.Khuyenmai.Value > this.Donhang.SubTotal) {
                     this.Donhang.Giamgia = 0
+                    return this.Donhang.Giamgia
                 }
                 else {
                     this.Donhang.Giamgia = this.Donhang.SubTotal - this.Donhang.Khuyenmai.Value
+                    return this.Donhang.Giamgia
                 }
 
             }
         }
+        else return 0  
+    }
+    async getDonhang(): Promise<any> {
+        this.Donhang.SubTotal = this.Donhang.Giohangs.reduce((acc: any, item: any) => acc + item.Soluong * item.Giachon?.gia, 0) || 0;
+        this.getGiamgia()
+        //this.Donhang.Total = this.Donhang.SubTotal + Number(this.Donhang.Vanchuyen.Phivanchuyen||0) - Giamgia + this.GetTotal(data.Giohangs, 'Thue', '')||0 
+        // if (this.Donhang.hasOwnProperty('Khuyenmai')) {
+        //     if (this.Donhang.Khuyenmai.Type.Value == 'phantram') {
+        //         this.Donhang.Giamgia = this.Donhang.SubTotal * (Number(this.Donhang.Khuyenmai.Value) / 100)
+        //     }
+        //     else {
+        //         if (this.Donhang.Khuyenmai.Value > this.Donhang.SubTotal) {
+        //             this.Donhang.Giamgia = 0
+        //         }
+        //         else {
+        //             this.Donhang.Giamgia = this.Donhang.SubTotal - this.Donhang.Khuyenmai.Value
+        //         }
+
+        //     }
+        // }
+        // else
+        // {
+        //     this.Donhang.Total = this.Donhang.SubTotal + Number(this.Donhang.Vanchuyen.Phivanchuyen||0) - Number(this.Donhang.Giamgia||0) + this.GetTotal(data.Giohangs, 'Thue', '')||0 
+        // }
         this._donhang.next(this.Donhang)
         this._LocalStorageService.setItem('Donhang', this.Donhang)
     }
@@ -220,7 +264,7 @@ export class GiohangService {
     }
     async addToCart(item: any): Promise<void> {
         if (!this.Donhang.hasOwnProperty('MaDonHang')) {
-            this.Donhang.MaDonHang = "RSTG" + GenId(8, false)
+            this.Donhang.MaDonHang = genMaDonhang(await this.getSoluongDon())
             this.Donhang.Khachhang = { Hoten: '' }
             this.Donhang.Thanhtoan = {}
             this.Donhang.Vanchuyen = {}
@@ -243,8 +287,8 @@ export class GiohangService {
     }
     async Crement(item: any): Promise<void> {
         if (!this.Donhang.hasOwnProperty('MaDonHang')) {
-            this.Donhang.MaDonHang = "RSTG" + GenId(8, false)
-            this.Donhang.Khachhang = { Hoten: 'Guest' }
+            this.Donhang.MaDonHang = genMaDonhang(await this.getSoluongDon())
+            this.Donhang.Khachhang = { Hoten: '' }
             this.Donhang.Thanhtoan = {}
             this.Donhang.Vanchuyen = {}
             this.Donhang.Status = 0

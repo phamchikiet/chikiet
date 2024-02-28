@@ -13,7 +13,15 @@ export function ConvertDriveData(data:any){
     };
   });
 } 
-
+export function genMaDonhang(startNumber:any) {
+  let code = startNumber.toString();
+  while (code.length < 8) {
+    code = "0" + code;
+  }
+  code = "TGO-A" + code;
+  startNumber++;
+  return code;
+}
 
 export interface SearchParams {
   idChinhanh?: string;
