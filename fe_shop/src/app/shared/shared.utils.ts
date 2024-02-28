@@ -15,10 +15,10 @@ export function ConvertDriveData(data:any){
 } 
 export function genMaDonhang(startNumber:any) {
   let code = startNumber.toString();
-  while (code.length < 8) {
+  while (code.length < 3) {
     code = "0" + code;
   }
-  code = "TGO-A" + code;
+  code = "TGO-AA" + code;
   startNumber++;
   return code;
 }
