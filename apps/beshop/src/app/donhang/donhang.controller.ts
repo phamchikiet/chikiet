@@ -10,6 +10,10 @@ export class DonhangController {
   create(@Body() data: any) {
     return this.donhangService.create(data);
   }
+  @Get('getSoluong')
+  async getSoluong() {
+    return await this.donhangService.getSoluong();
+  }
   @Get()
   async findAll() {
     return await this.donhangService.findAll();

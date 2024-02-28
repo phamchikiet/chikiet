@@ -44,7 +44,6 @@ export class SanphamService {
   }
   async findQuery(params: any) {
     console.log(params);
-    
     const queryBuilder = this.SanphamRepository.createQueryBuilder('sanpham');
     if (params.hasOwnProperty('Danhmuc')) {
       const userIdsToFind = params.Danhmuc;
@@ -77,6 +76,21 @@ export class SanphamService {
     if (params.hasOwnProperty('CreateAt')) {
       queryBuilder.orderBy('sanpham.CreateAt', params.CreateAt);
     }
+    if (params.hasOwnProperty('Filter')) {
+      if(params.Filter=="GIARE")
+      {
+        queryBuilder.orderBy('sanpham.GiaCoso','ASC');
+      }
+      else if(params.Filter=="Noibat")
+      {
+        queryBuilder.andWhere('sanpham.Noibat = 1');
+      }
+      else if(params.Filter=="Banchay"){
+        queryBuilder.andWhere('sanpham.Banchay = 1');
+      }
+
+    }
+    queryBuilder.orderBy('sanpham.CreateAt', 'DESC');
     const [items, totalCount] = await queryBuilder
     .limit(params.pageSize || 10) // Set a default page size if not provided
     .offset(params.pageNumber * params.pageSize || 0)

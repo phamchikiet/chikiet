@@ -43,6 +43,9 @@ export class DonhangService {
   async findAll() {
     return await this.DonhangRepository.find();
   }
+  async getSoluong() {
+    return await this.DonhangRepository.findAndCount();
+  }
   async findid(id: string) {
     const Donhang:any = await this.DonhangRepository.findOne({ where: { id: id } });
     Donhang.Giohangs = await this._GiohangService.findid(Donhang.idGiohang)

@@ -24,8 +24,12 @@ export class DonhangEntity {
   Thanhtoan: string;
   @Column({collation: "utf8_general_ci",type:"simple-json",default: () => "('{}')" })
   Vanchuyen: string;
+  @Column({collation: "utf8_general_ci",type:"simple-json",default: () => "('[]')" })
+  Diachis: string;
   @Column({ type: 'bigint' })
   Total: number;
+  @Column({ type: 'bigint' })
+  SubTotal: number;
   @Column({ default: '' })
   Type: string;
   @Column({ default: 1 })
