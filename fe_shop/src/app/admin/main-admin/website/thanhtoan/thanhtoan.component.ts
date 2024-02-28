@@ -13,6 +13,7 @@ import { SlideSanphamComponent } from '../slide-sanpham/slide-sanpham.component'
 import { DiachiAdminComponent } from '../../../diachi/diachi-admin/diachi-admin.component';
 import { MatButtonModule } from '@angular/material/button';
 import { ThanhtoanService } from './thanhtoan.service';
+import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
 @Component({
   selector: 'app-thanhtoan',
   standalone:true,
@@ -22,7 +23,8 @@ import { ThanhtoanService } from './thanhtoan.service';
     MatRadioModule,
     SlideSanphamComponent,
     DiachiAdminComponent,
-    MatButtonModule
+    MatButtonModule,
+    MatProgressSpinnerModule
   ],
   templateUrl: './thanhtoan.component.html',
   styleUrls: ['./thanhtoan.component.css']
@@ -69,79 +71,81 @@ export class ThanhtoanComponent implements OnInit {
   }
   Xacnhandonhang(customSnackbar:TemplateRef<any>)
   {
-    this.UpdatePhiship()
-  //this.Donhang.Khachhang = {Hoten:"test",Diachi:"test",SDT:"0987654321"}
-    // if(!this.Donhang.Khachhang.Hoten)
-    // {
-    //   this.Notify.Noidung = "Vui Lòng Nhập Họ Tên"
-    //   this.Notify.type = "danger"
-    //   this._snackBar.openFromTemplate(customSnackbar, {
-    //     horizontalPosition: "end",
-    //     verticalPosition: "top",
-    //     panelClass:"danger",
-    //     duration: 2000,
-    //   });
-    // }
-    // else if(!this.Donhang.Khachhang.Email)
-    // {
-    //   this._snackBar.open('Vui Lòng Nhập Email','',{
-    //     horizontalPosition: "end",
-    //     verticalPosition: "top",
-    //     panelClass:'danger',
-    //     duration: 2000,
-    //   });
-    // }
-    // else if(!this.Donhang.Khachhang.Diachi)
-    // {
-    //   this.Notify.Noidung = "Vui Lòng Nhập Địa Chỉ"
-    //   this.Notify.type = "danger"
-    //   this._snackBar.openFromTemplate(customSnackbar, {
-    //     horizontalPosition: "end",
-    //     verticalPosition: "top",
-    //     panelClass:"danger",
-    //     duration: 2000,
-    //   });
-    // }
-    // else if(!this.Donhang.Khachhang.SDT)
-    // {
-    //   this.Notify.Noidung = "Vui Lòng Nhập Số Điện Thoại"
-    //   this.Notify.type = "danger"
-    //   this._snackBar.openFromTemplate(customSnackbar, {
-    //     horizontalPosition: "end",
-    //     verticalPosition: "top",
-    //     panelClass:"danger",
-    //     duration: 2000,
-    //   });
-    // }
-    // else
-    // {
-    //   this._GiohangService.CreateDonhang(this.Donhang).then((data:any)=>
-    //   {
-    //     const item:any={
-    //       "host": "smtp.gmail.com",
-    //       "port": 587,
-    //       "secure": false,
-    //       "auth": {
-    //         "user": "wetdragon1996@gmail.com",
-    //         "pass": "opxbvldmnxgnebsn"
-    //       },
-    //     "Brand":"Rau Sạch Trần Gia",
-    //     "toemail":"chikiet88@gmail.com",
-    //     "subject":"123456",
-    //     "text":"xinchao"
-    // }
-    //     this._SendemailService.SendEmail(item)
-    //     this._snackBar.open('Đặt Hàng Thành Công','',{
-    //       horizontalPosition: "end",
-    //       verticalPosition: "top",
-    //       panelClass:'success',
-    //       duration: 2000,
-    //     });
+  this.UpdatePhiship()
+  this.Donhang.Khachhang = {Hoten:"test",Diachi:"test",SDT:"0987654321"}
+    if(!this.Donhang.Khachhang.Hoten)
+    {
+      this.Notify.Noidung = "Vui Lòng Nhập Họ Tên"
+      this.Notify.type = "danger"
+      this._snackBar.openFromTemplate(customSnackbar, {
+        horizontalPosition: "end",
+        verticalPosition: "top",
+        panelClass:"danger",
+        duration: 2000,
+      });
+    }
+    else if(!this.Donhang.Khachhang.Email)
+    {
+      this._snackBar.open('Vui Lòng Nhập Email','',{
+        horizontalPosition: "end",
+        verticalPosition: "top",
+        panelClass:'danger',
+        duration: 2000,
+      });
+    }
+    else if(!this.Donhang.Khachhang.Diachi)
+    {
+      this.Notify.Noidung = "Vui Lòng Nhập Địa Chỉ"
+      this.Notify.type = "danger"
+      this._snackBar.openFromTemplate(customSnackbar, {
+        horizontalPosition: "end",
+        verticalPosition: "top",
+        panelClass:"danger",
+        duration: 2000,
+      });
+    }
+    else if(!this.Donhang.Khachhang.SDT)
+    {
+      this.Notify.Noidung = "Vui Lòng Nhập Số Điện Thoại"
+      this.Notify.type = "danger"
+      this._snackBar.openFromTemplate(customSnackbar, {
+        horizontalPosition: "end",
+        verticalPosition: "top",
+        panelClass:"danger",
+        duration: 2000,
+      });
+    }
+    else
+    {
+      console.log(this.Donhang);
+      
+      // this._GiohangService.CreateDonhang(this.Donhang).then((data:any)=>
+      // {
+      //   const item:any={
+      //     "host": "smtp.gmail.com",
+      //     "port": 587,
+      //     "secure": false,
+      //     "auth": {
+      //       "user": "wetdragon1996@gmail.com",
+      //       "pass": "opxbvldmnxgnebsn"
+      //     },
+      //   "Brand":"Rau Sạch Trần Gia",
+      //   "toemail":"chikiet88@gmail.com",
+      //   "subject":"123456",
+      //   "text":"xinchao"
+      //  }
+      //   this._SendemailService.SendEmail(item)
+      //   this._snackBar.open('Đặt Hàng Thành Công','',{
+      //     horizontalPosition: "end",
+      //     verticalPosition: "top",
+      //     panelClass:'success',
+      //     duration: 2000,
+      //   });
         
-    //     //window.location.href = `cam-on?MaDonHang=${data.MaDonHang}`;
-    //   })
+      //   //window.location.href = `cam-on?MaDonHang=${data.MaDonHang}`;
+      // })
 
-    // }
+    }
   }
   async UpdatePhiship()
   {

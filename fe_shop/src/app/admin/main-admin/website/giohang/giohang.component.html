@@ -145,24 +145,24 @@
                     <div class="mb-6">
                         <div class="flex justify-between mb-3">
                             <p class="text-sm text-default-500">Tổng</p>
-                            <p class="text-sm text-default-700 font-medium">{{this.Donhang.Total|number:'1.0-0'||'0'}}đ
+                            <p class="text-sm text-default-700 font-medium">{{Donhang.SubTotal|number:'1.0-0'||'0'}}đ
                             </p>
                         </div>
                         <div class="flex justify-between mb-3">
                             <p class="text-sm text-default-500">Phí Vận Chuyển</p>
-                            <p class="text-sm text-default-700 font-medium">{{(Phivanchuyen| number:'1.0-0')||'0'}}đ</p>
+                            <p class="text-sm text-default-700 font-medium">{{(Donhang.Vanchuyen.Phivanchuyen| number:'1.0-0')||'0'}}đ</p>
                         </div>
                         <div class="flex justify-between mb-3">
                             <p class="text-sm text-default-500">Giảm giá</p>
-                            @if(this.Donhang.Giamgia>0)
+                            @if(Donhang.Giamgia>0)
                             {
                             <p class="text-sm text-default-700 font-medium text-red-500">
-                                - {{(this.Donhang.Giamgia| number:'1.0-0')||'0'}}đ
+                                - {{(Donhang.Giamgia| number:'1.0-0')||'0'}}đ
                             </p>
                             }
                             @else {
                             <p class="text-sm text-default-700 font-medium">
-                                {{(this.Donhang.Giamgia| number:'1.0-0')||'0'}}đ
+                                {{(Donhang.Giamgia| number:'1.0-0')||'0'}}đ
                             </p>
                             }
                         </div>
@@ -174,7 +174,7 @@
                         <div class="border-b border-default-200 my-4"></div>
                         <div class="!font-bold flex justify-between mb-3">
                             <p class="text-base text-default-700">Tổng Cộng</p>
-                            <p class="text-base text-default-700">{{GetTongcong()| number:'1.0-0'||'0'}}đ</p>
+                            <p class="text-base text-default-700">{{Donhang.Total| number:'1.0-0'||'0'}}đ</p>
                         </div>
                     </div>
 

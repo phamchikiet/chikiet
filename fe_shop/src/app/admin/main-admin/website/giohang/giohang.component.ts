@@ -20,8 +20,7 @@ import { SlideSanphamComponent } from '../slide-sanpham/slide-sanpham.component'
 export class GiohangComponent implements OnInit {
   _GiohangService: GiohangService = inject(GiohangService)
   _ChuongtrinhkhuyenmaiAdminService: ChuongtrinhkhuyenmaiAdminService = inject(ChuongtrinhkhuyenmaiAdminService)
-  Donhang: any ={Giohangs:[]}
-  Phivanchuyen: any = 0
+  Donhang: any ={ Giohangs: [],Khachhang:{},Thanhtoan:{},Vanchuyen:{} }
   constructor(private _snackBar: MatSnackBar) { }
   ngOnInit() {
     this._GiohangService.getDonhang()
@@ -29,7 +28,9 @@ export class GiohangComponent implements OnInit {
       if(data)
       {
         this.Donhang = data
+        this.Donhang.Total = data.SubTotal + Number(data.Vanchuyen.Phivanchuyen||0) - Number(data.Giamgia||0) + this.GetTotal(data.Giohangs, 'Thue', '')||0 
         console.log(data);
+        console.log(this.Donhang.Total);
       }
     })
   }
@@ -43,7 +44,8 @@ export class GiohangComponent implements OnInit {
     }
   }
   GetTongcong() {
-    return this.Donhang.Total + this.Phivanchuyen - this.Donhang.Giamgia + this.GetTotal(this.Donhang.Giohangs, 'Thue', '')
+    console.log(this.Donhang.SubTotal);
+    return this.Donhang.SubTotal||0 + this.Donhang.Vanchuyen.Phivanchuyen||0 - this.Donhang.Giamgia||0 + this.GetTotal(this.Donhang.Giohangs, 'Thue', '')||0
   }
   DeleteCart()
   {

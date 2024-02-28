@@ -13,7 +13,7 @@ export class GiohangService {
     private _addonhangs: BehaviorSubject<any[] | []> = new BehaviorSubject<any | null>(null);
     private _addonhang: BehaviorSubject<any | null> = new BehaviorSubject<any | null>(null);
     // Giohangs: any  = this._LocalStorageService.getItem('Giohang')||[]
-    Donhang: any = this._LocalStorageService.getItem('Donhang') || { Giohangs: [] }
+    Donhang: any = this._LocalStorageService.getItem('Donhang') || { Giohangs: [],Khachhang:{},Thanhtoan:{},Vanchuyen:{} }
     get addonhangs$(): Observable<any[] | null> {
         return this._addonhangs.asObservable();
     }
@@ -105,17 +105,17 @@ export class GiohangService {
     }
 
     async getDonhang(): Promise<any> {
-        this.Donhang.Total = this.Donhang.Giohangs.reduce((acc: any, item: any) => acc + item.Soluong * item.Giachon?.gia, 0) || 0;
+        this.Donhang.SubTotal = this.Donhang.Giohangs.reduce((acc: any, item: any) => acc + item.Soluong * item.Giachon?.gia, 0) || 0;
         if (this.Donhang.hasOwnProperty('Khuyenmai')) {
             if (this.Donhang.Khuyenmai.Type.Value == 'phantram') {
-                this.Donhang.Giamgia = this.Donhang.Total * (Number(this.Donhang.Khuyenmai.Value) / 100)
+                this.Donhang.Giamgia = this.Donhang.SubTotal * (Number(this.Donhang.Khuyenmai.Value) / 100)
             }
             else {
-                if (this.Donhang.Khuyenmai.Value > this.Donhang.Total) {
+                if (this.Donhang.Khuyenmai.Value > this.Donhang.SubTotal) {
                     this.Donhang.Giamgia = 0
                 }
                 else {
-                    this.Donhang.Giamgia = this.Donhang.Total - this.Donhang.Khuyenmai.Value
+                    this.Donhang.Giamgia = this.Donhang.SubTotal - this.Donhang.Khuyenmai.Value
                 }
 
             }

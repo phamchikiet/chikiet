@@ -148,7 +148,6 @@
                         <div class="text-base font-semibold text-gray-900">{{item.Title}}</div>
                         <div class="italic text-xs font-normal text-gray-500">{{item.Slug}}</div>
                         <div class="text-xs font-normal text-gray-500">
-                          SKU: <strong>{{item.SKU}}</strong>
                           Mã SP : <strong>{{item.MaSP}}</strong>
                         </div>
                       </a>
@@ -173,8 +172,8 @@
                         </div>
                       </td>
                       <td class="cursor-pointer p-4 text-base font-medium text-gray-900 whitespace-nowrap lg:p-5">
-                        <div (click)="ChangeStatus(item,'Noidbat')">
-                          @if (item.Noidbat==1) {
+                        <div (click)="ChangeStatus(item,'Noibat')">
+                          @if (item.Noibat==1) {
                             <span class="material-symbols-outlined text-blue-500">check_circle</span>
                            }
                           @else { <span class="material-symbols-outlined text-red-500">cancel</span> }

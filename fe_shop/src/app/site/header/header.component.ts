@@ -117,8 +117,7 @@ export class HeaderComponent implements OnInit {
       this._UsersService.profile$.subscribe((data) => {
         if (data) {
           this.User = data
-          // console.log(data);
-          
+          // console.log(data); 
         }
       })
     }
@@ -152,8 +151,8 @@ export class HeaderComponent implements OnInit {
     // },
     { id: 3, Title: 'Liên hệ', Slug: 'lien-he' },
   ]
-    console.log(this.Danhmucs);
-    console.log(this.Menus);
+    // console.log(this.Danhmucs);
+    // console.log(this.Menus);
   }
 
   toggleTheme() {

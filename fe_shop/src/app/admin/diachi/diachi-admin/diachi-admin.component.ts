@@ -55,10 +55,7 @@ export class DiachiAdminComponent implements OnInit {
     return data && data.name ? data.name : '';
   }
   onTinhChange(state: any) {
-    this.filterTinh = this.Tinh.filter(v => v.name.toLowerCase().includes(state));
-    console.log(this.filterTinh);
-    console.log(state);
-    
+    this.filterTinh = this.Tinh.filter(v => v.name.toLowerCase().includes(state));    
     if(state &&state.name)
     {
       this.Quan = this.filterQuan = state.districts  
@@ -66,8 +63,6 @@ export class DiachiAdminComponent implements OnInit {
   }
   onQuanChange(state: any) {
       this.filterQuan = this.Quan.filter(v => v.name.toLowerCase().includes(state));
-      console.log(this.filterQuan);
-      console.log(state);
       if(state &&state.name)
       {
         this.Phuong = this.filterPhuong = state.wards  
@@ -82,9 +77,19 @@ export class DiachiAdminComponent implements OnInit {
     if(state &&state.name)
     {
       const data = {id:GenId(8,false),Tinh:this.ChosenTinh.name,Active:true}
-      this.Diachis.push(data)
-      this.diachiEmit.emit(this.Diachis);
-      this.Quan = this.filterQuan = state.districts  
+      if(this.Diachis.length>0)
+      {
+        this.Diachis[0].Tinh = this.ChosenTinh.name
+        this.Phuong = this.filterPhuong = state.wards  
+        this.diachiEmit.emit(this.Diachis);
+      }
+      else
+      {
+        this.Diachis.push(data)
+        this.Quan = this.filterQuan = state.districts  
+        this.diachiEmit.emit(this.Diachis);
+      }
+ 
     }
   }
   onQuanChangeSingle(state: any) {
@@ -92,8 +97,8 @@ export class DiachiAdminComponent implements OnInit {
       if(state &&state.name)
       {
         this.Diachis[0].Quan = this.ChosenQuan.name
-        this.diachiEmit.emit(this.Diachis);
         this.Phuong = this.filterPhuong = state.wards  
+        this.diachiEmit.emit(this.Diachis);
       }
   }
   onPhuongChangeSingle(state: string) {
