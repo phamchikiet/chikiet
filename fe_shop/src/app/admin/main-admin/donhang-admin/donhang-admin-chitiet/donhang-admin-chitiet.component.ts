@@ -70,9 +70,7 @@ export class DonhangAdminChitietComponent implements OnInit {
     return this.GetTotal(this.Giohangs, 'Soluong', 'Giachon') + this.Phivanchuyen + this.Giamgia + this.GetTotal(this.Giohangs, 'Thue', '')
   }
 
-  XemFormin(teamplate: TemplateRef<any>): void {
-    console.log("abcdef");
-    
+  XemFormin(teamplate: TemplateRef<any>): void {    
     const dialogRef = this.dialog.open(teamplate, {
     });
     dialogRef.afterClosed().subscribe(() => {

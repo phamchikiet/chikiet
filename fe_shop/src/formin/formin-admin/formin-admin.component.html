@@ -13,14 +13,14 @@
     <span class="text-xl font-bold">Thông Tin Khách Hàng </span>
     <span>Tên : <strong>{{Donhang?.Khachhang?.Hoten}}</strong></span>
     <span>Số Điện Thoại : <strong>{{Donhang?.Khachhang?.SDT}}</strong></span>
-    <span>Địa Chỉ : <strong>{{Donhang?.Khachhang?.Diachi}}</strong></span>
+    <span>Địa Chỉ : <strong>{{Donhang?.Giohangs?.Khachhang?.Diachi}}</strong></span>
   </div>
   <div class="grid grid-cols-3 gap-4 divide-x-2 divide-black divide-dashed">
       <div class="col-span-2 flex flex-col space-y-2 p-4">
         <span class="text-xl font-bold">CHI TIẾT ĐƠN HÀNG:</span>
         @for (item of Donhang?.Giohangs?.Sanpham; track $index) {
           <div class="flex flex-row space-x-2">
-            {{$index+1}}/{{item.Title}} - SL:{{item.Soluong}}
+            {{$index+1}}/{{item.Title}} - SL: {{item.Soluong}}
           </div>
         }
       </div>
