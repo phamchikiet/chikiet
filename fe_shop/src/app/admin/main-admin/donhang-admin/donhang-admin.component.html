@@ -110,23 +110,23 @@
                     </td>
                     <td class="p-4 text-sm font-normal text-gray-500 whitespace-nowrap lg:p-5">
                       <a routerLink="{{item.id}}" (click)="drawer.toggle()">
-                        <div>{{item.MaDonHang}}</div>
+                        <div>{{item?.MaDonHang}}</div>
                         <div class="text-sm font-normal text-gray-500">{{item.CreateAt|date:'HH:mm:ss dd/MM/YYYY'}}
                         </div>
                       </a>
                     </td>
                     <td class="p-4 text-sm font-normal text-gray-500 whitespace-nowrap lg:p-5">
-                      <div>{{item.Giohangs.Khachhang.Hoten}}</div>
-                      <div>{{item.Giohangs.Khachhang.Email}}</div>
+                      <div>{{item?.Giohangs?.Khachhang?.Hoten}}</div>
+                      <div>{{item?.Giohangs?.Khachhang?.Email}}</div>
                     </td>
                     <td class="p-4 text-sm font-normal text-gray-500 whitespace-nowrap lg:p-5">
-                      <div>{{item.Giohangs.Khachhang.SDT}}</div>
+                      <div>{{item?.Giohangs?.Khachhang?.SDT}}</div>
                     </td>
                     <td class="p-4 text-sm font-normal text-gray-500 whitespace-nowrap lg:p-5 text-end">
-                      <div>{{(item.Giohangs.Total| number:'1.0-0')||'0'}}đ</div>
+                      <div>{{(item?.Giohangs?.Total| number:'1.0-0')||'0'}}đ</div>
                     </td>
                     <td class="p-4 text-sm font-normal text-gray-500 whitespace-nowrap lg:p-5">
-                      <div>{{item.Giohangs.Khachhang.Diachi}}</div>
+                      <div>{{item?.Giohangs?.Khachhang?.Diachi}}</div>
                     </td>
                     <td class="p-4 text-xs">
                       <span class="p-2 rounded-lg {{GetStatus(item.Status,'Class')}}" [matMenuTriggerFor]="menu">{{GetStatus(item.Status,'Title')}}</span>  

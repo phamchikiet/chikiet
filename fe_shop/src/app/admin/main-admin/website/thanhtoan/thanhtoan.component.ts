@@ -72,7 +72,7 @@ export class ThanhtoanComponent implements OnInit {
   Xacnhandonhang(customSnackbar:TemplateRef<any>)
   {
   this.UpdatePhiship()
-  this.Donhang.Khachhang = {Hoten:"test",Diachi:"test",SDT:"0987654321"}
+  this.Donhang.Khachhang = {Hoten:"test",Diachi:"test",Email:'test@gmail.com',SDT:"0987654321"}
     if(!this.Donhang.Khachhang.Hoten)
     {
       this.Notify.Noidung = "Vui Lòng Nhập Họ Tên"
