@@ -61,6 +61,7 @@ export class HeaderComponent implements OnInit {
   _Router: Router = inject(Router);
   _LocalStorageService: LocalStorageService = inject(LocalStorageService);
   SearchParams: any = {
+    Status:1,
     pageSize: 50,
     pageNumber: 0
   };

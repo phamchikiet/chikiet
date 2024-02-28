@@ -34,7 +34,8 @@ import { MatSelectModule } from '@angular/material/select';
   styleUrls: ['./admin-chuongtrinhkhuyenmai.component.css']
 })
 export class AdminChuongtrinhkhuyenmaiComponent implements OnInit {
-  Detail: any = {Code:'KM'+GenId(8,false)};
+  // Detail: any = {Code:'KM'+GenId(8,false)};
+  Detail: any = {};
   Lists: any={}
   FilterLists: any[] = []
   Sitemap: any = { loc: '', priority: '' }

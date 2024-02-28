@@ -71,7 +71,6 @@ export class ThanhtoanComponent implements OnInit {
   }
   Xacnhandonhang(customSnackbar:TemplateRef<any>)
   {
-  this.UpdatePhiship()
   this.Donhang.Khachhang = {Hoten:"test",Diachi:"test",Email:'test@gmail.com',SDT:"0987654321"}
     if(!this.Donhang.Khachhang.Hoten)
     {
@@ -84,15 +83,15 @@ export class ThanhtoanComponent implements OnInit {
         duration: 2000,
       });
     }
-    else if(!this.Donhang.Khachhang.Email)
-    {
-      this._snackBar.open('Vui Lòng Nhập Email','',{
-        horizontalPosition: "end",
-        verticalPosition: "top",
-        panelClass:'danger',
-        duration: 2000,
-      });
-    }
+    // else if(!this.Donhang.Khachhang.Email)
+    // {
+    //   this._snackBar.open('Vui Lòng Nhập Email','',{
+    //     horizontalPosition: "end",
+    //     verticalPosition: "top",
+    //     panelClass:'danger',
+    //     duration: 2000,
+    //   });
+    // }
     else if(!this.Donhang.Khachhang.Diachi)
     {
       this.Notify.Noidung = "Vui Lòng Nhập Địa Chỉ"
