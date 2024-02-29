@@ -1,219 +1,252 @@
 @defer {
-  <div class="bg-gray-50 relative p-4 w-full h-full md:h-auto">
-    <div class="relative bg-white rounded-2xl  shadow-gray-700">
-      <div class="flex justify-between items-start p-5 rounded-t border-b">
-        <a [routerLink]="['../']" (click)="CloseDrawer()">
-          <span class="material-symbols-outlined ">
-            close
-          </span>
-        </a>
-        <div class="flex flex-row space-x-2 items-center">
-        <span class="p-2 rounded-lg 
-        {{GetStatus(Detail.Status,'Class')}}" 
-        [matMenuTriggerFor]="menu">
-        {{GetStatus(Detail.Status,'Title')}}
-      </span>  
-      <mat-menu #menu="matMenu">
-        <div class="flex flex-col space-y-2 p-3">
-        @for (item1 of ListTrangThaiDonhang; track $index) {
-          <span class="p-2 text-xs rounded-lg {{item1.Class}}" (click)="ChangeStatus(Detail,item1)">
-            {{item1.Title}}
-          </span>
-          <!-- <button mat-menu-item>{{item.Title}}</button> -->
-        }
-      </div>
-      </mat-menu>
-        <span class="text-xl font-semibold" (click)="XemFormin(dialogXemFormin)">
-          {{Detail?.MaDonHang}}
-        </span>
-      </div>
-      </div>
-      <div class="lg:p-6 p-2 space-y-6">
+<div class="bg-gray-50 relative p-4 w-full h-full md:h-auto">
+  <div class="relative bg-white rounded-2xl  shadow-gray-700">
+    <div class="flex justify-between items-start p-5 rounded-t border-b">
+      <a [routerLink]="['../']" (click)="CloseDrawer()">
+        <span class="material-symbols-outlined ">close</span>
+      </a>
+      <div class="flex flex-row space-x-4 items-center lg:text-sm text-xs">
+        <div class="flex flex-col space-y-4 items-center whitespace-nowrap">
+          <span class="font-bold">Hình Thức</span>
+            <span class="p-2 rounded-lg 
+            {{GetHinhthucthanhtoan(Detail.Thanhtoan.Hinhthuc,'Class')}}" [matMenuTriggerFor]="menu">
+             {{GetHinhthucthanhtoan(Detail.Thanhtoan.Hinhthuc,'Title')}}
+           </span>
+        </div>
+        <mat-menu #menu="matMenu">
+          <div class="flex flex-col space-y-2 p-3">
+            @for (item1 of ListHinhthucthanhtoan; track $index) {
+            <span class="p-2 text-xs rounded-lg {{item1.Class}}" (click)="ChangeHinhthucthanhtoan(Detail,item1)">
+              {{item1.Title}}
+            </span>
+            <!-- <button mat-menu-item>{{item.Title}}</button> -->
+            }
+          </div>
+        </mat-menu>
+        <div class="flex flex-col space-y-4 items-start whitespace-nowrap">
+          <span class="font-bold">Trạng Thái</span>
+            <span class="p-2 rounded-lg 
+            {{GetStatus(Detail.Status,'Class')}}" [matMenuTriggerFor]="menuTrangthai">
+              {{GetStatus(Detail.Status,'Title')}}
+            </span>
+        </div>
+        <mat-menu #menuTrangthai="matMenu">
+          <div class="flex flex-col space-y-2 p-3">
+            @for (item1 of ListTrangThaiDonhang; track $index) {
+            <span class="p-2 text-xs rounded-lg {{item1.Class}}" (click)="ChangeStatus(Detail,item1)">
+              {{item1.Title}}
+            </span>
+            <!-- <button mat-menu-item>{{item.Title}}</button> -->
+            }
+          </div>
+        </mat-menu>
 
-  <app-timeline-donhang [Status]="Detail.Status"></app-timeline-donhang>
-  
-        <div class="grid lg:grid-cols-3 grid-cols-1 lg:gap-4 gap-1">
-          <div class="w-full flex flex-col overflow-y-auto col-span-2">
-            <div class="p-1.5 min-w-full inline-block align-middle">
-                <table class="min-w-full divide-y divide-default-200 border">
-                  <thead class="bg-default-400/10">
-                    <tr>
-                      <th scope="col"
-                        class="min-w-[14rem] px-5 py-3 text-start text-xs font-medium text-default-500 uppercase">
-                        Sản Phẩm</th>
-                      <!-- <th scope="col" class="px-5 py-3 text-start text-xs font-medium text-default-500 uppercase">
+        <div class="flex flex-col space-y-2 justify-between items-center whitespace-nowrap" (click)="XemFormin(dialogXemFormin)">
+          <span class="font-semibold">
+            {{Detail?.MaDonHang}}
+          </span>
+          <span class="material-symbols-outlined p-2 border rounded-full 
+                  bg-slate-200 text-blue-500 
+                  hover:bg-blue-500 hover:text-white">
+                  print
+            </span>
+        </div>
+
+      </div>
+
+    </div>
+    <div class="lg:p-6 p-2 space-y-6">
+
+      <app-timeline-donhang [Status]="Detail.Status"></app-timeline-donhang>
+
+      <div class="grid lg:grid-cols-3 grid-cols-1 lg:gap-4 gap-1">
+        <div class="w-full flex flex-col overflow-y-auto col-span-2">
+          <div class="p-1.5 min-w-full inline-block align-middle">
+            <table class="min-w-full divide-y divide-default-200 border">
+              <thead class="bg-default-400/10">
+                <tr>
+                  <th scope="col"
+                    class="min-w-[14rem] px-5 py-3 text-start text-xs font-medium text-default-500 uppercase">
+                    Sản Phẩm</th>
+                  <!-- <th scope="col" class="px-5 py-3 text-start text-xs font-medium text-default-500 uppercase">
                         Giá</th> -->
-                      <th scope="col" class="px-5 py-3 text-start text-xs font-medium text-default-500 uppercase">
-                        Số Lượng</th>
-                      <th scope="col" class="px-5 py-3 text-center text-xs font-medium text-default-500 uppercase">
-                        Tổng Tiền</th>
-                      <th scope="col" class="px-5 py-3 text-start text-xs font-medium text-default-500 uppercase">
-                       SL Thực Tế</th>
-                      <th scope="col" class="px-5 py-3 text-center text-xs font-medium text-default-500 uppercase">
-                        Tổng Thực Tế</th>
-                    </tr>
-                  </thead>
-                  <tbody class="divide-y divide-default-200">
-                    @for (item of Detail?.Giohangs?.Sanpham; track $index) {
-                    <tr>
-                      <td class="px-5 py-3 whitespace-nowrap">
-                        <div class="flex items-center gap-2">
-                          @if(item && item.Image&&item.Image.Thumb)
-                          {
-                            <img src="assets/images/sanpham/{{item.Image.Thumb}}" class="h-20 w-20">
-                          }
-                          @else if(item && item.Image&&item.Image.Hinhchinh&&item.Image.Hinhchinh.src){
-                            <img src="{{item.Image.Hinhchinh.src}}" class="h-20 w-20">
-                          }
-                          @else {
-                            <img src="assets/images/noimage.png" class="p-3 h-20 w-20 rounded-lg">
-                          }
-                          <h4 class="text-wrap text-sm font-medium text-default-800">
-                            {{item.Title}}({{item?.Giachon?.khoiluong}}{{item?.Giachon?.dvt}})
-                          </h4>
-                        </div>
-                      </td>
-                      <!-- <td class="px-5 py-3 whitespace-nowrap text-sm text-default-800">
+                  <th scope="col" class="px-5 py-3 text-start text-xs font-medium text-default-500 uppercase">
+                    Số Lượng</th>
+                  <th scope="col" class="px-5 py-3 text-center text-xs font-medium text-default-500 uppercase">
+                    Tổng Tiền</th>
+                  <th scope="col" class="px-5 py-3 text-start text-xs font-medium text-default-500 uppercase">
+                    SL Thực Tế</th>
+                  <th scope="col" class="px-5 py-3 text-center text-xs font-medium text-default-500 uppercase">
+                    Tổng Thực Tế</th>
+                </tr>
+              </thead>
+              <tbody class="divide-y divide-default-200">
+                @for (item of Detail?.Giohangs?.Sanpham; track $index) {
+                <tr>
+                  <td class="px-5 py-3 whitespace-nowrap">
+                    <div class="flex items-center gap-2">
+                      @if(item && item.Image&&item.Image.Thumb)
+                      {
+                      <img src="assets/images/sanpham/{{item.Image.Thumb}}" class="h-20 w-20">
+                      }
+                      @else if(item && item.Image&&item.Image.Hinhchinh&&item.Image.Hinhchinh.src){
+                      <img src="{{item.Image.Hinhchinh.src}}" class="h-20 w-20">
+                      }
+                      @else {
+                      <img src="assets/images/noimage.png" class="p-3 h-20 w-20 rounded-lg">
+                      }
+                      <h4 class="text-wrap text-sm font-medium text-default-800">
+                        {{item.Title}}({{item?.Giachon?.khoiluong}}{{item?.Giachon?.dvt}})
+                      </h4>
+                    </div>
+                  </td>
+                  <!-- <td class="px-5 py-3 whitespace-nowrap text-sm text-default-800">
                         {{(item?.Giachon?.gia| number:'1.0-0')||'0'}}đ</td> -->
-                      <td class="px-5 py-3 whitespace-nowrap">
-                        <div
-                        class="inline-flex justify-between border border-default-200 p-1 rounded-full">
-                        <button (click)="Giamgiatri($index,'Soluong')" type="button"
-                            class="minus flex-shrink-0 bg-default-200 text-default-800 rounded-full h-6 w-6 text-sm inline-flex items-center justify-center">–</button>
-                        <input type="number" [(ngModel)]="Detail.Giohangs.Sanpham[$index]['Soluong']" [ngModelOptions]="{standalone: true}"
-                            class="w-12 border-0 text-sm text-center text-default-800 focus:ring-0 p-0 bg-transparent"
-                            value="{{item.Soluong}}" min="0" max="100" step="0.01">
-                        <button (click)="Tanggiatri($index,'Soluong')" type="button"
-                            class="plus flex-shrink-0 bg-default-200 text-default-800 rounded-full h-6 w-6 text-sm inline-flex items-center justify-center">+</button>
-                        </div>
-                      </td>                     
-                      <td class="px-5 py-3 whitespace-nowrap text-sm text-center text-default-800">
-                        {{(item.Soluong*item.Giachon.gia| number:'1.0-0')||'0'}}đ
-                      </td>
+                  <td class="px-5 py-3 whitespace-nowrap">
+                    <div class="inline-flex justify-between border border-default-200 p-1 rounded-full">
+                      <button (click)="Giamgiatri($index,'Soluong')" type="button"
+                        class="minus flex-shrink-0 bg-default-200 text-default-800 rounded-full h-6 w-6 text-sm inline-flex items-center justify-center">–</button>
+                      <input type="number" [(ngModel)]="Detail.Giohangs.Sanpham[$index]['Soluong']"
+                        [ngModelOptions]="{standalone: true}"
+                        class="w-12 border-0 text-sm text-center text-default-800 focus:ring-0 p-0 bg-transparent"
+                        value="{{item.Soluong}}" min="0" max="100" step="0.01">
+                      <button (click)="Tanggiatri($index,'Soluong')" type="button"
+                        class="plus flex-shrink-0 bg-default-200 text-default-800 rounded-full h-6 w-6 text-sm inline-flex items-center justify-center">+</button>
+                    </div>
+                  </td>
+                  <td class="px-5 py-3 whitespace-nowrap text-sm text-center text-default-800">
+                    {{(item.Soluong*item.Giachon.gia| number:'1.0-0')||'0'}}đ
+                  </td>
 
-                      <td class="px-5 py-3 whitespace-nowrap">
-                        <div
-                        class="inline-flex justify-between border border-default-200 p-1 rounded-full">
-                        <button (click)="Giamgiatri($index,'SLTT')" type="button"
-                            class="minus flex-shrink-0 bg-default-200 text-default-800 rounded-full h-6 w-6 text-sm inline-flex items-center justify-center">–</button>
-                        <input type="number" [(ngModel)]="Detail.Giohangs.Sanpham[$index]['SLTT']" [ngModelOptions]="{standalone: true}"
-                            class="w-12 border-0 text-sm text-center text-default-800 focus:ring-0 p-0 bg-transparent"
-                            value="{{item.Soluong}}" min="0" max="100" step="0.01">
-                        <button (click)="Tanggiatri($index,'SLTT')" type="button"
-                            class="plus flex-shrink-0 bg-default-200 text-default-800 rounded-full h-6 w-6 text-sm inline-flex items-center justify-center">+</button>
-                        </div>
-                      </td>
-                      <td class="px-5 py-3 whitespace-nowrap text-sm text-center text-default-800">
-                        {{(item.SLTT*item.Giachon.gia| number:'1.0-0')||'0'}}đ
-                      </td>
-                    </tr>
-                    }
-                  </tbody>
-                </table>
+                  <td class="px-5 py-3 whitespace-nowrap">
+                    <div class="inline-flex justify-between border border-default-200 p-1 rounded-full">
+                      <button (click)="Giamgiatri($index,'SLTT')" type="button"
+                        class="minus flex-shrink-0 bg-default-200 text-default-800 rounded-full h-6 w-6 text-sm inline-flex items-center justify-center">–</button>
+                      <input type="number" [(ngModel)]="Detail.Giohangs.Sanpham[$index]['SLTT']"
+                        [ngModelOptions]="{standalone: true}"
+                        class="w-12 border-0 text-sm text-center text-default-800 focus:ring-0 p-0 bg-transparent"
+                        value="{{item.Soluong}}" min="0" max="100" step="0.01">
+                      <button (click)="Tanggiatri($index,'SLTT')" type="button"
+                        class="plus flex-shrink-0 bg-default-200 text-default-800 rounded-full h-6 w-6 text-sm inline-flex items-center justify-center">+</button>
+                    </div>
+                  </td>
+                  <td class="px-5 py-3 whitespace-nowrap text-sm text-center text-default-800">
+                    {{(item.SLTT*item.Giachon.gia| number:'1.0-0')||'0'}}đ
+                  </td>
+                </tr>
+                }
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <div class="flex flex-col space-y-4">
+          @if(Detail.Ghichu!='')
+          {
+          <div class="flex flex-col space-y-2 border border-default-200 rounded-lg p-2">
+            <span class="p-2 bg-red-500 rounded-lg text-white">Lý do huỷ :</span>
+            <span class="p-4 text-red-500 font-bold">{{Detail.Ghichu}}</span>
+          </div>
+          }
+          <div class="border border-default-200 rounded-lg p-3">
+            <h4 class="!text-lg !font-semibold text-default-800">Tổng Giỏ Hàng</h4>
+            <div class="">
+              <div class="flex justify-between mb-3">
+                <p class="text-sm text-default-500">Tổng</p>
+                <p class="text-sm text-default-700 font-medium">{{Detail.SubTotal|number:'1.0-0'||'0'}}đ</p>
+              </div>
+              <div class="flex justify-between mb-3 font-bold text-red-500">
+                <p class="text-sm">Tổng Thực Tế</p>
+                <p class="text-sm">{{Detail.SubTotal|number:'1.0-0'||'0'}}đ</p>
+              </div>
+              <div class="flex justify-between mb-3">
+                <p class="text-sm text-default-500">Phí Vận Chuyển</p>
+                <p class="text-sm text-default-700 font-medium">{{(Detail.Vanchuyen.Phivanchuyen|
+                  number:'1.0-0')||'0'}}đ</p>
+              </div>
+              <div class="flex justify-between mb-3">
+                <p class="text-sm text-default-500">Giảm giá</p>
+                <p class="text-sm text-default-700 font-medium">
+                  @if(Detail.Giamgia>0)
+                  {
+                <p class="text-sm text-default-700 font-medium text-red-500">
+                  - {{(Detail.Giamgia| number:'1.0-0')||'0'}}đ
+                </p>
+                }
+                @else {
+                <p class="text-sm text-default-700 font-medium">
+                  {{(Detail.Giamgia| number:'1.0-0')||'0'}}đ
+                </p>
+                }</p>
+              </div>
+              <div class="flex justify-between mb-3">
+                <p class="text-sm text-default-500">Thuế</p>
+                <p class="text-sm text-default-700 font-medium">{{(GetTotal(Giohangs,'Thue','')|
+                  number:'1.0-0')||'0'}}đ</p>
+              </div>
+              <hr />
+              <div class="!font-bold flex justify-between mt-3">
+                <p class="text-base text-default-700">Tổng Cộng</p>
+                <p class="text-base text-default-700">{{Detail.Total| number:'1.0-0'||'0'}}đ</p>
+              </div>
+              <div class="!font-bold flex justify-between mt-3 text-red-500">
+                <p class="text-base">Tổng Cộng Thực Tế</p>
+                <p class="text-base">{{Detail.Total| number:'1.0-0'||'0'}}đ</p>
+              </div>
             </div>
           </div>
-  
-          <div class="flex flex-col space-y-4">
-            <div class="border border-default-200 rounded-lg p-3">
-              <h4 class="!text-lg !font-semibold text-default-800">Tổng Giỏ Hàng</h4>
-              <div class="">
-                  <div class="flex justify-between mb-3">
-                      <p class="text-sm text-default-500">Tổng</p>
-                      <p class="text-sm text-default-700 font-medium">{{Detail.SubTotal|number:'1.0-0'||'0'}}đ</p>
-                  </div>
-                  <div class="flex justify-between mb-3 font-bold text-red-500">
-                      <p class="text-sm">Tổng Thực Tế</p>
-                      <p class="text-sm">{{Detail.SubTotal|number:'1.0-0'||'0'}}đ</p>
-                  </div>
-                  <div class="flex justify-between mb-3">
-                      <p class="text-sm text-default-500">Phí Vận Chuyển</p>
-                      <p class="text-sm text-default-700 font-medium">{{(Detail.Vanchuyen.Phivanchuyen| number:'1.0-0')||'0'}}đ</p>
-                  </div>
-                  <div class="flex justify-between mb-3">
-                      <p class="text-sm text-default-500">Giảm giá</p>
-                      <p class="text-sm text-default-700 font-medium">
-                        @if(Detail.Giamgia>0)
-                        {
-                        <p class="text-sm text-default-700 font-medium text-red-500">
-                            - {{(Detail.Giamgia| number:'1.0-0')||'0'}}đ
-                        </p>
-                        }
-                        @else {
-                        <p class="text-sm text-default-700 font-medium">
-                            {{(Detail.Giamgia| number:'1.0-0')||'0'}}đ
-                        </p>
-                        }</p>
-                  </div>
-                  <div class="flex justify-between mb-3">
-                      <p class="text-sm text-default-500">Thuế</p>
-                      <p class="text-sm text-default-700 font-medium">{{(GetTotal(Giohangs,'Thue','')|
-                          number:'1.0-0')||'0'}}đ</p>
-                  </div>
-                <hr/>
-                  <div class="!font-bold flex justify-between mt-3">
-                      <p class="text-base text-default-700">Tổng Cộng</p>
-                      <p class="text-base text-default-700">{{Detail.Total| number:'1.0-0'||'0'}}đ</p>
-                  </div>
-                  <div class="!font-bold flex justify-between mt-3 text-red-500">
-                      <p class="text-base">Tổng Cộng Thực Tế</p>
-                      <p class="text-base">{{Detail.Total| number:'1.0-0'||'0'}}đ</p>
-                  </div>
-              </div>
-          </div>
           <div class="rounded-lg border border-default-200">
-              <div class="p-4 border-b border-default-200">
-                <span class="!text-lg !font-semibold text-default-800">Vận Chuyển</span>
-              </div>
-              <div class="p-4">
-                <h4 class="text-base font-medium text-default-800 mb-1">Địa Chỉ : {{Detail.Giohangs.Khachhang.Diachi}}</h4>
-                <p class="text-sm text-red-500 mb-4 italic">Khoản Cách : {{Detail.Vanchuyen.text}}</p>
-              </div>
+            <div class="p-4 border-b border-default-200">
+              <span class="!text-lg !font-semibold text-default-800">Vận Chuyển</span>
+            </div>
+            <div class="p-4">
+              <h4 class="text-base font-medium text-default-800 mb-1">Địa Chỉ : {{Detail.Giohangs.Khachhang.Diachi}}
+              </h4>
+              <p class="text-sm text-red-500 mb-4 italic">Khoản Cách : {{Detail.Vanchuyen.text}}</p>
             </div>
           </div>
         </div>
-  
       </div>
-  
+
     </div>
+
   </div>
+</div>
 } @loading {
-  <div class="w-full h-full flex items-center justify-center">
-    <span> Loading...</span>
-   
-  </div>
+<div class="w-full h-full flex items-center justify-center">
+  <span> Loading...</span>
+
+</div>
 
 }
 <ng-template #dialogXemFormin>
   <div class="!relative lg:h-[90vh] lg:w-[90vw] p-4">
-      <div class="relative flex flex-col space-y-2 p-3 w-[920px] mx-auto">
-         <app-formin-admin [Donhang]="Detail"></app-formin-admin>
-      </div>
-      <div mat-dialog-actions class="!absolute top-0 right-2">
-          <span class="material-symbols-outlined" mat-dialog-close="false">
-              cancel
-              </span>
-      </div>
+    <div class="relative flex flex-col space-y-2 p-3 w-[920px] mx-auto">
+      <app-formin-admin [Donhang]="Detail"></app-formin-admin>
+    </div>
+    <div mat-dialog-actions class="!absolute top-0 right-2">
+      <span class="material-symbols-outlined" mat-dialog-close="false">
+        cancel
+      </span>
+    </div>
   </div>
 </ng-template>
 
 <ng-template #GhichuDialog>
-    <div class="lg:w-[40vw] p-2 flex flex-col space-y-3">
-      <div mat-dialog-title>Lý do huỷ đơn</div>
-      <div mat-dialog-content>
-        <div class="flex flex-col w-full space-y-4 lg:p-4">
-          <mat-form-field appearance="outline" class="w-full">
-            <mat-label>Nội Dung</mat-label>
-            <textarea [(ngModel)]="Detail.Ghichu" [ngModelOptions]="{standalone: true}"
-             matInput name="" id="" cols="3" rows="3"></textarea>
-          </mat-form-field>  
-        </div>
-        <div class="flex flex-row space-x-2 items-center justify-center">
-          <button mat-flat-button color="warn" mat-dialog-close="false">Huỷ</button>
-          <button mat-flat-button color="primary" mat-dialog-close="true">Đồng Ý</button>
-        </div>
+  <div class="lg:w-[40vw] p-2 flex flex-col space-y-3">
+    <div mat-dialog-title>Lý do huỷ đơn</div>
+    <div mat-dialog-content>
+      <div class="flex flex-col w-full space-y-4 lg:p-4">
+        <mat-form-field appearance="outline" class="w-full">
+          <mat-label>Nội Dung</mat-label>
+          <textarea [(ngModel)]="Detail.Ghichu" [ngModelOptions]="{standalone: true}" matInput name="" id="" cols="3"
+            rows="3"></textarea>
+        </mat-form-field>
+      </div>
+      <div class="flex flex-row space-x-2 items-center justify-center">
+        <button mat-flat-button color="warn" mat-dialog-close="false">Huỷ</button>
+        <button mat-flat-button color="primary" mat-dialog-close="true">Đồng Ý</button>
       </div>
     </div>
-  </ng-template>
-  
-
-
+  </div>
+</ng-template>

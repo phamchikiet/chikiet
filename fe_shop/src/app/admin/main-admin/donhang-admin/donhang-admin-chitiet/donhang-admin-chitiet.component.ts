@@ -10,7 +10,7 @@ import { GiohangService } from '../../website/giohang/giohang.service';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { ForminAdminComponent } from 'fe_shop/src/formin/formin-admin/formin-admin.component';
 import { TimelineDonhangComponent } from 'fe_shop/src/app/shared/timeline-donhang/timeline-donhang.component';
-import { ListTrangThaiDonhang } from 'fe_shop/src/app/shared/shared.utils';
+import { ListHinhthucthanhtoan, ListTrangThaiDonhang } from 'fe_shop/src/app/shared/shared.utils';
 import { MatMenuModule } from '@angular/material/menu';
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { MatInputModule } from '@angular/material/input';
@@ -45,6 +45,7 @@ export class DonhangAdminChitietComponent implements OnInit {
   Phivanchuyen: any = 10
   Giamgia: any = 30
   ListTrangThaiDonhang:any=ListTrangThaiDonhang
+  ListHinhthucthanhtoan:any=ListHinhthucthanhtoan
   @ViewChild('GhichuDialog') GhichuDialog!: TemplateRef<any>;
   constructor(
      private dialog:MatDialog,
@@ -94,7 +95,12 @@ export class DonhangAdminChitietComponent implements OnInit {
   GetStatus(item:any,field:any)
   {
     const result = ListTrangThaiDonhang.find((v)=>v.id==item)
-    return result[field]
+    if(result){return result[field]}
+  }
+  GetHinhthucthanhtoan(item:any,field:any)
+  {
+    const result = ListHinhthucthanhtoan.find((v)=>v.id==item)
+    if(result){return result[field]}
   }
   openGhichu(teamplate: TemplateRef<any>): void {
     console.log(teamplate);
@@ -129,8 +135,20 @@ export class DonhangAdminChitietComponent implements OnInit {
         });
       })
     }
-
-     }
+  }
+  ChangeHinhthucthanhtoan(item: any, item1: any) {
+    console.log(item,item1);
+    
+      item.Thanhtoan.Hinhthuc=item1.id
+      this._GiohangService.UpdateDonhang(item).then(() => {
+        this._snackBar.open('Cập Nhật Thành Công', '', {
+          horizontalPosition: "end",
+          verticalPosition: "top",
+          panelClass: 'success',
+          duration: 1000,
+        });
+      })
+  }
      Tanggiatri(index:any,field:any)
      {
       if(this.Detail.Giohangs.Sanpham[index][field])
