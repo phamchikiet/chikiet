@@ -35,8 +35,8 @@ export class DonhangController {
       return await this.donhangService.findQuery(SearchParams);
   }
   @Patch(':id')
-  update(@Param('id') id: string, @Body() updateDonhangDto: UpdateDonhangDto) {
-    return this.donhangService.update(id, updateDonhangDto);
+  update(@Param('id') id: string, @Body() data: any) {
+    return this.donhangService.update(id, data);
   }
 
   @Delete(':id')

@@ -6,6 +6,9 @@ export enum Role {
   Dev = 'dev',
   Iso = 'iso',
   Customer = 'customer',
+  Nhanvienkho = 'nhanvienkho',
+  Nhanvienbanhang = 'nhanvienbanhang',
+  Ketoan = 'ketoan',
 }
 export enum Action {
   Manage = 'manage',

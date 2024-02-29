@@ -101,8 +101,11 @@ export class DonhangService {
       );    
     return { items, totalCount };
   }
-  async update(id: string, UpdateDonhangDto: UpdateDonhangDto) {
-    this.DonhangRepository.save(UpdateDonhangDto);
+  async update(id: string, data: any) {
+    console.log(data);
+    await this._GiohangService.update(data.Giohangs.id,data.Giohangs);
+    await this._KhachhangService.update(data.Khachhang.id,data.Khachhang);
+    this.DonhangRepository.save(data);
     return await this.DonhangRepository.findOne({ where: { id: id } });
   }
   async remove(id: string) {
