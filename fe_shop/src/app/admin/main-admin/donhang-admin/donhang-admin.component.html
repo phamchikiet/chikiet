@@ -91,6 +91,9 @@
                       Địa Chỉ
                     </th>
                     <th scope="col" class="p-4 text-xs font-medium text-left text-gray-500 uppercase lg:p-5">
+                     HT Thanh Toán
+                    </th>
+                    <th scope="col" class="p-4 text-xs font-medium text-left text-gray-500 uppercase lg:p-5">
                       Trạng Thái
                     </th>
                     <th scope="col" class="p-4 text-xs font-medium text-left text-gray-500 uppercase lg:p-5">
@@ -111,7 +114,7 @@
                     <td class="p-4 text-sm font-normal text-gray-500 whitespace-nowrap lg:p-5">
                       <a routerLink="{{item.id}}" (click)="drawer.toggle()">
                         <div>{{item?.MaDonHang}}</div>
-                        <div class="text-sm font-normal text-gray-500">{{item.CreateAt|date:'HH:mm:ss dd/MM/YYYY'}}
+                        <div class="text-xs italic text-gray-500">{{item.CreateAt|date:'HH:mm:ss dd/MM/YYYY'}}
                         </div>
                       </a>
                     </td>
@@ -128,6 +131,9 @@
                     <td class="p-4 text-sm font-normal text-gray-500 lg:p-5">
                       <div>{{item?.Giohangs?.Khachhang.Diachi}}</div>
                     </td>
+                    <td class="p-4 text-sm font-normal text-gray-500 lg:p-5">
+                      <div>{{item?.Thanhtoan?.Hinhthuc}}</div>
+                    </td>
                     <td class="p-4 text-xs whitespace-nowrap">
                       <span class="p-2 rounded-lg {{GetStatus(item.Status,'Class')}}" [matMenuTriggerFor]="menu">{{GetStatus(item.Status,'Title')}}</span>  
                       <mat-menu #menu="matMenu">
@@ -142,18 +148,18 @@
                       </mat-menu>
                     </td>
                     <td class="p-4 space-x-2 whitespace-nowrap lg:p-5">
-                      <a routerLink="{{item.id}}" mat-flat-button color="primary">
-                        <div class="flex flex-row space-x-2 items-center">
-                        <span class="material-symbols-outlined">edit_square</span>
-                        <span>Sửa</span>
-                         </div>
+                      <a routerLink="{{item.id}}">
+                        <span class="material-symbols-outlined p-2 border rounded-full 
+                        bg-slate-200 text-blue-500 
+                        hover:bg-blue-500 hover:text-white">
+                          edit_square
+                        </span>
                       </a>
-                      <button (click)="XoaDialog(XoaTeamplate);SelectItem=item" mat-flat-button color="warn">
-                        <div class="flex flex-row space-x-2 items-center">
-                        <span class="material-symbols-outlined">delete</span>
-                        <span>Xoá</span>
-                         </div>
-                      </button>
+                      <span (click)="XoaDialog(XoaTeamplate);SelectItem=item" class="material-symbols-outlined p-2 border rounded-full 
+                      bg-slate-200 text-red-500 
+                      hover:bg-red-500 hover:text-white">
+                         delete
+                      </span>
                     </td>
                   </tr>
                   }

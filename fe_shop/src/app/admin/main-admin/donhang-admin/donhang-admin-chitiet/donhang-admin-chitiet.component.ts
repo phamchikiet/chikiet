@@ -10,6 +10,9 @@ import { GiohangService } from '../../website/giohang/giohang.service';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { ForminAdminComponent } from 'fe_shop/src/formin/formin-admin/formin-admin.component';
 import { TimelineDonhangComponent } from 'fe_shop/src/app/shared/timeline-donhang/timeline-donhang.component';
+import { ListTrangThaiDonhang } from 'fe_shop/src/app/shared/shared.utils';
+import { MatMenuModule } from '@angular/material/menu';
+import { MatSnackBar } from '@angular/material/snack-bar';
 @Component({
   selector: 'app-donhang-admin-chitiet',
   standalone:true,
@@ -23,7 +26,9 @@ import { TimelineDonhangComponent } from 'fe_shop/src/app/shared/timeline-donhan
     DonhangAdminComponent,
     MatDialogModule,
     ForminAdminComponent,
-    TimelineDonhangComponent
+    TimelineDonhangComponent,
+    MatButtonModule,
+    MatMenuModule
   ],
   templateUrl: './donhang-admin-chitiet.component.html',
   styleUrls: ['./donhang-admin-chitiet.component.css']
@@ -37,7 +42,11 @@ export class DonhangAdminChitietComponent implements OnInit {
   Giohangs: any[] = []
   Phivanchuyen: any = 10
   Giamgia: any = 30
-  constructor( private dialog:MatDialog) {
+  ListTrangThaiDonhang:any=ListTrangThaiDonhang
+  constructor(
+     private dialog:MatDialog,
+     private _snackBar: MatSnackBar,
+     ) {
       this.idSP = this.route.snapshot.params['id'];
   }
   ngOnInit() {
@@ -79,4 +88,22 @@ export class DonhangAdminChitietComponent implements OnInit {
 
     });
   }
+  GetStatus(item:any,field:any)
+  {
+    const result = ListTrangThaiDonhang.find((v)=>v.id==item)
+    return result[field]
+  }
+  ChangeStatus(item: any, item1: any) {
+    console.log(item,item1);
+    
+     item.Status=item1.id
+      this._GiohangService.UpdateDonhang(item).then(() => {
+        this._snackBar.open('Cập Nhật Thành Công', '', {
+          horizontalPosition: "end",
+          verticalPosition: "top",
+          panelClass: 'success',
+          duration: 1000,
+        });
+      })
+     }
 }

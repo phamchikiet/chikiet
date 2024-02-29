@@ -7,9 +7,26 @@
             close
           </span>
         </a>
+        <div class="flex flex-row space-x-2 items-center">
+        <span class="p-2 rounded-lg 
+        {{GetStatus(Detail.Status,'Class')}}" 
+        [matMenuTriggerFor]="menu">
+        {{GetStatus(Detail.Status,'Title')}}
+      </span>  
+      <mat-menu #menu="matMenu">
+        <div class="flex flex-col space-y-2 p-3">
+        @for (item1 of ListTrangThaiDonhang; track $index) {
+          <span class="p-2 text-xs rounded-lg {{item1.Class}}" (click)="ChangeStatus(Detail,item1)">
+            {{item1.Title}}
+          </span>
+          <!-- <button mat-menu-item>{{item.Title}}</button> -->
+        }
+      </div>
+      </mat-menu>
         <span class="text-xl font-semibold" (click)="XemFormin(dialogXemFormin)">
           {{Detail?.MaDonHang}}
         </span>
+      </div>
       </div>
       <div class="lg:p-6 p-2 space-y-6">
         <!-- <div class="lg:hidden relative my-10 w-[320px] mx-auto">
