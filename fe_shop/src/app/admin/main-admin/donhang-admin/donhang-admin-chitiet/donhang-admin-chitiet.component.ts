@@ -145,6 +145,8 @@ export class DonhangAdminChitietComponent implements OnInit {
      }
      Giamgiatri(index:any,field:any)
      {
+      console.log(index,field);
+      
       if(this.Detail.Giohangs.Sanpham[index][field]&&this.Detail.Giohangs.Sanpham[index][field]>1)
       {
         this.Detail.Giohangs.Sanpham[index][field] = Number(this.Detail.Giohangs.Sanpham[index][field])-1
