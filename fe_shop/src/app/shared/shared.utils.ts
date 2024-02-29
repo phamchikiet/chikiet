@@ -74,6 +74,9 @@ export const ListRole: any[] =[
   {id:'manager',value:'Quản Lý'},
   {id:'user',value:'Nhân Viên'},
   {id:'customer',value:'Khách Hàng'},
+  {id:'nhanvienkho',value:'Nhân Viên Kho'},
+  {id:'nhanvienbanhang',value:'Nhân Viên Bán Hàng'},
+  {id:'ketoan',value:'Kế Toán'},
 ]
 
 export const ListNotifyType: any ={

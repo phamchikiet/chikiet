@@ -52,10 +52,7 @@ export class AdminuserDetailComponent implements OnInit {
   constructor(private _snackBar: MatSnackBar) {
       this.idSP = this.route.snapshot.params['id'];
   }
-  async ngOnInit() {
-    console.log("detail");
-    console.log(this.idSP);
-    
+  async ngOnInit() {    
     if(this.idSP)
     {
     this.Detail = await this._UsersService.getUserByid(this.idSP)
