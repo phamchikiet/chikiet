@@ -10,7 +10,7 @@
           <span class="font-bold">Hình Thức</span>
             <span class="p-2 rounded-lg 
             {{GetHinhthucthanhtoan(Detail.Thanhtoan.Hinhthuc,'Class')}}" [matMenuTriggerFor]="menu">
-             {{GetHinhthucthanhtoan(Detail.Thanhtoan.Hinhthuc,'Title')}}
+             {{GetHinhthucthanhtoan(Detail.Thanhtoan.Hinhthuc,'Title')||'Chọn Hình Thức'}}
            </span>
         </div>
         <mat-menu #menu="matMenu">
@@ -157,7 +157,7 @@
               </div>
               <div class="flex justify-between mb-3 font-bold text-red-500">
                 <p class="text-sm">Tổng Thực Tế</p>
-                <p class="text-sm">{{Detail.SubTotal|number:'1.0-0'||'0'}}đ</p>
+                <p class="text-sm">{{GetSubTotal(Detail.Giohangs.Sanpham,'SLTT','Giachon')|number:'1.0-0'||'0'}}đ</p>
               </div>
               <div class="flex justify-between mb-3">
                 <p class="text-sm text-default-500">Phí Vận Chuyển</p>
@@ -181,7 +181,7 @@
               </div>
               <div class="flex justify-between mb-3">
                 <p class="text-sm text-default-500">Thuế</p>
-                <p class="text-sm text-default-700 font-medium">{{(GetTotal(Giohangs,'Thue','')|
+                <p class="text-sm text-default-700 font-medium">{{(GetSubTotal(Detail.Giohangs.Sanpham,'Thue','')|
                   number:'1.0-0')||'0'}}đ</p>
               </div>
               <hr />
@@ -191,7 +191,7 @@
               </div>
               <div class="!font-bold flex justify-between mt-3 text-red-500">
                 <p class="text-base">Tổng Cộng Thực Tế</p>
-                <p class="text-base">{{Detail.Total| number:'1.0-0'||'0'}}đ</p>
+                <p class="text-base">{{GetTotal(Detail,Detail.Giohangs.Sanpham,'SLTT','Giachon','Thue')| number:'1.0-0'||'0'}}đ</p>
               </div>
             </div>
           </div>

@@ -73,17 +73,17 @@ export class DonhangAdminChitietComponent implements OnInit {
   {
     this._DonhangAdminComponent.drawer.close()
   }
-  GetTotal(data: any, field: any, field1: any) {
-    if (field1) {
-      return data?.reduce((acc: any, item: any) => acc + item[field] * item[field1]?.gia, 0) || 0;
-    }
-    else {
-      return data?.reduce((acc: any, item: any) => acc + item[field], 0) || 0;
-    }
+  GetSubTotal(data: any, field: any, field1: any) {
+    return this._GiohangService.getSum(data,field,field1)
   }
-  GetTongcong() {
-    return this.GetTotal(this.Giohangs, 'Soluong', 'Giachon') + this.Phivanchuyen + this.Giamgia + this.GetTotal(this.Giohangs, 'Thue', '')
+  GetTotal(donhang:any,giohang:any,soluong:any,gia:any,thue:any)
+  {
+    const result = (this.GetSubTotal(giohang, soluong, gia) + Number(donhang.Vanchuyen.Phivanchuyen||0) + Number(donhang.Giamgia||0) + this.GetSubTotal(giohang, thue, ''))
+    return result
   }
+  // GetTongcong() {
+  //   return this.GetTotal(this.Giohangs, 'Soluong', 'Giachon') + this.Phivanchuyen + this.Giamgia + this.GetTotal(this.Giohangs, 'Thue', '')
+  // }
 
   XemFormin(teamplate: TemplateRef<any>): void {    
     const dialogRef = this.dialog.open(teamplate, {
@@ -178,4 +178,5 @@ export class DonhangAdminChitietComponent implements OnInit {
         });
       }
      }
+
 }

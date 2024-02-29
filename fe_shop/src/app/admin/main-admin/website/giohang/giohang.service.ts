@@ -121,53 +121,6 @@ export class GiohangService {
             return console.error(error);
         }
     }
-    getGiamgia()
-    {
-        if (this.Donhang.hasOwnProperty('Khuyenmai')) {
-            if (this.Donhang.Khuyenmai.Type.Value == 'phantram') {
-                this.Donhang.Giamgia = this.Donhang.SubTotal * (Number(this.Donhang.Khuyenmai.Value) / 100)
-                return this.Donhang.Giamgia
-            }
-            else {
-                if (this.Donhang.Khuyenmai.Value > this.Donhang.SubTotal) {
-                    this.Donhang.Giamgia = 0
-                    return this.Donhang.Giamgia
-                }
-                else {
-                    this.Donhang.Giamgia = this.Donhang.SubTotal - this.Donhang.Khuyenmai.Value
-                    return this.Donhang.Giamgia
-                }
-
-            }
-        }
-        else return 0  
-    }
-    async getDonhang(): Promise<any> {
-        this.Donhang.SubTotal = this.Donhang.Giohangs.reduce((acc: any, item: any) => acc + item.Soluong * item.Giachon?.gia, 0) || 0;
-        this.getGiamgia()
-        //this.Donhang.Total = this.Donhang.SubTotal + Number(this.Donhang.Vanchuyen.Phivanchuyen||0) - Giamgia + this.GetTotal(data.Giohangs, 'Thue', '')||0 
-        // if (this.Donhang.hasOwnProperty('Khuyenmai')) {
-        //     if (this.Donhang.Khuyenmai.Type.Value == 'phantram') {
-        //         this.Donhang.Giamgia = this.Donhang.SubTotal * (Number(this.Donhang.Khuyenmai.Value) / 100)
-        //     }
-        //     else {
-        //         if (this.Donhang.Khuyenmai.Value > this.Donhang.SubTotal) {
-        //             this.Donhang.Giamgia = 0
-        //         }
-        //         else {
-        //             this.Donhang.Giamgia = this.Donhang.SubTotal - this.Donhang.Khuyenmai.Value
-        //         }
-
-        //     }
-        // }
-        // else
-        // {
-        //     this.Donhang.Total = this.Donhang.SubTotal + Number(this.Donhang.Vanchuyen.Phivanchuyen||0) - Number(this.Donhang.Giamgia||0) + this.GetTotal(data.Giohangs, 'Thue', '')||0 
-        // }
-        this._donhang.next(this.Donhang)
-        this._LocalStorageService.setItem('Donhang', this.Donhang)
-    }
-
     async getDonhangByid(id: any): Promise<any> {
         try {
             const options = {
@@ -357,6 +310,41 @@ export class GiohangService {
         } catch (error) {
             return console.error(error);
         }
+    }
+    getGiamgia()
+    {
+        if (this.Donhang.hasOwnProperty('Khuyenmai')) {
+            if (this.Donhang.Khuyenmai.Type.Value == 'phantram') {
+                this.Donhang.Giamgia = this.Donhang.SubTotal * (Number(this.Donhang.Khuyenmai.Value) / 100)
+                return this.Donhang.Giamgia
+            }
+            else {
+                if (this.Donhang.Khuyenmai.Value > this.Donhang.SubTotal) {
+                    this.Donhang.Giamgia = 0
+                    return this.Donhang.Giamgia
+                }
+                else {
+                    this.Donhang.Giamgia = this.Donhang.SubTotal - this.Donhang.Khuyenmai.Value
+                    return this.Donhang.Giamgia
+                }
+
+            }
+        }
+        else return 0  
+    }
+    getSum(data: any, field: any, field1: any) {
+        if (field1) {
+          return data?.reduce((acc: any, item: any) => acc + item[field] * item[field1]?.gia, 0) || 0;
+        }
+        else {
+          return data?.reduce((acc: any, item: any) => acc + item[field], 0) || 0;
+        }
+    }
+    async getDonhang(): Promise<any> {
+        this.Donhang.SubTotal = this.Donhang.Giohangs.reduce((acc: any, item: any) => acc + item.Soluong * item.Giachon?.gia, 0) || 0;
+        this.getGiamgia()
+        this._donhang.next(this.Donhang)
+        this._LocalStorageService.setItem('Donhang', this.Donhang)
     }
 }
 

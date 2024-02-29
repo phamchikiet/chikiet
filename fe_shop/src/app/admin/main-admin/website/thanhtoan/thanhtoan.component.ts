@@ -36,7 +36,6 @@ export class ThanhtoanComponent implements OnInit {
   _SendemailService: SendemailService = inject(SendemailService)
   _ThanhtoanService: ThanhtoanService = inject(ThanhtoanService)
   Khoangcach: any = {}
-  Giamgia: any = 30
   ListNotifyType: any = ListNotifyType
   Notify: any = {}
   Donhang: any = {}
