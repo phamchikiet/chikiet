@@ -239,6 +239,8 @@ export class GiohangService {
         }
     }
     async UpdateDonhang(item: any): Promise<any> {
+        console.log(item);
+        
         this._donhang.next(item)
         this.getDonhang()
         //this._LocalStorageService.setItem('Donhang', this.Donhang)

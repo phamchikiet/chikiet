@@ -19,9 +19,6 @@ export class TimelineDonhangComponent implements OnInit {
     {id:4,Title:"Hoàn Thành", Class:"text-white bg-green-400"},
     {id:5,Title:"Huỷ",        Class:"text-white bg-red-400"}
   ]
-  ngOnInit() {
-    console.log(this.Status);
-    
-  }
+  ngOnInit() {}
 
 }

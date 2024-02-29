@@ -66,7 +66,7 @@
           <div class="inline-block min-w-full align-middle">
             <div class="overflow-hidden">
               <table class="min-w-full divide-y divide-gray-200 table-fixed">
-                <thead class="bg-white">
+                <thead class="bg-white font-bold">
                   <tr>
                     <th scope="col" class="p-4 lg:p-5">
                       <div class="flex items-center">
@@ -75,28 +75,28 @@
                         <label for="checkbox-all" class="sr-only">checkbox</label>
                       </div>
                     </th>
-                    <th scope="col" class="p-4 text-xs font-medium text-left text-gray-500 uppercase lg:p-5">
+                    <th scope="col" class="p-4 text-xs font-bold text-left text-gray-500 uppercase lg:p-5">
                       Mã Đơn Hàng
                     </th>
-                    <th scope="col" class="p-4 text-xs font-medium text-left text-gray-500 uppercase lg:p-5">
+                    <th scope="col" class="p-4 text-xs font-bold text-left text-gray-500 uppercase lg:p-5">
                       Họ Tên
                     </th>
-                    <th scope="col" class="p-4 text-xs font-medium text-left text-gray-500 uppercase lg:p-5">
+                    <th scope="col" class="p-4 text-xs font-bold text-left text-gray-500 uppercase lg:p-5">
                       Số Điện Thoại
                     </th>
-                    <th scope="col" class="p-4 text-xs font-medium text-left text-gray-500 uppercase lg:p-5">
+                    <th scope="col" class="p-4 text-xs font-bold text-left text-gray-500 uppercase lg:p-5">
                       Tổng Tiền
                     </th>
-                    <th scope="col" class="p-4 text-xs font-medium text-left text-gray-500 uppercase lg:p-5">
+                    <th scope="col" class="p-4 text-xs font-bold text-left text-gray-500 uppercase lg:p-5">
                       Địa Chỉ
                     </th>
-                    <th scope="col" class="p-4 text-xs font-medium text-left text-gray-500 uppercase lg:p-5">
+                    <th scope="col" class="p-4 text-xs font-bold text-left text-gray-500 uppercase lg:p-5">
                      HT Thanh Toán
                     </th>
-                    <th scope="col" class="p-4 text-xs font-medium text-left text-gray-500 uppercase lg:p-5">
+                    <th scope="col" class="p-4 text-xs font-bold text-left text-gray-500 uppercase lg:p-5">
                       Trạng Thái
                     </th>
-                    <th scope="col" class="p-4 text-xs font-medium text-left text-gray-500 uppercase lg:p-5">
+                    <th scope="col" class="p-4 text-xs font-bold text-left text-gray-500 uppercase lg:p-5">
                       Hành Động
                     </th>
                   </tr>
@@ -113,7 +113,7 @@
                     </td>
                     <td class="p-4 text-sm font-normal text-gray-500 whitespace-nowrap lg:p-5">
                       <a routerLink="{{item.id}}" (click)="drawer.toggle()">
-                        <div>{{item?.MaDonHang}}</div>
+                        <div class="font-bold">{{item?.MaDonHang}}</div>
                         <div class="text-xs italic text-gray-500">{{item.CreateAt|date:'HH:mm:ss dd/MM/YYYY'}}
                         </div>
                       </a>
@@ -123,10 +123,10 @@
                       <div>{{item?.Giohangs?.Khachhang?.Email}}</div>
                     </td>
                     <td class="p-4 text-sm font-normal text-gray-500 whitespace-nowrap lg:p-5">
-                      <div>{{item?.Giohangs?.Khachhang?.SDT}}</div>
+                      <div class="font-bold">{{item?.Giohangs?.Khachhang?.SDT}}</div>
                     </td>
                     <td class="p-4 text-sm font-normal text-gray-500 whitespace-nowrap lg:p-5 text-end">
-                      <div>{{(item?.Giohangs?.Total| number:'1.0-0')||'0'}}đ</div>
+                      <div class="font-bold">{{(item?.Giohangs?.Total| number:'1.0-0')||'0'}}đ</div>
                     </td>
                     <td class="p-4 text-sm font-normal text-gray-500 lg:p-5">
                       <div>{{item?.Giohangs?.Khachhang.Diachi}}</div>
@@ -135,17 +135,19 @@
                       <div>{{item?.Thanhtoan?.Hinhthuc}}</div>
                     </td>
                     <td class="p-4 text-xs whitespace-nowrap">
-                      <span class="p-2 rounded-lg {{GetStatus(item.Status,'Class')}}" [matMenuTriggerFor]="menu">{{GetStatus(item.Status,'Title')}}</span>  
+                      <span class="p-2 rounded-lg {{GetStatus(item.Status,'Class')}}">
+                        {{GetStatus(item.Status,'Title')}}
+                      </span>      
+                      <!-- <span class="p-2 rounded-lg {{GetStatus(item.Status,'Class')}}" [matMenuTriggerFor]="menu">{{GetStatus(item.Status,'Title')}}</span>  
                       <mat-menu #menu="matMenu">
                         <div class="flex flex-col space-y-2 p-3">
                         @for (item1 of ListTrangThaiDonhang; track $index) {
                           <span class="p-2 text-xs rounded-lg {{item1.Class}}" (click)="ChangeStatus(item,item1)">
                             {{item1.Title}}
                           </span>
-                          <!-- <button mat-menu-item>{{item.Title}}</button> -->
                         }
                       </div>
-                      </mat-menu>
+                      </mat-menu> -->
                     </td>
                     <td class="p-4 space-x-2 whitespace-nowrap lg:p-5">
                       <a routerLink="{{item.id}}">

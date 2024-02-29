@@ -1,4 +1,4 @@
-import { Component, Inject, Input, OnInit, TemplateRef, inject } from '@angular/core';
+import { Component, Inject, Input, OnInit, TemplateRef, ViewChild, inject } from '@angular/core';
 import { InputTextModule } from 'primeng/inputtext';
 import { MatSelect, MatSelectModule } from '@angular/material/select';
 import { FormsModule } from '@angular/forms';
@@ -13,6 +13,7 @@ import { TimelineDonhangComponent } from 'fe_shop/src/app/shared/timeline-donhan
 import { ListTrangThaiDonhang } from 'fe_shop/src/app/shared/shared.utils';
 import { MatMenuModule } from '@angular/material/menu';
 import { MatSnackBar } from '@angular/material/snack-bar';
+import { MatInputModule } from '@angular/material/input';
 @Component({
   selector: 'app-donhang-admin-chitiet',
   standalone:true,
@@ -28,7 +29,8 @@ import { MatSnackBar } from '@angular/material/snack-bar';
     ForminAdminComponent,
     TimelineDonhangComponent,
     MatButtonModule,
-    MatMenuModule
+    MatMenuModule,
+    MatInputModule
   ],
   templateUrl: './donhang-admin-chitiet.component.html',
   styleUrls: ['./donhang-admin-chitiet.component.css']
@@ -43,6 +45,7 @@ export class DonhangAdminChitietComponent implements OnInit {
   Phivanchuyen: any = 10
   Giamgia: any = 30
   ListTrangThaiDonhang:any=ListTrangThaiDonhang
+  @ViewChild('GhichuDialog') GhichuDialog!: TemplateRef<any>;
   constructor(
      private dialog:MatDialog,
      private _snackBar: MatSnackBar,
@@ -93,10 +96,30 @@ export class DonhangAdminChitietComponent implements OnInit {
     const result = ListTrangThaiDonhang.find((v)=>v.id==item)
     return result[field]
   }
+  openGhichu(teamplate: TemplateRef<any>): void {
+    console.log(teamplate);
+    const dialogRef = this.dialog.open(teamplate, {});
+    dialogRef.afterClosed().subscribe((result) => {
+      if (result == 'true') {
+        this._GiohangService.UpdateDonhang(this.Detail).then(() => {
+          this._snackBar.open('Cập Nhật Thành Công', '', {
+            horizontalPosition: "end",
+            verticalPosition: "top",
+            panelClass: 'success',
+            duration: 1000,
+          });
+        })
+      }
+    });
+  } 
   ChangeStatus(item: any, item1: any) {
-    console.log(item,item1);
-    
-     item.Status=item1.id
+    if(item1.id==5)
+    {
+      this.Detail.Status=5
+      this.openGhichu(this.GhichuDialog)     
+    }
+    else{
+      item.Status=item1.id
       this._GiohangService.UpdateDonhang(item).then(() => {
         this._snackBar.open('Cập Nhật Thành Công', '', {
           horizontalPosition: "end",
@@ -105,5 +128,34 @@ export class DonhangAdminChitietComponent implements OnInit {
           duration: 1000,
         });
       })
+    }
+
+     }
+     Tanggiatri(index:any,field:any)
+     {
+      if(this.Detail.Giohangs.Sanpham[index][field])
+      {
+        this.Detail.Giohangs.Sanpham[index][field] = Number(this.Detail.Giohangs.Sanpham[index][field])+1
+      }
+      else
+      {
+        this.Detail.Giohangs.Sanpham[index][field] = 1
+      }
+      
+     }
+     Giamgiatri(index:any,field:any)
+     {
+      if(this.Detail.Giohangs.Sanpham[index][field]&&this.Detail.Giohangs.Sanpham[index][field]>1)
+      {
+        this.Detail.Giohangs.Sanpham[index][field] = Number(this.Detail.Giohangs.Sanpham[index][field])-1
+      }  
+      else {
+        this._snackBar.open('Số Lượng Không Được Âm','',{
+          horizontalPosition: "end",
+          verticalPosition: "top",
+          panelClass:'danger',
+          duration: 1000,
+        });
+      }
      }
 }
