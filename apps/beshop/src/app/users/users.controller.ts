@@ -38,8 +38,8 @@ export class UsersController {
     return this.usersService.findAdmin();
   }
   @Patch(':id')
-  update(@Param('id') id: string, @Body() updateUserDto: UpdateUserDto) {
-    return this.usersService.update(id, updateUserDto);
+  update(@Param('id') id: string, @Body() data: any) {
+    return this.usersService.update(id, data);
   }
   @Post('search')
   async findQuery(@Body() SearchParams: any){

@@ -28,6 +28,8 @@ export class DonhangEntity {
   Diachis: string;
   @Column({ type: 'text', collation: 'utf8_general_ci' })
   Ghichu: string;
+  @Column({ type: 'text', collation: 'utf8_general_ci' })
+  Lydohuy: string;
   @Column({ type: 'bigint' })
   Total: number;
   @Column({ type: 'bigint' })

@@ -57,7 +57,7 @@ export class UsersService {
       );
     return admin
   }
-  async update(id: string, data: Partial<UpdateUserDto>) {
+  async update(id: string, data: any) {
     await this.usersRepository.save(data);
     return await this.read(id);
   }
