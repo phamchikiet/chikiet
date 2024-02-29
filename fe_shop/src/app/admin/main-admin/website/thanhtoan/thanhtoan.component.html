@@ -184,7 +184,8 @@
                     <h4 class="text-lg font-medium text-default-800 mb-6">Thông tin bổ sung</h4>
 
                     <div>
-                        <textarea
+                        <textarea [(ngModel)]="Donhang.Ghichu" [ngModelOptions]="{standalone: true}"
+                        
                             class="block w-full bg-transparent dark:bg-default-50 rounded-lg py-2.5 px-4 border border-default-200"
                             rows="4" type="text" placeholder="Ghi chú giao hàng"></textarea>
                     </div>

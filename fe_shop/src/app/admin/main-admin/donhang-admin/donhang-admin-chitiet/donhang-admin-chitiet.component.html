@@ -141,11 +141,11 @@
         </div>
 
         <div class="flex flex-col space-y-4">
-          @if(Detail.Ghichu!='')
+          @if(Detail.Lydohuy!='')
           {
           <div class="flex flex-col space-y-2 border border-default-200 rounded-lg p-2">
             <span class="p-2 bg-red-500 rounded-lg text-white">Lý do huỷ :</span>
-            <span class="p-4 text-red-500 font-bold">{{Detail.Ghichu}}</span>
+            <span class="p-4 text-red-500 font-bold">{{Detail.Lydohuy}}</span>
           </div>
           }
           <div class="border border-default-200 rounded-lg p-3">
@@ -197,6 +197,16 @@
           </div>
           <div class="rounded-lg border border-default-200">
             <div class="p-4 border-b border-default-200">
+              <span class="!text-lg !font-semibold text-default-800">Ghi Chú</span>
+            </div>
+            <div class="p-4">
+              <p class="text-sm mb-4">
+                {{Detail.Ghichu}}
+              </p>
+            </div>
+          </div>
+          <div class="rounded-lg border border-default-200">
+            <div class="p-4 border-b border-default-200">
               <span class="!text-lg !font-semibold text-default-800">Vận Chuyển</span>
             </div>
             <div class="p-4">
@@ -239,7 +249,7 @@
       <div class="flex flex-col w-full space-y-4 lg:p-4">
         <mat-form-field appearance="outline" class="w-full">
           <mat-label>Nội Dung</mat-label>
-          <textarea [(ngModel)]="Detail.Ghichu" [ngModelOptions]="{standalone: true}" matInput name="" id="" cols="3"
+          <textarea [(ngModel)]="Detail.Lydohuy" [ngModelOptions]="{standalone: true}" matInput name="" id="" cols="3"
             rows="3"></textarea>
         </mat-form-field>
       </div>
