@@ -14,6 +14,8 @@ import { ListHinhthucthanhtoan, ListTrangThaiDonhang } from 'fe_shop/src/app/sha
 import { MatMenuModule } from '@angular/material/menu';
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { MatInputModule } from '@angular/material/input';
+import { DiachiAdminComponent } from '../../../diachi/diachi-admin/diachi-admin.component';
+import { UsersService } from '../../../users/auth/users.service';
 @Component({
   selector: 'app-donhang-admin-chitiet',
   standalone:true,
@@ -30,7 +32,8 @@ import { MatInputModule } from '@angular/material/input';
     TimelineDonhangComponent,
     MatButtonModule,
     MatMenuModule,
-    MatInputModule
+    MatInputModule,
+    DiachiAdminComponent
   ],
   templateUrl: './donhang-admin-chitiet.component.html',
   styleUrls: ['./donhang-admin-chitiet.component.css']
@@ -47,6 +50,8 @@ export class DonhangAdminChitietComponent implements OnInit {
   ListTrangThaiDonhang:any=ListTrangThaiDonhang
   ListHinhthucthanhtoan:any=ListHinhthucthanhtoan
   @ViewChild('GhichuDialog') GhichuDialog!: TemplateRef<any>;
+  _UsersService: UsersService = inject(UsersService)
+  Profile: any = {}
   constructor(
      private dialog:MatDialog,
      private _snackBar: MatSnackBar,
@@ -54,6 +59,20 @@ export class DonhangAdminChitietComponent implements OnInit {
       this.idSP = this.route.snapshot.params['id'];
   }
   ngOnInit() {
+    this._UsersService.getProfile()
+    this._UsersService.profile$.subscribe((data) => {
+      if (data) {
+        this.Profile = data
+        this.ListTrangThaiDonhang = ListTrangThaiDonhang.filter((v:any)=>v.id==1||v.id==2)
+        if(data.Role=="nhanvienkinhdoanh"){this.ListTrangThaiDonhang = ListTrangThaiDonhang.filter((v:any)=>v.id==1||v.id==2)}
+        else if(data.Role=="nhanvienkho"){this.ListTrangThaiDonhang = ListTrangThaiDonhang.filter((v:any)=>v.id==3)}
+        else if(data.Role=="nhanvienketoan"){this.ListTrangThaiDonhang = ListTrangThaiDonhang.filter((v:any)=>v.id==4)}
+        else if(data.Role=="admin"){this.ListTrangThaiDonhang=ListTrangThaiDonhang}
+        else {this.ListTrangThaiDonhang=[]}
+      }
+    })
+    
+
     if(this.idSP)
     {
       this._GiohangService.getAdDonhangByid(this.idSP)
@@ -105,23 +124,31 @@ export class DonhangAdminChitietComponent implements OnInit {
   openGhichu(teamplate: TemplateRef<any>): void {
     console.log(teamplate);
     const dialogRef = this.dialog.open(teamplate, {});
-    dialogRef.afterClosed().subscribe((result) => {
-      if (result == 'true') {
-        this._GiohangService.UpdateDonhang(this.Detail).then(() => {
-          this._snackBar.open('Cập Nhật Thành Công', '', {
+      dialogRef.afterClosed().subscribe((result) => {
+        if (result == 'true') {
+          this.Detail.Status=5
+          this._GiohangService.UpdateDonhang(this.Detail).then(() => {
+            this._snackBar.open('Cập Nhật Thành Công', '', {
+              horizontalPosition: "end",
+              verticalPosition: "top",
+              panelClass: 'success',
+              duration: 1000,
+            });
+          })
+        }
+        else {
+          this._snackBar.open('Đơn hàng chưa được huỷ do chưa nhập lý do.', '', {
             horizontalPosition: "end",
             verticalPosition: "top",
-            panelClass: 'success',
+            panelClass: 'danger',
             duration: 1000,
           });
-        })
-      }
-    });
+        }
+      });
   } 
   ChangeStatus(item: any, item1: any) {
     if(item1.id==5)
     {
-      this.Detail.Status=5
       this.openGhichu(this.GhichuDialog)     
     }
     else{
@@ -178,5 +205,9 @@ export class DonhangAdminChitietComponent implements OnInit {
         });
       }
      }
-
+     GetDiachi(value: any) {
+      this.Detail.Diachis = value
+      const Diachi = value.find((v: any) => v.Active == true)
+      this.Detail.Khachhang.Diachi = `${Diachi.Diachi ? Diachi.Diachi + ', ' : ''}${Diachi.Phuong ? Diachi.Phuong + ', ' : ''}${Diachi.Quan ? Diachi.Quan + ', ' : ''}${Diachi.Tinh || ''}`;
+    }
 }

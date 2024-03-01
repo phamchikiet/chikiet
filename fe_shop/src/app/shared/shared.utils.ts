@@ -57,17 +57,17 @@ export const ListTrangthailichhen: any[] = [
     {id:5,Title:"Đang Lên phòng dịch vụ",Class:"text-blue-400"}
   ]
 export const ListHinhthucthanhtoan: any[] = [
-    {id:"MOMO",Title:"MOMO", Class:"text-white bg-[#95349d]"},
+    {id:"MOMO",Title:"MOMO", Class:"text-white bg-[#A52167]"},
     {id:"COD",Title:"COD",    Class:"text-white bg-[#439c30]"},
-    {id:"BANK",Title:"BANK",  Class:"text-white bg-[#d3b552]"},
+    {id:"BANK",Title:"BANK",  Class:"text-white bg-[#ED860A]"},
   ]
 export const ListTrangThaiDonhang: any[] = [
-    {id:0,Title:"Đơn Mới",    Class:"text-white bg-blue-300"},
-    {id:1,Title:"Xác Nhận",   Class:"text-white bg-cyan-500"},
-    {id:2,Title:"Đang xử lý", Class:"text-white bg-blue-500"},
-    {id:3,Title:"Đang Giao",  Class:"text-white bg-yellow-400"},
-    {id:4,Title:"Hoàn Thành", Class:"text-white bg-green-400"},
-    {id:5,Title:"Huỷ",        Class:"text-white bg-red-400"}
+    {id:0,Title:"Đơn Mới",    Class:"text-white bg-[#44C8F5]"},
+    {id:1,Title:"Xác Nhận",   Class:"text-white bg-[#ED860A]"},
+    {id:2,Title:"Đang xử lý", Class:"text-white bg-[#632B85]"},
+    {id:3,Title:"Đang Giao",  Class:"text-white bg-[#FBCD18]"},
+    {id:4,Title:"Hoàn Thành", Class:"text-white bg-[#32A649]"},
+    {id:5,Title:"Huỷ",        Class:"text-white bg-[#E1232A]"}
   ]
 export const ListRole: any[] =[
   {id:'admin',value:'Admin'},
@@ -76,7 +76,7 @@ export const ListRole: any[] =[
   {id:'customer',value:'Khách Hàng'},
   {id:'nhanvienkho',value:'Nhân Viên Kho'},
   {id:'nhanvienbanhang',value:'Nhân Viên Bán Hàng'},
-  {id:'ketoan',value:'Kế Toán'},
+  {id:'nhanvienketoan',value:'Nhân Viên Kế Toán'},
 ]
 
 export const ListNotifyType: any ={

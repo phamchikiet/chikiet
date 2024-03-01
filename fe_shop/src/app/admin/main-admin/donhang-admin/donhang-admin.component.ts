@@ -14,6 +14,7 @@ import * as moment from 'moment';
 import { ListTrangThaiDonhang, groupByfield } from 'fe_shop/src/app/shared/shared.utils';
 import { GiohangService } from '../website/giohang/giohang.service';
 import { MatSnackBar } from '@angular/material/snack-bar';
+import { UsersService } from '../../users/auth/users.service';
 @Component({
   selector: 'app-donhang-admin',
   standalone:true,
@@ -48,12 +49,21 @@ export class DonhangAdminComponent implements OnInit {
   sidebarVisible: boolean = false;
   ListTrangThaiDonhang:any=ListTrangThaiDonhang
   _GiohangService:GiohangService = inject(GiohangService)
+  _UsersService: UsersService = inject(UsersService)
+  Profile: any = {}
   SelectItem: any = {}
   @ViewChild('drawer', { static: true }) drawer!: MatDrawer;
   constructor(
     private dialog: MatDialog,
     private _snackBar: MatSnackBar,
   ) {
+    this._UsersService.getProfile()
+    this._UsersService.profile$.subscribe((data) => {
+      if (data) {
+        this.Profile = data
+        console.log(data);
+      }
+    })
   }
   async ngOnInit(): Promise<void> {
     this.Lists = await this._GiohangService.SearchDonhang(this.SearchParams)
