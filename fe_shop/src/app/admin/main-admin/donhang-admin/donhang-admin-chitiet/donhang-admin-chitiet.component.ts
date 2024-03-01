@@ -63,7 +63,7 @@ export class DonhangAdminChitietComponent implements OnInit {
     this._UsersService.profile$.subscribe((data) => {
       if (data) {
         this.Profile = data
-        this.ListTrangThaiDonhang = ListTrangThaiDonhang.filter((v:any)=>v.id==1||v.id==2)
+        this.ListTrangThaiDonhang = ListTrangThaiDonhang.filter((v:any)=>v.id==0||v.id==1||v.id==2)
         if(data.Role=="nhanvienkinhdoanh"){this.ListTrangThaiDonhang = ListTrangThaiDonhang.filter((v:any)=>v.id==1||v.id==2)}
         else if(data.Role=="nhanvienkho"){this.ListTrangThaiDonhang = ListTrangThaiDonhang.filter((v:any)=>v.id==3)}
         else if(data.Role=="nhanvienketoan"){this.ListTrangThaiDonhang = ListTrangThaiDonhang.filter((v:any)=>v.id==4)}

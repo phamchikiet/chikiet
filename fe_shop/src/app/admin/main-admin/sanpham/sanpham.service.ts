@@ -26,7 +26,7 @@ export class SanphamService {
           'Content-Type': 'application/json',
         },
       };
-    const response = await fetch(`https://sheets.googleapis.com/v4/spreadsheets/1VghpYpLVKug07LJm1-pdcpeQcEoh5VaCOgBvOfQ0-L8/values/sanpham1?key=AIzaSyCWh10EgrjVBm8qKpnsGOgXrIsT5uqroMc`,options);
+    const response = await fetch(`https://sheets.googleapis.com/v4/spreadsheets/1rCAjdZ22Y_btU9GmdMXX_UXP1iVPM1ByuIERrwcEzSg/values/SẢN PHẨM?key=AIzaSyCWh10EgrjVBm8qKpnsGOgXrIsT5uqroMc`,options);
     const data = await response.json();  
           //this._sanphams.next(data)                 
     return data;

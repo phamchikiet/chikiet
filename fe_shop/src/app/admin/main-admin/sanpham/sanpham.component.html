@@ -33,13 +33,16 @@
                 <span class="text-xs">Drive ({{SanphamsDrive.length}})</span> 
               </div>
             </button>
-            <button mat-menu-item>
-              <div (click)="SyncDrive()"
-              class="flex flex-col items-center p-2 text-center justify-center hover:bg-gray-200 rounded-lg">
-              <span class="material-symbols-outlined text-xl" matTooltip="Drive">cloud_sync</span>
-              <span class="text-xs">Sync ({{FilterLists.length||0}}/{{SanphamsDrive.length||0}})</span>
-            </div>
-            </button>
+            @if(SanphamsDrive.length>0)
+            {
+              <button mat-menu-item>
+                <div (click)="SyncDrive()"
+                class="flex flex-col items-center p-2 text-center justify-center hover:bg-gray-200 rounded-lg">
+                <span class="material-symbols-outlined text-xl" matTooltip="Drive">cloud_sync</span>
+                <span class="text-xs">Sync ({{FilterLists.length||0}}/{{SanphamsDrive.length||0}})</span>
+              </div>
+              </button>
+            }
           </mat-menu>
           <div class="hidden lg:flex flex-row space-x-3">
             <div (click)="writeExcelFile()"
@@ -58,11 +61,15 @@
               <span class="material-symbols-outlined text-xl" matTooltip="Drive">cloud_download</span>
               <span class="text-xs">Drive ({{SanphamsDrive.length||0}})</span>              
             </div>
-            <div (click)="SyncDrive()"
-            class="flex flex-col items-center p-2 text-center justify-center hover:bg-gray-200 rounded-lg">
-            <span class="material-symbols-outlined text-xl" matTooltip="Drive">cloud_sync</span>
-            <span class="text-xs">Sync ({{FilterLists.length||0}}/{{SanphamsDrive.length||0}})</span>
-          </div>
+            @if(SanphamsDrive.length>0)
+            {
+              <div (click)="SyncDrive()"
+              class="flex flex-col items-center p-2 text-center justify-center hover:bg-gray-200 rounded-lg">
+              <span class="material-symbols-outlined text-xl" matTooltip="Drive">cloud_sync</span>
+              <span class="text-xs">Sync ({{FilterLists.length||0}}/{{SanphamsDrive.length||0}})</span>
+            </div>
+            }
+
           </div>
         </div>
         <div class="flex flex-row space-x-2 items-center">
