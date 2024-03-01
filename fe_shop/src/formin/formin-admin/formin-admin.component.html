@@ -1,7 +1,12 @@
-<div class="p-4 bg-white rounded-lg">
+<div class="p-4 bg-white rounded-lg w-[920px] mx-auto scale-[60%]">
 <div class="flex flex-col space-y-3 divide-y-2 divide-dashed divide-black border-4 border-black p-4">
   <div class="grid grid-cols-3 gap-4 divide-x-2 divide-black">
-    <img src="/assets/images/logo.webp" class="h-20 mx-auto">
+    <div class="flex flex-col space-y-2 items-center">
+      <img src="/assets/images/logo.webp" class="h-20 mx-auto">
+      <span>
+        Mã ĐH : <strong>{{Donhang?.MaDonHang}}</strong>
+      </span>
+    </div>
     <div class="col-span-2 flex flex-col space-y-2 px-4">
       <span class="text-xl font-bold">CÔNG TY TNHH NÔNG SẢN THỰC PHẨM TRẦN GIA</span>
       <span>Địa chỉ: Tầng 3, Tòa nhà An Phú Plaza, 117-119 Lý Chính Thắng, Phường Võ Thị Sáu, Quận 3, TPHCM</span>
@@ -9,41 +14,80 @@
       <span>Email: rausachtrangia&#64;gmail.com</span>
     </div>
   </div>
-  <div class="flex flex-col space-y-2 py-4">
-    <span class="text-xl font-bold">Thông Tin Khách Hàng </span>
-    <span>Tên : <strong>{{Donhang?.Khachhang?.Hoten}}</strong></span>
-    <span>Số Điện Thoại : <strong>{{Donhang?.Khachhang?.SDT}}</strong></span>
-    <span>Địa Chỉ : <strong>{{Donhang?.Giohangs?.Khachhang?.Diachi}}</strong></span>
+  <div class="grid grid-cols-8 gap-2 divide-x-2 divide-dashed divide-black">
+
+    <div class="col-span-6 flex flex-col space-y-2 py-4">
+      <span class="text-xl font-bold">Thông Tin Khách Hàng </span>
+      <span>Tên : <strong>{{Donhang?.Khachhang?.Hoten}}</strong></span>
+      <span>Số Điện Thoại : <strong>{{Donhang?.Khachhang?.SDT}}</strong></span>
+      <span>Địa Chỉ : <strong>{{Donhang?.Giohangs?.Khachhang?.Diachi}}</strong></span>
+      <span class="italic">Ghi Chú : <strong>{{Donhang?.Giohangs?.Khachhang?.Diachi}}</strong></span>
+    </div>
+
+    <div class="col-span-2 flex flex-col space-y-2 py-4">
+      <div class="w-full flex flex-col space-y-2 text-center">
+        <img src="https://page-photo-qr.zdn.vn/1705896364/c94bd179c73c2e62772d.jpg" class="w-20 mx-auto">
+        <span class="px-4">Mua hàng nhanh chóng và đơn giản hơn với <strong> Zalo App </strong></span>
+        <!-- <ul  class="list-disc p-4 font-bold space-y-4">
+          <li>Mua hàng nhanh chóng và đơn giản hơn với Zalo App</li>
+          <li>Giảm 10% cho đơn hàng đầu tiên sử dụng ZALO APP</li>
+        </ul>
+        <a href="https://rausachtrangia.com" class="text-center font-bold">www.rausachtrangia.com</a> -->
   </div>
-  <div class="grid grid-cols-3 gap-4 divide-x-2 divide-black divide-dashed">
-      <div class="col-span-2 flex flex-col space-y-2 p-4">
-        <span class="text-xl font-bold">CHI TIẾT ĐƠN HÀNG:</span>
-        @for (item of Donhang?.Giohangs?.Sanpham; track $index) {
-          <div class="flex flex-row space-x-2">
-            {{$index+1}}/{{item.Title}} - SL: {{item.Soluong}}
-          </div>
-        }
-      </div>
-      <div class="w-full flex flex-col space-y-2 p-8">
-            <img src="https://page-photo-qr.zdn.vn/1705896364/c94bd179c73c2e62772d.jpg" class="w-40 mx-auto">
-            <ul  class="list-disc p-4 font-bold space-y-4">
-              <li>Mua hàng nhanh chóng và đơn giản hơn với Zalo App</li>
-              <li>Giảm 10% cho đơn hàng đầu tiên sử dụng ZALO APP</li>
-            </ul>
-            <a href="https://rausachtrangia.com" class="text-center font-bold">www.rausachtrangia.com</a>
+    </div>
+
+  </div>
+  <div class="grid grid-cols-8 gap-2 divide-x-2 divide-black divide-dashed items-center">
+    <span class="col-span-6 text-lg font-bold">CHI TIẾT ĐƠN HÀNG:</span>
+    <span class="text-center font-bold">Khối lượng (kg)</span>
+    <span class="text-center font-bold">Đơn giá (vnđ)</span>
+  </div>
+
+
+
+  <div class="grid grid-cols-8 gap-2 divide-x-2 divide-black divide-dashed items-center">
+      @for (item of Donhang?.Giohangs?.Sanpham; track $index) {
+        <div class="flex flex-row space-x-2 col-span-6">
+          {{$index+1}}/{{item.Title}} - SL: {{item.Soluong}}
+        </div>
+        <span class="text-center font-bold">{{item.SLTT}} {{item.dvt}}</span>
+        <span class="text-right font-bold">{{((item.SLTT*item.Giachon.gia)| number:'1.0-0')||'0'}}đ</span>
+      }
+  </div>
+  <div class="grid grid-cols-8 gap-2 divide-x-2 divide-black divide-dashed items-center">
+        <span class="col-span-6 text-lg font-bold">Phí vận chuyển:</span>
+        <span class="text-center font-bold"> </span>
+        <span class="text-right font-bold">{{Donhang.Vanchuyen.Phivanchuyen| number:'1.0-0'||'0'}}đ</span>
+  </div>
+  <div class="grid grid-cols-8 gap-2 divide-x-2 divide-black divide-dashed items-center">
+        <span class="col-span-6 text-lg italic">(Giá tiền được tính theo khối lượng thực tế khi đóng gói).</span>
+        <div class="col-span-2 flex flex-col space-y-2 p-2">
+        <span>Tổng: </span>
+        <span class="font-bold">{{Donhang.Vanchuyen.Phivanchuyen| number:'1.0-0'||'0'}} VNĐ</span>
       </div>
   </div>
-  <div class="grid grid-cols-2 p-4">
-    <div class="flex flex-col space-y-4 items-center px-16 text-center">
-      <div class="text-lg">Tiền thu người nhận :</div>
-      <div class="text-2xl font-bold">{{Donhang.Total| number:'1.0-0'||'0'}}đ</div>
-      <div class="text-xs">
-        Với những đơn hàng đã chuyển khoản thì shipper chỉ thu phí ship (Nếu có)
+  <div class="grid grid-cols-8 gap-2 divide-x-2 divide-black divide-dashed items-center">
+    <div class="col-span-4 flex flex-col space-y-2 p-2 divide-y-2 divide-black divide-dashed">
+      <div class="flex flex-col space-y-2 text-center">
+        <span>Tiền Thu Người Nhận: </span>
+        <span class="font-bold">{{Donhang.Vanchuyen.Phivanchuyen| number:'1.0-0'||'0'}} VNĐ</span>
+      </div>
+      <div class="text-center">
+        <span>Khách hàng ký nhận: </span>
       </div>
     </div>
-    <div class="border p-4">
-      <div class="font-bold text-lg text-center mb-16">Chữ ký người nhận</div>
-    </div>
+    
+  <div class="col-span-4 flex flex-col space-y-2 p-2 text-center">
+    <span class="text-xs italic">** Nếu khách hàng chuyển khoản, vui lòng ghi đúng nội dung bên dưới</span>
+    <span class="col-span-8">Nội dung chuyển khoản : <strong> {{Donhang.MaDonHang}}</strong></span>
+    <div class="col-span-4 p-2">
+        <div class="grid grid-cols-2 gap-2">
+          <span>STK : <strong>{{Taikhoan.STK}}</strong></span>
+          <span>Tên TK : <strong>{{Taikhoan.TenTK}}</strong></span>
+          <span class="col-span-2 text-center">{{Taikhoan.TenNH}}</span>
+        </div>
+     </div>
   </div>
+</div>
 </div>
 </div>
