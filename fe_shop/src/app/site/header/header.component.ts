@@ -135,7 +135,7 @@ export class HeaderComponent implements OnInit {
     this.Danhmucs = await this._DanhmucService.SearchDanhmuc(this.SearchParams)
     this.Menus =[
     {
-      id: 2, Title: 'Sản Phẩm', Slug: 'san-pham', Show: false,
+      id: 2, Title: 'Sản Phẩm', Slug: 'danh-muc', Show: false,
       children:this.Danhmucs.items
     },
     { id: 3, Title: 'Khuyến Mãi', Slug: 'khuyen-mai' },

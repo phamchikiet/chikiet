@@ -87,6 +87,11 @@ export const appRoutes: Route[] = [
                     title: 'Danh Mục'
                 },
                 {
+                    path: 'danh-muc',
+                    component: ListSanphamComponent,
+                    title: 'Danh Mục'
+                },
+                {
                     path: 'san-pham/:slug',
                     component: DetailSanphamComponent,
                     title: 'Chi Tiết'

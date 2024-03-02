@@ -2,7 +2,7 @@ import { Component, OnInit, ViewChild } from '@angular/core';
 import { MatDrawer, MatSidenavModule } from '@angular/material/sidenav';
 import { MatInputModule } from '@angular/material/input';
 import { MatTreeFlatDataSource, MatTreeFlattener, MatTreeModule } from '@angular/material/tree';
-import { RouterLink, RouterOutlet } from '@angular/router';
+import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
 import { FlatTreeControl } from '@angular/cdk/tree';
 import {BreakpointObserver, Breakpoints} from '@angular/cdk/layout';
 import { DatePipe } from '@angular/common';
@@ -18,7 +18,8 @@ import { ProfileComponent } from './profile/profile.component';
     RouterLink,
     RouterOutlet,
     DatePipe,
-    ProfileComponent
+    ProfileComponent,
+    RouterLinkActive
   ],
   templateUrl: './main-admin.component.html',
   styleUrls: ['./main-admin.component.css']

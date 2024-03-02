@@ -1,7 +1,7 @@
 import { DecimalPipe } from '@angular/common';
 import { Component, HostListener, OnInit, TemplateRef, ViewChild, ViewContainerRef, inject } from '@angular/core';
 import { MatButtonModule } from '@angular/material/button';
-import { RouterLink } from '@angular/router';
+import { ActivatedRoute, RouterLink } from '@angular/router';
 import { SanphamService } from 'fe_shop/src/app/admin/main-admin/sanpham/sanpham.service';
 import {
   MatBottomSheet,
@@ -86,6 +86,7 @@ export class ListSanphamComponent implements OnInit {
     this._bottomSheet.open(TemplateRef)
     //this._bottomSheet.open(ListsanphamBottomsheetComponent);
   }
+  route: ActivatedRoute = inject(ActivatedRoute);
   async ngOnInit() {
     this.SortingFilter = this.Sorting[0].id
     this.ListSanpham = await this._SanphamService.SearchSanpham(this.SearchParams)
@@ -95,7 +96,17 @@ export class ListSanphamComponent implements OnInit {
    // this.pageSizeOptions = [10, 20, this.ListSanpham.totalCount].filter(v => v <= this.ListSanpham.totalCount);
     console.log(this.ListSanpham);
     console.log(this.FilterDanhmuc);
-    
+    const Slug = this.route.snapshot.params['slug'];
+    if(Slug)
+    {
+      const item = this.FilterDanhmuc.find((v)=>v.Slug==Slug)
+      item.isChecked = true
+      this.FilterDanhmuc = this.FilterDanhmuc.map(element =>
+          element.Slug === item.Slug ? item : element
+        );
+        this.onFilterChange()
+    }
+
   }
   async onPageChange(event: any) {
     console.log(event);

@@ -50,6 +50,7 @@ export class DonhangAdminChitietComponent implements OnInit {
   ListTrangThaiDonhang:any=ListTrangThaiDonhang
   ListHinhthucthanhtoan:any=ListHinhthucthanhtoan
   @ViewChild('GhichuDialog') GhichuDialog!: TemplateRef<any>;
+  @ViewChild('dialogXemFormin') dialogXemFormin!: TemplateRef<any>;
   _UsersService: UsersService = inject(UsersService)
   Profile: any = {}
   constructor(
