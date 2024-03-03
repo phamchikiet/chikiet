@@ -82,7 +82,6 @@ export class DonhangAdminChitietComponent implements OnInit {
       this._GiohangService.addonhang$.subscribe((data)=>{
         if(data)
         {      
-          console.log(data);
           this.Detail=data
           this.Giohangs = data.Giohangs.Sanpham
         }
@@ -100,12 +99,12 @@ export class DonhangAdminChitietComponent implements OnInit {
   }
   GetSubTotalThucte(data: any, field: any, field1: any) {    
     const items = data.map((v:any)=>(v.Giachon))
+    console.log(items);
+    
     return this._GiohangService.getSumThucte(items,field,field1)
   }
   GetTotalThucte(donhang:any,giohang:any,soluong:any,gia:any,thue:any)
-  {
-    console.log(giohang);
-    
+  {    
     const result = (this.GetSubTotalThucte(giohang, soluong, gia) + Number(donhang.Vanchuyen.Phivanchuyen||0) + Number(donhang.Giamgia||0) + this.GetSubTotal(giohang, thue, ''))
     return result
   }
