@@ -1,0 +1,129 @@
+{
+  "name": "fecsvc",
+  "$schema": "../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "prefix": "app",
+  "sourceRoot": "fecsvc/src",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@angular-devkit/build-angular:browser",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/fecsvc/browser",
+        "index": "fecsvc/src/index.html",
+        "main": "fecsvc/src/main.ts",
+        "polyfills": ["zone.js"],
+        "tsConfig": "fecsvc/tsconfig.app.json",
+        "inlineStyleLanguage": "scss",
+        "assets": ["fecsvc/src/favicon.ico", "fecsvc/src/assets"],
+        "styles": ["fecsvc/src/styles.scss"],
+        "scripts": []
+      },
+      "configurations": {
+        "production": {
+          "budgets": [
+            {
+              "type": "initial",
+              "maximumWarning": "500kb",
+              "maximumError": "1mb"
+            },
+            {
+              "type": "anyComponentStyle",
+              "maximumWarning": "2kb",
+              "maximumError": "4kb"
+            }
+          ],
+          "outputHashing": "all"
+        },
+        "development": {
+          "buildOptimizer": false,
+          "optimization": false,
+          "vendorChunk": true,
+          "extractLicenses": false,
+          "sourceMap": true,
+          "namedChunks": true
+        }
+      },
+      "defaultConfiguration": "production"
+    },
+    "serve": {
+      "executor": "@angular-devkit/build-angular:dev-server",
+      "configurations": {
+        "production": {
+          "buildTarget": "fecsvc:build:production"
+        },
+        "development": {
+          "buildTarget": "fecsvc:build:development"
+        }
+      },
+      "defaultConfiguration": "development"
+    },
+    "extract-i18n": {
+      "executor": "@angular-devkit/build-angular:extract-i18n",
+      "options": {
+        "buildTarget": "fecsvc:build"
+      }
+    },
+    "serve-static": {
+      "executor": "@nx/web:file-server",
+      "options": {
+        "buildTarget": "fecsvc:build"
+      }
+    },
+    "server": {
+      "dependsOn": ["build"],
+      "executor": "@angular-devkit/build-angular:server",
+      "options": {
+        "outputPath": "dist/fecsvc/server",
+        "main": "fecsvc/server.ts",
+        "tsConfig": "fecsvc/tsconfig.server.json",
+        "inlineStyleLanguage": "scss"
+      },
+      "configurations": {
+        "production": {
+          "outputHashing": "media"
+        },
+        "development": {
+          "buildOptimizer": false,
+          "optimization": false,
+          "sourceMap": true,
+          "extractLicenses": false,
+          "vendorChunk": true
+        }
+      },
+      "defaultConfiguration": "production"
+    },
+    "serve-ssr": {
+      "executor": "@angular-devkit/build-angular:ssr-dev-server",
+      "configurations": {
+        "development": {
+          "browserTarget": "fecsvc:build:development",
+          "serverTarget": "fecsvc:server:development"
+        },
+        "production": {
+          "browserTarget": "fecsvc:build:production",
+          "serverTarget": "fecsvc:server:production"
+        }
+      },
+      "defaultConfiguration": "development"
+    },
+    "prerender": {
+      "executor": "@angular-devkit/build-angular:prerender",
+      "options": {
+        "routes": ["/"]
+      },
+      "configurations": {
+        "development": {
+          "browserTarget": "fecsvc:build:development",
+          "serverTarget": "fecsvc:server:development"
+        },
+        "production": {
+          "browserTarget": "fecsvc:build:production",
+          "serverTarget": "fecsvc:server:production"
+        }
+      },
+      "defaultConfiguration": "production"
+    }
+  }
+}
