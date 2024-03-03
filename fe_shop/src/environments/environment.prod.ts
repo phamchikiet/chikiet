@@ -5,5 +5,7 @@ export const environment = {
   APIURL:'https://apishop.chikiet.com',
   app_id:"1416835846626859002",
   secret_key:"HLBWj23hToA9fuiQvQY4",
-  zalo_redirect_uri:"https://shop.chikiet.com/admin/zalotoken"
+  zalo_redirect_uri:"https://shop.chikiet.com/admin/zalotoken",
+  telegram_api:"6826345435:AAHkmH3QBTOFDbQH_V8TiyXtP3ClkubJW1E",
+  telegram_group:"-4196875944",
 };
