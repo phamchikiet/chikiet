@@ -5,6 +5,8 @@ export const environment = {
   APIURL:'http://localhost:3200',
   app_id:"1416835846626859002",
   secret_key:"HLBWj23hToA9fuiQvQY4",
-  zalo_redirect_uri:"http://localhost:4200/admin/zalotoken"
+  zalo_redirect_uri:"http://localhost:4200/admin/zalotoken",
+  telegram_api:"6826345435:AAHkmH3QBTOFDbQH_V8TiyXtP3ClkubJW1E",
+  telegram_group:"-4196875944",
     //APIURL:'https://api.tazaskinclinic.com',
 };

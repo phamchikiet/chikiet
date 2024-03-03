@@ -9,8 +9,8 @@
         <div class="flex flex-col space-y-4 items-center whitespace-nowrap">
           <span class="font-bold">Hình Thức</span>
             <span class="p-2 rounded-lg 
-            {{GetHinhthucthanhtoan(Detail.Thanhtoan.Hinhthuc,'Class')}}" [matMenuTriggerFor]="menu">
-             {{GetHinhthucthanhtoan(Detail.Thanhtoan.Hinhthuc,'Title')||'Chọn Hình Thức'}}
+            {{GetHinhthucthanhtoan(Detail?.Thanhtoan?.Hinhthuc,'Class')}}" [matMenuTriggerFor]="menu">
+             {{GetHinhthucthanhtoan(Detail?.Thanhtoan?.Hinhthuc,'Title')||'Chọn Hình Thức'}}
            </span>
         </div>
         <mat-menu #menu="matMenu">
@@ -26,8 +26,8 @@
         <div class="flex flex-col space-y-4 items-start whitespace-nowrap">
           <span class="font-bold">Trạng Thái</span>
             <span class="p-2 rounded-lg 
-            {{GetStatus(Detail.Status,'Class')}}" [matMenuTriggerFor]="menuTrangthai">
-              {{GetStatus(Detail.Status,'Title')}}
+            {{GetStatus(Detail?.Status,'Class')}}" [matMenuTriggerFor]="menuTrangthai">
+              {{GetStatus(Detail?.Status,'Title')}}
             </span>
         </div>
         <mat-menu #menuTrangthai="matMenu">
@@ -57,7 +57,7 @@
     </div>
     <div class="lg:p-6 p-2 space-y-6">
 
-      <app-timeline-donhang [Status]="Detail.Status"></app-timeline-donhang>
+      <app-timeline-donhang [Status]="Detail?.Status"></app-timeline-donhang>
 
       <div class="grid lg:grid-cols-3 grid-cols-1 lg:gap-4 gap-1">
         <div class="w-full flex flex-col overflow-y-auto col-span-2">
@@ -106,10 +106,9 @@
                     <div class="inline-flex justify-between border border-default-200 p-1 rounded-full">
                       <button (click)="Giamgiatri($index,'Soluong')" type="button"
                         class="minus flex-shrink-0 bg-default-200 text-default-800 rounded-full h-6 w-6 text-sm inline-flex items-center justify-center">–</button>
-                      <input type="number" [(ngModel)]="Detail.Giohangs.Sanpham[$index]['Soluong']"
+                      <input type="number" [(ngModel)]="Detail.Giohangs.Sanpham[$index].Soluong"
                         [ngModelOptions]="{standalone: true}"
-                        class="w-12 border-0 text-sm text-center text-default-800 focus:ring-0 p-0 bg-transparent"
-                        value="{{item.Soluong}}" min="0" max="100" step="0.01">
+                        class="w-12 border-0 text-sm text-center text-default-800 focus:ring-0 p-0 bg-transparent" min="0" max="100" step="0.01">
                       <button (click)="Tanggiatri($index,'Soluong')" type="button"
                         class="plus flex-shrink-0 bg-default-200 text-default-800 rounded-full h-6 w-6 text-sm inline-flex items-center justify-center">+</button>
                     </div>
@@ -120,18 +119,17 @@
 
                   <td class="px-5 py-3 whitespace-nowrap">
                     <div class="inline-flex justify-between border border-default-200 p-1 rounded-full">
-                      <button (click)="Giamgiatri($index,'SLTT')" type="button"
+                      <button (click)="GiamTT($index,'SLTT')" type="button"
                         class="minus flex-shrink-0 bg-default-200 text-default-800 rounded-full h-6 w-6 text-sm inline-flex items-center justify-center">–</button>
-                      <input type="number" [(ngModel)]="Detail.Giohangs.Sanpham[$index]['SLTT']"
+                      <input type="number" [(ngModel)]="Detail.Giohangs.Sanpham[$index].Giachon.SLTT"
                         [ngModelOptions]="{standalone: true}"
-                        class="w-12 border-0 text-sm text-center text-default-800 focus:ring-0 p-0 bg-transparent"
-                        value="{{item.Soluong}}" min="0" max="100" step="0.01">
-                      <button (click)="Tanggiatri($index,'SLTT')" type="button"
+                        class="w-12 border-0 text-sm text-center text-default-800 focus:ring-0 p-0 bg-transparent" min="0" max="100" step="0.01">
+                      <button (click)="TangTT($index,'SLTT')" type="button"
                         class="plus flex-shrink-0 bg-default-200 text-default-800 rounded-full h-6 w-6 text-sm inline-flex items-center justify-center">+</button>
                     </div>
                   </td>
                   <td class="px-5 py-3 whitespace-nowrap text-sm text-center text-default-800">
-                    {{(item.SLTT*item.Giachon.gia| number:'1.0-0')||'0'}}đ
+                    {{(item.Giachon.SLTT*item.Giachon.GiaCoSo| number:'1.0-0')||'0'}}đ
                   </td>
                 </tr>
                 }
@@ -157,7 +155,7 @@
               </div>
               <div class="flex justify-between mb-3 font-bold text-red-500">
                 <p class="text-sm">Tổng Thực Tế</p>
-                <p class="text-sm">{{GetSubTotal(Detail.Giohangs.Sanpham,'SLTT','Giachon')|number:'1.0-0'||'0'}}đ</p>
+                <p class="text-sm">{{GetSubTotalThucte(Detail.Giohangs.Sanpham,'SLTT','gia')|number:'1.0-0'||'0'}}đ</p>
               </div>
               <div class="flex justify-between mb-3">
                 <p class="text-sm text-default-500">Phí Vận Chuyển</p>
@@ -191,7 +189,7 @@
               </div>
               <div class="!font-bold flex justify-between mt-3 text-red-500">
                 <p class="text-base">Tổng Cộng Thực Tế</p>
-                <p class="text-base">{{GetTotal(Detail,Detail.Giohangs.Sanpham,'SLTT','Giachon','Thue')| number:'1.0-0'||'0'}}đ</p>
+                <p class="text-base">{{GetTotalThucte(Detail,Detail.Giohangs.Sanpham,'SLTT','gia','Thue')| number:'1.0-0'||'0'}}đ</p>
               </div>
             </div>
           </div>

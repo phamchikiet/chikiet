@@ -41,9 +41,7 @@ export class DonhangAdminComponent implements OnInit {
   pageSizeOptions: any[] = []
   Sitemap: any = { loc: '', priority: '' }
   SearchParams: any = {
-    // Batdau:moment().startOf('day').add(-1,'day').toDate(),
-    // Ketthuc: moment().endOf('day').toDate(),
-    pageSize:10,
+    pageSize:9999,
     pageNumber:0
   };
   sidebarVisible: boolean = false;
@@ -68,8 +66,22 @@ export class DonhangAdminComponent implements OnInit {
   async ngOnInit(): Promise<void> {
     this.Lists = await this._GiohangService.SearchDonhang(this.SearchParams)
     this.FilterLists = this.Lists.items
+    // const Giohang = this.Lists.items.map((v:any)=>(v.Giohangs)).filter((v1:any)=>v1!=null)
+    // Giohang.forEach((v:any) => {
+    //   v.Sanpham.forEach((v1:any) => {
+    //     v1.Giachon.GiaCoSo = (v1.Giachon.gia/v1.Giachon.khoiluong).toFixed(0)
+    //     v1.Giachon.SLTT = 0
+    //     v1.Giagoc[0].GiaCoSo = (v1.Giachon.gia/v1.Giachon.khoiluong).toFixed(0)
+    //     v1.Giagoc[0].SLTT = 0
+    //   });
+    // });
+    // Giohang.forEach((v:any) => {
+    //   const item:any={}
+    //   item.Giohangs = v
+    //   this._GiohangService.UpdateDonhang(item)
+    // });
+    // console.log(Giohang);
     this.pageSizeOptions = [10, 20, this.Lists.totalCount].filter(v => v < this.Lists.totalCount);
-     console.log(this.Lists);
   }
   applyFilter(event: Event) {
     const value = (event.target as HTMLInputElement).value;

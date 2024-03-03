@@ -96,9 +96,14 @@ export class SanphamChitietComponent implements OnInit {
   }
   AddBienthe()
   {
-      this.Detail.Giagoc.push({MaSP:this.Detail.MaSP+'-'+Number(Number(this.Detail.Giagoc.length)+1),khoiluong:'',gia:'',dvt:''})
-      console.log();
-      
+      this.Detail.Giagoc.push({
+        MaSP:this.Detail.MaSP+'-'+Number(Number(this.Detail.Giagoc.length)+1),
+        khoiluong:'',
+        gia:'',
+        dvt:'',
+        GiaCoSo:this.Detail.GiaCoSo,
+        SLTT:0
+      })      
   }
   RemoveBienThe()
   {

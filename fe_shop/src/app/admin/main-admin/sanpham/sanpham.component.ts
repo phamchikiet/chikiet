@@ -76,22 +76,20 @@ export class SanphamComponent implements OnInit {
     this._SanphamService.sanphams$.subscribe((data) => {
       if (data) {
         this.FilterLists =data
-        // console.log(data.map((v)=>({
-        //   Title:v.Title,
-        //   Danhmuc:v.Danhmuc,
-        //   SKU:v.SKU,
-        //   // Mota:v.Mota,
-        //   // Noidung:v.Noidung,
-        //   Slug:v.Slug,
-        //   View:v.View,
-        //   Banchay:v.Banchay,
-        //   Noibat:v.Noibat,
-        //   Moi:v.Moi,
-        //   Type:v.Type,
-        //   Ordering:v.Ordering,
-        //   Status:v.Status
-        // })));
+        console.log(data);
         
+      //  data.forEach((v)=>
+      //   {
+      //     v.Giagoc.forEach((v1:any) => {
+      //       v1.GiaCoSo=Number(v.GiaCoSo),
+      //       v1.SLTT=0
+      //     });
+      //   })
+      //   data.forEach((v)=>
+      //   {
+      //     this._SanphamService.UpdateSanpham(v)
+      //   })
+      //   console.log(data);
       }
     })
     this.Lists = await this._SanphamService.SearchSanpham(this.SearchParams)
@@ -115,7 +113,9 @@ export class SanphamComponent implements OnInit {
         MaSP:row[0]+'-1',
         khoiluong:parseFloat(row[4].replace(/,/g, '.')),
         gia:Number(row[3].replace(".", ""))*parseFloat(row[4].replace(/,/g, '.')),
-        dvt:row[5]
+        dvt:row[5],
+        GiaCoSo:Number(row[3].replace(".", "")),
+        SLTT:0
       }]
     };
   });

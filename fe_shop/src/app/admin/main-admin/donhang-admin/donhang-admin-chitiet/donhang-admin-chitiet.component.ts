@@ -16,6 +16,7 @@ import { MatSnackBar } from '@angular/material/snack-bar';
 import { MatInputModule } from '@angular/material/input';
 import { DiachiAdminComponent } from '../../../diachi/diachi-admin/diachi-admin.component';
 import { UsersService } from '../../../users/auth/users.service';
+import { TelegramService } from 'fe_shop/src/app/shared/telegram.service';
 @Component({
   selector: 'app-donhang-admin-chitiet',
   standalone:true,
@@ -52,6 +53,7 @@ export class DonhangAdminChitietComponent implements OnInit {
   @ViewChild('GhichuDialog') GhichuDialog!: TemplateRef<any>;
   @ViewChild('dialogXemFormin') dialogXemFormin!: TemplateRef<any>;
   _UsersService: UsersService = inject(UsersService)
+  _TelegramService: TelegramService = inject(TelegramService)
   Profile: any = {}
   constructor(
      private dialog:MatDialog,
@@ -93,8 +95,19 @@ export class DonhangAdminChitietComponent implements OnInit {
   {
     this._DonhangAdminComponent.drawer.close()
   }
-  GetSubTotal(data: any, field: any, field1: any) {
+  GetSubTotal(data: any, field: any, field1: any) {    
     return this._GiohangService.getSum(data,field,field1)
+  }
+  GetSubTotalThucte(data: any, field: any, field1: any) {    
+    const items = data.map((v:any)=>(v.Giachon))
+    return this._GiohangService.getSum(items,field,field1)
+  }
+  GetTotalThucte(donhang:any,giohang:any,soluong:any,gia:any,thue:any)
+  {
+    console.log(giohang);
+    
+    const result = (this.GetSubTotalThucte(giohang, soluong, gia) + Number(donhang.Vanchuyen.Phivanchuyen||0) + Number(donhang.Giamgia||0) + this.GetSubTotal(giohang, thue, ''))
+    return result
   }
   GetTotal(donhang:any,giohang:any,soluong:any,gia:any,thue:any)
   {
@@ -155,6 +168,8 @@ export class DonhangAdminChitietComponent implements OnInit {
     else{
       item.Status=item1.id
       this._GiohangService.UpdateDonhang(item).then(() => {
+      const result = `Cập Nhật Đơn Hàng`;
+      this._TelegramService.SendNoti(result)
         this._snackBar.open('Cập Nhật Thành Công', '', {
           horizontalPosition: "end",
           verticalPosition: "top",
@@ -179,6 +194,8 @@ export class DonhangAdminChitietComponent implements OnInit {
   }
      Tanggiatri(index:any,field:any)
      {
+      console.log(this.Detail.Giohangs.Sanpham[index]);
+      
       if(this.Detail.Giohangs.Sanpham[index][field])
       {
         this.Detail.Giohangs.Sanpham[index][field] = Number(this.Detail.Giohangs.Sanpham[index][field])+1
@@ -196,6 +213,35 @@ export class DonhangAdminChitietComponent implements OnInit {
       if(this.Detail.Giohangs.Sanpham[index][field]&&this.Detail.Giohangs.Sanpham[index][field]>1)
       {
         this.Detail.Giohangs.Sanpham[index][field] = Number(this.Detail.Giohangs.Sanpham[index][field])-1
+      }  
+      else {
+        this._snackBar.open('Số Lượng Không Được Âm','',{
+          horizontalPosition: "end",
+          verticalPosition: "top",
+          panelClass:'danger',
+          duration: 1000,
+        });
+      }
+     }
+     TangTT(index:any,field:any)
+     {
+      if(this.Detail.Giohangs.Sanpham[index].Giachon[field])
+      {
+        this.Detail.Giohangs.Sanpham[index].Giachon[field] = Number(this.Detail.Giohangs.Sanpham[index].Giachon[field])+1
+      }
+      else
+      {
+        this.Detail.Giohangs.Sanpham[index].Giachon[field] = 1
+      }
+      
+     }
+     GiamTT(index:any,field:any)
+     {
+      console.log(index,field);
+      
+      if(this.Detail.Giohangs.Sanpham[index].Giachon[field]&&this.Detail.Giohangs.Sanpham[index].Giachon[field]>1)
+      {
+        this.Detail.Giohangs.Sanpham[index].Giachon[field] = Number(this.Detail.Giohangs.Sanpham[index].Giachon[field])-1
       }  
       else {
         this._snackBar.open('Số Lượng Không Được Âm','',{
