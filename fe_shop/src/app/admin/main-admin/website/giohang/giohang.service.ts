@@ -335,6 +335,15 @@ export class GiohangService {
     getSum(data: any, field: any, field1: any) {
         console.log(data,field,field1);
         if (field1) {
+          return data?.reduce((acc: any, item: any) => acc + item[field] * item.Giachon[field1], 0) || 0;
+        }
+        else {
+          return data?.reduce((acc: any, item: any) => acc + item[field], 0) || 0;
+        }
+    }
+    getSumThucte(data: any, field: any, field1: any) {
+        console.log(data,field,field1);
+        if (field1) {
           return data?.reduce((acc: any, item: any) => acc + item[field] * item[field1], 0) || 0;
         }
         else {

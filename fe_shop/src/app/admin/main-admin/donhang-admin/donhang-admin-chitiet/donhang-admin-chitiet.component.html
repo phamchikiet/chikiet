@@ -152,7 +152,8 @@
             <div class="">
               <div class="flex justify-between mb-3">
                 <p class="text-sm text-default-500">Tổng</p>
-                <p class="text-sm text-default-700 font-medium">{{Detail.SubTotal|number:'1.0-0'||'0'}}đ</p>
+                <!-- <p class="text-sm text-default-700 font-medium">{{Detail.SubTotal|number:'1.0-0'||'0'}}đ</p> -->
+                <p class="text-sm text-default-700 font-medium">{{GetSubTotal(Detail.Giohangs.Sanpham,'Soluong','gia')|number:'1.0-0'||'0'}}đ</p>
               </div>
               <div class="flex justify-between mb-3 font-bold text-red-500">
                 <p class="text-sm">Tổng Thực Tế</p>
@@ -186,7 +187,7 @@
               <hr />
               <div class="!font-bold flex justify-between mt-3">
                 <p class="text-base text-default-700">Tổng Cộng</p>
-                <p class="text-base text-default-700">{{Detail.Total| number:'1.0-0'||'0'}}đ</p>
+                <p class="text-base text-default-700">{{GetTotal(Detail,Detail.Giohangs.Sanpham,'Soluong','gia','Thue')| number:'1.0-0'||'0'}}đ</p>
               </div>
               <div class="!font-bold flex justify-between mt-3 text-red-500">
                 <p class="text-base">Tổng Cộng Thực Tế</p>
@@ -247,7 +248,7 @@
   <!-- <div class="!relative lg:h-[90vh] lg:w-[90vw] p-4"> -->
   <div class="!relative lg:h-[90vh] lg:w-[90vw] p-4">
     <div class="relative flex flex-col space-y-2 p-3">
-      <app-formin-admin [Donhang]="Detail" [Tongthucte]="GetTotal(Detail,Detail.Giohangs.Sanpham,'SLTT','Giachon','Thue')"></app-formin-admin>
+      <app-formin-admin [Donhang]="Detail" [Tongthucte]="GetTotalThucte(Detail,Detail.Giohangs.Sanpham,'SLTT','gia','Thue')"></app-formin-admin>
     </div>
   </div>
 </ng-template>

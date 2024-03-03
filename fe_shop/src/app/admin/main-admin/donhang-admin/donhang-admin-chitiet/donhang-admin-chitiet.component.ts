@@ -100,7 +100,7 @@ export class DonhangAdminChitietComponent implements OnInit {
   }
   GetSubTotalThucte(data: any, field: any, field1: any) {    
     const items = data.map((v:any)=>(v.Giachon))
-    return this._GiohangService.getSum(items,field,field1)
+    return this._GiohangService.getSumThucte(items,field,field1)
   }
   GetTotalThucte(donhang:any,giohang:any,soluong:any,gia:any,thue:any)
   {
