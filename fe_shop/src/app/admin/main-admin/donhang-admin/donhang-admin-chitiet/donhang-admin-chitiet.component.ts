@@ -82,6 +82,8 @@ export class DonhangAdminChitietComponent implements OnInit {
       this._GiohangService.addonhang$.subscribe((data)=>{
         if(data)
         {      
+          console.log(data);
+          
           this.Detail=data
           this.Giohangs = data.Giohangs.Sanpham
         }

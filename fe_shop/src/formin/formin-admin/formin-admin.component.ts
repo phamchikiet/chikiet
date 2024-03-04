@@ -41,14 +41,14 @@ export class ForminAdminComponent implements OnInit {
     }); 
   }
   printDiv() {
-    const printContents = this.printArea.nativeElement.innerHTML;
-    const popupWin = window.open('', '_blank', 'width=600,height=400');
-    popupWin?.document.open();
-    popupWin?.document.write(`<html><head><title>Print Content</title></head><body>${printContents}</body></html>`);
-    popupWin?.document.close();
-    popupWin?.focus();
-    popupWin?.print();
-    popupWin?.close();
+    const printArea = this.printArea.nativeElement;
+    console.log(printArea);
+    const originalStyles = printArea.style.display;
+    printArea.style.display = 'flex'; // Ensure visibility for printing
+    printArea.style.margin = '0'; // Remove margins for full-page coverage
+    printArea.style.padding = '0'; // Remove padding for full-page coverage
+    window.print();
+    printArea.style.display = originalStyles; // Restore original styles
   }
 
 }

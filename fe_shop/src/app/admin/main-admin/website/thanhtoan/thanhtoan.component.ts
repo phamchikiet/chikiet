@@ -67,6 +67,9 @@ export class ThanhtoanComponent implements OnInit {
     return this.Donhang.Total + Number(this.Donhang.Vanchuyen.Phivanchuyen||0) - this.Donhang.Giamgia + this.GetTotal(this.Donhang.Giohangs, 'Thue', '')
   }
   Xacnhandonhang(customSnackbar: TemplateRef<any>) {
+    this.Donhang.Khachhang.Hoten="text"
+    this.Donhang.Khachhang.SDT="0987654321"
+    this.Donhang.Khachhang.Diachi="dfgdfgdf"
     if (!this.Donhang.Khachhang.Hoten) {
       this.Notify.Noidung = "Vui Lòng Nhập Họ Tên"
       this.Notify.type = "danger"
@@ -107,22 +110,38 @@ export class ThanhtoanComponent implements OnInit {
       });
     }
     else {
+      //const htmlteamplate ='<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Email from Angular App</title></head><body><h1>Email from Angular Application</h1><p>Name: {{ name }}</p><p>Email: {{ email }}</p><p>Message: {{ message }}</p><img src="https://shop.chikiet.com/assets/images/logo.webp"></body></html>'
+   
+      const htmlteamplate= `<!doctype html>
+      <html>
+      <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdn.tailwindcss.com"></script>
+      </head>
+      <body>
+        <h1 class="text-3xl font-bold underline bg-yellow-500">
+          Hello world!
+        </h1>
+      </body>
+      </html>`
+
       this._GiohangService.CreateDonhang(this.Donhang).then((data:any)=>
       {
-      //   const item:any={
-      //     "host": "smtp.gmail.com",
-      //     "port": 587,
-      //     "secure": false,
-      //     "auth": {
-      //       "user": "wetdragon1996@gmail.com",
-      //       "pass": "opxbvldmnxgnebsn"
-      //     },
-      //   "Brand":"Rau Sạch Trần Gia",
-      //   "toemail":"chikiet88@gmail.com",
-      //   "subject":"123456",
-      //   "text":"xinchao"
-      //  }
-      //   this._SendemailService.SendEmail(item)
+        const item:any={
+          "host": "smtp.gmail.com",
+          "port": 587,
+          "secure": false,
+          "auth": {
+            "user": "wetdragon1996@gmail.com",
+            "pass": "opxbvldmnxgnebsn"
+          },
+        "Brand":"Rau Sạch Trần Gia",
+        "toemail":"chikiet88@gmail.com",
+        "subject":"123456",
+        "text":htmlteamplate
+       }
+        this._SendemailService.SendEmail(item)
 
         this._snackBar.open('Đặt Hàng Thành Công','',{
           horizontalPosition: "end",
@@ -130,9 +149,9 @@ export class ThanhtoanComponent implements OnInit {
           panelClass:'success',
           duration: 2000,
         });
-        setTimeout(() => {
-          window.location.href = `cam-on?MaDonHang=${data.MaDonHang}`;
-        }, 1000);
+        // setTimeout(() => {
+        //   window.location.href = `cam-on?MaDonHang=${data.MaDonHang}`;
+        // }, 1000);
       })
     }
   }
