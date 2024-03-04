@@ -153,11 +153,11 @@
               <div class="flex justify-between mb-3">
                 <p class="text-sm text-default-500">Tổng</p>
                 <!-- <p class="text-sm text-default-700 font-medium">{{Detail.SubTotal|number:'1.0-0'||'0'}}đ</p> -->
-                <p class="text-sm text-default-700 font-medium">{{GetSubTotal(Detail.Giohangs.Sanpham,'Soluong','gia')|number:'1.0-0'||'0'}}đ</p>
+                <p class="text-sm text-default-700 font-medium">{{GetSubTotal(Detail?.Giohangs?.Sanpham,'Soluong','gia')|number:'1.0-0'||'0'}}đ</p>
               </div>
               <div class="flex justify-between mb-3 font-bold text-red-500">
                 <p class="text-sm">Tổng Thực Tế</p>
-                <p class="text-sm">{{GetSubTotalThucte(Detail.Giohangs.Sanpham,'SLTT','GiaCoSo')|number:'1.0-0'||'0'}}đ</p>
+                <p class="text-sm">{{GetSubTotalThucte(Detail?.Giohangs?.Sanpham,'SLTT','GiaCoSo')|number:'1.0-0'||'0'}}đ</p>
               </div>
               <div class="flex justify-between mb-3">
                 <p class="text-sm text-default-500">Phí Vận Chuyển</p>

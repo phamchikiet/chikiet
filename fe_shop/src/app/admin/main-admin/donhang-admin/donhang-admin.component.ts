@@ -42,7 +42,8 @@ export class DonhangAdminComponent implements OnInit {
   Sitemap: any = { loc: '', priority: '' }
   SearchParams: any = {
     pageSize:9999,
-    pageNumber:0
+    pageNumber:0,
+    isDelete:false
   };
   sidebarVisible: boolean = false;
   ListTrangThaiDonhang:any=ListTrangThaiDonhang
@@ -175,11 +176,9 @@ export class DonhangAdminComponent implements OnInit {
   GetStatus(item:any,field:any)
   {
     const result = ListTrangThaiDonhang.find((v)=>v.id==item)
-    return result[field]
+    if(result){return result[field]}
   }
-  ChangeStatus(item: any, item1: any) {
-    console.log(item,item1);
-    
+  ChangeStatus(item: any, item1: any) {    
      item.Status=item1.id
       this._GiohangService.UpdateDonhang(item).then(() => {
         this._snackBar.open('Cập Nhật Thành Công', '', {
@@ -195,7 +194,8 @@ export class DonhangAdminComponent implements OnInit {
       });
       dialogRef.afterClosed().subscribe((result) => {
         if (result == 'true') {
-         // this._GiohangService.(this.SelectItem).then(() => this.ngOnInit())
+          this.SelectItem.isDelete = true
+         this._GiohangService.UpdateDonhang(this.SelectItem).then(() => this.ngOnInit())
         }
       });
     }

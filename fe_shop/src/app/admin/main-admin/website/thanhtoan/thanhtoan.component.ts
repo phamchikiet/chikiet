@@ -14,6 +14,10 @@ import { DiachiAdminComponent } from '../../../diachi/diachi-admin/diachi-admin.
 import { MatButtonModule } from '@angular/material/button';
 import { ThanhtoanService } from './thanhtoan.service';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
+import html2canvas from 'html2canvas';
+import {Base64} from 'js-base64';
+import { ForminAdminComponent } from 'fe_shop/src/formin/formin-admin/formin-admin.component';
+import { UploadService } from 'fe_shop/src/app/shared/upload.service';
 @Component({
   selector: 'app-thanhtoan',
   standalone: true,
@@ -24,7 +28,8 @@ import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
     SlideSanphamComponent,
     DiachiAdminComponent,
     MatButtonModule,
-    MatProgressSpinnerModule
+    MatProgressSpinnerModule,
+    ForminAdminComponent
   ],
   templateUrl: './thanhtoan.component.html',
   styleUrls: ['./thanhtoan.component.css']
@@ -35,11 +40,13 @@ export class ThanhtoanComponent implements OnInit {
   _NotifierService: NotifierService = inject(NotifierService)
   _SendemailService: SendemailService = inject(SendemailService)
   _ThanhtoanService: ThanhtoanService = inject(ThanhtoanService)
+  _UploadService: UploadService = inject(UploadService)
   Khoangcach: any = {}
   ListNotifyType: any = ListNotifyType
   Notify: any = {}
   Donhang: any = {}
   Diachis: any[] = []
+  ImageLink:any=''
   constructor(private _snackBar: MatSnackBar) { }
 
   ngOnInit() {
@@ -66,7 +73,26 @@ export class ThanhtoanComponent implements OnInit {
   GetTongcong() {
     return this.Donhang.Total + Number(this.Donhang.Vanchuyen.Phivanchuyen||0) - this.Donhang.Giamgia + this.GetTotal(this.Donhang.Giohangs, 'Thue', '')
   }
-  Xacnhandonhang(customSnackbar: TemplateRef<any>) {
+  // async captureImage() {
+  //   const element = document.getElementById('capturable-div') as HTMLElement;
+  //   const canvas = await html2canvas(element);
+  //   const imageData = canvas.toDataURL('image/png'); // Change format as needed (jpeg, etc.)
+  //   // const formData = new FormData();
+  //   // formData.append('file',  Base64.encode(imageData.replace('data:image/png;base64,', '')););
+  //  //  this.ImageLink = await this._UploadService.uploadDonhang(imageData)
+
+  //   console.log(this.ImageLink);
+
+
+  // //   this.http.post(this.uploadUrl, imageDataToSend)
+  // //     .subscribe(response => {
+  // //       console.log('Image uploaded successfully!', response);
+  // //     }, error => {
+  // //       console.error('Error uploading image:', error);
+  // //     });
+  // // });
+  // }
+  async Xacnhandonhang(customSnackbar: TemplateRef<any>) {    
     this.Donhang.Khachhang.Hoten="text"
     this.Donhang.Khachhang.SDT="0987654321"
     this.Donhang.Khachhang.Diachi="dfgdfgdf"
@@ -109,9 +135,8 @@ export class ThanhtoanComponent implements OnInit {
         duration: 2000,
       });
     }
-    else {
-      //const htmlteamplate ='<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Email from Angular App</title></head><body><h1>Email from Angular Application</h1><p>Name: {{ name }}</p><p>Email: {{ email }}</p><p>Message: {{ message }}</p><img src="https://shop.chikiet.com/assets/images/logo.webp"></body></html>'
-   
+    else {      
+     // const htmlteamplate ='<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Email from Angular App</title></head><body><h1>Email from Angular Application</h1><p>Name: {{ name }}</p><p>Email: {{ email }}</p><p>Message: {{ message }}</p> <img src='+this.ImageLink+' /></body></html>'      
       const htmlteamplate= `<!doctype html>
       <html>
       <head>
@@ -121,8 +146,10 @@ export class ThanhtoanComponent implements OnInit {
       </head>
       <body>
         <h1 class="text-3xl font-bold underline bg-yellow-500">
-          Hello world!
+           CẢM ƠN BẠN ĐÃ ĐẶT HÀNG
         </h1>
+       <p> Đơn hàng của bạn đã được tiếp nhận sẽ được xử lý trong thời gian sớm nhất có thể </p>
+       <p> Bạn có thể tra cứu đơn hàng ${this.Donhang.MaDonHang} <a href="https://shop.chikiet.com/tra-cuu-don?MaDonHang=${this.Donhang.MaDonHang}">tại đây</> </p>
       </body>
       </html>`
 
@@ -139,7 +166,7 @@ export class ThanhtoanComponent implements OnInit {
         "Brand":"Rau Sạch Trần Gia",
         "toemail":"chikiet88@gmail.com",
         "subject":"123456",
-        "text":htmlteamplate
+        "text":htmlteamplate,
        }
         this._SendemailService.SendEmail(item)
 

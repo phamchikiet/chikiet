@@ -135,8 +135,8 @@
                       <div>{{item?.Thanhtoan?.Hinhthuc}}</div>
                     </td>
                     <td class="p-4 text-xs whitespace-nowrap">
-                      <span class="p-2 rounded-lg {{GetStatus(item.Status,'Class')}}">
-                        {{GetStatus(item.Status,'Title')}}
+                      <span class="p-2 rounded-lg {{GetStatus(item?.Status,'Class')}}">
+                        {{GetStatus(item?.Status,'Title')}}
                       </span>      
                       <!-- <span class="p-2 rounded-lg {{GetStatus(item.Status,'Class')}}" [matMenuTriggerFor]="menu">{{GetStatus(item.Status,'Title')}}</span>  
                       <mat-menu #menu="matMenu">

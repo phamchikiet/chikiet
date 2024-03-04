@@ -42,6 +42,10 @@ import { DemoComponent } from './admin/main-admin/demo/demo.component';
 import { MenuAdminComponent } from './admin/menu/menu-admin/menu-admin.component';
 import { MenuAdminChitietComponent } from './admin/menu/menu-admin/menu-admin-chitiet/menu-admin-chitiet.component';
 import { ForminAdminComponent } from '../formin/formin-admin/formin-admin.component';
+import { UsergroupAdminComponent } from './usergroup/usergroup-admin/usergroup-admin.component';
+import { UsergroupAdminDetailComponent } from './usergroup/usergroup-admin/usergroup-admin-detail/usergroup-admin-detail.component';
+import { DemoadminComponent } from './demo/demoadmin/demoadmin.component';
+import { DemoadmindetailComponent } from './demo/demoadmin/demoadmindetail/demoadmindetail.component';
 
 export const appRoutes: Route[] = [
     // { path: '', redirectTo: 'trang-chu', pathMatch: 'full' },
@@ -50,118 +54,118 @@ export const appRoutes: Route[] = [
         path: '',
         component: MainComponent,
         title: 'Main',
-        children:[ 
-                {
-                    path: '',
-                    component: TrangchuComponent,
-                    title: 'Trang Chủ'
-                },
-                {
-                    path: 'gio-hang',
-                    component: GiohangComponent,
-                    title: 'Giỏ Hàng'
-                },
-                {
-                    path: 'thanh-toan',
-                    component: ThanhtoanComponent,
-                    title: 'Thanh Toán'
-                },
-                {
-                    path: 'don-hang',
-                    component: DonhangComponent,
-                    title: 'Đơn Hàng'
-                },
-                {
-                    path: 'cam-on',
-                    component: CamonComponent,
-                    title: 'Cảm Ơn'
-                },
-                {
-                    path: 'san-pham-yeu-thich',
-                    component: SanphamyeuthichComponent,
-                    title: 'Sản Phẩm Yêu Thích'
-                },
-                {
-                    path: 'danh-muc/:slug',
-                    component: ListSanphamComponent,
-                    title: 'Danh Mục'
-                },
-                {
-                    path: 'danh-muc',
-                    component: ListSanphamComponent,
-                    title: 'Danh Mục'
-                },
-                {
-                    path: 'san-pham/:slug',
-                    component: DetailSanphamComponent,
-                    title: 'Chi Tiết'
-                },
-                {
-                    path: 'khuyen-mai',
-                    component: KhuyenmaiComponent,
-                },
-                {
-                    path: 'khuyen-mai/:slug',
-                    component: KhuyenmaiChitietComponent,
-                },
-                {
-                    path: 'mon-ngon-moi-ngay',
-                    component: BlogComponent,
-                    data: { type: 'mon-ngon-moi-ngay' } 
-                },
-                {
-                    path: 'mon-ngon-moi-ngay/:slug',
-                    component: BlogDetailComponent,
-                },
-                {
-                    path: 'tin-tuc',
-                    component: BlogComponent,
-                    data: { type: 'tin-tuc' } 
-                },
-                {
-                    path: 'tin-tuc/:slug',
-                    component: BlogDetailComponent,
-                },
-                // {
-                //     path: 'gioi-thieu-chung',
-                //     component: GioithieuchungComponent,
-                //     data: { slug: 've-chung-toi' } 
-                // },
-                {
-                    path: 'lien-he',
-                    component: ContactComponent,
-                    data: { slug: 've-chung-toi' } 
-                },
-                {
-                    path: 'tra-cuu-don',
-                    component: TracuudonComponent,
-                },
-                {
-                    path: 'dangnhap',
-                    canActivate:[GuestGuard],
-                    component: DangnhapComponent,
-                },
-                {
-                    path: 'dangky',
-                    canActivate:[GuestGuard],
-                    component: DangkyComponent,
-                },
-                {
-                    path: 'profile',
-                    canActivate:[AuthGuard],
-                    component: ProfileComponent,
-                },
+        children: [
+            {
+                path: '',
+                component: TrangchuComponent,
+                title: 'Trang Chủ'
+            },
+            {
+                path: 'gio-hang',
+                component: GiohangComponent,
+                title: 'Giỏ Hàng'
+            },
+            {
+                path: 'thanh-toan',
+                component: ThanhtoanComponent,
+                title: 'Thanh Toán'
+            },
+            {
+                path: 'don-hang',
+                component: DonhangComponent,
+                title: 'Đơn Hàng'
+            },
+            {
+                path: 'cam-on',
+                component: CamonComponent,
+                title: 'Cảm Ơn'
+            },
+            {
+                path: 'san-pham-yeu-thich',
+                component: SanphamyeuthichComponent,
+                title: 'Sản Phẩm Yêu Thích'
+            },
+            {
+                path: 'danh-muc/:slug',
+                component: ListSanphamComponent,
+                title: 'Danh Mục'
+            },
+            {
+                path: 'danh-muc',
+                component: ListSanphamComponent,
+                title: 'Danh Mục'
+            },
+            {
+                path: 'san-pham/:slug',
+                component: DetailSanphamComponent,
+                title: 'Chi Tiết'
+            },
+            {
+                path: 'khuyen-mai',
+                component: KhuyenmaiComponent,
+            },
+            {
+                path: 'khuyen-mai/:slug',
+                component: KhuyenmaiChitietComponent,
+            },
+            {
+                path: 'mon-ngon-moi-ngay',
+                component: BlogComponent,
+                data: { type: 'mon-ngon-moi-ngay' }
+            },
+            {
+                path: 'mon-ngon-moi-ngay/:slug',
+                component: BlogDetailComponent,
+            },
+            {
+                path: 'tin-tuc',
+                component: BlogComponent,
+                data: { type: 'tin-tuc' }
+            },
+            {
+                path: 'tin-tuc/:slug',
+                component: BlogDetailComponent,
+            },
+            // {
+            //     path: 'gioi-thieu-chung',
+            //     component: GioithieuchungComponent,
+            //     data: { slug: 've-chung-toi' } 
+            // },
+            {
+                path: 'lien-he',
+                component: ContactComponent,
+                data: { slug: 've-chung-toi' }
+            },
+            {
+                path: 'tra-cuu-don',
+                component: TracuudonComponent,
+            },
+            {
+                path: 'dangnhap',
+                canActivate: [GuestGuard],
+                component: DangnhapComponent,
+            },
+            {
+                path: 'dangky',
+                canActivate: [GuestGuard],
+                component: DangkyComponent,
+            },
+            {
+                path: 'profile',
+                canActivate: [AuthGuard],
+                component: ProfileComponent,
+            },
         ]
     },
     {
         path: 'admin',
-        canActivate:[AuthGuard],
+        canActivate: [AuthGuard],
         component: MainAdminComponent,
-        children:[ 
+        children: [
             {
                 path: 'menu',
                 component: MenuAdminComponent,
-                children:[
+                children: [
                     {
                         path: ':id',
                         component: MenuAdminChitietComponent,
@@ -175,7 +179,7 @@ export const appRoutes: Route[] = [
             {
                 path: 'donhang',
                 component: DonhangAdminComponent,
-                children:[
+                children: [
                     {
                         path: ':id',
                         component: DonhangAdminChitietComponent,
@@ -185,7 +189,7 @@ export const appRoutes: Route[] = [
             {
                 path: 'khachhang',
                 component: AdminKhachhangComponent,
-                children:[
+                children: [
                     {
                         path: ':id',
                         component: DonhangAdminChitietComponent,
@@ -195,7 +199,7 @@ export const appRoutes: Route[] = [
             {
                 path: 'sanpham',
                 component: SanphamComponent,
-                children:[
+                children: [
                     {
                         path: ':id',
                         component: SanphamChitietComponent,
@@ -205,7 +209,7 @@ export const appRoutes: Route[] = [
             {
                 path: 'danhmuc',
                 component: DanhmucComponent,
-                children:[
+                children: [
                     {
                         path: ':id',
                         component: DanhmucChitietComponent,
@@ -216,7 +220,7 @@ export const appRoutes: Route[] = [
             {
                 path: 'baiviet',
                 component: BaivietAdminComponent,
-                children:[
+                children: [
                     {
                         path: ':id',
                         component: BaivietadminChitietComponent,
@@ -226,7 +230,7 @@ export const appRoutes: Route[] = [
             {
                 path: 'lienhe',
                 component: AdminLienheComponent,
-                children:[
+                children: [
                     {
                         path: ':id',
                         component: AdminLienheChitietComponent,
@@ -246,24 +250,40 @@ export const appRoutes: Route[] = [
             {
                 path: 'user',
                 component: AdminuserComponent,
-                children:[
+                children: [
                     {
-                    path:':id',
-                    component:AdminuserDetailComponent}
+                        path: ':id',
+                        component: AdminuserDetailComponent
+                    }
                 ]
             },
+            // {
+            //     path: 'usergroup',
+            //     component: UsergroupAdminComponent,
+            //     children: [
+            //         {
+            //             path: ':id',
+            //             component: UsergroupAdminDetailComponent
+            //         }
+            //     ]
+            // },
+            // {
+            //     path: 'demo',
+            //     component: DemoadminComponent,
+            //     children: [
+            //         {
+            //             path: ':id',
+            //             component: DemoadmindetailComponent
+            //         }
+            //     ]
+            // },
             {
                 path: 'tonkho',
                 component: AdminTonkhoComponent,
-                children:[
-                   {path:':id',component:AdminTonkhoChitietComponent}
+                children: [
+                    { path: ':id', component: AdminTonkhoChitietComponent }
                 ]
             },
-            {
-                path: 'demo',
-                component: ForminAdminComponent,
-            },
-
         ]
     },
 ];

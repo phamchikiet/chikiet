@@ -192,8 +192,7 @@ export class GiohangService {
         }
     }
     async UpdateDonhang(item: any): Promise<any> {
-        console.log(item);
-        
+        console.log(item);   
         this._donhang.next(item)
         this.getDonhang()
         //this._LocalStorageService.setItem('Donhang', this.Donhang)
@@ -217,6 +216,27 @@ export class GiohangService {
               return console.error(error);
           }
     }
+    async DeleteDonhang(item:any) {
+        try {
+            const options = {
+                method:'DELETE',
+                headers: {
+                  'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(item),
+              };
+              const response = await fetch(`${environment.APIURL}/donhang/${item.id}`, options);
+              if (!response.ok) {
+                throw new Error(`HTTP error! status: ${response.status}`);
+              }
+              const data = await response.json();    
+              console.log(data);
+                                  
+              return data;         
+          } catch (error) {
+              return console.error(error);
+          }
+      } 
     async addToCart(item: any): Promise<void> {
         if (!this.Donhang.hasOwnProperty('MaDonHang')) {
             this.Donhang.MaDonHang = genMaDonhang(await this.getSoluongDon())
@@ -333,7 +353,7 @@ export class GiohangService {
         else return 0  
     }
     getSum(data: any, field: any, field1: any) {
-        console.log(data,field,field1);
+        //console.log(data,field,field1);
         if (field1) {
           return data?.reduce((acc: any, item: any) => acc + item[field] * item.Giachon[field1], 0) || 0;
         }

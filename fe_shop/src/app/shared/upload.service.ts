@@ -64,4 +64,30 @@ export class UploadService {
     //   })
     // );
   }
+  async uploadDonhang(file: any) {
+    try {
+      // const formData = new FormData();
+      // formData.append('image', file);
+      // console.log(formData);
+      const response = await fetch(environment.APIURL + `/upload/image`, {
+        method: 'POST',
+        body: file
+       }) 
+       if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+      const data = await response.json();         
+      return data;
+      } catch (error) {
+          return console.error(error);
+      }
+
+    // return this.http.post(environment.APIURL + `/upload/local?folder=${formattedDate}`, formData).pipe(
+    //   map((data: any) => {
+    //     if (data) {
+    //       return data;
+    //     }
+    //   })
+    // );
+  }
 }

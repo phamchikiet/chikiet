@@ -28,6 +28,7 @@ export class MainAdminComponent implements OnInit {
   FilterLists: any[] = []
   Cuser: any = {}
   Menus: any[] = [
+    {id:3,pid:0,Title:"Demo" ,Slug:"demo"},
     {id:1,pid:0,Title:"Dashboard",Slug:"dashboard"},
     {id:1,pid:0,Title:"Menu",Slug:"menu"},
     {id:2,pid:0,Title:"Sản Phẩm" ,Slug:"sanpham"},
@@ -55,7 +56,7 @@ export class MainAdminComponent implements OnInit {
     {id:3,pid:0,Title:"Liên Hệ" ,Slug:"lienhe"},
     {id:3,pid:0,Title:"Chương Trình Khuyến Mãi" ,Slug:"khuyenmai"},
     {id:3,pid:0,Title:"User" ,Slug:"user"},
-    // {id:3,pid:0,Title:"Usergroup" ,Slug:"usergroup"},
+    {id:3,pid:0,Title:"Usergroup" ,Slug:"usergroup"},
   ]
   Today:any=new Date()
   
