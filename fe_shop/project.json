@@ -13,7 +13,9 @@
       ],
       "options": {
         "allowedCommonJsDependencies": [
-          "moment"
+          "moment",
+          "html2canvas",
+          "core-js/modules/es.array.index-of.js"
        ],
         "outputPath": "dist/fe_shop/browser",
         "index": "fe_shop/src/index.html",

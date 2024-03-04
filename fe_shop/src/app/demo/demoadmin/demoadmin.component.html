@@ -7,7 +7,7 @@
   <mat-drawer-content class="!flex flex-col flex-auto min-w-0 relative !h-[90vh]">
     <div class="relative flex flex-col">
       <div class="flex justify-between items-center space-x-2 m-2 bg-white p-3 rounded-lg">
-        <div class="flex flex-row space-x-3 justify-center items-center">
+        <div class="lg:w-auto w-full flex flex-row space-x-3 justify-center items-center">
 
           <mat-form-field subscriptSizing="dynamic" appearance="outline" class="w-full">
             <mat-label>Tìm kiếm</mat-label>
@@ -16,6 +16,12 @@
           </mat-form-field>
 
           <mat-menu #menu="matMenu">
+            <button mat-menu-item>
+              <div (click)="openDialog(dialogTemplate)" class="flex flex-row space-x-2 items-center justify-center">
+                <span class="material-symbols-outlined text-xl">add_circle</span>
+                <span class="text-xs">Thêm Mới</span>
+              </div>
+            </button>
             <button mat-menu-item>
               <div (click)="writeExcelFile()" class="flex flex-row space-x-2 items-center justify-center">
                 <span class="material-symbols-outlined text-xl" matTooltip="Upload File">file_download</span>
@@ -76,27 +82,17 @@
             </div>
           </div>
         </div>
-        <div class="flex flex-row space-x-2 items-center">
-
-          <div (click)="openDialog(dialogTemplate)"
-            class="flex flex-col items-center p-2 text-center justify-center hover:bg-gray-200 rounded-lg">
-            <span class="material-symbols-outlined p-2 border rounded-full 
+        <div class="lg:hidden flex flex-row space-x-2 items-center">
+            <span mat-icon-button [matMenuTriggerFor]="menu" class="material-symbols-outlined p-2 border rounded-full 
             bg-slate-200 text-blue-500 
             hover:bg-blue-500 hover:text-white whitespace-nowrap">
-              add_circle
+            more_vert
             </span>
-            <span class="text-xs">Thêm Mới</span>
-          </div>
-
-
-          <button class="lg:!hidden flex" mat-icon-button [matMenuTriggerFor]="menu">
-            <span class="material-symbols-outlined">more_vert</span>
-          </button>
-
         </div>
       </div>
     </div>
     <div class="relative flex flex-col h-full w-full overflow-auto">
+      <app-customtable [Dulieus]="FilterLists"></app-customtable>
       <div class="flex flex-col my-6 mx-2 rounded-lg shadow-xl shadow-gray-200">
         <div class="overflow-x-auto rounded-2xl">
           <div class="inline-block min-w-full align-middle">

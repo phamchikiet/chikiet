@@ -18,11 +18,13 @@ import { API_KEY, GoogleSheetsDbService } from 'ng-google-sheets-db';
 import { Observable, Subject, async, buffer, takeUntil } from 'rxjs';
 import { MatBadgeModule } from '@angular/material/badge';
 import { DanhmucService } from '../../admin/main-admin/danhmuc/danhmuc.service';
-import { SanphamService } from '../../admin/main-admin/sanpham/sanpham.service';
 import { CustomtableComponent } from '../../shared/customtable/customtable.component';
+import { FlatTreeControl } from '@angular/cdk/tree';
+import { MatTreeFlattener, MatTreeFlatDataSource, MatTreeModule } from '@angular/material/tree';
+import { CauhinhService } from '../cauhinh.service';
 @Component({
-  selector: 'app-demoadmin',
-  standalone: true,
+  selector: 'app-cauhinhadmin',
+  standalone:true,
   imports: [
     MatSidenavModule,
     MatInputModule,
@@ -37,19 +39,13 @@ import { CustomtableComponent } from '../../shared/customtable/customtable.compo
     ButtonModule,
     MatSelectModule,
     MatBadgeModule,
-    CustomtableComponent
+    CustomtableComponent,
+    MatTreeModule
   ],
-  providers: [
-    {
-      provide: API_KEY,
-      useValue: 'AIzaSyCWh10EgrjVBm8qKpnsGOgXrIsT5uqroMc',
-    },
-    GoogleSheetsDbService
-  ],
-  templateUrl: './demoadmin.component.html',
-  styleUrls: ['./demoadmin.component.css']
+  templateUrl: './cauhinhadmin.component.html',
+  styleUrls: ['./cauhinhadmin.component.css']
 })
-export class DemoadminComponent implements OnInit {
+export class CauhinhadminComponent implements OnInit {
   Detail: any = {};
   Lists: any = {}
   SelectItem: any = {}
@@ -62,48 +58,52 @@ export class DemoadminComponent implements OnInit {
     pageNumber: 0
   };
   sidebarVisible: boolean = false;
-  _SanphamService: SanphamService = inject(SanphamService)
+  _CauhinhService: CauhinhService = inject(CauhinhService)
   _DanhmucService: DanhmucService = inject(DanhmucService)
-  _googleSheetsDbService: GoogleSheetsDbService = inject(GoogleSheetsDbService)
-  SanphamsDrive:any[]=[]
-  private _unsubscribeAll: Subject<any> = new Subject<any>();
+  CauhinhsDrive:any[]=[]
   @ViewChild('drawer', { static: true }) drawer!: MatDrawer;
   constructor(
     private dialog: MatDialog,
     private _snackBar: MatSnackBar
-  ) {
-  }
+  ) {}
+  private _transformer = (node: any, level: number) => {
+    return {
+      expandable: !!node.children && node.children.length > 0,
+      Title: node.Title,
+      id: node.id,
+      level: level,
+    };
+  };
+  treeControl = new FlatTreeControl<any>(
+    node => node.level,
+    node => node.expandable,
+  );
+  treeFlattener = new MatTreeFlattener(
+    this._transformer,
+    node => node.level,
+    node => node.expandable,
+    node => node.children,
+  );
+  treedataSource = new MatTreeFlatDataSource(this.treeControl, this.treeFlattener);
+  hasChild = (_: number, node: any) => node.expandable;
   async ngOnInit(): Promise<void> {
-    this._SanphamService.getAllSanpham();
-    this._SanphamService.sanphams$.subscribe((data) => {
-      if (data) {
-      //  this.FilterLists =data
-        console.log(data);
-        
-      //  data.forEach((v)=>
-      //   {
-      //     v.Giagoc.forEach((v1:any) => {
-      //       v1.GiaCoSo=Number(v.GiaCoSo),
-      //       v1.SLTT=0
-      //     });
-      //   })
-      //   data.forEach((v)=>
-      //   {
-      //     this._SanphamService.UpdateSanpham(v)
-      //   })
-      //   console.log(data);
-      }
-    })
-    this.Lists = await this._SanphamService.SearchSanpham(this.SearchParams)
+    this.Lists = await this._CauhinhService.SearchCauhinh(this.SearchParams)
+    console.log(this.Lists);
     this.ListDanhmuc = await this._DanhmucService.getAllDanhmuc()
      this.FilterLists = this.Lists.items
     this.pageSizeOptions = [10, 20, this.Lists.totalCount].filter(v => v <= this.Lists.totalCount);
+    this._CauhinhService.cauhinhs$.subscribe((data:any) => {
+      if (data) {
+        console.log(data);
+        this.treedataSource.data = data
+      }
+    })
   }
 
   async LoadDrive()
   {
-   const data =  await this._SanphamService.getDrive();   
-   this.SanphamsDrive = data.values.slice(1).map((row:any) => {
+   const data =  await this._CauhinhService.getDrive();   
+   this.CauhinhsDrive = data.values.slice(1).map((row:any) => {
     return {
       MaSP: row[0],
       Title: row[1],
@@ -121,12 +121,12 @@ export class DemoadminComponent implements OnInit {
       }]
     };
   });
-   console.log(this.SanphamsDrive); 
+   console.log(this.CauhinhsDrive); 
   }
   async SyncDrive()
   {
-    this.SanphamsDrive.forEach((v)=>{
-      this._SanphamService.CreateSanpham(v)
+    this.CauhinhsDrive.forEach((v)=>{
+      this._CauhinhService.CreateCauhinh(v)
     })
   }
   GetTenDanhmuc(item: any) {
@@ -134,7 +134,7 @@ export class DemoadminComponent implements OnInit {
   }
   ChangeStatus(item: any, type: any) {
     item[type] = item[type] == 0 ? 1 : 0
-    this._SanphamService.UpdateSanpham(item).then(() => {
+    this._CauhinhService.UpdateCauhinh(item).then(() => {
       this._snackBar.open('Cập Nhật Thành Công', '', {
         horizontalPosition: "end",
         verticalPosition: "top",
@@ -156,7 +156,7 @@ export class DemoadminComponent implements OnInit {
     console.log(event);
     this.SearchParams.pageSize = event.pageSize
     this.SearchParams.pageNumber = event.pageIndex
-    this.Lists = await this._SanphamService.SearchSanpham(this.SearchParams)
+    this.Lists = await this._CauhinhService.SearchCauhinh(this.SearchParams)
     this.FilterLists = this.Lists.items
   }
   openDialog(teamplate: TemplateRef<any>): void {
@@ -164,7 +164,7 @@ export class DemoadminComponent implements OnInit {
     });
     dialogRef.afterClosed().subscribe((result) => {
       if (result == 'true') {
-        this._SanphamService.CreateSanpham(this.Detail).then(() => this.ngOnInit())
+        this._CauhinhService.CreateCauhinh(this.Detail).then(() => this.ngOnInit())
       }
     });
   }
@@ -173,7 +173,7 @@ export class DemoadminComponent implements OnInit {
     });
     dialogRef.afterClosed().subscribe((result) => {
       if (result == 'true') {
-        this._SanphamService.DeleteSanpham(this.SelectItem).then(() => this.ngOnInit())
+        this._CauhinhService.DeleteCauhinh(this.SelectItem).then(() => this.ngOnInit())
       }
     });
   }
@@ -190,18 +190,18 @@ export class DemoadminComponent implements OnInit {
       const sheetName1 = workbook.SheetNames[1];
       const worksheet = workbook.Sheets[sheetName];
       const worksheet1 = workbook.Sheets[sheetName1];
-      const Sanpham = XLSX.utils.sheet_to_json(worksheet, { raw: true });
+      const Cauhinh = XLSX.utils.sheet_to_json(worksheet, { raw: true });
       const Giagoc: any = XLSX.utils.sheet_to_json(worksheet1, { raw: true });
-      console.log(Sanpham);
+      console.log(Cauhinh);
       console.log(groupByfield(Giagoc));
-      Sanpham.forEach((v: any, k: any) => {
+      Cauhinh.forEach((v: any, k: any) => {
         setTimeout(() => {
           const item: any = {}
           const Image: any = { Main: v.photo, Thumb: v.thumb }
           item.id = v.id
           item.Giagoc = groupByfield(Giagoc).find((gg: any) => gg.idSP == v.id).children || []
-          this._SanphamService.UpdateSanpham(item)
-          // this._SanphamService.CreateSanpham(item)
+          this._CauhinhService.UpdateCauhinh(item)
+          // this._CauhinhService.CreateCauhinh(item)
           console.log(item);
         }, 100 * k);
       });
@@ -225,10 +225,10 @@ export class DemoadminComponent implements OnInit {
     const workbook = XLSX.utils.book_new();
     const worksheet1: XLSX.WorkSheet = XLSX.utils.json_to_sheet(this.FilterLists);
     const worksheet2: XLSX.WorkSheet = XLSX.utils.json_to_sheet(Giagoc);
-    XLSX.utils.book_append_sheet(workbook, worksheet1, 'Sanpham');
+    XLSX.utils.book_append_sheet(workbook, worksheet1, 'Cauhinh');
     XLSX.utils.book_append_sheet(workbook, worksheet2, 'Giagoc');
     const excelBuffer: any = XLSX.write(workbook, { bookType: 'xlsx', type: 'array' });
-    this.saveAsExcelFile(excelBuffer, 'Sanpham_' + moment().format("DD_MM_YYYY"));
+    this.saveAsExcelFile(excelBuffer, 'Cauhinh_' + moment().format("DD_MM_YYYY"));
   }
   saveAsExcelFile(buffer: any, fileName: string) {
     const data: Blob = new Blob([buffer], { type: 'application/octet-stream' });
@@ -240,8 +240,8 @@ export class DemoadminComponent implements OnInit {
     window.URL.revokeObjectURL(url);
     link.remove();
   }
-  UpdateStatusSanpham(item: any) {
+  UpdateStatusCauhinh(item: any) {
     item.Status = 0
-    this._SanphamService.UpdateSanpham(item).then(() => this.ngOnInit())
+    this._CauhinhService.UpdateCauhinh(item).then(() => this.ngOnInit())
   }
 }

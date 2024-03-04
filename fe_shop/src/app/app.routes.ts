@@ -46,6 +46,8 @@ import { UsergroupAdminComponent } from './usergroup/usergroup-admin/usergroup-a
 import { UsergroupAdminDetailComponent } from './usergroup/usergroup-admin/usergroup-admin-detail/usergroup-admin-detail.component';
 import { DemoadminComponent } from './demo/demoadmin/demoadmin.component';
 import { DemoadmindetailComponent } from './demo/demoadmin/demoadmindetail/demoadmindetail.component';
+import { CauhinhadminComponent } from './cauhinh/cauhinhadmin/cauhinhadmin.component';
+import { CauhinhadmindetailComponent } from './cauhinh/cauhinhadmin/cauhinhadmindetail/cauhinhadmindetail.component';
 
 export const appRoutes: Route[] = [
     // { path: '', redirectTo: 'trang-chu', pathMatch: 'full' },
@@ -282,6 +284,13 @@ export const appRoutes: Route[] = [
                 component: AdminTonkhoComponent,
                 children: [
                     { path: ':id', component: AdminTonkhoChitietComponent }
+                ]
+            },
+            {
+                path: 'cauhinh',
+                component: CauhinhadminComponent,
+                children: [
+                    { path: ':id', component: CauhinhadmindetailComponent }
                 ]
             },
         ]
