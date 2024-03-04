@@ -20,5 +20,4 @@ export class TimelineDonhangComponent implements OnInit {
     {id:5,Title:"Huỷ",        Class:"text-white bg-red-400"}
   ]
   ngOnInit() {}
-
 }
