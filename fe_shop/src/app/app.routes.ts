@@ -257,26 +257,26 @@ export const appRoutes: Route[] = [
                     }
                 ]
             },
-            // {
-            //     path: 'usergroup',
-            //     component: UsergroupAdminComponent,
-            //     children: [
-            //         {
-            //             path: ':id',
-            //             component: UsergroupAdminDetailComponent
-            //         }
-            //     ]
-            // },
-            // {
-            //     path: 'demo',
-            //     component: DemoadminComponent,
-            //     children: [
-            //         {
-            //             path: ':id',
-            //             component: DemoadmindetailComponent
-            //         }
-            //     ]
-            // },
+            {
+                path: 'usergroup',
+                component: UsergroupAdminComponent,
+                children: [
+                    {
+                        path: ':id',
+                        component: UsergroupAdminDetailComponent
+                    }
+                ]
+            },
+            {
+                path: 'demo',
+                component: DemoadminComponent,
+                children: [
+                    {
+                        path: ':id',
+                        component: DemoadmindetailComponent
+                    }
+                ]
+            },
             {
                 path: 'tonkho',
                 component: AdminTonkhoComponent,
