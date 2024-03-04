@@ -64,6 +64,21 @@ export class UploadController {
   async server(@UploadedFile() file) { 
       return await this.uploadService.upload(file);
   }
+  @Post('image')
+  @UseInterceptors(FileInterceptor('image', {
+    storage: diskStorage({
+      destination: './uploads', // Change to your desired upload folder
+    })
+  }))
+  async uploadImage(@UploadedFile() file) {
+    console.log(file);
+    
+   // console.log('Image uploaded!', file.filename);
+    // You can further process the uploaded image here (e.g., resize, compress)
+    return { message: 'Image uploaded successfully!' };
+  }
+
+
 @Post('local')
     @UseInterceptors(
     FileInterceptor('file', {
@@ -71,6 +86,8 @@ export class UploadController {
         destination: (req, file, cb) => {
           // const path = './dist/' + req.query.folder;
           const path = req.query.folder;
+          console.log(path);
+          
           if (!fs.existsSync(path)) {
             fs.mkdirSync(path, { recursive: true });
             console.log('Folder created:', path);
@@ -85,8 +102,7 @@ export class UploadController {
     }),
   )
   async serverlocal(@UploadedFile() file) { 
-   // console.error(file);
-    
+   console.error(file);
     const originalPath = file.path;
     // Create a directory to save resized copies
     //const resizedDirectory = './uploads/resized/';

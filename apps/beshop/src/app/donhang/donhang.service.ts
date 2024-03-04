@@ -88,6 +88,9 @@ export class DonhangService {
     if (params.MaDonHang) {
       queryBuilder.andWhere('donhang.MaDonHang LIKE :Title', { MaDonHang: `%${params.MaDonHang}%` });
     }
+    if (params.hasOwnProperty('isDelete')) {
+      queryBuilder.andWhere('donhang.isDelete = :isDelete', { isDelete: `${params.isDelete}` });
+    }
     let [item, totalCount]:any = await queryBuilder
       .limit(params.pageSize || 10) // Set a default page size if not provided
       .offset(params.pageNumber * params.pageSize || 0)
@@ -103,14 +106,19 @@ export class DonhangService {
   }
   async update(id: string, data: any) {
     console.log(data);
-    await this._GiohangService.update(data.Giohangs.id,data.Giohangs);
-    await this._KhachhangService.update(data.Khachhang.id,data.Khachhang);
-    this.DonhangRepository.save(data);
-    return await this.DonhangRepository.findOne({ where: { id: id } });
+    if(data.Giohangs){await this._GiohangService.update(data.Giohangs.id,data.Giohangs)}
+    if(data.Khachhang){await this._KhachhangService.update(data.Khachhang.id,data.Khachhang);}
+     this.DonhangRepository.save(data);
+     const result = await this.DonhangRepository.findOne({ where: { id: id } });
+     console.log(result);
+     
+     return result
   }
-  async remove(id: string) {
-    console.error(id)
-    await this.DonhangRepository.delete(id);
-    return { deleted: true };
+  async remove(id: string, data: any) {
+    // if(data.Giohangs){await this._GiohangService.remove(data.Giohangs.id);}
+    // if(data.Khachhang){await this._KhachhangService.remove(data.Khachhang.id);}
+    // data.Status = 99
+    // await this.DonhangRepository.save(data);
+    // return await this.DonhangRepository.findOne({ where: { id: id } });
   }
 }

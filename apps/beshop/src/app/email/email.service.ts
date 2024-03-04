@@ -25,12 +25,26 @@ export class EmailService {
       },
 
     });
+    const item:any={}
+    item.name = "Test Email"
+    item.message = "xin chào"
     const result = await this.transporter.sendMail(
       {
         from: `${data.Brand} <${data.auth.user}>`,
         to: data.toemail,
         subject: data.subject,
         html: data.text,
+        // attachments: [
+        //   {
+        //     filename: data.attachment.filename,
+        //     content: data.attachment.content,
+        //   }
+        // ]
+        // attachment: {
+        //   filename: data.attachment.filename,
+        //   content: data.attachment.content,
+        // }
+        // html: require('./email-template.html')({"Test Email","xin chào"})
       });
     return result
   }

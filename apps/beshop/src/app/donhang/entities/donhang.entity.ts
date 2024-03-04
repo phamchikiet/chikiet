@@ -40,6 +40,8 @@ export class DonhangEntity {
   Ordering: number;
   @Column({ default: 0 })
   Status: number;
+  @Column({ default: false })
+  isDelete: boolean;
   @CreateDateColumn()
   CreateAt: Date;
   @UpdateDateColumn()
