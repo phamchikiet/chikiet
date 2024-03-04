@@ -17,6 +17,7 @@ import { NhapkhoModule } from './xnt/nhapkho/nhapkho.module';
 import { TonkhoModule } from './xnt/tonkho/tonkho.module';
 import { EmailModule } from './email/email.module';
 import { MenuModule } from './menu/menu.module';
+import { CauhinhModule } from './cauhinh/cauhinh.module';
 
 @Module({
   imports: [
@@ -45,7 +46,8 @@ import { MenuModule } from './menu/menu.module';
      NhapkhoModule,
      TonkhoModule,
      EmailModule,
-     MenuModule
+     MenuModule,
+     CauhinhModule
   ],
   controllers: [AppController],
   providers: [AppService],
