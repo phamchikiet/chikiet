@@ -106,9 +106,9 @@ export class ThanhtoanComponent implements OnInit {
   // // });
   // }
   async Xacnhandonhang(customSnackbar: TemplateRef<any>) {    
-    this.Donhang.Khachhang.Hoten="text"
-    this.Donhang.Khachhang.SDT="0987654321"
-    this.Donhang.Khachhang.Diachi="dfgdfgdf"
+    // this.Donhang.Khachhang.Hoten="text"
+    // this.Donhang.Khachhang.SDT="0987654321"
+    // this.Donhang.Khachhang.Diachi="dfgdfgdf"
     if (!this.Donhang.Khachhang.Hoten) {
       this.Notify.Noidung = "Vui Lòng Nhập Họ Tên"
       this.Notify.type = "danger"
