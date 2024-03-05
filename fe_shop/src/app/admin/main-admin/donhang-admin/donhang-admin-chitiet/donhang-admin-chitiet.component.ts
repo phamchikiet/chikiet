@@ -46,8 +46,6 @@ export class DonhangAdminChitietComponent implements OnInit {
   idSP:any;
   Detail:any;
   Giohangs: any[] = []
-  Phivanchuyen: any = 10
-  Giamgia: any = 30
   ListTrangThaiDonhang:any=ListTrangThaiDonhang
   ListHinhthucthanhtoan:any=ListHinhthucthanhtoan
   @ViewChild('GhichuDialog') GhichuDialog!: TemplateRef<any>;
@@ -100,9 +98,7 @@ export class DonhangAdminChitietComponent implements OnInit {
     return this._GiohangService.getSum(data,field,field1)
   }
   GetSubTotalThucte(data: any, field: any, field1: any) {    
-    const items = data.map((v:any)=>(v.Giachon))
-    console.log(items);
-    
+    const items = data.map((v:any)=>(v.Giachon))    
     return this._GiohangService.getSumThucte(items,field,field1)
   }
   GetTotalThucte(donhang:any,giohang:any,soluong:any,gia:any,thue:any)

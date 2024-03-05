@@ -21,7 +21,6 @@ export class ForminAdminComponent implements OnInit {
   ngOnInit() {
     console.log(this.Donhang);
     console.log(this.Tongthucte);
-
   }
   CloseAll() {
     this.dialog.closeAll()

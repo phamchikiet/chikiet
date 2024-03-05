@@ -60,7 +60,6 @@ export class DonhangAdminComponent implements OnInit {
     this._UsersService.profile$.subscribe((data) => {
       if (data) {
         this.Profile = data
-        console.log(data);
       }
     })
   }

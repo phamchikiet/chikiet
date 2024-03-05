@@ -13,7 +13,7 @@ export class GiohangService {
     private _addonhangs: BehaviorSubject<any[] | []> = new BehaviorSubject<any | null>(null);
     private _addonhang: BehaviorSubject<any | null> = new BehaviorSubject<any | null>(null);
     // Giohangs: any  = this._LocalStorageService.getItem('Giohang')||[]
-    Donhang: any = this._LocalStorageService.getItem('Donhang') || { Giohangs: [],Khachhang:{},Thanhtoan:{},Vanchuyen:{} }
+    Donhang: any = this._LocalStorageService.getItem('Donhang') || { Giohangs: [],Khachhang:{},Thanhtoan:{},Vanchuyen:{Phivanchuyen:0} }
     get addonhangs$(): Observable<any[] | null> {
         return this._addonhangs.asObservable();
     }
@@ -241,7 +241,7 @@ export class GiohangService {
             this.Donhang.MaDonHang = genMaDonhang(await this.getSoluongDon())
             this.Donhang.Khachhang = { Hoten: '' }
             this.Donhang.Thanhtoan = {}
-            this.Donhang.Vanchuyen = {}
+            this.Donhang.Vanchuyen = {Phivanchuyen:0}
             this.Donhang.Status = 0
             this.Donhang.Giohangs = [item]
             this._LocalStorageService.setItem('Donhang', this.Donhang)
@@ -266,7 +266,7 @@ export class GiohangService {
             this.Donhang.MaDonHang = genMaDonhang(await this.getSoluongDon())
             this.Donhang.Khachhang = { Hoten: '' }
             this.Donhang.Thanhtoan = {}
-            this.Donhang.Vanchuyen = {}
+            this.Donhang.Vanchuyen = {Phivanchuyen:0}
             this.Donhang.Status = 0
             this.Donhang.Giohangs = [item]
             this._LocalStorageService.setItem('Donhang', this.Donhang)
@@ -353,7 +353,6 @@ export class GiohangService {
         else return 0  
     }
     getSum(data: any, field: any, field1: any) {
-        //console.log(data,field,field1);
         if (field1) {
           return data?.reduce((acc: any, item: any) => acc + item[field] * item.Giachon[field1], 0) || 0;
         }
@@ -362,7 +361,6 @@ export class GiohangService {
         }
     }
     getSumThucte(data: any, field: any, field1: any) {
-        console.log(data,field,field1);
         if (field1) {
           return data?.reduce((acc: any, item: any) => acc + item[field] * item[field1], 0) || 0;
         }
