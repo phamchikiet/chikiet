@@ -166,7 +166,7 @@ export class DonhangAdminChitietComponent implements OnInit {
     else{
       item.Status=item1.id
       this._GiohangService.UpdateDonhang(item).then((data) => {
-      const telegram = `Đơn Hàng : **${data.MaDonHang}** Trạng thái : **${ListTrangThaiDonhang.find((v)=>v.id==data.Status)?.Title||data.Status}** Thời Gian : **${moment().format("hh:ss:mm DD/MM/YYY")}**`
+      const telegram = `Đơn Hàng : <b>${data.MaDonHang} </b> TT :  <b>${ListTrangThaiDonhang.find((v)=>v.id==data.Status)?.Title||data.Status} </b> - <b>${moment().format("hh:ss:mm DD/MM/YYY")} </b>`
       console.log(item1.id);
       console.log(data);
       this._TelegramService.SendNoti(telegram)
