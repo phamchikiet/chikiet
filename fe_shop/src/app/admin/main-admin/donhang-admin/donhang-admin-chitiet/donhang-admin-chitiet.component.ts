@@ -178,6 +178,17 @@ export class DonhangAdminChitietComponent implements OnInit {
       })
     }
   }
+  UpdateDonhang()
+  {
+    this._GiohangService.UpdateDonhang(this.Detail).then(() => {
+      this._snackBar.open('Cập Nhật Thành Công', '', {
+        horizontalPosition: "end",
+        verticalPosition: "top",
+        panelClass: 'success',
+        duration: 1000,
+      });
+    })
+  }
   ChangeHinhthucthanhtoan(item: any, item1: any) {
     console.log(item,item1);
     

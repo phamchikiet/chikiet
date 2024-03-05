@@ -1,13 +1,19 @@
 @defer {
 <div class="bg-gray-50 relative p-4 w-full h-full md:h-auto">
   <div class="relative bg-white rounded-2xl  shadow-gray-700">
-    <div class="flex justify-between items-start p-5 rounded-t border-b">
-      <a [routerLink]="['../']" (click)="CloseDrawer()">
-        <span class="material-symbols-outlined ">close</span>
-      </a>
-      <div class="flex flex-row space-x-4 items-center lg:text-sm text-xs">
-        <div class="flex flex-col space-y-4 items-center whitespace-nowrap">
-          <span class="font-bold">Hình Thức</span>
+    <a class="absolute -left-3 -top-3" [routerLink]="['../']" (click)="CloseDrawer()">
+      <span class="material-symbols-outlined p-2 border border-slate-100 rounded-full 
+      bg-slate-200 text-black
+      hover:bg-black hover:text-white">
+      close
+    </span>
+    </a>
+    
+    <div class="flex justify-end items-end p-5 rounded-t border-b">
+      <!-- <div class="flex flex-row space-x-4 items-center lg:text-sm text-xs"> -->
+      <div class="grid grid-cols-4 gap-2">
+        <div class="flex flex-col justify-between space-y-2 items-center whitespace-nowrap">
+          <span class="lg:block hidden font-bold">Hình Thức</span>
             <span class="p-2 rounded-lg 
             {{GetHinhthucthanhtoan(Detail?.Thanhtoan?.Hinhthuc,'Class')}}" [matMenuTriggerFor]="menu">
              {{GetHinhthucthanhtoan(Detail?.Thanhtoan?.Hinhthuc,'Title')||'Chọn Hình Thức'}}
@@ -23,8 +29,8 @@
             }
           </div>
         </mat-menu>
-        <div class="flex flex-col space-y-4 items-start whitespace-nowrap">
-          <span class="font-bold">Trạng Thái</span>
+        <div class="flex flex-col justify-between space-y-2 items-center whitespace-nowrap">
+          <span class="lg:block hidden font-bold">Trạng Thái</span>
             <span class="p-2 rounded-lg 
             {{GetStatus(Detail?.Status,'Class')}}" [matMenuTriggerFor]="menuTrangthai">
               {{GetStatus(Detail?.Status,'Title')}}
@@ -42,13 +48,23 @@
         </mat-menu>
 
         <div class="flex flex-col space-y-2 justify-between items-center whitespace-nowrap" (click)="XemFormin(dialogXemFormin)">
-          <span class="font-semibold">
+          <span class="lg:block hidden font-semibold">
             {{Detail?.MaDonHang}}
           </span>
           <span class="material-symbols-outlined p-2 border rounded-full 
                   bg-slate-200 text-blue-500 
                   hover:bg-blue-500 hover:text-white">
                   print
+            </span>
+        </div>
+        <div class="flex flex-col space-y-2 justify-between items-center whitespace-nowrap" (click)="UpdateDonhang()">
+          <span class="lg:block hidden font-semibold">
+            Lưu
+          </span>
+          <span class="material-symbols-outlined p-2 border rounded-full 
+                  bg-slate-200 text-blue-500 
+                  hover:bg-blue-500 hover:text-white">
+                  save
             </span>
         </div>
 

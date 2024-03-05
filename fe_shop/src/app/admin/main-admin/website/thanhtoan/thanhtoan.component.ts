@@ -1,5 +1,5 @@
 import { DecimalPipe } from '@angular/common';
-import { Component, OnInit, TemplateRef, inject } from '@angular/core';
+import { Component, OnInit, TemplateRef, ViewChild, inject } from '@angular/core';
 import { GiohangService } from '../giohang/giohang.service';
 import {
   MatSnackBar,
@@ -21,6 +21,7 @@ import { UploadService } from 'fe_shop/src/app/shared/upload.service';
 import { CauhinhService } from 'fe_shop/src/app/cauhinh/cauhinh.service';
 import { TelegramService } from 'fe_shop/src/app/shared/telegram.service';
 import * as moment from 'moment';
+import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 @Component({
   selector: 'app-thanhtoan',
   standalone: true,
@@ -32,7 +33,8 @@ import * as moment from 'moment';
     DiachiAdminComponent,
     MatButtonModule,
     MatProgressSpinnerModule,
-    ForminAdminComponent
+    ForminAdminComponent,
+    MatDialogModule
   ],
   templateUrl: './thanhtoan.component.html',
   styleUrls: ['./thanhtoan.component.css']
@@ -53,8 +55,11 @@ export class ThanhtoanComponent implements OnInit {
   Diachis: any[] = []
   ImageLink:any=''
   CauhinhEmail:any={}
-  constructor(private _snackBar: MatSnackBar) { }
-
+  @ViewChild('HinhthucTeamplate') HinhthucTeamplate!: TemplateRef<any>;
+  constructor(
+    private _snackBar: MatSnackBar,
+    private dialog:MatDialog,
+    ) { }
   ngOnInit() {
     this._GiohangService.getDonhang()
     this._GiohangService.donhang$.subscribe((data: any) => {
@@ -86,6 +91,10 @@ export class ThanhtoanComponent implements OnInit {
   GetTongcong() {
     return this.Donhang.Total + Number(this.Donhang.Vanchuyen.Phivanchuyen||0) - this.Donhang.Giamgia + this.GetTotal(this.Donhang.Giohangs, 'Thue', '')
   }
+  ChooseMethod(item:any)
+  {
+    this.Donhang.Thanhtoan.Hinhthuc = item     
+  }
   // async captureImage() {
   //   const element = document.getElementById('capturable-div') as HTMLElement;
   //   const canvas = await html2canvas(element);
@@ -106,9 +115,9 @@ export class ThanhtoanComponent implements OnInit {
   // // });
   // }
   async Xacnhandonhang(customSnackbar: TemplateRef<any>) {    
-    // this.Donhang.Khachhang.Hoten="text"
-    // this.Donhang.Khachhang.SDT="0987654321"
-    // this.Donhang.Khachhang.Diachi="dfgdfgdf"
+    this.Donhang.Khachhang.Hoten="text"
+    this.Donhang.Khachhang.SDT="0987654321"
+    this.Donhang.Khachhang.Diachi="dfgdfgdf"
     if (!this.Donhang.Khachhang.Hoten) {
       this.Notify.Noidung = "Vui Lòng Nhập Họ Tên"
       this.Notify.type = "danger"
@@ -148,9 +157,12 @@ export class ThanhtoanComponent implements OnInit {
         duration: 2000,
       });
     }
-    else {      
-     // const htmlteamplate ='<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Email from Angular App</title></head><body><h1>Email from Angular Application</h1><p>Name: {{ name }}</p><p>Email: {{ email }}</p><p>Message: {{ message }}</p> <img src='+this.ImageLink+' /></body></html>'      
-      const htmlteamplate= `<!doctype html>
+
+    else if (!this.Donhang.Hinhthuc) {
+      const dialogRef = this.dialog.open(this.HinhthucTeamplate);
+      dialogRef.afterClosed().subscribe((result) => {
+        if (result == 'true') {
+                const htmlteamplate= `<!doctype html>
       <html>
       <head>
         <meta charset="UTF-8">
@@ -206,7 +218,68 @@ export class ThanhtoanComponent implements OnInit {
 
 
       })
+        }
+      });
     }
+
+    // else {      
+    //   const htmlteamplate= `<!doctype html>
+    //   <html>
+    //   <head>
+    //     <meta charset="UTF-8">
+    //     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    //     <script src="https://cdn.tailwindcss.com"></script>
+    //   </head>
+    //   <body>
+    //     <h1 class="text-3xl font-bold underline bg-yellow-500">
+    //        CẢM ƠN BẠN ĐÃ ĐẶT HÀNG
+    //     </h1>
+    //    <p> Đơn hàng của bạn đã được tiếp nhận sẽ được xử lý trong thời gian sớm nhất có thể </p>
+    //    <p> Bạn có thể tra cứu đơn hàng ${this.Donhang.MaDonHang} <a href="https://shop.chikiet.com/tra-cuu-don?MaDonHang=${this.Donhang.MaDonHang}">tại đây</> </p>
+    //   </body>
+    //   </html>`
+
+    //   this._GiohangService.CreateDonhang(this.Donhang).then((data:any)=>
+    //   {        
+    //     if(data.error!==1001)
+    //     {
+    //       if(this.Donhang.Khachhang.Email)
+    //       {
+    //         this.CauhinhEmail.subject = `Xác Nhận Đơn Hàng ${data.MaDonHang}`
+    //         this.CauhinhEmail.toemail = this.Donhang.Khachhang.Email
+    //         this.CauhinhEmail.text = htmlteamplate
+    //         this._SendemailService.SendEmail(this.CauhinhEmail)
+    //         const Telegram = `Xác Nhận Đơn Hàng <a href="https://shop.chikiet.com/tra-cuu-don?MaDonHang=${data.MaDonHang}">${data.MaDonHang}</a> đã đặt lúc ${moment().format("HH:mm:ss DD/MM/YYYY")}`
+    //         this._TelegramService.SendNoti(Telegram).then(()=>
+    //         {
+    //           this._GiohangService.clearCart()
+    //           setTimeout(() => {
+    //             this._snackBar.open('Đặt Hàng Thành Công','',{
+    //               horizontalPosition: "end",
+    //               verticalPosition: "top",
+    //               panelClass:'success',
+    //               duration: 2000,
+    //             });
+    //             window.location.href = `cam-on?MaDonHang=${data.MaDonHang}`;
+    //           }, 100);
+    //         })    
+    //         }
+    //         else{
+    //           setTimeout(() => {
+    //             window.location.href = `cam-on?MaDonHang=${data.MaDonHang}`;
+    //           }, 10);
+    //         }
+
+    //     }
+    //     else {
+    //       setTimeout(() => {
+    //         window.location.href = `/`;
+    //       }, 1000);
+    //     }
+
+
+    //   })
+    // }
   }
   async UpdatePhiship() {    
     if (this.Donhang.Khachhang.Diachi==undefined||this.Donhang.Khachhang.Diachi == '') {

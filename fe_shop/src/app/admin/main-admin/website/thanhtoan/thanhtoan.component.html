@@ -376,3 +376,22 @@
         <div>{{this.Notify.Noidung}}</div>
     </div>
 </ng-template>
+
+
+
+  <ng-template #HinhthucTeamplate>
+    <div class="p-2 flex flex-col space-y-3">
+      <div mat-dialog-title>Chọn Phương Thức Thanh Toán</div>
+      <div mat-dialog-content>
+        <div class="cursor-pointer grid grid-cols-3 gap-4 lg:p-4">
+           <div (click)="ChooseMethod('COD')" class="p-4 rounded-lg text-center    {{Donhang.Thanhtoan.Hinhthuc=='COD'?'text-white bg-[#A52167]':'bg-slate-100'}} hover:text-white hover:bg-[#A52167]">COD</div>
+           <div (click)="ChooseMethod('BANK')" class="p-4 rounded-lg text-center  {{Donhang.Thanhtoan.Hinhthuc=='BANK'?'text-white bg-[#439c30]':'bg-slate-100'}} hover:text-white hover:bg-[#439c30]">BANK</div>
+           <div (click)="ChooseMethod('MOMO')" class="p-4 rounded-lg text-center  {{Donhang.Thanhtoan.Hinhthuc=='MOMO'?'text-white bg-[#ED860A]':'bg-slate-100'}} hover:text-white hover:bg-[#ED860A]">MOMO</div>
+        </div>
+        <div class="flex flex-row space-x-2 items-center justify-center">
+          <button disabled="{{(Donhang.Thanhtoan.Hinhthuc&&Donhang.Thanhtoan.Hinhthuc!='')?false:true}}" mat-flat-button color="primary" mat-dialog-close="true">Thanh Toán</button>
+        </div>
+      </div>
+    </div>
+  </ng-template>
+

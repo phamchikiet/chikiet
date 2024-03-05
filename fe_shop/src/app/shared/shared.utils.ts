@@ -57,7 +57,7 @@ export const ListTrangthailichhen: any[] = [
     {id:5,Title:"Đang Lên phòng dịch vụ",Class:"text-blue-400"}
   ]
 export const ListHinhthucthanhtoan: any[] = [
-    {id:"MOMO",Title:"MOMO", Class:"text-white bg-[#A52167]"},
+    {id:"MOMO",Title:"MOMO",  Class:"text-white bg-[#A52167]"},
     {id:"COD",Title:"COD",    Class:"text-white bg-[#439c30]"},
     {id:"BANK",Title:"BANK",  Class:"text-white bg-[#ED860A]"},
   ]
