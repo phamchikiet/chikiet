@@ -5,7 +5,7 @@ import { environment } from 'fe_shop/src/environments/environment';
 })
 export class TelegramService {
     async SendNoti(data: string): Promise<any> {
-        const url = `https://api.telegram.org/bot${environment.telegram_api}/sendMessage?chat_id=${environment.telegram_group}&text=${data}&parse_mode=html`;
+        const url = `https://api.telegram.org/bot${environment.telegram_api}/sendMessage?chat_id=${environment.telegram_group}&text=${data}&parse_mode=markdown`;
         try {
           const response = await fetch(url);
           // Check for successful response status code (typically 200)
