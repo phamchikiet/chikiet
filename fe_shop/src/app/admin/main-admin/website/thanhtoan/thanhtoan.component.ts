@@ -18,6 +18,9 @@ import html2canvas from 'html2canvas';
 import {Base64} from 'js-base64';
 import { ForminAdminComponent } from 'fe_shop/src/formin/formin-admin/formin-admin.component';
 import { UploadService } from 'fe_shop/src/app/shared/upload.service';
+import { CauhinhService } from 'fe_shop/src/app/cauhinh/cauhinh.service';
+import { TelegramService } from 'fe_shop/src/app/shared/telegram.service';
+import * as moment from 'moment';
 @Component({
   selector: 'app-thanhtoan',
   standalone: true,
@@ -40,13 +43,16 @@ export class ThanhtoanComponent implements OnInit {
   _NotifierService: NotifierService = inject(NotifierService)
   _SendemailService: SendemailService = inject(SendemailService)
   _ThanhtoanService: ThanhtoanService = inject(ThanhtoanService)
+  _CauhinhService: CauhinhService = inject(CauhinhService)
   _UploadService: UploadService = inject(UploadService)
+  _TelegramService: TelegramService = inject(TelegramService)
   Khoangcach: any = {}
   ListNotifyType: any = ListNotifyType
   Notify: any = {}
   Donhang: any = {}
   Diachis: any[] = []
   ImageLink:any=''
+  CauhinhEmail:any={}
   constructor(private _snackBar: MatSnackBar) { }
 
   ngOnInit() {
@@ -55,6 +61,14 @@ export class ThanhtoanComponent implements OnInit {
       console.log(data)
       this.Donhang = data
       this.Donhang.Total = data.SubTotal + Number(data.Vanchuyen.Phivanchuyen||0) - Number(data.Giamgia||0) + this.GetTotal(data.Giohangs, 'Thue', '')||0 
+    })
+    this._CauhinhService.getCauhinhBySlug('cau-hinh-email')
+    this._CauhinhService.cauhinh$.subscribe((data)=>
+    {
+      if(data){
+      this.CauhinhEmail = data.Dulieu
+      console.log(data);
+      }
     })
   }
   GetDiachi(value: any) {
@@ -155,30 +169,30 @@ export class ThanhtoanComponent implements OnInit {
 
       this._GiohangService.CreateDonhang(this.Donhang).then((data:any)=>
       {
-        const item:any={
-          "host": "smtp.gmail.com",
-          "port": 587,
-          "secure": false,
-          "auth": {
-            "user": "wetdragon1996@gmail.com",
-            "pass": "opxbvldmnxgnebsn"
-          },
-        "Brand":"Rau Sạch Trần Gia",
-        "toemail":"chikiet88@gmail.com",
-        "subject":"123456",
-        "text":htmlteamplate,
-       }
-        this._SendemailService.SendEmail(item)
+        if(data.error!=="1001")
+        {
+          if(this.Donhang.Khachhang.Email)
+          {
+            this.CauhinhEmail.subject = `Xác Nhận Đơn Hàng ${data.MaDonHang}`
+            this.CauhinhEmail.toemail = this.Donhang.Khachhang.Email
+            this.CauhinhEmail.text = htmlteamplate
+            this._SendemailService.SendEmail(this.CauhinhEmail)
+            const Telegram = `Xác Nhận Đơn Hàng <a href="https://shop.chikiet.com/tra-cuu-don?MaDonHang=${data.MaDonHang}">${data.MaDonHang}</a> đã đặt lúc ${moment().format("DD/MM/YYYY")}`
+            this._TelegramService.SendNoti(Telegram)
+            console.log(this.CauhinhEmail);
+            this._snackBar.open('Đặt Hàng Thành Công','',{
+              horizontalPosition: "end",
+              verticalPosition: "top",
+              panelClass:'success',
+              duration: 2000,
+            });
+          setTimeout(() => {
+            window.location.href = `cam-on?MaDonHang=${data.MaDonHang}`;
+          }, 1000);
+            }
+        }
 
-        this._snackBar.open('Đặt Hàng Thành Công','',{
-          horizontalPosition: "end",
-          verticalPosition: "top",
-          panelClass:'success',
-          duration: 2000,
-        });
-        // setTimeout(() => {
-        //   window.location.href = `cam-on?MaDonHang=${data.MaDonHang}`;
-        // }, 1000);
+
       })
     }
   }
