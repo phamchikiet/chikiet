@@ -154,6 +154,7 @@ export class GiohangService {
             }
             const data = await response.json();
             this._donhang.next(data)
+            return data
         } catch (error) {
             return console.error(error);
         }
@@ -344,6 +345,7 @@ export class GiohangService {
             };
             const response = await fetch(`${environment.APIURL}/donhang/search`, options);
             const data = await response.json();
+            this._donhang.next(data.items[0])
             return data;
         } catch (error) {
             return console.error(error);

@@ -14,20 +14,21 @@ import { ForminAdminComponent } from 'fe_shop/src/formin/formin-admin/formin-adm
 })
 export class TracuudonComponent implements OnInit {
   _GiohangService: GiohangService = inject(GiohangService)
-  constructor(private activatedRoute: ActivatedRoute) { }
   MaDonHang:any
   Donhang:any
-  ngOnInit() {
+  constructor(private activatedRoute: ActivatedRoute) { 
     this.activatedRoute.queryParams.subscribe((params: Params) => {
       this.MaDonHang = params['MaDonHang']
       console.log(params);
-      this._GiohangService.getDonhangByMaDonHang(this.MaDonHang)
+      this._GiohangService.SearchDonhang({MaDonHang:this.MaDonHang})
       this._GiohangService.donhang$.subscribe((data)=>{
         if(data){
+          console.log(data);     
           this.Donhang = data
         }
       })
     });
   }
+  ngOnInit() {}
 
 }
