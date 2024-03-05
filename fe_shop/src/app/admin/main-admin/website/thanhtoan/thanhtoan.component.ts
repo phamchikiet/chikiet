@@ -176,7 +176,7 @@ export class ThanhtoanComponent implements OnInit {
             this.CauhinhEmail.toemail = this.Donhang.Khachhang.Email
             this.CauhinhEmail.text = htmlteamplate
             this._SendemailService.SendEmail(this.CauhinhEmail)
-            const Telegram = `Xác Nhận Đơn Hàng <a href="https://shop.chikiet.com/tra-cuu-don?MaDonHang=${data.MaDonHang}">${data.MaDonHang}</a> đã đặt lúc ${moment().format("DD/MM/YYYY")}`
+            const Telegram = `Xác Nhận Đơn Hàng <a href="https://shop.chikiet.com/tra-cuu-don?MaDonHang=${data.MaDonHang}">${data.MaDonHang}</a> đã đặt lúc ${moment().format("hh:mm DD/MM/YYYY")}`
             this._TelegramService.SendNoti(Telegram).then(()=>
             {
               this._GiohangService.clearCart()
