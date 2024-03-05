@@ -1,14 +1,12 @@
 import { Controller, Get, Post, Body, Patch, Param, Delete, Query } from '@nestjs/common';
 import {UsergroupService } from './usergroup.service';
-import { CreateUsergroupDto } from './dto/create-usergroup.dto';
-import { UpdateUsergroupDto } from './dto/update-usergroup.dto';
 @Controller('usergroup')
 export class UsergroupController {
   constructor(private readonly usergroupService:UsergroupService) {}
 
   @Post()
-  create(@Body() createUsergroupDto: CreateUsergroupDto) {
-    return this.usergroupService.create(createUsergroupDto);
+  create(@Body() data: any) {
+    return this.usergroupService.create(data);
   }
   @Get()
   async findAll() {
@@ -26,13 +24,13 @@ export class UsergroupController {
   async findPagination(@Query('page') page: number,@Query('perPage') perPage: number){
        return await this.usergroupService.findPagination(page,perPage);
     }
-  @Get('findquery')
-    async findQuery(@Query('query') query: string){
-      return await this.usergroupService.findQuery(query);
+  @Post('search')
+    async findQuery(@Body() SearchParams: any){
+      return await this.usergroupService.findQuery(SearchParams);
   }
   @Patch(':id')
-  update(@Param('id') id: string, @Body() updateUsergroupDto: UpdateUsergroupDto) {
-    return this.usergroupService.update(id, updateUsergroupDto);
+  update(@Param('id') id: string, @Body() data: any) {
+    return this.usergroupService.update(id, data);
   }
 
   @Delete(':id')
