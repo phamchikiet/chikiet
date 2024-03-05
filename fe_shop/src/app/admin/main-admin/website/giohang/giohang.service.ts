@@ -192,8 +192,8 @@ export class GiohangService {
     }
     async UpdateDonhang(item: any): Promise<any> {
         console.log(item);   
-        this._donhang.next(item)
-        this.getDonhang()
+        // this._donhang.next(item)
+        // this.getDonhang()
         //this._LocalStorageService.setItem('Donhang', this.Donhang)
         try {
             const options = {
@@ -209,7 +209,7 @@ export class GiohangService {
               }
               const data = await response.json();    
               console.log(data);
-                                  
+              this._donhang.next(data)           
               return data;  
           } catch (error) {
               return console.error(error);
