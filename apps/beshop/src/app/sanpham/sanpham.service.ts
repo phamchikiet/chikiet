@@ -77,9 +77,10 @@ export class SanphamService {
       queryBuilder.orderBy('sanpham.CreateAt', params.CreateAt);
     }
     if (params.hasOwnProperty('Filter')) {
-      if(params.Filter=="GIARE")
+      if(params.Filter=="Moi")
       {
         queryBuilder.orderBy('sanpham.GiaCoso','ASC');
+        queryBuilder.andWhere('sanpham.Moi = 1');
       }
       else if(params.Filter=="Noibat")
       {
@@ -87,6 +88,9 @@ export class SanphamService {
       }
       else if(params.Filter=="Banchay"){
         queryBuilder.andWhere('sanpham.Banchay = 1');
+      }
+      else if(params.Filter=="id_cat"){
+        queryBuilder.andWhere('sanpham.id_cat = :id_cat', { id_cat: `${params.id_cat}` });
       }
 
     }
