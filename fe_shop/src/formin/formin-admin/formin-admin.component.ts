@@ -1,8 +1,9 @@
 import { CommonModule } from '@angular/common';
-import { Component, ElementRef, Input, OnInit, ViewChild } from '@angular/core';
+import { Component, ElementRef, Input, OnInit, ViewChild, inject } from '@angular/core';
 import { MatDialog } from '@angular/material/dialog';
 import jspdf from 'jspdf';
 import html2canvas from 'html2canvas';
+import { GiohangService } from 'fe_shop/src/app/admin/main-admin/website/giohang/giohang.service';
 @Component({
   selector: 'app-formin-admin',
   standalone: true,
@@ -14,8 +15,10 @@ export class ForminAdminComponent implements OnInit {
   @Input() Donhang: any = {}
   @Input() Tongthucte: any = 0
   @Input() Taikhoan: any = { STK: '9199217', TenTK: "TRAN HUU LANH", TenNH: "Ngân hàng TMCP Á Châu (ACB)" }
+  @Input() isShowAction: boolean = false
   @ViewChild('exportPDF') exportPDF!: ElementRef;
   @ViewChild('printArea') printArea!: ElementRef;
+  _GiohangService:GiohangService = inject(GiohangService)
   constructor(private dialog: MatDialog) { }
 
   ngOnInit() {
@@ -25,6 +28,19 @@ export class ForminAdminComponent implements OnInit {
   CloseAll() {
     this.dialog.closeAll()
   }
+  GetSubTotal(data: any, field: any, field1: any) {    
+    return this._GiohangService.getSum(data,field,field1)
+  }
+  GetSubTotalThucte(data: any, field: any, field1: any) {    
+    const items = data.map((v:any)=>(v.Giachon))    
+    return this._GiohangService.getSumThucte(items,field,field1)
+  }
+  GetTotalThucte(donhang:any,giohang:any,soluong:any,gia:any,thue:any)
+  {    
+    const result = (this.GetSubTotalThucte(giohang, soluong, gia) + Number(donhang.Vanchuyen.Phivanchuyen||0) + Number(donhang.Giamgia||0) + this.GetSubTotal(giohang, thue, ''))
+    return result
+  }
+  
   public convetToPDF() {
     const element = this.exportPDF.nativeElement as HTMLElement;
     html2canvas(element).then(canvas => {

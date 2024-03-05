@@ -140,6 +140,24 @@ export class GiohangService {
             return console.error(error);
         }
     }
+    async getDonhangByMaDonHang(MaDonHang: any): Promise<any> {
+        try {
+            const options = {
+                method: 'GET',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+            };
+            const response = await fetch(`${environment.APIURL}/donhang/findmadonhang/${MaDonHang}`, options);
+            if (!response.ok) { // Check for non-2xx status codes
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            const data = await response.json();
+            this._donhang.next(data)
+        } catch (error) {
+            return console.error(error);
+        }
+    }
     async getDonhangByUser(id: any): Promise<any> {
         this._donhang.next(this.Donhang)
         try {
