@@ -134,12 +134,13 @@ export class DonhangAdminChitietComponent implements OnInit {
     if(result){return result[field]}
   }
   openGhichu(teamplate: TemplateRef<any>): void {
-    console.log(teamplate);
     const dialogRef = this.dialog.open(teamplate, {});
       dialogRef.afterClosed().subscribe((result) => {
         if (result == 'true') {
           this.Detail.Status=5
-          this._GiohangService.UpdateDonhang(this.Detail).then(() => {
+          this._GiohangService.UpdateDonhang(this.Detail).then((data) => {
+            const telegram = `Đơn Hàng : <b>${data.MaDonHang} </b> TT :  <b>${ListTrangThaiDonhang.find((v)=>v.id==data.Status)?.Title||data.Status} </b> - <b>${moment().format("HH:mm:ss DD/MM/YYYY")} </b>`
+            this._TelegramService.SendNoti(telegram)
             this._snackBar.open('Cập Nhật Thành Công', '', {
               horizontalPosition: "end",
               verticalPosition: "top",
@@ -166,9 +167,7 @@ export class DonhangAdminChitietComponent implements OnInit {
     else{
       item.Status=item1.id
       this._GiohangService.UpdateDonhang(item).then((data) => {
-      const telegram = `Đơn Hàng : <b>${data.MaDonHang} </b> TT :  <b>${ListTrangThaiDonhang.find((v)=>v.id==data.Status)?.Title||data.Status} </b> - <b>${moment().format("hh:ss:mm DD/MM/YYY")} </b>`
-      console.log(item1.id);
-      console.log(data);
+      const telegram = `Đơn Hàng : <b>${data.MaDonHang} </b> TT :  <b>${ListTrangThaiDonhang.find((v)=>v.id==data.Status)?.Title||data.Status} </b> - <b>${moment().format("HH:mm:ss DD/MM/YYYY")} </b>`
       this._TelegramService.SendNoti(telegram)
         this._snackBar.open('Cập Nhật Thành Công', '', {
           horizontalPosition: "end",
