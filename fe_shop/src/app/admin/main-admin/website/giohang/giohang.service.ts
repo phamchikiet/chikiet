@@ -183,7 +183,7 @@ export class GiohangService {
                 throw new Error(`HTTP error! status: ${response.status}`);
             }
             const data = await response.json();
-             this._donhang.next({ Giohangs: [] })
+             this._donhang.next({ Giohangs: [],Khachhang:{},Thanhtoan:{},Vanchuyen:{Phivanchuyen:0} })
              this._LocalStorageService.removeItem('Donhang')
             return data
         } catch (error) {

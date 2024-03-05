@@ -168,8 +168,8 @@ export class ThanhtoanComponent implements OnInit {
       </html>`
 
       this._GiohangService.CreateDonhang(this.Donhang).then((data:any)=>
-      {
-        if(data.error!=="1001")
+      {        
+        if(data.error!==1001)
         {
           if(this.Donhang.Khachhang.Email)
           {
@@ -190,6 +190,11 @@ export class ThanhtoanComponent implements OnInit {
             window.location.href = `cam-on?MaDonHang=${data.MaDonHang}`;
           }, 1000);
             }
+        }
+        else {
+          setTimeout(() => {
+            window.location.href = `/`;
+          }, 1000);
         }
 
 
