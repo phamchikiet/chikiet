@@ -70,11 +70,10 @@ export class GiohangService {
     return { items, totalCount };
   }
   async update(id: string, UpdateGiohangDto: UpdateGiohangDto) {
-    this.GiohangRepository.save(UpdateGiohangDto);
+    await this.GiohangRepository.save(UpdateGiohangDto);
     return await this.GiohangRepository.findOne({ where: { id: id } });
   }
   async remove(id: string) {
-    console.error(id)
     await this.GiohangRepository.delete(id);
     return { deleted: true };
   }

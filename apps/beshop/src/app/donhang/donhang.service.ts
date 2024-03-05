@@ -64,6 +64,11 @@ export class DonhangService {
       where: { Status: SHD },
     });
   }
+  async findmadonhang(madonhang: any) {
+    return await this.DonhangRepository.findOne({
+      where: { MaDonHang: madonhang },
+    });
+  }
   async findPagination(page: number, perPage: number) {
     const skip = (page - 1) * perPage;
     const totalItems = await this.DonhangRepository.count();
@@ -86,7 +91,7 @@ export class DonhangService {
       });
     }
     if (params.MaDonHang) {
-      queryBuilder.andWhere('donhang.MaDonHang LIKE :Title', { MaDonHang: `%${params.MaDonHang}%` });
+      queryBuilder.andWhere('donhang.MaDonHang = :MaDonHang', { MaDonHang: `${params.MaDonHang}` });
     }
     if (params.hasOwnProperty('isDelete')) {
       queryBuilder.andWhere('donhang.isDelete = :isDelete', { isDelete: `${params.isDelete}` });
@@ -101,14 +106,15 @@ export class DonhangService {
           v.Khachhang = await this._KhachhangService.findid(v.idKH);
           return v; 
         })
-      );    
+      );         
     return { items, totalCount };
   }
   async update(id: string, data: any) {
     console.log(data);
     if(data.Giohangs){await this._GiohangService.update(data.Giohangs.id,data.Giohangs)}
-    if(data.Khachhang){await this._KhachhangService.update(data.Khachhang.id,data.Khachhang);}
-     this.DonhangRepository.save(data);
+    if(data.Khachhang){await this._KhachhangService.update(data.Khachhang.id,data.Khachhang)}
+     
+     await this.DonhangRepository.save(data);
      const result = await this.DonhangRepository.findOne({ where: { id: id } });
      console.log(result);
      

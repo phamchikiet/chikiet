@@ -26,6 +26,10 @@ export class DonhangController {
   async findslug(@Param('slug') slug: string) {
     return await this.donhangService.findslug(slug);
   }
+  @Get('findmadonhang/:madonhang')
+  async findmadonhang(@Param('madonhang') madonhang: string) {
+    return await this.donhangService.findmadonhang(madonhang);
+  }
   @Get('pagination')
   async findPagination(@Query('page') page: number,@Query('perPage') perPage: number){
        return await this.donhangService.findPagination(page,perPage);
