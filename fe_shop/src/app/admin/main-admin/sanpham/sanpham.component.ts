@@ -56,7 +56,7 @@ export class SanphamComponent implements OnInit {
   pageSizeOptions: any[] = []
   Sitemap: any = { loc: '', priority: '' }
   SearchParams: any = {
-    pageSize: 9999,
+    pageSize: 10,
     pageNumber: 0
   };
   sidebarVisible: boolean = false;
@@ -72,12 +72,14 @@ export class SanphamComponent implements OnInit {
   ) {
   }
   async ngOnInit(): Promise<void> {
-    this._SanphamService.getAllSanpham();
+   // this._SanphamService.getAllSanpham();
+   this.Lists = await this._SanphamService.SearchSanpham(this.SearchParams)
+   this.ListDanhmuc = await this._DanhmucService.getAllDanhmuc()
+  // this.FilterLists = this.Lists.items
+   this.pageSizeOptions = [10, 20, this.Lists.totalCount].filter(v => v <= this.Lists.totalCount);
     this._SanphamService.sanphams$.subscribe((data) => {
       if (data) {
-        this.FilterLists =data
-        console.log(data);
-        
+        this.FilterLists =data        
       //  data.forEach((v)=>
       //   {
       //     v.Giagoc.forEach((v1:any) => {
@@ -92,10 +94,6 @@ export class SanphamComponent implements OnInit {
       //   console.log(data);
       }
     })
-    this.Lists = await this._SanphamService.SearchSanpham(this.SearchParams)
-    this.ListDanhmuc = await this._DanhmucService.getAllDanhmuc()
-   // this.FilterLists = this.Lists.items
-    this.pageSizeOptions = [10, 20, this.Lists.totalCount].filter(v => v <= this.Lists.totalCount);
   }
 
   async LoadDrive()

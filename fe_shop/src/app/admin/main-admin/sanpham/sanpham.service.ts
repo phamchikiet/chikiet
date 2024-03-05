@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { environment } from 'fe_shop/src/environments/environment';
-import { BehaviorSubject, map, Observable, switchMap, take } from 'rxjs';
+import { BehaviorSubject, map, Observable, of, switchMap, take } from 'rxjs';
 @Injectable({
   providedIn: 'root'
 })
@@ -128,6 +128,7 @@ export class SanphamService {
       }
   }  
   async UpdateSanpham(item:any) {
+    const sanphams:any = await this.sanphams$.pipe(take(1)).toPromise();
     try {
         const options = {
             method:'PATCH',
@@ -140,13 +141,18 @@ export class SanphamService {
           if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
           }
-          const data = await response.json();     
-          this._sanpham.next(data)                       
+          const data = await response.json();
+          this._sanpham.next(data) 
+          const updateSanphams = sanphams.map((v:any) =>
+            v.id === data.id ? data : v
+          );
+          this._sanphams.next(updateSanphams);               
           return data;  
       } catch (error) {
           return console.error(error);
       }
   }  
+  
   async DeleteSanpham(item:any) {
     try {
         const options = {
