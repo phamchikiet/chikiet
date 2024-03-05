@@ -17,6 +17,7 @@ import { MatInputModule } from '@angular/material/input';
 import { DiachiAdminComponent } from '../../../diachi/diachi-admin/diachi-admin.component';
 import { UsersService } from '../../../users/auth/users.service';
 import { TelegramService } from 'fe_shop/src/app/shared/telegram.service';
+import * as moment from 'moment';
 @Component({
   selector: 'app-donhang-admin-chitiet',
   standalone:true,
@@ -164,9 +165,9 @@ export class DonhangAdminChitietComponent implements OnInit {
     }
     else{
       item.Status=item1.id
-      this._GiohangService.UpdateDonhang(item).then(() => {
-      const result = `Cập Nhật Đơn Hàng`;
-      this._TelegramService.SendNoti(result)
+      this._GiohangService.UpdateDonhang(item).then((data) => {
+      const telegram = `Đơn Hàng ${data.MaDonHang} được cập nhật ${data.Status} vào lúc ${moment().format("hh:ss:mm DD/MM/YYY")}`
+      this._TelegramService.SendNoti(telegram)
         this._snackBar.open('Cập Nhật Thành Công', '', {
           horizontalPosition: "end",
           verticalPosition: "top",
