@@ -98,7 +98,7 @@ export class DetailSanphamComponent implements OnInit {
     let item:any={}
     item = data
     item.Giachon = this.Giachon
-    item.Soluong=this.Soluong   
+    item.Giachon.SLTT = item.Soluong=this.Soluong   
     this._GiohangService.addToCart(item)
       this._snackBar.open("Thêm Vào Giỏ Hàng Thành Công","", {
         horizontalPosition: "end",
@@ -108,6 +108,10 @@ export class DetailSanphamComponent implements OnInit {
       });
   }
   GiamSoluong()
+  {
+    return this.Soluong>1?this.Soluong--:1
+  }
+  TangSoluong()
   {
     return this.Soluong>1?this.Soluong--:1
   }

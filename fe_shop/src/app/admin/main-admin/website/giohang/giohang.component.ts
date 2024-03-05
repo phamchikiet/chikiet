@@ -78,7 +78,6 @@ export class GiohangComponent implements OnInit {
   }
   Decrement(item:any)
   {
-    console.log(item);
     if(item.Soluong>1)
     {
     item.Soluong = Number(item.Soluong)-1

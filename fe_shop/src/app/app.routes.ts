@@ -38,16 +38,14 @@ import { AdminKhachhangComponent } from './admin/main-admin/admin-khachhang/admi
 import { AdminChuongtrinhkhuyenmaiComponent } from './admin/main-admin/admin-chuongtrinhkhuyenmai/admin-chuongtrinhkhuyenmai.component';
 import { AdminTonkhoComponent } from './admin/main-admin/admin-xnt/admin-tonkho/admin-tonkho.component';
 import { AdminTonkhoChitietComponent } from './admin/main-admin/admin-xnt/admin-tonkho/admin-tonkho-chitiet/admin-tonkho-chitiet.component';
-import { DemoComponent } from './admin/main-admin/demo/demo.component';
 import { MenuAdminComponent } from './admin/menu/menu-admin/menu-admin.component';
 import { MenuAdminChitietComponent } from './admin/menu/menu-admin/menu-admin-chitiet/menu-admin-chitiet.component';
-import { ForminAdminComponent } from '../formin/formin-admin/formin-admin.component';
-import { UsergroupAdminComponent } from './usergroup/usergroup-admin/usergroup-admin.component';
-import { UsergroupAdminDetailComponent } from './usergroup/usergroup-admin/usergroup-admin-detail/usergroup-admin-detail.component';
 import { DemoadminComponent } from './demo/demoadmin/demoadmin.component';
 import { DemoadmindetailComponent } from './demo/demoadmin/demoadmindetail/demoadmindetail.component';
 import { CauhinhadminComponent } from './cauhinh/cauhinhadmin/cauhinhadmin.component';
 import { CauhinhadmindetailComponent } from './cauhinh/cauhinhadmin/cauhinhadmindetail/cauhinhadmindetail.component';
+import { UsergroupadminComponent } from './usergroup/usergroupadmin/usergroupadmin.component';
+import { UsergroupadmindetailComponent } from './usergroup/usergroupadmin/usergroupadmindetail/usergroupadmindetail.component';
 
 export const appRoutes: Route[] = [
     // { path: '', redirectTo: 'trang-chu', pathMatch: 'full' },
@@ -261,11 +259,11 @@ export const appRoutes: Route[] = [
             },
             {
                 path: 'usergroup',
-                component: UsergroupAdminComponent,
+                component: UsergroupadminComponent,
                 children: [
                     {
                         path: ':id',
-                        component: UsergroupAdminDetailComponent
+                        component: UsergroupadmindetailComponent
                     }
                 ]
             },

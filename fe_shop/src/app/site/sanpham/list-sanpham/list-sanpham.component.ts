@@ -173,7 +173,7 @@ RemoveFilter(item:any)
     let item:any={}
     item = data
     item.Giachon = data.Giagoc[0]
-    item.Soluong=1    
+    item.Giachon.SLTT= item.Soluong=1    
     this._GiohangService.addToCart(item).then(()=>
     {
       this._snackBar.open('Thêm Vào Giỏ Hàng Thành Công','',{
