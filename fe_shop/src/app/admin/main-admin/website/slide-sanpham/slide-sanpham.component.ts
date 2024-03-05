@@ -23,7 +23,7 @@ export class SlideSanphamComponent implements OnInit {
   @Input() Sohang=2;
   @Input() Socot=4;
   @Input() Soluong=8;
-  @Input() Filter='GIARE';
+  @Input() Filter='Moi';
   _SanphamService:SanphamService = inject(SanphamService)
   _GiohangService: GiohangService = inject(GiohangService);
   Lists: any={}
