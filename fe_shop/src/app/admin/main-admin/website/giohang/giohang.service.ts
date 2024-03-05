@@ -202,13 +202,13 @@ export class GiohangService {
                 throw new Error(`HTTP error! status: ${response.status}`);
             }
             const data = await response.json();
-             this._donhang.next({ Giohangs: [],Khachhang:{},Thanhtoan:{},Vanchuyen:{Phivanchuyen:0} })
-             this._LocalStorageService.removeItem('Donhang')
+
             return data
         } catch (error) {
             return console.error(error);
         }
     }
+    
     async UpdateDonhang(item: any): Promise<any> {
         console.log(item);   
         // this._donhang.next(item)
@@ -330,9 +330,8 @@ export class GiohangService {
         // }
     }
     async clearCart(): Promise<void> {
-        this.Donhang = { Giohangs: [] }
-        this._donhang.next(this.Donhang)
-        this._LocalStorageService.setItem('Donhang', this.Donhang)
+        this._donhang.next({ Giohangs: [],Khachhang:{},Thanhtoan:{},Vanchuyen:{Phivanchuyen:0} })
+        this._LocalStorageService.removeItem('Donhang')
     }
     async SearchDonhang(SearchParams: any) {
         try {

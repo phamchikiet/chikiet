@@ -177,17 +177,19 @@ export class ThanhtoanComponent implements OnInit {
             this.CauhinhEmail.text = htmlteamplate
             this._SendemailService.SendEmail(this.CauhinhEmail)
             const Telegram = `Xác Nhận Đơn Hàng <a href="https://shop.chikiet.com/tra-cuu-don?MaDonHang=${data.MaDonHang}">${data.MaDonHang}</a> đã đặt lúc ${moment().format("DD/MM/YYYY")}`
-            this._TelegramService.SendNoti(Telegram)
-            console.log(this.CauhinhEmail);
-            this._snackBar.open('Đặt Hàng Thành Công','',{
-              horizontalPosition: "end",
-              verticalPosition: "top",
-              panelClass:'success',
-              duration: 2000,
-            });
-          setTimeout(() => {
-            window.location.href = `cam-on?MaDonHang=${data.MaDonHang}`;
-          }, 10);
+            this._TelegramService.SendNoti(Telegram).then(()=>
+            {
+              this._GiohangService.clearCart()
+              setTimeout(() => {
+                this._snackBar.open('Đặt Hàng Thành Công','',{
+                  horizontalPosition: "end",
+                  verticalPosition: "top",
+                  panelClass:'success',
+                  duration: 2000,
+                });
+                window.location.href = `cam-on?MaDonHang=${data.MaDonHang}`;
+              }, 100);
+            })    
             }
             else{
               setTimeout(() => {
