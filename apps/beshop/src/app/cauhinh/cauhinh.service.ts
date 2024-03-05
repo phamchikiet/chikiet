@@ -34,9 +34,9 @@ export class CauhinhService {
       },
     });
   }
-  async findslug(Title: any) {
+  async findslug(Slug: any) {
     return await this.CauhinhRepository.findOne({
-      where: { Title: Title },
+      where: { Slug: Slug },
     });
   }
   async findPagination(page: number, perPage: number) {
