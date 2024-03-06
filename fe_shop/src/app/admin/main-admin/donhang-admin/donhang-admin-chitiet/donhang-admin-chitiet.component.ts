@@ -53,9 +53,11 @@ export class DonhangAdminChitietComponent implements OnInit {
   ListHinhthucthanhtoan:any=ListHinhthucthanhtoan
   @ViewChild('GhichuDialog') GhichuDialog!: TemplateRef<any>;
   @ViewChild('dialogXemFormin') dialogXemFormin!: TemplateRef<any>;
+  @ViewChild('ChonSanphamDialog') ChonSanphamDialog!: TemplateRef<any>;
   _UsersService: UsersService = inject(UsersService)
   _TelegramService: TelegramService = inject(TelegramService)
   Sanphams:any[]=[]
+  Sanpham:any={}
   Profile: any = {}
   constructor(
      private dialog:MatDialog,
@@ -94,7 +96,17 @@ export class DonhangAdminChitietComponent implements OnInit {
     }
 
     this._SanphamService.getAllSanpham()
-    this._SanphamService.sanphams$.subscribe((data:any)=>{if(data){this.Sanphams=data}})
+    this._SanphamService.sanphams$.subscribe((data:any)=>{if(data){this.Sanphams=data.map((v:any)=>({
+      id: v.id,
+      id_cat: v.id_cat,
+      Title: v.Title,
+      Danhmuc: v.Danhmuc,
+      Slug: v.Slug,
+      Giachon: v.Giachon,
+      Giagoc: v.Giagoc,
+      Image: v.Image,
+      Soluong: v.Soluong,
+    }))}})
 
   }
   CloseDrawer()
@@ -275,6 +287,22 @@ export class DonhangAdminChitietComponent implements OnInit {
     }
     AddSanpham()
     {
-      this.Detail.Giohangs.Sanpham.push(this.Sanphams[0])
+      const dialogRef = this.dialog.open(this.ChonSanphamDialog);
+      dialogRef.afterClosed().subscribe((result) => {
+        if (result == 'true') {
+          this.Detail.Giohangs.Sanpham.push(this.Sanpham)
+          this._snackBar.open('Thêm Thành Công','',{
+            horizontalPosition: "end",
+            verticalPosition: "top",
+            panelClass:'success',
+            duration: 2000,
+          });
+        }
+      }); 
+    }
+    Chonsanpham(item:any)
+    {
+      this.Sanpham.Giachon = item
+      this.Sanpham.Soluong = this.Sanpham.Giachon.SLTT = 1
     }
 }

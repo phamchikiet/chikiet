@@ -310,3 +310,33 @@
     </div>
   </div>
 </ng-template>
+
+<ng-template #ChonSanphamDialog>
+  <div class="lg:w-[40vw] p-2 flex flex-col space-y-3">
+    <div mat-dialog-title>Chọn Sản Phẩm Để Thêm</div>
+    <div mat-dialog-content>
+      <div class="flex flex-col w-full space-y-4 lg:p-4">
+        <mat-form-field appearance="outline">
+            <mat-label>Sản Phẩm</mat-label>
+            <mat-select [(ngModel)]="Sanpham" [ngModelOptions]="{standalone: true}">
+              <mat-option [value]="item" *ngFor="let item of Sanphams">{{item.Title}}</mat-option>
+            </mat-select>
+          </mat-form-field>
+          @for (item of Sanpham?.Giagoc; track $index) {
+            <div (click)="Chonsanpham(item)" class="flex flex-row space-x-2 p-4 rounded-lg border hover:bg-slate-100" mat-dialog-close="true">
+              <div>Mã Sản Phẩm : {{item.MaSP}}</div>
+              <div>Khối Lượng : {{item.khoiluong}}</div>
+              <div>Giá : {{item.gia}}</div>
+            </div>
+          }
+      </div>
+      <div class="flex flex-row space-x-2 items-center justify-center">
+        <button mat-flat-button color="warn" mat-dialog-close="false">Huỷ</button>
+      </div>
+    </div>
+  </div>
+</ng-template>
+
+
+
+
