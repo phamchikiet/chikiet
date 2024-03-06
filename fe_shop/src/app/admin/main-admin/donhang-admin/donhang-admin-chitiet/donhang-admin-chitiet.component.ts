@@ -18,6 +18,7 @@ import { DiachiAdminComponent } from '../../../diachi/diachi-admin/diachi-admin.
 import { UsersService } from '../../../users/auth/users.service';
 import { TelegramService } from 'fe_shop/src/app/shared/telegram.service';
 import * as moment from 'moment';
+import { SanphamService } from '../../sanpham/sanpham.service';
 @Component({
   selector: 'app-donhang-admin-chitiet',
   standalone:true,
@@ -44,6 +45,7 @@ export class DonhangAdminChitietComponent implements OnInit {
   route: ActivatedRoute = inject(ActivatedRoute);
   _DonhangAdminComponent: DonhangAdminComponent = inject(DonhangAdminComponent);
   _GiohangService:GiohangService = inject(GiohangService)
+  _SanphamService:SanphamService = inject(SanphamService)
   idSP:any;
   Detail:any;
   Giohangs: any[] = []
@@ -53,6 +55,7 @@ export class DonhangAdminChitietComponent implements OnInit {
   @ViewChild('dialogXemFormin') dialogXemFormin!: TemplateRef<any>;
   _UsersService: UsersService = inject(UsersService)
   _TelegramService: TelegramService = inject(TelegramService)
+  Sanphams:any[]=[]
   Profile: any = {}
   constructor(
      private dialog:MatDialog,
@@ -89,6 +92,9 @@ export class DonhangAdminChitietComponent implements OnInit {
       })
       this._DonhangAdminComponent.drawer.open()
     }
+
+    this._SanphamService.getAllSanpham()
+    this._SanphamService.sanphams$.subscribe((data:any)=>{if(data){this.Sanphams=data}})
 
   }
   CloseDrawer()
@@ -266,5 +272,9 @@ export class DonhangAdminChitietComponent implements OnInit {
       this.Detail.Diachis = value
       const Diachi = value.find((v: any) => v.Active == true)
       this.Detail.Khachhang.Diachi = `${Diachi.Diachi ? Diachi.Diachi + ', ' : ''}${Diachi.Phuong ? Diachi.Phuong + ', ' : ''}${Diachi.Quan ? Diachi.Quan + ', ' : ''}${Diachi.Tinh || ''}`;
+    }
+    AddSanpham()
+    {
+      this.Detail.Giohangs.Sanpham.push(this.Sanphams[0])
     }
 }

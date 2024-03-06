@@ -74,14 +74,14 @@
                         }
 
                         <div class="lg:col-span-6 flex justify-center">
-                                <textarea [(ngModel)]="Donhang.Ghichu" [ngModelOptions]="{standalone: true}"
-                                    class="block w-full bg-transparent dark:bg-default-50 rounded-lg py-2.5 px-4 border border-default-200"
-                                    rows="4" type="text" placeholder="Ghi chú giao hàng"></textarea>
+                            <textarea [(ngModel)]="Donhang.Ghichu" [ngModelOptions]="{standalone: true}"
+                                class="block w-full bg-transparent dark:bg-default-50 rounded-lg py-2.5 px-4 border border-default-200"
+                                rows="4" type="text" placeholder="Ghi chú giao hàng"></textarea>
                         </div>
 
                         <div class="lg:col-span-6 flex justify-center">
                             <a (click)="UpdatePhiship()"
-                                class="hover:scale-[101%] inline-flex items-center justify-center rounded-full border border-primary bg-primary px-10 py-3 text-center text-sm font-medium text-white shadow-sm transition-all duration-500 hover:bg-primary-500">
+                                class="cursor-pointer hover:scale-[101%] inline-flex items-center justify-center rounded-full border border-primary bg-primary px-10 py-3 text-center text-sm font-medium text-white shadow-sm transition-all duration-500 hover:bg-primary-500">
                                 Xác Nhận Thông Tin Giao Hàng
                             </a>
                         </div>
@@ -268,7 +268,8 @@
                     </a>
                 </div>
             </div>
-            <app-slide-sanpham Filter="Noibat" [Sohang]="1" [Title]="'Sản Phẩm Gợi Ý'" class="lg:col-span-3"></app-slide-sanpham>
+            <app-slide-sanpham Filter="Noibat" [Sohang]="1" [Title]="'Sản Phẩm Gợi Ý'"
+                class="lg:col-span-3"></app-slide-sanpham>
         </div>
     </div>
     }
@@ -379,19 +380,67 @@
 
 
 
-  <ng-template #HinhthucTeamplate>
+<ng-template #HinhthucTeamplate>
     <div class="p-2 flex flex-col space-y-3">
-      <div mat-dialog-title>Chọn Phương Thức Thanh Toán</div>
-      <div mat-dialog-content>
-        <div class="cursor-pointer grid grid-cols-3 gap-4 lg:p-4">
-           <div (click)="ChooseMethod('COD')" class="p-4 rounded-lg text-center    {{Donhang.Thanhtoan.Hinhthuc=='COD'?'text-white bg-[#A52167]':'bg-slate-100'}} hover:text-white hover:bg-[#A52167]">COD</div>
-           <div (click)="ChooseMethod('BANK')" class="p-4 rounded-lg text-center  {{Donhang.Thanhtoan.Hinhthuc=='BANK'?'text-white bg-[#439c30]':'bg-slate-100'}} hover:text-white hover:bg-[#439c30]">BANK</div>
-           <div (click)="ChooseMethod('MOMO')" class="p-4 rounded-lg text-center  {{Donhang.Thanhtoan.Hinhthuc=='MOMO'?'text-white bg-[#ED860A]':'bg-slate-100'}} hover:text-white hover:bg-[#ED860A]">MOMO</div>
+        <div mat-dialog-title>
+            <div class="uppercase text-[#439c30] font-bold text-center">
+                Vui Lòng Chọn Phương Thức Thanh Toán
+            </div>
         </div>
-        <div class="flex flex-row space-x-2 items-center justify-center">
-          <button disabled="{{(Donhang.Thanhtoan.Hinhthuc&&Donhang.Thanhtoan.Hinhthuc!='')?false:true}}" mat-flat-button color="primary" mat-dialog-close="true">Thanh Toán</button>
-        </div>
-      </div>
-    </div>
-  </ng-template>
+        <div mat-dialog-content>
+            <div class="flex flex-col space-y-3">
+                <div class="cursor-pointer grid grid-cols-3 gap-4 lg:p-4">
+                    <div (click)="ChooseMethod('COD')"
+                        class="p-4 rounded-lg text-center    {{Donhang.Thanhtoan.Hinhthuc=='COD'?'text-white bg-[#A52167]':'bg-slate-100'}} hover:text-white hover:bg-[#A52167]">
+                        COD
+                    </div>
+                    <div (click)="ChooseMethod('BANK')"
+                        class="p-4 rounded-lg text-center  {{Donhang.Thanhtoan.Hinhthuc=='BANK'?'text-white bg-[#439c30]':'bg-slate-100'}} hover:text-white hover:bg-[#439c30]">
+                        BANK
+                    </div>
+                    <div (click)="ChooseMethod('MOMO')"
+                        class="p-4 rounded-lg text-center  {{Donhang.Thanhtoan.Hinhthuc=='MOMO'?'text-white bg-[#ED860A]':'bg-slate-100'}} hover:text-white hover:bg-[#ED860A]">
+                        MOMO</div>
+                </div>
+                <div>
+                    @if(Donhang.Thanhtoan.Hinhthuc=='BANK'){
+                    <div class="grid grid-cols-2 gap-2">
+                        <img src="/assets/images/QR-Thanh toan-BANK.svg" class="w-40 mx-auto">
+                        <div class="flex flex-col max-w-xs space-y-2 text-center justify-center">
+                            <span>Nội dung CK :</span>
+                            <span class="p-4 rounded-lg border-2 !font-extrabold text-2xl">{{Donhang.MaDonHang}}</span>
+                            <span>"Vui lòng ghi đúng nội dung chuyển khoản để chúng tôi có thể cập nhật đơn hàng nhanh
+                                nhất"</span>
+                        </div>
+                    </div>
+                    }
+                    @else if(Donhang.Thanhtoan.Hinhthuc=='MOMO')
+                    {
+                    <div class="grid grid-cols-2 gap-2">
+                        <img src="/assets/images/QR-Thanh toan-MOMO.svg" class="w-40 mx-auto">
+                        <div class="flex flex-col max-w-xs space-y-2 text-center justify-center">
+                            <span>Nội dung CK :</span>
+                            <span class="p-4 rounded-lg border-2 !font-extrabold text-2xl">{{Donhang.MaDonHang}}</span>
+                            <span>"Vui lòng ghi đúng nội dung chuyển khoản để chúng tôi có thể cập nhật đơn hàng nhanh
+                                nhất"</span>
+                        </div>
+                    </div>
+                    }
+                </div>
+                <div class="flex flex-row space-x-2 items-center justify-center">
+                    @if(Donhang.Thanhtoan.Hinhthuc&&Donhang.Thanhtoan.Hinhthuc!='')
+                    {
+                        <span class="px-4 py-2 rounded-lg border border-[#439c30] text-[#439c30] hover:bg-[#439c30] hover:text-white" mat-dialog-close="true">
+                            Thanh Toán
+                        </span>
+                    }
 
+                    <!-- <button disabled="{{(Donhang.Thanhtoan.Hinhthuc&&Donhang.Thanhtoan.Hinhthuc!='')?false:true}}"
+                        mat-flat-button color="primary" mat-dialog-close="true">
+                        Thanh Toán
+                    </button> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</ng-template>
