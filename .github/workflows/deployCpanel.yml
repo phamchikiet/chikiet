@@ -20,9 +20,15 @@ jobs:
 
       - name:  Sync build folder only
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
-        with:
-          server: hf44-22061.azdigihost.com
-          username: chikiet@chikiet.com
-          password: '@Hikiet1988'
+        with:  
+          server: ghv54-25032.azdigihost.com
+          username: admin@rausachtrangia.com
+          password: '@Admin#2024'
           local-dir: ./dist/fe_shop/browser/  # <-- Specify the local "build" folder
           server-dir: /public_html/shop/site/  # Destination on server
+        # with:
+        #   server: hf44-22061.azdigihost.com
+        #   username: chikiet@chikiet.com
+        #   password: '@Hikiet1988'
+        #   local-dir: ./dist/fe_shop/browser/  # <-- Specify the local "build" folder
+        #   server-dir: /public_html/shop/site/  # Destination on server   
