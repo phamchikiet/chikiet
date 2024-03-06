@@ -116,9 +116,9 @@ export class ThanhtoanComponent implements OnInit {
   // }
   async Xacnhandonhang(customSnackbar: TemplateRef<any>) {   
 
-    this.Donhang.Khachhang.Hoten="text"
-    this.Donhang.Khachhang.SDT="0987654321"
-    this.Donhang.Khachhang.Diachi="dfgdfgdf"
+    // this.Donhang.Khachhang.Hoten="text"
+    // this.Donhang.Khachhang.SDT="0987654321"
+    // this.Donhang.Khachhang.Diachi="dfgdfgdf"
 
     
     if (!this.Donhang.Khachhang.Hoten) {
@@ -165,7 +165,7 @@ export class ThanhtoanComponent implements OnInit {
       const dialogRef = this.dialog.open(this.HinhthucTeamplate);
       dialogRef.afterClosed().subscribe((result) => {
         if (result == 'true') {
-                const htmlteamplate= `<!doctype html>
+      const htmlteamplate= `<!doctype html>
       <html>
       <head>
         <meta charset="UTF-8">
@@ -214,9 +214,12 @@ export class ThanhtoanComponent implements OnInit {
 
         }
         else {
-          setTimeout(() => {
-            window.location.href = `/`;
-          }, 1000);
+          const Telegram = `Tạo trùng đơn hàng ${this.Donhang.MaDonHang}`
+          this._TelegramService.SendNoti(Telegram).then(()=>{
+            setTimeout(() => {
+              window.location.href = `/`;
+            }, 1000);
+          })
         }
 
 
