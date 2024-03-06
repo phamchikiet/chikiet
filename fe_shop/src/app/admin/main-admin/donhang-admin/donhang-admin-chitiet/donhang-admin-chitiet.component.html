@@ -101,7 +101,7 @@
                 @for (item of Detail?.Giohangs?.Sanpham; track $index) {
                 <tr>
                   <td class="flex flex-row px-5 py-3 whitespace-nowrap">
-                    <div class="m-auto">
+                    <div (click)="RemoveSanpham(item)" class="m-auto">
                       <span class="material-symbols-outlined p-2 border rounded-full 
                       bg-slate-200 text-red-500 
                       hover:bg-red-500 hover:text-white">

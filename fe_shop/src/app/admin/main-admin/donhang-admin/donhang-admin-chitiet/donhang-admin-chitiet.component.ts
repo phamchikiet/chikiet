@@ -305,4 +305,8 @@ export class DonhangAdminChitietComponent implements OnInit {
       this.Sanpham.Giachon = item
       this.Sanpham.Soluong = this.Sanpham.Giachon.SLTT = 1
     }
+    RemoveSanpham(item:any)
+    {
+      this.Detail.Giohangs.Sanpham = this.Detail.Giohangs.Sanpham.filter((v:any)=>v.id!==item.id)
+    }
 }
