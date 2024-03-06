@@ -54,9 +54,9 @@ export class SanphamService {
       // .orWhere('sanpham.Noidung LIKE :Noidung', { Noidung: `%${params.Query}%` });
     }
     if (params.hasOwnProperty('Query')) {
-      queryBuilder.andWhere('sanpham.Title LIKE :Title', { Title: `%${params.Query}%` })
-      .orWhere('sanpham.Mota LIKE :Mota', { Mota: `%${params.Query}%` })
-      .orWhere('sanpham.Noidung LIKE :Noidung', { Noidung: `%${params.Query}%` });
+      queryBuilder.andWhere('sanpham.Title LIKE :Title', { Title: `%${params.Query}%` });
+      // .orWhere('sanpham.Mota LIKE :Mota', { Mota: `%${params.Query}%` })
+      // .orWhere('sanpham.Noidung LIKE :Noidung', { Noidung: `%${params.Query}%` });
     }
     if (params.Batdau && params.Ketthuc) {
       queryBuilder.andWhere('sanpham.CreateAt BETWEEN :startDate AND :endDate', {
