@@ -16,15 +16,13 @@ export class ForminAdminComponent implements OnInit {
   @Input() Tongthucte: any = 0
   @Input() Taikhoan: any = { STK: '9199217', TenTK: "TRAN HUU LANH", TenNH: "Ngân hàng TMCP Á Châu (ACB)" }
   @Input() isShowAction: boolean = false
+  @Input() Type:any='KHACHHANG'
   @ViewChild('exportPDF') exportPDF!: ElementRef;
   @ViewChild('printArea') printArea!: ElementRef;
   _GiohangService:GiohangService = inject(GiohangService)
   constructor(private dialog: MatDialog) { }
 
-  ngOnInit() {
-    console.log(this.Donhang);
-    console.log(this.Tongthucte);
-  }
+  ngOnInit() {}
   CloseAll() {
     this.dialog.closeAll()
   }

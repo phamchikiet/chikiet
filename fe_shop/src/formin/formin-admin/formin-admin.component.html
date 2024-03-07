@@ -58,18 +58,34 @@
     </div>
 
 
-
-    <div class="h-full flex flex-col">
-      @for (item of Donhang?.Giohangs?.Sanpham; track $index) {
-      <div class="flex flex-row space-x-2 item-center w-full">
-        <div class="w-4/6 p-2">
-          {{$index+1}}/{{item.Title}}
+    @if(Type=="KHACHHANG"){
+      <div class="h-full flex flex-col">
+        @for (item of Donhang?.Giohangs?.Sanpham; track $index) {
+        <div class="flex flex-row space-x-2 item-center w-full">
+          <div class="w-4/6 p-2">
+            {{$index+1}}/{{item.Title}}
+          </div>
+          <span class="text-center w-1/6 p-2">{{item.Giachon.SLTT}}{{item.Giachon.dvt}}</span>
+          <span class="text-right w-1/6 p-2">{{((item.Giachon.SLTT*item.Giachon.gia)| number:'1.0-0')||'0'}}đ</span>
         </div>
-        <span class="text-center w-1/6 p-2">{{item.Giachon.SLTT}}{{item.Giachon.dvt}}</span>
-        <span class="text-right w-1/6 p-2">{{((item.Giachon.SLTT*item.Giachon.gia)| number:'1.0-0')||'0'}}đ</span>
+        }
       </div>
-      }
-    </div>
+    }
+    @else {
+      <div class="h-full flex flex-col">
+        @for (item of Donhang?.Giohangs?.Sanpham; track $index) {
+        <div class="flex flex-row space-x-2 item-center w-full">
+          <div class="w-4/6 p-2">
+            {{$index+1}}/{{item.Title}}
+          </div>
+          <span class="text-center w-1/6 p-2">{{item.Giachon.SLTT}}{{item.Giachon.dvt}}</span>
+          <span class="text-right w-1/6 p-2">{{((item.Giachon.SLTT*item.Giachon.GiaCoSo)| number:'1.0-0')||'0'}}đ</span>
+        </div>
+        }
+      </div>
+    }
+
+
    <div class="grid grid-cols-6 gap-2 divide-x divide-black divide-dashed items-center">
       <span class="col-span-4 font-bold p-2">Phí vận chuyển:</span>
       <span class="text-center font-bold"> </span>
