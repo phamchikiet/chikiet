@@ -131,7 +131,6 @@ export class HeaderComponent implements OnInit {
     this.selectedOption = option;
   }
   async ngOnInit(): Promise<void> {
-    this.dataSource.data = this.Menus;
     this.Danhmucs = await this._DanhmucService.SearchDanhmuc(this.SearchParams)
     this.Menus =[
     {
@@ -152,8 +151,8 @@ export class HeaderComponent implements OnInit {
     // },
     { id: 3, Title: 'Liên hệ', Slug: 'lien-he' },
   ]
-    // console.log(this.Danhmucs);
-    // console.log(this.Menus);
+  this.dataSource.data = this.Menus;
+  console.log(this.dataSource.data);
   }
 
   toggleTheme() {
