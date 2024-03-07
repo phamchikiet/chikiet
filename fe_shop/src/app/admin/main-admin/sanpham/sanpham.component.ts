@@ -139,15 +139,32 @@ export class SanphamComponent implements OnInit {
       });
     })
   }
-  applyFilter(event: Event) {
-    const value = (event.target as HTMLInputElement).value;
-    if (value.length > 2) {
-      this.FilterLists = this.Lists.items.filter((v: any) => {
-        return v.Title.toLowerCase().includes(value) || v.Mota.toLowerCase().includes(value)
-      })
-    }
-    else { this.FilterLists = this.Lists.items }
+  // applyFilter(event: Event) {
+  //   const value = (event.target as HTMLInputElement).value;
+  //   console.log(value);
+    
+  //   if (value.length > 2) {
+  //     this.FilterLists = this.Lists.items.filter((v: any) => {
+  //       return v.Title.toLowerCase().includes(value.toLowerCase()) || v.Mota.toLowerCase().includes(value.toLowerCase())
+  //     })
+  //   }
+  //   else { this.FilterLists = this.Lists.items }
+  // }
+async applyFilter(event: Event) {
+  const value = (event.target as HTMLInputElement).value;
+  if (value.length > 2) {
+    this.SearchParams.Query=value
+    this.Lists = await this._SanphamService.SearchSanpham(this.SearchParams)
+     this.FilterLists = this.Lists.items     
   }
+  else {
+    delete this.SearchParams.Query
+    this.Lists = await this._SanphamService.SearchSanpham(this.SearchParams)
+    this.FilterLists = this.Lists.items
+  }
+}
+
+
   async onPageChange(event: any) {
     console.log(event);
     this.SearchParams.pageSize = event.pageSize
