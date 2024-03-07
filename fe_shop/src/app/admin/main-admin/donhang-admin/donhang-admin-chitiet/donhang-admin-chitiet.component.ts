@@ -96,7 +96,8 @@ export class DonhangAdminChitietComponent implements OnInit {
     }
 
     this._SanphamService.getAllSanpham()
-    this._SanphamService.sanphams$.subscribe((data:any)=>{if(data){this.Sanphams=data.map((v:any)=>({
+    this._SanphamService.sanphams$.subscribe((data:any)=>{if(data){
+      this.Sanphams=data.map((v:any)=>({
       id: v.id,
       id_cat: v.id_cat,
       Title: v.Title,
@@ -106,7 +107,11 @@ export class DonhangAdminChitietComponent implements OnInit {
       Giagoc: v.Giagoc,
       Image: v.Image,
       Soluong: v.Soluong,
-    }))}})
+    }))
+    console.log(this.Sanphams);
+  }})
+    console.log(this.Sanphams);
+    
 
   }
   CloseDrawer()
@@ -117,7 +122,7 @@ export class DonhangAdminChitietComponent implements OnInit {
     return this._GiohangService.getSum(data,field,field1)
   }
   GetSubTotalThucte(data: any, field: any, field1: any) {    
-    const items = data.map((v:any)=>(v.Giachon))    
+    const items = data?.map((v:any)=>(v.Giachon))    
     return this._GiohangService.getSumThucte(items,field,field1)
   }
   GetTotalThucte(donhang:any,giohang:any,soluong:any,gia:any,thue:any)

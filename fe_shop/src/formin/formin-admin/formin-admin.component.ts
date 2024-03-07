@@ -22,7 +22,9 @@ export class ForminAdminComponent implements OnInit {
   _GiohangService:GiohangService = inject(GiohangService)
   constructor(private dialog: MatDialog) { }
 
-  ngOnInit() {}
+  ngOnInit() {
+    console.log(this.Donhang);
+  }
   CloseAll() {
     this.dialog.closeAll()
   }

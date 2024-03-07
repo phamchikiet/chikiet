@@ -55,6 +55,7 @@ export class ThanhtoanComponent implements OnInit {
   Diachis: any[] = []
   ImageLink:any=''
   CauhinhEmail:any={}
+  isThanhtoan:boolean = false
   @ViewChild('HinhthucTeamplate') HinhthucTeamplate!: TemplateRef<any>;
   constructor(
     private _snackBar: MatSnackBar,
@@ -160,8 +161,17 @@ export class ThanhtoanComponent implements OnInit {
         duration: 2000,
       });
     }
-
+    else if(this.isThanhtoan==false)
+    {
+      this._snackBar.open('Vui lòng xác nhận thông tin giao hàng','',{
+        horizontalPosition: "end",
+        verticalPosition: "top",
+        panelClass:'danger',
+        duration: 2000,
+      });
+    }
     else if (!this.Donhang.Hinhthuc) {
+
       const dialogRef = this.dialog.open(this.HinhthucTeamplate);
       dialogRef.afterClosed().subscribe((result) => {
         if (result == 'true') {
@@ -203,17 +213,29 @@ export class ThanhtoanComponent implements OnInit {
                   duration: 2000,
                 });
                 window.location.href = `cam-on?MaDonHang=${data.MaDonHang}`;
-              }, 100);
+              }, 1000);
             })    
             }
             else{
+            const Telegram = `Xác Nhận Đơn Hàng <a href="https://shop.rausachtrangia.com/tra-cuu-don?MaDonHang=${data.MaDonHang}">${data.MaDonHang}</a> đã đặt lúc ${moment().format("HH:mm:ss DD/MM/YYYY")}`
+            this._TelegramService.SendNoti(Telegram).then(()=>
+            {
+              this._GiohangService.clearCart()
               setTimeout(() => {
+                this._snackBar.open('Đặt Hàng Thành Công','',{
+                  horizontalPosition: "end",
+                  verticalPosition: "top",
+                  panelClass:'success',
+                  duration: 2000,
+                });
                 window.location.href = `cam-on?MaDonHang=${data.MaDonHang}`;
-              }, 10);
+              }, 1000);
+            })    
             }
 
         }
         else {
+          this._GiohangService.clearCart()
           const Telegram = `Tạo trùng đơn hàng ${this.Donhang.MaDonHang}`
           this._TelegramService.SendNoti(Telegram).then(()=>{
             setTimeout(() => {
@@ -226,6 +248,7 @@ export class ThanhtoanComponent implements OnInit {
       })
         }
       });
+
     }
 
     // else {      
@@ -318,6 +341,7 @@ export class ThanhtoanComponent implements OnInit {
             panelClass: 'success',
             duration: 1000,
           });
+          this.isThanhtoan = true
         }
         else {
           this.Donhang.Vanchuyen.Phivanchuyen = (this.Khoangcach.distance.value* 5);
@@ -331,6 +355,7 @@ export class ThanhtoanComponent implements OnInit {
             panelClass: 'success',
             duration: 1000,
           });
+          this.isThanhtoan = true
         }
       }
     }

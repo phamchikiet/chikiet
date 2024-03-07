@@ -98,7 +98,7 @@ export class DetailSanphamComponent implements OnInit {
     let item:any={}
     item = data
     item.Giachon = this.Giachon
-    item.Giachon.SLTT = this.Soluong*this.Giachon.khoiluong   
+    item.Giachon.SLTT = (Number(this.Soluong)*Number(this.Giachon.khoiluong)).toFixed(2)
     item.Soluong=this.Soluong   
     this._GiohangService.addToCart(item)
       this._snackBar.open("Thêm Vào Giỏ Hàng Thành Công","", {

@@ -259,7 +259,7 @@ export class GiohangService {
         console.log(item);
          
         if (!this.Donhang.hasOwnProperty('MaDonHang')) {
-            this.Donhang.MaDonHang = genMaDonhang(await this.getSoluongDon())
+            this.Donhang.MaDonHang = genMaDonhang(await this.getSoluongDon()+1)
             this.Donhang.Khachhang = { Hoten: '' }
             this.Donhang.Thanhtoan = {}
             this.Donhang.Vanchuyen = {Phivanchuyen:0}
@@ -273,7 +273,7 @@ export class GiohangService {
             console.log(existingItemIndex);
             if (existingItemIndex !== -1) {
                 this.Donhang.Giohangs[existingItemIndex].Soluong += Number(item.Soluong);
-                this.Donhang.Giohangs[existingItemIndex].Giachon.SLTT += Number(item.Soluong)*Number(item.Giachon.khoiluong);
+                this.Donhang.Giohangs[existingItemIndex].Giachon.SLTT += (Number(item.Soluong)*Number(item.Giachon.khoiluong)).toFixed(2);
             } else {
                 this.Donhang.Giohangs.push(item);
             }
@@ -285,7 +285,7 @@ export class GiohangService {
        console.log(item);
        
         if (!this.Donhang.hasOwnProperty('MaDonHang')) {
-            this.Donhang.MaDonHang = genMaDonhang(await this.getSoluongDon())
+            this.Donhang.MaDonHang = genMaDonhang(await this.getSoluongDon()+1)
             this.Donhang.Khachhang = { Hoten: '' }
             this.Donhang.Thanhtoan = {}
             this.Donhang.Vanchuyen = {Phivanchuyen:0}
@@ -298,7 +298,7 @@ export class GiohangService {
             const existingItemIndex = this.Donhang.Giohangs.findIndex((v: any) => v.id === item.id && v.Giachon?.id == item?.Giachon?.id);
             if (existingItemIndex !== -1) {
                 this.Donhang.Giohangs[existingItemIndex].Soluong = Number(item.Soluong);
-                this.Donhang.Giohangs[existingItemIndex].Giachon.SLTT = Number(item.Soluong)*Number(item.Giachon.khoiluong);
+                this.Donhang.Giohangs[existingItemIndex].Giachon.SLTT = (Number(item.Soluong)*Number(item.Giachon.khoiluong)).toFixed(2);
             } else {
                 this.Donhang.Giohangs.push(item);
             }
