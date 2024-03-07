@@ -76,6 +76,9 @@ export class SanphamService {
     if (params.hasOwnProperty('CreateAt')) {
       queryBuilder.orderBy('sanpham.CreateAt', params.CreateAt);
     }
+    if (params.hasOwnProperty('id_cat')) {
+      queryBuilder.andWhere('sanpham.id_cat = :id_cat', { id_cat: `${params.id_cat}` });
+    }
     if (params.hasOwnProperty('Filter')) {
       if(params.Filter=="Moi")
       {
@@ -89,10 +92,6 @@ export class SanphamService {
       else if(params.Filter=="Banchay"){
         queryBuilder.andWhere('sanpham.Banchay = 1');
       }
-      else if(params.Filter=="id_cat"){
-        queryBuilder.andWhere('sanpham.id_cat = :id_cat', { id_cat: `${params.id_cat}` });
-      }
-
     }
     queryBuilder.orderBy('sanpham.CreateAt', 'DESC');
     const [items, totalCount] = await queryBuilder
@@ -106,7 +105,7 @@ export class SanphamService {
   return { items, totalCount };
   }
   async update(id: string, data: any) {
-    console.log(id,data);
+    console.log(id,data.Title);
     this.SanphamRepository.save(data);
     return await this.SanphamRepository.findOne({ where: { id: id } });
   }

@@ -20,6 +20,8 @@ export class GiohangEntity {
   Khachhang: string;
   @Column({ type: 'bigint' })
   Total: number;
+  @Column({ type: 'bigint' })
+  GiaCoSo: number;
   @Column({ type: 'text', collation: 'utf8_general_ci' })
   Mota: string;
   @Column({ default: '' })

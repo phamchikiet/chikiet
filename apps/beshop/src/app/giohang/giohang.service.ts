@@ -69,8 +69,10 @@ export class GiohangService {
 
     return { items, totalCount };
   }
-  async update(id: string, UpdateGiohangDto: UpdateGiohangDto) {
-    await this.GiohangRepository.save(UpdateGiohangDto);
+  async update(id: string, data: any) {
+    console.log(id,data.Title);
+    
+    await this.GiohangRepository.save(data);
     return await this.GiohangRepository.findOne({ where: { id: id } });
   }
   async remove(id: string) {
