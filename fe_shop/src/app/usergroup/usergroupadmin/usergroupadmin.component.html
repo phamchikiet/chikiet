@@ -93,7 +93,33 @@
     </div>
 
     <div class="relative flex flex-col h-full overflow-auto rounded-lg m-2">
-      <mat-tree [dataSource]="treedataSource" [treeControl]="treeControl">
+      <div class="p-4">
+        <mat-tree [dataSource]="treedataSource" [treeControl]="treeControl" class="!bg-gray-100">
+          <mat-tree-node *matTreeNodeDef="let node" matTreeNodePadding>
+            <a
+              class="cursor-pointer flex flex-row space-x-2 justify-between p-3 w-full rounded-lg hover:bg-gray-200 hover:font-bold"
+              [routerLink]="[node.id]" routerLinkActive="bg-gray-100 font-bold">
+              <span>
+                {{node.Title}}
+              </span>
+            </a>
+          </mat-tree-node>
+          <mat-tree-node *matTreeNodeDef="let node;when: hasChild" matTreeNodePadding class="pl-2">
+            <div
+              class="cursor-pointer flex flex-row space-x-2 items-center justify-between p-3 w-full rounded-lg hover:bg-gray-100 hover:font-bold">
+              <span>
+                {{node.Title}}
+              </span>
+              <span mat-icon-button matTreeNodeToggle [attr.aria-label]="'Toggle ' + node.Title">
+                <span
+                  class="material-symbols-outlined">{{treeControl.isExpanded(node)?'expand_more':'navigate_next'}}</span>
+              </span>
+            </div>
+          </mat-tree-node>
+        </mat-tree>
+
+
+      <!-- <mat-tree [dataSource]="treedataSource" [treeControl]="treeControl">
         <mat-tree-node *matTreeNodeDef="let node" matTreeNodePadding>
           <a [routerLink]="node.id">
             <button mat-icon-button disabled></button>
@@ -110,7 +136,8 @@
             {{node.Title}}
           </a>
         </mat-tree-node>
-      </mat-tree>
+      </mat-tree> -->
+    </div>
     </div>
     <div class="flex justify-between items-center mx-4 mt-4 mb-6 bg-white p-3 rounded-lg">
       <mat-paginator class="w-full" [pageSizeOptions]="[10, 20, 50]" [pageSize]="SearchParams.pageSize"

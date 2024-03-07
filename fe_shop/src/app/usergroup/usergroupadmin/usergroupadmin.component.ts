@@ -22,6 +22,7 @@ import { CustomtableComponent } from '../../shared/customtable/customtable.compo
 import { FlatTreeControl } from '@angular/cdk/tree';
 import { MatTreeFlattener, MatTreeFlatDataSource, MatTreeModule } from '@angular/material/tree';
 import { UsergroupService } from '../usergroup.service';
+import { BreakpointObserver } from '@angular/cdk/layout';
 @Component({
   selector: 'app-usergroupadmin',
   standalone:true,
@@ -63,7 +64,8 @@ export class UsergroupadminComponent implements OnInit {
   @ViewChild('drawer', { static: true }) drawer!: MatDrawer;
   constructor(
     private dialog: MatDialog,
-    private _snackBar: MatSnackBar
+    private _snackBar: MatSnackBar,
+    private breakpointObserver: BreakpointObserver,
   ) {}
   private _transformer = (node: any, level: number) => {
     return {
@@ -98,7 +100,6 @@ export class UsergroupadminComponent implements OnInit {
       }
     })
   }
-
   async LoadDrive()
   {
    const data =  await this._UsergroupService.getDrive();   

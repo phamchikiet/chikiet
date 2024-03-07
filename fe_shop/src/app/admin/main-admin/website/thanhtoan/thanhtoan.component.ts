@@ -177,7 +177,7 @@ export class ThanhtoanComponent implements OnInit {
            CẢM ƠN BẠN ĐÃ ĐẶT HÀNG
         </h1>
        <p> Đơn hàng của bạn đã được tiếp nhận sẽ được xử lý trong thời gian sớm nhất có thể </p>
-       <p> Bạn có thể tra cứu đơn hàng ${this.Donhang.MaDonHang} <a href="https://shop.chikiet.com/tra-cuu-don?MaDonHang=${this.Donhang.MaDonHang}">tại đây</> </p>
+       <p> Bạn có thể tra cứu đơn hàng ${this.Donhang.MaDonHang} <a href="https://shop.rausachtrangia.com/tra-cuu-don?MaDonHang=${this.Donhang.MaDonHang}">tại đây</> </p>
       </body>
       </html>`
 
@@ -191,7 +191,7 @@ export class ThanhtoanComponent implements OnInit {
             this.CauhinhEmail.toemail = this.Donhang.Khachhang.Email
             this.CauhinhEmail.text = htmlteamplate
             this._SendemailService.SendEmail(this.CauhinhEmail)
-            const Telegram = `Xác Nhận Đơn Hàng <a href="https://shop.chikiet.com/tra-cuu-don?MaDonHang=${data.MaDonHang}">${data.MaDonHang}</a> đã đặt lúc ${moment().format("HH:mm:ss DD/MM/YYYY")}`
+            const Telegram = `Xác Nhận Đơn Hàng <a href="https://shop.rausachtrangia.com/tra-cuu-don?MaDonHang=${data.MaDonHang}">${data.MaDonHang}</a> đã đặt lúc ${moment().format("HH:mm:ss DD/MM/YYYY")}`
             this._TelegramService.SendNoti(Telegram).then(()=>
             {
               this._GiohangService.clearCart()
