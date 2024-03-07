@@ -263,7 +263,7 @@
                         </div>
                     </div>
                     <a (click)="Xacnhandonhang(customSnackbar)"
-                        class="w-full hover:scale-[101%] inline-flex items-center justify-center rounded-full border border-primary bg-primary px-10 py-3 text-center text-sm font-medium text-white shadow-sm transition-all duration-500 hover:bg-primary-500">
+                        class="cursor-pointer w-full hover:scale-[101%] inline-flex items-center justify-center rounded-full border border-primary bg-primary px-10 py-3 text-center text-sm font-medium text-white shadow-sm transition-all duration-500 hover:bg-primary-500">
                         Thanh Toán
                     </a>
                 </div>
@@ -427,7 +427,7 @@
                     </div>
                     }
                 </div>
-                <div class="flex flex-row space-x-2 items-center justify-center">
+                <div class="cursor-pointer flex flex-row space-x-2 items-center justify-center">
                     @if(Donhang.Thanhtoan.Hinhthuc&&Donhang.Thanhtoan.Hinhthuc!='')
                     {
                         <span class="px-4 py-2 rounded-lg border border-[#439c30] text-[#439c30] hover:bg-[#439c30] hover:text-white" mat-dialog-close="true">

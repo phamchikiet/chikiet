@@ -55,7 +55,7 @@ export class SlideSanphamComponent implements OnInit {
     let item:any={}
     item = data
     item.Giachon = data.Giagoc[0]
-    item.Giachon.SLTT = 1
+    item.Giachon.SLTT = data.Giagoc[0].khoiluong
     item.Soluong=1    
     this._GiohangService.addToCart(item).then(()=>
     {
