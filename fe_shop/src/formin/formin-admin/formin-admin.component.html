@@ -18,7 +18,7 @@
   </div>
 }
 
-<div #exportPDF #printArea class="p-4 text-xs bg-white rounded-lg w-[559px] h-[794px] mx-auto scale-100">
+<div #exportPDF #printArea class="p-4 text-xs bg-white rounded-lg w-[559px] h-[794px] mx-auto lg:scale-100 scale-75">
   <div class="h-full flex flex-col divide-y divide-dashed divide-black border-4 border-black">
     <div class="grid grid-cols-3 gap-2 divide-x divide-black">
       <div class="flex flex-col space-y-2 items-center p-2">
@@ -72,14 +72,14 @@
       </div>
     }
     @else {
-      <div class="h-full flex flex-col">
+      <div class="h-full flex flex-col text-[8px]">
         @for (item of Donhang?.Giohangs?.Sanpham; track $index) {
         <div class="flex flex-row space-x-2 item-center w-full">
-          <div class="w-4/6 p-2">
+          <div class="w-4/6 px-2">
             {{$index+1}}/{{item.Title}}
           </div>
-          <span class="text-center w-1/6 p-2">{{(item.Giachon.SLTT*1).toFixed(2)| number:'1.2-2'}}{{item.Giachon.dvt}}</span>
-          <span class="text-right w-1/6 p-2">{{((item.Giachon.SLTT*item.Giachon.GiaCoSo)| number:'1.0-0')||'0'}}đ</span>
+          <span class="text-center w-1/6 px-2">{{(item.Giachon.SLTT*1).toFixed(2)| number:'1.2-2'}}{{item.Giachon.dvt}}</span>
+          <span class="text-right w-1/6 px-2">{{((item.Giachon.SLTT*item.Giachon.GiaCoSo)| number:'1.0-0')||'0'}}đ</span>
         </div>
         }
       </div>
