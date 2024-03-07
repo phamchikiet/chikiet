@@ -59,7 +59,7 @@
 
 
     @if(Type=="KHACHHANG"){
-      <div class="h-full flex flex-col">
+      <div class="h-full py-2 flex flex-col space-y-1 text-[{{Donhang?.Giohangs?.Sanpham<=10?'12px':'8px'}}]">
         @for (item of Donhang?.Giohangs?.Sanpham; track $index) {
         <div class="flex flex-row space-x-2 item-center w-full">
           <div class="w-4/6 p-2">
@@ -72,7 +72,7 @@
       </div>
     }
     @else {
-      <div class="h-full flex flex-col text-[8px]">
+      <div class="h-full py-2 flex flex-col space-y-1 text-[{{Donhang?.Giohangs?.Sanpham<=10?'12px':'8px'}}]">
         @for (item of Donhang?.Giohangs?.Sanpham; track $index) {
         <div class="flex flex-row space-x-2 item-center w-full">
           <div class="w-4/6 px-2">

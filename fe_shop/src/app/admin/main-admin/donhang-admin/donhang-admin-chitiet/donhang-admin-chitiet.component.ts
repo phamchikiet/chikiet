@@ -109,10 +109,7 @@ export class DonhangAdminChitietComponent implements OnInit {
       Soluong: v.Soluong,
     }))
     console.log(this.Sanphams);
-  }})
-    console.log(this.Sanphams);
-    
-
+  }})    
   }
   CloseDrawer()
   {

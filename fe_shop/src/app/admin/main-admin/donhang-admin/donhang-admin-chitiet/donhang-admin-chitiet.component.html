@@ -101,7 +101,7 @@
                 @for (item of Detail?.Giohangs?.Sanpham; track $index) {
                 <tr>
                   <td class="flex flex-row px-5 py-3 items-center whitespace-nowrap">
-                    <div (click)="RemoveSanpham(item)" class="p-2 cursor-pointer">
+                    <div (click)="RemoveSanpham(item)" class="p-2">
                       <span class="material-symbols-outlined rounded-full 
                        text-red-500 hover:bg-red-500 hover:text-white">
                         cancel
@@ -197,7 +197,7 @@
               </div>
               <div class="flex justify-between mb-3">
                 <p class="text-sm text-default-500">Phí Vận Chuyển</p>
-                <p class="text-sm text-default-700 font-medium">{{(Detail?.Vanchuyen?.Phivanchuyen|
+                <p class="text-sm text-default-700 font-medium">{{(Detail.Vanchuyen.Phivanchuyen|
                   number:'1.0-0')||'0'}}đ</p>
               </div>
               <div class="flex justify-between mb-3">

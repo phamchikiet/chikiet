@@ -66,13 +66,12 @@ export class DonhangAdminComponent implements OnInit {
   async ngOnInit(): Promise<void> {
     this.Lists = await this._GiohangService.SearchDonhang(this.SearchParams)
     this.FilterLists = this.Lists.items
+    
     // const Giohang = this.Lists.items.map((v:any)=>(v.Giohangs)).filter((v1:any)=>v1!=null)
     // Giohang.forEach((v:any) => {
     //   v.Sanpham.forEach((v1:any) => {
     //     v1.Giachon.GiaCoSo = (v1.Giachon.gia/v1.Giachon.khoiluong).toFixed(0)
-    //     v1.Giachon.SLTT = 0
-    //     v1.Giagoc[0].GiaCoSo = (v1.Giachon.gia/v1.Giachon.khoiluong).toFixed(0)
-    //     v1.Giagoc[0].SLTT = 0
+    //     v1.Giachon.SLTT = (v1.Giachon.khoiluong).toFixed(2)
     //   });
     // });
     // Giohang.forEach((v:any) => {
