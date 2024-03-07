@@ -52,7 +52,6 @@ export class UsergroupadminComponent implements OnInit {
   ListDanhmuc: any = []
   FilterLists: any[] = []
   pageSizeOptions: any[] = []
-  Sitemap: any = { loc: '', priority: '' }
   SearchParams: any = {
     pageSize: 10,
     pageNumber: 0
@@ -143,15 +142,14 @@ export class UsergroupadminComponent implements OnInit {
       });
     })
   }
-  applyFilter(event: Event) {
-    const value = (event.target as HTMLInputElement).value;
-    if (value.length > 2) {
-      this.FilterLists = this.Lists.items.filter((v: any) => {
-        return v.Title.toLowerCase().includes(value) || v.Mota.toLowerCase().includes(value)
-      })
-    }
-    else { this.FilterLists = this.Lists.items }
+
+  async applyFilter(event: Event) {
+    const value = (event.target as HTMLInputElement).value.trim();
+    this.SearchParams.Query = value.length > 2 ? value : undefined; // Ternary for concise query update
+    this.Lists = await this._UsergroupService.SearchUsergroup(this.SearchParams);
+    this.FilterLists = this.Lists.items;
   }
+
   async onPageChange(event: any) {
     console.log(event);
     this.SearchParams.pageSize = event.pageSize

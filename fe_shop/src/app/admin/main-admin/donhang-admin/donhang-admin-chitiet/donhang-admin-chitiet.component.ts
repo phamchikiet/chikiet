@@ -290,6 +290,8 @@ export class DonhangAdminChitietComponent implements OnInit {
       const dialogRef = this.dialog.open(this.ChonSanphamDialog);
       dialogRef.afterClosed().subscribe((result) => {
         if (result == 'true') {
+          console.log(this.Sanpham);
+          
           this.Detail.Giohangs.Sanpham.push(this.Sanpham)
           this._snackBar.open('Thêm Thành Công','',{
             horizontalPosition: "end",
@@ -303,7 +305,8 @@ export class DonhangAdminChitietComponent implements OnInit {
     Chonsanpham(item:any)
     {
       this.Sanpham.Giachon = item
-      this.Sanpham.Soluong = this.Sanpham.Giachon.SLTT = 1
+      this.Sanpham.Giachon.SLTT = Number(item.khoiluong)
+      this.Sanpham.Soluong =  1
     }
     RemoveSanpham(item:any)
     {
