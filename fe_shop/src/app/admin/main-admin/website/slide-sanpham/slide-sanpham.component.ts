@@ -23,7 +23,8 @@ export class SlideSanphamComponent implements OnInit {
   @Input() Sohang=2;
   @Input() Socot=4;
   @Input() Soluong=8;
-  @Input() Filter='Moi';
+  @Input() Filter='';
+  @Input() id_cat=0;
   _SanphamService:SanphamService = inject(SanphamService)
   _GiohangService: GiohangService = inject(GiohangService);
   Lists: any={}
@@ -37,6 +38,9 @@ export class SlideSanphamComponent implements OnInit {
   constructor(private _snackBar: MatSnackBar) { }
   async ngOnInit() {
     this.SearchParams.Filter = this.Filter
+    console.log(this.id_cat);
+    
+   if(this.id_cat!=0){ this.SearchParams.id_cat = this.id_cat}
     this.Lists = await this._SanphamService.SearchSanpham(this.SearchParams)
     this.FilterLists = this.SanphamColumn(this.Lists.items,this.Sohang).slice(0,8)    
     //console.log(this.FilterLists);
