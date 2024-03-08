@@ -56,7 +56,7 @@ export class SanphamComponent implements OnInit {
   pageSizeOptions: any[] = []
   Sitemap: any = { loc: '', priority: '' }
   SearchParams: any = {
-    pageSize: 10,
+    pageSize: 999,
     pageNumber: 0
   };
   sidebarVisible: boolean = false;

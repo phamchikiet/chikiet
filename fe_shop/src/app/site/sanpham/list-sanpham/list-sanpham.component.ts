@@ -55,12 +55,12 @@ export class ListSanphamComponent implements OnInit {
   FilterDanhmuc:any[]=[]
   ChosenFilterDM:any[]=[]
   SearchParams: any = {
-    pageSize:9,
+    pageSize:999,
     pageNumber:0,
     Status:1
   };
   SearchParamsDanhmuc: any = {
-    pageSize:50,
+    pageSize:999,
     pageNumber:0,
     Status:1
   };
