@@ -11,7 +11,7 @@
 
     <div class="flex justify-end items-end p-5 rounded-t border-b">
       <!-- <div class="flex flex-row space-x-4 items-center lg:text-sm text-xs"> -->
-      <div class="grid grid-cols-4 gap-2 cursor-pointer">
+      <div class="cursor-pointer grid grid-cols-4 gap-2">
         <div class="flex flex-col justify-between space-y-2 items-center whitespace-nowrap">
           <span class="lg:block hidden font-bold">Hình Thức</span>
           <span class="p-2 rounded-lg 
@@ -20,7 +20,7 @@
           </span>
         </div>
         <mat-menu #menu="matMenu">
-          <div class="flex flex-col space-y-2 p-3">
+          <div class="cursor-pointer flex flex-col space-y-2 p-3">
             @for (item1 of ListHinhthucthanhtoan; track $index) {
             <span class="p-2 text-xs rounded-lg {{item1.Class}}" (click)="ChangeHinhthucthanhtoan(Detail,item1)">
               {{item1.Title}}
@@ -37,7 +37,7 @@
           </span>
         </div>
         <mat-menu #menuTrangthai="matMenu">
-          <div class="flex flex-col space-y-2 p-3">
+          <div class="cursor-pointer flex flex-col space-y-2 p-3">
             @for (item1 of ListTrangThaiDonhang; track $index) {
             <span class="p-2 text-xs rounded-lg {{item1.Class}}" (click)="ChangeStatus(Detail,item1)">
               {{item1.Title}}
@@ -68,7 +68,6 @@
             save
           </span>
         </div>
-
       </div>
 
     </div>

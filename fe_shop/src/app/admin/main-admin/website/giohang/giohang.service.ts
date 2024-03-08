@@ -266,6 +266,7 @@ export class GiohangService {
             this.Donhang.Vanchuyen = {Phivanchuyen:0}
             this.Donhang.Status = 0
             this.Donhang.Giohangs = [item]
+            this.getDonhang()
             this._LocalStorageService.setItem('Donhang', this.Donhang)
             this._donhang.next(this.Donhang)
         }
@@ -278,13 +279,12 @@ export class GiohangService {
             } else {
                 this.Donhang.Giohangs.push(item);
             }
+            this.getDonhang()
             this._LocalStorageService.setItem('Donhang', this.Donhang)
             this._donhang.next(this.Donhang)
         }
     }
-    async Crement(item: any): Promise<void> {
-       console.log(item);
-       
+    async Crement(item: any): Promise<void> {       
         if (!this.Donhang.hasOwnProperty('MaDonHang')) {
             this.Donhang.MaDonHang = genMaDonhang(await this.getSoluongDon()+1)
             this.Donhang.Khachhang = { Hoten: '' }
@@ -292,6 +292,7 @@ export class GiohangService {
             this.Donhang.Vanchuyen = {Phivanchuyen:0}
             this.Donhang.Status = 0
             this.Donhang.Giohangs = [item]
+            this.getDonhang()
             this._LocalStorageService.setItem('Donhang', this.Donhang)
             this._donhang.next(this.Donhang)
         }
@@ -303,6 +304,7 @@ export class GiohangService {
             } else {
                 this.Donhang.Giohangs.push(item);
             }
+            this.getDonhang()
             this._LocalStorageService.setItem('Donhang', this.Donhang)
             this._donhang.next(this.Donhang)
         }
@@ -393,11 +395,9 @@ export class GiohangService {
         }
     }
     async getDonhang(): Promise<any> {
-        this.getGiamgia()
-        console.log(this.Donhang);
-        
+        this.getGiamgia()        
         this.Donhang.SubTotal = this.Donhang.Giohangs.reduce((acc: any, item: any) => acc + item.Soluong * item.Giachon?.gia, 0) || 0;
-       // this.Donhang.Tongcong =Number(this.Donhang.SubTotal)||0 + Number(this.Donhang.Vanchuyen.Phivanchuyen)||0 - Number(this.Donhang.Giamgia)||0 + this.GetTotal(this.Donhang.Giohangs, 'Thue', '')||0
+        this.Donhang.Total =Number(this.Donhang.SubTotal)||0 + Number(this.Donhang.Vanchuyen.Phivanchuyen)||0 - Number(this.Donhang.Giamgia)||0
         this._donhang.next(this.Donhang)
         this._LocalStorageService.setItem('Donhang', this.Donhang)
     }
