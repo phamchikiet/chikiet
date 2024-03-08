@@ -193,7 +193,7 @@ export class DonhangAdminComponent implements OnInit {
       dialogRef.afterClosed().subscribe((result) => {
         if (result == 'true') {
           this.SelectItem.isDelete = true
-         this._GiohangService.UpdateDonhang(this.SelectItem).then(() => this.ngOnInit())
+         this._GiohangService.DeleteDonhang(this.SelectItem).then(() => this.ngOnInit())
         }
       });
     }

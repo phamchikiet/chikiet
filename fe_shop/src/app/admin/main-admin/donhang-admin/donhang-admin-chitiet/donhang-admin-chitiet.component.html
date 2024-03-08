@@ -197,21 +197,21 @@
               </div>
               <div class="flex justify-between mb-3">
                 <p class="text-sm text-default-500">Phí Vận Chuyển</p>
-                <p class="text-sm text-default-700 font-medium">{{(Detail.Vanchuyen.Phivanchuyen|
+                <p class="text-sm text-default-700 font-medium">{{(Detail?.Vanchuyen?.Phivanchuyen|
                   number:'1.0-0')||'0'}}đ</p>
               </div>
               <div class="flex justify-between mb-3">
                 <p class="text-sm text-default-500">Giảm giá</p>
                 <p class="text-sm text-default-700 font-medium">
-                  @if(Detail.Giamgia>0)
+                  @if(Detail?.Giamgia>0)
                   {
                 <p class="text-sm text-default-700 font-medium text-red-500">
-                  - {{(Detail.Giamgia| number:'1.0-0')||'0'}}đ
+                  - {{(Detail?.Giamgia| number:'1.0-0')||'0'}}đ
                 </p>
                 }
                 @else {
                 <p class="text-sm text-default-700 font-medium">
-                  {{(Detail.Giamgia| number:'1.0-0')||'0'}}đ
+                  {{(Detail?.Giamgia| number:'1.0-0')||'0'}}đ
                 </p>
                 }</p>
               </div>
