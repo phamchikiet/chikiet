@@ -66,7 +66,11 @@ export class DonhangAdminComponent implements OnInit {
   async ngOnInit(): Promise<void> {
     this.Lists = await this._GiohangService.SearchDonhang(this.SearchParams)
     this.FilterLists = this.Lists.items
-    
+    this.pageSizeOptions = [10, 20, this.Lists.totalCount].filter(v => v < this.Lists.totalCount);
+  }
+  UpdateAllDonhang()
+  {
+     
     // const Giohang = this.Lists.items.map((v:any)=>(v.Giohangs)).filter((v1:any)=>v1!=null)
     // Giohang.forEach((v:any) => {
     //   v.Sanpham.forEach((v1:any) => {
@@ -80,7 +84,6 @@ export class DonhangAdminComponent implements OnInit {
     //   this._GiohangService.UpdateDonhang(item)
     // });
     // console.log(Giohang);
-    this.pageSizeOptions = [10, 20, this.Lists.totalCount].filter(v => v < this.Lists.totalCount);
   }
   applyFilter(event: Event) {
     const value = (event.target as HTMLInputElement).value;

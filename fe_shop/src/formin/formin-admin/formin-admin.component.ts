@@ -45,31 +45,31 @@ export class ForminAdminComponent implements OnInit {
     const A5WidthInPixels = 1754;
     const A5HeightInPixels = 2480;
     const element = this.exportPDF.nativeElement as HTMLElement;
-    html2canvas(element, {
-      scale: 2, // Adjust scale for higher DPI if needed (optional)
-    }).then(canvas => {
-      // Convert canvas to image (data URL)
-      const imgData = canvas.toDataURL("image/png");
-      // Create PDF using a library like jsPDF
-      const pdf = new jspdf({
-        orientation: 'portrait',
-        unit: 'px',
-        format: [A5WidthInPixels, A5HeightInPixels],
-      });
-      pdf.addImage(imgData, 'PNG',0, 0,A5WidthInPixels,A5HeightInPixels);
-      pdf.save(`${this.Donhang.MaDonHang}_${(new Date()).getTime()}.pdf`);// Adjust filename as needed
-    });
-    // html2canvas(element).then(canvas => {
-    //   var imgWidth = 148;
-    //   var pageHeight = 210;
-    //   var imgHeight = canvas.height * imgWidth / canvas.width;
-    //   var heightLeft = imgHeight;
-    //   const contentDataURL = canvas.toDataURL('image/png')
-    //   let pdf = new jspdf('p', 'mm', 'a5'); // A4 size page of PDF
-    //   var position = 0;
-    //   pdf.addImage(contentDataURL, 'PNG', 0, position, imgWidth, imgHeight)
-    //   pdf.save(`${this.Donhang.MaDonHang}_${(new Date()).getTime()}.pdf`); // Generated PDF
-    // }); 
+    // html2canvas(element, {
+    //   scale: 2, // Adjust scale for higher DPI if needed (optional)
+    // }).then(canvas => {
+    //   // Convert canvas to image (data URL)
+    //   const imgData = canvas.toDataURL("image/png");
+    //   // Create PDF using a library like jsPDF
+    //   const pdf = new jspdf({
+    //     orientation: 'portrait',
+    //     unit: 'px',
+    //     format: [A5WidthInPixels, A5HeightInPixels],
+    //   });
+    //   pdf.addImage(imgData, 'PNG',0, 0,A5WidthInPixels,A5HeightInPixels);
+    //   pdf.save(`${this.Donhang.MaDonHang}_${(new Date()).getTime()}.pdf`);// Adjust filename as needed
+    // });
+    html2canvas(element).then(canvas => {
+      var imgWidth = 150;
+      var pageHeight = 220;
+      var imgHeight = canvas.height * imgWidth / canvas.width;
+      var heightLeft = imgHeight;
+      const contentDataURL = canvas.toDataURL('image/png')
+      let pdf = new jspdf('p', 'mm', 'a5'); // A4 size page of PDF
+      var position = 0;
+      pdf.addImage(contentDataURL, 'PNG', 0, position, imgWidth, imgHeight)
+      pdf.save(`${this.Donhang.MaDonHang}_${(new Date()).getTime()}.pdf`); // Generated PDF
+    }); 
   }
   printDiv() {
     const printArea = this.printArea.nativeElement;

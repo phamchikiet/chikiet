@@ -79,23 +79,23 @@ export class SanphamComponent implements OnInit {
    this.pageSizeOptions = [10, 20, this.Lists.totalCount].filter(v => v <= this.Lists.totalCount);
     this._SanphamService.sanphams$.subscribe((data) => {
       if (data) {
-        this.FilterLists =data        
-      //  data.forEach((v)=>
-      //   {
-      //     v.Giagoc.forEach((v1:any) => {
-      //       v1.GiaCoSo=Number(v.GiaCoSo),
-      //       v1.SLTT=0
-      //     });
-      //   })
-      //   data.forEach((v)=>
-      //   {
-      //     this._SanphamService.UpdateSanpham(v)
-      //   })
-      //   console.log(data);
+        this.FilterLists =data
+        //console.log(data.map(v=>([v.Giagoc.map])));
+        //console.log(data.flatMap(item => item.Giagoc).map(item => item));
+                
       }
     })
   }
-
+  UpdateAllSanpham()
+  {
+    this.FilterLists.forEach((v:any) => {
+        v.Giagoc.forEach((v1:any) => {
+            v1.GiaCoSo = v.GiaCoSo
+            v1.SLTT = 0
+        });
+        this._SanphamService.UpdateSanpham(v)
+    });
+  }
   async LoadDrive()
   {
    const data =  await this._SanphamService.getDrive();   
