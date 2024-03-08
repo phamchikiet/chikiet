@@ -177,6 +177,10 @@ export class GiohangService {
             return console.error(error);
         }
     }
+    async UpdateGiamgia(item: any): Promise<any> {
+        this._donhang.next(item)
+        this.getDonhang()
+    }
     async CreateDonhang(item: any) {
         item.Giohangs = item.Giohangs.map((v: any) => ({
             id: v.id,
@@ -208,12 +212,9 @@ export class GiohangService {
             return console.error(error);
         }
     }
-    
+
     async UpdateDonhang(item: any): Promise<any> {
-        console.log(item);   
-        // this._donhang.next(item)
-        // this.getDonhang()
-        //this._LocalStorageService.setItem('Donhang', this.Donhang)
+        console.log(item);
         try {
             const options = {
                 method:'PATCH',
@@ -392,8 +393,11 @@ export class GiohangService {
         }
     }
     async getDonhang(): Promise<any> {
-        this.Donhang.SubTotal = this.Donhang.Giohangs.reduce((acc: any, item: any) => acc + item.Soluong * item.Giachon?.gia, 0) || 0;
         this.getGiamgia()
+        console.log(this.Donhang);
+        
+        this.Donhang.SubTotal = this.Donhang.Giohangs.reduce((acc: any, item: any) => acc + item.Soluong * item.Giachon?.gia, 0) || 0;
+        this.Donhang.Tongcong =Number(this.Donhang.SubTotal)||0 + Number(this.Donhang.Vanchuyen.Phivanchuyen)||0 - Number(this.Donhang.Giamgia)||0 + this.GetTotal(this.Donhang.Giohangs, 'Thue', '')||0
         this._donhang.next(this.Donhang)
         this._LocalStorageService.setItem('Donhang', this.Donhang)
     }

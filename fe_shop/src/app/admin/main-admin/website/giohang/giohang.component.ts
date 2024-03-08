@@ -33,7 +33,7 @@ export class GiohangComponent implements OnInit {
     })
   }
 
-  GetTotal(data: any, field: any, field1: any) {
+  GetTotal(data: any, field: any, field1: any) {    
     if (field1) {
       return data?.reduce((acc: any, item: any) => acc + item[field] * item[field1]?.gia, 0) || 0;
     }
@@ -42,8 +42,8 @@ export class GiohangComponent implements OnInit {
     }
   }
   GetTongcong() {
-    console.log(this.Donhang.SubTotal);
-    return this.Donhang.SubTotal||0 + this.Donhang.Vanchuyen.Phivanchuyen||0 - this.Donhang.Giamgia||0 + this.GetTotal(this.Donhang.Giohangs, 'Thue', '')||0
+    const Tongcong =Number(this.Donhang.SubTotal)||0 + Number(this.Donhang.Vanchuyen.Phivanchuyen)||0 - Number(this.Donhang.Giamgia)||0 + this.GetTotal(this.Donhang.Giohangs, 'Thue', '')||0
+    return Tongcong
   }
   DeleteCart()
   {
@@ -97,7 +97,7 @@ export class GiohangComponent implements OnInit {
     {
 
       this.Donhang.Khuyenmai = {id:Khuyenmai.id,Type:Khuyenmai.Type,Value:Khuyenmai.Value}
-      this._GiohangService.UpdateDonhang(this.Donhang).then(()=>
+      this._GiohangService.UpdateGiamgia(this.Donhang).then(()=>
       {
         this._snackBar.open('Áp Dụng Mã Khuyến Mãi','',{
           horizontalPosition: "end",
@@ -112,7 +112,7 @@ export class GiohangComponent implements OnInit {
       delete this.Donhang.Khuyenmai
       this.Donhang.Giamgia = 0
       this.Donhang.Code=''
-      this._GiohangService.UpdateDonhang(this.Donhang)
+      this._GiohangService.UpdateGiamgia(this.Donhang)
       this._snackBar.open('Mã Khuyến Mãi Không Đúng','',{
         horizontalPosition: "end",
         verticalPosition: "top",
