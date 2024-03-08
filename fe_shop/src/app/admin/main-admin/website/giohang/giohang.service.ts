@@ -397,7 +397,7 @@ export class GiohangService {
         console.log(this.Donhang);
         
         this.Donhang.SubTotal = this.Donhang.Giohangs.reduce((acc: any, item: any) => acc + item.Soluong * item.Giachon?.gia, 0) || 0;
-        this.Donhang.Tongcong =Number(this.Donhang.SubTotal)||0 + Number(this.Donhang.Vanchuyen.Phivanchuyen)||0 - Number(this.Donhang.Giamgia)||0 + this.GetTotal(this.Donhang.Giohangs, 'Thue', '')||0
+       // this.Donhang.Tongcong =Number(this.Donhang.SubTotal)||0 + Number(this.Donhang.Vanchuyen.Phivanchuyen)||0 - Number(this.Donhang.Giamgia)||0 + this.GetTotal(this.Donhang.Giohangs, 'Thue', '')||0
         this._donhang.next(this.Donhang)
         this._LocalStorageService.setItem('Donhang', this.Donhang)
     }
