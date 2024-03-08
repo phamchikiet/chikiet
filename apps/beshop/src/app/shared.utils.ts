@@ -119,6 +119,15 @@ export function getInitials(name: any): any {
   const initials = words.map((word: any) => word[0].toUpperCase()).join('');
   return initials;
 }
+export function genMaDonhang(startNumber:any) {
+  let code = startNumber.toString();
+  while (code.length < 3) {
+    code = "0" + code;
+  }
+  code = "TGO-AA" + code;
+  startNumber++;
+  return code;
+}
 export function convertToSlug(str: any): any {
   return str
     .toLowerCase()
