@@ -18,7 +18,7 @@
   </div>
 }
 
-<div #exportPDF #printArea class="text-xs bg-white rounded-lg w-[480px] mx-auto lg:scale-100 scale-100">
+<div #exportPDF #printArea class="p-4 text-xs bg-white rounded-lg w-[480px] mx-auto lg:scale-100 scale-100">
   <div class="h-full flex flex-col divide-y divide-dashed divide-black border-4 border-black">
     <div class="grid grid-cols-3 gap-2 divide-x divide-black">
       <div class="flex flex-col space-y-2 items-center p-2">
@@ -40,7 +40,7 @@
         <span>Tên : <strong>{{Donhang?.Khachhang?.Hoten}}</strong></span>
         <span>Số Điện Thoại : <strong>{{Donhang?.Khachhang?.SDT}}</strong></span>
         <span>Địa Chỉ : <strong>{{Donhang?.Giohangs?.Khachhang?.Diachi}}</strong></span>
-        <span class="italic">Ghi Chú : <strong>{{Donhang?.Giohangs?.Khachhang?.Diachi}}</strong></span>
+        <span class="italic">Ghi Chú : <strong>{{Donhang?.Ghichu}}</strong></span>
       </div>
 
       <div class="col-span-2 flex flex-col space-y-2 p-2">
