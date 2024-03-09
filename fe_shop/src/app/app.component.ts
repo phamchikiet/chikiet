@@ -34,6 +34,6 @@ export class AppComponent {
     // console.log(window.scrollY);
     // console.log(viewportHeight);
   }
-  title = 'Shop Online';
+  title = 'Rau Sạch Trần Gia';
   
 }
