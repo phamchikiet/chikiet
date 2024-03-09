@@ -6,6 +6,7 @@ import { UpdateDonhangDto } from './dto/update-donhang.dto';
 import { DonhangEntity } from './entities/donhang.entity';
 import { GiohangService } from '../giohang/giohang.service';
 import { KhachhangService } from '../khachhang/khachhang.service';
+import { genMaDonhang } from '../shared.utils';
 @Injectable()
 export class DonhangService {
   constructor(
@@ -33,7 +34,11 @@ export class DonhangService {
       return await this.DonhangRepository.save(Donhang);
     }
     else {
-      return { error: 1001, data: "Mã Đơn Hàng Đã Tồn Tại" }
+      const last = await this.getSoluong()
+      Donhang.MaDonHang = genMaDonhang(last[1]+1)
+      this.DonhangRepository.create(Donhang);
+      return await this.DonhangRepository.save(Donhang);
+      // return { error: 1001, data: "Mã Đơn Hàng Đã Tồn Tại" }
     }
 
   }
@@ -111,11 +116,15 @@ export class DonhangService {
     console.log(id,data);
     if(data.Giohangs){await this._GiohangService.update(data.Giohangs.id,data.Giohangs)}
     if(data.Khachhang){await this._KhachhangService.update(data.Khachhang.id,data.Khachhang)}
-     await this.DonhangRepository.save(data);
-     const result = await this.DonhangRepository.findOne({ where: { id: id } });
-     console.log(result);
+    if(id)
+    {
+      await this.DonhangRepository.save(data);
+      const result = await this.DonhangRepository.findOne({ where: { id: id } });
+      return result
+    }
+    else return data
      
-     return result
+ 
   }
   async remove(id: string, data: any) {
     if(data.Giohangs){await this._GiohangService.remove(data.Giohangs.id);}
