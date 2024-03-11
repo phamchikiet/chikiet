@@ -1,13 +1,18 @@
 import { CommonModule } from '@angular/common';
-import { Component, ElementRef, Input, OnInit, ViewChild, inject } from '@angular/core';
-import { MatDialog } from '@angular/material/dialog';
+import { Component, ElementRef, Input, OnInit, TemplateRef, ViewChild, inject } from '@angular/core';
+import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import jspdf from 'jspdf';
 import html2canvas from 'html2canvas';
 import { GiohangService } from 'fe_shop/src/app/admin/main-admin/website/giohang/giohang.service';
+import { MatButtonModule } from '@angular/material/button';
 @Component({
   selector: 'app-formin-admin',
   standalone: true,
-  imports: [CommonModule],
+  imports: [
+    CommonModule,
+    MatButtonModule,
+    MatDialogModule
+  ],
   templateUrl: './formin-admin.component.html',
   styleUrls: ['./formin-admin.component.css']
 })
@@ -19,7 +24,9 @@ export class ForminAdminComponent implements OnInit {
   @Input() Type:any='KHACHHANG'
   @ViewChild('exportPDF') exportPDF!: ElementRef;
   @ViewChild('printArea') printArea!: ElementRef;
+  @ViewChild('dialogTemplate') dialogTemplate!: TemplateRef<any>;
   _GiohangService:GiohangService = inject(GiohangService)
+  LinkImage:any=''
   constructor(private dialog: MatDialog) { }
 
   ngOnInit() {
@@ -40,36 +47,48 @@ export class ForminAdminComponent implements OnInit {
     const result = (this.GetSubTotalThucte(giohang, soluong, gia) + Number(donhang.Vanchuyen.Phivanchuyen||0) + Number(donhang.Giamgia||0) + this.GetSubTotal(giohang, thue, ''))
     return result
   }
-  
+
+  openDialog(teamplate: TemplateRef<any>): void {
+    const dialogRef = this.dialog.open(teamplate, {
+    });
+    dialogRef.afterClosed().subscribe((result) => {
+      if (result == 'true') {
+
+      }
+    });
+  }  
   public convetToPDF() {
     const A5WidthInPixels = 1754;
     const A5HeightInPixels = 2480;
     const element = this.exportPDF.nativeElement as HTMLElement;
-    // html2canvas(element, {
-    //   scale: 2, // Adjust scale for higher DPI if needed (optional)
-    // }).then(canvas => {
-    //   // Convert canvas to image (data URL)
-    //   const imgData = canvas.toDataURL("image/png");
-    //   // Create PDF using a library like jsPDF
-    //   const pdf = new jspdf({
-    //     orientation: 'portrait',
-    //     unit: 'px',
-    //     format: [A5WidthInPixels, A5HeightInPixels],
-    //   });
-    //   pdf.addImage(imgData, 'PNG',0, 0,A5WidthInPixels,A5HeightInPixels);
-    //   pdf.save(`${this.Donhang.MaDonHang}_${(new Date()).getTime()}.pdf`);// Adjust filename as needed
-    // });
-    html2canvas(element).then(canvas => {
-      var imgWidth = 150;
-      var pageHeight = 220;
-      var imgHeight = canvas.height * imgWidth / canvas.width;
-      var heightLeft = imgHeight;
-      const contentDataURL = canvas.toDataURL('image/png')
-      let pdf = new jspdf('p', 'mm', 'a5'); // A4 size page of PDF
-      var position = 0;
-      pdf.addImage(contentDataURL, 'PNG', 0, position, imgWidth, imgHeight)
-      pdf.save(`${this.Donhang.MaDonHang}_${(new Date()).getTime()}.pdf`); // Generated PDF
-    }); 
+    html2canvas(element, {
+      scale: 4, // Adjust scale for higher DPI if needed (optional)
+    }).then(canvas => {
+      // Convert canvas to image (data URL)
+      const imgData = canvas.toDataURL("image/png");
+      // Create PDF using a library like jsPDF
+      const pdf = new jspdf({
+        orientation: 'portrait',
+        unit: 'px',
+        format: [A5WidthInPixels, A5HeightInPixels],
+      });
+      pdf.addImage(imgData, 'PNG',0, 0,A5WidthInPixels,A5HeightInPixels);
+      pdf.save(`${this.Donhang.MaDonHang}_${(new Date()).getTime()}.pdf`);// Adjust filename as needed
+    });
+    // html2canvas(element).then(canvas => {
+    //   console.log(canvas);
+    //   // var imgWidth = 480;
+    //   // var pageHeight = 750;
+    //   // var imgHeight = imgWidth / canvas.width;
+    //   // var heightLeft = imgHeight;
+    //   const contentDataURL = canvas.toDataURL('image/png')
+    //   this.LinkImage = canvas.toDataURL('image/png')
+    //   this.dialog.open(this.dialogTemplate);
+    //   let pdf = new jspdf('p', 'mm', 'a5'); // A4 size page of PDF
+    //   var position = 0;
+    //   pdf.addImage(contentDataURL, 'PNG', 0, position, canvas.width, canvas.height)       
+    //   pdf.save(`${this.Donhang.MaDonHang}_${(new Date()).getTime()}.pdf`); // Generated PDF
+    // }); 
   }
   printDiv() {
     const printArea = this.printArea.nativeElement;

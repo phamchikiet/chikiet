@@ -8,13 +8,15 @@ import { MatDialog, MatDialogModule} from '@angular/material/dialog';
 import { MatButtonModule} from '@angular/material/button';
 import { RouterLink, RouterOutlet } from '@angular/router';
 import * as XLSX from 'xlsx';
-import { MatPaginatorModule } from '@angular/material/paginator';
+import { MatPaginator, MatPaginatorModule } from '@angular/material/paginator';
 import { ButtonModule } from 'primeng/button';
 import * as moment from 'moment';
-import { ListTrangThaiDonhang, groupByfield } from 'fe_shop/src/app/shared/shared.utils';
+import { ListHinhthucthanhtoan, ListTrangThaiDonhang, groupByfield } from 'fe_shop/src/app/shared/shared.utils';
 import { GiohangService } from '../website/giohang/giohang.service';
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { UsersService } from '../../users/auth/users.service';
+import { MatSort, MatSortModule } from '@angular/material/sort';
+import { MatTableDataSource, MatTableModule } from '@angular/material/table';
 @Component({
   selector: 'app-donhang-admin',
   standalone:true,
@@ -30,6 +32,9 @@ import { UsersService } from '../../users/auth/users.service';
     MatButtonModule,
     MatPaginatorModule,
     ButtonModule,
+    MatTableModule,
+    MatSortModule,
+    MatPaginatorModule
   ],
   templateUrl: './donhang-admin.component.html',
   styleUrls: ['./donhang-admin.component.css']
@@ -52,6 +57,10 @@ export class DonhangAdminComponent implements OnInit {
   Profile: any = {}
   SelectItem: any = {}
   @ViewChild('drawer', { static: true }) drawer!: MatDrawer;
+  displayedColumns: string[] = ['MaDonHang', 'Hoten', 'Diachi','SDT','Total','Hinhthuc','Status','Action'];
+dataSource!: MatTableDataSource<any>;
+@ViewChild(MatPaginator) paginator!: MatPaginator;
+@ViewChild(MatSort) sort!: MatSort;
   constructor(
     private dialog: MatDialog,
     private _snackBar: MatSnackBar,
@@ -67,6 +76,18 @@ export class DonhangAdminComponent implements OnInit {
     this.Lists = await this._GiohangService.SearchDonhang(this.SearchParams)
     this.FilterLists = this.Lists.items
     this.pageSizeOptions = [10, 20, this.Lists.totalCount].filter(v => v < this.Lists.totalCount);
+    this.dataSource = new MatTableDataSource(this.FilterLists);
+    this.dataSource.sortingDataAccessor = (item, property) => {
+      switch(property) {
+        case 'Diachi': return item.Giohangs.Khachhang.Diachi;
+        case 'Hoten': return item.Giohangs.Khachhang.Hoten;
+        case 'SDT': return item.Giohangs.Khachhang.SDT;
+        case 'Hinhthuc': return item.Thanhtoan.Hinhthuc;
+        default: return item[property];
+      }
+    };
+    this.dataSource.paginator = this.paginator;
+    this.dataSource.sort = this.sort;
   }
   UpdateAllDonhang()
   {
@@ -177,6 +198,11 @@ export class DonhangAdminComponent implements OnInit {
   GetStatus(item:any,field:any)
   {
     const result = ListTrangThaiDonhang.find((v)=>v.id==item)
+    if(result){return result[field]}
+  }
+  GetHinhthucthanhtoan(item:any,field:any)
+  {
+    const result = ListHinhthucthanhtoan.find((v)=>v.id==item)
     if(result){return result[field]}
   }
   ChangeStatus(item: any, item1: any) {    

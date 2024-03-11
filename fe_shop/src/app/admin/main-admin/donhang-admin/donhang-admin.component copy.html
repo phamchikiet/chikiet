@@ -34,11 +34,6 @@
             </button>
           </mat-menu>
           <div class="hidden lg:flex flex-row space-x-3">
-            <div 
-              class="flex flex-col items-center space-x-2 p-2 hover:bg-gray-200 rounded-lg">
-              <span class="material-symbols-outlined text-xl" matTooltip="Bộ Lọc">filter_alt</span>
-              <span class="text-xs">Bộ Lọc</span>
-            </div>
             <div (click)="writeExcelFile()"
               class="flex flex-col items-center space-x-2 p-2 hover:bg-gray-200 rounded-lg">
               <span class="material-symbols-outlined text-xl" matTooltip="Upload File">file_download</span>
@@ -70,86 +65,7 @@
         <div class="overflow-x-auto rounded-2xl">
           <div class="inline-block min-w-full align-middle">
             <div class="overflow-hidden">
-              <div>
-                <table class="rounded-lg" mat-table [dataSource]="dataSource" matSort>
-                  <ng-container matColumnDef="MaDonHang">
-                    <th class="whitespace-nowrap" mat-header-cell *matHeaderCellDef mat-sort-header>                       
-                       Mã Đơn Hàng
-                    </th>
-                    <td mat-cell *matCellDef="let row" class="p-2"> 
-                      <a routerLink="{{row.id}}" (click)="drawer.toggle()">
-                        <div class="font-bold">{{row?.MaDonHang}}</div>
-                        <div class="text-xs italic text-gray-500">{{row.CreateAt|date:'HH:mm:ss dd/MM/YYYY'}}
-                        </div>
-                      </a>
-                    </td>
-                  </ng-container>
-                  <ng-container matColumnDef="Hoten">
-                    <th class="whitespace-nowrap" mat-header-cell *matHeaderCellDef mat-sort-header sortData> Họ Tên </th>
-                    <td mat-cell *matCellDef="let row" class="p-2"> 
-                      <div>{{row?.Giohangs?.Khachhang?.Hoten}}</div>
-                      <div>{{row?.Giohangs?.Khachhang?.Email}}</div>
-                    </td>
-                  </ng-container>
-                  <ng-container matColumnDef="SDT">
-                    <th class="whitespace-nowrap" mat-header-cell *matHeaderCellDef mat-sort-header> Điện Thoại </th>
-                    <td mat-cell *matCellDef="let row" class="p-2"> {{row?.Giohangs?.Khachhang?.SDT}} </td>
-                  </ng-container>
-                  <ng-container matColumnDef="Total">
-                    <th class="whitespace-nowrap" mat-header-cell *matHeaderCellDef mat-sort-header> Tổng Tiền </th>
-                    <td mat-cell *matCellDef="let row" class="p-2"> {{(row?.Giohangs?.Total| number:'1.0-0')||'0'}}đ </td>
-                  </ng-container>
-                  <ng-container matColumnDef="Diachi">
-                    <th class="whitespace-nowrap" mat-header-cell *matHeaderCellDef mat-sort-header> Địa Chỉ </th>
-                    <td class="whitespace-nowrap" mat-cell *matCellDef="let row" class="p-2"> {{row?.Giohangs?.Khachhang?.Diachi}} </td>
-                  </ng-container>
-                  <ng-container matColumnDef="Hinhthuc">
-                    <th class="whitespace-nowrap" mat-header-cell *matHeaderCellDef mat-sort-header> Hình Thức </th>
-                    <td mat-cell *matCellDef="let row" class="p-2">
-                      <span class="p-2 rounded-lg 
-                      {{GetHinhthucthanhtoan(row?.Thanhtoan?.Hinhthuc,'Class')}}">
-                      {{GetHinhthucthanhtoan(row?.Thanhtoan?.Hinhthuc,'Title')||'Chọn Hình Thức'}}
-                    </span>
-                    </td>
-                  </ng-container>
-                  <ng-container matColumnDef="Status">
-                    <th mat-header-cell *matHeaderCellDef mat-sort-header> Trạng Thái </th>
-                    <td mat-cell *matCellDef="let row" class="p-2" class="whitespace-nowrap space-x-2">                     
-                     <span class="p-2 rounded-lg {{GetStatus(row?.Status,'Class')}}">
-                      {{GetStatus(row?.Status,'Title')}}
-                    </span>    
-                   </td>
-                  </ng-container>
-                  <ng-container matColumnDef="Action">
-                    <th mat-header-cell *matHeaderCellDef mat-sort-header> Hành Động </th>
-                    <td mat-cell *matCellDef="let row" class="p-2" class="whitespace-nowrap space-x-2">
-                      <a routerLink="{{row.id}}">
-                        <span class="material-symbols-outlined p-2 border rounded-full 
-                        bg-slate-200 text-blue-500 
-                        hover:bg-blue-500 hover:text-white">
-                          edit_square
-                        </span>
-                      </a>
-                      <span (click)="XoaDialog(XoaTeamplate);SelectItem=row" class="material-symbols-outlined p-2 border rounded-full 
-                      bg-slate-200 text-red-500 
-                      hover:bg-red-500 hover:text-white">
-                         delete
-                      </span> 
-                     </td>
-                  </ng-container>
-              
-                  <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
-                  <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
-                  <tr class="mat-row" *matNoDataRow>
-                    <td class="mat-cell" colspan="4">Chưa có dữ liệu</td>
-                  </tr>
-                </table>
-                <mat-paginator [pageSizeOptions]="[5, 10, 25, 100]" aria-label="Select page of users"></mat-paginator>
-              </div>
-              
-              
-
-              <!-- <table class="min-w-full divide-y divide-gray-200 table-fixed">
+              <table class="min-w-full divide-y divide-gray-200 table-fixed">
                 <thead class="bg-white font-bold">
                   <tr>
                     <th scope="col" class="p-4 lg:p-5">
@@ -222,6 +138,16 @@
                       <span class="p-2 rounded-lg {{GetStatus(item?.Status,'Class')}}">
                         {{GetStatus(item?.Status,'Title')}}
                       </span>      
+                      <!-- <span class="p-2 rounded-lg {{GetStatus(item.Status,'Class')}}" [matMenuTriggerFor]="menu">{{GetStatus(item.Status,'Title')}}</span>  
+                      <mat-menu #menu="matMenu">
+                        <div class="flex flex-col space-y-2 p-3">
+                        @for (item1 of ListTrangThaiDonhang; track $index) {
+                          <span class="p-2 text-xs rounded-lg {{item1.Class}}" (click)="ChangeStatus(item,item1)">
+                            {{item1.Title}}
+                          </span>
+                        }
+                      </div>
+                      </mat-menu> -->
                     </td>
                     <td class="cursor-pointer p-4 space-x-2 whitespace-nowrap lg:p-5">
                       <a routerLink="{{item.id}}">
@@ -241,8 +167,7 @@
                   }
 
                 </tbody>
-              </table> -->
-
+              </table>
             </div>
           </div>
         </div>

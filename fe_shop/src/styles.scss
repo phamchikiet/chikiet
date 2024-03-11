@@ -66,6 +66,9 @@ body {
 .mdc-dialog .mdc-dialog__content {
   padding: 15px;
 }
+.mdc-data-table__cell, .mdc-data-table__header-cell{
+  padding: 16px !important;
+}
 // .mat-mdc-form-field-bottom-align
 // {
 //   height: 0;
@@ -85,6 +88,10 @@ body {
   height: 100%;
   z-index: 100;
 }
+.PDFVIEW .mat-mdc-dialog-content{
+  max-height: 100vh !important;
+}
+
 @media print {
   #nonPrintable {
     display: none;
