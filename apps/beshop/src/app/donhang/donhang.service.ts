@@ -34,15 +34,21 @@ export class DonhangService {
       return await this.DonhangRepository.save(Donhang);
     }
     else {
-      const last = await this.getSoluong()
-      Donhang.MaDonHang = genMaDonhang(last[1]+1)
+      const highestOrder = await this.getHighestOrder();
+      const newOrder = highestOrder ? highestOrder + 1 : 1; // Start from 1 if no entities exist
+      Donhang.MaDonHang = genMaDonhang(newOrder)
+      const newEntity = { ...Donhang, Ordering: newOrder }
+      await this.DonhangRepository.save(newEntity);
       this.DonhangRepository.create(Donhang);
       return await this.DonhangRepository.save(Donhang);
       // return { error: 1001, data: "Mã Đơn Hàng Đã Tồn Tại" }
     }
 
   }
-
+  async getHighestOrder(): Promise<number | null> {
+    const highestOrderEntity = await this.DonhangRepository.findOne({ order: { Ordering: 'DESC' } }); // Find entity with highest order
+    return highestOrderEntity?.Ordering ?? null;
+  }
   async findAll() {
     return await this.DonhangRepository.find();
   }
