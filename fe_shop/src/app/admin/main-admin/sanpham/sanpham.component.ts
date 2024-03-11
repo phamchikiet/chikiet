@@ -122,7 +122,14 @@ export class SanphamComponent implements OnInit {
   async SyncDrive()
   {
     this.SanphamsDrive.forEach((v)=>{
-      this._SanphamService.CreateSanpham(v)
+      this._SanphamService.SyncSanpham(v)
+    })
+  }
+  async UpdateSyncDrive()
+  {
+    this.SanphamsDrive.forEach((v)=>{
+      v.id="Code"
+      this._SanphamService.UpdateSanpham(v)
     })
   }
   GetTenDanhmuc(item: any) {

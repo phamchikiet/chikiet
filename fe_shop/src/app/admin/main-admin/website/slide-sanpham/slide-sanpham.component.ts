@@ -20,7 +20,7 @@ import { MatSnackBar } from '@angular/material/snack-bar';
 })
 export class SlideSanphamComponent implements OnInit {
   @Input() Title = '';
-  @Input() Sohang=2;
+  @Input() Sohang=1;
   @Input() Socot=4;
   @Input() Soluong=8;
   @Input() Filter='';

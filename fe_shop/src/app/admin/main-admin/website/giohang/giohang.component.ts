@@ -25,6 +25,8 @@ export class GiohangComponent implements OnInit {
   ngOnInit() {
     this._GiohangService.getDonhang()
     this._GiohangService.donhang$.subscribe((data: any) => {
+      console.log(data);
+      
       if(data)
       {
         this.Donhang = data

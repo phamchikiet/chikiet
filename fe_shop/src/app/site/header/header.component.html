@@ -1,91 +1,138 @@
-<div class="container flex flex-row space-x-2 justify-between lg:h-20 items-center py-4">
-    <a href="/">
-        <img src="/assets/images/logo.webp" class="lg:h-20 h-10">
-    </a>
-    <div class="hidden lg:flex flex-row space-x-3">
-        @for(item of Menus; track item.id) {
-        @if (item.children!=null&&item.children.length>0) {
-        <a [href]="[item.Slug]" class="flex flex-row items-center header-link py-2 font-semibold uppercase transition-all" cdkOverlayOrigin
-            #trigger="cdkOverlayOrigin" (mouseover)="Menus[$index].Show=true">
-            {{item.Title}}
-            <span class="material-symbols-outlined">
-                expand_more
-            </span>
+<div class="bg-[#57A345]">
+    <div class="container flex flex-row space-x-2 justify-between lg:h-16 items-center py-4">
+        <a href="/" class="bg-white rounded-full !border-0">
+            <img src="/assets/images/logo.webp" class="lg:h-12 h-10">
         </a>
+        <div class="hidden lg:flex flex-row space-x-3 text-white">
+            @for(item of Menus; track item.id) {
+            @if (item.children!=null&&item.children.length>0) {
+            <a [href]="[item.Slug]"
+                class="flex flex-row items-center header-link py-2 font-semibold uppercase transition-all"
+                cdkOverlayOrigin #trigger="cdkOverlayOrigin" (mouseover)="Menus[$index].Show=true">
+                {{item.Title}}
+                <span class="material-symbols-outlined">
+                    expand_more
+                </span>
+            </a>
 
-        <ng-template cdkConnectedOverlay [cdkConnectedOverlayOrigin]="trigger"
-            [cdkConnectedOverlayOpen]="Menus[$index].Show">
-            @if (item.id==2) {
-            <div class="border rounded-lg grid grid-cols-4 gap-4 bg-white p-4" (mouseleave)="Menus[$index].Show=false">
-                @for (item of item.children; track $index) {
-                <div class="flex flex-row space-x-2 items-center">
-                    @if(item && item.Image&&item.Image.Thumb)
-                    {
-                      <img src="assets/images/sanpham/{{item.Image.Thumb}}" class="h-10">
+            <ng-template cdkConnectedOverlay [cdkConnectedOverlayOrigin]="trigger"
+                [cdkConnectedOverlayOpen]="Menus[$index].Show">
+                @if (item.id==2) {
+                <div class="border rounded-lg grid grid-cols-4 gap-4 bg-white p-4"
+                    (mouseleave)="Menus[$index].Show=false">
+                    @for (item of item.children; track $index) {
+                    <div class="flex flex-row space-x-2 items-center">
+                        @if(item && item.Image&&item.Image.Thumb)
+                        {
+                        <img src="assets/images/sanpham/{{item.Image.Thumb}}" class="h-10">
+                        }
+                        @else if(item && item.Image&&item.Image.Hinhchinh&&item.Image.Hinhchinh.src){
+                        <img src="{{item.Image.Hinhchinh.src}}" class="h-10">
+                        }
+                        @else {
+                        <img src="assets/images/noimage.png" class="p-3 max-h-10 rounded-lg">
+                        }
+                        <!-- <img src="/assets/images/sanpham/rau-lang26385834.PNG" class="h-10"> -->
+                        <a href="danh-muc/{{item.Slug}}">{{item.Title}}</a>
+                    </div>
                     }
-                    @else if(item && item.Image&&item.Image.Hinhchinh&&item.Image.Hinhchinh.src){
-                      <img src="{{item.Image.Hinhchinh.src}}" class="h-10">
-                    }
-                    @else {
-                      <img src="assets/images/noimage.png" class="p-3 max-h-10 rounded-lg">
-                    }
-                    <!-- <img src="/assets/images/sanpham/rau-lang26385834.PNG" class="h-10"> -->
-                    <a href="danh-muc/{{item.Slug}}">{{item.Title}}</a>
                 </div>
                 }
-            </div>
-            }
-            @else {
-            <div class="border rounded-lg grid grid-cols-1 gap-4 bg-white p-4" (mouseleave)="Menus[$index].Show=false">
-                @for (item of item.children; track $index) {
-                <a href="{{item.Slug}}">{{item.Title}}</a>
+                @else {
+                <div class="border rounded-lg grid grid-cols-1 gap-4 bg-white p-4"
+                    (mouseleave)="Menus[$index].Show=false">
+                    @for (item of item.children; track $index) {
+                    <a href="{{item.Slug}}" class="">{{item.Title}}</a>
+                    }
+                </div>
                 }
-            </div>
-            }
-        </ng-template>
-        <!-- <mat-menu #beforeMenu="matMenu" xPosition="before" class="w-screen">
+            </ng-template>
+            <!-- <mat-menu #beforeMenu="matMenu" xPosition="before" class="w-screen">
             <div class="w-screen grid grid-cols-4" (mouseleave)="menuTrigger.closeMenu()">
                 <a [routerLink]="[item1.Slug]" routerLinkActive="!bg-black !text-white" mat-menu-item
                     *ngFor="let item1 of item.children">{{item1.Title}}
                 </a>
             </div>
         </mat-menu> -->
-        }
-        @else {
-        <a class="flex flex-row items-center header-link py-2 font-semibold uppercase transition-all"
-            [href]="[item.Slug]">
-            <span class="text-sm">
-                {{item.Title}}
-            </span>
-        </a> }
-        }
-    </div>
-    <div class="flex flex-row space-x-4 items-center">
-        <span (click)="TimkiemDialog(dialogTimkiem)"
-            class="material-symbols-outlined text-red-500 p-2 cursor-pointer rounded-full border hover:bg-red-500 hover:text-white">search</span>
+            }
+            @else {
+            <a class="flex flex-row items-center header-link py-2 font-semibold uppercase transition-all"
+                [href]="[item.Slug]">
+                <span class="text-sm border-l px-2">
+                    {{item.Title}}
+                </span>
+            </a> }
+            }
+        </div>
 
+        <div class="flex flex-row space-x-1 items-center">
+            <div class="relative" (click)="TimkiemDialog(dialogTimkiem)">
+                <input type="search" id="default-search"
+                    class="block w-32 py-2 px-4 pe-10 text-sm 
+            text-gray-900 border border-gray-300 rounded-full bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                    placeholder="Tìm Kiếm" />
+
+                <div class="absolute inset-y-0 end-0 flex items-center pe-3 cursor-pointer">
+                    <svg class="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true"
+                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z" />
+                    </svg>
+                </div>
+            </div>
+            <!-- <span (click)="TimkiemDialog(dialogTimkiem)"
+            class="material-symbols-outlined text-red-500 p-2 cursor-pointer rounded-full border hover:bg-red-500 hover:text-white">
+            search
+        </span> -->
+            <!-- <a href="san-pham-yeu-thich" matBadgeColor="warn" mat-icon-button matBadge="0">
+            <span class="material-symbols-outlined">
+                favorite
+            </span></a> -->
+            <div class="relative">
+                <a href="gio-hang" mat-icon-button matBadgeColor="warn">
+                    <span class="material-symbols-outlined text-white">shopping_cart</span>
+                </a>
+                <span class="absolute -top-1 right-0 bg-white text-red-500 text-xs px-2 py-1 rounded-full">
+                    {{(Soluong| number:'1.0-0')||0}}
+                </span>
+            </div>
+            <a href="gio-hang" class="text-white">
+                {{(Tongcong | number:'1.0-0')||'0'}}đ
+            </a>
+            <!-- <button class="flex transition-transform hover:scale-125 align-middle" (click)="toggleTheme()">
+            <span *ngIf="!darkmode" class="material-icons">dark_mode</span>
+            <span *ngIf="darkmode" class="material-icons">light_mode</span>
+        </button> -->
+        </div>
         @if(this.Token){
         <img [src]="User?.Image?.Main||'/assets/images/noimage.png'" class="rounded-full w-10 h-10 border"
             [matMenuTriggerFor]="user">
         }
         @else {
-        <a href="dangnhap" mat-icon-button>
-            <span class="material-symbols-outlined">
-                person
-            </span>
-        </a>
-        }
 
-        <!-- <a href="san-pham-yeu-thich" matBadgeColor="warn" mat-icon-button matBadge="0">
-            <span class="material-symbols-outlined">
-                favorite
-            </span></a> -->
-        <a href="gio-hang" mat-icon-button matBadgeColor="warn" matBadge="{{(Soluong| number:'1.0-0')||0}}">
-            <span class="material-symbols-outlined">shopping_cart</span>
-        </a>
-        <a href="gio-hang" class="text-red-500 font-bold">
-            {{(Tongcong | number:'1.0-0')||'0'}}đ
-        </a>
+        <div class="hidden lg:flex flex-row space-x-2 items-center text-white">
+            <a href="dangnhap" class="border-r px-2">
+                Đăng Nhập
+            </a>
+            <a href="dangky">
+                Đăng Ký
+            </a>
+        </div>
+        <div class="lg:hidden">
+            <a href="dangnhap" mat-icon-button>
+                <span class="material-symbols-outlined text-white">
+                    person
+                </span>
+            </a>
+        </div>
+        }
+        <div class="lg:hidden">
+            <button mat-icon-button (click)="sidebarVisible = true">
+                <span class="material-symbols-outlined text-white">
+                    menu
+                </span>
+            </button>
+        </div>
         <mat-menu #user="matMenu" xPosition="before">
             <button mat-menu-item>
                 <a routerLink="/profile" routerLinkActive="bg-gray-200" class="flex flex-row space-x-3 items-center">
@@ -106,72 +153,62 @@
                 </div>
             </a>
         </mat-menu>
-        <button mat-icon-button (click)="sidebarVisible = true">
-            <span class="lg:hidden material-symbols-outlined">
-                menu
-            </span>
-        </button>
-        <!-- <button class="flex transition-transform hover:scale-125 align-middle" (click)="toggleTheme()">
-            <span *ngIf="!darkmode" class="material-icons">dark_mode</span>
-            <span *ngIf="darkmode" class="material-icons">light_mode</span>
-        </button> -->
     </div>
+    <p-sidebar [(visible)]="sidebarVisible" class="z-10" position="right" class="w-1/2">
+        <ng-template pTemplate="header">
+            <a href="/">
+                <img src="/assets/images/logo.webp" class="lg:h-20 h-10">
+            </a>
+        </ng-template>
+        <ng-template pTemplate="content">
+            <mat-tree [dataSource]="dataSource" [treeControl]="treeControl">
+                <mat-tree-node *matTreeNodeDef="let node" matTreeNodePadding>
+                    <button mat-icon-button disabled></button>
+                    <a href="{{node.Slug}}">{{node.Title}}</a>
+                </mat-tree-node>
+                <mat-tree-node *matTreeNodeDef="let node;when: hasChild" matTreeNodePadding>
+                    <button mat-icon-button matTreeNodeToggle [attr.aria-label]="'Toggle ' + node.Title">
+                        <span
+                            class="material-symbols-outlined">{{treeControl.isExpanded(node)?'expand_more':'navigate_next'}}</span>
+                    </button>
+                    <a href="{{node.Slug}}">{{node.Title}}</a>
+                </mat-tree-node>
+            </mat-tree>
 
-</div>
-<p-sidebar [(visible)]="sidebarVisible" class="z-10" position="right" class="w-1/2">
-    <ng-template pTemplate="header">
-        <a href="/">
-            <img src="/assets/images/logo.webp" class="lg:h-20 h-10">
-        </a>
-    </ng-template>
-    <ng-template pTemplate="content">
-        <mat-tree [dataSource]="dataSource" [treeControl]="treeControl">
-            <mat-tree-node *matTreeNodeDef="let node" matTreeNodePadding>
-                <button mat-icon-button disabled></button>
-                <a href="{{node.Slug}}">{{node.Title}}</a>
-            </mat-tree-node>
-            <mat-tree-node *matTreeNodeDef="let node;when: hasChild" matTreeNodePadding>
-                <button mat-icon-button matTreeNodeToggle [attr.aria-label]="'Toggle ' + node.Title">
-                    <span
-                        class="material-symbols-outlined">{{treeControl.isExpanded(node)?'expand_more':'navigate_next'}}</span>
-                </button>
-                <a href="{{node.Slug}}">{{node.Title}}</a>
-            </mat-tree-node>
-        </mat-tree>
-
-    </ng-template>
-    <ng-template pTemplate="footer">
-        <div class="text-pgray-400 text-sm text-center">
-            <p>© Copyright {{Today|date:'yyyy'}}</p>
-        </div>
-    </ng-template>
-</p-sidebar>
-<ng-template #dialogTimkiem>
-    <div class="lg:w-[40vw] lg:h-[60vh] h-[90vh] w-[90vw] flex flex-col justify-between space-y-2 lg:p-8 p-3 divide-y">
-        <div class="relative flex flex-col">
-            <mat-form-field appearance="outline" class="w-full">
-                <input matInput (input)="DoSearch($event)"  placeholder="Tìm Kiếm">
-                <span matPrefix class="p-2 material-symbols-outlined">search</span>
-            </mat-form-field>
-        </div>
-        <div class="relative flex flex-col space-y-2 h-full w-full overflow-auto p-3">
-            @if(Timkiems.length>0){
+        </ng-template>
+        <ng-template pTemplate="footer">
+            <div class="text-pgray-400 text-sm text-center">
+                <p>© Copyright {{Today|date:'yyyy'}}</p>
+            </div>
+        </ng-template>
+    </p-sidebar>
+    <ng-template #dialogTimkiem>
+        <div
+            class="lg:w-[40vw] lg:h-[60vh] h-[90vh] w-[90vw] flex flex-col justify-between space-y-2 lg:p-8 p-3 divide-y">
+            <div class="relative flex flex-col">
+                <mat-form-field appearance="outline" class="w-full">
+                    <input matInput (input)="DoSearch($event)" placeholder="Tìm Kiếm">
+                    <span matPrefix class="p-2 material-symbols-outlined">search</span>
+                </mat-form-field>
+            </div>
+            <div class="relative flex flex-col space-y-2 h-full w-full overflow-auto p-3">
+                @if(Timkiems.length>0){
                 @for (item of Timkiems; track $index) {
-                    <a href="san-pham/{{item.Slug}}" class="p-2 rounded-lg bg-slate-50 hover:bg-primary hover:text-white">
-                        <span>{{item.Title}}</span>
-                    </a> 
+                <a href="san-pham/{{item.Slug}}" class="p-2 rounded-lg bg-slate-50 hover:bg-primary hover:text-white">
+                    <span>{{item.Title}}</span>
+                </a>
                 }
-            }
-            @else{
+                }
+                @else{
                 <span class="text-center font-bold">Không tìm thấy kết quả</span>
-            }
+                }
+            </div>
+            <div mat-dialog-actions class="relative flex flex-0 items-center">
+                <button class="ml-auto" mat-flat-button color="primary" mat-dialog-close="false">Đóng</button>
+            </div>
         </div>
-        <div mat-dialog-actions class="relative flex flex-0 items-center">
-                <button class="ml-auto" mat-flat-button color="primary"  mat-dialog-close="false">Đóng</button>
-        </div>
-    </div>
 
-    <!-- <div class="lg:w-[40vw] lg:h-[40vh] h-[95vh] flex flex-col justify-between space-y-3 divide-x-2">
+        <!-- <div class="lg:w-[40vw] lg:h-[40vh] h-[95vh] flex flex-col justify-between space-y-3 divide-x-2">
         <div mat-dialog-content>
             <div class="flex flex-col w-full space-y-4 p-2">
                 <mat-form-field appearance="outline" class="w-full !text-xs">
@@ -191,4 +228,5 @@
             <button class="ml-auto" mat-flat-button color="primary"  mat-dialog-close="false">Đóng</button>
         </div>
     </div> -->
-</ng-template>
+    </ng-template>
+</div>

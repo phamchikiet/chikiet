@@ -127,6 +127,27 @@ export class SanphamService {
           return console.error(error);
       }
   }  
+  async SyncSanpham(item:any) {
+    try {
+        const options = {
+            method:'POST',
+            headers: {
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(item),
+          };
+          const response = await fetch(`${environment.APIURL}/sanpham/sync`, options);          
+          if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+          }
+          const data = await response.json();  
+          console.log(data);
+          
+          return data                
+      } catch (error) {
+          return console.error(error);
+      }
+  }  
   async UpdateSanpham(item:any) {
     const sanphams:any = await this.sanphams$.pipe(take(1)).toPromise();
     try {
