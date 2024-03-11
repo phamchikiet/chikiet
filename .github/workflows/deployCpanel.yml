@@ -25,7 +25,7 @@ jobs:
           server: ghv54-25032.azdigihost.com
           username: admin@rausachtrangia.com
           password: '@Admin#2024'
-          local-dir: ./dist/beshop/  # <-- Specify the local "build" folder
+          local-dir: ./dist/apps/beshop/  # <-- Specify the local "build" folder
           server-dir: /public_html/shop/api/  # Destination on server
      
         # with:
