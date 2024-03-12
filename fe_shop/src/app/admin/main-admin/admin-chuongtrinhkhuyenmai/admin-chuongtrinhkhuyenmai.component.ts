@@ -13,6 +13,7 @@ import {MatChipsModule} from '@angular/material/chips';
 import { GenId, convertToSlug } from 'fe_shop/src/app/shared/shared.utils';
 import { ChuongtrinhkhuyenmaiAdminService } from './admin-chuongtrinhkhuyenmai.service';
 import { MatSelectModule } from '@angular/material/select';
+import { MatSnackBar } from '@angular/material/snack-bar';
 @Component({
   selector: 'app-admin-chuongtrinhkhuyenmai',
   standalone:true,
@@ -51,10 +52,12 @@ export class AdminChuongtrinhkhuyenmaiComponent implements OnInit {
     {Title:'%',Value:'phantram'},
     {Title:'đ',Value:'giatri'},
   ]
+  SelectItem: any = {}
   _ChuongtrinhkhuyenmaiAdminService:ChuongtrinhkhuyenmaiAdminService = inject(ChuongtrinhkhuyenmaiAdminService)
   @ViewChild('drawer', { static: true }) drawer!: MatDrawer;
   constructor(
     private dialog: MatDialog,
+    private _snackBar: MatSnackBar
   ) {
   }
   async ngOnInit(): Promise<void> {
@@ -85,8 +88,25 @@ export class AdminChuongtrinhkhuyenmaiComponent implements OnInit {
     });
     dialogRef.afterClosed().subscribe((result) => {
       if (result) {
-        this._ChuongtrinhkhuyenmaiAdminService.CreateChuongtrinhkhuyenmaiAdmin(this.Detail)
+        this._ChuongtrinhkhuyenmaiAdminService.CreateChuongtrinhkhuyenmaiAdmin(this.Detail).then(()=>this.ngOnInit())
       }
+    });
+  }
+  XoaDialog(teamplate: TemplateRef<any>): void {
+    const dialogRef = this.dialog.open(teamplate, {
+    });
+    dialogRef.afterClosed().subscribe((result) => {
+      if (result == 'true') {
+        this._ChuongtrinhkhuyenmaiAdminService.DeleteChuongtrinhkhuyenmaiAdmin(this.SelectItem).then(() =>
+      {
+        this._snackBar.open('Xoá Thành Công','',{
+          horizontalPosition: "end",
+          verticalPosition: "top",
+          panelClass:'success',
+          duration: 2000,
+        });
+        this.ngOnInit();
+      })}
     });
   }
   readExcelFile(event: any) {

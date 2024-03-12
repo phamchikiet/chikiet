@@ -72,7 +72,8 @@ export class ChuongtrinhkhuyenmaiAdminService {
           if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
           }
-          const data = await response.json();                     
+          const data = await response.json(); 
+          this._chuongtrinhkhuyenmaiadmins.next(data.items)                            
           return data;
       } catch (error) {
           return console.error(error);
@@ -113,7 +114,7 @@ export class ChuongtrinhkhuyenmaiAdminService {
           }
           const data = await response.json();   
           console.log(data);
-             
+          this._chuongtrinhkhuyenmaiadmin.next(data)  
           return data;            
       } catch (error) {
           return console.error(error);

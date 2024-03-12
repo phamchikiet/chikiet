@@ -361,22 +361,19 @@ export class GiohangService {
     {
         if (this.Donhang.hasOwnProperty('Khuyenmai')) {
             if (this.Donhang.Khuyenmai.Type.Value == 'phantram') {
-                this.Donhang.Giamgia = this.Donhang.SubTotal * (Number(this.Donhang.Khuyenmai.Value) / 100)
-                return this.Donhang.Giamgia
+                this.Donhang.Giamgia = Number(this.Donhang.Khuyenmai.Value) / 100
             }
             else {
                 if (this.Donhang.Khuyenmai.Value > this.Donhang.SubTotal) {
                     this.Donhang.Giamgia = 0
-                    return this.Donhang.Giamgia
                 }
                 else {
-                    this.Donhang.Giamgia = this.Donhang.SubTotal - this.Donhang.Khuyenmai.Value
-                    return this.Donhang.Giamgia
+                    this.Donhang.Giamgia = this.Donhang.Khuyenmai.Value
                 }
 
             }
         }
-        else return 0  
+        else this.Donhang.Giamgia = 0
     }
     getSum(data: any, field: any, field1: any) {
         if (field1) {
