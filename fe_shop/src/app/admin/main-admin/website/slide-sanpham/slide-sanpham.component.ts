@@ -25,6 +25,7 @@ export class SlideSanphamComponent implements OnInit {
   @Input() Soluong=8;
   @Input() Filter='';
   @Input() id_cat=0;
+  @Input() Type='NGANG';
   _SanphamService:SanphamService = inject(SanphamService)
   _GiohangService: GiohangService = inject(GiohangService);
   Lists: any={}
@@ -43,7 +44,7 @@ export class SlideSanphamComponent implements OnInit {
    if(this.id_cat!=0){ this.SearchParams.id_cat = this.id_cat}
     this.Lists = await this._SanphamService.SearchSanpham(this.SearchParams)
     this.FilterLists = this.SanphamColumn(this.Lists.items,this.Sohang).slice(0,8)    
-    //console.log(this.FilterLists);
+    console.log(this.FilterLists);
   }
   SanphamColumn(data:any,n:any)
   {
@@ -53,6 +54,10 @@ export class SlideSanphamComponent implements OnInit {
       newArray.push(data.slice(i, i + chunkSize));
     }
     return newArray
+  }
+  LitmitSanpham(items:any,soluong:any)
+  {
+    return items.slice(0,soluong)   
   }
   AddtoCart(data:any)
   { 
@@ -81,7 +86,9 @@ export class SlideSanphamComponent implements OnInit {
       navigation:true,
       slidesPerView:1,
       spaceBetween: 20,
-      autoplay:true,
+      autoplay:{
+        delay:100
+      },
       breakpoints: {
         640: {
           slidesPerView: 1,

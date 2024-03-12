@@ -5,6 +5,7 @@ import { MatSnackBar } from '@angular/material/snack-bar';
 import { FormsModule } from '@angular/forms';
 import { ChuongtrinhkhuyenmaiAdminService } from '../../admin-chuongtrinhkhuyenmai/admin-chuongtrinhkhuyenmai.service';
 import { SlideSanphamComponent } from '../slide-sanpham/slide-sanpham.component';
+import { DanhmucsanphamsiteComponent } from 'fe_shop/src/app/danhmucsanpham/danhmucsanphamsite/danhmucsanphamsite.component';
 
 @Component({
   selector: 'app-giohang',
@@ -12,7 +13,8 @@ import { SlideSanphamComponent } from '../slide-sanpham/slide-sanpham.component'
   imports: [
     DecimalPipe,
     FormsModule,
-    SlideSanphamComponent
+    SlideSanphamComponent,
+    DanhmucsanphamsiteComponent
   ],
   templateUrl: './giohang.component.html',
   styleUrls: ['./giohang.component.css']
