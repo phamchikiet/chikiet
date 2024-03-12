@@ -13,6 +13,7 @@ import { TonkhoAdminService } from 'fe_shop/src/app/admin/main-admin/admin-xnt/a
 import Swiper, { Pagination } from 'swiper';
 import { MatDialog, MatDialogModule } from '@angular/material/dialog';
 import { MatButtonModule } from '@angular/material/button';
+import { DanhmucsanphamsiteComponent } from 'fe_shop/src/app/danhmucsanpham/danhmucsanphamsite/danhmucsanphamsite.component';
 @Component({
   selector: 'app-detail-sanpham',
   standalone:true,
@@ -23,7 +24,9 @@ import { MatButtonModule } from '@angular/material/button';
     FormsModule,
     MatTabsModule,
     MatButtonModule,
-    MatDialogModule
+    MatDialogModule,
+    DanhmucsanphamsiteComponent,
+    SlideSanphamComponent
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   templateUrl: './detail-sanpham.component.html',
@@ -55,6 +58,7 @@ export class DetailSanphamComponent implements OnInit {
   Detail:any
   Tonkho:any
   Notify:any
+  Loadmore:boolean=false
   Giachon:any={}
   SearchParams: any = {
     pageSize:50,

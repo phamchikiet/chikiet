@@ -105,7 +105,7 @@ export class SanphamComponent implements OnInit {
       Title: row[1],
       Slug:convertToSlug(row[1]),
       Danhmuc: row[2],
-      id_cat:row[6],
+      //id_cat:row[6],
       GiaCoSo: Number(row[3].replace(".", "")),
       Giagoc:[{
         MaSP:row[0]+'-1',
@@ -117,6 +117,10 @@ export class SanphamComponent implements OnInit {
       }]
     };
   });
+   this.SanphamsDrive.forEach((v:any) => {
+     v.Slug = v.Slug.replace(/--+/, "-");
+     v.id_cat = this.ListDanhmuc.find((v1:any)=>v1.Title==v.Danhmuc)?.id_cat     
+   });
    console.log(this.SanphamsDrive); 
   }
   async SyncDrive()

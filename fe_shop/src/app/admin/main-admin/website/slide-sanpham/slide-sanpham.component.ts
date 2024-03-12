@@ -57,7 +57,7 @@ export class SlideSanphamComponent implements OnInit {
   }
   LitmitSanpham(items:any,soluong:any)
   {
-    return items.slice(0,soluong)   
+    return items?.slice(0,soluong)   
   }
   AddtoCart(data:any)
   { 
