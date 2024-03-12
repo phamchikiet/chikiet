@@ -14,6 +14,21 @@ export class SanphamService {
     this.SanphamRepository.create(CreateSanphamDto);
     return await this.SanphamRepository.save(CreateSanphamDto);
   }
+  async sync(data: any) {
+
+    const item = await this.SanphamRepository.findOne({where: { MaSP: data.MaSP }});
+    console.log(item);
+    
+    if(item)
+    {
+      const result = {...item,...data}
+      return await this.SanphamRepository.save(result);
+    }
+    else {
+      this.SanphamRepository.create(data);
+      return await this.SanphamRepository.save(data);
+    }   
+  }
 
   async findAll() {
     return await this.SanphamRepository.find();
@@ -106,7 +121,7 @@ export class SanphamService {
   }
   async update(id: string, data: any) {
     console.log(id,data.Title);
-    this.SanphamRepository.save(data);
+    await this.SanphamRepository.save(data);
     return await this.SanphamRepository.findOne({ where: { id: id } });
   }
   async remove(id: string) {

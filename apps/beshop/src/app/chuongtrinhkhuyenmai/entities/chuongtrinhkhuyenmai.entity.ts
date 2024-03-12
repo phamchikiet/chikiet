@@ -17,6 +17,14 @@ import {
     @Column({ type: 'text', collation: 'utf8_general_ci' })
     Value: string;
     @Column()
+    MinValue: number;
+    @Column({collation: "utf8_general_ci",type:"simple-json",default: () => "('[]')" })
+    products: string;
+    @Column()
+    startDate: Date;
+    @Column()
+    endDate: Date;
+    @Column()
     HSD: Date;
     @Column({collation: "utf8_general_ci",type:"simple-json",default: () => "('{}')" })
     Image: string;

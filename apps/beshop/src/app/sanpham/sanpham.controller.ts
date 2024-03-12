@@ -8,6 +8,10 @@ export class SanphamController {
   create(@Body() createSanphamDto: any) {
     return this.sanphamService.create(createSanphamDto);
   }
+  @Post('sync')
+  sync(@Body() data: any) {
+    return this.sanphamService.sync(data);
+  }
   @Get()
   async findAll() {
     return await this.sanphamService.findAll();
@@ -32,7 +36,6 @@ export class SanphamController {
   update(@Param('id') id: string, @Body() data: any) {
     return this.sanphamService.update(id, data);
   }
-
   @Delete(':id')
   remove(@Param('id') id: string) {
     return this.sanphamService.remove(id);
