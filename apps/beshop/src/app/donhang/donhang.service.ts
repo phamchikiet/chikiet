@@ -30,22 +30,18 @@ export class DonhangService {
     Donhang.idGiohang = Giohang.id
     const check = await this.findSHD(data)
     if(!check) {
-      const highestOrder = await this.getHighestOrder();
-      const newOrder = highestOrder ? highestOrder + 1 : 1;
-      Donhang.MaDonHang = genMaDonhang(newOrder)
-      const newEntity = { ...Donhang, Ordering: newOrder }
-      this.DonhangRepository.create(newEntity);
+      this.DonhangRepository.create(Donhang);
       return await this.DonhangRepository.save(Donhang);
     }
     else {
-      const highestOrder = await this.getHighestOrder();
-      const newOrder = highestOrder ? highestOrder + 1 : 1;
-      Donhang.MaDonHang = genMaDonhang(newOrder)
-      const newEntity = { ...Donhang, Ordering: newOrder }
-      await this.DonhangRepository.save(newEntity);
-      this.DonhangRepository.create(Donhang);
-      return await this.DonhangRepository.save(Donhang);
-      // return { error: 1001, data: "Mã Đơn Hàng Đã Tồn Tại" }
+      // const highestOrder = await this.getHighestOrder();
+      // const newOrder = highestOrder ? highestOrder + 1 : 1;
+      // Donhang.MaDonHang = genMaDonhang(newOrder)
+      // const newEntity = { ...Donhang, Ordering: newOrder }
+      // await this.DonhangRepository.save(newEntity);
+      // this.DonhangRepository.create(Donhang);
+      // return await this.DonhangRepository.save(Donhang);
+      return { error: 1001, data: "Mã Đơn Hàng Đã Tồn Tại",MaDonHang:check.MaDonHang }
     }
 
   }
