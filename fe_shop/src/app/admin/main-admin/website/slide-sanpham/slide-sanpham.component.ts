@@ -86,6 +86,7 @@ export class SlideSanphamComponent implements OnInit {
       navigation:true,
       slidesPerView:1,
       spaceBetween: 20,
+      speed:1000,
       autoplay:{
         delay:100
       },
