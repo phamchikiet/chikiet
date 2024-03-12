@@ -24,12 +24,16 @@ export class DonhangEntity {
   Thanhtoan: string;
   @Column({collation: "utf8_general_ci",type:"simple-json",default: () => "('{}')" })
   Vanchuyen: string;
+  @Column({collation: "utf8_general_ci",type:"simple-json",default: () => "('{}')" })
+  Khuyenmai: string;
   @Column({collation: "utf8_general_ci",type:"simple-json",default: () => "('[]')" })
   Diachis: string;
   @Column({ type: 'text', collation: 'utf8_general_ci' })
   Ghichu: string;
   @Column({ type: 'text', collation: 'utf8_general_ci' })
   Lydohuy: string;
+  @Column({ type: 'bigint' })
+  Giamgia: number;
   @Column({ type: 'bigint' })
   Total: number;
   @Column({ type: 'bigint' })
