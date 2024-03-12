@@ -6,7 +6,7 @@
   </div>
   <div class="lg:flex hidden flex-col space-y-3 w-full col-span-4">
     <div>
-      <swiper-container slides-per-view="4" speed="500" loop="false" pagination="false" navigation="true" space-between="20">
+      <swiper-container slides-per-view="4" speed="100" autoplay="true" loop="true" pagination="false" space-between="20">
         @for (items of FilterLists; track $index) {
         <swiper-slide class="grid grid-col-1 gap-4">
           @for (item of items; track $index) {
@@ -47,7 +47,7 @@
   </div>
   <div class="lg:hidden flex flex-col space-y-3 w-full col-span-4">
     <div>
-      <swiper-container slides-per-view="2" speed="500" loop="false" space-between="20" pagination="false">
+      <swiper-container slides-per-view="2" speed="100" autoplay="true" loop="true" space-between="20" pagination="false">
         @for (items of FilterLists; track $index) {
         <swiper-slide class="grid grid-col-1 gap-4">
           @for (item of items; track $index) {
@@ -83,9 +83,9 @@
     <!-- <button mat-stroked-button>
       <a href="danh-muc/cac-loai-nam" class="text-primary font-bold">Xem Tất Cả ></a>
     </button> -->
-    <!-- <a href="danh-muc/cac-loai-nam"
+    <a href="danh-muc/cac-loai-nam"
       class="text-white bottom-2.5 bg-primary focus:ring-4 focus:outline-none hover:bg-primary-500 font-medium rounded-lg text-sm px-4 py-2">
       Xem Tất Cả >
-    </a> -->
+    </a>
   </div>
 </section>
