@@ -140,12 +140,12 @@ export class DonhangAdminChitietComponent implements OnInit {
   }
   GetTotalThucte(donhang:any,giohang:any,soluong:any,gia:any,thue:any)
   {    
-    const result = (this.GetSubTotalThucte(giohang, soluong, gia) + Number(donhang.Vanchuyen.Phivanchuyen||0) + Number(donhang.Giamgia||0) + this.GetSubTotal(giohang, thue, ''))
+    const result = (this.GetSubTotalThucte(giohang, soluong, gia) + Number(donhang.Vanchuyen.Phivanchuyen||0) - Number(donhang.Giamgia||0) + this.GetSubTotal(giohang, thue, ''))
     return result
   }
   GetTotal(donhang:any,giohang:any,soluong:any,gia:any,thue:any)
   {
-    const result = (this.GetSubTotal(giohang, soluong, gia) + Number(donhang.Vanchuyen.Phivanchuyen||0) + Number(donhang.Giamgia||0) + this.GetSubTotal(giohang, thue, ''))
+    const result = (this.GetSubTotal(giohang, soluong, gia) + Number(donhang.Vanchuyen.Phivanchuyen||0) - Number(donhang.Giamgia||0) + this.GetSubTotal(giohang, thue, ''))
     return result
   }
   // GetTongcong() {
