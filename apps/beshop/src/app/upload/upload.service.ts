@@ -7,6 +7,7 @@ import { UploadEntity } from './entities/upload.entity';
 import fs = require('fs');
 import stream = require('stream');
 import path = require('path');
+import { environment } from '../../environments/environment';
 @Injectable()
 export class UploadService {
   constructor(
@@ -64,9 +65,9 @@ export class UploadService {
   }
   async uploadlocal(item: any) {
     try {
-      const host = 'https://images.chikiet.com/'
+      const host = environment.hostURL
       const absolutePath = item.path;
-      const rootPath = '/home/jtnkwfpz/public_html/shop/images';   
+      const rootPath = environment.rootPath;   
      // const rootPath = '';   
       const relativePath = path.relative(rootPath, absolutePath);
       console.log(rootPath);
