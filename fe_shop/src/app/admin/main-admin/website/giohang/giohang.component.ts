@@ -29,6 +29,8 @@ export class GiohangComponent implements OnInit {
       {
         this.Donhang = data
         this.Donhang.Total = data.SubTotal + Number(data.Vanchuyen.Phivanchuyen||0) - Number(data.Giamgia||0) + this.GetTotal(data.Giohangs, 'Thue', '')||0 
+        console.log(data);
+        
       }
     })
   }

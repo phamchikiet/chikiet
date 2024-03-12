@@ -106,6 +106,8 @@ export class DonhangAdminChitietComponent implements OnInit {
         {                
           this.Detail=data
           this.Giohangs = data.Giohangs.Sanpham
+          console.log(data);
+          
         }
       })
       this._DonhangAdminComponent.drawer.open()
