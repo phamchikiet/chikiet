@@ -30,12 +30,16 @@ export class DonhangService {
     Donhang.idGiohang = Giohang.id
     const check = await this.findSHD(data)
     if(!check) {
-      this.DonhangRepository.create(Donhang);
+      const highestOrder = await this.getHighestOrder();
+      const newOrder = highestOrder ? highestOrder + 1 : 1;
+      Donhang.MaDonHang = genMaDonhang(newOrder)
+      const newEntity = { ...Donhang, Ordering: newOrder }
+      this.DonhangRepository.create(newEntity);
       return await this.DonhangRepository.save(Donhang);
     }
     else {
       const highestOrder = await this.getHighestOrder();
-      const newOrder = highestOrder ? highestOrder + 1 : 1; // Start from 1 if no entities exist
+      const newOrder = highestOrder ? highestOrder + 1 : 1;
       Donhang.MaDonHang = genMaDonhang(newOrder)
       const newEntity = { ...Donhang, Ordering: newOrder }
       await this.DonhangRepository.save(newEntity);
