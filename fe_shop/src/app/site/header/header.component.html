@@ -2,7 +2,7 @@
     <div class="container flex flex-row space-x-2 justify-between lg:h-16 items-center py-4">
         <a href="/" class="bg-white rounded-full !border-0 px-4 py-1">
             <!-- <img src="/assets/images/logo.webp" class="lg:h-12 h-10"> -->
-            <img src="/assets/images/logo-full.png" class="lg:h-12 h-10">
+            <img src="/assets/images/logo-full.png" class="lg:h-12 h-8">
             
         </a>
         <div class="hidden lg:flex flex-row space-x-3 text-white">
@@ -74,13 +74,12 @@
                     class="hidden lg:block w-32 py-2 px-4 pe-10 text-sm 
             text-gray-900 border border-gray-300 rounded-full bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                     placeholder="Tìm Kiếm" />
-
-                <div class="absolute inset-y-0 end-0 flex items-center pe-3 cursor-pointer">
-                    <svg class="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true"
-                        xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
-                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z" />
-                    </svg>
+                <div class="lg:absolute inset-y-0 end-0 flex items-center lg:pe-3 cursor-pointer">
+                    <button mat-icon-button>
+                        <span class="material-symbols-outlined lg:text-gray-400 text-white">
+                            search
+                        </span>
+                    </button>
                 </div>
 
             </div>
