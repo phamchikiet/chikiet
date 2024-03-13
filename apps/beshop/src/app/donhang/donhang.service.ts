@@ -28,22 +28,14 @@ export class DonhangService {
     const Donhang:any=data
     Donhang.idKH = Khachhang.id
     Donhang.idGiohang = Giohang.id
-    const check = await this.findSHD(data)
-    if(!check) {
-      this.DonhangRepository.create(Donhang);
-      return await this.DonhangRepository.save(Donhang);
-    }
-    else {
-      const highestOrder = await this.getHighestOrder();
-      const newOrder = highestOrder ? highestOrder + 1 : 1; // Start from 1 if no entities exist
-      Donhang.MaDonHang = genMaDonhang(newOrder)
-      const newEntity = { ...Donhang, Ordering: newOrder }
-      await this.DonhangRepository.save(newEntity);
-      this.DonhangRepository.create(Donhang);
-      return await this.DonhangRepository.save(Donhang);
-      // return { error: 1001, data: "Mã Đơn Hàng Đã Tồn Tại" }
-    }
-
+    const maxPrice = await this.DonhangRepository.createQueryBuilder('donhang')
+    .select('MAX(donhang.Ordering)', 'maxOrdering')
+    .getRawOne();
+    Donhang.MaDonHang = genMaDonhang(maxPrice.maxOrdering+1)
+    const newEntity = { ...Donhang, Ordering: maxPrice.maxOrdering+1}
+    const result =   await this.DonhangRepository.save(newEntity);
+    this.DonhangRepository.create(Donhang);
+    return result
   }
   async getHighestOrder(): Promise<number | null> {
     const highestOrderEntity = await this.DonhangRepository.findOne({ order: { Ordering: 'DESC' } }); // Find entity with highest order

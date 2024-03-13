@@ -18,8 +18,8 @@ import {
     Value: string;
     @Column()
     MinValue: number;
-    @Column({collation: "utf8_general_ci",type:"simple-json",default: () => "('[]')" })
-    products: string;
+    @Column({collation: "utf8_general_ci",type:"simple-json",default: () => "('{}')" })
+    LoaiKM: string;
     @Column()
     startDate: Date;
     @Column()

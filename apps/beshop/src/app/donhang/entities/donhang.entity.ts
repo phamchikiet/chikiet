@@ -16,14 +16,14 @@ export class DonhangEntity {
   MaDonHang: string;
   @Column({ type: 'text', collation: 'utf8_general_ci' })
   idGiohang: string;
-  @Column({ type: 'text', collation: 'utf8_general_ci' })
-  idKM: string;
   @Column({collation: "utf8_general_ci",type:"simple-json",default: () => "('{}')" })
   Image: string;
   @Column({collation: "utf8_general_ci",type:"simple-json",default: () => "('{}')" })
   Thanhtoan: string;
   @Column({collation: "utf8_general_ci",type:"simple-json",default: () => "('{}')" })
   Vanchuyen: string;
+  @Column({collation: "utf8_general_ci",type:"simple-json",default: () => "('{}')" })
+  Khuyenmai: string;
   @Column({collation: "utf8_general_ci",type:"simple-json",default: () => "('[]')" })
   Diachis: string;
   @Column({ type: 'text', collation: 'utf8_general_ci' })
@@ -31,9 +31,15 @@ export class DonhangEntity {
   @Column({ type: 'text', collation: 'utf8_general_ci' })
   Lydohuy: string;
   @Column({ type: 'bigint' })
+  Giamgia: number;
+  @Column({ type: 'bigint' })
   Total: number;
   @Column({ type: 'bigint' })
   SubTotal: number;
+  @Column({ type: 'bigint' })
+  TotalTT: number;
+  @Column({ type: 'bigint' })
+  SubTotalTT: number;
   @Column({ default: '' })
   Type: string;
   @Column({ default: 1 })
