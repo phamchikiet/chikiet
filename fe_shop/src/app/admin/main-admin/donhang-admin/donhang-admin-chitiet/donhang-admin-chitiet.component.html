@@ -223,8 +223,7 @@
               <hr />
               <div class="!font-bold flex justify-between mt-3">
                 <p class="text-base text-default-700">Tổng Cộng</p>
-                <p class="text-base text-default-700">{{GetTotal(Detail,Detail.Giohangs.Sanpham,'Soluong','gia','Thue')|
-                  number:'1.0-0'||'0'}}đ</p>
+                <p class="text-base text-default-700">{{Detail.Total|number:'1.0-0'||'0'}}đ</p>
               </div>
               <div class="!font-bold flex justify-between mt-3 text-red-500">
                 <p class="text-base">Tổng Cộng Thực Tế</p>

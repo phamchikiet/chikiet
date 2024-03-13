@@ -20,9 +20,7 @@ export class DanhmucsanphamsiteComponent implements OnInit {
   constructor() { }
 
   async ngOnInit() {
-    this.Danhmucs = await this._DanhmucService.SearchDanhmuc(this.SearchParams)
-    console.log(this.Danhmucs);
-    
+    this.Danhmucs = await this._DanhmucService.SearchDanhmuc(this.SearchParams)    
   }
 
 }

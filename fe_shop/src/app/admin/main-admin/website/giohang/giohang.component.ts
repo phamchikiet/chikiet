@@ -99,7 +99,21 @@ export class GiohangComponent implements OnInit {
     if(Khuyenmai)
     {
 
-      this.Donhang.Khuyenmai = {id:Khuyenmai.id,Type:Khuyenmai.Type,Value:Khuyenmai.Value}
+      this.Donhang.Khuyenmai = 
+      {
+        "id": Khuyenmai.id,
+        "Title": Khuyenmai.Title,
+        "Code": Khuyenmai.Code,
+        "Value": Khuyenmai.Value,
+        "MinValue": Khuyenmai.MinValue,
+        "LoaiKM": Khuyenmai.LoaiKM,
+        "startDate": Khuyenmai.startDate,
+        "endDate": Khuyenmai.endDate,
+        "Type": {
+            "Title": "đ",
+            "Value": "giatri"
+        },
+    }
       this._GiohangService.UpdateGiamgia(this.Donhang).then(()=>
       {
         this._snackBar.open('Áp Dụng Mã Khuyến Mãi','',{

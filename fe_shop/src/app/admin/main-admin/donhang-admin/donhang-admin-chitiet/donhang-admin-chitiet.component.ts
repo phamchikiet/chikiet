@@ -72,26 +72,20 @@ export class DonhangAdminChitietComponent implements OnInit {
         this.Profile = data
         switch (data.Role) {
           case "nhanvienbanhang":
-            console.log("nhanvienbanhang");
             this.ListTrangThaiDonhang = ListTrangThaiDonhang.filter((v:any)=>v.id==1||v.id==2)
             break;
           case "nhanvienkho":
-            console.log("nhanvienkho");
             this.ListTrangThaiDonhang = ListTrangThaiDonhang.filter((v:any)=>v.id==3)
             break;
           case "nhanvienketoan":
-            console.log("nhanvienketoan");
             this.ListTrangThaiDonhang = ListTrangThaiDonhang.filter((v:any)=>v.id==4)
             break;
           case "admin":
-            console.log("admin");
             this.ListTrangThaiDonhang=ListTrangThaiDonhang
             break;
-        
           default:this.ListTrangThaiDonhang=[]
             break;
         }
-
         console.log(this.ListTrangThaiDonhang);
         
       }
@@ -105,7 +99,8 @@ export class DonhangAdminChitietComponent implements OnInit {
         if(data)
         {                
           this.Detail=data
-          this.Giohangs = data.Giohangs.Sanpham
+          console.log(data);
+          
         }
       })
       this._DonhangAdminComponent.drawer.open()
@@ -138,12 +133,12 @@ export class DonhangAdminChitietComponent implements OnInit {
   }
   GetTotalThucte(donhang:any,giohang:any,soluong:any,gia:any,thue:any)
   {    
-    const result = (this.GetSubTotalThucte(giohang, soluong, gia) + Number(donhang.Vanchuyen.Phivanchuyen||0) + Number(donhang.Giamgia||0) + this.GetSubTotal(giohang, thue, ''))
+    const result = (this.GetSubTotalThucte(giohang, soluong, gia) + Number(donhang.Vanchuyen.Phivanchuyen||0) - Number(donhang.Giamgia||0) + this.GetSubTotal(giohang, thue, ''))
     return result
   }
   GetTotal(donhang:any,giohang:any,soluong:any,gia:any,thue:any)
   {
-    const result = (this.GetSubTotal(giohang, soluong, gia) + Number(donhang.Vanchuyen.Phivanchuyen||0) + Number(donhang.Giamgia||0) + this.GetSubTotal(giohang, thue, ''))
+    const result = (this.GetSubTotal(giohang, soluong, gia) + Number(donhang.Vanchuyen.Phivanchuyen||0) - Number(donhang.Giamgia||0) + this.GetSubTotal(giohang, thue, ''))
     return result
   }
   // GetTongcong() {

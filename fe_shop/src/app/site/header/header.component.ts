@@ -152,7 +152,6 @@ export class HeaderComponent implements OnInit {
     { id: 3, Title: 'Liên hệ', Slug: 'lien-he' },
   ]
   this.dataSource.data = this.Menus;
-  console.log(this.dataSource.data);
   }
 
   toggleTheme() {

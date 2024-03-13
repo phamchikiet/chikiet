@@ -38,13 +38,10 @@ export class SlideSanphamComponent implements OnInit {
   };
   constructor(private _snackBar: MatSnackBar) { }
   async ngOnInit() {
-    this.SearchParams.Filter = this.Filter
-    console.log(this.id_cat);
-    
+    this.SearchParams.Filter = this.Filter    
    if(this.id_cat!=0){ this.SearchParams.id_cat = this.id_cat}
     this.Lists = await this._SanphamService.SearchSanpham(this.SearchParams)
     this.FilterLists = this.SanphamColumn(this.Lists.items,this.Sohang).slice(0,8)    
-    console.log(this.FilterLists);
   }
   SanphamColumn(data:any,n:any)
   {
