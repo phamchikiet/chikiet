@@ -53,9 +53,16 @@
       </div>
     </div>
   </section>
+  @for (item of Danhmucs; track $index) {
+    <app-slide-sanpham [id_cat]="item.id_cat" [Title]="item.Title"></app-slide-sanpham>
+  }
+  <!-- <app-slide-sanpham Filter="Moi" Title="Các Loại Củ"></app-slide-sanpham>
+  <app-slide-sanpham Filter="Moi" Title="Các Loại Quả"></app-slide-sanpham>
+  <app-slide-sanpham Filter="Moi" Title="Rau Lấy Bông"></app-slide-sanpham>
+  <app-slide-sanpham Filter="Moi" Title="GIÁ RẺ MỖI NGÀY"></app-slide-sanpham>
   <app-slide-sanpham Filter="Moi" Title="GIÁ RẺ MỖI NGÀY"></app-slide-sanpham>
   <app-slide-sanpham Filter="Banchay" Title="SẢN PHẨM BÁN CHẠY"></app-slide-sanpham>
-  <app-slide-sanpham Filter="Noibat" Title="GỢI Ý TỪ TRẦN GIA"></app-slide-sanpham>
+  <app-slide-sanpham Filter="Noibat" Title="GỢI Ý TỪ TRẦN GIA"></app-slide-sanpham> -->
   <section class="grid lg:grid-cols-3 grid-cols-1 gap-3 relative py-8">
     <img src="/assets/images/banner11.png">
     <img src="/assets/images/banner12.png">

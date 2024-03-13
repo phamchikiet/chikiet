@@ -11,6 +11,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
 import Swiper, { Pagination } from 'swiper';
 import { SanphamService } from '../../admin/main-admin/sanpham/sanpham.service';
+import { DanhmucService } from '../../admin/main-admin/danhmuc/danhmuc.service';
 @Component({
   selector: 'app-trangchu',
   standalone:true,
@@ -36,7 +37,9 @@ export class TrangchuComponent implements OnInit {
     pageNumber:0,
     Status:1
   };
+  Danhmucs:any=[]
   _SanphamService:SanphamService = inject(SanphamService)
+  _DanhmucService:DanhmucService = inject(DanhmucService)
   constructor(
     private _breakpointObserver:BreakpointObserver,
   ) { }
@@ -45,8 +48,11 @@ export class TrangchuComponent implements OnInit {
     this._breakpointObserver.observe([Breakpoints.Handset]).subscribe(result => {
       this.isMobile = result.matches ? true : false;
     });
+    this.Danhmucs = await this._DanhmucService.getAllDanhmuc()
     const result = await this._SanphamService.SearchSanpham(this.SearchParams)
     this.ListsSanpham = result.items.slice(0,12) 
+    console.log(this.Danhmucs);
+    
   
   }
 
