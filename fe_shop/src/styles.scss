@@ -31,22 +31,33 @@ body {
 // mat-snack-bar-container{
 //   margin:15% !important
 // }
-.success .mdc-snackbar__surface{
-  color: white !important;
-  background-color:#5cb85c !important;
+.mdc-snackbar__surface{
+  background-color:white !important;
 }
-.danger .mdc-snackbar__surface{
-  color: white !important;
-  background-color:#D9534F !important;
+.success .mdc-snackbar__label{
+  color: #5cb85c !important;
 }
-.warning .mdc-snackbar__surface{
-  color: white !important;
-  background-color:#F0AD4E !important;
+.danger .mdc-snackbar__label{
+  color: #D9534F !important;
+}
+.warning .mdc-snackbar__label{
+  color: #F0AD4E !important;
 }
 .info .mdc-snackbar__surface{
-  color: white !important;
-  background-color:#5BC0DE !important;
+  color: 5BC0DE !important;
 }
+// .danger .mdc-snackbar__surface{
+//   color: white !important;
+//   background-color:#D9534F !important;
+// }
+// .warning .mdc-snackbar__surface{
+//   color: white !important;
+//   background-color:#F0AD4E !important;
+// }
+// .info .mdc-snackbar__surface{
+//   color: white !important;
+//   background-color:#5BC0DE !important;
+// }
 .p-sidebar-mask
 {
   z-index: 1 !important;
