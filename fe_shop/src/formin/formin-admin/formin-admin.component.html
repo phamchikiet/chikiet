@@ -113,10 +113,10 @@
         <span>Tổng: </span>
         <!-- <span class="font-bold">{{Tongthucte| number:'1.0-0'||'0'}} VNĐ</span> -->
         @if(Type=="KHACHHANG"){
-          <span class="font-bold">{{GetTotalThucte(Donhang,Donhang?.Giohangs?.Sanpham,'SLTT','gia','Thue')| number:'1.0-0'||'0'}} VNĐ</span>
+          <span class="font-bold">{{Donhang.SubTotal| number:'1.0-0'||'0'}} VNĐ</span>
         }
         @else {
-          <span class="font-bold">{{GetTotalThucte(Donhang,Donhang?.Giohangs?.Sanpham,'SLTT','GiaCoSo','Thue')| number:'1.0-0'||'0'}} VNĐ</span>
+          <span class="font-bold">{{Donhang.SubTotalTT| number:'1.0-0'||'0'}} VNĐ</span>
         }
       
       </div>
@@ -132,10 +132,10 @@
             }
             @else{
               @if(Type=="KHACHHANG"){
-                <span class="font-bold">{{GetTotalThucte(Donhang,Donhang?.Giohangs?.Sanpham,'SLTT','gia','Thue')| number:'1.0-0'||'0'}} VNĐ</span>
+                <span class="font-bold">{{Donhang.Total| number:'1.0-0'||'0'}} VNĐ</span>
               }
               @else {
-                <span class="font-bold">{{GetTotalThucte(Donhang,Donhang?.Giohangs?.Sanpham,'SLTT','GiaCoSo','Thue')| number:'1.0-0'||'0'}} VNĐ</span>
+                <span class="font-bold">{{Donhang.TotalTT| number:'1.0-0'||'0'}} VNĐ</span>
               }
             }
            

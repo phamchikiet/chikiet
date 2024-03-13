@@ -85,9 +85,7 @@ export class DonhangAdminChitietComponent implements OnInit {
             break;
           default:this.ListTrangThaiDonhang=[]
             break;
-        }
-        console.log(this.ListTrangThaiDonhang);
-        
+        }        
       }
     })
     
@@ -97,10 +95,10 @@ export class DonhangAdminChitietComponent implements OnInit {
       this._GiohangService.getAdDonhangByid(this.idSP)
       this._GiohangService.addonhang$.subscribe((data)=>{
         if(data)
-        {                
-          this.Detail=data
+        {    
           console.log(data);
-          
+                      
+          this.Detail=data
         }
       })
       this._DonhangAdminComponent.drawer.open()
@@ -238,12 +236,13 @@ export class DonhangAdminChitietComponent implements OnInit {
       if(this.Detail.Giohangs.Sanpham[index][field])
       {
         this.Detail.Giohangs.Sanpham[index][field] = Number(this.Detail.Giohangs.Sanpham[index][field])+1
+        this._GiohangService.DonHangInit(this.Detail)  
       }
       else
       {
         this.Detail.Giohangs.Sanpham[index][field] = 1
+        this._GiohangService.DonHangInit(this.Detail)  
       }
-      
      }
      Giamgiatri(index:any,field:any)
      {
@@ -252,6 +251,7 @@ export class DonhangAdminChitietComponent implements OnInit {
       if(this.Detail.Giohangs.Sanpham[index][field]&&this.Detail.Giohangs.Sanpham[index][field]>1)
       {
         this.Detail.Giohangs.Sanpham[index][field] = Number(this.Detail.Giohangs.Sanpham[index][field])-1
+        this._GiohangService.DonHangInit(this.Detail)  
       }  
       else {
         this._snackBar.open('Số Lượng Không Được Âm','',{
@@ -267,10 +267,12 @@ export class DonhangAdminChitietComponent implements OnInit {
       if(this.Detail.Giohangs.Sanpham[index].Giachon[field])
       {
         this.Detail.Giohangs.Sanpham[index].Giachon[field] = Number(this.Detail.Giohangs.Sanpham[index].Giachon[field])+1
+        this._GiohangService.DonHangInit(this.Detail)  
       }
       else
       {
         this.Detail.Giohangs.Sanpham[index].Giachon[field] = 1
+        this._GiohangService.DonHangInit(this.Detail)  
       }
       
      }
@@ -281,6 +283,7 @@ export class DonhangAdminChitietComponent implements OnInit {
       if(this.Detail.Giohangs.Sanpham[index].Giachon[field]&&this.Detail.Giohangs.Sanpham[index].Giachon[field]>1)
       {
         this.Detail.Giohangs.Sanpham[index].Giachon[field] = Number(this.Detail.Giohangs.Sanpham[index].Giachon[field])-1
+        this._GiohangService.DonHangInit(this.Detail)  
       }  
       else {
         this._snackBar.open('Số Lượng Không Được Âm','',{

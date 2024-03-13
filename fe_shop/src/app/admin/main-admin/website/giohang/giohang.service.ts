@@ -116,7 +116,7 @@ export class GiohangService {
                 throw new Error(`HTTP error! status: ${response.status}`);
             }
             const data = await response.json();
-            this._addonhang.next(data)
+            this.DonHangInit(data)
         } catch (error) {
             return console.error(error);
         }
@@ -398,6 +398,46 @@ export class GiohangService {
         this.Donhang.Total =Number(this.Donhang.SubTotal)||0 + Number(this.Donhang.Vanchuyen.Phivanchuyen)||0 - Number(this.Donhang.Giamgia)||0
         this._donhang.next(this.Donhang)
         this._LocalStorageService.setItem('Donhang', this.Donhang)
+    }
+
+    TinhGiamgia(item:any)
+    {
+        console.log(item);
+        
+        if (item.hasOwnProperty('Khuyenmai')) {
+            if (item?.Khuyenmai?.Type?.Value == 'phantram') {
+                return Number(item?.Khuyenmai?.Value) / 100
+            }
+            else {
+                if (item?.Khuyenmai?.Value > item?.SubTotal) {
+                    return 0
+                }
+                else {                   
+                    return item?.Khuyenmai?.Value
+                }
+
+            }
+        }
+        else return 0
+    }
+
+    async DonHangInit(item:any) {
+        item.Giamgia = this.TinhGiamgia(item)     
+
+        item.SubTotal = item.Giohangs.Sanpham.reduce((acc: any, item: any) => acc + item.Soluong * item.Giachon?.gia, 0);
+        item.Total = item.SubTotal + item.Vanchuyen.Phivanchuyen - item?.Giamgia
+
+        item.SubTotalTT = item.Giohangs.Sanpham.reduce((acc: any, item: any) => acc + item.Giachon.SLTT * item.Giachon.GiaCoSo, 0);
+        item.TotalTT = item.SubTotalTT + item.Vanchuyen.Phivanchuyen  - item.Giamgia 
+
+        console.log(item.Vanchuyen.Phivanchuyen);
+        console.log(item.TotalTT);
+        
+        console.log(item);
+        
+        this._donhang.next(item)
+        this._addonhang.next(item)
+        //this._LocalStorageService.setItem('Donhang', this.Donhang)
     }
 }
 

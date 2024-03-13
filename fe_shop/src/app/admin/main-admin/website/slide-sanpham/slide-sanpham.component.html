@@ -61,7 +61,7 @@
                 <div (click)="AddtoCart(item);$event.preventDefault()"
                   class="z-20 flex flex-row space-x-2 justify-end items-end">
                   <span
-                    class="z-10 material-symbols-outlined rounded-lg p-2 bg-white border border-[#57A345] text-[#57A345] hover:bg-[#afe8a2]">shopping_cart</span>
+                    class="z-10 material-symbols-outlined rounded-lg p-2 bg-[#57A345] text-white hover:bg-[#afe8a2]">shopping_cart</span>
                 </div>
               </a>
               <div class="flex flex-col justify-center">
@@ -73,11 +73,9 @@
                     <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex flex-row">
                       <span class="text-white font-bold"> {{item?.Giagoc[0]?.gia| number:'1.0-0'}}đ/{{item?.Giagoc[0]?.khoiluong}}{{item?.Giagoc[0]?.dvt}}</span>
                     </div>
-                  </div>
-                 
-              </div>
-    
-              </div>
+                  </div>           
+              </div> 
+          </div>
               }
             </swiper-slide>
             }
@@ -109,7 +107,7 @@
                   <span class="font-semibold text-md">{{item?.Giagoc[0]?.gia| number:'1.0-0'}}đ /
                     {{item?.Giagoc[0]?.khoiluong}}{{item?.Giagoc[0]?.dvt}}</span>
                   <span (click)="AddtoCart(item);$event.preventDefault()"
-                    class="material-symbols-outlined rounded-full p-4 bg-[#e22026] text-white hover:bg-[#e8686c]">shopping_cart</span>
+                    class="material-symbols-outlined rounded-full p-4 bg-white text-[#57A345] border border-[#57A345]">shopping_cart</span>
                 </div>
               </a>
               }
@@ -124,7 +122,7 @@
           <a href="danh-muc/cac-loai-nam" class="text-primary font-bold">Xem Tất Cả ></a>
         </button> -->
         <a href="danh-muc/cac-loai-nam"
-          class="text-white bottom-2.5 bg-primary focus:ring-4 focus:outline-none hover:bg-primary-500 font-medium rounded-lg text-sm px-4 py-2">
+          class="bottom-2.5 bg-white text-[#57A345] border border-[#57A345] hover:bg-[#57A345] hover:text-white focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-4 py-2">
           Xem Tất Cả >
         </a>
       </div>
