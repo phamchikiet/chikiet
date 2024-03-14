@@ -8,11 +8,16 @@ import { MatDialog, MatDialogModule} from '@angular/material/dialog';
 import { MatButtonModule} from '@angular/material/button';
 import { RouterLink, RouterOutlet } from '@angular/router';
 import * as XLSX from 'xlsx';
-import { MatPaginatorModule } from '@angular/material/paginator';
+import { MatPaginator, MatPaginatorModule } from '@angular/material/paginator';
 import {MatChipsModule} from '@angular/material/chips';
 import { GenId, convertToSlug } from 'fe_shop/src/app/shared/shared.utils';
 import { ChuongtrinhkhuyenmaiAdminService } from './admin-chuongtrinhkhuyenmai.service';
 import { MatSelectModule } from '@angular/material/select';
+import { MatSort, MatSortModule } from '@angular/material/sort';
+import { MatTableDataSource, MatTableModule } from '@angular/material/table';
+import { MatDatepickerModule } from '@angular/material/datepicker';
+import { MatNativeDateModule } from '@angular/material/core';
+import { MatSnackBar } from '@angular/material/snack-bar';
 @Component({
   selector: 'app-admin-chuongtrinhkhuyenmai',
   standalone:true,
@@ -28,7 +33,11 @@ import { MatSelectModule } from '@angular/material/select';
     MatButtonModule,
     MatPaginatorModule,
     MatChipsModule,
-    MatSelectModule
+    MatSelectModule,
+    MatTableModule,
+    MatSortModule,
+    MatDatepickerModule,
+    MatNativeDateModule,
   ],
   templateUrl: './admin-chuongtrinhkhuyenmai.component.html',
   styleUrls: ['./admin-chuongtrinhkhuyenmai.component.css']
@@ -53,16 +62,42 @@ export class AdminChuongtrinhkhuyenmaiComponent implements OnInit {
   ]
   _ChuongtrinhkhuyenmaiAdminService:ChuongtrinhkhuyenmaiAdminService = inject(ChuongtrinhkhuyenmaiAdminService)
   @ViewChild('drawer', { static: true }) drawer!: MatDrawer;
-  constructor(
-    private dialog: MatDialog,
-  ) {
-  }
+  displayedColumns: string[] = ['Title', 'Code', 'Value', 'MinValue','NgayApdung','Type','Status','CreateAt','Action'];
+  dataSource!: MatTableDataSource<any>;
+  @ViewChild(MatPaginator) paginator!: MatPaginator;
+  @ViewChild(MatSort) sort!: MatSort;
+  @ViewChild('dialogTemplate') dialogTemplate!: TemplateRef<any>;
+  SelectItem: any = {}
+    constructor(
+      private dialog: MatDialog,
+      private _snackBar: MatSnackBar,
+    ) {
+    }
   async ngOnInit(): Promise<void> {
     this.Lists = await this._ChuongtrinhkhuyenmaiAdminService.SearchChuongtrinhkhuyenmaiAdmin(this.SearchParams)
     this.pageSizeOptions = [10, 20, this.Lists.totalCount].filter(v => v < this.Lists.totalCount);
     this.FilterLists = this.Lists.items
+    this.dataSource = new MatTableDataSource(this.Lists.items);
+    // this.dataSource.sortingDataAccessor = (item, property) => {
+    //   switch(property) {
+    //     case 'Diachi': return item.Giohangs.Khachhang.Diachi;
+    //     case 'Hoten': return item.Giohangs.Khachhang.Hoten;
+    //     case 'SDT': return item.Giohangs.Khachhang.SDT;
+    //     case 'Hinhthuc': return item.Thanhtoan.Hinhthuc;
+    //     default: return item[property];
+    //   }
+    // };
+    this.dataSource.paginator = this.paginator;
+    this.dataSource.sort = this.sort;
      console.log(this.Lists);
   } 
+
+
+
+
+
+
+
   applyFilter(event: Event) {
     const value = (event.target as HTMLInputElement).value;
     if (value.length > 2) {
@@ -80,14 +115,51 @@ export class AdminChuongtrinhkhuyenmaiComponent implements OnInit {
      this.Lists = await this._ChuongtrinhkhuyenmaiAdminService.SearchChuongtrinhkhuyenmaiAdmin(this.SearchParams)
      this.FilterLists = this.Lists.items
   }
-  openDialog(teamplate: TemplateRef<any>): void {
-    const dialogRef = this.dialog.open(teamplate, {
-    });
-    dialogRef.afterClosed().subscribe((result) => {
-      if (result) {
-        this._ChuongtrinhkhuyenmaiAdminService.CreateChuongtrinhkhuyenmaiAdmin(this.Detail)
-      }
-    });
+  openDialog(teamplate: TemplateRef<any>,isUpdate:boolean,item:any): void {
+    const dialogRef = this.dialog.open(teamplate);
+    if(isUpdate)
+    {
+      this.Detail = item
+      dialogRef.afterClosed().subscribe((result) => {
+        if (result) {
+          this._ChuongtrinhkhuyenmaiAdminService.UpdateChuongtrinhkhuyenmaiAdmin(this.Detail).then(()=>{
+            this._snackBar.open('Cập Nhật Thành Công', '', {
+              horizontalPosition: "end",
+              verticalPosition: "top",
+              panelClass: 'success',
+              duration: 1000,
+            });
+          })
+        }
+      });
+    }
+    else{
+      this.Detail = {}
+      dialogRef.afterClosed().subscribe((result) => {
+        if (result) {
+          this._ChuongtrinhkhuyenmaiAdminService.CreateChuongtrinhkhuyenmaiAdmin(this.Detail).then(()=>{
+            this._snackBar.open('Cập Nhật Thành Công', '', {
+              horizontalPosition: "end",
+              verticalPosition: "top",
+              panelClass: 'success',
+              duration: 1000,
+            });
+          })
+        }
+      });
+    }
+
+  }
+  ChangeStatus(item: any, type: any) {
+    item[type] = item[type] == 0 ? 1 : 0
+    this._ChuongtrinhkhuyenmaiAdminService.UpdateChuongtrinhkhuyenmaiAdmin(item).then(() => {
+      this._snackBar.open('Cập Nhật Thành Công', '', {
+        horizontalPosition: "end",
+        verticalPosition: "top",
+        panelClass: 'success',
+        duration: 1000,
+      });
+    })
   }
   readExcelFile(event: any) {
     const file = event.target.files[0];
@@ -140,5 +212,15 @@ export class AdminChuongtrinhkhuyenmaiComponent implements OnInit {
     link.click();
     window.URL.revokeObjectURL(url);
     link.remove();
+  }
+  XoaDialog(teamplate: TemplateRef<any>): void {
+    const dialogRef = this.dialog.open(teamplate, {
+    });
+    dialogRef.afterClosed().subscribe((result) => {
+      if (result == 'true') {
+        this.SelectItem.isDelete = true
+       this._ChuongtrinhkhuyenmaiAdminService.DeleteChuongtrinhkhuyenmaiAdmin(this.SelectItem).then(() => this.ngOnInit())
+      }
+    });
   }
 }
