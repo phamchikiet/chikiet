@@ -36,8 +36,8 @@
   }
   @else {
     <section class="grid grid-cols-1 relative py-8">
-      <div class="my-4 flex flex-row justify-between items-center">
-        <h2 class="!text-base font-bold !mb-0 rounded-full p-2 bg-[#57A345] text-white">
+      <div class="my-4 flex flex-row justify-between items-center  border-b">
+        <h2 class="!text-base font-bold !mb-0 px-4 py-2 bg-[#57A345] text-white rounded-tr-3xl">
           {{Title}}
         </h2>
       </div>
@@ -121,10 +121,12 @@
         <!-- <button mat-stroked-button>
           <a href="danh-muc/cac-loai-nam" class="text-primary font-bold">Xem Tất Cả ></a>
         </button> -->
-        <a href="danh-muc/cac-loai-nam"
+        @if (Soluong!=999) {
+          <a href="danh-muc/cac-loai-nam"
           class="bottom-2.5 bg-white text-[#57A345] border border-[#57A345] hover:bg-[#57A345] hover:text-white focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-4 py-2">
           Xem Tất Cả >
         </a>
+        }
       </div>
     </section>
   }
