@@ -40,8 +40,17 @@ export class SlideSanphamComponent implements OnInit {
   async ngOnInit() {
     this.SearchParams.Filter = this.Filter    
    if(this.id_cat!=0){ this.SearchParams.id_cat = this.id_cat}
+   if(this.Soluong==999)
+   {
     this.Lists = await this._SanphamService.SearchSanpham(this.SearchParams)
-    this.FilterLists = this.SanphamColumn(this.Lists.items,this.Sohang).slice(0,8)    
+    this.FilterLists = this.SanphamColumn(this.Lists.items,4)
+   }
+   else 
+   {
+    this.Lists = await this._SanphamService.SearchSanpham(this.SearchParams)
+    this.FilterLists = this.SanphamColumn(this.Lists.items,this.Sohang).slice(0,8)  
+   }
+  
   }
   SanphamColumn(data:any,n:any)
   {

@@ -170,9 +170,9 @@
         </div>
         <mat-tab-group animationDuration="0ms">
             <mat-tab label="Chi Tiết">
-                <p class="text-base p-4 {{Loadmore?'':'line-clamp-4'}}" [innerHTML]="Detail?.Noidung"></p>
+                <p class="text-base p-4 {{Loadmore?'':'line-clamp-5'}}" [innerHTML]="Detail?.Noidung"></p>
                 <div class="flex w-full text-center justify-center">
-                    <span class="text-[#57A345] underline font-bold" (click)="Loadmore=!Loadmore">Xem thêm...</span>
+                    <span class="cursor-pointer text-[#57A345] underline font-bold" (click)="Loadmore=!Loadmore">Xem thêm...</span>
                 </div>
                
             </mat-tab>
