@@ -83,15 +83,14 @@
           <div class="swiper-pagination" slot="pagination"></div>
         </div>
       </div>
+
       <div class="lg:hidden flex flex-col space-y-3 w-full col-span-4">
         <div>
-          <swiper-container slides-per-view="2" speed="1000" delay="10" autoplay="true" loop="true" space-between="20" pagination="false">
+          <swiper-container slides-per-view="2" speed="1000" delay="1 0" autoplay="true" loop="true" pagination="false" space-between="20">
             @for (items of FilterLists; track $index) {
-            <swiper-slide class="grid grid-col-1 gap-4">
+            <swiper-slide class="flex flex-col space-y-2 justify-between">
               @for (item of items; track $index) {
-              <a href="san-pham/{{item.Slug}}" class="grid grid-cols-1 border rounded-lg p-3 bg-white">
-                <span class="text-center font-bold line-clamp-1">{{item.Title}}</span>
-    
+              <a href="san-pham/{{item.Slug}}" class="z-10 grid grid-cols-1 border rounded-lg p-3 bg-white">
                 @if(item && item.Image&&item.Image.Main)
                 {
                 <img src="assets/images/sanpham/{{item.Image.Main}}" class="w-full">
@@ -102,14 +101,24 @@
                 @else if(item && item.Image&&item.Image.Hinhchinh&&item.Image.Hinhchinh.src){
                 <img src="assets/images/noimage.png" class="p-3 w-full mx-auto rounded-lg">
                 }
-                <p class="text-gray-400 text-[13px] line-clamp-2" [innerHTML]="item.Mota"></p>
-                <div class="flex flex-row space-x-2 justify-end items-end">
-                  <span class="font-semibold text-md">{{item?.Giagoc[0]?.gia| number:'1.0-0'}}đ /
-                    {{item?.Giagoc[0]?.khoiluong}}{{item?.Giagoc[0]?.dvt}}</span>
-                  <span (click)="AddtoCart(item);$event.preventDefault()"
-                    class="material-symbols-outlined rounded-full p-4 bg-white text-[#57A345] border border-[#57A345]">shopping_cart</span>
+                <div (click)="AddtoCart(item);$event.preventDefault()"
+                  class="z-20 flex flex-row space-x-2 justify-end items-end">
+                  <span
+                    class="z-10 material-symbols-outlined rounded-lg p-2 bg-[#57A345] text-white hover:bg-[#afe8a2]">shopping_cart</span>
                 </div>
               </a>
+              <div class="flex flex-col justify-center">
+              <span class="text-base text-center font-bold line-clamp-1">{{item.Title}}</span>
+              <!-- <p class="text-gray-400 text-[13px] line-clamp-2" [innerHTML]="item.Mota"></p> -->
+              <div class="flex flex-row justify-center">
+                  <div class="relative p-4">
+                    <img src="assets/images/pricetag.svg" class="h-8">
+                    <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex flex-row">
+                      <span class="text-white font-bold"> {{item?.Giagoc[0]?.gia| number:'1.0-0'}}đ/{{item?.Giagoc[0]?.khoiluong}}{{item?.Giagoc[0]?.dvt}}</span>
+                    </div>
+                  </div>           
+              </div> 
+          </div>
               }
             </swiper-slide>
             }
