@@ -16,6 +16,7 @@ import { FormsModule } from '@angular/forms';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSelectModule } from '@angular/material/select';
 import {MatChipsModule} from '@angular/material/chips';
+import { SanphamblockComponent } from 'fe_shop/src/app/sanpham/sanphamblock/sanphamblock.component';
 @Component({
   selector: 'app-list-sanpham',
   standalone:true,
@@ -28,7 +29,8 @@ import {MatChipsModule} from '@angular/material/chips';
     MatCheckboxModule,
     MatPaginatorModule,
     MatSelectModule,
-    MatChipsModule
+    MatChipsModule,
+    SanphamblockComponent
   ],
   templateUrl: './list-sanpham.component.html',
   styleUrls: ['./list-sanpham.component.css']

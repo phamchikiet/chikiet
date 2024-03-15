@@ -5,6 +5,7 @@ import { GiohangService } from '../giohang/giohang.service';
 import Swiper, { Pagination } from 'swiper';
 import { MatButtonModule } from '@angular/material/button';
 import { MatSnackBar } from '@angular/material/snack-bar';
+import { SanphamblockComponent } from 'fe_shop/src/app/sanpham/sanphamblock/sanphamblock.component';
 
 @Component({
   selector: 'app-slide-sanpham',
@@ -12,7 +13,8 @@ import { MatSnackBar } from '@angular/material/snack-bar';
   imports:[
     NgOptimizedImage,
     DecimalPipe,
-    MatButtonModule
+    MatButtonModule,
+    SanphamblockComponent
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   templateUrl: './slide-sanpham.component.html',

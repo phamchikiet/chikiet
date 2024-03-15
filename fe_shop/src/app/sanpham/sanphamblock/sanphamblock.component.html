@@ -1,0 +1,33 @@
+<div class="flex flex-col space-y-2 p-2">
+  <a href="san-pham/{{Detail.Slug}}" class="z-10 grid grid-cols-1 border rounded-lg p-3 bg-white">
+    @if(Detail && Detail.Image&&Detail.Image.Main)
+    {
+    <img src="assets/images/sanpham/{{Detail.Image.Main}}" class="w-full">
+    }
+    @else if(Detail && Detail.Image&&Detail.Image.Hinhchinh&&Detail.Image.Hinhchinh.src){
+    <img src="{{Detail.Image.Hinhchinh.src}}" class="w-full">
+    }
+    @else if(Detail && Detail.Image&&Detail.Image.Hinhchinh&&Detail.Image.Hinhchinh.src){
+    <img src="assets/images/noimage.png" class="p-3 w-full mx-auto rounded-lg">
+    }
+    <div (click)="AddtoCart(Detail);$event.preventDefault()"
+      class="z-20 flex flex-row space-x-2 justify-end Details-end">
+      <span
+        class="z-10 material-symbols-outlined rounded-lg p-2 bg-primary text-white hover:bg-[#e8686c]">shopping_cart</span>
+    </div>
+  </a>
+  <div class="flex flex-col space-y-1 justify-start">
+  <span class="text-base font-bold line-clamp-1">{{Detail.Title}}</span>
+  <!-- <p class="text-gray-400 text-[13px] line-clamp-2" [innerHTML]="Detail.Mota"></p> -->
+  <div class="flex flex-row items-center">
+    <span class="text-[#57A345] font-bold text-base"> {{Detail?.Giagoc[0]?.gia| number:'1.0-0'}}đ</span>
+     <span>/{{Detail?.Giagoc[0]?.khoiluong}}{{Detail?.Giagoc[0]?.dvt}}</span>
+      <!-- <div class="relative p-4">
+        //<img src="assets/images/pricetag.svg" class="h-8">
+        <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex flex-row">
+          <span class="text-white font-bold"> {{Detail?.Giagoc[0]?.gia| number:'1.0-0'}}đ/{{Detail?.Giagoc[0]?.khoiluong}}{{Detail?.Giagoc[0]?.dvt}}</span>
+        </div>
+      </div>            -->
+  </div> 
+  </div>
+</div>

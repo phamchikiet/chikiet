@@ -1,0 +1,143 @@
+
+@if (Lists?.items?.length>0)
+{
+  @if (Type=='DOC') {
+    <div class="w-72 border rounded-xl">
+      <div class="p-2 rounded-lg bg-[#57A345] text-white text-center font-bold text-lg">{{Title}}</div>
+      <div class="flex flex-col space-y-2 justify-center mx-2 py-4">
+      @for (item of LitmitSanpham(Lists?.items,4); track $index) {
+       <a href="san-pham/{{item.Slug}}" class="cursor-pointer flex flex-row space-x-2">
+        <div class="grid grid-cols-1 bg-white">
+          @if(item && item.Image&&item.Image.Main)
+          {
+          <img src="assets/images/sanpham/{{item.Image.Main}}" class="w-20">
+          }
+          @else if(item && item.Image&&item.Image.Hinhchinh&&item.Image.Hinhchinh.src){
+          <img src="{{item.Image.Hinhchinh.src}}" class="w-20">
+          }
+          @else if(item && item.Image&&item.Image.Hinhchinh&&item.Image.Hinhchinh.src){
+          <img src="assets/images/noimage.png" class="p-3 w-20 mx-auto">
+          }
+        </div>
+        <div class="flex flex-col">
+          <span>{{item.Title}}</span>
+          <div class="flex flex-row">
+            <span class="font-semibold text-md inline-flex text-[#57A345]">
+              {{item?.Giagoc[0]?.gia| number:'1.0-0'}}đ </span>
+  
+              <span> /{{item?.Giagoc[0]?.khoiluong}}{{item?.Giagoc[0]?.dvt}}</span>
+          </div>
+        </div> 
+      </a>
+   
+      }
+    </div>
+    </div>
+  }
+  @else {
+    <section class="grid grid-cols-1 relative py-8">
+      <div class="my-4 flex flex-row justify-between items-center  border-b">
+        <h2 class="!text-base font-bold !mb-0 px-4 py-2 bg-[#57A345] text-white rounded-tr-3xl">
+          {{Title}}
+        </h2>
+      </div>
+      <div class="lg:flex hidden flex-col space-y-3 w-full col-span-4">
+        <div>
+          <swiper-container slides-per-view="4" speed="1000" delay="1 0" autoplay="true" loop="true" pagination="false" space-between="20">
+            @for (items of FilterLists; track $index) {
+            <swiper-slide class="flex flex-col space-y-2 justify-between">
+              @for (item of items; track $index) {
+              <a href="san-pham/{{item.Slug}}" class="z-10 grid grid-cols-1 border rounded-lg p-3 bg-white">
+                @if(item && item.Image&&item.Image.Main)
+                {
+                <img src="assets/images/sanpham/{{item.Image.Main}}" class="w-full">
+                }
+                @else if(item && item.Image&&item.Image.Hinhchinh&&item.Image.Hinhchinh.src){
+                <img src="{{item.Image.Hinhchinh.src}}" class="w-full">
+                }
+                @else if(item && item.Image&&item.Image.Hinhchinh&&item.Image.Hinhchinh.src){
+                <img src="assets/images/noimage.png" class="p-3 w-full mx-auto rounded-lg">
+                }
+                <div (click)="AddtoCart(item);$event.preventDefault()"
+                  class="z-20 flex flex-row space-x-2 justify-end items-end">
+                  <span
+                    class="z-10 material-symbols-outlined rounded-lg p-2 bg-[#57A345] text-white hover:bg-[#afe8a2]">shopping_cart</span>
+                </div>
+              </a>
+              <div class="flex flex-col justify-center">
+              <span class="text-base text-center font-bold line-clamp-1">{{item.Title}}</span>
+              <!-- <p class="text-gray-400 text-[13px] line-clamp-2" [innerHTML]="item.Mota"></p> -->
+              <div class="flex flex-row justify-center">
+                  <div class="relative p-4">
+                    <img src="assets/images/pricetag.svg" class="h-8">
+                    <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex flex-row">
+                      <span class="text-white font-bold"> {{item?.Giagoc[0]?.gia| number:'1.0-0'}}đ/{{item?.Giagoc[0]?.khoiluong}}{{item?.Giagoc[0]?.dvt}}</span>
+                    </div>
+                  </div>           
+              </div> 
+          </div>
+              }
+            </swiper-slide>
+            }
+          </swiper-container>
+          <div class="swiper-pagination" slot="pagination"></div>
+        </div>
+      </div>
+
+      <div class="lg:hidden flex flex-col space-y-3 w-full col-span-4">
+        <div>
+          <swiper-container slides-per-view="2" speed="1000" delay="1 0" autoplay="true" loop="true" pagination="false" space-between="20">
+            @for (items of FilterLists; track $index) {
+            <swiper-slide class="flex flex-col space-y-2 justify-between">
+              @for (item of items; track $index) {
+              <a href="san-pham/{{item.Slug}}" class="z-10 grid grid-cols-1 border rounded-lg p-3 bg-white">
+                @if(item && item.Image&&item.Image.Main)
+                {
+                <img src="assets/images/sanpham/{{item.Image.Main}}" class="w-full">
+                }
+                @else if(item && item.Image&&item.Image.Hinhchinh&&item.Image.Hinhchinh.src){
+                <img src="{{item.Image.Hinhchinh.src}}" class="w-full">
+                }
+                @else if(item && item.Image&&item.Image.Hinhchinh&&item.Image.Hinhchinh.src){
+                <img src="assets/images/noimage.png" class="p-3 w-full mx-auto rounded-lg">
+                }
+                <div (click)="AddtoCart(item);$event.preventDefault()"
+                  class="z-20 flex flex-row space-x-2 justify-end items-end">
+                  <span
+                    class="z-10 material-symbols-outlined rounded-lg p-2 bg-[#57A345] text-white hover:bg-[#afe8a2]">shopping_cart</span>
+                </div>
+              </a>
+              <div class="flex flex-col justify-center">
+              <span class="text-base text-center font-bold line-clamp-1">{{item.Title}}</span>
+              <!-- <p class="text-gray-400 text-[13px] line-clamp-2" [innerHTML]="item.Mota"></p> -->
+              <div class="flex flex-row justify-center">
+                  <div class="relative p-4">
+                    <img src="assets/images/pricetag.svg" class="h-8">
+                    <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex flex-row">
+                      <span class="text-white font-bold"> {{item?.Giagoc[0]?.gia| number:'1.0-0'}}đ/{{item?.Giagoc[0]?.khoiluong}}{{item?.Giagoc[0]?.dvt}}</span>
+                    </div>
+                  </div>           
+              </div> 
+             </div>
+              }
+            </swiper-slide>
+            }
+          </swiper-container>
+          <div class="swiper-pagination" slot="pagination"></div>
+        </div>
+      </div>
+      <div class="flex text-center py-3 justify-center ">
+        <!-- <button mat-stroked-button>
+          <a href="danh-muc/cac-loai-nam" class="text-primary font-bold">Xem Tất Cả ></a>
+        </button> -->
+        @if (Soluong!=999) {
+          <a href="danh-muc/cac-loai-nam"
+          class="bottom-2.5 bg-white font-bold text-[#57A345] border-2 border-[#57A345] hover:bg-[#57A345] hover:text-white focus:ring-4 focus:outline-none rounded-lg text-sm px-4 py-2">
+          Xem Tất Cả >
+        </a>
+        }
+      </div>
+    </section>
+  }
+  
+}
