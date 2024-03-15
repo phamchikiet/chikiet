@@ -7,7 +7,8 @@ import { ActivatedRoute, Router } from '@angular/router';
 import { NotifierService } from 'angular-notifier';
 import { DiaChiInit } from 'fe_shop/src/app/shared/diachi';
 import { GenId } from 'fe_shop/src/app/shared/shared.utils';
-import {MatAutocompleteModule} from '@angular/material/autocomplete';import { CommonModule } from '@angular/common';
+import {MatAutocompleteModule} from '@angular/material/autocomplete';
+import { CommonModule } from '@angular/common';
 import { MatButtonModule } from '@angular/material/button';
 ;
 @Component({

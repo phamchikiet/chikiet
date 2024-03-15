@@ -24,6 +24,7 @@ import { FormsModule } from '@angular/forms';
 import { MatButtonModule } from '@angular/material/button';
 import {MatIconModule} from '@angular/material/icon';
 import { SanphamService } from '../../admin/main-admin/sanpham/sanpham.service';
+import { MatSnackBar } from '@angular/material/snack-bar';
 @Component({
   selector: 'app-header',
   standalone: true,
@@ -102,7 +103,8 @@ export class HeaderComponent implements OnInit {
   Today:any= new Date()
   Timkiems:any=[]
   constructor(
-    private dialog:MatDialog
+    private dialog:MatDialog,
+    private _snackBar:MatSnackBar,
   ) {
     this._AppService.isDarkTheme$.subscribe(isDarkTheme => {
       document.body.classList.toggle('dark', isDarkTheme);
@@ -190,5 +192,22 @@ export class HeaderComponent implements OnInit {
     else {
       this.Timkiems = []
     }
+  }
+  AddtoCart(data:any)
+  { 
+    let item:any={}
+    item = data
+    item.Giachon = data.Giagoc[0]
+    item.Giachon.SLTT = data.Giagoc[0].khoiluong
+    item.Soluong=1    
+    this._GiohangService.addToCart(item).then(()=>
+    {
+      this._snackBar.open('Thêm Vào Giỏ Hàng Thành Công','',{
+        horizontalPosition: "end",
+        verticalPosition: "top",
+        panelClass:'success',
+        duration: 1000,
+      });
+    })
   }
 }

@@ -22,6 +22,7 @@ import { MenuService } from '../menu.service';
 import { HttpClient } from '@angular/common/http';
 import { FlatTreeControl } from '@angular/cdk/tree';
 import { MatTreeFlattener, MatTreeModule } from '@angular/material/tree';
+import { MatAutocompleteModule } from '@angular/material/autocomplete';
 @Component({
   selector: 'app-menu',
   standalone: true,
@@ -39,7 +40,8 @@ import { MatTreeFlattener, MatTreeModule } from '@angular/material/tree';
     ButtonModule,
     MatSelectModule,
     MatBadgeModule,
-    MatTreeModule
+    MatTreeModule,
+    MatAutocompleteModule
   ],
   providers: [
     {
@@ -54,8 +56,8 @@ import { MatTreeFlattener, MatTreeModule } from '@angular/material/tree';
 export class MenuAdminComponent implements OnInit {
   Detail: any = {};
   Lists: any = {}
+  ChonMenu: any = {}
   SelectItem: any = {}
-  ListDanhmuc: any = []
   FilterLists: any[] = []
   pageSizeOptions: any[] = [5]
   Sitemap: any = { loc: '', priority: '' }
@@ -105,16 +107,29 @@ export class MenuAdminComponent implements OnInit {
       if (data) {
         console.log(data);
         
-        this.FilterLists =data
+        this.Lists = this.FilterLists =data
         this.dataSource = data
       }
     })
-    this.Lists = await this._MenuService.SearchMenu(this.SearchParams)
-    this.ListDanhmuc = await this._DanhmucService.getAllDanhmuc()
+   // this.Lists = await this._MenuService.SearchMenu(this.SearchParams)
    // this.FilterLists = this.Lists.items
   //  this.pageSizeOptions = [10, 20, this.Lists.totalCount].filter(v => v <= this.Lists.totalCount);
   }
 
+  displayFn(data: any): string {    
+    return data && data.Title ? data.Title : '';
+  }
+  FilterAuto(item: any) {   
+    const value = (item.target as HTMLInputElement).value;
+    this.FilterLists = this.Lists.filter((v:any) => v.Title.toLowerCase().includes(value.toLowerCase()));         
+  }
+  onAutoChange(item: any) {   
+    console.log(item);
+    
+    this.Detail.pid = item.id   
+    console.log(this.Detail);
+       
+  }
   async LoadDrive()
   {
    const data =  await this._MenuService.getDrive();    
@@ -142,7 +157,7 @@ export class MenuAdminComponent implements OnInit {
     } 
   }
   GetTenDanhmuc(item: any) {
-    return this.ListDanhmuc.find((v: any) => v.id_cat == item)?.Title
+    return this.Lists.find((v: any) => v.id_cat == item)?.Title
   }
   ChangeStatus(item: any, type: any) {
     item[type] = item[type] == 0 ? 1 : 0
@@ -185,7 +200,10 @@ export class MenuAdminComponent implements OnInit {
     });
     dialogRef.afterClosed().subscribe((result) => {
       if (result == 'true') {
-        this._MenuService.DeleteMenu(this.SelectItem).then(() => this.ngOnInit())
+        this._MenuService.DeleteMenu(this.SelectItem).then(() =>{
+          this.Detail ={}
+          this.ngOnInit()
+        } )
       }
     });
   }

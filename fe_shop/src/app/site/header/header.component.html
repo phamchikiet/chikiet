@@ -3,7 +3,7 @@
         <a href="/" class="bg-white rounded-full !border-0 px-4 py-1">
             <!-- <img src="/assets/images/logo.webp" class="lg:h-12 h-10"> -->
             <img src="/assets/images/logo-full.png" class="lg:h-10 h-8">
-            
+
         </a>
         <div class="hidden lg:flex flex-row space-x-3 text-white">
             @for(item of Menus; track item.id) {
@@ -70,7 +70,7 @@
         <div class="flex flex-row space-x-1 items-center">
             <div class="relative" (click)="TimkiemDialog(dialogTimkiem)">
 
-                <input 
+                <input
                     class="hidden lg:block w-48 py-2 px-4 pe-10 text-sm 
             text-gray-900 border border-gray-300 rounded-full bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
                     placeholder="Tìm Kiếm" />
@@ -186,8 +186,7 @@
         </ng-template>
     </p-sidebar>
     <ng-template #dialogTimkiem>
-        <div
-            class="lg:w-[40vw] lg:h-[60vh] h-[90vh] w-[90vw] flex flex-col justify-between space-y-2 lg:p-8 p-3 divide-y">
+        <div class="h-[90vh] w-[90vw] flex flex-col justify-between space-y-2 lg:p-8 p-3 divide-y">
             <div class="relative flex flex-col">
                 <mat-form-field appearance="outline" class="w-full">
                     <input matInput (input)="DoSearch($event)" placeholder="Tìm Kiếm">
@@ -196,13 +195,47 @@
             </div>
             <div class="relative flex flex-col space-y-2 h-full w-full overflow-auto p-3">
                 @if(Timkiems.length>0){
-                @for (item of Timkiems; track $index) {
-                <a href="san-pham/{{item.Slug}}" class="p-2 rounded-lg bg-slate-50 hover:bg-primary hover:text-white">
-                    <span>{{item.Title}}</span>
-                </a>
-                }
+                <div class="grid lg:grid-cols-4 grid-cols-1 gap-8 justify-between">
+                    @for (item of Timkiems; track $index) {
+                    <div class="flex flex-col space-y-2">
+                        <a href="san-pham/{{item.Slug}}" class="z-10 grid grid-cols-1 border rounded-lg p-3 bg-white">
+                            @if(item && item.Image&&item.Image.Main)
+                            {
+                            <img src="assets/images/sanpham/{{item.Image.Main}}" class="w-full">
+                            }
+                            @else if(item && item.Image&&item.Image.Hinhchinh&&item.Image.Hinhchinh.src){
+                            <img src="{{item.Image.Hinhchinh.src}}" class="w-full">
+                            }
+                            @else if(item && item.Image&&item.Image.Hinhchinh&&item.Image.Hinhchinh.src){
+                            <img src="assets/images/noimage.png" class="p-3 w-full mx-auto rounded-lg">
+                            }
+                            <div (click)="AddtoCart(item);$event.preventDefault()"
+                                class="z-20 flex flex-row space-x-2 justify-end items-end">
+                                <span
+                                    class="z-10 material-symbols-outlined rounded-lg p-2 bg-[#57A345] text-white hover:bg-[#afe8a2]">shopping_cart</span>
+                            </div>
+                        </a>
+                        <div class="flex flex-col justify-center">
+                            <span class="text-base text-center font-bold line-clamp-1">{{item.Title}}</span>
+                            <!-- <p class="text-gray-400 text-[13px] line-clamp-2" [innerHTML]="item.Mota"></p> -->
+                            <div class="flex flex-row justify-center">
+                                <div class="relative p-4">
+                                    <img src="assets/images/pricetag.svg" class="h-8">
+                                    <div
+                                        class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex flex-row">
+                                        <span class="text-white font-bold"> {{item?.Giagoc[0]?.gia|
+                                            number:'1.0-0'}}đ/{{item?.Giagoc[0]?.khoiluong}}{{item?.Giagoc[0]?.dvt}}</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    }
+
+                </div>
                 }
                 @else{
+
                 <span class="text-center font-bold">Không tìm thấy kết quả</span>
                 }
             </div>
