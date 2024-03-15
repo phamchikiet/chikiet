@@ -56,7 +56,7 @@ import { MatAutocompleteModule } from '@angular/material/autocomplete';
 export class MenuAdminComponent implements OnInit {
   Detail: any = {};
   Lists: any = {}
-  ChonMenu: any = {}
+  ChooseMenuCha: any = {}
   SelectItem: any = {}
   FilterLists: any[] = []
   pageSizeOptions: any[] = [5]
@@ -124,9 +124,11 @@ export class MenuAdminComponent implements OnInit {
     this.FilterLists = this.Lists.filter((v:any) => v.Title.toLowerCase().includes(value.toLowerCase()));         
   }
   onAutoChange(item: any) {   
-    console.log(item);
-    
     this.Detail.pid = item.id   
+    console.log(this.ChooseMenuCha);
+    
+    console.log(item);
+    console.log(this.Detail.Slug);
     console.log(this.Detail);
        
   }

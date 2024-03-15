@@ -137,16 +137,10 @@
           <mat-label>Slug</mat-label>
           <input matInput [(ngModel)]="Detail.Slug" [ngModelOptions]="{standalone: true}" placeholder="Oldlink">
         </mat-form-field>
-        <mat-form-field appearance="outline">
-          <mat-label>Danh Mục</mat-label>
-          <mat-select [(ngModel)]="Detail.cat_id" [ngModelOptions]="{standalone: true}">
-            <mat-option [value]="item.id" *ngFor="let item of Lists">{{item.Title}}</mat-option>
-          </mat-select>
-        </mat-form-field>
-
         <mat-form-field class="w-full" appearance="outline">
           <mat-label>Menu Cha</mat-label>
-          <input type="text" matInput placeholder="Chọn Menu" (input)="FilterAuto($event)" (change)="onAutoChange($event)" [matAutocomplete]="autoComplete">
+          <input type="text" matInput placeholder="Chọn Menu" (input)="FilterAuto($event)" [(ngModel)]="ChooseMenuCha" [ngModelOptions]="{standalone: true}"
+           (ngModelChange)="onAutoChange($event)" [matAutocomplete]="autoComplete">
           <mat-autocomplete #autoComplete="matAutocomplete" [displayWith]="displayFn">
             <mat-option *ngFor="let option of FilterLists" [value]="option">
               {{ option.Title }}
