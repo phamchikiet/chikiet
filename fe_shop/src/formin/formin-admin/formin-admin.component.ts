@@ -19,7 +19,7 @@ import { MatButtonModule } from '@angular/material/button';
 export class ForminAdminComponent implements OnInit {
   @Input() Donhang: any = {}
   @Input() Tongthucte: any = 0
-  @Input() Taikhoan: any = { STK: '9199217', TenTK: "TRAN HUU LANH", TenNH: "Ngân hàng TMCP Á Châu (ACB)" }
+  @Input() Taikhoan: any = { STK: '194061552', TenTK: "Công ty TNHH Nông Sản Thực Phẩm Trần Gia", TenNH: "Ngân hàng Thương mại cổ phần Việt Nam Thịnh Vượng (VPBANK)" }
   @Input() isShowAction: boolean = false
   @Input() Type:any='KHACHHANG'
   @ViewChild('exportPDF') exportPDF!: ElementRef;
