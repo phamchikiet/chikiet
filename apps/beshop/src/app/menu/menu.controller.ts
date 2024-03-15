@@ -7,8 +7,8 @@ export class MenuController {
   constructor(private readonly menuService:MenuService) {}
 
   @Post()
-  create(@Body() createMenuDto: CreateMenuDto) {
-    return this.menuService.create(createMenuDto);
+  create(@Body() data: any) {
+    return this.menuService.create(data);
   }
   @Get()
   async findAll() {
@@ -22,17 +22,13 @@ export class MenuController {
   async findslug(@Param('slug') slug: string) {
     return await this.menuService.findslug(slug);
   }
-  @Get('pagination')
-  async findPagination(@Query('page') page: number,@Query('perPage') perPage: number){
-       return await this.menuService.findPagination(page,perPage);
-    }
-  @Get('findquery')
-    async findQuery(@Query('query') query: string){
-      return await this.menuService.findQuery(query);
+  @Post('search')
+    async findQuery(@Body() SearchParams: any){
+      return await this.menuService.findQuery(SearchParams);
   }
   @Patch(':id')
-  update(@Param('id') id: string, @Body() updateMenuDto: UpdateMenuDto) {
-    return this.menuService.update(id, updateMenuDto);
+  update(@Param('id') id: string, @Body() data: any) {
+    return this.menuService.update(id, data);
   }
 
   @Delete(':id')
