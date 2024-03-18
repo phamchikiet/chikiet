@@ -3,12 +3,16 @@ import { SanphamService } from '../../admin/main-admin/sanpham/sanpham.service';
 import { GiohangService } from '../../admin/main-admin/website/giohang/giohang.service';
 import { MatSnackBar } from '@angular/material/snack-bar';
 import { CommonModule } from '@angular/common';
-
+import { MatTooltipModule } from '@angular/material/tooltip';
+import { ImagetooltipComponent } from '../../shared/imagetooltip/imagetooltip.component';
+import { ImagetooltipDirective } from '../../shared/imagetooltip/imagetooltip.directive';
 @Component({
   selector: 'app-sanphamblock',
   standalone:true,
   imports:[
-    CommonModule
+    CommonModule,
+    MatTooltipModule,
+    ImagetooltipComponent,
   ],
   templateUrl: './sanphamblock.component.html',
   styleUrls: ['./sanphamblock.component.css']
