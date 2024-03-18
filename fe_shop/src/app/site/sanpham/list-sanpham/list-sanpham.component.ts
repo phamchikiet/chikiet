@@ -167,7 +167,7 @@ RemoveFilter(item:any)
 
   async applyFilter(event: Event) {
     const value = (event.target as HTMLInputElement).value;
-    if (value.length > 2) {
+    if (value.length > 1) {
       this.SearchParams.Query=value
       this.ListSanpham = await this._SanphamService.SearchSanpham(this.SearchParams)
       this.FilterSanpham = this.ListSanpham.items

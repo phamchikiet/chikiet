@@ -76,7 +76,7 @@ export class DanhmucComponent implements OnInit {
   }
   applyFilter(event: Event) {
     const value = (event.target as HTMLInputElement).value;
-    if (value.length > 2) {
+    if (value.length > 1) {
       this.FilterLists = this.Lists.items.filter((v:any) => {
      return  v.Hoten.toLowerCase().includes(value)||v.SDT.toLowerCase().includes(value)
        })

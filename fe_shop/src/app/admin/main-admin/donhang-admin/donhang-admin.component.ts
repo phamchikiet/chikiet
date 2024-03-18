@@ -110,7 +110,7 @@ dataSource!: MatTableDataSource<any>;
   }
   applyFilter(event: Event) {
     const value = (event.target as HTMLInputElement).value;
-    if (value.length > 2) {
+    if (value.length > 1) {
       this.FilterLists = this.Lists.items.filter((v:any) => {
      return  v.MaDonHang.toLowerCase().includes(value.toLowerCase())
      ||v.Khachhang?.SDT?.toLowerCase().includes(value.toLowerCase())

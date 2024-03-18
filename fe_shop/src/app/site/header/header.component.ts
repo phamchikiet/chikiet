@@ -186,7 +186,7 @@ export class HeaderComponent implements OnInit {
   }
   async DoSearch(event: Event) {
     const value = (event.target as HTMLInputElement).value;
-    if (value.length > 2) {
+    if (value.length > 1) {
       const Sanpham = await this._SanphamService.SearchSanpham({Query:value})
       console.log(Sanpham);
       this.Timkiems = Sanpham.items
