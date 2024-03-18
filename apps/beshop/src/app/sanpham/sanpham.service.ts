@@ -109,14 +109,16 @@ export class SanphamService {
       }
     }
     queryBuilder.orderBy('sanpham.CreateAt', 'DESC');
-    const [items, totalCount] = await queryBuilder
+    let [items, totalCount] = await queryBuilder
     .limit(params.pageSize || 10) // Set a default page size if not provided
     .offset(params.pageNumber * params.pageSize || 0)
     .getManyAndCount();
     const Danhmuc = await this._DanhmucService.findAll()
-    items.forEach((v)=>{
-      v.Danhmuc = Danhmuc.find((v1:any)=>v1.id_cat ==v.id_cat)?.Title
+    items.forEach((v:any)=>{
+      v.Danhmuc = Danhmuc.find((v1:any)=>v1.id ==v.idDM)?.Title
+      v.DMOrdering = Danhmuc.find((v1:any)=>v1.id ==v.idDM)?.Ordering
     })
+    items.sort((a:any,b:any)=>b.DMOrdering - a.DMOrdering)
   return { items, totalCount };
   }
   async update(id: string, data: any) {
