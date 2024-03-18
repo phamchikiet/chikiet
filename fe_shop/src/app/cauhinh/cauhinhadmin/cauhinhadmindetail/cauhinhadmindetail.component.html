@@ -16,6 +16,9 @@
       @if(Detail.Slug=="cau-hinh-email"){
         <app-cauhinhemail [Dulieu]="Detail.Dulieu" (UploadDulieu)="GetDulieu($event)"></app-cauhinhemail>
       }
+      @if(Detail.Slug=="footer"){
+       <app-cauhinhfooter [Dulieu]="Detail.Dulieu" (UploadDulieu)="GetDulieu($event)"></app-cauhinhfooter>
+      }
     </div>
   </div>
 </div>

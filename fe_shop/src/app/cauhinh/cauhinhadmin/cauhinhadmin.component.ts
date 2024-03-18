@@ -70,6 +70,7 @@ export class CauhinhadminComponent implements OnInit {
     return {
       expandable: !!node.children && node.children.length > 0,
       Title: node.Title,
+      Slug: node.Slug,
       id: node.id,
       level: level,
     };

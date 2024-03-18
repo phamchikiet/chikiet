@@ -77,6 +77,8 @@ dataSource!: MatTableDataSource<any>;
     this.FilterLists = this.Lists.items
     this.pageSizeOptions = [10, 20, this.Lists.totalCount].filter(v => v < this.Lists.totalCount);
     this.dataSource = new MatTableDataSource(this.FilterLists);
+    console.log(this.FilterLists);
+    
     this.dataSource.sortingDataAccessor = (item, property) => {
       switch(property) {
         case 'Diachi': return item.Giohangs.Khachhang.Diachi;

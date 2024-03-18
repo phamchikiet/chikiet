@@ -97,7 +97,9 @@
                   </ng-container>
                   <ng-container matColumnDef="Total">
                     <th class="whitespace-nowrap" mat-header-cell *matHeaderCellDef mat-sort-header> Tổng Tiền </th>
-                    <td mat-cell *matCellDef="let row" class="p-2"> {{(row?.Giohangs?.Total| number:'1.0-0')||'0'}}đ </td>
+                    <td mat-cell *matCellDef="let row" class="p-2 !text-right"> 
+                      <span>{{(row?.Total| number:'1.0-0')||'0'}}đ </span>
+                    </td>
                   </ng-container>
                   <ng-container matColumnDef="Diachi">
                     <th class="whitespace-nowrap" mat-header-cell *matHeaderCellDef mat-sort-header> Địa Chỉ </th>

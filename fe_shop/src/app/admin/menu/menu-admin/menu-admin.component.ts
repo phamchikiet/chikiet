@@ -123,14 +123,15 @@ export class MenuAdminComponent implements OnInit {
     const value = (item.target as HTMLInputElement).value;
     this.FilterLists = this.Lists.filter((v:any) => v.Title.toLowerCase().includes(value.toLowerCase()));         
   }
+  FillSlug() {
+    this.Detail.Slug = this.ChooseMenuCha.Slug?this.ChooseMenuCha.Slug +'/'+ convertToSlug(this.Detail.Title): convertToSlug(this.Detail.Title)
+  }
   onAutoChange(item: any) {   
     this.Detail.pid = item.id   
-    console.log(this.ChooseMenuCha);
-    
+    this.Detail.Slug =  this.Detail.Slug?`${item.Slug}/${this.Detail.Slug}`:''    
     console.log(item);
     console.log(this.Detail.Slug);
-    console.log(this.Detail);
-       
+    console.log(this.Detail);    
   }
   async LoadDrive()
   {
@@ -208,9 +209,6 @@ export class MenuAdminComponent implements OnInit {
         } )
       }
     });
-  }
-  FillSlug() {
-    this.Detail.Slug = convertToSlug(this.Detail.Title)
   }
   readExcelFile(event: any) {
     const file = event.target.files[0];

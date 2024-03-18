@@ -18,6 +18,7 @@ import { CauhinhadminComponent } from '../cauhinhadmin.component';
 import { DanhmucService } from 'fe_shop/src/app/admin/main-admin/danhmuc/danhmuc.service';
 import { CauhinhService } from '../../cauhinh.service';
 import { CauhinhemailComponent } from '../cauhinhemail/cauhinhemail.component';
+import { CauhinhfooterComponent } from '../cauhinhfooter/cauhinhfooter.component';
 interface AutoCompleteCompleteEvent {
   originalEvent: Event;
   query: string;
@@ -40,7 +41,8 @@ interface AutoCompleteCompleteEvent {
     NgxDropzoneModule,
     HinhanhComponent,
     EditorModule,
-    CauhinhemailComponent    
+    CauhinhemailComponent,
+    CauhinhfooterComponent 
   ],
   templateUrl: './cauhinhadmindetail.component.html',
   styleUrls: ['./cauhinhadmindetail.component.css']
@@ -60,6 +62,8 @@ export class CauhinhadmindetailComponent implements OnInit {
   async ngOnInit() {
     if(this.idSP)
     {
+      console.log(this.idSP);
+      
     this.Detail = await this._CauhinhService.getCauhinhByid(this.idSP)
     this.Danhmuc = await this._DanhmucService.getAllDanhmuc()
     console.log(this.Detail);  
