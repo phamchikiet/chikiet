@@ -96,8 +96,11 @@ export class ListSanphamComponent implements OnInit {
     this.FilterSanpham = this.ListSanpham.items
     this.FilterDanhmuc = this.ListDanhmuc.items.map((v:any)=>({...v,isChecked:false}))
    // this.pageSizeOptions = [10, 20, this.ListSanpham.totalCount].filter(v => v <= this.ListSanpham.totalCount);
-    console.log(this.FilterSanpham.map((v)=>({Title:v.Title,Danhmuc:v.DMOrdering})).slice(0,8));
-    this.FilterSanpham.sort((a:any,b:any)=> Number(a.DMOrdering) - Number(b.DMOrdering))
+    console.log(this.FilterSanpham);
+    // console.log(this.FilterSanpham.map((v)=>({MaSP:v.MaSP,id:v.id,Title:v.Title,Danhmuc:v.DMOrdering})).sort((a:any,b:any)=> Number(a.DMOrdering)||0 - Number(b.DMOrdering)||0));
+    this.FilterSanpham.sort((a:any,b:any)=> Number(a.DMOrdering)||0 - Number(b.DMOrdering)||0)
+    console.log();
+    
     const Slug = this.route.snapshot.params['slug'];
     if(Slug)
     {

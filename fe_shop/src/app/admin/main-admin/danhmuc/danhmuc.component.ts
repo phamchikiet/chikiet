@@ -43,7 +43,7 @@ export class DanhmucComponent implements OnInit {
   SearchParams: any = {
     // Batdau:moment().startOf('day').add(-1,'day').toDate(),
     // Ketthuc: moment().endOf('day').toDate(),
-    pageSize:10,
+    pageSize:99,
     pageNumber:0
   };
   _DanhmucService:DanhmucService = inject(DanhmucService)
@@ -57,10 +57,13 @@ export class DanhmucComponent implements OnInit {
    this.Lists = await this._DanhmucService.SearchDanhmuc(this.SearchParams)
    this._DanhmucService.danhmucs$.subscribe((data)=>
    {
-    if(data){this.FilterLists = data}
+    if(data){
+      this.FilterLists = data
+      this.FilterLists.sort((a:any,b:any)=>a.Ordering - b.Ordering)
+    }
    })
    //this.FilterLists = this.Lists.items
-   // console.log(this.Lists);
+   console.log(this.Lists);
      
   }
   async onPageChange(event:any)

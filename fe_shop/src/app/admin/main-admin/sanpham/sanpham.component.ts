@@ -105,7 +105,7 @@ export class SanphamComponent implements OnInit {
       Title: row[1],
       Slug:convertToSlug(row[1]),
       Danhmuc: row[2],
-      //id_cat:row[6],
+      idDM:row[6],
       GiaCoSo: Number(row[3].replace(".", "")),
       Giagoc:[{
         MaSP:row[0]+'-1',
