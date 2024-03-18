@@ -75,6 +75,9 @@
                       Tên Danh Mục
                     </th>
                     <th scope="col" class="p-4 text-xs font-medium text-left text-gray-500 uppercase lg:p-5">
+                      Thứ Tự
+                    </th>
+                    <th scope="col" class="p-4 text-xs font-medium text-left text-gray-500 uppercase lg:p-5">
                       Trạng Thái
                     </th>
                     <th scope="col" class="p-4 text-xs font-medium text-left text-gray-500 uppercase lg:p-5">
@@ -102,6 +105,9 @@
                       <td class="p-4 text-sm font-normal text-gray-500 whitespace-nowrap lg:p-5">
                         <a routerLink="{{item.id}}" class="text-base font-semibold text-gray-900">{{item.Title}}</a>
                         <div class="text-sm font-normal text-gray-500">{{item.Slug}}</div>
+                      </td>
+                      <td class="p-4 text-sm font-normal text-gray-500 whitespace-nowrap lg:p-5">
+                        <div class="text-sm font-normal text-gray-500">{{item.Ordering}}</div>
                       </td>
                       <td class="p-4 text-base font-medium text-gray-900 whitespace-nowrap lg:p-5">
                         <div (click)="ChangeStatus(item,'Status')">

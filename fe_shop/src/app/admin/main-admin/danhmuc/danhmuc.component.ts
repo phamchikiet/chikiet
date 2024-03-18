@@ -55,8 +55,12 @@ export class DanhmucComponent implements OnInit {
   async ngOnInit(): Promise<void> {
 
    this.Lists = await this._DanhmucService.SearchDanhmuc(this.SearchParams)
-   this.FilterLists = this.Lists.items
-    console.log(this.Lists);
+   this._DanhmucService.danhmucs$.subscribe((data)=>
+   {
+    if(data){this.FilterLists = data}
+   })
+   //this.FilterLists = this.Lists.items
+   // console.log(this.Lists);
      
   }
   async onPageChange(event:any)
@@ -65,7 +69,7 @@ export class DanhmucComponent implements OnInit {
     this.SearchParams.pageSize=event.pageSize
      this.SearchParams.pageNumber=event.pageIndex
      this.Lists = await this._DanhmucService.SearchDanhmuc(this.SearchParams)
-     this.FilterLists = this.Lists.items
+    // this.FilterLists = this.Lists.items
   }
   applyFilter(event: Event) {
     const value = (event.target as HTMLInputElement).value;

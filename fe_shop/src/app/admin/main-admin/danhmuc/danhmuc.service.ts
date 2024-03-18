@@ -7,6 +7,12 @@ import { BehaviorSubject, map, Observable, switchMap, take } from 'rxjs';
 export class DanhmucService {
   private _danhmucs: BehaviorSubject<any[] | null> = new BehaviorSubject<any[] | null>(null);
   private _danhmuc: BehaviorSubject<any | null> = new BehaviorSubject<any | null>(null);
+  get danhmucs$(): Observable<any[] | null> {
+    return this._danhmucs.asObservable();
+  }
+  get danhmuc$(): Observable<any | null> {
+    return this._danhmuc.asObservable();
+  }
   constructor() {}
   async getAllDanhmuc() {
     try {
@@ -54,7 +60,8 @@ export class DanhmucService {
         body: JSON.stringify(SearchParams),
       };
           const response = await fetch(`${environment.APIURL}/danhmuc/search`,options);
-          const data = await response.json();                  
+          const data = await response.json();   
+          this._danhmucs.next(data.items)               
           return data;
       } catch (error) {
           return console.error(error);
@@ -77,6 +84,7 @@ export class DanhmucService {
       }
   }  
   async UpdateDanhmuc(item:any) {
+    const danhmucs:any = await this.danhmuc$.pipe(take(1)).toPromise();
     try {
         const options = {
             method:'PATCH',
@@ -86,7 +94,14 @@ export class DanhmucService {
             body: JSON.stringify(item),
           };
           const response = await fetch(`${environment.APIURL}/danhmuc/${item.id}`, options);
-          return await response.json();         
+          const data =  await response.json();   
+          this._danhmuc.next(data) 
+          const updatedanhmucs = danhmucs.map((v:any) =>
+            v.id === data.id ? data : v
+          );
+          this._danhmucs.next(updatedanhmucs);  
+          return data
+               
       } catch (error) {
           return console.error(error);
       }
