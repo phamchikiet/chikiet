@@ -43,7 +43,7 @@
       </div>
       <div class="lg:flex hidden flex-col space-y-3 w-full col-span-4">
         <div>
-          <swiper-container slides-per-view="4" speed="1000" delay="1 0" autoplay="true" loop="true" pagination="false" space-between="20">
+          <swiper-container slides-per-view="4" speed="1000" delay="1 0" autoplay="true" loop="true" pagination="false" space-between="0">
             @for (items of FilterLists; track $index) {
             <swiper-slide class="flex flex-col space-y-2 justify-between">
               @for (item of items; track $index) {
@@ -58,7 +58,7 @@
 
       <div class="lg:hidden flex flex-col space-y-3 w-full col-span-4">
         <div>
-          <swiper-container slides-per-view="2" speed="1000" delay="1 0" autoplay="true" loop="true" pagination="false" space-between="20">
+          <swiper-container slides-per-view="2" speed="1000" delay="1 0" autoplay="true" loop="true" pagination="false" space-between="0">
             @for (items of FilterLists; track $index) {
             <swiper-slide class="flex flex-col space-y-2 justify-between">
               @for (item of items; track $index) {
