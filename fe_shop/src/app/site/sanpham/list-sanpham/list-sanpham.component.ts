@@ -96,8 +96,8 @@ export class ListSanphamComponent implements OnInit {
     this.FilterSanpham = this.ListSanpham.items
     this.FilterDanhmuc = this.ListDanhmuc.items.map((v:any)=>({...v,isChecked:false}))
    // this.pageSizeOptions = [10, 20, this.ListSanpham.totalCount].filter(v => v <= this.ListSanpham.totalCount);
-    console.log(this.ListSanpham);
-    console.log(this.FilterDanhmuc);
+    console.log(this.FilterSanpham.map((v)=>({Title:v.Title,Danhmuc:v.DMOrdering})).slice(0,8));
+    this.FilterSanpham.sort((a:any,b:any)=> Number(a.DMOrdering) - Number(b.DMOrdering))
     const Slug = this.route.snapshot.params['slug'];
     if(Slug)
     {
@@ -124,12 +124,15 @@ export class ListSanphamComponent implements OnInit {
     {
       this.ListSanpham = await this._SanphamService.SearchSanpham(this.SearchParams)
       this.FilterSanpham = this.ListSanpham.items
+      console.log(this.FilterSanpham);
+      
     }
     else
     {
         delete this.SearchParams.Danhmuc
         this.ListSanpham = await this._SanphamService.SearchSanpham(this.SearchParams)
         this.FilterSanpham = this.ListSanpham.items
+        console.log(this.FilterSanpham);
     }
 }
 RemoveFilter(item:any)
@@ -139,9 +142,11 @@ RemoveFilter(item:any)
   async onChangeSorting(event: any) {
     switch (Number(event.target.value)) {
       case 2:
-        this.SearchParams.CreateAt = 'ASC'
-        this.ListSanpham = await this._SanphamService.SearchSanpham(this.SearchParams)
-        this.FilterSanpham = this.ListSanpham.items
+        // this.SearchParams.CreateAt = 'ASC'
+        // this.ListSanpham = await this._SanphamService.SearchSanpham(this.SearchParams)
+        // this.FilterSanpham = this.ListSanpham.items
+        this.FilterSanpham.sort((a:any,b:any)=> new Date(a.CreateAt).getTime() - new Date(b.CreateAt).getTime())
+       
         break;
       // case 3:
       //   this.SearchParams.CreateAt = 'ASC'
@@ -149,9 +154,10 @@ RemoveFilter(item:any)
       //   this.FilterSanpham = this.ListSanpham.items
       //   break;
       default:
-        this.SearchParams.CreateAt = 'DESC'
-        this.ListSanpham = await this._SanphamService.SearchSanpham(this.SearchParams)
-        this.FilterSanpham = this.ListSanpham.items
+        // this.SearchParams.CreateAt = 'DESC'
+        // this.ListSanpham = await this._SanphamService.SearchSanpham(this.SearchParams)
+        // this.FilterSanpham = this.ListSanpham.items
+        this.FilterSanpham.sort((a:any,b:any)=> new Date(b.CreateAt).getTime() - new Date(a.CreateAt).getTime())
         break;
     }
   }

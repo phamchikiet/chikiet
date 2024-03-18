@@ -361,7 +361,7 @@ export class GiohangService {
     {
         if (this.Donhang.hasOwnProperty('Khuyenmai')) {
             if (this.Donhang.Khuyenmai.Type.Value == 'phantram') {
-                this.Donhang.Giamgia = Number(this.Donhang.Khuyenmai.Value) / 100
+                this.Donhang.Giamgia = this.Donhang.SubTotal*(Number(this.Donhang.Khuyenmai.Value) / 100)
                 return this.Donhang.Giamgia
             }
             else {

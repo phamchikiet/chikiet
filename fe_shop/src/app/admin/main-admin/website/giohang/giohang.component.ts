@@ -110,8 +110,8 @@ export class GiohangComponent implements OnInit {
         "startDate": Khuyenmai.startDate,
         "endDate": Khuyenmai.endDate,
         "Type": {
-            "Title": "đ",
-            "Value": "giatri"
+            "Title": Khuyenmai.Type.Title,
+            "Value": Khuyenmai.Type.Value
         },
     }
       this._GiohangService.UpdateGiamgia(this.Donhang).then(()=>
