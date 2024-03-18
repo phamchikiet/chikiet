@@ -25,6 +25,7 @@ import { MatButtonModule } from '@angular/material/button';
 import {MatIconModule} from '@angular/material/icon';
 import { SanphamService } from '../../admin/main-admin/sanpham/sanpham.service';
 import { MatSnackBar } from '@angular/material/snack-bar';
+import { SanphamblockComponent } from '../../sanpham/sanphamblock/sanphamblock.component';
 @Component({
   selector: 'app-header',
   standalone: true,
@@ -44,7 +45,8 @@ import { MatSnackBar } from '@angular/material/snack-bar';
     FormsModule,
     MatButtonModule,
     MatIconModule,
-    MatDialogModule
+    MatDialogModule,
+    SanphamblockComponent
   ],
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.css']

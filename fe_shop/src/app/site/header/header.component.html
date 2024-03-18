@@ -197,7 +197,10 @@
                 @if(Timkiems.length>0){
                 <div class="grid lg:grid-cols-4 grid-cols-1 gap-8 justify-between">
                     @for (item of Timkiems; track $index) {
-                    <div class="flex flex-col space-y-2">
+
+                        <app-sanphamblock [Detail]="item"></app-sanphamblock>
+
+                    <!-- <div class="flex flex-col space-y-2">
                         <a href="san-pham/{{item.Slug}}" class="z-10 grid grid-cols-1 border rounded-lg p-3 bg-white">
                             @if(item && item.Image&&item.Image.Main)
                             {
@@ -217,7 +220,7 @@
                         </a>
                         <div class="flex flex-col justify-center">
                             <span class="text-base text-center font-bold line-clamp-1">{{item.Title}}</span>
-                            <!-- <p class="text-gray-400 text-[13px] line-clamp-2" [innerHTML]="item.Mota"></p> -->
+                            <p class="text-gray-400 text-[13px] line-clamp-2" [innerHTML]="item.Mota"></p>
                             <div class="flex flex-row justify-center">
                                 <div class="relative p-4">
                                     <img src="assets/images/pricetag.svg" class="h-8">
@@ -229,7 +232,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     }
 
                 </div>
