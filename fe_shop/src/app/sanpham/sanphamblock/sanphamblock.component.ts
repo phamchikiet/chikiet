@@ -26,6 +26,8 @@ export class SanphamblockComponent implements OnInit {
   ) { }
 
   ngOnInit() {
+    this.Detail.Title = `${this.Detail.Title}
+    `
   }
   AddtoCart(data:any)
   { 
