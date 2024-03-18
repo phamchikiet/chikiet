@@ -6,7 +6,7 @@ import {
   UpdateDateColumn,
   DeleteDateColumn,
 } from 'typeorm';
-@Entity('danhmuc', {orderBy: { CreateAt: 'DESC' } })
+@Entity('danhmuc', {orderBy: { Ordering: 'DESC' } })
 export class DanhmucEntity {
   @PrimaryGeneratedColumn('uuid')
   id: string;
