@@ -77,6 +77,18 @@ export class MuavaoComponent implements OnInit {
     // });
     this.Listfilter = this.ListMuavao.items.map((v:any)=>({idServer:v.id,SHD:v.SHD,Thang:v.Thang,Ngaytao:v.Ngaytao,...v.Dulieu[0]}))  
     console.log(this.Listfilter);  
+    console.log(this.Listfilter.map((v)=>{
+      return {
+          SHD:v.SHD,
+          Thang:v.Thang,
+          Ten:v.nbten,
+          tgtcthue:v.tgtcthue,
+          tgtthue:v.tgtthue,
+          tgtttbso:v.tgtttbso,
+  
+      }
+    }
+    )); 
       this.dataSource = new MatTableDataSource(this.Listfilter);
       this.dataSource.paginator = this.paginator;
       this.dataSource.sort = this.sort;

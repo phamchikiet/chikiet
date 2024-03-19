@@ -8,6 +8,22 @@ export class ShdhhpService {
   private _shdhhps: BehaviorSubject<any[] | null> = new BehaviorSubject<any[] | null>(null);
   private _shdhhp: BehaviorSubject<any | null> = new BehaviorSubject<any | null>(null);
   constructor() {}
+  async getDrive() {
+    try {
+      const options = {
+        method:'GET',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+      };
+    const response = await fetch(`https://sheets.googleapis.com/v4/spreadsheets/1_rGqEzzJ7Fq0pPDwqZwHqYUP-bXN_ozB0cjPhEM_Fwg/values/HoaDon?key=AIzaSyCWh10EgrjVBm8qKpnsGOgXrIsT5uqroMc`,options);
+    const data = await response.json();  
+          //this._sanphams.next(data)                 
+    return data;
+      } catch (error) {
+          return console.error(error);
+      }
+  }
   async getAllShdhhp() {
     try {
       const options = {

@@ -43,15 +43,30 @@
         </mat-date-range-picker-actions>
       </mat-date-range-picker>
     </mat-form-field>
-    <div (click)="writeExcelFile()" class="flex flex-col items-center space-x-2 p-2 hover:bg-gray-200 rounded-lg">
-      <span class="material-symbols-outlined text-xl" matTooltip="Upload File">file_download</span>
-      <span class="text-xs">Download</span>
     </div>
-    <div (click)="uploadfile.click()" class="flex flex-col items-center space-x-2 p-2 hover:bg-gray-200 rounded-lg">
-      <span class="material-symbols-outlined text-xl" matTooltip="Upload File">file_upload</span>
-      <span class="text-xs">Upload</span>
-      <input class="hidden" (change)="readExcelFile($event)" type="file" #uploadfile>
+    <div class="flex flex-row space-x-2">
+      <div (click)="writeExcelFile()" class="flex flex-col items-center space-x-2 p-2 hover:bg-gray-200 rounded-lg">
+        <span class="material-symbols-outlined text-xl" matTooltip="Upload File">file_download</span>
+        <span class="text-xs">Download</span>
+      </div>
+      <div (click)="uploadfile.click()" class="flex flex-col items-center space-x-2 p-2 hover:bg-gray-200 rounded-lg">
+        <span class="material-symbols-outlined text-xl" matTooltip="Upload File">file_upload</span>
+        <span class="text-xs">Upload</span>
+        <input class="hidden" (change)="readExcelFile($event)" type="file" #uploadfile>
+      </div>
+      <div (click)="LoadDrive()"
+      class="flex flex-col items-center p-2 text-center justify-center hover:bg-gray-200 rounded-lg">
+      <span class="material-symbols-outlined text-xl" matTooltip="Drive">cloud_download</span>
+      <span class="text-xs">Drive ({{ListHD.length||0}})</span>              
     </div>
+    @if(ListHD.length>0)
+    {
+      <div (click)="SyncDrive()"
+      class="flex flex-col items-center p-2 text-center justify-center hover:bg-gray-200 rounded-lg">
+      <span class="material-symbols-outlined text-xl" matTooltip="Drive">cloud_sync</span>
+      <span class="text-xs">Sync ({{ListSP.items.length||0}}/{{ListHD.length||0}})</span>
+    </div>
+    }
     </div>
   <div class="border">
     <table mat-table [dataSource]="dataSource" matSort>

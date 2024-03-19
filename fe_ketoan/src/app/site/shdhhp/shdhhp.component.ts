@@ -16,7 +16,7 @@ import { MatSelectChange, MatSelectModule } from '@angular/material/select';
 @Component({
   selector: 'app-shdhhp',
   standalone: true,
-  imports:[
+  imports: [
     MatButtonModule,
     MatPaginatorModule,
     MatInputModule,
@@ -35,15 +35,16 @@ export class ShdhhpComponent implements OnInit {
   SearchParams: any = {
     // Batdau:moment("2023-01-01").startOf('day').toDate(),
     // Ketthuc: moment("2023-01-31").endOf('day').toDate(),
-    Thang:1,
-    Type:"XUAT",
-    pageSize:1000,
-    pageNumber:0
+    Thang: 1,
+    Type: "XUAT",
+    pageSize: 1000,
+    pageNumber: 0
   };
-  ListSP: any={}
+  ListHD: any = []
+  ListSP: any = {}
   constructor() { }
   _ShdhhpService: ShdhhpService = inject(ShdhhpService);
-  displayedColumns: string[] = ['SHD', 'Thang','Nam', 'Type'];
+  displayedColumns: string[] = ['SHD', 'Thang', 'Nam', 'Type'];
   dataSource!: MatTableDataSource<any>;
   @ViewChild(MatPaginator) paginator!: MatPaginator;
   @ViewChild(MatSort) sort!: MatSort;
@@ -54,29 +55,50 @@ export class ShdhhpComponent implements OnInit {
       this.dataSource.paginator.firstPage();
     }
   }
-  async onPageChange(event:any)
-  {
-    this.SearchParams.pageSize=event.pageSize
-    this.SearchParams.pageNumber=event.pageIndex
+  async onPageChange(event: any) {
+    this.SearchParams.pageSize = event.pageSize
+    this.SearchParams.pageNumber = event.pageIndex
     this.ListSP = await this._ShdhhpService.SearchShdhhp(this.SearchParams)
     this.dataSource = new MatTableDataSource(this.ListSP?.items);
     this.dataSource.paginator = this.paginator;
     this.dataSource.sort = this.sort;
   }
-  async onChangeLoai(event:MatSelectChange)
-  {
-    this.SearchParams.Type=event.value
+  async onChangeLoai(event: MatSelectChange) {
+    this.SearchParams.Type = event.value
     this.ListSP = await this._ShdhhpService.SearchShdhhp(this.SearchParams)
     this.dataSource = new MatTableDataSource(this.ListSP?.items);
     this.dataSource.paginator = this.paginator;
     this.dataSource.sort = this.sort;
   }
   async ngOnInit() {
+    const Drive = await this._ShdhhpService.getDrive()
+    console.log(Drive);
+
     this.ListSP = await this._ShdhhpService.SearchShdhhp(this.SearchParams)
     this.dataSource = new MatTableDataSource(this.ListSP?.items);
     this.dataSource.paginator = this.paginator;
     this.dataSource.sort = this.sort;
-    console.log(this.ListSP);       
+    console.log(this.ListSP);
+  }
+  async LoadDrive() {
+    const data = await this._ShdhhpService.getDrive();
+    this.ListHD = data.values.slice(1).map((row: any) => {
+      return {
+        SHD: row[0],
+        Thang: row[1],
+        Nam: row[2],
+        Type: row[3],
+      };
+    });
+    this.ListHD = this.ListHD.filter((v:any)=>v.Type==this.SearchParams.Type)
+    console.log(this.ListHD);
+  }
+  async SyncDrive() {
+    this.ListHD.forEach((v: any, k: any) => {
+      setTimeout(() => {
+        this._ShdhhpService.CreateShdhhp(v)
+      }, Math.random() * 1000 + 100 * k);
+    });
   }
   UpdateShdhhp() {
     console.log(this.ListSP);
@@ -85,11 +107,10 @@ export class ShdhhpComponent implements OnInit {
       this._ShdhhpService.UpdateShdhhp(v)
     });
   }
-  async ChoosenDate()
-  {
-    this.SearchParams.Batdau=moment(this.SearchParams.Batdau).startOf('day').toDate(),
-    this.SearchParams.Ketthuc= moment(this.SearchParams.Ketthuc).endOf('day').toDate(),
-    this.ListSP = await this._ShdhhpService.SearchShdhhp(this.SearchParams)
+  async ChoosenDate() {
+    this.SearchParams.Batdau = moment(this.SearchParams.Batdau).startOf('day').toDate(),
+      this.SearchParams.Ketthuc = moment(this.SearchParams.Ketthuc).endOf('day').toDate(),
+      this.ListSP = await this._ShdhhpService.SearchShdhhp(this.SearchParams)
     this.dataSource = new MatTableDataSource(this.ListSP.items);
     this.dataSource.paginator = this.paginator;
     this.dataSource.sort = this.sort;
@@ -104,10 +125,10 @@ export class ShdhhpComponent implements OnInit {
       const worksheet = workbook.Sheets[sheetName];
       const jsonData = XLSX.utils.sheet_to_json(worksheet, { raw: true });
       console.log(jsonData);
-      jsonData.forEach((v:any,k:any) => {
+      jsonData.forEach((v: any, k: any) => {
         setTimeout(() => {
           this._ShdhhpService.CreateShdhhp(v)
-        }, Math.random()*1000 + 100*k);
+        }, Math.random() * 1000 + 100 * k);
       });
     };
     fileReader.readAsArrayBuffer(file);

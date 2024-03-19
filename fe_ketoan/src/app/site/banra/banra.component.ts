@@ -77,6 +77,17 @@ export class BanraComponent implements OnInit {
       const result = this.HoadonHHP.items.some((v1:any)=>v1.SHD===v.SHD)
       console.log(result);
     }); 
+    console.log(this.Listfilter.map((v)=>{
+      return {
+          SHD:v.SHD,
+          Thang:v.Thang,
+          Ten:v.nbten,
+          tgtcthue:v.tgtcthue,
+          tgtthue:v.tgtthue,
+          tgtttbso:v.tgtttbso,
+  
+      }
+    }))
       this.dataSource = new MatTableDataSource(this.Listfilter);
       this.dataSource.paginator = this.paginator;
       this.dataSource.sort = this.sort;
