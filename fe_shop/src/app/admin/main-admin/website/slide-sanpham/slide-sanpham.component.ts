@@ -29,6 +29,7 @@ export class SlideSanphamComponent implements OnInit {
   @Input() Soluong=8;
   @Input() Filter='';
   @Input() id_cat=0;
+  @Input() Slug='';
   @Input() Type='NGANG';
   _SanphamService:SanphamService = inject(SanphamService)
   _GiohangService: GiohangService = inject(GiohangService);
@@ -48,11 +49,15 @@ export class SlideSanphamComponent implements OnInit {
    {
     this.Lists = await this._SanphamService.SearchSanpham(this.SearchParams)
     this.FilterLists = this.SanphamColumn(this.Lists.items,4)
+    console.log(this.FilterLists);
+    
    }
    else 
    {
     this.Lists = await this._SanphamService.SearchSanpham(this.SearchParams)
     this.FilterLists = this.SanphamColumn(this.Lists.items,this.Sohang).slice(0,8)  
+    console.log(this.FilterLists);
+    
    }
   
   }
