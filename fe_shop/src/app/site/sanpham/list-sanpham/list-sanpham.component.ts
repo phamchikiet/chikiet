@@ -17,6 +17,7 @@ import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSelectModule } from '@angular/material/select';
 import {MatChipsModule} from '@angular/material/chips';
 import { SanphamblockComponent } from 'fe_shop/src/app/sanpham/sanphamblock/sanphamblock.component';
+import { SlideSanphamComponent } from 'fe_shop/src/app/admin/main-admin/website/slide-sanpham/slide-sanpham.component';
 @Component({
   selector: 'app-list-sanpham',
   standalone:true,
@@ -30,7 +31,8 @@ import { SanphamblockComponent } from 'fe_shop/src/app/sanpham/sanphamblock/sanp
     MatPaginatorModule,
     MatSelectModule,
     MatChipsModule,
-    SanphamblockComponent
+    SanphamblockComponent,
+    SlideSanphamComponent
   ],
   templateUrl: './list-sanpham.component.html',
   styleUrls: ['./list-sanpham.component.css']
