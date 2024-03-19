@@ -3,8 +3,10 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "start": "nx serve",
-    "build": "nx build",
+    "ng": "nx",
+    "start": "node dist/main.js",
+    "build": "nx build beketoan",
+    "dev": "nx run beketoan:serve",
     "test": "nx test"
   },
   "private": true,

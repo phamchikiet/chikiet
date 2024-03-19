@@ -56,6 +56,7 @@ export class HoadonhhpService {
     };
   }
   async findQuery(params: any) {
+    console.log(params);
     const queryBuilder = this.HoadonhhpRepository.createQueryBuilder('hoadonhhp');
     if (params.Batdau && params.Ketthuc) {
       queryBuilder.andWhere('hoadonhhp.CreateAt BETWEEN :startDate AND :endDate', {
@@ -73,7 +74,7 @@ export class HoadonhhpService {
       queryBuilder.andWhere('hoadonhhp.Nam =:Nam', { Nam: `${params.Nam}` });
     }
     if (params.Type) {
-      queryBuilder.andWhere('hoadonhhp.Type LIKE :Type', { Type: `${params.Type}` });
+      queryBuilder.andWhere('hoadonhhp.Type Like :Type', { Type: `${params.Type}` });
     }
     const [items, totalCount] = await queryBuilder
       .limit(params.pageSize || 10) // Set a default page size if not provided
