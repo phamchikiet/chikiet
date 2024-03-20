@@ -428,7 +428,7 @@ export class GiohangService {
         item.Total = item.SubTotal + item.Vanchuyen.Phivanchuyen - item?.Giamgia
 
         item.SubTotalTT = item.Giohangs.Sanpham.reduce((acc: any, item: any) => acc + item.Giachon.SLTT * item.Giachon.GiaCoSo, 0);
-        item.TotalTT = item.SubTotalTT + item.Vanchuyen.Phivanchuyen  - item.Giamgia 
+        item.TotalTT = (item.SubTotalTT + item.Vanchuyen.Phivanchuyen  - item.Giamgia)||0 
 
         console.log(item.Vanchuyen.Phivanchuyen);
         console.log(item.TotalTT);

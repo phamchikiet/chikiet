@@ -22,6 +22,11 @@
   <div class="flex flex-row items-center">
     <span class="text-[#57A345] font-bold text-base"> {{Detail?.Giagoc[0]?.gia| number:'1.0-0'}}đ</span>
      <span>/{{Detail?.Giagoc[0]?.khoiluong}}{{Detail?.Giagoc[0]?.dvt}}</span>
+     <div (click)="AddtoCart(Detail);$event.preventDefault()"
+     class="absolute bottom-2 right-2 z-20 flex flex-row space-x-2 justify-end Details-end">
+     <span
+       class="z-10 rounded-lg p-2 bg-[#57A345] text-white hover:bg-[#afe8a2]">Mua Ngay</span>
+   </div>
       <!-- <div class="relative p-4">
         //<img src="assets/images/pricetag.svg" class="h-8">
         <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex flex-row">
