@@ -19,6 +19,7 @@ import { ImagetooltipDirective } from '../../shared/imagetooltip/imagetooltip.di
 })
 export class SanphamblockComponent implements OnInit {
   @Input() Detail:any={}
+  @Input() isMuangay:boolean =true
   _SanphamService:SanphamService = inject(SanphamService)
   _GiohangService: GiohangService = inject(GiohangService);
   constructor(

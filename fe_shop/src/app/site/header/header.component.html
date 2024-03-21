@@ -204,10 +204,10 @@
             </div>
             <div class="relative flex flex-col space-y-2 h-full w-full overflow-auto p-3">
                 @if(Timkiems.length>0){
-                <div class="grid lg:grid-cols-4 grid-cols-1 gap-8 justify-between">
+                    <div class="grid lg:grid-cols-4 grid-cols-2 lg:gap-8 gap-4 justify-between">
                     @for (item of Timkiems; track $index) {
 
-                        <app-sanphamblock [Detail]="item"></app-sanphamblock>
+                        <app-sanphamblock [Detail]="item" [isMuangay]="false"></app-sanphamblock>
 
                     <!-- <div class="flex flex-col space-y-2">
                         <a href="san-pham/{{item.Slug}}" class="z-10 grid grid-cols-1 border rounded-lg p-3 bg-white">
