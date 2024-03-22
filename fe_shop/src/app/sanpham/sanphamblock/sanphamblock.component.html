@@ -24,7 +24,7 @@
       <span>/{{Detail?.Giagoc[0]?.khoiluong}}{{Detail?.Giagoc[0]?.dvt}}</span>
     </div>
     @if(isMuangay){
-      <div (click)="AddtoCart(Detail);$event.preventDefault()">
+      <div (click)="AddtoCart(Detail);$event.preventDefault()" class="hidden lg:block">
         <span class="whitespace-nowrap rounded-lg p-2 bg-[#57A345] text-white hover:bg-[#afe8a2]">Mua Ngay</span>
       </div>
     }
