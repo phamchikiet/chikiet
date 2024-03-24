@@ -58,8 +58,8 @@ export const ListTrangthailichhen: any[] = [
   ]
 export const ListHinhthucthanhtoan: any[] = [
     {id:"MOMO",Title:"MOMO",  Class:"text-white bg-[#A52167]"},
-    {id:"COD",Title:"COD",    Class:"text-white bg-[#439c30]"},
-    {id:"BANK",Title:"BANK",  Class:"text-white bg-[#ED860A]"},
+    {id:"COD",Title:"Tiền Mặt",    Class:"text-white bg-[#439c30]"},
+    {id:"BANK",Title:"Chuyển Khoản",  Class:"text-white bg-[#ED860A]"},
   ]
 export const ListTrangThaiDonhang: any[] = [
     {id:0,Title:"Đơn Mới",    Class:"text-white bg-[#44C8F5]"},

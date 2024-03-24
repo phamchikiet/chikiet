@@ -58,8 +58,8 @@ export class ForminAdminComponent implements OnInit {
     });
   }  
   public convetToPDF() {
-    const A5WidthInPixels = 1754;
-    const A5HeightInPixels = 2480;
+    const A5WidthInPixels = 559;
+    const A5HeightInPixels = 794;
     const element = this.exportPDF.nativeElement as HTMLElement;
     html2canvas(element, {
       scale: 4, // Adjust scale for higher DPI if needed (optional)
@@ -72,7 +72,7 @@ export class ForminAdminComponent implements OnInit {
         unit: 'px',
         format: [A5WidthInPixels, A5HeightInPixels],
       });
-      pdf.addImage(imgData, 'PNG',0, 0,A5WidthInPixels,A5HeightInPixels);
+      pdf.addImage(imgData, 'PNG',-2, -2,A5WidthInPixels,A5HeightInPixels);
       pdf.save(`${this.Donhang.MaDonHang}_${(new Date()).getTime()}.pdf`);// Adjust filename as needed
     });
     // html2canvas(element).then(canvas => {

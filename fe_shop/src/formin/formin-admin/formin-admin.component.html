@@ -1,5 +1,5 @@
 @if(isShowAction){
-  <div id="nonPrintable" class="flex flex-row justify-end space-x-2 w-[480px] px-4 mx-auto cursor-pointer">
+  <div id="nonPrintable" class="flex flex-row justify-end space-x-2 w-[480px] p-2 mx-auto cursor-pointer">
     <span (click)="convetToPDF()" class="material-symbols-outlined p-2 border rounded-full 
       bg-slate-200 text-blue-500 
       hover:bg-blue-500 hover:text-white">
@@ -22,7 +22,7 @@
   <ng-template #dialogTemplate>
     <div class="w-[70vw] h-[95vh] p-2 flex flex-col items-center justify-center PDFVIEW">
       <div mat-dialog-content>
-        <div class="flex flex-col !w-[480px] !h-[750px] scale-75 space-y-4 lg:p-4">
+        <div class="flex flex-col !w-[559px] !h-[794px] scale-75 space-y-4 lg:p-4">
           <img [src]="LinkImage" class="w-full" alt="" srcset="">
         </div>
         <div class="flex flex-row space-x-2 items-center justify-center">
@@ -33,7 +33,7 @@
   </ng-template>
 
 
-<div #exportPDF #printArea class="p-4 text-xs bg-white rounded-lg w-[640px] h-[960px] mx-auto lg:scale-100 scale-100">
+<div #exportPDF #printArea class="p-4 text-xs bg-white rounded-lg w-[559px] h-[794px] mx-auto lg:scale-[90%] scale-[90%]">
   <div class="h-full flex flex-col divide-y divide-dashed divide-black border-4 border-black">
     <div class="grid grid-cols-3 gap-2 divide-x divide-black">
       <div class="flex flex-col items-center p-2">
@@ -77,11 +77,11 @@
       <div class="h-full py-2 flex flex-col space-y-1 text-[{{Donhang?.Giohangs?.Sanpham<=10?'12px':'8px'}}]">
         @for (item of Donhang?.Giohangs?.Sanpham; track $index) {
         <div class="flex flex-row space-x-2 item-center w-full">
-          <div class="w-4/6 p-2">
+          <div class="w-4/6 px-2">
             {{$index+1}}/{{item.Title}}
           </div>
-          <span class="text-center w-1/6 p-2">{{(item.Giachon.SLTT*1).toFixed(2)| number:'1.2-2'}}{{item.Giachon.dvt}}</span>
-          <span class="text-right w-1/6 p-2">{{((item.Giachon.SLTT*item.Giachon.gia)| number:'1.0-0')||'0'}}đ</span>
+          <span class="text-center w-1/6 px-2">{{(item.Giachon.SLTT*1).toFixed(2)| number:'1.2-2'}}{{item.Giachon.dvt}}</span>
+          <span class="text-right w-1/6 px-2">{{((item.Giachon.SLTT*item.Giachon.gia)| number:'1.0-0')||'0'}}đ</span>
         </div>
         }
       </div>
