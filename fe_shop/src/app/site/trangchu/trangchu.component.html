@@ -1,6 +1,7 @@
 <app-banner></app-banner>
-<div class="flex flex-col container">
-  <!-- <section class="lg:hidden grid grid-cols-1 relative py-8">
+<div class="bg-[#EAEAEA]">
+  <div class="flex flex-col container space-y-8">
+    <!-- <section class="lg:hidden grid grid-cols-1 relative py-8">
     <div class="flex flex-col space-y-3 w-full col-span-4">
       <div class="swiper mySwiper">
         <div class="swiper-wrapper pb-16">
@@ -23,55 +24,50 @@
       </div>
     </div>
   </section> -->
-  <section class="grid lg:grid-cols-4 grid-cols-2 gap-4 relative py-8">
-    <div class="grid lg:grid-cols-3 grid-cols-1 gap-2 items-center justify-center">
-      <img src="https://timona.di4lsell.com/uploads/322/24/01/1704690573.webp" class="w-14 h-14 mx-auto">
-      <div class="lg:col-span-2 flex flex-col space-y-3 items-center justify-center text-center">
-        <div class="text-base font-bold">NGUỒN GỐC RÕ RÀNG</div>
-        <div>100% An Toàn</div>
+    <section class="grid lg:grid-cols-4 grid-cols-2 gap-4 relative mt-8 py-8 bg-white rounded-lg">
+      <div class="grid lg:grid-cols-3 grid-cols-1 gap-2 items-center justify-center">
+        <img src="https://timona.di4lsell.com/uploads/322/24/01/1704690573.webp" class="w-14 h-14 mx-auto">
+        <div class="lg:col-span-2 flex flex-col space-y-3 items-center justify-center text-center">
+          <div class="text-base font-bold">NGUỒN GỐC RÕ RÀNG</div>
+          <div>100% An Toàn</div>
+        </div>
       </div>
-    </div>
-    <div class="grid lg:grid-cols-3 grid-cols-1 gap-2 items-center justify-center">
-      <img src="https://timona.di4lsell.com/uploads/322/22/05/1652517008.png" class="w-14 h-14 mx-auto">
-      <div class="lg:col-span-2 flex flex-col space-y-3 items-center justify-center text-center">
-        <div class="text-base font-bold">ĐỔI TRẢ MIỄN PHÍ</div>
-        <div>Bất kỳ lý do gì</div>
+      <div class="grid lg:grid-cols-3 grid-cols-1 gap-2 items-center justify-center">
+        <img src="https://timona.di4lsell.com/uploads/322/22/05/1652517008.png" class="w-14 h-14 mx-auto">
+        <div class="lg:col-span-2 flex flex-col space-y-3 items-center justify-center text-center">
+          <div class="text-base font-bold">ĐỔI TRẢ MIỄN PHÍ</div>
+          <div>Bất kỳ lý do gì</div>
+        </div>
       </div>
-    </div>
-    <div class="grid lg:grid-cols-3 grid-cols-1 gap-2 items-center justify-center">
-      <img src="https://timona.di4lsell.com/uploads/322/22/05/1652516990.png" class="w-14 h-14 mx-auto">
-      <div class="lg:col-span-2 flex flex-col space-y-3 items-center justify-center text-center">
-        <div class="text-base font-bold">MIỄN PHÍ SHIP</div>
-        <div>Với đơn hàng trên 500k</div>
+      <div class="grid lg:grid-cols-3 grid-cols-1 gap-2 items-center justify-center">
+        <img src="https://timona.di4lsell.com/uploads/322/22/05/1652516990.png" class="w-14 h-14 mx-auto">
+        <div class="lg:col-span-2 flex flex-col space-y-3 items-center justify-center text-center">
+          <div class="text-base font-bold">MIỄN PHÍ SHIP</div>
+          <div>Với đơn hàng trên 500k</div>
+        </div>
       </div>
-    </div>
-    <div class="grid lg:grid-cols-3 grid-cols-1 gap-2 items-center justify-center">
-      <img src="https://timona.di4lsell.com/uploads/322/22/05/1652517045.png" class="w-14 h-14 mx-auto">
-      <div class="lg:col-span-2 flex flex-col space-y-3 items-center justify-center text-center">
-        <div class="text-base font-bold">HỖ TRỢ 24/7</div>
-        <div>Liên hệ ngay</div>
+      <div class="grid lg:grid-cols-3 grid-cols-1 gap-2 items-center justify-center">
+        <img src="https://timona.di4lsell.com/uploads/322/22/05/1652517045.png" class="w-14 h-14 mx-auto">
+        <div class="lg:col-span-2 flex flex-col space-y-3 items-center justify-center text-center">
+          <div class="text-base font-bold">HỖ TRỢ 24/7</div>
+          <div>Liên hệ ngay</div>
+        </div>
       </div>
-    </div>
-  </section>
-  @for (item of Danhmucs; track $index) {
+    </section>
+    @for (item of Danhmucs; track $index) {
     <app-slide-sanpham [id_cat]="item.id_cat" [Slug]="item.Slug" [Title]="item.Title"></app-slide-sanpham>
-  }
-  <!-- <app-slide-sanpham Filter="Moi" Title="Các Loại Củ"></app-slide-sanpham>
+    }
+    <!-- <app-slide-sanpham Filter="Moi" Title="Các Loại Củ"></app-slide-sanpham>
   <app-slide-sanpham Filter="Moi" Title="Các Loại Quả"></app-slide-sanpham>
   <app-slide-sanpham Filter="Moi" Title="Rau Lấy Bông"></app-slide-sanpham>
   <app-slide-sanpham Filter="Moi" Title="GIÁ RẺ MỖI NGÀY"></app-slide-sanpham>
   <app-slide-sanpham Filter="Moi" Title="GIÁ RẺ MỖI NGÀY"></app-slide-sanpham>
   <app-slide-sanpham Filter="Banchay" Title="SẢN PHẨM BÁN CHẠY"></app-slide-sanpham>
   <app-slide-sanpham Filter="Noibat" Title="GỢI Ý TỪ TRẦN GIA"></app-slide-sanpham> -->
-  <section class="grid lg:grid-cols-3 grid-cols-1 gap-3 relative py-8">
-    <img src="/assets/images/banner11.png">
-    <img src="/assets/images/banner12.png">
-    <img src="/assets/images/banner13.png">
-  </section>
-  <section class="grid lg:grid-cols-2 grid-cols-2 relative py-8">
-    <div class="flex flex-col">
-
-    </div>
-    <img src="" alt="">
-  </section>
+    <section class="grid lg:grid-cols-3 grid-cols-1 gap-3 relative py-8">
+      <img src="/assets/images/banner11.png">
+      <img src="/assets/images/banner12.png">
+      <img src="/assets/images/banner13.png">
+    </section>
+  </div>
 </div>
