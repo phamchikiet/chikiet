@@ -65,6 +65,7 @@ export class ThanhtoanComponent implements OnInit {
     this._GiohangService.getDonhang()
     this._GiohangService.donhang$.subscribe((data: any) => {
       this.Donhang = data
+      this.Donhang.Thanhtoan.Hinhthuc ='BANK'
       this.Donhang.Total = data.SubTotal + Number(data.Vanchuyen.Phivanchuyen||0) - Number(data.Giamgia||0) + this.GetTotal(data.Giohangs, 'Thue', '')||0 
     })
     this._CauhinhService.getCauhinhBySlug('cau-hinh-email')
