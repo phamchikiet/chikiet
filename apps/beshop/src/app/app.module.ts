@@ -54,7 +54,7 @@ import { CauhinhModule } from './cauhinh/cauhinh.module';
      UsersModule,
      UploadModule,
      LienheModule,
-     ChuongtrinhkhuyenmaiModule,
+    ChuongtrinhkhuyenmaiModule,
      NhapkhoModule,
      TonkhoModule,
      EmailModule,

@@ -64,9 +64,9 @@ export class UploadService {
   }
   async uploadlocal(item: any) {
     try {
-      const host = 'https://images.chikiet.com/'
+      const host = 'https://images.rausachtrangia.com/'
       const absolutePath = item.path;
-      const rootPath = '/home/jtnkwfpz/public_html/shop/images';   
+      const rootPath = '/home/zbhykhog/public_html/shop/images';   
      // const rootPath = '';   
       const relativePath = path.relative(rootPath, absolutePath);
       console.log(rootPath);

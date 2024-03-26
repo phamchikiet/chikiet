@@ -5,7 +5,7 @@
   "scripts": {
     "ng": "nx",
     "start": "node dist/main.js",
-    "build": "nx build beshop",
+    "build": "nx build beshop --prod",
     "dev": "nx run beshop:serve",
     "test": "nx test"
   },
