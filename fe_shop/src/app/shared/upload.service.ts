@@ -43,7 +43,7 @@ export class UploadService {
       const month = String(currentDate.getMonth() + 1).padStart(2, '0');
       const year = currentDate.getFullYear();
       const formattedDate = `${day}_${month}_${year}`;
-      const response = await fetch(environment.APIURL + `/upload/local?folder=${environment.pathServer}/${formattedDate}`, {
+      const response = await fetch(environment.APIURL + `/upload/local?folder=${formattedDate}`, {
         method: 'POST',
         body: formData
        }) 
