@@ -19,18 +19,18 @@ import { XuatnhaptonModule } from './xuatnhapton/xuatnhapton.module';
 import { TonkhoModule } from './tonkho/tonkho.module';
 @Module({
   imports: [    
-    TypeOrmModule.forRoot({
-    type: 'mysql',
-    host: '103.221.221.14',
-    port: 3306,
-    username: 'jtnkwfpz_chikiet88',
-    password: '@Hikiet1988',
-    database: 'jtnkwfpz_ketoan_honganhphat',
-    entities: [],
-    autoLoadEntities: true,
-    synchronize: true,
-    charset: "utf8mb4",
-  }), 
+  //   TypeOrmModule.forRoot({
+  //   type: 'mysql',
+  //   host: '103.221.221.14',
+  //   port: 3306,
+  //   username: 'jtnkwfpz_chikiet88',
+  //   password: '@Hikiet1988',
+  //   database: 'jtnkwfpz_ketoan_honganhphat',
+  //   entities: [],
+  //   autoLoadEntities: true,
+  //   synchronize: true,
+  //   charset: "utf8mb4",
+  // }), 
 
   //   TypeOrmModule.forRoot({
   //   type: 'mysql',
@@ -46,18 +46,18 @@ import { TonkhoModule } from './tonkho/tonkho.module';
   // }), 
 
   //Huyvu
-  //   TypeOrmModule.forRoot({
-  //   type: 'mysql',
-  //   host: '103.221.221.14',
-  //   port: 3306,
-  //   username: 'jtnkwfpz_chikiet88',
-  //   password: '@Hikiet1988',
-  //   database: 'jtnkwfpz_ketoan_huyvu',
-  //   entities: [],
-  //   autoLoadEntities: true,
-  //   synchronize: true,
-  //   charset: "utf8mb4",
-  // }), 
+    TypeOrmModule.forRoot({
+    type: 'mysql',
+    host: '103.221.221.14',
+    port: 3306,
+    username: 'jtnkwfpz_chikiet88',
+    password: '@Hikiet1988',
+    database: 'jtnkwfpz_ketoan_huyvu',
+    entities: [],
+    autoLoadEntities: true,
+    synchronize: true,
+    charset: "utf8mb4",
+  }), 
   //   TypeOrmModule.forRoot({
   //   type: 'mysql',
   //   host: 'localhost',
