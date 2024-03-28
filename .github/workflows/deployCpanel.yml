@@ -20,9 +20,9 @@ jobs:
 
       - name:  Sync build folder only
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
-        with:
-          server: hf44-22061.azdigihost.com
-          username: chikiet@chikiet.com
-          password: '@Hikiet1988'
-          local-dir: ./dist/apps/beketoan/  # <-- Specify the local "build" folder
-          server-dir: /public_html/ketoan/api/dist/  # Destination on server
+        # with:
+        #   server: hf44-22061.azdigihost.com
+        #   username: chikiet@chikiet.com
+        #   password: '@Hikiet1988'
+        #   local-dir: ./dist/apps/beketoan/  # <-- Specify the local "build" folder
+        #   server-dir: /public_html/ketoan/api/dist/  # Destination on server

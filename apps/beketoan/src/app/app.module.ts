@@ -25,12 +25,25 @@ import { TonkhoModule } from './tonkho/tonkho.module';
     port: 3306,
     username: 'jtnkwfpz_chikiet88',
     password: '@Hikiet1988',
-    database: 'jtnkwfpz_ketoan',
+    database: 'jtnkwfpz_ketoan_honganhphat',
     entities: [],
     autoLoadEntities: true,
     synchronize: true,
     charset: "utf8mb4",
   }), 
+
+  //   TypeOrmModule.forRoot({
+  //   type: 'mysql',
+  //   host: '103.221.221.14',
+  //   port: 3306,
+  //   username: 'jtnkwfpz_chikiet88',
+  //   password: '@Hikiet1988',
+  //   database: 'jtnkwfpz_ketoan',
+  //   entities: [],
+  //   autoLoadEntities: true,
+  //   synchronize: true,
+  //   charset: "utf8mb4",
+  // }), 
 
   //Huyvu
   //   TypeOrmModule.forRoot({
